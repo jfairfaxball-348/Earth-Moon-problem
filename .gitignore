@@ -1,0 +1,9 @@
+# Earth–Moon Problem research programme
+__pycache__/
+*.pyc
+.venv/
+.env
+.lake/
+*.olean
+.DS_Store
+artifacts/tmp/
