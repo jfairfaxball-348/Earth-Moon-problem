@@ -11,3 +11,12 @@ H-D: A universal stronger degeneracy or list-colouring lemma reduces 12. Status 
 H-E: A finite reduction to unavoidable critical cores can convert an exhaustive bounded computation into a universal proof. Status UNPROVED; the reduction proof is the major obligation.
 
 Every candidate route must have precise statement, at least one failure mode, dependency graph and attempts to disprove the critical lemma.
+
+S002 frontier correction: alpha<=2 is externally closed (source-stated).
+All odd-cycle clique substitutions are excluded by the in-repo proof.
+Ordinary Hajós preserves k and its saturated two-Sulanke universal cone
+is non-biplanar. Universal 10-degeneracy is refuted by a certificate.
+Survivors: alpha>=3 non-cycle/partial-join mechanisms, justified
+layer-compatible identifications, non-saturated apex face covers, and a
+criticality-specific 11-colouring/discharging proof. S003 has freedom
+for several substantial attacks and is FUTURE UNEXECUTED.

@@ -19,8 +19,16 @@ for item in REQUIRED:
 state = json.loads((ROOT / "authoritative/STATE.json").read_text())
 sources = json.loads((ROOT / "catalogue/SOURCES.json").read_text())
 claims = json.loads((ROOT / "catalogue/CLAIMS.json").read_text())
-assert state["last_completed_session"] == "S001"
-assert state["recommended_next_session"] == "S002"
+session = state["last_completed_session"]
+assert session.startswith("S") and session[1:].isdigit()
+number = int(session[1:])
+assert state["recommended_next_session"] == f"S{number+1:03d}"
+for name in ("INPUT", "PLAN", "CLOSEOUT"):
+    assert (ROOT / f"sessions/{session}/{name}.md").is_file()
+if number >= 2:
+    for name in ("RESEARCH", "ADVERSARIAL", "PRIOR_ART"):
+        assert (ROOT / f"sessions/{session}/{name}.md").is_file()
+assert state["recommended_next_session"] in (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text()
 assert state["next_session_is_future_unexecuted"] is True
 assert state["phases"][0]["status"] == "PASS_ADMIN_ONLY"
 assert len({s["id"] for s in sources}) == len(sources)
@@ -31,4 +39,4 @@ assert all(c["status"] in {
 } for c in claims)
 source_ids = {s["id"] for s in sources}
 assert all(set(c["sources"]) <= source_ids for c in claims)
-print("S001 scaffold governance checks: PASS (not proof, not hosted CI)")
+print(f"{session} governance checks: PASS (not proof, not hosted CI)")

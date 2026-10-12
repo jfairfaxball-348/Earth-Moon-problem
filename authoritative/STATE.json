@@ -2,14 +2,14 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-12",
-  "last_completed_session": "S001",
-  "recommended_next_session": "S002",
+  "last_completed_session": "S002",
+  "recommended_next_session": "S003",
   "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
-  "headline_status": "OPEN_BASELINE_9_TO_12_NOT_PROGRAMME_PROVED",
+  "headline_status": "OPEN_9_TO_12_BASELINE_RECONSTRUCTED_STRUCTURAL_EXCLUSIONS",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
-    "evidence": "SOURCE_STATED_AND_CLASSICAL_ARGUMENTS"
+    "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
   "candidate_10_11_12": "NONE_CERTIFIED",
   "universal_improved_upper_bound": "NONE_PROVED",
@@ -22,7 +22,7 @@
     {
       "id": 1,
       "name": "Primary-source baseline and genuine proof/counterexample investigation",
-      "status": "NOT_STARTED"
+      "status": "ACTIVE_STRUCTURAL_PROGRESS_NO_HEADLINE_ADVANCE"
     },
     {
       "id": 2,
@@ -55,7 +55,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "INITIAL_INDEX_NON_EXHAUSTIVE_2026_RECENT_PREPRINT_UNVERIFIED",
+  "source_status": "2026_PRIMARY_FRONTIER_INSPECTED_CERTIFICATES_NOT_REPLAYED",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -68,13 +68,27 @@
   "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
   "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
   "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
-  "bootstrap_scaffold_commit": "VERIFY_LIVE_AFTER_AUTHORING",
-  "bootstrap_merge_commit": "VERIFY_LIVE_AFTER_MERGE",
+  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "Directly inspect primary proof and explicit planar-layer witness for K6∨C5.",
-    "Audit source-status and implications of 2026 computational preprint directly.",
-    "Launch serious attack routes for χ₂≥10 or χ₂≤11, with full certificates or proofs.",
-    "Write exact preregistered finite search plans before running any search."
+    "Find an alpha>=3 construction outside blocked odd-cycle clique substitutions.",
+    "Prove layer-compatible chromatic amplification or a non-saturated apex face cover.",
+    "Attack a criticality-specific 11-colour extension beyond false 10-degeneracy.",
+    "Novelty of all-length weighted-cycle corollary and degree witness remains unchecked.",
+    "External 2026 computational claims/certificates not independently replayed.",
+    "Verify S002 actual authored commit/PR/two-parent merge from live remote evidence."
   ],
-  "next_session_is_future_unexecuted": true
+  "next_session_is_future_unexecuted": true,
+  "latest_session_branch": "session/S002-structural-attack",
+  "latest_session_entry_main": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
+  "mathematical_results": [
+    "CLM-0007",
+    "CLM-0009",
+    "CLM-0010",
+    "CLM-0011",
+    "CLM-0012",
+    "CLM-0013",
+    "CLM-0014"
+  ]
 }

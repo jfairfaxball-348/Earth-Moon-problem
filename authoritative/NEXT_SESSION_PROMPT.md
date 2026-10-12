@@ -1,24 +1,100 @@
-# S002 — Launch a serious bid to resolve Ringel's Earth–Moon Problem (FUTURE, UNEXECUTED)
+# S003 — Break past the closed cycle/apex routes and attack a genuine EMP advance (FUTURE, UNEXECUTED)
 
-**STOP.** This is a complete future S002 handoff, not permission to run it as part of S001. ONE NEW explicit owner invocation is required. Execute exactly ONE ambitious *mathematical* S002 in https://github.com/jfairfaxball-348/Earth-Moon-problem. S003 is not authorised. Full headline: determine χ₂, the maximum chromatic number of finite simple graphs whose edges partition into two planar graphs. **9 ≤ χ₂ ≤ 12 is the historical baseline.** Either a certified χ≥10 construction or a valid universal improvement χ≤11 is major progress, while only matched upper/lower or a χ=12 construction resolves EMP completely.
+STOP. This is the complete future S003 handoff, not authority to execute it
+within S002. One NEW explicit owner invocation authorises precisely one
+ambitious mathematics session in jfairfaxball-348/Earth-Moon-problem.
+Pursue several substantial routes and pivot when productive; do not stop
+at one minor bounded lemma. S004 is not authorised. Target: a certified
+chi>=10 biplanar graph or universal chi<=11/10/9 theorem. Matching bounds
+are required to resolve chi_2 exactly. The range is still 9..12.
 
-## Entry integrity and independent evidence
-Independently pin live main SHA and tree; reconcile actual S001 authored commit, sole parent f6ba2901e07e0c1512204f9a76e22210f7ef531c, actual PR, ordinary non-force two-parent merge, postmerge main. These S001 outgoing references are deliberately NOT prefilled in the bootstrap record: fetch LIVE evidence, never fabricate. Inventory all open/recent PRs, duplicate S002 records/branches, workflow files, runs, jobs, status checks, accessible protections/rulesets; absent workflows/checks are NOT CI pass. Read AGENTS, START_HERE, STATE, complete protocol, S001 input/closeout, both source/claim registers and research roadmap. Archive the actual owner instruction and register S002 scope before attempting mathematics.
+## Entry and inherited facts
 
-## Primary-source reconstruction and priority
-Locate and inspect original Boutin–Gethner–Sulanke 2008 DOI 10.1002/jgt.20282 and Gethner–Sulanke 2009 DOI 10.1007/s00373-008-0833-5 to the furthest genuinely accessible proof/figure level; recover the actual E1/E2 representation of K₆∨C₅ (50 edges, 11 vertices) with independent planarity tests if feasible. Examine Gethner's later survey, related lower/upper proofs, and especially the precise 26 August 2026 indexed Patil/Zenodo computational corpus **at the primary record**; confirm full title, version, licence, primary dataset, certified scope, and any reported obstruction to 10. Search current related literature under Earth–Moon, biplanar, thickness two, critical graphs, map-colouring and Empire problem. Assign source access grade HONESTLY; report inaccessible materials, do not invent figure edge lists or theorem statements. No exhaustive novelty claim unless defensible.
+Pin LIVE main SHA/tree and reconcile S002's actual single authored commit,
+sole parent 72d7e97c87a8317b5874450f8cc6c2866125a9be, actual PR and
+ordinary two-parent non-force merge. Obtain outgoing hashes from live
+evidence; no self-referential fabricated SHA. Inventory open/recent PRs,
+competing S003 branches/records, actual workflows/runs/jobs/check-runs/status
+contexts and reachable rulesets/protection. Missing checks are not green;
+403 remains UNKNOWN. Read AGENTS, START_HERE, STATE, protocol, all S002
+records, paired catalogues and three S002 mathematical dossiers. Archive
+owner invocation and register research/campaign scope before computation.
 
-## Route A — breakthrough constructions
-Attack χ≥10 substantively, not merely a small toy enumeration. Generate and mathematically analyse several competing strategies: 9-critical witnesses and layer-permutation constructions, possible thickness-preserving Hajós/Catlin-style operations (prove closure before using!), critical cores with minimum degree 9, joins/substitutions, local embedding switches, saturation and density constraints. Try deriving a constructive theorem or impossibility obstruction. If any candidate survives, specify a canonical graph and explicit edge partition, independent planarity evidence, a proper k-colouring and **independently checkable proof that k−1 colours are impossible** (e.g., proof-producing SAT with an independently checked LRAT trace and CNF mapping). A solver claiming UNSAT alone is not proof; a k-colouring alone provides only χ≤k. If a candidate hits χ=12 and both layers certify, this settles EMP immediately and deserves a full cold audit.
+S002 reconstructed Sulanke's layers and chi=9, proved every biplanar
+odd-cycle clique blow-up is <=9-colourable, and reconstructed the known
+non-biplanarity of the 10-chromatic saturated Hajós cone. The explicit
+42-vertex triangulation union has delta=11 and a proper 7-colouring:
+universal 10-degeneracy is false. A 12-critical biplanar graph must satisfy
+n>=78+11D and have at least 24+2D degree-11 vertices, where
+D=6n-12-m. This is not a finite counterexample reduction.
 
-## Route B — universal 11/10/9 upper bounds
-In parallel, attempt a serious general proof that every two-layer planar graph is 11-, 10- or 9-colourable. Use minimal counterexample/critical graph theory, separate planar embeddings, Euler deficit/face charging, unavoidable low-degree configurations, colouring extension and global layer compatibility. Derive exact inequalities and check all n including exceptional small cases. Do not mistake the known 11-degeneracy (12-colour) proof for progress. For every proposed induction/discharging lemma, produce a plausible adversarial example or isolate the first unproved edge. An explicit new bound is valuable independently of a construction; a finite search with no universal reduction is not sufficient.
+Szeider arXiv:2609.28102 closes alpha<=2 subject to its published
+classical/compiled-check assumptions; source-stated, not replayed here.
+Patil primary DOI 10.5281/zenodo.22103613 confirms the existing cone
+obstruction and reports corpus/small-order claims with residual
+certificate assumptions. Do not relabel inherited exclusions as new.
 
-## Route C — structural mechanisms, not filler
-If A/B stall, investigate whether a rigorous finite reduction, a new critical-graph layer invariant, a thickness-preserving chromatic amplification, or nontrivial discharging obstruction bridges the gap. Prioritise real closure, not sessions of minor lemmas. Allow multiple substantial detours when mathematically productive and record failed premises and genuine negative results. Consider turning a structural theorem into both a construction search prune and an upper-bound lemma.
+## A — genuine chromatic amplification, with freedom to build mechanisms
 
-## Computation / adversarial gates
-Computation is permitted but **must first be pre-registered** under CAM-#### with finite graph order/domain, generators, isomorphism/symmetry completeness, resources, timeout and negative-result limits, exact software versions, commands/hashes and two independent checkers. Use independent planarity validators and correct proof-producing SAT verification. No invented computation, unrecorded black-box certificates, or global theorem from bounded scans. Exact proof must include definitions, dependencies, quantified conclusions, exceptional cases and challenge attempts. Keep lower/upper candidate claims separate. Stop if evidence cannot support the stated strength.
+Attack alpha>=3 graphs outside odd-cycle clique substitutions. Develop at
+least two seriously different mechanisms before selecting the best:
+layer-compatible vertex splitting/identification and palette constraints;
+partial bag joins or critical-core substitutions on a non-cycle base;
+or non-saturated universal-apex constructions with actual two-face covers.
+Try to construct a strong theorem, not merely a toy example. For each
+operation prove biplanarity closure and the chromatic lower bound before
+using it. Ordinary Hajós preserves k; arbitrary identification does not
+preserve thickness. A density-feasible apex has not proved a face cover.
 
-## Completion and non-automatic continuation
-Write sessions/S002/{INPUT,PLAN,RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT}.md (and computation artefacts if actually run). Update state, paired source/claim JSON+MD, research routes, decision/failure/session/phase ledgers, campaign registry and full future S003 handoff; S003 **FUTURE UNEXECUTED**. S002 may legitimately report an unproved headline plus deep mathematical progress, but must be explicit about gaps. One atomic authored branch commit, checked PR, ordinary non-force two-parent merge, independent observed main/merge parents and real CI/status evidence. No S003 execution, Lean, Palomar registration, arXiv/journal submission or external contact absent new owner authorisation.
+The saturated two-Sulanke cone is closed. More sparse Hajós-derived cores
+or different 9-critical cores may be worth attacking, but first compare
+Patil's primary family exclusions and distinguish the proposed construction.
+Do not repeat a named killed candidate without a new mathematical reason.
+If a candidate survives, give canonical V/E1/E2, rotations independently
+checked as spheres, proper k-colouring and hand proof or independently
+checked LRAT/DRAT certificate of non-(k-1)-colourability. An unverified
+solver UNSAT line or a feasible k-colouring is insufficient. A 12-chromatic
+certified example settles EMP and must trigger a full cold audit.
+
+## B — attack 11-colouring through criticality, not stronger degeneracy
+
+Start with an actual minimal 12-critical biplanar obstruction. Exploit
+the large degree-11 set, separate layer rotations, triangle/face slack,
+critical colour extension and compatibility of Kempe chains. Seek an
+unavoidable reducible configuration or a density theorem strong enough
+to contradict m<=6n-12. Work at arbitrary n; include all base cases.
+
+Challenge every purported reduction using the stored delta=11 witness,
+unknown neighbour colourings and chains switching layers. Explain exactly
+why criticality rules out the adversarial pattern, rather than assuming
+planar Jordan separation in the union. Generic sparse-critical theorems
+with k>=33 or sufficiently-large hypotheses cannot be specialized to 12.
+Deficit arithmetic alone permits arbitrarily large n. Allow a substantial
+detour if it exposes a new critical-layer invariant that both routes use.
+
+## C — pursue any real bridge that emerges
+
+Investigate face-cover obstructions for non-saturated cones, boundary
+gadget colour forcing, or a valid finite reduction. Prefer completing a
+strong mechanism to collecting minor lemmas. If every proposal fails,
+record explicit counterexamples and isolate the strongest surviving
+proof obligation. A universal result must have a complete quantified
+proof; a bounded scan has only its registered finite meaning.
+
+## Evidence and completion
+
+Pre-register CAM domains, generators, symmetry completeness, versions,
+commands/hashes, resources and timeout before mathematical computation.
+Use independent planarity/rotation and colouring/lower-bound checkers;
+validate SAT encodings and symmetry reductions along with refutations.
+No invented embedding, proof certificate, source access grade or novelty.
+Perform a fresh adversarial pass; distinguish internal review from a
+genuinely independent external review. Preserve standard theorem dependencies.
+
+Write S003 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT; synchronize
+state, paired sources/claims, route/decision/failure/session/phase/campaign
+ledgers and validation manifest. Prepare complete FUTURE UNEXECUTED S004.
+One atomic authored branch commit, ordinary PR, non-force two-parent
+merge and independently observed main/parents with real CI evidence.
+No S004 execution, Lean, Palomar, manuscript, correspondence, publication,
+arXiv/journal submission or outreach absent separate owner authorisation.

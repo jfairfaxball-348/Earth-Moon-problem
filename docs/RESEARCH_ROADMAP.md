@@ -11,3 +11,12 @@
 **Route D — Certified computation:** reconstruct K₆∨C₅ layer partitions and published 9-critical families first. Only then preregister bounded search, two independent implementations, proof-producing SAT and independent LRAT/DRAT checks. Importing a standard SAT or planarity package without certificates is *exploration*, not a final theorem.
 
 **Decision rule:** follow the route with the strongest real proof frontier; no artificial requirement to write an inconsequential paper. Every 5 sessions audit route quality; every 10 sessions perform a stronger strategic reset. Prior art twice for any result worth releasing.
+
+S002 frontier correction: alpha<=2 is externally closed (source-stated).
+All odd-cycle clique substitutions are excluded by the in-repo proof.
+Ordinary Hajós preserves k and its saturated two-Sulanke universal cone
+is non-biplanar. Universal 10-degeneracy is refuted by a certificate.
+Survivors: alpha>=3 non-cycle/partial-join mechanisms, justified
+layer-compatible identifications, non-saturated apex face covers, and a
+criticality-specific 11-colouring/discharging proof. S003 has freedom
+for several substantial attacks and is FUTURE UNEXECUTED.

@@ -1,0 +1,52 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "networkx": "3.5",
+  "pymupdf": "1.26.6",
+  "commands": [
+    "python tools/extract_sulanke_figure.py /path/to/ThicknessTwo.pdf",
+    "python tools/find_degree11_witness.py",
+    "python tools/check_rotation.py validation/sulanke.json",
+    "python tools/check_rotation.py validation/degree11_witness.json",
+    "python -m unittest discover -s tests -v"
+  ],
+  "artifacts": {
+    "validation/sulanke.json": "c1ca1fcb45bced8cd5cc7ed8e65150772c075379e794bea05cc68ad67d60b9eb",
+    "validation/degree11_witness.json": "fc4c2c582571356d1d26ba71c7fec1490dfd370735a6cd3c346e54e8f3547e3e",
+    "tools/check_rotation.py": "8f56c37329e79cf563a23f8f31fefeeeb4f8c7602f3d0172fe7698368f7ff58b",
+    "tools/find_degree11_witness.py": "2068632a89edbfeed690d670f76f67530135207eb40cf4e17d2edefda147fcde",
+    "tools/extract_sulanke_figure.py": "377598d01d470f7f6c5b4e4effb4dd96ae68a3b85217d65e096729dd504b730e"
+  },
+  "source_pdf_sha256": "34620ae3e069e5ecd11af64a26c581332132f9e502246b72e079e994b5a76d17",
+  "source_url": "https://academics.hamilton.edu/mathematics/dboutin/ThicknessTwo.pdf",
+  "cam0001_result": {
+    "sulanke_layer_edges": [
+      26,
+      24
+    ],
+    "sulanke_faces": [
+      17,
+      15
+    ],
+    "chi": 9,
+    "lower_bound_method": "written join / odd-cycle proof"
+  },
+  "cam0002_result": {
+    "restart": 0,
+    "attempts": 1747,
+    "wall_seconds": 0.04894509300038408,
+    "layer_edges": [
+      120,
+      120
+    ],
+    "layer_faces": [
+      80,
+      80
+    ],
+    "degree_counts": {
+      "11": 24,
+      "12": 18
+    },
+    "chi_upper_bound": 7,
+    "chi_lower_bound": "NOT_CLAIMED"
+  }
+}
