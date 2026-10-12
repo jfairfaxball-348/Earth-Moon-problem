@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+"""Certify chi(B[w]) = 10 for CAM-0004 survivors.
+
+For each survivor: (1) bag-level and vertex-level 9-colouring CNFs
+(tools/blowup_chi_cnf.py) refuted by CaDiCaL with a DRAT proof that drat-trim
+must report 's VERIFIED'; (2) an explicit 10-colouring of the explicit graph
+found by the vertex CNF with K=10 and checked edge by edge here.
+Usage: certify_survivors.py SURVIVORS.json OUTDIR CADICAL DRATTRIM RESULT.json
+"""
+import hashlib
+import json
+import os
+import subprocess
+import sys
+
+sys.path.insert(0, __file__.rsplit("/", 1)[0])
+from blowup_chi_cnf import bag_cnf, vertex_cnf  # noqa: E402
+from blowup_graph import blowup  # noqa: E402
+
+
+def write(path, nv, cls):
+    with open(path, "w") as f:
+        f.write(f"p cnf {nv} {len(cls)}\n" + "".join(" ".join(map(str, c)) + " 0\n" for c in cls))
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()
+
+
+def main(surv, outdir, cad, dt, result):
+    data = json.load(open(surv))["survivors"]
+    os.makedirs(outdir, exist_ok=True)
+    rows = []
+    for s in data:
+        g6, w = s["g6"], s["w"]
+        tag = g6 + "_" + "".join(map(str, w))
+        row = {"g6": g6, "w": w, "N": sum(w)}
+        for mode, fn in (("bag", bag_cnf), ("vertex", vertex_cnf)):
+            nv, cls = fn(g6, w, 9)
+            cnf = f"{outdir}/{tag}_{mode}.cnf"
+            drat = cnf[:-4] + ".drat"
+            row[mode + "_cnf_sha256"] = write(cnf, nv, cls)
+            r = subprocess.run([cad, "-q", "--no-binary", cnf, drat], capture_output=True, text=True)
+            assert r.returncode == 20, (tag, mode, r.returncode)
+            v = subprocess.run([dt, cnf, drat, "-t", "20000"], capture_output=True, text=True)
+            ok = "s VERIFIED" in v.stdout
+            row[mode + "_drat"] = "VERIFIED" if ok else "FAILED"
+            row[mode + "_drat_bytes"] = os.path.getsize(drat)
+            os.remove(drat)
+        nv, cls = vertex_cnf(g6, w, 10)
+        cnf = f"{outdir}/{tag}_vertex10.cnf"
+        write(cnf, nv, cls)
+        r = subprocess.run([cad, "-q", cnf], capture_output=True, text=True)
+        assert r.returncode == 10
+        model = {int(t) for line in r.stdout.splitlines() if line.startswith("v ")
+                 for t in line.split()[1:] if int(t) > 0}
+        n = sum(w)
+        colour = {}
+        for v in range(n):
+            cs = [c for c in range(10) if v * 10 + c + 1 in model]
+            colour[v] = cs[0]
+        edges, _ = blowup(g6, w)
+        assert all(colour[u] != colour[v] for u, v in edges)
+        row["ten_colouring"] = [colour[v] for v in range(n)]
+        rows.append(row)
+        print(tag, row["bag_drat"], row["vertex_drat"], "10-colouring checked")
+    json.dump(rows, open(result, "w"), indent=1)
+
+
+if __name__ == "__main__":
+    main(*sys.argv[1:6])

@@ -20,3 +20,9 @@ Survivors: alpha>=3 non-cycle/partial-join mechanisms, justified
 layer-compatible identifications, non-saturated apex face covers, and a
 criticality-specific 11-colouring/discharging proof. S003 has freedom
 for several substantial attacks and is FUTURE UNEXECUTED.
+
+S003 frontier: blow-ups of <=6-vertex bases closed (CLM-0019). Primary
+construction frontier = 271 alpha>=3 census survivors (all chi=10 where
+certified), blocked only by unknown biplanarity; every one contains an
+induced C5 sub-blow-up. Certified oracle v4 available. Apex lane: 4 corpus
+bases and apex(C5[K3]) undecided. Upper side: double-wheel reducibility.
