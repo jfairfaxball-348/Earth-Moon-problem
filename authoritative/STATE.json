@@ -1,0 +1,80 @@
+{
+  "project": "Earth-Moon-problem",
+  "repository_id": 1415870164,
+  "as_of": "2026-10-12",
+  "last_completed_session": "S001",
+  "recommended_next_session": "S002",
+  "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
+  "headline_status": "OPEN_BASELINE_9_TO_12_NOT_PROGRAMME_PROVED",
+  "confirmed_classical_range": {
+    "lower": 9,
+    "upper": 12,
+    "evidence": "SOURCE_STATED_AND_CLASSICAL_ARGUMENTS"
+  },
+  "candidate_10_11_12": "NONE_CERTIFIED",
+  "universal_improved_upper_bound": "NONE_PROVED",
+  "phases": [
+    {
+      "id": 0,
+      "name": "Bootstrap and governance",
+      "status": "PASS_ADMIN_ONLY"
+    },
+    {
+      "id": 1,
+      "name": "Primary-source baseline and genuine proof/counterexample investigation",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 2,
+      "name": "First result-specific novelty audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 3,
+      "name": "Lean formalisation and verification",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 4,
+      "name": "Final comprehensive novelty/correctness audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 5,
+      "name": "Palomar registration",
+      "status": "OWNER_GATED"
+    },
+    {
+      "id": 6,
+      "name": "Paper and reproduction package",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 7,
+      "name": "arXiv and journal submission",
+      "status": "OWNER_GATED"
+    }
+  ],
+  "source_status": "INITIAL_INDEX_NON_EXHAUSTIVE_2026_RECENT_PREPRINT_UNVERIFIED",
+  "lean": {
+    "status": "NOT_STARTED"
+  },
+  "palomar": {
+    "status": "NOT_REGISTERED"
+  },
+  "arxiv": {
+    "status": "NOT_SUBMITTED"
+  },
+  "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
+  "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
+  "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
+  "bootstrap_scaffold_commit": "VERIFY_LIVE_AFTER_AUTHORING",
+  "bootstrap_merge_commit": "VERIFY_LIVE_AFTER_MERGE",
+  "open_obligations": [
+    "Directly inspect primary proof and explicit planar-layer witness for K6∨C5.",
+    "Audit source-status and implications of 2026 computational preprint directly.",
+    "Launch serious attack routes for χ₂≥10 or χ₂≤11, with full certificates or proofs.",
+    "Write exact preregistered finite search plans before running any search."
+  ],
+  "next_session_is_future_unexecuted": true
+}

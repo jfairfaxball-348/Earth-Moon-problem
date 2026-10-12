@@ -1,0 +1,74 @@
+[
+  {
+    "id": "SRC-0001",
+    "title": "Färbungsprobleme auf Flachen und Graphen",
+    "authors": "Gerhard Ringel",
+    "year": 1959,
+    "url": null,
+    "access": "SECONDARY_ONLY",
+    "note": "Original book not directly inspected; problem attribution via MathWorld/Open Problem Garden."
+  },
+  {
+    "id": "SRC-0002",
+    "title": "Thickness-two graphs part one: New nine-critical graphs, permuted layer graphs, and Catlin's graphs",
+    "authors": "Boutin, Gethner, Sulanke",
+    "year": 2008,
+    "url": "https://doi.org/10.1002/jgt.20282",
+    "access": "ABSTRACT_INSPECTED",
+    "note": "Publisher abstract read; 40 examples; no proof/figures inspected."
+  },
+  {
+    "id": "SRC-0003",
+    "title": "Thickness-Two Graphs Part Two",
+    "authors": "Gethner and Sulanke",
+    "year": 2009,
+    "url": "https://doi.org/10.1007/s00373-008-0833-5",
+    "access": "ABSTRACT_INSPECTED",
+    "note": "Publisher abstract inspected, proof inaccessible."
+  },
+  {
+    "id": "SRC-0004",
+    "title": "The Earth–Moon Problem",
+    "authors": "Epoch AI",
+    "year": 2026,
+    "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Exact 10-chromatic construction benchmark reviewed; secondary mathematical status."
+  },
+  {
+    "id": "SRC-0005",
+    "title": "Earth-Moon Problem",
+    "authors": "Open Problem Garden",
+    "year": 2013,
+    "url": "https://www.openproblemgarden.org/op/earth_moon_problem",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Survey formulation and historical bibliography; secondary."
+  },
+  {
+    "id": "SRC-0006",
+    "title": "Earth-Moon Problem",
+    "authors": "Wolfram MathWorld",
+    "year": 2026,
+    "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
+    "access": "SECONDARY_ONLY",
+    "note": "Summary only; historical 9–12 status."
+  },
+  {
+    "id": "SRC-0007",
+    "title": "The Earth–Moon problem: a certified corpus of nine-critical biplanar graphs...",
+    "authors": "Digvijay Patil (attributed)",
+    "year": 2026,
+    "url": "https://globalresearchspace.com/space?star=W7204280229",
+    "access": "SECONDARY_ONLY",
+    "note": "Aggregator shows 26 Aug 2026 Zenodo preprint abstract; original record/data NOT inspected. Priority flag."
+  },
+  {
+    "id": "SRC-0008",
+    "title": "Map Colour Theorems",
+    "authors": "P. J. Heawood",
+    "year": 1890,
+    "url": null,
+    "access": "SECONDARY_ONLY",
+    "note": "Classical 12-upper-bound attribution via Open Problem Garden."
+  }
+]

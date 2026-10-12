@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CLM-0001",
+    "claim": "EMP asks for the maximum chromatic number of finite simple edge-unions of two planar graphs.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001",
+      "SRC-0004",
+      "SRC-0005"
+    ]
+  },
+  {
+    "id": "CLM-0002",
+    "claim": "Every biplanar graph is 12-colourable via two Euler bounds and degeneracy.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0008"
+    ]
+  },
+  {
+    "id": "CLM-0003",
+    "claim": "Published example K6 join C5 has chromatic number 9 and admits thickness two.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0004",
+      "SRC-0005"
+    ],
+    "note": "Layer partition not yet independently reconstructed."
+  },
+  {
+    "id": "CLM-0004",
+    "claim": "Historical and modern indexed baseline is 9 <= chi_2 <= 12.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0004",
+      "SRC-0005",
+      "SRC-0006"
+    ],
+    "note": "Not an exhaustive claim about all 2026 new publications."
+  },
+  {
+    "id": "CLM-0005",
+    "claim": "Boutin–Gethner–Sulanke report 40 small nine-critical thickness-two graphs.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0002"
+    ]
+  },
+  {
+    "id": "CLM-0006",
+    "claim": "Recent Patil 2026 secondary index describes certified nine-critical corpus and 10-colour search; details must be checked at original Zenodo record.",
+    "status": "INHERITED_UNVERIFIED",
+    "sources": [
+      "SRC-0007"
+    ]
+  }
+]
