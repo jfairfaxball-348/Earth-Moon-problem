@@ -1,6 +1,6 @@
-# Source register after S002
+# Source register after S003
 
-Access is the actual inspected scope; PROOF_INSPECTED never implies independent certificate replay. See JSON notes for exact scopes.
+Access is the actual inspected scope; see JSON notes.
 
 | ID | Source | Access |
 |---|---|---|
@@ -20,3 +20,11 @@ Access is the actual inspected scope; PROOF_INSPECTED never implies independent 
 | SRC-0014 | [A short proof of the non-biplanarity of K9](https://cglab.ca/~biniaz/papers/Non-biplanar-K9.pdf) | PROOF_INSPECTED |
 | SRC-0015 | [On the density of critical graphs with no large cliques](https://arxiv.org/abs/1911.02661) | ABSTRACT_INSPECTED |
 | SRC-0016 | [To the Moon and Beyond](https://www.researchgate.net/publication/328519850_To_the_Moon_and_Beyond_Favorite_Conjectures_and_Open_Problems_-_2) | STATEMENT_INSPECTED |
+| SRC-0017 | [earth-moon-biplanar (repository: paper/earthmoon.md, data/graphs/pool)](https://github.com/Volkopat/earth-moon-biplanar) | STATEMENT_INSPECTED |
+| SRC-0018 | [Small Biplanar Graphs Are 9-Colorable: The Earth–Moon Problem up to 16 Vertices](https://doi.org/10.5281/zenodo.21824308) | ABSTRACT_INSPECTED |
+| SRC-0019 | [Planar graphs and poset dimension](https://doi.org/10.1007/BF00353652) | SECONDARY_ONLY |
+| SRC-0020 | [A Brooks-type result for sparse critical graphs](https://arxiv.org/abs/1408.0846) | ABSTRACT_INSPECTED |
+| SRC-0021 | [earth-moon-chi10 (candidates and obstructions for a 10-chromatic biplanar graph)](https://github.com/Volkopat/earth-moon-chi10) | METADATA_ONLY |
+| SRC-0022 | [Utilizing graph thickness heuristics on the Earth-moon problem](https://scholar.rose-hulman.edu/rhumj/vol24/iss2/5) | ABSTRACT_INSPECTED |
+| SRC-0023 | Exploring the earth-moon problem for doubly outerplanar graphs | METADATA_ONLY |
+| SRC-0024 | [DRAT-trim: Efficient Checking and Trimming Using Expressive Clausal Proofs](https://doi.org/10.1007/978-3-319-09284-3_31) | METADATA_ONLY |

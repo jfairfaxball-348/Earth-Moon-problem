@@ -11,3 +11,8 @@
 - D008: Source-state Szeider and Patil computational results with their actual trust bases. Reconstruct simple exclusions independently; no external Lean/certificate replay.
 - D009: Attack alpha>=3 mechanisms and non-saturated amplification; the saturated Hajós cone is known and closed.
 - D010: n>=78+11D does not bound counterexample order above; a criticality-specific colouring proof remains necessary.
+
+- D011 (S003): Do not repeat Gallai small-order work (SRC-0017/0018 own it); record S002 CLM-0011 as superseded by SRC-0017 Obs 7.1.1.
+- D012: Adopt the Kuratowski-lemma CEGAR oracle (v4) as the programme's certified non-biplanarity tool: no theory axioms, every lemma re-checked, DRAT-checked refutation. Schnyder encodings kept only as fast SAT finders.
+- D013: Treat the 271 alpha>=3 census survivors (validation/S003/survivors_alpha_ge3.json) as the primary construction frontier; decide C5 sub-blow-up patterns first because every survivor contains one.
+- D014: Owner requested early closeout; unfinished runs are reported UNKNOWN, never negative.

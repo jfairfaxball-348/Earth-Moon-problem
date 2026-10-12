@@ -1,0 +1,15 @@
+{
+ "stats": {
+  "bases": 1,
+  "twin_skipped": 0,
+  "F1": 0,
+  "F2": 0,
+  "LOWDEG": 8,
+  "F3": 0,
+  "COL": 0,
+  "SURV": 0,
+  "maxN_col": 0,
+  "vectors": 8
+ },
+ "survivors": []
+}

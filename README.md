@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-12): UNSOLVED; S002 structural research complete, bounds still 9..12.**
+**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-12): UNSOLVED; S003 complete (certified biplanarity oracle, blow-up census, new candidate families), bounds still 9..12.**
 
 ## Exact target
 
@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S003 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S004 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -49,3 +49,10 @@ Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and 
 - [Critical-density and upper-bound attack](research/S002_UPPER_BOUND_ATTACK.md): a 12-critical witness must have n>=78+11D; an explicit checked 42-vertex graph disproves universal 10-degeneracy while admitting a 7-colouring.
 
 These are structural progress and verified classical reconstructions, not a solution of EMP or a universal improved bound.
+
+## S003 results
+
+- [Clique blow-up census](research/S003_BLOWUP_CENSUS.md): every biplanar clique blow-up of a graph on <=6 vertices is 9-colourable; 271 alpha>=3 10-chromatic blow-ups of 7-8-vertex bases pass every counting obstruction — biplanarity UNKNOWN (primary construction frontier).
+- [Face covers and facial deficit](research/S003_FACE_DEFICIT.md): apex characterization, codegree budget, rim lemma, outerplanar reductions.
+- [Upper-bound route](research/S003_UPPER_BOUND.md): double-wheel lemma, correction of S002's n>=78 bound (superseded by Patil's n>=89), isolated Kempe obligation.
+- Certified oracle: tools/biplanar_cegar.py + tools/check_cegar_certificate.py (K9 refuted, DRAT-verified).

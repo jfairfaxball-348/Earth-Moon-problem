@@ -1,161 +1,241 @@
 [
-  {
-    "id": "SRC-0001",
-    "title": "Färbungsprobleme auf Flachen und Graphen",
-    "authors": "Gerhard Ringel",
-    "year": 1959,
-    "url": null,
-    "access": "SECONDARY_ONLY",
-    "note": "Original book not directly inspected; problem attribution via MathWorld/Open Problem Garden."
-  },
-  {
-    "id": "SRC-0002",
-    "title": "Thickness-two graphs part one: New nine-critical graphs, permuted layer graphs, and Catlin's graphs",
-    "authors": "Boutin, Gethner, Sulanke",
-    "year": 2008,
-    "url": "https://doi.org/10.1002/jgt.20282",
-    "access": "PROOF_INSPECTED",
-    "note": "Author-hosted 2007 preprint of 2008 work: sections 2, 3.2, 4 and Figure 3 inspected; actual 26/24-edge Sulanke partition independently checked. Not all 40 graphs re-audited.",
-    "accessed": "2026-10-12",
-    "alternate_url": "https://academics.hamilton.edu/mathematics/dboutin/ThicknessTwo.pdf"
-  },
-  {
-    "id": "SRC-0003",
-    "title": "Thickness-Two Graphs Part Two: More New Nine-Critical Graphs, Independence Ratio, Cloned Planar Graphs, and Singly and Doubly Outerplanar Graphs",
-    "authors": "Gethner and Sulanke",
-    "year": 2009,
-    "url": "https://doi.org/10.1007/s00373-008-0833-5",
-    "access": "ABSTRACT_INSPECTED",
-    "note": "Publisher abstract inspected, proof inaccessible."
-  },
-  {
-    "id": "SRC-0004",
-    "title": "The Earth–Moon Problem",
-    "authors": "Epoch AI",
-    "year": 2026,
-    "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Exact 10-chromatic construction benchmark reviewed; secondary mathematical status."
-  },
-  {
-    "id": "SRC-0005",
-    "title": "Earth-Moon Problem",
-    "authors": "Open Problem Garden",
-    "year": 2013,
-    "url": "https://www.openproblemgarden.org/op/earth_moon_problem",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Survey formulation and historical bibliography; secondary."
-  },
-  {
-    "id": "SRC-0006",
-    "title": "Earth-Moon Problem",
-    "authors": "Wolfram MathWorld",
-    "year": 2026,
-    "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
-    "access": "SECONDARY_ONLY",
-    "note": "Summary only; historical 9–12 status."
-  },
-  {
-    "id": "SRC-0007",
-    "title": "The Earth–Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known χ = 10 candidates, and the status of χ₂",
-    "authors": "Digvijay Patil",
-    "year": 2026,
-    "url": "https://doi.org/10.5281/zenodo.22103613",
-    "access": "PROOF_INSPECTED",
-    "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Hajós cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
-    "accessed": "2026-10-12",
-    "publication_date": "2026-08-26",
-    "version": "First indexed version, concept record 22103612 resolves to 22103613",
-    "license": "CC BY 4.0",
-    "dataset": "https://github.com/Volkopat/earth-moon-biplanar (data/graphs/pool/); not independently validated"
-  },
-  {
-    "id": "SRC-0008",
-    "title": "Map Colour Theorems",
-    "authors": "P. J. Heawood",
-    "year": 1890,
-    "url": null,
-    "access": "SECONDARY_ONLY",
-    "note": "Classical 12-upper-bound attribution via Open Problem Garden."
-  },
-  {
-    "id": "SRC-0009",
-    "title": "Biplanar graphs with independence number two are 9-colorable",
-    "authors": "Stefan Szeider",
-    "year": 2026,
-    "url": "https://arxiv.org/html/2609.28102v1",
-    "access": "PROOF_INSPECTED",
-    "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0010",
-    "title": "Biplanar graphs with independence number two are 9-colorable: Lean development, certificates, and reproduction instructions",
-    "authors": "Stefan Szeider",
-    "year": 2026,
-    "url": "https://doi.org/10.5281/zenodo.22913639",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Primary archive description/version/rights inspected, archive not executed. v1; publication 2026-09-23. Copyright 2026 author; no permissive licence asserted.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0011",
-    "title": "Ore’s Conjecture on color-critical graphs is almost true",
-    "authors": "Alexandr Kostochka and Matthew Yancey",
-    "year": 2014,
-    "url": "https://arxiv.org/html/1209.1050v1",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Primary Theorem 3 exact bound inspected; full proof not reconstructed. Published DOI 10.1016/j.jctb.2014.05.002.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0012",
-    "title": "Biplanar clique blow-ups of C5 are 9-colourable",
-    "authors": "Arjun Trivedi",
-    "year": 2026,
-    "url": "https://doi.org/10.5281/zenodo.22074335",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0013",
-    "title": "Structure in sparse k-critical graphs",
-    "authors": "Ronald J. Gould, Victor Larsen and Luke Postle",
-    "year": 2022,
-    "url": "https://www.math.emory.edu/~rg/sparse.pdf",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Theorems 1.2/1.7 and range k>=33 inspected. DOI 10.1016/j.jctb.2022.04.004. Main proof not reconstructed.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0014",
-    "title": "A short proof of the non-biplanarity of K9",
-    "authors": "Ahmad Biniaz",
-    "year": 2022,
-    "url": "https://cglab.ca/~biniaz/papers/Non-biplanar-K9.pdf",
-    "access": "PROOF_INSPECTED",
-    "note": "Author six-page proof inspected; classical non-biplanarity dependency, not programme novelty. Published DOI 10.7155/JGAA.00582.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0015",
-    "title": "On the density of critical graphs with no large cliques",
-    "authors": "Tom Kelly and Luke Postle",
-    "year": 2019,
-    "url": "https://arxiv.org/abs/1911.02661",
-    "access": "ABSTRACT_INSPECTED",
-    "note": "The sufficiently-large-k restriction inspected; cannot specialize to k=12.",
-    "accessed": "2026-10-12"
-  },
-  {
-    "id": "SRC-0016",
-    "title": "To the Moon and Beyond",
-    "authors": "Ellen Gethner",
-    "year": 2018,
-    "url": "https://www.researchgate.net/publication/328519850_To_the_Moon_and_Beyond_Favorite_Conjectures_and_Open_Problems_-_2",
-    "access": "STATEMENT_INSPECTED",
-    "note": "Author-uploaded source and sampled statements; not complete chapter proof audit. DOI 10.1007/978-3-319-97686-0_11.",
-    "accessed": "2026-10-12"
-  }
+ {
+  "id": "SRC-0001",
+  "title": "Färbungsprobleme auf Flachen und Graphen",
+  "authors": "Gerhard Ringel",
+  "year": 1959,
+  "url": null,
+  "access": "SECONDARY_ONLY",
+  "note": "Original book not directly inspected; problem attribution via MathWorld/Open Problem Garden."
+ },
+ {
+  "id": "SRC-0002",
+  "title": "Thickness-two graphs part one: New nine-critical graphs, permuted layer graphs, and Catlin's graphs",
+  "authors": "Boutin, Gethner, Sulanke",
+  "year": 2008,
+  "url": "https://doi.org/10.1002/jgt.20282",
+  "access": "PROOF_INSPECTED",
+  "note": "Author-hosted 2007 preprint of 2008 work: sections 2, 3.2, 4 and Figure 3 inspected; actual 26/24-edge Sulanke partition independently checked. Not all 40 graphs re-audited.",
+  "accessed": "2026-10-12",
+  "alternate_url": "https://academics.hamilton.edu/mathematics/dboutin/ThicknessTwo.pdf"
+ },
+ {
+  "id": "SRC-0003",
+  "title": "Thickness-Two Graphs Part Two: More New Nine-Critical Graphs, Independence Ratio, Cloned Planar Graphs, and Singly and Doubly Outerplanar Graphs",
+  "authors": "Gethner and Sulanke",
+  "year": 2009,
+  "url": "https://doi.org/10.1007/s00373-008-0833-5",
+  "access": "ABSTRACT_INSPECTED",
+  "note": "Publisher abstract inspected, proof inaccessible."
+ },
+ {
+  "id": "SRC-0004",
+  "title": "The Earth–Moon Problem",
+  "authors": "Epoch AI",
+  "year": 2026,
+  "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Exact 10-chromatic construction benchmark reviewed; secondary mathematical status."
+ },
+ {
+  "id": "SRC-0005",
+  "title": "Earth-Moon Problem",
+  "authors": "Open Problem Garden",
+  "year": 2013,
+  "url": "https://www.openproblemgarden.org/op/earth_moon_problem",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Survey formulation and historical bibliography; secondary."
+ },
+ {
+  "id": "SRC-0006",
+  "title": "Earth-Moon Problem",
+  "authors": "Wolfram MathWorld",
+  "year": 2026,
+  "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
+  "access": "SECONDARY_ONLY",
+  "note": "Summary only; historical 9–12 status."
+ },
+ {
+  "id": "SRC-0007",
+  "title": "The Earth–Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known χ = 10 candidates, and the status of χ₂",
+  "authors": "Digvijay Patil",
+  "year": 2026,
+  "url": "https://doi.org/10.5281/zenodo.22103613",
+  "access": "PROOF_INSPECTED",
+  "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Hajós cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
+  "accessed": "2026-10-12",
+  "publication_date": "2026-08-26",
+  "version": "First indexed version, concept record 22103612 resolves to 22103613",
+  "license": "CC BY 4.0",
+  "dataset": "https://github.com/Volkopat/earth-moon-biplanar (data/graphs/pool/); not independently validated"
+ },
+ {
+  "id": "SRC-0008",
+  "title": "Map Colour Theorems",
+  "authors": "P. J. Heawood",
+  "year": 1890,
+  "url": null,
+  "access": "SECONDARY_ONLY",
+  "note": "Classical 12-upper-bound attribution via Open Problem Garden."
+ },
+ {
+  "id": "SRC-0009",
+  "title": "Biplanar graphs with independence number two are 9-colorable",
+  "authors": "Stefan Szeider",
+  "year": 2026,
+  "url": "https://arxiv.org/html/2609.28102v1",
+  "access": "PROOF_INSPECTED",
+  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0010",
+  "title": "Biplanar graphs with independence number two are 9-colorable: Lean development, certificates, and reproduction instructions",
+  "authors": "Stefan Szeider",
+  "year": 2026,
+  "url": "https://doi.org/10.5281/zenodo.22913639",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Primary archive description/version/rights inspected, archive not executed. v1; publication 2026-09-23. Copyright 2026 author; no permissive licence asserted.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0011",
+  "title": "Ore’s Conjecture on color-critical graphs is almost true",
+  "authors": "Alexandr Kostochka and Matthew Yancey",
+  "year": 2014,
+  "url": "https://arxiv.org/html/1209.1050v1",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Primary Theorem 3 exact bound inspected; full proof not reconstructed. Published DOI 10.1016/j.jctb.2014.05.002.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0012",
+  "title": "Biplanar clique blow-ups of C5 are 9-colourable",
+  "authors": "Arjun Trivedi",
+  "year": 2026,
+  "url": "https://doi.org/10.5281/zenodo.22074335",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0013",
+  "title": "Structure in sparse k-critical graphs",
+  "authors": "Ronald J. Gould, Victor Larsen and Luke Postle",
+  "year": 2022,
+  "url": "https://www.math.emory.edu/~rg/sparse.pdf",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Theorems 1.2/1.7 and range k>=33 inspected. DOI 10.1016/j.jctb.2022.04.004. Main proof not reconstructed.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0014",
+  "title": "A short proof of the non-biplanarity of K9",
+  "authors": "Ahmad Biniaz",
+  "year": 2022,
+  "url": "https://cglab.ca/~biniaz/papers/Non-biplanar-K9.pdf",
+  "access": "PROOF_INSPECTED",
+  "note": "Author six-page proof inspected; classical non-biplanarity dependency, not programme novelty. Published DOI 10.7155/JGAA.00582.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0015",
+  "title": "On the density of critical graphs with no large cliques",
+  "authors": "Tom Kelly and Luke Postle",
+  "year": 2019,
+  "url": "https://arxiv.org/abs/1911.02661",
+  "access": "ABSTRACT_INSPECTED",
+  "note": "The sufficiently-large-k restriction inspected; cannot specialize to k=12.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0016",
+  "title": "To the Moon and Beyond",
+  "authors": "Ellen Gethner",
+  "year": 2018,
+  "url": "https://www.researchgate.net/publication/328519850_To_the_Moon_and_Beyond_Favorite_Conjectures_and_Open_Problems_-_2",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Author-uploaded source and sampled statements; not complete chapter proof audit. DOI 10.1007/978-3-319-97686-0_11.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0017",
+  "title": "earth-moon-biplanar (repository: paper/earthmoon.md, data/graphs/pool)",
+  "authors": "Digvijay Patil",
+  "year": 2026,
+  "url": "https://github.com/Volkopat/earth-moon-biplanar",
+  "access": "STATEMENT_INSPECTED",
+  "note": "Commit 5cb2ca9f6d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0018",
+  "title": "Small Biplanar Graphs Are 9-Colorable: The Earth–Moon Problem up to 16 Vertices",
+  "authors": "Alessio Doria",
+  "year": 2026,
+  "url": "https://doi.org/10.5281/zenodo.21824308",
+  "access": "ABSTRACT_INSPECTED",
+  "note": "Zenodo API record (published 2026-08-06, CC BY 4.0) description only; result conditional on Lalonde's census of edge-7-critical graphs on 13 vertices.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0019",
+  "title": "Planar graphs and poset dimension",
+  "authors": "Walter Schnyder",
+  "year": 1989,
+  "url": "https://doi.org/10.1007/BF00353652",
+  "access": "SECONDARY_ONLY",
+  "note": "Order 5 (1989) 323-343; metadata verified; theorem planar iff dimension<=3 used in standard form for CAM-0003 encodings v1-v3 only.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0020",
+  "title": "A Brooks-type result for sparse critical graphs",
+  "authors": "Alexandr Kostochka, Matthew Yancey",
+  "year": 2014,
+  "url": "https://arxiv.org/abs/1408.0846",
+  "access": "ABSTRACT_INSPECTED",
+  "note": "Abstract states the equality characterisation; the y_k-refined bound used by SRC-0017 for n>=89 not inspected.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0021",
+  "title": "earth-moon-chi10 (candidates and obstructions for a 10-chromatic biplanar graph)",
+  "authors": "Digvijay Patil (Volkopat)",
+  "year": 2026,
+  "url": "https://github.com/Volkopat/earth-moon-chi10",
+  "access": "METADATA_ONLY",
+  "note": "Search excerpt only; fetch 404, clone required credentials.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0022",
+  "title": "Utilizing graph thickness heuristics on the Earth-moon problem",
+  "authors": "Robert Weaver",
+  "year": 2023,
+  "url": "https://scholar.rose-hulman.edu/rhumj/vol24/iss2/5",
+  "access": "ABSTRACT_INSPECTED",
+  "note": "Rose-Hulman Undergrad. Math. J. 24(2); abstract and reference list via search excerpt; year inferred from volume, unverified.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0023",
+  "title": "Exploring the earth-moon problem for doubly outerplanar graphs",
+  "authors": "M. Wichman, H. Critchfield",
+  "year": null,
+  "url": "",
+  "access": "METADATA_ONLY",
+  "note": "Known only from SRC-0022 reference list; not located.",
+  "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0024",
+  "title": "DRAT-trim: Efficient Checking and Trimming Using Expressive Clausal Proofs",
+  "authors": "Nathan Wetzler, Marijn J. H. Heule, Warren A. Hunt Jr.",
+  "year": 2014,
+  "url": "https://doi.org/10.1007/978-3-319-09284-3_31",
+  "access": "METADATA_ONLY",
+  "note": "Tool citation; checker used at git 2e3b2dc0.",
+  "accessed": "2026-10-12"
+ }
 ]

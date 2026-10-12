@@ -14,3 +14,9 @@ S001 performed no research. Absence of a found example never proves universal no
 | F008 | Strong generic density theorem applies at k=12 | Primary statements require k>=33/sufficiently large k | New 12-critical proof needed |
 | F009 | Planar Kempe separation applies to union | Chains can switch layers; common embedding unproved | Compatibility lemma open |
 | F010 | Figure3 layers have equal sizes | Initial scratch assertion failed on actual26/24; corrected against source vectors | All50 edges independently checked; no graph repair |
+| F011 | Plain counting (F1-F3, max-cut, max triangle-free, codegree) excludes all chi>=10 clique blow-ups of 7-8-vertex bases | 271 alpha>=3 survivors pass all of them | Biplanarity of survivors UNKNOWN |
+| F012 | Local K9-minus-star / K_a v 3K_b cores kill the FCptO survivors | K9-e, K9-P3, K9-K1,3, J1-J3, K10-C4 all biplanar (checked layers) | Need whole-structure or C5 obstruction |
+| F013 | Schnyder-order CNF certifies non-biplanarity at useful sizes | K9 not refuted in 36 min (v1) / 13 min (v3) | Replaced by v4 CEGAR (K9 in 64 s) |
+| F014 | v4 CEGAR decides 18-vertex C5 blow-ups within 1 h | (2,6,2,6,2), (2,3,5,2,6), (2,5,3,3,5) UNKNOWN at 3600 s | Needs stronger symmetry handling / longer runs |
+| F015 | Facial side-coverage counting proves C5[2,6,2,6,2] non-biplanar by hand | Forces penalty >=4, needs 12 | Open |
+| F016 | Kempe separation at double-wheel degree-11 vertices | 17/24 such vertices in the stored witness have layer-2 chords across the layer-1 link | Two-layer compatibility lemma open |

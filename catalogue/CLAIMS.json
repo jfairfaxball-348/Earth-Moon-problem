@@ -1,128 +1,222 @@
 [
-  {
-    "id": "CLM-0001",
-    "claim": "EMP asks for the maximum chromatic number of finite simple edge-unions of two planar graphs.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0001",
-      "SRC-0004",
-      "SRC-0005"
-    ]
-  },
-  {
-    "id": "CLM-0002",
-    "claim": "Every biplanar graph is 12-colourable via two Euler bounds and degeneracy.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0005",
-      "SRC-0008"
-    ]
-  },
-  {
-    "id": "CLM-0003",
-    "claim": "Published example K6 join C5 has chromatic number 9 and admits thickness two.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0004",
-      "SRC-0005"
-    ],
-    "note": "Published statement retained; independent programme proof is CLM-0007 with validation/sulanke.json."
-  },
-  {
-    "id": "CLM-0004",
-    "claim": "Historical and modern indexed baseline is 9 <= chi_2 <= 12.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0004",
-      "SRC-0005",
-      "SRC-0006"
-    ],
-    "note": "Not an exhaustive claim about all 2026 new publications."
-  },
-  {
-    "id": "CLM-0005",
-    "claim": "Boutin–Gethner–Sulanke report 40 small nine-critical thickness-two graphs.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0002"
-    ]
-  },
-  {
-    "id": "CLM-0006",
-    "claim": "Patil primary deposit reports a 241-graph corpus and candidate/order exclusions; certificate README retains independent lex-leader validation gap.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0007"
-    ],
-    "note": "Primary DOI 10.5281/zenodo.22103613 located and sampled proofs inspected; external machine certificates not replayed."
-  },
-  {
-    "id": "CLM-0007",
-    "claim": "The explicit source-reconstructed K6 join C5 graph is biplanar and has chromatic number 9.",
-    "status": "PROGRAMME_PROVED",
-    "sources": [
-      "SRC-0002"
-    ],
-    "note": "Classical reconstruction: 26/24-edge layers, two planarity validators, written join/odd-cycle lower bound. validation/sulanke.json."
-  },
-  {
-    "id": "CLM-0008",
-    "claim": "Every biplanar graph with independence number at most two is 9-colourable.",
-    "status": "SOURCE_STATED",
-    "sources": [
-      "SRC-0009",
-      "SRC-0010"
-    ],
-    "note": "Published textual proof inspected; not externally replayed or programme-formalized. Classical and compiled-check trust retained."
-  },
-  {
-    "id": "CLM-0009",
-    "claim": "Every biplanar clique blow-up of any odd cycle, allowing nonnegative integer weights, is 9-colourable.",
-    "status": "PROGRAMME_PROVED",
-    "sources": [
-      "SRC-0012",
-      "SRC-0014"
-    ],
-    "note": "Complete elementary proof research/S002_ODD_CYCLE_BLOWUPS.md. C5 overlap known, other overlap possible; novelty unchecked."
-  },
-  {
-    "id": "CLM-0010",
-    "claim": "An explicitly certified 42-vertex biplanar graph has minimum degree 11 (24 degree-11 and 18 degree-12 vertices) and a proper 7-colouring.",
-    "status": "COMPUTED_EXACT",
-    "sources": [],
-    "note": "CAM-0002 certificate validation/degree11_witness.json; disproves universal 10-degeneracy. Exact chromatic number NOT claimed."
-  },
-  {
-    "id": "CLM-0011",
-    "claim": "A 12-critical biplanar graph with deficit D=6n-12-m has n>=78+11D; hence every biplanar graph of order at most 77 is 11-colourable.",
-    "status": "PROGRAMME_PROVED",
-    "sources": [
-      "SRC-0011"
-    ],
-    "note": "Corollary of external Kostochka–Yancey Theorem 3, whose full proof is not rebuilt; no universal improved bound."
-  },
-  {
-    "id": "CLM-0012",
-    "claim": "The universal apex over a Hajós join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
-    "status": "PROGRAMME_PROVED",
-    "sources": [
-      "SRC-0002",
-      "SRC-0007"
-    ],
-    "note": "Known saturated bridge obstruction, reconstructed in research/S002_AMPLIFICATION.md; no originality claim."
-  },
-  {
-    "id": "CLM-0013",
-    "claim": "Identification of independent sets need not preserve biplanarity.",
-    "status": "PROGRAMME_PROVED",
-    "sources": [],
-    "note": "Explicit planar matching quotient K12, symbolic proof; no new computation."
-  },
-  {
-    "id": "CLM-0014",
-    "claim": "In a 12-critical biplanar graph, degree-11 vertices number 24+2D+sum_{d>=13}(d-12).",
-    "status": "PROGRAMME_PROVED",
-    "sources": [],
-    "note": "Exact degree-sum identity; at least 24+2D, not an extension lemma or finite reduction."
-  }
+ {
+  "id": "CLM-0001",
+  "claim": "EMP asks for the maximum chromatic number of finite simple edge-unions of two planar graphs.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0001",
+   "SRC-0004",
+   "SRC-0005"
+  ]
+ },
+ {
+  "id": "CLM-0002",
+  "claim": "Every biplanar graph is 12-colourable via two Euler bounds and degeneracy.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0005",
+   "SRC-0008"
+  ]
+ },
+ {
+  "id": "CLM-0003",
+  "claim": "Published example K6 join C5 has chromatic number 9 and admits thickness two.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0004",
+   "SRC-0005"
+  ],
+  "note": "Published statement retained; independent programme proof is CLM-0007 with validation/sulanke.json."
+ },
+ {
+  "id": "CLM-0004",
+  "claim": "Historical and modern indexed baseline is 9 <= chi_2 <= 12.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0004",
+   "SRC-0005",
+   "SRC-0006"
+  ],
+  "note": "Not an exhaustive claim about all 2026 new publications."
+ },
+ {
+  "id": "CLM-0005",
+  "claim": "Boutin–Gethner–Sulanke report 40 small nine-critical thickness-two graphs.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0002"
+  ]
+ },
+ {
+  "id": "CLM-0006",
+  "claim": "Patil primary deposit reports a 241-graph corpus and candidate/order exclusions; certificate README retains independent lex-leader validation gap.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0007"
+  ],
+  "note": "Primary DOI 10.5281/zenodo.22103613 located and sampled proofs inspected; external machine certificates not replayed."
+ },
+ {
+  "id": "CLM-0007",
+  "claim": "The explicit source-reconstructed K6 join C5 graph is biplanar and has chromatic number 9.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0002"
+  ],
+  "note": "Classical reconstruction: 26/24-edge layers, two planarity validators, written join/odd-cycle lower bound. validation/sulanke.json."
+ },
+ {
+  "id": "CLM-0008",
+  "claim": "Every biplanar graph with independence number at most two is 9-colourable.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0009",
+   "SRC-0010"
+  ],
+  "note": "Published textual proof inspected; not externally replayed or programme-formalized. Classical and compiled-check trust retained."
+ },
+ {
+  "id": "CLM-0009",
+  "claim": "Every biplanar clique blow-up of any odd cycle, allowing nonnegative integer weights, is 9-colourable.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0012",
+   "SRC-0014"
+  ],
+  "note": "Complete elementary proof research/S002_ODD_CYCLE_BLOWUPS.md. C5 overlap known, other overlap possible; novelty unchecked."
+ },
+ {
+  "id": "CLM-0010",
+  "claim": "An explicitly certified 42-vertex biplanar graph has minimum degree 11 (24 degree-11 and 18 degree-12 vertices) and a proper 7-colouring.",
+  "status": "COMPUTED_EXACT",
+  "sources": [],
+  "note": "CAM-0002 certificate validation/degree11_witness.json; disproves universal 10-degeneracy. Exact chromatic number NOT claimed."
+ },
+ {
+  "id": "CLM-0011",
+  "claim": "A 12-critical biplanar graph with deficit D=6n-12-m has n>=78+11D; hence every biplanar graph of order at most 77 is 11-colourable.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0011"
+  ],
+  "note": "Corollary of external Kostochka–Yancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
+ },
+ {
+  "id": "CLM-0012",
+  "claim": "The universal apex over a Hajós join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0002",
+   "SRC-0007"
+  ],
+  "note": "Known saturated bridge obstruction, reconstructed in research/S002_AMPLIFICATION.md; no originality claim."
+ },
+ {
+  "id": "CLM-0013",
+  "claim": "Identification of independent sets need not preserve biplanarity.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "Explicit planar matching quotient K12, symbolic proof; no new computation."
+ },
+ {
+  "id": "CLM-0014",
+  "claim": "In a 12-critical biplanar graph, degree-11 vertices number 24+2D+sum_{d>=13}(d-12).",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "Exact degree-sum identity; at least 24+2D, not an extension lemma or finite reduction."
+ },
+ {
+  "id": "CLM-0015",
+  "claim": "apex(H) is biplanar iff E(H)=E1+E2 and V(H)=S1+S2 with Si on one face of a plane embedding of (V,Ei).",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "research/S003_FACE_DEFICIT.md Lemma 1."
+ },
+ {
+  "id": "CLM-0016",
+  "claim": "In a biplanar graph on N>=4 vertices, sum over edges with at most one common neighbour of (2-codegree) is at most 4(6N-12-e).",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0017"
+  ],
+  "note": "Lemma 2/Cor 3; generalizes the saturated bridge obstruction; overlap with SRC-0017 facial-incidence arguments likely; no novelty claim."
+ },
+ {
+  "id": "CLM-0017",
+  "claim": "In a biplanar graph with deficit D at least N-4D vertices are wheel vertices in both layers; a 12-critical biplanar graph with D<=11 has at least 24-2D degree-11 double-wheel vertices.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "research/S003_UPPER_BOUND.md Lemma 6, Cor 7-8; not a reducibility result."
+ },
+ {
+  "id": "CLM-0018",
+  "claim": "If a planar-union-outerplanar graph has chi>=9, or a union of two outerplanar graphs has chi>=8, then chi_2>=10 (apex / K2-join).",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0003"
+  ],
+  "note": "Observation 9; elementary, likely known in SRC-0003 (inaccessible)."
+ },
+ {
+  "id": "CLM-0019",
+  "claim": "Every biplanar clique blow-up of a graph on at most 6 vertices is 9-colourable.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0014"
+  ],
+  "note": "CAM-0004: reductions R1-R5 proved; zero survivors for k<=6; independent checker agrees k=3..6. Depends on K9 non-biplanarity."
+ },
+ {
+  "id": "CLM-0020",
+  "claim": "On bases with 7 (resp. 8) vertices, every clique blow-up with chi>=10 that passes the counting filters F1-F3 has a 10-core among 13 (resp. 828) explicit survivor vectors; 570 of the 841 have alpha=2, N=19.",
+  "status": "COMPUTED_EXACT",
+  "sources": [],
+  "note": "Independent checker agrees at k=7 only; k=8 not independently checked. validation/S003/census_*.json."
+ },
+ {
+  "id": "CLM-0021",
+  "claim": "The 13 order-7 survivors (base FCptO = K4 with the three edges at one vertex subdivided) and the 90 survivors of k=8 part 1 have chromatic number exactly 10.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0024"
+  ],
+  "note": "DRAT-verified non-9-colourability (bag and vertex CNFs) plus checked 10-colourings; for FCptO also a hand proof N<=27-w5 for 9-colourings. Biplanarity of all of them is UNKNOWN."
+ },
+ {
+  "id": "CLM-0022",
+  "claim": "K9 is not biplanar, re-certified by a pure Kuratowski-lemma CNF (24946 independently checked lemmas, lex-leader symmetry breaking) with a drat-trim VERIFIED refutation.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0014",
+   "SRC-0024"
+  ],
+  "note": "Calibration of the CAM-0003 v4 oracle; classical result, not new."
+ },
+ {
+  "id": "CLM-0023",
+  "claim": "K9-e, K9-P3, K9-K1,3, K2v(K4+K6+K6), K2v(K5+K5+K6), K3v3K5 and K10-C4 are biplanar.",
+  "status": "COMPUTED_EXACT",
+  "sources": [],
+  "note": "Explicit layers in validation/S003/splits checked by NetworkX LR and the stdlib rotation checker (K10-C4 split not archived; reproducible). Biplanarity of K9-e may be known."
+ },
+ {
+  "id": "CLM-0024",
+  "claim": "Every 12-chromatic biplanar graph has at least 89 vertices; every 10-chromatic one has at least 17 vertices.",
+  "status": "SOURCE_STATED",
+  "sources": [
+   "SRC-0017",
+   "SRC-0018",
+   "SRC-0020"
+  ],
+  "note": "n>=89 is SRC-0017 Obs 7.1.1 via KY Brooks-type refinement (not inspected); n>=17 is SRC-0018 (census-conditional) and SRC-0017 (SMS-certified)."
+ },
+ {
+  "id": "CLM-0025",
+  "claim": "Of the 159 SRC-0017 pool graphs, 147 have e>5n-6 and 8 more are excluded by CLM-0016 as apex bases; the apices of the remaining 4 have UNKNOWN biplanarity.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0017"
+  ],
+  "note": "Corpus chromatic numbers source-stated."
+ }
 ]

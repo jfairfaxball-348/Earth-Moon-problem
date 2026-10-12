@@ -1,100 +1,60 @@
-# S003 — Break past the closed cycle/apex routes and attack a genuine EMP advance (FUTURE, UNEXECUTED)
+# S004 — Decide the S003 candidate families and push the certified oracle (FUTURE, UNEXECUTED)
 
-STOP. This is the complete future S003 handoff, not authority to execute it
-within S002. One NEW explicit owner invocation authorises precisely one
-ambitious mathematics session in jfairfaxball-348/Earth-Moon-problem.
-Pursue several substantial routes and pivot when productive; do not stop
-at one minor bounded lemma. S004 is not authorised. Target: a certified
-chi>=10 biplanar graph or universal chi<=11/10/9 theorem. Matching bounds
-are required to resolve chi_2 exactly. The range is still 9..12.
+STOP. This is the complete future S004 handoff, not authority to execute it
+within S003. One NEW explicit owner invocation authorises exactly one
+mathematics session in jfairfaxball-348/Earth-Moon-problem. S005 is not
+authorised. Target unchanged: a certified chi>=10 biplanar graph or a
+universal chi<=11/10/9 theorem; the range is 9..12.
 
-## Entry and inherited facts
+## Entry
 
-Pin LIVE main SHA/tree and reconcile S002's actual single authored commit,
-sole parent 72d7e97c87a8317b5874450f8cc6c2866125a9be, actual PR and
-ordinary two-parent non-force merge. Obtain outgoing hashes from live
-evidence; no self-referential fabricated SHA. Inventory open/recent PRs,
-competing S003 branches/records, actual workflows/runs/jobs/check-runs/status
-contexts and reachable rulesets/protection. Missing checks are not green;
-403 remains UNKNOWN. Read AGENTS, START_HERE, STATE, protocol, all S002
-records, paired catalogues and three S002 mathematical dossiers. Archive
-owner invocation and register research/campaign scope before computation.
+Pin LIVE main SHA/tree; reconcile S003's actual single authored commit
+(sole parent 8c4bdf853c462f424b3d5b7f7462e133d36675ca), its PR and the
+ordinary two-parent non-force merge from live evidence — nothing is
+pre-written. Inventory PRs/branches/workflow runs/check-runs; missing checks
+are not green; 403 is UNKNOWN. Read AGENTS, START_HERE, STATE, protocol,
+all S003 records, research/S003_*.md, CAM-0003/0004 and
+validation/S003_MANIFEST.json. Re-check SRC-0017 (Patil repo, also
+earth-moon-chi10) and arXiv/Zenodo for anything newer than 2026-10-12.
+Archive the owner invocation and register every computation before running.
 
-S002 reconstructed Sulanke's layers and chi=9, proved every biplanar
-odd-cycle clique blow-up is <=9-colourable, and reconstructed the known
-non-biplanarity of the 10-chromatic saturated Hajós cone. The explicit
-42-vertex triangulation union has delta=11 and a proper 7-colouring:
-universal 10-degeneracy is false. A 12-critical biplanar graph must satisfy
-n>=78+11D and have at least 24+2D degree-11 vertices, where
-D=6n-12-m. This is not a finite counterexample reduction.
+Tooling note: S003 built CaDiCaL 3.0.1, drat-trim and nauty geng from
+source in scratch; rebuild them (versions/commits in the manifest) and
+re-run the K9 calibration (tools/biplanar_cegar.py validation/S003/K9.edges
+... then tools/check_cegar_certificate.py and drat-trim) before trusting
+any new verdict.
 
-Szeider arXiv:2609.28102 closes alpha<=2 subject to its published
-classical/compiled-check assumptions; source-stated, not replayed here.
-Patil primary DOI 10.5281/zenodo.22103613 confirms the existing cone
-obstruction and reports corpus/small-order claims with residual
-certificate assumptions. Do not relabel inherited exclusions as new.
+## A — decide the census frontier (primary)
 
-## A — genuine chromatic amplification, with freedom to build mechanisms
+271 alpha>=3 survivors (validation/S003/survivors_alpha_ge3.json) are
+10-chromatic clique blow-ups (certified for 13 order-7 and 90 order-8
+ones; certify the rest) passing every counting filter. Every one contains an
+induced C5 sub-blow-up; 235 contain one of the 18-vertex patterns
+(2,6,2,6,2) [114], (2,3,5,2,6) [120], (2,4,4,2,6) [60], (2,5,3,3,5) [36],
+(2,3,5,3,5), (2,4,4,4,4), (2,4,4,3,5), (3,3,4,3,5). Classify biplanarity of
+C5 clique blow-ups (13 maximal counting-feasible patterns; descend through
+children; registered but unrun: Schnyder SAT search on children of
+(2,6,2,6,2)). Strengthen v4 for UNSAT: orbit-wide lemma images under bag
+permutations, seeding of short Kuratowski subdivisions, longer caps, or a
+mathematically proved C5 penalty bound (identity in S003_BLOWUP_CENSUS.md).
+Any SAT verdict on a full survivor is a candidate chi_2>=10: independent
+layer checks, certified chi=10, full cold audit before any claim.
+Also run the k=8 census independent cross-check (sampled or complete) and,
+if feasible, k=9.
 
-Attack alpha>=3 graphs outside odd-cycle clique substitutions. Develop at
-least two seriously different mechanisms before selecting the best:
-layer-compatible vertex splitting/identification and palette constraints;
-partial bag joins or critical-core substitutions on a non-cycle base;
-or non-saturated universal-apex constructions with actual two-face covers.
-Try to construct a strong theorem, not merely a toy example. For each
-operation prove biplanarity closure and the chromatic lower bound before
-using it. Ordinary Hajós preserves k; arbitrary identification does not
-preserve thickness. A density-feasible apex has not proved a face cover.
+## B — apex lane and upper side
 
-The saturated two-Sulanke cone is closed. More sparse Hajós-derived cores
-or different 9-critical cores may be worth attacking, but first compare
-Patil's primary family exclusions and distinguish the proposed construction.
-Do not repeat a named killed candidate without a new mathematical reason.
-If a candidate survives, give canonical V/E1/E2, rotations independently
-checked as spheres, proper k-colouring and hand proof or independently
-checked LRAT/DRAT certificate of non-(k-1)-colourability. An unverified
-solver UNSAT line or a feasible k-colouring is insufficient. A 12-chromatic
-certified example settles EMP and must trigger a full cold audit.
-
-## B — attack 11-colouring through criticality, not stronger degeneracy
-
-Start with an actual minimal 12-critical biplanar obstruction. Exploit
-the large degree-11 set, separate layer rotations, triangle/face slack,
-critical colour extension and compatibility of Kempe chains. Seek an
-unavoidable reducible configuration or a density theorem strong enough
-to contradict m<=6n-12. Work at arbitrary n; include all base cases.
-
-Challenge every purported reduction using the stored delta=11 witness,
-unknown neighbour colourings and chains switching layers. Explain exactly
-why criticality rules out the adversarial pattern, rather than assuming
-planar Jordan separation in the union. Generic sparse-critical theorems
-with k>=33 or sufficiently-large hypotheses cannot be specialized to 12.
-Deficit arithmetic alone permits arbitrarily large n. Allow a substantial
-detour if it exposes a new critical-layer invariant that both routes use.
-
-## C — pursue any real bridge that emerges
-
-Investigate face-cover obstructions for non-saturated cones, boundary
-gadget colour forcing, or a valid finite reduction. Prefer completing a
-strong mechanism to collecting minor lemmas. If every proposal fails,
-record explicit counterexamples and isolate the strongest surviving
-proof obligation. A universal result must have a complete quantified
-proof; a bounded scan has only its registered finite meaning.
+Decide the 4 SRC-0017 corpus apices and apex(C5[K3]) with v4. On the
+upper side, attempt two-layer reducibility of degree-11 double-wheel
+vertices (S003 Lemma 6/Cor 8) and the large-deficit regime; challenge each
+step with tools/witness_double_wheel.py data.
 
 ## Evidence and completion
 
-Pre-register CAM domains, generators, symmetry completeness, versions,
-commands/hashes, resources and timeout before mathematical computation.
-Use independent planarity/rotation and colouring/lower-bound checkers;
-validate SAT encodings and symmetry reductions along with refutations.
-No invented embedding, proof certificate, source access grade or novelty.
-Perform a fresh adversarial pass; distinguish internal review from a
-genuinely independent external review. Preserve standard theorem dependencies.
-
-Write S003 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT; synchronize
-state, paired sources/claims, route/decision/failure/session/phase/campaign
-ledgers and validation manifest. Prepare complete FUTURE UNEXECUTED S004.
-One atomic authored branch commit, ordinary PR, non-force two-parent
-merge and independently observed main/parents with real CI evidence.
-No S004 execution, Lean, Palomar, manuscript, correspondence, publication,
-arXiv/journal submission or outreach absent separate owner authorisation.
+Pre-register; DRAT-check every UNSAT; never treat timeouts as negatives;
+keep SOURCE_STATED results (Szeider, Patil, Doria) out of programme proofs.
+Write S004 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT; sync state,
+catalogues, ledgers, manifest; prepare FUTURE UNEXECUTED S005. One atomic
+authored commit, ordinary PR, non-force two-parent merge, live
+verification. No Lean, Palomar, manuscript, outreach or submission without
+separate owner authorisation.

@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Run the v4 oracle on induced connected sub-blow-ups of one survivor.
+
+Usage: scan_driver.py GRAPH6 w0,..,wk MINBAGS MAXBAGS MAXN TIMEOUT OUTDIR
+Largest N first.  Prints bags, weights, N, verdict per sub-blow-up.
+"""
+import itertools
+import json
+import os
+import subprocess
+import sys
+
+import networkx as nx
+
+g6, ws = sys.argv[1], [int(t) for t in sys.argv[2].split(",")]
+lo, hi, maxn, tmo, out = int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]), sys.argv[6], sys.argv[7]
+tools = os.path.dirname(os.path.abspath(__file__))
+g = nx.from_graph6_bytes(g6.encode())
+jobs = []
+for r in range(lo, hi + 1):
+    for S in itertools.combinations(range(len(ws)), r):
+        h = g.subgraph(S)
+        N = sum(ws[i] for i in S)
+        if nx.is_connected(h) and N <= maxn:
+            h = nx.convert_node_labels_to_integers(h, ordering="sorted")
+            jobs.append((N, S, nx.to_graph6_bytes(h, header=False).decode().strip()))
+os.makedirs(out, exist_ok=True)
+for N, S, sub in sorted(jobs, reverse=True):
+    w = ",".join(str(ws[i]) for i in S)
+    tag = f"{out}/s_{''.join(map(str, S))}"
+    subprocess.run([sys.executable, f"{tools}/blowup_graph.py", sub, w, tag + ".edges"], capture_output=True)
+    r = subprocess.run([sys.executable, f"{tools}/biplanar_cegar.py", tag + ".edges", tag, tmo],
+                       capture_output=True, text=True)
+    print(" ".join(map(str, S)), w, N, r.stdout.strip(), flush=True)
