@@ -6,7 +6,7 @@ Let G=(V,E) be a finite simple undirected graph. A thickness-2 *witness* is E=E�
 
 **Elementary upper-bound derivation:** for n≥3, each simple planar layer has ≤3n−6 edges, whence |E(G)|≤6n−12. Every subgraph inherits a two-planar-layer decomposition, so for every nonempty subgraph of order ≥3 its average degree is <12 and therefore it has a vertex of degree at most 11; graphs on <3 vertices trivially meet that bound. Thus G is 11-degenerate, yielding a 12-colouring by induction. This is classical, not an original programme theorem.
 
-**Lower-bound witness provenance obligation:** χ(K₆ ∨ C₅)=χ(K₆)+χ(C₅)=6+3=9, but that equation alone does not establish thickness≤2. One must reproduce or check an actual decomposition of all 50 edges into two planar layers before claiming an independently reconstructed 9 lower-bound witness. Reported published construction is not currently recreated in this repo.
+**Lower-bound witness provenance obligation:** χ(K₆ ∨ C₅)=χ(K₆)+χ(C₅)=6+3=9, but that equation alone does not establish thickness≤2. One must reproduce or check an actual decomposition of all 50 edges into two planar layers before claiming an independently reconstructed 9 lower-bound witness. S002 now reconstructs its actual 26/24-edge partition in validation/sulanke.json and supplies independent sphere rotations and the written chromatic proof.
 
 **Possible definitive answers:** 9,10,11,12. To demonstrate χ₂=k, give a k-chromatic biplanar graph AND a universal χ≤k theorem. For k=12 universal half is already known; a 12-chromatic construction solves EMP immediately. If k=9, the existing published lower bound suffices only with sound source provenance; the new universal upper bound would be the headline.
 

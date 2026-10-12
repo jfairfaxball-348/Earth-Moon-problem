@@ -1,0 +1,61 @@
+{
+  "observed_date": "2026-10-12",
+  "entry_main": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+  "entry_tree": "d3609e6b692da984584eca2a57515fa5546d45b5",
+  "branches?per_page=100": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/commits/72d7e97c87a8317b5874450f8cc6c2866125a9be"
+      },
+      "protected": false
+    },
+    {
+      "name": "session/S001-bootstrap-emp",
+      "commit": {
+        "sha": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/commits/99eb9f2bcfcb554a6cc652b15ba95a7a895a5774"
+      },
+      "protected": false
+    }
+  ],
+  "actions/workflows": {
+    "error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "actions/runs?per_page=20": [
+    {
+      "id": 38280337805,
+      "sha": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38280303274,
+      "sha": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "rulesets": [],
+  "branches/main/protection": {
+    "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/branches/branch-protection#get-branch-protection\",\"status\":\"403\"}",
+    "error_code": "FORBIDDEN",
+    "error_data": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+      "status": "403"
+    }
+  },
+  "prs": [
+    {
+      "number": 1,
+      "state": "closed",
+      "merged_at": "2026-10-12T16:51:48Z",
+      "merge_commit_sha": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+      "head": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+      "base": "f6ba2901e07e0c1512204f9a76e22210f7ef531c"
+    }
+  ]
+}

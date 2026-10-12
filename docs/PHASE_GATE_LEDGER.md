@@ -1,9 +1,9 @@
 # Phase-gate ledger
 
-| Gate | Requirement | Status at S001 |
+| Gate | Requirement | Status after S002 |
 |---|---|---|
 | 0 Bootstrap | Governed repo, authority, sources/claims, exact target, reproducibility plan | PASS — administrative only |
-| 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | NOT STARTED |
+| 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | ACTIVE; structural progress, headline gate NOT PASSED |
 | 2 First novelty | Result-specific primary-source priority and overlap challenge | NOT STARTED |
 | 3 Lean | Clean pinned Lean/mathlib kernel proof of exact claim | NOT STARTED |
 | 4 Final novelty | Independent current literature/assumptions/formal statement check | NOT STARTED |

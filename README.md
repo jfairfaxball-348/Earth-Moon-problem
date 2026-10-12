@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-12): UNSOLVED; programme bootstrap only.**
+**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-12): UNSOLVED; S002 structural research complete, bounds still 9..12.**
 
 ## Exact target
 
@@ -11,8 +11,8 @@ A rigorously verified **10-chromatic biplanar graph** would improve the lower bo
 ## Founding baseline — not this programme's result
 
 - Ringel posed the problem in 1959. The classical 12 upper bound follows from the planar edge bound and an 11-degeneracy argument.
-- The known 9 lower bound is exemplified by K₆ joined to C₅: the join has χ=6+3=9. A two-planar-layer embedding is attributed in the literature to Sulanke; **not yet independently reconstructed here**.
-- Boutin–Gethner–Sulanke (2008) and Gethner–Sulanke (2009) constructed many nine-critical thickness-two graphs. A recent 2026 computational preprint indexed under Digvijay Patil also requires direct primary-source audit before any priority claim.
+- The known 9 lower bound is exemplified by K₆ joined to C₅: the join has χ=6+3=9. A two-planar-layer embedding is attributed in the literature to Sulanke; **independently reconstructed and checked in validation/sulanke.json**.
+- Boutin–Gethner–Sulanke (2008) and Gethner–Sulanke (2009) constructed many nine-critical thickness-two graphs. S002 inspected Patil's primary 2026 deposit and Szeider's September 2026 alpha<=2 exclusion; external machine certificates were not replayed.
 - This is not a claim that a complete 2026 literature search has been conducted.
 
 ## Research architecture
@@ -26,7 +26,7 @@ A rigorously verified **10-chromatic biplanar graph** would improve the lower bo
 ## Publication-quality progression
 
 0. Governance bootstrap (S001) — **PASS, administrative only**
-1. Exact primary-source frontier, ambitious proof/counterexample research — **NOT STARTED**
+1. Exact primary-source frontier, ambitious proof/counterexample research — **ACTIVE; no headline bound advance**
 2. First result-specific novelty and priority check — NOT STARTED
 3. Lean 4 kernel-checked formalisation (precisely the mathematical headline) — NOT STARTED
 4. Final comprehensive novelty, assumptions and independent certification audit — NOT STARTED
@@ -38,6 +38,14 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S002 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S003 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
+
+## S002 results
+
+- [All odd-cycle clique blow-ups are at most 9-colourable when biplanar](research/S002_ODD_CYCLE_BLOWUPS.md); novelty unchecked and short cases overlap existing work.
+- [Apex/Hajós and join attacks](research/S002_AMPLIFICATION.md), including reconstruction of an existing 10-chromatic saturated-cone exclusion.
+- [Critical-density and upper-bound attack](research/S002_UPPER_BOUND_ATTACK.md): a 12-critical witness must have n>=78+11D; an explicit checked 42-vertex graph disproves universal 10-degeneracy while admitting a 7-colouring.
+
+These are structural progress and verified classical reconstructions, not a solution of EMP or a universal improved bound.

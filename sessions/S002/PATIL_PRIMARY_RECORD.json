@@ -1,0 +1,149 @@
+{
+  "id": 22103613,
+  "doi": "10.5281/zenodo.22103613",
+  "publication_date": "2026-08-26",
+  "title": "The Earth–Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known χ = 10 candidates, and the status of χ₂",
+  "creators": [
+    {
+      "name": "Patil, Digvijay",
+      "affiliation": null,
+      "orcid": "0009-0003-6878-1712"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "version_relations": {
+    "version": [
+      {
+        "index": 0,
+        "is_last": true,
+        "parent": {
+          "pid_type": "recid",
+          "pid_value": "22103612"
+        }
+      }
+    ]
+  },
+  "dataset": {
+    "code:codeRepository": "https://github.com/Volkopat/earth-moon-biplanar",
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      },
+      {
+        "id": "lean",
+        "title": {
+          "en": "Lean"
+        }
+      }
+    ],
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    }
+  },
+  "files": [
+    {
+      "key": "h14_28join_n14.drat.gz",
+      "size": 648499951,
+      "checksum": "md5:8409e6c79129281f6aeb7143f70464b6",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/h14_28join_n14.drat.gz/content"
+      }
+    },
+    {
+      "key": "rung_c_C5_34343_lemmas.txt.gz",
+      "size": 28924416,
+      "checksum": "md5:a0576d37911dae90c3b9369d1f63ac97",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_c_C5_34343_lemmas.txt.gz/content"
+      }
+    },
+    {
+      "key": "SHA256SUMS.txt",
+      "size": 893,
+      "checksum": "md5:33d3dae9451372449d6f8d4570d328c4",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/SHA256SUMS.txt/content"
+      }
+    },
+    {
+      "key": "README.md",
+      "size": 4203,
+      "checksum": "md5:dfcc6ef3194032c0c6b12f6f19409bc3",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/README.md/content"
+      }
+    },
+    {
+      "key": "rung_c_C5_34343.enc",
+      "size": 1231,
+      "checksum": "md5:63a213bf613c42c4248075da2b65fd98",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_c_C5_34343.enc/content"
+      }
+    },
+    {
+      "key": "h14_28join_n14_lemmas.txt.gz",
+      "size": 2855849,
+      "checksum": "md5:5e3fe06de9f98507ad082ba7ba31ef78",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/h14_28join_n14_lemmas.txt.gz/content"
+      }
+    },
+    {
+      "key": "rung_b_CAND_P.drat.gz",
+      "size": 764870976,
+      "checksum": "md5:0d38e894a93d3f9898a03c9b3f6dc54f",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_b_CAND_P.drat.gz/content"
+      }
+    },
+    {
+      "key": "rung_b_CAND_P.enc",
+      "size": 1563,
+      "checksum": "md5:a4d77c19ffbd82bdf077542a71fd566d",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_b_CAND_P.enc/content"
+      }
+    },
+    {
+      "key": "rung_b_CAND_P_lemmas.txt.gz",
+      "size": 32690697,
+      "checksum": "md5:406a8ebab7e6a83026f27e1dce5355f4",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_b_CAND_P_lemmas.txt.gz/content"
+      }
+    },
+    {
+      "key": "rung_c_C5_34343.drat.gz",
+      "size": 621734868,
+      "checksum": "md5:66f15fbee7d5615352cee1edb4c8a2b1",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/rung_c_C5_34343.drat.gz/content"
+      }
+    },
+    {
+      "key": "earthmoon_patil.pdf",
+      "size": 259350,
+      "checksum": "md5:c297a988652abf4029b3eb3f15d1662e",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/earthmoon_patil.pdf/content"
+      }
+    },
+    {
+      "key": "h14_28join_n14.enc",
+      "size": 949543,
+      "checksum": "md5:97b164adff3cd43fb3739d62b2f6588f",
+      "links": {
+        "self": "https://zenodo.org/api/records/22103613/files/h14_28join_n14.enc/content"
+      }
+    }
+  ]
+}
