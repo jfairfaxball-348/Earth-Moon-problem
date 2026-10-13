@@ -22,3 +22,9 @@
 - D017 (S004): Extend proof caps prospectively after unconfirmed UNSAT; accept the finite exclusion only after two checked refutations.
 - D018 (S004): Retain rechecked compact public DRAT; keep independent relaxed SAT challenge and all 270 UNKNOWN cases explicit.
 - D019 (S004): Unconditional single-Kempe-swap reduction is false; criticality/multiple swaps/deficit hypotheses are required for further work.
+
+- D020(S005): Prioritise full low-deficit graphs; close all 17 fixed D=0 cases without treating the finite stratum as a universal theorem.
+- D021(S005): Independently corroborate with no-lex reduced incidence; shared premise/checker/library dependencies remain explicit.
+- D022(S005): SAT_RELAXATION and failed containment searches never advance biplanarity; 245 cases remain UNKNOWN.
+- D023(S005): Use actual criticality and Gallai palettes/deficits; the explicit two-swap extension is not a universal reducibility theorem.
+- D024(S005): Recalibrate Windows export before alternative certificates; preserve interrupted partial proof UNKNOWN and check complete proof before promotion.

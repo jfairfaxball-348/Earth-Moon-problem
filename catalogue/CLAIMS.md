@@ -1,4 +1,4 @@
-# Claim register after S004
+# Claim register after S005
 
 Headline remains open, 9 <= chi_2 <= 12. Exact scopes and limitations below.
 
@@ -265,3 +265,51 @@ C5[K3] is exactly 8-chromatic and its universal apex is exactly 9-chromatic.
 Sources: programme construction/argument.
 
 Alpha=2 on 15 vertices forces chi>=8; checked explicit 8-colouring. Universal join adds exactly one, with explicit 9-colouring checked. Biplanarity UNKNOWN; this calibration cannot lift the lower bound to ten.
+
+## CLM-0034 — COMPUTED_EXACT
+
+All 17 D=0 rows of the fixed 271-row S003 alpha>=3 list are 10-chromatic and non-biplanar.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+Rows161,163,164,154,158,160,176,171,120,126,128,130,42,44,133,135,262. S005 regenerated completion CNFs and DRAT-verified each original and compact proof; inherited chi=10 certificates/upper colourings cold-hash audited. Not a theorem for every D=0 biplanar graph or all clique blow-ups.
+
+## CLM-0035 — COMPUTED_EXACT
+
+Nine of those D=0 exclusions have independently implemented reduced-encoding DRAT certificates; row120 also has a separate no-lex direct-incidence certificate.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+Global selected-triangle cover excludes158,171,120,130,42,44,133,135; layer-consistent reduction also excludes262. Thirteen independent full-incidence positive controls and eleven relabellings of a real D=0 witness for reduced controls. Shared classical premise/library/checker; no external review. Row165 no-lex challenge UNKNOWN at620s.
+
+## CLM-0036 — PROGRAMME_PROVED
+
+A biplanar n>=4 graph with D=0 has a 0/1 triangle selection covering every edge twice; with D=1 its completion has exactly one new pair or one doubled input pair and a 0/1 facial selection with respective edge incidence demands two or four.
+
+Sources: SRC-0009.
+
+research/S005_FACE_REDUCTIONS.md. Repeated facial triangle would require at least three doubled edges, impossible at D<=1. Necessary encodings only; relaxed SAT has no planarity converse. Actual completion controls for both D=1 cases passed.
+
+## CLM-0037 — PROGRAMME_PROVED
+
+The stored S004 122-vertex, 187-edge one-swap Kempe-lock colouring of G-v extends after two complete Kempe component swaps.
+
+Sources: programme construction/argument.
+
+Choose neighbours1,6 and third colour at2, recolour one gadget vertex then neighbour1; both complete induced components have size one. Exact layers/rotations, properness at every stage and full extension verified. This graph is4-chromatic and not12-critical; no universal multi-swap theorem.
+
+## CLM-0038 — PROGRAMME_PROVED
+
+A Gallai forest with l vertices, c components, maximum degree at most 11 and clique number at most 8 has at most (31/8)l-3c edges. In a 12-critical biplanar graph, 48h>=312+26D+9Q+24c+8e_H and 8D_H>=216+26D+9Q+24c.
+
+Sources: SRC-0027, SRC-0014.
+
+Full block-contraction proof and algebra in research/S005_UPPER_ROUTES.md. h high(degree>=12) vertices, Q=sum(deg-12), c low-forest components, e_H high-induced edges, D_H=6h-12-e_H; h>=7 follows. Uses externally source-stated Gallai theorem; no independent proof of that theorem, order upper bound, reducible configuration or improved universal colouring bound.
+
+## CLM-0039 — COMPUTED_EXACT
+
+The fixed D=1 candidate rows 177,179,180,102,103,117,123,143 are 10-chromatic and non-biplanar.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+S005 full completion-face CNF regeneration and checked DRAT certificates; inherited exact chromatic certificates cold-hash audited. Other registered D=1 rows UNKNOWN: []. Total 25 new finite exclusions; 245 of the original 271 remain UNKNOWN. No stronger thickness, novelty or headline bound claimed.

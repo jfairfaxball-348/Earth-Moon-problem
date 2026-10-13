@@ -1,0 +1,17 @@
+{
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/independent_cover_search.py",
+   "validation/S004/targets/full-min-survivor.edges",
+   "artifacts\\tmp\\S005\\independent\\no-lex-row165",
+   "600",
+   "validation/S004/search/cover-full-min-survivor.cuts.json"
+  ],
+  "returncode": null,
+  "seconds": 620.0149999999994,
+  "hard_cap": 620,
+  "reason": "external wall cap"
+ },
+ "verdict": "UNKNOWN"
+}

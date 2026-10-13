@@ -1,0 +1,360 @@
+{
+ "session": "S005",
+ "recheck_timestamp_utc": "2026-10-13T13:07:28.608393+00:00",
+ "entry_main": "ed49432f49de74e9d22c2dde582c228234d3db76",
+ "entry_tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca",
+ "note": "Machine capture repeats the entry observations before closeout; it does not anticipate outgoing refs.",
+ "remote_refs": {
+  "command": [
+   "git",
+   "ls-remote",
+   "origin"
+  ],
+  "exit_code": 0,
+  "data": "ed49432f49de74e9d22c2dde582c228234d3db76\tHEAD\ne6ef7ce127fc48aaa5549b58090bbba4ae2e8569\trefs/heads/ccr-1d66faf5-kctudc\n6959e0093ee44ce7c2645afb6635f3e04d714c95\trefs/heads/codex/S004-candidate-frontier\ned49432f49de74e9d22c2dde582c228234d3db76\trefs/heads/main\n99eb9f2bcfcb554a6cc652b15ba95a7a895a5774\trefs/heads/session/S001-bootstrap-emp\nc748c4c5bc5b5d48dcbff5516d2cc8f4be485acc\trefs/heads/session/S002-structural-attack\n99eb9f2bcfcb554a6cc652b15ba95a7a895a5774\trefs/pull/1/head\nc748c4c5bc5b5d48dcbff5516d2cc8f4be485acc\trefs/pull/2/head\ne6ef7ce127fc48aaa5549b58090bbba4ae2e8569\trefs/pull/3/head\n6959e0093ee44ce7c2645afb6635f3e04d714c95\trefs/pull/4/head",
+  "stderr": ""
+ },
+ "main": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/branches/main",
+   "--jq",
+   "{sha:.commit.sha,tree:.commit.commit.tree.sha,parents:[.commit.parents[].sha]}"
+  ],
+  "exit_code": 0,
+  "data": {
+   "parents": [
+    "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "6959e0093ee44ce7c2645afb6635f3e04d714c95"
+   ],
+   "sha": "ed49432f49de74e9d22c2dde582c228234d3db76",
+   "tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca"
+  },
+  "stderr": ""
+ },
+ "s004_commit": {
+  "command": [
+   "git",
+   "show",
+   "-s",
+   "--format=%H %T %P",
+   "6959e0093ee44ce7c2645afb6635f3e04d714c95"
+  ],
+  "exit_code": 0,
+  "data": "6959e0093ee44ce7c2645afb6635f3e04d714c95 5f577c0ffdf02ec3311b7256b4f444239426f6ca 3e93eec7b5fe7e818dec0984dee722074a65186e",
+  "stderr": ""
+ },
+ "pull_requests": {
+  "command": [
+   "gh",
+   "pr",
+   "list",
+   "--state",
+   "all",
+   "--limit",
+   "100",
+   "--json",
+   "number,title,state,headRefName,headRefOid,baseRefName,mergedAt,url"
+  ],
+  "exit_code": 0,
+  "data": [
+   {
+    "baseRefName": "main",
+    "headRefName": "codex/S004-candidate-frontier",
+    "headRefOid": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
+    "mergedAt": "2026-10-13T08:59:10Z",
+    "number": 4,
+    "state": "MERGED",
+    "title": "S004: certify candidate frontier and exclude one 10-chromatic graph",
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/4"
+   },
+   {
+    "baseRefName": "main",
+    "headRefName": "ccr-1d66faf5-kctudc",
+    "headRefOid": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
+    "mergedAt": "2026-10-12T20:32:28Z",
+    "number": 3,
+    "state": "MERGED",
+    "title": "S003 — certified biplanarity oracle, clique blow-up census, new candidate families",
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/3"
+   },
+   {
+    "baseRefName": "main",
+    "headRefName": "session/S002-structural-attack",
+    "headRefOid": "c748c4c5bc5b5d48dcbff5516d2cc8f4be485acc",
+    "mergedAt": "2026-10-12T17:38:06Z",
+    "number": 2,
+    "state": "MERGED",
+    "title": "S002 — structural EMP exclusions and verified degree-11 witness",
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/2"
+   },
+   {
+    "baseRefName": "main",
+    "headRefName": "session/S001-bootstrap-emp",
+    "headRefOid": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+    "mergedAt": "2026-10-12T16:51:48Z",
+    "number": 1,
+    "state": "MERGED",
+    "title": "S001 — bootstrap Earth–Moon research programme",
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/1"
+   }
+  ],
+  "stderr": ""
+ },
+ "workflows": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows",
+   "--jq",
+   "{total_count,workflows:[.workflows[]|{id,name,path,state}]}"
+  ],
+  "exit_code": 0,
+  "data": {
+   "total_count": 1,
+   "workflows": [
+    {
+     "id": 382361523,
+     "name": "Research scaffold checks",
+     "path": ".github/workflows/scaffold.yml",
+     "state": "active"
+    }
+   ]
+  },
+  "stderr": ""
+ },
+ "runs": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/actions/runs?per_page=10",
+   "--jq",
+   "[.workflow_runs[]|{id,head_sha,event,status,conclusion}]"
+  ],
+  "exit_code": 0,
+  "data": [
+   {
+    "conclusion": "success",
+    "event": "push",
+    "head_sha": "ed49432f49de74e9d22c2dde582c228234d3db76",
+    "id": 38373078430,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "pull_request",
+    "head_sha": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
+    "id": 38372945649,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "push",
+    "head_sha": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "id": 38304892553,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "pull_request",
+    "head_sha": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
+    "id": 38304862241,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "push",
+    "head_sha": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+    "id": 38285516286,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "pull_request",
+    "head_sha": "c748c4c5bc5b5d48dcbff5516d2cc8f4be485acc",
+    "id": 38285460172,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "push",
+    "head_sha": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+    "id": 38280337805,
+    "status": "completed"
+   },
+   {
+    "conclusion": "success",
+    "event": "pull_request",
+    "head_sha": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+    "id": 38280303274,
+    "status": "completed"
+   }
+  ],
+  "stderr": ""
+ },
+ "entry_check_runs": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/commits/ed49432f49de74e9d22c2dde582c228234d3db76/check-runs",
+   "--jq",
+   "{total_count,checks:[.check_runs[]|{id,name,status,conclusion,head_sha}]}"
+  ],
+  "exit_code": 0,
+  "data": {
+   "checks": [
+    {
+     "conclusion": "success",
+     "head_sha": "ed49432f49de74e9d22c2dde582c228234d3db76",
+     "id": 115214603639,
+     "name": "validate",
+     "status": "completed"
+    }
+   ],
+   "total_count": 1
+  },
+  "stderr": ""
+ },
+ "entry_status": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/commits/ed49432f49de74e9d22c2dde582c228234d3db76/status",
+   "--jq",
+   "{state,total_count,statuses}"
+  ],
+  "exit_code": 0,
+  "data": {
+   "state": "pending",
+   "statuses": [],
+   "total_count": 0
+  },
+  "stderr": ""
+ },
+ "entry_jobs": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/actions/runs/38373078430/jobs",
+   "--jq",
+   "[.jobs[]|{id,name,status,conclusion,steps}]"
+  ],
+  "exit_code": 0,
+  "data": [
+   {
+    "conclusion": "success",
+    "id": 115214603639,
+    "name": "validate",
+    "status": "completed",
+    "steps": [
+     {
+      "completed_at": "2026-10-13T08:59:16Z",
+      "conclusion": "success",
+      "name": "Set up job",
+      "number": 1,
+      "started_at": "2026-10-13T08:59:15Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Run actions/checkout@v4",
+      "number": 2,
+      "started_at": "2026-10-13T08:59:16Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Run actions/setup-python@v5",
+      "number": 3,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Validate authoritative state and catalogues",
+      "number": 4,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Run preliminary certificate checker tests",
+      "number": 5,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Post Run actions/setup-python@v5",
+      "number": 9,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Post Run actions/checkout@v4",
+      "number": 10,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     },
+     {
+      "completed_at": "2026-10-13T08:59:19Z",
+      "conclusion": "success",
+      "name": "Complete job",
+      "number": 11,
+      "started_at": "2026-10-13T08:59:19Z",
+      "status": "completed"
+     }
+    ]
+   }
+  ],
+  "stderr": ""
+ },
+ "protection": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/branches/main/protection"
+  ],
+  "exit_code": 1,
+  "data": {
+   "message": "Branch not protected",
+   "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+   "status": "404"
+  },
+  "stderr": "gh: Branch not protected (HTTP 404)"
+ },
+ "rulesets": {
+  "command": [
+   "gh",
+   "api",
+   "repos/jfairfaxball-348/Earth-Moon-problem/rulesets"
+  ],
+  "exit_code": 0,
+  "data": [],
+  "stderr": ""
+ },
+ "source0017": {
+  "command": [
+   "gh",
+   "api",
+   "repos/Volkopat/earth-moon-biplanar/commits/main",
+   "--jq",
+   "{sha,tree:.commit.tree.sha,date:.commit.committer.date}"
+  ],
+  "exit_code": 0,
+  "data": {
+   "date": "2026-08-26T08:35:09Z",
+   "sha": "5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+   "tree": "a1c9b38defd3c4d761aa13ac9c3b309056671191"
+  },
+  "stderr": ""
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "controls": [
+  {
+   "kind": "new noninput completion edge",
+   "removed": [
+    0,
+    12
+   ],
+   "surplus_pair": [
+    0,
+    12
+   ],
+   "n": 42,
+   "m": 239,
+   "variables": 46449,
+   "clauses": 90628,
+   "actual_face_assignment": "SAT assumptions checked"
+  },
+  {
+   "kind": "doubled input completion edge",
+   "removed": [
+    0,
+    14
+   ],
+   "surplus_pair": [
+    15,
+    16
+   ],
+   "n": 42,
+   "m": 239,
+   "variables": 46454,
+   "clauses": 90638,
+   "actual_face_assignment": "SAT assumptions checked"
+  }
+ ],
+ "doubled_control_found": true
+}

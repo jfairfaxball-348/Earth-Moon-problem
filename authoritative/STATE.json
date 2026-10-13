@@ -2,16 +2,16 @@
  "project": "Earth-Moon-problem",
  "repository_id": 1415870164,
  "as_of": "2026-10-13",
- "last_completed_session": "S004",
- "recommended_next_session": "S005",
+ "last_completed_session": "S005",
+ "recommended_next_session": "S006",
  "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
- "headline_status": "OPEN_9_TO_12_S004_ONE_CERTIFIED_FINITE_EXCLUSION",
+ "headline_status": "OPEN_9_TO_12_S005_CERTIFIED_FINITE_LOW_DEFICIT_EXCLUSIONS",
  "confirmed_classical_range": {
   "lower": 9,
   "upper": 12,
   "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
  },
- "candidate_10_11_12": "All 271 alpha>=3 survivors certified chi=10; source row 165 (22v/119e) non-biplanar with checked DRAT; remaining 270 biplanarity UNKNOWN. No chi>=10 biplanar construction.",
+ "candidate_10_11_12": "All 271 alpha>=3 rows certified chi=10; 26 non-biplanar exclusions, 245 biplanarity UNKNOWN. All 17 D=0 rows excluded. No chi>=10 biplanar construction.",
  "universal_improved_upper_bound": "NONE_PROVED",
  "phases": [
   {
@@ -22,7 +22,7 @@
   {
    "id": 1,
    "name": "Primary-source baseline and genuine proof/counterexample investigation",
-   "status": "ACTIVE_FINITE_EXCLUSION_AND_CERTIFIED_FRONTIER_NO_HEADLINE_ADVANCE"
+   "status": "ACTIVE_FINITE_EXCLUSIONS_AND_CRITICALITY_CONSTRAINTS_NO_HEADLINE_ADVANCE"
   },
   {
    "id": 2,
@@ -55,7 +55,7 @@
    "status": "OWNER_GATED"
   }
  ],
- "source_status": "2026_PRIMARY_RECHECKED_TOOL_PINS_AND_CORPUS_AUDITED_EXTERNAL_ARCHIVES_NOT_REPLAYED",
+ "source_status": "2026_PRIMARY_RECHECKED_SOURCE_PINS_AND_NECESSARY_ENCODINGS_AUDITED_EXTERNAL_ARCHIVES_NOT_REPLAYED",
  "lean": {
   "status": "NOT_STARTED"
  },
@@ -71,18 +71,19 @@
  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
  "open_obligations": [
-  "Decide biplanarity of the remaining 270 certified chi=10 alpha>=3 survivors; source row 165 excluded in S004.",
-  "Independently reproduce the full-survivor exclusion with a second sound complete encoding; S004 no-lex relaxation was SAT/non-planar.",
-  "Classify 13 maximal C5 patterns and children; S004 short face/packing runs all UNKNOWN, including 600 s short-link retry.",
-  "Independent full k=8 census check (S004 checked two fixed bases only); k=9 unrun.",
-  "Apex(C5[K3]) biplanarity UNKNOWN, exact chi=9 (calibration only); all 159 pinned SRC-0017 corpus apices are excluded.",
-  "Upper side: critical/multi-swap/low-deficit reducibility and large-deficit control; unconditional single-swap double-wheel premise refuted.",
-  "Verify S004 actual authored commit/PR/two-parent merge/checks from live evidence; outgoing refs not anticipated.",
-  "Novelty/priority of finite candidates, encoding extension and lock example unchecked; no gate advances."
+  "Decide biplanarity of the remaining245 certified chi=10 alpha>=3 candidates; exact accepted indices in validation/S005/SUMMARY.json.",
+  "Attack the remaining low-deficit candidates; all eight registered S005 D=1 targets were excluded, while other cases remain UNKNOWN.",
+  "Independent no-lex reproduction of row165 remains UNKNOWN; S005 row120 and nine reduced D=0 corroborations do not discharge it.",
+  "Classify13 maximal C5 patterns and children; no new C5 classification in S005.",
+  "Full independent k=8 census/k=9 remain unexamined; S004 covered only two fixed bases.",
+  "apex(C5[K3]) has exact chi=9 and biplanarity UNKNOWN; all159 corpus apices already excluded.",
+  "Universal upper: critical endblock palette extension, multi-swap compatibility and large-deficit control; two swaps only resolve the explicit noncritical lock.",
+  "Verify actual S005 single authored commit/ordinary PR/two-parent merge/checks live; frozen outgoing refs are not anticipated.",
+  "Result-specific novelty/priority and independent external review unchecked; no formalisation/publication gate advance."
  ],
  "next_session_is_future_unexecuted": true,
- "latest_session_branch": "codex/S004-candidate-frontier",
- "latest_session_entry_main": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+ "latest_session_branch": "codex/S005-certified-obstructions",
+ "latest_session_entry_main": "ed49432f49de74e9d22c2dde582c228234d3db76",
  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
  "mathematical_results": [
   "CLM-0007",
@@ -109,7 +110,13 @@
   "CLM-0030",
   "CLM-0031",
   "CLM-0032",
-  "CLM-0033"
+  "CLM-0033",
+  "CLM-0034",
+  "CLM-0035",
+  "CLM-0036",
+  "CLM-0037",
+  "CLM-0038",
+  "CLM-0039"
  ],
  "s003_integration_verified": {
   "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -121,5 +128,18 @@
    "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569"
   ],
   "tree": "6c886f5461a463de710587fd46fc3de197c04950"
+ },
+ "s004_integration_verified": {
+  "authored_commit": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
+  "sole_parent": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+  "pr": 4,
+  "merge_commit": "ed49432f49de74e9d22c2dde582c228234d3db76",
+  "merge_parents": [
+   "3e93eec7b5fe7e818dec0984dee722074a65186e",
+   "6959e0093ee44ce7c2645afb6635f3e04d714c95"
+  ],
+  "tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca",
+  "head_CI_run": 38372945649,
+  "main_CI_run": 38373078430
  }
 }

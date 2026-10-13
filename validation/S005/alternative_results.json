@@ -1,0 +1,98 @@
+[
+ {
+  "tag": "K9",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/export_pysat_drat.py",
+    "artifacts/tmp/S005/replay/K9.cnf",
+    "artifacts\\tmp\\S005\\alternative\\K9.drat"
+   ],
+   "returncode": 0,
+   "seconds": 12.453000000001339,
+   "hard_cap": 620,
+   "observed_peak_tree_private_bytes": 153325568
+  },
+  "verdict": "DRAT_VERIFIED",
+  "cnf_sha256": "92512fcbdaaba1e89830df47a52f78d88099af6a9e3229dcefb62e063df8a00d",
+  "check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts/tmp/S005/replay/K9.cnf",
+    "artifacts\\tmp\\S005\\alternative\\K9.drat",
+    "-t",
+    "600"
+   ],
+   "returncode": 0,
+   "seconds": 7.921999999998661,
+   "hard_cap": 620,
+   "observed_peak_tree_private_bytes": 75538432
+  },
+  "proof_sha256": "fb5f30f581db547ac1e5878b6cd3aa25912ea0d8fc5d9a1e69b1dc35a0af9ab4",
+  "proof_bytes": 29826448
+ },
+ {
+  "tag": "row179",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/export_pysat_drat.py",
+    "artifacts/tmp/S005/search/cover-row179.cnf",
+    "artifacts\\tmp\\S005\\alternative\\row179.drat"
+   ],
+   "returncode": 0,
+   "seconds": 326.20300000000134,
+   "hard_cap": 620,
+   "observed_peak_tree_private_bytes": 2684592128
+  },
+  "verdict": "DRAT_VERIFIED",
+  "cnf_sha256": "806477bdd670d2585e252614659c101a91e0cd0658d40b6b6ca05fc408d25d8d",
+  "check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts/tmp/S005/search/cover-row179.cnf",
+    "artifacts\\tmp\\S005\\alternative\\row179.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 155.95300000000134,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 444538880
+  },
+  "proof_sha256": "1d6452fdfa793c8b2ba4f23f85fb7f72c3d77d34e4af2c3ef78ec1e4ff4e9167",
+  "proof_bytes": 628817040,
+  "trim": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts/tmp/S005/search/cover-row179.cnf",
+    "artifacts\\tmp\\S005\\alternative\\row179.drat",
+    "-l",
+    "artifacts\\tmp\\S005\\alternative\\row179.core.drat",
+    "-t",
+    "600"
+   ],
+   "returncode": 0,
+   "seconds": 163.43699999999808,
+   "hard_cap": 620,
+   "observed_peak_tree_private_bytes": 444538880
+  },
+  "core_check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts/tmp/S005/search/cover-row179.cnf",
+    "artifacts\\tmp\\S005\\alternative\\row179.core.drat",
+    "-t",
+    "600"
+   ],
+   "returncode": 0,
+   "seconds": 93.89100000000326,
+   "hard_cap": 620,
+   "observed_peak_tree_private_bytes": 229269504
+  },
+  "archive": "validation/S005/search/alternative-row179.drat.gz",
+  "archive_raw_sha256": "a4130c471c6e3d6e8f9c8c3b7fc745949c5b465b9cc9a98b4e9d474dfb8d7264",
+  "archive_raw_bytes": 178320347,
+  "archive_sha256": "5071d96699f0d7f9190894c219b32af315a8c876fdaf804c0362348a060fe164"
+ }
+]

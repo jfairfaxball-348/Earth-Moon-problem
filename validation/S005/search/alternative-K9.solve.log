@@ -1,0 +1,5 @@
+solver status False
+fflush(NULL) 0
+raw bytes 11577314 lines 527805 tail ['1473 0', '0']
+c disconnecting from '<py_fobj>'
+c after writing 11577314 bytes 11.0 MB

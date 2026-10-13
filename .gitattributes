@@ -2,3 +2,5 @@
 *.gz -text
 # Preserve checker progress output, including its carriage returns/padding.
 validation/S004/**/*.log -whitespace
+# S005 log hashes refer to observed bytes, including native Windows CRLF.
+validation/S005/**/*.log -text -whitespace

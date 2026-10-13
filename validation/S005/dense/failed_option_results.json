@@ -1,0 +1,360 @@
+[
+ {
+  "index": 161,
+  "mode": "global",
+  "variables": 2983,
+  "clauses": 5352,
+  "cnf_sha256": "c8d6569fd71b06cfb38c29c0e45ed627ab83d9e8721c3bb42241e73ef0b5981b",
+  "verdict": "UNKNOWN",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "-t",
+    "180",
+    "--no-binary",
+    "artifacts\\tmp\\S005\\dense\\global-row161.cnf",
+    "artifacts\\tmp\\S005\\dense\\global-row161.drat"
+   ],
+   "returncode": 1,
+   "seconds": 0.01599999999598367,
+   "hard_cap": 200
+  }
+ },
+ {
+  "index": 163,
+  "mode": "global",
+  "variables": 2905,
+  "clauses": 5208,
+  "cnf_sha256": "eace9061169f7447ae652e5776c550fa13e825e83613fda498b94aa2b32531f0",
+  "verdict": "UNKNOWN",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "-t",
+    "180",
+    "--no-binary",
+    "artifacts\\tmp\\S005\\dense\\global-row163.cnf",
+    "artifacts\\tmp\\S005\\dense\\global-row163.drat"
+   ],
+   "returncode": 1,
+   "seconds": 0.0,
+   "hard_cap": 200
+  }
+ },
+ {
+  "index": 164,
+  "mode": "global",
+  "variables": 2983,
+  "clauses": 5352,
+  "cnf_sha256": "5fa4d8e9576724111516d29fae6e5d8b8448f48cd2c298c0ad63ab6cadefb6f6",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 154,
+  "mode": "global",
+  "variables": 3104,
+  "clauses": 5568,
+  "cnf_sha256": "9a2e0939daa350321bd8fd0623380335ae0345184f7c600ca4c58be38a7a3e13",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 158,
+  "mode": "global",
+  "variables": 3000,
+  "clauses": 5376,
+  "cnf_sha256": "eb5ee99e370adbc6a298c8e259c5f4e31fe3c04e3a2726dfc1aafaa3476a946c",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 160,
+  "mode": "global",
+  "variables": 3104,
+  "clauses": 5568,
+  "cnf_sha256": "14fdefa102f3b0be7c6ef1fa574eeda0df06f72b43aeb891c9f87c6130bccd44",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 176,
+  "mode": "global",
+  "variables": 3104,
+  "clauses": 5568,
+  "cnf_sha256": "2d3abf19a79c82f5827f9e97f867881a1e7de1e2ab49ef9c8ae2a5a8db234559",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 171,
+  "mode": "global",
+  "variables": 3082,
+  "clauses": 5520,
+  "cnf_sha256": "a5df6938be39491fd96a1bd45560c6d2750f09c698c3957c3c21383b63b973f3",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 120,
+  "mode": "global",
+  "variables": 3203,
+  "clauses": 5736,
+  "cnf_sha256": "5197539bf87584bbb2b63f26a00c15a6a06c7c65813ffb5874f5b4b87eaaa97a",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 126,
+  "mode": "global",
+  "variables": 3203,
+  "clauses": 5736,
+  "cnf_sha256": "657b9d9fd46774201fc5772928858569180f04a92992bf08595956d3607cf3ff",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 128,
+  "mode": "global",
+  "variables": 3203,
+  "clauses": 5736,
+  "cnf_sha256": "eb86e5550e1a7a4f83bd8f6597203042916bf6bdab88ad4d5030d6694228c9b6",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 130,
+  "mode": "global",
+  "variables": 3125,
+  "clauses": 5592,
+  "cnf_sha256": "fc41b77f23c5939b2fdcd8862ad42c3d8c482cb6a20160f1097d325fc1a44230",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 42,
+  "mode": "global",
+  "variables": 3194,
+  "clauses": 5712,
+  "cnf_sha256": "714446377b83578ff25ba24143938675c96c3a8a72a9a6657a57ae947908f894",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 44,
+  "mode": "global",
+  "variables": 3194,
+  "clauses": 5712,
+  "cnf_sha256": "b44cbbb7632a4b7c491692d9df36663f3eeb4293eed7cc9f05b59128ef1f6377",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 133,
+  "mode": "global",
+  "variables": 3207,
+  "clauses": 5736,
+  "cnf_sha256": "a4960cf7b18f870404f42639f525208636b5caf09d120c538bc53cdcf6b8c25e",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 135,
+  "mode": "global",
+  "variables": 3207,
+  "clauses": 5736,
+  "cnf_sha256": "a959b0d6371b7538a562cdd4f8a156c2fe522d2105475735045010b0b2abeddb",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 262,
+  "mode": "global",
+  "variables": 3116,
+  "clauses": 5574,
+  "cnf_sha256": "f7d3a20099c05ec1483ca0ee3add8494d49f019cd394509ed31793fc21e1a7f9",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 161,
+  "mode": "layer",
+  "variables": 4869,
+  "clauses": 24092,
+  "cnf_sha256": "c593ac8f6a1cec831ab9a887382c25c138dc4fee1d42b3ccad46293077f8e192",
+  "verdict": "UNKNOWN",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "-t",
+    "180",
+    "--no-binary",
+    "artifacts\\tmp\\S005\\dense\\layer-row161.cnf",
+    "artifacts\\tmp\\S005\\dense\\layer-row161.drat"
+   ],
+   "returncode": 1,
+   "seconds": 0.0,
+   "hard_cap": 200
+  }
+ },
+ {
+  "index": 163,
+  "mode": "layer",
+  "variables": 4791,
+  "clauses": 23924,
+  "cnf_sha256": "b5e96e09dc44be65221607e67caa5bbcef7a07688f41a7eb89fbdcfa03bc5e25",
+  "verdict": "UNKNOWN",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "-t",
+    "180",
+    "--no-binary",
+    "artifacts\\tmp\\S005\\dense\\layer-row163.cnf",
+    "artifacts\\tmp\\S005\\dense\\layer-row163.drat"
+   ],
+   "returncode": 1,
+   "seconds": 0.01599999999598367,
+   "hard_cap": 200
+  }
+ },
+ {
+  "index": 164,
+  "mode": "layer",
+  "variables": 4869,
+  "clauses": 24092,
+  "cnf_sha256": "5c26f836ef3c782534026fbaf7e81f80c76c12a884736fba91848f8a3033089a",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 154,
+  "mode": "layer",
+  "variables": 5100,
+  "clauses": 26006,
+  "cnf_sha256": "3ba65a9dcd151428bcccec5d0cc8f6c4326d73dbc8ecc83c86d26f7e5653b250",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 158,
+  "mode": "layer",
+  "variables": 4996,
+  "clauses": 25782,
+  "cnf_sha256": "1c385db506061c09b2de2c6f23aabf08e10be1fd560cdc6e705eaab78769cdc0",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 160,
+  "mode": "layer",
+  "variables": 5100,
+  "clauses": 26006,
+  "cnf_sha256": "5ed3548b8d2622b9aadaad60b153f72f39bad3aaafc4b1969fde3d19594160cc",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 176,
+  "mode": "layer",
+  "variables": 5100,
+  "clauses": 26006,
+  "cnf_sha256": "290371a073826538ea3ee8afeca11b02dd4a27dc0bf7905feed007da7c95fb35",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 171,
+  "mode": "layer",
+  "variables": 5192,
+  "clauses": 27688,
+  "cnf_sha256": "840901dc097abb4ea2374d1e6459e5db0dc321dab3dea880f4f03738d76ed445",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 120,
+  "mode": "layer",
+  "variables": 5427,
+  "clauses": 29750,
+  "cnf_sha256": "a6eff30070759a9850cc45b2d5a57bb1cfad20fd63040e5a41e80d5639c7d327",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 126,
+  "mode": "layer",
+  "variables": 5427,
+  "clauses": 29750,
+  "cnf_sha256": "70a9a2e5dac7c6e30374711e845027d87eade6af4b6d8603b67a443084f57d50",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 128,
+  "mode": "layer",
+  "variables": 5427,
+  "clauses": 29750,
+  "cnf_sha256": "1d2fa3c723b140be09b37a338e6dd022bf649a9eeca19f5d45fb1c963ab790b4",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 130,
+  "mode": "layer",
+  "variables": 5349,
+  "clauses": 29582,
+  "cnf_sha256": "fb1c844d7bd1fb6443b2c83001e95aee2016f9ef691d71672a9110ce50c763e5",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 42,
+  "mode": "layer",
+  "variables": 5532,
+  "clauses": 31604,
+  "cnf_sha256": "92f5964696bbddf19511a0a5ea0271bd9eb29a742c7b1dd028963c35caab205f",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 44,
+  "mode": "layer",
+  "variables": 5532,
+  "clauses": 31604,
+  "cnf_sha256": "baff7ba087cd419cd86390f4b209c3f0dfe27e641f798daeda492a826eae1ed7",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 133,
+  "mode": "layer",
+  "variables": 5545,
+  "clauses": 31632,
+  "cnf_sha256": "3ce6ed1f3df1aded8b6bda3bb9a5dfdf62bbbfb6568a27ef2dc6cde20e06046f",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 135,
+  "mode": "layer",
+  "variables": 5545,
+  "clauses": 31632,
+  "cnf_sha256": "ad57a1c75191acf711d7d62dfbc3c4a805c5aad29672b647f4f24e7182f79857",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ },
+ {
+  "index": 262,
+  "mode": "layer",
+  "variables": 5454,
+  "clauses": 31442,
+  "cnf_sha256": "f609c5fcefc3cdf73940a2a12b8de740925c922c89ee73973cb0894107ce307a",
+  "verdict": "UNKNOWN",
+  "reason": "route stopped after two consecutive caps; not run"
+ }
+]

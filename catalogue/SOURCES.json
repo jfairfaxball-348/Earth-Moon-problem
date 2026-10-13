@@ -85,7 +85,7 @@
   "year": 2026,
   "url": "https://arxiv.org/html/2609.28102v1",
   "access": "PROOF_INSPECTED",
-  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed.",
+  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run.",
   "accessed": "2026-10-13"
  },
  {
@@ -125,7 +125,7 @@
   "year": 2022,
   "url": "https://www.math.emory.edu/~rg/sparse.pdf",
   "access": "STATEMENT_INSPECTED",
-  "note": "Theorems 1.2/1.7 and range k>=33 inspected. DOI 10.1016/j.jctb.2022.04.004. Main proof not reconstructed.",
+  "note": "Theorems 1.2/1.7 and range k>=33 inspected. DOI 10.1016/j.jctb.2022.04.004. Main proof not reconstructed. S005 primary Theorem1.7/Corollary1.10 range re-inspected, still k>=33.",
   "accessed": "2026-10-12"
  },
  {
@@ -165,7 +165,7 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-biplanar",
   "access": "STATEMENT_INSPECTED",
-  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed.",
+  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin.",
   "accessed": "2026-10-13"
  },
  {
@@ -205,7 +205,7 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-chi10",
   "access": "METADATA_ONLY",
-  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected.",
+  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable.",
   "accessed": "2026-10-13"
  },
  {
@@ -258,5 +258,18 @@
   "access": "METADATA_ONLY",
   "accessed": "2026-10-13",
   "note": "Primary GitHub release API tag/asset URL/size inspected; binary release used for Windows builds. Download and executable hashes in S004 manifest; no mathematical proof claim."
+ },
+ {
+  "id": "SRC-0027",
+  "title": "Colour-critical graphs with few edges",
+  "authors": "A. V. Kostochka, M. Stiebitz",
+  "year": 1998,
+  "publication_date": "1998-09-28",
+  "url": "https://kostochk.web.illinois.edu/docs/2000/dm1998Stieb.pdf",
+  "doi": "10.1016/S0012-365X(98)00100-9",
+  "access": "PROOF_INSPECTED",
+  "accessed": "2026-10-13",
+  "note": "Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection.",
+  "alternate_url": "https://www.sciencedirect.com/science/article/pii/S0012365X98001009"
  }
 ]
