@@ -1,0 +1,37 @@
+[
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_s007_archives.py"
+  ],
+  "returncode": 0,
+  "seconds": 11.046000000002095,
+  "hard_cap": 600,
+  "observed_peak_tree_private_bytes": 1117966336
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "scripts/check_scaffold.py"
+  ],
+  "returncode": 0,
+  "seconds": 0.11000000000058208,
+  "hard_cap": 120,
+  "observed_peak_tree_private_bytes": 831488
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "-m",
+   "unittest",
+   "discover",
+   "-s",
+   "tests",
+   "-v"
+  ],
+  "returncode": 0,
+  "seconds": 0.10899999999674037,
+  "hard_cap": 120,
+  "observed_peak_tree_private_bytes": 831488
+ }
+]

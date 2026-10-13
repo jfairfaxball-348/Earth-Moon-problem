@@ -1,0 +1,18 @@
+[
+ {
+  "index": 162,
+  "verdict": "SAT_RELAXATION_DIRECTLY_CHECKED"
+ },
+ {
+  "index": 155,
+  "verdict": "SAT_RELAXATION_DIRECTLY_CHECKED"
+ },
+ {
+  "index": 157,
+  "verdict": "SAT_RELAXATION_DIRECTLY_CHECKED"
+ },
+ {
+  "index": 159,
+  "verdict": "SAT_RELAXATION_DIRECTLY_CHECKED"
+ }
+]

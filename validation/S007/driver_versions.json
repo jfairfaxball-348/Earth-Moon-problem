@@ -1,0 +1,20 @@
+{
+ "initial_global": {
+  "sha256": "6ad2425c25b00ae352fb259b889e58885000e514172584547cd8d58aa5df31c2",
+  "snapshot": "validation\\S007\\global_initial_driver_snapshot.py.txt",
+  "launch_hash_grade": "OBSERVED_BEFORE_LAUNCH",
+  "snapshot_grade": "RECONSTRUCTED_AFTER_FAILURE_MATCHES_OBSERVED_LAUNCH_HASH"
+ },
+ "repaired_global": {
+  "sha256": "161770d84840f20d0558c80f71781ba36e1a07c99ec61272c620ed7f0fdbc3a0",
+  "launch_hash_grade": "OBSERVED_BEFORE_REPAIRED_LAUNCH"
+ },
+ "replay_search": {
+  "sha256": "018f8940b3529a52822568d2f2c905be838afa137e8127971641521f82c2bbf5",
+  "launch_hash_grade": "OBSERVED_BEFORE_EACH_LAUNCH",
+  "snapshot": "validation/S007/replay_driver_snapshot.py.txt",
+  "restoration": "Exact original bytes restored after helper insertion; extra helper separately executed"
+ },
+ "native": "S004 source/runtime/binary pins freshly verified; no changes/build",
+ "retained_unknowns": "All UNKNOWNs/caps/NOT_RUNs preserve exact observed outcomes; no negative evidence"
+}

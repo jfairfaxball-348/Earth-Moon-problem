@@ -1,6 +1,4 @@
-# Claim register after S006
-
-Headline OPEN,9 <= chi_2 <=12. Exact scopes and limitations below.
+# Claims register after S007
 
 ## CLM-0001 — SOURCE_STATED
 
@@ -361,3 +359,35 @@ S006 adds15 checked non-biplanarity exclusions among the fixed271 chi10 candidat
 Sources: SRC-0009, SRC-0024, SRC-0025.
 
 Each new necessary Cover CNF regenerated and original/retained compact DRAT freshly checked. All19 target lower chromatic proofs replayed and upper colourings checked. D1 remaining[]; registered UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159]. Finite domain only; no thickness-minimality, novelty or headline advance.
+
+## CLM-0046 — PROGRAMME_PROVED
+
+For biplanar n>=4 inputs of deficit D<=2, two planar sphere completions have disjoint facial triple sets; the S007 global multiplicity CNF and stronger planar-subset/K5 Cover cuts are necessary.
+
+Sources: SRC-0009.
+
+Surplus/necessity/orbit-minimum proof in research/S007_ENCODINGS. StrongCover implementation is restricted to at most11 closed-twin classes; mathematical cuts are necessary in general. Distinct faces disabled at D>=3; both encodings lack a SAT converse. Finite controls are not the proof.
+
+## CLM-0047 — PROGRAMME_PROVED
+
+For every low component C in an actual12-critical biplanar graph, chi(G-C)=11. If the low subgraph is nonempty and connected, chi(G[H])=11.
+
+Sources: SRC-0027, SRC-0014.
+
+Complete spare-colour/endblock proof in research/S007_CRITICAL_PALETTES; uses published Gallai and extension theorem. No conclusion chi(H)=11 for disconnected L, simultaneous extension, universal upper improvement or novelty.
+
+## CLM-0048 — PROGRAMME_PROVED
+
+A heavy K8 endblock in a12-critical biplanar graph has four independent common exterior neighbours with total excess sum(deg-12)>=13, hence one has degree>=16.
+
+Sources: SRC-0027, SRC-0014.
+
+Actual common neighbour set, K9 exclusion and11-colour blocking count; general independent-Z bound (s-2)|Z|-11 in research/S007_CRITICAL_PALETTES. May not be summed over overlapping boundaries; no contradiction with unbounded Q/D.
+
+## CLM-0049 — COMPUTED_EXACT
+
+The explicit12v/51e graph K6 joined to independent6 is biplanar and exactly7-chromatic.
+
+Sources: None; programme proof/computation..
+
+Labelled exact disjoint split, independent LR/sphere rotations and proper7-colouring in validation/S007/heavy_search.json; K7 clique lower bound. Local heavy-K7 control only, not12-critical or chi>=10.

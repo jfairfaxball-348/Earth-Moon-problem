@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""CAM-0008 C: independent no-lex global D2 necessary face-incidence model."""
+import itertools
+import json
+import sys
+import shutil
+from pathlib import Path
+from pysat.card import CardEnc,EncType
+from pysat.formula import IDPool
+from pysat.solvers import Cadical153
+from biplanar_cnf import read_edges
+from s004_certify import write_cnf
+from s005_replay import sha
+from s005_search import run_logged,compress
+from s005_dense import faces
+from check_layers import certify_layer
+from s007_run import ROOT,TMP,CHECKER,save,INDICES
+
+
+def encode(edges):
+    n=1+max(max(e) for e in edges);eset=set(edges)
+    assert n>=4 and len(eset)==len(edges)==6*n-14
+    pairs=list(itertools.combinations(range(n),2));pool=IDPool()
+    bits={e:[pool.id(('extra',e))] if e in eset else [pool.id(('present',e)),pool.id(('double',e))] for e in pairs}
+    triples=[q for q in itertools.combinations(range(n),3)
+        if sum(e not in eset for e in itertools.combinations(q,2))<=2]
+    f={q:pool.id(('global-face',q)) for q in triples}
+    cls=CardEnc.equals([x for values in bits.values() for x in values],bound=2,vpool=pool,encoding=EncType.totalizer).clauses
+    incident={e:[] for e in pairs}
+    for q in triples:
+        for e in itertools.combinations(q,2):
+            incident[e].append(f[q])
+            if e not in eset:cls.append([-f[q],bits[e][0]])
+    def eq(lits,demand,gates):
+        if len(lits)<demand:
+            cls.append(gates)
+        else:
+            cls.extend(gates+c for c in CardEnc.equals(lits,bound=demand,vpool=pool,encoding=EncType.seqcounter).clauses)
+    for e in pairs:
+        fs=incident[e]
+        if e in eset:
+            z=bits[e][0];eq(fs,2,[z]);eq(fs,4,[-z])
+        else:
+            p,d=bits[e];cls.append([-d,p])
+            cls.extend([[p,-v] for v in fs])
+            eq(fs,2,[-p,d]);eq(fs,4,[-d])
+    return pool.top,cls,f,bits
+
+
+def controls():
+    w=json.loads(Path('validation/degree11_witness.json').read_text())
+    n=w['num_vertices'];layers=[{tuple(e) for e in w[k]} for k in ('edges_part1','edges_part2')]
+    assert not layers[0]&layers[1]
+    es=sorted(layers[0]|layers[1]);fs=[faces(n,sorted(x)) for x in layers]
+    assert not fs[0]&fs[1]
+    rows=[]
+    for removed in ((es[0],es[1]),(es[0],es[-1]),(es[-2],es[-1])):
+        edges=sorted(set(es)-set(removed));nv,cls,f,bits=encode(edges)
+        selected=fs[0]|fs[1];assert selected<=set(f)
+        assumptions=[v if q in selected else -v for q,v in f.items()]
+        for e,values in bits.items():
+            multiplicity=sum(e in layer for layer in layers)
+            assumptions.extend([values[0] if multiplicity==2 else -values[0]] if e in set(edges)
+                else [values[0] if multiplicity>=1 else -values[0],values[1] if multiplicity==2 else -values[1]])
+        with Cadical153(bootstrap_with=cls) as solver:assert solver.solve(assumptions=assumptions)
+        rows.append(dict(n=n,removed=removed,variables=nv,clauses=len(cls),completion_faces=[sorted(x) for x in fs],
+            completion_edges=[sorted(x) for x in layers],component_faces=[certify_layer(n,sorted(x)) for x in layers],
+            primary_pinned_actual_assignment='SAT'))
+    save(ROOT/'global_controls.json',rows)
+    print('PASS3 exact D2 actual completion/face/multiplicity controls',flush=True)
+
+
+def search():
+    root=ROOT/'global';root.mkdir(exist_ok=True);tmp=TMP/'global';tmp.mkdir(exist_ok=True)
+    solver=str(Path('artifacts/tmp/S004/cadical.exe').resolve())
+    save(ROOT/'global_launch_hashes.json',{p:sha(p) for p in ('tools/s007_global.py','tools/s005_search.py')})
+    assert (ROOT/'BASELINE_PASS.json').exists();controls()
+    rows=[];consecutive=0
+    for idx in INDICES:
+        ef=ROOT/'targets'/f'row{idx}.edges';prefix=tmp/f'row{idx}';cnf=Path(str(prefix)+'.cnf');proof=Path(str(prefix)+'.drat')
+        nv,cls,_,_=encode(read_edges(ef));write_cnf(cnf,nv,cls)
+        row=dict(index=idx,verdict='UNKNOWN',edgefile=str(ef),variables=nv,clauses=len(cls),cnf_sha256=sha(cnf))
+        if consecutive>=2:row['reason']='NOT_RUN after two consecutive final UNKNOWNs'
+        else:
+            run=run_logged([solver,'-q','--no-binary',str(cnf),str(proof)],320,str(prefix)+'.solve.log');row['solve']=run
+            if run['returncode']==10:row['verdict']='SAT_RELAXATION'
+            elif run['returncode']==20:
+                regen=Path(str(prefix)+'.regenerated.cnf');write_cnf(regen,*encode(read_edges(ef))[:2])
+                assert regen.read_bytes()==cnf.read_bytes()
+                log=Path(str(prefix)+'.check.log')
+                check=run_logged([CHECKER,str(cnf),str(proof),'-t','1200'],1220,log);row['check']=check
+                if check['returncode']==0 and 's VERIFIED' in log.read_text():
+                    core=Path(str(prefix)+'.core.drat');trimlog=Path(str(prefix)+'.trim.log')
+                    trim=run_logged([CHECKER,str(cnf),str(proof),'-l',str(core),'-t','600'],620,trimlog)
+                    row['trim']=trim;selected=proof
+                    if trim['returncode']==0 and core.exists() and 's VERIFIED' in trimlog.read_text():
+                        corelog=Path(str(prefix)+'.core.check.log')
+                        chk=run_logged([CHECKER,str(cnf),str(core),'-t','600'],620,corelog);row['core_check']=chk
+                        if chk['returncode']==0 and 's VERIFIED' in corelog.read_text():selected=core
+                    dest=root/f'row{idx}';compress(cnf,str(dest)+'.cnf.gz');compress(selected,str(dest)+'.drat.gz')
+                    row.update(verdict='NON_BIPLANAR_DRAT_VERIFIED',original_proof_sha256=sha(proof),original_proof_bytes=proof.stat().st_size,
+                        archive=str(dest)+'.drat.gz',archive_sha256=sha(str(dest)+'.drat.gz'),
+                        archive_raw_sha256=sha(selected),archive_raw_bytes=selected.stat().st_size)
+            consecutive=consecutive+1 if row['verdict']=='UNKNOWN' else 0
+            if proof.exists() and row['verdict']=='UNKNOWN':row['partial_proof_sha256']=sha(proof);row['partial_proof_bytes']=proof.stat().st_size
+            for suffix in ('.solve.log','.check.log','.trim.log','.core.check.log'):
+                p=Path(str(prefix)+suffix)
+                if p.exists():shutil.copyfile(p,root/(prefix.name+suffix))
+        rows.append(row);save(ROOT/'global_results.json',rows)
+        print('D2 global',idx,row['verdict'],flush=True)
+
+
+if __name__=='__main__':search()

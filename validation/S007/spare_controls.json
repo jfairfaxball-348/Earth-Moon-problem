@@ -1,0 +1,124 @@
+{
+ "domain": [
+  {
+   "n": 2,
+   "all_labelled_graphs": 2,
+   "proper_three_colouring_assignments": 15,
+   "nonadjacent_pair_challenges": 9
+  },
+  {
+   "n": 3,
+   "all_labelled_graphs": 8,
+   "proper_three_colouring_assignments": 123,
+   "nonadjacent_pair_challenges": 225
+  },
+  {
+   "n": 4,
+   "all_labelled_graphs": 64,
+   "proper_three_colouring_assignments": 1635,
+   "nonadjacent_pair_challenges": 6066
+  },
+  {
+   "n": 5,
+   "all_labelled_graphs": 1024,
+   "proper_three_colouring_assignments": 35043,
+   "nonadjacent_pair_challenges": 218910
+  }
+ ],
+ "triangle_fan": {
+  "V": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "every_proper_three_colouring": [
+   [
+    0,
+    1,
+    2,
+    1,
+    2
+   ],
+   [
+    0,
+    2,
+    1,
+    2,
+    1
+   ],
+   [
+    1,
+    0,
+    2,
+    0,
+    2
+   ],
+   [
+    1,
+    2,
+    0,
+    2,
+    0
+   ],
+   [
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    2,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "nonadjacent_pair": [
+   1,
+   4
+  ],
+  "forced_distinct_without_spare": true,
+  "proper_four_colouring_with_equal_pair": [
+   3,
+   0,
+   1,
+   2,
+   0
+  ]
+ },
+ "scope": "Finite corroboration; hand proof is all-order; no12-critical witness"
+}

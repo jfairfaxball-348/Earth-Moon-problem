@@ -33,3 +33,7 @@
 - D026(S006): Prospectively extend remaining D1 targets; 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
 - D027(S006): Sharp Gallai block weights and published simultaneous palette budget leave heavy/large-deficit routes open.
 - D028(S006): Preserve driver provenance and repair consecutive-UNKNOWN counter; accepted CNFs/native tools unchanged.
+
+- D029(S007): Register stronger planar-subset/K5/D<=2 face cuts, independent no-lex incidence and longer supervised full searches; every finalUNKNOWN counts toward stop. S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- D030(S007): Use actual criticality to prove chi(G-C)=11 and heavyK8 excess>=13; separate simultaneous/large-deficit obligations and published method attribution.
+- D031(S007): Separate relaxed models from actual layers; preserve observed launch hashes and explicit repair provenance; allS008 and downstream gates remain unexecuted.

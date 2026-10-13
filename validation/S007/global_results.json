@@ -1,0 +1,86 @@
+[
+ {
+  "index": 162,
+  "verdict": "SAT_RELAXATION",
+  "edgefile": "validation\\S007\\targets\\row162.edges",
+  "variables": 57077,
+  "clauses": 253747,
+  "cnf_sha256": "1c6700177d232aa5e0f870121cb3db90aa1969c09eaf9426c6af0c62285cfd0c",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S007\\global\\row162.cnf",
+    "artifacts\\tmp\\S007\\global\\row162.drat"
+   ],
+   "returncode": 10,
+   "seconds": 0.3279999999940628,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 46718976
+  }
+ },
+ {
+  "index": 155,
+  "verdict": "SAT_RELAXATION",
+  "edgefile": "validation\\S007\\targets\\row155.edges",
+  "variables": 64138,
+  "clauses": 299386,
+  "cnf_sha256": "fb8451326e632d3551cb565c744d5debc42bfdbd7ef9b59984cb28bd708bc551",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S007\\global\\row155.cnf",
+    "artifacts\\tmp\\S007\\global\\row155.drat"
+   ],
+   "returncode": 10,
+   "seconds": 0.5310000000026776,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 56205312
+  }
+ },
+ {
+  "index": 157,
+  "verdict": "SAT_RELAXATION",
+  "edgefile": "validation\\S007\\targets\\row157.edges",
+  "variables": 63990,
+  "clauses": 299074,
+  "cnf_sha256": "5da064942bff814114b9b08a9dce74975293be11df71fec9076e04e54906f220",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S007\\global\\row157.cnf",
+    "artifacts\\tmp\\S007\\global\\row157.drat"
+   ],
+   "returncode": 10,
+   "seconds": 0.6410000000032596,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 56074240
+  }
+ },
+ {
+  "index": 159,
+  "verdict": "SAT_RELAXATION",
+  "edgefile": "validation\\S007\\targets\\row159.edges",
+  "variables": 64138,
+  "clauses": 299386,
+  "cnf_sha256": "24c079a4dc9fd3c052d89457780f3920fc56a051445e49197039fa4b492ff420",
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S007\\global\\row159.cnf",
+    "artifacts\\tmp\\S007\\global\\row159.drat"
+   ],
+   "returncode": 10,
+   "seconds": 0.5469999999913853,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 56201216
+  }
+ }
+]

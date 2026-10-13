@@ -85,7 +85,7 @@
   "year": 2026,
   "url": "https://arxiv.org/html/2609.28102v1",
   "access": "PROOF_INSPECTED",
-  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed.",
+  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed.",
   "accessed": "2026-10-13"
  },
  {
@@ -115,7 +115,7 @@
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22074335",
   "access": "STATEMENT_INSPECTED",
-  "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected.",
+  "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed.",
   "accessed": "2026-10-13"
  },
  {
@@ -135,8 +135,8 @@
   "year": 2022,
   "url": "https://cglab.ca/~biniaz/papers/Non-biplanar-K9.pdf",
   "access": "PROOF_INSPECTED",
-  "note": "Author six-page proof inspected; classical non-biplanarity dependency, not programme novelty. Published DOI 10.7155/JGAA.00582.",
-  "accessed": "2026-10-12"
+  "note": "Author six-page proof inspected; classical non-biplanarity dependency, not programme novelty. Published DOI 10.7155/JGAA.00582. S007 primary PDF reopened for classical K9 dependency; no new K9 novelty or full fresh formal replay.",
+  "accessed": "2026-10-13"
  },
  {
   "id": "SRC-0015",
@@ -165,7 +165,7 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-biplanar",
   "access": "STATEMENT_INSPECTED",
-  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin.",
+  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin. S007 live main/tree/date API again matches corrected2026 pin.",
   "accessed": "2026-10-13"
  },
  {
@@ -205,7 +205,7 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-chi10",
   "access": "METADATA_ONLY",
-  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred.",
+  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred.",
   "accessed": "2026-10-13"
  },
  {
@@ -269,7 +269,7 @@
   "doi": "10.1016/S0012-365X(98)00100-9",
   "access": "PROOF_INSPECTED",
   "accessed": "2026-10-13",
-  "note": "Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed.",
+  "note": "Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced.",
   "alternate_url": "https://www.sciencedirect.com/science/article/pii/S0012365X98001009"
  },
  {
@@ -282,7 +282,7 @@
   "doi": "10.48550/arXiv.1602.02589",
   "access": "PROOF_INSPECTED",
   "accessed": "2026-10-13",
-  "note": "Primary Lemma3.1 statement and complete local induction proof inspected, plus related Lemma3.2/Corollary3.3 statements and degree definition. Not complete discharging/criticality proof. arXiv metadata lists Combinatorica38(5),1045-1065(2018). Generic k controls maximum degree k-1; k=9 cannot cover max-degree11. Related block-density work, no priority guarantee for S006."
+  "note": "Primary Lemma3.1 statement and complete local induction proof inspected, plus related Lemma3.2/Corollary3.3 statements and degree definition. Not complete discharging/criticality proof. arXiv metadata lists Combinatorica38(5),1045-1065(2018). Generic k controls maximum degree k-1; k=9 cannot cover max-degree11. Related block-density work, no priority guarantee for S006. S007 primary reopened; actual maximum-degree parameter restrictions retained."
  },
  {
   "id": "SRC-0029",
@@ -295,6 +295,6 @@
   "doi": "10.48550/arXiv.2608.06757",
   "access": "STATEMENT_INSPECTED",
   "accessed": "2026-10-13",
-  "note": "Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance."
+  "note": "Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained."
  }
 ]

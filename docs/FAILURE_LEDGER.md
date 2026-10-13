@@ -38,3 +38,8 @@ S001 performed no research. Absence of a found example never proves universal no
 | F029 | Total deficit supplies list/DP mad threshold | All-subgraph11+1/28 unproved | No EMP bound |
 | F030 | Short D2 searches decide stratum | UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], caps[162, 155] | Stronger route needed |
 | F031 | Internal UNKNOWN exit0 correctly increments original counter | Reset found in code review and repaired | Actual caps/source limits preserved; accepted proofs unaffected |
+
+| F032 | Stronger full D2 model at longer registered caps settles frontier | Actual UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], caps[162, 155] | No cap negative; D2 stratum remains open |
+| F033 | Global distinct D2 face incidence alone excludes selected rows | Four directly checked SAT_RELAXATION models | Layer/link/planarity necessary |
+| F034 | Every common-boundary heavy clique local join is non-biplanar | Actual K6-I6 exactchi7 split; K7-I5 Cover/Kuratowski outcomes explicit | Criticality/support rather than universal local obstruction |
+| F035 | Arbitrary proper colouring can co-colour a nonadjacent pair with no spare colour | Planar K1-join-P4 endpoints forced distinct in every3-colouring | Spare-colour premise essential |
