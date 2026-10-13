@@ -1,9 +1,9 @@
 # Phase-gate ledger
 
-| Gate | Requirement | Status after S005 |
+| Gate | Requirement | Status after S006 |
 |---|---|---|
 | 0 Bootstrap | Governed repo, authority, sources/claims, exact target, reproducibility plan | PASS — administrative only |
-| 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | ACTIVE; S005 adds 25 checked finite exclusions, 245 candidates UNKNOWN; no bound advance; headline gate NOT PASSED |
+| 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | ACTIVE; S006 adds15 checked finite exclusions,230 candidates UNKNOWN; all24 fixed-list D1 rows excluded; no bound advance; headline gate NOT PASSED |
 | 2 First novelty | Result-specific primary-source priority and overlap challenge | NOT STARTED |
 | 3 Lean | Clean pinned Lean/mathlib kernel proof of exact claim | NOT STARTED |
 | 4 Final novelty | Independent current literature/assumptions/formal statement check | NOT STARTED |
@@ -16,3 +16,5 @@ No gate advances from a plan, conjecture, solver log or second-hand claim.
 S004: one finite non-biplanarity exclusion and exact frontier/corpus audits. Headline gate 1 NOT PASSED; 9..12 unchanged. Gates 2–7 unchanged. Independent direct-incidence challenge did not reproduce the exclusion; no external review or Lean result.
 
 S005: 25 additional certified finite exclusions and necessary criticality constraints. Headline gate1 NOT PASSED;9..12 unchanged; novelty/formalisation/publication gates unchanged.
+
+S006: 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. Sharp low-forest density and conditional light-palette constraints; headline gate1 NOT PASSED,9..12 unchanged. Gates2–7 unchanged; no universal upper/external review/Lean.

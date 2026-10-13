@@ -1,6 +1,6 @@
-# Claim register after S005
+# Claim register after S006
 
-Headline remains open, 9 <= chi_2 <= 12. Exact scopes and limitations below.
+Headline OPEN,9 <= chi_2 <=12. Exact scopes and limitations below.
 
 ## CLM-0001 — SOURCE_STATED
 
@@ -78,7 +78,7 @@ Complete elementary proof research/S002_ODD_CYCLE_BLOWUPS.md. C5 overlap known, 
 
 An explicitly certified 42-vertex biplanar graph has minimum degree 11 (24 degree-11 and 18 degree-12 vertices) and a proper 7-colouring.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 CAM-0002 certificate validation/degree11_witness.json; disproves universal 10-degeneracy. Exact chromatic number NOT claimed.
 
@@ -102,7 +102,7 @@ Known saturated bridge obstruction, reconstructed in research/S002_AMPLIFICATION
 
 Identification of independent sets need not preserve biplanarity.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Explicit planar matching quotient K12, symbolic proof; no new computation.
 
@@ -110,7 +110,7 @@ Explicit planar matching quotient K12, symbolic proof; no new computation.
 
 In a 12-critical biplanar graph, degree-11 vertices number 24+2D+sum_{d>=13}(d-12).
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Exact degree-sum identity; at least 24+2D, not an extension lemma or finite reduction.
 
@@ -118,7 +118,7 @@ Exact degree-sum identity; at least 24+2D, not an extension lemma or finite redu
 
 apex(H) is biplanar iff E(H)=E1+E2 and V(H)=S1+S2 with Si on one face of a plane embedding of (V,Ei).
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 research/S003_FACE_DEFICIT.md Lemma 1.
 
@@ -134,7 +134,7 @@ Lemma 2/Cor 3; generalizes the saturated bridge obstruction; overlap with SRC-00
 
 In a biplanar graph with deficit D at least N-4D vertices are wheel vertices in both layers; a 12-critical biplanar graph with D<=11 has at least 24-2D degree-11 double-wheel vertices.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 research/S003_UPPER_BOUND.md Lemma 6, Cor 7-8; not a reducibility result.
 
@@ -158,7 +158,7 @@ CAM-0004: reductions R1-R5 proved; zero survivors for k<=6; independent checker 
 
 On bases with 7 (resp. 8) vertices, every clique blow-up with chi>=10 that passes the counting filters F1-F3 has a 10-core among 13 (resp. 828) explicit survivor vectors; 570 of the 841 have alpha=2, N=19.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Independent checker agrees at k=7 only; k=8 not independently checked. validation/S003/census_*.json.
 
@@ -182,7 +182,7 @@ Calibration of the CAM-0003 v4 oracle; classical result, not new.
 
 K9-e, K9-P3, K9-K1,3, K2v(K4+K6+K6), K2v(K5+K5+K6), K3v3K5 and K10-C4 are biplanar.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Explicit layers in validation/S003/splits checked by NetworkX LR and the stdlib rotation checker (K10-C4 split not archived; reproducible). Biplanarity of K9-e may be known.
 
@@ -230,7 +230,7 @@ Necessary-condition proof in research/S004_TRIANGULATION_COVER.md; allows comple
 
 A 122-vertex, 187-edge biplanar graph with a degree-11 double-wheel vertex has an 11-colouring of its deletion for which no single Kempe component swap frees a neighbour colour; the graph itself is exactly 4-chromatic.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Explicit layers, colourings and all 55 alternating paths checked; odd C5 wheel supplies chi>=4. D=533, not 12-critical. Does not refute multi-swap, criticality or D<=11 reducibility.
 
@@ -238,7 +238,7 @@ Explicit layers, colourings and all 55 alternating paths checked; odd C5 wheel s
 
 An independent full 8^8-weight audit on each of the fixed bases GsUPOK and GrEKGc agrees with the S003 census for those two bases.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 GsUPOK: kept 485, colourable 458, F3 19, survivors 8; GrEKGc: kept 71, colourable 61, F3 0, survivors 10. Different chunk enumeration/MIS-cover method and main reruns. Not a full k=8 census check.
 
@@ -246,7 +246,7 @@ GsUPOK: kept 485, colourable 458, F3 19, survivors 8; GrEKGc: kept 71, colourabl
 
 Among positive C5 weights in {1,...,8} satisfying the registered F1-F3 filters, there are 297 dihedral classes and 13 maximal classes under dihedral componentwise containment.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Full 8^5 enumeration in tools/s004_frontier.py; maximal list archived. This counts necessary-filter patterns, not biplanar graphs or an exhaustive graph universe.
 
@@ -262,7 +262,7 @@ Checked chi=10 and regenerated completion-face CNF with 773 valid cuts; two DRAT
 
 C5[K3] is exactly 8-chromatic and its universal apex is exactly 9-chromatic.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Alpha=2 on 15 vertices forces chi>=8; checked explicit 8-colouring. Universal join adds exactly one, with explicit 9-colouring checked. Biplanarity UNKNOWN; this calibration cannot lift the lower bound to ten.
 
@@ -294,7 +294,7 @@ research/S005_FACE_REDUCTIONS.md. Repeated facial triangle would require at leas
 
 The stored S004 122-vertex, 187-edge one-swap Kempe-lock colouring of G-v extends after two complete Kempe component swaps.
 
-Sources: programme construction/argument.
+Sources: None; programme proof/computation..
 
 Choose neighbours1,6 and third colour at2, recolour one gadget vertex then neighbour1; both complete induced components have size one. Exact layers/rotations, properness at every stage and full extension verified. This graph is4-chromatic and not12-critical; no universal multi-swap theorem.
 
@@ -313,3 +313,51 @@ The fixed D=1 candidate rows 177,179,180,102,103,117,123,143 are 10-chromatic an
 Sources: SRC-0009, SRC-0024, SRC-0025.
 
 S005 full completion-face CNF regeneration and checked DRAT certificates; inherited exact chromatic certificates cold-hash audited. Other registered D=1 rows UNKNOWN: []. Total 25 new finite exclusions; 245 of the original 271 remain UNKNOWN. No stronger thickness, novelty or headline bound claimed.
+
+## CLM-0040 — PROGRAMME_PROVED
+
+A Gallai forest with l vertices, c components, maximum degree at most11 and clique number<=8, t K8 blocks and u=l-8t, satisfies e<=(7/2)l+(5/2)t-(5/2)c=(61/16)l-(5/2)c-(5/16)u. The61/16 coefficient is sharp for this class.
+
+Sources: None; programme proof/computation..
+
+Full contraction/root-weight proof including empty/singleton cases and all-order K8/K5 equality family in research/S006_CRITICAL_DENSITY.md. Nine actual layer/rotation/colour controls are corroboration, not universal proof. No novelty or12-critical equality witness asserted.
+
+## CLM-0041 — PROGRAMME_PROVED
+
+Every12-critical biplanar graph obeys96h>=648+54D+19Q+40c+16e_H+5u and16D_H>=456+54D+19Q+40c+5u, with h>=8 and u the number of low vertices outside K8 blocks.
+
+Sources: SRC-0027, SRC-0014.
+
+Uses CLM-0040 and the source-stated Gallai low-vertex theorem. Exact low/high cut algebra in research/S006_CRITICAL_DENSITY.md. No upper bound on counterexample order, colouring extension or universal upper improvement.
+
+## CLM-0042 — PROGRAMME_PROVED
+
+An explicit40v/60e biplanar chi8 graph with degree11 K8 core and pairwise disjoint external neighbourhoods has identical rainbow four-colour exterior palettes whose fixed11-colouring cannot extend.
+
+Sources: None; programme proof/computation..
+
+Labelled private leaves, exact disjoint layers/rotations, proper8-colouring and K8 lower bound checked; fixed boundary leaves only seven core colours. External vertices degree1; not12-critical. Refutes unconditional extension/common-neighbour inference, not actual criticality.
+
+## CLM-0043 — SOURCE_STATED
+
+Bradshaw2026 Theorem1.10 states K_(d+1)-free graphs of mad<=d+1/28 are correspondence d-colourable for d>=3.
+
+Sources: SRC-0029.
+
+Primary statement and local deduction inspected, full main proof not audited. At d=11 biplanarity only supplies mad<12; the required threshold is unproved. No headline improvement or transfer of list-criticality to ordinary criticality.
+
+## CLM-0044 — PROGRAMME_PROVED
+
+In a12-critical biplanar graph, if every degree11 low component has an endblock pair of noncut vertices with unequal actual exterior neighbour sets, then e_H+c>=66. In particular this holds if every low component is a single K8.
+
+Sources: SRC-0027, SRC-0014.
+
+Published Section2.2 Lemma3 good-colouring edge budget and Theorem1.3 extension, both local proofs inspected. Programme deduction in research/S006_PALETTES.md. Identical-cardinality actual sets required; heavy components not excluded, edge budget unbounded; no universal upper improvement or novelty.
+
+## CLM-0045 — COMPUTED_EXACT
+
+S006 adds15 checked non-biplanarity exclusions among the fixed271 chi10 candidates, rows[17, 29, 35, 46, 47, 80, 81, 82, 187, 189, 190, 195, 197, 258, 260]; 230 remain UNKNOWN.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+Each new necessary Cover CNF regenerated and original/retained compact DRAT freshly checked. All19 target lower chromatic proofs replayed and upper colourings checked. D1 remaining[]; registered UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159]. Finite domain only; no thickness-minimality, novelty or headline advance.

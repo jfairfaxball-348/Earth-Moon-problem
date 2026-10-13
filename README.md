@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S006 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S007 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -72,3 +72,11 @@ No headline advance: 9 <= chi_2 <= 12. S005 remains future and unexecuted.
 - [Criticality and two Kempe swaps](research/S005_UPPER_ROUTES.md): new necessary inequalities and exact extension of the noncritical S004 lock. No universal colouring improvement.
 
 Only S005 executed; [S006](authoritative/NEXT_SESSION_PROMPT.md) is FUTURE UNEXECUTED. No headline, novelty, formalisation or publication gate advanced.
+
+## S006 results
+
+- [Certified frontier](research/S006_FRONTIER.md): 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- [Sharp density route](research/S006_CRITICAL_DENSITY.md):61/16 forest and conditional high-deficit bounds.
+- [Palette route](research/S006_PALETTES.md): fixed-boundary trap and published simultaneous-colouring budget; heavy components open.
+
+Only through S006 executed; S007 FUTURE/UNEXECUTED.9..12 and novelty/formalisation/publication gates unchanged. Historical future labels superseded.

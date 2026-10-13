@@ -1,0 +1,477 @@
+[
+ {
+  "index": 161,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row161.cnf",
+    "artifacts\\tmp\\S006\\cold\\row161.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.75,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 62013440
+  },
+  "cnf_sha256": "32d4a0651a75cb571369768d2b40d21bf4a042ac32367470742b963633647e03",
+  "proof_sha256": "e3671a62bbd27489ade787190cc9d1c498a9b943f378e3199de922bb4f3860cf",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 163,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row163.cnf",
+    "artifacts\\tmp\\S006\\cold\\row163.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 1.0780000000086147,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65019904
+  },
+  "cnf_sha256": "7050c3fae11d81fb4979692b8e2d76bee3fe372008540c68dc998918c2d523c8",
+  "proof_sha256": "6c660669fb23d91b321be647c2efc096cce0d9d27c76c1dc90af97bb7ed4d232",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 164,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row164.cnf",
+    "artifacts\\tmp\\S006\\cold\\row164.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 7.827999999994063,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 76296192
+  },
+  "cnf_sha256": "51b08a036b5ebca8c7fed0880aa5d188c93ca9521f52a787f6a6e5ab3fdcaf03",
+  "proof_sha256": "5e07c53f24609761180ac4d5227939fe8f0d9e0718fda356fd5c0b1a81d64641",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 154,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row154.cnf",
+    "artifacts\\tmp\\S006\\cold\\row154.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 4.546999999991385,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 76406784
+  },
+  "cnf_sha256": "7f825cb0cc90a444be9cd8286dd87d3f0116a7eed2b207fa060400596cf63a18",
+  "proof_sha256": "34287530b835daa64a84ce9b76fafd4d8bc1cf3394e4173ef7035407961719c2",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 158,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row158.cnf",
+    "artifacts\\tmp\\S006\\cold\\row158.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.5469999999913853,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65142784
+  },
+  "cnf_sha256": "c1332ecd5e70473f502bbc0dd86ed92349415d2dce809266985df1bab5a47408",
+  "proof_sha256": "6f77d9bdb296a4406f840bed458bc994cc001d534d7a6244b4836e8bb3b720bd",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 160,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row160.cnf",
+    "artifacts\\tmp\\S006\\cold\\row160.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 7.3439999999973224,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 76406784
+  },
+  "cnf_sha256": "7757da64ad15d56464fc21098d85bc37f27dbfa095f74015c07b88bc1dc3cdd3",
+  "proof_sha256": "d372c168b42059e2ba521ecf0dfd8b5d290da3fb788ade3a1deee554d532e06c",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 176,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row176.cnf",
+    "artifacts\\tmp\\S006\\cold\\row176.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 3.2969999999913853,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 69644288
+  },
+  "cnf_sha256": "68e3e6794617319119fd9a9b1fde10f90f0288e163a10e380c17149b76157237",
+  "proof_sha256": "2e69c797a9b3b86a2981942e7ee0ae72df68a180fdf34fea4c181a2d9df7de7d",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 171,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row171.cnf",
+    "artifacts\\tmp\\S006\\cold\\row171.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.625,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65269760
+  },
+  "cnf_sha256": "1a80a73246eb94c596a55eabf019d17136c64bf1f3dff6ef63e54fabf45b4a07",
+  "proof_sha256": "f6e29990c2d48d2b700d6a407122caca4251a0819578223b321ca3c2acc2d732",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 120,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row120.cnf",
+    "artifacts\\tmp\\S006\\cold\\row120.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 2.577999999994063,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 69910528
+  },
+  "cnf_sha256": "9c4e59f2e05188a2ca6eddc62450fe247f35b82bf17f85c093b22f568699f262",
+  "proof_sha256": "9302109860c1fa90a0afb53ebb0124c6f8b9e19f88ec23301d6360f5bcb0639f",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 126,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row126.cnf",
+    "artifacts\\tmp\\S006\\cold\\row126.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.9529999999940628,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65400832
+  },
+  "cnf_sha256": "fa8ad9039160ee5fc24f8e3a382d74100c6528be395b7a2f597fb9773a5f9252",
+  "proof_sha256": "4d0c7b54fb1faeced688dff133b84facd1a11c77cdd0709709be76e87108761b",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 128,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row128.cnf",
+    "artifacts\\tmp\\S006\\cold\\row128.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 1.1720000000059372,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65400832
+  },
+  "cnf_sha256": "be8cd832586a8b551cd8b9ebf64abb8e99e8a3752e82e0d9c73431d4c0acc8a1",
+  "proof_sha256": "a24f3c8b54a1a9b577eda6a29bc62202889be85afc03e8b1317900d3fd3dfd1d",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 130,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row130.cnf",
+    "artifacts\\tmp\\S006\\cold\\row130.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.875,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65400832
+  },
+  "cnf_sha256": "6debf785e5340994231a0a8a00ef851ec00af3e94f296eaf3d0f0490ec5ae85c",
+  "proof_sha256": "7c06c4d8d8d00c8c6b9524ff56bd486e4335e2b98ad6e1a62e7d7e9d7a164dc5",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 42,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row42.cnf",
+    "artifacts\\tmp\\S006\\cold\\row42.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.875,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65552384
+  },
+  "cnf_sha256": "5134d82117ee73d81b60cc6afc4857778896d3c9fc3b12769d3ed706d36a7fe1",
+  "proof_sha256": "1d548fb08f741bc15ca5a5da206e0695d86ebd227c6b73678246555145f2b9c4",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 44,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row44.cnf",
+    "artifacts\\tmp\\S006\\cold\\row44.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.7810000000026776,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 71557120
+  },
+  "cnf_sha256": "c2eb099cf7f226ef96c74511cb8fac0dfc35b9ff6314a18efe4689ba2821e474",
+  "proof_sha256": "6cc0b06d131e4a071cab922783081e46f5593cdda3f50db32ba82396c2c77822",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 133,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row133.cnf",
+    "artifacts\\tmp\\S006\\cold\\row133.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.7649999999994179,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 79081472
+  },
+  "cnf_sha256": "9ce2f2d0758c030924273e21f0a8fadd1b091f3a7106cbbcca43072ea5c91aa1",
+  "proof_sha256": "b4d53c0a27b6a9a5fdeac2bc27fac7003a85f763c750da6c4d80eb45880031f5",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 135,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row135.cnf",
+    "artifacts\\tmp\\S006\\cold\\row135.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.6569999999919673,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65552384
+  },
+  "cnf_sha256": "2047ebdffd5328d99cbd5c17d23d5d01d81926a2ca84e1d2efa8ffd1bf7ae415",
+  "proof_sha256": "a625a8b670a08c27a74babc0eb0cb24ffca1385dd3c8c4f086294fbdcc34b6bd",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 262,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row262.cnf",
+    "artifacts\\tmp\\S006\\cold\\row262.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 0.8600000000005821,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 65552384
+  },
+  "cnf_sha256": "2955e8119cde69cd7b62f82ecdb6a2182e4ae42864c077b32bda07962bdcc438",
+  "proof_sha256": "14274f9fe1f3ff3342cfb2565c67f7f1dc621edfe3eb50af1aa8501b24a65f9d",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 177,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row177.cnf",
+    "artifacts\\tmp\\S006\\cold\\row177.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 115.67200000000594,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 219648000
+  },
+  "cnf_sha256": "8dca17789b827632dd82132e41823cf17188e7e4e6ac36f2d65bb1842fa83ff1",
+  "proof_sha256": "7d7bf2a71a0fcf712edb651dac76205258393bbde02517243ab163f12dde2e1d",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 179,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row179.cnf",
+    "artifacts\\tmp\\S006\\cold\\row179.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 147.32799999999406,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 317878272
+  },
+  "cnf_sha256": "806477bdd670d2585e252614659c101a91e0cd0658d40b6b6ca05fc408d25d8d",
+  "proof_sha256": "ba1d1bbf562770e00d0a0657651ea136daa9cf79b6500143abec2a38fc24aef1",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 180,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row180.cnf",
+    "artifacts\\tmp\\S006\\cold\\row180.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 120.28200000000652,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 219660288
+  },
+  "cnf_sha256": "1db923caf5ce05c9bfd521ae4370302564d09ae1852b8b89e1bdfbc3fcce86ef",
+  "proof_sha256": "162e31664d7f82cd450f7e8f8c497703b8170e7179102b7f6e53a87fed5218a0",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 102,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row102.cnf",
+    "artifacts\\tmp\\S006\\cold\\row102.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 22.546999999991385,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 102035456
+  },
+  "cnf_sha256": "b8b8354970864f9e6dfc88803da3b609b9bb1d85a98004a7dfe27f86a6a00895",
+  "proof_sha256": "535f64251b07ed7e4ebbcf0eebb85c0286f22153b8fa3c70583a0cf231f27aea",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 103,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row103.cnf",
+    "artifacts\\tmp\\S006\\cold\\row103.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 27.780999999988126,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 102039552
+  },
+  "cnf_sha256": "12dd8dc9890ee4e0da07a9aaf27a9caf44e8386778ab64b9076c41aad97146d8",
+  "proof_sha256": "6440b2aa29d0e3e48694b4c72679c035ecb61c3c1aee915ea958cc7c470d1af9",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 117,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row117.cnf",
+    "artifacts\\tmp\\S006\\cold\\row117.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 9.5,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 86822912
+  },
+  "cnf_sha256": "e7459a52535fcb77d6ae4b9f41ccffdaf3e76b9d7bed60cfd782a69af822d7f9",
+  "proof_sha256": "97366b0476081a77a62ffac12274a617f65608bbe5f5ba56e072a9d6e1b852fc",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 123,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row123.cnf",
+    "artifacts\\tmp\\S006\\cold\\row123.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 7.5939999999973224,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 76673024
+  },
+  "cnf_sha256": "d6938d0da9bd4550ccb1212d3e5d98e3af0af9ffd66057329d236d2daf156eaf",
+  "proof_sha256": "3eabf4dedfceab083fef41578e5c0c2a3596579686065543bbd0fcae2908f610",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 143,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S006\\cold\\row143.cnf",
+    "artifacts\\tmp\\S006\\cold\\row143.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 18.531000000002678,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 86827008
+  },
+  "cnf_sha256": "d3a131a260c7b6cda1328d227e855bdcd099ca7a78be99e44ec2d49fdb65f24b",
+  "proof_sha256": "bdcbcbc566db44b065270480a7692b82a1bc74faa655ea6b5ec1702eb25b976f",
+  "checker": "VERIFIED"
+ }
+]

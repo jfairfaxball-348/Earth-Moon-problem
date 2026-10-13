@@ -4,3 +4,5 @@
 validation/S004/**/*.log -whitespace
 # S005 log hashes refer to observed bytes, including native Windows CRLF.
 validation/S005/**/*.log -text -whitespace
+# S006 retains the exact observed native checker/supervisor log bytes.
+validation/S006/**/*.log -text -whitespace

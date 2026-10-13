@@ -1,78 +1,31 @@
-# S006 — attack remaining certified candidates and critical extension (FUTURE, UNEXECUTED)
+# S007 — D>=2 frontier and critical palette flexibility (FUTURE, UNEXECUTED)
 
-STOP. S005's invocation and Continue message do not authorise S006.
-One new explicit owner invocation executes exactly S006, not S007.
-Exact Earth–Moon chi_2 remains 9..12. A chi>=10 biplanar graph or universal
-upper improvement is only a partial advance unless bounds match.
+STOP. S006's invocation does not authorise S007. One fresh explicit owner invocation permits exactly S007, not S008. Exact Earth–Moon chi_2 remains9..12; a certified chi>=10 biplanar graph or universal upper improvement is partial unless bounds match. No separately gated formalisation/publication/outreach.
 
-## Entry
+## Entry before writes
 
-Independently pin LIVE remote main SHA/tree/status; reconcile S005's one
-authored commit on codex/S005-certified-obstructions (sole entry parent
-ed49432f49de74e9d22c2dde582c228234d3db76), ordinary PR and two-parent
-merge, current refs/competing PRs/branches, workflow files/runs/jobs/checks/
-status contexts/protection/rulesets. Zero hosted contexts is not CI PASS;
-unavailable endpoints UNKNOWN. Read authority, all S005 session records,
-three research/S005 dossiers, CAM-0006, SUMMARY and manifest/catalogues.
-Archive this prompt and new owner invocation; preregister before computation.
-Recheck recent primary work including 2026, with honest access grades.
+Independently pin LIVE main SHA/tree/status and reconcile S006's ONE authored commit on codex/S006-critical-frontier, sole entry parent b675063162f37c1a19b605f78093fbba9cd25382, ordinary non-draft PR, two-parent non-force merge, matching trees and actual PR/main hosted checks. Obtain outgoing identities live; do not anticipate them from this frozen prompt. Audit open/recent/competing PRs, refs/branches/records, workflow files/runs/jobs/check-runs/status contexts/protection/rulesets. Zero contexts not PASS; unavailable endpoints UNKNOWN.
+
+Read AGENTS, authoritative STATE/START_HERE, protocol, all S006 records (including complete EXECUTED_PROMPT), three research/S006 dossiers, CAM0007 and amendments, S006 SUMMARY/manifest/reproduction instructions, paired catalogues and programme ledgers. Archive this complete prompt and owner invocation. Preregister exact ranges/completeness/symmetries/independent validation/environment/commands/hashes/certificates and stopping rules before computation. Recheck recent primary work including2026 with honest grades.
 
 ## Construction
 
-The fixed 271 alpha>=3 list has exact chi=10 for every row. S004 excluded row 165;
-S005 adds 25 exclusions, including all 17 D=0 rows and D=1 rows
-[177, 179, 180, 102, 103, 117, 123, 143].
-There are 245 biplanarity UNKNOWN cases. All 25 registered full S005 targets
-were excluded; the remaining candidates were not decided. Use SUMMARY's exact indices.
-Replay checked archived proofs and regenerated CNFs before new verdicts.
+All271 original alpha>=3 rows certified exactchi10. 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. Exact remaining indices in validation/S006/SUMMARY.json. New exclusions:[17, 29, 35, 46, 47, 80, 81, 82, 187, 189, 190, 195, 197, 258, 260]. Do not call a stratum closed unless all its source rows are excluded. Caps/NOT_RUN never negative evidence.
 
-Prioritise remaining low-deficit full candidates, stronger necessary cuts,
-or one genuinely smaller certified obstruction with general injective transfer.
-S005's row158 one-vertex deletion (23v/123e,D=3) timed out; no smaller
-obstruction proved. Row165 general maps and six new bag-map searches transferred
-only to their source graphs; failed maps are not noncontainment theorems.
-S005's small global triangle-cover reduction independently excludes eight
-D=0 cases, layer version adds262; row120 also has a separate no-lex direct
-incidence proof. Row165 no-lex challenge remains UNKNOWN at620s.
-These corroborations are shared-premise implementations, not external review.
+Cold regenerate and freshly replay retained proofs before new verdicts; inspect necessity/symmetry, not inherited VERIFIED text. S006 freshly checked all19 target bag lower proofs, separately from proper10-colourings. Full Cover permits overlap and noninput completion edges at arbitrary deficit. D<=1 distinct-global-face shortcut cannot be extended silently to D>=3. Prioritise genuinely stronger necessary cuts/another encoding for D>=2, longer justified registered searches, or a smaller checked obstruction with general injective transfer. Repeated short UNKNOWN tests are not exclusions. S005 smaller23v row158 deletion UNKNOWN; no S006 smaller/minimality/containment theorem. Independent no-lex row165 full challenge UNKNOWN despite fresh lex/archive replay. C5 maximal13 patterns/children and whole independent k8/k9 census unexamined; only two fixed k8 samples. All159 corpus apices excluded; apex(C5[K3]) exactchi9/biplanarity UNKNOWN, no lower-bound lift.
 
-Cheap D=1 cover models are SAT for six targets, UNKNOWN for123/143, and
-never planar witnesses. D=1 completion has one new or doubled pair; distinct
-global facial triangles rely on D<=1. Do not silently extend that premise.
-Every positive needs labelled V/E1/E2, exact disjoint partition, independent
-planarity/rotations, proper colouring and checked non-9-colourability.
-UNSAT needs sound necessary encoding/cuts/symmetry and checked DRAT/LRAT.
-
-C5 frontier and whole k=8/k=9 census remain open; do not assume C5 must
-precede full-candidate work or repeat short UNKNOWN tests as negative evidence.
-All159 SRC-0017 corpus apices are excluded; source pin
-5cb2ca9f7d4d6d195617c09f7348841636b646f6. apex(C5[K3]) is chi9 calibration only.
+Positive requires labelled V/E1/E2 exact disjoint union, both independent planarity/sphere rotations, proper colouring and fresh checked non9-colour proof. Negative requires sound necessary CNF/cuts/lex plus actual checked DRAT/LRAT, cold regeneration and distinct original/compact/archive hashes. SAT relaxations/unverified UNSAT/failed transfers stay UNKNOWN.
 
 ## Universal upper routes
 
-The single-swap double-wheel premise is false. The explicit S004 lock admits
-two swaps, but is4-chromatic and noncritical. S005 proved Gallai low-block
-e_L<=(31/8)l-3c and conditional criticality inequalities
-48h>=312+26D+9Q+24c+8e_H and8D_H>=216+26D+9Q+24c,
-using source-stated Gallai theorem (SRC0027). These do not bound n above.
-Attack compulsory endblock palettes under actual criticality, multiple swaps
-and separate large-deficit control; palette equality is not neighbour equality.
-A universal theorem needs complete boundary/induction/discharging proof and
-independent adversarial review. Pursue substantial competing routes and
-actively disprove false sublemmas; finite tests never stand in for a theorem.
+CLM0040/41: e_L<=(61/16)l-(5/2)c-(5/16)u, u=l-8t8; sharp for max-degree11/clique8 Gallai forests, even biplanar, but equality controls chi8, not12-critical. Actual12-critical biplanar graphs have h>=8 and16D_H>=456+54D+19Q+40c+5u. These are necessary constraints, not a colouring theorem/order upper bound. S005 component correction differs; retain both valid inequalities on small/isolated components.
+
+SRC0027 Lemma3/Theorem1.3 yield CLM0044: if EVERY low component has an endblock pair of noncut vertices with unequal equal-size actual exterior neighbour sets, e_H+c>=66; single K8 components are light by K9 exclusion. Attack heavy components and simultaneous exterior palette flexibility beyond the finite edge/pair budget. Palette equality is not actual-neighbour equality. Private-leaf trap blocks a fixed boundary but is chi8/external degree1. Single-swap premise false; two swaps resolve only explicit noncritical S004 gadget. Criticality must provide missing flexibility. Paths switch layers; no copied planar separation. Separate all-order large-deficit control needed. Universal colouring theorem must cover all finite simple biplanar graphs with full boundary/induction/discharging proof and independent adversarial review; finite tests never suffice.
+
+SRC0028 k controls maximum degree k-1: cannot set k=9 for degree11 merely from clique8. SRC0029 Bradshaw2026 mad threshold11+1/28 is not supplied by mad<12; main k>=47/352 bounds cannot be specialised silently. External main proofs/archives not fully replayed; novelty unchecked.
 
 ## Tools, checks and exit
 
-Pinned environment/native provenance and exact hashes in S005 manifest and
-S004 reproduction instructions. Windows CaDiCaL rejects -t: use external
-supervisor caps and memory/process-tree monitoring. Flush adapter must first
-fresh-verify K9; flush/UNSAT text alone never certifies. Distinguish original,
-compact raw and gzip archive hashes. Interrupted row179 proof was not evidence.
+Pinned .venv/native source/binary hashes in S006 environment/manifest; S004 native build instructions. Windows CaDiCaL rejects -t: external descendant-tree wall/private-memory supervision,12GiB and registered concurrency. Flush adapter needs fresh K9 verification if used. Counter repaired: two consecutive final UNKNOWNs stop a lane; preserve partial metadata and exact observed outcomes. driver_versions distinguishes reconstructed original from later file capture; no observed launch hash invented.
 
-Write S006 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT, sync MD+JSON
-sources/claims, state and phase/session/decision/failure/campaign records.
-One atomic authored commit, ordinary PR, non-force two-parent merge and
-independent live main/parents/tree/check verification. Prepare only FUTURE
-UNEXECUTED S007. No Lean, publication, Palomar, arXiv/journal, announcements
-or external correspondence without separate explicit owner authorisation.
-No invention of novelty, citations, embeddings, hashes, proofs or resolution.
+Pursue multiple substantial proof/construction routes and aggressively falsify sublemmas. Sync sources/claims MD+JSON, state, phase/session/decision/failure/campaign ledgers; S007 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT, one atomic authored commit, ordinary PR, non-force two-parent merge and independent live verification. Prepare S008 FUTURE/UNEXECUTED only. No fake novelty, citations, certificates/hashes/CI/embeddings or EMP-resolution claim. No gated Lean, registration, publication, announcements, arXiv/journal or correspondence.
