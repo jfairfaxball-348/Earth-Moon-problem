@@ -1,0 +1,3426 @@
+{
+ "obstruction_source_index": 165,
+ "seconds": 100.9539999999979,
+ "results": [
+  {
+   "index": 0,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14848,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "0"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 1,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14848,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "1"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 2,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 906,
+   "clauses": 14609,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "2"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 3,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 924,
+   "clauses": 15043,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "3"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 4,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 994,
+   "clauses": 16842,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "4"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 5,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 924,
+   "clauses": 15043,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "5"
+   ],
+   "wall_seconds": 0.43699999999807915
+  },
+  {
+   "index": 6,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 16083,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "6"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 7,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 994,
+   "clauses": 16842,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "7"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 8,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14848,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "8"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 9,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 924,
+   "clauses": 15043,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "9"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 10,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 16083,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "10"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 11,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 16083,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "11"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 12,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 994,
+   "clauses": 16842,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "12"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 13,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 20954,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "13"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 14,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1118,
+   "clauses": 21594,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "14"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 15,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1174,
+   "clauses": 23597,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "15"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 16,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1143,
+   "clauses": 22679,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "16"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 17,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1244,
+   "clauses": 26655,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "17"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 18,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 953,
+   "clauses": 16075,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "18"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 19,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18247,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "19"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 20,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1023,
+   "clauses": 17904,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "20"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 21,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 981,
+   "clauses": 16692,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "21"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 22,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 999,
+   "clauses": 17043,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "22"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 23,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1138,
+   "clauses": 21962,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "23"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 24,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18101,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "24"
+   ],
+   "wall_seconds": 0.43699999999807915
+  },
+  {
+   "index": 25,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 935,
+   "clauses": 15567,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "25"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 26,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1005,
+   "clauses": 17481,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "26"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 27,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 999,
+   "clauses": 17229,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "27"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 28,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18141,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "28"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 29,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18332,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "29"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 30,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 935,
+   "clauses": 15567,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "30"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 31,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1160,
+   "clauses": 22858,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "31"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 32,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1124,
+   "clauses": 21555,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "32"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 33,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1150,
+   "clauses": 22655,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "33"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 34,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 999,
+   "clauses": 17229,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "34"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 35,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18332,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "35"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 36,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1005,
+   "clauses": 17481,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "36"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 37,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1124,
+   "clauses": 21555,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "37"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 38,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18141,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "38"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 39,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1150,
+   "clauses": 22655,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "39"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 40,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 999,
+   "clauses": 17229,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "40"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 41,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18141,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "41"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 42,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1089,
+   "clauses": 19760,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "42"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 43,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 999,
+   "clauses": 17229,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "43"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 44,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1089,
+   "clauses": 19760,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "44"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 45,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1035,
+   "clauses": 18141,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "45"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 46,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18332,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "46"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 47,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18332,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "47"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 48,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "48"
+   ],
+   "wall_seconds": 0.4220000000059372
+  },
+  {
+   "index": 49,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "49"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 50,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "50"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 51,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "51"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 52,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "52"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 53,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "53"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 54,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "54"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 55,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "55"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 56,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "56"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 57,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "57"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 58,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "58"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 59,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "59"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 60,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "60"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 61,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "61"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 62,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "62"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 63,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "63"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 64,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "64"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 65,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "65"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 66,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "66"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 67,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "67"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 68,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "68"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 69,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "69"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 70,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "70"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 71,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "71"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 72,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "72"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 73,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "73"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 74,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 953,
+   "clauses": 16229,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "74"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 75,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 971,
+   "clauses": 16770,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "75"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 76,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1023,
+   "clauses": 17984,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "76"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 77,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 971,
+   "clauses": 16770,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "77"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 78,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1023,
+   "clauses": 17984,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "78"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 79,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 971,
+   "clauses": 16716,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "79"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 80,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1017,
+   "clauses": 17927,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "80"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 81,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1017,
+   "clauses": 17927,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "81"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 82,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18696,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "82"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 83,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 960,
+   "clauses": 15948,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "83"
+   ],
+   "wall_seconds": 0.43699999999807915
+  },
+  {
+   "index": 84,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 960,
+   "clauses": 15948,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "84"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 85,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1078,
+   "clauses": 19602,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "85"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 86,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16731,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "86"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 87,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16785,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "87"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 88,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1078,
+   "clauses": 19602,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "88"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 89,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16785,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "89"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 90,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 942,
+   "clauses": 15552,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "90"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 91,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16731,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "91"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 92,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 942,
+   "clauses": 15552,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "92"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 93,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1198,
+   "clauses": 24446,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "93"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 94,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 982,
+   "clauses": 16354,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "94"
+   ],
+   "wall_seconds": 0.4850000000005821
+  },
+  {
+   "index": 95,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16878,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "95"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 96,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 982,
+   "clauses": 16354,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "96"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 97,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16824,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "97"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 98,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16824,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "98"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 99,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16878,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "99"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 100,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1024,
+   "clauses": 17657,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "100"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 101,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 958,
+   "clauses": 15675,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "101"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 102,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16766,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "102"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 103,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16776,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "103"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 104,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 955,
+   "clauses": 15144,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "104"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 105,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 924,
+   "clauses": 14939,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "105"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 106,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 15949,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "106"
+   ],
+   "wall_seconds": 0.43800000000192085
+  },
+  {
+   "index": 107,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16253,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "107"
+   ],
+   "wall_seconds": 0.48399999999674037
+  },
+  {
+   "index": 108,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1020,
+   "clauses": 17091,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "108"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 109,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 16053,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "109"
+   ],
+   "wall_seconds": 0.4210000000020955
+  },
+  {
+   "index": 110,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16357,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "110"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 111,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1020,
+   "clauses": 17195,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "111"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 112,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1012,
+   "clauses": 17178,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "112"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 113,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1044,
+   "clauses": 18048,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "113"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 114,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 970,
+   "clauses": 16083,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "114"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 115,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16417,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "115"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 116,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1020,
+   "clauses": 17285,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "116"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 117,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1038,
+   "clauses": 17585,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "117"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 118,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 988,
+   "clauses": 16417,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "118"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 119,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1020,
+   "clauses": 17285,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "119"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 120,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1038,
+   "clauses": 17585,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "120"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 121,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1012,
+   "clauses": 17206,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "121"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 122,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1044,
+   "clauses": 18104,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "122"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 123,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1062,
+   "clauses": 18434,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "123"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 124,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 942,
+   "clauses": 15302,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "124"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 125,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1000,
+   "clauses": 16582,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "125"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 126,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1018,
+   "clauses": 16799,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "126"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 127,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1024,
+   "clauses": 17409,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "127"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 128,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1042,
+   "clauses": 17658,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "128"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 129,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1024,
+   "clauses": 17407,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "129"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 130,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1042,
+   "clauses": 17654,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "130"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 131,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1024,
+   "clauses": 17393,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "131"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 132,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1023,
+   "clauses": 17792,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "132"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 133,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1053,
+   "clauses": 18435,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "133"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 134,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1023,
+   "clauses": 17728,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "134"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 135,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1053,
+   "clauses": 18435,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "135"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 136,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1040,
+   "clauses": 18615,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "136"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 137,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1005,
+   "clauses": 17309,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "137"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 138,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1005,
+   "clauses": 17309,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "138"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 139,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1005,
+   "clauses": 17309,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "139"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 140,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14536,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "140"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 141,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14536,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "141"
+   ],
+   "wall_seconds": 0.4069999999992433
+  },
+  {
+   "index": 142,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 990,
+   "clauses": 16308,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "142"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 143,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1032,
+   "clauses": 17543,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "143"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 144,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1003,
+   "clauses": 16426,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "144"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 145,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14628,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "145"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 146,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 979,
+   "clauses": 15667,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "146"
+   ],
+   "wall_seconds": 0.4370000000053551
+  },
+  {
+   "index": 147,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 979,
+   "clauses": 15693,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "147"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 148,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 919,
+   "clauses": 14211,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "148"
+   ],
+   "wall_seconds": 0.4370000000053551
+  },
+  {
+   "index": 149,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14674,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "149"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 150,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1003,
+   "clauses": 16446,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "150"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 151,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14628,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "151"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 152,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 979,
+   "clauses": 15667,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "152"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 153,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1003,
+   "clauses": 16426,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "153"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 154,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1010,
+   "clauses": 16090,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "154"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 155,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 944,
+   "clauses": 14289,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "155"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 156,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 926,
+   "clauses": 13889,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "156"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 157,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 944,
+   "clauses": 14381,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "157"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 158,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1010,
+   "clauses": 16130,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "158"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 159,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 944,
+   "clauses": 14289,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "159"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 160,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1010,
+   "clauses": 16090,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "160"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 161,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 931,
+   "clauses": 13415,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "161"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 162,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 913,
+   "clauses": 13032,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "162"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 163,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 931,
+   "clauses": 13553,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "163"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 164,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 931,
+   "clauses": 13415,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "164"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 165,
+   "verdict": "NON_BIPLANAR_BY_CHECKED_SUBGRAPH",
+   "vertex_map": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "edges_checked": 119,
+   "variables": 914,
+   "clauses": 12667,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "165"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 166,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1006,
+   "clauses": 16805,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "166"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 167,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 940,
+   "clauses": 14998,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "167"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 168,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 982,
+   "clauses": 16024,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "168"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 169,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 982,
+   "clauses": 16024,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "169"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 170,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1018,
+   "clauses": 16771,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "170"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 171,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14224,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "171"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 172,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 961,
+   "clauses": 14963,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "172"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 173,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 919,
+   "clauses": 13899,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "173"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 174,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 961,
+   "clauses": 14963,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "174"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 175,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 937,
+   "clauses": 14206,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "175"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 176,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 950,
+   "clauses": 13886,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "176"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 177,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 908,
+   "clauses": 12952,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "177"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 178,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 890,
+   "clauses": 12555,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "178"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 179,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 908,
+   "clauses": 12952,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "179"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 180,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 908,
+   "clauses": 12952,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "180"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 181,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1182,
+   "clauses": 24530,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "181"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 182,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1140,
+   "clauses": 23168,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "182"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 183,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1158,
+   "clauses": 23579,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "183"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 184,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1122,
+   "clauses": 22686,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "184"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 185,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1140,
+   "clauses": 23168,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "185"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 186,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1182,
+   "clauses": 24530,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "186"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 187,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1171,
+   "clauses": 23750,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "187"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 188,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1129,
+   "clauses": 22544,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "188"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 189,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1171,
+   "clauses": 23750,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "189"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 190,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1184,
+   "clauses": 24146,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "190"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 191,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21453,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "191"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 192,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1089,
+   "clauses": 20396,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "192"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 193,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1114,
+   "clauses": 20886,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "193"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 194,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1118,
+   "clauses": 21823,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "194"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 195,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1136,
+   "clauses": 22196,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "195"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 196,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1089,
+   "clauses": 20396,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "196"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 197,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 20169,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "197"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 198,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1114,
+   "clauses": 20886,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "198"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 199,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "199"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 200,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "200"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 201,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "201"
+   ],
+   "wall_seconds": 0.3289999999979045
+  },
+  {
+   "index": 202,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "202"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 203,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "203"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 204,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "204"
+   ],
+   "wall_seconds": 0.3279999999940628
+  },
+  {
+   "index": 205,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "205"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 206,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "206"
+   ],
+   "wall_seconds": 0.31199999999807915
+  },
+  {
+   "index": 207,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "207"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 208,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "208"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 209,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "209"
+   ],
+   "wall_seconds": 0.39099999999598367
+  },
+  {
+   "index": 210,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "210"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 211,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "211"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 212,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "212"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 213,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "213"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 214,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "214"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 215,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "215"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 216,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "216"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 217,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "217"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 218,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "218"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 219,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "219"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 220,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "220"
+   ],
+   "wall_seconds": 0.3430000000007567
+  },
+  {
+   "index": 221,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "221"
+   ],
+   "wall_seconds": 0.3289999999979045
+  },
+  {
+   "index": 222,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "222"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 223,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "223"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 224,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "224"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 225,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "225"
+   ],
+   "wall_seconds": 0.3440000000045984
+  },
+  {
+   "index": 226,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "226"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 227,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "227"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 228,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "228"
+   ],
+   "wall_seconds": 0.31199999999807915
+  },
+  {
+   "index": 229,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "229"
+   ],
+   "wall_seconds": 0.31199999999807915
+  },
+  {
+   "index": 230,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "230"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 231,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "231"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 232,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "232"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 233,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "233"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 234,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "234"
+   ],
+   "wall_seconds": 0.35900000000401633
+  },
+  {
+   "index": 235,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "235"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 236,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "236"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 237,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "237"
+   ],
+   "wall_seconds": 0.3280000000013388
+  },
+  {
+   "index": 238,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1100,
+   "clauses": 21170,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "238"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 239,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1160,
+   "clauses": 23466,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "239"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 240,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "240"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 241,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1160,
+   "clauses": 23386,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "241"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 242,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "242"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 243,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1154,
+   "clauses": 23039,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "243"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 244,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1220,
+   "clauses": 25706,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "244"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 245,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1066,
+   "clauses": 18780,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "245"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 246,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1014,
+   "clauses": 17254,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "246"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 247,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1050,
+   "clauses": 18525,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "247"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 248,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1042,
+   "clauses": 18063,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "248"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 249,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1014,
+   "clauses": 17200,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "249"
+   ],
+   "wall_seconds": 0.3600000000005821
+  },
+  {
+   "index": 250,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1014,
+   "clauses": 17200,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "250"
+   ],
+   "wall_seconds": 0.35899999999674037
+  },
+  {
+   "index": 251,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1014,
+   "clauses": 17246,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "251"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 252,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1066,
+   "clauses": 18780,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "252"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 253,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1014,
+   "clauses": 17254,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "253"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 254,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1050,
+   "clauses": 18525,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "254"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 255,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1025,
+   "clauses": 18359,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "255"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 256,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 969,
+   "clauses": 16424,
+   "solve_seconds": 0.01600000000325963,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "256"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 257,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1011,
+   "clauses": 17708,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "257"
+   ],
+   "wall_seconds": 0.34399999999732245
+  },
+  {
+   "index": 258,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18532,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "258"
+   ],
+   "wall_seconds": 0.3899999999994179
+  },
+  {
+   "index": 259,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1011,
+   "clauses": 17708,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "259"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 260,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1041,
+   "clauses": 18532,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "260"
+   ],
+   "wall_seconds": 0.4379999999946449
+  },
+  {
+   "index": 261,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1025,
+   "clauses": 18359,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "261"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 262,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 995,
+   "clauses": 17077,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "262"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 263,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1198,
+   "clauses": 24518,
+   "solve_seconds": 0.0,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "263"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 264,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "264"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 265,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1198,
+   "clauses": 24446,
+   "solve_seconds": 0.014999999999417923,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "265"
+   ],
+   "wall_seconds": 0.39100000000325963
+  },
+  {
+   "index": 266,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1150,
+   "clauses": 23040,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "266"
+   ],
+   "wall_seconds": 0.375
+  },
+  {
+   "index": 267,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "267"
+   ],
+   "wall_seconds": 0.40600000000267755
+  },
+  {
+   "index": 268,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "268"
+   ],
+   "wall_seconds": 0.4059999999954016
+  },
+  {
+   "index": 269,
+   "verdict": "UNKNOWN",
+   "reason": "worker failure",
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "269"
+   ],
+   "wall_seconds": 0.4219999999986612
+  },
+  {
+   "index": 270,
+   "verdict": "NO_TRANSFER_FOUND_UNCERTIFIED",
+   "variables": 1150,
+   "clauses": 23040,
+   "solve_seconds": 0.01599999999598367,
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s005_embeddings.py",
+    "270"
+   ],
+   "wall_seconds": 0.39100000000325963
+  }
+ ]
+}

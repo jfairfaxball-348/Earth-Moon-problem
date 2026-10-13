@@ -1,0 +1,96 @@
+{
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/independent_cover_search.py",
+   "validation/S005/targets/row120.edges",
+   "artifacts\\tmp\\S005\\independent\\no-lex-row120",
+   "180"
+  ],
+  "returncode": 0,
+  "seconds": 38.48399999999674,
+  "hard_cap": 200
+ },
+ "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+ "search": {
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 35.98500000000058,
+  "initial_cuts": 0,
+  "cuts": 0,
+  "variables": 16802,
+  "clauses": 1568552
+ },
+ "certificate": {
+  "regenerate": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "check",
+    "validation/S005/targets/row120.edges",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120"
+   ],
+   "returncode": 0,
+   "seconds": 2.4680000000007567,
+   "hard_cap": 120
+  },
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.cnf",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.drat"
+   ],
+   "returncode": 20,
+   "seconds": 36.703999999997905,
+   "hard_cap": 1220
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.cnf",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 21.35899999999674,
+   "hard_cap": 1220
+  },
+  "cnf_sha256": "61245674f6578ecf73bcd2d9d0ab90953815b97722d90a9f6550ac44bf46d524",
+  "proof_sha256": "57cd225393bc13d9400f72a2de2b02ccd694fa22c33807c74fa3a69367d43cb2",
+  "proof_bytes": 186582927,
+  "trim": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.cnf",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.drat",
+    "-l",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.core.drat",
+    "-t",
+    "600"
+   ],
+   "returncode": 0,
+   "seconds": 18.95300000000134,
+   "hard_cap": 620
+  },
+  "core_check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.cnf",
+    "artifacts\\tmp\\S005\\independent\\no-lex-row120.core.drat",
+    "-t",
+    "600"
+   ],
+   "returncode": 0,
+   "seconds": 9.578000000001339,
+   "hard_cap": 620
+  },
+  "archive": "validation\\S005\\search\\no-lex-row120.drat.gz",
+  "archive_raw_sha256": "68f3b41dce818e6580859ad1c4b45d6a2b92fedca709a90d7db4ce1781f51e7b",
+  "archive_raw_bytes": 23321251,
+  "archive_sha256": "e555cfcd7ec170859e37da787a5d2906f513b97958ee9f40e7bb85b31923b86c"
+ }
+}

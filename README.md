@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-12): UNSOLVED; S003 complete (certified biplanarity oracle, blow-up census, new candidate families), bounds still 9..12.**
+**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-13): UNSOLVED; S005 mathematics complete, 25 additional finite exclusions, 245 listed candidates UNKNOWN; bounds still 9..12.**
 
 ## Exact target
 
@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S005 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S006 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -64,3 +64,11 @@ These are structural progress and verified classical reconstructions, not a solu
 - [Single-Kempe-swap counterexample](research/S004_KEMPE_LOCK.md): degree-11 double-wheel locality alone does not force one-swap extension.
 
 No headline advance: 9 <= chi_2 <= 12. S005 remains future and unexecuted.
+
+## S005 results
+
+- [Finite low-deficit frontier](research/S005_FRONTIER.md): 25 additional checked exclusions, including all 17 D=0 row; 245 candidates UNKNOWN.
+- [Independent face reductions](research/S005_FACE_REDUCTIONS.md): necessary D=0/D=1 conditions, checked no-lex corroborations; SAT relaxations kept separate.
+- [Criticality and two Kempe swaps](research/S005_UPPER_ROUTES.md): new necessary inequalities and exact extension of the noncritical S004 lock. No universal colouring improvement.
+
+Only S005 executed; [S006](authoritative/NEXT_SESSION_PROMPT.md) is FUTURE UNEXECUTED. No headline, novelty, formalisation or publication gate advanced.

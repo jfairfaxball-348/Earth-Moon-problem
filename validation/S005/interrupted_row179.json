@@ -1,0 +1,8 @@
+{
+ "status": "UNKNOWN_INTERRUPTED_UNCHECKED",
+ "observed_utc": "2026-10-13 13:42:05 UTC",
+ "partial_proof_bytes": 162054144,
+ "partial_proof_sha256": "7a9a8c92923fae9b2197d5f79b96b2cddbff3658cc96e062d8bd8d4b27b9d1f1",
+ "cause": "UNKNOWN; prior supervisor tool session unavailable; no remaining worker process",
+ "not_used_as_evidence": true
+}

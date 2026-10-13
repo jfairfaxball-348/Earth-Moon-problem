@@ -25,3 +25,10 @@ S001 performed no research. Absence of a found example never proves universal no
 | F018 | New face/packing route decides C5 frontier at short caps | All 16 targets UNKNOWN; 600 s short-link retry UNKNOWN | No classification or negative inference |
 | F019 | Four corpus apices remain promising after elementary filters | Each has an explicit K9 (K8 in base) | Entire 159-apex corpus excluded; new bases needed |
 | F020 | Buffered Windows proof export is a complete certificate | First export rejected; C-runtime flush repair and standalone builds verified | Never trust solver/export without proof check |
+
+| F021 | Global/layer-consistent face-cover SAT would be a planar witness | Known non-biplanar fixed inputs have relaxed SAT models | Single links/connectivity/actual rotations still needed |
+| F022 | Existing checked full obstructions readily transfer to more candidates | General row165 and six restricted bag searches add no exclusions | Smaller obstruction/general maps open |
+| F023 | No-lex full incidence reproduces row165 within600s | External620s cap, no checked verdict | UNKNOWN; other independent D=0 corroborations separate |
+| F024 | One vertex deletion of row158 quickly supplies smaller obstruction | 23v/123e search UNKNOWN at200s | No smaller/minimal obstruction claim |
+| F025 | Windows native CaDiCaL supports -t | Four invalid-option exits preserved | External supervision repair; no affected verdict |
+| F026 | Interrupted export is complete evidence | Row179 partial proof unverified; cause UNKNOWN | Preserve partial hash, re-solve/check before acceptance |

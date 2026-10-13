@@ -14,3 +14,5 @@ S003 manifest: validation/S003_MANIFEST.json.
 | [CAM-0005](CAM-0005.md) | S004 fixed survivor/C5/apex/census/upper domains, amendments A–K | 271 chi=10; one finite exclusion, 270 UNKNOWN; all 159 apices closed; two census samples; C5 UNKNOWN; exact Kempe lock |
 
 S004 manifest: validation/S004_MANIFEST.json. No full k=8/9 or universal headline conclusion.
+
+CAM-0006(S005): registered fixed low-deficit searches/cold controls/independent reductions and criticality challenges; 25 new checked exclusions, 245 UNKNOWN. See CAM-0006 and S005 manifest; future sessions not authorised.

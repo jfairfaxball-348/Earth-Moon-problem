@@ -1,0 +1,43 @@
+{
+ "target": {
+  "g6": "G|fH_K",
+  "w": [
+   2,
+   3,
+   2,
+   2,
+   4,
+   2,
+   4,
+   4
+  ],
+  "n": 23,
+  "m": 123,
+  "D": 3,
+  "chromatic": "not investigated"
+ },
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation\\S005\\targets\\small-row158.edges",
+   "artifacts\\tmp\\S005\\search\\small-row158",
+   "180",
+   "--lex"
+  ],
+  "returncode": null,
+  "seconds": 200.1559999999954,
+  "hard_cap": 200,
+  "observed_peak_tree_private_bytes": 164352000,
+  "reason": "external wall cap"
+ },
+ "verdict": "UNKNOWN",
+ "search": {
+  "verdict": "RUNNING",
+  "iterations": 6,
+  "seconds": 179.1559999999954,
+  "cuts": 609,
+  "variables": 97175,
+  "clauses": 198765
+ }
+}

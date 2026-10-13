@@ -1,0 +1,75 @@
+{
+ "listed_candidates": 271,
+ "previously_excluded": [
+  165
+ ],
+ "S005_new_exclusions": [
+  42,
+  44,
+  102,
+  103,
+  117,
+  120,
+  123,
+  126,
+  128,
+  130,
+  133,
+  135,
+  143,
+  154,
+  158,
+  160,
+  161,
+  163,
+  164,
+  171,
+  176,
+  177,
+  179,
+  180,
+  262
+ ],
+ "remaining_unknown": 245,
+ "all_D0_excluded": 17,
+ "S005_D1_exclusions": [
+  177,
+  179,
+  180,
+  102,
+  103,
+  117,
+  123,
+  143
+ ],
+ "full_search_unknown": [],
+ "global_cover_exclusions": [
+  158,
+  171,
+  120,
+  130,
+  42,
+  44,
+  133,
+  135
+ ],
+ "layer_cover_exclusions": [
+  158,
+  171,
+  120,
+  130,
+  42,
+  44,
+  133,
+  135,
+  262
+ ],
+ "small_graph_verdict": "UNKNOWN",
+ "headline_bounds": [
+  9,
+  12
+ ],
+ "headline_advance": false,
+ "formalisation": "NOT_STARTED",
+ "novelty": "UNCHECKED"
+}

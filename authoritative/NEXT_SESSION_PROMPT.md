@@ -1,66 +1,78 @@
-# S005 — attack the remaining 270 certified candidates (FUTURE, UNEXECUTED)
+# S006 — attack remaining certified candidates and critical extension (FUTURE, UNEXECUTED)
 
-STOP. S004's invocation does not authorise S005. One new explicit owner
-invocation executes exactly S005, not S006. Target: exact Earth–Moon chi_2,
-currently 9..12. A checked chi>=10 biplanar construction or universal
-improvement is a partial bound advance; full resolution needs matching bounds.
+STOP. S005's invocation and Continue message do not authorise S006.
+One new explicit owner invocation executes exactly S006, not S007.
+Exact Earth–Moon chi_2 remains 9..12. A chi>=10 biplanar graph or universal
+upper improvement is only a partial advance unless bounds match.
 
 ## Entry
 
-Pin LIVE main SHA/tree/status; reconcile S004's actual authored commit
-(sole parent 3e93eec7b5fe7e818dec0984dee722074a65186e), PR and ordinary
-two-parent merge from Git/remote evidence. Inventory competing PRs/branches,
-workflow files/runs/jobs/checks/statuses/protection/rulesets. Missing checks
-are not PASS; unavailable endpoints UNKNOWN. Read authority, all S004
-records, research/S004_*.md, CAM-0005, manifest and catalogues. Archive this
-prompt/owner invocation and register computations before execution.
-Recheck recent 2026 primary work. SRC-0017 actual SHA is
-5cb2ca9f7d4d6d195617c09f7348841636b646f6, not S003's mistyped value.
+Independently pin LIVE remote main SHA/tree/status; reconcile S005's one
+authored commit on codex/S005-certified-obstructions (sole entry parent
+ed49432f49de74e9d22c2dde582c228234d3db76), ordinary PR and two-parent
+merge, current refs/competing PRs/branches, workflow files/runs/jobs/checks/
+status contexts/protection/rulesets. Zero hosted contexts is not CI PASS;
+unavailable endpoints UNKNOWN. Read authority, all S005 session records,
+three research/S005 dossiers, CAM-0006, SUMMARY and manifest/catalogues.
+Archive this prompt and new owner invocation; preregister before computation.
+Recheck recent primary work including 2026, with honest access grades.
 
-## Construction route
+## Construction
 
-All 271 alpha>=3 survivors are exactly 10-chromatic with checked proofs and
-upper colourings. Row 165, G|fH_K[4,2,2,2,2,2,2,6] (22v/119e, D=1), is
-excluded; 270 remain UNKNOWN. Reproduce its compact proof and CNF; cold
-check the necessary encoding, lex and cut arguments. A separately written
-no-lex encoding found a non-planar relaxed SAT model, not a second exclusion.
+The fixed 271 alpha>=3 list has exact chi=10 for every row. S004 excluded row 165;
+S005 adds 25 exclusions, including all 17 D=0 rows and D=1 rows
+[177, 179, 180, 102, 103, 117, 123, 143].
+There are 245 biplanarity UNKNOWN cases. All 25 registered full S005 targets
+were excluded; the remaining candidates were not decided. Use SUMMARY's exact indices.
+Replay checked archived proofs and regenerated CNFs before new verdicts.
 
-Prioritise full low-deficit candidates with the completion-face oracle,
-registered longer proof caps, stronger checked cuts or another construction
-route. Try general subgraph embeddings or a smaller certified obstruction;
-existing capacity-respecting bag maps excluded only row 165 itself.
-Every SAT result needs explicit labelled edge-disjoint layers, independent
-planarity/rotation checks, proper colouring and checked chromatic lower proof.
+Prioritise remaining low-deficit full candidates, stronger necessary cuts,
+or one genuinely smaller certified obstruction with general injective transfer.
+S005's row158 one-vertex deletion (23v/123e,D=3) timed out; no smaller
+obstruction proved. Row165 general maps and six new bag-map searches transferred
+only to their source graphs; failed maps are not noncontainment theorems.
+S005's small global triangle-cover reduction independently excludes eight
+D=0 cases, layer version adds262; row120 also has a separate no-lex direct
+incidence proof. Row165 no-lex challenge remains UNKNOWN at620s.
+These corroborations are shared-premise implementations, not external review.
 
-C5 classification is open: 13 maximal patterns plus 3 children locally
-UNKNOWN at S004's short caps; a 600 s short-link retry on [2,6,2,6,2] also
-UNKNOWN. Do not assume this classification must precede full-candidate work.
-S003 already spent longer Kuratowski runs on several patterns. Independent
-k=8 audit covered only GsUPOK/GrEKGc; whole census/k=9 remain unexamined.
+Cheap D=1 cover models are SAT for six targets, UNKNOWN for123/143, and
+never planar witnesses. D=1 completion has one new or doubled pair; distinct
+global facial triangles rely on D<=1. Do not silently extend that premise.
+Every positive needs labelled V/E1/E2, exact disjoint partition, independent
+planarity/rotations, proper colouring and checked non-9-colourability.
+UNSAT needs sound necessary encoding/cuts/symmetry and checked DRAT/LRAT.
 
-## Apex and upper routes
+C5 frontier and whole k=8/k=9 census remain open; do not assume C5 must
+precede full-candidate work or repeat short UNKNOWN tests as negative evidence.
+All159 SRC-0017 corpus apices are excluded; source pin
+5cb2ca9f7d4d6d195617c09f7348841636b646f6. apex(C5[K3]) is chi9 calibration only.
 
-All 159 SRC-0017 corpus apices are closed: 147 Euler, 8 codegree, 4 K9.
-Do not repeat the missed K8 filter. apex(C5[K3]) has exact chi=9 and is
-a biplanarity calibration target only, not a route to lifting 9.
+## Universal upper routes
 
-The unconditional single-Kempe-swap double-wheel lemma is false (checked
-122v/187e, chi=4, D=533 example). Seek actual criticality/multi-swap/low-
-deficit reductions and separately control large deficits. Pursue multiple
-substantial proof and counterexample routes, not finite tests relabelled
-as universal colouring theorems.
+The single-swap double-wheel premise is false. The explicit S004 lock admits
+two swaps, but is4-chromatic and noncritical. S005 proved Gallai low-block
+e_L<=(31/8)l-3c and conditional criticality inequalities
+48h>=312+26D+9Q+24c+8e_H and8D_H>=216+26D+9Q+24c,
+using source-stated Gallai theorem (SRC0027). These do not bound n above.
+Attack compulsory endblock palettes under actual criticality, multiple swaps
+and separate large-deficit control; palette equality is not neighbour equality.
+A universal theorem needs complete boundary/induction/discharging proof and
+independent adversarial review. Pursue substantial competing routes and
+actively disprove false sublemmas; finite tests never stand in for a theorem.
 
-## Tools and exit
+## Tools, checks and exit
 
-Replay K9/archived proofs first; source pins, build commands and Windows
-C-runtime flush repair are in validation/S004/README.md and manifest.
-UNSAT text without VERIFIED is not certification; SAT relaxations need
-actual planar-layer checks; soft solve limits need hard supervisor caps.
-Register domains/symmetry/environment/commands/hashes/checkers/stopping rules.
+Pinned environment/native provenance and exact hashes in S005 manifest and
+S004 reproduction instructions. Windows CaDiCaL rejects -t: use external
+supervisor caps and memory/process-tree monitoring. Flush adapter must first
+fresh-verify K9; flush/UNSAT text alone never certifies. Distinguish original,
+compact raw and gzip archive hashes. Interrupted row179 proof was not evidence.
 
-Write S005 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT; sync state,
-MD+JSON catalogues and phase/session/decision/failure/campaign records.
+Write S006 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT, sync MD+JSON
+sources/claims, state and phase/session/decision/failure/campaign records.
 One atomic authored commit, ordinary PR, non-force two-parent merge and
-independent main/parent/check verification. Prepare only FUTURE UNEXECUTED
-S006. No publication/formalisation/outreach without separate explicit owner
-authorisation; no novelty or resolution invention.
+independent live main/parents/tree/check verification. Prepare only FUTURE
+UNEXECUTED S007. No Lean, publication, Palomar, arXiv/journal, announcements
+or external correspondence without separate explicit owner authorisation.
+No invention of novelty, citations, embeddings, hashes, proofs or resolution.

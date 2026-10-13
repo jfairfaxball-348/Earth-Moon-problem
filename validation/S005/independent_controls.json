@@ -1,0 +1,314 @@
+[
+ {
+  "tag": "0",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-00.edges",
+    "artifacts\\tmp\\S005\\independent\\control-0",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.39100000000325963,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 108,
+   "clauses": 318
+  }
+ },
+ {
+  "tag": "1",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-01.edges",
+    "artifacts\\tmp\\S005\\independent\\control-1",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4069999999992433,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 72
+  }
+ },
+ {
+  "tag": "2",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-02.edges",
+    "artifacts\\tmp\\S005\\independent\\control-2",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.3899999999994179,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01600000000325963,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 712,
+   "clauses": 3883
+  }
+ },
+ {
+  "tag": "3",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-03.edges",
+    "artifacts\\tmp\\S005\\independent\\control-3",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.3899999999994179,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 712,
+   "clauses": 3877
+  }
+ },
+ {
+  "tag": "4",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-04.edges",
+    "artifacts\\tmp\\S005\\independent\\control-4",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4219999999986612,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 72
+  }
+ },
+ {
+  "tag": "5",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-05.edges",
+    "artifacts\\tmp\\S005\\independent\\control-5",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4220000000059372,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01600000000325963,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 74
+  }
+ },
+ {
+  "tag": "6",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-06.edges",
+    "artifacts\\tmp\\S005\\independent\\control-6",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4059999999954016,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.014999999999417923,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 72
+  }
+ },
+ {
+  "tag": "7",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-07.edges",
+    "artifacts\\tmp\\S005\\independent\\control-7",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4059999999954016,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 72
+  }
+ },
+ {
+  "tag": "8",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-08.edges",
+    "artifacts\\tmp\\S005\\independent\\control-8",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.39100000000325963,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 108,
+   "clauses": 322
+  }
+ },
+ {
+  "tag": "9",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "artifacts/tmp/S005/replay/control-09.edges",
+    "artifacts\\tmp\\S005\\independent\\control-9",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.40600000000267755,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 20,
+   "clauses": 72
+  }
+ },
+ {
+  "tag": "K8",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "validation/S003/splits/K8.edges",
+    "artifacts\\tmp\\S005\\independent\\control-K8",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.4069999999992433,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "initial_cuts": 0,
+   "cuts": 0,
+   "variables": 712,
+   "clauses": 3896
+  }
+ },
+ {
+  "tag": "sulanke",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "validation/S003/splits/sulanke.edges",
+    "artifacts\\tmp\\S005\\independent\\control-sulanke",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 22.57800000000134,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 3,
+   "seconds": 22.140999999995984,
+   "initial_cuts": 0,
+   "cuts": 47,
+   "variables": 1724,
+   "clauses": 18567
+  }
+ },
+ {
+  "tag": "K9e",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/independent_cover_search.py",
+    "validation/S003/splits/K9e.edges",
+    "artifacts\\tmp\\S005\\independent\\control-K9e",
+    "30"
+   ],
+   "returncode": 0,
+   "seconds": 0.46899999999732245,
+   "hard_cap": 40
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 3,
+   "seconds": 0.030999999995401595,
+   "initial_cuts": 0,
+   "cuts": 29,
+   "variables": 992,
+   "clauses": 6886
+  }
+ }
+]

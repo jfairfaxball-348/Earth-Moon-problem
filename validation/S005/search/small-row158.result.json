@@ -1,0 +1,8 @@
+{
+  "verdict": "RUNNING",
+  "iterations": 6,
+  "seconds": 179.1559999999954,
+  "cuts": 609,
+  "variables": 97175,
+  "clauses": 198765
+}
