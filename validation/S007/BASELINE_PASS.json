@@ -1,0 +1,6 @@
+{
+ "cold_full_proofs": 40,
+ "strong_controls": 23,
+ "fresh_chi10_targets": 4,
+ "inherited_baseline": "K9/row165/bag;271 hash/CNF/colour audit;23 actual controls"
+}

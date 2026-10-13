@@ -1,0 +1,343 @@
+[
+ {
+  "tag": "K7-I5",
+  "n": 12,
+  "m": 56,
+  "edgefile": "validation\\S007\\heavy\\K7-I5.edges",
+  "edge_sha256": "6ca28ae855963bf1649188633c88078e47b6ba0299324a4e6cb63df9ff0c4588",
+  "verdict": "UNKNOWN",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S007\\heavy\\K7-I5.edges",
+    "artifacts\\tmp\\S007\\heavy\\K7-I5",
+    "300",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 320.1560000000027,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 117862400,
+   "reason": "external wall cap"
+  }
+ },
+ {
+  "tag": "K6-I6",
+  "n": 12,
+  "m": 51,
+  "edgefile": "validation\\S007\\heavy\\K6-I6.edges",
+  "edge_sha256": "26ef916dfde97dcf96307e87d48a07db256b72e547b4dc1969253ba7fa7f09eb",
+  "verdict": "BIPLANAR_CONTROL",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S007\\heavy\\K6-I6.edges",
+    "artifacts\\tmp\\S007\\heavy\\K6-I6",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 14.531000000002678,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 114180096
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 13.953999999997905,
+   "cuts": 0,
+   "variables": 80005,
+   "clauses": 176160,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ]
+    ],
+    "subset_count": 111,
+    "input_K5_count": 96,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 104490
+   }
+  },
+  "V": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "split": {
+   "n": 12,
+   "E1": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     11
+    ]
+   ]
+  },
+  "component_faces": [
+   15,
+   16
+  ],
+  "proper_colouring": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "chi": 7,
+  "clique_lower": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ }
+]

@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S007 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S008 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -80,3 +80,11 @@ Only S005 executed; [S006](authoritative/NEXT_SESSION_PROMPT.md) is FUTURE UNEXE
 - [Palette route](research/S006_PALETTES.md): fixed-boundary trap and published simultaneous-colouring budget; heavy components open.
 
 Only through S006 executed; S007 FUTURE/UNEXECUTED.9..12 and novelty/formalisation/publication gates unchanged. Historical future labels superseded.
+
+## S007 results
+
+- [D2 frontier](research/S007_FRONTIER.md): S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- [Necessary encodings](research/S007_ENCODINGS.md): independent globalD2 models SAT_RELAXATION, directly checked; no planar converse.
+- [Critical palettes](research/S007_CRITICAL_PALETTES.md): exterior deletionchi11 and heavyK8 support excess13; no universal colouring theorem.
+
+Only throughS007 executed; S008 FUTURE/UNEXECUTED. Headline9..12, novelty/formalisation/publication gates unchanged. Historical future labels superseded.

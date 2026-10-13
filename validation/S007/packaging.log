@@ -1,0 +1,2 @@
+PASS global cold CNFs, every SAT clause and direct projected multiplicities
+PASS exact full-source labels, retained certificates, heavy control and frontier indices

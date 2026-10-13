@@ -1,6 +1,6 @@
 # Phase-gate ledger
 
-| Gate | Requirement | Status after S006 |
+| Gate | Requirement | Status after S007 |
 |---|---|---|
 | 0 Bootstrap | Governed repo, authority, sources/claims, exact target, reproducibility plan | PASS — administrative only |
 | 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | ACTIVE; S006 adds15 checked finite exclusions,230 candidates UNKNOWN; all24 fixed-list D1 rows excluded; no bound advance; headline gate NOT PASSED |
@@ -18,3 +18,5 @@ S004: one finite non-biplanarity exclusion and exact frontier/corpus audits. Hea
 S005: 25 additional certified finite exclusions and necessary criticality constraints. Headline gate1 NOT PASSED;9..12 unchanged; novelty/formalisation/publication gates unchanged.
 
 S006: 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. Sharp low-forest density and conditional light-palette constraints; headline gate1 NOT PASSED,9..12 unchanged. Gates2–7 unchanged; no universal upper/external review/Lean.
+
+S007: S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. Critical exterior/support proofs and relaxed incidence checks are necessary/finite results only. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged, no universal/external review/Lean.

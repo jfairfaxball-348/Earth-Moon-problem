@@ -20,3 +20,7 @@ CAM-0006(S005): registered fixed low-deficit searches/cold controls/independent 
 | [CAM-0007](CAM-0007.md) | S006 fixed19 targets/cold replay/critical density and palettes | 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. 9..12 unchanged |
 
 S006 manifest/SUMMARY retain exact scopes; S007 FUTURE/UNEXECUTED.
+
+| [CAM-0008](CAM-0008.md) | S007 four D2 targets, independent global incidence/heavy local challenge and criticality controls | S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].9..12 unchanged |
+
+S007 manifest/SUMMARY retain exact scopes and launch versions; S008 FUTURE/UNEXECUTED.

@@ -1,0 +1,253 @@
+{
+ "seed": 5005,
+ "results": [
+  {
+   "index": 0,
+   "n": 5,
+   "m": 6,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 218,
+   "clauses": 542
+  },
+  {
+   "index": 1,
+   "n": 4,
+   "m": 4,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336
+  },
+  {
+   "index": 2,
+   "n": 8,
+   "m": 15,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 2887,
+   "clauses": 5844
+  },
+  {
+   "index": 3,
+   "n": 8,
+   "m": 9,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 3169,
+   "clauses": 6444
+  },
+  {
+   "index": 4,
+   "n": 4,
+   "m": 4,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336
+  },
+  {
+   "index": 5,
+   "n": 4,
+   "m": 6,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 62,
+   "clauses": 222
+  },
+  {
+   "index": 6,
+   "n": 4,
+   "m": 4,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336
+  },
+  {
+   "index": 7,
+   "n": 4,
+   "m": 4,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336
+  },
+  {
+   "index": 8,
+   "n": 5,
+   "m": 10,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 238,
+   "clauses": 622
+  },
+  {
+   "index": 9,
+   "n": 4,
+   "m": 4,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01600000000325963,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336
+  },
+  {
+   "index": 10,
+   "n": 4,
+   "m": 5,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 53,
+   "clauses": 195
+  },
+  {
+   "index": 11,
+   "n": 8,
+   "m": 25,
+   "verdict": "SAT_CHECKED",
+   "iterations": 2,
+   "seconds": 0.0,
+   "cuts": 14,
+   "variables": 2593,
+   "clauses": 5386
+  },
+  {
+   "index": 12,
+   "n": 5,
+   "m": 10,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 238,
+   "clauses": 622
+  },
+  {
+   "index": 13,
+   "n": 7,
+   "m": 15,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01600000000325963,
+   "cuts": 0,
+   "variables": 1555,
+   "clauses": 3204
+  },
+  {
+   "index": 14,
+   "n": 6,
+   "m": 14,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.014999999999417923,
+   "cuts": 0,
+   "variables": 754,
+   "clauses": 1622
+  },
+  {
+   "index": 15,
+   "n": 6,
+   "m": 13,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 877,
+   "clauses": 1978
+  },
+  {
+   "index": 16,
+   "n": 4,
+   "m": 6,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.014999999999417923,
+   "cuts": 0,
+   "variables": 62,
+   "clauses": 222
+  },
+  {
+   "index": 17,
+   "n": 6,
+   "m": 14,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 754,
+   "clauses": 1622
+  },
+  {
+   "index": 18,
+   "n": 5,
+   "m": 6,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 218,
+   "clauses": 542
+  },
+  {
+   "index": 19,
+   "n": 8,
+   "m": 21,
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.014999999999417923,
+   "cuts": 0,
+   "variables": 2677,
+   "clauses": 5460
+  },
+  {
+   "tag": "K8",
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01600000000325963,
+   "cuts": 0,
+   "variables": 2548,
+   "clauses": 5360
+  },
+  {
+   "tag": "sulanke",
+   "verdict": "SAT_CHECKED",
+   "iterations": 5,
+   "seconds": 1.3439999999973224,
+   "cuts": 56,
+   "variables": 8434,
+   "clauses": 17976
+  },
+  {
+   "tag": "K9e",
+   "verdict": "SAT_CHECKED",
+   "iterations": 6,
+   "seconds": 0.10899999999674037,
+   "cuts": 65,
+   "variables": 3933,
+   "clauses": 8257
+  }
+ ],
+ "seconds_total": 54.73399999999674
+}

@@ -1,0 +1,33 @@
+{
+ "verdict": "UNKNOWN",
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/s007_heavy_cegar.py",
+   "worker"
+  ],
+  "returncode": 0,
+  "seconds": 914.3429999999935,
+  "hard_cap": 920,
+  "observed_peak_tree_private_bytes": 1764663296
+ },
+ "search": {
+  "verdict": "UNKNOWN",
+  "iterations": 168,
+  "lemmas": 204836,
+  "symmetries": 125
+ },
+ "lemma_check": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_cegar_certificate.py",
+   "validation\\S007\\heavy\\K7-I5.edges",
+   "artifacts\\tmp\\S007\\heavy-cegar\\K7-I5"
+  ],
+  "returncode": 0,
+  "seconds": 57.84399999999732,
+  "hard_cap": 200,
+  "observed_peak_tree_private_bytes": 556589056
+ },
+ "cnf_sha256": "7db9fb671c093481a81ba6e9b75bf76a2b8476c0a72f0ae24b89a9c670d3f04d"
+}

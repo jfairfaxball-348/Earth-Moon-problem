@@ -1,0 +1,45 @@
+[
+ {
+  "tag": "K9",
+  "cuts": 920,
+  "command": [
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "artifacts\\tmp\\S007\\replay\\K9.cnf",
+   "artifacts\\tmp\\S007\\replay\\K9.drat",
+   "-t",
+   "600"
+  ],
+  "cnf_sha256": "92512fcbdaaba1e89830df47a52f78d88099af6a9e3229dcefb62e063df8a00d",
+  "proof_sha256": "ab3b665af9601da8c423974dd2abc8dcfff0dc0bde377fd653dcb7e001774c6b",
+  "seconds": 7.625,
+  "checker": "VERIFIED"
+ },
+ {
+  "tag": "row165",
+  "cuts": 773,
+  "command": [
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "artifacts\\tmp\\S007\\replay\\row165.cnf",
+   "artifacts\\tmp\\S007\\replay\\row165.drat",
+   "-t",
+   "1200"
+  ],
+  "cnf_sha256": "ea99ad267c64a70bc23227e5a690d7e9195098dfabd903d0d9e00fc2494c4686",
+  "proof_sha256": "40b783b62fad0f2ac104b0c9a329b42039cfc77ab49b487e86fb23fd733371b4",
+  "seconds": 43.14100000000326,
+  "checker": "VERIFIED"
+ },
+ {
+  "tag": "row165-bag",
+  "command": [
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "artifacts\\tmp\\S007\\replay\\row165-bag.cnf",
+   "artifacts\\tmp\\S007\\replay\\row165-bag.drat",
+   "-t",
+   "600"
+  ],
+  "checker": "VERIFIED",
+  "cnf_sha256": "5904c3310eb739384bc2ed6787852357bcaa9019e6a0862787422d57b408b910",
+  "proof_sha256": "46fe8d9c09fd3373b75ef1eb76b0ab31f3966c8fcc4d63b7e70661e322d26455"
+ }
+]

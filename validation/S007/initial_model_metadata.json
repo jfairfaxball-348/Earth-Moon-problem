@@ -1,0 +1,265 @@
+[
+ {
+  "index": 162,
+  "variables": 1396536,
+  "clauses": 2811585,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   ],
+   "subset_count": 273,
+   "input_K5_count": 342,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 2613925
+  },
+  "regenerated_initial_cnf_sha256": "b8a259ebda98438f4671ae4cadd19e997df3c376a251d0d111be9a71494924df",
+  "grade": "POST_RUN_DETERMINISTIC_REGENERATION_NOT_AN_OBSERVED_LAUNCH_CNF_HASH",
+  "observed_search_verdict": "UNKNOWN",
+  "search_run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S007\\targets\\row162.edges",
+    "artifacts\\tmp\\S007\\search\\cover-row162",
+    "900",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 920.1560000000027,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 1324740608,
+   "reason": "external wall cap"
+  },
+  "not_run_reason": null
+ },
+ {
+  "index": 155,
+  "variables": 1656402,
+  "clauses": 3334424,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     5,
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 328,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 3108376
+  },
+  "regenerated_initial_cnf_sha256": "5bceb6586ce7f06b219a51a03fac20fee20d566bc62780760e4ecf11049935cf",
+  "grade": "POST_RUN_DETERMINISTIC_REGENERATION_NOT_AN_OBSERVED_LAUNCH_CNF_HASH",
+  "observed_search_verdict": "UNKNOWN",
+  "search_run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S007\\targets\\row155.edges",
+    "artifacts\\tmp\\S007\\search\\cover-row155",
+    "900",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 920.2029999999941,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 1564160000,
+   "reason": "external wall cap"
+  },
+  "not_run_reason": null
+ },
+ {
+  "index": 157,
+  "variables": 1636128,
+  "clauses": 3293954,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17,
+     18
+    ],
+    [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 315,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 3066682
+  },
+  "regenerated_initial_cnf_sha256": "a4ac2561321e29fe696132c56cd92aa531d1257a59030a7ca5ab728b5332aca0",
+  "grade": "POST_RUN_DETERMINISTIC_REGENERATION_NOT_AN_OBSERVED_LAUNCH_CNF_HASH",
+  "observed_search_verdict": "UNKNOWN",
+  "search_run": null,
+  "not_run_reason": "NOT_RUN after two consecutive final UNKNOWNs"
+ },
+ {
+  "index": 159,
+  "variables": 1656402,
+  "clauses": 3334424,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10
+    ],
+    [
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 328,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 3108376
+  },
+  "regenerated_initial_cnf_sha256": "fd842b167f323a983f51017311513d29744d00f357fb4ab0435928c91208cb52",
+  "grade": "POST_RUN_DETERMINISTIC_REGENERATION_NOT_AN_OBSERVED_LAUNCH_CNF_HASH",
+  "observed_search_verdict": "UNKNOWN",
+  "search_run": null,
+  "not_run_reason": "NOT_RUN after two consecutive final UNKNOWNs"
+ }
+]

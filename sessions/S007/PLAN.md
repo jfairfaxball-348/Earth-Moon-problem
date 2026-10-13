@@ -1,0 +1,8 @@
+# S007 preregistration
+
+Written before mathematical computation; CAM-0008 specifies domains, soundness, symmetry, commands, caps, certificates and stopping rules.
+
+1. Verify native/source/environment pins. Cold regenerate and freshly check K9, row165, all 25 S005 and all 15 S006 retained full refutations. Audit all 271 archived chromatic CNFs/proof hashes and proper ten-colourings. Freshly replay four D2 target lower-colouring proofs. Stop new verdict acceptance on any baseline failure.
+2. Strengthen arbitrary-deficit Cover with planar subset inequalities, input K5 clauses and the proved D<=2 distinct-face consequence. Search exactly [162,155,157,159] at 900s nominal/920s hard per target; two consecutive final UNKNOWNs stop the lane. Keep overlap and noninput completion pairs. Complete proof pipeline and cold regeneration required for negatives; independent actual layers/rotations/colour/lower proof required for positives.
+3. Seek heavy-endblock constraints using actual neighbour sets, K9 exclusion, criticality and published list-extension lemma. Investigate simultaneous palette flexibility and large-deficit obstruction, aggressively reject invalid universal inferences. Explicit finite join/criticality controls preregistered in CAM-0008.
+4. Refresh primary literature including 2026, twice check overlap for results, with honest grades. Internal adversarial review and independent native checks are not an independent external universal-theorem review. Synchronise records, one authored commit/ordinary PR/two-parent merge, independently verify live main. S008 FUTURE/UNEXECUTED only.

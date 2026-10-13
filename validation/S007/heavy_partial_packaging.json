@@ -1,0 +1,10 @@
+{
+ "raw_path": "C:\\Earth-Moon-problem\\validation\\S007\\heavy-cegar\\K7-I5.lemmas.json",
+ "raw_bytes": 65259430,
+ "raw_sha256": "7b0176507db76fadd15f76e4f5a90ac05b42156e17ccef3cca9d9fb264539774",
+ "archive": "validation\\S007\\heavy-cegar\\K7-I5.lemmas.json.gz",
+ "archive_sha256": "c51e4f4a13f6e68a1287690c5c52c76d225c61a5b41134c0f1743fd1e452ab24",
+ "lemmas": 204836,
+ "grade": "PARTIAL_NECESSARY_CLAUSE_SET_NOT_A_REFUTATION",
+ "raw_removed_from_working_tree_after_identical_gzip_verification": true
+}
