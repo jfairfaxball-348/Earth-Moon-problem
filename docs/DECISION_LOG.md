@@ -28,3 +28,8 @@
 - D022(S005): SAT_RELAXATION and failed containment searches never advance biplanarity; 245 cases remain UNKNOWN.
 - D023(S005): Use actual criticality and Gallai palettes/deficits; the explicit two-swap extension is not a universal reducibility theorem.
 - D024(S005): Recalibrate Windows export before alternative certificates; preserve interrupted partial proof UNKNOWN and check complete proof before promotion.
+
+- D025(S006): Cold prior full proof replay and fresh19 chromatic proofs separate from biplanarity.
+- D026(S006): Prospectively extend remaining D1 targets; 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- D027(S006): Sharp Gallai block weights and published simultaneous palette budget leave heavy/large-deficit routes open.
+- D028(S006): Preserve driver provenance and repair consecutive-UNKNOWN counter; accepted CNFs/native tools unchanged.

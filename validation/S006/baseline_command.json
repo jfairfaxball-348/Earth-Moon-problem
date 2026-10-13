@@ -1,0 +1,10 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "artifacts\\tmp\\S006\\baseline.py"
+ ],
+ "returncode": 0,
+ "seconds": 65.61000000000058,
+ "hard_cap": 2400,
+ "observed_peak_tree_private_bytes": 839704576
+}

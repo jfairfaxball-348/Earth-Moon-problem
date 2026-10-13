@@ -32,3 +32,9 @@ S001 performed no research. Absence of a found example never proves universal no
 | F024 | One vertex deletion of row158 quickly supplies smaller obstruction | 23v/123e search UNKNOWN at200s | No smaller/minimal obstruction claim |
 | F025 | Windows native CaDiCaL supports -t | Four invalid-option exits preserved | External supervision repair; no affected verdict |
 | F026 | Interrupted export is complete evidence | Row179 partial proof unverified; cause UNKNOWN | Preserve partial hash, re-solve/check before acceptance |
+
+| F027 | Bridge-only bound(29/8)l-c | 40v/150e K5 joining five K8s, degree11 | Sharp61/16 replaces guess |
+| F028 | Identical palettes force fixed-boundary extension/common neighbours | Explicit chi8 private-leaf trap | Actual criticality/recolouring needed |
+| F029 | Total deficit supplies list/DP mad threshold | All-subgraph11+1/28 unproved | No EMP bound |
+| F030 | Short D2 searches decide stratum | UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], caps[162, 155] | Stronger route needed |
+| F031 | Internal UNKNOWN exit0 correctly increments original counter | Reset found in code review and repaired | Actual caps/source limits preserved; accepted proofs unaffected |

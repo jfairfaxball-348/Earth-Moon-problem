@@ -1,0 +1,13 @@
+{
+ "initial_driver": {
+  "path": "validation\\S006\\driver_initial_reconstructed.py.txt",
+  "sha256": "c6f3beb0eb78bc8cab03e1b78c5ec326a547ab1b87b4afe7fdad57d9f9ba0b3e",
+  "grade": "RECONSTRUCTED_FROM_EXACT_TOOL_PATCHES_AFTER_LAUNCH_NOT_AN_OBSERVED_LAUNCH_HASH"
+ },
+ "larger_driver": {
+  "path": "validation/S006/driver_larger_snapshot.py.txt",
+  "sha256": "12e8d97a3fa3da2562935a8c424263abf705ceb7e04e17e06739b521716ebb68",
+  "grade": "CURRENT_FILE_BYTES_CAPTURED_AFTER_LAUNCH_NO_EDITS_SINCE_BEFORE_LARGER_LAUNCH"
+ },
+ "formula_generators": "No Cover/CNF/native changes; all accepted CNFs regenerated and actual DRAT checked"
+}

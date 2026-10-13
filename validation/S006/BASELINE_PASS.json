@@ -1,0 +1,15 @@
+{
+ "full_archived_S005": 25,
+ "package_audit": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_s005_archives.py"
+  ],
+  "returncode": 0,
+  "seconds": 21.406000000002678,
+  "hard_cap": 600,
+  "observed_peak_tree_private_bytes": 1326342144
+ },
+ "controls": 23,
+ "inherited_baseline": "K9, row165, row165 bag; 271 archive/colour audits passed"
+}

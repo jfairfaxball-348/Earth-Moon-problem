@@ -1,6 +1,6 @@
-# Source register after S005
+# Sources register after S006
 
-Access grades describe actual inspection; unavailable live versions and unreplayed certificates stay explicit.
+Exact access grades, scopes and trust limits follow.
 
 ## SRC-0001 — SECONDARY_ONLY
 
@@ -58,6 +58,8 @@ https://doi.org/10.5281/zenodo.22103613
 
 Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated HajÃ³s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.
 
+Publication date: 2026-08-26; accessed: 2026-10-12.
+
 ## SRC-0008 — SECONDARY_ONLY
 
 Map Colour Theorems (1890). P. J. Heawood.
@@ -72,7 +74,7 @@ Biplanar graphs with independence number two are 9-colorable (2026). Stefan Szei
 
 https://arxiv.org/html/2609.28102v1
 
-Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run.
+Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed.
 
 ## SRC-0010 — STATEMENT_INSPECTED
 
@@ -96,7 +98,7 @@ Biplanar clique blow-ups of C5 are 9-colourable (2026). Arjun Trivedi.
 
 https://doi.org/10.5281/zenodo.22074335
 
-Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority.
+Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected.
 
 ## SRC-0013 — STATEMENT_INSPECTED
 
@@ -136,7 +138,7 @@ earth-moon-biplanar (repository: paper/earthmoon.md, data/graphs/pool) (2026). D
 
 https://github.com/Volkopat/earth-moon-biplanar
 
-Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin.
+Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin.
 
 ## SRC-0018 — ABSTRACT_INSPECTED
 
@@ -168,7 +170,7 @@ earth-moon-chi10 (candidates and obstructions for a 10-chromatic biplanar graph)
 
 https://github.com/Volkopat/earth-moon-chi10
 
-Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable.
+Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred.
 
 ## SRC-0022 — ABSTRACT_INSPECTED
 
@@ -202,6 +204,8 @@ https://github.com/arminbiere/cadical/tree/c60730422e758ef1cebe7aeddf2dda31c996b
 
 README/BUILD and selected portability sources inspected; pinned source built, observed --version 3.0.1. Solver outputs require independent DRAT checking.
 
+Publication date: 2026-07-19; accessed: 2026-10-13.
+
 ## SRC-0026 — METADATA_ONLY
 
 LLVM-MinGW 20261006 UCRT x86_64 compiler release (2026). LLVM-MinGW contributors.
@@ -216,4 +220,26 @@ Colour-critical graphs with few edges (1998). A. V. Kostochka, M. Stiebitz.
 
 https://kostochk.web.illinois.edu/docs/2000/dm1998Stieb.pdf
 
-Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection.
+Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed.
+
+Publication date: 1998-09-28; accessed: 2026-10-13.
+
+## SRC-0028 — PROOF_INSPECTED
+
+Edge Lower Bounds for List Critical Graphs, via Discharging (2016). Daniel W. Cranston, Landon Rabern.
+
+https://arxiv.org/html/1602.02589v1
+
+Primary Lemma3.1 statement and complete local induction proof inspected, plus related Lemma3.2/Corollary3.3 statements and degree definition. Not complete discharging/criticality proof. arXiv metadata lists Combinatorica38(5),1045-1065(2018). Generic k controls maximum degree k-1; k=9 cannot cover max-degree11. Related block-density work, no priority guarantee for S006.
+
+Publication date: 2016-02-08; accessed: 2026-10-13.
+
+## SRC-0029 — STATEMENT_INSPECTED
+
+Density of list- and correspondence-critical graphs (2026). Peter Bradshaw.
+
+https://arxiv.org/html/2608.06757v2
+
+Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance.
+
+Publication date: 2026-08-07; accessed: 2026-10-13.

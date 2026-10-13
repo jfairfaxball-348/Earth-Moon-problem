@@ -1,0 +1,1211 @@
+[
+ {
+  "target": {
+   "index": 29,
+   "g6": "GtciGc",
+   "w": [
+    2,
+    6,
+    1,
+    4,
+    2,
+    6,
+    2,
+    4
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row29.edges",
+   "edge_sha256": "872d7044d3db7b23e279ab2dff4d5dd1598e8539dc9f6642de57eb7c6368fb12"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row29.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row29",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 18.76600000000326,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 189288448
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 2,
+   "seconds": 17.968999999997322,
+   "cuts": 124,
+   "variables": 160965,
+   "clauses": 328872
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row29.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row29"
+    ],
+    "returncode": 0,
+    "seconds": 0.8429999999934807,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 107753472
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row29.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row29.drat"
+    ],
+    "returncode": 20,
+    "seconds": 20.78200000000652,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 128270336
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row29.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row29.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 17.875,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 130215936
+   },
+   "cnf_sha256": "e5798fb7f564f1a66a84cdd0c846b05e42f05283b691a939f29e3341f1fa855e",
+   "proof_sha256": "498440eb8a8245a7656eb5e12d9e2ba24e7e8082a622f8166cc42bdabf09bfa6",
+   "proof_bytes": 102958304,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row29.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row29.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row29.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 17.60899999999674,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 130211840
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row29.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row29.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 9.312000000005355,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 76828672
+   },
+   "archive": "validation\\S006\\search\\cover-row29.drat.gz",
+   "archive_raw_sha256": "f0fc40d33d6aefca018feaad4d3d13916d0bcacfcf5c2764fd0632f1cadb50a8",
+   "archive_raw_bytes": 26403039,
+   "archive_sha256": "1269cfdd95a5732a2d3d25925e7196e8ed67ab7fe2653b48074dfd5256ed9b30"
+  }
+ },
+ {
+  "target": {
+   "index": 35,
+   "g6": "GtciGc",
+   "w": [
+    2,
+    6,
+    2,
+    4,
+    1,
+    6,
+    2,
+    4
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row35.edges",
+   "edge_sha256": "12292a9ae55bbd7f8ee1ac5783c72b3ffcc9d12ab8f79b036dc38fe71ae4b535"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row35.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row35",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 25.469000000011874,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 188952576
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 2,
+   "seconds": 24.671000000002095,
+   "cuts": 107,
+   "variables": 160965,
+   "clauses": 328855
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row35.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row35"
+    ],
+    "returncode": 0,
+    "seconds": 0.8439999999973224,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 108740608
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row35.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row35.drat"
+    ],
+    "returncode": 20,
+    "seconds": 22.827999999994063,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 129335296
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row35.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row35.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 19.047000000005937,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 130256896
+   },
+   "cnf_sha256": "62dda3cd0843571485a7aa9eef82b43c55a0341310f4a5d6ddda0317801402fa",
+   "proof_sha256": "de6a2f34ea96fdb4e8001db405e0c3408c40062dca2a100e4504927eb5954736",
+   "proof_bytes": 119558191,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row35.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row35.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row35.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 19.125,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 130252800
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row35.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row35.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 9.796999999991385,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 86966272
+   },
+   "archive": "validation\\S006\\search\\cover-row35.drat.gz",
+   "archive_raw_sha256": "7562fa4500e5ccc26642a396ed87811192d965c6691185d70d2673ed54425d9e",
+   "archive_raw_bytes": 30944465,
+   "archive_sha256": "ccbacd902c4a9921de4e56609309cc5d382530b4b0285fa8a46f3d45e03cec58"
+  }
+ },
+ {
+  "target": {
+   "index": 46,
+   "g6": "GtciGc",
+   "w": [
+    4,
+    4,
+    1,
+    2,
+    2,
+    6,
+    2,
+    6
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row46.edges",
+   "edge_sha256": "8b9776f72f92750f4fd75e557b83c51d763956df69dab63caec0e1d0de47bd0c"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row46.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row46",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 11.343999999997322,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 185143296
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 3,
+   "seconds": 10.562000000005355,
+   "cuts": 248,
+   "variables": 160965,
+   "clauses": 328996
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row46.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row46"
+    ],
+    "returncode": 0,
+    "seconds": 0.8440000000118744,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 107323392
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row46.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row46.drat"
+    ],
+    "returncode": 20,
+    "seconds": 12.312999999994645,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 127795200
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row46.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row46.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 9.10899999999674,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 127115264
+   },
+   "cnf_sha256": "32202443cdfa7ec13c48d6d5254c4f4ba4f0553404aba7f6ff7b57e0db72ecf5",
+   "proof_sha256": "2b16f8ca1019a77d86a3f85d228af12ab8607a2e2596bf2f78376be9ad881aad",
+   "proof_bytes": 80706555,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row46.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row46.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row46.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 9.40700000000652,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 130117632
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row46.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row46.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 4.952999999994063,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 76832768
+   },
+   "archive": "validation\\S006\\search\\cover-row46.drat.gz",
+   "archive_raw_sha256": "0ece946bde73d03f3834c7ed66b1d0aedaab8ff5cf29cd9d7fb24b178fff5456",
+   "archive_raw_bytes": 18165881,
+   "archive_sha256": "2dba09a285852cf19de1341b110bd57655b61510d4e788d9c4ddba7e4669c767"
+  }
+ },
+ {
+  "target": {
+   "index": 47,
+   "g6": "GtciGc",
+   "w": [
+    4,
+    4,
+    2,
+    2,
+    1,
+    6,
+    2,
+    6
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row47.edges",
+   "edge_sha256": "228f944d13225755853fb4793e63bab8a77ac79e09a63c85b9dd6050b0ff0553"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row47.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row47",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 11.187999999994645,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 187908096
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 3,
+   "seconds": 10.344000000011874,
+   "cuts": 226,
+   "variables": 160965,
+   "clauses": 328974
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row47.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row47"
+    ],
+    "returncode": 0,
+    "seconds": 0.8429999999934807,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 108974080
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row47.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row47.drat"
+    ],
+    "returncode": 20,
+    "seconds": 12.25,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 126894080
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row47.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row47.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 8.25,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 104226816
+   },
+   "cnf_sha256": "e76ac9fdab06b7d897b7d22616bbdb3cdd29f7fcb6bf903a7847dc76f4275d31",
+   "proof_sha256": "055ffe6255730d1cd28604b5b1d604f7df61453d8c750a12d4ddad0f09006635",
+   "proof_bytes": 66638767,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row47.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row47.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row47.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 8.468999999997322,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 104218624
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row47.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row47.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 4.2189999999973224,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 76828672
+   },
+   "archive": "validation\\S006\\search\\cover-row47.drat.gz",
+   "archive_raw_sha256": "101663f0cd540d3a9c166f8e3a611c45f79e93ece582f1cd4d6492cd1aa6a9bb",
+   "archive_raw_bytes": 14384332,
+   "archive_sha256": "5b758fce1be1cd02c60dda9d3e750cd50bc047e77e8698dc0b06ef9a48009c7f"
+  }
+ },
+ {
+  "target": {
+   "index": 80,
+   "g6": "GtHGgS",
+   "w": [
+    3,
+    5,
+    2,
+    3,
+    6,
+    2,
+    5,
+    1
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row80.edges",
+   "edge_sha256": "92a1cb38ef91decfb08a2b2bac13f8d498825380bdb9cf40dbb4cfbd7f9607d0"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row80.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row80",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 15.811999999990803,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 186904576
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 1,
+   "seconds": 14.968999999997322,
+   "cuts": 0,
+   "variables": 160965,
+   "clauses": 328748
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row80.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row80"
+    ],
+    "returncode": 0,
+    "seconds": 0.8439999999973224,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 107335680
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row80.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row80.drat"
+    ],
+    "returncode": 20,
+    "seconds": 21.625,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 141860864
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row80.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row80.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 13.75,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 130183168
+   },
+   "cnf_sha256": "fa09b2c3937b9462b165c185d9b84fa42f6828038f8c66d5e94c6ca0772e6ecb",
+   "proof_sha256": "16c48f8df75765f33efdc063dea51baf80e1081afe9f6fcd92529c8c53698467",
+   "proof_bytes": 90369042,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row80.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row80.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row80.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 14.062999999994645,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 130191360
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row80.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row80.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 7.89100000000326,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 76828672
+   },
+   "archive": "validation\\S006\\search\\cover-row80.drat.gz",
+   "archive_raw_sha256": "ae27f7bbe1d87a3614174b94fbdb3e07d0734ba6732c22c87f1ec83cb4d8a577",
+   "archive_raw_bytes": 24588525,
+   "archive_sha256": "a982f2ad087561338cb94a2af217fa5fd11cff52dc499393d4b30f37d9b3ec2e"
+  }
+ },
+ {
+  "target": {
+   "index": 81,
+   "g6": "GtHGgS",
+   "w": [
+    3,
+    5,
+    3,
+    2,
+    5,
+    2,
+    6,
+    1
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row81.edges",
+   "edge_sha256": "12875c6ab36e390f7d9307eaf5fc01190afbd93f96432a13dd06f54bbbe94bdc"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row81.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row81",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 11.797000000005937,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 184205312
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 1,
+   "seconds": 10.98399999999674,
+   "cuts": 0,
+   "variables": 160965,
+   "clauses": 328748
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row81.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row81"
+    ],
+    "returncode": 0,
+    "seconds": 0.8439999999973224,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 108445696
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row81.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row81.drat"
+    ],
+    "returncode": 20,
+    "seconds": 12.71799999999348,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 127397888
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row81.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row81.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 9.422000000005937,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 104316928
+   },
+   "cnf_sha256": "e143c87de9624561a41fd0e76c66c47c5faff4cf7198fa62fe66ab03bc690356",
+   "proof_sha256": "fc9f8c7f7c3a7b044fc4f557335ea33005c80efad3359186fa0e2849a68f60f6",
+   "proof_bytes": 64899065,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row81.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row81.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row81.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 9.625,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 104316928
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row81.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row81.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 5.1560000000026776,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 76824576
+   },
+   "archive": "validation\\S006\\search\\cover-row81.drat.gz",
+   "archive_raw_sha256": "0d3656f9a9582438055029998fe9b32860c7b24d45a52d026b529c53cb213cc9",
+   "archive_raw_bytes": 13975404,
+   "archive_sha256": "98325a78cd7b88b5f615a0e4f937ce1e3934332a0e36f51f0cca1225dd7ec2c3"
+  }
+ },
+ {
+  "target": {
+   "index": 82,
+   "g6": "GtHGgS",
+   "w": [
+    4,
+    4,
+    2,
+    2,
+    6,
+    2,
+    6,
+    1
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row82.edges",
+   "edge_sha256": "50d34874fa2ee4a1e2ad6c8ee47390b6fee8bef98a2d7b17d2ad8c6e5c5417a5"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row82.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row82",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 11.514999999999418,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 188383232
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 2,
+   "seconds": 10.75,
+   "cuts": 83,
+   "variables": 161541,
+   "clauses": 330559
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row82.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row82"
+    ],
+    "returncode": 0,
+    "seconds": 0.8600000000005821,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 110174208
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row82.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row82.drat"
+    ],
+    "returncode": 20,
+    "seconds": 9.437000000005355,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 129290240
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row82.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row82.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 5.812999999994645,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 104321024
+   },
+   "cnf_sha256": "ed7a480e02d10f860e4bb826b31210912deac699a2beb60bf7b39add48deb448",
+   "proof_sha256": "f069f8c68acf6c7f6456cae49bef4048c1ed047c1d2d315a9f7da0695a8be271",
+   "proof_bytes": 64987937,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row82.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row82.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row82.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 5.936999999990803,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 104333312
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row82.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row82.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 2.8440000000118744,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 70074368
+   },
+   "archive": "validation\\S006\\search\\cover-row82.drat.gz",
+   "archive_raw_sha256": "0c5164ea7050c59132134e274c25b2f0de470c297ba45890e8380ec29c81811a",
+   "archive_raw_bytes": 12480199,
+   "archive_sha256": "4514d98e606d12557ffe1fe00e2f7564f59571255de50008c6bc3567129d7f9e"
+  }
+ },
+ {
+  "target": {
+   "index": 258,
+   "g6": "GtOkGs",
+   "w": [
+    2,
+    6,
+    2,
+    4,
+    2,
+    6,
+    1,
+    4
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row258.edges",
+   "edge_sha256": "c76861ba5a1a2e72f076979d9a46e0f329a9c24a1b684ab3d80b87d9dd0ad029"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row258.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row258",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 2.75,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 184279040
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 1,
+   "seconds": 1.937000000005355,
+   "cuts": 0,
+   "variables": 160965,
+   "clauses": 328748
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row258.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row258"
+    ],
+    "returncode": 0,
+    "seconds": 0.8600000000005821,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 106848256
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row258.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row258.drat"
+    ],
+    "returncode": 20,
+    "seconds": 3.687000000005355,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 125050880
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row258.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row258.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 2.8439999999973224,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 107266048
+   },
+   "cnf_sha256": "49e4e920c04ba55fc22b14efcea895e5a5f45a5f004b39507941d012617104f3",
+   "proof_sha256": "181ec87f0821031154d503524f6847597039e01cf5d73e2a1bbcd9f12e99d655",
+   "proof_bytes": 48636918,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row258.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row258.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row258.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 2.8439999999973224,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 104255488
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row258.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row258.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.7339999999967404,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 70062080
+   },
+   "archive": "validation\\S006\\search\\cover-row258.drat.gz",
+   "archive_raw_sha256": "41e622e8772b925a1e8c1a7ed7dd124983a0dc0a98d53211198d6d822afcfae0",
+   "archive_raw_bytes": 3888789,
+   "archive_sha256": "7b3ade3debd8ce48a8e7a6ac19b78687794ac8858f14df9a0629c9df602bda29"
+  }
+ },
+ {
+  "target": {
+   "index": 260,
+   "g6": "GtOkGs",
+   "w": [
+    2,
+    6,
+    4,
+    2,
+    2,
+    4,
+    1,
+    6
+   ],
+   "n": 27,
+   "m": 149,
+   "D": 1,
+   "edgefile": "validation\\S006\\targets\\row260.edges",
+   "edge_sha256": "776bbf3f374ca807b7e41ba527f6c936ea7e502b8587f0d351aeb74e891b1df7"
+  },
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row260.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row260",
+    "300",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 3.375,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 183324672
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 1,
+   "seconds": 2.5310000000026776,
+   "cuts": 0,
+   "variables": 160965,
+   "clauses": 328748
+  },
+  "certificate": {
+   "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/triangulation_cover.py",
+     "check",
+     "validation\\S006\\targets\\row260.edges",
+     "artifacts\\tmp\\S006\\search\\cover-row260"
+    ],
+    "returncode": 0,
+    "seconds": 0.8600000000005821,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 107806720
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S006\\search\\cover-row260.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row260.drat"
+    ],
+    "returncode": 20,
+    "seconds": 3.7960000000020955,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 127696896
+   },
+   "check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row260.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row260.drat",
+     "-t",
+     "1200"
+    ],
+    "returncode": 0,
+    "seconds": 3.0469999999913853,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 104263680
+   },
+   "cnf_sha256": "2962a42472abcd67777af72df0ff18bf4d76b739b82c9beb28d9c03542cc3b86",
+   "proof_sha256": "021d9e1fa3b60ef9c47992b278ff7735d84f1021fa3474266d84226b50679cd3",
+   "proof_bytes": 51714106,
+   "trim": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row260.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row260.drat",
+     "-l",
+     "artifacts\\tmp\\S006\\search\\cover-row260.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 3.0469999999913853,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 104259584
+   },
+   "core_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S006\\search\\cover-row260.cnf",
+     "artifacts\\tmp\\S006\\search\\cover-row260.core.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.8440000000118744,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 70057984
+   },
+   "archive": "validation\\S006\\search\\cover-row260.drat.gz",
+   "archive_raw_sha256": "d4e99430f0650e5016b77dcd388e40ab3c385ae442b87a15a1c0bfe122b3221c",
+   "archive_raw_bytes": 3334599,
+   "archive_sha256": "7a219620d040f3cb75a2c974c0b638ee880251929661d98e1eaa41a59f710790"
+  }
+ },
+ {
+  "target": {
+   "index": 162,
+   "g6": "G|fH_K",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    3,
+    2,
+    2,
+    6
+   ],
+   "n": 23,
+   "m": 124,
+   "D": 2,
+   "edgefile": "validation\\S006\\targets\\row162.edges",
+   "edge_sha256": "ce419a6fbb06a596855c9f22cf5c9d1d00367aba678aaf85306acf5e74ec871c"
+  },
+  "verdict": "UNKNOWN",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row162.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row162",
+    "300",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 320.14100000000326,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 154595328,
+   "reason": "external wall cap"
+  }
+ },
+ {
+  "target": {
+   "index": 155,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    3,
+    3,
+    2,
+    4,
+    2,
+    2,
+    6
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S006\\targets\\row155.edges",
+   "edge_sha256": "f8ce916ad0afcb511c88efee28783c3dc17cba9ba86ff7ac76a196a02da2b309"
+  },
+  "verdict": "UNKNOWN",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/triangulation_cover.py",
+    "validation\\S006\\targets\\row155.edges",
+    "artifacts\\tmp\\S006\\search\\cover-row155",
+    "300",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 320.2190000000119,
+   "hard_cap": 320,
+   "observed_peak_tree_private_bytes": 174583808,
+   "reason": "external wall cap"
+  }
+ },
+ {
+  "target": {
+   "index": 157,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    4,
+    2,
+    2,
+    4,
+    2,
+    3,
+    5
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S006\\targets\\row157.edges",
+   "edge_sha256": "4fd453abea7393cb85bbe243d65507a438f1faa07d2e5635de47451cb443e58a"
+  },
+  "verdict": "UNKNOWN",
+  "reason": "NOT_RUN after two consecutive lane caps/failures"
+ },
+ {
+  "target": {
+   "index": 159,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    4,
+    2,
+    3,
+    3,
+    2,
+    2,
+    6
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S006\\targets\\row159.edges",
+   "edge_sha256": "5ba180171404e8b7c32c3af776fb53c75da13adeda20d277f03c5addfa66d018"
+  },
+  "verdict": "UNKNOWN",
+  "reason": "NOT_RUN after two consecutive lane caps/failures"
+ }
+]
