@@ -1,0 +1,22 @@
+[
+ {
+  "tag": "apex-19",
+  "route": "cegar",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/biplanar_cegar.py",
+   "validation/S004/targets/apex-19.edges",
+   "validation/S004/search/cegar-apex-19",
+   "120",
+   "--seed-small",
+   "--limit",
+   "12"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "iterations": 369,
+  "lemmas": 63653,
+  "symmetries": 7,
+  "observed_seconds": 120.5309999999954
+ }
+]

@@ -1,105 +1,125 @@
 {
-  "project": "Earth-Moon-problem",
-  "repository_id": 1415870164,
-  "as_of": "2026-10-12",
-  "last_completed_session": "S003",
-  "recommended_next_session": "S004",
-  "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
-  "headline_status": "OPEN_9_TO_12_S003_CERTIFIED_ORACLE_AND_CANDIDATE_FAMILIES",
-  "confirmed_classical_range": {
-    "lower": 9,
-    "upper": 12,
-    "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
+ "project": "Earth-Moon-problem",
+ "repository_id": 1415870164,
+ "as_of": "2026-10-13",
+ "last_completed_session": "S004",
+ "recommended_next_session": "S005",
+ "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
+ "headline_status": "OPEN_9_TO_12_S004_ONE_CERTIFIED_FINITE_EXCLUSION",
+ "confirmed_classical_range": {
+  "lower": 9,
+  "upper": 12,
+  "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
+ },
+ "candidate_10_11_12": "All 271 alpha>=3 survivors certified chi=10; source row 165 (22v/119e) non-biplanar with checked DRAT; remaining 270 biplanarity UNKNOWN. No chi>=10 biplanar construction.",
+ "universal_improved_upper_bound": "NONE_PROVED",
+ "phases": [
+  {
+   "id": 0,
+   "name": "Bootstrap and governance",
+   "status": "PASS_ADMIN_ONLY"
   },
-  "candidate_10_11_12": "271 alpha>=3 chi=10 clique blow-ups (validation/S003/survivors_alpha_ge3.json) pass all counting filters; biplanarity UNKNOWN; NONE CERTIFIED BIPLANAR",
-  "universal_improved_upper_bound": "NONE_PROVED",
-  "phases": [
-    {
-      "id": 0,
-      "name": "Bootstrap and governance",
-      "status": "PASS_ADMIN_ONLY"
-    },
-    {
-      "id": 1,
-      "name": "Primary-source baseline and genuine proof/counterexample investigation",
-      "status": "ACTIVE_CERTIFIED_TOOLS_AND_CANDIDATES_NO_HEADLINE_ADVANCE"
-    },
-    {
-      "id": 2,
-      "name": "First result-specific novelty audit",
-      "status": "NOT_STARTED"
-    },
-    {
-      "id": 3,
-      "name": "Lean formalisation and verification",
-      "status": "NOT_STARTED"
-    },
-    {
-      "id": 4,
-      "name": "Final comprehensive novelty/correctness audit",
-      "status": "NOT_STARTED"
-    },
-    {
-      "id": 5,
-      "name": "Palomar registration",
-      "status": "OWNER_GATED"
-    },
-    {
-      "id": 6,
-      "name": "Paper and reproduction package",
-      "status": "NOT_STARTED"
-    },
-    {
-      "id": 7,
-      "name": "arXiv and journal submission",
-      "status": "OWNER_GATED"
-    }
+  {
+   "id": 1,
+   "name": "Primary-source baseline and genuine proof/counterexample investigation",
+   "status": "ACTIVE_FINITE_EXCLUSION_AND_CERTIFIED_FRONTIER_NO_HEADLINE_ADVANCE"
+  },
+  {
+   "id": 2,
+   "name": "First result-specific novelty audit",
+   "status": "NOT_STARTED"
+  },
+  {
+   "id": 3,
+   "name": "Lean formalisation and verification",
+   "status": "NOT_STARTED"
+  },
+  {
+   "id": 4,
+   "name": "Final comprehensive novelty/correctness audit",
+   "status": "NOT_STARTED"
+  },
+  {
+   "id": 5,
+   "name": "Palomar registration",
+   "status": "OWNER_GATED"
+  },
+  {
+   "id": 6,
+   "name": "Paper and reproduction package",
+   "status": "NOT_STARTED"
+  },
+  {
+   "id": 7,
+   "name": "arXiv and journal submission",
+   "status": "OWNER_GATED"
+  }
+ ],
+ "source_status": "2026_PRIMARY_RECHECKED_TOOL_PINS_AND_CORPUS_AUDITED_EXTERNAL_ARCHIVES_NOT_REPLAYED",
+ "lean": {
+  "status": "NOT_STARTED"
+ },
+ "palomar": {
+  "status": "NOT_REGISTERED"
+ },
+ "arxiv": {
+  "status": "NOT_SUBMITTED"
+ },
+ "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
+ "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
+ "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
+ "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+ "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+ "open_obligations": [
+  "Decide biplanarity of the remaining 270 certified chi=10 alpha>=3 survivors; source row 165 excluded in S004.",
+  "Independently reproduce the full-survivor exclusion with a second sound complete encoding; S004 no-lex relaxation was SAT/non-planar.",
+  "Classify 13 maximal C5 patterns and children; S004 short face/packing runs all UNKNOWN, including 600 s short-link retry.",
+  "Independent full k=8 census check (S004 checked two fixed bases only); k=9 unrun.",
+  "Apex(C5[K3]) biplanarity UNKNOWN, exact chi=9 (calibration only); all 159 pinned SRC-0017 corpus apices are excluded.",
+  "Upper side: critical/multi-swap/low-deficit reducibility and large-deficit control; unconditional single-swap double-wheel premise refuted.",
+  "Verify S004 actual authored commit/PR/two-parent merge/checks from live evidence; outgoing refs not anticipated.",
+  "Novelty/priority of finite candidates, encoding extension and lock example unchecked; no gate advances."
+ ],
+ "next_session_is_future_unexecuted": true,
+ "latest_session_branch": "codex/S004-candidate-frontier",
+ "latest_session_entry_main": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+ "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
+ "mathematical_results": [
+  "CLM-0007",
+  "CLM-0009",
+  "CLM-0010",
+  "CLM-0011",
+  "CLM-0012",
+  "CLM-0013",
+  "CLM-0014",
+  "CLM-0015",
+  "CLM-0016",
+  "CLM-0017",
+  "CLM-0018",
+  "CLM-0019",
+  "CLM-0020",
+  "CLM-0021",
+  "CLM-0022",
+  "CLM-0023",
+  "CLM-0025",
+  "CLM-0026",
+  "CLM-0027",
+  "CLM-0028",
+  "CLM-0029",
+  "CLM-0030",
+  "CLM-0031",
+  "CLM-0032",
+  "CLM-0033"
+ ],
+ "s003_integration_verified": {
+  "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
+  "sole_parent": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+  "pr": 3,
+  "merge_commit": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+  "merge_parents": [
+   "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+   "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569"
   ],
-  "source_status": "2026_PRIMARY_FRONTIER_INSPECTED_CERTIFICATES_NOT_REPLAYED",
-  "lean": {
-    "status": "NOT_STARTED"
-  },
-  "palomar": {
-    "status": "NOT_REGISTERED"
-  },
-  "arxiv": {
-    "status": "NOT_SUBMITTED"
-  },
-  "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
-  "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
-  "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
-  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
-  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
-  "open_obligations": [
-    "Decide biplanarity of C5 blow-up patterns (2,6,2,6,2),(2,3,5,2,6),(2,5,3,3,5),(2,3,5,3,5) and the other maximal N=18/17 patterns with the v4 oracle (stronger symmetry handling / longer runs).",
-    "Decide biplanarity of the 271 alpha>=3 census survivors (any biplanar one gives chi_2>=10 after cold audit).",
-    "Independent cross-check of the k=8 census; chi=10 certificates for k=8 part-0 alpha>=3 survivors.",
-    "Apex lane: 4 SRC-0017 corpus apices and apex(C5[K3]) undecided.",
-    "Upper side: two-layer Kempe reducibility of degree-11 double-wheel vertices; large-deficit regime.",
-    "Verify S003 actual authored commit/PR/two-parent merge from live remote evidence.",
-    "Novelty of census theorem (k<=6) and candidate families unchecked."
-  ],
-  "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "ccr-1d66faf5-kctudc",
-  "latest_session_entry_main": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
-  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
-  "mathematical_results": [
-    "CLM-0007",
-    "CLM-0009",
-    "CLM-0010",
-    "CLM-0011",
-    "CLM-0012",
-    "CLM-0013",
-    "CLM-0014",
-    "CLM-0015",
-    "CLM-0016",
-    "CLM-0017",
-    "CLM-0018",
-    "CLM-0019",
-    "CLM-0020",
-    "CLM-0021",
-    "CLM-0022",
-    "CLM-0023",
-    "CLM-0025"
-  ]
+  "tree": "6c886f5461a463de710587fd46fc3de197c04950"
+ }
 }

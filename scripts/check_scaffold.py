@@ -16,9 +16,9 @@ REQUIRED = [
 ]
 for item in REQUIRED:
     assert (ROOT / item).is_file(), "Missing: " + item
-state = json.loads((ROOT / "authoritative/STATE.json").read_text())
-sources = json.loads((ROOT / "catalogue/SOURCES.json").read_text())
-claims = json.loads((ROOT / "catalogue/CLAIMS.json").read_text())
+state = json.loads((ROOT / "authoritative/STATE.json").read_text(encoding="utf-8"))
+sources = json.loads((ROOT / "catalogue/SOURCES.json").read_text(encoding="utf-8"))
+claims = json.loads((ROOT / "catalogue/CLAIMS.json").read_text(encoding="utf-8"))
 session = state["last_completed_session"]
 assert session.startswith("S") and session[1:].isdigit()
 number = int(session[1:])
@@ -28,7 +28,7 @@ for name in ("INPUT", "PLAN", "CLOSEOUT"):
 if number >= 2:
     for name in ("RESEARCH", "ADVERSARIAL", "PRIOR_ART"):
         assert (ROOT / f"sessions/{session}/{name}.md").is_file()
-assert state["recommended_next_session"] in (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text()
+assert state["recommended_next_session"] in (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
 assert state["next_session_is_future_unexecuted"] is True
 assert state["phases"][0]["status"] == "PASS_ADMIN_ONLY"
 assert len({s["id"] for s in sources}) == len(sources)

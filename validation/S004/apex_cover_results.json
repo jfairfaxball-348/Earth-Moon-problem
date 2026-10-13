@@ -1,0 +1,126 @@
+[
+ {
+  "tag": "apex-19",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/apex-19.edges",
+   "validation/S004/search/cover-apex-19",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 0.031000000002677552,
+  "cuts": 0,
+  "variables": 18050,
+  "clauses": 36998,
+  "observed_seconds": 0.46899999999732245,
+  "structure_checker": "cover certificate structure PASS 0 cuts",
+  "proof": {
+   "cnf_sha256": "733a35e5e3246814551f69d834545a0fcd1e5e4ec8b4b7d9828be8dbd1078fde",
+   "drat_sha256": "25ca1918be9ad2d9f2030a46cf4fc584597d61f1ca351c9ab5e1d4380a448713",
+   "drat_bytes": 19876,
+   "checker": "VERIFIED"
+  }
+ },
+ {
+  "tag": "apex-49",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/apex-49.edges",
+   "validation/S004/search/cover-apex-49",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 0.01600000000325963,
+  "cuts": 0,
+  "variables": 13597,
+  "clauses": 27974,
+  "observed_seconds": 0.4530000000013388,
+  "structure_checker": "cover certificate structure PASS 0 cuts",
+  "proof": {
+   "cnf_sha256": "c5ecab4107fb77e445aea0a483378cf1cccaa89636a014d4b151ef94198196f0",
+   "drat_sha256": "f2f8fd718e8badada9277a592ca18971f3a21f881af47c6acb48798771e5fe97",
+   "drat_bytes": 11987,
+   "checker": "VERIFIED"
+  }
+ },
+ {
+  "tag": "apex-79dh",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/apex-79dh.edges",
+   "validation/S004/search/cover-apex-79dh",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 0.8430000000007567,
+  "cuts": 0,
+  "variables": 279175,
+  "clauses": 570488,
+  "observed_seconds": 2.2190000000045984,
+  "structure_checker": "cover certificate structure PASS 0 cuts",
+  "proof": {
+   "cnf_sha256": "6d2c8b17c6a952279717cddab7543de8a4b83822aa1c095d92ea1ce7757dbdbd",
+   "drat_sha256": "7ece7faf4c6124bb8ced8a558a17c6855101a42b7d199d67a88df4a65bc363ed",
+   "drat_bytes": 2437007,
+   "checker": "VERIFIED"
+  }
+ },
+ {
+  "tag": "apex-79single",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/apex-79single.edges",
+   "validation/S004/search/cover-apex-79single",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 0.5620000000053551,
+  "cuts": 0,
+  "variables": 277447,
+  "clauses": 565304,
+  "observed_seconds": 1.875,
+  "structure_checker": "cover certificate structure PASS 0 cuts",
+  "proof": {
+   "cnf_sha256": "73842eb4cb3503e79e3cd6bdec8b3a2a6d98fb426145f84d1a6bbf139256cc37",
+   "drat_sha256": "972c70f67dd2a004c42b620a2adaa1fdfb310cc16cb770d1d2c98f42072f290f",
+   "drat_bytes": 1400987,
+   "checker": "VERIFIED"
+  }
+ },
+ {
+  "tag": "apex-C5K3",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/apex-C5K3.edges",
+   "validation/S004/search/cover-apex-C5K3",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01599999999598
+ }
+]

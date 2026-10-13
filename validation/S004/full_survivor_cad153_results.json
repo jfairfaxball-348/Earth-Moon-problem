@@ -1,0 +1,10 @@
+{
+ "solver": "bundled Cadical153 with C-runtime flush",
+ "proof_cap_seconds": 600,
+ "solver_exit": 0,
+ "checker": "VERIFIED",
+ "verdict": "NON_BIPLANAR_CHECKED",
+ "proof_bytes": 416906985,
+ "proof_sha256": "68d221e2713fb1036f4e4a16f0791f28aa09ef60b938b9e6f64dc2ef17b4cd6f",
+ "seconds": 327.28199999999924
+}

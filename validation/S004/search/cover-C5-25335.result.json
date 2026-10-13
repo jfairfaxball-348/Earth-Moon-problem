@@ -1,0 +1,11 @@
+{
+ "verdict": "UNKNOWN",
+ "iterations": 3,
+ "seconds": 112.4059999999954,
+ "cuts": 151,
+ "variables": 46458,
+ "clauses": 95289,
+ "last_checkpoint_verdict": "RUNNING",
+ "reason": "external wall cap",
+ "supervisor_observed_seconds": 130.01600000000326
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "tag": "cover-K9",
+  "cnf_sha256": "92512fcbdaaba1e89830df47a52f78d88099af6a9e3229dcefb62e063df8a00d",
+  "drat_sha256": "ab3b665af9601da8c423974dd2abc8dcfff0dc0bde377fd653dcb7e001774c6b",
+  "drat_bytes": 35902486,
+  "checker": "VERIFIED"
+ },
+ {
+  "tag": "K9-replay",
+  "cnf_sha256": "79b87f882af38d9b31bca7fcbc947b5ed8f12c051a03c8257d0506aaf59b6ba2",
+  "drat_sha256": "fb76ec6b489c629a132ee04ea904ecda3dd502900bbaa88106565dcc78e9bbe6",
+  "drat_bytes": 2769029,
+  "checker": "VERIFIED"
+ }
+]

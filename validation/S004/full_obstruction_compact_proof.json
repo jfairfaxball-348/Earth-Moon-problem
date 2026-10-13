@@ -1,0 +1,9 @@
+{
+ "archive": "validation/S004/full-obstruction-core.drat.gz",
+ "raw_bytes": 129950618,
+ "raw_sha256": "40b783b62fad0f2ac104b0c9a329b42039cfc77ab49b487e86fb23fd733371b4",
+ "archive_sha256": "18e0e3cc17ca043ca94b249198746cd628a3244e16f03a0c89b4918f66ab27fa",
+ "archive_bytes": 23785616,
+ "checker": "VERIFIED",
+ "cnf_sha256": "ea99ad267c64a70bc23227e5a690d7e9195098dfabd903d0d9e00fc2494c4686"
+}
