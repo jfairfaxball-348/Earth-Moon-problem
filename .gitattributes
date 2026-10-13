@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.gz -text
+# Preserve checker progress output, including its carriage returns/padding.
+validation/S004/**/*.log -whitespace

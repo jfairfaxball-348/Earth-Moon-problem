@@ -10,3 +10,7 @@ Manifest: validation/S002_MANIFEST.json. No exhaustive negative search, solver U
 | [CAM-0004](CAM-0004.md) | All clique blow-ups of connected twin-free bases on <=8 vertices, weights <=8 | k<=6: no chi>=10 biplanar; k=7: 13 survivors; k=8: 828 (570 alpha=2, rest alpha>=3); checker agrees k<=7 |
 
 S003 manifest: validation/S003_MANIFEST.json.
+
+| [CAM-0005](CAM-0005.md) | S004 fixed survivor/C5/apex/census/upper domains, amendments A–K | 271 chi=10; one finite exclusion, 270 UNKNOWN; all 159 apices closed; two census samples; C5 UNKNOWN; exact Kempe lock |
+
+S004 manifest: validation/S004_MANIFEST.json. No full k=8/9 or universal headline conclusion.

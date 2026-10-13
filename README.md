@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S004 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S005 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -56,3 +56,11 @@ These are structural progress and verified classical reconstructions, not a solu
 - [Face covers and facial deficit](research/S003_FACE_DEFICIT.md): apex characterization, codegree budget, rim lemma, outerplanar reductions.
 - [Upper-bound route](research/S003_UPPER_BOUND.md): double-wheel lemma, correction of S002's n>=78 bound (superseded by Patil's n>=89), isolated Kempe obligation.
 - Certified oracle: tools/biplanar_cegar.py + tools/check_cegar_certificate.py (K9 refuted, DRAT-verified).
+
+## S004 results
+
+- [Certified construction frontier](research/S004_FRONTIER.md): 271 exact 10-chromatic candidates, one checked 22-vertex exclusion; 270 biplanarity UNKNOWN.
+- [Completion-face oracle and full corpus apex closure](research/S004_TRIANGULATION_COVER.md): calibrated proofs, 159 apices excluded, explicit trust/independent-challenge limits.
+- [Single-Kempe-swap counterexample](research/S004_KEMPE_LOCK.md): degree-11 double-wheel locality alone does not force one-swap extension.
+
+No headline advance: 9 <= chi_2 <= 12. S005 remains future and unexecuted.

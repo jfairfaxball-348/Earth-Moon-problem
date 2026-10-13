@@ -1,0 +1,8 @@
+{
+  "verdict": "UNKNOWN",
+  "iterations": 17,
+  "seconds": 125.84399999999732,
+  "cuts": 771,
+  "variables": 39646,
+  "clauses": 81683
+}

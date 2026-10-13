@@ -1,0 +1,8 @@
+{
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 0.8430000000007567,
+  "cuts": 0,
+  "variables": 279175,
+  "clauses": 570488
+}

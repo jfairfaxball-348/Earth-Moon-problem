@@ -41,7 +41,7 @@
  },
  {
   "id": "CLM-0005",
-  "claim": "Boutin–Gethner–Sulanke report 40 small nine-critical thickness-two graphs.",
+  "claim": "Boutinâ€“Gethnerâ€“Sulanke report 40 small nine-critical thickness-two graphs.",
   "status": "SOURCE_STATED",
   "sources": [
    "SRC-0002"
@@ -99,11 +99,11 @@
   "sources": [
    "SRC-0011"
   ],
-  "note": "Corollary of external Kostochka–Yancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
+  "note": "Corollary of external Kostochkaâ€“Yancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
  },
  {
   "id": "CLM-0012",
-  "claim": "The universal apex over a Hajós join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
+  "claim": "The universal apex over a HajÃ³s join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
   "status": "PROGRAMME_PROVED",
   "sources": [
    "SRC-0002",
@@ -218,5 +218,74 @@
    "SRC-0017"
   ],
   "note": "Corpus chromatic numbers source-stated."
+ },
+ {
+  "id": "CLM-0026",
+  "claim": "Every one of the 271 listed alpha>=3 S003 blow-up survivors has chromatic number exactly 10.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0024",
+   "SRC-0025"
+  ],
+  "note": "S004 independently checked F1/F2/F3, 271 bag and 271 vertex DRAT refutations of 9-colourability, and 271 explicit proper 10-colourings. Bag proofs retained compressed; biplanarity not inferred."
+ },
+ {
+  "id": "CLM-0027",
+  "claim": "Every universal apex of the 159 graphs in the pinned SRC-0017 pool is non-biplanar.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0017",
+   "SRC-0014",
+   "SRC-0024"
+  ],
+  "note": "147 Euler exclusions, 8 CLM-0016 exclusions, 4 explicit K9 subgraphs. Last four also have checked face-CNF DRAT proofs. Supersedes S003 apex UNKNOWN obligation only; corpus chromatic numbers not assumed."
+ },
+ {
+  "id": "CLM-0028",
+  "claim": "For each finite simple labelled n>=4 input supported by the triangulation-cover encoder, biplanarity implies satisfiability of its CNF with any well-formed registered connectivity/link cuts and automorphism lex constraints.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0009"
+  ],
+  "note": "Necessary-condition proof in research/S004_TRIANGULATION_COVER.md; allows completion edges outside the input, overlapping layers and exact excess D. Implementation/cardinality/DRAT checker remain trust dependencies. No Lean or universal colouring theorem."
+ },
+ {
+  "id": "CLM-0029",
+  "claim": "A 122-vertex, 187-edge biplanar graph with a degree-11 double-wheel vertex has an 11-colouring of its deletion for which no single Kempe component swap frees a neighbour colour; the graph itself is exactly 4-chromatic.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "Explicit layers, colourings and all 55 alternating paths checked; odd C5 wheel supplies chi>=4. D=533, not 12-critical. Does not refute multi-swap, criticality or D<=11 reducibility."
+ },
+ {
+  "id": "CLM-0030",
+  "claim": "An independent full 8^8-weight audit on each of the fixed bases GsUPOK and GrEKGc agrees with the S003 census for those two bases.",
+  "status": "COMPUTED_EXACT",
+  "sources": [],
+  "note": "GsUPOK: kept 485, colourable 458, F3 19, survivors 8; GrEKGc: kept 71, colourable 61, F3 0, survivors 10. Different chunk enumeration/MIS-cover method and main reruns. Not a full k=8 census check."
+ },
+ {
+  "id": "CLM-0031",
+  "claim": "Among positive C5 weights in {1,...,8} satisfying the registered F1-F3 filters, there are 297 dihedral classes and 13 maximal classes under dihedral componentwise containment.",
+  "status": "COMPUTED_EXACT",
+  "sources": [],
+  "note": "Full 8^5 enumeration in tools/s004_frontier.py; maximal list archived. This counts necessary-filter patterns, not biplanar graphs or an exhaustive graph universe."
+ },
+ {
+  "id": "CLM-0032",
+  "claim": "The explicit 22-vertex, 119-edge graph G|fH_K[4,2,2,2,2,2,2,6] (S003 alpha>=3 list index 165) is 10-chromatic and non-biplanar.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0009",
+   "SRC-0024",
+   "SRC-0025"
+  ],
+  "note": "Checked chi=10 and regenerated completion-face CNF with 773 valid cuts; two DRAT-verified refutations. Compact core DRAT rechecked and publicly retained. Independent no-lex encoder found a non-planar SAT relaxation, not an independent exclusion. Finite result only, exact thickness/novelty not claimed."
+ },
+ {
+  "id": "CLM-0033",
+  "claim": "C5[K3] is exactly 8-chromatic and its universal apex is exactly 9-chromatic.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "Alpha=2 on 15 vertices forces chi>=8; checked explicit 8-colouring. Universal join adds exactly one, with explicit 9-colouring checked. Biplanarity UNKNOWN; this calibration cannot lift the lower bound to ten."
  }
 ]

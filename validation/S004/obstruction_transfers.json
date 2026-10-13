@@ -1,0 +1,1140 @@
+{
+ "obstruction": {
+  "source_index": 165,
+  "g6": "G|fH_K",
+  "w": [
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   6
+  ],
+  "n": 22,
+  "m": 119
+ },
+ "seconds": 0.046999999998661224,
+ "results": [
+  {
+   "source_index": 0,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 1,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 2,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 3,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 4,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 5,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 6,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 7,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 8,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 9,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 10,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 11,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 12,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 13,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 14,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 15,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 16,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 17,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 18,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 19,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 20,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 21,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 22,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 23,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 24,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 25,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 26,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 27,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 28,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 29,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 30,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 31,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 32,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 33,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 34,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 35,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 36,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 37,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 38,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 39,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 40,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 41,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 42,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 43,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 44,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 45,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 46,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 47,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 48,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 49,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 50,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 51,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 52,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 53,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 54,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 55,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 56,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 57,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 58,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 59,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 60,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 61,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 62,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 63,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 64,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 65,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 66,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 67,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 68,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 69,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 70,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 71,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 72,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 73,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 74,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 75,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 76,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 77,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 78,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 79,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 80,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 81,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 82,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 83,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 84,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 85,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 86,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 87,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 88,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 89,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 90,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 91,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 92,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 93,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 94,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 95,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 96,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 97,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 98,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 99,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 100,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 101,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 102,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 103,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 104,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 105,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 106,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 107,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 108,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 109,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 110,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 111,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 112,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 113,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 114,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 115,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 116,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 117,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 118,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 119,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 120,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 121,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 122,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 123,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 124,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 125,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 126,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 127,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 128,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 129,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 130,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 131,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 132,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 133,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 134,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 135,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 136,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 137,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 138,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 139,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 140,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 141,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 142,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 143,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 144,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 145,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 146,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 147,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 148,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 149,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 150,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 151,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 152,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 153,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 154,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 155,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 156,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 157,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 158,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 159,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 160,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 161,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 162,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 163,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 164,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 165,
+   "verdict": "NON_BIPLANAR_BY_SUBGRAPH",
+   "bag_map": {
+    "7": 7,
+    "0": 0,
+    "2": 2,
+    "3": 3,
+    "5": 5,
+    "1": 1,
+    "4": 4,
+    "6": 6
+   },
+   "vertex_map": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "edges_checked": 119
+  },
+  {
+   "source_index": 166,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 167,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 168,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 169,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 170,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 171,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 172,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 173,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 174,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 175,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 176,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 177,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 178,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 179,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 180,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 181,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 182,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 183,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 184,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 185,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 186,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 187,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 188,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 189,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 190,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 191,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 192,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 193,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 194,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 195,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 196,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 197,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 198,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 199,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 200,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 201,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 202,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 203,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 204,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 205,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 206,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 207,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 208,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 209,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 210,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 211,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 212,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 213,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 214,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 215,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 216,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 217,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 218,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 219,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 220,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 221,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 222,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 223,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 224,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 225,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 226,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 227,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 228,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 229,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 230,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 231,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 232,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 233,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 234,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 235,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 236,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 237,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 238,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 239,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 240,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 241,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 242,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 243,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 244,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 245,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 246,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 247,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 248,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 249,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 250,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 251,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 252,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 253,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 254,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 255,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 256,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 257,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 258,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 259,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 260,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 261,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 262,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 263,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 264,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 265,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 266,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 267,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 268,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 269,
+   "verdict": "UNKNOWN"
+  },
+  {
+   "source_index": 270,
+   "verdict": "UNKNOWN"
+  }
+ ]
+}

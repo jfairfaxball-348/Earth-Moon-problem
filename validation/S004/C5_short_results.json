@@ -1,0 +1,17 @@
+{
+ "verdict": "UNKNOWN",
+ "iterations": 15,
+ "seconds": 608.515999999996,
+ "cuts": 344,
+ "variables": 46877,
+ "clauses": 439038,
+ "command": [
+  "python",
+  "tools/triangulation_cover.py",
+  "validation/S004/targets/C5-26262.edges",
+  "validation/S004/search/cover-short-C5-26262",
+  "600",
+  "--lex",
+  "--short-links"
+ ]
+}

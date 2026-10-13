@@ -1,0 +1,48 @@
+{
+ "base_g6": "Dhc",
+ "w": [
+  3,
+  3,
+  3,
+  3,
+  3
+ ],
+ "base_chi": 8,
+ "base_colouring": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  1,
+  6,
+  5,
+  2,
+  0,
+  3,
+  4,
+  6
+ ],
+ "apex_chi": 9,
+ "apex_colouring": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  1,
+  6,
+  5,
+  2,
+  0,
+  3,
+  4,
+  6,
+  8
+ ],
+ "lower_proof": "alpha(C5[K3])=2 implies chi>=8; apex join adds exactly one"
+}

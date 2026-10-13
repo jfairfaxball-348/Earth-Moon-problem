@@ -20,3 +20,8 @@ S001 performed no research. Absence of a found example never proves universal no
 | F014 | v4 CEGAR decides 18-vertex C5 blow-ups within 1 h | (2,6,2,6,2), (2,3,5,2,6), (2,5,3,3,5) UNKNOWN at 3600 s | Needs stronger symmetry handling / longer runs |
 | F015 | Facial side-coverage counting proves C5[2,6,2,6,2] non-biplanar by hand | Forces penalty >=4, needs 12 | Open |
 | F016 | Kempe separation at double-wheel degree-11 vertices | 17/24 such vertices in the stored witness have layer-2 chords across the layer-1 link | Two-layer compatibility lemma open |
+
+| F017 | A double-wheel rainbow neighbourhood always admits a single Kempe swap freeing a colour | Explicit 122v/187e biplanar chi=4 lock, all 55 pairs connected | Multi-swap/criticality/D<=11 still open |
+| F018 | New face/packing route decides C5 frontier at short caps | All 16 targets UNKNOWN; 600 s short-link retry UNKNOWN | No classification or negative inference |
+| F019 | Four corpus apices remain promising after elementary filters | Each has an explicit K9 (K8 in base) | Entire 159-apex corpus excluded; new bases needed |
+| F020 | Buffered Windows proof export is a complete certificate | First export rejected; C-runtime flush repair and standalone builds verified | Never trust solver/export without proof check |

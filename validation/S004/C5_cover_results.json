@@ -1,0 +1,274 @@
+[
+ {
+  "tag": "C5-26262",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-26262.edges",
+   "validation/S004/search/cover-C5-26262",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.0
+ },
+ {
+  "tag": "C5-23526",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-23526.edges",
+   "validation/S004/search/cover-C5-23526",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "iterations": 16,
+  "seconds": 129.51499999999942,
+  "cuts": 721,
+  "variables": 46589,
+  "clauses": 95831,
+  "observed_seconds": 130.01499999999942
+ },
+ {
+  "tag": "C5-25335",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-25335.edges",
+   "validation/S004/search/cover-C5-25335",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01600000000326
+ },
+ {
+  "tag": "C5-23535",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-23535.edges",
+   "validation/S004/search/cover-C5-23535",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01499999999942
+ },
+ {
+  "tag": "C5-11717",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-11717.edges",
+   "validation/S004/search/cover-C5-11717",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01599999999598
+ },
+ {
+  "tag": "C5-12617",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-12617.edges",
+   "validation/S004/search/cover-C5-12617",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01600000000326
+ },
+ {
+  "tag": "C5-13517",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-13517.edges",
+   "validation/S004/search/cover-C5-13517",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01499999999942
+ },
+ {
+  "tag": "C5-14417",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-14417.edges",
+   "validation/S004/search/cover-C5-14417",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01599999999598
+ },
+ {
+  "tag": "C5-24426",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-24426.edges",
+   "validation/S004/search/cover-C5-24426",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.04700000000594
+ },
+ {
+  "tag": "C5-24435",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-24435.edges",
+   "validation/S004/search/cover-C5-24435",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01499999999942
+ },
+ {
+  "tag": "C5-24444",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-24444.edges",
+   "validation/S004/search/cover-C5-24444",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01599999999598
+ },
+ {
+  "tag": "C5-33435",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-33435.edges",
+   "validation/S004/search/cover-C5-33435",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.01600000000326
+ },
+ {
+  "tag": "C5-34344",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-34344.edges",
+   "validation/S004/search/cover-C5-34344",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "reason": "external wall cap",
+  "observed_seconds": 130.0
+ },
+ {
+  "tag": "C5-16262",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-16262.edges",
+   "validation/S004/search/cover-C5-16262",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "iterations": 12,
+  "seconds": 120.20300000000134,
+  "cuts": 579,
+  "variables": 39646,
+  "clauses": 81491,
+  "observed_seconds": 120.57800000000134
+ },
+ {
+  "tag": "C5-25262",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-25262.edges",
+   "validation/S004/search/cover-C5-25262",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "iterations": 17,
+  "seconds": 125.84399999999732,
+  "cuts": 771,
+  "variables": 39646,
+  "clauses": 81683,
+  "observed_seconds": 126.26599999999598
+ },
+ {
+  "tag": "C5-26162",
+  "route": "cover",
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/triangulation_cover.py",
+   "validation/S004/targets/C5-26162.edges",
+   "validation/S004/search/cover-C5-26162",
+   "120",
+   "--lex"
+  ],
+  "cap_seconds": 120,
+  "verdict": "UNKNOWN",
+  "iterations": 10,
+  "seconds": 123.39099999999598,
+  "cuts": 413,
+  "variables": 41354,
+  "clauses": 84989,
+  "observed_seconds": 123.92199999999866
+ }
+]

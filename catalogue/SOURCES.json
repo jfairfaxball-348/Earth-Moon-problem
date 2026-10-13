@@ -1,7 +1,7 @@
 [
  {
   "id": "SRC-0001",
-  "title": "Färbungsprobleme auf Flachen und Graphen",
+  "title": "FÃ¤rbungsprobleme auf Flachen und Graphen",
   "authors": "Gerhard Ringel",
   "year": 1959,
   "url": null,
@@ -30,7 +30,7 @@
  },
  {
   "id": "SRC-0004",
-  "title": "The Earth–Moon Problem",
+  "title": "The Earthâ€“Moon Problem",
   "authors": "Epoch AI",
   "year": 2026,
   "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
@@ -53,16 +53,16 @@
   "year": 2026,
   "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
   "access": "SECONDARY_ONLY",
-  "note": "Summary only; historical 9–12 status."
+  "note": "Summary only; historical 9â€“12 status."
  },
  {
   "id": "SRC-0007",
-  "title": "The Earth–Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known χ = 10 candidates, and the status of χ₂",
+  "title": "The Earthâ€“Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known Ï‡ = 10 candidates, and the status of Ï‡â‚‚",
   "authors": "Digvijay Patil",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22103613",
   "access": "PROOF_INSPECTED",
-  "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Hajós cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
+  "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated HajÃ³s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
   "accessed": "2026-10-12",
   "publication_date": "2026-08-26",
   "version": "First indexed version, concept record 22103612 resolves to 22103613",
@@ -85,8 +85,8 @@
   "year": 2026,
   "url": "https://arxiv.org/html/2609.28102v1",
   "access": "PROOF_INSPECTED",
-  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit.",
-  "accessed": "2026-10-12"
+  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed.",
+  "accessed": "2026-10-13"
  },
  {
   "id": "SRC-0010",
@@ -100,7 +100,7 @@
  },
  {
   "id": "SRC-0011",
-  "title": "Ore’s Conjecture on color-critical graphs is almost true",
+  "title": "Oreâ€™s Conjecture on color-critical graphs is almost true",
   "authors": "Alexandr Kostochka and Matthew Yancey",
   "year": 2014,
   "url": "https://arxiv.org/html/1209.1050v1",
@@ -165,12 +165,12 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-biplanar",
   "access": "STATEMENT_INSPECTED",
-  "note": "Commit 5cb2ca9f6d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed.",
-  "accessed": "2026-10-12"
+  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed.",
+  "accessed": "2026-10-13"
  },
  {
   "id": "SRC-0018",
-  "title": "Small Biplanar Graphs Are 9-Colorable: The Earth–Moon Problem up to 16 Vertices",
+  "title": "Small Biplanar Graphs Are 9-Colorable: The Earthâ€“Moon Problem up to 16 Vertices",
   "authors": "Alessio Doria",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.21824308",
@@ -205,8 +205,8 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-chi10",
   "access": "METADATA_ONLY",
-  "note": "Search excerpt only; fetch 404, clone required credentials.",
-  "accessed": "2026-10-12"
+  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected.",
+  "accessed": "2026-10-13"
  },
  {
   "id": "SRC-0022",
@@ -235,7 +235,28 @@
   "year": 2014,
   "url": "https://doi.org/10.1007/978-3-319-09284-3_31",
   "access": "METADATA_ONLY",
-  "note": "Tool citation; checker used at git 2e3b2dc0.",
+  "note": "Tool citation; checker used at git 2e3b2dc0. S004 cloned and compiled upstream checker commit 2e3b2dc0ecf938addbd779d42877b6ed69d9a985 (2024-11-25) with LLVM-MinGW; getc_unlocked=getc portability definition only. Paper itself not newly inspected.",
   "accessed": "2026-10-12"
+ },
+ {
+  "id": "SRC-0025",
+  "title": "CaDiCaL 3.0.1 source and manual build documentation",
+  "authors": "Armin Biere and contributors",
+  "year": 2026,
+  "publication_date": "2026-07-19",
+  "url": "https://github.com/arminbiere/cadical/tree/c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "access": "STATEMENT_INSPECTED",
+  "accessed": "2026-10-13",
+  "note": "README/BUILD and selected portability sources inspected; pinned source built, observed --version 3.0.1. Solver outputs require independent DRAT checking."
+ },
+ {
+  "id": "SRC-0026",
+  "title": "LLVM-MinGW 20261006 UCRT x86_64 compiler release",
+  "authors": "LLVM-MinGW contributors",
+  "year": 2026,
+  "url": "https://github.com/mstorsjo/llvm-mingw/releases/tag/20261006",
+  "access": "METADATA_ONLY",
+  "accessed": "2026-10-13",
+  "note": "Primary GitHub release API tag/asset URL/size inspected; binary release used for Windows builds. Download and executable hashes in S004 manifest; no mathematical proof claim."
  }
 ]

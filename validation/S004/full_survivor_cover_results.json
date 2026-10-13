@@ -1,0 +1,11 @@
+{
+ "tag": "full-min-survivor",
+ "proof_cap_seconds": 600,
+ "solver_exit": 20,
+ "checker": "VERIFIED",
+ "verdict": "NON_BIPLANAR_CHECKED",
+ "seconds": 379.5619999999981,
+ "cnf_sha256": "ea99ad267c64a70bc23227e5a690d7e9195098dfabd903d0d9e00fc2494c4686",
+ "drat_sha256": "59af05965b71b93bf25d815a5d5b4cd4c9fd4af931af74abfde1a3b0f76fac86",
+ "drat_bytes": 509916970
+}

@@ -1,0 +1,130 @@
+[
+ {
+  "tag": "C5-26262",
+  "verdict": "UNKNOWN",
+  "best_omitted": 6,
+  "moves": 481,
+  "seconds": 30.0,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-23526",
+  "verdict": "UNKNOWN",
+  "best_omitted": 5,
+  "moves": 356,
+  "seconds": 30.04699999999866,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-25335",
+  "verdict": "UNKNOWN",
+  "best_omitted": 4,
+  "moves": 334,
+  "seconds": 30.093000000000757,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-23535",
+  "verdict": "UNKNOWN",
+  "best_omitted": 8,
+  "moves": 275,
+  "seconds": 30.07800000000134,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-11717",
+  "verdict": "UNKNOWN",
+  "best_omitted": 1,
+  "moves": 518,
+  "seconds": 30.04699999999866,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-12617",
+  "verdict": "UNKNOWN",
+  "best_omitted": 2,
+  "moves": 527,
+  "seconds": 30.031000000002678,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-13517",
+  "verdict": "UNKNOWN",
+  "best_omitted": 1,
+  "moves": 425,
+  "seconds": 30.031999999999243,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-14417",
+  "verdict": "UNKNOWN",
+  "best_omitted": 1,
+  "moves": 592,
+  "seconds": 30.046000000002095,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-24426",
+  "verdict": "UNKNOWN",
+  "best_omitted": 4,
+  "moves": 263,
+  "seconds": 30.125,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-24435",
+  "verdict": "UNKNOWN",
+  "best_omitted": 6,
+  "moves": 285,
+  "seconds": 30.156999999999243,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-24444",
+  "verdict": "UNKNOWN",
+  "best_omitted": 8,
+  "moves": 329,
+  "seconds": 30.0,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-33435",
+  "verdict": "UNKNOWN",
+  "best_omitted": 10,
+  "moves": 265,
+  "seconds": 30.125,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-34344",
+  "verdict": "UNKNOWN",
+  "best_omitted": 11,
+  "moves": 358,
+  "seconds": 30.281000000002678,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-16262",
+  "verdict": "UNKNOWN",
+  "best_omitted": 2,
+  "moves": 396,
+  "seconds": 30.031999999999243,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-25262",
+  "verdict": "UNKNOWN",
+  "best_omitted": 2,
+  "moves": 445,
+  "seconds": 30.015999999995984,
+  "seed": 4004
+ },
+ {
+  "tag": "C5-26162",
+  "verdict": "UNKNOWN",
+  "best_omitted": 1,
+  "moves": 724,
+  "seconds": 30.0,
+  "seed": 4004
+ }
+]

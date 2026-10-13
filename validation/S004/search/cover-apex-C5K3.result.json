@@ -1,0 +1,10 @@
+{
+ "verdict": "UNKNOWN",
+ "iterations": 1,
+ "seconds": 83.4059999999954,
+ "cuts": 20,
+ "variables": 32859,
+ "clauses": 69080,
+ "last_checkpoint_verdict": "RUNNING",
+ "reason": "external cap"
+}

@@ -1,0 +1,12 @@
+{
+ "solver_cap_seconds": 600,
+ "encoding": "direct incidence, totalizer, no lex, no excess identity",
+ "solver_exit": 10,
+ "verdict": "UNKNOWN",
+ "seconds": 180.48500000000058,
+ "cnf_sha256": "8b60542318c4d05f4ed4d19ed206c475daf1b11d3dae05f1ce3e609c262be769",
+ "solver_result": "SAT_RELAXATION",
+ "solver_trace_sha256": "cd139cadf7032d1195f7cb445111aebb86e5b765011f0366865b816020f5e116",
+ "solver_trace_bytes": 823600250,
+ "model_audit": "both layers non-planar; layer 0 has four bad links; layer 1 disconnected"
+}
