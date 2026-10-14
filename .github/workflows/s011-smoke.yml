@@ -1,0 +1,42 @@
+name: S011 environment smoke (unmerged WIP)
+on:
+  push:
+    branches:
+      - wip/S011-github-smoke
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cloud-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    steps:
+      - name: Checkout pinned S011 WIP branch
+        uses: actions/checkout@v4
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record preflight resources
+        run: |
+          python --version
+          uname -a
+          nproc
+          free -h
+          df -h .
+      - name: Set up pinned EMP native/Python environment (D043)
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory cold environment smoke test (not new mathematics)
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Upload environment and smoke evidence, including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: s011-github-smoke-evidence
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/native/setup.log
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/cloud_smoke/*.log
+          if-no-files-found: warn
+          retention-days: 30
