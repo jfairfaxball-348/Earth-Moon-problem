@@ -1,0 +1,10 @@
+{
+  "original_reported_path": "C:\\Earth-Moon-problem\\validation\\S009\\heavy\\search\\K7-I5.drat.gz",
+  "retained_local_path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S009\\heavy\\K7-I5.initial-untrimmed.drat.gz",
+  "bytes": 207221470,
+  "sha256": "181c0f9f25b6a7b36b9f567d62edd73751ce9b934eea8658baf85d492c532945",
+  "grade": "AFTER_WORKER_RELOCATION_OF_INITIAL_UNKNOWN_UNTRIMMED_ARCHIVE",
+  "reason": "207 MB exceeds GitHub regular Git 100 MiB file limit; no bytes deleted and no scientific verdict changed",
+  "source_record": "validation/S009/heavy/result.json",
+  "source_record_preserved": true
+}

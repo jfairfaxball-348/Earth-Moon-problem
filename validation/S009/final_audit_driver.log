@@ -1,0 +1,3 @@
+PASS S009 independent cold archive/CNF/label audit
+PASS independent271 label expansions and all accepted native/colour/map chains
+PASS final cold selected-source CNFs, public controls and independent label/proof/colour/map records

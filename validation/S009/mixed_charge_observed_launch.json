@@ -1,0 +1,48 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_mixed_charge.py",
+  "worker"
+ ],
+ "as_of_utc": "2026-10-14T12:18:29.890930+00:00",
+ "sha256": {
+  "tools/s009_mixed_charge.py": "15e9233b8270c33e6d47d521d05ae0c45f3e23eb21853f8cd4cb2df6836c7899",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "tools/s005_replay.py": "71685e2d0e51f3e5c31d436cad81359c00f784caa473a80e50000b724a514c4d",
+  "campaigns/CAM-0010.md": "29bb452c3c78ef738c3810e702694581e53473d5038b8a4566e0d602ef155b44"
+ },
+ "types": [
+  [
+   "K8-end",
+   7,
+   13,
+   4
+  ],
+  [
+   "C11-end",
+   10,
+   7,
+   4
+  ],
+  [
+   "C9-end",
+   8,
+   3,
+   2
+  ],
+  [
+   "C9-whole",
+   9,
+   5,
+   3
+  ],
+  [
+   "C7-whole",
+   7,
+   1,
+   1
+  ]
+ ],
+ "scale": 1365,
+ "grade": "OBSERVED_BEFORE_LAUNCH"
+}

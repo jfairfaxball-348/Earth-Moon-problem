@@ -1,0 +1,7 @@
+{
+ "grade": "AFTER_ORIGINAL_CONTROL_LAUNCH_BEFORE_PUBLIC_REPEAT",
+ "source": "validation/S009/heavy_controls.json",
+ "source_sha256": "84ec13002b9ee558322cb1f428741ed121d2f01eef3093944f609691af101df2",
+ "payload_sha256": "fb5c99e9b00187c9daa9ed018baa4372da00ae7c3c2bdc5cd7c4b1241e5b0a03",
+ "controls": 23
+}

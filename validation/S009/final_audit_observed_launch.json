@@ -1,0 +1,22 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_final_audit.py",
+  "worker"
+ ],
+ "as_of_utc": "2026-10-14T13:41:25.659258+00:00",
+ "sha256": {
+  "campaigns/CAM-0010.md": "a153fdb357b4c359808714a40ce15a9f1815b78becc58379a898a32002c9eef8",
+  "validation\\S009\\heavy_extended\\result.json": "c69320fc8d16cadd1cc94fb5a61472f8775592ad3f5753844e299a70631f5f48",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "tools/s009_final_audit.py": "3eb6c04cc0f46e3d49a9c3f1849e6cd613a796c695b62f2b9af72eafbc2b0e6f",
+  "tools/check_s009_records.py": "32b5b375248ac6a0ce53475f1eae5191955686abdaf2fe6c7d82483eabdbdf81",
+  "tools/s009_run.py": "74bbc3a466cca710e598efb50f47d3fc50ad800ddfc9bfbf03a9ff0a4e89dbdc",
+  "tools/s009_heavy_cover.py": "993ef845a11aafd692a97b6f0687ac8cc7dde435a4ef0598e5d4df8af92cc975",
+  "tools/s009_heavy_evidence.py": "9fa84bf9c3caf04487d00b6d65dff999b9fcb1603a199de924b34aeddab8c818",
+  "validation/S009/full/results.json": "9d39d1831f8af48770132ae23e8bc3888b69802e5d2c3385c06f940b72772897",
+  "validation/S009/heavy/result.json": "4a099e43b6b488a126ac84cd5ee1641feaf1964cd78e60af9818ed2853b57432"
+ },
+ "grade": "OBSERVED_BEFORE_LAUNCH",
+ "effective_source": "validation\\S009\\heavy_extended\\result.json"
+}

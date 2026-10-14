@@ -10,3 +10,5 @@ validation/S006/**/*.log -text -whitespace
 validation/S007/**/*.log -text -whitespace
 # S008 preserves the observed native checker and supervisor bytes.
 validation/S008/**/*.log -text -whitespace
+# S009 evidence hashes include exact observed logs and launch snapshots.
+validation/S009/** -text -whitespace

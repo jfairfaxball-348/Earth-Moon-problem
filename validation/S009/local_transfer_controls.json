@@ -1,0 +1,121 @@
+{
+ "symbolic_blowup_examples": 4,
+ "actual_planar_controls": [
+  {
+   "tag": "control-00",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-01",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-02",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-03",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-04",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-05",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-06",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-07",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-08",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-09",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-10",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-11",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-12",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-13",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-14",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-15",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-16",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-17",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-18",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-19",
+   "seven_cliques_checked": 0,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-K8",
+   "seven_cliques_checked": 8,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-sulanke",
+   "seven_cliques_checked": 35,
+   "no_local_obstruction": true
+  },
+  {
+   "tag": "control-K9e",
+   "seven_cliques_checked": 15,
+   "no_local_obstruction": true
+  }
+ ],
+ "verdict": "PASS"
+}

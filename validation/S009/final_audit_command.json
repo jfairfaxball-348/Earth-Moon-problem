@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_final_audit.py",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 87.09400000000096,
+ "hard_cap": 3600,
+ "observed_peak_tree_private_bytes": 3305680896
+}

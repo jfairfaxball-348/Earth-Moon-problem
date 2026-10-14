@@ -1,0 +1,39 @@
+def certificate(edgefile, prefix):
+    row = {'verdict': 'UNKNOWN'}
+    gen = run_logged([sys.executable, 'tools/s009_heavy_cover.py', 'check',
+                      str(edgefile), str(prefix)], 120, str(prefix)+'.regen.log')
+    assert gen['returncode'] == 0
+    proof = str(prefix)+'.drat'
+    solve = run_logged([SOLVER, '-q', '--no-binary', str(prefix)+'.cnf', proof],
+                       1220, str(prefix)+'.proof-solve.log')
+    row.update(regenerate=gen, solve=solve)
+    if solve['returncode'] != 20:
+        return row
+    check = run_logged([CHECKER, str(prefix)+'.cnf', proof, '-t', '1200'],
+                       1220, str(prefix)+'.check.log')
+    row['check'] = check
+    if check['returncode'] != 0 or 's VERIFIED' not in Path(str(prefix)+'.check.log').read_text():
+        return row
+    row.update(verdict='NON_BIPLANAR_DRAT_VERIFIED', cnf_sha256=sha(str(prefix)+'.cnf'),
+               proof_sha256=sha(proof), proof_bytes=Path(proof).stat().st_size)
+    core = str(prefix)+'.core.drat'
+    trim = run_logged([CHECKER, str(prefix)+'.cnf', proof, '-l', core, '-t', '600'],
+                      620, str(prefix)+'.trim.log')
+    row['trim'] = trim
+    selected = proof
+    if trim['returncode'] == 0 and Path(core).exists() and 's VERIFIED' in Path(str(prefix)+'.trim.log').read_text():
+        recheck = run_logged([CHECKER, str(prefix)+'.cnf', core, '-t', '600'],
+                            620, str(prefix)+'.core.check.log')
+        row['core_check'] = recheck
+        if recheck['returncode'] == 0 and 's VERIFIED' in Path(str(prefix)+'.core.check.log').read_text():
+            selected = core
+    dest = ROOT/'search'/prefix.name
+    compress(str(prefix)+'.cnf', str(dest)+'.cnf.gz')
+    compress(selected, str(dest)+'.drat.gz')
+    row.update(archive=str(dest)+'.drat.gz', archive_raw_sha256=sha(selected),
+               archive_raw_bytes=Path(selected).stat().st_size, archive_sha256=sha(str(dest)+'.drat.gz'))
+    for suffix in ('.regen.log', '.proof-solve.log', '.check.log', '.trim.log', '.core.check.log'):
+        p = Path(str(prefix)+suffix)
+        if p.exists():
+            shutil.copyfile(p, str(dest)+suffix)
+    return row

@@ -1,0 +1,13 @@
+{
+ "cold_prior_full": 40,
+ "cold_row165": true,
+ "cold_S008_full": 3,
+ "S008_159_to_155_isomorphism": true,
+ "archive_cnf_colour_audit": 271,
+ "positive_controls": 23,
+ "fresh_selected_lower_checks": 4,
+ "headline_bounds": [
+  9,
+  12
+ ]
+}

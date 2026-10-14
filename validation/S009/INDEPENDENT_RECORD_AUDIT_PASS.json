@@ -1,0 +1,33 @@
+{
+ "verdict": "PASS",
+ "independent_graph6_pairwise_expansions": 271,
+ "direct_sources": [
+  "15",
+  "23",
+  "24",
+  "28",
+  "K7-I5"
+ ],
+ "accepted_transfers_checked": [
+  {
+   "source": 28,
+   "target": 38,
+   "source_edges": 148,
+   "labels": 27
+  },
+  {
+   "source": 28,
+   "target": 41,
+   "source_edges": 148,
+   "labels": 27
+  },
+  {
+   "source": 28,
+   "target": 45,
+   "source_edges": 148,
+   "labels": 27
+  }
+ ],
+ "partials_not_promoted": true,
+ "shared_native_checker_dependency": true
+}

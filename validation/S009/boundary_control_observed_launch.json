@@ -1,0 +1,18 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_boundary_control.py",
+  "worker"
+ ],
+ "as_of_utc": "2026-10-14T13:48:33.027865+00:00",
+ "sha256": {
+  "tools/s009_boundary_control.py": "b3d42bf9e7e610c9464f3d29c3d8b5628774cd1f543e678880cbffcfadde50c9",
+  "tools/s009_heavy_cover.py": "993ef845a11aafd692a97b6f0687ac8cc7dde435a4ef0598e5d4df8af92cc975",
+  "tools/s007_static_controls.py": "451879b541d84ef523d571be5f17ba9407398cfde359a09a4ac55765e55cc545",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "validation/S007/heavy_search.json": "3582b8cb629dae3ebbafec8c684120ad7956ad0fe1f0b6283e76b00885161222",
+  "validation/S007/heavy/K6-I6.edges": "26ef916dfde97dcf96307e87d48a07db256b72e547b4dc1969253ba7fa7f09eb",
+  "campaigns/CAM-0010.md": "b2652fecfe3b4c8c17a209ecbb761df0a377f10cc5af1f0d5a6cb5cdc4ef50b1"
+ },
+ "grade": "OBSERVED_BEFORE_LAUNCH"
+}

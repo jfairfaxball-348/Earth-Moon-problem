@@ -1,0 +1,15 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_stage.py",
+  "heavy_accept"
+ ],
+ "as_of_utc": "2026-10-14T12:24:45.092827+00:00",
+ "gate": "baseline driver exited0 AND final cold_S008_full3",
+ "sha256": {
+  "tools/s009_after_baseline.py": "d78ab64996795927f24f60d865651c36de62da25716f3f0e44f0e4d62c22dab2",
+  "tools/s009_stage.py": "6a746cef34940fcce85b11c0876e5151c111ff69aca315a28cc416dce34a200c",
+  "tools/s009_launch.py": "bcd00aa7a9d4599cbe3766a7176889b54114d82f6d6562cf14bf566e76e006b4",
+  "tools/s009_run.py": "eb35b228f120cc09a7cd9801eb97bce6ea2b95deb19df063363df12d6a41190f"
+ }
+}

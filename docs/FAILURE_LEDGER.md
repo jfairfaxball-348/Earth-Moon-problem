@@ -48,3 +48,7 @@ S001 performed no research. Absence of a found example never proves universal no
 | F037 | Shared boundaries permit summing13t unweighted excess | Correct sum is weighted by support multiplicity; abstract sunflower passes expansion | Need actual maximum multiplicity/control |
 | F038 | Pairwise list feasibility implies global distinct assignment | Three{0,1} lists,512 registered controls | Hall/list/colour obligations separate |
 | F039 | Full-layer K5/K33/tree counter changes settle D2 | Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[]. | No cap exclusions or full-stratum claim |
+
+| F040 | Pairwise feasible/tree equality pairs imply simultaneous extension | Three independent lists{0,1},{1,2},{0,2} share no common colour | Quotient/list existence open |
+| F041 | Bounded general injection search proves noncontainment | {'EXHAUSTED_NO_MAP': 2569, 'FILTERED_DEGREE': 2823, 'FILTERED_ORDER_EDGE': 4552} | Caps/NOT_RUN/misses never exclusions |
+| F042 | Stronger heavy/full model at registered caps settles all targets | Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[]. Stronger all-completion-K33 heavyK7-I5 verdict:NON_BIPLANAR_DRAT_VERIFIED. | Retain actual UNKNOWN/partial evidence |

@@ -1,0 +1,12 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_stage.py",
+  "heavy_accept",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 2015.5470000000005,
+ "hard_cap": 6600,
+ "observed_peak_tree_private_bytes": 1699057664
+}

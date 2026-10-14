@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_run.py",
+  "injection_controls"
+ ],
+ "returncode": 0,
+ "seconds": 0.8119999999998981,
+ "hard_cap": 200,
+ "observed_peak_tree_private_bytes": 546091008
+}

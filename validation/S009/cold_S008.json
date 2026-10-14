@@ -1,0 +1,62 @@
+[
+ {
+  "index": 157,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\cold\\S008-row157.cnf",
+    "artifacts\\tmp\\S009\\cold\\S008-row157.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 45.76500000000033,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 348106752
+  },
+  "cnf_sha256": "5f699c285b42131b2152e3322a949600db8bdba8eeb54e3fa35ab29ca356a844",
+  "proof_sha256": "fe22a9f9c1a3b3c0c89ac0c41bfe260e7719c0b94f70d1f8b7e172104bde819e",
+  "archive_sha256": "6a72d24b54fef59f463a6dd712ec140f2e000d2a7083aa0fee7ecb9045271cdd",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 159,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\cold\\S008-row159.cnf",
+    "artifacts\\tmp\\S009\\cold\\S008-row159.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 147.71900000000005,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 396009472
+  },
+  "cnf_sha256": "82761eb1a332a99c1b22b8e2dbf0b7571761e18b8144d12d3e0b023834b111b3",
+  "proof_sha256": "afeb44f7c3a17558a06079a925f164c63c31627d7dc57ce997231bd4498b7520",
+  "archive_sha256": "9ce7abf32a1a818e6d7607d3c8cec4d16461a800c1f83879eccf8e65bf18e33e",
+  "checker": "VERIFIED"
+ },
+ {
+  "index": 162,
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\cold\\S008-row162.cnf",
+    "artifacts\\tmp\\S009\\cold\\S008-row162.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 968.561999999999,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 492343296
+  },
+  "cnf_sha256": "9b7e85bbbc54e44cb48316739da80d3f4c3210c1cb31e8c9da531d28a3a7ae16",
+  "proof_sha256": "b5b7078bdaa5845be6cc40f81a1ca8061bc93da29d8f813ba4492416086e0312",
+  "archive_sha256": "ca8c11b7a00e5c2216e08df6cfe3b284cbba437a1ec5655d53ed48c5ff356878",
+  "checker": "VERIFIED"
+ }
+]

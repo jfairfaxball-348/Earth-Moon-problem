@@ -1,4 +1,6 @@
-# Claims register after S008
+# Claim catalogue
+
+Status records evidence; no programme claim resolves EMP.
 
 ## CLM-0001 — SOURCE_STATED
 
@@ -431,3 +433,67 @@ A heavy odd-cycle endblock in an actual12-critical biplanar graph has length r<=
 Sources: SRC-0027, SRC-0014.
 
 Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty.
+
+## CLM-0056 — PROGRAMME_PROVED
+
+For every selected family of t heavy K8 noncut cores in an actual12-critical biplanar graph, unweighted excess on the union of their high boundaries is at least4t, with arbitrary support overlap.
+
+Sources: SRC-0027, SRC-0014.
+
+Complete all-order truncated-demand/degree-multiplicity proof in research/S009_GLOBAL_CHARGE.md;3331 finite charge checks corroborate only. Arithmetic equality model is not an actual critical biplanar witness. No maximum multiplicity, distinct high-excess representatives, universal colouring or novelty.
+
+## CLM-0057 — PROGRAMME_PROVED
+
+For every nonempty selected family of t heavy K8 endblocks in an actual12-critical biplanar graph, common high-boundary union size is at least ceil((8t+12)/6).
+
+Sources: SRC-0027, SRC-0014.
+
+Distinct full eight-vertex low blocks contribute56t distinct edges on8t+a vertices. Complete Euler/subfamily/boundary proof in research/S009_GLOBAL_CHARGE.md. Stronger than noncut-only expansion, no colour/list conclusion.
+
+## CLM-0058 — PROGRAMME_PROVED
+
+For a fixed11-colouring outside all selected heavy-core boundaries, simultaneous extension exists iff some nonadjacent pair choice in each boundary induces independent equality classes whose quotient admits proper colouring from common-list intersections.
+
+Sources: SRC-0033.
+
+Complete logical equivalence including cuts/overlaps/all edges/empty cases in research/S009_SIMULTANEOUS_COLOURS.md. Classical contraction idea attributed; no planar contraction or guaranteed feasible pair/list choices.1029 abstract list controls, not critical witnesses or universal theorem.
+
+## CLM-0059 — PROGRAMME_PROVED
+
+All completion K3,3 subgraph clauses in the registered S009 small full-layer tree model are necessary for every genuine planar completion.
+
+Sources: SRC-0009.
+
+Bipartite Euler/six-set partition enumeration/orbit-minimum proof in research/S009_CONSTRUCTION.md;23 actual full pins/rotations and independent enumeration controls. Not all Kuratowski subdivisions, no SAT converse or verdict from partial CNFs.
+
+## CLM-0060 — PROGRAMME_PROVED
+
+For disjoint selected heavy low cores in an actual12-critical biplanar graph, total high excess Q is at least4t8+4e11+2e9+3w9+w7, counting K8 endblocks, C11/C9 endblocks and wholeC9/C7 components respectively.
+
+Sources: SRC-0027, SRC-0014.
+
+All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance.
+
+## CLM-0062 — COMPUTED_EXACT
+
+The explicit12v56e graph K7 joined to independent5 is non-biplanar.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Labelled edges and source proof chain in validation/S009/heavy_extended/result.json; the initial validation/S009/heavy/result.json remains UNKNOWN. Exactchi8 follows from proper8-colouring/K8 clique, not a lower-bound lift; novelty unchecked.
+
+## CLM-0063 — PROGRAMME_PROVED
+
+Every7-clique in a finite simple biplanar graph has at most4 common neighbours outside it; in particular an actual12-critical biplanar graph has no heavy K8 endblock with a genuine low cut vertex.
+
+Sources: SRC-0009, SRC-0024, SRC-0025, SRC-0027.
+
+Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Explicit local subgraph transfer in research/S009_CONSTRUCTION.md. Does not exclude lightK8 endblocks/allK8 blocks/smaller heavy blocks/odd blocks or prove universal11-colouring. Finite source proof plus all-order conditional deduction; novelty unchecked.
+
+## CLM-0061 — COMPUTED_EXACT
+
+S009 certifies additional non-biplanarity for fixed exactchi10 rows[15, 23, 24, 28, 38, 41, 45]; 219 of271 remain UNKNOWN.
+
+Sources: SRC-0009, SRC-0024, SRC-0025.
+
+Each direct negative has necessary cold LF CNF and original/compact/cold retained native DRAT; any transfer independently checks actual injection/source cold certificate and target non9/proper10. Exact source and per-lane provenance in validation/S009. No minimality, census closure, novelty or headline advance.

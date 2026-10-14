@@ -1,0 +1,221 @@
+{
+ "n": 12,
+ "m": 56,
+ "D": 4,
+ "edgefile": "validation\\S009\\targets\\K7-I5.edges",
+ "edge_sha256": "6ca28ae855963bf1649188633c88078e47b6ba0299324a4e6cb63df9ff0c4588",
+ "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/s009_heavy_cover.py",
+   "validation\\S009\\targets\\K7-I5.edges",
+   "artifacts\\tmp\\S009\\heavy\\K7-I5",
+   "1200",
+   "--lex"
+  ],
+  "returncode": 0,
+  "seconds": 868.0779999999995,
+  "hard_cap": 1220,
+  "observed_peak_tree_private_bytes": 134385664
+ },
+ "search": {
+  "verdict": "UNSAT",
+  "iterations": 1,
+  "seconds": 866.5,
+  "cuts": 0,
+  "variables": 40384,
+  "clauses": 186092,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "subset_count": 54,
+   "input_K5_count": 196,
+   "distinct_faces_enabled": false,
+   "extra_clauses": 90742,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 792,
+    "K33": 2870
+   },
+   "s008_cardinality": "pysat-totalizer-v1",
+   "s009_version": "all-completion-K33-v1",
+   "completion_K33_count": 9240
+  }
+ },
+ "certificate": {
+  "verdict": "NON_BIPLANAR_DRAT_VERIFIED",
+  "regenerate": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s009_heavy_cover.py",
+    "check",
+    "validation\\S009\\targets\\K7-I5.edges",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5"
+   ],
+   "returncode": 0,
+   "seconds": 0.8430000000007567,
+   "hard_cap": 120,
+   "observed_peak_tree_private_bytes": 77246464
+  },
+  "solve": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "-q",
+    "--no-binary",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5.cnf",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5.drat"
+   ],
+   "returncode": 20,
+   "seconds": 648.0469999999987,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 54013952
+  },
+  "check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5.cnf",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 612.3280000000013,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 652902400
+  },
+  "cnf_sha256": "39a8c288ca02fec268cb2b1e7f899d4a5aaaf4777075b68f9ec0d6abccf3bc22",
+  "proof_sha256": "aef75382fee2edab75bc5450d0d21669ebc580206d6b422ba3b7aa54613d520c",
+  "proof_bytes": 799973834,
+  "trim": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.cnf",
+    "artifacts\\tmp\\S009\\heavy\\K7-I5.drat",
+    "-l",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.core.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 538.155999999999,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 964276224
+  },
+  "archive": "validation\\S009\\heavy_extended\\search\\K7-I5.drat.gz",
+  "archive_raw_sha256": "660ee5879270419aa6a3c025777ad67222ad217dab2615fd71d2c8ce28f1b914",
+  "archive_raw_bytes": 406918966,
+  "archive_sha256": "c2ab6720c6e72e7faa24b5ae8aaa0274140b640665d2cde97e06ee92c5acb110",
+  "original_check_provenance": "REUSED_ACTUAL_VERIFIED_ORIGINAL_CHECK_NOT_A_NEW_RUN",
+  "core_check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.cnf",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.core.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 409.4529999999995,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 650027008
+  },
+  "cold_retained_check": {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.cold.cnf",
+    "artifacts\\tmp\\S009\\heavy_extended\\K7-I5.cold.drat",
+    "-t",
+    "1200"
+   ],
+   "returncode": 0,
+   "seconds": 411.8899999999994,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 429064192
+  }
+ },
+ "cnf_package": {
+  "grade": "FULL_CNF_CHECKED_DRAT",
+  "cuts": 0,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "subset_count": 54,
+   "input_K5_count": 196,
+   "distinct_faces_enabled": false,
+   "extra_clauses": 90742,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 792,
+    "K33": 2870
+   },
+   "s008_cardinality": "pysat-totalizer-v1",
+   "s009_version": "all-completion-K33-v1",
+   "completion_K33_count": 9240
+  },
+  "raw_sha256": "39a8c288ca02fec268cb2b1e7f899d4a5aaaf4777075b68f9ec0d6abccf3bc22",
+  "archive": "validation\\S009\\heavy_extended\\search\\K7-I5.cnf.gz",
+  "archive_sha256": "18d55296685c20c1aa76231a9c7a8b4ac1b812e464b929254b61e09916849ca7",
+  "initial_raw_sha256": "39a8c288ca02fec268cb2b1e7f899d4a5aaaf4777075b68f9ec0d6abccf3bc22",
+  "initial_archive": "validation\\S009\\heavy_extended\\search\\K7-I5.cnf.gz",
+  "initial_archive_sha256": "18d55296685c20c1aa76231a9c7a8b4ac1b812e464b929254b61e09916849ca7"
+ },
+ "unverified_export": {
+  "sha256": "aef75382fee2edab75bc5450d0d21669ebc580206d6b422ba3b7aa54613d520c",
+  "bytes": 799973834,
+  "grade": "NOT_CERTIFIED"
+ },
+ "initial_attempt": "validation/S009/heavy/result.json",
+ "initial_pipeline_verdict": "UNKNOWN",
+ "continuation": "SAME_CHECKED_ORIGINAL_NEW_REGISTERED_COMPACT_COLD_BUDGET"
+}

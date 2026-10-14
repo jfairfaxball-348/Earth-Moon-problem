@@ -41,3 +41,7 @@
 - D032(S008): Cold native replay before acceptance; new completionK5/inputK33 and tree-counter lanes registered separately, preserving each UNKNOWN/NOT_RUN/cap.
 - D033(S008): Shared support has Euler expansion/Hall representatives, with overlap-weighted excess; simultaneous extension needs colours, not only representatives. No universal/large-deficit advance.
 - D034(S008): Preserve actual launch versions and supervisory deviations; no fabricated hashes or negative inference. S009 future only.
+
+- D035(S009): Arbitrary labelled injections preserve all source edges; bounded misses never noncontainment/exclusions.
+- D036(S009): Truncated demands and degree budgets supply overlap-independent/mixed excess, not available colours; exact equality quotient remains a list-colouring existence obligation.
+- D037(S009): Retain immutable launch provenance/concurrent provisional search and cold gate; S010 future only.
