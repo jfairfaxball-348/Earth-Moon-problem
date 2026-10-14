@@ -1,0 +1,52 @@
+name: S011 preserve checked certificate archive (unmerged WIP)
+on:
+  push:
+    branches: [wip/S011-preserve-certificates]
+permissions:
+  actions: read
+  contents: write
+jobs:
+  immutable-artifact-copy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch exact completed S011 certificate artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: S011-CAM0014-edge-critical-all-witnesses
+          run-id: 38624616691
+          github-token: ${{ github.token }}
+          path: artifacts/tmp/S011/archive
+      - name: Verify source bytes and reproduce independent checker
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib
+          p=pathlib.Path('artifacts/tmp/S011/archive/S011/edge_critical.json')
+          expected='ca6d78fb348c4647be916d5907df03ef03ddbee93418a5981f4f1e3bf99424e1'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==expected
+          print('Original complete edge-witness JSON SHA256',expected)
+          PY
+          python tools/s011_edgecheck.py artifacts/tmp/S011/archive/S011/edge_critical.json
+      - name: Deterministically gzip full 863 public colour witnesses and push WIP
+        run: |
+          python - <<'PY'
+          import gzip,hashlib,json,pathlib
+          source=pathlib.Path('artifacts/tmp/S011/archive/S011/edge_critical.json')
+          chk=json.loads(pathlib.Path('artifacts/tmp/S011/archive/S011/edge_critical_check.json').read_text())
+          assert chk['verdict']=='PASS' and chk['all_six_complete'] and chk['proper_9_colouring_witnesses_checked']==863
+          target=pathlib.Path('validation/S011/edge_critical_witnesses.json.gz')
+          target.parent.mkdir(parents=True,exist_ok=True)
+          target.write_bytes(gzip.compress(source.read_bytes(),compresslevel=9,mtime=0))
+          print('Saved:',target,'bytes',target.stat().st_size,'SHA256',hashlib.sha256(target.read_bytes()).hexdigest())
+          PY
+          git config user.name 'S011 Certificate Archiver'
+          git config user.email 'actions@users.noreply.github.com'
+          git add validation/S011/edge_critical_witnesses.json.gz
+          git commit -m "WIP S011 archive 863 independently checked edge-deletion colourings"
+          git push origin HEAD:wip/S011-preserve-certificates
