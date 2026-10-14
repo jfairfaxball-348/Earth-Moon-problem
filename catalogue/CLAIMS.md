@@ -537,3 +537,20 @@ None of the fixed271 S003 exactchi10 rows contains an edge-preserving K5,13, K6,
 Sources: None; programme proof/computation..
 
 977231 complete bounded bag allocations across813 source-row pairs; independent4096 direct-subset controls, labels in validation/S010/bipartite_detector.json. No row exclusions, planar converse, whole-census or distinct-isomorphism-class claim.
+
+
+## CLM-0069 — PROGRAMME_PROVED
+
+The ordinary Mycielski lift of any finite simple graph with chromatic number at least 9 cannot be biplanar.
+
+Sources: SRC-0036 (primary abstract only; S011 proof self-contained).
+
+Induced 9-critical H has minimum degree at least 8, hence m>=4n. M(H) is induced in M(G), has 2n+1 vertices and 3m+n>=13n edges, versus the 2-planar Euler limit 12n-6. Details in research/S011_CONSTRUCTION.md. Obstruction is only a construction-family filter, not EMP resolution or novelty.
+
+## CLM-0070 — COMPUTED_EXACT
+
+The six *specific labelled* S003 rows 2,55,59,61,199,200 are edge-critical exactly-10-chromatic graphs.
+
+Sources: in-repository proof computations; no external priority claim.
+
+Original no-9 DRAT proofs cold checked, explicit proper10 checked. All 863 edge deletions produced a valid 9-colouring independently checked in a separate standard-library implementation using a second graph6 expander. Permanent full witness archive validation/S011/edge_critical_witnesses.json.gz (SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554). Other rows/biplanarity remain UNKNOWN.

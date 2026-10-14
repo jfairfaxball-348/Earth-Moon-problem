@@ -1,0 +1,23 @@
+{
+  "session": "S011",
+  "verdict": "COMPLETED_NO_LOWER_BOUND_ADVANCE",
+  "bounds": "9<=chi_2<=12",
+  "candidate_pool": {
+    "certified_non_biplanar": 52,
+    "unknown": 219
+  },
+  "math": [
+    "CLM-0069_MYCIELSKI_IMPOSSIBLE_FILTER",
+    "CLM-0070_SIX_FIXED_TEN_EDGE_CRITICAL"
+  ],
+  "verified_9_colourings_for_all_six_edge_deletions": 863,
+  "actions_runs": [
+    38623187997,
+    38623722547,
+    38624616691
+  ],
+  "full_manifest": "sessions/S011/MANIFEST.json",
+  "validated_records": "validation/S011/SUMMARY.json",
+  "full_permanent_witnesses": "validation/S011/edge_critical_witnesses.json.gz",
+  "next": "S012_FUTURE_UNEXECUTED"
+}

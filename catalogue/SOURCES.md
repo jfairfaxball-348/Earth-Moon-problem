@@ -341,3 +341,12 @@ https://doi.org/10.1017/S0305004100037385
 Primary Cambridge metadata/definitions extract inspected; no theorem/full proof access. Classical context for complete bipartite thickness, not a newly imported formula. S010 gives an independent elementary bipartite Euler proof; original1964 and online2008 dates distinguished.
 
 Publication date: 1964-01; accessed: 2026-10-14.
+
+
+## SRC-0035 — STATEMENT_INSPECTED
+
+Epoch AI (2026), *The Earth–Moon Problem*; https://epoch.ai/frontiermath/open-problems/earth-moon (accessed 2026-10-14). Exact submission target and independently checked layer/colour/non-9 obligations, not a proof or reported breakthrough. No novelty statement.
+
+## SRC-0036 — ABSTRACT_INSPECTED
+
+Gerard J. Chang, Lingling Huang, Xuding Zhu (1999), *Circular chromatic numbers of Mycielski's graphs*, DOI 10.1016/S0012-365X(99)00033-3, https://doi.org/10.1016/S0012-365X(99)00033-3 (accessed 2026-10-14). Publisher abstract inspected; original Mycielski operation stated. Full proof not inspected; our independent counting proof does not import a contested statement.

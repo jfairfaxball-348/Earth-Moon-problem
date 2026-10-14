@@ -1,0 +1,44 @@
+name: S011 positive search (unmerged WIP)
+on:
+  push:
+    branches: [wip/S011-positive-search]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  registered-s011-search:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify registered immutable source and input plan
+        run: |
+          test -f campaigns/CAM-0012.md
+          test -f tools/s011_positive_search.py
+          python -m py_compile tools/s011_positive_search.py
+          sha256sum campaigns/CAM-0012.md tools/s011_positive_search.py validation/S003/survivors_alpha_ge3.json validation/S010/SUMMARY.json
+          nproc
+          free -h
+          df -h .
+      - name: Build D043 pinned toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory cold smoke gate on this runner
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0012 positive construction search
+        run: |
+          .venv/bin/python tools/s011_positive_search.py --seconds 300 --seed 11011 --output artifacts/tmp/S011/heuristic_result.json
+      - name: Upload provenance and results (including failures)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S011-CAM0012-positive-heuristic
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/native/setup.log
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S011/*.json
+          if-no-files-found: warn
+          retention-days: 60

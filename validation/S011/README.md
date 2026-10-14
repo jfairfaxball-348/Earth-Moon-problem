@@ -1,0 +1,3 @@
+# S011 reproducibility record
+
+All proof results and exact SHA256 manifests: SUMMARY.json; research/S011_CONSTRUCTION.md; sessions/S011/MANIFEST.json. The full 863 edge-deletion proper9-colour witnesses are permanent in edge_critical_witnesses.json.gz (SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554). Recover with `gzip -dc validation/S011/edge_critical_witnesses.json.gz > artifacts/tmp/S011/edge_critical.json` and validate using `python tools/s011_edgecheck.py artifacts/tmp/S011/edge_critical.json`. This validates the positive edge-deletion certificates; independently run D043 smoke to check original non9 lower certificates. An unmerged WIP/GitHub Actions log passing does not settle EMP; no new layer split was found.

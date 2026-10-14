@@ -1,0 +1,72 @@
+{
+  "observed_date": "2026-10-14",
+  "entry_main": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+  "entry_tree": "3c444e50fbb12513c59d9f50b8e6a1fb756090ca",
+  "preceding": {
+    "s010": {
+      "authored": "b585c03825b32cae1735d8c30a2357e652ba3e37",
+      "pr": 10,
+      "merge": "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
+      "merge_parents": [
+        "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
+        "b585c03825b32cae1735d8c30a2357e652ba3e37"
+      ]
+    },
+    "d042": {
+      "pr": 11,
+      "merge": "a58df4728f38a30e53d5a9b9595ff823f86bc215"
+    },
+    "d043": {
+      "pr": 12,
+      "authored": "22452e26a4e1e43226e34a057c7cd0f7591ed580",
+      "merge": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+      "parents": [
+        "a58df4728f38a30e53d5a9b9595ff823f86bc215",
+        "22452e26a4e1e43226e34a057c7cd0f7591ed580"
+      ],
+      "scaffold_main_run": 38620353760,
+      "scaffold_job": 116045957346,
+      "scaffold_conclusion": "success"
+    }
+  },
+  "pr_listing": "PR1-12 closed/merged at entry; no preexisting S011 PR. Prior API previously misreported merged:false; parent graph verified directly.",
+  "branches": "Historic session and WIP branches present, no competing HEAD on main at entry.",
+  "protection": "UNKNOWN_GITHUB_403_RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+  "rulesets": "EMPTY_LIST_RETRIEVED",
+  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS",
+  "assistant_local_preflight": {
+    "repo_checkout": "ABSENT",
+    "claude_session_hook": "ABSENT",
+    "venv": "ABSENT",
+    "research_computation_locally": "BLOCKED",
+    "alternative": "ISOLATED_GITHUB_ACTIONS_SMOKE_PASSED_ON_EACH_S011_RUN"
+  },
+  "scientific_runs": [
+    {
+      "id": 38623187997,
+      "job": 116055647178,
+      "conclusion": "success",
+      "smoke": "PASS"
+    },
+    {
+      "id": 38623722547,
+      "job": 116057456888,
+      "conclusion": "success",
+      "smoke": "PASS"
+    },
+    {
+      "id": 38624616691,
+      "job": 116060492252,
+      "conclusion": "success",
+      "smoke": "PASS",
+      "independent_edgecheck": "PASS"
+    }
+  ],
+  "preservation_run": {
+    "id": 38625149681,
+    "job": 116062294510,
+    "conclusion": "success",
+    "result_commit_on_unmerged_wip": "cc9ba9afd68890a6c74ca3143e985907fdfc0600"
+  },
+  "final_session_merge": "NOT_YET_OBSERVED_AT_PRECOMMIT_FREEZE; VERIFY_AFTER_PR_MERGE"
+}

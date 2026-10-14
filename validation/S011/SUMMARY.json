@@ -1,0 +1,111 @@
+{
+  "session": "S011",
+  "as_of": "2026-10-14",
+  "headline_advance": false,
+  "bounds": {
+    "lower": 9,
+    "upper": 12
+  },
+  "candidate_pool": {
+    "total": 271,
+    "certified_non_biplanar": 52,
+    "biplanarity_unknown": 219,
+    "new_exclusions": 0
+  },
+  "execution": {
+    "runner": "GitHub Actions ubuntu-24.04; D043 scripts/cloud_setup.sh then scripts/cloud_smoke.py in SAME job",
+    "cold_smoke_for_all_three": "PASS 271/271 exact non9 DRAT,271/271 CNF byte match, retained K9 and fresh K9 proof",
+    "main_entry_sha": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "entry_tree": "3c444e50fbb12513c59d9f50b8e6a1fb756090ca",
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS",
+    "branch_protection": "UNKNOWN_FORBIDDEN_403"
+  },
+  "campaigns": [
+    {
+      "id": "CAM-0012",
+      "run_id": 38623187997,
+      "job_id": 116055647178,
+      "artifact_id": 11923795092,
+      "artifact_zip_sha256": "6eb2e9ab4e454a3d97c9a73dbcb0210a43c14d1455ef9d3ef130b96d904fc776",
+      "verdict": "NO_SPLIT_HEURISTIC_ONLY",
+      "rows_attempted": 219,
+      "greedy_trials": 438,
+      "repair_rows": 25,
+      "closest": {
+        "index": 156,
+        "n": 24,
+        "m": 128,
+        "missing": 11
+      },
+      "native_sha256": {
+        "cadical": "7b7ca24813bf834ba72dcddd06dffaa3f3dca7b3c90b2fb5498419d9c35a68c0",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      }
+    },
+    {
+      "id": "CAM-0013",
+      "run_id": 38623722547,
+      "job_id": 116057456888,
+      "artifact_id": 11924345243,
+      "artifact_zip_sha256": "82cc4c73144da4619ba62b4c1bff4de806c5ec1bf948d79cd0fa91437d75c1ec",
+      "verdict": "NO_SPLIT_NO_DELETIONS",
+      "fixed_rows": [
+        2,
+        55,
+        59,
+        61,
+        199,
+        200
+      ],
+      "single_deletion_sat_trials": 240,
+      "removed": 0,
+      "native_sha256": {
+        "cadical": "f01e63074a09ce5580a158a9a4cad42589579771e556b2f33534d56341501e66",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      }
+    },
+    {
+      "id": "CAM-0014",
+      "run_id": 38624616691,
+      "job_id": 116060492252,
+      "artifact_id": 11923611772,
+      "artifact_zip_sha256": "dafd52da91486e7adbb2d633564f2bac2753d4cbf9b06a6ab07ec97613f278ae",
+      "verdict": "EDGE_CRITICAL_SIX_COMPUTED_EXACT",
+      "fixed_rows": [
+        2,
+        55,
+        59,
+        61,
+        199,
+        200
+      ],
+      "edge_counts": [
+        133,
+        146,
+        146,
+        146,
+        146,
+        146
+      ],
+      "total_proper_nine_colour_witnesses_independently_checked": 863,
+      "independent_checker": "PASS",
+      "native_sha256": {
+        "cadical": "2ea30d6ceaa78998d1352ff401c0f5b6e836bfb5e1021e458ca95f23d415bdea",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      }
+    }
+  ],
+  "preservation": {
+    "run_id": 38625149681,
+    "artifact_decoded_sha256": "ca6d78fb348c4647be916d5907df03ef03ddbee93418a5981f4f1e3bf99424e1",
+    "checker_json_sha256": "6a07dc5754a6dd75d8456dcb86294d0098fba0565915cc01823b87be4c577f49",
+    "permanent_path": "validation/S011/edge_critical_witnesses.json.gz",
+    "gzip_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+    "permanent_blob_sha": "7a2276bfbce26e35e37e4a764e29fb78f0f78757"
+  },
+  "mathematical_results": [
+    "CLM-0069",
+    "CLM-0070"
+  ],
+  "status": "S011_DONE_S012_FUTURE_UNEXECUTED"
+}

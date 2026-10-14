@@ -1,316 +1,354 @@
 {
- "project": "Earth-Moon-problem",
- "repository_id": 1415870164,
- "as_of": "2026-10-14",
- "last_completed_session": "S010",
- "recommended_next_session": "S011",
- "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
- "programme_scope": {
-  "decision": "D042",
-  "date": "2026-10-14",
-  "authority": "Explicit owner instruction (outside a numbered session): target only the lower bound, chi_2 > 9; do not attempt to solve EMP or work on the upper bound.",
-  "target": "chi_2 >= 10 via one certified construction (explicit V,E1,E2; independent planarity per layer; checked proof of no proper 9-colouring)",
-  "out_of_scope": [
-   "universal upper-bound theorems (chi_2 <= 11/10/9)",
-   "discharging/reducibility/critical-graph colouring-extension routes",
-   "full resolution of EMP"
+  "project": "Earth-Moon-problem",
+  "repository_id": 1415870164,
+  "as_of": "2026-10-14",
+  "last_completed_session": "S011",
+  "recommended_next_session": "S012",
+  "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
+  "programme_scope": {
+    "decision": "D042",
+    "date": "2026-10-14",
+    "authority": "Explicit owner instruction (outside a numbered session): target only the lower bound, chi_2 > 9; do not attempt to solve EMP or work on the upper bound.",
+    "target": "chi_2 >= 10 via one certified construction (explicit V,E1,E2; independent planarity per layer; checked proof of no proper 9-colouring)",
+    "out_of_scope": [
+      "universal upper-bound theorems (chi_2 <= 11/10/9)",
+      "discharging/reducibility/critical-graph colouring-extension routes",
+      "full resolution of EMP"
+    ],
+    "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
+  },
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S011_LOWER_BOUND_ONLY_D042",
+  "confirmed_classical_range": {
+    "lower": 9,
+    "upper": 12,
+    "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
+  },
+  "candidate_10_11_12": "S011: still52 checked non-biplanar/271 fixed candidates,219 biplanarity UNKNOWN. Positive CAM0012 438 trials/25 repairs no split; CAM0013 six rows 240/240 deletion SAT9; CAM0014 six exactchi10 rows certified edge-critical from863 independently checked 9-colouring witnesses. No chi>=10 biplanar split.",
+  "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
+  "phases": [
+    {
+      "id": 0,
+      "name": "Bootstrap and governance",
+      "status": "PASS_ADMIN_ONLY"
+    },
+    {
+      "id": 1,
+      "name": "Certified chi>=10 biplanar construction (lower bound only since D042)",
+      "status": "ACTIVE_LOWER_BOUND_ONLY_NO_HEADLINE_ADVANCE"
+    },
+    {
+      "id": 2,
+      "name": "First result-specific novelty audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 3,
+      "name": "Lean formalisation and verification",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 4,
+      "name": "Final comprehensive novelty/correctness audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 5,
+      "name": "Palomar registration",
+      "status": "OWNER_GATED"
+    },
+    {
+      "id": 6,
+      "name": "Paper and reproduction package",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 7,
+      "name": "arXiv and journal submission",
+      "status": "OWNER_GATED"
+    }
   ],
-  "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
- },
- "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_LOWER_BOUND_ONLY_D042",
- "confirmed_classical_range": {
-  "lower": 9,
-  "upper": 12,
-  "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
- },
- "candidate_10_11_12": "S010 adds0 row exclusions; total52/271,219 UNKNOWN. Long heavy odd blocks excluded analytically; remaining P4/C5 local sources positive chi3/4.",
- "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
- "phases": [
-  {
-   "id": 0,
-   "name": "Bootstrap and governance",
-   "status": "PASS_ADMIN_ONLY"
+  "source_status": "S011_TARGETED_2026_PRIMARY_STATEMENT_REFRESH_NO_NOVELTY_OR_PRIORITY_CERTIFICATION",
+  "lean": {
+    "status": "NOT_STARTED"
   },
-  {
-   "id": 1,
-   "name": "Certified chi>=10 biplanar construction (lower bound only since D042)",
-   "status": "ACTIVE_LOWER_BOUND_ONLY_NO_HEADLINE_ADVANCE"
+  "palomar": {
+    "status": "NOT_REGISTERED"
   },
-  {
-   "id": 2,
-   "name": "First result-specific novelty audit",
-   "status": "NOT_STARTED"
+  "arxiv": {
+    "status": "NOT_SUBMITTED"
   },
-  {
-   "id": 3,
-   "name": "Lean formalisation and verification",
-   "status": "NOT_STARTED"
+  "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
+  "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
+  "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
+  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+  "open_obligations": [
+    "S011 CLOSED no headline; 52/271 excluded,219 UNKNOWN. D044 Actions full smoke PASS; all run/artifact SHA in validation/S011/SUMMARY.json. Six rows2,55,59,61,199,200 exactly10 EDGE-CRITICAL with 863 verified G-e nine colourings stored permanently; no biplanarity proved. S012 target edge-swap or new layer-pair source.",
+    "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
+    "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
+    "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
+    "Row165 no-lex/23v row158 deletion UNKNOWN; C5 maximal13/children and independent wholek8/k9 census open.",
+    "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. Generic equality identification need not preserve planarity.",
+    "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
+    "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
+    "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed.",
+    "S012 is FUTURE_UNEXECUTED pending owner invocation. S011 authored PR/two-parent main/CI must be rechecked live at next entry; never infer merge commit before it exists."
+  ],
+  "next_session_is_future_unexecuted": true,
+  "latest_session_branch": "session/S011-certified-construction-search",
+  "latest_session_entry_main": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+  "latest_session_integration": "AUTHORING_PENDING_ONE_COMMIT_PR_NONFORCE_MERGE_VERIFY_ACTUAL_LIVE",
+  "mathematical_results": [
+    "CLM-0007",
+    "CLM-0009",
+    "CLM-0010",
+    "CLM-0011",
+    "CLM-0012",
+    "CLM-0013",
+    "CLM-0014",
+    "CLM-0015",
+    "CLM-0016",
+    "CLM-0017",
+    "CLM-0018",
+    "CLM-0019",
+    "CLM-0020",
+    "CLM-0021",
+    "CLM-0022",
+    "CLM-0023",
+    "CLM-0025",
+    "CLM-0026",
+    "CLM-0027",
+    "CLM-0028",
+    "CLM-0029",
+    "CLM-0030",
+    "CLM-0031",
+    "CLM-0032",
+    "CLM-0033",
+    "CLM-0034",
+    "CLM-0035",
+    "CLM-0036",
+    "CLM-0037",
+    "CLM-0038",
+    "CLM-0039",
+    "CLM-0040",
+    "CLM-0041",
+    "CLM-0042",
+    "CLM-0043",
+    "CLM-0044",
+    "CLM-0045",
+    "CLM-0046",
+    "CLM-0047",
+    "CLM-0048",
+    "CLM-0049",
+    "CLM-0050",
+    "CLM-0051",
+    "CLM-0052",
+    "CLM-0053",
+    "CLM-0055",
+    "CLM-0056",
+    "CLM-0057",
+    "CLM-0058",
+    "CLM-0059",
+    "CLM-0060",
+    "CLM-0061",
+    "CLM-0062",
+    "CLM-0063",
+    "CLM-0064",
+    "CLM-0065",
+    "CLM-0066",
+    "CLM-0067",
+    "CLM-0068",
+    "CLM-0069",
+    "CLM-0070"
+  ],
+  "s003_integration_verified": {
+    "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
+    "sole_parent": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+    "pr": 3,
+    "merge_commit": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "merge_parents": [
+      "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+      "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569"
+    ],
+    "tree": "6c886f5461a463de710587fd46fc3de197c04950"
   },
-  {
-   "id": 4,
-   "name": "Final comprehensive novelty/correctness audit",
-   "status": "NOT_STARTED"
+  "s004_integration_verified": {
+    "authored_commit": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
+    "sole_parent": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "pr": 4,
+    "merge_commit": "ed49432f49de74e9d22c2dde582c228234d3db76",
+    "merge_parents": [
+      "3e93eec7b5fe7e818dec0984dee722074a65186e",
+      "6959e0093ee44ce7c2645afb6635f3e04d714c95"
+    ],
+    "tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca",
+    "head_CI_run": 38372945649,
+    "main_CI_run": 38373078430
   },
-  {
-   "id": 5,
-   "name": "Palomar registration",
-   "status": "OWNER_GATED"
+  "s005_integration_verified": {
+    "authored_commit": "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9",
+    "sole_parent": "ed49432f49de74e9d22c2dde582c228234d3db76",
+    "pr": 5,
+    "merge_commit": "b675063162f37c1a19b605f78093fbba9cd25382",
+    "merge_parents": [
+      "ed49432f49de74e9d22c2dde582c228234d3db76",
+      "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9"
+    ],
+    "tree": "ff5de9a5b549862f3f19e1a7215321907c8cc9d0",
+    "head_CI_run": 38415801047,
+    "main_CI_run": 38416043885,
+    "main_validate_job": 115360631706,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
   },
-  {
-   "id": 6,
-   "name": "Paper and reproduction package",
-   "status": "NOT_STARTED"
+  "s006_integration_verified": {
+    "authored_commit": "eefd36469895f20da4dd8eedcb6d411d75288abf",
+    "sole_parent": "b675063162f37c1a19b605f78093fbba9cd25382",
+    "pr": 6,
+    "merge_commit": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+    "merge_parents": [
+      "b675063162f37c1a19b605f78093fbba9cd25382",
+      "eefd36469895f20da4dd8eedcb6d411d75288abf"
+    ],
+    "tree": "028d96c47411506ad8326a90eeed13e00a6d1d1b",
+    "head_CI_run": 38445649516,
+    "main_CI_run": 38445775538,
+    "head_validate_job": 115463219674,
+    "main_validate_job": 115463671945,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
   },
-  {
-   "id": 7,
-   "name": "arXiv and journal submission",
-   "status": "OWNER_GATED"
+  "s007_integration_verified": {
+    "authored_commit": "2751cfc659462b888d5579c98358e85d3f909d03",
+    "sole_parent": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+    "pr": 7,
+    "merge_commit": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+    "merge_parents": [
+      "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+      "2751cfc659462b888d5579c98358e85d3f909d03"
+    ],
+    "tree": "7556cac9eee8a6e26af5460b7d16d8479e5f1e29",
+    "head_CI_run": 38455256198,
+    "main_CI_run": 38455487692,
+    "head_validate_job": 115496220621,
+    "main_validate_job": 115496995386,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s008_integration_verified": {
+    "authored_commit": "cbdb8236f27d8f39ceeb268975cd47ac39fc323a",
+    "sole_parent": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+    "pr": 8,
+    "merge_commit": "7957452c79c2b31088f93fff440783328c78942d",
+    "merge_parents": [
+      "23d36d93ebb225668180c8499eb6793775d4fa1d",
+      "cbdb8236f27d8f39ceeb268975cd47ac39fc323a"
+    ],
+    "tree": "17611589c3b44454cd8910362306629a15c856ea",
+    "head_CI_run": 38558584715,
+    "main_CI_run": 38558755112,
+    "head_validate_job": 115833753360,
+    "main_validate_job": 115834317044,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s009_integration_verified": {
+    "authored_commit": "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c",
+    "sole_parent": "7957452c79c2b31088f93fff440783328c78942d",
+    "pr": 9,
+    "merge_commit": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
+    "merge_parents": [
+      "7957452c79c2b31088f93fff440783328c78942d",
+      "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c"
+    ],
+    "tree": "defbef2531504b868642c5f21b5dd1ee40b0bf17",
+    "head_CI_run": 38600425084,
+    "main_CI_run": 38600592078,
+    "head_validate_job": 115977946517,
+    "main_validate_job": 115978523871,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "retired_upper_bound_obligations_D042": [
+    "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
+    "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
+    "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
+    "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above."
+  ],
+  "d042_integration_verified": {
+    "authored_commit": "a98783990149dfdaedac36a50db1cb9634fe76b9",
+    "sole_parent": "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
+    "branch": "ccr-ca34b331-a5bcoj",
+    "pr": 11,
+    "merge_commit": "a58df4728f38a30e53d5a9b9595ff823f86bc215",
+    "merge_parents": [
+      "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
+      "a98783990149dfdaedac36a50db1cb9634fe76b9"
+    ],
+    "tree": "ed791d5020bd04c526a1aa2d83583de29c22ebb6",
+    "head_CI_run": 38618251148,
+    "main_CI_run": 38618417702,
+    "note": "Governance re-scope only. S010 merge a7fe884 (PR #10) observed as main before D042; S010 two-parent/tree reconciliation still belongs to S011 entry."
+  },
+  "execution_environment": {
+    "decision": "D043",
+    "kind": "CLAUDE_CODE_CLOUD_CONTAINER",
+    "reference": "docs/CLOUD_ENVIRONMENT.md",
+    "setup": "scripts/cloud_setup.sh via .claude/hooks/session-start.sh",
+    "entry_acceptance_check": "scripts/cloud_smoke.py",
+    "native_sources": {
+      "cadical": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+      "drat-trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+    },
+    "python_packages": {
+      "python-sat": "1.9.dev15",
+      "networkx": "3.5",
+      "numpy": "2.5.4",
+      "pymupdf": "1.26.6"
+    },
+    "d043_validation": {
+      "date": "2026-10-14",
+      "verdict": "PASS",
+      "chromatic_proofs_verified": "271/271",
+      "chromatic_cnf_byte_matches": "271/271",
+      "k9_cnf_byte_match": true,
+      "k9_retained_drat_verified": true,
+      "fresh_cadical_k9_proof_verified": true,
+      "platform": "Linux 6.18 x86_64 glibc2.39, Python 3.12.3, gcc 13.3.0",
+      "cadical_sha256": "afa8b5b3777b45c6723634ad8b30cb0a65246f9621a28269389cb99296dfc7c1",
+      "drat_trim_sha256": "bd6221fa417e0fdf8881ffc93782954f18cc2a3bdea26c4dd8a07beec7923e25"
+    },
+    "historical_environment": "S001-S010 Windows 11, Python 3.12.10, llvm-mingw native builds (see validation/S004_MANIFEST.json)",
+    "github_actions_fallback": {
+      "decision": "D044",
+      "platform": "GitHub Actions ubuntu-24.04",
+      "mandatory": "scripts/cloud_setup.sh then scripts/cloud_smoke.py SAME job before science",
+      "tested_runs": [
+        38623187997,
+        38623722547,
+        38624616691
+      ],
+      "certificate_preservation_run": 38625149681,
+      "verified": "PASS_FULL_271_CHROMATIC_PLUS_K9_EACH_JOB",
+      "permanent_provenance": "validation/S011/SUMMARY.json",
+      "permanent_witness": "validation/S011/edge_critical_witnesses.json.gz",
+      "witness_gzip_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+      "native_hashes": "per-job; do not assume same bytes"
+    }
+  },
+  "s011_result": {
+    "lower_bound_advance": false,
+    "cam0012_greedy_trials": 438,
+    "cam0012_rows": 219,
+    "cam0012_repair_rows": 25,
+    "cam0013_deletions_tested": 240,
+    "cam0014_fixed_rows": [
+      2,
+      55,
+      59,
+      61,
+      199,
+      200
+    ],
+    "cam0014_verified_edge_colour_witnesses": 863,
+    "mycielski_filter": "CLM-0069",
+    "edge_critical": "CLM-0070",
+    "next_prompt_output_required_by_owner": true
   }
- ],
- "source_status": "2026_PRIMARY_REFRESH_WITH_SCOPED_RSTATEMENT_ACCESS_NO_ORDER_PROMOTION",
- "lean": {
-  "status": "NOT_STARTED"
- },
- "palomar": {
-  "status": "NOT_REGISTERED"
- },
- "arxiv": {
-  "status": "NOT_SUBMITTED"
- },
- "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
- "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
- "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
- "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
- "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
- "open_obligations": [
-  "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
-  "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
-  "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
-  "Row165 no-lex/23v row158 deletion UNKNOWN; C5 maximal13/children and independent wholek8/k9 census open.",
-  "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. Generic equality identification need not preserve planarity.",
-  "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
-  "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
-  "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
-  "VerifyS010 ordinaryPR/authored/two-parent main/tree/actual jobs live after freeze; D042 re-scope integration verified (d042_integration_verified); reconcile the separate D043 cloud-environment governance commit/PR live; S011 FUTURE/UNEXECUTED.",
-  "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
- ],
- "next_session_is_future_unexecuted": true,
- "latest_session_branch": "codex/S010-strategic-reset",
- "latest_session_entry_main": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
- "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
- "mathematical_results": [
-  "CLM-0007",
-  "CLM-0009",
-  "CLM-0010",
-  "CLM-0011",
-  "CLM-0012",
-  "CLM-0013",
-  "CLM-0014",
-  "CLM-0015",
-  "CLM-0016",
-  "CLM-0017",
-  "CLM-0018",
-  "CLM-0019",
-  "CLM-0020",
-  "CLM-0021",
-  "CLM-0022",
-  "CLM-0023",
-  "CLM-0025",
-  "CLM-0026",
-  "CLM-0027",
-  "CLM-0028",
-  "CLM-0029",
-  "CLM-0030",
-  "CLM-0031",
-  "CLM-0032",
-  "CLM-0033",
-  "CLM-0034",
-  "CLM-0035",
-  "CLM-0036",
-  "CLM-0037",
-  "CLM-0038",
-  "CLM-0039",
-  "CLM-0040",
-  "CLM-0041",
-  "CLM-0042",
-  "CLM-0043",
-  "CLM-0044",
-  "CLM-0045",
-  "CLM-0046",
-  "CLM-0047",
-  "CLM-0048",
-  "CLM-0049",
-  "CLM-0050",
-  "CLM-0051",
-  "CLM-0052",
-  "CLM-0053",
-  "CLM-0055",
-  "CLM-0056",
-  "CLM-0057",
-  "CLM-0058",
-  "CLM-0059",
-  "CLM-0060",
-  "CLM-0061",
-  "CLM-0062",
-  "CLM-0063",
-  "CLM-0064",
-  "CLM-0065",
-  "CLM-0066",
-  "CLM-0067",
-  "CLM-0068"
- ],
- "s003_integration_verified": {
-  "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
-  "sole_parent": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
-  "pr": 3,
-  "merge_commit": "3e93eec7b5fe7e818dec0984dee722074a65186e",
-  "merge_parents": [
-   "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
-   "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569"
-  ],
-  "tree": "6c886f5461a463de710587fd46fc3de197c04950"
- },
- "s004_integration_verified": {
-  "authored_commit": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
-  "sole_parent": "3e93eec7b5fe7e818dec0984dee722074a65186e",
-  "pr": 4,
-  "merge_commit": "ed49432f49de74e9d22c2dde582c228234d3db76",
-  "merge_parents": [
-   "3e93eec7b5fe7e818dec0984dee722074a65186e",
-   "6959e0093ee44ce7c2645afb6635f3e04d714c95"
-  ],
-  "tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca",
-  "head_CI_run": 38372945649,
-  "main_CI_run": 38373078430
- },
- "s005_integration_verified": {
-  "authored_commit": "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9",
-  "sole_parent": "ed49432f49de74e9d22c2dde582c228234d3db76",
-  "pr": 5,
-  "merge_commit": "b675063162f37c1a19b605f78093fbba9cd25382",
-  "merge_parents": [
-   "ed49432f49de74e9d22c2dde582c228234d3db76",
-   "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9"
-  ],
-  "tree": "ff5de9a5b549862f3f19e1a7215321907c8cc9d0",
-  "head_CI_run": 38415801047,
-  "main_CI_run": 38416043885,
-  "main_validate_job": 115360631706,
-  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- },
- "s006_integration_verified": {
-  "authored_commit": "eefd36469895f20da4dd8eedcb6d411d75288abf",
-  "sole_parent": "b675063162f37c1a19b605f78093fbba9cd25382",
-  "pr": 6,
-  "merge_commit": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
-  "merge_parents": [
-   "b675063162f37c1a19b605f78093fbba9cd25382",
-   "eefd36469895f20da4dd8eedcb6d411d75288abf"
-  ],
-  "tree": "028d96c47411506ad8326a90eeed13e00a6d1d1b",
-  "head_CI_run": 38445649516,
-  "main_CI_run": 38445775538,
-  "head_validate_job": 115463219674,
-  "main_validate_job": 115463671945,
-  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- },
- "s007_integration_verified": {
-  "authored_commit": "2751cfc659462b888d5579c98358e85d3f909d03",
-  "sole_parent": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
-  "pr": 7,
-  "merge_commit": "23d36d93ebb225668180c8499eb6793775d4fa1d",
-  "merge_parents": [
-   "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
-   "2751cfc659462b888d5579c98358e85d3f909d03"
-  ],
-  "tree": "7556cac9eee8a6e26af5460b7d16d8479e5f1e29",
-  "head_CI_run": 38455256198,
-  "main_CI_run": 38455487692,
-  "head_validate_job": 115496220621,
-  "main_validate_job": 115496995386,
-  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- },
- "s008_integration_verified": {
-  "authored_commit": "cbdb8236f27d8f39ceeb268975cd47ac39fc323a",
-  "sole_parent": "23d36d93ebb225668180c8499eb6793775d4fa1d",
-  "pr": 8,
-  "merge_commit": "7957452c79c2b31088f93fff440783328c78942d",
-  "merge_parents": [
-   "23d36d93ebb225668180c8499eb6793775d4fa1d",
-   "cbdb8236f27d8f39ceeb268975cd47ac39fc323a"
-  ],
-  "tree": "17611589c3b44454cd8910362306629a15c856ea",
-  "head_CI_run": 38558584715,
-  "main_CI_run": 38558755112,
-  "head_validate_job": 115833753360,
-  "main_validate_job": 115834317044,
-  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- },
- "s009_integration_verified": {
-  "authored_commit": "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c",
-  "sole_parent": "7957452c79c2b31088f93fff440783328c78942d",
-  "pr": 9,
-  "merge_commit": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
-  "merge_parents": [
-   "7957452c79c2b31088f93fff440783328c78942d",
-   "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c"
-  ],
-  "tree": "defbef2531504b868642c5f21b5dd1ee40b0bf17",
-  "head_CI_run": 38600425084,
-  "main_CI_run": 38600592078,
-  "head_validate_job": 115977946517,
-  "main_validate_job": 115978523871,
-  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- },
- "retired_upper_bound_obligations_D042": [
-  "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
-  "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
-  "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
-  "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above."
- ],
- "d042_integration_verified": {
-  "authored_commit": "a98783990149dfdaedac36a50db1cb9634fe76b9",
-  "sole_parent": "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
-  "branch": "ccr-ca34b331-a5bcoj",
-  "pr": 11,
-  "merge_commit": "a58df4728f38a30e53d5a9b9595ff823f86bc215",
-  "merge_parents": [
-   "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
-   "a98783990149dfdaedac36a50db1cb9634fe76b9"
-  ],
-  "tree": "ed791d5020bd04c526a1aa2d83583de29c22ebb6",
-  "head_CI_run": 38618251148,
-  "main_CI_run": 38618417702,
-  "note": "Governance re-scope only. S010 merge a7fe884 (PR #10) observed as main before D042; S010 two-parent/tree reconciliation still belongs to S011 entry."
- },
- "execution_environment": {
-  "decision": "D043",
-  "kind": "CLAUDE_CODE_CLOUD_CONTAINER",
-  "reference": "docs/CLOUD_ENVIRONMENT.md",
-  "setup": "scripts/cloud_setup.sh via .claude/hooks/session-start.sh",
-  "entry_acceptance_check": "scripts/cloud_smoke.py",
-  "native_sources": {
-   "cadical": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
-   "drat-trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
-  },
-  "python_packages": {
-   "python-sat": "1.9.dev15",
-   "networkx": "3.5",
-   "numpy": "2.5.4",
-   "pymupdf": "1.26.6"
-  },
-  "d043_validation": {
-   "date": "2026-10-14",
-   "verdict": "PASS",
-   "chromatic_proofs_verified": "271/271",
-   "chromatic_cnf_byte_matches": "271/271",
-   "k9_cnf_byte_match": true,
-   "k9_retained_drat_verified": true,
-   "fresh_cadical_k9_proof_verified": true,
-   "platform": "Linux 6.18 x86_64 glibc2.39, Python 3.12.3, gcc 13.3.0",
-   "cadical_sha256": "afa8b5b3777b45c6723634ad8b30cb0a65246f9621a28269389cb99296dfc7c1",
-   "drat_trim_sha256": "bd6221fa417e0fdf8881ffc93782954f18cc2a3bdea26c4dd8a07beec7923e25"
-  },
-  "historical_environment": "S001-S010 Windows 11, Python 3.12.10, llvm-mingw native builds (see validation/S004_MANIFEST.json)"
- }
 }

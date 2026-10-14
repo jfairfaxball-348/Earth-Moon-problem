@@ -1,0 +1,42 @@
+name: S011 sparsification (unmerged WIP)
+on:
+  push:
+    branches: [wip/S011-sparsify-search]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  registered-s011-sparsification:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Require prospective registration and syntax
+        run: |
+          test -f campaigns/CAM-0013.md
+          python -m py_compile tools/s011_positive_search.py tools/s011_sparsify_search.py
+          sha256sum campaigns/CAM-0013.md tools/s011_sparsify_search.py validation/S003/survivors_alpha_ge3.json validation/S010/SUMMARY.json
+      - name: Pinned D043 setup
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory same-run cold smoke gate
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0013 chromatic-preserving sparsification
+        run: .venv/bin/python tools/s011_sparsify_search.py --seconds 280 --seed 13113 --output artifacts/tmp/S011/sparsify_result.json
+      - name: Upload all surviving result and environment evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S011-CAM0013-sparsification
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/native/setup.log
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S011/*.json
+            artifacts/tmp/S011/*.cnf
+            artifacts/tmp/S011/*.drat.gz
+            artifacts/tmp/S011/*.edges
+          retention-days: 60
+          if-no-files-found: warn
