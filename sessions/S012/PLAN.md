@@ -1,0 +1,9 @@
+# S012 PLAN — executed and honest scopes
+
+1. Pin LIVE main/tree/PR#13 and published research records, D042 and same-job cloud requirement; reconcile S011 complete six-row criticality.
+2. Attempt central edge-swap idea analytically before wasting SAT time: test whether bag automorphisms preserve a nine-colouring of every G-e+f. Obtain hand theorem with precise weights>=2 and fixed-scope consequences.
+3. Preregister complete CAM-0015 single-swap `e,f` universe on six frozen rows; producer and genuinely independent checker on GitHub Actions with SAME-JOB pinned setup/full cold smoke, 12GiB virtual + 300s per stage, permanent script provenance. Mark any job failure UNKNOWN.
+4. Attack non-clique/controlled-join construction mathematically: H=K6 vee C5 plus r new vertices, track exact 11v50e source, vertex-criticality, two-layer density; derive maximal excluded r and first nonexcluded boundary.
+5. Examine consequences for layer-aware ejection-chain and planar-pair sources, separating rigorously proved exclusions from alternatives not yet executed. Scope all results only as constructive candidate filters, not an upper bound.
+6. Perform targeted statement-level 2026 prior-art refresh; no novelty clearance or external outreach.
+7. Update paired claims and unchanged paired sources, state, all ledgers, permanent compact summary/manifest and full session closeout; implement D047 so a prompt itself authorises its numbered session, not an extra command; preserve immutable historical provenance. One atomic authored commit/ordinary PR/two-parent merge, verify actual links and scaffold; provide full S013 prompt with report.

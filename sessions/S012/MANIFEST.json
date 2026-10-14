@@ -1,0 +1,51 @@
+{
+  "session": "S012",
+  "record_kind": "AUTHORED_SINGLE_COMMIT_PRE_MERGE_SNAPSHOT",
+  "entry_live_main": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+  "entry_live_tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+  "entry_pr_open_count": 0,
+  "branch_protection": "UNKNOWN_FORBIDDEN_403",
+  "rulesets": "EMPTY_RETURNED",
+  "S011_pr": 13,
+  "S011_merge_parents": [
+    "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "8893aa34927c37c3d71b2201f50838635c3d30e5"
+  ],
+  "session_branch": "session/S012-layer-aware-construction",
+  "authorisation": "Owner supplied exact S012 prompt, then explicitly requested execution and removal of second-invocation requirement; D047",
+  "campaigns": [
+    {
+      "id": "CAM-0015",
+      "workflow_run": 38635879431,
+      "job": 116098797010,
+      "status": "SUCCESS_ALL_STEPS",
+      "smoke": "PASS_271_DRAT_K9_AND_FRESH_K9",
+      "exhaustive_swaps_proved_9_colourable": 194896,
+      "independent_recheck": "PASS",
+      "native_sha256": {
+        "cadical": "b6f9b737c9eef9e768972c526411fdad07062879e44c5d8592010d0547cb9c60",
+        "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      },
+      "source_sha256": {
+        "tools/s012_swap_audit.py": "82a170d75feded8fe6042ffbc2e9c5f743ffa0b020f5839a8e9e9c126700eebc",
+        "tools/s012_swap_check.py": "78f6ac6b049ee6aa3d6e22787d432e2404926095954eeb22d09f9edc27fbdb0d",
+        "campaigns/CAM-0015.md": "cddbf244111281f9997a422004f772f636f0487f11be3740464ea95af1fd269f",
+        ".github/workflows/s012-swap-audit.yml": "48248c39e4512f60919f3c6d33a5876755042c5499504bb43c38b14a94a7d29d",
+        "validation/S011/edge_critical_witnesses.json.gz": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+        "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb"
+      },
+      "artifact_id": 11928007306,
+      "artifact_digest": "sha256:c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703"
+    }
+  ],
+  "science": "CLM-0071,0072,0073 construction-family structural filters; 9<=chi_2<=12 no headline advance",
+  "old_witness_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+  "no_headline_certificate": true,
+  "outgoing": {
+    "authored_commit": "TO_OBSERVE_POST_TREE",
+    "pr": "TO_OBSERVE",
+    "two_parent_merge": "TO_OBSERVE",
+    "scaffold_head_and_main": "TO_OBSERVE"
+  },
+  "next_prompt": "S013_FUTURE_UNEXECUTED_BUT_OWNER_PROMPT_COUNTS_AS_INVOCATION_D047"
+}

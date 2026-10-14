@@ -1,0 +1,15 @@
+# S012 CLOSEOUT — 2026-10-14
+
+**Science COMPLETE, HEADLINE OPEN.** Two substantial analytically closed construction families, one complete finite independently checked campaign; NO confirmed chi>=10 biplanar graph, thus classical bounds `9 <= chi_2 <= 12` unchanged. The old 271 exactlychi10 candidates still have 52 checked non-biplanar and 219 biplanarity UNKNOWN; S012 adds zero biplanarity exclusions.
+
+**CLM-0071 / CAM-0015:** complete graph-theoretic proof that all single old-edge/old-nonedge swaps of the six S011 10-edge-critical, bag-weight>=2 clique blow-ups are 9-colourable. GitHub Actions [run 38635879431](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38635879431) on never-merged WIP ran same-job pinned setup and FULL D043 cold smoke PASS, then independently checked **194,896/194,896** positive nine-colour witnesses (24,446 bag transpositions, 170,450 initial witness colours already separated). Workflow steps SUCCESS, artifact11928007306 sha256 c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703. The compact per-row evidence, registered input/native SHA256 and exact source/checker are retained in `validation/S012/SUMMARY.json`, `campaigns/CAM-0015.md` and `tools/s012_swap_*.py`. No new row biplanarity decision.
+
+**CLM-0072:** biplanar graph retaining the original induced 11v50e 9-critical Sulanke K6 vee C5 cannot become ten chromatic merely by adjoining 1..5 vertices (r0 trivial). Proof combines critical apex condition, induction forcing new vertices degree>=9, and Euler 6n-12. Does not cover modified old edges.
+
+**CLM-0073:** first unresolved r=6 extension, necessary 17v89/90e near-full budget and new-side K6 or K6-e; only a construction lead, not certified biplanarity/non9. All layer-ejection and actual-layer-new-source experiments beyond those proofs remain NOT_RUN and scheduled for S013, never falsely called failed.
+
+**Governance D047:** owner's supplied session prompt IS execution authority for that named session, with no further "Run" command needed. Active AGENTS/protocol/START_HERE/README/STATE and next prompt updated. Historical prompts/owner records kept untouched as history, not active STOP requirements. Future prompts are queued, not automatically executed; when supplied they run immediately. D042 lower-bound-only and D046 inline-full-next-prompt remain binding.
+
+**Exit integration:** one atomic S012 authored commit on `session/S012-layer-aware-construction` from entry main `226c87b8d802210628d15aecb24bbfd43f75fb81`; actual commit/PR/non-force merge/parents/tree and head/main scaffold jobs must be independently read LIVE after merge, not invented in this frozen premerge closeout. S013 prompt identical at `authoritative/NEXT_SESSION_PROMPT.md` and `sessions/S012/S013_FUTURE_PROMPT.md`, and to be output in full with the final user-visible verified closeout.
+
+No Lean, Palomar, arXiv, paper, external priority-clearance or correspondence.

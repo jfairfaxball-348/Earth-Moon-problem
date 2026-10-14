@@ -1,0 +1,9 @@
+# S012 PRIOR ART — targeted 2026 refresh, no novelty clearance
+
+Primary Epoch AI [Earth–Moon problem](https://epoch.ai/frontiermath/open-problems/earth-moon) (SRC-0035, STATEMENT_INSPECTED, accessed 2026-10-14) still states 9<=chi_2<=12 and the four distinct proof obligations for a 10-chromatic biplanar submission; no independently certified lower-bound-10 witness was found in this targeted check. This is not proof no such witness exists elsewhere.
+
+Read/existing source metadata for Arjun Trivedi's August 2026 [C5 clique-blow-up report](https://zenodo.org/records/22074335) (SRC-0012) and Patil's 2026 nine-critical biplanar corpus / edge-swap historical programmes (SRC-0007). The latter studies edge swaps for **nine-critical** biplanar examples; this is not evidence of precedence or novelty for the specifically scoped all-single-swaps chromatic filter of six **ten**-chromatic noncertified-biplanar blow-ups. Direct full-text proofs and machine archives for these works were NOT reproduced in S012.
+
+October 2026 rStation Earth–Moon discussions (SRC-0032) include claimed small-order progress, but author identities, their exact proof dependencies and archives were not independently certified; no advertised order-19 improvement was imported into programme claims. No use of aggregator prose as proof.
+
+CLM-0071/72/73 are internally proved filtering lemmas; originality is UNKNOWN and their form may be elementary/well-known. External manuscript, arXiv, Lean, Palomar, press and correspondence were not authorised and not initiated. Paired SOURCES.json/SOURCES.md were reviewed without introducing new source IDs or changing access grades.

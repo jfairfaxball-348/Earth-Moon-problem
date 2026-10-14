@@ -554,3 +554,15 @@ The six *specific labelled* S003 rows 2,55,59,61,199,200 are edge-critical exact
 Sources: in-repository proof computations; no external priority claim.
 
 Original no-9 DRAT proofs cold checked, explicit proper10 checked. All 863 edge deletions produced a valid 9-colouring independently checked in a separate standard-library implementation using a second graph6 expander. Permanent full witness archive validation/S011/edge_critical_witnesses.json.gz (SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554). Other rows/biplanarity remain UNKNOWN.
+
+## CLM-0071 — PROGRAMME_PROVED
+
+All original-edge / original-nonedge single swaps of a clique blow-up with bag sizes>=2 preserve the existence of a proper q-colouring after edge deletion; for S011's six fixed 10-edge-critical rows every one of **194,896 swaps is properly nine-colourable**. Source: original in-repository CAM0014 colours. Hand proof and independent complete CAM0015 witness audit in research/S012_CONSTRUCTION.md, validation/S012/SUMMARY.json; no biplanarity exclusions, general singleton/multi-swap claim or novelty assurance.
+
+## CLM-0072 — PROGRAMME_PROVED
+
+A finite simple biplanar graph retaining the original **induced** 11v50e nine-critical Sulanke H=K6 vee C5 and adding <=5 vertices is at most 9-chromatic. Direct criticality/degree/Euler induction (r1 universal apex density; r2..5 degree>=9 versus two-layer bound) in research/S012_CONSTRUCTION.md. Modifying H or taking 6+ new vertices is outside scope; no general chromatic upper bound or originality claim.
+
+## CLM-0073 — PROGRAMME_PROVED
+
+Any **hypothetical** biplanar 10-chromatic six-new-vertex extension of induced Sulanke H must have K6 or K6-e among new vertices and total 89 or90 edges on17 vertices; the K6-e case forces90 and both layers triangulations. Only necessary arithmetic; no such witness constructed. Details and scope in research/S012_CONSTRUCTION.md.

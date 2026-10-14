@@ -36,3 +36,5 @@ S009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.
 | [CAM-0011](CAM-0011.md) |S010 structural reset, all271 three-source detector, cold proofs/local endpoints/residual palette controls|S010 strategic reset complete;0 new row exclusions,52/271 excluded and219 UNKNOWN;9..12 unchanged. Heavy odd endblocks/whole components reduce toC5; P4-I9/C5-I9 local sources biplanar exactchi3/4; residual extension criterion conditional.|
 
 S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical future labels superseded only throughS010.
+
+| [CAM-0015](CAM-0015.md) | S012 complete all edge e / old nonedge f on fixed rows2,55,59,61,199,200 | 194896/194896 independently checked proper9-colouring witnesses via bag automorphism, full same-job D043 cold smoke PASS; no biplanarity decisions or new chi10 witness. Actions run 38635879431 |
