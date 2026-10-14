@@ -1,0 +1,302 @@
+"""CAM-0010 isolated baseline, bounded construction lanes and upper controls."""
+import gzip,hashlib,inspect,itertools,json,math,shutil,subprocess,sys,time
+from pathlib import Path
+from s005_replay import sha
+from s005_search import run_logged,compress
+from s007_run import save
+from biplanar_cnf import read_edges
+from blowup_graph import blowup
+from blowup_chi_cnf import bag_cnf
+from s004_certify import write_cnf
+from check_layers import main as check_split,certify_layer
+
+ROOT=Path('validation/S009');TMP=Path('artifacts/tmp/S009')
+CHECKER=str(Path('artifacts/tmp/S004/drat-trim-mingw.exe').resolve())
+INDICES=(15,23,24,28)
+
+def baseline():
+    src=Path('tools/s007_run.py').read_text().replace('S007','S009')
+    src='import sys\nsys.path.insert(0,'+repr(str(Path('tools').resolve()))+')\n'+src
+    adapter=TMP/'replay_adapter.py';adapter.write_text(src,newline='\n')
+    save(ROOT/'replay_adapter_observed.json',dict(path=str(adapter),sha256=sha(adapter),grade='BEFORE_LAUNCH'))
+    scope={'__name__':'s009_baseline_adapter'};exec(compile(src,str(adapter),'exec'),scope)
+    scope.update(ROOT=ROOT,TMP=TMP,INDICES=INDICES)
+    scope['replay']()
+    # Direct S008 proofs have their OWN totalizer generator, no mixed-CNF checking.
+    from s008_tree import TreeFullCover
+    rows=[]
+    for row in json.loads(Path('validation/S008/tree/search_results.json').read_text()):
+        if row['verdict']!='NON_BIPLANAR_DRAT_VERIFIED':continue
+        idx=row['target']['index'];rec=row['certificate'];p=TMP/'cold'/f'S008-row{idx}'
+        d=json.loads(Path(f'validation/S008/tree/search/cover-row{idx}.cuts.json').read_text())
+        c=TreeFullCover(read_edges(row['target']['edgefile']),d['lex'],d.get('short_links',False))
+        assert c.static==d['static'];c.cuts=d['cuts'];c.write_cnf(Path(str(p)+'.cnf'))
+        assert Path(str(p)+'.cnf').read_bytes()==gzip.decompress(Path(f'validation/S008/tree/search/cover-row{idx}.cnf.gz').read_bytes())
+        proof=Path(str(p)+'.drat');proof.write_bytes(gzip.decompress(Path(rec['archive']).read_bytes()))
+        assert sha(proof)==rec['archive_raw_sha256'] and sha(str(p)+'.cnf')==rec['cnf_sha256']
+        assert sha(rec['archive'])==rec['archive_sha256']
+        log=ROOT/f'cold-S008-row{idx}.check.log'
+        check=run_logged([CHECKER,str(p)+'.cnf',str(proof),'-t','1200'],1220,log)
+        assert check['returncode']==0 and 's VERIFIED' in log.read_text()
+        rows.append(dict(index=idx,command=check,cnf_sha256=sha(str(p)+'.cnf'),proof_sha256=sha(proof),
+            archive_sha256=sha(rec['archive']),checker='VERIFIED'))
+        save(ROOT/'cold_S008.json',rows);print('cold S008',idx,'VERIFIED',flush=True)
+    assert len(rows)==3
+    mapping=json.loads(Path('validation/S008/SUMMARY.json').read_text())['transfer_stop']['mapping']
+    source=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+    se,_=blowup(*source[159][:2]);te,_=blowup(*source[155][:2]);m={int(k):v for k,v in mapping.items()}
+    assert len(m)==len(set(m.values()))==24
+    assert {tuple(sorted((m[a],m[b]))) for a,b in se}==set(te)
+    save(ROOT/'BASELINE_PASS.json',dict(cold_prior_full=40,cold_row165=True,cold_S008_full=3,
+        S008_159_to_155_isomorphism=True,archive_cnf_colour_audit=271,positive_controls=23,
+        fresh_selected_lower_checks=4,headline_bounds=[9,12]))
+    print('S009 BASELINE PASS',flush=True)
+
+def lower(idx):
+    source=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+    rec=json.loads(Path('validation/S004/chi10_results.json').read_text())[idx]
+    g,w,_=source[idx];es,_=blowup(g,w);col=rec['ten_colouring']
+    assert len(col)==sum(w) and all(0<=x<10 for x in col) and all(col[u]!=col[v] for u,v in es)
+    cnf=TMP/f'accepted-chi-row{idx}.cnf';proof=TMP/f'accepted-chi-row{idx}.drat'
+    write_cnf(cnf,*bag_cnf(g,w,9));proof.write_bytes(gzip.decompress(Path(rec['bag']['archive']).read_bytes()))
+    assert sha(cnf)==rec['bag']['cnf_sha256'] and sha(proof)==rec['bag']['drat_sha256']
+    log=ROOT/f'accepted-chi-row{idx}.check.log'
+    check=run_logged([CHECKER,str(cnf),str(proof),'-t','600'],620,log)
+    assert check['returncode']==0 and 's VERIFIED' in log.read_text()
+    return dict(index=idx,ten_colouring=col,cnf_sha256=sha(cnf),proof_sha256=sha(proof),
+        archive=rec['bag']['archive'],command=check,verdict='EXACT_CHI10')
+
+def injection_controls():
+    from s009_injection import controls
+    save(ROOT/'injection_controls.json',controls());print('PASS arbitrary injection/brute controls',flush=True)
+
+def transfer():
+    assert (ROOT/'BASELINE_PASS.json').exists() and (ROOT/'injection_controls.json').exists()
+    from s009_injection import injection
+    summary=json.loads(Path('validation/S008/SUMMARY.json').read_text())
+    sources=sorted(set(summary['excluded_indices'])-{155})
+    assert len(sources)==44
+    corpus=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+    graphs={i:(sum(r[1]),blowup(*r[:2])[0]) for i,r in enumerate(corpus)}
+    sources.sort(key=lambda i:(graphs[i][0],len(graphs[i][1]),i))
+    rows=[];accepted=[];begin=time.monotonic()
+    for target in summary['remaining_unknown_indices']:
+        found=False
+        for source in sources:
+            ns,es=graphs[source];nt,et=graphs[target]
+            if found:r=dict(verdict='NOT_NEEDED_AFTER_MAP')
+            elif time.monotonic()-begin>=300:r=dict(verdict='GLOBAL_CAP_NOT_RUN')
+            else:r=injection(ns,es,nt,et,min(begin+300,time.monotonic()+2))
+            r.update(source=source,target=target,source_n=ns,target_n=nt)
+            if r['verdict']=='VERIFIED_MAP':
+                m={int(k):v for k,v in r['mapping'].items()}
+                assert set(m)==set(range(ns)) and len(set(m.values()))==ns
+                assert all(tuple(sorted((m[u],m[v]))) in set(et) for u,v in es)
+                found=True;accepted.append(dict(source=source,target=target,mapping=m,
+                    all_source_edges_checked=len(es),source_edges_sha256=hashlib.sha256(repr(es).encode()).hexdigest(),
+                    target_edges_sha256=hashlib.sha256(repr(et).encode()).hexdigest()))
+            rows.append(r)
+        save(ROOT/'transfer_pairs.json',rows);save(ROOT/'transfer_maps.json',accepted)
+    save(ROOT/'transfer_search_summary.json',dict(sources=sources,targets=summary['remaining_unknown_indices'],
+        pair_count=len(rows),seconds=time.monotonic()-begin,verified_targets=[r['target'] for r in accepted],
+        verdict_counts={v:sum(r['verdict']==v for r in rows) for v in sorted({r['verdict'] for r in rows})},
+        symmetry='NONE',misses_are_not_exclusions=True))
+    # Fresh lower checks AFTER bounded map search; separate worker amendment needed if nonempty.
+    assert not accepted,'Maps retained; register acceptance checker lane prospectively before promotion'
+    print('Transfer search done;',len(accepted),'maps',flush=True)
+
+def prepare():
+    corpus=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+    chi=json.loads(Path('validation/S004/chi10_results.json').read_text())
+    rows=[];(ROOT/'targets').mkdir(exist_ok=True)
+    for idx in INDICES:
+        g,w,_=corpus[idx];es,_=blowup(g,w);ef=ROOT/'targets'/f'row{idx}.edges'
+        ef.write_text(''.join(f'{u} {v}\n' for u,v in es),newline='\n')
+        rows.append(dict(index=idx,g6=g,w=w,n=sum(w),m=len(es),D=6*sum(w)-12-len(es),
+            edgefile=str(ef),edge_sha256=sha(ef),ten_colouring=chi[idx]['ten_colouring']))
+        assert rows[-1]['D']==2
+    save(ROOT/'targets.json',rows)
+    es=sorted(set(itertools.combinations(range(7),2))|{(a,b) for a in range(7) for b in range(7,12)})
+    ef=ROOT/'targets/K7-I5.edges';ef.write_text(''.join(f'{u} {v}\n' for u,v in es),newline='\n')
+    print('Prepared fixed labels',INDICES,'and heavy local graph',flush=True)
+
+def certificate(ef,prefix,root,generator,klass):
+    import s006_run
+    src=inspect.getsource(s006_run.certificate).replace('tools/triangulation_cover.py',generator)
+    scope=dict(s006_run.__dict__);scope['ROOT']=root
+    adapter=Path(str(prefix)+'.certificate_adapter.txt');adapter.write_text(src,newline='\n')
+    save(Path(str(prefix)+'.certificate_adapter_observed.json'),dict(path=str(adapter),sha256=sha(adapter),grade='BEFORE_PIPELINE_LAUNCH'))
+    exec(src,scope);result=scope['certificate'](ef,prefix)
+    if result['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+        # Campaign requires compact native check, not only a first verifier outcome.
+        if result.get('core_check',{}).get('returncode')!=0:result['verdict']='UNKNOWN';return result
+        d=json.loads(Path(str(prefix)+'.cuts.json').read_text())
+        c=klass(read_edges(ef),d['lex'],d.get('short_links',False));assert c.static==d['static'];c.cuts=d['cuts']
+        cold=Path(str(prefix)+'.cold.cnf');c.write_cnf(cold)
+        assert cold.read_bytes()==gzip.decompress(Path(str(root/'search'/prefix.name)+'.cnf.gz').read_bytes())
+        proof=Path(str(prefix)+'.cold.drat');proof.write_bytes(gzip.decompress(Path(result['archive']).read_bytes()))
+        assert sha(proof)==result['archive_raw_sha256'];log=root/'search'/(prefix.name+'.cold.check.log')
+        chk=run_logged([CHECKER,str(cold),str(proof),'-t','600'],620,log);result['cold_retained_check']=chk
+        if chk['returncode']!=0 or 's VERIFIED' not in log.read_text():result['verdict']='UNKNOWN'
+    return result
+
+def package(ef,prefix,root,klass,row):
+    dest=root/'search'/prefix.name
+    for suffix in ('.cuts.json','.result.json','.run.log','.certificate_adapter.txt','.certificate_adapter_observed.json'):
+        p=Path(str(prefix)+suffix)
+        if p.exists():shutil.copyfile(p,str(dest)+suffix)
+    cuts=Path(str(prefix)+'.cuts.json')
+    if not cuts.exists():return
+    d=json.loads(cuts.read_text());c=klass(read_edges(ef),d['lex'],d.get('short_links',False))
+    assert c.static==d['static'];c.cuts=d['cuts']
+    regen=Path(str(prefix)+'.last-cut.audit.cnf');c.write_cnf(regen)
+    grade='FULL_CNF_CHECKED_DRAT' if row['verdict']=='NON_BIPLANAR_DRAT_VERIFIED' else 'PARTIAL_NECESSARY_CNF_NOT_A_REFUTATION'
+    archive=str(dest)+('.cnf.gz' if grade.startswith('FULL') else '.partial.cnf.gz')
+    if grade.startswith('FULL'):assert regen.read_bytes()==gzip.decompress(Path(archive).read_bytes())
+    else:compress(regen,archive)
+    c.cuts=[];initial=Path(str(prefix)+'.initial.audit.cnf');c.write_cnf(initial)
+    assert initial.read_bytes()==Path(str(prefix)+'.initial.cnf').read_bytes()
+    ia=archive if sha(initial)==sha(regen) else str(dest)+'.initial.cnf.gz'
+    if ia!=archive:compress(initial,ia)
+    row['cnf_package']=dict(grade=grade,cuts=len(d['cuts']),static=d['static'],
+        raw_sha256=sha(regen),archive=archive,archive_sha256=sha(archive),
+        initial_raw_sha256=sha(initial),initial_archive=ia,initial_archive_sha256=sha(ia))
+    partial=Path(str(prefix)+'.drat')
+    if row['verdict']=='UNKNOWN' and partial.exists():
+        row['unverified_export']=dict(sha256=sha(partial),bytes=partial.stat().st_size,grade='NOT_CERTIFIED')
+
+def full():
+    assert (ROOT/'BASELINE_PASS.json').exists()
+    from s008_tree import TreeFullCover
+    root=ROOT/'full';tmp=TMP/'full';(root/'search').mkdir(parents=True,exist_ok=True);tmp.mkdir(exist_ok=True)
+    rows=[];consecutive=0
+    for target in json.loads((ROOT/'targets.json').read_text()):
+        idx=target['index'];prefix=tmp/f'cover-row{idx}';row=dict(target=target,verdict='UNKNOWN')
+        if consecutive>=2:row['reason']='NOT_RUN after two consecutive FINAL UNKNOWNs'
+        else:
+            run=run_logged([sys.executable,'tools/s008_tree.py',target['edgefile'],str(prefix),'1200','--lex'],1220,str(prefix)+'.run.log')
+            row['run']=run;meta=Path(str(prefix)+'.result.json')
+            if meta.exists():row['search']=json.loads(meta.read_text())
+            if run['returncode']==0 and row.get('search',{}).get('verdict')=='UNSAT':
+                row['certificate']=certificate(target['edgefile'],prefix,root,'tools/s008_tree.py',TreeFullCover)
+                row['verdict']=row['certificate']['verdict']
+                if row['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':row['fresh_chromatic']=lower(idx)
+            elif run['returncode']==0 and row.get('search',{}).get('verdict')=='SAT_CHECKED':
+                check_split(target['edgefile'],str(prefix)+'.split.json');row['fresh_chromatic']=lower(idx)
+                shutil.copyfile(str(prefix)+'.split.json',root/'search'/f'row{idx}.split.json')
+                row['verdict']='BIPLANAR_CHECKED_CHI10'
+            consecutive=consecutive+1 if row['verdict']=='UNKNOWN' else 0
+            package(target['edgefile'],prefix,root,TreeFullCover,row)
+        rows.append(row);save(root/'results.json',rows)
+        print('Full',idx,row['verdict'],row.get('run',{}).get('seconds','NOT_RUN'),flush=True)
+        if row['verdict']=='BIPLANAR_CHECKED_CHI10':break
+
+def heavy_controls():
+    from s009_heavy_cover import HeavyCover,completion_k33
+    import s007_static_controls
+    s007_static_controls.StrongCover=HeavyCover
+    rows=[]
+    sources=json.loads(Path('validation/S007/static_truth_controls.json').read_text())
+    for row in sources:
+        n=row['n'];layers=[set(map(tuple,es)) for es in row['completion_edges']]
+        family=list(completion_k33(n));assert len(family)==10*math.comb(n,6)
+        assert len(set(family))==len(family)
+        # Independent all-triple/common-complement family comparison.
+        independent=set()
+        for a in itertools.combinations(range(n),3):
+            for b in itertools.combinations([v for v in range(n) if v not in a],3):
+                if min(a)<min(b):independent.add(tuple(sorted(tuple(sorted((u,v))) for u in a for v in b)))
+        assert set(family)==independent
+        for es in family:
+            assert all(not set(es)<=layer for layer in layers)
+        # Actual full-CNF completion pins include real faces/rotations and counter auxiliaries.
+        name=row['tag']
+        if name[-2:].isdigit():
+            ef=TMP/'replay'/(name+'.edges')
+        else:
+            ef=Path('validation/S003/splits')/(name[len('control-'):]+'.edges')
+        split=TMP/'replay'/(name+'.split.json')
+        pin=s007_static_controls.static_control(str(ef),str(split))
+        rows.append(dict(name=name,n=n,completion_K33_count=len(family),pin=pin))
+        save(ROOT/'heavy_controls.json',rows)
+    assert len(rows)==23;print('PASS23 full heavy controls and complete K33 family comparisons',flush=True)
+
+def heavy():
+    assert (ROOT/'BASELINE_PASS.json').exists() and len(json.loads((ROOT/'heavy_controls.json').read_text()))==23
+    from s009_heavy_cover import HeavyCover
+    root=ROOT/'heavy';tmp=TMP/'heavy';(root/'search').mkdir(parents=True,exist_ok=True);tmp.mkdir(exist_ok=True)
+    ef=str(ROOT/'targets/K7-I5.edges');prefix=tmp/'K7-I5'
+    run=run_logged([sys.executable,'tools/s009_heavy_cover.py',ef,str(prefix),'1200','--lex'],1220,str(prefix)+'.run.log')
+    row=dict(n=12,m=56,D=4,edgefile=ef,edge_sha256=sha(ef),verdict='UNKNOWN',run=run)
+    meta=Path(str(prefix)+'.result.json')
+    if meta.exists():row['search']=json.loads(meta.read_text())
+    if run['returncode']==0 and row.get('search',{}).get('verdict')=='UNSAT':
+        row['certificate']=certificate(ef,prefix,root,'tools/s009_heavy_cover.py',HeavyCover)
+        row['verdict']=row['certificate']['verdict']
+    elif run['returncode']==0 and row.get('search',{}).get('verdict')=='SAT_CHECKED':
+        check_split(ef,str(prefix)+'.split.json');split=json.loads(Path(str(prefix)+'.split.json').read_text())
+        col=list(range(7))+[7]*5;es=set(read_edges(ef))
+        assert all(col[a]!=col[b] for a,b in es) and set(itertools.combinations(range(8),2))<=es
+        row.update(verdict='BIPLANAR_CHECKED_CHI8',split=split,proper_colouring=col,clique_lower=list(range(8)))
+        save(root/'split.json',split)
+    package(ef,prefix,root,HeavyCover,row);save(root/'result.json',row)
+    print('Heavy stronger full',row['verdict'],flush=True)
+
+def upper():
+    checks=0
+    for q in range(201):
+        for r in range((q+12)//7+1):
+            assert 4*r*min(q,13)<=13*q;checks+=1
+    lists=[set(c for c in range(3) if mask>>c&1) for mask in range(1,8)]
+    pairs=list(itertools.combinations(range(3),2));count=0
+    for ls in itertools.product(lists,repeat=3):
+        for selected in itertools.combinations(pairs,2):
+            common=set.intersection(*ls)
+            feasible=any(all(x[a]==x[b] for a,b in selected) for x in itertools.product(*[sorted(s) for s in ls]))
+            assert feasible==bool(common);count+=1
+    model=[{0,1},{1,2},{0,2}]
+    assert all(model[a]&model[b] for a,b in pairs) and not set.intersection(*model)
+    # Four cores share one q16/r4 support; private triple/q0 per core.
+    boundaries=[[0]+list(range(1+3*i,4+3*i)) for i in range(4)]
+    for mask in range(1,16):
+        sub=[b for i,b in enumerate(boundaries) if mask>>i&1];t=len(sub)
+        assert len(set().union(*map(set,sub)))>=math.ceil((7*t+12)/6)
+        assert all(sum(16 if v==0 else 0 for v in b)>=13 for b in sub)
+    save(ROOT/'upper_controls.json',dict(charge_checks=checks,q_range=[0,200],
+        equality_list_checks=count,colour_universe=[0,1,2],pairwise_not_global=[sorted(s) for s in model],
+        abstract_sharp_incidence=dict(boundaries=boundaries,excess={0:16},cores=4,total_excess=16,
+        grade='INEQUALITY_MODEL_NOT_ACTUAL_BIPLANAR_CRITICAL_GRAPH'),verdict='PASS'))
+    print('PASS',checks,'charge and',count,'simultaneous equality-list controls',flush=True)
+
+def audit():
+    # Read-only cold archive/hash/labels check in own directories; no prior session writes.
+    for lane,klass_name in [('full','tree'),('heavy','heavy')]:
+        if lane=='full':
+            from s008_tree import TreeFullCover as Klass
+            rows=json.loads((ROOT/'full/results.json').read_text())
+        else:
+            from s009_heavy_cover import HeavyCover as Klass
+            rows=[json.loads((ROOT/'heavy/result.json').read_text())]
+        for row in rows:
+            p=row.get('cnf_package')
+            if not p:continue
+            ef=row.get('edgefile') or row['target']['edgefile']
+            name='K7-I5' if lane=='heavy' else f"cover-row{row['target']['index']}"
+            d=json.loads((ROOT/lane/'search'/(name+'.cuts.json')).read_text())
+            c=Klass(read_edges(ef),d['lex'],d.get('short_links',False));assert c.static==d['static'];c.cuts=d['cuts']
+            regen=TMP/f'audit-{lane}-{name}.cnf';c.write_cnf(regen)
+            assert sha(regen)==p['raw_sha256'] and regen.read_bytes()==gzip.decompress(Path(p['archive']).read_bytes())
+            assert sha(p['archive'])==p['archive_sha256']
+            c.cuts=[];c.write_cnf(regen)
+            assert sha(regen)==p['initial_raw_sha256'] and regen.read_bytes()==gzip.decompress(Path(p['initial_archive']).read_bytes())
+            if row['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+                rec=row['certificate'];raw=gzip.decompress(Path(rec['archive']).read_bytes())
+                assert hashlib.sha256(raw).hexdigest()==rec['archive_raw_sha256']
+                assert sha(rec['archive'])==rec['archive_sha256']
+                assert rec['cold_retained_check']['returncode']==0
+    save(ROOT/'COLD_ARCHIVE_AUDIT_PASS.json',dict(verdict='PASS',prior_session_writes=False))
+    print('PASS S009 independent cold archive/CNF/label audit',flush=True)
+
+if __name__=='__main__':
+    ROOT.mkdir(exist_ok=True);TMP.mkdir(parents=True,exist_ok=True)
+    globals()[sys.argv[1]]()

@@ -1,0 +1,207 @@
+"""S009 closeout from completed actual evidence; never infer verdicts from caps."""
+import hashlib,json,re,subprocess
+from pathlib import Path
+from s005_replay import sha
+from s007_run import save
+from s009_heavy_evidence import effective_heavy
+
+ROOT=Path('validation/S009');MAIN='7957452c79c2b31088f93fff440783328c78942d'
+def append(p,text):
+    with Path(p).open('a',encoding='utf-8',newline='\n') as f:f.write('\n'+text+'\n')
+
+baseline=json.loads((ROOT/'BASELINE_PASS.json').read_text())
+assert baseline['cold_S008_full']==3 and baseline['cold_prior_full']==40
+assert json.loads((ROOT/'baseline_driver_command.json').read_text())['returncode']==0
+assert json.loads((ROOT/'COLD_ARCHIVE_AUDIT_PASS.json').read_text())['verdict']=='PASS'
+assert json.loads((ROOT/'INDEPENDENT_RECORD_AUDIT_PASS.json').read_text())['verdict']=='PASS'
+assert json.loads((ROOT/'public_control_command.json').read_text())['returncode']==0
+assert json.loads((ROOT/'mixed_charge_controls.json').read_text())['verdict']=='PASS'
+full=json.loads((ROOT/'full/results.json').read_text());heavy,heavy_record,heavy_prefix=effective_heavy()
+transfer=json.loads((ROOT/'transfer_search_summary.json').read_text());maps=json.loads((ROOT/'transfer_maps.json').read_text())
+if maps:
+    accepted_maps=json.loads((ROOT/'transfer_accepted.json').read_text())
+    assert all(r['verdict']=='NON_BIPLANAR_INJECTIVE_TRANSFER_VERIFIED' for r in accepted_maps)
+else:accepted_maps=[]
+local_accepted=[];local_status='CONDITIONAL_NOT_RUN_HEAVY_SOURCE_NOT_CERTIFIED'
+if heavy['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+    local_detection=json.loads((ROOT/'local_transfer_detection.json').read_text())
+    assert len(local_detection)==271
+    assert json.loads((ROOT/'local_detect_command.json').read_text())['returncode']==0
+    local_rows=json.loads((ROOT/'local_transfer_acceptance.json').read_text())
+    assert json.loads((ROOT/'local_accept_command.json').read_text())['returncode']==0
+    local_accepted=[r for r in local_rows if r['verdict']=='NON_BIPLANAR_INJECTIVE_TRANSFER_VERIFIED']
+    local_status=dict(all271_detector_complete=True,mapped_rows=[r['index'] for r in local_detection if r['verdict']=='MAP'],
+        accepted_new_rows=[r['target'] for r in local_accepted],unknown_acceptances=[r['index'] for r in local_rows if r['verdict']=='UNKNOWN'])
+new_transfer=json.loads((ROOT/'new_transfer_search_summary.json').read_text())
+new_transfer_rows=json.loads((ROOT/'new_transfer_acceptance.json').read_text())
+assert json.loads((ROOT/'new_discover_command.json').read_text())['returncode']==0
+assert json.loads((ROOT/'new_accept_command.json').read_text())['returncode']==0
+new_maps_accepted=[r for r in new_transfer_rows if r['verdict']=='NON_BIPLANAR_INJECTIVE_TRANSFER_VERIFIED']
+assert not any(r['verdict']=='BIPLANAR_CHECKED_CHI10' for r in full),'A headline advance needs specific independent closeout'
+new=sorted({r['target']['index'] for r in full if r['verdict']=='NON_BIPLANAR_DRAT_VERIFIED'}|{r['target'] for r in accepted_maps+local_accepted+new_maps_accepted})
+for r in full:
+    if r['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+        assert r['certificate']['cold_retained_check']['returncode']==0 and r['fresh_chromatic']['verdict']=='EXACT_CHI10'
+prior=json.loads(Path('validation/S008/SUMMARY.json').read_text())
+excluded=sorted(set(prior['excluded_indices'])|set(new));unknown=sorted(set(range(271))-set(excluded))
+corpus=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+from blowup_graph import blowup
+d2=[i for i,r in enumerate(corpus) if 6*sum(r[1])-12-len(blowup(*r[:2])[0])==2]
+assert len(d2)==42
+lane=dict(targets=[r['target']['index'] for r in full],
+    unknown=[r['target']['index'] for r in full if r['verdict']=='UNKNOWN'],
+    not_run=[r['target']['index'] for r in full if 'NOT_RUN' in r.get('reason','')],
+    capped=[r['target']['index'] for r in full if r.get('run',{}).get('reason')=='external wall cap'],
+    native_export_capped=[r['target']['index'] for r in full if r.get('certificate',{}).get('solve',{}).get('reason')])
+summary=dict(listed_candidates=271,entry_excluded_indices=prior['excluded_indices'],S009_new_exclusions=new,
+    excluded_indices=excluded,remaining_unknown_indices=unknown,remaining_unknown=len(unknown),
+    D2_total=42,D2_source_indices=d2,D2_remaining_unknown=sorted(set(d2)-set(excluded)),
+    full_lane=lane,general_injection=transfer,heavy_K7I5_verdict=heavy['verdict'],
+    small_local_transfer=local_status,
+    new_full_source_transfer=new_transfer,new_full_source_accepted=[r['target'] for r in new_maps_accepted],
+    heavy_effective_source_record=str(heavy_record),heavy_initial_pipeline=json.loads((ROOT/'heavy/result.json').read_text())['verdict'],
+    heavy_continuation_pipeline=json.loads((ROOT/'heavy_extended/result.json').read_text())['verdict'] if (ROOT/'heavy_extended/result.json').exists() else 'CONDITIONAL_NOT_RUN',
+    prior_S008_lanes=prior['lanes'],prior_S008_new_exclusions=prior['S008_new_exclusions'],
+    headline_bounds=[9,12],headline_advance=False,universal_improved_upper_bound='NONE_PROVED',
+    formalisation='NOT_STARTED',novelty='UNCHECKED',next_session='S010_FUTURE_UNEXECUTED')
+save(ROOT/'SUMMARY.json',summary)
+out=f'S009 adds{len(new)} checked finite row exclusions; total{len(excluded)}/271, {len(unknown)} biplanarity UNKNOWN.'
+lanetext=f'Full lane UNKNOWN{lane["unknown"]}, NOT_RUN{lane["not_run"]}, search caps{lane["capped"]}, native export caps{lane["native_export_capped"]}.'
+heavytext=f'Stronger all-completion-K33 heavyK7-I5 verdict:{heavy["verdict"]}.'
+claims=json.loads(Path('catalogue/CLAIMS.json').read_text(encoding='utf-8'))
+claims.append(dict(id='CLM-0060',claim='For disjoint selected heavy low cores in an actual12-critical biplanar graph, total high excess Q is at least4t8+4e11+2e9+3w9+w7, counting K8 endblocks, C11/C9 endblocks and wholeC9/C7 components respectively.',
+    status='PROGRAMME_PROVED',sources=['SRC-0027','SRC-0014'],
+    note='All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance.'))
+if heavy['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+    claims.append(dict(id='CLM-0062',claim='The explicit12v56e graph K7 joined to independent5 is non-biplanar.',
+        status='COMPUTED_EXACT',sources=['SRC-0009','SRC-0024','SRC-0025'],
+        note='Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Labelled edges and source proof chain in validation/S009/heavy. Exactchi8 follows from proper8-colouring/K8 clique, not a lower-bound lift; novelty unchecked.'))
+    claims.append(dict(id='CLM-0063',claim='Every7-clique in a finite simple biplanar graph has at most4 common neighbours outside it; in particular an actual12-critical biplanar graph has no heavy K8 endblock with a genuine low cut vertex.',
+        status='PROGRAMME_PROVED',sources=['SRC-0009','SRC-0024','SRC-0025','SRC-0027'],
+        note='Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Explicit local subgraph transfer in research/S009_CONSTRUCTION.md. Does not exclude lightK8 endblocks/allK8 blocks/smaller heavy blocks/odd blocks or prove universal11-colouring. Finite source proof plus all-order conditional deduction; novelty unchecked.'))
+if new:
+    claims.append(dict(id='CLM-0061',claim=f'S009 certifies additional non-biplanarity for fixed exactchi10 rows{new}; {len(unknown)} of271 remain UNKNOWN.',
+        status='COMPUTED_EXACT',sources=['SRC-0009','SRC-0024','SRC-0025'],
+        note='Each direct negative has necessary cold LF CNF and original/compact/cold retained native DRAT; any transfer independently checks actual injection/source cold certificate and target non9/proper10. Exact source and per-lane provenance in validation/S009. No minimality, census closure, novelty or headline advance.'))
+save('catalogue/CLAIMS.json',claims)
+text='# Claim catalogue\n\nStatus records evidence; no programme claim resolves EMP.\n'
+for c in claims:text+=f"\n## {c['id']} — {c['status']}\n\n{c['claim']}\n\nSources: {', '.join(c['sources']) or 'None; programme proof/computation.'}.\n\n{c.get('note','')}\n"
+Path('catalogue/CLAIMS.md').write_text(text,encoding='utf-8',newline='\n')
+state=json.loads(Path('authoritative/STATE.json').read_text(encoding='utf-8'))
+state.update(as_of='2026-10-14',last_completed_session='S009',recommended_next_session='S010',
+    headline_status='OPEN_9_TO_12_S009_MIXED_CHARGE_AND_FULL_LAYER_AUDIT',candidate_10_11_12=out+' '+lanetext,
+    latest_session_branch='codex/S009-transfer-colours',latest_session_entry_main=MAIN,
+    latest_session_integration='VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT',next_session_is_future_unexecuted=True,
+    source_status='2026_PRIMARY_REFRESH_WITH_UNVERIFIED_OCTOBER_DISCOVERY_LEADS')
+state['phases'][1]['status']='ACTIVE_MIXED_CHARGE_AND_SIMULTANEOUS_LIST_NO_HEADLINE_ADVANCE'
+state['s008_integration_verified']=dict(authored_commit='cbdb8236f27d8f39ceeb268975cd47ac39fc323a',
+    sole_parent='23d36d93ebb225668180c8499eb6793775d4fa1d',pr=8,merge_commit=MAIN,
+    merge_parents=['23d36d93ebb225668180c8499eb6793775d4fa1d','cbdb8236f27d8f39ceeb268975cd47ac39fc323a'],
+    tree='17611589c3b44454cd8910362306629a15c856ea',head_CI_run=38558584715,main_CI_run=38558755112,
+    head_validate_job=115833753360,main_validate_job=115834317044,combined_status='PENDING_ZERO_CONTEXTS_NOT_CI_PASS')
+state['mathematical_results']+=['CLM-0056','CLM-0057','CLM-0058','CLM-0059','CLM-0060']+(['CLM-0061'] if new else [])+(['CLM-0062','CLM-0063'] if heavy['verdict']=='NON_BIPLANAR_DRAT_VERIFIED' else [])
+state['open_obligations']=[
+    f'Decide remaining{len(unknown)} fixedchi10 rows; exact indices in S009/SUMMARY.',lanetext,heavytext,
+    f'All42 D2 source rows accounted individually; {len(summary["D2_remaining_unknown"])} remain UNKNOWN. No stratum closure.',
+    'General injection pair caps/NOT_RUN/misses are not exclusions or a general noncontainment theorem.',
+    'Row165 no-lex and23v row158 deletion UNKNOWN; C5 maximal13/children and whole independentk8/k9 census open.',
+    'All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN; K6-I6chi7/biplanar, historical K7-I5 caps separate.',
+    'Mixed charge Q>=4t8+4e11+2e9+3w9+w7 and stronger expansion do not bound order/deficit or supply colours.',
+    'Exact equality quotient/list existence, light/heavy simultaneous palettes, short odd/smaller clique and all-deficit routes unresolved.',
+    'Verify S009 actual authored commit/ordinary PR/two-parent merge/main jobs live after frozen commit.',
+    'Recent rStation at-most19/20 leads metadata-only; no external primary proof/archive replay or novelty guarantee.',
+    'Novelty/external universal review/Lean/registration/publication/outreach gates unpassed.']
+save('authoritative/STATE.json',state)
+research=f'''# S009 research outcome — 2026-10-14
+
+Exactly S009. Headline9<=chi_2<=12 remains OPEN. {out} {lanetext} {heavytext}
+
+Construction: all44 retained direct row refutations and row155 source159 transfer cold-checked; K9/row165/bag,271 archive/CNF/colour audits, four fresh target lower checks and23 actual positive splits. General labelled injection audit accounts{transfer['pair_count']} pairs: {transfer['verdict_counts']}. Successful accepted transfer targets:{[r['target'] for r in accepted_maps]}. Misses/caps/NOT_RUN remain their actual statuses; no general containment completeness/minimality.
+
+Conditional small local source transfer:{local_status}. Accepted new rows have explicit12-label/56-edge source injections and fresh target non9/proper10 checks. If source not certified, this lane is conditionalNOT_RUN; a bareUNSAT is never its proof basis.
+
+New completed full-source transfer:{new_transfer}. Accepted new targets:{[r['target'] for r in new_maps_accepted]}. Raw mapping/acceptance failures retain individual UNKNOWN/NOT_RUN; accepted sources are direct checked full proofs, never cyclic transfers.
+
+Upper: all-order unweighted heavyK8 charge4t, stronger full-block Euler expansion, mixed long-odd/K8 charge and exact equality-quotient/list criterion proved conditionally on actual critical/heavy premises.16384 independent arithmetic vectors/16 knapsacks plus3331 charge/1029 list controls corroborate limited obligations. No existence theorem for feasible exterior recolouring, short/smaller/light blocks or all-order deficit control. Three dossiers retain complete proofs, assumptions and false sublemma countermodels.
+
+Sources refreshed including2026 twice; inaccessible primary material and search-only October leads honestly graded. No external universal review, novelty, formalisation, registration, publication or outreach. S010 FUTURE/UNEXECUTED only.
+'''
+Path('sessions/S009/RESEARCH.md').write_text(research,encoding='utf-8',newline='\n')
+close=f'''# S009 closeout — 2026-10-14
+
+Exactly S009 authorised/executed. Headline OPEN9<=chi_2<=12 unchanged. {out} {lanetext} {heavytext} D2 remains{len(summary['D2_remaining_unknown'])}/42 UNKNOWN; see SUMMARY for all source indices and pair statuses.
+
+Cold baseline/native tools/source pins and all retained direct proofs passed before new acceptance.23 inherited actual splits/rotations plus23 stronger full completion pins/independent allK33 family checks;121 arbitrary-injection/brute comparisons,3331 charge checks,1029 equality/list cases,16384 exact mixed-charge vectors/16 independent knapsacks passed. All completed S009 archives were independently cold-regenerated/hash/label-audited. Required local governance/unit validation recorded in their own logs; hosted validation observed after commit, never inferred from local checks.
+
+Construction native negatives require actual original/compact/cold checked DRAT and separate target non9/proper10 validation. UNKNOWN search/native caps and partial CNFs provide no verdict. General injections have independent labelled checks; failed/bounded misses never exclusions. Outcomes are finite rows, not a universal graph census or distinct isomorphism-class count. Upper mixed-charge/expansion and exact simultaneous list reduction are necessary/reformulation results only; complete universal proof/all-order deficit/colour existence still missing. No headline advance or novelty guarantee.
+
+Source refresh includes current2026 primary work and an older2024 preprint of the October2026 journal item. Search-only rStation claims stay METADATA_ONLY, no new programme order bound. S008 ordinary PR#8, single authored commit, two-parent merge/matching tree and successful head/main concrete jobs independently reconciled. S009 branchcodex/S009-transfer-colours begins at{MAIN}, tree17611589c3b44454cd8910362306629a15c856ea. Own outgoing SHA/PR/merge necessarily follows this freeze and must be obtained live. Actual final evidence is saved in ignored artifacts/tmp/S009/LIVE_EXIT_EVIDENCE.json and final response; no impossible self-referential commit hash fabricated.
+
+Effective heavy source record:{heavy_record}. Initial native original proof checked, but600s trimming TIMEOUT left its original pipeline UNKNOWN. The separately preregistered1200s compact/core/cold continuation retains its own actual outcome; no original cap is reinterpreted. The207MB untrimmed gzip archive was moved intact to ignored local scratch with hash equality/relocation receipt, since it cannot be tracked in ordinary GitHub Git; any accepted continuation has its own public checked compact archive. Self-contained23 exact input/split payloads passed a prospective supervised repeat with before-launch payload hashes; original and repeated controls are the same23 examples, not46 distinct controls. The unlaunched tag helper was repaired after its original consumers finished, preserving observed launch snapshots. No scientific running generator was edited.
+
+Provenance: running baseline sources preserved; unlaunched heavy-control schema defect corrected in separate prospective stage, immutable observed snapshots/hashes retained. Concurrent heavy first-search evidence stayed provisional until cold/native gate. Old session files untouched except current authority/catalogues/ledgers. No new flush adapter/build, no invented lost launch hash, no capped verdict promotion. Further deviations, if any, listed in ADVERSARIAL and exact command records.
+
+S010 FUTURE/UNEXECUTED only. No Lean/formalisation, registration/Palomar, manuscript/publication, arXiv/journal, announcements or external correspondence executed.
+'''
+Path('sessions/S009/CLOSEOUT.md').write_text(close,encoding='utf-8',newline='\n')
+append('campaigns/CAM-0010.md','## Observed closeout\n\n'+out+' '+lanetext+' '+heavytext+' Arithmetic/encoding/cold checks passed;9..12 unchanged. No future-session or gated downstream activity.')
+append('campaigns/README.md',f'| [CAM-0010](CAM-0010.md) | S009 general injections/full D2/stronger heavy/mixed charges and equality lists | {out}9..12 unchanged |\n\nS009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.')
+append('docs/DECISION_LOG.md','- D035(S009): Arbitrary labelled injections preserve all source edges; bounded misses never noncontainment/exclusions.\n- D036(S009): Truncated demands and degree budgets supply overlap-independent/mixed excess, not available colours; exact equality quotient remains a list-colouring existence obligation.\n- D037(S009): Retain immutable launch provenance/concurrent provisional search and cold gate; S010 future only.')
+append('docs/FAILURE_LEDGER.md',f'| F040 | Pairwise feasible/tree equality pairs imply simultaneous extension | Three independent lists{{0,1}},{{1,2}},{{0,2}} share no common colour | Quotient/list existence open |\n| F041 | Bounded general injection search proves noncontainment | {transfer["verdict_counts"]} | Caps/NOT_RUN/misses never exclusions |\n| F042 | Stronger heavy/full model at registered caps settles all targets | {lanetext} {heavytext} | Retain actual UNKNOWN/partial evidence |')
+append('docs/PHASE_GATE_LEDGER.md','S009: '+out+' Mixed excess/stronger expansion and simultaneous equality/list criterion only. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged; no universal/external review/Lean/publication.')
+ledger=Path('docs/SESSION_LEDGER.md').read_text(encoding='utf-8')
+ledger=re.sub(r'\| S009 \|[^\n]*',f'| S009 | 2026-10-14 | General injections/full layers/mixed support and colours | {out}9..12 unchanged | MATHEMATICS COMPLETE; outgoing integration verify live |',ledger)
+ledger+='\n| S010 | Future | Strategic reset and proof/construction frontier | None yet | FUTURE UNEXECUTED |\n'
+Path('docs/SESSION_LEDGER.md').write_text(ledger,encoding='utf-8',newline='\n')
+append('authoritative/START_HERE.md',f'S009 explicitly invoked and mathematically closed. {out} {lanetext} {heavytext} Mixed-charge/stronger expansion and exact equality-list reformulation are necessary only;9..12 unchanged. Read all S009 records/dossiers/CAM0010/SUMMARY/manifest. S008 integration independently verified in STATE; obtain S009 outgoing Git/jobs live after freeze. S010 FUTURE/UNEXECUTED. Historical future labels superseded through S009 only.')
+readme=Path('README.md').read_text(encoding='utf-8')
+readme=re.sub(r'\*\*Status \([^\n]+?\*\*',f'**Status (2026-10-14): UNSOLVED; S009 mathematics complete. {out} Bounds9..12 unchanged.**',readme,count=1)
+readme=readme.replace('[S008 prompt](authoritative/NEXT_SESSION_PROMPT.md)','[S010 prompt](authoritative/NEXT_SESSION_PROMPT.md)')
+readme+=f'''\n## S009 results\n\n- [Full obstruction audit](research/S009_CONSTRUCTION.md): {out}\n- [Global/mixed excess](research/S009_GLOBAL_CHARGE.md): arbitrary overlap charged once, stronger full-block Euler support expansion.\n- [Simultaneous colours](research/S009_SIMULTANEOUS_COLOURS.md): exact equality-quotient/list reformulation and failure of pairwise/tree feasibility.\n\nOnly through S009 executed; S010 FUTURE/UNEXECUTED. Headline9..12 and downstream gates unchanged. Historical future labels superseded throughS009.\n'''
+Path('README.md').write_text(readme,encoding='utf-8',newline='\n')
+prompt=f'''# S010 — strategic reset and exact proof/construction frontier (FUTURE, UNEXECUTED)
+
+STOP. S009 invocation authorises no S010. A fresh explicit owner invocation permits exactly S010, not S011. Exact finite simple thickness-two Earth-Moon chi_2 remains9..12. Partial advances are not resolution. No separately gated formalisation, registration, publication or outreach authority.
+
+## Entry before writes
+
+Independently pin LIVE main SHA/tree/status. Reconcile S009 one authored commit on codex/S009-transfer-colours, sole entry parent{MAIN}, ordinary non-draft PR, non-force two-parent merge and matching trees. Outgoing identities must be obtained LIVE after frozen records, not anticipated. Audit all open/recent/competing PRs/branches/records/workflows/runs/jobs/check-runs/status contexts/protection/rulesets. Zero-context pending is not CI PASS; unavailable endpoints UNKNOWN.
+
+Read AGENTS/STATE/START_HERE/protocol and COMPLETE S009 records (OWNER_INVOCATION/EXECUTED_PROMPT/INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT/ENTRY_EVIDENCE), three S009 dossiers, CAM0010/amendments, SUMMARY/manifest/README/paired catalogues/programme ledgers. Archive fresh invocation/full prompt; preregister ranges/completeness/symmetry/environment/commands/actual launch versions/hashes/checkers/certificates/stops BEFORE computation. Refresh current primary literature including2026; inspect actual proof before proof-grade promotion, no priority guarantee.
+
+## Strategic reset
+
+The roadmap calls for a stronger reset at session10. Audit yield and completeness of repeated bounded full-layer searches versus genuinely stronger encodings/structural obstruction compression/independent exhaustive census and universal theorem routes. Prioritise a complete strong result over fragments or repeats of capped UNKNOWNs. Pursue multiple substantial proof/counterexample routes and aggressively falsify weak premises. Reset is mathematics/research governance, not later formalisation/publication authority.
+
+## Construction frontier
+
+All271 originalalpha>=3 rows exactchi10. {out} {lanetext} {heavytext} All42 originalD2 rows explicitly accounted;{len(summary['D2_remaining_unknown'])} remain UNKNOWN. Exact indices/pair metadata in S009/SUMMARY. General arbitrary injection domain44 prior direct sources times226 entry-UNKNOWN targets, actual pair status counts{transfer['verdict_counts']}. Only accepted labelled injections from cold checked obstructions transfer exclusions. Filter/miss/pair cap/global NOT_RUN is not a target negative/general noncontainment. S008155 transfers by exact159 isomorphism, not its interrupted tree/capped sequential export; no distinct-isomorphism-class/minimality claim.
+
+Cold regenerate/replay retained proofs before new acceptance; inspect actual necessary completion/lex/cut semantics, not inherited VERIFIED words. Inherited FullCover permits shared/noninput completions, D<=2 distinct faces only, disabledD>=3. Tree counters sometimes reduce variables/increase clauses; no automatic compactness/performance guarantee. S009 all-completionK33 generator is registered for n<=12 only; all6-sets/10 unordered triple partitions, not all Kuratowski subdivisions. {heavytext} Interpret a local negative only through its checked explicit heavy-endblock injection, a local positive only with exactchi8/layers. Historical encodings/caps remain their own UNKNOWN observations.
+
+Prioritise smaller certified obstruction/general injection, demonstrably stronger full encoding or justified registered longer searches. Partial initial/last-cut CNFs are NOT refutations. Row165 no-lex and S00523v row158 deletion UNKNOWN. C5 maximal13/children and independent wholek8/k9 census open (only two fixedk8 samples). All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. K6-I6chi7/biplanar checked; no lift. Prior globalD2 SAT_RELAXATION models are not planar witnesses.
+
+Positive requires labelledV/E1/E2 exact disjoint input union, EACH independent LR/sphere rotation, proper k-colouring and fresh checked non(k-1) proof. Negative requires sound necessary CNF/cuts/symmetry, exact LF cold byte regeneration and original/compact/cold checked DRAT/LRAT. Separate original raw/compact raw/archive raw/gzip hashes; public archive_raw_sha256 names actual retained raw proof. UnverifiedUNSAT/caps/SAT relaxations/NOT_RUN/failed transfers stayUNKNOWN.
+
+## Universal proof frontier
+
+Preserve S005/S006 distinct density/component corrections; Q=l-24-2D and necessary lower order bounds do not bound order/deficit above. S007 chi(G-C)=11 for EACH low component C; chi(H)=11 only when low subgraph nonempty connected. No simultaneous deletion conclusion for disconnected L. Published SRC0027 Gallai/extension/good-colouring/blocking methods attributed, full original Gallai/main density proofs not reconstructed.
+
+S009: t heavyK8 full low blocks have disjoint8-vertex sets, at least56t edges with high supports, hence unionA>=ceil((8t+12)/6). Individual heavyK8 demand13 and degree>=7r yield unweighted supportQ>=4t through truncation; does NOT supply distinct high-excess representatives/colours. Stronger mixed inequality Q>=4t8+4e11+2e9+3w9+w7 covers selected DISJOINT K8 endblock cores, C11/C9 endblock paths and wholeC9/C7 components. Choose actual independent odd-boundary pairs; cross-type support overlap charged once by sum coreweights*r<=q+12. Finite smallq exact arithmetic independently checked, q>=16 analytic. Abstract equality incidence model is not actual biplanar12-critical witness. Smaller heavy clique blocks, C5/C7 endblocks, light blocks and large-deficit flexibility remain open.
+
+Small-source transfer status:{local_status}. If heavy verdict is certified NON_BIPLANAR, CLM0062/0063 prove the general7-clique/common-neighbour restriction and exclude the heavyK8-endblock class via explicit12v56e subgraph; those K8 charge constraints then become vacuous for this excluded class. They do not exclude ALL lightK8/whole lowK8/smaller heavy/odd blocks. A whole heavyK8 with four identical actual high neighbours was already excluded by K9; ordinary wholeK8/light patterns still need separate treatment. Complete detector for this source enumerates all7-clique bag support/allocations and5 actual common neighbours on fixed271 rows, with independent labelled56-edge checks and fresh target lower/upper validation for new exclusions. No source minimality or converse. A future genuinely stronger odd-block local model may investigate P10 join I9/C9 join I9, but it needs new necessity/positive controls and preregistration; no such computation was executed inS009. If heavy verdict UNKNOWN, no local-source class exclusion or transfer is authorised by its bare firstUNSAT.
+
+New completed direct full-source injection audit:{new_transfer}. Accepted extra targets:{[r['target'] for r in new_maps_accepted]}. Exact perpair/unknown/NOT_RUN in S009/SUMMARY and acceptance rows; only independent actual maps/source cold certificates/fresh target lower proofs transfer. A general search miss supplies no new target exclusion.
+
+For11-coloured exterior F=G-union T_i, heavyK8 core extension iff every actual five-setB_i=A_i+z_i uses<=4 colours. S009 fixed-outsideR reformulation: choose nonadjacent repeated pair in EACH B_i; equality classes must be independent and quotient properly coloured from ALL common-list intersections. Logical quotient does not preserve planarity. Repeated pairs may involve z; A-only choices give sufficient tactic only. Pairwise feasible equality pairs on a TREE can fail globally (lists{{0,1}},{{1,2}},{{0,2}}). Hall representatives and colour matching do not imply this arbitrary list/boundary obligation. Need actual existence of suitable exterior colouring/pair choices/quotient list colours with light/heavy overlap, beyond SRC0027 e_H+c<=65, plus all-order large deficit. Paths switch layers; no copied planar separation/contraction argument.
+
+SRC0028 k is maximum degree parameter, not clique size. SRC0029 k47/352 and mad11+1/28 not implied by mad<12. SRC0030 October2026 maximum-degree-nine journal ABSTRACT; SRC0031 corresponding2024 preprint statements, full proofs uninspected, no degree11/unbounded-high transfer. SRC0032 October rStation at-most19/20 leads search-only METADATA, primary opens failed; no new programme order bound. SRC0033 equality contraction is classical and attributed. No external source archive/main proof fully replayed, novelty/external universal review unpassed. Universal theorem requires all finite simple biplanar graphs/complete proof/boundaries/induction/discharging/independent adversarial review; finite tests never suffice.
+
+## Tools and exit
+
+Pinned .venv/S004 native sources/binaries in S009 environment/manifest. WindowsCaDiCaL has no-t; external descendant-tree wall/private-memory12GiB sampling/max2 workers. New flush adapter needs freshK9. Two consecutive FINAL UNKNOWNs stop EACH registered lane, including exit0/check failures; later targetsNOT_RUN. Preserve actual per-lane metadata/partial CNFs/observed BEFORE-LAUNCH hashes and immutable snapshots. S009 corrected unlaunched control tag helper via separate stage, baseline running sources unchanged; concurrent heavy first-search was provisional until cold gate. Never fabricate lost or reconstructed observed hashes.
+
+Sync paired sources/claims MD+JSON/state/phase/session/decision/failure/campaign logs and allS010 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT. One atomic authored commit/ordinary PR/non-force two-parent merge/independent final main/parents/tree/actual jobs. Prepare S011 FUTURE/UNEXECUTED only. No fake certificates/hashes/CI/embeddings/novelty, EMP-resolution claim or gated Lean/registration/publication/arXiv/journal/announcements/external correspondence.
+'''
+Path('authoritative/NEXT_SESSION_PROMPT.md').write_text(prompt,encoding='utf-8',newline='\n')
+print(out,lanetext,heavytext)

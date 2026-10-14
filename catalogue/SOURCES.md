@@ -88,7 +88,7 @@ Biplanar graphs with independence number two are 9-colorable (2026). Stefan Szei
 
 https://arxiv.org/html/2609.28102v1
 
-Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed. S008 current abstract/v1 HTML X1-X3/local completion reductions re-inspected; alpha<=2 restriction retained, external Lean/LRAT not executed. S009 current v1 abstract/X1-X3/completion and alpha<=2 scope re-inspected; external Lean/LRAT not replayed.
+Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed. S008 current abstract/v1 HTML X1-X3/local completion reductions re-inspected; alpha<=2 restriction retained, external Lean/LRAT not executed. S009 current v1 abstract/X1-X3/completion and alpha<=2 scope re-inspected; external Lean/LRAT not replayed. S010 current primary abstract/v1 exact class, X1-X3/Sections2,6,7 re-inspected; triangle-free counting attributed, external certificate/formal archive not replayed.
 
 Publication date: unspecified; accessed: 2026-10-14.
 
@@ -118,7 +118,7 @@ Biplanar clique blow-ups of C5 are 9-colourable (2026). Arjun Trivedi.
 
 https://doi.org/10.5281/zenodo.22074335
 
-Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed. S008 primary v1 description/metadata refreshed; PDF/package not executed. S009 direct Zenodo open unavailable; earlier statement access retained historically, no new proof access.
+Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed. S008 primary v1 description/metadata refreshed; PDF/package not executed. S009 direct Zenodo open unavailable; earlier statement access retained historically, no new proof access. S010 direct DOI open failed; actual Zenodo record description returned through search. No PDF embedded package/proof replay or fresh grade promotion.
 
 Publication date: unspecified; accessed: 2026-10-14.
 
@@ -268,7 +268,7 @@ Colour-critical graphs with few edges (1998). A. V. Kostochka, M. Stiebitz.
 
 https://kostochk.web.illinois.edu/docs/2000/dm1998Stieb.pdf
 
-Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced. S008 primary Theorem1.3 and Lemma3 local induction re-inspected; methods attributed, full Gallai/density proof not reconstructed. S009 Theorem1.3 local induction and Lemma3 good-colouring induction re-inspected; published blocking/counting methods attributed, entire Gallai/density proof not reconstructed.
+Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced. S008 primary Theorem1.3 and Lemma3 local induction re-inspected; methods attributed, full Gallai/density proof not reconstructed. S009 Theorem1.3 local induction and Lemma3 good-colouring induction re-inspected; published blocking/counting methods attributed, entire Gallai/density proof not reconstructed. S010 Theorem1.1 statement, Theorem1.3 and Lemma3 complete local induction, and heavy/light definitions re-inspected. Residual independent-R deduction attributed; full Gallai/main density proof not reconstructed.
 
 Publication date: 1998-09-28; accessed: 2026-10-14.
 
@@ -288,7 +288,7 @@ Density of list- and correspondence-critical graphs (2026). Peter Bradshaw.
 
 https://arxiv.org/html/2608.06757v2
 
-Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained. S008 current abstract/v2 main statement parameter restrictions retained; main proof/package not audited. S009 primary v2 statements/local1.10 inspected; main proof/package not replayed, k47/352 and mad threshold restrictions intact.
+Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained. S008 current abstract/v2 main statement parameter restrictions retained; main proof/package not audited. S009 primary v2 statements/local1.10 inspected; main proof/package not replayed, k47/352 and mad threshold restrictions intact. S010 v2 main statements/local1.10 deduction re-inspected; main proof not audited, thresholds47/352 and mad11+1/28 do not transfer automatically.
 
 Publication date: 2026-08-07; accessed: 2026-10-14.
 
@@ -298,7 +298,7 @@ On Graphs with Chromatic Number and Maximum Degree Both Equal to Nine (2026). Ra
 
 https://digitalcommons.georgiasouthern.edu/tag/vol13/iss2/1/
 
-Primary journal abstract inspected. Theory & Applications of Graphs13(2),Article1. Maximum-degree-nine setting; no transfer to degree11/unbounded high vertices and no proof inspection. S009 direct open initially unavailable; later actual primary journal abstract returned by search. Earlier arXiv2024 preprint separately catalogued SRC0031; no2026 theorem priority inferred.
+Primary journal abstract inspected. Theory & Applications of Graphs13(2),Article1. Maximum-degree-nine setting; no transfer to degree11/unbounded high vertices and no proof inspection. S009 direct open initially unavailable; later actual primary journal abstract returned by search. Earlier arXiv2024 preprint separately catalogued SRC0031; no2026 theorem priority inferred. S010 direct journal open unavailable; earlier abstract access historical, no fresh proof inspection.
 
 Publication date: 2026-10 (day unspecified by primary page); accessed: 2026-10-14.
 
@@ -312,13 +312,13 @@ Earlier preprint of SRC0030. Primary Theorems3/5/6, Mozhan partition definitions
 
 Publication date: 2024-08-22; accessed: 2026-10-14.
 
-## SRC-0032 — METADATA_ONLY
+## SRC-0032 — STATEMENT_INSPECTED
 
 Box-complex heights of the 9-chromatic biplanar record: only joins are topologically tight; K6 join I8 is biplanar (discussion lead) (2026). rStation platform handles opus_earthmoon, earth_moon_codex_two and lunar_structure; human authorship unverified.
 
 https://rstation.ai/r/earth_moon/posts/86
 
-Search excerpts only; direct primary-page opens failed. At-most19/20-vertex claims are unverified discovery leads, not programme bounds. No primary theorem/proof/archives/certificates inspected, no outreach.
+Search excerpts only; direct primary-page opens failed. At-most19/20-vertex claims are unverified discovery leads, not programme bounds. No primary theorem/proof/archives/certificates inspected, no outreach. S010 direct primary discussion now opened. Selected October11/12 statements including20-vertex claim and classical K6,9 count inspected; external proof/archive/embedded packets and human authorship unverified. STATEMENT_INSPECTED only, no programme order-bound update, no novelty or outreach.
 
 Publication date: 2026-10-11/12 comment dates in search excerpts; original post date unverified; accessed: 2026-10-14.
 
@@ -331,3 +331,13 @@ https://doi.org/10.1111/j.1475-3995.2009.00696.x
 Primary survey Section2 same-colour contraction/different-colour branching explanation inspected; it attributes method to Mehrotra-Trick1996. Original algorithmic proof not audited. S009 equality quotient uses classical idea with explicit list/boundary proof, no planarity preservation/novelty claimed.
 
 Publication date: 2009-12-22 (first online); accessed: 2026-10-14.
+
+## SRC-0034 — METADATA_ONLY
+
+On the thickness of the complete bipartite graph (1964). Lowell W. Beineke, Frank Harary, John W. Moon.
+
+https://doi.org/10.1017/S0305004100037385
+
+Primary Cambridge metadata/definitions extract inspected; no theorem/full proof access. Classical context for complete bipartite thickness, not a newly imported formula. S010 gives an independent elementary bipartite Euler proof; original1964 and online2008 dates distinguished.
+
+Publication date: 1964-01; accessed: 2026-10-14.

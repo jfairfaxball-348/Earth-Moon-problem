@@ -52,3 +52,8 @@ S001 performed no research. Absence of a found example never proves universal no
 | F040 | Pairwise feasible/tree equality pairs imply simultaneous extension | Three independent lists{0,1},{1,2},{0,2} share no common colour | Quotient/list existence open |
 | F041 | Bounded general injection search proves noncontainment | {'EXHAUSTED_NO_MAP': 2569, 'FILTERED_DEGREE': 2823, 'FILTERED_ORDER_EDGE': 4552} | Caps/NOT_RUN/misses never exclusions |
 | F042 | Stronger heavy/full model at registered caps settles all targets | Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[]. Stronger all-completion-K33 heavyK7-I5 verdict:NON_BIPLANAR_DRAT_VERIFIED. | Retain actual UNKNOWN/partial evidence |
+
+| F043 | Long heavy odd blocks need SAT/excess refinement | Six actual noncut/core vertices to common9 give K6,9,54>52 | Closed analytically; C5/light remain |
+| F044 | Locally nonadjacent pairs imply simultaneous heavy repetitions/source good-colouring budget | Edge01 and marked02/12 require impossible0=1; one rainbow constraint can forbid9 colours | IndependentR/safe residual existence open |
+| F045 | Sequential and tree generators can coexist under module imports | s008_tree globally patches CardEnc; K9 CNF byte mismatch before checker | Fresh representation-specific subprocesses; failed launches preserved |
+| F046 | Remaining heavy C5 local sources are intrinsically non-biplanar | Checked P4-I9/C5-I9 planar exactchi3/4 splits | Actual critical completion/global recolouring still open |

@@ -432,7 +432,7 @@ A heavy odd-cycle endblock in an actual12-critical biplanar graph has length r<=
 
 Sources: SRC-0027, SRC-0014.
 
-Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty.
+Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty. S010 CLM0065 sharpens both odd-length bounds to5 under the same actual-common-neighbour premise; prior bounds remain valid but weaker.
 
 ## CLM-0056 — PROGRAMME_PROVED
 
@@ -472,7 +472,7 @@ For disjoint selected heavy low cores in an actual12-critical biplanar graph, to
 
 Sources: SRC-0027, SRC-0014.
 
-All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance.
+All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance. S010 shows all these selected heavy types absent from the actual critical class (CLM0063/0065); inequality valid but vacuous there.
 
 ## CLM-0062 — COMPUTED_EXACT
 
@@ -497,3 +497,43 @@ S009 certifies additional non-biplanarity for fixed exactchi10 rows[15, 23, 24, 
 Sources: SRC-0009, SRC-0024, SRC-0025.
 
 Each direct negative has necessary cold LF CNF and original/compact/cold retained native DRAT; any transfer independently checks actual injection/source cold certificate and target non9/proper10. Exact source and per-lane provenance in validation/S009. No minimality, census closure, novelty or headline advance.
+
+## CLM-0064 — PROGRAMME_PROVED
+
+No finite simple biplanar graph contains K5,13, K6,9 or K7,7; for a+b>=3 these are exactly the minimal unordered complete-bipartite violations of the two-layer bipartite Euler edge bound.
+
+Sources: SRC-0009, SRC-0034.
+
+Complete independent all-order proof with connected/tree/disconnected/small cases in research/S010_BIPARTITE_RESET.md. Classical counting attributed; not a complete bipartite thickness classification or novelty claim.
+
+## CLM-0065 — PROGRAMME_PROVED
+
+In an actual12-critical biplanar graph, a heavy odd low endblock or whole heavy odd low component with identical actual exterior neighbour sets has length exactly5.
+
+Sources: SRC-0027, SRC-0009.
+
+Any length>=7 gives six distinct low noncut/core vertices complete to nine distinct high vertices, hence K6,9. Triangles treated as cliques; light blocks/palette equality excluded from premise. This closes long-heavy-odd subroute, not universal colouring.
+
+## CLM-0066 — PROGRAMME_PROVED
+
+A12-critical biplanar graph cannot admit an independent high set R meeting each chosen heavy boundary at least twice, safe light-pair residual choices, and e(H-R)+|M_residual|<=54 simultaneously.
+
+Sources: SRC-0027.
+
+Full sufficient-extension contradiction, three safe-pair cases/unused colour/component boundaries in research/S010_SIMULTANEOUS_EXTENSION.md.112640 exact palette cases corroborate only. Existence of R/safe pairs/residual budget not proved; no universal upper improvement or new method priority.
+
+## CLM-0067 — COMPUTED_EXACT
+
+The explicit P4 joined to independent9 (13v39e) and C5 joined to independent9 (14v50e) are biplanar and exactly3-/4-chromatic respectively.
+
+Sources: None; programme proof/computation..
+
+Public labelled disjoint layers, independent LR/component sphere rotations, proper3/4 and hand path/cycle-plus-join lower proofs in validation/S010/local/results.json. New13/14 model pins/calibration and cold baseline gates passed. Local positives do not construct actual12-critical heavy components or lift9; no minimality/novelty claim.
+
+## CLM-0068 — COMPUTED_EXACT
+
+None of the fixed271 S003 exactchi10 rows contains an edge-preserving K5,13, K6,9 or K7,7 subgraph.
+
+Sources: None; programme proof/computation..
+
+977231 complete bounded bag allocations across813 source-row pairs; independent4096 direct-subset controls, labels in validation/S010/bipartite_detector.json. No row exclusions, planar converse, whole-census or distinct-isomorphism-class claim.

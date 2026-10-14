@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s010_chromatic_replay.py",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 52.81200000000172,
+ "hard_cap": 1800,
+ "observed_peak_tree_private_bytes": 614027264
+}

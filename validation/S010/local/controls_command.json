@@ -1,0 +1,12 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s010_local.py",
+  "controls",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 2.0940000000009604,
+ "hard_cap": 920,
+ "observed_peak_tree_private_bytes": 636239872
+}

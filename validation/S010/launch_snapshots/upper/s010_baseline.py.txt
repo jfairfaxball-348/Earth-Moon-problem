@@ -1,0 +1,71 @@
+"""Cold byte regeneration and standalone retained DRAT checks in fresh scratch."""
+import gzip, hashlib, json, sys
+from pathlib import Path
+from biplanar_cnf import read_edges
+from blowup_chi_cnf import bag_cnf
+from check_s009_records import labelled
+from s004_certify import write_cnf
+from s005_replay import sha
+from s005_search import run_logged
+from s007_run import save
+Cover='Cover';TreeFullCover='TreeFullCover';HeavyCover='HeavyCover'
+
+ROOT=Path('validation/S010');TMP=Path('artifacts/tmp/S010/cold');TMP.mkdir(parents=True,exist_ok=True)
+CHECKER=str(Path('artifacts/tmp/S004/drat-trim-mingw.exe').resolve())
+corpus=json.loads(Path('validation/S003/survivors_alpha_ge3.json').read_text())
+chi=json.loads(Path('validation/S004/chi10_results.json').read_text())
+for i,row in enumerate(corpus):
+    n,es=labelled(row);c=chi[i]['ten_colouring'];assert len(c)==n and all(0<=x<10 for x in c) and all(c[a]!=c[b] for a,b in es)
+    cnf=TMP/'chi.cnf';write_cnf(cnf,*bag_cnf(*row[:2],9))
+    assert sha(cnf)==chi[i]['bag']['cnf_sha256']
+    raw=gzip.decompress(Path(chi[i]['bag']['archive']).read_bytes())
+    assert hashlib.sha256(raw).hexdigest()==chi[i]['bag']['drat_sha256']
+save(ROOT/'chromatic_archive_audit.json',dict(rows=271,verdict='PASS',fresh_native_lower_checks=0,grade='CNF_HASH_ARCHIVE_AND_PROPER10_AUDIT'))
+specs=[dict(tag='K9',ef='validation/S003/K9.edges',prefix='validation/S004/controls/cover-K9',
+            proof='validation/S004/controls/cover-K9.drat.gz',klass=Cover),
+       dict(tag='S004-row165',ef='validation/S004/targets/full-min-survivor.edges',prefix='validation/S004/search/cover-full-min-survivor',
+            proof='validation/S004/full-obstruction-core.drat.gz',klass=Cover)]
+for session,names,klass in [('S005',['search_results.json'],Cover),('S006',['search_results.json','larger_search_results.json'],Cover),
+                            ('S008',['tree/search_results.json'],TreeFullCover),('S009',['full/results.json'],TreeFullCover)]:
+    used=set()
+    for name in names:
+        for r in json.loads(Path('validation',session,name).read_text()):
+            if r['verdict']!='NON_BIPLANAR_DRAT_VERIFIED':continue
+            idx=r['target']['index']
+            if idx in used:continue
+            used.add(idx);rec=r['certificate']
+            # S008 may have row155 interrupted UNKNOWN; only three direct certified sources.
+            folder={'S008':'tree/search','S009':'full/search'}.get(session,'search')
+            prefix=Path('validation',session,folder,f'cover-row{idx}')
+            specs.append(dict(tag=f'{session}-row{idx}',ef=r['target']['edgefile'],prefix=str(prefix),proof=rec['archive'],klass=klass,rec=rec))
+heavy=json.loads(Path('validation/S009/heavy_extended/result.json').read_text())
+specs.append(dict(tag='S009-K7-I5',ef=heavy['edgefile'],prefix='validation/S009/heavy_extended/search/K7-I5',
+                  proof=heavy['certificate']['archive'],klass=HeavyCover,rec=heavy['certificate']))
+assert len(specs)==50,len(specs)
+rows=[];consecutive=0
+for s in specs:
+    tag=s['tag'];dest=TMP/tag
+    if consecutive>=2:
+        rows.append(dict(tag=tag,verdict='NOT_RUN',reason='two consecutive FINAL UNKNOWNs'));continue
+    d=json.loads(Path(s['prefix']+'.cuts.json').read_text())
+    cnf=Path(str(dest)+'.cnf')
+    gen=run_logged([sys.executable,'tools/s010_regenerate.py',s['klass'],s['ef'],s['prefix'],str(cnf)],180,ROOT/(tag+'.regen.log'))
+    assert gen['returncode']==0
+    archived=gzip.decompress(Path(s['prefix']+'.cnf.gz').read_bytes())
+    assert cnf.read_bytes()==archived;del archived
+    proof=Path(str(dest)+'.drat');proof.write_bytes(gzip.decompress(Path(s['proof']).read_bytes()))
+    rec=s.get('rec')
+    if rec:
+        assert sha(cnf)==rec['cnf_sha256'] and sha(proof)==rec['archive_raw_sha256'] and sha(s['proof'])==rec['archive_sha256']
+    log=ROOT/(tag+'.check.log');run=run_logged([CHECKER,str(cnf),str(proof),'-t','1200'],1220,log)
+    ok=run['returncode']==0 and 's VERIFIED' in log.read_text()
+    consecutive=0 if ok else consecutive+1
+    rows.append(dict(tag=tag,verdict='VERIFIED' if ok else 'UNKNOWN',regenerate=gen,command=run,cnf_sha256=sha(cnf),
+                     archive=s['proof'],archive_sha256=sha(s['proof']),archive_raw_sha256=sha(proof),cuts=len(d['cuts']),
+                     symmetry='actual inherited lex; edge-preserving selected automorphisms/orbit minimum',fresh_native_check=True))
+    save(ROOT/'cold_replay.json',rows);print(tag,rows[-1]['verdict'],round(run['seconds'],2),flush=True)
+save(ROOT/'cold_replay.json',rows)
+assert len(rows)==50 and all(r['verdict']=='VERIFIED' for r in rows)
+save(ROOT/'BASELINE_PASS.json',dict(verdict='PASS',direct_row_proofs=48,K9=True,K7I5=True,chromatic_archive_colour_audits=271,
+                                   new_scientific_verdicts=0,initial_heavy_unknown_preserved=True))
+print('PASS cold retained baseline',flush=True)

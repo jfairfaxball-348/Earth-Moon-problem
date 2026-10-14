@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+"""CAM-0006 cold controls, regenerated CNFs, and actual certificate replay."""
+import gzip
+import hashlib
+import json
+import random
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+from biplanar_cnf import read_edges
+from blowup_chi_cnf import bag_cnf
+from check_layers import main as check_split
+from s004_certify import write_cnf
+from triangulation_cover import Cover
+
+
+def sha(p):
+    return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+
+
+def main():
+    out = Path('validation/S005')
+    out.mkdir(parents=True, exist_ok=True)
+    scratch = Path('artifacts/tmp/S005/replay')
+    scratch.mkdir(parents=True, exist_ok=True)
+    checker = str(Path('artifacts/tmp/S004/drat-trim-mingw.exe').resolve())
+    rows = []
+    start = time.monotonic()
+    specs = [
+        ('K9', 'validation/S003/K9.edges',
+         'validation/S004/controls/cover-K9',
+         'validation/S004/controls/cover-K9.drat.gz', 600),
+        ('row165', 'validation/S004/targets/full-min-survivor.edges',
+         'validation/S004/search/cover-full-min-survivor',
+         'validation/S004/full-obstruction-core.drat.gz', 1200)]
+    for tag, edgefile, prefix, proof_archive, cap in specs:
+        cnf = scratch / (tag+'.cnf')
+        proof = scratch / (tag+'.drat')
+        cnf.write_bytes(gzip.decompress(Path(prefix+'.cnf.gz').read_bytes()))
+        proof.write_bytes(gzip.decompress(Path(proof_archive).read_bytes()))
+        data = json.loads(Path(prefix+'.cuts.json').read_text())
+        c = Cover(read_edges(edgefile), data['lex'], data.get('short_links', False))
+        c.cuts = data['cuts']
+        regen = scratch / (tag+'.regenerated.cnf')
+        c.write_cnf(regen)
+        assert regen.read_bytes() == cnf.read_bytes()
+        if tag == 'row165':
+            original = json.loads(Path('validation/S004/full_obstruction_compact_proof.json').read_text())
+            assert sha(proof) == original['raw_sha256']
+            assert sha(cnf) == original['cnf_sha256']
+        cmd = [checker, str(cnf), str(proof), '-t', str(cap)]
+        t = time.monotonic()
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=cap+20)
+        log = out / (tag+'-replay.check.log')
+        log.write_text(r.stdout+r.stderr, newline='\n')
+        assert 's VERIFIED' in r.stdout, r.stdout+r.stderr
+        rows.append({'tag':tag, 'cuts':len(c.cuts), 'command':cmd,
+                     'cnf_sha256':sha(cnf), 'proof_sha256':sha(proof),
+                     'seconds':time.monotonic()-t, 'checker':'VERIFIED'})
+        (out/'replay.json').write_text(json.dumps(rows, indent=1), newline='\n')
+        print(tag, 'regeneration identical, DRAT VERIFIED', flush=True)
+    row = json.loads(Path('validation/S004/chi10_results.json').read_text())[165]
+    cnf = scratch/'row165-bag.cnf'
+    proof = scratch/'row165-bag.drat'
+    write_cnf(cnf, *bag_cnf(row['g6'], row['w'], 9))
+    proof.write_bytes(gzip.decompress(Path(row['bag']['archive']).read_bytes()))
+    assert sha(cnf) == row['bag']['cnf_sha256']
+    assert sha(proof) == row['bag']['drat_sha256']
+    cmd = [checker, str(cnf), str(proof), '-t', '600']
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=620)
+    (out/'row165-bag.check.log').write_text(r.stdout+r.stderr, newline='\n')
+    assert 's VERIFIED' in r.stdout
+    rows.append({'tag':'row165-bag', 'command':cmd, 'checker':'VERIFIED',
+                 'cnf_sha256':sha(cnf), 'proof_sha256':sha(proof)})
+    r = subprocess.run([sys.executable, 'tools/check_s004_archives.py'],
+                       capture_output=True, text=True, timeout=600)
+    assert r.returncode == 0, r.stdout+r.stderr
+    (out/'archive-audit.log').write_text(r.stdout+r.stderr, newline='\n')
+    controls = []
+    rng = random.Random(5005)
+    import itertools
+    for idx in range(20):
+        n = rng.randrange(4, 9)
+        edges = {tuple(sorted((v, (v+1)%n))) for v in range(n)}
+        p = rng.random()
+        edges.update(e for e in itertools.combinations(range(n), 2) if rng.random() < p)
+        target = scratch/f'control-{idx:02d}'
+        result = Cover(sorted(edges), lex=True).run(str(target), 30)
+        assert result['verdict'] == 'SAT_CHECKED'
+        edgefile = str(target)+'.edges'
+        Path(edgefile).write_text(''.join(f'{a} {b}\n' for a,b in sorted(edges)), newline='\n')
+        check_split(edgefile, str(target)+'.split.json')
+        controls.append({'index':idx, 'n':n, 'm':len(edges), **result})
+    for tag in ('K8', 'sulanke', 'K9e'):
+        edgefile = f'validation/S003/splits/{tag}.edges'
+        prefix = str(scratch/('control-'+tag))
+        result = Cover(read_edges(edgefile), lex=True).run(prefix, 30)
+        assert result['verdict'] == 'SAT_CHECKED'
+        check_split(edgefile, prefix+'.split.json')
+        controls.append({'tag':tag, **result})
+    (out/'replay.json').write_text(json.dumps(rows, indent=1), newline='\n')
+    (out/'controls.json').write_text(json.dumps({'seed':5005, 'results':controls,
+        'seconds_total':time.monotonic()-start}, indent=1), newline='\n')
+    print('PASS cold archives and 23 positive controls', flush=True)
+
+
+if __name__ == '__main__':
+    main()

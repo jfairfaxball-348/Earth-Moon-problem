@@ -45,3 +45,8 @@
 - D035(S009): Arbitrary labelled injections preserve all source edges; bounded misses never noncontainment/exclusions.
 - D036(S009): Truncated demands and degree budgets supply overlap-independent/mixed excess, not available colours; exact equality quotient remains a list-colouring existence obligation.
 - D037(S009): Retain immutable launch provenance/concurrent provisional search and cold gate; S010 future only.
+
+- D038(S010): Replace long heavy odd local searches/mixed charges with all-order K6,9 Euler compression; selected old heavy types now vacuous.
+- D039(S010): Local P4/C5 positives end a local-only nonbiplanarity tactic; prioritise actual criticality/light/smaller clique and simultaneous residual existence.
+- D040(S010): IndependentR with safe residual light pairs/budget54 supplies a conditional extension proof, not guaranteed existence.
+- D041(S010): Isolate counter generators by process; retain both failed precheck adapters. One authorised S010 only; S011 future.

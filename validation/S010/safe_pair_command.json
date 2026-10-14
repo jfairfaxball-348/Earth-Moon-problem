@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s010_palette_audit.py",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 0.6399999999994179,
+ "hard_cap": 300,
+ "observed_peak_tree_private_bytes": 544178176
+}

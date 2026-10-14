@@ -1,0 +1,10 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/check_s010_records.py"
+ ],
+ "returncode": 0,
+ "seconds": 7.485000000000582,
+ "hard_cap": 3600,
+ "observed_peak_tree_private_bytes": 1012498432
+}

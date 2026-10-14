@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""Write the explicit clique blow-up B[w] as an edge list.
+
+Usage: blowup_graph.py GRAPH6 w0,w1,... OUT.edges
+Bag i occupies the consecutive labels sum(w[:i]) .. sum(w[:i+1])-1.
+"""
+import itertools
+import sys
+
+import networkx as nx
+
+
+def blowup(g6, w):
+    g = nx.from_graph6_bytes(g6.encode())
+    start = [sum(w[:i]) for i in range(len(w))]
+    bag = [list(range(start[i], start[i] + w[i])) for i in range(len(w))]
+    edges = []
+    for b in bag:
+        edges += list(itertools.combinations(b, 2))
+    for i, j in g.edges():
+        edges += [(min(u, v), max(u, v)) for u in bag[i] for v in bag[j]]
+    return sorted(edges), bag
+
+
+if __name__ == "__main__":
+    w = [int(t) for t in sys.argv[2].split(",")]
+    edges, bag = blowup(sys.argv[1], w)
+    with open(sys.argv[3], "w") as f:
+        f.write("".join(f"{u} {v}\n" for u, v in edges))
+    print(f"N={sum(w)} m={len(edges)}")
