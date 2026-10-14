@@ -1,0 +1,163 @@
+[
+ {
+  "index": 0,
+  "n": 5,
+  "K5": 1,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 1,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 2,
+  "n": 8,
+  "K5": 56,
+  "K33": 49,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 3,
+  "n": 8,
+  "K5": 56,
+  "K33": 16,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 4,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 5,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 6,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 7,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 8,
+  "n": 5,
+  "K5": 1,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 9,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 10,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 11,
+  "n": 8,
+  "K5": 56,
+  "K33": 190,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 12,
+  "n": 5,
+  "K5": 1,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 13,
+  "n": 7,
+  "K5": 21,
+  "K33": 40,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 14,
+  "n": 6,
+  "K5": 6,
+  "K33": 10,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 15,
+  "n": 6,
+  "K5": 6,
+  "K33": 10,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 16,
+  "n": 4,
+  "K5": 0,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 17,
+  "n": 6,
+  "K5": 6,
+  "K33": 10,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 18,
+  "n": 5,
+  "K5": 1,
+  "K33": 0,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 19,
+  "n": 8,
+  "K5": 56,
+  "K33": 130,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 20,
+  "n": 8,
+  "K5": 56,
+  "K33": 280,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 21,
+  "n": 11,
+  "K5": 462,
+  "K33": 1860,
+  "independent_family_comparison": "PASS"
+ },
+ {
+  "index": 22,
+  "n": 9,
+  "K5": 126,
+  "K33": 630,
+  "independent_family_comparison": "PASS"
+ }
+]

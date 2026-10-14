@@ -1,17 +1,17 @@
 {
  "project": "Earth-Moon-problem",
  "repository_id": 1415870164,
- "as_of": "2026-10-13",
- "last_completed_session": "S007",
- "recommended_next_session": "S008",
+ "as_of": "2026-10-14",
+ "last_completed_session": "S008",
+ "recommended_next_session": "S009",
  "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
- "headline_status": "OPEN_9_TO_12_S007_D2_CHALLENGES_AND_CRITICAL_EXTERIOR_CONSTRAINTS",
+ "headline_status": "OPEN_9_TO_12_S008_FULL_COUNTER_CHALLENGES_SHARED_SUPPORT",
  "confirmed_classical_range": {
   "lower": 9,
   "upper": 12,
   "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
  },
- "candidate_10_11_12": "S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].",
+ "candidate_10_11_12": "S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN. Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[].",
  "universal_improved_upper_bound": "NONE_PROVED",
  "phases": [
   {
@@ -22,7 +22,7 @@
   {
    "id": 1,
    "name": "Primary-source baseline and genuine proof/counterexample investigation",
-   "status": "ACTIVE_CRITICAL_EXTERIOR_AND_D2_NECESSARY_MODELS_NO_HEADLINE_ADVANCE"
+   "status": "ACTIVE_FULL_LAYER_AND_SHARED_SUPPORT_NO_HEADLINE_ADVANCE"
   },
   {
    "id": 2,
@@ -55,7 +55,7 @@
    "status": "OWNER_GATED"
   }
  ],
- "source_status": "2026_PRIMARY_REFRESHED_LOCAL_PUBLISHED_PALETTE_METHODS_ATTRIBUTED_EXTERNAL_ARCHIVES_NOT_REPLAYED",
+ "source_status": "2026_PRIMARY_REFRESH_INCLUDING_OCTOBER_ABSTRACT_LOCAL_DEPENDENCIES_ONLY",
  "lean": {
   "status": "NOT_STARTED"
  },
@@ -71,20 +71,19 @@
  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
  "open_obligations": [
-  "Decide remaining230 fixedchi10 rows; exact indices in S007/SUMMARY.",
-  "Full S007 UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], caps[162, 155]; all four global models SAT_RELAXATION; D2 has42 UNKNOWN of42.",
-  "K7-I5 Cover UNKNOWN; independent Kuratowski UNKNOWN; K6-I6 exactchi7/biplanar checked.",
-  "Row165 independent no-lex full challenge UNKNOWN; fresh lex/archive replay does not discharge it.",
-  "Smaller/minimal obstruction and general containment transfer remain open; S005 row158 deletion UNKNOWN.",
-  "C5 maximal13 patterns/children and whole independent k8/k9 census remain open; only two fixed k8 samples.",
-  "All159 corpus apices excluded; apex(C5[K3]) chi9/biplanarity UNKNOWN, no lift.",
-  "Universal upper: every single-low-component deletion exterior is11-chromatic; need simultaneous palette flexibility with no spare colour, overlapping heavy support, and all-order large-deficit control.",
-  "Verify S007 actual authored commit/ordinary PR/two-parent merge/main checks live after frozen commit.",
-  "Novelty/external universal review/formalisation/publication gates remain unpassed."
+  "Decide remaining226 fixedchi10 rows; exact indices in S008/SUMMARY.",
+  "Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[].",
+  "D2 all42 source rows must be accounted individually; stronger/tree models and caps do not close a stratum.",
+  "All four prior globalD2 models SAT_RELAXATION; K7-I5 Cover/Kuratowski UNKNOWN, K6-I6 exactchi7/biplanar.",
+  "Row165 no-lex and row158 smaller deletion UNKNOWN; no new minimality/containment theorem.",
+  "C5 maximal13/children and independent wholek8/k9 census open; only two fixedk8 samples;159 corpus apices excluded, apex(C5K3)chi9/biplanarity UNKNOWN.",
+  "Universal upper: support expansion supplies representatives, not colours; need simultaneous heavy/light exterior flexibility and all-order large-deficit control.",
+  "Verify S008 actual authored commit/ordinary PR/two-parent merge/main checks live after frozen commit.",
+  "Novelty/external universal review/Lean/formalisation/publication/outreach gates unpassed."
  ],
  "next_session_is_future_unexecuted": true,
- "latest_session_branch": "codex/S007-deficit-palette",
- "latest_session_entry_main": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+ "latest_session_branch": "codex/S008-kuratowski-support",
+ "latest_session_entry_main": "23d36d93ebb225668180c8499eb6793775d4fa1d",
  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
  "mathematical_results": [
   "CLM-0007",
@@ -127,7 +126,12 @@
   "CLM-0046",
   "CLM-0047",
   "CLM-0048",
-  "CLM-0049"
+  "CLM-0049",
+  "CLM-0050",
+  "CLM-0051",
+  "CLM-0052",
+  "CLM-0053",
+  "CLM-0055"
  ],
  "s003_integration_verified": {
   "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -182,6 +186,22 @@
   "main_CI_run": 38445775538,
   "head_validate_job": 115463219674,
   "main_validate_job": 115463671945,
+  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+ },
+ "s007_integration_verified": {
+  "authored_commit": "2751cfc659462b888d5579c98358e85d3f909d03",
+  "sole_parent": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+  "pr": 7,
+  "merge_commit": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+  "merge_parents": [
+   "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+   "2751cfc659462b888d5579c98358e85d3f909d03"
+  ],
+  "tree": "7556cac9eee8a6e26af5460b7d16d8479e5f1e29",
+  "head_CI_run": 38455256198,
+  "main_CI_run": 38455487692,
+  "head_validate_job": 115496220621,
+  "main_validate_job": 115496995386,
   "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
  }
 }

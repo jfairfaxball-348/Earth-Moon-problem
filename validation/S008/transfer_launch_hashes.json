@@ -1,0 +1,7 @@
+{
+ "tools/s008_transfer.py": "6bd3a4de2834c2ca7f09c2e4f50074e5ec319766e7e14de754549dc359c8d7de",
+ "tools/blowup_graph.py": "ca164c97202b34d636ad722888650ebce107c0141c4bfb98cfe52ae36ae2221e",
+ "tools/blowup_chi_cnf.py": "8c22cdb2f4b823d7ce06a12587d7c500ea2c2cb143669ffdf0ec4d499f503297",
+ "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+ "artifacts/tmp/S004/drat-trim-mingw.exe": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+}

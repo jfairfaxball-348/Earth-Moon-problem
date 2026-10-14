@@ -1,0 +1,26 @@
+[
+ {
+  "observed_launch_record": "validation/S008/replay_adapter_launch.json",
+  "snapshot": "validation/S008/replay_adapter_snapshot.py.txt",
+  "sha256": "47efffd2e2e34b32bcee5c1e5cd0bcebffac3483873fb493a25f14acfd2d5d1e",
+  "snapshot_grade": "CAPTURED_AFTER_LAUNCH_MATCHES_OBSERVED_PRELAUNCH_HASH"
+ },
+ {
+  "observed_launch_record": "validation/S008/baseline_launch_hash.json",
+  "snapshot": "validation/S008/baseline_snapshot.py.txt",
+  "sha256": "f5dfb2a124bf881077c58193d610ab217aabac379b517bf6f731541ab42da2ef",
+  "snapshot_grade": "CAPTURED_AFTER_LAUNCH_MATCHES_OBSERVED_PRELAUNCH_HASH"
+ },
+ {
+  "observed_launch_record": "validation/S008/tree/certificate_adapter_launch.json",
+  "snapshot": "validation/S008/tree/certificate_adapter_snapshot.py.txt",
+  "sha256": "a92419f0c157a6118c8952d0988d5439ba765e4b46c48a22a5e90984b08e1351",
+  "snapshot_grade": "CAPTURED_AFTER_LAUNCH_MATCHES_OBSERVED_PRELAUNCH_HASH"
+ },
+ {
+  "observed_launch_record": "validation/S008/tree/search_adapter_launch.json",
+  "snapshot": "validation/S008/tree/search_adapter_snapshot.py.txt",
+  "sha256": "5ff03e4fc32bc760d520e07e68884014e23215bbdee076838828fc7ccb2c35a0",
+  "snapshot_grade": "CAPTURED_AFTER_LAUNCH_MATCHES_OBSERVED_PRELAUNCH_HASH"
+ }
+]

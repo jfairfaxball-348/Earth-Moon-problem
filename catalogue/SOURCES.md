@@ -1,4 +1,4 @@
-# Sources register after S007
+# Sources register after S008
 
 Exact access grades and local inspection limits retained.
 
@@ -88,9 +88,9 @@ Biplanar graphs with independence number two are 9-colorable (2026). Stefan Szei
 
 https://arxiv.org/html/2609.28102v1
 
-Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed.
+Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed. S008 current abstract/v1 HTML X1-X3/local completion reductions re-inspected; alpha<=2 restriction retained, external Lean/LRAT not executed.
 
-Publication date: not independently verified; accessed: 2026-10-13.
+Publication date: not independently verified; accessed: 2026-10-14.
 
 ## SRC-0010 — STATEMENT_INSPECTED
 
@@ -118,9 +118,9 @@ Biplanar clique blow-ups of C5 are 9-colourable (2026). Arjun Trivedi.
 
 https://doi.org/10.5281/zenodo.22074335
 
-Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed.
+Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed. S008 primary v1 description/metadata refreshed; PDF/package not executed.
 
-Publication date: not independently verified; accessed: 2026-10-13.
+Publication date: not independently verified; accessed: 2026-10-14.
 
 ## SRC-0013 — STATEMENT_INSPECTED
 
@@ -168,9 +168,9 @@ earth-moon-biplanar (repository: paper/earthmoon.md, data/graphs/pool) (2026). D
 
 https://github.com/Volkopat/earth-moon-biplanar
 
-Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin. S007 live main/tree/date API again matches corrected2026 pin.
+Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin. S007 live main/tree/date API again matches corrected2026 pin. S008 live main/tree/date API matches corrected2026 pin; external SMS proofs not replayed.
 
-Publication date: not independently verified; accessed: 2026-10-13.
+Publication date: not independently verified; accessed: 2026-10-14.
 
 ## SRC-0018 — ABSTRACT_INSPECTED
 
@@ -208,9 +208,9 @@ earth-moon-chi10 (candidates and obstructions for a 10-chromatic biplanar graph)
 
 https://github.com/Volkopat/earth-moon-chi10
 
-Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred.
+Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred. S008 live repository API still404; contents UNKNOWN.
 
-Publication date: not independently verified; accessed: 2026-10-13.
+Publication date: not independently verified; accessed: 2026-10-14.
 
 ## SRC-0022 — ABSTRACT_INSPECTED
 
@@ -268,9 +268,9 @@ Colour-critical graphs with few edges (1998). A. V. Kostochka, M. Stiebitz.
 
 https://kostochk.web.illinois.edu/docs/2000/dm1998Stieb.pdf
 
-Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced.
+Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced. S008 primary Theorem1.3 and Lemma3 local induction re-inspected; methods attributed, full Gallai/density proof not reconstructed.
 
-Publication date: 1998-09-28; accessed: 2026-10-13.
+Publication date: 1998-09-28; accessed: 2026-10-14.
 
 ## SRC-0028 — PROOF_INSPECTED
 
@@ -288,6 +288,16 @@ Density of list- and correspondence-critical graphs (2026). Peter Bradshaw.
 
 https://arxiv.org/html/2608.06757v2
 
-Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained.
+Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained. S008 current abstract/v2 main statement parameter restrictions retained; main proof/package not audited.
 
-Publication date: 2026-08-07; accessed: 2026-10-13.
+Publication date: 2026-08-07; accessed: 2026-10-14.
+
+## SRC-0030 — ABSTRACT_INSPECTED
+
+On Graphs with Chromatic Number and Maximum Degree Both Equal to Nine (2026). Rachel Galindo and Jessica McDonald.
+
+https://digitalcommons.georgiasouthern.edu/tag/vol13/iss2/1/
+
+Primary journal abstract inspected. Theory & Applications of Graphs13(2),Article1. Maximum-degree-nine setting; no transfer to degree11/unbounded high vertices and no proof inspection.
+
+Publication date: 2026-10 (day unspecified by primary page); accessed: 2026-10-14.

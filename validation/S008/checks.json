@@ -1,0 +1,64 @@
+[
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_s008_archives.py"
+  ],
+  "returncode": 0,
+  "seconds": 52.0630000000092,
+  "hard_cap": 1220,
+  "observed_peak_tree_private_bytes": 1519960064,
+  "lane": "sequential",
+  "launch_hashes": "validation\\S008\\sequential_package_launch_hashes.json"
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_s008_heavy.py"
+  ],
+  "returncode": 0,
+  "seconds": 2.360000000000582,
+  "hard_cap": 1220,
+  "observed_peak_tree_private_bytes": 583471104,
+  "lane": "heavy",
+  "launch_hashes": "validation\\S008\\heavy_package_launch_hashes.json"
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/check_s008_archives.py",
+   "--tree"
+  ],
+  "returncode": 0,
+  "seconds": 89.88999999999942,
+  "hard_cap": 1220,
+  "observed_peak_tree_private_bytes": 2012463104,
+  "lane": "tree",
+  "launch_hashes": "validation\\S008\\tree_package_launch_hashes.json"
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "scripts/check_scaffold.py"
+  ],
+  "returncode": 0,
+  "seconds": 0.35900000000037835,
+  "hard_cap": 120,
+  "observed_peak_tree_private_bytes": 8847360
+ },
+ {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "-m",
+   "unittest",
+   "discover",
+   "-s",
+   "tests",
+   "-v"
+  ],
+  "returncode": 0,
+  "seconds": 0.46900000000005093,
+  "hard_cap": 120,
+  "observed_peak_tree_private_bytes": 12263424
+ }
+]

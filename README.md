@@ -88,3 +88,11 @@ Only through S006 executed; S007 FUTURE/UNEXECUTED.9..12 and novelty/formalisati
 - [Critical palettes](research/S007_CRITICAL_PALETTES.md): exterior deletionchi11 and heavyK8 support excess13; no universal colouring theorem.
 
 Only throughS007 executed; S008 FUTURE/UNEXECUTED. Headline9..12, novelty/formalisation/publication gates unchanged. Historical future labels superseded.
+
+## S008 results
+
+- [Full-layer encoding](research/S008_ENCODING.md): necessary completionK5/inputK33 and tree-counter challenges; S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN.
+- [Shared supports](research/S008_SHARED_SUPPORT.md): all-order Euler expansion/Hall representatives and overlap-weighted excess.
+- [No-spare extension](research/S008_NO_SPARE.md): exact simultaneous core extension criterion; no universal upper improvement.
+
+Only through S008 executed; S009 FUTURE/UNEXECUTED. Headline9..12 and all downstream gates unchanged. Historical future labels superseded only through S008.

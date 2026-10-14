@@ -436,5 +436,52 @@
   "status": "COMPUTED_EXACT",
   "sources": [],
   "note": "Labelled exact disjoint split, independent LR/sphere rotations and proper7-colouring in validation/S007/heavy_search.json; K7 clique lower bound. Local heavy-K7 control only, not12-critical or chi>=10."
+ },
+ {
+  "id": "CLM-0050",
+  "claim": "Completion K5/input K3,3 clauses and the S008 totalizer representation are necessary in the registered full-layer CNFs.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0009"
+  ],
+  "note": "Euler/bipartite Euler and orbit-minimum proof in research/S008_ENCODING; library counter trust,27 direct controls/23 independent enumeration/2304 truth tests/23 tree pins. No SAT converse."
+ },
+ {
+  "id": "CLM-0051",
+  "claim": "For every nonempty family of t heavy K8 noncut cores in a12-critical biplanar graph, its common exterior boundaries have union size at least ceil((7t+12)/6), hence admit distinct high-neighbour representatives.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0027",
+   "SRC-0014"
+  ],
+  "note": "All-order49t-edge Euler subgraph proof and classical Hall induction in research/S008_SHARED_SUPPORT. Overlap-weighted excess only; not distinct high-excess representatives, recolouring or universal upper improvement."
+ },
+ {
+  "id": "CLM-0052",
+  "claim": "An11-colouring of G minus a family of heavy K8 noncut cores extends simultaneously through them iff every five-vertex exterior boundary uses at most four colours.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [],
+  "note": "Exact clique/list argument in research/S008_NO_SPARE. No existence theorem for a suitable exterior colouring; actual criticality forces at least one bad block in every such colouring, possibly different blocks."
+ },
+ {
+  "id": "CLM-0053",
+  "claim": "S008 adds4 checked non-biplanarity exclusions among the fixed271 exactchi10 candidates, rows[155, 157, 159, 162]; 226 remain UNKNOWN.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0009",
+   "SRC-0024",
+   "SRC-0025"
+  ],
+  "note": "New full-layer negatives use their own cold CNF/counter representation and original/compact/cold retained DRAT checks; any transfer uses independently checked labelled injection from a checked obstruction. Fresh lower chromatic proofs/proper10-colourings separate. Finite inputs only, no thickness-minimality/novelty/headline advance. Exact per-lane/transfer artifacts in validation/S008."
+ },
+ {
+  "id": "CLM-0055",
+  "claim": "A heavy odd-cycle endblock in an actual12-critical biplanar graph has length r<=11; a whole heavy odd-cycle low component has r<=9. Independent exterior Z obeys excess>=(r-2)|Z|-11 for an endblock and(r-1)|Z|-11 for a whole component.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0027",
+   "SRC-0014"
+  ],
+  "note": "Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty."
  }
 ]

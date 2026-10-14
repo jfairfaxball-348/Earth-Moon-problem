@@ -37,3 +37,7 @@
 - D029(S007): Register stronger planar-subset/K5/D<=2 face cuts, independent no-lex incidence and longer supervised full searches; every finalUNKNOWN counts toward stop. S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
 - D030(S007): Use actual criticality to prove chi(G-C)=11 and heavyK8 excess>=13; separate simultaneous/large-deficit obligations and published method attribution.
 - D031(S007): Separate relaxed models from actual layers; preserve observed launch hashes and explicit repair provenance; allS008 and downstream gates remain unexecuted.
+
+- D032(S008): Cold native replay before acceptance; new completionK5/inputK33 and tree-counter lanes registered separately, preserving each UNKNOWN/NOT_RUN/cap.
+- D033(S008): Shared support has Euler expansion/Hall representatives, with overlap-weighted excess; simultaneous extension needs colours, not only representatives. No universal/large-deficit advance.
+- D034(S008): Preserve actual launch versions and supervisory deviations; no fabricated hashes or negative inference. S009 future only.

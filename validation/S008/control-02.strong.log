@@ -1,0 +1,1 @@
+{"verdict": "SAT_CHECKED", "iterations": 1, "seconds": 0.014999999999417923, "cuts": 0, "variables": 6343, "clauses": 12220, "static": {"version": "S007-subsets-K5-Dle2-v1", "groups": [[0], [1], [2], [3], [4], [5], [6], [7]], "subset_count": 218, "input_K5_count": 0, "distinct_faces_enabled": false, "extra_clauses": 6376}}

@@ -8,3 +8,5 @@ validation/S005/**/*.log -text -whitespace
 validation/S006/**/*.log -text -whitespace
 # S007 retains actual native/supervisor/model log bytes.
 validation/S007/**/*.log -text -whitespace
+# S008 preserves the observed native checker and supervisor bytes.
+validation/S008/**/*.log -text -whitespace

@@ -1,0 +1,1671 @@
+{
+ "source": 157,
+ "attempts": [
+  {
+   "index": 0,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 1,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 2,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 3,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 4,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 5,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 6,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 7,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 8,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 9,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 10,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 11,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 12,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 13,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 14,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 15,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 16,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 17,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 18,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 19,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 20,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 21,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 22,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 23,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 24,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 25,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 26,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 27,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 28,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 29,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 30,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 31,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 32,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 33,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 34,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 35,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 36,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 37,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 38,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 39,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 40,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 41,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 42,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 43,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 44,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 45,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 46,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 47,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 48,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 49,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 50,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 51,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 52,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 53,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 54,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 55,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 56,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 57,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 58,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 59,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 60,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 61,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 62,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 63,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 64,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 65,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 66,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 67,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 68,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 69,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 70,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 71,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 72,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 73,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 74,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 75,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 76,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 77,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 78,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 79,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 80,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 81,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 82,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 83,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 84,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 85,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 86,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 87,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 88,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 89,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 90,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 91,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 92,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 93,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 94,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 95,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 96,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 97,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 98,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 99,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 100,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 101,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 102,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 103,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 104,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 105,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 106,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 107,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 108,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 109,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 110,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 111,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 112,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 113,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 114,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 115,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 116,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 117,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 118,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 119,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 120,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 121,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 122,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 123,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 124,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 125,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 126,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 127,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 128,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 129,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 130,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 131,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 132,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 133,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 134,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 135,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 136,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 137,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 138,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 139,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 140,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 141,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 142,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 143,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 144,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 145,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 146,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 147,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 148,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 149,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 150,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 151,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 152,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 153,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 154,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 155,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 156,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 157,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 1,
+   "verdict": "INJECTIVE_CONTAINMENT_CHECKED",
+   "bag_permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "vertex_map": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20,
+    "21": 21,
+    "22": 22,
+    "23": 23
+   }
+  },
+  {
+   "index": 158,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 159,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 160,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 161,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 162,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 163,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 164,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 165,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 166,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 167,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 168,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 169,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 170,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 171,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 172,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 173,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 174,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 175,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 176,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 177,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 178,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 0,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 179,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 180,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 181,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 182,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 183,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 184,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 185,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 186,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 187,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 188,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 189,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 190,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 191,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 192,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 193,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 194,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 195,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 196,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 197,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 198,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 199,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 200,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 201,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 202,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 203,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 204,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 205,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 206,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 207,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 208,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 209,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 210,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 211,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 212,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 213,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 214,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 215,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 216,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 217,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 218,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 219,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 220,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 221,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 222,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 223,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 224,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 225,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 226,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 227,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 228,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 229,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 230,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 231,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 232,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 233,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 234,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 235,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 236,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 237,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 238,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 239,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 240,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 241,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 242,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 243,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 244,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 245,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 246,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 247,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 248,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 249,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 250,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 251,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 252,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 253,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 254,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 255,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 256,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 257,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 258,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 259,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 260,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 261,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 262,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 263,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 264,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 265,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 266,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 267,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 268,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 269,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  },
+  {
+   "index": 270,
+   "scope": "Distinct eight-bag injections only",
+   "permutations": 40320,
+   "verdict": "NO_MAP_IN_REGISTERED_FAMILY"
+  }
+ ],
+ "mapped": [
+  157
+ ],
+ "total_permutations": 10080001
+}

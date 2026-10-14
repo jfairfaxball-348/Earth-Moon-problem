@@ -1,0 +1,15 @@
+{
+ "lengths": [
+  1,
+  6
+ ],
+ "bounds": "0..length",
+ "relations": [
+  "atmost",
+  "atleast",
+  "equals"
+ ],
+ "all_boolean_assignments": true,
+ "auxiliary_extension_checks": 2304,
+ "verdict": "PASS"
+}

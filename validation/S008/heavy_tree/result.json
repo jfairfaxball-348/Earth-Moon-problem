@@ -1,0 +1,70 @@
+{
+ "n": 12,
+ "m": 56,
+ "D": 4,
+ "edgefile": "validation\\S008\\heavy_tree\\K7-I5.edges",
+ "edge_sha256": "6ca28ae855963bf1649188633c88078e47b6ba0299324a4e6cb63df9ff0c4588",
+ "run": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "tools/s008_tree.py",
+   "validation\\S008\\heavy_tree\\K7-I5.edges",
+   "artifacts\\tmp\\S008\\heavy_tree\\K7-I5",
+   "300",
+   "--lex"
+  ],
+  "returncode": null,
+  "seconds": 320.1399999999994,
+  "hard_cap": 320,
+  "observed_peak_tree_private_bytes": 123076608,
+  "reason": "external wall cap"
+ },
+ "verdict": "UNKNOWN",
+ "search": {
+  "verdict": "INITIALISED",
+  "iterations": 0,
+  "seconds": 0.0,
+  "cuts": 0,
+  "variables": 40384,
+  "clauses": 167612,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "subset_count": 54,
+   "input_K5_count": 196,
+   "distinct_faces_enabled": false,
+   "extra_clauses": 90742,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 792,
+    "K33": 2870
+   },
+   "s008_cardinality": "pysat-totalizer-v1"
+  }
+ }
+}

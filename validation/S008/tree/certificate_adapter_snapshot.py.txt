@@ -1,0 +1,23 @@
+def certificate(ef,prefix):
+    import s006_run
+    src=Path('tools/s006_run.py').read_text()
+    start=src.index('def certificate(');end=src.index('\n\ndef search()',start)
+    src=src[start:end].replace('tools/triangulation_cover.py','tools/s008_tree.py')
+    scope=dict(s006_run.__dict__);scope['ROOT']=ROOT
+    exec(src,scope)
+    result=scope['certificate'](ef,prefix)
+    if result['verdict']=='NON_BIPLANAR_DRAT_VERIFIED':
+        import gzip
+        from s008_tree import TreeFullCover as FullCover
+        from biplanar_cnf import read_edges
+        cdata=json.loads(Path(str(prefix)+'.cuts.json').read_text())
+        c=FullCover(read_edges(str(ef)),cdata['lex'],cdata.get('short_links',False))
+        c.cuts=cdata['cuts'];cold=Path(str(prefix)+'.cold.cnf');c.write_cnf(cold)
+        assert cold.read_bytes()==gzip.decompress(Path(str(ROOT/'search'/prefix.name)+'.cnf.gz').read_bytes())
+        proof=Path(str(prefix)+'.cold.drat');proof.write_bytes(gzip.decompress(Path(result['archive']).read_bytes()))
+        assert sha(proof)==result['archive_raw_sha256']
+        log=ROOT/'search'/(prefix.name+'.cold.check.log')
+        chk=run_logged([scope['CHECKER'],str(cold),str(proof),'-t','600'],620,log)
+        result['cold_retained_check']=chk
+        if chk['returncode']!=0 or 's VERIFIED' not in log.read_text():result['verdict']='UNKNOWN'
+    return result
