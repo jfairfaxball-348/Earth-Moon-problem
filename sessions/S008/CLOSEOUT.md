@@ -1,0 +1,17 @@
+# S008 closeout — 2026-10-14
+
+Exactly S008 authorised and executed. Headline OPEN9<=chi_2<=12 unchanged. S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN. Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[].
+
+Cold K9/row165/bag and all40 retained full refutations freshly regenerated/native checked;271 chromatic archive/CNF/colour audits and four fresh lower proofs passed.23 inherited+23 StrongCover splits,27 direct clause/rotation controls with supervised repeat,23 independent cut-family comparisons,2304 totalizer truth checks and23 tree completion pins passed.5 support-overlap counts and512 availability triples corroborate finite obligations only. No cap/partial CNF/relaxed SAT was used as an exclusion or witness.
+
+Necessary all-order shared-support expansion, overlap-aware excess and exact simultaneous core extension criterion do not prove an11-colouring theorem or bound counterexample order/deficit. Current2026 sources including a primary October abstract inspected with explicit access limits; no novelty guarantee or external certificate/Lean replay. See ADVERSARIAL for provenance repairs and remaining assumptions. Local final checks/manifest recorded separately; hosted checks are observed after commit.
+
+S007 PR#7/single authored commit/two-parent merge/matching tree/actual successful head and main jobs independently reconciled. S008 branchcodex/S008-kuratowski-support begins at23d36d93ebb225668180c8499eb6793775d4fa1d, tree7556cac9eee8a6e26af5460b7d16d8479e5f1e29. Own authored/PR/merge identities follow this file freeze and cannot be anticipated. Actual exit evidence is captured in ignored artifacts/tmp/S008/LIVE_EXIT_EVIDENCE.json and final response. Zero status contexts is not CI PASS.
+
+Containment search mapped[157] within the registered distinct-bag family; new accepted transfers[155]. Misses are not exclusions. Heavy K7-I5 new tree outcome:UNKNOWN; other historical encodings remain their own UNKNOWN observations.
+
+Source159→target155 is an independently checked24-vertex/130-edge isomorphism. The target exclusion comes from that source's completed native/cold proof, not a target-native proof or interruption. Its fresh non9 proof/proper10-colouring were separately checked. The redundant target tree solve was stopped after this proof transfer, retains UNKNOWN with actual return code/elapsed time and explicit stop metadata. No stop promotes negative evidence. Row162 and other direct negatives have their own checked full CNFs; no smaller/minimality or general noncontainment theorem is claimed.
+
+S009 is FUTURE/UNEXECUTED only. No Lean, Palomar, registration, manuscript/publication, arXiv/journal, announcements or external correspondence executed.
+
+Final aggregate scope: all four selected candidate rows are now excluded, while 226 of the full 271-row corpus remain UNKNOWN, including 38 of the 42 D2 rows. Rows 157, 159 and 162 have their own checked full-model proofs; row 155 transfers from row 159. These are four row exclusions, not four distinct graph isomorphism classes. The original 41 excluded / 230 UNKNOWN baseline is preserved in S007 and the S008 entry evidence. All three cold archive/package audits, local scaffold validation and unit checks completed successfully before the single commit freeze.

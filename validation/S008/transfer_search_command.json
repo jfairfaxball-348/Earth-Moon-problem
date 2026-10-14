@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s008_transfer.py",
+  "--search-child"
+ ],
+ "returncode": 0,
+ "seconds": 11.343999999997322,
+ "hard_cap": 320,
+ "observed_peak_tree_private_bytes": 569192448
+}

@@ -1,0 +1,8 @@
+{
+ "tools/s008_checks.py": "b372a9b05a656bc91913c03608267e067c7e262b106b4a7fd6c5cb22e0692203",
+ "tools/check_s008_archives.py": "b48abbb9fb0094fc64062ae7c50dd0461fdcfd59819a54aa6d85a34d125e40c6",
+ "tools/s008_cover.py": "a71a101a418b2833930db918e0f0c183d41263c645c5d11a93ad31a0a14283a6",
+ "tools/s008_tree.py": "a0dd9e2fcc88f2de3722e36e2bd8ea49b7ba35ddc93e475aa6c95358ee317ec0",
+ "scripts/check_scaffold.py": "24c905d123b24b104f3a67e26b974e9259d6ccc09410bd1c6d5d3d887bacc11b",
+ "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244"
+}

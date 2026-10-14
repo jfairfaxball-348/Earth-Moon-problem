@@ -1,0 +1,269 @@
+[
+ {
+  "index": 157,
+  "grade": "FULL_CNF_WITH_SEPARATE_DRAT",
+  "cuts": 0,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17,
+     18
+    ],
+    [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 315,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 4015514,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 42504,
+    "K33": 2958
+   },
+   "s008_cardinality": "pysat-totalizer-v1"
+  },
+  "raw_sha256": "5f699c285b42131b2152e3322a949600db8bdba8eeb54e3fa35ab29ca356a844",
+  "archive": "validation\\S008\\tree\\search\\cover-row157.cnf.gz",
+  "archive_sha256": "517e23fa09c547f5d62bd4e793aa708fabeb4d89b257b9ae48f4d9d5188c1619",
+  "initial_raw_sha256": "5f699c285b42131b2152e3322a949600db8bdba8eeb54e3fa35ab29ca356a844",
+  "initial_archive": "validation\\S008\\tree\\search\\cover-row157.cnf.gz",
+  "initial_archive_sha256": "517e23fa09c547f5d62bd4e793aa708fabeb4d89b257b9ae48f4d9d5188c1619",
+  "identical_initial_and_last_cut_archive_shared": true
+ },
+ {
+  "index": 159,
+  "grade": "FULL_CNF_WITH_SEPARATE_DRAT",
+  "cuts": 0,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10
+    ],
+    [
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 328,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 4072468,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 42504,
+    "K33": 3139
+   },
+   "s008_cardinality": "pysat-totalizer-v1"
+  },
+  "raw_sha256": "82761eb1a332a99c1b22b8e2dbf0b7571761e18b8144d12d3e0b023834b111b3",
+  "archive": "validation\\S008\\tree\\search\\cover-row159.cnf.gz",
+  "archive_sha256": "65ffeb5e478d375e236442029187b48080a6864bbf9db083e6a6232c3ac9b259",
+  "initial_raw_sha256": "82761eb1a332a99c1b22b8e2dbf0b7571761e18b8144d12d3e0b023834b111b3",
+  "initial_archive": "validation\\S008\\tree\\search\\cover-row159.cnf.gz",
+  "initial_archive_sha256": "65ffeb5e478d375e236442029187b48080a6864bbf9db083e6a6232c3ac9b259",
+  "identical_initial_and_last_cut_archive_shared": true
+ },
+ {
+  "index": 162,
+  "grade": "FULL_CNF_WITH_SEPARATE_DRAT",
+  "cuts": 0,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ]
+   ],
+   "subset_count": 273,
+   "input_K5_count": 342,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 3369235,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 33649,
+    "K33": 3598
+   },
+   "s008_cardinality": "pysat-totalizer-v1"
+  },
+  "raw_sha256": "9b7e85bbbc54e44cb48316739da80d3f4c3210c1cb31e8c9da531d28a3a7ae16",
+  "archive": "validation\\S008\\tree\\search\\cover-row162.cnf.gz",
+  "archive_sha256": "e4aec653318579c40a9658de1b77a40c3d9d43cd35949c3847ced85c9088d04d",
+  "initial_raw_sha256": "9b7e85bbbc54e44cb48316739da80d3f4c3210c1cb31e8c9da531d28a3a7ae16",
+  "initial_archive": "validation\\S008\\tree\\search\\cover-row162.cnf.gz",
+  "initial_archive_sha256": "e4aec653318579c40a9658de1b77a40c3d9d43cd35949c3847ced85c9088d04d",
+  "identical_initial_and_last_cut_archive_shared": true
+ },
+ {
+  "index": 155,
+  "grade": "PARTIAL_NECESSARY_CNF_NOT_A_REFUTATION",
+  "cuts": 0,
+  "static": {
+   "version": "S007-subsets-K5-Dle2-v1",
+   "groups": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     5,
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   ],
+   "subset_count": 274,
+   "input_K5_count": 328,
+   "distinct_faces_enabled": true,
+   "extra_clauses": 4072468,
+   "s008_version": "completion-K5-input-K33-v1",
+   "s008_counts": {
+    "K5": 42504,
+    "K33": 3139
+   },
+   "s008_cardinality": "pysat-totalizer-v1"
+  },
+  "raw_sha256": "61d9b37a36e8bcfaf09c1b0cf55cad58ddb234f2e7900706958695f01d40a0e4",
+  "archive": "validation\\S008\\tree\\search\\cover-row155.partial.cnf.gz",
+  "archive_sha256": "170e1b012d9a5fb2a425eb1dda1c43b163831ee5c35df530190bf976cb22bacb",
+  "initial_raw_sha256": "61d9b37a36e8bcfaf09c1b0cf55cad58ddb234f2e7900706958695f01d40a0e4",
+  "initial_archive": "validation\\S008\\tree\\search\\cover-row155.partial.cnf.gz",
+  "initial_archive_sha256": "170e1b012d9a5fb2a425eb1dda1c43b163831ee5c35df530190bf976cb22bacb",
+  "identical_initial_and_last_cut_archive_shared": true
+ }
+]

@@ -1,0 +1,451 @@
+[
+ {
+  "target": {
+   "index": 162,
+   "g6": "G|fH_K",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    3,
+    2,
+    2,
+    6
+   ],
+   "n": 23,
+   "m": 124,
+   "D": 2,
+   "edgefile": "validation\\S008\\targets\\row162.edges",
+   "edge_sha256": "ce419a6fbb06a596855c9f22cf5c9d1d00367aba678aaf85306acf5e74ec871c",
+   "ten_colouring": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    8,
+    7,
+    6,
+    5,
+    9,
+    8,
+    5,
+    4,
+    7,
+    6,
+    3,
+    2,
+    1,
+    0
+   ],
+   "chi": 10,
+   "chromatic_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S008\\chi-row162.cnf",
+     "artifacts\\tmp\\S008\\chi-row162.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.32800000000861473,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 59228160
+   },
+   "bag_cnf_sha256": "52a3a2a4158f5824df63ba5c7cd5f05c2cd73b805ff3aa8658147afc9e90ff8b",
+   "bag_proof_sha256": "362f4e46891fadae4c42208e62b270a8f1c31582a6ff606dbad783a457aa7476",
+   "bag_archive": "validation/S004/chi10/162-bag.drat.gz"
+  },
+  "verdict": "UNKNOWN",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s008_cover.py",
+    "validation\\S008\\targets\\row162.edges",
+    "artifacts\\tmp\\S008\\search\\cover-row162",
+    "1200",
+    "--lex"
+   ],
+   "returncode": null,
+   "seconds": 1220.172000000006,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 1401929728,
+   "reason": "external wall cap"
+  },
+  "search": {
+   "verdict": "INITIALISED",
+   "iterations": 0,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 1396536,
+   "clauses": 2886079,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      10,
+      11,
+      12
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+     ]
+    ],
+    "subset_count": 273,
+    "input_K5_count": 342,
+    "distinct_faces_enabled": true,
+    "extra_clauses": 2613925,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 33649,
+     "K33": 3598
+    }
+   }
+  }
+ },
+ {
+  "target": {
+   "index": 155,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    3,
+    3,
+    2,
+    4,
+    2,
+    2,
+    6
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S008\\targets\\row155.edges",
+   "edge_sha256": "f8ce916ad0afcb511c88efee28783c3dc17cba9ba86ff7ac76a196a02da2b309",
+   "ten_colouring": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    9,
+    8,
+    4,
+    3,
+    7,
+    6,
+    5,
+    2,
+    1,
+    0
+   ],
+   "chi": 10,
+   "chromatic_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S008\\chi-row155.cnf",
+     "artifacts\\tmp\\S008\\chi-row155.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.32800000000861473,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 59215872
+   },
+   "bag_cnf_sha256": "3cbdc6158b77e57104d44216ef1acea5d046bca4150f089e906576b7c7e578b0",
+   "bag_proof_sha256": "f25f0e669b0e124d39079fdf995b233760329a65398c313bced15613845c6845",
+   "bag_archive": "validation/S004/chi10/155-bag.drat.gz"
+  },
+  "verdict": "UNKNOWN",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s008_cover.py",
+    "validation\\S008\\targets\\row155.edges",
+    "artifacts\\tmp\\S008\\search\\cover-row155",
+    "1200",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 1173.8280000000086,
+   "hard_cap": 1220,
+   "observed_peak_tree_private_bytes": 1601482752
+  },
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 1,
+   "seconds": 1166.2189999999973,
+   "cuts": 0,
+   "variables": 1656402,
+   "clauses": 3425710,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3,
+      4
+     ],
+     [
+      5,
+      6,
+      7
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      10,
+      11,
+      12,
+      13
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      16,
+      17
+     ],
+     [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ]
+    ],
+    "subset_count": 274,
+    "input_K5_count": 328,
+    "distinct_faces_enabled": true,
+    "extra_clauses": 3108376,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 42504,
+     "K33": 3139
+    }
+   }
+  },
+  "certificate": {
+   "verdict": "UNKNOWN",
+   "regenerate": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "tools/s008_cover.py",
+     "check",
+     "validation\\S008\\targets\\row155.edges",
+     "artifacts\\tmp\\S008\\search\\cover-row155"
+    ],
+    "returncode": 0,
+    "seconds": 5.26600000000326,
+    "hard_cap": 120,
+    "observed_peak_tree_private_bytes": 918601728
+   },
+   "solve": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+     "-q",
+     "--no-binary",
+     "artifacts\\tmp\\S008\\search\\cover-row155.cnf",
+     "artifacts\\tmp\\S008\\search\\cover-row155.drat"
+    ],
+    "returncode": null,
+    "seconds": 1220.1879999999946,
+    "hard_cap": 1220,
+    "observed_peak_tree_private_bytes": 1141530624,
+    "reason": "external wall cap"
+   }
+  },
+  "unverified_native_export": {
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S008\\search\\cover-row155.drat",
+   "sha256": "264a7e1481caa1d78c651e962c4ab86e389070c6fe790ead9488297d19199d3b",
+   "bytes": 432627712,
+   "grade": "POST_WORKER_CAPTURE_UNVERIFIED_EXPORT_NOT_AN_EXCLUSION"
+  }
+ },
+ {
+  "target": {
+   "index": 157,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    4,
+    2,
+    2,
+    4,
+    2,
+    3,
+    5
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S008\\targets\\row157.edges",
+   "edge_sha256": "4fd453abea7393cb85bbe243d65507a438f1faa07d2e5635de47451cb443e58a",
+   "ten_colouring": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    9,
+    8,
+    5,
+    4,
+    3,
+    7,
+    6,
+    2,
+    1,
+    0
+   ],
+   "chi": 10,
+   "chromatic_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S008\\chi-row157.cnf",
+     "artifacts\\tmp\\S008\\chi-row157.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.3279999999940628,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 59224064
+   },
+   "bag_cnf_sha256": "b9bd504547bc241bd5952d0df0b444642b7bf125e4fe251caf3ababa418b2bb4",
+   "bag_proof_sha256": "3d6ff00a2ed9e427147653bdd4d91e11887baa99563cafbb2130e360dbdde417",
+   "bag_archive": "validation/S004/chi10/157-bag.drat.gz"
+  },
+  "verdict": "UNKNOWN",
+  "reason": "NOT_RUN after two consecutive final UNKNOWNs"
+ },
+ {
+  "target": {
+   "index": 159,
+   "g6": "G|fH_K",
+   "w": [
+    2,
+    4,
+    2,
+    3,
+    3,
+    2,
+    2,
+    6
+   ],
+   "n": 24,
+   "m": 130,
+   "D": 2,
+   "edgefile": "validation\\S008\\targets\\row159.edges",
+   "edge_sha256": "5ba180171404e8b7c32c3af776fb53c75da13adeda20d277f03c5addfa66d018",
+   "ten_colouring": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    8,
+    5,
+    7,
+    6,
+    4,
+    9,
+    8,
+    4,
+    3,
+    7,
+    6,
+    5,
+    2,
+    1,
+    0
+   ],
+   "chi": 10,
+   "chromatic_check": {
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+     "artifacts\\tmp\\S008\\chi-row159.cnf",
+     "artifacts\\tmp\\S008\\chi-row159.drat",
+     "-t",
+     "600"
+    ],
+    "returncode": 0,
+    "seconds": 0.42199999999138527,
+    "hard_cap": 620,
+    "observed_peak_tree_private_bytes": 59219968
+   },
+   "bag_cnf_sha256": "106070e03f7f42c4bc169e6c21a3e7890113646d6a9bbbf922aaa9b51f6d047b",
+   "bag_proof_sha256": "619c2706a0fb316df72f9b82a2c4faa89f3114077208ef35ad6fc8b4c1b6fce3",
+   "bag_archive": "validation/S004/chi10/159-bag.drat.gz"
+  },
+  "verdict": "UNKNOWN",
+  "reason": "NOT_RUN after two consecutive final UNKNOWNs"
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s008_last_transfer.py"
+ ],
+ "returncode": 0,
+ "seconds": 0.6410000000032596,
+ "hard_cap": 200,
+ "observed_peak_tree_private_bytes": 544206848
+}

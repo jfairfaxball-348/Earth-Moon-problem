@@ -43,3 +43,8 @@ S001 performed no research. Absence of a found example never proves universal no
 | F033 | Global distinct D2 face incidence alone excludes selected rows | Four directly checked SAT_RELAXATION models | Layer/link/planarity necessary |
 | F034 | Every common-boundary heavy clique local join is non-biplanar | Actual K6-I6 exactchi7 split; K7-I5 Cover/Kuratowski outcomes explicit | Criticality/support rather than universal local obstruction |
 | F035 | Arbitrary proper colouring can co-colour a nonadjacent pair with no spare colour | Planar K1-join-P4 endpoints forced distinct in every3-colouring | Spare-colour premise essential |
+
+| F036 | Euler expansion supplies simultaneous available colours | Distinct arbitrary support representatives do not control lists/boundary repetition | Universal no-spare route open |
+| F037 | Shared boundaries permit summing13t unweighted excess | Correct sum is weighted by support multiplicity; abstract sunflower passes expansion | Need actual maximum multiplicity/control |
+| F038 | Pairwise list feasibility implies global distinct assignment | Three{0,1} lists,512 registered controls | Hall/list/colour obligations separate |
+| F039 | Full-layer K5/K33/tree counter changes settle D2 | Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[]. | No cap exclusions or full-stratum claim |

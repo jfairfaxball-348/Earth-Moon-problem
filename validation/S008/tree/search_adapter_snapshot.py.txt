@@ -1,0 +1,27 @@
+def search():
+    assert (ROOT/'BASELINE_PASS.json').exists() and len(json.loads(Path('validation/S008/new_clause_controls.json').read_text()))==27
+    from check_layers import main as check_split
+    (ROOT/'search').mkdir(exist_ok=True);(TMP/'search').mkdir(exist_ok=True)
+    rows=[];consecutive=0
+    for target in json.loads((ROOT/'targets.json').read_text()):
+        idx=target['index'];prefix=TMP/'search'/f'cover-row{idx}'
+        row=dict(target=target,verdict='UNKNOWN')
+        if consecutive>=2:row['reason']='NOT_RUN after two consecutive final UNKNOWNs'
+        else:
+            run=run_logged([sys.executable,'tools/s008_tree.py',target['edgefile'],str(prefix),'900','--lex'],920,str(prefix)+'.run.log')
+            row['run']=run
+            meta=Path(str(prefix)+'.result.json')
+            if meta.exists():row['search']=json.loads(meta.read_text())
+            if run['returncode']==0 and row.get('search',{}).get('verdict')=='UNSAT':
+                row['certificate']=certificate(target['edgefile'],prefix);row['verdict']=row['certificate']['verdict']
+            elif run['returncode']==0 and row.get('search',{}).get('verdict')=='SAT_CHECKED':
+                check_split(target['edgefile'],str(prefix)+'.split.json')
+                shutil.copyfile(str(prefix)+'.split.json',ROOT/'search'/f'row{idx}.split.json')
+                row['verdict']='BIPLANAR_CHECKED_CHI10'
+            consecutive=consecutive+1 if row['verdict']=='UNKNOWN' else 0
+            for suffix in ('.cuts.json','.result.json','.run.log'):
+                p=Path(str(prefix)+suffix)
+                if p.exists():shutil.copyfile(p,ROOT/'search'/(prefix.name+suffix))
+        rows.append(row);save(ROOT/'search_results.json',rows)
+        print(idx,row['verdict'],row.get('run',{}).get('seconds','NOT_RUN'),flush=True)
+        if row['verdict']=='BIPLANAR_CHECKED_CHI10':break

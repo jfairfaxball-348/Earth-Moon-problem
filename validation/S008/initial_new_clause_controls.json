@@ -1,0 +1,353 @@
+[
+ {
+  "index": 0,
+  "n": 5,
+  "counts": {
+   "K5": 1,
+   "K33": 0
+  },
+  "rotation_checks": [
+   6,
+   6
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 1,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 2,
+  "n": 8,
+  "counts": {
+   "K5": 56,
+   "K33": 49
+  },
+  "rotation_checks": [
+   12,
+   12
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 3,
+  "n": 8,
+  "counts": {
+   "K5": 56,
+   "K33": 16
+  },
+  "rotation_checks": [
+   12,
+   12
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 4,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 5,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 6,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 7,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 8,
+  "n": 5,
+  "counts": {
+   "K5": 1,
+   "K33": 0
+  },
+  "rotation_checks": [
+   6,
+   6
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 9,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 10,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 11,
+  "n": 8,
+  "counts": {
+   "K5": 56,
+   "K33": 190
+  },
+  "rotation_checks": [
+   12,
+   12
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 12,
+  "n": 5,
+  "counts": {
+   "K5": 1,
+   "K33": 0
+  },
+  "rotation_checks": [
+   6,
+   6
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 13,
+  "n": 7,
+  "counts": {
+   "K5": 21,
+   "K33": 40
+  },
+  "rotation_checks": [
+   10,
+   10
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 14,
+  "n": 6,
+  "counts": {
+   "K5": 6,
+   "K33": 10
+  },
+  "rotation_checks": [
+   8,
+   8
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 15,
+  "n": 6,
+  "counts": {
+   "K5": 6,
+   "K33": 10
+  },
+  "rotation_checks": [
+   8,
+   8
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 16,
+  "n": 4,
+  "counts": {
+   "K5": 0,
+   "K33": 0
+  },
+  "rotation_checks": [
+   4,
+   4
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 17,
+  "n": 6,
+  "counts": {
+   "K5": 6,
+   "K33": 10
+  },
+  "rotation_checks": [
+   8,
+   8
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 18,
+  "n": 5,
+  "counts": {
+   "K5": 1,
+   "K33": 0
+  },
+  "rotation_checks": [
+   6,
+   6
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 19,
+  "n": 8,
+  "counts": {
+   "K5": 56,
+   "K33": 130
+  },
+  "rotation_checks": [
+   12,
+   12
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 20,
+  "n": 8,
+  "counts": {
+   "K5": 56,
+   "K33": 280
+  },
+  "rotation_checks": [
+   12,
+   12
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 21,
+  "n": 11,
+  "counts": {
+   "K5": 462,
+   "K33": 1860
+  },
+  "rotation_checks": [
+   18,
+   18
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 22,
+  "n": 9,
+  "counts": {
+   "K5": 126,
+   "K33": 630
+  },
+  "rotation_checks": [
+   14,
+   14
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 23,
+  "n": 42,
+  "counts": {
+   "K5": 850668,
+   "K33": 109
+  },
+  "rotation_checks": [
+   80,
+   80
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 24,
+  "n": 42,
+  "counts": {
+   "K5": 850668,
+   "K33": 108
+  },
+  "rotation_checks": [
+   80,
+   80
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 25,
+  "n": 42,
+  "counts": {
+   "K5": 850668,
+   "K33": 114
+  },
+  "rotation_checks": [
+   80,
+   80
+  ],
+  "new_clause_truth": "PASS"
+ },
+ {
+  "index": 26,
+  "n": 42,
+  "counts": {
+   "K5": 850668,
+   "K33": 116
+  },
+  "rotation_checks": [
+   80,
+   80
+  ],
+  "new_clause_truth": "PASS"
+ }
+]
