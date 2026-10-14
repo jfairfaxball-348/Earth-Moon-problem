@@ -3,7 +3,7 @@
 | Gate | Requirement | Status after S010 |
 |---|---|---|
 | 0 Bootstrap | Governed repo, authority, sources/claims, exact target, reproducibility plan | PASS — administrative only |
-| 1 Headline mathematics | Actual rigorous improvement or complete solution, source and proof audit | ACTIVE; S010 structural reset;52/271 excluded,219 UNKNOWN. No bound advance; headline gate NOT PASSED |
+| 1 Headline mathematics | Since D042: one certified biplanar graph with χ ≥ 10 (explicit layers, independent per-layer planarity, checked non-9-colourability proof), with source and proof audit | ACTIVE (lower bound only); 52/271 excluded, 219 UNKNOWN. No χ ≥ 10 witness; headline gate NOT PASSED |
 | 2 First novelty | Result-specific primary-source priority and overlap challenge | NOT STARTED |
 | 3 Lean | Clean pinned Lean/mathlib kernel proof of exact claim | NOT STARTED |
 | 4 Final novelty | Independent current literature/assumptions/formal statement check | NOT STARTED |
@@ -26,3 +26,5 @@ S008: S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN
 S009: S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Mixed excess/stronger expansion and simultaneous equality/list criterion only. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged; no universal/external review/Lean/publication.
 
 S010 strategic reset complete;0 new row exclusions,52/271 excluded and219 UNKNOWN;9..12 unchanged. Heavy odd endblocks/whole components reduce toC5; P4-I9/C5-I9 local sources biplanar exactchi3/4; residual extension criterion conditional. Headline gate1 NOT PASSED. Gates2–7 unchanged; no external universal review/formalisation/publication.
+
+D042 owner re-scope (2026-10-14): gate 1 now passes only with a certified χ ≥ 10 biplanar witness. Universal upper-bound results no longer count towards any gate. Gates 2–7 unchanged.

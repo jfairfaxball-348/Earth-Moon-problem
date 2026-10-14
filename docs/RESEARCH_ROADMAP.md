@@ -1,12 +1,12 @@
 # Long-horizon strategy
 
-**North star:** determine χ₂ exactly. A publishable lower-bound breakthrough and a rigorous improved upper bound are independent valued milestones, but neither necessarily resolves EMP.
+**North star (re-scoped by D042, 2026-10-14):** prove χ₂ ≥ 10 with one fully certified biplanar construction. Determining χ₂ exactly and improving the upper bound are out of scope.
 
 **Route A — Construction:** exact layer-pair generation, rigidity and colour criticality, joins, substitutions, permutation-of-layer families, Hajós sums, and genuinely new constructions (not presumed thickness-preserving without proof). Seek χ≥10; produce explicit edge lists, planarity witnesses, exact colouring and independent non-(k−1)-colourability certificates.
 
-**Route B — Universal upper bound:** attack χ≤11 then χ≤10 and especially χ≤9. Work through average degree <12, critical minimum-degree constraints, combined-layer Euler accounting, faces and unavoidable configurations, reducibility, degeneracy improvements, discharging, list colouring as a candidate tool, and global layer compatibility. Degree bounds alone give only χ≤12.
+**Route B — Universal upper bound:** RETIRED by D042. No new work. S002–S010 upper-bound results are history only.
 
-**Route C — Structural bridge:** identify forbidden configurations, local-to-global incompatibilities of planar embeddings, small critical cores, layer intersection and edge-density rigidity; aim for transfer lemmas that either generate a high-chromatic witness or prove none can exist.
+**Route C — Structural filters:** use proved forbidden configurations (K₉, Euler-violating complete bipartite graphs such as K₆,₉, K₇ with five common outside neighbours) and edge-density rigidity only to prune candidates or to guide where a 10-chromatic witness could live. Lemmas whose only use is a universal upper bound are out of scope.
 
 **Route D — Certified computation:** reconstruct K₆∨C₅ layer partitions and published 9-critical families first. Only then preregister bounded search, two independent implementations, proof-producing SAT and independent LRAT/DRAT checks. Importing a standard SAT or planarity package without certificates is *exploration*, not a final theorem.
 

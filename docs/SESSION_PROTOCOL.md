@@ -10,7 +10,7 @@
 ## Mathematics
 - Distinguish maximum chromatic number χ₂ from minimum number of colours in one example and from geometric thickness.
 - For constructions, both planar layers, edge disjointness, colouring ≤k and impossibility of k−1 colours are four distinct obligations.
-- For upper bounds, universal quantification, all small orders and exact proof of any discharging/structural induction must survive adversarial checks.
+- Upper-bound and universal colouring work is out of scope (D042). Structural lemmas are admissible only when used to prune or guide constructions, and must still survive adversarial checks.
 - Full-bounded exhaustive computations need finite universe, canonical ordering, justified symmetry, exact reproducible code, independent checker and independently checked SAT certificate when used.
 - Preserve failed strategies, explicit counterexamples and provenance. Keep inherited and source-stated mathematics separate from original results.
 

@@ -14,4 +14,6 @@
 
 | S010 |2026-10-14|Strategic reset/analytic bipartite compression/local endpoints/residual palettes|S010 strategic reset complete;0 new row exclusions,52/271 excluded and219 UNKNOWN;9..12 unchanged. Heavy odd endblocks/whole components reduce toC5; P4-I9/C5-I9 local sources biplanar exactchi3/4; residual extension criterion conditional.|MATHEMATICS COMPLETE; outgoing integration verify live|
 
-| S011 |Future|Reduced heavy/light and construction frontier|None yet|FUTURE UNEXECUTED|
+| D042 |2026-10-14|Owner re-scope (governance only, not a numbered session)|Headline narrowed to χ₂ > 9 via certified construction; upper-bound track retired; S011 prompt rewritten|COMPLETE (docs only)|
+
+| S011 |Future|Lower bound only: certified χ ≥ 10 biplanar construction frontier|None yet|FUTURE UNEXECUTED|
