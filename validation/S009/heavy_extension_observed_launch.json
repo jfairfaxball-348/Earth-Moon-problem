@@ -1,0 +1,25 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_extend_heavy.py",
+  "worker"
+ ],
+ "as_of_utc": "2026-10-14T13:10:15.777185+00:00",
+ "sha256": {
+  "tools/s009_extend_heavy.py": "0e2e4351d143762d1ec1d82508deca6d01407bb5761a4ff19638ed3d54025948",
+  "tools/s009_heavy_cover.py": "993ef845a11aafd692a97b6f0687ac8cc7dde435a4ef0598e5d4df8af92cc975",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "validation/S009/heavy/result.json": "4a099e43b6b488a126ac84cd5ee1641feaf1964cd78e60af9818ed2853b57432",
+  "campaigns/CAM-0010.md": "f65a8608c512144b34ee73163bdc406cda237014a6691d6a06048800e705bbd3"
+ },
+ "native_sha256": {
+  "cadical.exe": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+  "drat-trim-mingw.exe": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "libc++.dll": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b",
+  "libunwind.dll": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780",
+  "libwinpthread-1.dll": "7658f9e5e89213af287d342c554b8abcb5b2700b4a44d02184b56004b104ceec"
+ },
+ "original_raw_sha256": "aef75382fee2edab75bc5450d0d21669ebc580206d6b422ba3b7aa54613d520c",
+ "cnf_sha256": "39a8c288ca02fec268cb2b1e7f899d4a5aaaf4777075b68f9ec0d6abccf3bc22",
+ "grade": "OBSERVED_BEFORE_LAUNCH"
+}

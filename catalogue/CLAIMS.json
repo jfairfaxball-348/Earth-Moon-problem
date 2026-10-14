@@ -41,7 +41,7 @@
  },
  {
   "id": "CLM-0005",
-  "claim": "Boutinâ€“Gethnerâ€“Sulanke report 40 small nine-critical thickness-two graphs.",
+  "claim": "Boutin\u00e2\u20ac\u201cGethner\u00e2\u20ac\u201cSulanke report 40 small nine-critical thickness-two graphs.",
   "status": "SOURCE_STATED",
   "sources": [
    "SRC-0002"
@@ -99,11 +99,11 @@
   "sources": [
    "SRC-0011"
   ],
-  "note": "Corollary of external Kostochkaâ€“Yancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
+  "note": "Corollary of external Kostochka\u00e2\u20ac\u201cYancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
  },
  {
   "id": "CLM-0012",
-  "claim": "The universal apex over a HajÃ³s join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
+  "claim": "The universal apex over a Haj\u00c3\u00b3s join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
   "status": "PROGRAMME_PROVED",
   "sources": [
    "SRC-0002",
@@ -483,5 +483,87 @@
    "SRC-0014"
   ],
   "note": "Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty."
+ },
+ {
+  "id": "CLM-0056",
+  "claim": "For every selected family of t heavy K8 noncut cores in an actual12-critical biplanar graph, unweighted excess on the union of their high boundaries is at least4t, with arbitrary support overlap.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0027",
+   "SRC-0014"
+  ],
+  "note": "Complete all-order truncated-demand/degree-multiplicity proof in research/S009_GLOBAL_CHARGE.md;3331 finite charge checks corroborate only. Arithmetic equality model is not an actual critical biplanar witness. No maximum multiplicity, distinct high-excess representatives, universal colouring or novelty."
+ },
+ {
+  "id": "CLM-0057",
+  "claim": "For every nonempty selected family of t heavy K8 endblocks in an actual12-critical biplanar graph, common high-boundary union size is at least ceil((8t+12)/6).",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0027",
+   "SRC-0014"
+  ],
+  "note": "Distinct full eight-vertex low blocks contribute56t distinct edges on8t+a vertices. Complete Euler/subfamily/boundary proof in research/S009_GLOBAL_CHARGE.md. Stronger than noncut-only expansion, no colour/list conclusion."
+ },
+ {
+  "id": "CLM-0058",
+  "claim": "For a fixed11-colouring outside all selected heavy-core boundaries, simultaneous extension exists iff some nonadjacent pair choice in each boundary induces independent equality classes whose quotient admits proper colouring from common-list intersections.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0033"
+  ],
+  "note": "Complete logical equivalence including cuts/overlaps/all edges/empty cases in research/S009_SIMULTANEOUS_COLOURS.md. Classical contraction idea attributed; no planar contraction or guaranteed feasible pair/list choices.1029 abstract list controls, not critical witnesses or universal theorem."
+ },
+ {
+  "id": "CLM-0059",
+  "claim": "All completion K3,3 subgraph clauses in the registered S009 small full-layer tree model are necessary for every genuine planar completion.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0009"
+  ],
+  "note": "Bipartite Euler/six-set partition enumeration/orbit-minimum proof in research/S009_CONSTRUCTION.md;23 actual full pins/rotations and independent enumeration controls. Not all Kuratowski subdivisions, no SAT converse or verdict from partial CNFs."
+ },
+ {
+  "id": "CLM-0060",
+  "claim": "For disjoint selected heavy low cores in an actual12-critical biplanar graph, total high excess Q is at least4t8+4e11+2e9+3w9+w7, counting K8 endblocks, C11/C9 endblocks and wholeC9/C7 components respectively.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0027",
+   "SRC-0014"
+  ],
+  "note": "All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance."
+ },
+ {
+  "id": "CLM-0062",
+  "claim": "The explicit12v56e graph K7 joined to independent5 is non-biplanar.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0009",
+   "SRC-0024",
+   "SRC-0025"
+  ],
+  "note": "Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Labelled edges and source proof chain in validation/S009/heavy_extended/result.json; the initial validation/S009/heavy/result.json remains UNKNOWN. Exactchi8 follows from proper8-colouring/K8 clique, not a lower-bound lift; novelty unchecked."
+ },
+ {
+  "id": "CLM-0063",
+  "claim": "Every7-clique in a finite simple biplanar graph has at most4 common neighbours outside it; in particular an actual12-critical biplanar graph has no heavy K8 endblock with a genuine low cut vertex.",
+  "status": "PROGRAMME_PROVED",
+  "sources": [
+   "SRC-0009",
+   "SRC-0024",
+   "SRC-0025",
+   "SRC-0027"
+  ],
+  "note": "Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Explicit local subgraph transfer in research/S009_CONSTRUCTION.md. Does not exclude lightK8 endblocks/allK8 blocks/smaller heavy blocks/odd blocks or prove universal11-colouring. Finite source proof plus all-order conditional deduction; novelty unchecked."
+ },
+ {
+  "id": "CLM-0061",
+  "claim": "S009 certifies additional non-biplanarity for fixed exactchi10 rows[15, 23, 24, 28, 38, 41, 45]; 219 of271 remain UNKNOWN.",
+  "status": "COMPUTED_EXACT",
+  "sources": [
+   "SRC-0009",
+   "SRC-0024",
+   "SRC-0025"
+  ],
+  "note": "Each direct negative has necessary cold LF CNF and original/compact/cold retained native DRAT; any transfer independently checks actual injection/source cold certificate and target non9/proper10. Exact source and per-lane provenance in validation/S009. No minimality, census closure, novelty or headline advance."
  }
 ]

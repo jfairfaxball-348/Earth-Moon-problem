@@ -22,3 +22,5 @@ S006: 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1
 S007: S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155]. Critical exterior/support proofs and relaxed incidence checks are necessary/finite results only. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged, no universal/external review/Lean.
 
 S008: S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN. Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[]. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged; no universal/external review/Lean/publication.
+
+S009: S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Mixed excess/stronger expansion and simultaneous equality/list criterion only. Headline gate1 NOT PASSED;9..12 unchanged. Gates2–7 unchanged; no universal/external review/Lean/publication.

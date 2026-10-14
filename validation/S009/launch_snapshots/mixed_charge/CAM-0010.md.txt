@@ -1,0 +1,39 @@
+# CAM-0010 — S009 full obstructions and simultaneous colours
+
+Registered2026-10-14 before mathematical computations. Exactly S009. Source corpus validation/S003/survivors_alpha_ge3.json (271 labelled exactchi10 rows), entry45 excluded/226 UNKNOWN; D2 original42/current38 UNKNOWN. No complete all-graph census.
+
+## Environment and supervision
+
+Pinned .venv Python3.12.10/NetworkX3.5/python-sat1.9.dev15 and S004 native source/binary hashes from S008 environment. Verify native bytes/source clean pins; no build/new flush adapter. At most TWO computing workers; external descendant-tree wall/private-memory12GiB supervision via run_logged,0.1s sampling. Capture actual script/dependency/input/native hashes BEFORE each worker launch, unique immutable launch records/snapshots; no inherited launcher overwrites those paths. All failure/cap/NOT_RUN/unverifiedUNSAT outcomes remain UNKNOWN.
+
+## Cold baseline
+
+Adapt S007 replay output paths only to S009; outer hard cap10800s, baseline subdriver2400s, each original checker1200/hard1220 or600/hard620. Replays K9/row165/bag, all40 retained S005/S006 full proofs,271 chromatic CNF/hash/colour archive audits, fresh selected target lower proofs and23 StrongCover actual positive splits. Additionally cold regenerate and standalone-check all THREE direct S008 tree refutations157,159,162 (row155 checked via159 isomorphism). Inspect actual lex/cuts/generator, require byte-identical LF CNF and original public raw/gzip hashes. Frozen S008 manifest Git blobs verified. No new verdict accepted until baseline passes.
+
+## General injection lane
+
+All44 direct source row obstructions (row165+40+3) to every initially UNKNOWN row226, source order increasing vertex/edge/index and target index ascending. Degree/order/edge filters necessary only. Backtracking over arbitrary labelled vertex injections preserving source EDGES, not nonedges; no distinct-bag restriction. Closed source twins may use increasing target labels within their class because exchanging their images is a source automorphism. MRV next vertex with deterministic tie order, neighbour-domain intersection and injection removal; a full branch miss means no map in that exact labelled graph pair, capped miss remains UNKNOWN. Per pair2s internal deadline; total lane300/hard320s. Account ALL pairs as FILTERED, EXHAUSTED_NO_MAP, PAIR_CAP_UNKNOWN, GLOBAL_CAP_NOT_RUN, or VERIFIED_MAP; stop source work for a target after a valid map (later pairs NOT_NEEDED). Acceptance independently checks label injection/every edge, freshly regenerated target non9 CNF/retained standalone DRAT and proper10-colouring; prior source cold PASS required. Map absence/cap never an exclusion. Controls: exhaustive all pairs of simple graphs order<=3 against independent brute permutations, plus a split source twin clique mapping into several target bags to challenge old restrictions. Controls180/hard200s.
+
+## Full-layer lane
+
+Fixed next D2 rows15,23,24,28 in this order. Inherited TreeFullCover exactly (no extra symmetry/cuts), nominal1200/hard1220s each. Two consecutive FINAL UNKNOWNs stop lane including exit0/checkfailure; later NOT_RUN. Native text re-solve/check1200/hard1220, compact/check/cold600/hard620, regen120s. Full separate original/compact raw/archive gzip hashes. Positive exact input union/disjointness and both LR/sphere rotations, fresh non9 proof/proper10-colouring. Negative only full deterministic CNF/cuts + checked DRAT. Save actual initial/last-cut partial CNFs for UNKNOWN with explicit nonrefutation grade. No wholeD2 closure.
+
+## Heavy local lane
+
+One exact K7 join independent5, labels0..6 clique/7..11 independent. Stronger tree generator includes EVERY completion K3,3 partition on all6-sets, not only input K3,3. Enumeration all triplesA/disjoint triplesB with minA<minB is exact unordered partition family. Necessary bipartite planar bound; all symmetry images satisfy, inherited orbit-minimum lex unchanged.12v56eD4, nominal1200/hard1220; original/compact/cold pipeline as above. Separate target lane. Before acceptance, directly test all new cuts on23 frozen small actual completions and independent enumeration counts10*C(n,6); tree counter semantics inherited and rechecked through actual full pins. Control900/hard920s. No D<=2 distinct-face assumption atD4. Positive checkedchi8 via K8 lower/proper8-colouring; negative excludes heavyK8 endblocks by explicit local injection only, never all critical graphs. Historical caps not reused as evidence.
+
+## Upper-domain corroboration
+
+Analytic all-order truncated charge and equality-component/list sufficient extension proof first, no all-order theorem inferred from controls. Enumerate q=0..200 and r=0..floor((q+12)/7) verifying charge inequality4*r*min(q,13)<=13*q; symbolic proof covers allq. Exhaust all lists of three nonempty subsets of a3-colour universe and both overlapping2-edge equality constraints against independent assignments (7^3 lists; all selected pairs of3 vertices). A compatible equality component must be independent and have COMMON list intersection; pairwise feasibility is insufficient. Hard180/200s. Explicit abstract sharp charge incidence and pairwise-global countermodel, never actual biplanar critical witnesses. Address light/heavy/large deficit and failed global contradiction.
+
+## Exit
+
+Sync paired sources/claims MD+JSON, state, phase/session/decision/failure/campaign and S009 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT, exact SUMMARY/manifest. One atomic authored commit/ordinary PR/non-force two-parent merge and independent main/parent/tree/actual jobs. S010 FUTURE/UNEXECUTED; no novelty guarantee, formalisation, publication, registration or outreach.
+
+## Prospective scheduling/control clarification A
+
+The baseline driver is immutable while running. Inspection before any heavy-control launch found that frozen static_truth_controls uses full tag strings (control-00, control-K8), rather than the index/bare-tag schema assumed in the unlaunched helper. Use a separate corrected stage driver; do not edit the running source. Controls read frozen S008 actual split files (read only), not incomplete S009 replay outputs. Record this prelaunch defect and separate hashes. Stronger heavy search may generate/solve its first necessary CNF concurrently with cold replay (maximum2 workers), but its verdict remains PROVISIONAL_UNVERIFIED until baseline PASS and the entire registered native/cold pipeline. No negative/positive acceptance before cold baseline. Search cap/targets unchanged.
+
+## Prospective mixed-charge arithmetic amendment B
+
+Extend analytic truncated charging to disjoint selected heavyK8 noncut cores (weight7,demand13,charge4), heavyC11 endblock paths (10,7,4), heavyC9 endblock paths (8,3,2), whole heavyC9 components (9,5,3), and whole heavyC7 components (7,1,1). Odd-type supports choose an actual independent high pair, local demands from CLM0055. They may overlap arbitrarily across types; degree supplies sum weights*r<=q+12. Check the pointwise fractional truncated-charge inequality for q0..15 by TWO independent exact methods: Cartesian multiplicities0..3 for five types and integer unbounded knapsack with capacityq+12. Use integer scaling1365=lcm(13,7,3,5,1) for exact comparisons, no floating tolerances. Forq>=16 prove all truncatedcharge/weight<=4/7 and4(q+12)/7<=q analytically. All q0..15/capacities/finitevectors enumerated, no source symmetry or SAT. One supervised180/hard200s worker, only when at most one other mathematical lane is active; observed script/input/native hashes and snapshots before launch. This is a finite arithmetic lemma plus all-order proof, not a graph classification/headline theorem. Retain exact maxima/witness vectors, independently compare; any discrepancy blocks claim acceptance.

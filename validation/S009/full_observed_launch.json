@@ -1,0 +1,49 @@
+{
+ "as_of_utc": "2026-10-14T12:34:24.051594+00:00",
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_run.py",
+  "full"
+ ],
+ "hard_cap": 14400,
+ "sha256": {
+  "campaigns/CAM-0010.md": "d9529715ecd16ebc8cc1d4dbe33398bf90cc26b7685425bea9f5b493cfaf0b75",
+  "tools/blowup_chi_cnf.py": "8c22cdb2f4b823d7ce06a12587d7c500ea2c2cb143669ffdf0ec4d499f503297",
+  "tools/blowup_graph.py": "ca164c97202b34d636ad722888650ebce107c0141c4bfb98cfe52ae36ae2221e",
+  "tools/check_layers.py": "3adbaf830378d5c17372d0a406aae97327a257b0a29bf83d72faded1ad65df98",
+  "tools/check_rotation.py": "4dcd9e7f5cc095dab9174e45908b97b39d062d19c0a3aaded0d406a223922802",
+  "tools/s005_replay.py": "71685e2d0e51f3e5c31d436cad81359c00f784caa473a80e50000b724a514c4d",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "tools/s006_run.py": "12e8d97a3fa3da2562935a8c424263abf705ceb7e04e17e06739b521716ebb68",
+  "tools/s007_cover.py": "9824790a7b744483d74a14974f04e0cdb6a152c602016eceb89da259dc48d9fa",
+  "tools/s007_run.py": "018f8940b3529a52822568d2f2c905be838afa137e8127971641521f82c2bbf5",
+  "tools/s008_cover.py": "a71a101a418b2833930db918e0f0c183d41263c645c5d11a93ad31a0a14283a6",
+  "tools/s008_tree.py": "a0dd9e2fcc88f2de3722e36e2bd8ea49b7ba35ddc93e475aa6c95358ee317ec0",
+  "tools/s009_after_baseline.py": "d78ab64996795927f24f60d865651c36de62da25716f3f0e44f0e4d62c22dab2",
+  "tools/s009_catalogues.py": "b5de349e3ad023cb3676998a6dd6c2f54738476b294200c526ac009cfbb91464",
+  "tools/s009_entry.py": "63667962800de5e21e9eec78ba576832f7fca698c023cf989e4afcf09590ce16",
+  "tools/s009_finalize.py": "258a49d9e640095c166cd774342203b7761eee7e5b583fd5bfa780b64f8633e1",
+  "tools/s009_heavy_cover.py": "993ef845a11aafd692a97b6f0687ac8cc7dde435a4ef0598e5d4df8af92cc975",
+  "tools/s009_injection.py": "0edf9fcf26c70a56e0070025a53c76300786bc371a9a1d65c23a31b6acdab5e4",
+  "tools/s009_launch.py": "bcd00aa7a9d4599cbe3766a7176889b54114d82f6d6562cf14bf566e76e006b4",
+  "tools/s009_local_transfer.py": "037b6d3af174be104fa0bc07782d2b815d47ac0f883279abf076a1eec9a4c0c6",
+  "tools/s009_map_stage.py": "cc37dc1fa7b80b8e0a2ac13d03db2dfa6114adeaaf99ca3727a08986860d51a2",
+  "tools/s009_mixed_charge.py": "15e9233b8270c33e6d47d521d05ae0c45f3e23eb21853f8cd4cb2df6836c7899",
+  "tools/s009_run.py": "eb35b228f120cc09a7cd9801eb97bce6ea2b95deb19df063363df12d6a41190f",
+  "tools/s009_sources.py": "02edb484b9628f2a36c7127ca5f512ea3a02dc1a15a319edd3d5f0921d6ff3da",
+  "tools/s009_stage.py": "6a746cef34940fcce85b11c0876e5151c111ff69aca315a28cc416dce34a200c",
+  "tools/triangulation_cover.py": "e001847b91bede689cd84b4b7d049c5b92df46ed9be4e0805aee679e13df9194",
+  "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+  "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+  "validation/S008/SUMMARY.json": "1429efa54b958b56f381b26a700f65a25054a681a1f1d386dfe73b13dd81eaf7"
+ },
+ "native_sha256": {
+  "cadical.exe": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+  "drat-trim-mingw.exe": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "libc++.dll": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b",
+  "libunwind.dll": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780",
+  "libwinpthread-1.dll": "7658f9e5e89213af287d342c554b8abcb5b2700b4a44d02184b56004b104ceec"
+ },
+ "snapshots": "validation\\S009\\launch_snapshots\\full",
+ "grade": "OBSERVED_BEFORE_LAUNCH"
+}

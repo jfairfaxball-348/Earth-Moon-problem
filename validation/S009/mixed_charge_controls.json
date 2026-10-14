@@ -1,0 +1,288 @@
+{
+ "types": [
+  [
+   "K8-end",
+   7,
+   13,
+   4
+  ],
+  [
+   "C11-end",
+   10,
+   7,
+   4
+  ],
+  [
+   "C9-end",
+   8,
+   3,
+   2
+  ],
+  [
+   "C9-whole",
+   9,
+   5,
+   3
+  ],
+  [
+   "C7-whole",
+   7,
+   1,
+   1
+  ]
+ ],
+ "scale": 1365,
+ "q_domain": [
+  0,
+  15
+ ],
+ "multiplicity_domain": [
+  0,
+  3
+ ],
+ "cartesian_vectors_checked": 16384,
+ "rows": [
+  {
+   "q": 0,
+   "capacity": 12,
+   "best_scaled": 0,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 6,
+   "independent_knapsack_scaled": 0
+  },
+  {
+   "q": 1,
+   "capacity": 13,
+   "best_scaled": 1365,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "admissible_vectors": 6,
+   "independent_knapsack_scaled": 1365
+  },
+  {
+   "q": 2,
+   "capacity": 14,
+   "best_scaled": 2730,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "admissible_vectors": 9,
+   "independent_knapsack_scaled": 2730
+  },
+  {
+   "q": 3,
+   "capacity": 15,
+   "best_scaled": 4095,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "admissible_vectors": 11,
+   "independent_knapsack_scaled": 4095
+  },
+  {
+   "q": 4,
+   "capacity": 16,
+   "best_scaled": 5460,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "admissible_vectors": 14,
+   "independent_knapsack_scaled": 5460
+  },
+  {
+   "q": 5,
+   "capacity": 17,
+   "best_scaled": 6825,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "admissible_vectors": 17,
+   "independent_knapsack_scaled": 6825
+  },
+  {
+   "q": 6,
+   "capacity": 18,
+   "best_scaled": 8190,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "admissible_vectors": 19,
+   "independent_knapsack_scaled": 8190
+  },
+  {
+   "q": 7,
+   "capacity": 19,
+   "best_scaled": 9555,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "admissible_vectors": 20,
+   "independent_knapsack_scaled": 9555
+  },
+  {
+   "q": 8,
+   "capacity": 20,
+   "best_scaled": 10920,
+   "scale": 1365,
+   "witness_multiplicities": [
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 21,
+   "independent_knapsack_scaled": 10920
+  },
+  {
+   "q": 9,
+   "capacity": 21,
+   "best_scaled": 11340,
+   "scale": 1365,
+   "witness_multiplicities": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 25,
+   "independent_knapsack_scaled": 11340
+  },
+  {
+   "q": 10,
+   "capacity": 22,
+   "best_scaled": 12600,
+   "scale": 1365,
+   "witness_multiplicities": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 28,
+   "independent_knapsack_scaled": 12600
+  },
+  {
+   "q": 11,
+   "capacity": 23,
+   "best_scaled": 13860,
+   "scale": 1365,
+   "witness_multiplicities": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 33,
+   "independent_knapsack_scaled": 13860
+  },
+  {
+   "q": 12,
+   "capacity": 24,
+   "best_scaled": 15540,
+   "scale": 1365,
+   "witness_multiplicities": [
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 39,
+   "independent_knapsack_scaled": 15540
+  },
+  {
+   "q": 13,
+   "capacity": 25,
+   "best_scaled": 16380,
+   "scale": 1365,
+   "witness_multiplicities": [
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 44,
+   "independent_knapsack_scaled": 16380
+  },
+  {
+   "q": 14,
+   "capacity": 26,
+   "best_scaled": 16380,
+   "scale": 1365,
+   "witness_multiplicities": [
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 48,
+   "independent_knapsack_scaled": 16380
+  },
+  {
+   "q": 15,
+   "capacity": 27,
+   "best_scaled": 16380,
+   "scale": 1365,
+   "witness_multiplicities": [
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "admissible_vectors": 52,
+   "independent_knapsack_scaled": 16380
+  }
+ ],
+ "verdict": "PASS",
+ "large_q": "ANALYTIC_NOT_ENUMERATED"
+}

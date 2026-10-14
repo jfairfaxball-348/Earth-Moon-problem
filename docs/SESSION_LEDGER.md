@@ -10,4 +10,6 @@
 | S006 | 2026-10-13 | Fixed19 targets, cold replay, critical density/palettes | 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].9..12 unchanged | COMPLETE; PR#6/two-parent merge/checks verified on S007 entry |
 | S007 | 2026-10-13 | Stronger D2/full-global/heavy encodings and critical palettes | S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].9..12 unchanged | COMPLETE; PR#7/two-parent merge/actual head and main jobs verified on S008 entry |
 | S008 | 2026-10-14 | Full-layer Kuratowski/tree encodings and shared critical support | S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN.9..12 unchanged | MATHEMATICS COMPLETE; outgoing integration verify live |
-| S009 | Future | Full-layer decisions and simultaneous exterior colours | None yet | FUTURE UNEXECUTED |
+| S009 | 2026-10-14 | General injections/full layers/mixed support and colours | S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN.9..12 unchanged | MATHEMATICS COMPLETE; outgoing integration verify live |
+
+| S010 | Future | Strategic reset and proof/construction frontier | None yet | FUTURE UNEXECUTED |

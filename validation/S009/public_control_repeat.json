@@ -1,0 +1,5295 @@
+[
+ {
+  "tag": "control-00",
+  "edge_sha256": "441921d6d154d542d9420a95b3b9574e262668a0939c7d0336539da715f182f6",
+  "split_sha256": "1c76f443693b3ba57b5c2f0faa3268cec96803f82c28739f430ee1ca4ef9e0c3",
+  "pin": {
+   "n": 5,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    6,
+    6
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 15,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 1,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-01",
+  "edge_sha256": "3c76615e05a57eee33b0edcbe27342847a4d5c8e6b98a80d3639102612d4b4d7",
+  "split_sha256": "fc2db734b80200a804e716dbc0d1fcc4f5ceb810a1ffb88a7556daebf823b00c",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-02",
+  "edge_sha256": "92c07c0b61fdcbeb5dfba3f9c155f7a29de485113ac236cfbb79aef94272a71a",
+  "split_sha256": "6631167db22d5e0bfb73d56442385c81bb6e59e55c596e7890d03d0a9d63c5de",
+  "pin": {
+   "n": 8,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      5,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      7
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      0,
+      4,
+      7
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      4,
+      7
+     ],
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      4,
+      5,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      1,
+      7
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      5
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      0,
+      6,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      6
+     ],
+     [
+      1,
+      6,
+      7
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    12,
+    12
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ],
+    "subset_count": 218,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 14232,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 56,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 280
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-03",
+  "edge_sha256": "9c8bda71e07f5c6ecf225644a65a3c0865ea3bd9957a2afa7dc0eeabec878b90",
+  "split_sha256": "3fd5e8499c8c26113fcb0884c754df8d4a0b5c066fd682b800ce4c0a3f320a6e",
+  "pin": {
+   "n": 8,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      7
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      6,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      5
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      5,
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      1,
+      7
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      5
+     ],
+     [
+      1,
+      4,
+      6
+     ],
+     [
+      1,
+      5,
+      7
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    12,
+    12
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ],
+    "subset_count": 218,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 14232,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 56,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 280
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-04",
+  "edge_sha256": "3c76615e05a57eee33b0edcbe27342847a4d5c8e6b98a80d3639102612d4b4d7",
+  "split_sha256": "fc2db734b80200a804e716dbc0d1fcc4f5ceb810a1ffb88a7556daebf823b00c",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-05",
+  "edge_sha256": "b68fb7de3d4c450107307a6d055e1d97e292335557965c26edfc710d3104e6dd",
+  "split_sha256": "70ee8e29e12764b1032a98e439c2c6861efb5bfffc4b6d7c39fed7d246171328",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-06",
+  "edge_sha256": "3c76615e05a57eee33b0edcbe27342847a4d5c8e6b98a80d3639102612d4b4d7",
+  "split_sha256": "fc2db734b80200a804e716dbc0d1fcc4f5ceb810a1ffb88a7556daebf823b00c",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-07",
+  "edge_sha256": "3c76615e05a57eee33b0edcbe27342847a4d5c8e6b98a80d3639102612d4b4d7",
+  "split_sha256": "fc2db734b80200a804e716dbc0d1fcc4f5ceb810a1ffb88a7556daebf823b00c",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-08",
+  "edge_sha256": "b9142af063584e79deb29bd0a7652fe179ae720fec103607a884c6bb174ca606",
+  "split_sha256": "5a5457bff3090ca7fd9943623046fa8365ffc027ef34447a0877c235ad7771d9",
+  "pin": {
+   "n": 5,
+   "completion_edges": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    6,
+    6
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "subset_count": 5,
+    "input_K5_count": 1,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 1,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-09",
+  "edge_sha256": "3c76615e05a57eee33b0edcbe27342847a4d5c8e6b98a80d3639102612d4b4d7",
+  "split_sha256": "fc2db734b80200a804e716dbc0d1fcc4f5ceb810a1ffb88a7556daebf823b00c",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-10",
+  "edge_sha256": "557118a9efb1ea00aa314f9c4b8e321afe1bfd414e1b792b965fdbbbbe2149f9",
+  "split_sha256": "a21424a4544041ebcf9226e72642889743e900536610d0f81f0886e40834bca8",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2
+     ],
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-11",
+  "edge_sha256": "cbe44baba74ae38a83f8fc52dbba2039a87fb1d2907a8a9935f3088b2d69ed33",
+  "split_sha256": "b6f49684f91ebb4366e1b39d5dbf767dd75738226051a6c58936de24fc53af22",
+  "pin": {
+   "n": 8,
+   "completion_edges": [
+    [
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      7
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      6,
+      7
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      2,
+      7
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      1,
+      6,
+      7
+     ],
+     [
+      2,
+      5,
+      7
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      5,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      2,
+      5
+     ],
+     [
+      0,
+      2,
+      6
+     ],
+     [
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      4,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      6
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      2,
+      4,
+      5
+     ],
+     [
+      2,
+      4,
+      7
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    12,
+    12
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      5
+     ],
+     [
+      1
+     ],
+     [
+      2,
+      6,
+      7
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 28,
+    "input_K5_count": 13,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 6236,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 56,
+     "K33": 82
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 280
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-12",
+  "edge_sha256": "b9142af063584e79deb29bd0a7652fe179ae720fec103607a884c6bb174ca606",
+  "split_sha256": "5a5457bff3090ca7fd9943623046fa8365ffc027ef34447a0877c235ad7771d9",
+  "pin": {
+   "n": 5,
+   "completion_edges": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    6,
+    6
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "subset_count": 5,
+    "input_K5_count": 1,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 1,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-13",
+  "edge_sha256": "5d98c6cf490e82d2eea3ca7ec8fded879446ba25f03ad4169ba4e9423bc0880e",
+  "split_sha256": "e3ee7beea5a693e3c3108d080acbdc94aa25dcfd65745d0b6247165eb23e6539",
+  "pin": {
+   "n": 7,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      5,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      6
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      2,
+      3,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      6
+     ],
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      4,
+      5
+     ],
+     [
+      2,
+      4,
+      6
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    10,
+    10
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ],
+    "subset_count": 98,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2352,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 21,
+     "K33": 1
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 70
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-14",
+  "edge_sha256": "da7894995a2a0da9eaaf52a62e794a1879ade15e2630dc94ac6fbafc65ba2f83",
+  "split_sha256": "245bf1181d9d72f464bd04c3535396d8beb34a84992d4d1b52ecafc77c620b3a",
+  "pin": {
+   "n": 6,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      2,
+      3,
+      5
+     ],
+     [
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      4,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      5
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    8,
+    8
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2,
+      3,
+      4
+     ],
+     [
+      1
+     ],
+     [
+      5
+     ]
+    ],
+    "subset_count": 7,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 16,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 6,
+     "K33": 4
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 10
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-15",
+  "edge_sha256": "56d8225045401356795fbb90b4cb61c8e4cfec8997c7276461a95c9dc1908d8a",
+  "split_sha256": "22f7c8edf0edeef844a7c3d86d4aec2a6650a6b16deb3e2f7261ea1a25b23527",
+  "pin": {
+   "n": 6,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      4,
+      5
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      3,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      4,
+      5
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    8,
+    8
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 21,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 12,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 6,
+     "K33": 2
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 10
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-16",
+  "edge_sha256": "b68fb7de3d4c450107307a6d055e1d97e292335557965c26edfc710d3104e6dd",
+  "split_sha256": "70ee8e29e12764b1032a98e439c2c6861efb5bfffc4b6d7c39fed7d246171328",
+  "pin": {
+   "n": 4,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    4,
+    4
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 0,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-17",
+  "edge_sha256": "cd6a000db4aa4c17ce030f1633e67740cfd67ecedda48f4e529425f00e2decd7",
+  "split_sha256": "4aaa32838fd15220c7ef028957b85b4a28c9d1cd53ebe3cae8fe206dd4a7921e",
+  "pin": {
+   "n": 6,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      5
+     ],
+     [
+      1,
+      3,
+      5
+     ],
+     [
+      2,
+      3,
+      4
+     ],
+     [
+      2,
+      4,
+      5
+     ],
+     [
+      3,
+      4,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      3,
+      5
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    8,
+    8
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2,
+      3,
+      5
+     ],
+     [
+      1
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 7,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 16,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 6,
+     "K33": 4
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 10
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-18",
+  "edge_sha256": "742593d8f068ee74f56bb95204ea42253e0fc8ddb35dca541c9ebe07497914ca",
+  "split_sha256": "6f1a2c0fc8a0124a0db2a87672c88d8afb51c37ac015aee9037b7758f5e4be16",
+  "pin": {
+   "n": 5,
+   "completion_edges": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      3,
+      4
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      4
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    6,
+    6
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 15,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 1,
+     "K33": 0
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 0
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-19",
+  "edge_sha256": "70f020d4dd294c056ef34956c7a8b06c2ef9c73daf344e5c61e4788dcd90ad30",
+  "split_sha256": "b335b091c85db172160d5e01292a2f6a1683babb0e4a6ffc580cbc37b56f7a4c",
+  "pin": {
+   "n": 8,
+   "completion_edges": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      7
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      7
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      6
+     ],
+     [
+      1,
+      6,
+      7
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      5,
+      7
+     ],
+     [
+      3,
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      4
+     ],
+     [
+      0,
+      1,
+      7
+     ],
+     [
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      2,
+      6
+     ],
+     [
+      0,
+      3,
+      7
+     ],
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      3,
+      7
+     ],
+     [
+      1,
+      4,
+      5
+     ],
+     [
+      2,
+      5,
+      6
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    12,
+    12
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      7
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ],
+    "subset_count": 106,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 10216,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 56,
+     "K33": 13
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 280
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-K8",
+  "edge_sha256": "c901d4c0bd7ffcefad06d29d00398916da0b1c0aae58a4c48fdc199423fe9d8c",
+  "split_sha256": "e7232abbc60d5d21288256ac086928b6f8a6a0d5890ad0993b594464600ee760",
+  "pin": {
+   "n": 8,
+   "completion_edges": [
+    [
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      7
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      4,
+      6
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      6,
+      7
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      7
+     ],
+     [
+      1,
+      3,
+      7
+     ],
+     [
+      2,
+      3,
+      6
+     ],
+     [
+      2,
+      6,
+      7
+     ],
+     [
+      3,
+      5,
+      6
+     ],
+     [
+      3,
+      5,
+      7
+     ],
+     [
+      4,
+      5,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      5
+     ],
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      2,
+      5
+     ],
+     [
+      0,
+      2,
+      7
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      3,
+      6
+     ],
+     [
+      0,
+      4,
+      7
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      3,
+      6
+     ],
+     [
+      2,
+      4,
+      7
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    12,
+    12
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    ],
+    "subset_count": 8,
+    "input_K5_count": 56,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 4992,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 56,
+     "K33": 280
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 280
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-sulanke",
+  "edge_sha256": "fb8e8c1fa2fc4f3a9cb9655ab4775b7a8d195aa06566152e2e61c49c00bbd99a",
+  "split_sha256": "49b4eaad856626562c44d4c39c2da5e66f984d7c92bb5a90cf6c3d74f8e038ef",
+  "pin": {
+   "n": 11,
+   "completion_edges": [
+    [
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      0,
+      9
+     ],
+     [
+      0,
+      10
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      8
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      4,
+      9
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      6,
+      8
+     ],
+     [
+      7,
+      9
+     ],
+     [
+      8,
+      10
+     ]
+    ],
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      8
+     ],
+     [
+      0,
+      9
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      1,
+      8
+     ],
+     [
+      1,
+      9
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      3,
+      9
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      9
+     ],
+     [
+      6,
+      9
+     ],
+     [
+      7,
+      10
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      0,
+      3,
+      10
+     ],
+     [
+      0,
+      4,
+      9
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      5,
+      10
+     ],
+     [
+      0,
+      7,
+      9
+     ],
+     [
+      1,
+      2,
+      6
+     ],
+     [
+      1,
+      2,
+      8
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      2,
+      5,
+      6
+     ],
+     [
+      2,
+      5,
+      8
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      6,
+      8
+     ],
+     [
+      3,
+      8,
+      10
+     ],
+     [
+      4,
+      5,
+      6
+     ],
+     [
+      4,
+      5,
+      7
+     ],
+     [
+      4,
+      7,
+      9
+     ],
+     [
+      5,
+      8,
+      10
+     ]
+    ],
+    [
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      0,
+      1,
+      8
+     ],
+     [
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      2,
+      9
+     ],
+     [
+      0,
+      4,
+      8
+     ],
+     [
+      0,
+      6,
+      9
+     ],
+     [
+      1,
+      3,
+      5
+     ],
+     [
+      1,
+      3,
+      7
+     ],
+     [
+      1,
+      4,
+      8
+     ],
+     [
+      1,
+      4,
+      10
+     ],
+     [
+      1,
+      5,
+      9
+     ],
+     [
+      1,
+      6,
+      9
+     ],
+     [
+      1,
+      7,
+      10
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      2,
+      3,
+      9
+     ],
+     [
+      2,
+      4,
+      10
+     ],
+     [
+      2,
+      7,
+      10
+     ],
+     [
+      3,
+      5,
+      9
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    18,
+    18
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ],
+    "subset_count": 53,
+    "input_K5_count": 181,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 57748,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 462,
+     "K33": 1860
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 4620
+   },
+   "primary_pin_check": "SAT"
+  }
+ },
+ {
+  "tag": "control-K9e",
+  "edge_sha256": "f5073d880066c324c5bee805e31094c6127a6c79cb0d5e8bf520279877786ff4",
+  "split_sha256": "6a435b7ebb165047a75fc1da5808479bb2323bba9726f87b9961023f9d6c6585",
+  "pin": {
+   "n": 9,
+   "completion_edges": [
+    [
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      0,
+      8
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      1,
+      8
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      8
+     ],
+     [
+      7,
+      8
+     ]
+    ],
+    [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      0,
+      8
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      5,
+      6
+     ]
+    ]
+   ],
+   "faces": [
+    [
+     [
+      0,
+      4,
+      5
+     ],
+     [
+      0,
+      4,
+      7
+     ],
+     [
+      0,
+      5,
+      8
+     ],
+     [
+      0,
+      6,
+      7
+     ],
+     [
+      0,
+      6,
+      8
+     ],
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      2,
+      8
+     ],
+     [
+      1,
+      3,
+      7
+     ],
+     [
+      1,
+      7,
+      8
+     ],
+     [
+      2,
+      3,
+      6
+     ],
+     [
+      2,
+      6,
+      8
+     ],
+     [
+      3,
+      6,
+      7
+     ],
+     [
+      4,
+      5,
+      7
+     ],
+     [
+      5,
+      7,
+      8
+     ]
+    ],
+    [
+     [
+      0,
+      2,
+      5
+     ],
+     [
+      0,
+      2,
+      7
+     ],
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      0,
+      3,
+      8
+     ],
+     [
+      0,
+      4,
+      7
+     ],
+     [
+      0,
+      4,
+      8
+     ],
+     [
+      1,
+      2,
+      4
+     ],
+     [
+      1,
+      2,
+      5
+     ],
+     [
+      1,
+      4,
+      6
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      2,
+      4,
+      7
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      4,
+      8
+     ],
+     [
+      3,
+      5,
+      6
+     ]
+    ]
+   ],
+   "independent_rotation_checks": [
+    14,
+    14
+   ],
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    ],
+    "subset_count": 10,
+    "input_K5_count": 91,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 10062,
+    "s008_version": "completion-K5-input-K33-v1",
+    "s008_counts": {
+     "K5": 126,
+     "K33": 630
+    },
+    "s008_cardinality": "pysat-totalizer-v1",
+    "s009_version": "all-completion-K33-v1",
+    "completion_K33_count": 840
+   },
+   "primary_pin_check": "SAT"
+  }
+ }
+]

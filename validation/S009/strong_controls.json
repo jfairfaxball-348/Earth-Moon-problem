@@ -1,0 +1,2492 @@
+[
+ {
+  "tag": "control-00",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-00.edges",
+    "artifacts\\tmp\\S009\\strong-control-00",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7659999999996217,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 25784320
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 218,
+   "clauses": 542,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 15,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 5,
+   "E1": [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-01",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-01.edges",
+    "artifacts\\tmp\\S009\\strong-control-01",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7809999999999491,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 28205056
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-02",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-02.edges",
+    "artifacts\\tmp\\S009\\strong-control-02",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.875,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 35975168
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.06300000000010186,
+   "cuts": 0,
+   "variables": 6343,
+   "clauses": 12220,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ],
+    "subset_count": 218,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 6376
+   }
+  },
+  "split": {
+   "n": 8,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "E2": [
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-03",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-03.edges",
+    "artifacts\\tmp\\S009\\strong-control-03",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7820000000001528,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 30674944
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 2,
+   "seconds": 0.015000000000327418,
+   "cuts": 12,
+   "variables": 6625,
+   "clauses": 12832,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ],
+    "subset_count": 218,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 6376
+   }
+  },
+  "split": {
+   "n": 8,
+   "E1": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-04",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-04.edges",
+    "artifacts\\tmp\\S009\\strong-control-04",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8910000000005311,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 26841088
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-05",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-05.edges",
+    "artifacts\\tmp\\S009\\strong-control-05",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7649999999994179,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 26427392
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 62,
+   "clauses": 222,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-06",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-06.edges",
+    "artifacts\\tmp\\S009\\strong-control-06",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7659999999996217,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 31072256
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-07",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-07.edges",
+    "artifacts\\tmp\\S009\\strong-control-07",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7809999999999491,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 31760384
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-08",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-08.edges",
+    "artifacts\\tmp\\S009\\strong-control-08",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8910000000005311,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 31719424
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01599999999962165,
+   "cuts": 0,
+   "variables": 238,
+   "clauses": 624,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "subset_count": 5,
+    "input_K5_count": 1,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2
+   }
+  },
+  "split": {
+   "n": 5,
+   "E1": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-09",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-09.edges",
+    "artifacts\\tmp\\S009\\strong-control-09",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.875,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 26034176
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.015000000000327418,
+   "cuts": 0,
+   "variables": 100,
+   "clauses": 336,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-10",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-10.edges",
+    "artifacts\\tmp\\S009\\strong-control-10",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7809999999999491,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 32043008
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.016000000000531145,
+   "cuts": 0,
+   "variables": 53,
+   "clauses": 195,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2
+     ],
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-11",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-11.edges",
+    "artifacts\\tmp\\S009\\strong-control-11",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8899999999994179,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 27111424
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.04700000000048021,
+   "cuts": 0,
+   "variables": 4321,
+   "clauses": 8648,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      5
+     ],
+     [
+      1
+     ],
+     [
+      2,
+      6,
+      7
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 28,
+    "input_K5_count": 13,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 3276
+   }
+  },
+  "split": {
+   "n": 8,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-12",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-12.edges",
+    "artifacts\\tmp\\S009\\strong-control-12",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7659999999996217,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 26836992
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 238,
+   "clauses": 624,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    "subset_count": 5,
+    "input_K5_count": 1,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2
+   }
+  },
+  "split": {
+   "n": 5,
+   "E1": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-13",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-13.edges",
+    "artifacts\\tmp\\S009\\strong-control-13",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7809999999999491,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 32841728
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01599999999962165,
+   "cuts": 0,
+   "variables": 2059,
+   "clauses": 4128,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ],
+    "subset_count": 98,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 924
+   }
+  },
+  "split": {
+   "n": 7,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "E2": [
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-14",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-14.edges",
+    "artifacts\\tmp\\S009\\strong-control-14",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8899999999994179,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 32235520
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.016000000000531145,
+   "cuts": 0,
+   "variables": 754,
+   "clauses": 1638,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2,
+      3,
+      4
+     ],
+     [
+      1
+     ],
+     [
+      5
+     ]
+    ],
+    "subset_count": 7,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 16
+   }
+  },
+  "split": {
+   "n": 6,
+   "E1": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-15",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-15.edges",
+    "artifacts\\tmp\\S009\\strong-control-15",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8900000000003274,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 32292864
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.04699999999957072,
+   "cuts": 0,
+   "variables": 877,
+   "clauses": 1990,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 21,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 12
+   }
+  },
+  "split": {
+   "n": 6,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     3
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-16",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-16.edges",
+    "artifacts\\tmp\\S009\\strong-control-16",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7809999999999491,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 30777344
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.0,
+   "cuts": 0,
+   "variables": 62,
+   "clauses": 222,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "subset_count": 4,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 4,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "E2": []
+  }
+ },
+ {
+  "tag": "control-17",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-17.edges",
+    "artifacts\\tmp\\S009\\strong-control-17",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.8119999999998981,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 30793728
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.016000000000531145,
+   "cuts": 0,
+   "variables": 754,
+   "clauses": 1638,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      2,
+      3,
+      5
+     ],
+     [
+      1
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 7,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 16
+   }
+  },
+  "split": {
+   "n": 6,
+   "E1": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-18",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-18.edges",
+    "artifacts\\tmp\\S009\\strong-control-18",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7820000000001528,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 31997952
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01599999999962165,
+   "cuts": 0,
+   "variables": 218,
+   "clauses": 542,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ]
+    ],
+    "subset_count": 15,
+    "input_K5_count": 0,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 0
+   }
+  },
+  "split": {
+   "n": 5,
+   "E1": [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-19",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "artifacts\\tmp\\S009\\replay\\control-19.edges",
+    "artifacts\\tmp\\S009\\strong-control-19",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.875,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 30679040
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.014999999999417923,
+   "cuts": 0,
+   "variables": 5269,
+   "clauses": 10268,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      7
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ],
+    "subset_count": 106,
+    "input_K5_count": 2,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 4808
+   }
+  },
+  "split": {
+   "n": 8,
+   "E1": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-K8",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S003\\splits\\K8.edges",
+    "artifacts\\tmp\\S009\\strong-control-K8",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 0.7820000000001528,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 28205056
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 0.01599999999962165,
+   "cuts": 0,
+   "variables": 3988,
+   "clauses": 8208,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    ],
+    "subset_count": 8,
+    "input_K5_count": 56,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 2848
+   }
+  },
+  "split": {
+   "n": 8,
+   "E1": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-sulanke",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S003\\splits\\sulanke.edges",
+    "artifacts\\tmp\\S009\\strong-control-sulanke",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 14.219000000000051,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 70455296
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 6,
+   "seconds": 13.311999999999898,
+   "cuts": 68,
+   "variables": 30394,
+   "clauses": 61818,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ],
+    "subset_count": 53,
+    "input_K5_count": 181,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 43830
+   }
+  },
+  "split": {
+   "n": 11,
+   "E1": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "control-K9e",
+  "command": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s007_cover.py",
+    "validation\\S003\\splits\\K9e.edges",
+    "artifacts\\tmp\\S009\\strong-control-K9e",
+    "30",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 1.0,
+   "hard_cap": 50,
+   "observed_peak_tree_private_bytes": 39219200
+  },
+  "result": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 3,
+   "seconds": 0.17199999999957072,
+   "cuts": 27,
+   "variables": 7353,
+   "clauses": 15079,
+   "static": {
+    "version": "S007-subsets-K5-Dle2-v1",
+    "groups": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ]
+    ],
+    "subset_count": 10,
+    "input_K5_count": 91,
+    "distinct_faces_enabled": false,
+    "extra_clauses": 6860
+   }
+  },
+  "split": {
+   "n": 9,
+   "E1": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ]
+   ]
+  }
+ }
+]

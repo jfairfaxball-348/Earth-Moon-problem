@@ -28,3 +28,7 @@ S007 manifest/SUMMARY retain exact scopes and launch versions; S008 FUTURE/UNEXE
 | [CAM-0009](CAM-0009.md) | S008 two fixed full-layer lanes, cold proofs, shared-support/palette controls | S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN.9..12 unchanged |
 
 S008 manifest/SUMMARY retain distinct lane scopes; S009 FUTURE/UNEXECUTED.
+
+| [CAM-0010](CAM-0010.md) | S009 general injections/full D2/stronger heavy/mixed charges and equality lists | S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN.9..12 unchanged |
+
+S009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.

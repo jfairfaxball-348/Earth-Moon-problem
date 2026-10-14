@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-13): UNSOLVED; S005 mathematics complete, 25 additional finite exclusions, 245 listed candidates UNKNOWN; bounds still 9..12.**
+**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-14): UNSOLVED; S009 mathematics complete. S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Bounds9..12 unchanged.**
 
 ## Exact target
 
@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S008 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S010 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -96,3 +96,12 @@ Only throughS007 executed; S008 FUTURE/UNEXECUTED. Headline9..12, novelty/formal
 - [No-spare extension](research/S008_NO_SPARE.md): exact simultaneous core extension criterion; no universal upper improvement.
 
 Only through S008 executed; S009 FUTURE/UNEXECUTED. Headline9..12 and all downstream gates unchanged. Historical future labels superseded only through S008.
+
+## S009 results
+
+- [Full obstruction audit](research/S009_CONSTRUCTION.md): S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN.
+- The checked K7 joined to independent5 obstruction implies that every seven-clique in a finite simple biplanar graph has at most four common outside neighbours, excluding the specified heavy K8 endblocks. This does not lower the universal colouring bound.
+- [Global/mixed excess](research/S009_GLOBAL_CHARGE.md): arbitrary overlap charged once, stronger full-block Euler support expansion.
+- [Simultaneous colours](research/S009_SIMULTANEOUS_COLOURS.md): exact equality-quotient/list reformulation and failure of pairwise/tree feasibility.
+
+Only through S009 executed; S010 FUTURE/UNEXECUTED. Headline9..12 and downstream gates unchanged. Historical future labels superseded throughS009.

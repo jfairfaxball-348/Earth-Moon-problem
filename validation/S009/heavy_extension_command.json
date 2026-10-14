@@ -1,0 +1,11 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_extend_heavy.py",
+  "worker"
+ ],
+ "returncode": 0,
+ "seconds": 1417.0149999999994,
+ "hard_cap": 4800,
+ "observed_peak_tree_private_bytes": 1723588608
+}

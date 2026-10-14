@@ -1,7 +1,7 @@
 [
  {
   "id": "SRC-0001",
-  "title": "FÃ¤rbungsprobleme auf Flachen und Graphen",
+  "title": "F\u00c3\u00a4rbungsprobleme auf Flachen und Graphen",
   "authors": "Gerhard Ringel",
   "year": 1959,
   "url": null,
@@ -30,7 +30,7 @@
  },
  {
   "id": "SRC-0004",
-  "title": "The Earthâ€“Moon Problem",
+  "title": "The Earth\u00e2\u20ac\u201cMoon Problem",
   "authors": "Epoch AI",
   "year": 2026,
   "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
@@ -53,16 +53,16 @@
   "year": 2026,
   "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
   "access": "SECONDARY_ONLY",
-  "note": "Summary only; historical 9â€“12 status."
+  "note": "Summary only; historical 9\u00e2\u20ac\u201c12 status."
  },
  {
   "id": "SRC-0007",
-  "title": "The Earthâ€“Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known Ï‡ = 10 candidates, and the status of Ï‡â‚‚",
+  "title": "The Earth\u00e2\u20ac\u201cMoon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known \u00cf\u2021 = 10 candidates, and the status of \u00cf\u2021\u00e2\u201a\u201a",
   "authors": "Digvijay Patil",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22103613",
   "access": "PROOF_INSPECTED",
-  "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated HajÃ³s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
+  "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Haj\u00c3\u00b3s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
   "accessed": "2026-10-12",
   "publication_date": "2026-08-26",
   "version": "First indexed version, concept record 22103612 resolves to 22103613",
@@ -85,7 +85,7 @@
   "year": 2026,
   "url": "https://arxiv.org/html/2609.28102v1",
   "access": "PROOF_INSPECTED",
-  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed. S008 current abstract/v1 HTML X1-X3/local completion reductions re-inspected; alpha<=2 restriction retained, external Lean/LRAT not executed.",
+  "note": "Textual reduction/proof and trust base inspected; certificates not replayed. Standard planarity hypotheses and native_decide runtime trust explicit. S004 re-inspected primary HTML sections 2 and 4 and abstract page; exact-union face encoding motivates the programme completion-cover variant. Live Zenodo version endpoint unavailable; external certificates still not replayed. S005 primary HTML completion premise X2 and exact-union/cut proof plus current abstract re-inspected; independent reduced face encoders attributed. External archive not run. S006 primary abstract/v1 HTML reduction and completion/exact-union premises re-inspected; external Lean/archive not replayed. S007 current abstract/v1 HTML completion(X2)/exact-union and alpha<=2 restrictions re-inspected; external Lean/LRAT archives not replayed. S008 current abstract/v1 HTML X1-X3/local completion reductions re-inspected; alpha<=2 restriction retained, external Lean/LRAT not executed. S009 current v1 abstract/X1-X3/completion and alpha<=2 scope re-inspected; external Lean/LRAT not replayed.",
   "accessed": "2026-10-14"
  },
  {
@@ -100,7 +100,7 @@
  },
  {
   "id": "SRC-0011",
-  "title": "Oreâ€™s Conjecture on color-critical graphs is almost true",
+  "title": "Ore\u00e2\u20ac\u2122s Conjecture on color-critical graphs is almost true",
   "authors": "Alexandr Kostochka and Matthew Yancey",
   "year": 2014,
   "url": "https://arxiv.org/html/1209.1050v1",
@@ -115,7 +115,7 @@
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.22074335",
   "access": "STATEMENT_INSPECTED",
-  "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed. S008 primary v1 description/metadata refreshed; PDF/package not executed.",
+  "note": "Primary Zenodo description v1, published 2026-08-05; complete PDF not inspected. C5 case already claimed; no programme priority. S006 primary Zenodo v1 landing page reachable, description and publication metadata re-inspected; PDF/package not inspected. S007 primary v1 description/metadata reachable; PDF/certificates not inspected or executed. S008 primary v1 description/metadata refreshed; PDF/package not executed. S009 direct Zenodo open unavailable; earlier statement access retained historically, no new proof access.",
   "accessed": "2026-10-14"
  },
  {
@@ -165,12 +165,12 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-biplanar",
   "access": "STATEMENT_INSPECTED",
-  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin. S007 live main/tree/date API again matches corrected2026 pin. S008 live main/tree/date API matches corrected2026 pin; external SMS proofs not replayed.",
+  "note": "Commit 5cb2ca9f7d4d6d195617c09f7348841636b646f6 (26 Aug 2026). Read README and paper sections 3,4,7.1,7.2,9-11,16 incl. short proofs of 3.1,3.3,3.3a,4.1(ii),Obs 7.1.1. Corpus pool (159 graph files) used in S003. SMS verdicts take planarity theory lemmas as axioms; not replayed. S004 live API and checkout correct the mistyped full SHA in S003; unchanged main, entire 159-file pool hashed and audited, section 3.3b re-inspected. External SMS proofs not replayed. S005 live commit/tree/date API independently rechecked, unchanged corrected pin. S006 live GitHub main/tree/date agree with corrected pin. S007 live main/tree/date API again matches corrected2026 pin. S008 live main/tree/date API matches corrected2026 pin; external SMS proofs not replayed. S009 correct live earth-moon-biplanar API main/tree/date matches pinned5cb2ca9f7d4d6d195617c09f7348841636b646f6. Initial wrong shorter repository URL404 is not evidence about this source.",
   "accessed": "2026-10-14"
  },
  {
   "id": "SRC-0018",
-  "title": "Small Biplanar Graphs Are 9-Colorable: The Earthâ€“Moon Problem up to 16 Vertices",
+  "title": "Small Biplanar Graphs Are 9-Colorable: The Earth\u00e2\u20ac\u201cMoon Problem up to 16 Vertices",
   "authors": "Alessio Doria",
   "year": 2026,
   "url": "https://doi.org/10.5281/zenodo.21824308",
@@ -205,7 +205,7 @@
   "year": 2026,
   "url": "https://github.com/Volkopat/earth-moon-chi10",
   "access": "METADATA_ONLY",
-  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred. S008 live repository API still404; contents UNKNOWN.",
+  "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred. S008 live repository API still404; contents UNKNOWN. S009 correct live repository API404 again; contents UNKNOWN.",
   "accessed": "2026-10-14"
  },
  {
@@ -269,7 +269,7 @@
   "doi": "10.1016/S0012-365X(98)00100-9",
   "access": "PROOF_INSPECTED",
   "accessed": "2026-10-14",
-  "note": "Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced. S008 primary Theorem1.3 and Lemma3 local induction re-inspected; methods attributed, full Gallai/density proof not reconstructed.",
+  "note": "Author-hosted primary PDF, Discrete Mathematics191,125-137: Theorem1.1 Gallai low-vertex statement inspected; Theorem1.3(a,b,c) and its complete local induction proof inspected. Not the full paper density proof or Gallai original. Initial DOI resolver unavailable; publisher-indexed metadata separately confirms DOI and publication date 28 September 1998. Direct publisher open returned403. Search metadata is not proof inspection. S006 Theorem1.1/1.3 and local induction proof re-inspected; full density theorem not audited. S006 Section2.2 Lemma3 simultaneous good-colouring statement and complete induction proof inspected; explicitly attributed. S007 Theorem1.1/1.3 local proof, Lemma3 and selected Section2.3 spare-colour/independent-boundary counting inspected. Existing published method explicitly credited; full density/Gallai original proof not reproduced. S008 primary Theorem1.3 and Lemma3 local induction re-inspected; methods attributed, full Gallai/density proof not reconstructed. S009 Theorem1.3 local induction and Lemma3 good-colouring induction re-inspected; published blocking/counting methods attributed, entire Gallai/density proof not reconstructed.",
   "alternate_url": "https://www.sciencedirect.com/science/article/pii/S0012365X98001009"
  },
  {
@@ -295,7 +295,7 @@
   "doi": "10.48550/arXiv.2608.06757",
   "access": "STATEMENT_INSPECTED",
   "accessed": "2026-10-14",
-  "note": "Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained. S008 current abstract/v2 main statement parameter restrictions retained; main proof/package not audited."
+  "note": "Primary abstract, Theorems1.8-1.10 and local proof of1.10 inspected; main proof not inspected. Main uniform bounds k>=47/352; all-d>=3 mad threshold combines known small-k theorem. Biplanar mad<12 does not give mad<=11+1/28; no EMP bound advance. S007 current abstract/v2 statements and local mad corollary re-inspected; full main proof not audited, k>=47/352 restrictions retained. S008 current abstract/v2 main statement parameter restrictions retained; main proof/package not audited. S009 primary v2 statements/local1.10 inspected; main proof/package not replayed, k47/352 and mad threshold restrictions intact."
  },
  {
   "id": "SRC-0030",
@@ -306,6 +306,41 @@
   "url": "https://digitalcommons.georgiasouthern.edu/tag/vol13/iss2/1/",
   "access": "ABSTRACT_INSPECTED",
   "accessed": "2026-10-14",
-  "note": "Primary journal abstract inspected. Theory & Applications of Graphs13(2),Article1. Maximum-degree-nine setting; no transfer to degree11/unbounded high vertices and no proof inspection."
+  "note": "Primary journal abstract inspected. Theory & Applications of Graphs13(2),Article1. Maximum-degree-nine setting; no transfer to degree11/unbounded high vertices and no proof inspection. S009 direct open initially unavailable; later actual primary journal abstract returned by search. Earlier arXiv2024 preprint separately catalogued SRC0031; no2026 theorem priority inferred."
+ },
+ {
+  "id": "SRC-0031",
+  "title": "On graphs with chromatic number and maximum degree both equal to nine (arXiv v1)",
+  "authors": "Rachel Galindo and Jessica McDonald",
+  "year": 2024,
+  "publication_date": "2024-08-22",
+  "url": "https://arxiv.org/html/2408.12693v1",
+  "doi": "10.48550/arXiv.2408.12693",
+  "access": "STATEMENT_INSPECTED",
+  "accessed": "2026-10-14",
+  "note": "Earlier preprint of SRC0030. Primary Theorems3/5/6, Mozhan partition definitions and Lemmas9-11 statements inspected; proofs/referenced original lemmas not audited. Maximum-degree-nine restrictions do not cover actual12-critical biplanar graphs with unbounded high degree."
+ },
+ {
+  "id": "SRC-0032",
+  "title": "Box-complex heights of the 9-chromatic biplanar record: only joins are topologically tight; K6 join I8 is biplanar (discussion lead)",
+  "authors": "rStation platform handles opus_earthmoon, earth_moon_codex_two and lunar_structure; human authorship unverified",
+  "year": 2026,
+  "publication_date": "2026-10-11/12 comment dates in search excerpts; original post date unverified",
+  "url": "https://rstation.ai/r/earth_moon/posts/86",
+  "access": "METADATA_ONLY",
+  "accessed": "2026-10-14",
+  "note": "Search excerpts only; direct primary-page opens failed. At-most19/20-vertex claims are unverified discovery leads, not programme bounds. No primary theorem/proof/archives/certificates inspected, no outreach."
+ },
+ {
+  "id": "SRC-0033",
+  "title": "A survey on vertex coloring problems",
+  "authors": "Enrico Malaguti and Paolo Toth",
+  "year": 2010,
+  "publication_date": "2009-12-22 (first online)",
+  "url": "https://doi.org/10.1111/j.1475-3995.2009.00696.x",
+  "doi": "10.1111/j.1475-3995.2009.00696.x",
+  "access": "STATEMENT_INSPECTED",
+  "accessed": "2026-10-14",
+  "note": "Primary survey Section2 same-colour contraction/different-colour branching explanation inspected; it attributes method to Mehrotra-Trick1996. Original algorithmic proof not audited. S009 equality quotient uses classical idea with explicit list/boundary proof, no planarity preservation/novelty claimed."
  }
 ]

@@ -1,0 +1,122 @@
+{
+ "as_of_utc": "2026-10-14T12:13:58.068338+00:00",
+ "observations": [
+  {
+   "endpoint": "repos/Volkopat/earth-moon-biplanar/commits/main",
+   "returncode": 0,
+   "stderr": "",
+   "response": {
+    "sha": "5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+    "node_id": "C_kwDOUEXF8NoAKDVjYjJjYTlmN2Q0ZDZkMTk1NjE3YzA5ZjczNDg4NDE2MzZiNjQ2ZjY",
+    "commit": {
+     "author": {
+      "name": "D. Patil",
+      "email": "dpatil2@buffalo.edu",
+      "date": "2026-08-26T08:35:09Z"
+     },
+     "committer": {
+      "name": "D. Patil",
+      "email": "dpatil2@buffalo.edu",
+      "date": "2026-08-26T08:35:09Z"
+     },
+     "message": "Queue three related-work citations for v2, found by KB probe\n\nEppstein 2301.09246 disproves a Gethner conjecture on biplanarity of\n2-blowups - directly related work v1 missed. His independent 2-blowup is a\ndifferent construction from our clique product C_m x K_t, so no v1 claim is\nundercut, including the novelty of section 3.3a. Also Noguchi 2603.27968\n(March 2026, product thickness, completes Yan12) and Biniaz 2008.05186\n(short proof of theta(K9)=3).\n\nSame probe confirmed Postle's k=12 case is still open as of today, which is\nwhat section 7.2 claims.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01QdPjmmm1MFYd6jXiM6FqXK",
+     "tree": {
+      "sha": "a1c9b38defd3c4d761aa13ac9c3b309056671191",
+      "url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/git/trees/a1c9b38defd3c4d761aa13ac9c3b309056671191"
+     },
+     "url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/git/commits/5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+     "comment_count": 0,
+     "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+     }
+    },
+    "url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/commits/5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+    "html_url": "https://github.com/Volkopat/earth-moon-biplanar/commit/5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+    "comments_url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/commits/5cb2ca9f7d4d6d195617c09f7348841636b646f6/comments",
+    "author": {
+     "login": "Volkopat",
+     "id": 68346936,
+     "node_id": "MDQ6VXNlcjY4MzQ2OTM2",
+     "avatar_url": "https://avatars.githubusercontent.com/u/68346936?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/Volkopat",
+     "html_url": "https://github.com/Volkopat",
+     "followers_url": "https://api.github.com/users/Volkopat/followers",
+     "following_url": "https://api.github.com/users/Volkopat/following{/other_user}",
+     "gists_url": "https://api.github.com/users/Volkopat/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/Volkopat/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/Volkopat/subscriptions",
+     "organizations_url": "https://api.github.com/users/Volkopat/orgs",
+     "repos_url": "https://api.github.com/users/Volkopat/repos",
+     "events_url": "https://api.github.com/users/Volkopat/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/Volkopat/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "committer": {
+     "login": "Volkopat",
+     "id": 68346936,
+     "node_id": "MDQ6VXNlcjY4MzQ2OTM2",
+     "avatar_url": "https://avatars.githubusercontent.com/u/68346936?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/Volkopat",
+     "html_url": "https://github.com/Volkopat",
+     "followers_url": "https://api.github.com/users/Volkopat/followers",
+     "following_url": "https://api.github.com/users/Volkopat/following{/other_user}",
+     "gists_url": "https://api.github.com/users/Volkopat/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/Volkopat/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/Volkopat/subscriptions",
+     "organizations_url": "https://api.github.com/users/Volkopat/orgs",
+     "repos_url": "https://api.github.com/users/Volkopat/repos",
+     "events_url": "https://api.github.com/users/Volkopat/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/Volkopat/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "parents": [
+     {
+      "sha": "5f84c71e40aff73e5ff764a4f2318c73485fc5a4",
+      "url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/commits/5f84c71e40aff73e5ff764a4f2318c73485fc5a4",
+      "html_url": "https://github.com/Volkopat/earth-moon-biplanar/commit/5f84c71e40aff73e5ff764a4f2318c73485fc5a4"
+     }
+    ],
+    "stats": {
+     "total": 38,
+     "additions": 38,
+     "deletions": 0
+    },
+    "files": [
+     {
+      "sha": "21e0b608fad5dc6db3a2639e9004db9459e10390",
+      "filename": "notes/v2-queue.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "changes": 38,
+      "blob_url": "https://github.com/Volkopat/earth-moon-biplanar/blob/5cb2ca9f7d4d6d195617c09f7348841636b646f6/notes%2Fv2-queue.md",
+      "raw_url": "https://github.com/Volkopat/earth-moon-biplanar/raw/5cb2ca9f7d4d6d195617c09f7348841636b646f6/notes%2Fv2-queue.md",
+      "contents_url": "https://api.github.com/repos/Volkopat/earth-moon-biplanar/contents/notes%2Fv2-queue.md?ref=5cb2ca9f7d4d6d195617c09f7348841636b646f6",
+      "patch": "@@ -0,0 +1,38 @@\n+# Queue for v2\n+\n+Found 2026-08-26 by probing the updated Math KB (now 1.46M papers) with the\n+campaign's open questions. None of these undercuts a v1 claim; all three belong\n+in v2's related work.\n+\n+## Citations to add\n+\n+**D. Eppstein, *On the Biplanarity of Blowups*, arXiv:2301.09246 (2023).**\n+Disproves Gethner's conjecture that 2-blowups of planar graphs are biplanar\n+(iterated Kleetopes are counterexamples). Directly related work our v1 missed:\n+a modern biplanarity result answering a Gethner conjecture. Important\n+distinction that keeps our novelty claims intact: his 2-blowup replaces each\n+vertex by two NON-adjacent copies (independent blowup, G[K2-bar]); our section\n+3.3a kills the CLIQUE product C_m x K_t = C_m[K_t]. Different construction,\n+no chromatic-number angle in his paper. Our \"C7 x K4 untested by any prior\n+work\" claim stands, but v2 should cite this next to the Gethner discussion.\n+\n+**K. Noguchi, *Note on the thickness of the Cartesian product of a complete\n+graph and a path*, arXiv:2603.27968 (March 2026).**\n+Determines theta(K_n x P_m) for the Cartesian product. Supersedes/completes\n+the Yang result we cite as [Yan12]. Cite alongside Yan12 in the\n+product-thickness paragraph.\n+\n+**A. Biniaz, *A short proof of the non-biplanarity of K9*, arXiv:2008.05186.**\n+Modern short proof of theta(K9) = 3, which v1 uses repeatedly via\n+Battle-Harary-Kodama and Tutte. Supplementary citation for section 3.2.\n+\n+## Confirmed still open (probed, nothing found)\n+\n+- Postle's conjecture at k = 12 (K10-free 12-critical density with eps > 1/11):\n+  the probe returned exactly the known cases - k = 5 (1602.03098), the\n+  local-eps Reed version (1911.02672), Gould-Larsen-Postle structure\n+  (2107.00976). Section 7.2's \"k = 12 is open\" claim stands as of 2026-08-26.\n+- No technique fingerprint in ~885K papers matches the section 3.3a\n+  Euler-counting argument shape. Weak positive evidence of novelty, within\n+  the corpus boundary (arXiv-only: Zenodo, Springer chapters, pre-1991\n+  literature remain invisible - the Doria lesson)."
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "repos/Volkopat/earth-moon-chi10",
+   "returncode": 1,
+   "stderr": "gh: Not Found (HTTP 404)\n",
+   "response": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+    "status": "404"
+   }
+  }
+ ],
+ "external_proofs_executed": false
+}

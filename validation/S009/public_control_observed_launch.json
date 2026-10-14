@@ -1,0 +1,17 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s009_public_controls.py",
+  "worker"
+ ],
+ "as_of_utc": "2026-10-14T13:24:59.427901+00:00",
+ "sha256": {
+  "tools/s009_public_controls.py": "729d5417fe992d9da97101fba05c373d894fc1b40d7221e3499c90201d12cad5",
+  "tools/s009_heavy_cover.py": "993ef845a11aafd692a97b6f0687ac8cc7dde435a4ef0598e5d4df8af92cc975",
+  "tools/s007_static_controls.py": "451879b541d84ef523d571be5f17ba9407398cfde359a09a4ac55765e55cc545",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "validation/S009/pinned_positive_inputs.json": "fb5c99e9b00187c9daa9ed018baa4372da00ae7c3c2bdc5cd7c4b1241e5b0a03",
+  "campaigns/CAM-0010.md": "a153fdb357b4c359808714a40ce15a9f1815b78becc58379a898a32002c9eef8"
+ },
+ "grade": "OBSERVED_BEFORE_LAUNCH"
+}

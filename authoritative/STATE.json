@@ -2,16 +2,16 @@
  "project": "Earth-Moon-problem",
  "repository_id": 1415870164,
  "as_of": "2026-10-14",
- "last_completed_session": "S008",
- "recommended_next_session": "S009",
- "headline": "Resolve χ₂ = max chromatic number of finite simple thickness≤2 graphs",
- "headline_status": "OPEN_9_TO_12_S008_FULL_COUNTER_CHALLENGES_SHARED_SUPPORT",
+ "last_completed_session": "S009",
+ "recommended_next_session": "S010",
+ "headline": "Resolve \u03c7\u2082 = max chromatic number of finite simple thickness\u22642 graphs",
+ "headline_status": "OPEN_9_TO_12_S009_MIXED_CHARGE_AND_FULL_LAYER_AUDIT",
  "confirmed_classical_range": {
   "lower": 9,
   "upper": 12,
   "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
  },
- "candidate_10_11_12": "S008 adds4 checked finite exclusions; total45/271, 226 biplanarity UNKNOWN. Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[].",
+ "candidate_10_11_12": "S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[].",
  "universal_improved_upper_bound": "NONE_PROVED",
  "phases": [
   {
@@ -22,7 +22,7 @@
   {
    "id": 1,
    "name": "Primary-source baseline and genuine proof/counterexample investigation",
-   "status": "ACTIVE_FULL_LAYER_AND_SHARED_SUPPORT_NO_HEADLINE_ADVANCE"
+   "status": "ACTIVE_MIXED_CHARGE_AND_SIMULTANEOUS_LIST_NO_HEADLINE_ADVANCE"
   },
   {
    "id": 2,
@@ -55,7 +55,7 @@
    "status": "OWNER_GATED"
   }
  ],
- "source_status": "2026_PRIMARY_REFRESH_INCLUDING_OCTOBER_ABSTRACT_LOCAL_DEPENDENCIES_ONLY",
+ "source_status": "2026_PRIMARY_REFRESH_WITH_UNVERIFIED_OCTOBER_DISCOVERY_LEADS",
  "lean": {
   "status": "NOT_STARTED"
  },
@@ -71,19 +71,22 @@
  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
  "open_obligations": [
-  "Decide remaining226 fixedchi10 rows; exact indices in S008/SUMMARY.",
-  "Sequential lane UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159], search caps[162], native export caps[155]. Tree lane UNKNOWN[155], NOT_RUN[], search caps[], native export caps[], stopped after checked transfer[155]. Overall registered NOT_RUN[] and UNKNOWN[].",
-  "D2 all42 source rows must be accounted individually; stronger/tree models and caps do not close a stratum.",
-  "All four prior globalD2 models SAT_RELAXATION; K7-I5 Cover/Kuratowski UNKNOWN, K6-I6 exactchi7/biplanar.",
-  "Row165 no-lex and row158 smaller deletion UNKNOWN; no new minimality/containment theorem.",
-  "C5 maximal13/children and independent wholek8/k9 census open; only two fixedk8 samples;159 corpus apices excluded, apex(C5K3)chi9/biplanarity UNKNOWN.",
-  "Universal upper: support expansion supplies representatives, not colours; need simultaneous heavy/light exterior flexibility and all-order large-deficit control.",
-  "Verify S008 actual authored commit/ordinary PR/two-parent merge/main checks live after frozen commit.",
-  "Novelty/external universal review/Lean/formalisation/publication/outreach gates unpassed."
+  "Decide remaining219 fixedchi10 rows; exact indices in S009/SUMMARY.",
+  "Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[].",
+  "Stronger all-completion-K33 heavyK7-I5 verdict:NON_BIPLANAR_DRAT_VERIFIED.",
+  "All42 D2 source rows accounted individually; 31 remain UNKNOWN. No stratum closure.",
+  "General injection pair caps/NOT_RUN/misses are not exclusions or a general noncontainment theorem.",
+  "Row165 no-lex and23v row158 deletion UNKNOWN; C5 maximal13/children and whole independentk8/k9 census open.",
+  "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN; K6-I6chi7/biplanar, historical K7-I5 caps separate.",
+  "Mixed charge Q>=4t8+4e11+2e9+3w9+w7 and stronger expansion do not bound order/deficit or supply colours.",
+  "Exact equality quotient/list existence, light/heavy simultaneous palettes, short odd/smaller clique and all-deficit routes unresolved.",
+  "Verify S009 actual authored commit/ordinary PR/two-parent merge/main jobs live after frozen commit.",
+  "Recent rStation at-most19/20 leads metadata-only; no external primary proof/archive replay or novelty guarantee.",
+  "Novelty/external universal review/Lean/registration/publication/outreach gates unpassed."
  ],
  "next_session_is_future_unexecuted": true,
- "latest_session_branch": "codex/S008-kuratowski-support",
- "latest_session_entry_main": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+ "latest_session_branch": "codex/S009-transfer-colours",
+ "latest_session_entry_main": "7957452c79c2b31088f93fff440783328c78942d",
  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
  "mathematical_results": [
   "CLM-0007",
@@ -131,7 +134,15 @@
   "CLM-0051",
   "CLM-0052",
   "CLM-0053",
-  "CLM-0055"
+  "CLM-0055",
+  "CLM-0056",
+  "CLM-0057",
+  "CLM-0058",
+  "CLM-0059",
+  "CLM-0060",
+  "CLM-0061",
+  "CLM-0062",
+  "CLM-0063"
  ],
  "s003_integration_verified": {
   "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -202,6 +213,22 @@
   "main_CI_run": 38455487692,
   "head_validate_job": 115496220621,
   "main_validate_job": 115496995386,
+  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+ },
+ "s008_integration_verified": {
+  "authored_commit": "cbdb8236f27d8f39ceeb268975cd47ac39fc323a",
+  "sole_parent": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+  "pr": 8,
+  "merge_commit": "7957452c79c2b31088f93fff440783328c78942d",
+  "merge_parents": [
+   "23d36d93ebb225668180c8499eb6793775d4fa1d",
+   "cbdb8236f27d8f39ceeb268975cd47ac39fc323a"
+  ],
+  "tree": "17611589c3b44454cd8910362306629a15c856ea",
+  "head_CI_run": 38558584715,
+  "main_CI_run": 38558755112,
+  "head_validate_job": 115833753360,
+  "main_validate_job": 115834317044,
   "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
  }
 }

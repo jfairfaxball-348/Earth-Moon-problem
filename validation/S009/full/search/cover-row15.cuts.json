@@ -1,0 +1,64 @@
+{
+ "lex": true,
+ "short_links": false,
+ "cuts": [],
+ "static": {
+  "version": "S007-subsets-K5-Dle2-v1",
+  "groups": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   [
+    18,
+    19,
+    20,
+    21
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    24,
+    25,
+    26,
+    27
+   ]
+  ],
+  "subset_count": 278,
+  "input_K5_count": 380,
+  "distinct_faces_enabled": true,
+  "extra_clauses": 8190206,
+  "s008_version": "completion-K5-input-K33-v1",
+  "s008_counts": {
+   "K5": 98280,
+   "K33": 3876
+  },
+  "s008_cardinality": "pysat-totalizer-v1"
+ }
+}
