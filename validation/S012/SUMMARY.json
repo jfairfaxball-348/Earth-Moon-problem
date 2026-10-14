@@ -1,0 +1,135 @@
+{
+  "session": "S012",
+  "date": "2026-10-14",
+  "headline_advance": false,
+  "interval": {
+    "lower": 9,
+    "upper": 12
+  },
+  "source_main": {
+    "commit": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+    "S011_pr": 13,
+    "S011_merged": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "S011_parents": [
+      "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+      "8893aa34927c37c3d71b2201f50838635c3d30e5"
+    ]
+  },
+  "candidate_pool": {
+    "total": 271,
+    "excluded_checked_nonbiplanar": 52,
+    "biplanarity_unknown": 219,
+    "S012_new_exclusions": 0
+  },
+  "campaign": {
+    "id": "CAM-0015",
+    "type": "complete positive nine-colouring enumeration of all G-e+f single-edge swaps for six exactchi10 fixed rows",
+    "scope_rows": [
+      2,
+      55,
+      59,
+      61,
+      199,
+      200
+    ],
+    "rows": [
+      {
+        "row": 2,
+        "n": 26,
+        "m": 133,
+        "nonedges": 192,
+        "all_pairs": 25536,
+        "already_separated": 22260,
+        "recoloured_pairs": 3276
+      },
+      {
+        "row": 55,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "all_pairs": 33872,
+        "already_separated": 29638,
+        "recoloured_pairs": 4234
+      },
+      {
+        "row": 59,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "all_pairs": 33872,
+        "already_separated": 29638,
+        "recoloured_pairs": 4234
+      },
+      {
+        "row": 61,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "all_pairs": 33872,
+        "already_separated": 29638,
+        "recoloured_pairs": 4234
+      },
+      {
+        "row": 199,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "all_pairs": 33872,
+        "already_separated": 29638,
+        "recoloured_pairs": 4234
+      },
+      {
+        "row": 200,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "all_pairs": 33872,
+        "already_separated": 29638,
+        "recoloured_pairs": 4234
+      }
+    ],
+    "total_pairs": 194896,
+    "recoloured_pairs": 24446,
+    "already_separated_pairs": 170450,
+    "producer": "PASS_COMPLETED",
+    "independent_checker": "PASS_194896",
+    "original_non9_proofs_same_job": "PASS_271_OF_271_HASHES_DRAT_PLUS_K9_AND_FRESH_K9",
+    "run_id": 38635879431,
+    "job_id": 116098797010,
+    "artifact_id": 11928007306,
+    "artifact_zip_sha256": "c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703",
+    "artifact_kind": "GitHub-hosted Actions artifact expires; compact programme summary and reproducible source scripts retained in repo",
+    "run_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38635879431",
+    "wip_head": "9168e1567ccabdda50068771f7c9c5c6f0703a39",
+    "registered_input_sha256": {
+      "tools/s012_swap_audit.py": "82a170d75feded8fe6042ffbc2e9c5f743ffa0b020f5839a8e9e9c126700eebc",
+      "tools/s012_swap_check.py": "78f6ac6b049ee6aa3d6e22787d432e2404926095954eeb22d09f9edc27fbdb0d",
+      "campaigns/CAM-0015.md": "cddbf244111281f9997a422004f772f636f0487f11be3740464ea95af1fd269f",
+      ".github/workflows/s012-swap-audit.yml": "48248c39e4512f60919f3c6d33a5876755042c5499504bb43c38b14a94a7d29d",
+      "validation/S011/edge_critical_witnesses.json.gz": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+      "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb"
+    },
+    "native_sha256": {
+      "cadical": "b6f9b737c9eef9e768972c526411fdad07062879e44c5d8592010d0547cb9c60",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "wall_limit_seconds_each": 300,
+    "virtual_cap_gib": 12,
+    "workflow": "s012-swap-audit.yml"
+  },
+  "analytical_claims": [
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073"
+  ],
+  "other_lanes": {
+    "new_17_vertex_K6_extension_generation": "NOT_RUN_MATHEMATICAL_NECESSARY_FILTER_ONLY",
+    "row156_full_ejection_chains": "NOT_RUN",
+    "general_two_or_more_edge_rewiring": "NOT_RUN",
+    "actual_planar_pair_search": "NOT_RUN"
+  },
+  "gate": "NO_CERTIFIED_CHI10_BIPLANAR_GRAPH",
+  "research": "research/S012_CONSTRUCTION.md",
+  "next": "S013_FUTURE_PROMPT_READY_EXECUTE_WHEN_OWNER_SUPPLIES_PROMPT_D047"
+}

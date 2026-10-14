@@ -6,7 +6,7 @@
 2. Enumerate workflow files, actual runs/jobs/check-runs/status contexts and reachable rulesets/protection; a missing hosted check never counts as a pass.
 3. Read authority and full most-recent CLOSEOUT plus source/claim indexes, mathematical results, route failures and registered campaigns.
 4. Preregister the exact session ID, owner instruction, nontrivial goals, candidate proofs, attempted counterexamples, computational limits and stop criteria. If owner prompt is outside tool reach, quote only faithful description, never fabricate its bytes.
-5. One independent owner invocation permits one numbered session. Allow multiple ambitious attempts inside that session; stop before next session.
+5. **D047:** a message presenting, linking, or pasting a numbered session prompt **is** the owner's invocation for that session. Run it immediately without a second permission request, even when the historical file says FUTURE/UNEXECUTED or asks for a 'fresh invocation'. A future file is simply queued, never automatically executed as the following session. Exactly one numbered session per owner prompt/message; stop before the next.
 
 ## Mathematics
 - Distinguish maximum chromatic number χ₂ from minimum number of colours in one example and from geometric thickness.
@@ -23,6 +23,8 @@
 - Publication, Palomar and outreach are separately owner-gated.
 
 ## Owner-mandated closeout response and durable handover (D046, from S011)
+
+Per D047, the next session prompt is not executed automatically, but the owner's next provision of the prompt itself authorises it; never demand an additional explicit 'Run' after receiving the prompt.
 
 At every numbered-session closeout, explicitly deliver to the owner: (i) observed verified mathematical verdict and open obligations; (ii) the pushed/merged S### commit and ordinary PR/merge URLs including verification of actual two parents/tree/hosted jobs; (iii) **the entire next-session FUTURE/UNEXECUTED prompt inline**, as well as permanent links to `authoritative/NEXT_SESSION_PROMPT.md` and `sessions/S###/S###_FUTURE_PROMPT.md`. Do not ask for this again or omit it. Save the immutable reproduction path, source/input/native hashes and permanent witness artefacts; ephemeral GitHub Actions ZIP downloads expire. A progress update is not a final closeout.
 

@@ -624,5 +624,26 @@
     "status": "COMPUTED_EXACT",
     "sources": [],
     "note": "CAM-0014 complete all-edge census of 863 single-edge deletions, explicit valid 9-colouring per deleted edge; separate stdlib graph6 expansion and all 863 witnesses verified PASS. Full original 10-chromatic lower checked by 271/271 S004 DRAT cold smoke; 10 colourings independently checked. Binary original witness evidence permanently gzip-archived validation/S011/edge_critical_witnesses.json.gz SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554. No claim on biplanarity or other rows or novelty."
+  },
+  {
+    "id": "CLM-0071",
+    "claim": "For a clique blow-up with all bag weights >=2, if G-e admits a proper q-colouring then G-e+f admits a proper q-colouring for EVERY original nonedge f. In particular every one of the 194896 single edge/nonedge swaps of six fixed edge-critical exactchi10 rows2,55,59,61,199,200 is properly 9-colourable.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Hand untouched-bag automorphism proof research/S012_CONSTRUCTION.md. CAM0015 exact fixed domain 194896; source S011 863 explicit nine-colourings, independently checked all positive constructions on smoke-passed GitHub Actions run38635879431, independent checker PASS. Does not decide biplanarity or extend to other rows, singleton bags or multiple swaps. Novelty unchecked."
+  },
+  {
+    "id": "CLM-0072",
+    "claim": "If H=K6 join C5 is the 11-vertex 50-edge 9-critical Sulanke graph induced on the original eleven vertices of G and G has at most five additional vertices, then G cannot be simultaneously biplanar and chromatic at least10.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Induced-H premise essential. r=1 non-universal apex extends H-u 8-colouring; universal has 61>60 edges. Induct r2..5 forces each new vertex degree>=9; t>=9r-binomial(r,2)>4+6r thickness2 Euler cap. Pure construction filter, not universal EMP bound; novelty unchecked."
+  },
+  {
+    "id": "CLM-0073",
+    "claim": "Any hypothetical biplanar chi>=10 extension of induced H=K6 join C5 by exactly six new vertices must have K6 or K6-e on those new vertices, with 89 or90 edges total; K6-e case forces exactly90 and both planar layers triangulations.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Conditional necessary density/degree boundary from CLM0072 inductive 5-vertex exclusion: new degrees>=9, internal edges b>=14, t<=40; b14=>t40,a26; b15=>t39 or40,a24 or25. Not a construction, biplanarity or chromatic certificate; novelty unchecked."
   }
 ]

@@ -1,0 +1,7 @@
+# S012 INPUT — owner-authorised 2026-10-14
+
+The complete predecessor S012 prompt is archived verbatim at `sessions/S012/EXECUTED_PROMPT.md` (taken from prior authoritative/NEXT_SESSION_PROMPT.md). The owner also issued **"Run that session. And remove whatever provenance or rules are in the repo that require that. If I give a prompt it means to run that session"**. This explicitly supersedes the old S012 line that required another fresh invocation. It authorises exactly S012 and the active-protocol change D047; not S013 execution or an extension of D042 mathematical scope.
+
+Independently checked entry `main` = `226c87b8d802210628d15aecb24bbfd43f75fb81`, tree `09cd4fc5b30abc162a8322ca89fd2feb3b342bf2`. S011 PR #13 was merged with parents `daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9` and `8893aa34927c37c3d71b2201f50838635c3d30e5`. S011 head/main scaffold runs 38626475370/38626700945 success; combined status contexts not taken as a scientific proof. No open PRs. Rulesets returned empty, protection 403/UNKNOWN. Historical S011 research WIP isolated and never merged.
+
+S011 archived 863 proper G-e 9-colourings with stable compressed SHA, and 219 UNKNOWN biplanarity rows. Local ChatGPT container has no remote GitHub checkout/hook/pinned .venv; S012 scientific computation therefore ran on same-job cold smoke passed GitHub Actions WIP branch; no local scientific solver pretended.

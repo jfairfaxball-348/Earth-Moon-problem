@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-14",
-  "last_completed_session": "S011",
-  "recommended_next_session": "S012",
+  "last_completed_session": "S012",
+  "recommended_next_session": "S013",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S011_LOWER_BOUND_ONLY_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S012_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S011: still52 checked non-biplanar/271 fixed candidates,219 biplanarity UNKNOWN. Positive CAM0012 438 trials/25 repairs no split; CAM0013 six rows 240/240 deletion SAT9; CAM0014 six exactchi10 rows certified edge-critical from863 independently checked 9-colouring witnesses. No chi>=10 biplanar split.",
+  "candidate_10_11_12": "S012: baseline 271 exactchi10 retained fixed rows,52 certified nonbiplanar,219 biplanarity UNKNOWN. New CLM0071 proves all194896 one-edge swaps on six fixed edge-critical bag>=2 rows are 9colourable, not biplanarity evidence. CLM0072 induced-Sulanke plus <=5 vertices no 10-biplanar. CLM0073 r6 near-saturated conditional filter. No headline.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S011_TARGETED_2026_PRIMARY_STATEMENT_REFRESH_NO_NOVELTY_OR_PRIORITY_CERTIFICATION",
+  "source_status": "S012_TARGETED_STATEMENT_REFRESH_SOURCE_MD_JSON_PAIRED_NO_NEW_SOURCE_IDS_NO_NOVELTY",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S011 CLOSED no headline; 52/271 excluded,219 UNKNOWN. D044 Actions full smoke PASS; all run/artifact SHA in validation/S011/SUMMARY.json. Six rows2,55,59,61,199,200 exactly10 EDGE-CRITICAL with 863 verified G-e nine colourings stored permanently; no biplanarity proved. S012 target edge-swap or new layer-pair source.",
+    "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 constructive generation first r6/multi-edge changes/planar pair.",
     "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
     "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
     "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
@@ -92,13 +92,12 @@
     "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
     "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
     "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
-    "Novelty/external review/Lean/registration/publication/outreach gates unpassed.",
-    "S012 is FUTURE_UNEXECUTED pending owner invocation. S011 authored PR/two-parent main/CI must be rechecked live at next entry; never infer merge commit before it exists."
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S011-certified-construction-search",
-  "latest_session_entry_main": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
-  "latest_session_integration": "AUTHORING_PENDING_ONE_COMMIT_PR_NONFORCE_MERGE_VERIFY_ACTUAL_LIVE",
+  "latest_session_branch": "session/S012-layer-aware-construction",
+  "latest_session_entry_main": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+  "latest_session_integration": "PREMERGE_RECORD_NO_FUTURE_SHA_GUESSED_VERIFY_AFTER_MERGE",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -160,7 +159,10 @@
     "CLM-0067",
     "CLM-0068",
     "CLM-0069",
-    "CLM-0070"
+    "CLM-0070",
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -322,14 +324,16 @@
       "tested_runs": [
         38623187997,
         38623722547,
-        38624616691
+        38624616691,
+        38635879431
       ],
       "certificate_preservation_run": 38625149681,
       "verified": "PASS_FULL_271_CHROMATIC_PLUS_K9_EACH_JOB",
       "permanent_provenance": "validation/S011/SUMMARY.json",
       "permanent_witness": "validation/S011/edge_critical_witnesses.json.gz",
       "witness_gzip_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
-      "native_hashes": "per-job; do not assume same bytes"
+      "native_hashes": "per-job; do not assume same bytes",
+      "latest_complete": "S012_CAM0015_RUN_38635879431_SUCCESS_ALL_STEPS_AND_INDEPENDENT_194896"
     }
   },
   "s011_result": {
@@ -350,5 +354,44 @@
     "mycielski_filter": "CLM-0069",
     "edge_critical": "CLM-0070",
     "next_prompt_output_required_by_owner": true
+  },
+  "next_prompt_is_execution_authority_when_supplied": true,
+  "session_invocation_policy": "D047_OWNER_SUPPLIES_OR_LINKS_SESSION_PROMPT_EQUALS_IMMEDIATE_INVOCATION_NO_SECOND_RUN_COMMAND",
+  "s011_integration_verified": {
+    "authored_commit": "8893aa34927c37c3d71b2201f50838635c3d30e5",
+    "base_commit": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "pr": 13,
+    "merge_commit": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "merge_parents": [
+      "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+      "8893aa34927c37c3d71b2201f50838635c3d30e5"
+    ],
+    "merge_tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+    "head_ci_run": 38626475370,
+    "main_ci_run": 38626700945,
+    "scaffold_checks": "SUCCESS_GOVERNANCE_NOT_SCIENCE"
+  },
+  "s012_result": {
+    "lower_bound_advance": false,
+    "swaps_all_positive_nine_colour": 194896,
+    "swaps_scope_rows": [
+      2,
+      55,
+      59,
+      61,
+      199,
+      200
+    ],
+    "transpositions": 24446,
+    "unchanged_nine_colours": 170450,
+    "actions_run": 38635879431,
+    "actions_job": 116098797010,
+    "artifact_id": 11928007306,
+    "artifact_sha256": "c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703",
+    "same_job_smoke": "PASS271_ORIGINAL_DRAT_K9_FRESH",
+    "independent_checker": "PASS194896",
+    "sulanke_extensions_max_r_excluded": 5,
+    "sulanke_first_open_r": 6,
+    "s013_not_executed": true
   }
 }

@@ -1,0 +1,44 @@
+name: S012 all one-edge swap nine-colouring witnesses (unmerged WIP)
+on:
+  push:
+    branches: [wip/S012-swap]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prove-all-six-swaps:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify preregistration and source syntax
+        run: |
+          test -f campaigns/CAM-0015.md
+          python -m py_compile tools/s012_swap_audit.py tools/s012_swap_check.py
+          sha256sum campaigns/CAM-0015.md tools/s012_swap_audit.py tools/s012_swap_check.py validation/S011/edge_critical_witnesses.json.gz
+      - name: Pin D043 Linux toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory independent cold smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Exhaustive six-row all-swaps positive witness audit
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM 300s .venv/bin/python tools/s012_swap_audit.py
+      - name: Independent exhaustive all-swaps recheck
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM 300s .venv/bin/python tools/s012_swap_check.py
+      - name: Archive exact environment and independent results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S012-CAM0015-all-single-edge-swap-audit
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S012/*.json
+          retention-days: 60
+          if-no-files-found: warn
