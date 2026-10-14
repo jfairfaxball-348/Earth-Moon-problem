@@ -21,3 +21,11 @@
 - Include the cloud environment record and smoke-test result in the session manifest.
 - One authored commit on isolated branch, PR and non-force merge wherever available. Independently inspect commit parent/tree/PR and observed post-merge main.
 - Publication, Palomar and outreach are separately owner-gated.
+
+## Owner-mandated closeout response and durable handover (D046, from S011)
+
+At every numbered-session closeout, explicitly deliver to the owner: (i) observed verified mathematical verdict and open obligations; (ii) the pushed/merged S### commit and ordinary PR/merge URLs including verification of actual two parents/tree/hosted jobs; (iii) **the entire next-session FUTURE/UNEXECUTED prompt inline**, as well as permanent links to `authoritative/NEXT_SESSION_PROMPT.md` and `sessions/S###/S###_FUTURE_PROMPT.md`. Do not ask for this again or omit it. Save the immutable reproduction path, source/input/native hashes and permanent witness artefacts; ephemeral GitHub Actions ZIP downloads expire. A progress update is not a final closeout.
+
+### Tested GitHub Actions fallback (D044)
+
+When the assistant runtime lacks the repo checkout, Claude hook or pinned .venv, use a **never-merged, isolated WIP branch** with GitHub-hosted runner and a preregistered CI job. Job-local pinned `scripts/cloud_setup.sh` and full `scripts/cloud_smoke.py` are mandatory *before scientific computation*; previous green workflows do not substitute for same-job smoke. Register finite search/caps/stop criteria before triggering the workflow; preserve immutable SHA256 sources and environment in uploaded artifacts, download and independently interpret outcomes; permanently commit compact certificates to versioned paths. The final one-commit session PR must NOT include WIP commit history. See validation/S011/SUMMARY.json and docs/CLOUD_ENVIRONMENT.md. Hosted scaffold governance CI is NOT a chromatic/planarity certificate.

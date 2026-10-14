@@ -20,3 +20,6 @@ Survivors: alpha>=3 non-cycle/partial-join mechanisms, justified
 layer-compatible identifications, non-saturated apex face covers, and a
 criticality-specific 11-colouring/discharging proof. S003 has freedom
 for several substantial attacks and is FUTURE UNEXECUTED.
+
+
+S011 (2026-10-14) **supersedes stale S003 future/upper-bound suggestions above**: D042 target is a verified chi>=10 biplanar construction ONLY. D044 GitHub Actions fallback proved viable with job-local D043 smoke. CAM0012-0014 results and permanent 863 colour-deletion witnesses in validation/S011/SUMMARY.json; 52/271 excluded,219 UNKNOWN. Six fixed rows are chi10 edge-critical, so *chromatic-restoring edge swaps* rather than plain deletion are the S012 lead; Mycielski lift of chi>=9 is excluded. No universal colouring/discharging programme or automatic publication/formalisation.

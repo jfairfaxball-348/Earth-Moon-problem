@@ -40,7 +40,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Sessions run in Claude Code cloud containers; see [cloud environment](docs/CLOUD_ENVIRONMENT.md). Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S011 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Sessions run in Claude Code cloud containers; see [cloud environment](docs/CLOUD_ENVIRONMENT.md). Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S012 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -119,3 +119,10 @@ Only through S009 executed; S010 FUTURE/UNEXECUTED. Headline9..12 and downstream
 - [Strategic audit](research/S010_STRATEGIC_AUDIT.md): measured search yield/completeness; local P4-I9/C5-I9 planar exactchi3/4, no new row exclusion.
 
 Only throughS010 executed; S011 FUTURE/UNEXECUTED. Headline9..12 and all downstream gates unchanged.
+
+
+## S011 results and permanently reproducible S012 handover (2026-10-14)
+
+S011 completed under D042's lower-bound-only scope, with **no chi>=10 biplanar witness** and no movement of the 9..12 classical interval. Positive-only double-planar-layer search (CAM0012) attempted all219 remaining fixed exact10-chromatic rows twice, 438 greedy trials and25 repairs; no split and all219 remain UNKNOWN. CAM0013's240 sampled single-edge deletions all led to a9-colouring; CAM0014 then produced and independently verified **863 explicit proper9-colourings**, one for *every* deleted edge of six fixed exactly10-chromatic rows2,55,59,61,199,200. This proves these six instances are edge-critical (CLM-0070), not that they are non-biplanar. A direct counting argument excludes the ordinary Mycielski lift of chi>=9 as a biplanar construction (CLM-0069; novelty unchecked).
+
+Read [S011 research](research/S011_CONSTRUCTION.md), [permanent summary](validation/S011/SUMMARY.json), [full colour-certificate gzip](validation/S011/edge_critical_witnesses.json.gz), [closeout](sessions/S011/CLOSEOUT.md), and [full S012 handover prompt](authoritative/NEXT_SESSION_PROMPT.md). When ChatGPT lacks local checkout/hook, use tested **GitHub Actions D043 same-job setup + smoke**; exact workflows/runs/artifacts/source/native digests are all in the permanent S011 summary. Every future closeout MUST output the full next-session prompt alongside its pushed/merged report; next prompts remain FUTURE until separately invoked.

@@ -1,0 +1,119 @@
+{
+  "session": "S011",
+  "type": "IMMUTABLE_AUTHORING_PRECOMMIT_MANIFEST",
+  "timestamp": "2026-10-14",
+  "source_prompt": {
+    "repo_path": "sessions/S011/EXECUTED_PROMPT.md",
+    "blob_sha": "3732a79ece450cf0448a05a124ba84315f287bbd"
+  },
+  "baseline": {
+    "main": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "tree": "3c444e50fbb12513c59d9f50b8e6a1fb756090ca",
+    "seed_branch": "session/S011-certified-construction-search"
+  },
+  "runner": "GitHub Actions ubuntu-24.04, Python 3.12.15 pinned packages, scripts/cloud_setup.sh and scripts/cloud_smoke.py SAME JOB",
+  "science": "no chi>=10 biplanar witness, 52/271 nonbiplanar,219 UNKNOWN, 9<=chi_2<=12 unchanged",
+  "actions": [
+    {
+      "campaign": "CAM-0012",
+      "run": 38623187997,
+      "job": 116055647178,
+      "branch": "wip/S011-positive-search",
+      "head": "99df83c5fd161e9930ace8617d897f658ce82a8c",
+      "status": "success",
+      "smoke": "PASS271/271_K9",
+      "artifact_id": 11923795092,
+      "zip_sha256": "6eb2e9ab4e454a3d97c9a73dbcb0210a43c14d1455ef9d3ef130b96d904fc776",
+      "native_sha256": {
+        "cadical": "7b7ca24813bf834ba72dcddd06dffaa3f3dca7b3c90b2fb5498419d9c35a68c0",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      },
+      "actual_result": {
+        "rows": 219,
+        "greedy": 438,
+        "repairs": 25,
+        "no_split": true,
+        "best_missing": 11,
+        "row": 156
+      }
+    },
+    {
+      "campaign": "CAM-0013",
+      "run": 38623722547,
+      "job": 116057456888,
+      "branch": "wip/S011-sparsify-search",
+      "head": "b5ae360eb4c3eb74dc1adec2f26fe8f324505fe1",
+      "status": "success",
+      "smoke": "PASS271/271_K9",
+      "artifact_id": 11924345243,
+      "zip_sha256": "82cc4c73144da4619ba62b4c1bff4de806c5ec1bf948d79cd0fa91437d75c1ec",
+      "native_sha256": {
+        "cadical": "f01e63074a09ce5580a158a9a4cad42589579771e556b2f33534d56341501e66",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      },
+      "actual_result": {
+        "sampled_deletions": 240,
+        "sat_nine": 240,
+        "preserved_ten_deletions": 0,
+        "split": false
+      }
+    },
+    {
+      "campaign": "CAM-0014",
+      "run": 38624616691,
+      "job": 116060492252,
+      "branch": "wip/S011-edge-critical",
+      "head": "96810e6abf27d219b2d7e86e3a433ce7f0aee518",
+      "status": "success",
+      "smoke": "PASS271/271_K9",
+      "artifact_id": 11923611772,
+      "zip_sha256": "dafd52da91486e7adbb2d633564f2bac2753d4cbf9b06a6ab07ec97613f278ae",
+      "native_sha256": {
+        "cadical": "2ea30d6ceaa78998d1352ff401c0f5b6e836bfb5e1021e458ca95f23d415bdea",
+        "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+      },
+      "actual_result": {
+        "indices": [
+          2,
+          55,
+          59,
+          61,
+          199,
+          200
+        ],
+        "edges": 863,
+        "explicit_witnesses": 863,
+        "independent_stdlib_check": "PASS",
+        "complete_six": true
+      }
+    }
+  ],
+  "permanently_committed_witness": {
+    "path": "validation/S011/edge_critical_witnesses.json.gz",
+    "git_blob_sha": "7a2276bfbce26e35e37e4a764e29fb78f0f78757",
+    "compressed_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+    "decoded_json_sha256": "ca6d78fb348c4647be916d5907df03ef03ddbee93418a5981f4f1e3bf99424e1",
+    "independent_check_json_sha256": "6a07dc5754a6dd75d8456dcb86294d0098fba0565915cc01823b87be4c577f49",
+    "wip_preservation_commit": "cc9ba9afd68890a6c74ca3143e985907fdfc0600",
+    "wip_preservation_run": 38625149681
+  },
+  "claims": [
+    "CLM-0069",
+    "CLM-0070"
+  ],
+  "literature": "Targeted primary statements/metadata refreshed; full novelty/priority audit NOT PASSED",
+  "outgoing": {
+    "single_atomic_session_commit": "TO_CREATE_AFTER_THIS_MANIFEST",
+    "pr": "TO_OBSERVE",
+    "two_parent_merge": "TO_OBSERVE",
+    "hosted_scaffold": "TO_OBSERVE",
+    "note": "Do not invent future GitHub references; independently verify live after merge"
+  },
+  "gates": {
+    "lean": "NOT_STARTED",
+    "palomar": "OWNER_GATED",
+    "paper": "NOT_STARTED",
+    "arxiv": "OWNER_GATED"
+  },
+  "next_prompt": "S012_FUTURE_UNEXECUTED"
+}
