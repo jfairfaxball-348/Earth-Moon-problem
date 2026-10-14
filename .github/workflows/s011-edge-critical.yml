@@ -1,0 +1,41 @@
+name: S011 edge criticality audit (unmerged WIP)
+on:
+  push:
+    branches: [wip/S011-edge-critical]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  six-row-edge-census:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm preregistration and compile checker
+        run: |
+          test -f campaigns/CAM-0014.md
+          python -m py_compile tools/s011_edge_critical.py tools/s011_edgecheck.py
+          sha256sum campaigns/CAM-0014.md tools/s011_edge_critical.py tools/s011_edgecheck.py validation/S003/survivors_alpha_ge3.json
+      - name: Pin D043 Linux toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory independent cold smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Complete single-edge deletion positive witnesses
+        run: .venv/bin/python tools/s011_edge_critical.py --seconds 240 --output artifacts/tmp/S011/edge_critical.json
+      - name: Independent stdlib whole-enumeration verification
+        run: .venv/bin/python tools/s011_edgecheck.py artifacts/tmp/S011/edge_critical.json
+      - name: Upload full witnesses, binary hashes and cold environment
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S011-CAM0014-edge-critical-all-witnesses
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/native/setup.log
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S011/*.json
+          retention-days: 60
+          if-no-files-found: warn
