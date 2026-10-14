@@ -1,0 +1,119 @@
+{
+  "session": "S012",
+  "date": "2026-10-14",
+  "headline_advance": false,
+  "proved_interval": [
+    9,
+    12
+  ],
+  "corpus": {
+    "total": 271,
+    "certified_non_biplanar": 52,
+    "biplanarity_unknown": 219,
+    "new_non_biplanar_exclusions": 0
+  },
+  "entry": {
+    "main_sha": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "tree_sha": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+    "s011_pr": 13,
+    "s011_merge_sha": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "s011_merge_parents": [
+      "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+      "8893aa34927c37c3d71b2201f50838635c3d30e5"
+    ],
+    "open_prs_at_entry": 0,
+    "main_scaffold_run": 38626700945
+  },
+  "experiment": {
+    "id": "CAM-0015",
+    "workflow_run": 38635879431,
+    "workflow_job": 116098797010,
+    "wip_head": "9168e1567ccabdda50068771f7c9c5c6f0703a39",
+    "artifact_id": 11928007306,
+    "artifact_zip_sha256": "c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703",
+    "same_job_setup": "PASS",
+    "same_job_cold_smoke": "PASS_271_OF_271_PLUS_K9_PLUS_FRESH_K9",
+    "producer_verdict": "COMPLETE",
+    "independent_checker": "PASS",
+    "rows": [
+      {
+        "index": 2,
+        "n": 26,
+        "m": 133,
+        "nonedges": 192,
+        "swaps": 25536,
+        "recoloured": 3276
+      },
+      {
+        "index": 55,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "swaps": 33872,
+        "recoloured": 4234
+      },
+      {
+        "index": 59,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "swaps": 33872,
+        "recoloured": 4234
+      },
+      {
+        "index": 61,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "swaps": 33872,
+        "recoloured": 4234
+      },
+      {
+        "index": 199,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "swaps": 33872,
+        "recoloured": 4234
+      },
+      {
+        "index": 200,
+        "n": 28,
+        "m": 146,
+        "nonedges": 232,
+        "swaps": 33872,
+        "recoloured": 4234
+      }
+    ],
+    "total_swaps": 194896,
+    "recoloured_pairs": 24446,
+    "already_separated_pairs": 170450,
+    "status": "ALL_194896_POSITIVE_NINE_COLOUR_WITNESSES",
+    "input_sha256": {
+      "tools/s012_swap_audit.py": "82a170d75feded8fe6042ffbc2e9c5f743ffa0b020f5839a8e9e9c126700eebc",
+      "tools/s012_swap_check.py": "78f6ac6b049ee6aa3d6e22787d432e2404926095954eeb22d09f9edc27fbdb0d",
+      "campaigns/CAM-0015.md": "cddbf244111281f9997a422004f772f636f0487f11be3740464ea95af1fd269f",
+      ".github/workflows/s012-swap-audit.yml": "48248c39e4512f60919f3c6d33a5876755042c5499504bb43c38b14a94a7d29d",
+      "validation/S011/edge_critical_witnesses.json.gz": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+      "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb"
+    },
+    "native_sha256": {
+      "cadical": "b6f9b737c9eef9e768972c526411fdad07062879e44c5d8592010d0547cb9c60",
+      "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "producer_elapsed_seconds": 3.07
+  },
+  "mathematics": [
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073"
+  ],
+  "other_routes": {
+    "apex_sulanke": "IMPOSSIBLE_BY_EULER",
+    "linked_one_vertex_split_sulanke": "NINE_COLOURABLE_BY_DEGREE",
+    "layer_first_two_planar_graphs": "NO_CANDIDATE_CERTIFICATE_PRODUCED",
+    "two_edge_exchanges": "NOT_EXECUTED_NEW_S013_TARGET"
+  },
+  "workflow_status": "COMPLETED_SUCCESS",
+  "result": "NO_CHI10_BIPLANAR_CONSTRUCTION"
+}

@@ -1,0 +1,10 @@
+# S012 ADVERSARIAL
+
+1. A complete set of positive nine-colourings for 194896 modifications proves that **this** universe contains zero chi>=10 graphs, but does not prove anything negative about biplanarity of any original fixed graph. Those originals still have 219 UNKNOWN and 52 separately certified exclusions.
+2. The general bag argument assumes every substituted bag has size >=2 AND f was an original missing edge between two anticomplete bags; a new nonedge created by deletion, weight-one bag, altered base adjacency, or >=2-edge rewiring may defeat the proof. Only six fixed original rows established to meet assumptions, not all271.
+3. The colour swap within an untouched bag is valid because true twins share all outside neighbours; swapping actual colour labels globally is unnecessary. A clone bag incident to e would be unsafe; the proof explicitly picks an untouched bag.
+4. Producer and checker are different programs and independently expand edges (own bit parser vs NetworkX graph6), and they recheck each e, f combination. Nevertheless this is not formal Lean proof or an independent third-party publication review.
+5. The universal-apex edge cap is a necessary filter only. K9 universal apex fails for reasons not captured by density; cannot generalise the Sulanke obstruction to ALL 9-chi sources.
+6. The split lemma assumes exactly one split vertex, the two copies adjacent and incident old edges allocated to exactly one, no other added edges. A high-degree split or more general gadgets remain open. Do not conflate 9-colourability with planarity.
+7. WIP Action success is not a headline proof. All original non9 archives were smoke-rechecked in that job, but NO modified non9 proof exists (indeed every modification is 9-colourable). No new labelled E1/E2/rotations is asserted. Expiring Actions artifact has retained script/seed/inventory provenance and permanent earlier G-e witness archive.
+8. D047 modifies live owner-execution authority, not the immutable factual content of earlier owner prompts or scientific certification requirements. A complete future prompt must still be included inline at closeout.

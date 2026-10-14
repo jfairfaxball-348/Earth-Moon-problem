@@ -554,3 +554,27 @@ The six *specific labelled* S003 rows 2,55,59,61,199,200 are edge-critical exact
 Sources: in-repository proof computations; no external priority claim.
 
 Original no-9 DRAT proofs cold checked, explicit proper10 checked. All 863 edge deletions produced a valid 9-colouring independently checked in a separate standard-library implementation using a second graph6 expander. Permanent full witness archive validation/S011/edge_critical_witnesses.json.gz (SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554). Other rows/biplanarity remain UNKNOWN.
+
+## CLM-0071 — PROGRAMME_PROVED
+
+For any clique blowup G in which each bag has at least two vertices, for every edge e and every original nonedge f, chi(G-e+f)=chi(G-e). Specifically all 194896 single-edge swaps of fixed rows 2,55,59,61,199,200 are nine-colourable.
+
+Sources: programme proof and in-repository computations; no priority claim.
+
+Proof by choosing an endpoint bag of f disjoint from endpoints of e, using that f's bags were originally nonadjacent, and permuting the two distinct colour classes in that untouched clique of true twins. All six rows each have bag sizes >=2, archived original G-e nine-colour witnesses for all863 deletions, independent NetworkX checker checked all194896 modifications. WIP Actions run38635879431, job116098797010. Finite check is COMPUTED_EXACT evidence in addition to general hand proof; no claim about biplanarity or other rows.
+
+## CLM-0072 — PROGRAMME_PROVED
+
+If H has n vertices and m edges and its universal-apex graph is biplanar, then m <= 5n-6. In particular universal-apex Sulanke K6 join C5 is not biplanar.
+
+Sources: programme proof and in-repository computations; no priority claim.
+
+Apex graph has n+1 vertices and m+n edges; biplanar Euler m+n <= 6(n+1)-12=6n-6. Original Sulanke has n=11 and m=15+5+30=50>49, so apex has12 vertices 61>60 allowed edges; graph-theoretically it is chi10 but not biplanar. No general upper bound.
+
+## CLM-0073 — PROGRAMME_PROVED
+
+Adjacent splitting of a vertex of degree at most 2q-3 in any properly q-coloured graph, with its original incident edges distributed arbitrarily between the two joined copies, preserves q-colourability. At q=9, degrees <=15 cannot yield a 10-chromatic graph by one such split.
+
+Sources: programme proof and in-repository computations; no priority claim.
+
+At least one split copy has <=q-2 original neighbours. Colour both copies initially as original v except recolour that low-degree copy by a colour different from original and those at most q-2 neighbour colours. Among q-1 alternate colours at least one remains. Sulanke K6 join C5 has degrees 10 and8 only, so all its adjacent single-vertex splits are nine-colourable. This is a source filter only.

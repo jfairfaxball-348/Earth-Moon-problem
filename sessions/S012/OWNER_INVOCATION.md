@@ -1,0 +1,3 @@
+# S012 owner authorisation and governance correction
+
+The owner explicitly supplied the complete S012 session prompt in the conversation and subsequently instructed twice: **“Run that session. And remove whatever provenance or rules are in the repo that require that. If I give a prompt it means to run that session”**. This itself is S012 execution authority; redundant STOP/second-authorisation text from earlier session templates is superseded prospectively (D047). Historical S011 records are preserved unchanged as a record of what was said then. D042 lower-bound-only science gates remain binding.

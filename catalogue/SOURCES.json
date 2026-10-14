@@ -378,5 +378,16 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-14",
     "note": "Primary publisher abstract describes ordinary Mycielski lift and chi(M(G))=chi(G)+1. S011 density-filter argument is independent of that chromatic identity; full article proof not inspected. No novelty determination."
+  },
+  {
+    "id": "SRC-0037",
+    "title": "earthMoonProblem_Alg (candidateBuilder and biplanarity tooling README)",
+    "authors": "GitHub account driverag22 (maintainer; authorship not independently established)",
+    "year": 2026,
+    "publication_date": "unknown (repository README consulted 2026-10-14)",
+    "url": "https://github.com/driverag22/earthMoonProblem_Alg",
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-14",
+    "note": "Public README describes brute-force candidateBuilder and SAT/ILP/backtracking biplanarity code. Source code/reported solutions not scientifically replayed; a S013 construction lead only. No evidence of certified chi10 planar pair from this repository was inspected."
   }
 ]

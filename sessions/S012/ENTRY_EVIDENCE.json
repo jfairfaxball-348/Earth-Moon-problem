@@ -1,0 +1,18 @@
+{
+  "main": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+  "tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+  "s011_pr": 13,
+  "s011_authored": "8893aa34927c37c3d71b2201f50838635c3d30e5",
+  "s011_parents": [
+    "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "8893aa34927c37c3d71b2201f50838635c3d30e5"
+  ],
+  "main_scaffold_run": 38626700945,
+  "main_scaffold_conclusion": "success",
+  "open_prs": [],
+  "rulesets": [],
+  "s012_wip_head": "9168e1567ccabdda50068771f7c9c5c6f0703a39",
+  "s012_completed_run": 38635879431,
+  "local_container_git_dns": "FAILED_NO_RESOLUTION",
+  "science_runner": "GitHub Actions ubuntu-24.04"
+}

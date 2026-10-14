@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-14",
-  "last_completed_session": "S011",
-  "recommended_next_session": "S012",
+  "last_completed_session": "S012",
+  "recommended_next_session": "S013",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S011_LOWER_BOUND_ONLY_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S012_D042_ONLY",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S011: still52 checked non-biplanar/271 fixed candidates,219 biplanarity UNKNOWN. Positive CAM0012 438 trials/25 repairs no split; CAM0013 six rows 240/240 deletion SAT9; CAM0014 six exactchi10 rows certified edge-critical from863 independently checked 9-colouring witnesses. No chi>=10 biplanar split.",
+  "candidate_10_11_12": "S012: fixed271 exactchi10 original blowups,52 checked non-biplanar,219 biplanarity UNKNOWN; CAM0015 194896 of194896 one-delete/one-nonedge-add swaps across six selected all-bags>=2 10-edge-critical rows explicitly 9-colourable. No chi>=10 planar pair.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,6 +83,8 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "D047 governance: owner supplying a session prompt itself authorises running that session; no separate 'Run S###' command. Generation of future prompt alone does not execute it.",
+    "S012 CAM0015 closed all194896 one-edge swaps for six specific all-bags>=2 exactchi10 10-edge-critical rows using independently checked 9-colour witnesses (CLM0071). Multi-edge swaps, layer-first two planar graphs and genuinely different families require new research. Still 219 UNKNOWN original biplanarity; no headline.",
     "S011 CLOSED no headline; 52/271 excluded,219 UNKNOWN. D044 Actions full smoke PASS; all run/artifact SHA in validation/S011/SUMMARY.json. Six rows2,55,59,61,199,200 exactly10 EDGE-CRITICAL with 863 verified G-e nine colourings stored permanently; no biplanarity proved. S012 target edge-swap or new layer-pair source.",
     "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
     "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
@@ -92,12 +94,11 @@
     "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
     "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
     "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
-    "Novelty/external review/Lean/registration/publication/outreach gates unpassed.",
-    "S012 is FUTURE_UNEXECUTED pending owner invocation. S011 authored PR/two-parent main/CI must be rechecked live at next entry; never infer merge commit before it exists."
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S011-certified-construction-search",
-  "latest_session_entry_main": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+  "latest_session_branch": "session/S012-layer-aware-chromatic-restoring",
+  "latest_session_entry_main": "226c87b8d802210628d15aecb24bbfd43f75fb81",
   "latest_session_integration": "AUTHORING_PENDING_ONE_COMMIT_PR_NONFORCE_MERGE_VERIFY_ACTUAL_LIVE",
   "mathematical_results": [
     "CLM-0007",
@@ -160,7 +161,10 @@
     "CLM-0067",
     "CLM-0068",
     "CLM-0069",
-    "CLM-0070"
+    "CLM-0070",
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -350,5 +354,21 @@
     "mycielski_filter": "CLM-0069",
     "edge_critical": "CLM-0070",
     "next_prompt_output_required_by_owner": true
-  }
+  },
+  "s012_result": {
+    "cam0015_swaps": 194896,
+    "cam0015_independent_checker": "PASS",
+    "full_smoke": "PASS",
+    "run": 38635879431,
+    "job": 116098797010,
+    "native_sha": {
+      "cadical": "b6f9b737c9eef9e768972c526411fdad07062879e44c5d8592010d0547cb9c60",
+      "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "results": "validation/S012/SUMMARY.json",
+    "lower_bound_advance": false,
+    "governance": "D047",
+    "next_prompt_output_required_by_owner": true
+  },
+  "session_prompt_is_owner_authorization": true
 }

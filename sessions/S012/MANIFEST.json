@@ -1,0 +1,31 @@
+{
+  "session": "S012",
+  "status": "MATHEMATICS_COMPLETE_HEADLINE_OPEN",
+  "entry_main_sha": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+  "entry_tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+  "wip_run": 38635879431,
+  "wip_job": 116098797010,
+  "smoke": "PASS_SAME_JOB",
+  "results": "validation/S012/SUMMARY.json",
+  "validation_manifest": "validation/S012/MANIFEST.json",
+  "research": "research/S012_CONSTRUCTIONS.md",
+  "claims": [
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073"
+  ],
+  "sources": [
+    "SRC-0037"
+  ],
+  "governance": [
+    "D047",
+    "D048",
+    "D049"
+  ],
+  "future_prompt_paths": [
+    "authoritative/NEXT_SESSION_PROMPT.md",
+    "sessions/S012/S013_FUTURE_PROMPT.md"
+  ],
+  "future_prompt_identical": true,
+  "outgoing_integration": "REFER_TO_LIVE_GITHUB_POST_MERGE_NOT_GUESSED"
+}

@@ -36,3 +36,8 @@ S009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.
 | [CAM-0011](CAM-0011.md) |S010 structural reset, all271 three-source detector, cold proofs/local endpoints/residual palette controls|S010 strategic reset complete;0 new row exclusions,52/271 excluded and219 UNKNOWN;9..12 unchanged. Heavy odd endblocks/whole components reduce toC5; P4-I9/C5-I9 local sources biplanar exactchi3/4; residual extension criterion conditional.|
 
 S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical future labels superseded only throughS010.
+
+| [CAM-0012](CAM-0012.md) | S011 all219 positive greedy, 438 trials | No split; no negative proof |
+| [CAM-0013](CAM-0013.md) | S011 six-row 240 deletion sampling | Nine-colourable samples; no saved deletion |
+| [CAM-0014](CAM-0014.md) | S011 six exactchi10 rows all863 edges | Edge-critical six with permanent independent 9-colour witnesses |
+| [CAM-0015](CAM-0015.md) | S012 all one-delete/one-original-nonedge-add swaps in six fixed all-bags>=2 clique blowups | 194896/194896 proper nine-colourable, second checker PASS, run38635879431; does not classify biplanarity |

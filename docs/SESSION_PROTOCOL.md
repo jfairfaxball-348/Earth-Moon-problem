@@ -6,7 +6,7 @@
 2. Enumerate workflow files, actual runs/jobs/check-runs/status contexts and reachable rulesets/protection; a missing hosted check never counts as a pass.
 3. Read authority and full most-recent CLOSEOUT plus source/claim indexes, mathematical results, route failures and registered campaigns.
 4. Preregister the exact session ID, owner instruction, nontrivial goals, candidate proofs, attempted counterexamples, computational limits and stop criteria. If owner prompt is outside tool reach, quote only faithful description, never fabricate its bytes.
-5. One independent owner invocation permits one numbered session. Allow multiple ambitious attempts inside that session; stop before next session.
+5. A supplied/pasted numbered session prompt is itself an explicit owner invocation for that session (D047): EXECUTE directly without asking for separate confirmation. Generating a future prompt does not start it. One supplied prompt = one session; stop before subsequent sessions.
 
 ## Mathematics
 - Distinguish maximum chromatic number χ₂ from minimum number of colours in one example and from geometric thickness.

@@ -1,0 +1,30 @@
+{
+  "session": "S012",
+  "campaign": "CAM-0015",
+  "run": 38635879431,
+  "job": 116098797010,
+  "artifact": 11928007306,
+  "source_hashes": {
+    "tools/s012_swap_audit.py": "82a170d75feded8fe6042ffbc2e9c5f743ffa0b020f5839a8e9e9c126700eebc",
+    "tools/s012_swap_check.py": "78f6ac6b049ee6aa3d6e22787d432e2404926095954eeb22d09f9edc27fbdb0d",
+    "campaigns/CAM-0015.md": "cddbf244111281f9997a422004f772f636f0487f11be3740464ea95af1fd269f",
+    ".github/workflows/s012-swap-audit.yml": "48248c39e4512f60919f3c6d33a5876755042c5499504bb43c38b14a94a7d29d",
+    "validation/S011/edge_critical_witnesses.json.gz": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb"
+  },
+  "native_hashes": {
+    "cadical": "b6f9b737c9eef9e768972c526411fdad07062879e44c5d8592010d0547cb9c60",
+    "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "permanent_sources": [
+    "tools/s012_swap_audit.py",
+    "tools/s012_swap_check.py",
+    ".github/workflows/s012-swap-audit.yml",
+    "campaigns/CAM-0015.md",
+    "validation/S011/edge_critical_witnesses.json.gz"
+  ],
+  "summary": "validation/S012/SUMMARY.json",
+  "independent_checker_result": "PASS",
+  "no_full_witness": true,
+  "full_artifact_is_transient": true
+}
