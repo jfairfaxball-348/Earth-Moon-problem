@@ -32,3 +32,7 @@ S008 manifest/SUMMARY retain distinct lane scopes; S009 FUTURE/UNEXECUTED.
 | [CAM-0010](CAM-0010.md) | S009 general injections/full D2/stronger heavy/mixed charges and equality lists | S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN.9..12 unchanged |
 
 S009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.
+
+| [CAM-0011](CAM-0011.md) |S010 structural reset, all271 three-source detector, cold proofs/local endpoints/residual palette controls|S010 strategic reset complete;0 new row exclusions,52/271 excluded and219 UNKNOWN;9..12 unchanged. Heavy odd endblocks/whole components reduce toC5; P4-I9/C5-I9 local sources biplanar exactchi3/4; residual extension criterion conditional.|
+
+S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical future labels superseded only throughS010.

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\tools\s010_baseline.py", line 57, in <module>
+    assert cnf.read_bytes()==archived;del archived
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

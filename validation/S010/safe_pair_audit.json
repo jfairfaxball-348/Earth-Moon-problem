@@ -1,0 +1,10 @@
+{
+ "verdict": "PASS",
+ "ground_order": 5,
+ "outside_colours": 3,
+ "unused_R_colour": 3,
+ "pair_assignment_cases": 112640,
+ "satisfied_antecedent_cases": 98470,
+ "independent_R_existence": "NOT_PROVED",
+ "domain": "all unequal equal-size subset pairs, all R, all outside3 assignments"
+}

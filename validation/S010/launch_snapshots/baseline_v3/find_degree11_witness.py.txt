@@ -1,0 +1,85 @@
+"""CAM-0002 fixed-seed heuristic; no exhaustive or chromatic lower-bound claim."""
+import json
+import math
+import random
+import time
+from pathlib import Path
+import networkx as nx
+
+
+def generate():
+    base = nx.icosahedral_graph()
+    planar, embedding = nx.check_planarity(base)
+    assert planar
+    midpoint = {tuple(sorted(e)): 12 + i for i, e in enumerate(sorted(map(lambda e: tuple(sorted(e)), base.edges)))}
+    graph = nx.Graph()
+    for (u, v), w in midpoint.items():
+        graph.add_edges_from([(u, w), (v, w)])
+    visited = set()
+    for u, v in embedding.edges():
+        if (u, v) in visited:
+            continue
+        face = embedding.traverse_face(u, v, visited)
+        assert len(face) == 3
+        mids = [midpoint[tuple(sorted((face[i], face[(i+1)%3])))] for i in range(3)]
+        graph.add_edges_from([(mids[i], mids[(i+1)%3]) for i in range(3)])
+    assert graph.number_of_nodes() == 42 and graph.number_of_edges() == 120
+    assert sorted(dict(graph.degree()).values()) == [5]*12 + [6]*30
+    return graph
+
+
+def run():
+    rng, start = random.Random(2), time.monotonic()
+    graph = generate()
+    edges = sorted(tuple(sorted(e)) for e in graph.edges())
+    edge_set = set(edges)
+    best, attempts = 120, 0
+    for restart in range(100):
+        images = rng.sample(range(12, 42), 12)
+        remaining = list(set(range(42)) - set(images))
+        rng.shuffle(remaining)
+        perm = images + remaining
+        def score(p):
+            return sum(tuple(sorted((p[u], p[v]))) in edge_set for u, v in edges)
+        value = score(perm)
+        for step in range(100000):
+            if time.monotonic() - start > 60:
+                raise RuntimeError(f'CAP: best overlap={best}, no negative theorem')
+            if value == 0:
+                union = nx.Graph(graph)
+                layer2 = sorted(tuple(sorted((perm[u], perm[v]))) for u, v in edges)
+                union.add_edges_from(layer2)
+                color = nx.coloring.greedy_color(union, strategy='saturation_largest_first')
+                rotations = []
+                for es in (edges, layer2):
+                    g = nx.Graph(); g.add_nodes_from(range(42)); g.add_edges_from(es)
+                    ok, emb = nx.check_planarity(g)
+                    assert ok
+                    rotations.append({str(v): list(emb.neighbors_cw_order(v)) for v in range(42)})
+                data = {'num_vertices':42,'edges_part1':edges,'edges_part2':layer2,
+                        'coloring':[color[v] for v in range(42)],'chromatic_number':len(set(color.values())),
+                        'chromatic_number_field_is_only_colouring_upper_bound':True,
+                        'permutation':perm,'rotations':rotations,
+                        'degree_sequence':sorted(dict(union.degree()).values()),
+                        'campaign':'CAM-0002','seed':2,'restart':restart,'attempts':attempts}
+                path = Path(__file__).resolve().parents[1]/'validation/degree11_witness.json'
+                path.write_text(json.dumps(data,indent=2)+'\n')
+                print(json.dumps({'path':str(path),'restart':restart,'attempts':attempts,
+                                  'seconds':time.monotonic()-start,'minimum_degree':min(dict(union.degree()).values()),
+                                  'colour_upper_bound':len(set(color.values()))}))
+                return
+            a, b = rng.sample(range(42), 2)
+            if (a < 12 and perm[b] < 12) or (b < 12 and perm[a] < 12):
+                continue
+            perm[a], perm[b] = perm[b], perm[a]
+            new = score(perm); attempts += 1
+            temperature = max(0.05, 0.8 * (1-(step % 10000)/10000))
+            if new <= value or rng.random() < math.exp((value-new)/temperature):
+                value = new; best = min(best, value)
+            else:
+                perm[a], perm[b] = perm[b], perm[a]
+    raise RuntimeError(f'CAP: best overlap={best}, no negative theorem')
+
+
+if __name__ == '__main__':
+    run()

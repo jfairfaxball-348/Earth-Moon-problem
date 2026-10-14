@@ -1,0 +1,7 @@
+# S010 entry — 2026-10-14
+
+Exactly S010 invoked. Before writes live GitHub main and fetched local main agreed on 8626b6419f12d706f3ba567f6733d26d6e4dd7be, tree defbef2531504b868642c5f21b5dd1ee40b0bf17. Ordinary non-draft PR9 has exactly one authored commit 6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c, sole parent 7957452c79c2b31088f93fff440783328c78942d. Main has those two ordered parents and identical authored tree. Head/main runs38600425084/38600592078 succeeded; actual jobs/steps inspected. No open competing PR; all remote branches reconciled as historical session branches. One active scaffold workflow; combined pending/zero contexts is not CI PASS. Protection404 explicitly Branch not protected; rulesets[].
+
+Read the complete incoming prompt, authority and protocol; all S009 narrative records, three dossiers and CAM0010 with amendments. Parsed the entire S009 SUMMARY, manifest and large ENTRY_EVIDENCE; historical API payloads are provenance, not current authority. Source/claim entries and programme ledgers inspected. Paired MD/JSON consistency and all524 S009 manifest artifacts will be independently checked. Repeated truncated broad reads were replaced by focused reads and structured summaries; no claim of manually reviewing every historical API field.
+
+Entry52/271 excluded,219 UNKNOWN;31/42 D2 UNKNOWN. Headline9..12. Isolated branch codex/S010-strategic-reset at entry main. S011 and all downstream owner gates unexecuted.

@@ -12,3 +12,5 @@ validation/S007/**/*.log -text -whitespace
 validation/S008/**/*.log -text -whitespace
 # S009 evidence hashes include exact observed logs and launch snapshots.
 validation/S009/** -text -whitespace
+# S010 preserves native logs and exact immutable source/launch snapshots.
+validation/S010/** -text -whitespace

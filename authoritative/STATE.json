@@ -2,16 +2,16 @@
  "project": "Earth-Moon-problem",
  "repository_id": 1415870164,
  "as_of": "2026-10-14",
- "last_completed_session": "S009",
- "recommended_next_session": "S010",
+ "last_completed_session": "S010",
+ "recommended_next_session": "S011",
  "headline": "Resolve \u03c7\u2082 = max chromatic number of finite simple thickness\u22642 graphs",
- "headline_status": "OPEN_9_TO_12_S009_MIXED_CHARGE_AND_FULL_LAYER_AUDIT",
+ "headline_status": "OPEN_9_TO_12_S010_STRUCTURAL_RESET",
  "confirmed_classical_range": {
   "lower": 9,
   "upper": 12,
   "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
  },
- "candidate_10_11_12": "S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[].",
+ "candidate_10_11_12": "S010 adds0 row exclusions; total52/271,219 UNKNOWN. Long heavy odd blocks excluded analytically; remaining P4/C5 local sources positive chi3/4.",
  "universal_improved_upper_bound": "NONE_PROVED",
  "phases": [
   {
@@ -22,7 +22,7 @@
   {
    "id": 1,
    "name": "Primary-source baseline and genuine proof/counterexample investigation",
-   "status": "ACTIVE_MIXED_CHARGE_AND_SIMULTANEOUS_LIST_NO_HEADLINE_ADVANCE"
+   "status": "ACTIVE_SMALLER_HEAVY_C5_LIGHT_AND_RESIDUAL_EXTENSION_NO_HEADLINE_ADVANCE"
   },
   {
    "id": 2,
@@ -55,7 +55,7 @@
    "status": "OWNER_GATED"
   }
  ],
- "source_status": "2026_PRIMARY_REFRESH_WITH_UNVERIFIED_OCTOBER_DISCOVERY_LEADS",
+ "source_status": "2026_PRIMARY_REFRESH_WITH_SCOPED_RSTATEMENT_ACCESS_NO_ORDER_PROMOTION",
  "lean": {
   "status": "NOT_STARTED"
  },
@@ -71,22 +71,24 @@
  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
  "open_obligations": [
-  "Decide remaining219 fixedchi10 rows; exact indices in S009/SUMMARY.",
-  "Full lane UNKNOWN[], NOT_RUN[], search caps[], native export caps[].",
-  "Stronger all-completion-K33 heavyK7-I5 verdict:NON_BIPLANAR_DRAT_VERIFIED.",
-  "All42 D2 source rows accounted individually; 31 remain UNKNOWN. No stratum closure.",
-  "General injection pair caps/NOT_RUN/misses are not exclusions or a general noncontainment theorem.",
-  "Row165 no-lex and23v row158 deletion UNKNOWN; C5 maximal13/children and whole independentk8/k9 census open.",
-  "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN; K6-I6chi7/biplanar, historical K7-I5 caps separate.",
-  "Mixed charge Q>=4t8+4e11+2e9+3w9+w7 and stronger expansion do not bound order/deficit or supply colours.",
-  "Exact equality quotient/list existence, light/heavy simultaneous palettes, short odd/smaller clique and all-deficit routes unresolved.",
-  "Verify S009 actual authored commit/ordinary PR/two-parent merge/main jobs live after frozen commit.",
-  "Recent rStation at-most19/20 leads metadata-only; no external primary proof/archive replay or novelty guarantee.",
+  "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
+  "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
+  "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
+  "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
+  "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
+  "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
+  "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above.",
+  "Row165 no-lex/23v row158 deletion UNKNOWN; C5 maximal13/children and independent wholek8/k9 census open.",
+  "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. Generic equality identification need not preserve planarity.",
+  "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
+  "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
+  "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
+  "VerifyS010 ordinaryPR/authored/two-parent main/tree/actual jobs live after freeze; S011 FUTURE/UNEXECUTED.",
   "Novelty/external universal review/Lean/registration/publication/outreach gates unpassed."
  ],
  "next_session_is_future_unexecuted": true,
- "latest_session_branch": "codex/S009-transfer-colours",
- "latest_session_entry_main": "7957452c79c2b31088f93fff440783328c78942d",
+ "latest_session_branch": "codex/S010-strategic-reset",
+ "latest_session_entry_main": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
  "latest_session_integration": "VERIFY_LIVE_PR_MAIN_AFTER_SINGLE_ATOMIC_COMMIT",
  "mathematical_results": [
   "CLM-0007",
@@ -142,7 +144,12 @@
   "CLM-0060",
   "CLM-0061",
   "CLM-0062",
-  "CLM-0063"
+  "CLM-0063",
+  "CLM-0064",
+  "CLM-0065",
+  "CLM-0066",
+  "CLM-0067",
+  "CLM-0068"
  ],
  "s003_integration_verified": {
   "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -229,6 +236,22 @@
   "main_CI_run": 38558755112,
   "head_validate_job": 115833753360,
   "main_validate_job": 115834317044,
+  "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+ },
+ "s009_integration_verified": {
+  "authored_commit": "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c",
+  "sole_parent": "7957452c79c2b31088f93fff440783328c78942d",
+  "pr": 9,
+  "merge_commit": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
+  "merge_parents": [
+   "7957452c79c2b31088f93fff440783328c78942d",
+   "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c"
+  ],
+  "tree": "defbef2531504b868642c5f21b5dd1ee40b0bf17",
+  "head_CI_run": 38600425084,
+  "main_CI_run": 38600592078,
+  "head_validate_job": 115977946517,
+  "main_validate_job": 115978523871,
   "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
  }
 }

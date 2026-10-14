@@ -1,0 +1,40 @@
+{
+ "verdict": "PASS",
+ "instances": 2692,
+ "feasible_proper3": 2521,
+ "infeasible_proper3": 171,
+ "first_incompatible_repetition": {
+  "n": 3,
+  "edges": [
+   [
+    0,
+    1
+   ]
+  ],
+  "sets": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "proper3_colourings": 18,
+  "grade": "ABSTRACT_GRAPH_NOT_CRITICAL_EMP_WITNESS"
+ },
+ "finite_budget_counterexample": null,
+ "rainbow_constraint_forbidden_colours": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "domain": "all labelled edge graphs n1..4, all one/two eligible set multisets, all proper3 assignments; finite only"
+}

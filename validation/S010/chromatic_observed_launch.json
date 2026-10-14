@@ -1,0 +1,26 @@
+{
+ "grade": "OBSERVED_BEFORE_LAUNCH",
+ "as_of_utc": "2026-10-14T18:20:04.196916+00:00",
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/s010_chromatic_replay.py",
+  "worker"
+ ],
+ "sha256": {
+  "tools/s010_chromatic_replay.py": "ff68ee3020a42efac7b09bb8779454568c9b668b40a5de09f0b00bfb07ff8001",
+  "tools/blowup_chi_cnf.py": "8c22cdb2f4b823d7ce06a12587d7c500ea2c2cb143669ffdf0ec4d499f503297",
+  "tools/check_s009_records.py": "32b5b375248ac6a0ce53475f1eae5191955686abdaf2fe6c7d82483eabdbdf81",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "tools/s004_certify.py": "b3c1145d463854be942a7ef935e6673541e665deecbf915e602d838f04372402",
+  "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+  "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+  "campaigns/CAM-0011.md": "dd50f7f4602de9860e0fff05c62564e1bd14ba8e21b2e1123d37048429ab2292"
+ },
+ "native_sha256": {
+  "cadical.exe": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+  "drat-trim-mingw.exe": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "libc++.dll": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b",
+  "libunwind.dll": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780",
+  "libwinpthread-1.dll": "7658f9e5e89213af287d342c554b8abcb5b2700b4a44d02184b56004b104ceec"
+ }
+}

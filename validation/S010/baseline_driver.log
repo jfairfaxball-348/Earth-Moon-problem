@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\tools\s010_baseline.py", line 45, in <module>
+    assert len(specs)==50,len(specs)
+           ^^^^^^^^^^^^^^
+AssertionError: 47

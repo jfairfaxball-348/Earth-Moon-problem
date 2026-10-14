@@ -1,0 +1,938 @@
+[
+ {
+  "tag": "P4-I9",
+  "n": 13,
+  "m": 39,
+  "D": 27,
+  "edgefile": "validation\\S010\\local\\P4-I9.edges",
+  "edge_sha256": "c90cf3ee35de607ea7caa34fb4613a9099631f109d3e6c68c7151ef2762e6a1a",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s010_local_cover.py",
+    "validation\\S010\\local\\P4-I9.edges",
+    "artifacts\\tmp\\S010\\local\\P4-I9",
+    "900",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 2.547000000002299,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 103485440
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 1.6570000000028813,
+   "cuts": 0,
+   "variables": 35773,
+   "clauses": 154764
+  },
+  "prefix": "artifacts\\tmp\\S010\\local\\P4-I9",
+  "verdict": "BIPLANAR_EXACT_CHI3",
+  "V": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "split": {
+   "n": 13,
+   "E1": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     9
+    ]
+   ]
+  },
+  "rotations": [
+   [
+    {
+     "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "rotation": {
+      "0": [
+       4,
+       12,
+       6
+      ],
+      "1": [
+       2,
+       10,
+       5,
+       11,
+       9
+      ],
+      "2": [
+       4,
+       6,
+       10,
+       1,
+       9,
+       11,
+       8,
+       3
+      ],
+      "3": [
+       5,
+       10,
+       6,
+       12,
+       4,
+       2,
+       8,
+       11,
+       7
+      ],
+      "4": [
+       0,
+       2,
+       3
+      ],
+      "5": [
+       1,
+       3
+      ],
+      "6": [
+       3,
+       2,
+       0
+      ],
+      "7": [
+       3
+      ],
+      "8": [
+       3,
+       2
+      ],
+      "9": [
+       1,
+       2
+      ],
+      "10": [
+       3,
+       1,
+       2
+      ],
+      "11": [
+       3,
+       2,
+       1
+      ],
+      "12": [
+       3,
+       0
+      ]
+     },
+     "independent_sphere": {
+      "vertices": 13,
+      "edges": 23,
+      "faces": 12,
+      "euler_characteristic": 2
+     }
+    }
+   ],
+   [
+    {
+     "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "rotation": {
+      "0": [
+       1,
+       8,
+       5,
+       7,
+       9,
+       10,
+       11
+      ],
+      "1": [
+       0,
+       7,
+       12,
+       8,
+       4,
+       6
+      ],
+      "2": [
+       7,
+       5,
+       12
+      ],
+      "3": [
+       9
+      ],
+      "4": [
+       1
+      ],
+      "5": [
+       2,
+       0
+      ],
+      "6": [
+       1
+      ],
+      "7": [
+       1,
+       0,
+       2
+      ],
+      "8": [
+       1,
+       0
+      ],
+      "9": [
+       0,
+       3
+      ],
+      "10": [
+       0
+      ],
+      "11": [
+       0
+      ],
+      "12": [
+       2,
+       1
+      ]
+     },
+     "independent_sphere": {
+      "vertices": 13,
+      "edges": 16,
+      "faces": 5,
+      "euler_characteristic": 2
+     }
+    }
+   ]
+  ],
+  "proper_colouring": [
+   0,
+   1,
+   0,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "chi": 3,
+  "lower_proof": "P4 edge requires2 colours, or odd C5 requires3; every joined independent-side vertex needs an additional colour.",
+  "cnf_package": {
+   "grade": "PARTIAL_NECESSARY_CNF_NOT_A_REFUTATION",
+   "static": {
+    "version": "S010-small-all-completion-v1",
+    "counter": "totalizer",
+    "K5": 1287,
+    "K33": 17160,
+    "subset_cuts": "NONE",
+    "distinct_faces_enabled": false
+   },
+   "raw_sha256": "5da3e62b507ce48b06cacfcf441ca093b1c2898e5a0ef6b0ac70663287161b4f",
+   "archive": "validation\\S010\\local\\search\\P4-I9.partial.cnf.gz",
+   "archive_sha256": "784f342c9d61f303b22b2c699a45000daf39fc6f57e9e1a0e0513253a09ec503",
+   "initial_raw_sha256": "5da3e62b507ce48b06cacfcf441ca093b1c2898e5a0ef6b0ac70663287161b4f",
+   "initial_archive": "validation\\S010\\local\\search\\P4-I9.initial.cnf.gz",
+   "initial_archive_sha256": "784f342c9d61f303b22b2c699a45000daf39fc6f57e9e1a0e0513253a09ec503",
+   "metadata_grade": "ACTUAL_COVER_LEX_CUT_SCHEMA_STATIC_DERIVED_DURING_COLD_PACKAGING"
+  }
+ },
+ {
+  "tag": "C5-I9",
+  "n": 14,
+  "m": 50,
+  "D": 22,
+  "edgefile": "validation\\S010\\local\\C5-I9.edges",
+  "edge_sha256": "33b5e9b585db068b30ee5b74475dcfa9cc0fc3169ec0c2554d4c92a91cba0651",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s010_local_cover.py",
+    "validation\\S010\\local\\C5-I9.edges",
+    "artifacts\\tmp\\S010\\local\\C5-I9",
+    "900",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 33.70300000000134,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 137216000
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 3,
+   "seconds": 32.59300000000076,
+   "cuts": 34,
+   "variables": 42524,
+   "clauses": 208148
+  },
+  "prefix": "artifacts\\tmp\\S010\\local\\C5-I9",
+  "verdict": "BIPLANAR_EXACT_CHI4",
+  "V": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "split": {
+   "n": 14,
+   "E1": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     13
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     1,
+     13
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     2,
+     13
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     13
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ]
+   ],
+   "E2": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     4,
+     13
+    ]
+   ]
+  },
+  "rotations": [
+   [
+    {
+     "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "rotation": {
+      "0": [
+       4,
+       11,
+       9,
+       13,
+       12,
+       10
+      ],
+      "1": [
+       2,
+       12,
+       13,
+       7,
+       8
+      ],
+      "2": [
+       3,
+       12,
+       1,
+       8,
+       7,
+       13,
+       5,
+       6
+      ],
+      "3": [
+       10,
+       12,
+       2,
+       6,
+       5,
+       13,
+       9,
+       11
+      ],
+      "4": [
+       0,
+       10,
+       11
+      ],
+      "5": [
+       2,
+       3
+      ],
+      "6": [
+       2,
+       3
+      ],
+      "7": [
+       1,
+       2
+      ],
+      "8": [
+       1,
+       2
+      ],
+      "9": [
+       3,
+       0
+      ],
+      "10": [
+       4,
+       0,
+       3
+      ],
+      "11": [
+       3,
+       0,
+       4
+      ],
+      "12": [
+       1,
+       2,
+       3,
+       0
+      ],
+      "13": [
+       1,
+       0,
+       3,
+       2
+      ]
+     },
+     "independent_sphere": {
+      "vertices": 14,
+      "edges": 27,
+      "faces": 15,
+      "euler_characteristic": 2
+     }
+    }
+   ],
+   [
+    {
+     "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "rotation": {
+      "0": [
+       1,
+       6,
+       8,
+       7,
+       5
+      ],
+      "1": [
+       0,
+       5,
+       11,
+       10,
+       9,
+       6
+      ],
+      "2": [
+       9,
+       10,
+       11
+      ],
+      "3": [
+       4,
+       7,
+       8
+      ],
+      "4": [
+       5,
+       7,
+       3,
+       8,
+       6,
+       9,
+       12,
+       13
+      ],
+      "5": [
+       1,
+       0,
+       4
+      ],
+      "6": [
+       4,
+       0,
+       1
+      ],
+      "7": [
+       3,
+       4,
+       0
+      ],
+      "8": [
+       3,
+       0,
+       4
+      ],
+      "9": [
+       4,
+       1,
+       2
+      ],
+      "10": [
+       2,
+       1
+      ],
+      "11": [
+       2,
+       1
+      ],
+      "12": [
+       4
+      ],
+      "13": [
+       4
+      ]
+     },
+     "independent_sphere": {
+      "vertices": 14,
+      "edges": 23,
+      "faces": 11,
+      "euler_characteristic": 2
+     }
+    }
+   ]
+  ],
+  "proper_colouring": [
+   0,
+   1,
+   0,
+   1,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "chi": 4,
+  "lower_proof": "P4 edge requires2 colours, or odd C5 requires3; every joined independent-side vertex needs an additional colour.",
+  "cnf_package": {
+   "grade": "PARTIAL_NECESSARY_CNF_NOT_A_REFUTATION",
+   "static": {
+    "version": "S010-small-all-completion-v1",
+    "counter": "totalizer",
+    "K5": 2002,
+    "K33": 30030,
+    "subset_cuts": "NONE",
+    "distinct_faces_enabled": false
+   },
+   "raw_sha256": "84b61a53f5262b34583c5102378d38719752547d6e04fc0d23a4994a046baf7c",
+   "archive": "validation\\S010\\local\\search\\C5-I9.partial.cnf.gz",
+   "archive_sha256": "74c9549cd102bacce7f9da7bc0663cc92e7338d4afe3db0cafcf1c445b6ec8fd",
+   "initial_raw_sha256": "556d687f9f29055a8cb9b31e11880857cfda127a2a0b4d1675e8d0abb0e391d7",
+   "initial_archive": "validation\\S010\\local\\search\\C5-I9.initial.cnf.gz",
+   "initial_archive_sha256": "3d9ac12090dc43e4e6c4bb2913cfd418d11da3a86934369b3e19896f472e44a4",
+   "metadata_grade": "ACTUAL_COVER_LEX_CUT_SCHEMA_STATIC_DERIVED_DURING_COLD_PACKAGING"
+  }
+ }
+]

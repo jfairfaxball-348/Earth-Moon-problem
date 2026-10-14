@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-14): UNSOLVED; S009 mathematics complete. S009 adds7 checked finite row exclusions; total52/271, 219 biplanarity UNKNOWN. Bounds9..12 unchanged.**
+**Headline:** Determine the exact maximum chromatic number of graphs of thickness at most two (the Earth–Moon problem, EMP). **Status (2026-10-14): UNSOLVED; S010 strategic reset complete;52/271 finite rows excluded,219 UNKNOWN. Heavy odd blocks reduce toC5; local P4/C5 joins are planar. Bounds9..12 unchanged.**
 
 ## Exact target
 
@@ -38,7 +38,7 @@ Gates are evidence-driven, not automatic. If no major theorem emerges, retain ma
 
 ## Navigation
 
-Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S010 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
+Begin at [AGENTS.md](AGENTS.md) → [START_HERE](authoritative/START_HERE.md) → [STATE.json](authoritative/STATE.json) → [session protocol](docs/SESSION_PROTOCOL.md) → [S011 prompt](authoritative/NEXT_SESSION_PROMPT.md) (future, unexecuted). Sources, claims, failure ledger, campaign registration, and downstream release gates are organized in their corresponding directories.
 
 Inspired by the user's Davenport Counterexample Hunt, Almost Stacked Proof, and Homology–Homotopy programme governance; EMP-specific tests and research strategies are intentionally different.
 
@@ -105,3 +105,11 @@ Only through S008 executed; S009 FUTURE/UNEXECUTED. Headline9..12 and all downst
 - [Simultaneous colours](research/S009_SIMULTANEOUS_COLOURS.md): exact equality-quotient/list reformulation and failure of pairwise/tree feasibility.
 
 Only through S009 executed; S010 FUTURE/UNEXECUTED. Headline9..12 and downstream gates unchanged. Historical future labels superseded throughS009.
+
+## S010 results
+
+- [Structural reset](research/S010_BIPARTITE_RESET.md): hand K6,9 obstruction closes every heavy odd block of length>=7.
+- [Simultaneous extension](research/S010_SIMULTANEOUS_EXTENSION.md): independentR/safe residual palette criterion and precise missing existence steps.
+- [Strategic audit](research/S010_STRATEGIC_AUDIT.md): measured search yield/completeness; local P4-I9/C5-I9 planar exactchi3/4, no new row exclusion.
+
+Only throughS010 executed; S011 FUTURE/UNEXECUTED. Headline9..12 and all downstream gates unchanged.

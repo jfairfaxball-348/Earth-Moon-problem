@@ -1,0 +1,254 @@
+#!/usr/bin/env python3
+"""CAM-0003 v4: lazy-Kuratowski biplanarity decision with checkable lemmas.
+
+x_e true = edge e in layer 1.  Clauses: (i) for every lemma K (edge set of
+a K5 or K3,3 subdivision) "K not monochromatic" (two clauses); (ii) lex-leader
+symmetry breaking x <=_lex s(x) for the layer swap, transpositions of
+consecutive closed twins and lifted automorphisms of the closed-twin quotient
+(each asserted to be a graph automorphism).  Loop: solve; if a layer of the model is non-planar
+add Kuratowski lemmas (and their twin-transposition images); else SAT.
+
+Usage: biplanar_cegar.py EDGEFILE OUTPREFIX [TIMEOUT_SECONDS] [--seed-small]
+                         [--limit L] [--seed S]
+(--seed-small pre-loads every K5 and K3,3 subgraph of G as a lemma.)
+Writes OUTPREFIX.split.json (SAT) or OUTPREFIX.cnf + OUTPREFIX.lemmas.json
+(UNSAT, to be re-solved with DRAT by an external solver).
+"""
+import itertools
+import json
+import random
+import sys
+import time
+
+import networkx as nx
+from pysat.solvers import Cadical153
+
+sys.path.insert(0, __file__.rsplit("/", 1)[0])
+from biplanar_cnf import read_edges  # noqa: E402
+
+
+def is_kuratowski_subdivision(edges):
+    """Independent structural check: suppress degree-2 vertices -> K5 or K3,3."""
+    adj = {}
+    for u, v in edges:
+        if u == v or v in adj.get(u, ()):
+            return False
+        adj.setdefault(u, set()).add(v)
+        adj.setdefault(v, set()).add(u)
+    deg = {v: len(a) for v, a in adj.items()}
+    branch = [v for v in adj if deg[v] != 2]
+    if sorted(deg[v] for v in branch) not in ([4] * 5, [3] * 6):
+        return False
+    bset = set(branch)
+    seen_edges = set()
+    pairs = []
+    for b in branch:
+        for nxt in adj[b]:
+            prev, cur, path = b, nxt, [(b, nxt)]
+            while cur not in bset:
+                (step,) = adj[cur] - {prev}
+                prev, cur = cur, step
+                path.append((prev, cur))
+            key = frozenset(map(frozenset, path))
+            if key in seen_edges:
+                continue
+            seen_edges.add(key)
+            pairs.append((b, cur))
+    used = set()
+    for path in seen_edges:
+        used |= path
+    if len(used) != len(edges):
+        return False  # stray degree-2 cycles
+    if any(a == b for a, b in pairs) or len({frozenset(p) for p in pairs}) != len(pairs):
+        return False
+    h = nx.Graph(pairs)
+    if len(branch) == 5:
+        return h.number_of_edges() == 10
+    return h.number_of_edges() == 9 and nx.is_bipartite(h) and all(
+        len(c) == 3 for c in nx.bipartite.sets(h))
+
+
+class Cegar:
+    def __init__(self, edges, seed=1):
+        self.edges = edges
+        self.idx = {e: i + 1 for i, e in enumerate(edges)}
+        self.nv = len(edges)
+        self.base = []
+        self.lemmas = []
+        self.lemma_keys = set()
+        self.rng = random.Random(seed)
+        n = 1 + max(max(e) for e in edges)
+        adj = {v: set() for v in range(n)}
+        for u, v in edges:
+            adj[u].add(v)
+            adj[v].add(u)
+        classes = {}
+        for v in range(n):
+            classes.setdefault(frozenset(adj[v] | {v}), []).append(v)
+        self.transpositions = [(a, b) for c in classes.values() for a, b in zip(c, c[1:])]
+        self.perms = [self.transposition_perm(a, b, n) for a, b in self.transpositions]
+        self.perms += self.quotient_automorphisms(classes, adj, n)
+        eset = set(edges)
+        for p in self.perms:  # every listed permutation must be an automorphism
+            assert all((min(p[u], p[v]), max(p[u], p[v])) in eset for u, v in edges)
+        self.base.append([-1])  # layer swap: lex-least has x_0 = 0
+        for p in self.perms:
+            self.add_lex(p)
+
+    @staticmethod
+    def transposition_perm(a, b, n):
+        p = list(range(n))
+        p[a], p[b] = b, a
+        return p
+
+    @staticmethod
+    def quotient_automorphisms(classes, adj, n):
+        """Lift size-preserving automorphisms of the closed-twin quotient."""
+        reps = {}
+        q = nx.Graph()
+        for k, members in enumerate(classes.values()):
+            q.add_node(k, size=len(members), members=sorted(members))
+            for v in members:
+                reps[v] = k
+        for v in range(n):
+            for u in adj[v]:
+                if reps[u] != reps[v]:
+                    q.add_edge(reps[u], reps[v])
+        gm = nx.algorithms.isomorphism.GraphMatcher(
+            q, q, node_match=lambda x, y: x["size"] == y["size"])
+        out = []
+        for k, m in enumerate(gm.isomorphisms_iter()):
+            if k > 200:
+                break
+            if all(a == b for a, b in m.items()):
+                continue
+            p = list(range(n))
+            for a, b in m.items():
+                for u, v in zip(q.nodes[a]["members"], q.nodes[b]["members"]):
+                    p[u] = v
+            out.append(p)
+        return out
+
+    @staticmethod
+    def image(e, p):
+        u, v = p[e[0]], p[e[1]]
+        return (min(u, v), max(u, v))
+
+    def add_lex(self, p):
+        """x <=_lex y where y_e = x_{p(e)}, edges in list order (p an automorphism)."""
+        prefix = None  # literal 'all earlier positions equal' (None = true)
+        for e in self.edges:
+            te = self.image(e, p)
+            if te == e:
+                continue
+            x, y = self.idx[e], self.idx[te]
+            pre = [] if prefix is None else [-prefix]
+            self.base.append(pre + [-x, y])
+            self.nv += 1
+            nxt = self.nv
+            self.base.append(pre + [x, y, nxt])
+            self.base.append(pre + [-x, -y, nxt])
+            prefix = nxt
+
+    def add_lemma(self, kedges, solver):
+        key = frozenset(kedges)
+        if key in self.lemma_keys:
+            return False
+        assert is_kuratowski_subdivision(sorted(kedges)), "lemma check failed"
+        self.lemma_keys.add(key)
+        lits = [self.idx[e] for e in sorted(kedges)]
+        self.lemmas.append(sorted(kedges))
+        for c in ([-l for l in lits], lits):
+            solver.add_clause(c)
+        return True
+
+    def lemmas_from(self, layer_edges, solver, limit=12):
+        g = nx.Graph(layer_edges)
+        added = 0
+        for _ in range(limit):
+            planar, cert = nx.check_planarity(g, counterexample=True)
+            if planar:
+                break
+            k = [tuple(sorted(e)) for e in cert.edges()]
+            if self.add_lemma(k, solver):
+                added += 1
+            for p in self.perms:
+                img = [self.image(e, p) for e in k]
+                if self.add_lemma(img, solver):
+                    added += 1
+            g.remove_edge(*self.rng.choice(k))
+        return added
+
+    def seed_small(self, solver, cap=200000):
+        """Pre-load every K5 and K3,3 SUBGRAPH of G as a lemma (option)."""
+        g = nx.Graph(self.edges)
+        count = 0
+        for q in nx.enumerate_all_cliques(g):
+            if len(q) == 5:
+                k = [tuple(sorted(e)) for e in itertools.combinations(q, 2)]
+                count += self.add_lemma(k, solver)
+            if count >= cap:
+                return count
+        nodes = sorted(g)
+        for X in itertools.combinations(nodes, 3):
+            common = set.intersection(*(set(g[x]) for x in X)) - set(X)
+            for Y in itertools.combinations(sorted(common), 3):
+                if min(Y) < min(X):
+                    continue  # each K3,3 once (side containing the minimum first)
+                k = [tuple(sorted((x, y))) for x in X for y in Y]
+                count += self.add_lemma(k, solver)
+                if count >= cap:
+                    return count
+        return count
+
+    def run(self, timeout, seed_small=False):
+        start = time.time()
+        with Cadical153(bootstrap_with=self.base) as s:
+            if seed_small:
+                self.seeded = self.seed_small(s)
+            it = 0
+            while True:
+                it += 1
+                if time.time() - start > timeout:
+                    return "UNKNOWN", it
+                if not s.solve():
+                    return "UNSAT", it
+                m = set(l for l in s.get_model() if l > 0)
+                l1 = [e for e in self.edges if self.idx[e] in m]
+                l2 = [e for e in self.edges if self.idx[e] not in m]
+                lim = getattr(self, "limit", 12)
+                added = self.lemmas_from(l1, s, lim) + self.lemmas_from(l2, s, lim)
+                if added == 0:
+                    self.split = (l1, l2)
+                    return "SAT", it
+
+
+def flag_value(flags, name, default):
+    return int(flags[flags.index(name) + 1]) if name in flags else default
+
+
+def main(edgefile, prefix, timeout=3600, *flags):
+    edges = read_edges(edgefile)
+    c = Cegar(edges, seed=flag_value(flags, "--seed", 1))
+    c.limit = flag_value(flags, "--limit", 12)
+    verdict, it = c.run(float(timeout), seed_small="--seed-small" in flags)
+    n = 1 + max(max(e) for e in edges)
+    info = {"verdict": verdict, "iterations": it, "lemmas": len(c.lemmas),
+            "symmetries": len(c.perms)}
+    if verdict == "SAT":
+        json.dump({"n": n, "E1": c.split[0], "E2": c.split[1]}, open(prefix + ".split.json", "w"))
+    if verdict == "UNSAT":
+        clauses = list(c.base)
+        for k in c.lemmas:
+            lits = [c.idx[e] for e in k]
+            clauses += [[-l for l in lits], lits]
+        with open(prefix + ".cnf", "w") as f:
+            f.write(f"p cnf {c.nv} {len(clauses)}\n")
+            f.write("".join(" ".join(map(str, cl)) + " 0\n" for cl in clauses))
+        json.dump({"edges": edges, "lemmas": c.lemmas,
+                   "perms": c.perms}, open(prefix + ".lemmas.json", "w"))
+    print(json.dumps(info))
+
+
+if __name__ == "__main__":
+    main(*sys.argv[1:])

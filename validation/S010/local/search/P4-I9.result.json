@@ -1,0 +1,8 @@
+{
+  "verdict": "SAT_CHECKED",
+  "iterations": 1,
+  "seconds": 1.6570000000028813,
+  "cuts": 0,
+  "variables": 35773,
+  "clauses": 154764
+}

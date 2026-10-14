@@ -1,0 +1,66 @@
+[
+ {
+  "tag": "P4-I9",
+  "n": 13,
+  "m": 39,
+  "D": 27,
+  "edgefile": "validation\\S010\\local\\P4-I9.edges",
+  "edge_sha256": "c90cf3ee35de607ea7caa34fb4613a9099631f109d3e6c68c7151ef2762e6a1a",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s010_local_cover.py",
+    "validation\\S010\\local\\P4-I9.edges",
+    "artifacts\\tmp\\S010\\local\\P4-I9",
+    "900",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 2.547000000002299,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 103485440
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 1,
+   "seconds": 1.6570000000028813,
+   "cuts": 0,
+   "variables": 35773,
+   "clauses": 154764
+  },
+  "prefix": "artifacts\\tmp\\S010\\local\\P4-I9",
+  "verdict": "PROVISIONAL_UNVERIFIED"
+ },
+ {
+  "tag": "C5-I9",
+  "n": 14,
+  "m": 50,
+  "D": 22,
+  "edgefile": "validation\\S010\\local\\C5-I9.edges",
+  "edge_sha256": "33b5e9b585db068b30ee5b74475dcfa9cc0fc3169ec0c2554d4c92a91cba0651",
+  "run": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "tools/s010_local_cover.py",
+    "validation\\S010\\local\\C5-I9.edges",
+    "artifacts\\tmp\\S010\\local\\C5-I9",
+    "900",
+    "--lex"
+   ],
+   "returncode": 0,
+   "seconds": 33.70300000000134,
+   "hard_cap": 920,
+   "observed_peak_tree_private_bytes": 137216000
+  },
+  "search": {
+   "verdict": "SAT_CHECKED",
+   "iterations": 3,
+   "seconds": 32.59300000000076,
+   "cuts": 34,
+   "variables": 42524,
+   "clauses": 208148
+  },
+  "prefix": "artifacts\\tmp\\S010\\local\\C5-I9",
+  "verdict": "PROVISIONAL_UNVERIFIED"
+ }
+]

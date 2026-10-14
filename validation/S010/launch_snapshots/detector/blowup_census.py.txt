@@ -1,0 +1,286 @@
+#!/usr/bin/env python3
+"""CAM-0004: clique blow-ups B[w] of connected true-twin-free bases.
+
+Reads graph6 bases on stdin (nauty geng -c k).  For every base and every
+weight vector w in {1..8}^k it records exactly one outcome:
+  F1  weighted clique > 8                  (contains K9: not biplanar)
+  F2  some full-bag union X, |X|>=3, has e(X) > 6|X|-12
+  LOWDEG some bag has closed weighted degree <= 9 (not a 10-core; covered
+         by the core reduction, never claimed colourable by itself)
+  F3  some bag set S and triangle-free edge set F of B[S] carry more than
+      4|S|-8 cross edges, |S|>=3
+  COL an explicit proper 9-colouring of B[w] (bag -> set of colours)
+  SURV passes F1-F3 and is not 9-colourable (chi>=10 candidate)
+Pruning (F1 cliques and F2 on assigned prefixes) is applied during the DFS;
+a pruned prefix is recorded once with the multiplicity of vectors it covers,
+so every vector of {1..8}^k is accounted for.  Bases with true twins are
+skipped (merging twins gives a smaller base, generated at smaller k).
+
+Usage: geng -c K | blowup_census.py OUT.json
+"""
+import itertools
+import json
+import sys
+
+from pysat.card import CardEnc, EncType
+from pysat.formula import IDPool
+from pysat.solvers import Cadical153
+
+WMAX, COLOURS = 8, 9
+
+
+def parse_g6(line):
+    data = [ord(c) - 63 for c in line.strip()]
+    n, bits = data[0], []
+    for d in data[1:]:
+        bits.extend((d >> s) & 1 for s in range(5, -1, -1))
+    adj = [0] * n
+    t = 0
+    for j in range(1, n):
+        for i in range(j):
+            if bits[t]:
+                adj[i] |= 1 << j
+                adj[j] |= 1 << i
+            t += 1
+    return n, adj
+
+
+def relabel(n, adj):
+    """Greedy order closing neighbourhoods early (any order is valid)."""
+    order = [max(range(n), key=lambda v: bin(adj[v]).count("1"))]
+    while len(order) < n:
+        placed = set(order)
+        def score(v):
+            # prefer vertices adjacent to many placed vertices, then low degree
+            return (sum(1 for u in order if adj[v] >> u & 1), -bin(adj[v]).count("1"))
+        order.append(max((v for v in range(n) if v not in placed), key=score))
+    pos = {v: i for i, v in enumerate(order)}
+    new = [0] * n
+    for v in range(n):
+        for u in range(n):
+            if adj[v] >> u & 1:
+                new[pos[v]] |= 1 << pos[u]
+    return n, new
+
+
+def to_g6(n, adj):
+    """graph6 of the RELABELLED base, so stored weights match its labels."""
+    bits = [adj[i] >> j & 1 for j in range(1, n) for i in range(j)]
+    bits += [0] * (-len(bits) % 6)
+    out = chr(63 + n)
+    for t in range(0, len(bits), 6):
+        out += chr(63 + sum(b << (5 - k) for k, b in enumerate(bits[t:t + 6])))
+    return out
+
+
+def has_true_twins(n, adj):
+    closed = [adj[i] | (1 << i) for i in range(n)]
+    return any(closed[i] == closed[j] for i in range(n) for j in range(i + 1, n)
+               if adj[i] >> j & 1)
+
+
+def cliques(n, adj):
+    out = []
+
+    def grow(c, cand):
+        out.append(c)
+        while cand:
+            v = cand.bit_length() - 1
+            cand &= ~(1 << v)
+            grow(c | (1 << v), cand & adj[v] & ((1 << v) - 1))
+    for v in range(n):
+        grow(1 << v, adj[v] & ((1 << v) - 1))
+    return out
+
+
+def edges_of(n, adj):
+    return [(i, j) for i in range(n) for j in range(i + 1, n) if adj[i] >> j & 1]
+
+
+def subset_edges(w, E, S):
+    inner = sum(w[i] * (w[i] - 1) // 2 for i in range(len(w)) if S >> i & 1)
+    cross = sum(w[i] * w[j] for i, j in E if S >> i & 1 and S >> j & 1)
+    return inner + cross
+
+
+def f2_fails(w, E, S):
+    N = sum(w[i] for i in range(len(w)) if S >> i & 1)
+    return N >= 3 and subset_edges(w, E, S) > 6 * N - 12
+
+
+def max_triangle_free(ES, w):
+    """Maximum of sum w_i w_j over triangle-free subsets of edge list ES."""
+    ES = sorted(ES, key=lambda e: -w[e[0]] * w[e[1]])
+    suffix = [0] * (len(ES) + 1)
+    for t in range(len(ES) - 1, -1, -1):
+        suffix[t] = suffix[t + 1] + w[ES[t][0]] * w[ES[t][1]]
+    best = [0, []]
+    nb = {}
+
+    def rec(t, val, chosen):
+        if val + suffix[t] <= best[0]:
+            return
+        if t == len(ES):
+            best[0], best[1] = val, list(chosen)
+            return
+        i, j = ES[t]
+        if not (nb.get(i, 0) & nb.get(j, 0)):
+            nb[i] = nb.get(i, 0) | (1 << j)
+            nb[j] = nb.get(j, 0) | (1 << i)
+            chosen.append((i, j))
+            rec(t + 1, val + w[i] * w[j], chosen)
+            chosen.pop()
+            nb[i] &= ~(1 << j)
+            nb[j] &= ~(1 << i)
+        rec(t + 1, val, chosen)
+    rec(0, 0, [])
+    return best
+
+
+def f3_fails(n, w, E):
+    for S in range(1, 1 << n):
+        N = sum(w[i] for i in range(n) if S >> i & 1)
+        if N < 3:
+            continue
+        ES = [(i, j) for i, j in E if S >> i & 1 and S >> j & 1]
+        val, F = max_triangle_free(ES, w)
+        if val > 4 * N - 8:
+            return [S, F]
+    return None
+
+
+def greedy(n, adj, w, order):
+    used = [0] * n
+    for v in order:
+        forbid = 0
+        for u in range(n):
+            if adj[v] >> u & 1:
+                forbid |= used[u]
+        got, c = 0, 0
+        while bin(got).count("1") < w[v]:
+            if c >= COLOURS:
+                return None
+            if not forbid >> c & 1:
+                got |= 1 << c
+            c += 1
+        used[v] = got
+    return used
+
+
+def sat_colour(n, E, w):
+    pool = IDPool()
+    x = {(c, i): pool.id(("x", c, i)) for c in range(COLOURS) for i in range(n)}
+    cls = []
+    for c in range(COLOURS):
+        for i, j in E:
+            cls.append([-x[c, i], -x[c, j]])
+    for i in range(n):
+        enc = CardEnc.atleast([x[c, i] for c in range(COLOURS)], bound=w[i],
+                              vpool=pool, encoding=EncType.seqcounter)
+        cls.extend(enc.clauses)
+    with Cadical153(bootstrap_with=cls) as s:
+        if not s.solve():
+            return None
+        m = set(l for l in s.get_model() if l > 0)
+    used = []
+    for i in range(n):
+        cs = [c for c in range(COLOURS) if x[c, i] in m][:w[i]]
+        used.append(sum(1 << c for c in cs))
+    return used
+
+
+def check_colouring(n, adj, w, used):
+    for i in range(n):
+        assert bin(used[i]).count("1") == w[i] and used[i] < 1 << COLOURS
+        for j in range(n):
+            if adj[i] >> j & 1:
+                assert not used[i] & used[j]
+
+
+def process(n, adj, stats, survivors, g6):
+    E = edges_of(n, adj)
+    cl = cliques(n, adj)
+    by_top = [[c for c in cl if c.bit_length() - 1 == v] for v in range(n)]
+    orders = [list(range(n)), list(range(n - 1, -1, -1))]
+    w = [0] * n
+    # vertices whose closed neighbourhood is complete once v is assigned
+    closes_at = [[u for u in range(n)
+                  if max([u] + [j for j in range(n) if adj[u] >> j & 1]) == v]
+                 for v in range(n)]
+
+    def low(v):
+        for u in closes_at[v]:
+            if w[u] + sum(w[j] for j in range(n) if adj[u] >> j & 1) <= COLOURS:
+                return True
+        return False
+
+    def rec(v):
+        if v == n:
+            leaf()
+            return
+        for val in range(1, WMAX + 1):
+            w[v] = val
+            remaining = WMAX ** (n - v - 1)
+            if any(sum(w[i] for i in range(n) if c >> i & 1) > WMAX for c in by_top[v]):
+                # larger val only increases clique weight
+                stats["F1"] += remaining * (WMAX - val + 1)
+                w[v] = 0
+                return
+            if f2_fails(w, E, (1 << (v + 1)) - 1):
+                stats["F2"] += remaining
+                continue
+            if low(v):
+                stats["LOWDEG"] += remaining
+                continue
+            rec(v + 1)
+        w[v] = 0
+
+    def leaf():
+        for S in range(1, 1 << n):
+            if f2_fails(w, E, S):
+                stats["F2"] += 1
+                return
+        bysize = sorted(range(n), key=lambda i: -w[i])
+        for order in orders + [bysize]:
+            used = greedy(n, adj, w, order)
+            if used:
+                break
+        if not used:
+            used = sat_colour(n, E, w)
+        if not used and f3_fails(n, w, E):
+            stats["F3"] += 1
+            return
+        if used:
+            check_colouring(n, adj, w, used)
+            stats["COL"] += 1
+            stats["maxN_col"] = max(stats["maxN_col"], sum(w))
+        else:
+            stats["SURV"] += 1
+            survivors.append({"g6": g6, "w": list(w)})
+
+    rec(0)
+
+
+def main(out):
+    stats = {"bases": 0, "twin_skipped": 0, "F1": 0, "F2": 0, "LOWDEG": 0, "F3": 0,
+             "COL": 0, "SURV": 0, "maxN_col": 0, "vectors": 0}
+    survivors = []
+    for line in sys.stdin:
+        if not line.strip() or line.startswith(">"):
+            continue
+        n, adj = parse_g6(line)
+        n, adj = relabel(n, adj)
+        if has_true_twins(n, adj):
+            stats["twin_skipped"] += 1
+            continue
+        stats["bases"] += 1
+        stats["vectors"] += WMAX ** n
+        process(n, adj, stats, survivors, to_g6(n, adj))
+    accounted = stats["F1"] + stats["F2"] + stats["LOWDEG"] + stats["F3"] + stats["COL"] + stats["SURV"]
+    assert accounted == stats["vectors"], (accounted, stats)
+    json.dump({"stats": stats, "survivors": survivors}, open(out, "w"), indent=1)
+    print(json.dumps(stats))
+
+
+if __name__ == "__main__":
+    main(sys.argv[1])

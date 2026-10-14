@@ -1,0 +1,8 @@
+{
+ "verdict": "PASS",
+ "cold_proofs": 50,
+ "chromatic_proofs": 271,
+ "independent_label_sphere_local_positives": 2,
+ "detector_source_row_pairs": 813,
+ "headline_advance": false
+}

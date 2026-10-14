@@ -1,0 +1,2 @@
+{'version': 'S010-small-all-completion-v1', 'counter': 'totalizer', 'K5': 2002, 'K33': 30030, 'subset_cuts': 'NONE', 'distinct_faces_enabled': False}
+{"verdict": "SAT_CHECKED", "iterations": 3, "seconds": 32.59300000000076, "cuts": 34, "variables": 42524, "clauses": 208148}

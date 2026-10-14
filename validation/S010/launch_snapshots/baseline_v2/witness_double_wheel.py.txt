@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""Double-wheel statistics of degree-11 vertices in a stored two-layer witness.
+
+For each union-degree-11 vertex v: (d1, d2), whether the layer-1 link is a
+chordless cycle in layer 1, the number of layer-2 edges joining two layer-1
+link vertices that are non-adjacent in layer 1, and the number of union
+edges between N1(v) and N2(v).  Usage: witness_double_wheel.py WITNESS.json
+"""
+import collections
+import json
+import sys
+
+import networkx as nx
+
+d = json.load(open(sys.argv[1]))
+G1, G2 = nx.Graph(map(tuple, d["edges_part1"])), nx.Graph(map(tuple, d["edges_part2"]))
+G = nx.compose(G1, G2)
+rows = []
+for v in sorted(x for x in G if G.degree(x) == 11):
+    N1, N2 = set(G1[v]), set(G2[v])
+    link_cycle = all(k == 2 for _, k in G1.subgraph(N1).degree())
+    chords2 = sum(1 for a, b in G2.edges() if a in N1 and b in N1 and not G1.has_edge(a, b))
+    between = sum(1 for a, b in G.edges() if (a in N1 and b in N2) or (a in N2 and b in N1))
+    rows.append((len(N1), len(N2), link_cycle, chords2, between))
+print(len(rows), "degree-11 vertices")
+print("with layer-2 chord across layer-1 link:", sum(r[3] > 0 for r in rows))
+print("N1-N2 edge counts range:", min(r[4] for r in rows), max(r[4] for r in rows))
+print(collections.Counter((r[0], r[1], r[2]) for r in rows))

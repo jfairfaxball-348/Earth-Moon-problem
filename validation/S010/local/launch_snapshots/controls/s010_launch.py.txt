@@ -1,0 +1,38 @@
+"""Immutable before-launch observations and externally supervised S010 workers."""
+import datetime, json, platform, subprocess, sys
+from pathlib import Path
+import networkx, pysat
+from s005_replay import sha
+from s005_search import run_logged
+from s007_run import save
+
+mode=sys.argv[1];root=Path('validation/S010');root.mkdir(exist_ok=True)
+tmp=Path('artifacts/tmp/S010');tmp.mkdir(parents=True,exist_ok=True)
+record=root/(mode+'_observed_launch.json');assert not record.exists()
+files=sorted(set(str(p).replace('\\','/') for p in Path('tools').glob('*.py'))|
+             {'campaigns/CAM-0011.md','validation/S003/survivors_alpha_ge3.json','validation/S004/chi10_results.json',
+              'validation/S009/SUMMARY.json','validation/S009/heavy_extended/result.json','validation/S009/pinned_positive_inputs.json',
+              'validation/S007/heavy_search.json'})
+old=json.loads(Path('validation/S009/environment.json').read_text())
+native={name:sha(Path('artifacts/tmp/S004')/name) for name in old['native_sha256']}
+assert native==old['native_sha256']
+pins={}
+for name,pin in old['native_sources'].items():
+    source=Path('artifacts/tmp/S004')/name
+    got=subprocess.check_output(['git','-C',str(source),'rev-parse','HEAD'],text=True).strip()
+    assert got==pin and not subprocess.check_output(['git','-C',str(source),'status','--porcelain'],text=True)
+    pins[name]=got
+env=dict(python=sys.version,platform=platform.platform(),networkx=networkx.__version__,python_sat=pysat.__version__,
+         native_sha256=native,native_sources=pins,build='S004 reused; no build')
+save(root/'environment.json',env)
+caps={'baseline':14400,'baseline_v2':14400,'baseline_v3':14400,'detector':620,'upper':320}
+cmd=[sys.executable,'tools/s010_'+('baseline' if mode.startswith('baseline') else 'research')+'.py']
+if not mode.startswith('baseline'):cmd.append(mode)
+snap=root/'launch_snapshots'/mode;snap.mkdir(parents=True)
+for f in files:
+    if f.endswith('.py'):snap.joinpath(Path(f).name+'.txt').write_bytes(Path(f).read_bytes())
+save(record,dict(as_of_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),grade='OBSERVED_BEFORE_LAUNCH',
+                 command=cmd,hard_cap=caps[mode],environment=env,sha256={f:sha(f) for f in files}))
+r=run_logged(cmd,caps[mode],root/(mode+'_driver.log'));save(root/(mode+'_command.json'),r)
+print(mode,r,flush=True)
+assert r['returncode']==0

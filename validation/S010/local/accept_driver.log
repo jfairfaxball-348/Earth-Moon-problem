@@ -1,0 +1,4 @@
+PASS n=13 layers=23/16 component-faces=12/5
+P4-I9 FINAL BIPLANAR_EXACT_CHI3
+PASS n=14 layers=27/23 component-faces=15/11
+C5-I9 FINAL BIPLANAR_EXACT_CHI4

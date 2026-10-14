@@ -1,0 +1,24 @@
+{
+ "grade": "OBSERVED_BEFORE_LAUNCH",
+ "as_of_utc": "2026-10-14T18:21:07.544526+00:00",
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "tools/check_s010_records.py"
+ ],
+ "sha256": {
+  "tools/check_s010_records.py": "9b753ed646f4e871fa3c1f95be56c7a889a9f9875bee824e72eedf6022890aed",
+  "tools/check_rotation.py": "4dcd9e7f5cc095dab9174e45908b97b39d062d19c0a3aaded0d406a223922802",
+  "tools/s005_search.py": "a8ca7a72ec00b4fabd745dfe8b0cee7a9810bf7ec540e9d6bd7824eda44c4244",
+  "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41",
+  "validation/S010/cold_replay.json": "1bb7356c09c96eaa9322545527c734648deb20e6fc7cbbad3f3daa5101e934be",
+  "validation/S010/chromatic_cold_replay.json": "f1e15715f1bec46a5901d304ef0cc99fde4fe1351d7ea94aa0a0170c6a9366b9",
+  "validation/S010/local/results.json": "536d655827f83cee3e10ab9e31b84dfb2134fce59273074267d184a02abc0c00",
+  "validation/S010/bipartite_detector.json": "7a8e32ed573031f497cca3fdbc32aec73c19e81dd8589ee599a7cffc0745d531",
+  "validation/S010/safe_pair_audit.json": "b007519557b4011236f89365486d2c8d1f2f1e0744209c19a82a612ca0627544",
+  "catalogue/SOURCES.json": "5de5d0cbee756f3d6bdc5cec9cbbfc2ecb3de92c0db862b3f1fabcb8fa08793b",
+  "catalogue/CLAIMS.json": "9bc5a7979c6fe2cb2f4122f9a7e11f75a7e92c855e50d975deba6e49f19d355e",
+  "catalogue/SOURCES.md": "dd21674ea605f6254f3eb70bade21153a2ec78c7821a5c4c0a00f20b1b9cfc59",
+  "catalogue/CLAIMS.md": "27605d0ea5670923d77a26e694f4d3d3825db591a940fcb52fb696c94ad86517",
+  "campaigns/CAM-0011.md": "439c5374e80fdd86ef6fbcd7545a5303bb91630551a912ff8eafb349dc109f6e"
+ }
+}
