@@ -16,4 +16,6 @@
 
 | D042 |2026-10-14|Owner re-scope (governance only, not a numbered session)|Headline narrowed to χ₂ > 9 via certified construction; upper-bound track retired; S011 prompt rewritten|COMPLETE (docs only)|
 
+| D043 |2026-10-14|Owner instruction: cloud execution environment (infrastructure only, not a numbered session)|SessionStart hook, pinned Linux toolchain, mandatory smoke test (PASS 271/271 + K9 + fresh solve); protocol/AGENTS updated|COMPLETE (infrastructure only)|
+
 | S011 |Future|Lower bound only: certified χ ≥ 10 biplanar construction frontier|None yet|FUTURE UNEXECUTED|
