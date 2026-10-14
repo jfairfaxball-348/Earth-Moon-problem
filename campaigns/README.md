@@ -38,3 +38,5 @@ S009 manifest/SUMMARY retain all bounds/statuses; S010 FUTURE/UNEXECUTED.
 S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical future labels superseded only throughS010.
 
 | [CAM-0015](CAM-0015.md) | S012 complete all edge e / old nonedge f on fixed rows2,55,59,61,199,200 | 194896/194896 independently checked proper9-colouring witnesses via bag automorphism, full same-job D043 cold smoke PASS; no biplanarity decisions or new chi10 witness. Actions run 38635879431 |
+
+| [CAM-0016](CAM-0016.md) | S013 two preregistered positive routes, six 2-deleted/2-added source rows (48 bounded) and independent17v planar pair generation (80 bounded) | run38639416513 job116110828710 all steps SUCCESS, same-job271 DRAT/CNF+K9/fresh K9 PASS;48 partial min12 unplaced (UNKNOWN),80 certified two-layer controls best45+45=90 edges with proper8. No 10-biplanar witness. WIP source archived in main, no WIP merge. |

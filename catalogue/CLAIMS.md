@@ -566,3 +566,16 @@ A finite simple biplanar graph retaining the original **induced** 11v50e nine-cr
 ## CLM-0073 — PROGRAMME_PROVED
 
 Any **hypothetical** biplanar 10-chromatic six-new-vertex extension of induced Sulanke H must have K6 or K6-e among new vertices and total 89 or90 edges on17 vertices; the K6-e case forces90 and both layers triangulations. Only necessary arithmetic; no such witness constructed. Details and scope in research/S012_CONSTRUCTION.md.
+
+
+## CLM-0074 — PROGRAMME_PROVED
+K6-e six-new-vertex induced Sulanke extension with necessary biplanar 90-edge budget always has nine-colouring by allowed-colour Hall (two nonadjacent new vertices may share a colour); details research/S013_CONSTRUCTION.md. Only conditional construction-family statement.
+
+## CLM-0075 — PROGRAMME_PROVED
+K6 six-new-vertex induced Sulanke extension with necessary 89/90 edges is nine-colourable unless it contains K9: five new degree-4-to-H neighbourhoods must coincide as a K4 if Hall extension fails under every proper H 9-colouring. Classical K9 nonbiplanarity CLM0022/SRC0014, independently checked.
+
+## CLM-0076 — PROGRAMME_PROVED
+Every biplanar G on <=17 vertices containing Sulanke H as ANY subgraph has chi(G)=9. H's five missing C5 chords individually create K9, so any biplanar H copy is induced; apply S012 <=5 and S013 six-extension cases. No claim about arbitrary 17-vertex graphs or general upper bound, novelty not cleared.
+
+## CLM-0077 — COMPUTED_EXACT
+GitHub Actions CAM0016 run38639416513 job116110828710 generated eighty 17v unions of actually planar edge-disjoint layers, LR+component rotation/Euler+proper colouring checked. Retained 17v90e 45+45 split with proper8 colour in validation/S013/layer_pair_control.json. Forty-eight tested two-edge modifications of six source blowups all partial, best12 unplaced, never classified nonbiplanar. Same-job full D043 smoke PASS 271/271 and native K9. No 10-chromatic split.

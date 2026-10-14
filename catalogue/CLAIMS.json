@@ -645,5 +645,39 @@
     "status": "PROGRAMME_PROVED",
     "sources": [],
     "note": "Conditional necessary density/degree boundary from CLM0072 inductive 5-vertex exclusion: new degrees>=9, internal edges b>=14, t<=40; b14=>t40,a26; b15=>t39 or40,a24 or25. Not a construction, biplanarity or chromatic certificate; novelty unchecked."
+  },
+  {
+    "id": "CLM-0074",
+    "claim": "At the S012 six-vertex retained Sulanke H=K6 join C5 boundary with new-side K6-e, exact saturated incidences imply a proper nine-colouring via Hall's theorem (two nonadjacent new vertices have allowed lists >=4, remaining four >=5). No possible ten-chromatic biplanar candidate in this restricted branch.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Full independent hand proof research/S013_CONSTRUCTION.md; depends on CLM0072/73 degree/Euler filters, no SAT and no general upper-bound claim."
+  },
+  {
+    "id": "CLM-0075",
+    "claim": "In six-added-vertex Sulanke extensions with new-side K6 and the conditional biplanar 89/90-edge budget, either the graph is nine-colourable or it contains a K9. Consequently the K6 six-vertex branch gives no biplanar ten-chromatic witness.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Five new cross-degree4 vertices, nine-colour Hall condition, C5 singleton-colouring and shared old K4 neighborhood imply K9. No executable enumeration assumed."
+  },
+  {
+    "id": "CLM-0076",
+    "claim": "Any finite simple biplanar graph of order at most17 containing H=K6 join C5 as a subgraph is exactly nine-chromatic: extra old-old chords create K9, hence H copy automatically induced; <=5 old extensions CLM0072 and r6 CLM0074/75. This does not exclude other 17-vertex source graphs.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Construction-filter theorem and hostile audit in research/S013_CONSTRUCTION.md. Classical K9 obstruction independently certified earlier CLM0022; novelty unchecked."
+  },
+  {
+    "id": "CLM-0077",
+    "claim": "CAM0016 constructed and rotation/Euler/LR-checked a labelled simple 17-vertex union of two edge-disjoint planar triangulations 45+45 edges, with an explicitly checked proper eight-colouring, among80 sampled pairs; this example is not ten-chromatic.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "notes": "validation/S013/layer_pair_control.json and run38639416513 same-job full 271 DRAT smoke, native hashes. 48 multi-edge partial placements incomplete and never designated impossible."
   }
 ]

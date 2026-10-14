@@ -1,0 +1,8 @@
+# S013 ADVERSARIAL — hostile scope check
+
+- CLM0074 needs the *exact* 26 cross edges from Euler and min-degree induction, not arbitrary K6-e joins. The two missing-edge endpoints are the ONLY pair permitted to share a colour. For disjoint endpoint lists Hall must be checked for subsets4,5,6; see detailed proof.
+- CLM0075's Hall failure applies to ANY fixed H nine-colouring. The argument intentionally chooses DIFFERENT C5 three-colourings to defeat it: any nonedge in C5 can share colour, and any chosen C5 vertex can be singleton. A 4-old-neighbour set that is not a K4 yields list>=6; different K4 supports can be separated; identical shared K4 with five new K5 forces forbidden K9. Merely failing one random greedy colouring would not suffice.
+- H-copy inducedness is automatic ONLY for BIPLANAR supergraphs because the five C5 chords cause K9. Modifying/deleting an old H edge, taking >17 vertices, or not containing H escapes the lemma. No universal chi2 upper theorem attempted.
+- Labelled family generator exhaustively SPECIFIES restricted matrices without executing them; analytic theorem proves closure. Avoid saying millions checked or symmetry classes fully enumerated.
+- CAM0016 ran two real successful lanes under same-job smoke but yielded no ten-chromatic biplanar candidate. Multi 48 trials all 12..25 unplaced; NOT a nonbiplanar verdict. Pair best has a proper8 colouring, excluding only THAT example as chi10; no non9 SAT certificates sought. No 271 source biplanarity upgrade; 52 NONBIPLANAR and219 UNKNOWN stay unchanged.
+- No headline, mathematical novelty approval, Lean, Palomar, arXiv, paper or outreach.

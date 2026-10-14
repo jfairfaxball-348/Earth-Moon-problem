@@ -1,0 +1,43 @@
+name: S013 constructive positive-only (WIP never merge)
+on:
+  push:
+    branches: [wip/S013-constructive]
+permissions:
+  contents: read
+jobs:
+  bounded-constructive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preregistration and immutable source checks
+        run: |
+          test -f campaigns/CAM-0016.md
+          python -m py_compile tools/s013_constructive.py
+          sha256sum tools/s013_constructive.py campaigns/CAM-0016.md .github/workflows/s013-constructive.yml
+      - name: Setup pinned native tools
+        run: bash scripts/cloud_setup.sh
+      - name: FULL smoke in this exact job
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Multi-edge original layer partials and bounded ejection
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM 250s .venv/bin/python tools/s013_constructive.py --lane multi --seed 13013 --seconds 250
+      - name: Two actually planar layers construction
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM 250s .venv/bin/python tools/s013_constructive.py --lane pair --seed 13113 --seconds 250
+      - name: Preserve evidence and environment
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S013-CAM0016-construction
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S013/*.json
+          retention-days: 60
+          if-no-files-found: warn

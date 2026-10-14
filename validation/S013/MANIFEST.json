@@ -1,0 +1,43 @@
+{
+  "session": "S013",
+  "record_kind": "AUTHORED_SINGLE_COMMIT_PRE_MERGE_SNAPSHOT",
+  "entry_live_main": "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+  "entry_live_tree": "16a7ea808df47de521fbc7aebd4f08d7f971dc0d",
+  "S012_pr": 14,
+  "S012_merged_main": "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+  "S012_merge_parents": [
+    "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "16a1329b22bba0d86c8c083ac529e4bca182f68b"
+  ],
+  "S012_merge_tree": "16a7ea808df47de521fbc7aebd4f08d7f971dc0d",
+  "S012_duplicate_pr15": "CLOSED_UNMERGED",
+  "entry_open_pr_count": 0,
+  "entry_rulesets": "EMPTY",
+  "branch_protection": "UNKNOWN_FORBIDDEN_403",
+  "entry_main_hosted_scaffold_run": 38637508298,
+  "session_branch": "session/S013-tight-sulanke-and-layer-first",
+  "authorisation": "Owner pasted S013 text as execution request; D047",
+  "wip_branch": "wip/S013-constructive",
+  "wip_commit": "f823117fa8563bfaa3e528020dddc830605a7ad0",
+  "action_run": 38639416513,
+  "job": 116110828710,
+  "all_steps_success": true,
+  "full_smoke_271": true,
+  "native_sha256": {
+    "cadical": "1210cc1e06232828e0b95af6dce044eff2b62723c904b35298c22b7fa4caaa67",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "artefact_id": 11930170810,
+  "artefact_zip_sha256": "23477d4f8d9f94878248a86a197fe5af518e2988ab951711cab2481480b72e18",
+  "no_headline_certificate": true,
+  "source_catalogues": "REVIEWED_UNCHANGED_PAIRED",
+  "claims_catalogues": "UPDATED_PAIRED",
+  "science": "CLM0074/75/76 analytic closure; CAM0016 48 partial and 80 actual split, proper8 control",
+  "outgoing": {
+    "authored_commit": "TO_OBSERVE_POST_TREE",
+    "pr": "TO_OBSERVE",
+    "two_parent_merge": "TO_OBSERVE",
+    "main_checks": "TO_OBSERVE"
+  },
+  "next_prompt": "S014_FUTURE_UNEXECUTED_D047_PROMPT_COUNTS_AS_INVOCATION"
+}
