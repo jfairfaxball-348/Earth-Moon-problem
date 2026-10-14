@@ -4,15 +4,27 @@
  "as_of": "2026-10-14",
  "last_completed_session": "S010",
  "recommended_next_session": "S011",
- "headline": "Resolve \u03c7\u2082 = max chromatic number of finite simple thickness\u22642 graphs",
- "headline_status": "OPEN_9_TO_12_S010_STRUCTURAL_RESET",
+ "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
+ "programme_scope": {
+  "decision": "D042",
+  "date": "2026-10-14",
+  "authority": "Explicit owner instruction (outside a numbered session): target only the lower bound, chi_2 > 9; do not attempt to solve EMP or work on the upper bound.",
+  "target": "chi_2 >= 10 via one certified construction (explicit V,E1,E2; independent planarity per layer; checked proof of no proper 9-colouring)",
+  "out_of_scope": [
+   "universal upper-bound theorems (chi_2 <= 11/10/9)",
+   "discharging/reducibility/critical-graph colouring-extension routes",
+   "full resolution of EMP"
+  ],
+  "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
+ },
+ "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_LOWER_BOUND_ONLY_D042",
  "confirmed_classical_range": {
   "lower": 9,
   "upper": 12,
   "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
  },
  "candidate_10_11_12": "S010 adds0 row exclusions; total52/271,219 UNKNOWN. Long heavy odd blocks excluded analytically; remaining P4/C5 local sources positive chi3/4.",
- "universal_improved_upper_bound": "NONE_PROVED",
+ "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
  "phases": [
   {
    "id": 0,
@@ -21,8 +33,8 @@
   },
   {
    "id": 1,
-   "name": "Primary-source baseline and genuine proof/counterexample investigation",
-   "status": "ACTIVE_SMALLER_HEAVY_C5_LIGHT_AND_RESIDUAL_EXTENSION_NO_HEADLINE_ADVANCE"
+   "name": "Certified chi>=10 biplanar construction (lower bound only since D042)",
+   "status": "ACTIVE_LOWER_BOUND_ONLY_NO_HEADLINE_ADVANCE"
   },
   {
    "id": 2,
@@ -74,17 +86,13 @@
   "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
   "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
   "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
-  "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
-  "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
-  "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
-  "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above.",
   "Row165 no-lex/23v row158 deletion UNKNOWN; C5 maximal13/children and independent wholek8/k9 census open.",
   "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. Generic equality identification need not preserve planarity.",
   "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
   "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
   "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
-  "VerifyS010 ordinaryPR/authored/two-parent main/tree/actual jobs live after freeze; S011 FUTURE/UNEXECUTED.",
-  "Novelty/external universal review/Lean/registration/publication/outreach gates unpassed."
+  "VerifyS010 ordinaryPR/authored/two-parent main/tree/actual jobs live after freeze, and reconcile the separate D042 owner re-scope governance commit/PR live; S011 FUTURE/UNEXECUTED.",
+  "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
  ],
  "next_session_is_future_unexecuted": true,
  "latest_session_branch": "codex/S010-strategic-reset",
@@ -253,5 +261,11 @@
   "head_validate_job": 115977946517,
   "main_validate_job": 115978523871,
   "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
- }
+ },
+ "retired_upper_bound_obligations_D042": [
+  "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
+  "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
+  "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
+  "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above."
+ ]
 }

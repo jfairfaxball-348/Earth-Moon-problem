@@ -50,3 +50,5 @@
 - D039(S010): Local P4/C5 positives end a local-only nonbiplanarity tactic; prioritise actual criticality/light/smaller clique and simultaneous residual existence.
 - D040(S010): IndependentR with safe residual light pairs/budget54 supplies a conditional extension proof, not guaranteed existence.
 - D041(S010): Isolate counter generators by process; retain both failed precheck adapters. One authorised S010 only; S011 future.
+
+- D042 (2026-10-14, owner re-scope, not a numbered session): Narrow the headline to the lower bound only: prove χ₂ > 9 (χ₂ ≥ 10) by one fully certified biplanar construction. Supersedes the two-sided targets of D001/D002. Universal upper-bound work (Route B; hypotheses H-B, H-D, H-E) is retired. S002–S010 upper-bound claims remain recorded as history, are not extended, and proved forbidden-subgraph facts may be used only as candidate filters. A certified χ ≥ 10 witness is a lower-bound advance, not a resolution of EMP. Rationale: the owner judges a finite checkable witness more tractable than a universal colouring theorem.

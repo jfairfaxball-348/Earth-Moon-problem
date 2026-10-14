@@ -11,4 +11,4 @@ Required checks:
 
 **Gate:** preliminary script tools/check_submission.py checks 1 and 3 and, if NetworkX installed, provides an exploratory layer planarity check. It **does not** certify item 4 and cannot establish χ=k, even when it exits successfully. Formal Lean result is a later separate gate.
 
-For universal theorems, use a complete written proof checked against arbitrary n, both layers, the entire graph class and all exceptional base cases. Finite SAT exhaustion without a universal completeness reduction is not a theorem about χ₂.
+The programme target (D042) is a certificate of this schema with chromatic_number ≥ 10 passing all five checks. Universal theorems are out of scope. Finite SAT exhaustion without a universal completeness reduction is not a theorem about χ₂, and a failed or capped search never shows that no 10-chromatic biplanar graph exists.
