@@ -1,0 +1,63 @@
+name: S019 deep exact row148 scientific search (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S019-row148-deep]
+    paths:
+      - 'tools/s019_row148_deep.py'
+      - '.github/workflows/s019-row148-deep.yml'
+      - 'campaigns/CAM-0021.md'
+permissions:
+  contents: write
+jobs:
+  exact-single-row148:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Source syntax and preregistration
+        run: |
+          python -m py_compile tools/s019_row148_deep.py
+          test -f campaigns/CAM-0021.md
+          sha256sum tools/s019_row148_deep.py campaigns/CAM-0021.md
+      - name: Pinned native toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory full 271 native DRAT and K9 smoke in same job
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Sole original row148 at maximum 12GiB
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=15s 1500s .venv/bin/python -u tools/s019_row148_deep.py
+      - name: Preserve scientific checkpoints on NEVER-MERGED WIP branch
+        if: always()
+        run: |
+          mkdir -p validation/S019-WIP
+          cp artifacts/tmp/S019/RESULT.json validation/S019-WIP/RESULT.json || true
+          cp artifacts/tmp/S019/row148_all_checked_cuts.json.gz validation/S019-WIP/row148_all_checked_cuts.json.gz || true
+          cp artifacts/tmp/S019/row148_verified_split.json validation/S019-WIP/row148_verified_split.json || true
+          cp artifacts/tmp/S019/provisional_split.json validation/S019-WIP/provisional_split.json || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S019-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S019-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S019-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S019 original row148 verified solver checkpoints (never merge)'
+            git push origin HEAD:wip/S019-row148-deep
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: S019-row148-deep-evidence
+          retention-days: 60
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S019/*.json
+            artifacts/tmp/S019/*.gz
+            artifacts/tmp/S019/*.edges
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
