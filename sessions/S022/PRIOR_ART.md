@@ -1,0 +1,3 @@
+# S022 PRIOR ART / originality boundary
+
+The mathematical facts used are elementary: every complete binary partition of a fixed labelled edge set is uniquely determined by its switch-set relative to a fixed partial partition plus choices for its unassigned edges; every subgraph of a planar graph is planar. This is a finite-graph algorithmic correctness proof, not a novel theorem and not evidence for χ₂≥10. The existing programme sources SRC-0005, SRC-0037 and SRC-0038 retain their inherited access grades; no new independent proof-level external literature inspection and no originality/priority claim is made. S021 cross-bipartite Euler (CLM0082) and S018 triangulation-cover q+r=7 are NOT used as a radius bound.

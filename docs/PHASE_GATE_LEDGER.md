@@ -58,3 +58,8 @@ S020 (2026-10-15): single original148 fresh pinned native smoke271/271 DRAT/CNF 
 ### S021 (2026-10-15): headline gate NOT PASSED
 
 Cross-bipartite Euler necessity (CLM0082) and source-checked120 original SAT bounds, full271+K9 cold smoke run38760699074 PASS. Exact row148 capped at 75653 cuts, best six unplaced; no independently certified full positive or negative. 52/219 and classical9..12 unchanged. S022 retains sole original148 and must pursue genuinely more complete embedding search. Publication and all downstream gates unchanged.
+
+
+### S022 (2026-10-15) — lower-bound gate NOT PASSED
+
+Fresh full 271 original native DRAT/CNF byte hashes + K9 controls PASS separately on [CAM0024 run38765947247](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38765947247) and [CAM0025 run38767507306](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38767507306). Graph148 local fixed-partial radii0..3 all325626 flip subsets exhausted with zero complete split. Secondary source-checked Kuratowski supports only A2/B1, no four-per-side proof. No global original148 positive or checked native negative; 52/219 original census and classical9≤χ₂≤12 unchanged. All novelty, Lean, Palomar, paper, arXiv, outreach and universal upper-bound gates unchanged; next S023 global embedding exactness.

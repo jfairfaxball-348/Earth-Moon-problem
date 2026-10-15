@@ -1,0 +1,9 @@
+# S022 — preserved original graph148 evidence
+
+Original source row148 n25 m131, immutable edges SHA256 `4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598`. S021 fixed planar partial E1=62, E2=63, six unplaced; inherited 75,653 sound source-indexed Kuratowski cuts retained at `validation/S021/row148_lemmas.json.gz`.
+
+Primary `CAM-0024` on [run38765947247](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38765947247) job116529044333: new runner full pinned native 271 CNF/hash/DRAT and retained/fresh K9 smoke PASS, exhaustive labelled placed-edge switch radii0,1,2,3: 1+125+7,750+317,750=325,626 flipsets, no full split, 305.53s and 39.4MiB peak. Source WIP 9a6ddc38ff1630386ba443151b0b47daf66062a7, evidence WIP 1531e5133aa1805fb2cca0f145b21c4472a49249, artifact11990226672 digest sha256:37b9f2d9087ea050b990832b46dfb66fd2fd9fb31ac07eaada211471bd0ee43b. Permanent `result.json`, `SMOKE.json`, `ENVIRONMENT.json`, `row148.edges`. Original graph globally UNKNOWN.
+
+Secondary `CAM-0025` on [run38767507306](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38767507306) job116534444118: separate new runner full smoke PASS, 175.05s compact Kuratowski support packing A2/B1, no four-per-side certificate. Source WIP e394c96637f0d684e32466a4eb5e01d6b31a89b3, WIP evidence83f6a058b2349edba07ef875aaaaf9b36a04dbd8, artifact11990945110 digest sha256:10146f6a6cd720d80e8a57ac842970f2060c65cea46e00935ebc4915de494f2f. Permanent `PACK_RESULT.json`, `PACK_SMOKE.json`, `PACK_ENVIRONMENT.json`, including source-checkable support sets.
+
+Code/workflow and campaign manifests copied as individual source files into the single S022 research-session commit; **never merge WIP commit ancestry**. No full biplanarity positive or native checked full negative, 52 certified NONBIPLANAR/219 UNKNOWN, χ₂ 9..12 unchanged.

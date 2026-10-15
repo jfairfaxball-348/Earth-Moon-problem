@@ -49,3 +49,7 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 
 
 | [CAM-0020](CAM-0020.md) | S018 strict serial original row148 n25,m131 only, positive adaptive large-neighbourhood planar repacking (330s) then unsymmetrised no-cardinality exact CEGAR (610s) on one 12GiB worker | Hosted Actions run38721673690 job116377478891 ALL steps success after same-job 271 original CNF/DRAT/K9 smoke. New best partial SIX original edges unplaced (S016 historical TEN); exact550 iterations/19480 Kuratowski cuts capped UNKNOWN. 52 original certified negatives,219 BIPLANARITY_UNKNOWN unchanged. Permanent raw evidence validation/S018; S019 resume row148, seven-defect triangulation-cover algorithm. |
+
+
+- **CAM-0024 (S022)** one original row148 only, complete fixed-partial Hamming radius0..3 enumeration of 325626 flipsets, all exhausted, globally UNKNOWN; run38765947247 full new-job 271 native DRAT/CNF/K9 smoke PASS. Source, original hash, results and environment in validation/S022.
+- **CAM-0025 (S022)** separate original row148 Kuratowski compact support packing, full new-job cold 271+K9 smoke PASS, 175s best support packing A2/B1, no four-per-side certificate; run38767507306; global status unchanged.

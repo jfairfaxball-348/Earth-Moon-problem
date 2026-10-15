@@ -84,3 +84,8 @@ S019 execution note (no new owner decision): following D042 and D051/D054, ran o
 
 ### D055 (2026-10-15, S021 execution closeout)
 Keep serial original graph148 exclusively active after full verified S021 cross Euler/SAT cap and no verdict. Preserve 75653 cuts and 120 audited constraints, six missing; S022 must work on exact embedding-completeness or proof certificate instead of switching to other original graphs. D042/D051/D054 remain binding. No scientific lower bound promotion. This decision does not execute S022.
+
+
+### S022 session execution (2026-10-15; D042/D051/D054 CONTINUED, no new owner decision)
+
+Owner “run next session” authorised exactly S022 under D047. One original row148 exclusive, one ≤12GiB worker at a time; two sequential GitHub Actions cold smoke runs38765947247 and38767507306 complete PASS original271+K9. Exact local baseline Hamming radius≤3 excludes only 325626 flipped baseline subsets, not original globally. Four-support A packing impossible by degree3 at vertex1. Retain original148 UNKNOWN/219 original unknown overall and prior75653 sound cuts. S023 remains queued FUTURE/UNEXECUTED, must focus globally complete embedding model or full checked native refutation. WIP histories NEVER merge.

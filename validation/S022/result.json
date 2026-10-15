@@ -1,0 +1,70 @@
+{
+  "active_original": 148,
+  "complete_positive": false,
+  "elapsed_seconds": 305.53,
+  "fixed_edges": 125,
+  "full_negative_certified": false,
+  "global_original_verdict": "BIPLANARITY_UNKNOWN",
+  "method": "exact_hamming_ball_planarity_BB",
+  "missing_edges": 6,
+  "native_sha256": {
+    "cadical": "a9853c4807e0055533ec136553dd2a540b515789c00d65852edc52313eb49b93",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "peak_rss_mib": 39.4,
+  "radii": {
+    "0": {
+      "base_nonplanar": 0,
+      "base_planar": 1,
+      "complete_assignments": 0,
+      "enumerated_flip_subsets": 1,
+      "insertion_nodes": 1,
+      "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+      "nonplanar_prunes": 2,
+      "possible_flip_subsets": 1,
+      "status": "EXHAUSTED_LOCAL_RADIUS"
+    },
+    "1": {
+      "base_nonplanar": 117,
+      "base_planar": 8,
+      "complete_assignments": 0,
+      "enumerated_flip_subsets": 125,
+      "insertion_nodes": 8,
+      "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+      "nonplanar_prunes": 16,
+      "possible_flip_subsets": 125,
+      "status": "EXHAUSTED_LOCAL_RADIUS"
+    },
+    "2": {
+      "base_nonplanar": 7717,
+      "base_planar": 33,
+      "complete_assignments": 0,
+      "enumerated_flip_subsets": 7750,
+      "insertion_nodes": 33,
+      "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+      "nonplanar_prunes": 66,
+      "possible_flip_subsets": 7750,
+      "status": "EXHAUSTED_LOCAL_RADIUS"
+    },
+    "3": {
+      "base_nonplanar": 317656,
+      "base_planar": 94,
+      "complete_assignments": 0,
+      "enumerated_flip_subsets": 317750,
+      "insertion_nodes": 94,
+      "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+      "nonplanar_prunes": 188,
+      "possible_flip_subsets": 317750,
+      "status": "EXHAUSTED_LOCAL_RADIUS"
+    }
+  },
+  "radius_max": 3,
+  "same_job_smoke": "PASS271_CNF_DRAT_RETAINED_FRESH_K9",
+  "session": "S022",
+  "source_131": 131,
+  "source_code_sha256": "e90f60490d3910d7eb84b4b49814b724e8283bc56e057f687517ba6f3fdb83bc",
+  "source_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "source_partial_sha256": "84d26168afe440de7815413674f50da389c0c2556fc57131cef09a02b1322880",
+  "status": "LOCAL_NEIGHBOURHOODS_EXHAUSTED_GLOBAL_UNKNOWN",
+  "wall_cap_seconds": 850.0
+}
