@@ -742,5 +742,25 @@
       "SRC-0005"
     ],
     "notes": "Deterministic no-symmetry complete bounded enumeration on immutable 131-edge original graph, SHA256 4f8dab...; same-job 271 original native DRAT/CNF and retained/fresh K9 smoke PASS; 305.53 seconds, 39.4MiB RSS. Reproducible source tools/s022_row148_exact_neighbourhood.py and validation/S022; single implementation/planarity library, cold second-method replay remains desirable. Not a certified original graph negative or improved Earth-Moon bound."
+  },
+  {
+    "id": "CLM-0085",
+    "claim": "If a finite simple biplanar graph contains a K6 fully joined to every vertex of a disjoint induced external graph H, then chi(K6 vee H)<=9: biplanar Euler forces e(H)<=9, K9 non-biplanarity forbids triangles in H, and every triangle-free graph on at most 9 edges is 3-colourable by a direct minimum-degree/6-vertex cubic classification.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "S023 hand proof fully quantified in research/S023_UPPER_VS_LOWER_AUDIT.md. Conditional clique-core obstruction, no novel/global bound assertion; does not apply to a K6 lacking full external join edges."
+  },
+  {
+    "id": "CLM-0086",
+    "claim": "Every degree-11 vertex v of a finite simple biplanar graph has at least six pairwise nonadjacent neighbour pairs. If the graph is additionally 12-critical, every 11-colouring of G-v is rainbow on N(v) and every such missing pair of neighbour colours is joined by a two-colour Kempe path; this is necessary, not sufficient for 11-colourability.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "S023 elementary Euler induced-12-vertex calculation and Kempe swap proof. No all-order reducible configuration, no chi2<=11 proof. S004 archived counterexample defeats unqualified local flexibility claim; novelty unchecked."
   }
 ]

@@ -609,3 +609,10 @@ For fixed disjoint labelled A,B,U partitioning E(G), every complete two-layer ed
 ## CLM-0084 — COMPUTED_EXACT (restricted radius, non-novel)
 
 S022 CAM-0024 [run38765947247](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38765947247) completed exactly r=0,1,2,3 switchsets around the original148 frozen 62+63+6 partial: **1 + 125 + 7,750 + 317,750 = 325,626** distinct switch subsets, with all six unplaced edge placement possibilities explored or soundly pruned by nonplanarity. All radii marked EXHAUSTED_LOCAL_RADIUS with zero completed split; first unplaced (0,1) had no planar placement at any surviving baseline state. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598, elapsed305.53s, peak39.4MiB; same-job 271/271 original CNF/native DRAT and K9 smoke PASS. This COMPUTED_EXACT finite search is not a checker-independent full original negative, does not classify graph148, and does not change 52 certified NONBIPLANAR/219 UNKNOWN or χ₂ classical9..12.
+
+
+## CLM-0085 — PROGRAMME_PROVED (restricted conditional / novelty unchecked)
+K6 universally joined to H within any biplanar graph forces chi(H)<=3 and hence chi<=9. Euler bounds e(H)<=9; K9 prohibition makes H triangle-free; triangle-free graphs with <=9 edges are 3-colourable by 4-critical minimum degree and the unique triangle-free cubic six-vertex graph K3,3. Complete hand proof and scope in research/S023_UPPER_VS_LOWER_AUDIT.md. Source: classical SRC-0005, SRC-0014.
+
+## CLM-0086 — PROGRAMME_PROVED (necessary obstruction / novelty unchecked)
+Every degree-11 vertex in any biplanar graph has >=6 nonedges between its 11 neighbours (induced 12-vertex Euler bound). In any 12-critical graph, all these nonedges must be Kempe-locked in every proper 11-colouring after deleting v. Not a reducibility theorem or universal chi<=11 bound. Hand proof and S004 adversarial witness in research/S023_UPPER_VS_LOWER_AUDIT.md. Sources: SRC-0005, SRC-0014.

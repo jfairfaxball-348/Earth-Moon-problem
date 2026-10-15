@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S022",
-  "recommended_next_session": "S023",
+  "last_completed_session": "S023",
+  "recommended_next_session": "S024",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,14 +17,14 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S022_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S023_COMPARATIVE_AUDIT",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S022 exact original148 radius0-3 all 325626 fixed-partial switch subsets exhausted with no full split; secondary Kuratowski disjoint-support packing A2/B1 unsuccessful; globally original148 BIPLANARITY_UNKNOWN. Cumulative original52 certified NONBIPLANAR/219 UNKNOWN; chi2 classical9..12.",
-  "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
+  "candidate_10_11_12": "S023 analytic comparison no new candidate decisions: original52 certified NONBIPLANAR,219 UNKNOWN; row148 n25m131 original globally UNKNOWN despite exact local radius<=3; classical 9<=chi2<=12.",
+  "universal_improved_upper_bound": "NONE_PROVED; D056 S023 COMPARATIVE EXCEPTION COMPLETE; D042 UPPER BAN REINSTATED EXCEPT FUTURE OWNER-PROPOSED SESSION",
   "phases": [
     {
       "id": 0,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S012_TARGETED_STATEMENT_REFRESH_SOURCE_MD_JSON_PAIRED_NO_NEW_SOURCE_IDS_NO_NOVELTY",
+  "source_status": "S023_PRIMARY_STATEMENTS_AND_SELECTED_PROOF_INSPECTED;NEW_SRC0039_0040_METADATA_ABSTRACT;NO_ARCHIVE_REPLAY",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -105,9 +105,12 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S022-original148-exact-neighbourhood",
-  "latest_session_entry_main": "8bd915e520ce66ddde047dc3c45ef5d5cc3751c6",
-  "latest_session_integration": "S022 PR#27 merged as 0b72d4096a63229278e119b9385158054fee6456 with verified tree f7c58ac8da3c324a8a5061eed2b5f4d51648821c; S023 D056 prompt reset is a later governance-only update.",
+  "latest_session_branch": "session/S023-two-sided-difficulty-audit",
+  "latest_session_entry_main": "9e31c951596f7b119c184f7da04b14af0cf891eb",
+  "latest_session_integration": {
+    "status": "PENDING_LIVE_POST_MERGE_READBACK",
+    "entry_main": "9e31c951596f7b119c184f7da04b14af0cf891eb"
+  },
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -653,12 +656,31 @@
     "original219_unknown": 219
   },
   "next_session_owner_override": {
-    "decision": "D056",
+    "decision": "D057_PROPOSED_ONLY",
     "date": "2026-10-15",
-    "authority": "Owner explicitly requested the next Earth–Moon session to discover, audit and research which bound is theoretically easier to move.",
-    "session": "S023_FUTURE_UNEXECUTED",
-    "compare": "Lower chi_2>=10 by explicit certified witness versus upper chi_2<=11 by universal theorem",
-    "scope": "Temporarily permit upper-bound study and suspend original graph148 exclusivity FOR S023 research only; preserve D042 permanent lower target until owner invokes an explicit future pivot.",
-    "directive": "docs/S023_BOUND_COMPARISON_DIRECTIVE.md"
+    "session": "S024_FUTURE_UNEXECUTED",
+    "recommendation": "LOWER_ROUTE_L_PRIMARY_WITH_PLANAR_LAYER_FIRST_AND_GLOBAL_ROW148_SECONDARY",
+    "authority": "S023 recommendation, NOT activated by S023; invoking complete S024 prompt expressly approves this S024-scoped D051/D054 priority relaxation.",
+    "d042": "LOWER_ONLY_RETAINS",
+    "original219": "UNCHANGED_ALL_PRESERVED"
+  },
+  "s023_research": {
+    "completed": true,
+    "no_new_science_compute": true,
+    "comparison": "L_PREFERRED_NOT_CERTAIN",
+    "lemmas": [
+      "K6_UNIVERSAL_JOIN_9_COLOURABLE_CONDITIONAL",
+      "DEGREE11_SIX_NEIGHBOR_NONEDGES_AND_CRITICAL_KEMPE_LOCKS"
+    ],
+    "historical_originals": {
+      "excluded": 52,
+      "unknown": 219
+    },
+    "new_chi2_bound": false,
+    "new_checked_positive": false,
+    "new_checked_original_negative": false,
+    "external_artifacts_replayed": false,
+    "novelty_assessed": false,
+    "full_dossier": "research/S023_UPPER_VS_LOWER_AUDIT.md"
   }
 }

@@ -63,3 +63,7 @@ Cross-bipartite Euler necessity (CLM0082) and source-checked120 original SAT bou
 ### S022 (2026-10-15) — lower-bound gate NOT PASSED
 
 Fresh full 271 original native DRAT/CNF byte hashes + K9 controls PASS separately on [CAM0024 run38765947247](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38765947247) and [CAM0025 run38767507306](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38767507306). Graph148 local fixed-partial radii0..3 all325626 flip subsets exhausted with zero complete split. Secondary source-checked Kuratowski supports only A2/B1, no four-per-side proof. No global original148 positive or checked native negative; 52/219 original census and classical9≤χ₂≤12 unchanged. All novelty, Lean, Palomar, paper, arXiv, outreach and universal upper-bound gates unchanged; next S023 global embedding exactness.
+
+
+### S023 (2026-10-15) — two-sided comparative audit, no headline gate
+D056 permitted research on both adjacent bounds ONLY in S023. Primary literature inspected including Szeider Sep2026 alpha<=2 upper subclass result, Patil prior order lower restrictions and ordinary critical-density inequalities. Two elementary hand-proved CONDITIONAL/NECESSARY lemmas CLM0085/0086, no global chi2 change. No cloud science job/native proof/Lean build and no reclassification of original52 NONBIPLANAR/219 UNKNOWN; row148 globally UNKNOWN. Formalisation, originality, Palomar, paper/arXiv, outreach remain gated. S024 proposed scoped D057 is FUTURE/UNEXECUTED, not silently in effect.

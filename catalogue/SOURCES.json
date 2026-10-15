@@ -400,5 +400,28 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-15",
     "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth–Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported."
+  },
+  {
+    "id": "SRC-0039",
+    "title": "Biplanar graphs with independence number two are 9-colorable: Lean development, certificates, and reproduction instructions",
+    "authors": "Stefan Szeider",
+    "year": 2026,
+    "publication_date": "2026-09-23",
+    "url": "https://zenodo.org/records/22913639",
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-15",
+    "note": "Author primary Zenodo supplementary record inspected: Lean, 3275 SAT instances, LRAT, 2.2GB ZIP and three unformalized planar hypotheses. ZIP NOT downloaded or replayed; no claim of independently validated formal proof in S023."
+  },
+  {
+    "id": "SRC-0040",
+    "title": "A lower bound on the number of edges in DP-critical graphs",
+    "authors": "Peter Bradshaw, Ilkyoo Choi, Alexandr Kostochka, Jingwei Xu",
+    "year": 2026,
+    "publication_date": "2026-07",
+    "url": "https://doi.org/10.1016/j.jctb.2026.03.002",
+    "doi": "10.1016/j.jctb.2026.03.002",
+    "access": "ABSTRACT_INSPECTED",
+    "accessed": "2026-10-15",
+    "note": "Primary JCTB published abstract read; improves DP-critical graph density, not a ready inequality for all ordinary 12-critical biplanar graphs. Explicit negative applicability audit."
   }
 ]
