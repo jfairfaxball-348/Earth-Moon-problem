@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Final S021 preregistered attempt: all earlier runner revisions are superseded.
 """S021: original row148 obstruction-guided planar insertion + global/induced Euler CEGAR.
 
 This is a bounded computation, NOT a decision if it caps. Every emitted SAT must
