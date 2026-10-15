@@ -6,6 +6,9 @@ on:
       - 'tools/s021_row148_cross_euler.py'
       - '.github/workflows/s021-row148-cross-euler.yml'
       - 'campaigns/CAM-0023.md'
+concurrency:
+  group: S021-row148-one-heavy-worker
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
