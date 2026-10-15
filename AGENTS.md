@@ -1,5 +1,8 @@
 # Binding programme instructions
 
+**D056 OWNER S023 OVERRIDE (2026-10-15; FUTURE/UNEXECUTED):** S023 is now an upper-vs-lower research audit: explicitly investigate chi_2<=11 as well as chi_2>=10. For exactly S023, this supersedes the D042 upper-bound ban and D051/D054 graph148-only search priority below. Preserve all graph148/original219 certificates and UNKNOWN statuses. This is not a permanent programme re-scope or authorisation to publish/formalise. See docs/S023_BOUND_COMPARISON_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md. D047 direct invocation applies.
+
+
 1. **Single authority:** independently read live remote main (SHA, tree, status), then authoritative/STATE.json, this file, START_HERE and the session protocol; reconcile competing PRs, workflows, branches and records before writes.
 2. **Headline (owner re-scope D042, 2026-10-14):** raise the Earth–Moon LOWER bound from χ₂ > 8 (i.e. χ₂ ≥ 9, classical) to **χ₂ > 9 (i.e. χ₂ ≥ 10)** by a fully certified construction of a finite simple biplanar graph with χ ≥ 10 (thickness ≤ 2, not geometric thickness or another variant). Resolving EMP and improving the upper bound 12 are OUT OF SCOPE. A certified χ ≥ 10 witness is a lower-bound advance, never a full resolution of EMP.
 3. **Session-prompt-as-invocation (D047):** when the owner supplies, pastes or links a numbered session prompt as a request, that submission itself authorises immediate execution of exactly that numbered session. Do NOT require a second 'Run S###' utterance or ask for confirmation merely because a saved prompt was marked FUTURE/UNEXECUTED. A queued future prompt is not executed *automatically* without the owner's message; never execute the following session within the current one. Preserve D042 scientific scope.
