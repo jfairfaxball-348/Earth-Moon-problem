@@ -1,0 +1,58 @@
+name: S017 density and original-graph repair (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S017-density-originals]
+    paths:
+      - 'tools/s017_*.py'
+      - '.github/workflows/s017-density-originals.yml'
+      - 'campaigns/CAM-0019.md'
+permissions:
+  contents: write
+jobs:
+  exact-originals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Registered sources and syntax
+        run: |
+          test -f campaigns/CAM-0019.md
+          python -m py_compile tools/s017_density_cegar.py tools/s017_rotation_repair.py tools/s017_campaign.py
+          sha256sum tools/s017_*.py campaigns/CAM-0019.md .github/workflows/s017-density-originals.yml
+      - name: Pinned native toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Same-job FULL independent cold smoke BEFORE research
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0019 bounded density CEGAR and positive original graph repair
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=20s 850s .venv/bin/python tools/s017_campaign.py
+      - name: Preserve compact science on NEVER MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S017-WIP
+          cp artifacts/tmp/S017/result.json validation/S017-WIP/result.json || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S017-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S017-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S017-WIP
+          if ! git diff --cached --quiet; then git commit -m 'WIP S017 preserve bounded original-row evidence; never merge'; git push origin HEAD:wip/S017-density-originals; fi
+      - name: Upload evidence regardless of result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S017-CAM0019-evidence
+          if-no-files-found: warn
+          retention-days: 60
+          path: |
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/S017/result.json
+            artifacts/tmp/S017/*.split.json
+            artifacts/tmp/S017/provisional_split.json
