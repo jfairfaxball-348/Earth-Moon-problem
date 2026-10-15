@@ -1,0 +1,56 @@
+{
+  "session": "S018",
+  "as_of": "2026-10-15",
+  "branch": "session/S018-serial-original148",
+  "owner_invocation": "run the next session",
+  "entry_main": "d47d7147fa41c465c51d1d47e278707a86e36685",
+  "entry_tree": "eedd95fa4151b18403fc8f4e812a097d79290254",
+  "last_prs": [
+    {
+      "pr": 21,
+      "merge": "2a7fd7509ada6af207ce4a64c4060d49bfaf44ec"
+    },
+    {
+      "pr": 22,
+      "merge": "d47d7147fa41c465c51d1d47e278707a86e36685"
+    }
+  ],
+  "science_run": 38721673690,
+  "science_job": 116377478891,
+  "scientific_status": "ALL_STEPS_SUCCESS_GRAPH_UNKNOWN",
+  "same_job_smoke": "ALL271_DRAT_CNF_HASH_AND_K9_PASS",
+  "original_row148": "25v131e",
+  "original_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "positive_best_unplaced": 6,
+  "positive_tries": 13459,
+  "exact_iterations": 550,
+  "exact_sound_lemmas": 19480,
+  "exact_verdict": "CAPPED_UNKNOWN",
+  "peak_rss_mib": 91.6,
+  "wip_source_commit": "a7c0355f01076bee7e8202e9fb4f1d7c7ea5d367",
+  "wip_preservation_commit": "65d78133bbbadee5e71d7e5fa27d59cd0511f9ae",
+  "artifact_id": 11966338990,
+  "artifact_zip_sha256": "e55a58d9f29477728fc5cf43890ffbe5fda9c2d78d480e0bb66dd1b1776dfd46",
+  "wip_lemma_git_blob_sha": "9e5d233c9826deec0e1af08c66cd4d87bba61702",
+  "original_52_certified_negative": 52,
+  "original_219_still_unknown": 219,
+  "session_partition": {
+    "CAPPED": [
+      148
+    ],
+    "NOT_RUN": 218,
+    "NEW_POSITIVE_CERTIFIED": 0,
+    "NEW_NEGATIVE_CERTIFIED": 0
+  },
+  "science_data": [
+    "validation/S018/SUMMARY.json",
+    "validation/S018/REMOTE_RESULT.json",
+    "validation/S018/REMOTE_SMOKE.json",
+    "validation/S018/ENVIRONMENT.json",
+    "validation/S018/row148_best_partial.json",
+    "validation/S018/row148_lemmas.json.gz"
+  ],
+  "next_prompt": "S019_FUTURE_UNEXECUTED",
+  "main_merge": "TO_BE_VERIFIED_AFTER_ACTUAL_PR",
+  "hosted_checks": "TO_BE_VERIFIED_AFTER_ACTUAL_PR"
+}
