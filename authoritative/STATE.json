@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S020",
-  "recommended_next_session": "S021",
+  "last_completed_session": "S021",
+  "recommended_next_session": "S022",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S020_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S021_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S021 scientific result: original148 still BIPLANARITY_UNKNOWN after one 12GiB Actions runner run38760699074: 271+K9 cold smoke PASS; insertion2295 nodes/130s best SIX unplaced; exact 173 iterations/300s, 67862 old checked cuts ->75653 total; cross A,B 120 selected out of8025, 120 independently recomputed crossing index records PASS; peak495MiB; no complete split / checked native negative. S022 must pursue embedding-complete algorithm and checkpoint reuse on same original row.",
     "S021: independently audit S020 true 67862 saved original Kuratowski cuts / induced Euler 100-set construction; row148 remains sole original. Need cross-bipartite Euler |E_i(A,B)|<=2(|A|+|B|)-4, potentially direct density obstruction or necessary CNF, plus more complete explicit rotation/triangulation-cover exact solver with q+r=7. New same-job 271+K9 smoke, one 12GiB worker, preserve all proofs; no switch until certified.",
     "S020 must continue same original row148 unless actual accepted source-certified positive/negative changes priority. S019 resumed six-unplaced partial, 54697 sound original Kuratowski cuts, original Euler 62..69 sequential-counter base 17098 clauses/8687 CNF vars; no complete positive or checked negative, no transfer or wider search. Need genuinely new seven-defect triangulation-cover/rotation embedding approach or local Euler cuts plus bounded proof-checked negative, same-job cold smoke.",
     "S017 density CEGAR 5 original rows capped UNKNOWN; robust projected counter audit m<=5 passed1022 but full lex symmetry projected small-graph audit and independently checked full UNSAT proof still missing. Constructive row148 best new15 missing worse than S016 historical10; 214 other originals not run anew. S018 must retain D051 canonical219 until certified original split or validated negative proofs, no autonomous pivot.",
@@ -101,9 +102,9 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S020-original148-embedding-local-euler",
-  "latest_session_entry_main": "3963448ed561b6287621b562991479a0f2b88220",
-  "latest_session_integration": "S020_ONE_AUTHORED_COMMIT_PENDING_POST_COMMIT_LIVE_PR_TWO_PARENT_TREE_AND_CHECKS_VERIFICATION",
+  "latest_session_branch": "session/S021-original148-cross-euler",
+  "latest_session_entry_main": "bfb82227376b87141f5ac67af00728a255fec3be",
+  "latest_session_integration": "S021_ONE_AUTHORED_COMMIT_PENDING_POST_COMMIT_LIVE_PR_TWO_PARENT_TREE_AND_CHECKS_VERIFICATION",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -441,7 +442,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S019 original row148 only: resume best 6 original unplaced edges and 19480 sound nolex CEGAR cuts; new exact triangulation-cover q+r=7 or verified embedding constraints; do not rotate across 219 or pivot source families.",
+  "next_session_priority": "S022: sole original graph148 still UNKNOWN; S021 75653 saved cuts +120 cross Euler conditions, six unplaced; focus genuinely embedding-complete route, cost-aware state dominance, proof checked positive/negative, no new original unless certified.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -532,7 +533,7 @@
   "next_session_serial_219_policy": {
     "decision": "D054",
     "date": "2026-10-15",
-    "status": "S018_EXECUTED_S019_QUEUED",
+    "status": "S021_EXECUTED_S022_QUEUED",
     "source": "docs/S018_SERIAL_219_DIRECTIVE.md",
     "active_original_index": 148,
     "active_original_source": "FIXED_271_EXACT_CHI10_CORPUS",
@@ -550,8 +551,8 @@
     "authoritative_prompt_mirror": "sessions/S018/S019_FUTURE_PROMPT.md",
     "research_executed": true,
     "best_saved_partial_missing": 6,
-    "cut_checkpoint_count": 19480,
-    "algorithmic_next": "SEVEN_DEFECT_TRIANGULATION_COVER_OR_SOUND_LOCAL_EULER_CUTS_WITH_SAVED_ROW148_CHECKPOINT"
+    "cut_checkpoint_count": 75653,
+    "algorithmic_next": "EMBEDDING_COMPLETE_OR_STRONGER_PROOF_CERTIFICATE_ROW148"
   },
   "s018_science": {
     "run_id": 38721673690,
@@ -594,5 +595,21 @@
     "selected_induced_euler": 100,
     "independent_local_count_audit": "PASS100",
     "peak_rss_mib": 386
+  },
+  "s021_science": {
+    "run": 38760699074,
+    "job": 116511416069,
+    "wip_branch": "wip/S021-row148-cross-euler",
+    "wip_source_commit": "ce7560ae08e1ce3e546db645721a1af5271410c7",
+    "wip_evidence_commit": "7ab9842aa20ed3ce8a3b316044370786946e273f",
+    "artifact_id": 11985384079,
+    "artifact_digest": "sha256:78c5d2e42a25adfc5cd607b6a102ca04cf9a4a47c94394d38cc6b490bd3f6765",
+    "same_job_smoke": "PASS_271_271_CNF_DRAT_OLD_FRESH_K9",
+    "original148_status": "BIPLANARITY_UNKNOWN",
+    "total_sound_kuratowski_lemmas": 75653,
+    "selected_cross_pairs": 120,
+    "independent_cross_source_index_audit": "PASS120",
+    "best_partial_missing": 6,
+    "peak_rss_mib": 495.1
   }
 }

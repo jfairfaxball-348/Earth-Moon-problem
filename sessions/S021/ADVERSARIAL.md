@@ -1,0 +1,9 @@
+# S021 ADVERSARIAL — exact evidence and limitations
+- Mandatory same-job full pinned environment smoke PASS271 original CNF hashes + native DRAT and retained/fresh K9. This verifies chromatic sources and environment, not biplanarity.
+- Original immutable 25v 131e full source hash 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598; source reconstruction from S020 disjoint E1(62),E2(63),unplaced(6) exactly131 unique edges.
+- Independent rerun-independent JS enumeration of crossing edges from all131 sorted source edges passed **120/120** recorded CROSS_EULER labelled A,B edge-index lists; all A,B disjoint, correct two-sided per-layer bound 2s−4 and original index range. Does NOT exhaust all candidate pair choices or prove no violating pair anywhere.
+- New necessary sequential-counter constraints cannot by themselves prove biplanarity; separate original-variable projections are preserved by fresh auxiliary namespaces. The full source CNF+proof has NOT been certified UNSAT.
+- Insertion's eight-ejection bound is *not* implied by q+r=7 triangulation cover. Visited-state set does not retain minimal ejection cost; finite local tree is not proven complete. S022 must correct this if using such pruning.
+- No complete source-edge partition or rotation certificate. Six unplaced edges are NOT a positive. One capped SAT search is NOT a nonbiplanarity proof.
+- Earlier pre-science syntax failure run38759883900 and cancelled overlapping revisions38760056791/38760158280/38760235687 are recorded; final only scientific run38760699074 success with full smoke. Cancellation prevented the old revisions' findings being treated as S021 proofs.
+- One original graph row148 only. Other218 originals NOT_RUN in S021; cumulative219 remain BIPLANARITY_UNKNOWN. No novelty, Lean, paper, upper-bound route or public claim.

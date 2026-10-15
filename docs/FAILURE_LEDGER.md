@@ -88,3 +88,6 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 
 
 | F062 (S020) | A new 7-ejection Kuratowski-guided insertion and 100 induced-subset Euler at-most counters necessarily resolve original graph148 in one 12GiB scientific job | Same-job new 271+K9 smoke PASS; 3605 switch-search states/220s still six unplaced; 294 improved-CNF CEGAR iterations,67862 rechecked original cuts/531s capped UNKNOWN; 386MiB RSS, no native checked full negative. | Exact original graph148 BIPLANARITY_UNKNOWN. The 7-ejection budget is NOT implied by the seven-defect triangulation-cover equation. S021 improve genuinely complete embedding encoding/cross-bipartite cuts, preserve current 67862 constraints and source. |
+
+
+| F063 (S021) | Cross-bipartite Euler constraints + bounded eight-ejection insertion and symmetry-free CEGAR would necessarily settle original graph148 in one job | Full same-job 271+K9 smoke PASS; 120 independently checked crossing pairs and 75653 total saved sound obstruction cuts; 2295 insertion states still six unplaced and exact solver 173 iterations/300s capped UNKNOWN, peak495MiB. Earlier one syntax failure pre-science and three cancelled redundant jobs recorded. | Not a mathematical exclusion. Repair exact embedding-complete path, cost-sensitive insertion dominance, preserve all checkpoints; same original148 sole active in S022. |

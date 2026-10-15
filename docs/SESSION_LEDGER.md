@@ -44,3 +44,6 @@ One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e
 
 
 | S020 | 2026-10-15 | CAM0022 ONE original row148 obstruction-guided planar insertion and sound labelled induced-subset Euler counters plus resumed original CEGAR | Same-job native271+K9 smoke PASS [run 38752619733](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38752619733); insertion3605 states best6 unplaced; 100 induced U counters +28972 clauses/14580 aux; resumed54697 ->67862 sound cuts over294 iterations/531s; no full split, no native negative, 386MiB peak. Original52 NONBIPLANAR/219 UNKNOWN, χ₂9..12 unchanged. | SCIENCE COMPLETED, exact original148 UNKNOWN; S021 FUTURE |
+
+
+| S021 | 2026-10-15 | Sole original row148, CAM0023 120 sound cross-bipartite Euler A,B SAT bounds, resumed S020 source cuts and bounded insertion | Same-job full native 271+K9 smoke PASS [run38760699074](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38760699074). Source row148 n25m131, 2295 insertion nodes/130s best SIX missing, cross source indices independently PASS120/120, SAT CEGAR 173 iterations/300s, 67862 old→75653 saved Kuratowski cuts, peak495.1MiB. No checked original positive or negative; 52 NONBIPLANAR/219 UNKNOWN, χ₂ 9..12 unchanged. | SCIENCE CLOSED UNKNOWN; S022 FUTURE |
