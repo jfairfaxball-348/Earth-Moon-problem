@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "Owner D056: S023 is NOW a two-sided proof-first feasibility audit of moving upper vs lower bound, including primary 2026 prior art, substantive lemma attempts BOTH sides and a defended preferred next route. D042 upper prohibition and D051/D054 row148-only priority suspended for this comparison alone; 52 NONBIPLANAR, 219 UNKNOWN, chi2 9..12 unchanged.",
     "S022 secondary CAM0025 found source-checked disjoint nonplanar obstruction packs A2, B1 around edge(0,1), but no four-per-side certificate. Four on side A impossible because vertex1 baseline layer A has only three incident edges other than target. Original remains UNKNOWN.",
     "S022: 325626 exact local radius<=3 flipsets from 125-placed/6-unplaced original148 source fully exhausted, but no full original biplanar split, no checked global negative. S023 needs global rotation/triangulation-cover SAT/branching proof. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598; inherited 75653 Kuratowski cuts persist.",
     "S021 scientific result: original148 still BIPLANARITY_UNKNOWN after one 12GiB Actions runner run38760699074: 271+K9 cold smoke PASS; insertion2295 nodes/130s best SIX unplaced; exact 173 iterations/300s, 67862 old checked cuts ->75653 total; cross A,B 120 selected out of8025, 120 independently recomputed crossing index records PASS; peak495MiB; no complete split / checked native negative. S022 must pursue embedding-complete algorithm and checkpoint reuse on same original row.",
@@ -106,7 +107,7 @@
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "session/S022-original148-exact-neighbourhood",
   "latest_session_entry_main": "8bd915e520ce66ddde047dc3c45ef5d5cc3751c6",
-  "latest_session_integration": "PENDING_LIVE_PR_MERGE_RECONCILIATION",
+  "latest_session_integration": "S022 PR#27 merged as 0b72d4096a63229278e119b9385158054fee6456 with verified tree f7c58ac8da3c324a8a5061eed2b5f4d51648821c; S023 D056 prompt reset is a later governance-only update.",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -650,5 +651,14 @@
     },
     "original52_certified_nonbiplanar": 52,
     "original219_unknown": 219
+  },
+  "next_session_owner_override": {
+    "decision": "D056",
+    "date": "2026-10-15",
+    "authority": "Owner explicitly requested the next Earth–Moon session to discover, audit and research which bound is theoretically easier to move.",
+    "session": "S023_FUTURE_UNEXECUTED",
+    "compare": "Lower chi_2>=10 by explicit certified witness versus upper chi_2<=11 by universal theorem",
+    "scope": "Temporarily permit upper-bound study and suspend original graph148 exclusivity FOR S023 research only; preserve D042 permanent lower target until owner invokes an explicit future pivot.",
+    "directive": "docs/S023_BOUND_COMPARISON_DIRECTIVE.md"
   }
 }

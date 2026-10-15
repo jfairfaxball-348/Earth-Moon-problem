@@ -1,5 +1,8 @@
 # One-session, proof-first protocol
 
+**S023 OVERRIDE D056 (owner, 2026-10-15):** For exactly the next FUTURE/UNEXECUTED S023, compare upper chi_2<=11 and lower chi_2>=10 with serious mathematics. The lower-only prohibition and original graph148 exclusivity stated below are temporarily suspended for the S023 research audit; do not change any graph status, declare an improved bound or silently enact a permanent scope pivot. Full directive: docs/S023_BOUND_COMPARISON_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md. Other scientific integrity, independent verification and D047 invocation rules stay binding.
+
+
 ## Entry
 0. Cloud environment (D043): confirm the SessionStart hook completed (or run `bash scripts/cloud_setup.sh`), then run `.venv/bin/python scripts/cloud_smoke.py` before any scientific computation and record its verdict and `artifacts/tmp/native/ENVIRONMENT.json` hashes. Reset the harness-assigned session branch to live main. See docs/CLOUD_ENVIRONMENT.md.
 1. Independently pin live main commit and tree, reconciled authored commits/PRs/merges, all recent/open PRs, branches and competing session records.

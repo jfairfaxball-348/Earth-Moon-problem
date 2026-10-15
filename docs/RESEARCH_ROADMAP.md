@@ -1,5 +1,8 @@
 # Long-horizon strategy
 
+**CURRENT D056 OWNER OVERRIDE (S023 FUTURE / UNEXECUTED, 2026-10-15):** The owner directs a full mathematical feasibility and prior-art comparison of upper chi_2<=11 versus lower chi_2>=10, explicitly challenging D042's assumption that one finite lower-bound witness is the easier breakthrough. Reopen the upper route only for S023's research audit and substantive proof attempts, suspending graph148-only exclusivity for this comparative session. S023 must give a falsifiable, evidence-led recommendation for the next research route, without declaring a bound proved or committing the long-term programme to upper-route work without a fresh owner invocation. The historical retirement of Route B below describes the earlier D042 phase, not S023. Details: docs/S023_BOUND_COMPARISON_DIRECTIVE.md.
+
+
 **North star (re-scoped by D042, 2026-10-14):** prove χ₂ ≥ 10 with one fully certified biplanar construction. Determining χ₂ exactly and improving the upper bound are out of scope.
 
 **Route A — Construction:** exact layer-pair generation, rigidity and colour criticality, joins, substitutions, permutation-of-layer families, Hajós sums, and genuinely new constructions (not presumed thickness-preserving without proof). Seek χ≥10; produce explicit edge lists, planarity witnesses, exact colouring and independent non-(k−1)-colourability certificates.
