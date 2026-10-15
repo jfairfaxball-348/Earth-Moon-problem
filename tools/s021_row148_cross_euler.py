@@ -382,7 +382,7 @@ def add_cross_euler_constraints(c):
         if not aa or not bb or aa&bb: return
         if len(aa)+len(bb)<3:return
         # Treat exchanging A,B as identical: NOT a solver symmetry assumption.
-        key=tuple(sorted((tuple(sorted(aa)),tuple(sorted(bb))))
+        key=tuple(sorted((tuple(sorted(aa)), tuple(sorted(bb)))))
         if key in candidates:return
         ids=[i for i,(u,v) in enumerate(edges,1)
              if (u in aa and v in bb) or (v in aa and u in bb)]
