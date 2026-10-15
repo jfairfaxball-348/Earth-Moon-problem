@@ -1,0 +1,13 @@
+# S023 ADVERSARIAL — independent scope and proof challenge
+
+1. L1 proof: K6 must be fully joined to H, not merely included as a subgraph; Euler m(H)<=9 and K9 prohibition hold for induced core join. Triangle-free 6-vertex 3-regular graph forced K3,3: for chosen v, its 3 neighbours share zero edges; two remaining vertices must supply all six missing degree incidences, so every one connects to all 3. No invalid use of four-colour theorem. For larger n, minimum degree3 forces >9 edges. Its conclusion chi<=9 is restricted, known Sulanke chi9 meets it. No 10-chromatic biplanar graph constructed.
+2. U1 proof: take induced N[v] with exactly twelve vertices and eleven v-edges; Euler gives at most 60 edges; 55-49=6 missing. In 12-critical case every 11-colouring of G-v is rainbow on N(v); pair nonedge Kempe-path condition follows by flipping one entire bichromatic component. This counts required paths, does NOT require edge-disjoint chains, same-layer geometry, nor prove impossibility.
+3. U false strengthening stress test: S004 122-vertex two-planar lock has 55 two-colour connections despite no criticality. Thus 'many missing neighbour edges automatically permit one Kempe recolouring' false under the weaker universal hypotheses. A possible 12-critical-only extension remains OPEN.
+4. Existing upper 42-vertex deg11 graph (chi7) refutes 10-degeneracy and density-only optimism, NOT chi<=11 itself.
+5. Patil's n>=89+11D is a minimum order necessary condition. No n upper bound. Szeider's alpha2 enumeration cannot be enlarged by handwaving to all graphs.
+6. The 219 original fixed-source rows are not known disjoint independent opportunities; neither 52 negative nor 219 UNKNOWN make a statistical success probability. Row148 fixed r<=3 search = local restricted certificate only. q+r=7 for covering triangulations is not Hamming radius bound, and untested r4/r5 cannot be called exclusion.
+7. Layer-first pair of planar graphs must still be EDGE-DISJOINT; the union of two overlapping triangulations may be taken as a biplanar union by removing duplicated edges from one layer, but its exact edge count and chromatic certificate must be checked, not assumed.
+8. The mathematical lemmas are hand checked but NO independent compute/Lean reproducer executed here; novelty unassessed; without archived independent native checker no claim of new formal theorem or headline.
+9. Cross-disciplinary Collatz radius analogy is about quantifiers, not equivalence of mathematical problems.
+
+**Residual risk:** L still has no objective high-chromatic near witness from layer-first generators, so the recommendation is a research bet, not certainty. U may have an unexpected global discharging insight; recorded competitor benchmarks make the recommendation reversible.

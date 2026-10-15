@@ -362,3 +362,10 @@ Markus Kirchweger, Manfred Scheucher, Stefan Szeider (2023), *SAT-Based Generati
 https://doi.org/10.4230/LIPIcs.SAT.2023.14
 
 Publisher abstract inspected 2026-10-15: eager planarity encodings, lazy Kuratowski obstructions and SAT modulo symmetries are applied to the Earth–Moon problem. No independent full article/proof/programme original-219 certificate inspection; this is methodological prior art, not an S016 new exclusion.
+
+
+## SRC-0039 — METADATA_ONLY
+Stefan Szeider (2026-09-23), *Biplanar graphs with independence number two are 9-colorable: Lean development, certificates, and reproduction instructions*. https://zenodo.org/records/22913639 . Primary Zenodo metadata/manifest listing seen 2026-10-15; 2.2GB proof archive NOT downloaded/replayed, independent certification not asserted.
+
+## SRC-0040 — ABSTRACT_INSPECTED
+Peter Bradshaw, Ilkyoo Choi, Alexandr Kostochka, Jingwei Xu (July 2026), *A lower bound on the number of edges in DP-critical graphs*, JCTB 179, 118–146. DOI https://doi.org/10.1016/j.jctb.2026.03.002 . Publisher abstract read 2026-10-15. DP-critical statement cannot be directly invoked for arbitrary ordinary 12-critical graphs.
