@@ -1,0 +1,8 @@
+# S015 PLAN — preregistered direct original-candidate computation
+
+1. Pin live main commit/tree and reconcile S014 authored PR#17, actual two-parent merge and PR/main hosted governance jobs; inspect open PRs/branches/rulesets/protection, authority/protocol, source/claim and campaign records. Leave simultaneous owner work untouched.
+2. Reconstruct immutable corpus: 271 exactly χ10, 52 prior independently nonbiplanar, and 219 exact unresolved row IDs in validation/S010/SUMMARY.json. Preserve all original inputs and old DRAT evidence.
+3. Register CAM-0017 BEFORE scientific launch on never-merged WIP wip/S015-219-recheck; push new dedicated script and workflow, running D043 pinned setup, FULL cloud_smoke.py on the SAME GitHub Actions job then positive search. Keep unattempted IDs as NOT_RUN, never infer negative from a miss.
+4. Breadth: three distinct S015 candidate edge orderings and seeds per row (within global time cap), independent original-graph SHA256 per row. Depth: Kuratowski-guided one/two-edge transactional ejections prioritising row156 then measured closest partials. Independent exact SAT/CEGAR attempt on original row156; timeouts and unverified UNSAT remain UNKNOWN.
+5. Hostile audit exact run/jobs/steps/native/tool/input hashes; preserve permanent compact raw per-row evidence from Actions alongside exact final status counts, best partials and any accepted witness. Do not conflate independent solver path with a certificate if missing independent DRAT.
+6. One authored main-based S015 commit on session/S015-219-recheck, PR, ordinary non-force two-parent merge, postmerge checks; archive full S016 FUTURE prompt without running it.

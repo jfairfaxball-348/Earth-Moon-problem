@@ -1,0 +1,51 @@
+{
+  "session": "S015",
+  "record_kind": "ONE_SESSION_AUTHORED_PREMERGE",
+  "entry_main": "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
+  "entry_tree": "2723ac4010156496397a136e2b9a55374d295e3d",
+  "s014": {
+    "authored_commit": "c8ca1b17484fdeeb81a4f35bf95023c7dbe81352",
+    "pr": 17,
+    "merge_commit": "aaf468dda3d292bc56a51db06dedf0bb6345ac0d",
+    "merge_parents": [
+      "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+      "c8ca1b17484fdeeb81a4f35bf95023c7dbe81352"
+    ],
+    "tree": "7231fb4bd0e199ca3ca27da278a000653036a460",
+    "governance_head_run": 38702356647,
+    "governance_main_run": 38702466885,
+    "checks": "BOTH_SUCCESS_GOVERNANCE_ONLY"
+  },
+  "open_pr_on_entry": 0,
+  "rulesets": [],
+  "branch_protection": "403_UNKNOWN",
+  "owner_invocation": "run next session",
+  "session_branch": "session/S015-219-recheck",
+  "run_id": 38706865680,
+  "job_id": 116328316864,
+  "artifact_id": 11958434315,
+  "artifact_digest": "sha256:1354b172f87252f538e9b8c8321fbe8ac8ec54c276b5f375258e15f39824fcad",
+  "preservation_run_id": 38707183210,
+  "preservation_job_id": 116329378020,
+  "preservation_commit": "86a747c12497014739cce236581153e0e16e31e0",
+  "science_wip_commit": "ef2b73f83d872b740088b4d18302ac3d3c358d16",
+  "scientific_check": "COMPLETE_SAME_JOB_271_D​RAT_271_CNF_K9_RETAINED_AND_FRESH; SEE_REMOTE_COLD_SMOKE",
+  "native_sha256": {
+    "cadical": "f3e43762ae96ebf897f5af0755a5830142353146fd1cff022956967a0552f4ae",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "permanent_evidence_sha256": {
+    "REMOTE_SEARCH_RESULT.json": "24eecf8119a096ce187fa2aed634960a935309ee0a549fabad4ee6069107d191",
+    "REMOTE_COLD_SMOKE.json": "ae6f30f6b8e40d7e2c35244ee3fc2bad6e85ea4b35cdf01b58f24e0ce655dc89",
+    "REMOTE_ENVIRONMENT.json": "df84d53470677b321f645814379b8c1e5969d9f0fb46ff3454cc2cebbc4fa8bd",
+    "ROW156_CEGAR.log": "b07982036062228d401d12fe553cbc2e18483189a259c89c75ddcb9272f9a16b",
+    "ROW156.edges": "871fd7a6b3e921f1be671fa337101df74a559103b6c2fd694e4b826c103e7a5e"
+  },
+  "outgoing": {
+    "authored_commit": "OBSERVE_AFTER_CREATE",
+    "pr": "OBSERVE",
+    "merge": "OBSERVE",
+    "postmerge_main_hosted_check": "OBSERVE"
+  },
+  "next_prompt": "S016_FUTURE_UNEXECUTED"
+}

@@ -1,0 +1,60 @@
+name: S015 219 candidate recheck (unmerged WIP)
+on:
+  push:
+    branches: [wip/S015-219-recheck]
+permissions:
+  contents: read
+jobs:
+  registered-s015-219:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify preregistration and syntax
+        run: |
+          test -f campaigns/CAM-0017.md
+          python -m py_compile tools/s015_recheck_219.py
+          sha256sum campaigns/CAM-0017.md tools/s015_recheck_219.py .github/workflows/s015-recheck.yml validation/S003/survivors_alpha_ge3.json validation/S010/SUMMARY.json
+      - name: Setup pinned native tools
+        run: bash scripts/cloud_setup.sh
+      - name: FULL cold smoke on this exact runner
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0017 three-ordering breadth and double ejection
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=15s 715s .venv/bin/python tools/s015_recheck_219.py --seconds 680 --seed 15015 --output artifacts/tmp/S015/search_result.json
+      - name: Focused complete Kuratowski SAT CEGAR row156
+        if: success()
+        run: |
+          ulimit -v 12582912
+          mkdir -p artifacts/tmp/S015
+          .venv/bin/python - <<'PY'
+          import json
+          from pathlib import Path
+          import sys
+          sys.path.insert(0,"tools")
+          from blowup_graph import blowup
+          row=json.load(open("validation/S003/survivors_alpha_ge3.json"))[156]
+          edges,_=blowup(row[0],row[1])
+          Path("artifacts/tmp/S015/row156.edges").write_text("".join(f"{u} {v}\n" for u,v in edges))
+          PY
+          timeout --signal=TERM --kill-after=5s 90s .venv/bin/python tools/biplanar_cegar.py artifacts/tmp/S015/row156.edges artifacts/tmp/S015/row156_cegar 80 --seed 15156 --limit 8 > artifacts/tmp/S015/row156_cegar.log || echo "CAPPED or UNKNOWN; NO negative claim" >> artifacts/tmp/S015/row156_cegar.log
+          if test -f artifacts/tmp/S015/row156_cegar.split.json; then
+            .venv/bin/python tools/check_layers.py artifacts/tmp/S015/row156.edges artifacts/tmp/S015/row156_cegar.split.json
+          fi
+          sha256sum artifacts/tmp/S015/row156.edges artifacts/tmp/S015/row156_cegar.log
+      - name: Upload run evidence and results even after failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S015-CAM0017-219
+          if-no-files-found: warn
+          retention-days: 60
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/native/setup.log
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S015/*
