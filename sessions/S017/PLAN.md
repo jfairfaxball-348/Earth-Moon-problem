@@ -1,0 +1,7 @@
+# S017 PLAN — preregistered BEFORE bounded scientific run
+
+- Maintain canonical original271 split as original52 certified NONBIPLANAR and219 BIPLANARITY_UNKNOWN, indexed only from validation/S010/SUMMARY.json. No unjustified global exclusion.
+- Launch never-merged WIP GitHub Actions campaign CAM-0019 on ubuntu-24.04, fresh pinned setup + FULL same-job smoke (271 cold chromatic DRAT/CNF plus K9 retained and fresh proof) before search, one 12GiB worker and specified caps. Initial WIP attempt failed in projected cardinality truth-table handling; corrected version committed to WIP before second science run, which is the authoritative attempt.
+- Exact Euler-cardinality constrained CEGAR on original rows156,3,9,173,148, with audited sequential projected truth tables m<=5 and separate lex variable IDs. Incomplete/capped is UNKNOWN. UNSAT without independent full DRAT/encoding audit is UNKNOWN.
+- Embedding-aware Kuratowski-guided depth-3 repair in order row148,156,3,9,173; log explicit placed E1,E2 plus residual unplaced edges. A complete split still requires check_layers rotation/Euler and independently cold checked original no9 certificate.
+- Record full 219-ID S017-specific partition, native/input/source hashes, Actions run+job+step/artifact evidence and permanent compact raw data. Carry unresolved pool into full S018 FUTURE prompt. Single authored session commit, ordinary PR and verified two-parent merge; never merge WIP history.
