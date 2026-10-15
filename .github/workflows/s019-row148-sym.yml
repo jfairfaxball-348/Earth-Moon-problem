@@ -1,0 +1,64 @@
+name: S019 row148 audited symmetric exact decision (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S019-row148-symmetric2]
+    paths:
+      - 'tools/s019_row148_symmetric.py'
+      - '.github/workflows/s019-row148-sym.yml'
+      - 'campaigns/CAM-0022.md'
+permissions:
+  contents: write
+jobs:
+  row148-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source and preregistration
+        run: |
+          python -m py_compile tools/s019_row148_symmetric.py
+          test -f campaigns/CAM-0022.md
+          sha256sum tools/s019_row148_symmetric.py campaigns/CAM-0022.md
+      - name: Pinned native tools
+        run: bash scripts/cloud_setup.sh
+      - name: Full same-job DRAT smoke, original271 and K9
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Original row148 EXACT with verified twin symmetries
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=15s 1600s .venv/bin/python -u tools/s019_row148_symmetric.py
+      - name: Persist evidence on NEVER-MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S019-SYM-WIP
+          cp artifacts/tmp/S019-SYM/RESULT.json validation/S019-SYM-WIP/RESULT.json || true
+          cp artifacts/tmp/S019-SYM/row148_all_checked_cuts.json.gz validation/S019-SYM-WIP/row148_all_checked_cuts.json.gz || true
+          cp artifacts/tmp/S019-SYM/row148_full_split.json validation/S019-SYM-WIP/row148_full_split.json || true
+          cp artifacts/tmp/S019-SYM/row148_unsat_native.drat.gz validation/S019-SYM-WIP/row148_unsat_native.drat.gz || true
+          cp artifacts/tmp/S019-SYM/row148_necessary_constraints.cnf validation/S019-SYM-WIP/row148_necessary_constraints.cnf || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S019-SYM-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S019-SYM-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S019-SYM-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S019 row148 symmetry science checks (never merge)'
+            git push origin HEAD:wip/S019-row148-symmetric2
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: S019-row148-symmetric-evidence
+          retention-days: 60
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S019-SYM/*.json
+            artifacts/tmp/S019-SYM/*.gz
+            artifacts/tmp/S019-SYM/*.cnf
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
