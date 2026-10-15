@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S019",
-  "recommended_next_session": "S020",
+  "last_completed_session": "S020",
+  "recommended_next_session": "S021",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S019_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S020_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S019 CAM0021 same-job fresh smoke 271/271 CNF+DRAT and K9 PASS on original148; expanded constructive 13306 trials/330.02s best SIX unplaced, still UNKNOWN; nolex original density-cardinality CEGAR resumed19480 verified obstructions to54697 in812 iterations/720.54s, capped UNKNOWN; 52 certified nonbiplanar original+219 UNKNOWN unchanged; classical chi2 range9..12.",
+  "candidate_10_11_12": "S020 CAM0022 same-job 271/271 CNF+DRAT/K9 PASS; original148 obstruction-guided insertion 3605 states/220s best six missing; 100 induced Euler sets +28972 clauses/14580 aux, original CEGAR 294 iters/531s cuts54697->67862, capped UNKNOWN, no native negative and no complete original split; original52 NONBIPLANAR/219 UNKNOWN; chi2 classical9..12.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S021: independently audit S020 true 67862 saved original Kuratowski cuts / induced Euler 100-set construction; row148 remains sole original. Need cross-bipartite Euler |E_i(A,B)|<=2(|A|+|B|)-4, potentially direct density obstruction or necessary CNF, plus more complete explicit rotation/triangulation-cover exact solver with q+r=7. New same-job 271+K9 smoke, one 12GiB worker, preserve all proofs; no switch until certified.",
     "S020 must continue same original row148 unless actual accepted source-certified positive/negative changes priority. S019 resumed six-unplaced partial, 54697 sound original Kuratowski cuts, original Euler 62..69 sequential-counter base 17098 clauses/8687 CNF vars; no complete positive or checked negative, no transfer or wider search. Need genuinely new seven-defect triangulation-cover/rotation embedding approach or local Euler cuts plus bounded proof-checked negative, same-job cold smoke.",
     "S017 density CEGAR 5 original rows capped UNKNOWN; robust projected counter audit m<=5 passed1022 but full lex symmetry projected small-graph audit and independently checked full UNSAT proof still missing. Constructive row148 best new15 missing worse than S016 historical10; 214 other originals not run anew. S018 must retain D051 canonical219 until certified original split or validated negative proofs, no autonomous pivot.",
     "S016 finished: four capped CEGAR original rows156,3,9,173; 11 positive searches including new row148 10-unplaced; zero complete split/negative proof. ALL219 still unresolved. S017 MUST retain owner D051 original pool, implement density-balanced exact CNF (CLM0081) with checked encoding and independently certified DRAT if UNSAT, rotation/backtracking positive algorithm, prioritize row148 and 156/3/9/173; no autonomous pivot.",
@@ -100,9 +101,9 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S018-serial-original148",
-  "latest_session_entry_main": "d47d7147fa41c465c51d1d47e278707a86e36685",
-  "latest_session_integration": "S018_ONE_AUTHORED_COMMIT_PENDING_LIVE_ACTUAL_PR_AND_TWO_PARENT_MERGE_VERIFICATION",
+  "latest_session_branch": "session/S020-original148-embedding-local-euler",
+  "latest_session_entry_main": "3963448ed561b6287621b562991479a0f2b88220",
+  "latest_session_integration": "S020_ONE_AUTHORED_COMMIT_PENDING_POST_COMMIT_LIVE_PR_TWO_PARENT_TREE_AND_CHECKS_VERIFICATION",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -579,5 +580,19 @@
     "permanent_evidence": "validation/S018",
     "artifact_id": 11966338990,
     "artifact_sha256": "e55a58d9f29477728fc5cf43890ffbe5fda9c2d78d480e0bb66dd1b1776dfd46"
+  },
+  "s020_science": {
+    "run": 38752619733,
+    "job": 116482649871,
+    "wip_source_sha": "39ebabdb7bed33143cb3b456edbb7bfa60a6ae01",
+    "wip_evidence_sha": "8f5615e7456a1b997a6a39306ecfaf9a82aae4d3",
+    "artifact_id": 11982567740,
+    "artifact_zip_sha256": "85cdd55680fd8a78403d1fa844d3bb3f2f75c0626ae564cedf7e6c043ccee453",
+    "same_job_smoke": "PASS",
+    "original148_status": "BIPLANARITY_UNKNOWN",
+    "total_lemmas": 67862,
+    "selected_induced_euler": 100,
+    "independent_local_count_audit": "PASS100",
+    "peak_rss_mib": 386
   }
 }

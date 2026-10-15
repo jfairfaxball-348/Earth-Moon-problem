@@ -1,0 +1,23 @@
+{
+  "session": "S020",
+  "checker": "separate GitHub connector audit of source partial union and S020 original labelled U records (NOT native SAT or planarity proof)",
+  "original_edges": 131,
+  "unique_edges": 131,
+  "partial_layers": [
+    62,
+    63,
+    6
+  ],
+  "induced_constraints": 100,
+  "induced_constraints_count_independently_checked": 100,
+  "checks": [
+    "recomputed original edge count from disjoint labelled E1,E2,unplaced",
+    "each stored U bounds 3|U|-6",
+    "each stored original induced-edge count vs actual 131-edge union",
+    "edge IDs in 1..131 and unique per U",
+    "reported two-layer slack"
+  ],
+  "all_pass": true,
+  "negative_proof_checked": false,
+  "positive_complete": false
+}

@@ -1,0 +1,70 @@
+{
+  "session": "S020",
+  "date": "2026-10-15",
+  "entry_main": "3963448ed561b6287621b562991479a0f2b88220",
+  "entry_tree": "cc93d3eda51d7e5ca49fe9650bdbc2bd9a2f2d33",
+  "session_branch": "session/S020-original148-embedding-local-euler",
+  "owner_invocation": "Run next session",
+  "science": {
+    "wip_branch": "wip/S020-row148-embedding-euler",
+    "wip_source_commit": "39ebabdb7bed33143cb3b456edbb7bfa60a6ae01",
+    "wip_evidence_commit": "8f5615e7456a1b997a6a39306ecfaf9a82aae4d3",
+    "github_actions_run": 38752619733,
+    "github_actions_job": 116482649871,
+    "job_conclusion": "success",
+    "artifact_id": 11982567740,
+    "artifact_zip_sha256": "85cdd55680fd8a78403d1fa844d3bb3f2f75c0626ae564cedf7e6c043ccee453",
+    "smoke": "PASS_271_CNF_DRAT_AND_K9_OLD_FRESH",
+    "native_sha256": {
+      "cadical": "321d247053ce8bb7bba3ad5fa7a2c20ef7a92384917ee430e5862ee69bf0cec9",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    }
+  },
+  "original_graph": 148,
+  "edgefile_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "positive": {
+    "best_missing": 6,
+    "cap_seconds": 220,
+    "elapsed_seconds": 220.15,
+    "initial_missing": 6,
+    "method": "kuratowski_guided_reversible_face_insertion",
+    "node_cap": 100000,
+    "nodes": 3605,
+    "nonplanar_insertion_tests": 3617,
+    "obstruction_branches": 2349,
+    "repeated_states": 2331,
+    "status": "CAPPED_STILL_UNKNOWN",
+    "switch_budget": 7
+  },
+  "exact": {
+    "cap_seconds": 530,
+    "checkpoint_source": "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/validation/S019/row148_lemmas.json.gz",
+    "elapsed_seconds": 531.28,
+    "iterations": 294,
+    "lemmas": 67862,
+    "limit": 32,
+    "loaded_lemmas": 54697,
+    "mode": "NO_SYMMETRY_GLOBAL_AND_INDUCED_EULER",
+    "seed": 18148,
+    "status": "CAPPED_STILL_UNKNOWN"
+  },
+  "local_euler": {
+    "active_dense_subsets": 2033,
+    "candidate_subsets": 3824,
+    "encoded": 100,
+    "negative_encoding_sound": "necessary local Euler + independent existential sequential counters",
+    "new_aux_variables": 14580,
+    "new_clauses": 28972
+  },
+  "original52_certified_negative": 52,
+  "original219_unknown": 219,
+  "session_capped": [
+    148
+  ],
+  "session_other_not_run": 218,
+  "peak_rss_mib": 386,
+  "positive_complete": false,
+  "negative_proof_checked": false,
+  "s021_next": "FUTURE_UNEXECUTED",
+  "outgoing_pr_merge": "VERIFY_FROM_LIVE_AFTER_COMMIT"
+}
