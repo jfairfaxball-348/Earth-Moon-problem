@@ -45,3 +45,8 @@ S017 (2026-10-15): D043 same-job full 271 non9 chromatic DRAT/CNF+old/fresh K9 P
 
 
 S018 (2026-10-15): One active exact original row148 with SAME-JOB full cold 271 original non9 DRAT/CNF and K9 retained/fresh smoke PASS on run38721673690. Constructive adaptive LNS 13459 attempts/330s improved best partial to6 original edges unplaced (versus historical10), not a witness; new symmetry-free exact CEGAR 550 iterations/19480 sound cuts/610s capped UNKNOWN, no validated native negative proof. Original52 certified NONBIPLANAR and219 biplanarity UNKNOWN; phase1 χ₂≥10 headline gate NOT PASSED, classical 9≤χ₂≤12 unchanged. S019 resumes row148 and tests the exact two-triangulation q+r=7 reformulation; novelty, Lean, Palomar, paper, arXiv and correspondence gates unchanged.
+
+
+### S019 (2026-10-15) — row148 resumed Euler CNF; STILL UNKNOWN
+
+One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e1712; [run38745900565](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38745900565), job116459344837, full fresh 271+K9 native smoke PASS. Constructive 13306 tries/330s, best six missing unchanged. Nolex exact CEGAR with independently verified S018 19480 cuts and NEW necessary Euler62..69 sequential-counter clauses:812 iterations,54697 validated total cuts, 720s cap UNKNOWN. All219 original unknown and inherited52 certified nonbiplanar unchanged; χ₂ classical9..12. No novel headline. Next S020 queued, not run.

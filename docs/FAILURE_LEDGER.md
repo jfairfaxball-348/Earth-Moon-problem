@@ -82,3 +82,6 @@ S001 performed no research. Absence of a found example never proves universal no
 
 
 | F061 (S018) | Serial row148 with 330s LNS and 610s symmetry-free no-cardinality Kuratowski-CEGAR will necessarily produce a complete exact planar split or full negative proof | 13459 constructive attempts improved historical 10 to six *unplaced* original edges, not zero; CEGAR 550 iterations/19480 sound cuts capped BIPLANARITY_UNKNOWN, no UNSAT/DRAT. Same-job 271 original smoke pass, parent maxRSS91.6MiB, no memory pressure. | Preserve two independent permanent checkpoints, continue row148 in S019; pursue qualitatively stronger exact planar embedding/triangulation cover with q+r=7, audit complete encoding and full proof before any classification. Original219 UNKNOWN and χ₂9..12. |
+
+
+S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinality string despite two valid Euler sequential-counter at-most encodings. Correct source `tools/s019_row148_density.py` and separately emitted `exact_cardinality` establish actual formula. No certification depends on that stale string.

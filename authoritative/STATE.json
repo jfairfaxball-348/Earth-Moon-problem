@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S018",
-  "recommended_next_session": "S019",
+  "last_completed_session": "S019",
+  "recommended_next_session": "S020",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S018_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S019_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S018 CAM0020 same-job smoke PASS on original row148 n25,m131, NEW constructive best 6 original edges unplaced (S016 prior10), 13459 LNS attempts/330s; exact no-lex/no-cardinality CEGAR 550 iterations and19480 sound cuts/610s capped UNKNOWN. One original row active. Cumulative original52 CERTIFIED_NONBIPLANAR plus219 UNKNOWN unchanged; chi2 classical9..12 unchanged.",
+  "candidate_10_11_12": "S019 CAM0021 same-job fresh smoke 271/271 CNF+DRAT and K9 PASS on original148; expanded constructive 13306 trials/330.02s best SIX unplaced, still UNKNOWN; nolex original density-cardinality CEGAR resumed19480 verified obstructions to54697 in812 iterations/720.54s, capped UNKNOWN; 52 certified nonbiplanar original+219 UNKNOWN unchanged; classical chi2 range9..12.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,8 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S018 S019 priority: row148 has new 6-unplaced partial E1=62,E2=63, six residual original edges (0,1),(0,10),(5,7),(12,16),(17,24),(21,23). One ≤12GiB worker; S018 nolex CEGAR550 iterations/19480 cuts but row still UNKNOWN. Replay permanent validation/S018/ original edge SHA and partial/Kuratowski gzip before S019, attempt qualitatively new seven-defect triangulation-cover embedding and independently certified exhaustive negative or full positive; keep original219 only, no new family pivot.",
-    "D054 owner instruction (governance only): S018 serial one active original graph at a time, start row148; one≤12GiB worker, full same-job smoke. Seek complete independently certified planar two-layer split or checked exhaustive proof; if cap/plateau then fix SAT/embedding solver and persist/resume SAME original row, never silently pivot from canonical219. No S018 science has run by this correction.",
+    "S020 must continue same original row148 unless actual accepted source-certified positive/negative changes priority. S019 resumed six-unplaced partial, 54697 sound original Kuratowski cuts, original Euler 62..69 sequential-counter base 17098 clauses/8687 CNF vars; no complete positive or checked negative, no transfer or wider search. Need genuinely new seven-defect triangulation-cover/rotation embedding approach or local Euler cuts plus bounded proof-checked negative, same-job cold smoke.",
     "S017 density CEGAR 5 original rows capped UNKNOWN; robust projected counter audit m<=5 passed1022 but full lex symmetry projected small-graph audit and independently checked full UNSAT proof still missing. Constructive row148 best new15 missing worse than S016 historical10; 214 other originals not run anew. S018 must retain D051 canonical219 until certified original split or validated negative proofs, no autonomous pivot.",
     "S016 finished: four capped CEGAR original rows156,3,9,173; 11 positive searches including new row148 10-unplaced; zero complete split/negative proof. ALL219 still unresolved. S017 MUST retain owner D051 original pool, implement density-balanced exact CNF (CLM0081) with checked encoding and independently certified DRAT if UNSAT, rotation/backtracking positive algorithm, prioritize row148 and 156/3/9/173; no autonomous pivot.",
     "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
