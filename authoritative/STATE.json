@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "D051 OWNER PRIORITY: next S015 MUST pursue all 219 original fixed exact10-chromatic biplanarity-UNKNOWN graphs. GitHub Actions D044 is approved/prior proven and is the REQUIRED fallback when local checked-out hook absent; S011 CAM0012 438 greedy trials/25 repairs was NOT exhaustive (closest row156 still11 missing). All unknowns retained until certified or explicitly owner-pivoted. No S015 run occurred in D051.",
     "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
     "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
     "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 r6 closed, S014 edge-altered cores/r7/stronger planar pair.",
@@ -435,5 +436,17 @@
     "main_hosted_run": 38641064088,
     "protection": "UNKNOWN_403",
     "rulesets": []
+  },
+  "next_session_priority": "D051_S015_REEXAMINE_ALL_219_VIA_GITHUB_ACTIONS_BEFORE_NEW_CONSTRUCTIONS",
+  "s015_owner_directive": {
+    "decision": "D051",
+    "date": "2026-10-15",
+    "kind": "GOVERNANCE_REWRITE_NOT_SESSION",
+    "target": "All219 original χ10 biplanarity UNKNOWN first",
+    "canonical_list": "validation/S010/SUMMARY.json:remaining_unknown_indices",
+    "runner": "GitHub Actions ubuntu-24.04 WIP allowed as verified D044 fallback",
+    "new_scientific_jobs_executed": 0,
+    "semantics": "219 biplanarity UNKNOWN; finite heuristic attempt does not prove NONBIPLANAR",
+    "priority": "S015 direct original 219 before novel construction unless owner changes focus"
   }
 }
