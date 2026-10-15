@@ -1,0 +1,65 @@
+name: S018 serial row148 exact science (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S018-serial-row148]
+    paths:
+      - 'tools/s018_*.py'
+      - '.github/workflows/s018-serial-row148.yml'
+      - 'campaigns/CAM-0020.md'
+permissions:
+  contents: write
+jobs:
+  row148-serial:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Register and syntax-check single original row
+        run: |
+          test -f campaigns/CAM-0020.md
+          python -m py_compile tools/s018_serial_148.py
+          sha256sum tools/s018_serial_148.py campaigns/CAM-0020.md .github/workflows/s018-serial-row148.yml
+      - name: Pinned native toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Same-job complete native original271 and K9 smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0020 ONE graph 148, one 12GiB worker
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=20s 1080s .venv/bin/python -u tools/s018_serial_148.py
+      - name: Persist resumable evidence on NEVER MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S018-WIP
+          cp artifacts/tmp/S018/result.json validation/S018-WIP/result.json || true
+          cp artifacts/tmp/S018/row148_best_partial.json validation/S018-WIP/row148_best_partial.json || true
+          cp artifacts/tmp/S018/row148_lemmas.json.gz validation/S018-WIP/row148_lemmas.json.gz || true
+          cp artifacts/tmp/S018/row148.split.json validation/S018-WIP/row148.split.json || true
+          cp artifacts/tmp/S018/row148_native.drat.gz validation/S018-WIP/row148_native.drat.gz || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S018-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S018-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S018-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S018 row148 checkpoints and native evidence (never merge)'
+            git push origin HEAD:wip/S018-serial-row148
+          fi
+      - name: Upload all science evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S018-CAM0020-row148-evidence
+          retention-days: 60
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/S018/*.json
+            artifacts/tmp/S018/*.gz
+            artifacts/tmp/S018/*.edges
