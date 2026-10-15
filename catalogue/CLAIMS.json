@@ -679,5 +679,32 @@
     "status": "COMPUTED_EXACT",
     "sources": [],
     "notes": "validation/S013/layer_pair_control.json and run38639416513 same-job full 271 DRAT smoke, native hashes. 48 multi-edge partial placements incomplete and never designated impossible."
+  },
+  {
+    "id": "CLM-0078",
+    "claim": "Sulanke H=K6 join C5 is edge-critical with chi(H)=9 and chi(H-e)<=8 for each of its 50 edges, by three S6 x D5 edge orbits.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Self-contained analytic colourings in research/S014_CONSTRUCTION.md; does not transfer chromatic non9 to altered candidate completions."
+  },
+  {
+    "id": "CLM-0079",
+    "claim": "Every biplanar 18-vertex graph containing H=K6 join C5 as a subgraph and with the seven new vertices inducing K7 or K7-e has chromatic number exactly9.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Proof by S013 deletion-to17 degree condition, Euler and Hall for nine-colour lists (all proper subsets), singleton C5 colourings, K9 obstruction; research/S014_CONSTRUCTION.md. No bound for arbitrary18-vertex graphs."
+  },
+  {
+    "id": "CLM-0080",
+    "claim": "Any hypothetical biplanar >=10-chromatic 18-vertex H-anchored graph has its seven new vertices K7 minus 2..4 edges and cross-degrees c_i=3+m_i+delta_i with nonnegative integers summing delta<=4-m. Exactly7525 labelled internal missing-edge patterns before old-incidence assignments.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Necessary constraints only; 7525 exact binomial expression, no scientific enumeration or layer certificate. No full18-vertex exclusion."
   }
 ]

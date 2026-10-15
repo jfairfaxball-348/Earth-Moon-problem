@@ -39,3 +39,7 @@ S012 closed exactly all **194,896** single old-edge/old-nonedge swaps of S011's 
 ## S013 complete (2026-10-14)
 
 S013 CLM0074-76 prove any biplanar graph on <=17 vertices containing Sulanke H=K6 vee C5 as a SUBGRAPH has chi=9: r6 new K6-e always extends an old H 9-colouring by Hall, K6 either extends or contains forbidden K9, extra old C5 chords also force K9. This closes H-anchored <=6 extensions only, not all small-order graphs. CAM0016 Actions run38639416513 same-job full 271/271 cold checks PASS;48 multi-edge partial placements min12 unplaced,80 independently checked actual planar-pair controls best17v90e proper8. 52 excluded/219 UNKNOWN source rows and classical9..12 unchanged. Read research/S013_CONSTRUCTION.md, validation/S013/SUMMARY.json; S014 is future and executes upon supplied owner prompt (D047).
+
+## S014 complete (2026-10-15; analytic-only)
+
+CLM0078: edge-critical H; CLM0079: on 18v retained H plus7, new-side K7/K7-e are nine-colourable if biplanar by new Hall/K9 analysis; CLM0080: m=2,3,4, Σδ<=4-m, 7525 labelled internal missing patterns, not enumerated. SRC0037 Szeider arXiv:2609.28102: alpha<=2 theorem statement inspected. No new computational smoke, numerical jobs, chi10 witness, planarity split, non9 cert, novelty clearance; fixed271=52/219 unknown, 9..12 unchanged. See research/S014_CONSTRUCTION.md and validation/S014/SUMMARY.json. Queued S015 is executed only upon next owner invocation, and submitting that prompt suffices (D047).

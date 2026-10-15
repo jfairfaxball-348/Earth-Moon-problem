@@ -23,3 +23,5 @@
 | D047 | 2026-10-14 | Owner changes execution authority | Sending a session prompt itself authorises that session; removes redundant second-invocation gate, preserves historical evidence/D042 | ACTIVE |
 
 | S013 | 2026-10-14 | Close six-vertex Sulanke anchored candidates via Hall/K9; execute multi-edge and actual-planar-pair constructions | CLM0074/75/76 exclude H-containing chi10 biplanar order<=17, not all17; CAM0016 48 incomplete edits,80 actual planar pairs best17v90e proper8, full cold smoke PASS;52 NONBIPLANAR/219 UNKNOWN;9..12 unchanged | MATHEMATICS COMPLETE; outgoing integration verify LIVE |
+
+| S014 | 2026-10-15 | H-edge alteration / retained H r7 / layer-first construction | Analytic CLM0078 H edge-critical; CLM0079 K7/K7-e 18v H-containing exclusions via Hall/K9; CLM0080 m2..4 remaining 7525 labelled internal patterns NOT enumerated. No numerical jobs/smoke, no chi10; 52 NONBIPLANAR,219 UNKNOWN,9..12 unchanged | ANALYTIC SESSION COMPLETE; integration independently verify LIVE |

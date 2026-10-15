@@ -1,0 +1,53 @@
+{
+  "session": "S014",
+  "date": "2026-10-15",
+  "entry_main": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+  "entry_tree": "08fa38266c6e0b90291d00e1f673b755bedc06fd",
+  "headline_advance": false,
+  "classical_range": {
+    "lower": 9,
+    "upper": 12
+  },
+  "claims": [
+    "CLM-0078",
+    "CLM-0079",
+    "CLM-0080"
+  ],
+  "source_new": "SRC-0037_STATEMENT_INSPECTED",
+  "original_candidate_pool": {
+    "total": 271,
+    "nonbiplanar_checked": 52,
+    "biplanarity_unknown": 219
+  },
+  "retained_H_r7": {
+    "n": 18,
+    "old_H_vertices": 11,
+    "old_H_edges": 50,
+    "new_vertices": 7,
+    "new_side_K7_or_K7_minus_one_edge": "ANALYTICALLY_CLOSED_CHI9_IF_BIPLANAR",
+    "remaining_missing_edges": [
+      2,
+      3,
+      4
+    ],
+    "labelled_internal_missing_edge_patterns": 7525,
+    "deficit_inequality": "sum(delta_i)<=4-m",
+    "cross_assignments_exhausted": false,
+    "planarity_embeddings_exhausted": false
+  },
+  "modified_H": {
+    "one_old_edge_deleted": "EIGHT_COLOURABLE_CORE_ONLY",
+    "new_exact_chi10_candidate": false
+  },
+  "layer_first": {
+    "executed": false,
+    "new_layer_pair": false
+  },
+  "cloud_smoke": {
+    "executed": false,
+    "reason": "NO_LOCAL_REPO_HOOK_PINNED_VENV; NO_SCIENTIFIC_COMPUTATION_RUN",
+    "previous_s013_pass_not_reused": true
+  },
+  "certificate": "NONE_NO_CHI10_GRAPH",
+  "next": "S015_FUTURE_UNEXECUTED"
+}
