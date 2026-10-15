@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S016",
-  "recommended_next_session": "S017",
+  "last_completed_session": "S017",
+  "recommended_next_session": "S018",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S016_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S017_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S016 CAM0018 GitHub Actions full new smoke PASS; CEGAR original rows156,3,9,173 capped UNKNOWN (139/88/87/91 iterations, 70424/47625/47159/47050 lemmas); 11 new-seed positive rows, best original row148 missing10 (improved from S015 12); no full split/no independently checked negative; historical 52 NONBIPLANAR/219 BIPLANARITY_UNKNOWN unchanged.",
+  "candidate_10_11_12": "S017 CAM0019 successful same-job smoke, 1022 sequential card projected SAT checks PASS; 5 density-balanced exact CEGAR originals [3,9,148,156,173] capped UNKNOWN, zero exact splits/negative DRAT; 5 positive repair experiments incomplete, new best row148 misses15 vs S016 historical10. Original52 NONBIPLANAR/219 UNKNOWN unchanged.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S017 density CEGAR 5 original rows capped UNKNOWN; robust projected counter audit m<=5 passed1022 but full lex symmetry projected small-graph audit and independently checked full UNSAT proof still missing. Constructive row148 best new15 missing worse than S016 historical10; 214 other originals not run anew. S018 must retain D051 canonical219 until certified original split or validated negative proofs, no autonomous pivot.",
     "S016 finished: four capped CEGAR original rows156,3,9,173; 11 positive searches including new row148 10-unplaced; zero complete split/negative proof. ALL219 still unresolved. S017 MUST retain owner D051 original pool, implement density-balanced exact CNF (CLM0081) with checked encoding and independently certified DRAT if UNSAT, rotation/backtracking positive algorithm, prioritize row148 and 156/3/9/173; no autonomous pivot.",
     "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
     "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
@@ -98,9 +99,9 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S016-original-proof-escalation",
-  "latest_session_entry_main": "8fb06d6f1cc5f32db19ef23784578ccc0d1df916",
-  "latest_session_integration": "PREMERGE_S016_ONE_AUTHORED_COMMIT_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
+  "latest_session_branch": "session/S017-density-originals",
+  "latest_session_entry_main": "82d8caef26194cd2947d65c49154ce87077ad6d3",
+  "latest_session_integration": "PREMERGE_S017_SINGLE_AUTHORED_COMMIT_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -438,7 +439,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "D051_S016_CONTINUE_RIGOROUS_ORIGINAL_219_UNKNOWNS_NO_UNAUTHORISED_PIVOT",
+  "next_session_priority": "D051_S018_ORIGINAL_219_EXACT_ENCODING_LEX_AUDIT_AND_EMBEDDING_SEARCH_NO_PIVOT",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -503,5 +504,27 @@
       "NOT_RUN": 208
     },
     "original_219_final": "UNCHANGED_BIPLANARITY_UNKNOWN"
+  },
+  "s017_science": {
+    "runner": 38714806390,
+    "job": 116354787665,
+    "verdict": "NO_NEW_CERTIFIED_BIPLANAR_WITNESS_OR_NONBIPLANAR",
+    "encoder_projected_truth_tests": 1022,
+    "exact_capped": 5,
+    "constructive_attempted": 5,
+    "complete_splits": 0,
+    "negative_certificates": 0,
+    "partition_counts": {
+      "CAPPED": 5,
+      "NOT_RUN": 214
+    },
+    "artifact_id": 11962912465,
+    "artifact_digest": "sha256:8ec1024c7d3f83cb61bc4c194ceb46dfc5a0724f58407d7d11acb0147136bacb",
+    "native_sha256": {
+      "cadical": "5c706ac1a330637c5d6ea589b88cde8d599d2be68a80589ce4e91f7f2c341dff",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "failed_first_run": 38714736346,
+    "permanent_evidence": "validation/S017"
   }
 }

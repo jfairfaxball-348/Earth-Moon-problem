@@ -1,0 +1,15 @@
+# S017 RESEARCH — original-edge density and embedding-aware search
+
+## Exact elementary constraint (CLM-0081 reused; no novelty)
+
+For each n-vertex simple planar layer, Euler gives |E_i|≤3n−6. For fixed exact edge partition |E1|+|E2|=m, each layer necessarily satisfies max(0,m−3n+6)≤|E_i|≤min(m,3n−6). S017 imposes both endpoints of this interval on the E1 truth variables; complement E2 then automatically obeys the same interval. It is NOT a sufficient planarity criterion and not a new theorem. S017 counters begin AFTER the preexisting CEGAR lex prefix variable maximum; the actual original row156 encoding uses 16,360 new clauses/8,184 fresh variables, row3/9 18,126/9,072, row173 17,654/8,832 and row148 17,098/8,556. Fresh-process sequential counters avoid historical global CardEnc monkeypatch F045.
+
+The corrected GitHub run's projected satisfiability truth table compared arithmetic low≤sum(bits)≤high with existential projected SAT under every choice m=1..5 and all cardinality ranges, passing **1022** individual cases. This is finite testing of the encoder and does not itself prove the full CNF's graph-equivalence, nor correctness of CEGAR symmetry clauses.
+
+## Actual bounded results
+
+Corrected hosted science https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38714806390 job116354787665 FULL same-job smoke PASS (271 original CNF/DRAT and retained+fresh K9). Exact original-edge density CEGAR: row156: UNKNOWN/CAPPED, 70 iterations, 38771 cuts, 81.28s; row3: UNKNOWN/CAPPED, 58 iterations, 32858 cuts, 70.67s; row9: UNKNOWN/CAPPED, 57 iterations, 33548 cuts, 71.58s; row173: UNKNOWN/CAPPED, 59 iterations, 33033 cuts, 71.23s; row148: UNKNOWN/CAPPED, 61 iterations, 33348 cuts, 70.77s. No SAT complete planar split, no independently certified UNSAT negative. Bounded recursion positive lane: row148: 15 unplaced (171 states); row156: 21 unplaced (135 states); row3: 20 unplaced (121 states); row9: 16 unplaced (112 states); row173: 20 unplaced (116 states). Actual recursion stopped mostly after mode0, not all three modes; no complete original edge partition. In particular S017 row148 best15 missing is WORSE than preserved S016 best10, and carries no positive implication. New S017-specific partition CAPPED [3,9,148,156,173], NOT_RUN other214; zero CERTIFIED positives or negatives. The historical 52/219 overall remains untouched; proved 9≤χ₂≤12, target ≥10 still OPEN.
+
+## Source and reproduction
+
+Permanent runner raw per-row exact result, partial layer E1/E2/unplaced, smoke record and Linux environment copied into validation/S017. Full 219-ID exact partition in validation/S017/SUMMARY.json. Source hashes and native binary SHA256 are runner-generated, no assumption Linux bytes equal prior Windows builds. The first WIP run38714736346 passed smoke but failed before mathematical search due to tautological counter nv handling; corrected WIP source5eff358 has real successful run. Original non9 proof replay does not entail biplanarity; no 10-colouring alone is a lower-bound proof.

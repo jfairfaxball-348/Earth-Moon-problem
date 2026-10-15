@@ -1,0 +1,53 @@
+{
+  "session": "S017",
+  "branch": "session/S017-density-originals",
+  "owner_invocation": "run the next session",
+  "entry_main": "82d8caef26194cd2947d65c49154ce87077ad6d3",
+  "entry_tree": "ec031c700dd459867772664699dabcb1b4506e72",
+  "s016_authored": "c65f8b89ab4b4eb20ac5ed0ee9eaa6b4a4b1e3fa",
+  "s016_pr": 20,
+  "s016_merge": "82d8caef26194cd2947d65c49154ce87077ad6d3",
+  "s016_merge_parents": [
+    "8fb06d6f1cc5f32db19ef23784578ccc0d1df916",
+    "c65f8b89ab4b4eb20ac5ed0ee9eaa6b4a4b1e3fa"
+  ],
+  "s016_head_scaffold_run": 38711603855,
+  "s016_main_scaffold_run": 38711673174,
+  "open_pr_entry": 0,
+  "rulesets": [],
+  "main_protected_flag": false,
+  "scaffold_not_science": true,
+  "failed_wip_run": 38714736346,
+  "failed_wip_job": 116354547899,
+  "science_run": 38714806390,
+  "science_job": 116354787665,
+  "science_steps": "ALL_SUCCESS_FULL_COLD_SMOKE_AND_CAM0019",
+  "native_sha256": {
+    "cadical": "5c706ac1a330637c5d6ea589b88cde8d599d2be68a80589ce4e91f7f2c341dff",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "source_sha256": {
+    "tools/s017_density_cegar.py": "cd8f83a549c367c8af4817cc9de64955c2507a3e1fc8a9f698182d4ac02e4794",
+    "tools/s017_rotation_repair.py": "5a9a5648ca18fc0159b69a6dcc9d5a2a2ba22dfaed4578b0e93fea38185edf0b",
+    "tools/s017_campaign.py": "8c30710a3af44500236fd1a85e22a917b654e8160afa4eef4107282eef51f4e5",
+    "tools/biplanar_cegar.py": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "tools/check_layers.py": "00aec59ae2c59e61c18151637d67d95ba033c9921227382f03da56df550d9313",
+    "tools/check_rotation.py": "8f56c37329e79cf563a23f8f31fefeeeb4f8c7602f3d0172fe7698368f7ff58b",
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+    "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41",
+    "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+    "campaigns/CAM-0019.md": "bd49eee02c8628b8933ed2621a451a500441473adfbbc0987cfaf50e555f52c4",
+    ".github/workflows/s017-density-originals.yml": "d6fc913c76faaa28e801777108bd8b86a88a46275b3f3d330fca64ec08d44f52"
+  },
+  "raw_evidence": "validation/S017/REMOTE_RESULT.json",
+  "runner_preserved_wip_commit": "30099ef4a53940ccd4e9c9bd4f20021612e70a86",
+  "artifact_id": 11962912465,
+  "artifact_digest": "sha256:8ec1024c7d3f83cb61bc4c194ceb46dfc5a0724f58407d7d11acb0147136bacb",
+  "truth_table_tests": 1022,
+  "partition_counts": {
+    "CAPPED": 5,
+    "NOT_RUN": 214
+  },
+  "main_outgoing_integration": "VERIFY_LIVE_AFTER_MERGE",
+  "next_prompt": "S018_FUTURE_UNEXECUTED"
+}
