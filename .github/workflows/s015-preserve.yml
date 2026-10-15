@@ -1,0 +1,60 @@
+name: S015 extract scientific evidence (never merge WIP)
+on:
+  push:
+    branches: [wip/S015-preserve-run]
+permissions:
+  actions: read
+  contents: write
+jobs:
+  preserve-s015-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Await S015 scientific run and extract evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          run=38706865680
+          for k in $(seq 1 108); do
+            status="$(gh run view "$run" --repo "$GITHUB_REPOSITORY" --json status --jq .status)"
+            echo "S015 $run attempt $k status=$status"
+            if [ "$status" = "completed" ]; then break; fi
+            sleep 15
+          done
+          test "$(gh run view "$run" --repo "$GITHUB_REPOSITORY" --json status --jq .status)" = completed
+          mkdir -p artifacts/tmp/s015-download validation/S015
+          gh run download "$run" --repo "$GITHUB_REPOSITORY" -n S015-CAM0017-219 -D artifacts/tmp/s015-download
+          find artifacts/tmp/s015-download -type f | sort
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          src=Path("artifacts/tmp/s015-download")
+          dst=Path("validation/S015")
+          files={}
+          targets={"search_result.json":"REMOTE_SEARCH_RESULT.json",
+                   "RESULT.json":"REMOTE_COLD_SMOKE.json",
+                   "ENVIRONMENT.json":"REMOTE_ENVIRONMENT.json",
+                   "row156_cegar.log":"ROW156_CEGAR.log",
+                   "row156.edges":"ROW156.edges",
+                   "row156_cegar.split.json":"ROW156_SPLIT.json",
+                   "provisional_split.json":"PROVISIONAL_SPLIT.json"}
+          for p in sorted(src.rglob("*")):
+            if p.is_file() and p.name in targets and not (dst/targets[p.name]).exists():
+              data=p.read_bytes()
+              (dst/targets[p.name]).write_bytes(data)
+              files[targets[p.name]]={"sha256":hashlib.sha256(data).hexdigest(),"size":len(data)}
+          summary={"source_workflow_run":38706865680, "source_workflow_branch":"wip/S015-219-recheck",
+                   "files":files,"status":"RAW_ACTIONS_RESULT_NOT_AN_INDEPENDENT_CERTIFICATE"}
+          (dst/"REMOTE_MANIFEST.json").write_text(json.dumps(summary,indent=2))
+          print(json.dumps(summary,indent=2))
+          PY
+      - name: Preserve compact outputs to this unmerged WIP branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add validation/S015
+          git commit -m "S015: archive run 38706865680 compact raw results [skip ci]"
+          git push origin HEAD:wip/S015-preserve-run

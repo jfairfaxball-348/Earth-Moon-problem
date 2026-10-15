@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S014",
-  "recommended_next_session": "S015",
+  "last_completed_session": "S015",
+  "recommended_next_session": "S016",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S014_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S015_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S014 CLM0079 closes H-containing 18v biplanar chi10 with new-side K7/K7-e; m2..4 and 7525 labelled missing-edge patterns remain unenumerated. Original271 fixed exactchi10 candidates:52 independently NONBIPLANAR,219 UNKNOWN. S014 no numerical jobs (no local pinned smoke).",
+  "candidate_10_11_12": "S015 CAM0017 all original219 biplanarity-UNKNOWN original χ10 graphs received 3 fresh heuristic attempts each (657), plus 20 two-edge ejection depth and independent row156 Kuratowski CEGAR: UNKNOWN after196 iterations,31959 lemmas. Zero complete split and zero new negative certificates. Original271=52 NONBIPLANAR,219 UNKNOWN. New closest partial rows3,9,173 at11 missing; S011 historical row156 also11 missing (S015 row156 best16).",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "D051 OWNER PRIORITY: next S015 MUST pursue all 219 original fixed exact10-chromatic biplanarity-UNKNOWN graphs. GitHub Actions D044 is approved/prior proven and is the REQUIRED fallback when local checked-out hook absent; S011 CAM0012 438 greedy trials/25 repairs was NOT exhaustive (closest row156 still11 missing). All unknowns retained until certified or explicitly owner-pivoted. No S015 run occurred in D051.",
+    "S015 CAM0017 completed 657 new heuristic attempts across all219 originals; 20 Kuratowski double-ejection depth; exact row156 UNKNOWN after196 iterations/31959 lemmas; original all219 still UNKNOWN. S016 must directly escalate proof-producing exact original graph split checking, prioritise source rows3,9,173 and inherited row156; preserve all statuses, no pivot unless owner directs.",
     "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
     "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
     "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 r6 closed, S014 edge-altered cores/r7/stronger planar pair.",
@@ -98,8 +98,8 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S014-seven-vertex-hall-closure",
-  "latest_session_entry_main": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+  "latest_session_branch": "session/S015-219-recheck",
+  "latest_session_entry_main": "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
   "latest_session_integration": "PREMERGE_RECORD_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
   "mathematical_results": [
     "CLM-0007",
@@ -437,7 +437,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "D051_S015_REEXAMINE_ALL_219_VIA_GITHUB_ACTIONS_BEFORE_NEW_CONSTRUCTIONS",
+  "next_session_priority": "D051_S016_CONTINUE_RIGOROUS_ORIGINAL_219_UNKNOWNS_NO_UNAUTHORISED_PIVOT",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -448,5 +448,27 @@
     "new_scientific_jobs_executed": 0,
     "semantics": "219 biplanarity UNKNOWN; finite heuristic attempt does not prove NONBIPLANAR",
     "priority": "S015 direct original 219 before novel construction unless owner changes focus"
+  },
+  "s015_result": {
+    "run_id": 38706865680,
+    "job_id": 116328316864,
+    "artifact_id": 11958434315,
+    "artifact_digest": "sha256:1354b172f87252f538e9b8c8321fbe8ac8ec54c276b5f375258e15f39824fcad",
+    "preservation_run_id": 38707183210,
+    "preservation_job_id": 116329378020,
+    "preservation_commit": "86a747c12497014739cce236581153e0e16e31e0",
+    "science_wip_commit": "ef2b73f83d872b740088b4d18302ac3d3c358d16",
+    "all_219_breadth": true,
+    "trials": 657,
+    "depth_rows": 20,
+    "positive_splits": 0,
+    "new_exclusions": 0,
+    "exact_row156_verdict": "UNKNOWN",
+    "exact_row156_iterations": 196,
+    "exact_row156_lemmas": 31959,
+    "remaining_219_unknown": true,
+    "same_job_smoke": "PASS_271_271_K9_RETAINED_AND_FRESH",
+    "artifact_compact_copy": "validation/S015/REMOTE_SEARCH_RESULT.json",
+    "next_s016_authority": "D047_PROMPT_INVOCATION"
   }
 }

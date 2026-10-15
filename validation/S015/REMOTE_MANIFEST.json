@@ -1,0 +1,27 @@
+{
+  "source_workflow_run": 38706865680,
+  "source_workflow_branch": "wip/S015-219-recheck",
+  "files": {
+    "ROW156.edges": {
+      "sha256": "871fd7a6b3e921f1be671fa337101df74a559103b6c2fd694e4b826c103e7a5e",
+      "size": 658
+    },
+    "ROW156_CEGAR.log": {
+      "sha256": "b07982036062228d401d12fe553cbc2e18483189a259c89c75ddcb9272f9a16b",
+      "size": 77
+    },
+    "REMOTE_SEARCH_RESULT.json": {
+      "sha256": "24eecf8119a096ce187fa2aed634960a935309ee0a549fabad4ee6069107d191",
+      "size": 84114
+    },
+    "REMOTE_COLD_SMOKE.json": {
+      "sha256": "ae6f30f6b8e40d7e2c35244ee3fc2bad6e85ea4b35cdf01b58f24e0ce655dc89",
+      "size": 35302
+    },
+    "REMOTE_ENVIRONMENT.json": {
+      "sha256": "df84d53470677b321f645814379b8c1e5969d9f0fb46ff3454cc2cebbc4fa8bd",
+      "size": 794
+    }
+  },
+  "status": "RAW_ACTIONS_RESULT_NOT_AN_INDEPENDENT_CERTIFICATE"
+}
