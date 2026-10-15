@@ -1,0 +1,64 @@
+name: S019 row148 original resumed density-CNF (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S019-row148-resume-density]
+    paths:
+      - 'tools/s019_row148_density.py'
+      - '.github/workflows/s019-row148-density.yml'
+      - 'campaigns/CAM-0021.md'
+permissions:
+  contents: write
+jobs:
+  one-original-row148:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 33
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preregister source and preserve source hashes
+        run: |
+          python -m py_compile tools/s019_row148_density.py
+          sha256sum tools/s019_row148_density.py campaigns/CAM-0021.md .github/workflows/s019-row148-density.yml validation/S018/row148_best_partial.json validation/S018/row148_lemmas.json.gz
+      - name: Pinned environment build
+        run: bash scripts/cloud_setup.sh
+      - name: NEW full original 271 and K9 proof smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: ONE original row148 at most 12GiB - saved cuts and Euler density
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=30s 1350s .venv/bin/python -u tools/s019_row148_density.py
+      - name: Persist true science evidence on NEVER-MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S019-WIP
+          cp artifacts/tmp/S019/result.json validation/S019-WIP/result.json || true
+          cp artifacts/tmp/S019/row148_best_partial.json validation/S019-WIP/row148_best_partial.json || true
+          cp artifacts/tmp/S019/row148_lemmas.json.gz validation/S019-WIP/row148_lemmas.json.gz || true
+          cp artifacts/tmp/S019/row148.split.json validation/S019-WIP/row148.split.json || true
+          cp artifacts/tmp/S019/row148_native.drat.gz validation/S019-WIP/row148_native.drat.gz || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S019-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S019-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S019-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S019 row148 exact evidence and checkpoint (never merge)'
+            git push origin HEAD:wip/S019-row148-resume-density
+          fi
+      - name: Upload scientific evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S019-CAM0021-original148
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/S019/*.json
+            artifacts/tmp/S019/*.gz
+            artifacts/tmp/S019/*.edges

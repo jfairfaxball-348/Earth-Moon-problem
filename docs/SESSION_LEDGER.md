@@ -36,3 +36,8 @@
 
 
 | S018 | 2026-10-15 | D054 ONE original row148, one 12GiB worker, same-job 271 original cold smoke; LNS and nolex CEGAR | New independently partial-checked best SIX unplaced vs historical TEN; 13459 LNS attempts/330s; 550 CEGAR iterations/19480 sound cuts/610s CAPPED UNKNOWN, parent peak91.6MiB. Original52 certified NONBIPLANAR /219 UNKNOWN; S018 CAPPED1+NOT_RUN218; χ₂ classical9..12. Seven-defect triangulation-cover equivalence formulated (not executed). | SCIENCE COMPLETE run38721673690 job116377478891 all steps success; S019 queued original row148 only |
+
+
+### S019 (2026-10-15) — row148 resumed Euler CNF; STILL UNKNOWN
+
+One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e1712; [run38745900565](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38745900565), job116459344837, full fresh 271+K9 native smoke PASS. Constructive 13306 tries/330s, best six missing unchanged. Nolex exact CEGAR with independently verified S018 19480 cuts and NEW necessary Euler62..69 sequential-counter clauses:812 iterations,54697 validated total cuts, 720s cap UNKNOWN. All219 original unknown and inherited52 certified nonbiplanar unchanged; χ₂ classical9..12. No novel headline. Next S020 queued, not run.

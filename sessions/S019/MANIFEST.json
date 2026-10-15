@@ -1,0 +1,64 @@
+{
+  "session": "S019",
+  "as_of": "2026-10-15",
+  "branch": "session/S019-original148-density-resume",
+  "owner_invocation": "Continue and solve graph148 unless technically unable; finish up",
+  "entry_main": "6dc6e7cfd444e0442d2cbeede73559c33db185f4",
+  "entry_tree": "f02eb4174b3f6d5c022c88b30210cd59b9cb4a2e",
+  "science_branch": "wip/S019-row148-resume-density",
+  "science_source_commit": "b424d01e0539f57df09ef5713b42d948ff1e1712",
+  "science_evidence_commit": "3117dabd7ef9b263dcb7c4b6e943b629d2fdbd9b",
+  "science_run": 38745900565,
+  "science_job": 116459344837,
+  "science_job_conclusion": "SUCCESS",
+  "science_artifact_id": 11980525092,
+  "science_artifact_zip_sha256": "30f6d8286c74807581be2dd270266ffd03adfd86066813a5f119711271df800f",
+  "same_job_smoke": "PASS_271_271_CNF_DRAT_AND_K9_OLD_FRESH",
+  "source_sha256": {
+    ".github/workflows/s019-row148-density.yml": "3a99351bbcfb5e54bda6c77e9e03efded78a8f826bd853903e32bc70394ca61c",
+    "campaigns/CAM-0021.md": "c3a869e63f5b7e9575ff3a70acc55288e088b1630e5942227c50b800f0374bf5",
+    "tools/biplanar_cegar.py": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "tools/check_layers.py": "00aec59ae2c59e61c18151637d67d95ba033c9921227382f03da56df550d9313",
+    "tools/s015_recheck_219.py": "e9ea5ee9f7fdb96e749c8b4a6d7ff28c626470ef30b52760c2f26d91945ad450",
+    "tools/s019_row148_density.py": "9fe75b5f4f3d4349b6e96f89b95218285eaa1ec3e7d13fed932b99865444d45f",
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+    "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+    "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41"
+  },
+  "original_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "positive_best_unplaced": 6,
+  "positive_tries": 13306,
+  "exact_cardinality": {
+    "base_clauses": 17098,
+    "cnf_variables": 8687,
+    "layer_max": 69,
+    "layer_min": 62
+  },
+  "exact_iterations": 812,
+  "exact_loaded_lemmas": 19480,
+  "exact_lemmas": 54697,
+  "exact_elapsed_seconds": 720.54,
+  "peak_rss_mib": 250.4,
+  "positive_verified": false,
+  "negative_proof_checked": false,
+  "original52_certified_negative": 52,
+  "original219_unknown": 219,
+  "session_partition": {
+    "CAPPED": [
+      148
+    ],
+    "NOT_RUN": 218,
+    "NEW_POSITIVE_CERTIFIED": 0,
+    "NEW_NEGATIVE_CERTIFIED": 0
+  },
+  "science_data": [
+    "validation/S019/REMOTE_RESULT.json",
+    "validation/S019/REMOTE_SMOKE.json",
+    "validation/S019/ENVIRONMENT.json",
+    "validation/S019/row148_best_partial.json",
+    "validation/S019/row148_lemmas.json.gz",
+    "validation/S019/SUMMARY.json"
+  ],
+  "next_prompt": "S020_FUTURE_UNEXECUTED",
+  "outgoing_sha_and_pr": "VERIFY_AFTER_MERGE"
+}
