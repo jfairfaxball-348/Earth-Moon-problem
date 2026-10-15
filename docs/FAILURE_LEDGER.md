@@ -85,3 +85,6 @@ S001 performed no research. Absence of a found example never proves universal no
 
 
 S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinality string despite two valid Euler sequential-counter at-most encodings. Correct source `tools/s019_row148_density.py` and separately emitted `exact_cardinality` establish actual formula. No certification depends on that stale string.
+
+
+| F062 (S020) | A new 7-ejection Kuratowski-guided insertion and 100 induced-subset Euler at-most counters necessarily resolve original graph148 in one 12GiB scientific job | Same-job new 271+K9 smoke PASS; 3605 switch-search states/220s still six unplaced; 294 improved-CNF CEGAR iterations,67862 rechecked original cuts/531s capped UNKNOWN; 386MiB RSS, no native checked full negative. | Exact original graph148 BIPLANARITY_UNKNOWN. The 7-ejection budget is NOT implied by the seven-defect triangulation-cover equation. S021 improve genuinely complete embedding encoding/cross-bipartite cuts, preserve current 67862 constraints and source. |

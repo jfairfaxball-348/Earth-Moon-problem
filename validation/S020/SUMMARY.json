@@ -1,0 +1,1024 @@
+{
+  "session": "S020",
+  "as_of": "2026-10-15",
+  "original_graph": 148,
+  "n": 25,
+  "m": 131,
+  "original_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "scientific_run": 38752619733,
+  "scientific_job": 116482649871,
+  "run_conclusion": "success",
+  "same_job_smoke": "PASS 271/271 original DRAT/CNF and retained/fresh K9",
+  "science_source_commit": "39ebabdb7bed33143cb3b456edbb7bfa60a6ae01",
+  "wip_evidence_commit": "8f5615e7456a1b997a6a39306ecfaf9a82aae4d3",
+  "never_merge_wip": true,
+  "artifact_id": 11982567740,
+  "artifact_sha256": "85cdd55680fd8a78403d1fa844d3bb3f2f75c0626ae564cedf7e6c043ccee453",
+  "positive": {
+    "best_missing": 6,
+    "cap_seconds": 220,
+    "elapsed_seconds": 220.15,
+    "initial_missing": 6,
+    "method": "kuratowski_guided_reversible_face_insertion",
+    "node_cap": 100000,
+    "nodes": 3605,
+    "nonplanar_insertion_tests": 3617,
+    "obstruction_branches": 2349,
+    "repeated_states": 2331,
+    "status": "CAPPED_STILL_UNKNOWN",
+    "switch_budget": 7
+  },
+  "exact": {
+    "cap_seconds": 530,
+    "checkpoint_source": "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/validation/S019/row148_lemmas.json.gz",
+    "elapsed_seconds": 531.28,
+    "iterations": 294,
+    "lemmas": 67862,
+    "limit": 32,
+    "loaded_lemmas": 54697,
+    "mode": "NO_SYMMETRY_GLOBAL_AND_INDUCED_EULER",
+    "seed": 18148,
+    "status": "CAPPED_STILL_UNKNOWN"
+  },
+  "exact_cardinality": {
+    "base_clauses": 46070,
+    "cnf_variables": 23267,
+    "layer_max": 69,
+    "layer_min": 62
+  },
+  "local_euler": {
+    "active_dense_subsets": 2033,
+    "candidate_subsets": 3824,
+    "encoded": 100,
+    "negative_encoding_sound": "necessary local Euler + independent existential sequential counters",
+    "new_aux_variables": 14580,
+    "new_clauses": 28972
+  },
+  "source_sha256": {
+    ".github/workflows/s020-row148-embedding.yml": "8eeb8c0d31a2a30ca7a8cd58b6f9a995a4918d532ba2021010700cc012e46b71",
+    "campaigns/CAM-0022.md": "1b61c1b09a895d30bb58f97e28214e1a8087e68c447c88084e2e635808645a44",
+    "tools/biplanar_cegar.py": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "tools/check_layers.py": "00aec59ae2c59e61c18151637d67d95ba033c9921227382f03da56df550d9313",
+    "tools/s015_recheck_219.py": "e9ea5ee9f7fdb96e749c8b4a6d7ff28c626470ef30b52760c2f26d91945ad450",
+    "tools/s020_row148_embedding.py": "c371c74f21167329e1a5ca31bfc5ce5854d161a967966d012bf28cf7dc5d2c33",
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+    "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+    "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41"
+  },
+  "native_sha256": {
+    "cadical": "321d247053ce8bb7bba3ad5fa7a2c20ef7a92384917ee430e5862ee69bf0cec9",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "peak_rss_mb": 386,
+  "independent_local_euler_audit": {
+    "pass": true,
+    "records": 100
+  },
+  "full_positive_verified": false,
+  "negative_proof_checked": false,
+  "inherited_certified_negative": [
+    15,
+    17,
+    23,
+    24,
+    28,
+    29,
+    35,
+    38,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    80,
+    81,
+    82,
+    102,
+    103,
+    117,
+    120,
+    123,
+    126,
+    128,
+    130,
+    133,
+    135,
+    143,
+    154,
+    155,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    171,
+    176,
+    177,
+    179,
+    180,
+    187,
+    189,
+    190,
+    195,
+    197,
+    258,
+    260,
+    262
+  ],
+  "cumulative_original_unknown": 219,
+  "session_status": {
+    "CAPPED": [
+      148
+    ],
+    "NOT_RUN": 218,
+    "CERTIFIED_BIPLANAR_WITNESS": [],
+    "CERTIFIED_NONBIPLANAR": []
+  },
+  "indexed_original_queue": {
+    "0": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "1": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "2": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "3": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "4": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "5": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "6": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "7": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "8": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "9": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "10": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "11": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "12": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "13": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "14": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "16": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "18": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "19": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "20": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "21": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "22": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "25": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "26": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "27": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "30": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "31": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "32": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "33": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "34": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "36": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "37": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "39": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "40": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "43": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "48": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "49": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "50": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "51": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "52": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "53": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "54": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "55": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "56": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "57": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "58": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "59": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "60": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "61": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "62": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "63": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "64": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "65": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "66": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "67": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "68": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "69": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "70": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "71": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "72": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "73": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "74": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "75": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "76": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "77": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "78": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "79": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "83": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "84": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "85": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "86": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "87": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "88": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "89": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "90": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "91": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "92": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "93": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "94": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "95": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "96": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "97": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "98": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "99": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "100": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "101": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "104": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "105": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "106": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "107": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "108": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "109": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "110": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "111": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "112": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "113": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "114": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "115": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "116": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "118": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "119": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "121": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "122": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "124": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "125": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "127": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "129": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "131": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "132": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "134": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "136": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "137": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "138": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "139": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "140": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "141": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "142": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "144": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "145": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "146": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "147": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "148": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "CAPPED"
+    },
+    "149": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "150": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "151": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "152": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "153": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "156": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "166": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "167": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "168": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "169": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "170": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "172": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "173": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "174": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "175": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "178": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "181": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "182": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "183": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "184": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "185": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "186": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "188": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "191": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "192": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "193": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "194": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "196": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "198": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "199": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "200": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "201": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "202": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "203": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "204": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "205": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "206": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "207": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "208": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "209": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "210": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "211": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "212": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "213": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "214": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "215": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "216": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "217": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "218": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "219": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "220": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "221": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "222": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "223": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "224": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "225": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "226": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "227": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "228": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "229": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "230": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "231": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "232": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "233": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "234": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "235": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "236": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "237": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "238": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "239": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "240": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "241": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "242": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "243": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "244": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "245": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "246": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "247": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "248": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "249": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "250": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "251": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "252": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "253": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "254": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "255": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "256": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "257": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "259": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "261": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "263": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "264": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "265": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "266": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "267": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "268": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "269": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "270": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    }
+  },
+  "classical_chi2_bounds": [
+    9,
+    12
+  ]
+}

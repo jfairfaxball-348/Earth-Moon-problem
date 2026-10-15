@@ -41,3 +41,6 @@
 ### S019 (2026-10-15) — row148 resumed Euler CNF; STILL UNKNOWN
 
 One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e1712; [run38745900565](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38745900565), job116459344837, full fresh 271+K9 native smoke PASS. Constructive 13306 tries/330s, best six missing unchanged. Nolex exact CEGAR with independently verified S018 19480 cuts and NEW necessary Euler62..69 sequential-counter clauses:812 iterations,54697 validated total cuts, 720s cap UNKNOWN. All219 original unknown and inherited52 certified nonbiplanar unchanged; χ₂ classical9..12. No novel headline. Next S020 queued, not run.
+
+
+| S020 | 2026-10-15 | CAM0022 ONE original row148 obstruction-guided planar insertion and sound labelled induced-subset Euler counters plus resumed original CEGAR | Same-job native271+K9 smoke PASS [run 38752619733](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38752619733); insertion3605 states best6 unplaced; 100 induced U counters +28972 clauses/14580 aux; resumed54697 ->67862 sound cuts over294 iterations/531s; no full split, no native negative, 386MiB peak. Original52 NONBIPLANAR/219 UNKNOWN, χ₂9..12 unchanged. | SCIENCE COMPLETED, exact original148 UNKNOWN; S021 FUTURE |

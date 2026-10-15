@@ -1,0 +1,5 @@
+# S020 PLAN — pre-registered CAM-0022 original row148
+
+CAM-0022 preregistered on WIP branch before GitHub Actions triggered, commit 39ebabdb7bed33143cb3b456edbb7bfa60a6ae01. One ubuntu24.04 Actions job 116482649871, run 38752619733, ≤12GiB virtual memory ulimit, outer 1200s process timeout, mandatory job-local scripts/cloud_setup.sh and complete scripts/cloud_smoke.py before scientific code. Priority one original row148 only.
+
+First try a genuinely different obstruction-guided reversible insertion search from six-unplaced full-source partial with node cap100000, ejection budget7, cap220s. Second use exact original 131-edge no-lex CEGAR, global Euler62..69, up to100 independently indexed induced-subset Euler at-most counters with distinct existential auxiliaries, preload and recheck all S019 54697 original Kuratowski cuts, cap530s. Preserve full queue and source hashes. Every positive must independently pass original E1⊔E2 edge cover and planarity and same-job 271+K9 DRAT; UNSAT without a complete checked original native proof is UNKNOWN. Workflow paths and WIP checkpoints never enter session ancestry.
