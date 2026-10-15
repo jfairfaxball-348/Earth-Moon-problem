@@ -1,0 +1,28 @@
+{
+  "research_run_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38709598417",
+  "job_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38709598417/job/116337412334",
+  "artifact_id": 11959789654,
+  "artifact_digest": "sha256:9a5ffc7674affec601dc6566b35157e30e72638aa310540605c76601383d3070",
+  "wip_commit_provenance": [
+    "e8afcaeca4edd73fe1c6a9629e346d652c0e77c5",
+    "9499aaed9af6c02e096a86651ce364019df966e0"
+  ],
+  "source_sha256": {
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+    "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41",
+    "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+    "tools/blowup_graph.py": "319c30e008194145d477050fc6ef818d640399f81f720691a5f4f8f85bbecb05",
+    "tools/biplanar_cegar.py": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "tools/check_layers.py": "00aec59ae2c59e61c18151637d67d95ba033c9921227382f03da56df550d9313",
+    "tools/check_rotation.py": "8f56c37329e79cf563a23f8f31fefeeeb4f8c7602f3d0172fe7698368f7ff58b",
+    "tools/s016_exact_originals.py": "a5fb2fa0f428875e34cea2e0a4cc5d5f201ffa7921d67f1e99c5ac99b7bf2c6e",
+    "campaigns/CAM-0018.md": "542d88cd9f6488bf5b9f3ef7374734c023eea370c2655fae9d8103430e6a3dc8",
+    ".github/workflows/s016-exact.yml": "854c86c44ea8495c7e80133466e55ca36fde97c2f2030125a6816176c76d4f75"
+  },
+  "native_sha256": {
+    "cadical": "a7f4dc2ef3f0117cd2ac281c5cbd7637fcc314d802efd925b96151b5fa6316c3",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "source_manifest_reconstruction": "GitHub content blobs at S016 authored commit; original271 input inherited S003/S004/S010; pinned setup D043",
+  "integration": "PREMERGE_VERIFY_FROM_GITHUB_AFTER_CREATE"
+}

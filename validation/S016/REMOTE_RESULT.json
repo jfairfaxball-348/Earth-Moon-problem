@@ -1,0 +1,3523 @@
+{
+  "campaign": "CAM-0018",
+  "session": "S016",
+  "scope": "ORIGINAL_219_ONLY_POSITIVE_OR_FULL_CERTIFIED_NEGATIVE",
+  "source_sha256": {
+    "validation/S003/survivors_alpha_ge3.json": "0fa7e2a796a29602a3d020d374ea3fd06679c948dbb93b75969e18e46f593efb",
+    "validation/S010/SUMMARY.json": "ffea6edad1f421b689dfb5057b7f5026c9717d5ae7655962823ac8cf3a667a41",
+    "validation/S004/chi10_results.json": "b3a5608835324edfd33edd65bc10fb7be63e6ce0a21866c73fade1e39ac52846",
+    "tools/blowup_graph.py": "319c30e008194145d477050fc6ef818d640399f81f720691a5f4f8f85bbecb05",
+    "tools/biplanar_cegar.py": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "tools/check_layers.py": "00aec59ae2c59e61c18151637d67d95ba033c9921227382f03da56df550d9313",
+    "tools/check_rotation.py": "8f56c37329e79cf563a23f8f31fefeeeb4f8c7602f3d0172fe7698368f7ff58b",
+    "tools/s016_exact_originals.py": "a5fb2fa0f428875e34cea2e0a4cc5d5f201ffa7921d67f1e99c5ac99b7bf2c6e",
+    "campaigns/CAM-0018.md": "542d88cd9f6488bf5b9f3ef7374734c023eea370c2655fae9d8103430e6a3dc8",
+    ".github/workflows/s016-exact.yml": "854c86c44ea8495c7e80133466e55ca36fde97c2f2030125a6816176c76d4f75"
+  },
+  "native_sha256": {
+    "cadical": "a7f4dc2ef3f0117cd2ac281c5cbd7637fcc314d802efd925b96151b5fa6316c3",
+    "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+  },
+  "smoke": {
+    "verdict": "PASS",
+    "scope": "environment acceptance only; no new mathematical claim",
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python": "3.12.15 (main, Oct  1 2026, 02:35:59) [GCC 13.3.0]",
+    "checker": "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/native/bin/drat-trim",
+    "checker_sha256": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538",
+    "chromatic_rows_checked": 271,
+    "chromatic_rows_verified": 271,
+    "chromatic_cnf_byte_matches": 271,
+    "solver": "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/native/bin/cadical",
+    "solver_sha256": "a7f4dc2ef3f0117cd2ac281c5cbd7637fcc314d802efd925b96151b5fa6316c3",
+    "k9": {
+      "cnf_sha256_match": true,
+      "proof_sha256_match": true,
+      "verified": true,
+      "seconds": 6.283,
+      "regenerate_returncode": 0,
+      "regenerate_stderr_tail": ""
+    },
+    "solver_roundtrip": {
+      "solver_returncode": 20,
+      "solve_seconds": 14.091,
+      "fresh_proof_verified": true,
+      "check_seconds": 6.41
+    },
+    "rows": [
+      {
+        "index": 0,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 1,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.058
+      },
+      {
+        "index": 2,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 3,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 4,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 5,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 6,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 7,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 8,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 9,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 10,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 11,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 12,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 13,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 14,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 15,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.049
+      },
+      {
+        "index": 16,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 17,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 18,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 19,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 20,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 21,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 22,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 23,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 24,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.055
+      },
+      {
+        "index": 25,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 26,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 27,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 28,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 29,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 30,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.039
+      },
+      {
+        "index": 31,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 32,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 33,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 34,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 35,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 36,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 37,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 38,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 39,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 40,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 41,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.049
+      },
+      {
+        "index": 42,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.054
+      },
+      {
+        "index": 43,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 44,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 45,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 46,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 47,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 48,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.085
+      },
+      {
+        "index": 49,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.077
+      },
+      {
+        "index": 50,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.096
+      },
+      {
+        "index": 51,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.116
+      },
+      {
+        "index": 52,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.126
+      },
+      {
+        "index": 53,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.077
+      },
+      {
+        "index": 54,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.084
+      },
+      {
+        "index": 55,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.081
+      },
+      {
+        "index": 56,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.16
+      },
+      {
+        "index": 57,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.165
+      },
+      {
+        "index": 58,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.083
+      },
+      {
+        "index": 59,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.106
+      },
+      {
+        "index": 60,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.115
+      },
+      {
+        "index": 61,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.065
+      },
+      {
+        "index": 62,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 63,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.074
+      },
+      {
+        "index": 64,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.093
+      },
+      {
+        "index": 65,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.09
+      },
+      {
+        "index": 66,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.087
+      },
+      {
+        "index": 67,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.131
+      },
+      {
+        "index": 68,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.141
+      },
+      {
+        "index": 69,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.076
+      },
+      {
+        "index": 70,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.159
+      },
+      {
+        "index": 71,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.13
+      },
+      {
+        "index": 72,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.156
+      },
+      {
+        "index": 73,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.068
+      },
+      {
+        "index": 74,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 75,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 76,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 77,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 78,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 79,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.041
+      },
+      {
+        "index": 80,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 81,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.053
+      },
+      {
+        "index": 82,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 83,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.09
+      },
+      {
+        "index": 84,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.076
+      },
+      {
+        "index": 85,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.151
+      },
+      {
+        "index": 86,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.088
+      },
+      {
+        "index": 87,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.109
+      },
+      {
+        "index": 88,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.142
+      },
+      {
+        "index": 89,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.093
+      },
+      {
+        "index": 90,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.077
+      },
+      {
+        "index": 91,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.105
+      },
+      {
+        "index": 92,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.089
+      },
+      {
+        "index": 93,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.095
+      },
+      {
+        "index": 94,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.086
+      },
+      {
+        "index": 95,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.104
+      },
+      {
+        "index": 96,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.129
+      },
+      {
+        "index": 97,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.123
+      },
+      {
+        "index": 98,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.098
+      },
+      {
+        "index": 99,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.125
+      },
+      {
+        "index": 100,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.056
+      },
+      {
+        "index": 101,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.055
+      },
+      {
+        "index": 102,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.06
+      },
+      {
+        "index": 103,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.073
+      },
+      {
+        "index": 104,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.13
+      },
+      {
+        "index": 105,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.061
+      },
+      {
+        "index": 106,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.089
+      },
+      {
+        "index": 107,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.088
+      },
+      {
+        "index": 108,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.083
+      },
+      {
+        "index": 109,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.078
+      },
+      {
+        "index": 110,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.122
+      },
+      {
+        "index": 111,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.133
+      },
+      {
+        "index": 112,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.089
+      },
+      {
+        "index": 113,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.104
+      },
+      {
+        "index": 114,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.055
+      },
+      {
+        "index": 115,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.084
+      },
+      {
+        "index": 116,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.103
+      },
+      {
+        "index": 117,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.091
+      },
+      {
+        "index": 118,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.079
+      },
+      {
+        "index": 119,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.102
+      },
+      {
+        "index": 120,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.134
+      },
+      {
+        "index": 121,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.067
+      },
+      {
+        "index": 122,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.078
+      },
+      {
+        "index": 123,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.075
+      },
+      {
+        "index": 124,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.066
+      },
+      {
+        "index": 125,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.08
+      },
+      {
+        "index": 126,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.103
+      },
+      {
+        "index": 127,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.09
+      },
+      {
+        "index": 128,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.158
+      },
+      {
+        "index": 129,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.064
+      },
+      {
+        "index": 130,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.087
+      },
+      {
+        "index": 131,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.07
+      },
+      {
+        "index": 132,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 133,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 134,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 135,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 136,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 137,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 138,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 139,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 140,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.089
+      },
+      {
+        "index": 141,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.114
+      },
+      {
+        "index": 142,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.071
+      },
+      {
+        "index": 143,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.063
+      },
+      {
+        "index": 144,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.11
+      },
+      {
+        "index": 145,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.105
+      },
+      {
+        "index": 146,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.106
+      },
+      {
+        "index": 147,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.128
+      },
+      {
+        "index": 148,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.107
+      },
+      {
+        "index": 149,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.083
+      },
+      {
+        "index": 150,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.093
+      },
+      {
+        "index": 151,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.112
+      },
+      {
+        "index": 152,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.113
+      },
+      {
+        "index": 153,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.103
+      },
+      {
+        "index": 154,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.238
+      },
+      {
+        "index": 155,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.185
+      },
+      {
+        "index": 156,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.158
+      },
+      {
+        "index": 157,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.18
+      },
+      {
+        "index": 158,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.214
+      },
+      {
+        "index": 159,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.213
+      },
+      {
+        "index": 160,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.207
+      },
+      {
+        "index": 161,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.278
+      },
+      {
+        "index": 162,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.197
+      },
+      {
+        "index": 163,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.205
+      },
+      {
+        "index": 164,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.23
+      },
+      {
+        "index": 165,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.13
+      },
+      {
+        "index": 166,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.075
+      },
+      {
+        "index": 167,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 168,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.063
+      },
+      {
+        "index": 169,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.06
+      },
+      {
+        "index": 170,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.096
+      },
+      {
+        "index": 171,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.092
+      },
+      {
+        "index": 172,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.121
+      },
+      {
+        "index": 173,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.088
+      },
+      {
+        "index": 174,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.099
+      },
+      {
+        "index": 175,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.11
+      },
+      {
+        "index": 176,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.184
+      },
+      {
+        "index": 177,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.149
+      },
+      {
+        "index": 178,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.109
+      },
+      {
+        "index": 179,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.135
+      },
+      {
+        "index": 180,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.126
+      },
+      {
+        "index": 181,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 182,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 183,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 184,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 185,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 186,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 187,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.055
+      },
+      {
+        "index": 188,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 189,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 190,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 191,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 192,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 193,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 194,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 195,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.042
+      },
+      {
+        "index": 196,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 197,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 198,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 199,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 200,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 201,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.051
+      },
+      {
+        "index": 202,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 203,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.053
+      },
+      {
+        "index": 204,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 205,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 206,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 207,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.073
+      },
+      {
+        "index": 208,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.077
+      },
+      {
+        "index": 209,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 210,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 211,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.081
+      },
+      {
+        "index": 212,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.074
+      },
+      {
+        "index": 213,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.087
+      },
+      {
+        "index": 214,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.081
+      },
+      {
+        "index": 215,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.075
+      },
+      {
+        "index": 216,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.073
+      },
+      {
+        "index": 217,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.069
+      },
+      {
+        "index": 218,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.078
+      },
+      {
+        "index": 219,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.048
+      },
+      {
+        "index": 220,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.05
+      },
+      {
+        "index": 221,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.049
+      },
+      {
+        "index": 222,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 223,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 224,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.073
+      },
+      {
+        "index": 225,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.065
+      },
+      {
+        "index": 226,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.066
+      },
+      {
+        "index": 227,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.077
+      },
+      {
+        "index": 228,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.099
+      },
+      {
+        "index": 229,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.089
+      },
+      {
+        "index": 230,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.066
+      },
+      {
+        "index": 231,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.07
+      },
+      {
+        "index": 232,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.07
+      },
+      {
+        "index": 233,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.069
+      },
+      {
+        "index": 234,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 235,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.051
+      },
+      {
+        "index": 236,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.055
+      },
+      {
+        "index": 237,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.057
+      },
+      {
+        "index": 238,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.048
+      },
+      {
+        "index": 239,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 240,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.072
+      },
+      {
+        "index": 241,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.112
+      },
+      {
+        "index": 242,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 243,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.075
+      },
+      {
+        "index": 244,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.048
+      },
+      {
+        "index": 245,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 246,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.103
+      },
+      {
+        "index": 247,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.142
+      },
+      {
+        "index": 248,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.078
+      },
+      {
+        "index": 249,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.17
+      },
+      {
+        "index": 250,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.162
+      },
+      {
+        "index": 251,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.206
+      },
+      {
+        "index": 252,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.046
+      },
+      {
+        "index": 253,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.122
+      },
+      {
+        "index": 254,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.13
+      },
+      {
+        "index": 255,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.071
+      },
+      {
+        "index": 256,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 257,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.047
+      },
+      {
+        "index": 258,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 259,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 260,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 261,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.072
+      },
+      {
+        "index": 262,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.043
+      },
+      {
+        "index": 263,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.045
+      },
+      {
+        "index": 264,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.119
+      },
+      {
+        "index": 265,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.108
+      },
+      {
+        "index": 266,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      },
+      {
+        "index": 267,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.067
+      },
+      {
+        "index": 268,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.124
+      },
+      {
+        "index": 269,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.088
+      },
+      {
+        "index": 270,
+        "cnf_sha256_match": true,
+        "proof_sha256_match": true,
+        "verified": true,
+        "seconds": 0.044
+      }
+    ]
+  },
+  "inherited_52": [
+    15,
+    17,
+    23,
+    24,
+    28,
+    29,
+    35,
+    38,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    80,
+    81,
+    82,
+    102,
+    103,
+    117,
+    120,
+    123,
+    126,
+    128,
+    130,
+    133,
+    135,
+    143,
+    154,
+    155,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    171,
+    176,
+    177,
+    179,
+    180,
+    187,
+    189,
+    190,
+    195,
+    197,
+    258,
+    260,
+    262
+  ],
+  "canonical_219": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    26,
+    27,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    39,
+    40,
+    43,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    118,
+    119,
+    121,
+    122,
+    124,
+    125,
+    127,
+    129,
+    131,
+    132,
+    134,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    156,
+    166,
+    167,
+    168,
+    169,
+    170,
+    172,
+    173,
+    174,
+    175,
+    178,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    188,
+    191,
+    192,
+    193,
+    194,
+    196,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    259,
+    261,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270
+  ],
+  "row_status": {
+    "0": {
+      "status": "NOT_RUN"
+    },
+    "1": {
+      "status": "NOT_RUN"
+    },
+    "2": {
+      "status": "NOT_RUN"
+    },
+    "3": {
+      "status": "CAPPED",
+      "exact": {
+        "row": 3,
+        "n": 26,
+        "m": 135,
+        "seed": 16003,
+        "cap_seconds": 85,
+        "limit": 24,
+        "edgefile_sha256": "9f2a2a3f4cf3be4f21f9e21475db02c3e31225d5e6f9cfc641565e551a1af1c2",
+        "cmd": [
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+          "tools/biplanar_cegar.py",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row3.edges",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row3",
+          "85",
+          "--seed",
+          "16003",
+          "--limit",
+          "24"
+        ],
+        "returncode": 0,
+        "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 88, \"lemmas\": 47625, \"symmetries\": 20}\n",
+        "stderr": "",
+        "verdict": "UNKNOWN",
+        "iterations": 88,
+        "lemmas": 47625,
+        "symmetries": 20,
+        "status": "CAPPED",
+        "elapsed_seconds": 86.3
+      }
+    },
+    "4": {
+      "status": "NOT_RUN"
+    },
+    "5": {
+      "status": "NOT_RUN"
+    },
+    "6": {
+      "status": "NOT_RUN"
+    },
+    "7": {
+      "status": "NOT_RUN"
+    },
+    "8": {
+      "status": "NOT_RUN"
+    },
+    "9": {
+      "status": "CAPPED",
+      "exact": {
+        "row": 9,
+        "n": 26,
+        "m": 135,
+        "seed": 16009,
+        "cap_seconds": 85,
+        "limit": 24,
+        "edgefile_sha256": "71fdaa5663b74e5b0c8b2a0ad27a10ca459d62e780b27c5ce878a0b67479958e",
+        "cmd": [
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+          "tools/biplanar_cegar.py",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row9.edges",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row9",
+          "85",
+          "--seed",
+          "16009",
+          "--limit",
+          "24"
+        ],
+        "returncode": 0,
+        "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 87, \"lemmas\": 47159, \"symmetries\": 20}\n",
+        "stderr": "",
+        "verdict": "UNKNOWN",
+        "iterations": 87,
+        "lemmas": 47159,
+        "symmetries": 20,
+        "status": "CAPPED",
+        "elapsed_seconds": 85.87
+      }
+    },
+    "10": {
+      "status": "NOT_RUN"
+    },
+    "11": {
+      "status": "NOT_RUN"
+    },
+    "12": {
+      "status": "NOT_RUN"
+    },
+    "13": {
+      "status": "NOT_RUN"
+    },
+    "14": {
+      "status": "NOT_RUN"
+    },
+    "16": {
+      "status": "NOT_RUN"
+    },
+    "18": {
+      "status": "NOT_RUN"
+    },
+    "19": {
+      "status": "NOT_RUN"
+    },
+    "20": {
+      "status": "NOT_RUN"
+    },
+    "21": {
+      "status": "NOT_RUN"
+    },
+    "22": {
+      "status": "NOT_RUN"
+    },
+    "25": {
+      "status": "NOT_RUN"
+    },
+    "26": {
+      "status": "NOT_RUN"
+    },
+    "27": {
+      "status": "NOT_RUN"
+    },
+    "30": {
+      "status": "NOT_RUN"
+    },
+    "31": {
+      "status": "NOT_RUN"
+    },
+    "32": {
+      "status": "NOT_RUN"
+    },
+    "33": {
+      "status": "NOT_RUN"
+    },
+    "34": {
+      "status": "NOT_RUN"
+    },
+    "36": {
+      "status": "NOT_RUN"
+    },
+    "37": {
+      "status": "NOT_RUN"
+    },
+    "39": {
+      "status": "NOT_RUN"
+    },
+    "40": {
+      "status": "NOT_RUN"
+    },
+    "43": {
+      "status": "NOT_RUN"
+    },
+    "48": {
+      "status": "NOT_RUN"
+    },
+    "49": {
+      "status": "NOT_RUN"
+    },
+    "50": {
+      "status": "NOT_RUN"
+    },
+    "51": {
+      "status": "NOT_RUN"
+    },
+    "52": {
+      "status": "NOT_RUN"
+    },
+    "53": {
+      "status": "NOT_RUN"
+    },
+    "54": {
+      "status": "NOT_RUN"
+    },
+    "55": {
+      "status": "NOT_RUN"
+    },
+    "56": {
+      "status": "NOT_RUN"
+    },
+    "57": {
+      "status": "NOT_RUN"
+    },
+    "58": {
+      "status": "NOT_RUN"
+    },
+    "59": {
+      "status": "NOT_RUN"
+    },
+    "60": {
+      "status": "NOT_RUN"
+    },
+    "61": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "62": {
+      "status": "NOT_RUN"
+    },
+    "63": {
+      "status": "NOT_RUN"
+    },
+    "64": {
+      "status": "NOT_RUN"
+    },
+    "65": {
+      "status": "NOT_RUN"
+    },
+    "66": {
+      "status": "NOT_RUN"
+    },
+    "67": {
+      "status": "NOT_RUN"
+    },
+    "68": {
+      "status": "NOT_RUN"
+    },
+    "69": {
+      "status": "NOT_RUN"
+    },
+    "70": {
+      "status": "NOT_RUN"
+    },
+    "71": {
+      "status": "NOT_RUN"
+    },
+    "72": {
+      "status": "NOT_RUN"
+    },
+    "73": {
+      "status": "NOT_RUN"
+    },
+    "74": {
+      "status": "NOT_RUN"
+    },
+    "75": {
+      "status": "NOT_RUN"
+    },
+    "76": {
+      "status": "NOT_RUN"
+    },
+    "77": {
+      "status": "NOT_RUN"
+    },
+    "78": {
+      "status": "NOT_RUN"
+    },
+    "79": {
+      "status": "NOT_RUN"
+    },
+    "83": {
+      "status": "NOT_RUN"
+    },
+    "84": {
+      "status": "NOT_RUN"
+    },
+    "85": {
+      "status": "NOT_RUN"
+    },
+    "86": {
+      "status": "NOT_RUN"
+    },
+    "87": {
+      "status": "NOT_RUN"
+    },
+    "88": {
+      "status": "NOT_RUN"
+    },
+    "89": {
+      "status": "NOT_RUN"
+    },
+    "90": {
+      "status": "NOT_RUN"
+    },
+    "91": {
+      "status": "NOT_RUN"
+    },
+    "92": {
+      "status": "NOT_RUN"
+    },
+    "93": {
+      "status": "NOT_RUN"
+    },
+    "94": {
+      "status": "NOT_RUN"
+    },
+    "95": {
+      "status": "NOT_RUN"
+    },
+    "96": {
+      "status": "NOT_RUN"
+    },
+    "97": {
+      "status": "NOT_RUN"
+    },
+    "98": {
+      "status": "NOT_RUN"
+    },
+    "99": {
+      "status": "NOT_RUN"
+    },
+    "100": {
+      "status": "NOT_RUN"
+    },
+    "101": {
+      "status": "NOT_RUN"
+    },
+    "104": {
+      "status": "NOT_RUN"
+    },
+    "105": {
+      "status": "NOT_RUN"
+    },
+    "106": {
+      "status": "NOT_RUN"
+    },
+    "107": {
+      "status": "NOT_RUN"
+    },
+    "108": {
+      "status": "NOT_RUN"
+    },
+    "109": {
+      "status": "NOT_RUN"
+    },
+    "110": {
+      "status": "NOT_RUN"
+    },
+    "111": {
+      "status": "NOT_RUN"
+    },
+    "112": {
+      "status": "NOT_RUN"
+    },
+    "113": {
+      "status": "NOT_RUN"
+    },
+    "114": {
+      "status": "NOT_RUN"
+    },
+    "115": {
+      "status": "NOT_RUN"
+    },
+    "116": {
+      "status": "NOT_RUN"
+    },
+    "118": {
+      "status": "NOT_RUN"
+    },
+    "119": {
+      "status": "NOT_RUN"
+    },
+    "121": {
+      "status": "NOT_RUN"
+    },
+    "122": {
+      "status": "NOT_RUN"
+    },
+    "124": {
+      "status": "NOT_RUN"
+    },
+    "125": {
+      "status": "NOT_RUN"
+    },
+    "127": {
+      "status": "NOT_RUN"
+    },
+    "129": {
+      "status": "NOT_RUN"
+    },
+    "131": {
+      "status": "NOT_RUN"
+    },
+    "132": {
+      "status": "NOT_RUN"
+    },
+    "134": {
+      "status": "NOT_RUN"
+    },
+    "136": {
+      "status": "NOT_RUN"
+    },
+    "137": {
+      "status": "NOT_RUN"
+    },
+    "138": {
+      "status": "NOT_RUN"
+    },
+    "139": {
+      "status": "NOT_RUN"
+    },
+    "140": {
+      "status": "NOT_RUN"
+    },
+    "141": {
+      "status": "NOT_RUN"
+    },
+    "142": {
+      "status": "NOT_RUN"
+    },
+    "144": {
+      "status": "NOT_RUN"
+    },
+    "145": {
+      "status": "NOT_RUN"
+    },
+    "146": {
+      "status": "NOT_RUN"
+    },
+    "147": {
+      "status": "NOT_RUN"
+    },
+    "148": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "149": {
+      "status": "NOT_RUN"
+    },
+    "150": {
+      "status": "NOT_RUN"
+    },
+    "151": {
+      "status": "NOT_RUN"
+    },
+    "152": {
+      "status": "NOT_RUN"
+    },
+    "153": {
+      "status": "NOT_RUN"
+    },
+    "156": {
+      "status": "CAPPED",
+      "exact": {
+        "row": 156,
+        "n": 24,
+        "m": 128,
+        "seed": 16156,
+        "cap_seconds": 125,
+        "limit": 24,
+        "edgefile_sha256": "871fd7a6b3e921f1be671fa337101df74a559103b6c2fd694e4b826c103e7a5e",
+        "cmd": [
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+          "tools/biplanar_cegar.py",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row156.edges",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row156",
+          "125",
+          "--seed",
+          "16156",
+          "--limit",
+          "24"
+        ],
+        "returncode": 0,
+        "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 139, \"lemmas\": 70424, \"symmetries\": 17}\n",
+        "stderr": "",
+        "verdict": "UNKNOWN",
+        "iterations": 139,
+        "lemmas": 70424,
+        "symmetries": 17,
+        "status": "CAPPED",
+        "elapsed_seconds": 125.54
+      }
+    },
+    "166": {
+      "status": "NOT_RUN"
+    },
+    "167": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "168": {
+      "status": "NOT_RUN"
+    },
+    "169": {
+      "status": "NOT_RUN"
+    },
+    "170": {
+      "status": "NOT_RUN"
+    },
+    "172": {
+      "status": "NOT_RUN"
+    },
+    "173": {
+      "status": "CAPPED",
+      "exact": {
+        "row": 173,
+        "n": 25,
+        "m": 133,
+        "seed": 16173,
+        "cap_seconds": 85,
+        "limit": 24,
+        "edgefile_sha256": "d4023c2c48e2b0f156734b970b2d111caefa949bde34fe06cfc1f6bc653c4490",
+        "cmd": [
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+          "tools/biplanar_cegar.py",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row173.edges",
+          "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row173",
+          "85",
+          "--seed",
+          "16173",
+          "--limit",
+          "24"
+        ],
+        "returncode": 0,
+        "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 91, \"lemmas\": 47050, \"symmetries\": 18}\n",
+        "stderr": "",
+        "verdict": "UNKNOWN",
+        "iterations": 91,
+        "lemmas": 47050,
+        "symmetries": 18,
+        "status": "CAPPED",
+        "elapsed_seconds": 85.83
+      }
+    },
+    "174": {
+      "status": "NOT_RUN"
+    },
+    "175": {
+      "status": "NOT_RUN"
+    },
+    "178": {
+      "status": "NOT_RUN"
+    },
+    "181": {
+      "status": "NOT_RUN"
+    },
+    "182": {
+      "status": "NOT_RUN"
+    },
+    "183": {
+      "status": "NOT_RUN"
+    },
+    "184": {
+      "status": "NOT_RUN"
+    },
+    "185": {
+      "status": "NOT_RUN"
+    },
+    "186": {
+      "status": "NOT_RUN"
+    },
+    "188": {
+      "status": "NOT_RUN"
+    },
+    "191": {
+      "status": "NOT_RUN"
+    },
+    "192": {
+      "status": "NOT_RUN"
+    },
+    "193": {
+      "status": "NOT_RUN"
+    },
+    "194": {
+      "status": "NOT_RUN"
+    },
+    "196": {
+      "status": "NOT_RUN"
+    },
+    "198": {
+      "status": "NOT_RUN"
+    },
+    "199": {
+      "status": "NOT_RUN"
+    },
+    "200": {
+      "status": "NOT_RUN"
+    },
+    "201": {
+      "status": "NOT_RUN"
+    },
+    "202": {
+      "status": "NOT_RUN"
+    },
+    "203": {
+      "status": "NOT_RUN"
+    },
+    "204": {
+      "status": "NOT_RUN"
+    },
+    "205": {
+      "status": "NOT_RUN"
+    },
+    "206": {
+      "status": "NOT_RUN"
+    },
+    "207": {
+      "status": "NOT_RUN"
+    },
+    "208": {
+      "status": "NOT_RUN"
+    },
+    "209": {
+      "status": "NOT_RUN"
+    },
+    "210": {
+      "status": "NOT_RUN"
+    },
+    "211": {
+      "status": "NOT_RUN"
+    },
+    "212": {
+      "status": "NOT_RUN"
+    },
+    "213": {
+      "status": "NOT_RUN"
+    },
+    "214": {
+      "status": "NOT_RUN"
+    },
+    "215": {
+      "status": "NOT_RUN"
+    },
+    "216": {
+      "status": "NOT_RUN"
+    },
+    "217": {
+      "status": "NOT_RUN"
+    },
+    "218": {
+      "status": "NOT_RUN"
+    },
+    "219": {
+      "status": "NOT_RUN"
+    },
+    "220": {
+      "status": "NOT_RUN"
+    },
+    "221": {
+      "status": "NOT_RUN"
+    },
+    "222": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "223": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "224": {
+      "status": "NOT_RUN"
+    },
+    "225": {
+      "status": "NOT_RUN"
+    },
+    "226": {
+      "status": "NOT_RUN"
+    },
+    "227": {
+      "status": "NOT_RUN"
+    },
+    "228": {
+      "status": "NOT_RUN"
+    },
+    "229": {
+      "status": "NOT_RUN"
+    },
+    "230": {
+      "status": "NOT_RUN"
+    },
+    "231": {
+      "status": "NOT_RUN"
+    },
+    "232": {
+      "status": "NOT_RUN"
+    },
+    "233": {
+      "status": "NOT_RUN"
+    },
+    "234": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "235": {
+      "status": "NOT_RUN"
+    },
+    "236": {
+      "status": "NOT_RUN"
+    },
+    "237": {
+      "status": "NOT_RUN"
+    },
+    "238": {
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "239": {
+      "status": "NOT_RUN"
+    },
+    "240": {
+      "status": "NOT_RUN"
+    },
+    "241": {
+      "status": "NOT_RUN"
+    },
+    "242": {
+      "status": "NOT_RUN"
+    },
+    "243": {
+      "status": "NOT_RUN"
+    },
+    "244": {
+      "status": "NOT_RUN"
+    },
+    "245": {
+      "status": "NOT_RUN"
+    },
+    "246": {
+      "status": "NOT_RUN"
+    },
+    "247": {
+      "status": "NOT_RUN"
+    },
+    "248": {
+      "status": "NOT_RUN"
+    },
+    "249": {
+      "status": "NOT_RUN"
+    },
+    "250": {
+      "status": "NOT_RUN"
+    },
+    "251": {
+      "status": "NOT_RUN"
+    },
+    "252": {
+      "status": "NOT_RUN"
+    },
+    "253": {
+      "status": "NOT_RUN"
+    },
+    "254": {
+      "status": "NOT_RUN"
+    },
+    "255": {
+      "status": "NOT_RUN"
+    },
+    "256": {
+      "status": "NOT_RUN"
+    },
+    "257": {
+      "status": "NOT_RUN"
+    },
+    "259": {
+      "status": "NOT_RUN"
+    },
+    "261": {
+      "status": "NOT_RUN"
+    },
+    "263": {
+      "status": "NOT_RUN"
+    },
+    "264": {
+      "status": "NOT_RUN"
+    },
+    "265": {
+      "status": "NOT_RUN"
+    },
+    "266": {
+      "status": "NOT_RUN"
+    },
+    "267": {
+      "status": "NOT_RUN"
+    },
+    "268": {
+      "status": "NOT_RUN"
+    },
+    "269": {
+      "status": "NOT_RUN"
+    },
+    "270": {
+      "status": "NOT_RUN"
+    }
+  },
+  "exact": [
+    {
+      "row": 156,
+      "n": 24,
+      "m": 128,
+      "seed": 16156,
+      "cap_seconds": 125,
+      "limit": 24,
+      "edgefile_sha256": "871fd7a6b3e921f1be671fa337101df74a559103b6c2fd694e4b826c103e7a5e",
+      "cmd": [
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+        "tools/biplanar_cegar.py",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row156.edges",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row156",
+        "125",
+        "--seed",
+        "16156",
+        "--limit",
+        "24"
+      ],
+      "returncode": 0,
+      "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 139, \"lemmas\": 70424, \"symmetries\": 17}\n",
+      "stderr": "",
+      "verdict": "UNKNOWN",
+      "iterations": 139,
+      "lemmas": 70424,
+      "symmetries": 17,
+      "status": "CAPPED",
+      "elapsed_seconds": 125.54
+    },
+    {
+      "row": 3,
+      "n": 26,
+      "m": 135,
+      "seed": 16003,
+      "cap_seconds": 85,
+      "limit": 24,
+      "edgefile_sha256": "9f2a2a3f4cf3be4f21f9e21475db02c3e31225d5e6f9cfc641565e551a1af1c2",
+      "cmd": [
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+        "tools/biplanar_cegar.py",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row3.edges",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row3",
+        "85",
+        "--seed",
+        "16003",
+        "--limit",
+        "24"
+      ],
+      "returncode": 0,
+      "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 88, \"lemmas\": 47625, \"symmetries\": 20}\n",
+      "stderr": "",
+      "verdict": "UNKNOWN",
+      "iterations": 88,
+      "lemmas": 47625,
+      "symmetries": 20,
+      "status": "CAPPED",
+      "elapsed_seconds": 86.3
+    },
+    {
+      "row": 9,
+      "n": 26,
+      "m": 135,
+      "seed": 16009,
+      "cap_seconds": 85,
+      "limit": 24,
+      "edgefile_sha256": "71fdaa5663b74e5b0c8b2a0ad27a10ca459d62e780b27c5ce878a0b67479958e",
+      "cmd": [
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+        "tools/biplanar_cegar.py",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row9.edges",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row9",
+        "85",
+        "--seed",
+        "16009",
+        "--limit",
+        "24"
+      ],
+      "returncode": 0,
+      "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 87, \"lemmas\": 47159, \"symmetries\": 20}\n",
+      "stderr": "",
+      "verdict": "UNKNOWN",
+      "iterations": 87,
+      "lemmas": 47159,
+      "symmetries": 20,
+      "status": "CAPPED",
+      "elapsed_seconds": 85.87
+    },
+    {
+      "row": 173,
+      "n": 25,
+      "m": 133,
+      "seed": 16173,
+      "cap_seconds": 85,
+      "limit": 24,
+      "edgefile_sha256": "d4023c2c48e2b0f156734b970b2d111caefa949bde34fe06cfc1f6bc653c4490",
+      "cmd": [
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+        "tools/biplanar_cegar.py",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row173.edges",
+        "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S016/row173",
+        "85",
+        "--seed",
+        "16173",
+        "--limit",
+        "24"
+      ],
+      "returncode": 0,
+      "stdout": "{\"verdict\": \"UNKNOWN\", \"iterations\": 91, \"lemmas\": 47050, \"symmetries\": 18}\n",
+      "stderr": "",
+      "verdict": "UNKNOWN",
+      "iterations": 91,
+      "lemmas": 47050,
+      "symmetries": 18,
+      "status": "CAPPED",
+      "elapsed_seconds": 85.83
+    }
+  ],
+  "positive": [
+    {
+      "row": 156,
+      "n": 24,
+      "m": 128,
+      "new_seeds": [
+        1629836,
+        1729839,
+        1829842
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 13,
+      "best_seed": 1629836,
+      "seconds": 5.58,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 3,
+      "n": 26,
+      "m": 135,
+      "new_seeds": [
+        1602143,
+        1702146,
+        1802149
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 12,
+      "best_seed": 1602143,
+      "seconds": 6.03,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 9,
+      "n": 26,
+      "m": 135,
+      "new_seeds": [
+        1603229,
+        1703232,
+        1803235
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 14,
+      "best_seed": 1703232,
+      "seconds": 5.62,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 173,
+      "n": 25,
+      "m": 133,
+      "new_seeds": [
+        1632913,
+        1732916,
+        1832919
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 11,
+      "best_seed": 1832919,
+      "seconds": 5.58,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 148,
+      "n": 25,
+      "m": 131,
+      "new_seeds": [
+        1628388,
+        1728391,
+        1828394
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 10,
+      "best_seed": 1628388,
+      "seconds": 5.51,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 167,
+      "n": 26,
+      "m": 137,
+      "new_seeds": [
+        1631827,
+        1731830,
+        1831833
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 14,
+      "best_seed": 1731830,
+      "seconds": 5.84,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 222,
+      "n": 28,
+      "m": 146,
+      "new_seeds": [
+        1641782,
+        1741785,
+        1841788
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 15,
+      "best_seed": 1641782,
+      "seconds": 6.01,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 223,
+      "n": 28,
+      "m": 146,
+      "new_seeds": [
+        1641963,
+        1741966,
+        1841969
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 14,
+      "best_seed": 1741966,
+      "seconds": 6.05,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 61,
+      "n": 28,
+      "m": 146,
+      "new_seeds": [
+        1612641,
+        1712644,
+        1812647
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 14,
+      "best_seed": 1812647,
+      "seconds": 6.0,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 234,
+      "n": 28,
+      "m": 146,
+      "new_seeds": [
+        1643954,
+        1743957,
+        1843960
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 12,
+      "best_seed": 1643954,
+      "seconds": 6.03,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    {
+      "row": 238,
+      "n": 28,
+      "m": 146,
+      "new_seeds": [
+        1644678,
+        1744681,
+        1844684
+      ],
+      "baseline_seeds": [],
+      "search_seconds_cap": 6,
+      "best_missing": 17,
+      "best_seed": 1744681,
+      "seconds": 6.06,
+      "status": "ATTEMPTED_STILL_UNKNOWN"
+    }
+  ],
+  "stage": "finished",
+  "start_utc": "2026-10-15T09:01:07Z",
+  "verdict": "NO_CHECKED_NEW_POSITIVE_OR_NEGATIVE",
+  "partition": {
+    "ATTEMPTED_STILL_UNKNOWN": [
+      61,
+      148,
+      167,
+      222,
+      223,
+      234,
+      238
+    ],
+    "CAPPED": [
+      3,
+      9,
+      156,
+      173
+    ],
+    "NOT_RUN": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      37,
+      39,
+      40,
+      43,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      118,
+      119,
+      121,
+      122,
+      124,
+      125,
+      127,
+      129,
+      131,
+      132,
+      134,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      144,
+      145,
+      146,
+      147,
+      149,
+      150,
+      151,
+      152,
+      153,
+      166,
+      168,
+      169,
+      170,
+      172,
+      174,
+      175,
+      178,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      188,
+      191,
+      192,
+      193,
+      194,
+      196,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      235,
+      236,
+      237,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      259,
+      261,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270
+    ]
+  }
+}

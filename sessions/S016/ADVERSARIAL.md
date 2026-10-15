@@ -1,0 +1,12 @@
+# S016 ADVERSARIAL / hostile audit
+
+- Runner scope actual job116337412334 and step conclusions ALL SUCCESS, not by workflow-name inference. Same job full smoke PASS confirmed in preserved REMOTE_SMOKE.json for all 271 original CNF/DRAT plus retained K9 and independent fresh K9 proof. This verifies the environment and inherited source chromatic proofs, NOT any new biplanarity result.
+- Original universe: 271 entries, 52 inherited negative,219 retained unknown, disjoint exact coverage. New S016-specific row partition exactly 4 CAPPED + 7 ATTEMPTED_STILL_UNKNOWN +208 NOT_RUN=219. Original whole219 stays UNKNOWN. 208 NOT_RUN specifically refers to NEW S016 testing, not S015 all219 breadth campaign.
+- Four exact original row runs all return 'UNKNOWN' and no complete split. Even 212258 generated subdivision cuts/405 iterations are only a partial solver search, not UNSAT and not a negative exclusion. Neither the initial edge-layer CNF nor a future density cardinality scheme is silently certified.
+- Constructive double-ejection is still a variant of S015's heuristic, only new seeds and limited depth; S016 did NOT fulfil a genuinely new rotation/backtracking implementation. The new row148 10-unplaced source is incomplete and is not proof of biplanarity; no component rotation check of a complete split was possible. Honest limitation carried into S017 mandatory method change.
+- New CLM0081 necessity follows Euler and exact m partition; no SAT encoding or solver acceptance proved its use within this run. Safe necessary filter but NOT a new headline or a universal result.
+- Native hashes, source file SHA256 and original row edges hashes saved in raw results and session manifest. WIP commit histories from e8afcae and 9499aae are NOT merged, only their actual source and evidence CONTENT is copied to session's one authored Git commit.
+- Historical S015 actual ordinary PR19 had authored one-parent 3cb360e, merge 8fb06d6f1cc5f32db19ef23784578ccc0d1df916 with parents f78db4f and3cb360e, tree 88e55d703e159ed79233e5ce7dbaa63fe6068a9a; hosted head/main governance steps success. No competing open PR on S016 entry, rulesets empty, branch protection access UNKNOWN.
+- New method prior art (SRC0038 SAT2023) abstract only, novelty unchecked. No Lean, Palomar, submission, publicity, claims of solved EMP or bound10.
+
+**Hostile verdict:** COMPUTATION_AND_COLD_SMOKE_PASS; ORIGINAL_BIPLANARITY_DECISION_UNCHANGED; NEW_PARTIAL_IMPROVEMENT_ONLY; CHI2_REMAINS_9_TO_12.

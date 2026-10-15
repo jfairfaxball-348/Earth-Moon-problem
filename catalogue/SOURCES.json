@@ -389,5 +389,16 @@
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-15",
     "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee."
+  },
+  {
+    "id": "SRC-0038",
+    "title": "SAT-Based Generation of Planar Graphs",
+    "authors": "Markus Kirchweger, Manfred Scheucher and Stefan Szeider",
+    "year": 2023,
+    "publication_date": "2023-07",
+    "url": "https://doi.org/10.4230/LIPIcs.SAT.2023.14",
+    "access": "ABSTRACT_INSPECTED",
+    "accessed": "2026-10-15",
+    "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth–Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported."
   }
 ]

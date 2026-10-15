@@ -354,3 +354,11 @@ Gerard J. Chang, Lingling Huang, Xuding Zhu (1999), *Circular chromatic numbers 
 ## SRC-0037 — STATEMENT_INSPECTED
 
 Stefan Szeider (2026-09-23), *Biplanar graphs with independence number two are 9-colorable*, arXiv:2609.28102, https://arxiv.org/abs/2609.28102 (accessed 2026-10-15). Primary abstract, introduction and stated Theorem 1 inspected: every biplanar graph with alpha<=2 is 9-colourable. Full proof/certificates not independently checked here; external novelty of S014 methods not established.
+
+## SRC-0038 — ABSTRACT_INSPECTED
+
+Markus Kirchweger, Manfred Scheucher, Stefan Szeider (2023), *SAT-Based Generation of Planar Graphs*, DOI 10.4230/LIPIcs.SAT.2023.14.
+
+https://doi.org/10.4230/LIPIcs.SAT.2023.14
+
+Publisher abstract inspected 2026-10-15: eager planarity encodings, lazy Kuratowski obstructions and SAT modulo symmetries are applied to the Earth–Moon problem. No independent full article/proof/programme original-219 certificate inspection; this is methodological prior art, not an S016 new exclusion.

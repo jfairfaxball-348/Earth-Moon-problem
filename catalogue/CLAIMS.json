@@ -706,5 +706,14 @@
       "SRC-0014"
     ],
     "notes": "Necessary constraints only; 7525 exact binomial expression, no scientific enumeration or layer certificate. No full18-vertex exclusion."
+  },
+  {
+    "id": "CLM-0081",
+    "claim": "For an exact edge-disjoint partition of a simple n-vertex m-edge biplanar graph G into planar layers E1,E2 (n>=3), both layer sizes lie between max(0,m-(3n-6)) and min(m,3n-6). In particular original rows 156 (24,128), 3/9 (26,135), 173 (25,133) force 62..66, 63..72, 64..69 edges in EACH layer respectively.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Elementary Euler corollary via |E1|+|E2|=m, each layer <=3n-6. Necessary only, not sufficient; explicitly non-novel and not yet added to the S016 SAT solver. Next S017 target is to add/check this constraint and its CNF encoding."
   }
 ]
