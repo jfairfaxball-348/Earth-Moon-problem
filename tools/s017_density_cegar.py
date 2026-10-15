@@ -24,6 +24,10 @@ def counter_clauses(m, low, high, first_id):
     top = first_id
     result = []
     for kind, k in [('atleast',low),('atmost',high)]:
+        # Do not call PySAT for vacuous constraints: some CardEnc versions
+        # return an empty CNF with nv=0 instead of preserving top_id.
+        if (kind == 'atleast' and k == 0) or (kind == 'atmost' and k == m):
+            continue
         part = getattr(CardEnc,kind)(lits=list(range(1,m+1)), bound=k,
                                   top_id=top, encoding=EncType.seqcounter)
         assert part.nv >= top
