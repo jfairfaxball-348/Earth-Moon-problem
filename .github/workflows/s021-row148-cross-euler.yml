@@ -1,0 +1,68 @@
+name: S021 original148 cross Euler exact search (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S021-row148-cross-euler]
+    paths:
+      - 'tools/s021_row148_cross_euler.py'
+      - '.github/workflows/s021-row148-cross-euler.yml'
+      - 'campaigns/CAM-0023.md'
+permissions:
+  contents: write
+jobs:
+  original-148-serial:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile source and identify immutable inputs
+        run: |
+          python -m py_compile tools/s021_row148_cross_euler.py
+          sha256sum tools/s021_row148_cross_euler.py campaigns/CAM-0023.md .github/workflows/s021-row148-cross-euler.yml validation/S020/row148_best_partial.json validation/S020/row148_lemmas.json.gz
+      - name: Pinned environment build
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory fresh 271 plus K9 proof smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: One original graph148 and one 12GiB worker
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=30s 1050s .venv/bin/python -u tools/s021_row148_cross_euler.py
+      - name: Preserve source results and resumed original-only cuts on never-merged WIP
+        if: always()
+        run: |
+          mkdir -p validation/S021-WIP
+          cp artifacts/tmp/S021/result.json validation/S021-WIP/result.json || true
+          cp artifacts/tmp/S021/row148_best_partial.json validation/S021-WIP/row148_best_partial.json || true
+          cp artifacts/tmp/S021/row148_lemmas.json.gz validation/S021-WIP/row148_lemmas.json.gz || true
+          cp artifacts/tmp/S021/LOCAL_EULER.json validation/S021-WIP/LOCAL_EULER.json || true
+          cp artifacts/tmp/S021/CROSS_EULER.json validation/S021-WIP/CROSS_EULER.json || true
+          cp artifacts/tmp/S021/CROSS_DIRECT_OBSTRUCTION_TO_REAUDIT.json validation/S021-WIP/CROSS_DIRECT_OBSTRUCTION_TO_REAUDIT.json || true
+          cp artifacts/tmp/S021/row148.split.json validation/S021-WIP/row148.split.json || true
+          cp artifacts/tmp/S021/positive.json validation/S021-WIP/positive.json || true
+          cp artifacts/tmp/S021/row148_native.drat.gz validation/S021-WIP/row148_native.drat.gz || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S021-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S021-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S021-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S021 original148 cold-smoke science and evidence (never merge)'
+            git push origin HEAD:wip/S021-row148-cross-euler
+          fi
+      - name: Upload scientific evidence for independent replay
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S021-CAM0023-original148
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/S021/*.json
+            artifacts/tmp/S021/*.gz
+            artifacts/tmp/S021/*.edges
