@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S015",
-  "recommended_next_session": "S016",
+  "last_completed_session": "S016",
+  "recommended_next_session": "S017",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S015_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S016_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S015 CAM0017 all original219 biplanarity-UNKNOWN original χ10 graphs received 3 fresh heuristic attempts each (657), plus 20 two-edge ejection depth and independent row156 Kuratowski CEGAR: UNKNOWN after196 iterations,31959 lemmas. Zero complete split and zero new negative certificates. Original271=52 NONBIPLANAR,219 UNKNOWN. New closest partial rows3,9,173 at11 missing; S011 historical row156 also11 missing (S015 row156 best16).",
+  "candidate_10_11_12": "S016 CAM0018 GitHub Actions full new smoke PASS; CEGAR original rows156,3,9,173 capped UNKNOWN (139/88/87/91 iterations, 70424/47625/47159/47050 lemmas); 11 new-seed positive rows, best original row148 missing10 (improved from S015 12); no full split/no independently checked negative; historical 52 NONBIPLANAR/219 BIPLANARITY_UNKNOWN unchanged.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S015 CAM0017 completed 657 new heuristic attempts across all219 originals; 20 Kuratowski double-ejection depth; exact row156 UNKNOWN after196 iterations/31959 lemmas; original all219 still UNKNOWN. S016 must directly escalate proof-producing exact original graph split checking, prioritise source rows3,9,173 and inherited row156; preserve all statuses, no pivot unless owner directs.",
+    "S016 finished: four capped CEGAR original rows156,3,9,173; 11 positive searches including new row148 10-unplaced; zero complete split/negative proof. ALL219 still unresolved. S017 MUST retain owner D051 original pool, implement density-balanced exact CNF (CLM0081) with checked encoding and independently certified DRAT if UNSAT, rotation/backtracking positive algorithm, prioritize row148 and 156/3/9/173; no autonomous pivot.",
     "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
     "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
     "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 r6 closed, S014 edge-altered cores/r7/stronger planar pair.",
@@ -98,9 +98,9 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S015-219-recheck",
-  "latest_session_entry_main": "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
-  "latest_session_integration": "PREMERGE_RECORD_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
+  "latest_session_branch": "session/S016-original-proof-escalation",
+  "latest_session_entry_main": "8fb06d6f1cc5f32db19ef23784578ccc0d1df916",
+  "latest_session_integration": "PREMERGE_S016_ONE_AUTHORED_COMMIT_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -172,7 +172,8 @@
     "CLM-0077",
     "CLM-0078",
     "CLM-0079",
-    "CLM-0080"
+    "CLM-0080",
+    "CLM-0081"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -470,5 +471,37 @@
     "same_job_smoke": "PASS_271_271_K9_RETAINED_AND_FRESH",
     "artifact_compact_copy": "validation/S015/REMOTE_SEARCH_RESULT.json",
     "next_s016_authority": "D047_PROMPT_INVOCATION"
+  },
+  "s015_integration_verified": {
+    "pr": 19,
+    "authored_commit": "3cb360e566dd2385444120ffbb87283e66e29b1b",
+    "sole_parent": "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
+    "merge_commit": "8fb06d6f1cc5f32db19ef23784578ccc0d1df916",
+    "merge_parents": [
+      "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
+      "3cb360e566dd2385444120ffbb87283e66e29b1b"
+    ],
+    "tree": "88e55d703e159ed79233e5ce7dbaa63fe6068a9a",
+    "head_governance_run": 38708333443,
+    "head_job": 116333213820,
+    "main_governance_run": 38708441233,
+    "main_job": 116333576198,
+    "conclusion": "BOTH_SUCCESS_GOVERNANCE_ONLY"
+  },
+  "s016_science": {
+    "run_id": 38709598417,
+    "job_id": 116337412334,
+    "artifact_id": 11959789654,
+    "artifact_digest": "sha256:9a5ffc7674affec601dc6566b35157e30e72638aa310540605c76601383d3070",
+    "wip_base_commit": "e8afcaeca4edd73fe1c6a9629e346d652c0e77c5",
+    "wip_preservation_commit": "9499aaed9af6c02e096a86651ce364019df966e0",
+    "verdict": "NO_CHECKED_NEW_POSITIVE_OR_NEGATIVE",
+    "full_smoke_verified": 271,
+    "partition_counts": {
+      "ATTEMPTED_STILL_UNKNOWN": 7,
+      "CAPPED": 4,
+      "NOT_RUN": 208
+    },
+    "original_219_final": "UNCHANGED_BIPLANARITY_UNKNOWN"
   }
 }

@@ -1,0 +1,10 @@
+# S016 original-edge exactness and new elementary layer budget
+
+## CLM-0081 (PROGRAMME_PROVED but elementary, not novel)
+Let G be a simple n-vertex m-edge graph with n>=3 and a partition E(G)=E1 ⊔ E2 such that (V,E1),(V,E2) are planar. By the planar Euler inequality each layer satisfies |Ej|<=3n-6. Since |E1|+|E2|=m, we obtain |Ej|>=m-(3n-6). Also 0<=|Ej|<=m; combine to get max(0,m-(3n-6))<=|Ej|<=min(m,3n-6). This necessary condition does NOT establish sufficient planarity, nonbiplanarity, improved χ₂, a new general theorem, or a complete SAT encoding. Current code tools/biplanar_cegar.py does NOT enforce these bounds. For row156 (n24,m128), each layer has62..66 edges; row3/9 (n26,m135) each63..72; row173 (n25,m133) each64..69. S017 must separately audit the correctness of its proposed cardinality encoder before relying on UNSAT.
+
+## Original-edge Kuratowski CEGAR reasoning and limitation
+Each original labelled edge e gets exactly one Boolean x_e assigning it to E1 or E2. For any actual Kuratowski subdivision K of G, a valid biplanar partition cannot make K all true or all false, so the two clauses (∨e∈K x_e) and (∨e∈K ¬x_e) are valid NECESSARY conditions. Preserving sound graph automorphism maps of each subdivision retains validity. A SAT model with both layers independently confirmed planar yields an exact split. SAT models satisfying only accumulated cuts are mere RELAXATION witnesses; raw CEGAR UNKNOWN after finite iterations proves nothing negative. A solver UNSAT would require an exported audited CNF and independently checked complete solver proof. The S016 four CEGAR runs all returned UNKNOWN, so no nonbiplanarity proof exists this session.
+
+## Quantitative nearest positive source
+The S016 eleven-row fresh-seed/two-ejection heuristic produced no exact edge partition. Original row148 improved from S015 partial missing12 to new missing10, but the missing edges make E1∪E2≠E(G), and thus it is NOT a biplanar witness. This is a search signal only. S015/S011 older minima remain historical, e.g. original row156 historical 11 missing vs S016 13.

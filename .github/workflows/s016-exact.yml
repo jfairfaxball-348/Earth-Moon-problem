@@ -1,0 +1,54 @@
+name: S016 exact original graph checks (unmerged WIP)
+on:
+  push:
+    branches: [wip/S016-exact-originals]
+permissions:
+  contents: write
+jobs:
+  original-graph-search:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preregistered scope and syntax
+        run: |
+          test -f campaigns/CAM-0018.md
+          python -m py_compile tools/s016_exact_originals.py
+          sha256sum tools/s016_exact_originals.py campaigns/CAM-0018.md .github/workflows/s016-exact.yml
+      - name: Pinned native toolchain
+        run: bash scripts/cloud_setup.sh
+      - name: Same-job FULL cold smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: CAM-0018 bounded original graph CEGAR and positive search
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=15s 750s .venv/bin/python tools/s016_exact_originals.py
+      - name: Permanently preserve compact evidence on NEVER MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S016-WIP
+          cp artifacts/tmp/S016/result.json validation/S016-WIP/result.json || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S016-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S016-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S016-WIP
+          if ! git diff --cached --quiet; then git commit -m 'WIP S016 preserve actual runner results, NEVER merge'; git push origin HEAD:wip/S016-exact-originals; fi
+      - name: Upload evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S016-CAM0018-evidence
+          if-no-files-found: warn
+          retention-days: 60
+          path: |
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/S016/result.json
+            artifacts/tmp/S016/*.split.json
+            artifacts/tmp/S016/provisional_split.json

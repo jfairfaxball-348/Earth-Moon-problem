@@ -591,3 +591,7 @@ A biplanar 18-vertex graph containing H with induced new-side K7 or K7-e has chi
 ## CLM-0080 — PROGRAMME_PROVED
 
 Remaining hypothetical biplanar chi>=10 H-containing order18 extensions require K7 minus m=2..4 edges, c_i=3+m_i+δ_i, Σδ_i<=4-m. Exactly7525 labelled missing-edge sets, only a combinatorial formula; no cross-incidence search or planar certification run. See research/S014_CONSTRUCTION.md.
+
+## CLM-0081 — PROGRAMME_PROVED (elementary, NOT NOVEL)
+
+For a simple n-vertex m-edge graph with an exact edge-disjoint biplanar partition E1,E2, Euler gives |E_j|<=3n-6 and hence max(0,m-(3n-6))<=|E_j|<=min(m,3n-6). Rows156,3/9,173 require respectively 62..66,63..72,64..69 edges in each planar layer. This does not prove a split exists, disprove biplanarity or improve χ₂; S016 exact SAT did NOT encode these new constraints. Source SRC-0005; proof in research/S016_ORIGINAL_CERTIFICATES.md.
