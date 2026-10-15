@@ -1,0 +1,60 @@
+name: S022 row148 proof-certificate packing (WIP NEVER MERGE)
+on:
+  push:
+    branches: [wip/S022-row148-exact-neighbourhood]
+    paths:
+      - 'tools/s022_row148_obstruction_pack.py'
+      - '.github/workflows/s022-row148-obstruction-pack.yml'
+concurrency:
+  group: EMP-S022-one-heavy-worker
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  obstruction-pack:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile and pin exact source and input
+        run: |
+          python -m py_compile tools/s022_row148_obstruction_pack.py
+          sha256sum tools/s022_row148_obstruction_pack.py validation/S021/row148_best_partial.json campaigns/CAM-0025.md
+      - name: New-job pinned native setup
+        run: bash scripts/cloud_setup.sh
+      - name: New-job FULL 271 original CNF DRAT plus old/fresh K9 smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: One original row148 one 12GiB worker bounded obstruction pack
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=15s 215s .venv/bin/python -u tools/s022_row148_obstruction_pack.py
+      - name: Preserve on WIP only
+        if: always()
+        run: |
+          mkdir -p validation/S022-PACK-WIP
+          cp artifacts/tmp/S022-PACK/* validation/S022-PACK-WIP/ 2>/dev/null || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S022-PACK-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S022-PACK-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S022-PACK-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S022 compact obstruction certificate evidence (never merge)'
+            git push origin HEAD:wip/S022-row148-exact-neighbourhood
+          fi
+      - name: Upload bounded certificate search evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S022-CAM0025-row148-obstructions
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S022-PACK/*
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
