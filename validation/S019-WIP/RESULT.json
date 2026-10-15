@@ -1,0 +1,99 @@
+{
+  "attempts": [
+    {
+      "elapsed_s": 0.7,
+      "free": 24,
+      "initial_lemmas": 19480,
+      "iterations": 3,
+      "new_obstructions": 32,
+      "scope": 24,
+      "seed": 190148,
+      "status": "LOCAL_UNSAT_NOT_GRAPH_NEGATIVE"
+    },
+    {
+      "elapsed_s": 8.0,
+      "free": 36,
+      "initial_lemmas": 19512,
+      "iterations": 25,
+      "new_obstructions": 383,
+      "scope": 36,
+      "seed": 190245,
+      "status": "LOCAL_UNSAT_NOT_GRAPH_NEGATIVE"
+    },
+    {
+      "elapsed_s": 6.9,
+      "free": 48,
+      "initial_lemmas": 19895,
+      "iterations": 22,
+      "new_obstructions": 336,
+      "scope": 48,
+      "seed": 190342,
+      "status": "LOCAL_UNSAT_NOT_GRAPH_NEGATIVE"
+    },
+    {
+      "elapsed_s": 32.5,
+      "free": 64,
+      "initial_lemmas": 20231,
+      "iterations": 93,
+      "new_obstructions": 1472,
+      "scope": 64,
+      "seed": 190439,
+      "status": "LOCAL_UNSAT_NOT_GRAPH_NEGATIVE"
+    },
+    {
+      "elapsed_s": 180.3,
+      "free": 90,
+      "initial_lemmas": 21703,
+      "iterations": 473,
+      "new_obstructions": 7568,
+      "scope": 90,
+      "seed": 190536,
+      "status": "TIME_CAPPED"
+    },
+    {
+      "elapsed_s": 200.3,
+      "free": 110,
+      "initial_lemmas": 29271,
+      "iterations": 503,
+      "new_obstructions": 8048,
+      "scope": 110,
+      "seed": 190633,
+      "status": "TIME_CAPPED"
+    },
+    {
+      "elapsed_s": 430.2,
+      "free": 131,
+      "initial_lemmas": 37319,
+      "iterations": 1027,
+      "new_obstructions": 16428,
+      "scope": 131,
+      "seed": 190730,
+      "status": "TIME_CAPPED"
+    }
+  ],
+  "bag_union_density_constraints": 24,
+  "best_unplaced": 6,
+  "current": {
+    "elapsed_s": 430.2,
+    "free": 131,
+    "initial_lemmas": 37319,
+    "iterations": 1027,
+    "new_obstructions": 16428,
+    "scope": 131,
+    "seed": 190730,
+    "status": "TIME_CAPPED"
+  },
+  "edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "elapsed_s": 866.0,
+  "full_positive": false,
+  "loaded_checked_cuts": 19480,
+  "maxrss_mib": 272.9,
+  "method": "exact-local-reconfiguration-expanding-to-full",
+  "negative_proof_checked": false,
+  "old_cut_archive_sha256": "f363f0b43e0fea9e490ae0097cc4cbce91f2222cc1dde734719e99250522b249",
+  "old_partial_sha256": "84d26168afe440de7815413674f50da389c0c2556fc57131cef09a02b1322880",
+  "row": 148,
+  "run_status": "UNKNOWN_FULL_CERTIFICATE_NOT_OBTAINED",
+  "session": "S019",
+  "smoke": "PASS_271_271_K9"
+}
