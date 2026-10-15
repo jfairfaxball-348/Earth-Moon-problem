@@ -32,10 +32,11 @@ O=ROOT/"artifacts/tmp/S021"
 O.mkdir(parents=True,exist_ok=True)
 SEED=191481
 ROW=148
-SOURCES=["tools/s020_row148_embedding.py","tools/biplanar_cegar.py",
+SOURCES=["tools/s021_row148_cross_euler.py","tools/biplanar_cegar.py",
  "tools/s015_recheck_219.py","tools/check_layers.py",
  "validation/S003/survivors_alpha_ge3.json","validation/S004/chi10_results.json",
- "validation/S010/SUMMARY.json","campaigns/CAM-0023.md",
+ "validation/S010/SUMMARY.json","validation/S020/row148_lemmas.json.gz",
+ "validation/S020/row148_best_partial.json","campaigns/CAM-0023.md",
  ".github/workflows/s021-row148-cross-euler.yml"]
 def digest(p):
     return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
