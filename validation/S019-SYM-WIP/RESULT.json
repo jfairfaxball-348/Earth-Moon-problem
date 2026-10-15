@@ -1,0 +1,20 @@
+{
+  "base_cnf_clauses": 178482,
+  "base_cnf_vars": 32671,
+  "density_subsets": 24,
+  "direct_short_total": 2572,
+  "elapsed_s": 1090.36,
+  "graph_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "iterations": 2072,
+  "loaded_archive_sha256": "a2289a2419ed94af2a5ffa378bf63252252bb3bd6a04e9eeed43f5d668c88a50",
+  "loaded_lemmas": 53747,
+  "maxrss_mib": 702.7,
+  "method": "exact-symmetric-automorphism-lex+sound-Kuratowski-and-density",
+  "negative_proof_checked": false,
+  "new_direct_K5": 298,
+  "new_lemmas": 89106,
+  "positive": false,
+  "row": 148,
+  "status": "UNKNOWN_TIME_CAP",
+  "verified_twin_generators": 17
+}
