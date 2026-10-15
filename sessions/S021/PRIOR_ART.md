@@ -1,0 +1,3 @@
+# S021 PRIOR ART / access limits
+
+SRC-0037 (Szeider 2026) retains STATEMENT_INSPECTED and no independently replayed full proof; SRC-0038 (Kirchweger–Scheucher–Szeider, SAT 2023) remains ABSTRACT_INSPECTED. Existing Euler planar and bipartite-planar edge bounds, subgraph monotonicity, planar completion to triangulations and sequential-counter encodings are standard known ingredients, not claimed original. This session's labelled cross constraints are a reproducible computational implementation and finite necessary filter, not a new lower-bound theorem or priority finding. No fresh independent proof-level literature inspection or novelty claim.

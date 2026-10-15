@@ -53,3 +53,8 @@ One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e
 
 
 S020 (2026-10-15): single original148 fresh pinned native smoke271/271 DRAT/CNF and K9 retained/fresh PASS in [run 38752619733](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38752619733). Bounded reversible insertion 3605 states, six source edges unplaced, exact induced U Euler/Cegar100 selected local bounds/67862 saved checked original obstructions and531s cap UNKNOWN. No certified complete original chi10 biplanar witness or certified new nonbiplanarity; χ₂ classical9..12;52 certified negative and219 original unknown unchanged. Phase1 gate NOT PASSED, all downstream gates unchanged. S021 future.
+
+
+### S021 (2026-10-15): headline gate NOT PASSED
+
+Cross-bipartite Euler necessity (CLM0082) and source-checked120 original SAT bounds, full271+K9 cold smoke run38760699074 PASS. Exact row148 capped at 75653 cuts, best six unplaced; no independently certified full positive or negative. 52/219 and classical9..12 unchanged. S022 retains sole original148 and must pursue genuinely more complete embedding search. Publication and all downstream gates unchanged.

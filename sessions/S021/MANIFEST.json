@@ -1,0 +1,42 @@
+{
+  "session": "S021",
+  "date": "2026-10-15",
+  "entry_main": "bfb82227376b87141f5ac67af00728a255fec3be",
+  "entry_tree": "d387a9ca45191f5c0b6cdd86f73ed21cba46169b",
+  "session_branch": "session/S021-original148-cross-euler",
+  "owner_invocation": "run next session",
+  "science": {
+    "run": 38760699074,
+    "job": 116511416069,
+    "wip_branch": "wip/S021-row148-cross-euler",
+    "wip_source_commit": "ce7560ae08e1ce3e546db645721a1af5271410c7",
+    "wip_evidence_commit": "7ab9842aa20ed3ce8a3b316044370786946e273f",
+    "artifact_id": 11985384079,
+    "artifact_digest": "sha256:78c5d2e42a25adfc5cd607b6a102ca04cf9a4a47c94394d38cc6b490bd3f6765",
+    "same_job_smoke": "PASS_271_271_CNF_DRAT_OLD_FRESH_K9",
+    "original148_status": "BIPLANARITY_UNKNOWN",
+    "total_sound_kuratowski_lemmas": 75653,
+    "selected_cross_pairs": 120,
+    "independent_cross_source_index_audit": "PASS120",
+    "best_partial_missing": 6,
+    "peak_rss_mib": 495.1
+  },
+  "original_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "positive_complete": false,
+  "negative_proof_checked": false,
+  "status": "UNKNOWN",
+  "original52_certified_negative": 52,
+  "original219_unknown": 219,
+  "science_counts": {
+    "cut_count": 75653,
+    "split_missing": 6,
+    "cross_euler_pairs": 120,
+    "active_pairs": 2692,
+    "sat_iterations": 173,
+    "peak_rss_mib": 495.1
+  },
+  "independent_cross_audit": "PASS_120_OF_120",
+  "s022_next": "FUTURE_UNEXECUTED",
+  "outgoing_pr_merge": "VERIFY_FROM_LIVE_AFTER_COMMIT",
+  "unverified_assumptions": "bounded ejection NOT globally complete; observed SAT CAPPED; no native negative"
+}

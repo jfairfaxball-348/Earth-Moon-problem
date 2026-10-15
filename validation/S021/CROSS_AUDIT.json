@@ -1,0 +1,16 @@
+{
+  "session": "S021",
+  "graph": 148,
+  "source_partial_blob": "aebe86ea337941e07cfb6b4273aa90146fedca10",
+  "cross_constraints_blob": "7dfa8cd4cb389bff8301fb27db893d1c4a5747b2",
+  "independently_checked_crossing_pairs": 120,
+  "passed": 120,
+  "original_edges_checked": 131,
+  "duplicate_edges": 0,
+  "all_disjoint": true,
+  "each_edge_id_verified": true,
+  "each_per_layer_bound_verified": true,
+  "negative_certificate_found": false,
+  "min_total_slack": 7,
+  "audit_method": "reconstruct 131 originals by sorted disjoint S020 E1/E2/unplaced, compare listed IDs to independent A|B crossing condition for each 120 selected sets, check all endpoints, 2s-4 and id range"
+}

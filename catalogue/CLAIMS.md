@@ -595,3 +595,8 @@ Remaining hypothetical biplanar chi>=10 H-containing order18 extensions require 
 ## CLM-0081 — PROGRAMME_PROVED (elementary, NOT NOVEL)
 
 For a simple n-vertex m-edge graph with an exact edge-disjoint biplanar partition E1,E2, Euler gives |E_j|<=3n-6 and hence max(0,m-(3n-6))<=|E_j|<=min(m,3n-6). Rows156,3/9,173 require respectively 62..66,63..72,64..69 edges in each planar layer. This does not prove a split exists, disprove biplanarity or improve χ₂; S016 exact SAT did NOT encode these new constraints. Source SRC-0005; proof in research/S016_ORIGINAL_CERTIFICATES.md.
+
+
+## CLM-0082 — PROGRAMME_PROVED (elementary / non-novel)
+
+For disjoint nonempty A,B with s≥3, the subgraph consisting exclusively of edges crossing A|B within each planar layer is bipartite planar and has at most 2s−4 edges; original G hence has at most4s−8 total crossing edges. Standard Euler fact, *necessary only*, no S021 biplanarity decision. See research/S021_ROW148_CROSS_EULER.md, source SRC-0005, independently verified120 source-indexed cross SAT inequalities.

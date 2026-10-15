@@ -715,5 +715,14 @@
       "SRC-0005"
     ],
     "notes": "Elementary Euler corollary via |E1|+|E2|=m, each layer <=3n-6. Necessary only, not sufficient; explicitly non-novel and not yet added to the S016 SAT solver. Next S017 target is to add/check this constraint and its CNF encoding."
+  },
+  {
+    "id": "CLM-0082",
+    "claim": "In any exact biplanar edge partition of a finite simple graph, for disjoint nonempty labelled A,B with s=|A|+|B|>=3, each planar layer has at most 2s-4 edges strictly crossing A to B, and the original graph has at most 4s-8 total crossing edges. This is a necessary, elementary, non-novel planar bipartite Euler bound.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Proof research/S021_ROW148_CROSS_EULER.md. Not the induced G[A union B] subgraph bound. S021 used 120 source-verified crossing pairs in original131 SAT with fresh necessary sequential counters. No new graph status or global chi2 bound."
   }
 ]
