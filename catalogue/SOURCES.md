@@ -350,3 +350,7 @@ Epoch AI (2026), *The Earth–Moon Problem*; https://epoch.ai/frontiermath/open-
 ## SRC-0036 — ABSTRACT_INSPECTED
 
 Gerard J. Chang, Lingling Huang, Xuding Zhu (1999), *Circular chromatic numbers of Mycielski's graphs*, DOI 10.1016/S0012-365X(99)00033-3, https://doi.org/10.1016/S0012-365X(99)00033-3 (accessed 2026-10-14). Publisher abstract inspected; original Mycielski operation stated. Full proof not inspected; our independent counting proof does not import a contested statement.
+
+## SRC-0037 — STATEMENT_INSPECTED
+
+Stefan Szeider (2026-09-23), *Biplanar graphs with independence number two are 9-colorable*, arXiv:2609.28102, https://arxiv.org/abs/2609.28102 (accessed 2026-10-15). Primary abstract, introduction and stated Theorem 1 inspected: every biplanar graph with alpha<=2 is 9-colourable. Full proof/certificates not independently checked here; external novelty of S014 methods not established.

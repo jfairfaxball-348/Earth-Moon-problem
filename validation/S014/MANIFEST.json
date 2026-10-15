@@ -1,0 +1,32 @@
+{
+  "session": "S014",
+  "record_kind": "AUTHORED_SINGLE_COMMIT_PREMERGE",
+  "entry_main": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+  "entry_tree": "08fa38266c6e0b90291d00e1f673b755bedc06fd",
+  "s013_pr": 16,
+  "s013_merge": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+  "s013_merge_tree": "08fa38266c6e0b90291d00e1f673b755bedc06fd",
+  "s013_parents": [
+    "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+    "e8f6791addec039a1a9ca575e5022823b3b5e98d"
+  ],
+  "open_pr_at_entry": 0,
+  "rulesets": [],
+  "main_branch_protection": "403_UNKNOWN",
+  "hosted_s013_pr_governance_run": 38640962127,
+  "hosted_s013_main_governance_run": 38641064088,
+  "authorisation": "Owner Run next session, GitHub project repo; D047",
+  "session_branch": "session/S014-seven-vertex-hall-closure",
+  "cloud_smoke": "NOT_RUN_NO_SCIENTIFIC_COMPUTATIONS",
+  "scientific_jobs": [],
+  "new_no9_proofs": 0,
+  "source_index_pair": "UPDATED",
+  "claims_index_pair": "UPDATED",
+  "outgoing": {
+    "authored_commit": "OBSERVE_AFTER_CREATE",
+    "pr": "OBSERVE",
+    "merge": "OBSERVE",
+    "postmerge_check": "OBSERVE"
+  },
+  "next_prompt": "S015_FUTURE_UNEXECUTED"
+}

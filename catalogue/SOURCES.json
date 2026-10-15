@@ -378,5 +378,16 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-14",
     "note": "Primary publisher abstract describes ordinary Mycielski lift and chi(M(G))=chi(G)+1. S011 density-filter argument is independent of that chromatic identity; full article proof not inspected. No novelty determination."
+  },
+  {
+    "id": "SRC-0037",
+    "title": "Biplanar graphs with independence number two are 9-colorable",
+    "authors": "Stefan Szeider",
+    "year": 2026,
+    "publication_date": "2026-09-23",
+    "url": "https://arxiv.org/abs/2609.28102",
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-15",
+    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee."
   }
 ]

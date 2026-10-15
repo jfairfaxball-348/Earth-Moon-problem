@@ -579,3 +579,15 @@ Every biplanar G on <=17 vertices containing Sulanke H as ANY subgraph has chi(G
 
 ## CLM-0077 — COMPUTED_EXACT
 GitHub Actions CAM0016 run38639416513 job116110828710 generated eighty 17v unions of actually planar edge-disjoint layers, LR+component rotation/Euler+proper colouring checked. Retained 17v90e 45+45 split with proper8 colour in validation/S013/layer_pair_control.json. Forty-eight tested two-edge modifications of six source blowups all partial, best12 unplaced, never classified nonbiplanar. Same-job full D043 smoke PASS 271/271 and native K9. No 10-chromatic split.
+
+## CLM-0078 — PROGRAMME_PROVED
+
+H=K6∨C5 is nine-chromatic and any single original edge deletion permits an eight-colouring, in three automorphism edge orbits (K6, join, cycle). See research/S014_CONSTRUCTION.md. This does not preserve non9 under rewiring.
+
+## CLM-0079 — PROGRAMME_PROVED
+
+A biplanar 18-vertex graph containing H with induced new-side K7 or K7-e has chi=9. CLM0076 deletion-critical degree condition, Euler deficit, Hall's theorem and old-C5 singleton recolouring show nine-colourability unless it contains forbidden K9. Full proof research/S014_CONSTRUCTION.md. Not all order18 graphs.
+
+## CLM-0080 — PROGRAMME_PROVED
+
+Remaining hypothetical biplanar chi>=10 H-containing order18 extensions require K7 minus m=2..4 edges, c_i=3+m_i+δ_i, Σδ_i<=4-m. Exactly7525 labelled missing-edge sets, only a combinatorial formula; no cross-incidence search or planar certification run. See research/S014_CONSTRUCTION.md.

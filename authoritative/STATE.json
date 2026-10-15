@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-14",
-  "last_completed_session": "S013",
-  "recommended_next_session": "S014",
+  "as_of": "2026-10-15",
+  "last_completed_session": "S014",
+  "recommended_next_session": "S015",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S013_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S014_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S013 CLM0074-0076 closes all Sulanke-H subgraph anchored biplanar chi10 candidates up to17 vertices by Hall/K9; CAM0016 produced 48 incomplete multi-edge partials and80 actual planar pairs (17v90e, proper8 control), no chi10 biplanar witness; fixed271 still52 NONBIPLANAR and219 UNKNOWN.",
+  "candidate_10_11_12": "S014 CLM0079 closes H-containing 18v biplanar chi10 with new-side K7/K7-e; m2..4 and 7525 labelled missing-edge patterns remain unenumerated. Original271 fixed exactchi10 candidates:52 independently NONBIPLANAR,219 UNKNOWN. S014 no numerical jobs (no local pinned smoke).",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,6 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
     "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
     "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 r6 closed, S014 edge-altered cores/r7/stronger planar pair.",
     "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
@@ -96,8 +97,8 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S013-tight-sulanke-and-layer-first",
-  "latest_session_entry_main": "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+  "latest_session_branch": "session/S014-seven-vertex-hall-closure",
+  "latest_session_entry_main": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
   "latest_session_integration": "PREMERGE_RECORD_VERIFY_LIVE_POSTMERGE_NO_GUESSED_SHA",
   "mathematical_results": [
     "CLM-0007",
@@ -167,7 +168,10 @@
     "CLM-0074",
     "CLM-0075",
     "CLM-0076",
-    "CLM-0077"
+    "CLM-0077",
+    "CLM-0078",
+    "CLM-0079",
+    "CLM-0080"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -416,5 +420,20 @@
     "artefact_id": 11930170810,
     "artefact_digest": "sha256:23477d4f8d9f94878248a86a197fe5af518e2988ab951711cab2481480b72e18",
     "fixed_219_unknown": true
+  },
+  "s013_integration_verified": {
+    "authored_commit": "e8f6791addec039a1a9ca575e5022823b3b5e98d",
+    "sole_parent": "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+    "pr": 16,
+    "merge_commit": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+    "merge_parents": [
+      "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+      "e8f6791addec039a1a9ca575e5022823b3b5e98d"
+    ],
+    "tree": "08fa38266c6e0b90291d00e1f673b755bedc06fd",
+    "pr_hosted_run": 38640962127,
+    "main_hosted_run": 38641064088,
+    "protection": "UNKNOWN_403",
+    "rulesets": []
   }
 }
