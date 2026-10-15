@@ -1,0 +1,61 @@
+name: S022 row148 exact bounded neighbourhood (WIP NEVER MERGE)
+on:
+  push:
+    branches: [wip/S022-row148-exact-neighbourhood]
+    paths:
+      - 'tools/s022_row148_exact_neighbourhood.py'
+      - '.github/workflows/s022-row148-exact-neighbourhood.yml'
+concurrency:
+  group: EMP-S022-one-heavy-worker
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  serial-148:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile pinned search source
+        run: |
+          python -m py_compile tools/s022_row148_exact_neighbourhood.py
+          sha256sum tools/s022_row148_exact_neighbourhood.py validation/S021/row148_best_partial.json campaigns/CAM-0024.md
+      - name: Install pinned cold environment
+        run: bash scripts/cloud_setup.sh
+      - name: Full independent original 271 and K9 cold smoke before science
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Sole graph148 one heavy process 12GiB
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=20s 950s .venv/bin/python -u tools/s022_row148_exact_neighbourhood.py
+      - name: Preserve exact research evidence on WIP branch only
+        if: always()
+        run: |
+          mkdir -p validation/S022-WIP
+          cp artifacts/tmp/S022/*.json validation/S022-WIP/ 2>/dev/null || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S022-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S022-WIP/ENVIRONMENT.json || true
+          cp artifacts/tmp/S022/row148.edges validation/S022-WIP/row148.edges || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S022-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S022 row148 serial exact search evidence (never merge)'
+            git push origin HEAD:wip/S022-row148-exact-neighbourhood
+          fi
+      - name: Upload science evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S022-CAM0024-original148
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S022/*
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json

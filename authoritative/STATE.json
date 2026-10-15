@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-15",
-  "last_completed_session": "S021",
-  "recommended_next_session": "S022",
+  "last_completed_session": "S022",
+  "recommended_next_session": "S023",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S021_D042",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S022_D042",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S020 CAM0022 same-job 271/271 CNF+DRAT/K9 PASS; original148 obstruction-guided insertion 3605 states/220s best six missing; 100 induced Euler sets +28972 clauses/14580 aux, original CEGAR 294 iters/531s cuts54697->67862, capped UNKNOWN, no native negative and no complete original split; original52 NONBIPLANAR/219 UNKNOWN; chi2 classical9..12.",
+  "candidate_10_11_12": "S022 exact original148 radius0-3 all 325626 fixed-partial switch subsets exhausted with no full split; secondary Kuratowski disjoint-support packing A2/B1 unsuccessful; globally original148 BIPLANARITY_UNKNOWN. Cumulative original52 certified NONBIPLANAR/219 UNKNOWN; chi2 classical9..12.",
   "universal_improved_upper_bound": "NONE_PROVED; OUT_OF_SCOPE_SINCE_D042",
   "phases": [
     {
@@ -83,6 +83,8 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S022 secondary CAM0025 found source-checked disjoint nonplanar obstruction packs A2, B1 around edge(0,1), but no four-per-side certificate. Four on side A impossible because vertex1 baseline layer A has only three incident edges other than target. Original remains UNKNOWN.",
+    "S022: 325626 exact local radius<=3 flipsets from 125-placed/6-unplaced original148 source fully exhausted, but no full original biplanar split, no checked global negative. S023 needs global rotation/triangulation-cover SAT/branching proof. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598; inherited 75653 Kuratowski cuts persist.",
     "S021 scientific result: original148 still BIPLANARITY_UNKNOWN after one 12GiB Actions runner run38760699074: 271+K9 cold smoke PASS; insertion2295 nodes/130s best SIX unplaced; exact 173 iterations/300s, 67862 old checked cuts ->75653 total; cross A,B 120 selected out of8025, 120 independently recomputed crossing index records PASS; peak495MiB; no complete split / checked native negative. S022 must pursue embedding-complete algorithm and checkpoint reuse on same original row.",
     "S021: independently audit S020 true 67862 saved original Kuratowski cuts / induced Euler 100-set construction; row148 remains sole original. Need cross-bipartite Euler |E_i(A,B)|<=2(|A|+|B|)-4, potentially direct density obstruction or necessary CNF, plus more complete explicit rotation/triangulation-cover exact solver with q+r=7. New same-job 271+K9 smoke, one 12GiB worker, preserve all proofs; no switch until certified.",
     "S020 must continue same original row148 unless actual accepted source-certified positive/negative changes priority. S019 resumed six-unplaced partial, 54697 sound original Kuratowski cuts, original Euler 62..69 sequential-counter base 17098 clauses/8687 CNF vars; no complete positive or checked negative, no transfer or wider search. Need genuinely new seven-defect triangulation-cover/rotation embedding approach or local Euler cuts plus bounded proof-checked negative, same-job cold smoke.",
@@ -102,9 +104,9 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S021-original148-cross-euler",
-  "latest_session_entry_main": "bfb82227376b87141f5ac67af00728a255fec3be",
-  "latest_session_integration": "S021_ONE_AUTHORED_COMMIT_PENDING_POST_COMMIT_LIVE_PR_TWO_PARENT_TREE_AND_CHECKS_VERIFICATION",
+  "latest_session_branch": "session/S022-original148-exact-neighbourhood",
+  "latest_session_entry_main": "8bd915e520ce66ddde047dc3c45ef5d5cc3751c6",
+  "latest_session_integration": "PENDING_LIVE_PR_MERGE_RECONCILIATION",
   "mathematical_results": [
     "CLM-0007",
     "CLM-0009",
@@ -177,7 +179,10 @@
     "CLM-0078",
     "CLM-0079",
     "CLM-0080",
-    "CLM-0081"
+    "CLM-0081",
+    "CLM-0082",
+    "CLM-0083",
+    "CLM-0084"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -442,7 +447,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S022: sole original graph148 still UNKNOWN; S021 75653 saved cuts +120 cross Euler conditions, six unplaced; focus genuinely embedding-complete route, cost-aware state dominance, proof checked positive/negative, no new original unless certified.",
+  "next_session_priority": "S023: sole original graph148 global embedding-complete exact algorithm or full checked negative; no shallow local radius repetition or new original before objective decision.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -533,7 +538,7 @@
   "next_session_serial_219_policy": {
     "decision": "D054",
     "date": "2026-10-15",
-    "status": "S021_EXECUTED_S022_QUEUED",
+    "status": "S022_EXECUTED_S023_QUEUED",
     "source": "docs/S018_SERIAL_219_DIRECTIVE.md",
     "active_original_index": 148,
     "active_original_source": "FIXED_271_EXACT_CHI10_CORPUS",
@@ -552,7 +557,7 @@
     "research_executed": true,
     "best_saved_partial_missing": 6,
     "cut_checkpoint_count": 75653,
-    "algorithmic_next": "EMBEDDING_COMPLETE_OR_STRONGER_PROOF_CERTIFICATE_ROW148"
+    "algorithmic_next": "GLOBAL_EXACT_EMBEDDING_CERTIFICATE_ROW148"
   },
   "s018_science": {
     "run_id": 38721673690,
@@ -611,5 +616,39 @@
     "independent_cross_source_index_audit": "PASS120",
     "best_partial_missing": 6,
     "peak_rss_mib": 495.1
+  },
+  "s022_science": {
+    "original_row": 148,
+    "globally_decided": false,
+    "local": {
+      "run": 38765947247,
+      "job": 116529044333,
+      "artifact_id": 11990226672,
+      "source_wip": "9a6ddc38ff1630386ba443151b0b47daf66062a7",
+      "evidence_wip": "1531e5133aa1805fb2cca0f145b21c4472a49249",
+      "full_same_job_smoke": true,
+      "radii_completed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subsets": 325626,
+      "seconds": 305.53,
+      "peak_rss_mib": 39.4
+    },
+    "obstruction_pack": {
+      "run": 38767507306,
+      "job": 116534444118,
+      "artifact_id": 11990945110,
+      "source_wip": "e394c96637f0d684e32466a4eb5e01d6b31a89b3",
+      "evidence_wip": "83f6a058b2349edba07ef875aaaaf9b36a04dbd8",
+      "full_same_job_smoke": true,
+      "A": 2,
+      "B": 1,
+      "seconds": 175.05
+    },
+    "original52_certified_nonbiplanar": 52,
+    "original219_unknown": 219
   }
 }

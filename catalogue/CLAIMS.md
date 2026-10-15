@@ -600,3 +600,12 @@ For a simple n-vertex m-edge graph with an exact edge-disjoint biplanar partitio
 ## CLM-0082 — PROGRAMME_PROVED (elementary / non-novel)
 
 For disjoint nonempty A,B with s≥3, the subgraph consisting exclusively of edges crossing A|B within each planar layer is bipartite planar and has at most 2s−4 edges; original G hence has at most4s−8 total crossing edges. Standard Euler fact, *necessary only*, no S021 biplanarity decision. See research/S021_ROW148_CROSS_EULER.md, source SRC-0005, independently verified120 source-indexed cross SAT inequalities.
+
+
+## CLM-0083 — PROGRAMME_PROVED (elementary / non-novel)
+
+For fixed disjoint labelled A,B,U partitioning E(G), every complete two-layer edge assignment uniquely corresponds to the set F of baseline-placed edges changing sides together with one of two layer choices for each edge of U. Thus exactly `binom(|A|+|B|,r)·2^|U|` complete assignments differ on exactly r baseline-placed edges. Planarity is hereditary under edge deletion: any nonplanar layer prefix in the exhaustive branching cannot become planar by adding remaining edges. Consequently fully exhausted radii rigorously describe that restricted labelled neighbourhood, **never** unrestricted original nonbiplanarity. See research/S022_ROW148_EXACT_NEIGHBOURHOOD.md.
+
+## CLM-0084 — COMPUTED_EXACT (restricted radius, non-novel)
+
+S022 CAM-0024 [run38765947247](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38765947247) completed exactly r=0,1,2,3 switchsets around the original148 frozen 62+63+6 partial: **1 + 125 + 7,750 + 317,750 = 325,626** distinct switch subsets, with all six unplaced edge placement possibilities explored or soundly pruned by nonplanarity. All radii marked EXHAUSTED_LOCAL_RADIUS with zero completed split; first unplaced (0,1) had no planar placement at any surviving baseline state. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598, elapsed305.53s, peak39.4MiB; same-job 271/271 original CNF/native DRAT and K9 smoke PASS. This COMPUTED_EXACT finite search is not a checker-independent full original negative, does not classify graph148, and does not change 52 certified NONBIPLANAR/219 UNKNOWN or χ₂ classical9..12.

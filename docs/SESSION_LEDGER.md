@@ -47,3 +47,6 @@ One original row148 only; source/action WIP b424d01e0539f57df09ef5713b42d948ff1e
 
 
 | S021 | 2026-10-15 | Sole original row148, CAM0023 120 sound cross-bipartite Euler A,B SAT bounds, resumed S020 source cuts and bounded insertion | Same-job full native 271+K9 smoke PASS [run38760699074](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38760699074). Source row148 n25m131, 2295 insertion nodes/130s best SIX missing, cross source indices independently PASS120/120, SAT CEGAR 173 iterations/300s, 67862 old→75653 saved Kuratowski cuts, peak495.1MiB. No checked original positive or negative; 52 NONBIPLANAR/219 UNKNOWN, χ₂ 9..12 unchanged. | SCIENCE CLOSED UNKNOWN; S022 FUTURE |
+
+
+| S022 | 2026-10-15 | CAM0024 one original row148 exact fixed-partial Hamming radius0..3 + CAM0025 obstruction packing; same-job pinned native271+K9 smoke twice | Exhausted325626 flipsets, no full split; support packing A2/B1 incomplete. Original row148 globally UNKNOWN, original52 certified NONBIPLANAR/219 UNKNOWN and χ₂9..12 unchanged | Science jobs38765947247 and38767507306 both SUCCESS; S023 queued global exact embedding route |

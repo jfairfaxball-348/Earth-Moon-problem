@@ -724,5 +724,23 @@
       "SRC-0005"
     ],
     "notes": "Proof research/S021_ROW148_CROSS_EULER.md. Not the induced G[A union B] subgraph bound. S021 used 120 source-verified crossing pairs in original131 SAT with fresh necessary sequential counters. No new graph status or global chi2 bound."
+  },
+  {
+    "id": "CLM-0083",
+    "claim": "For a fixed labelled partial edge decomposition A,B,U with disjoint union E(G), every complete two-layer assignment corresponds uniquely to a switch subset F of A union B and one binary destination for each edge of U; planarity is preserved by edge deletion, so a branch that creates a nonplanar partial layer cannot be completed by adding edges. Exhaustively enumerating every F of a fixed cardinality r and all U choices therefore decides only that Hamming neighbourhood, not global biplanarity.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Elementary exact labelled finite enumeration proof in research/S022_ROW148_EXACT_NEIGHBOURHOOD.md; non-novel. No symmetry reductions or cost dominance; q+r=7 triangulation COVER is not a switch budget."
+  },
+  {
+    "id": "CLM-0084",
+    "claim": "S022 CAM-0024 GitHub Actions run38765947247 checked all 325626 switch subsets with exactly 0,1,2,3 baseline placement reassignments of original row148 six-unplaced 62+63 partial (1,125,7750,317750 respectively); in all these restricted neighbourhoods no complete biplanar split was found. The original global biplanarity verdict stays UNKNOWN.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Deterministic no-symmetry complete bounded enumeration on immutable 131-edge original graph, SHA256 4f8dab...; same-job 271 original native DRAT/CNF and retained/fresh K9 smoke PASS; 305.53 seconds, 39.4MiB RSS. Reproducible source tools/s022_row148_exact_neighbourhood.py and validation/S022; single implementation/planarity library, cold second-method replay remains desirable. Not a certified original graph negative or improved Earth-Moon bound."
   }
 ]

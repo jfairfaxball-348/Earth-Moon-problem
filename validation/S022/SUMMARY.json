@@ -1,0 +1,987 @@
+{
+  "session": "S022",
+  "date": "2026-10-15",
+  "active_original_row": 148,
+  "vertices": 25,
+  "edges": 131,
+  "immutable_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "original_partial": {
+    "E1": 62,
+    "E2": 63,
+    "missing": 6
+  },
+  "primary": {
+    "run": 38765947247,
+    "job": 116529044333,
+    "artifact_id": 11990226672,
+    "artifact_digest": "sha256:37b9f2d9087ea050b990832b46dfb66fd2fd9fb31ac07eaada211471bd0ee43b",
+    "wip_source": "9a6ddc38ff1630386ba443151b0b47daf66062a7",
+    "wip_evidence": "1531e5133aa1805fb2cca0f145b21c4472a49249",
+    "same_job_smoke": "PASS271_CNF_DRAT_OLD_FRESH_K9",
+    "elapsed_seconds": 305.53,
+    "peak_rss_mib": 39.4,
+    "radii": {
+      "0": {
+        "base_nonplanar": 0,
+        "base_planar": 1,
+        "complete_assignments": 0,
+        "enumerated_flip_subsets": 1,
+        "insertion_nodes": 1,
+        "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+        "nonplanar_prunes": 2,
+        "possible_flip_subsets": 1,
+        "status": "EXHAUSTED_LOCAL_RADIUS"
+      },
+      "1": {
+        "base_nonplanar": 117,
+        "base_planar": 8,
+        "complete_assignments": 0,
+        "enumerated_flip_subsets": 125,
+        "insertion_nodes": 8,
+        "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+        "nonplanar_prunes": 16,
+        "possible_flip_subsets": 125,
+        "status": "EXHAUSTED_LOCAL_RADIUS"
+      },
+      "2": {
+        "base_nonplanar": 7717,
+        "base_planar": 33,
+        "complete_assignments": 0,
+        "enumerated_flip_subsets": 7750,
+        "insertion_nodes": 33,
+        "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+        "nonplanar_prunes": 66,
+        "possible_flip_subsets": 7750,
+        "status": "EXHAUSTED_LOCAL_RADIUS"
+      },
+      "3": {
+        "base_nonplanar": 317656,
+        "base_planar": 94,
+        "complete_assignments": 0,
+        "enumerated_flip_subsets": 317750,
+        "insertion_nodes": 94,
+        "mathematical_scope": "exactly this many original placed edges reassigned; all 6 missing assigned",
+        "nonplanar_prunes": 188,
+        "possible_flip_subsets": 317750,
+        "status": "EXHAUSTED_LOCAL_RADIUS"
+      }
+    },
+    "source_code_sha256": "e90f60490d3910d7eb84b4b49814b724e8283bc56e057f687517ba6f3fdb83bc",
+    "native_sha256": {
+      "cadical": "a9853c4807e0055533ec136553dd2a540b515789c00d65852edc52313eb49b93",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "status": "LOCAL_NEIGHBOURHOODS_EXHAUSTED_GLOBAL_UNKNOWN"
+  },
+  "secondary": {
+    "run": 38767507306,
+    "job": 116534444118,
+    "artifact_id": 11990945110,
+    "artifact_digest": "sha256:10146f6a6cd720d80e8a57ac842970f2060c65cea46e00935ebc4915de494f2f",
+    "wip_source": "e394c96637f0d684e32466a4eb5e01d6b31a89b3",
+    "wip_evidence": "83f6a058b2349edba07ef875aaaaf9b36a04dbd8",
+    "same_job_smoke": "PASS271_CNF_DRAT_OLD_FRESH_K9",
+    "elapsed_seconds": 175.05,
+    "peak_rss_mib": 36.8,
+    "best_disjoint_support_packing_A": 2,
+    "best_disjoint_support_packing_B": 1,
+    "attempts_A": 2000,
+    "attempts_B": 917,
+    "status": "PARTIAL_OBSTRUCTION_PACKING_NO_COMPLETE_FOUR_PER_SIDE"
+  },
+  "exact_local_flip_subsets_total": 325626,
+  "complete_positive": false,
+  "checked_global_negative": false,
+  "original_row148_global": "BIPLANARITY_UNKNOWN",
+  "cumulative_certified_nonbiplanar": 52,
+  "cumulative_original_unknown": 219,
+  "prior_checked_cut_checkpoint": "validation/S021/row148_lemmas.json.gz",
+  "prior_checked_cuts_count": 75653,
+  "session_status": {
+    "CAPPED": [],
+    "ATTEMPTED_STILL_UNKNOWN": [
+      148
+    ],
+    "NOT_RUN_COUNT": 218,
+    "CERTIFIED_BIPLANAR": [],
+    "CERTIFIED_NONBIPLANAR": []
+  },
+  "indexed_original_queue": {
+    "0": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "1": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "2": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "3": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "4": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "5": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "6": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "7": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "8": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "9": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "10": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "11": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "12": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "13": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "14": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "16": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "18": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "19": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "20": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "21": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "22": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "25": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "26": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "27": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "30": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "31": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "32": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "33": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "34": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "36": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "37": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "39": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "40": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "43": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "48": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "49": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "50": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "51": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "52": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "53": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "54": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "55": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "56": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "57": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "58": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "59": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "60": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "61": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "62": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "63": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "64": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "65": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "66": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "67": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "68": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "69": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "70": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "71": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "72": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "73": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "74": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "75": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "76": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "77": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "78": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "79": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "83": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "84": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "85": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "86": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "87": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "88": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "89": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "90": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "91": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "92": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "93": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "94": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "95": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "96": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "97": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "98": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "99": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "100": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "101": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "104": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "105": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "106": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "107": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "108": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "109": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "110": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "111": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "112": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "113": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "114": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "115": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "116": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "118": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "119": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "121": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "122": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "124": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "125": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "127": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "129": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "131": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "132": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "134": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "136": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "137": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "138": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "139": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "140": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "141": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "142": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "144": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "145": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "146": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "147": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "148": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "ATTEMPTED_STILL_UNKNOWN"
+    },
+    "149": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "150": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "151": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "152": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "153": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "156": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "166": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "167": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "168": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "169": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "170": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "172": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "173": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "174": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "175": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "178": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "181": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "182": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "183": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "184": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "185": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "186": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "188": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "191": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "192": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "193": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "194": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "196": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "198": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "199": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "200": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "201": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "202": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "203": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "204": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "205": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "206": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "207": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "208": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "209": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "210": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "211": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "212": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "213": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "214": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "215": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "216": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "217": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "218": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "219": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "220": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "221": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "222": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "223": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "224": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "225": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "226": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "227": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "228": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "229": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "230": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "231": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "232": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "233": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "234": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "235": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "236": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "237": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "238": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "239": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "240": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "241": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "242": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "243": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "244": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "245": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "246": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "247": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "248": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "249": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "250": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "251": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "252": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "253": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "254": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "255": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "256": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "257": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "259": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "261": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "263": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "264": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "265": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "266": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "267": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "268": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "269": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    },
+    "270": {
+      "cumulative": "BIPLANARITY_UNKNOWN",
+      "session": "NOT_RUN"
+    }
+  }
+}

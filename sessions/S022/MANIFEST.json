@@ -1,0 +1,50 @@
+{
+  "session": "S022",
+  "date": "2026-10-15",
+  "invocation": "run next session",
+  "entry_main": "8bd915e520ce66ddde047dc3c45ef5d5cc3751c6",
+  "entry_tree": "074466a0c548764414fd748cc8f4854468fba02e",
+  "S021_PR": 26,
+  "session_branch": "session/S022-original148-exact-neighbourhood",
+  "original_edge_sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "science": {
+    "primary": {
+      "run": 38765947247,
+      "job": 116529044333,
+      "wip_source": "9a6ddc38ff1630386ba443151b0b47daf66062a7",
+      "wip_evidence": "1531e5133aa1805fb2cca0f145b21c4472a49249",
+      "artifact_id": 11990226672,
+      "artifact_digest": "sha256:37b9f2d9087ea050b990832b46dfb66fd2fd9fb31ac07eaada211471bd0ee43b",
+      "smoke": "PASS271_271_ORIGINAL_CNF_NATIVE_DRAT_RETAINED_FRESH_K9",
+      "exact_flip_subsets": 325626,
+      "all_radii_completed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "elapsed_seconds": 305.53,
+      "peak_rss_mib": 39.4
+    },
+    "secondary": {
+      "run": 38767507306,
+      "job": 116534444118,
+      "wip_source": "e394c96637f0d684e32466a4eb5e01d6b31a89b3",
+      "wip_evidence": "83f6a058b2349edba07ef875aaaaf9b36a04dbd8",
+      "artifact_id": 11990945110,
+      "artifact_digest": "sha256:10146f6a6cd720d80e8a57ac842970f2060c65cea46e00935ebc4915de494f2f",
+      "smoke": "PASS271_271_ORIGINAL_CNF_NATIVE_DRAT_RETAINED_FRESH_K9",
+      "best_obstructions_A": 2,
+      "best_obstructions_B": 1,
+      "elapsed_seconds": 175.05,
+      "peak_rss_mib": 36.8
+    }
+  },
+  "global_positive_certified": false,
+  "global_negative_certified": false,
+  "original_52_certified_nonbiplanar": 52,
+  "original_219_unknown": 219,
+  "inherited_original_kuratowski_cut_count": 75653,
+  "next_session": "S023_FUTURE_UNEXECUTED",
+  "outgoing_integration": "VERIFY_FROM_LIVE_GITHUB_AFTER_COMMIT"
+}
