@@ -1,0 +1,67 @@
+name: S020 row148 induced Euler and face insertion (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S020-row148-embedding-euler]
+    paths:
+      - 'tools/s020_row148_embedding.py'
+      - '.github/workflows/s020-row148-embedding.yml'
+      - 'campaigns/CAM-0022.md'
+permissions:
+  contents: write
+jobs:
+  serial-original-148:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Source syntax and identities
+        run: |
+          python -m py_compile tools/s020_row148_embedding.py
+          sha256sum tools/s020_row148_embedding.py campaigns/CAM-0022.md .github/workflows/s020-row148-embedding.yml validation/S019/row148_best_partial.json validation/S019/row148_lemmas.json.gz
+      - name: Pinned environment build
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory NEW same-job 271 plus K9 verified smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Single original row148 exact decision under 12GiB and time cap
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=30s 1200s .venv/bin/python -u tools/s020_row148_embedding.py
+      - name: Preserve true result and checkpoints on NEVER MERGED WIP
+        if: always()
+        run: |
+          mkdir -p validation/S020-WIP
+          cp artifacts/tmp/S020/result.json validation/S020-WIP/result.json || true
+          cp artifacts/tmp/S020/row148_best_partial.json validation/S020-WIP/row148_best_partial.json || true
+          cp artifacts/tmp/S020/row148_lemmas.json.gz validation/S020-WIP/row148_lemmas.json.gz || true
+          cp artifacts/tmp/S020/LOCAL_EULER.json validation/S020-WIP/LOCAL_EULER.json || true
+          cp artifacts/tmp/S020/density_obstruction.json validation/S020-WIP/density_obstruction.json || true
+          cp artifacts/tmp/S020/row148.split.json validation/S020-WIP/row148.split.json || true
+          cp artifacts/tmp/S020/positive.json validation/S020-WIP/positive.json || true
+          cp artifacts/tmp/S020/row148_native.drat.gz validation/S020-WIP/row148_native.drat.gz || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S020-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S020-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S020-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S020 exact row148 evidence and checkpoint (never merge)'
+            git push origin HEAD:wip/S020-row148-embedding-euler
+          fi
+      - name: Upload scientific source and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S020-CAM0022-original148
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
+            artifacts/tmp/S020/*.json
+            artifacts/tmp/S020/*.gz
+            artifacts/tmp/S020/*.edges
