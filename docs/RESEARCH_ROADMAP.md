@@ -23,3 +23,7 @@ for several substantial attacks and is FUTURE UNEXECUTED.
 
 
 S011 (2026-10-14) **supersedes stale S003 future/upper-bound suggestions above**: D042 target is a verified chi>=10 biplanar construction ONLY. D044 GitHub Actions fallback proved viable with job-local D043 smoke. CAM0012-0014 results and permanent 863 colour-deletion witnesses in validation/S011/SUMMARY.json; 52/271 excluded,219 UNKNOWN. Six fixed rows are chi10 edge-critical, so *chromatic-restoring edge swaps* rather than plain deletion are the S012 lead; Mycielski lift of chi>=9 is excluded. No universal colouring/discharging programme or automatic publication/formalisation.
+
+## D051 (2026-10-15) priority override: original 219 first
+
+Next queued S015 is a systematic return to the 219 retained S003 exact-10-chromatic graphs of unknown biplanarity. Last direct S011 search ran on GitHub Actions and 438 simple trials +25 repairs found no split: nothing ruled out. Must run substantial new and deeper searches via D044 Actions fallback even without hooked local checkout. Hold the S014/S015 earlier novel H+7/new-layer programme until an accepted witness, meaningful documented sweep and explicit owner pivot, or subsequent continuation of the unresolved roster; no silent abandonment of UNKNOWNs. See docs/S015_219_RECHECK_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md.

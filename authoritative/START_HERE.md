@@ -43,3 +43,7 @@ S013 CLM0074-76 prove any biplanar graph on <=17 vertices containing Sulanke H=K
 ## S014 complete (2026-10-15; analytic-only)
 
 CLM0078: edge-critical H; CLM0079: on 18v retained H plus7, new-side K7/K7-e are nine-colourable if biplanar by new Hall/K9 analysis; CLM0080: m=2,3,4, Σδ<=4-m, 7525 labelled internal missing patterns, not enumerated. SRC0037 Szeider arXiv:2609.28102: alpha<=2 theorem statement inspected. No new computational smoke, numerical jobs, chi10 witness, planarity split, non9 cert, novelty clearance; fixed271=52/219 unknown, 9..12 unchanged. See research/S014_CONSTRUCTION.md and validation/S014/SUMMARY.json. Queued S015 is executed only upon next owner invocation, and submitting that prompt suffices (D047).
+
+## D051 owner correction (2026-10-15; handover-only, S015 NOT executed)
+
+S014 already merged normally via PR#17 main aaf468dda3d292bc56a51db06dedf0bb6345ac0d, tree 7231fb4bd0e199ca3ca27da278a000653036a460, parents 2bdfc91363ee4b2a021dbb07cfa2b04623ac7981 and c8ca1b17484fdeeb81a4f35bf95023c7dbe81352, both PR/merged main governance Actions PASS. Following owner request, overwrite QUEUED S015 NEXT_SESSION_PROMPT to prioritise 219 original χ10 biplanarity-UNKNOWN cases via actual GitHub Actions (D044). S011's 438 greedy attempts/25 repairs did not exclude one unknown. This changes priorities but reports NO S015 computations, no changed mathematical bounds. On next owner invocation run new revised S015 immediately per D047, not S016. Full correction details docs/S015_219_RECHECK_DIRECTIVE.md.
