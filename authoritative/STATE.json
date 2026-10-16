@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S025 future: seek high-chromatic certified construction (first no8 checker proof), implement and benchmark complete row148 oriented-face sphere triangulation cover on small positive/K9 with independent native checker before row148. Original52/219 unchanged.",
+    "S025 D058 OWNER OVERRIDE future/unexecuted: prioritise original219 complete original-edge biplanarity decisions; recreate all219 per-row gap ledger; start row148 six missing/131 then global exact two-triangulation encoder with independently checked controls and certified positive/negative; no new layer-first construction family. Retain 52 NONBIPLANAR/219 UNKNOWN and classical 9..12 until proof.",
     "S024 proved complete two-triangulation cover equivalence and 25v131e q+r=7 count; oriented-face, one-link-cycle, whole-graph connectivity SAT specification written, NOT IMPLEMENTED or benchmarked, graph148 stays globally UNKNOWN.",
     "S024 CAM0026 full same-job original271+K9 smoke PASS on GitHub Actions run38862555457; 17/18 genuinely disjoint maximal-planar layer pairs n22/28/36 verified by rotation/Euler, but each explicitly <=8-colourable, so zero chi>=10 witness. Stop overlap-only generator.",
     "Owner D056: S023 is NOW a two-sided proof-first feasibility audit of moving upper vs lower bound, including primary 2026 prior art, substantive lemma attempts BOTH sides and a defended preferred next route. D042 upper prohibition and D051/D054 row148-only priority suspended for this comparison alone; 52 NONBIPLANAR, 219 UNKNOWN, chi2 9..12 unchanged.",
@@ -687,5 +687,13 @@
     "external_artifacts_replayed": false,
     "novelty_assessed": false,
     "full_dossier": "research/S023_UPPER_VS_LOWER_AUDIT.md"
+  },
+  "owner_next_session_override": {
+    "id": "D058",
+    "date": "2026-10-16",
+    "scope": "S025 replaces prior S025 instructions; original219 serial exact gap closure first; no layer-first/new construction families",
+    "reference": "docs/S025_219_GAP_CLOSURE_DIRECTIVE.md",
+    "status": "QUEUED_NOT_EXECUTED",
+    "priority": "Original 219 (row148 first), exact biplanarity proof/certificates; partial percentages not proof progress"
   }
 }

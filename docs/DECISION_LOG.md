@@ -1,5 +1,7 @@
 # Decision ledger
 
+- **D058 (2026-10-16; owner S025 prompt replacement; governance only):** owner demands S025 finish missing original edge gaps across the 219 exact-chi10 biplanarity UNKNOWN graphs. Supersedes previous queued S025 chromatic-pressure/layer-first arm and temporary D057 freedom; reasserts original219-focused D051/D054 one-graph-at-a-time proof-complete priority, row148 (6 missing) first. Full paired S025 prompts replaced; no science run/new certificate, S024 remains last completed. D042 lower-only, D047 direct invocation, certificate and resource protocols remain unchanged. See docs/S025_219_GAP_CLOSURE_DIRECTIVE.md.
+
 - D001 (2026-10-12): Exact flagship is the universal χ₂ of finite simple thickness-two graphs, not the narrower FrontierMath 10-chromatic construction task. Rationale: only exact χ₂ resolves EMP.
 - D002: Pursue **both** constructive higher lower bounds and universal better upper bounds; no single-lemma ceiling during proof sessions.
 - D003: Treat k-colouring and not-(k−1)-colourability as separate certified obligations; a feasible colouring alone never certifies chromatic number.

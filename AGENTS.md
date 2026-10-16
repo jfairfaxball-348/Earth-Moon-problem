@@ -1,3 +1,6 @@
+# D058 — binding owner S025 replacement (2026-10-16)
+The owner explicitly overrides the previously queued S025 chromatic-pressure/layer-first two-arm prompt. S025 is now EXCLUSIVELY an original219 edge-gap closure / globally certified biplanarity decision session; row148 six missing original edges first, one heavy worker, then ranked original rows. This is a governance revision, not S025 execution; S024 remains last completed. D042 lower-only and D047 prompt-is-invocation unchanged. If another stale section below conflicts, D058 and both identical current S025 prompts control. See docs/S025_219_GAP_CLOSURE_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md.
+
 # S024 authority update D057 (2026-10-16)
 S024 was DIRECTLY invoked by owner's 'Run next session', adopting D057 session-only relaxation of original219 row148 EXCLUSIVITY to run planar-first positive search AND a global row148 exact specification. D042 lower-only target never suspended in S024. S024 is complete; D056 S023 exception is historical. Do not automatically extend D057 to S025; the queued S025 prompt explicitly asks to justify arms and retains every original219 UNKNOWN. Science run38862555457 yielded 17 real disjoint maximal-planar unions ALL proper <=8-colourable (no chi10 advance); row148 global UNKNOWN. D047 owner direct next-session invocation is sufficient.
 

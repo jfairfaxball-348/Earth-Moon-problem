@@ -1,0 +1,7 @@
+# D058 — S025 original-219 gap-closure owner override (2026-10-16)
+
+The owner requested the next session finish the remaining missing-edge gaps among the 219 original exact-10-chromatic biplanarity-UNKNOWN graphs and explicitly override any existing queued session prompt. This is a *governance change only*. S024 remains the last completed session; S025 has NOT been executed.
+
+**Priority:** original 219 exclusive, serial source-faithful complete positive/negative biplanarity decisions, starting row148 125/131 source original edges placed (6 missing), then ranked original candidates. Supersedes the previous S025 chromatic-pressure/layer-first new-candidate arm and temporary D057 flexibility. Preserves D042 lower-bound-only objective, D047 direct invocation, D043/D044 native cold smoke + Actions fallback, D054 one-worker approach and complete certificate requirements. Partial split percentages NEVER certify closeness to complete/global proof, and one fixed-partial failure does not prove graph nonbiplanarity.
+
+**Authoritative full prompt:** `authoritative/NEXT_SESSION_PROMPT.md` and mirrored `sessions/S024/S025_FUTURE_PROMPT.md`. Later references in historical session closeouts remain historical and nonbinding; the owner next invokes S025 directly with 'run next session' or this prompt. No newly certified graph or improved bound is claimed by this directive. If S025 caps, S026 must continue the same original219 completion priority unless a new explicit owner override or a certified chi>=10 biplanar witness changes the plan.

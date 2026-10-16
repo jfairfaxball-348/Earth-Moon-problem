@@ -1,3 +1,5 @@
+**D058 binding next-session override (2026-10-16):** S025 is solely original219 exact edge-gap closure (start row148 six missing), not prior S025 layer-first chromatic construction. This is queued governance, NOT scientific execution; D042 and D047 unchanged. Read docs/S025_219_GAP_CLOSURE_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md; stale historical future labels below are nonbinding.
+
 # One-session, proof-first protocol
 
 **S023 OVERRIDE D056 (owner, 2026-10-15):** For exactly the next FUTURE/UNEXECUTED S023, compare upper chi_2<=11 and lower chi_2>=10 with serious mathematics. The lower-only prohibition and original graph148 exclusivity stated below are temporarily suspended for the S023 research audit; do not change any graph status, declare an improved bound or silently enact a permanent scope pivot. Full directive: docs/S023_BOUND_COMPARISON_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md. Other scientific integrity, independent verification and D047 invocation rules stay binding.

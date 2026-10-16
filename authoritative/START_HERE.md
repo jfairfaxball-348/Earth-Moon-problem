@@ -1,3 +1,5 @@
+> **D058 latest owner override (2026-10-16):** S025 FUTURE/UNEXECUTED is ORIGINAL219 exact gap-closure, replacing the prior S025 layer-first work. Read authoritative/NEXT_SESSION_PROMPT.md and docs/S025_219_GAP_CLOSURE_DIRECTIVE.md first; all stale S023/S024 FUTURE labels in historical records are superseded.
+
 # Authority, founding baseline and use
 
 **CURRENT D056 OWNER DIRECTION — S023 QUEUED, NOT RUN (2026-10-15):** The owner asks S023 to reassess whether moving the upper bound 12->11 or lower bound 9->10 is theoretically easier. S023 may research upper colouring theorems and pause graph148-only computation despite older D042/D051/D054 restrictions. The owner has not yet authorised a permanent programme pivot. Conduct a two-sided primary-source audit and real proof attempts, preserve all 219 UNKNOWNs and existing certificates, and recommend an evidence-based next route. Read docs/S023_BOUND_COMPARISON_DIRECTIVE.md and the rewritten authoritative/NEXT_SESSION_PROMPT.md (byte-identical to sessions/S022/S023_FUTURE_PROMPT.md). Future label means only not yet invoked (D047).
