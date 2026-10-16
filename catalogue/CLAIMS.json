@@ -762,5 +762,25 @@
       "SRC-0014"
     ],
     "notes": "S023 elementary Euler induced-12-vertex calculation and Kempe swap proof. No all-order reducible configuration, no chi2<=11 proof. S004 archived counterexample defeats unqualified local flexibility claim; novelty unchecked."
+  },
+  {
+    "id": "CLM-0087",
+    "claim": "Every labelled simple graph G on n>=3 vertices is biplanar iff its edges are covered by the union of two labelled sphere triangulations on all n vertices. For original148 with n=25,m=131 and 69 edges in each completion, q=overlap(T1,T2), r=extra union edges not in E(G), then q+r=7.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0037"
+    ],
+    "notes": "Elementary maximal-planar completion and reverse edge selection proof in research/S024_GLOBAL_TRIANGULATION_COVER.md; already known in S018 and recent primary research, not original. Complete oriented-triangle SAT with link/connectedness specified but NOT IMPLEMENTED; q+r is not Hamming radius."
+  },
+  {
+    "id": "CLM-0088",
+    "claim": "S024 same-job cloud smoke verified271/271 original CNF/native DRAT and retained/fresh K9 on GitHub Actions run38862555457. Preregistered 18 planar-layer-first trials n22/28/36: 17 edge-disjoint maximal planar layer pairs with independent combinatorial rotation/Euler walk checks and explicit proper <=8-colourings; one trial had an overlapping edge. Therefore none of the 17 is 9- or 10-chromatic, no new bound.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0037"
+    ],
+    "notes": "Finite tested campaign, source tools/s024_layer_first.py, validation/S024/SUMMARY.json plus 17 complete layer+rotation+colour certificates, SMOKE.json ENVIRONMENT.json and manifest. Proper colouring is an upper, not lower chromatic bound. No native UNSAT for new candidates; no global completeness claim."
   }
 ]

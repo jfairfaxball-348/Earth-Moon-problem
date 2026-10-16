@@ -616,3 +616,9 @@ K6 universally joined to H within any biplanar graph forces chi(H)<=3 and hence 
 
 ## CLM-0086 — PROGRAMME_PROVED (necessary obstruction / novelty unchecked)
 Every degree-11 vertex in any biplanar graph has >=6 nonedges between its 11 neighbours (induced 12-vertex Euler bound). In any 12-critical graph, all these nonedges must be Kempe-locked in every proper 11-colouring after deleting v. Not a reducibility theorem or universal chi<=11 bound. Hand proof and S004 adversarial witness in research/S023_UPPER_VS_LOWER_AUDIT.md. Sources: SRC-0005, SRC-0014.
+
+## CLM-0087 — PROGRAMME_PROVED, elementary/non-novel
+Thickness<=2 iff the original simple graph is edge-covered by two maximal sphere triangulations on the same vertices: complete each planar layer, or choose one covering triangulation for each original overlapping edge. For 25v131e row148, triangulation edge total 2*69=138 implies **q+r=7** (q common triangulation edges, r new exterior edges). This is global cover defect NOT edge-switch radius. Research in research/S024_GLOBAL_TRIANGULATION_COVER.md; full topology clauses specified, not implemented. Existing S018/Szeider prior art, no originality claim.
+
+## CLM-0088 — COMPUTED_EXACT in finite recorded CAM0026 ONLY
+Actions run38862555457 job116847945627 with full original271 and native retained/fresh K9 smoke passed. 18 preregistered maximal-planar pair trials: 17 edge-disjoint n22/28/36 pairs with explicit edges, checked rotation/Euler and SAT produced proper colourings using <=8 colours, one n28 overlapping pair. Thus every 17 candidate **fails** to be chi>=9; no original219 classification and no improvement to 9<=chi2<=12. Permanent validation/S024 and tools/s024_layer_first.py. A proper colour assignment is an upper chromatic certificate, never a lower certificate.

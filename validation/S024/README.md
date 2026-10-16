@@ -1,0 +1,6 @@
+# S024 permanent reproducible science evidence
+SOURCE: tools/s024_layer_first.py, CAM-0026 preregistration and https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38862555457, job116847945627. This directory copies the never-merged science WIP checked evidence by content SHA into the ONE S024 authored session commit, without ever merging WIP commit history.
+- SUMMARY.json = all18 attempts (n22/28/36, seeds24001..24006, steps, overlapping edge counts, SHA256, SAT9 model).
+- layers/n*-seed*.json = complete original labelled edge lists, TWO per-layer rotation certificates with 3-cycle face-walk/Euler check, independently checked proper <=8-colour assignment, alpha>=3 triple (17 validated accepted pairs). No n28 seed24004 layer certificate because it retains an overlap.
+- SMOKE.json full271 original colour DRAT and CNF hash matches, K9 retained/fresh proof verdict; ENVIRONMENT.json pinned realised build and SHA.
+NOT a certified chi>=10 witness or any global row148 decision; no newly checked UNSAT chromatic instance. Reproduction: bash scripts/cloud_setup.sh && .venv/bin/python scripts/cloud_smoke.py && .venv/bin/python tools/s024_layer_first.py . The script asserts current smoke PASS and writes artifacts/tmp/S024.

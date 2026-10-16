@@ -1,0 +1,80 @@
+{
+  "session": "S024",
+  "date": "2026-10-16",
+  "owner_invocation": "Run next session (D047)",
+  "decision": "D057_S024_ONLY_ADOPTED",
+  "entry_main": "f66f0e76577a8f3d33a19884904f636875816325",
+  "entry_tree": "b5b51edc8b50ed340ee829bc81f5c9fb59207401",
+  "entry_s023_merge_parents": [
+    "9e31c951596f7b119c184f7da04b14af0cf891eb",
+    "6a971c40dbad029bf69995f0e17226c694e10ce6"
+  ],
+  "entry_open_pr_count": 0,
+  "entry_rulesets_count": 0,
+  "entry_main_governance_run": 38813501299,
+  "entry_main_governance_conclusion": "success_governance_only",
+  "live_protection_endpoint": "UNKNOWN",
+  "science": {
+    "method": "layer_first_two_stacked_triangulations_flip_swap",
+    "run_id": 38862555457,
+    "job_id": 116847945627,
+    "run_status": "SUCCESS",
+    "wip_branch": "wip/S024-layer-first-science",
+    "wip_source_commit": "41aacba657207464771c8976ae9f3f7510646373",
+    "cold_smoke": "PASS",
+    "original_chromatic_proofs_verified": 271,
+    "cnf_byte_matches": 271,
+    "k9_retained_proof": true,
+    "k9_fresh_native_proof": true,
+    "native_sha256": {
+      "cadical": "c8f4a5a8cfd2995527e2a853f161c5a517a310bbb6314f59beaa84e3040f701e",
+      "drat_trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "preregistration": {
+      "n": [
+        22,
+        28,
+        36
+      ],
+      "seeds": [
+        24001,
+        24002,
+        24003,
+        24004,
+        24005,
+        24006
+      ],
+      "steps_cap": 2800,
+      "sat_wall_seconds": 30,
+      "heavy_workers": 1,
+      "ram_cap_GiB": 12
+    },
+    "attempts": 18,
+    "disjoint_planar_pairs": 17,
+    "one_overlap_trials": 1,
+    "rotation_checks_pass": 17,
+    "proper_at_most_8_colouring": 17,
+    "chromatic_lower_bound_9_candidates": 0,
+    "ten_chromatic_witnesses": 0
+  },
+  "row148": {
+    "source_n": 25,
+    "source_m": 131,
+    "sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+    "status": "UNKNOWN",
+    "global_formulation": "PROVED_SPECIFIED_NOT_IMPLEMENTED",
+    "global_native_negative": "NONE",
+    "prior_sound_cegar_cuts": 75653,
+    "best_partial_unplaced": 6
+  },
+  "original_source_status": {
+    "certified_nonbiplanar": 52,
+    "biplanarity_unknown": 219
+  },
+  "chi2_bounds": [
+    9,
+    12
+  ],
+  "novelty_gate": "NOT_PASSED",
+  "next_session": "S025_FUTURE_UNEXECUTED"
+}

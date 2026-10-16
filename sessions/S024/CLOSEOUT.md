@@ -1,0 +1,11 @@
+# S024 CLOSEOUT — 2026-10-16
+
+**Mathematical verdict:** NO chi>=10 biplanar witness; chi2 classical 9..12 unchanged. S024 adopted D057 for this session only. The original exactly-chi10 corpus stays 52 certified NONBIPLANAR / 219 BIPLANARITY_UNKNOWN; row148 globally UNKNOWN with prior 75653 checked necessary cuts and six-unplaced partial.
+
+**Science:** [GitHub Actions run 38862555457](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38862555457), job116847945627, all steps success; full same-job original271/271 CNF-hash/DRAT and old+fresh K9 proof smoke PASS. CAM0026 produced 17 actual edge-disjoint pairs of two planar maximal triangulations out of18 preregistered trials, with stored labelled edge lists, rotation certificates, alpha>=3 triples and proper colourings USING AT MOST EIGHT COLOURS. The eighteenth pair retained one overlapping edge. No no-8/9 UNSAT proof. All 17 fail the headline target positively by valid <=8 colourings. Corpus and frozen baseline are not reclassified. WIP science branch never merged.
+
+**Second arm:** proved explicit mathematical row148 global two-sphere triangulation-cover equivalence and q+r=7 counting; supplied complete proposed oriented-face/link/connectivity SAT specification. No executed global solver, K9 benchmark or original row148 outcome; keep UNKNOWN. Prior-art novelty not cleared.
+
+**Next decision:** S025 must immediately pivot away from overlap-only stacked-flip sampling to certified CHROMATIC-pressure progression (first no8) and, independently, IMPLEMENT the complete global row148 model and proof-check small controls. D042 lower-only still binding; original219 preserved, S025 not executed.
+
+**Integration:** one isolated S024 authored commit on session/S024-layer-first-global-cover, ordinary PR, two-parent non-force merge; confirm ACTUAL SHA/tree/hosted checks from live GitHub after merge, not by anticipated values in this frozen record. All science proof and reproducibility resources in validation/S024, script tools/s024_layer_first.py and CAM0026. Future S025 prompt exact duplicate at authoritative/NEXT_SESSION_PROMPT.md and sessions/S024/S025_FUTURE_PROMPT.md. No Lean, Palomar, arXiv, paper, publication or outreach.

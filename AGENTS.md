@@ -1,3 +1,6 @@
+# S024 authority update D057 (2026-10-16)
+S024 was DIRECTLY invoked by owner's 'Run next session', adopting D057 session-only relaxation of original219 row148 EXCLUSIVITY to run planar-first positive search AND a global row148 exact specification. D042 lower-only target never suspended in S024. S024 is complete; D056 S023 exception is historical. Do not automatically extend D057 to S025; the queued S025 prompt explicitly asks to justify arms and retains every original219 UNKNOWN. Science run38862555457 yielded 17 real disjoint maximal-planar unions ALL proper <=8-colourable (no chi10 advance); row148 global UNKNOWN. D047 owner direct next-session invocation is sufficient.
+
 # Binding programme instructions
 
 **D056 OWNER S023 OVERRIDE (2026-10-15; FUTURE/UNEXECUTED):** S023 is now an upper-vs-lower research audit: explicitly investigate chi_2<=11 as well as chi_2>=10. For exactly S023, this supersedes the D042 upper-bound ban and D051/D054 graph148-only search priority below. Preserve all graph148/original219 certificates and UNKNOWN statuses. This is not a permanent programme re-scope or authorisation to publish/formalise. See docs/S023_BOUND_COMPARISON_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md. D047 direct invocation applies.
