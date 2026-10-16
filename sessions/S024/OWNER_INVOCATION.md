@@ -1,0 +1,2 @@
+# S024 INPUT / owner invocation
+Date: 2026-10-16. Owner message: "Run next session" within Earth-Moon-problem. Per D047 this invokes exactly S024 queued at main f66f0e76577a8f3d33a19884904f636875816325, tree b5b51edc8b50ed340ee829bc81f5c9fb59207401. The S024 prompt expressly proposed D057: permit planar-layer-first and global row148 branches without discarding D042 lower-only objective or original219 queue. No S025 authorisation granted. The full authorising prompt is preserved verbatim at EXECUTED_PROMPT.md.

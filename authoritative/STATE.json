@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-15",
-  "last_completed_session": "S023",
-  "recommended_next_session": "S024",
+  "as_of": "2026-10-16",
+  "last_completed_session": "S024",
+  "recommended_next_session": "S025",
   "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S023_COMPARATIVE_AUDIT",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S024",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S023 analytic comparison no new candidate decisions: original52 certified NONBIPLANAR,219 UNKNOWN; row148 n25m131 original globally UNKNOWN despite exact local radius<=3; classical 9<=chi2<=12.",
+  "candidate_10_11_12": "S024 new layer-first 18 trials,17 edge-disjoint verified maximal planar pairs ALL proper <=8-colourable;1 overlapping non-candidate. Original52 NONBIPLANAR/219 UNKNOWN, original row148 UNKNOWN.",
   "universal_improved_upper_bound": "NONE_PROVED; D056 S023 COMPARATIVE EXCEPTION COMPLETE; D042 UPPER BAN REINSTATED EXCEPT FUTURE OWNER-PROPOSED SESSION",
   "phases": [
     {
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S023_PRIMARY_STATEMENTS_AND_SELECTED_PROOF_INSPECTED;NEW_SRC0039_0040_METADATA_ABSTRACT;NO_ARCHIVE_REPLAY",
+  "source_status": "S024_PRIMARY_ARXIV_STATEMENT_REREAD_PRIOR_METHOD;NO_2_2GB_REPLAY;NO_ORIGINALITY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,6 +83,9 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
+    "S025 future: seek high-chromatic certified construction (first no8 checker proof), implement and benchmark complete row148 oriented-face sphere triangulation cover on small positive/K9 with independent native checker before row148. Original52/219 unchanged.",
+    "S024 proved complete two-triangulation cover equivalence and 25v131e q+r=7 count; oriented-face, one-link-cycle, whole-graph connectivity SAT specification written, NOT IMPLEMENTED or benchmarked, graph148 stays globally UNKNOWN.",
+    "S024 CAM0026 full same-job original271+K9 smoke PASS on GitHub Actions run38862555457; 17/18 genuinely disjoint maximal-planar layer pairs n22/28/36 verified by rotation/Euler, but each explicitly <=8-colourable, so zero chi>=10 witness. Stop overlap-only generator.",
     "Owner D056: S023 is NOW a two-sided proof-first feasibility audit of moving upper vs lower bound, including primary 2026 prior art, substantive lemma attempts BOTH sides and a defended preferred next route. D042 upper prohibition and D051/D054 row148-only priority suspended for this comparison alone; 52 NONBIPLANAR, 219 UNKNOWN, chi2 9..12 unchanged.",
     "S022 secondary CAM0025 found source-checked disjoint nonplanar obstruction packs A2, B1 around edge(0,1), but no four-per-side certificate. Four on side A impossible because vertex1 baseline layer A has only three incident edges other than target. Original remains UNKNOWN.",
     "S022: 325626 exact local radius<=3 flipsets from 125-placed/6-unplaced original148 source fully exhausted, but no full original biplanar split, no checked global negative. S023 needs global rotation/triangulation-cover SAT/branching proof. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598; inherited 75653 Kuratowski cuts persist.",
@@ -105,11 +108,11 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S023-two-sided-difficulty-audit",
-  "latest_session_entry_main": "9e31c951596f7b119c184f7da04b14af0cf891eb",
+  "latest_session_branch": "session/S024-layer-first-global-cover",
+  "latest_session_entry_main": "f66f0e76577a8f3d33a19884904f636875816325",
   "latest_session_integration": {
-    "status": "PENDING_LIVE_POST_MERGE_READBACK",
-    "entry_main": "9e31c951596f7b119c184f7da04b14af0cf891eb"
+    "status": "PENDING_POST_MERGE_LIVE_READBACK",
+    "entry_main": "f66f0e76577a8f3d33a19884904f636875816325"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -186,7 +189,9 @@
     "CLM-0081",
     "CLM-0082",
     "CLM-0083",
-    "CLM-0084"
+    "CLM-0084",
+    "CLM-0087",
+    "CLM-0088"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
