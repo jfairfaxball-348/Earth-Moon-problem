@@ -1,0 +1,59 @@
+name: S024 layer-first candidate search (NEVER MERGE WIP)
+on:
+  push:
+    branches: [wip/S024-layer-first-science]
+    paths: ['tools/s024_layer_first.py', '.github/workflows/s024-layer-first.yml']
+permissions:
+  contents: write
+concurrency:
+  group: EMP-S024-one-heavy-worker
+  cancel-in-progress: false
+jobs:
+  single-worker:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pre-flight source hash
+        run: |
+          python -m py_compile tools/s024_layer_first.py
+          sha256sum tools/s024_layer_first.py .github/workflows/s024-layer-first.yml
+      - name: Install pinned environment (D043)
+        run: bash scripts/cloud_setup.sh
+      - name: Mandatory full original271 and fresh K9 cold smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Sole campaign with 12GiB memory cap
+        run: |
+          ulimit -v 12582912
+          timeout --signal=TERM --kill-after=20s 1000s .venv/bin/python -u tools/s024_layer_first.py
+      - name: Save compact permanent science trace on WIP only
+        if: always()
+        run: |
+          mkdir -p validation/S024-WIP
+          cp artifacts/tmp/S024/SUMMARY.json validation/S024-WIP/SUMMARY.json || true
+          cp artifacts/tmp/S024/n*.json validation/S024-WIP/ || true
+          cp artifacts/tmp/cloud_smoke/RESULT.json validation/S024-WIP/SMOKE.json || true
+          cp artifacts/tmp/native/ENVIRONMENT.json validation/S024-WIP/ENVIRONMENT.json || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation/S024-WIP
+          if ! git diff --cached --quiet; then
+            git commit -m 'WIP S024 smoke and layer-first evidence (never merge)'
+            git push origin HEAD:wip/S024-layer-first-science
+          fi
+      - name: Upload full reproducible evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S024-CAM0026-layer-first
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S024/
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
