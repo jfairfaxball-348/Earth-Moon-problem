@@ -111,9 +111,21 @@ def main():
                 targetH=graph('Dhc',list(map(int,tag)))
                 recorded={tuple(map(int,l.split())) for l in edgefile.read_text().splitlines() if l.strip()}
                 assert targetH==recorded
-                step=run(py('s026_containment.py','decide',d/'INPUT.json',d),45,d/'run.log')
                 cp=d/'RESULT.json'
-                verdict=read(cp) if cp.exists() and step['returncode']==0 else {'verdict':'UNKNOWN'}
+                prior=read(cp) if cp.exists() else {}
+                reusable=False
+                if prior.get('verdict')=='AVOIDS_DRAT_VERIFIED':
+                    proof=prior['proof']; gz=d/Path(proof['drat_gz']).name
+                    reusable=gz.exists() and sha(gz)==proof['drat_gz_sha256'] and sha(d/'contain.cnf')==proof['cnf_sha256']
+                elif prior.get('verdict')=='CONTAINS_EXPLICIT_CHECKED':
+                    G=graph(r['g6'],r['w']);vm={int(a):b for a,b in prior['vertex_map'].items()}
+                    reusable=len(vm)==17 and len(set(vm.values()))==17 and all(tuple(sorted((vm[a],vm[b]))) in G for a,b in targetH)
+                if reusable:
+                    step={'returncode':0,'reused_verified_case_receipt':True}
+                    verdict=prior
+                else:
+                    step=run(py('s026_containment.py','decide',d/'INPUT.json',d),45,d/'run.log')
+                    verdict=read(cp) if cp.exists() and step['returncode']==0 else {'verdict':'UNKNOWN'}
                 entry={'candidate':r['name'],'tag':tag,'old18':old_tag,'process':step,**verdict}
                 result['containment'].append(entry)
                 if verdict['verdict']=='CONTAINS_EXPLICIT_CHECKED':

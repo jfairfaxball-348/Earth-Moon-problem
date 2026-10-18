@@ -132,7 +132,7 @@ def controls():
     d.mkdir(exist_ok=True)
     cases = []
     p = ROOT/'validation/S003/splits/J1.split.json'
-    cases.append(('J1', json.loads(p.read_text()), read_edges(p.with_name('J1.edges'))))
+    cases.append(('J1', json.loads(p.read_text()), read_edges(str(p.with_name('J1.edges')))))
     c5s = json.load(gzip.open(ROOT/'validation/S025/C5_CLASSIFY.json.gz', 'rt'))['results']
     r = next(r for r in c5s if r['w']==[3,3,3,3,4] and r.get('split_checked'))
     es, _ = blowup('Dhc', r['w'])

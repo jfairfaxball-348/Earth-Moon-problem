@@ -97,3 +97,13 @@ the runner. Windows tree-private-memory observer is reused verbatim from S005;
 external wall/private-memory guards pass independent toy-process exit/cap tests.
 Job Object attachment was denied by the Codex parent job; it was replaced by the
 already-established external supervisor BEFORE any local mathematical computation.
+
+Local first pass completed all3 recovered DRAT certificates. Five new-family
+pilots were BLOCKED_BEFORE_SEARCH by a Path-vs-string harness error in the J1
+control reader; no graph decision was inferred. Fix only the path conversion,
+retain the first-pass receipts, restart the same serial queue with verified3
+skipped and only the five blocked targets executed. The independent source audit
+already checked all2180 maps, all4 alpha3/K9-free certificates,72 native DRAT
+absence certificates for the old18 obstructions, and explicit new-C5 maps closing
+all4 candidates. On a later audit reuse those exact checked case receipts after
+hash/input validation; do not repeat successful native proof work.
