@@ -61,8 +61,8 @@
    "bytes": 20602
   },
   "authoritative/STATE.json": {
-   "sha256": "80fe43a6e52b4b445389fb8acb5434723be9c7a0740988190a02d1a5042ee0a1",
-   "bytes": 33352
+   "sha256": "abbdb5d717e22cc013657370f4a7410c5e8e00c917c614d827ef6f377cc27a9f",
+   "bytes": 34245
   },
   "campaigns/CAM-0027.md": {
    "sha256": "68fa6ff35b80a4f651505bfdefc1ca7ba9889b90236d7d0b0bd5befe5a05c666",
@@ -121,8 +121,8 @@
    "bytes": 2120
   },
   "docs/S025_INTEGRATION_RECONCILIATION.md": {
-   "sha256": "fc734acc7bae287b49143e563952f56e76a8ac9798c49297578b51918464163f",
-   "bytes": 4141
+   "sha256": "9d5ca47992b8fba3fef00c69289b460be20d19166869893840ce25491f416c27",
+   "bytes": 5271
   },
   "docs/SESSION_LEDGER.md": {
    "sha256": "d4ee36a38c52a10c3385fd24365e2fa62105561ab4f86f7637bf0fdccb1c5d0d",
@@ -137,8 +137,8 @@
    "bytes": 12317
   },
   "scripts/check_s025_handoff.py": {
-   "sha256": "ed57e07299789f5125e0eaa7cbaa4c52f2d780282c8e9e1b955119087df0300b",
-   "bytes": 3017
+   "sha256": "827f1d37ebb769e566473b088e03f6dce82388f228c519180ab27dd9752363a5",
+   "bytes": 3327
   },
   "sessions/S025/ADVERSARIAL.md": {
    "sha256": "b67d95439aa1d6876a5abbf81f976a55c6f16a30544ed089854a9916404eaeb3",
@@ -503,6 +503,10 @@
   "validation/S025/certs/C5-33335.lemmas.json.gz": {
    "sha256": "6ca3cadb4ffd28543253b83f7010ed86c1065995fc18c51dc34a954414cab876",
    "bytes": 1809857
+  },
+  "validation/S025/INTEGRATION_LIVE_EVIDENCE.json": {
+   "sha256": "59b26f9ba4af91293e4465fcb2b92970f04d4b73d54fd29b085216cde2fbdc5e",
+   "bytes": 63858
   }
  },
  "outbound_verification": "Read authored commit, ordinary PR, non-force two-parent merge, matching trees and actual head/main hosted jobs after freeze; final ignored receipt artifacts/tmp/S025_reconciliation/LIVE_EXIT_EVIDENCE.json",
@@ -511,5 +515,12 @@
   9,
   12
  ],
- "chi10_witness": null
+ "chi10_witness": null,
+ "integration_readback": {
+  "pr": 32,
+  "merge": "bb8b302c85de4b7ec36d7c409c8450337b898e4d",
+  "receipt": "validation/S025/INTEGRATION_LIVE_EVIDENCE.json",
+  "final_pointer_correction": "Replace stale S023 priority and mark old S024 override historical; S026 remains future/unexecuted.",
+  "scope": "Administrative metadata only; original scientific manifest and all proof/source hashes unchanged."
+ }
 }

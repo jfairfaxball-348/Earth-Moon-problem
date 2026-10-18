@@ -115,13 +115,30 @@
   "latest_session_branch": "session/S025-c5-obstructions-corpus-closure",
   "latest_session_entry_main": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
   "latest_session_integration": {
-    "status": "RECONCILED_ON_LIVE_MAIN_PENDING_POSTCOMMIT_PR_MERGE_READBACK",
+    "status": "VERIFIED_S025_INTEGRATION_PR32",
     "original_local_commit": "8fda3619eb8708458d75ef02b80ba1c9e97f3c80",
     "original_session_entry_main": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
     "reconciliation_entry_main": "6883520145af87e0ce01c53946c4914884839bbb",
     "reconciliation_branch": "reconcile/S025-main-handoff",
     "record": "docs/S025_INTEGRATION_RECONCILIATION.md",
-    "new_numbered_session_executed": false
+    "new_numbered_session_executed": false,
+    "authored_commit": "2b0915f7f9c968f6b4daf84866bff914edfd48b3",
+    "pr": 32,
+    "merge_commit": "bb8b302c85de4b7ec36d7c409c8450337b898e4d",
+    "merge_parents": [
+      "6883520145af87e0ce01c53946c4914884839bbb",
+      "2b0915f7f9c968f6b4daf84866bff914edfd48b3"
+    ],
+    "tree": "384ecfc21da38bf50755a598a5fff8a77d391f35",
+    "head_governance_run": 39140192272,
+    "main_governance_run": 39140338681,
+    "actual_jobs": [
+      117712853991,
+      117713303893
+    ],
+    "conclusion": "SUCCESS_GOVERNANCE_AND_INTEGRITY_ONLY",
+    "live_receipt": "validation/S025/INTEGRATION_LIVE_EVIDENCE.json",
+    "receipt_scope": "Observed PR32 S025 integration. Administrative final-state pointer correction follows separately; no new science or S026 invocation."
   },
   "mathematical_results": [
     "CLM-0007",
@@ -472,7 +489,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S023: sole original graph148 global embedding-complete exact algorithm or full checked negative; no shallow local radius repetition or new original before objective decision.",
+  "next_session_priority": "S026 FUTURE/UNEXECUTED: obstruction-aware chi>=10 candidate generation and remaining sum-17 C5 classes; execute only on a new owner invocation. Original271 decision complete; D051/D054 original219 priority discharged by D058.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -676,15 +693,6 @@
     "original52_certified_nonbiplanar": 52,
     "original219_unknown": 219
   },
-  "next_session_owner_override": {
-    "decision": "D057_PROPOSED_ONLY",
-    "date": "2026-10-15",
-    "session": "S024_FUTURE_UNEXECUTED",
-    "recommendation": "LOWER_ROUTE_L_PRIMARY_WITH_PLANAR_LAYER_FIRST_AND_GLOBAL_ROW148_SECONDARY",
-    "authority": "S023 recommendation, NOT activated by S023; invoking complete S024 prompt expressly approves this S024-scoped D051/D054 priority relaxation.",
-    "d042": "LOWER_ONLY_RETAINS",
-    "original219": "UNCHANGED_ALL_PRESERVED"
-  },
   "s023_research": {
     "completed": true,
     "no_new_science_compute": true,
@@ -761,5 +769,15 @@
     "priority": "Original 219 (row148 first), exact biplanarity proof/certificates; partial percentages not proof progress",
     "historical_queued_status": "QUEUED_NOT_EXECUTED",
     "reconciliation_reference": "docs/S025_INTEGRATION_RECONCILIATION.md"
+  },
+  "historical_s024_next_session_owner_override": {
+    "decision": "D057_PROPOSED_ONLY",
+    "date": "2026-10-15",
+    "session": "S024_FUTURE_UNEXECUTED",
+    "recommendation": "LOWER_ROUTE_L_PRIMARY_WITH_PLANAR_LAYER_FIRST_AND_GLOBAL_ROW148_SECONDARY",
+    "authority": "S023 recommendation, NOT activated by S023; invoking complete S024 prompt expressly approves this S024-scoped D051/D054 priority relaxation.",
+    "d042": "LOWER_ONLY_RETAINS",
+    "original219": "UNCHANGED_ALL_PRESERVED",
+    "current_status": "HISTORICAL_S024_ONLY_COMPLETED;_NOT_A_CURRENT_NEXT_SESSION_OVERRIDE"
   }
 }
