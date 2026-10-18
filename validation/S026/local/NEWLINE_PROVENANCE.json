@@ -1,0 +1,38 @@
+[
+  {
+    "path": "tools/s026_supervision.py",
+    "launch_sha256": "34792885e48fb06a044fe0e298b4d5e37997a862830f19095219802e03b9828e",
+    "git_and_science_sha256": "2775bbc9dbd4e953159fa643b61be81f0195d6f01a88fcb0cef2d0f4cd17ff26",
+    "change": "CRLF to LF only, before science worker source manifest",
+    "worker_manifest_sha256": "34792885e48fb06a044fe0e298b4d5e37997a862830f19095219802e03b9828e",
+    "worker_manifest_matches_git": false,
+    "chronology_correction": "Normalization occurred while the first recovered proof was active, AFTER its SOURCE manifest. Both raw variants archived; no semantic change. Original change string was inaccurate."
+  },
+  {
+    "path": "tools/biplanar_cegar.py",
+    "launch_sha256": "db33d16d2943250876eb29abdbc7a10344fb55306ce4c1ab46da58c361f5e76e",
+    "git_and_science_sha256": "7d92dc3084b8179d98138a9dff4d82a2be597848d2a460eb4bf0f1eddb8ff92d",
+    "change": "CRLF to LF only, before science worker source manifest",
+    "worker_manifest_sha256": "db33d16d2943250876eb29abdbc7a10344fb55306ce4c1ab46da58c361f5e76e",
+    "worker_manifest_matches_git": false,
+    "chronology_correction": "Normalization occurred while the first recovered proof was active, AFTER its SOURCE manifest. Both raw variants archived; no semantic change. Original change string was inaccurate."
+  },
+  {
+    "path": "tools/biplanar_cnf.py",
+    "launch_sha256": "794cd0d9130185d243a4f3f5414527cfa3f1ce9d90b45cdcf0b9fc1ddc36e1a6",
+    "git_and_science_sha256": "dc4408d32f59fd04e02632e51ded000063647932bb0abf99cf52c2be675a87f7",
+    "change": "CRLF to LF only, before science worker source manifest",
+    "worker_manifest_sha256": null,
+    "worker_manifest_matches_git": false,
+    "chronology_correction": "Normalization occurred while the first recovered proof was active, AFTER its SOURCE manifest. Both raw variants archived; no semantic change. Original change string was inaccurate."
+  },
+  {
+    "path": "tools/blowup_graph.py",
+    "launch_sha256": "ca164c97202b34d636ad722888650ebce107c0141c4bfb98cfe52ae36ae2221e",
+    "git_and_science_sha256": "319c30e008194145d477050fc6ef818d640399f81f720691a5f4f8f85bbecb05",
+    "change": "CRLF to LF only, before science worker source manifest",
+    "worker_manifest_sha256": "ca164c97202b34d636ad722888650ebce107c0141c4bfb98cfe52ae36ae2221e",
+    "worker_manifest_matches_git": false,
+    "chronology_correction": "Normalization occurred while the first recovered proof was active, AFTER its SOURCE manifest. Both raw variants archived; no semantic change. Original change string was inaccurate."
+  }
+]

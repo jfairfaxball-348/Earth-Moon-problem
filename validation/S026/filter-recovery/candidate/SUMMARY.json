@@ -1,0 +1,106 @@
+{
+ "edges_sha256": "022f12182983dc0d7196653880d554676150a76a23d6090093fc843bf27972d0",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor",
+   "300",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 114.891,
+  "peak_tree_rss_kib": 623684,
+  "completed_process": true,
+  "log": "candidate\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "UNSAT",
+  "iterations": 125,
+  "kuratowski_lemmas": 27034,
+  "minor_models": 15804,
+  "lemmaC_models": 153064,
+  "branch_sets": 11818,
+  "minor_clauses": 615872,
+  "build_seconds": 3.6,
+  "seconds": 107.8,
+  "symmetries": 17,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "proof": {
+  "justification": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_check_minor_cert.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor"
+   ],
+   "returncode": 0,
+   "seconds": 12.656,
+   "peak_tree_rss_kib": 825484,
+   "completed_process": true,
+   "log": "candidate\\justification.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "regeneration": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.lemmas.json",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\rebuilt.cnf"
+   ],
+   "returncode": 0,
+   "seconds": 6.578,
+   "peak_tree_rss_kib": 617276,
+   "completed_process": true,
+   "log": "candidate\\regeneration.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "cnf_byte_match": true,
+  "native": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate",
+    "1800",
+    "1800"
+   ],
+   "returncode": 0,
+   "seconds": 7.079,
+   "peak_tree_rss_kib": 227344,
+   "completed_process": true,
+   "log": "candidate\\native.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "certificate": {
+   "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.cnf",
+   "cnf_sha256": "d4d87afb2035905c5665dda4b7229320b170e5a20bfe787b36e7fc36f78fb8a8",
+   "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+   "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+   "solver_returncode": 20,
+   "solve_seconds": 3.35,
+   "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+   "check_seconds": 2.83,
+   "drat_sha256": "c97cdad22e2c5480e188b2d8817b5df5e3d77f21de5363b55222bdbf3bb40c86",
+   "drat_bytes": 2346628,
+   "checker_tail": "\nc parsing input formula with 249314 variables and 670937 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 10587 of 670937 clauses in core                            \n\nc 1887 of 31612 lemmas in core using 82291 resolution steps\n\nc 0 RAT lemmas in core; 927 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 2.807 seconds\n",
+   "verdict": "UNSAT_DRAT_VERIFIED",
+   "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.drat.gz",
+   "drat_gz_sha256": "420c00281f66480e3d981375393eb71d1aa68f4964c6c88fc7e26f8d1ad8f1aa"
+  },
+  "certified": true
+ },
+ "verdict": "NONBIPLANAR_CERTIFIED"
+}

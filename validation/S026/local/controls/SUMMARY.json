@@ -1,0 +1,19 @@
+{
+ "positive_controls": [
+  {
+   "name": "J1",
+   "known_split": "PASS",
+   "all_minor_clauses_satisfied": true,
+   "two_models": 0,
+   "checker_and_byte_regeneration": "PASS"
+  },
+  {
+   "name": "C5-33334",
+   "known_split": "PASS",
+   "all_minor_clauses_satisfied": true,
+   "two_models": 3888,
+   "checker_and_byte_regeneration": "PASS"
+  }
+ ],
+ "K9_retained_and_fresh": "PASS_IN_SAME_JOB_SMOKE"
+}

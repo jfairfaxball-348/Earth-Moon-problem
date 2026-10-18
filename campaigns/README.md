@@ -57,3 +57,7 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 - **CAM-0027 (S025)** Arm A chromatic-certificate (weighted-independence) annealing over sphere-triangulation pairs, exploratory: α≤3 reached n=24, α≤4 reached n=32, W=3 total-28 minima ≥8; no χ≥10 witness (heuristic).
 - **CAM-0028 (S025)** Arm B complete triangulation-cover SAT (validated, too weak: K9 UNKNOWN at 600 s); flip-annealing oracle (row148 best 4 uncovered); descent to 17-vertex C5 obstructions; all 297 filter-feasible C5 classes annealed, 262 (n≤16) certified biplanar.
 - **CAM-0029 (S025)** Kuratowski + K9-minor (Lemma C) CEGAR with clause re-justification, byte regeneration and drat-trim: 17-vertex C5 obstructions certified non-biplanar; explicit maps settle all 219 UNKNOWN rows. The whole 271 corpus is NON-BIPLANAR.
+
+- **CAM-0030 (S026)** serial recovered/new-method C5 queue, local pinned full smoke, checked DRAT and resumable theory-cut checkpoints. S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12.
+
+- **CAM-0031 (S026)** 30-profile alpha3 source plus independent SAT containment audit; all4 admitted non-biplanar. See validation/S026.

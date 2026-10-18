@@ -1,77 +1,21 @@
-# S026 — obstruction-aware χ≥10 candidate generation with the S025 exact engine (FUTURE / UNEXECUTED)
+# S027 — learned-obstruction candidate generation (FUTURE / UNEXECUTED)
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
-## Invocation and binding scope
-- The owner's next "run next session", or a submission of this S026 prompt or its link, authorises exactly S026 under D047. No second confirmation is needed. STOP before S027.
-- D042 remains lower-bound-only: exhibit a finite simple biplanar graph of chromatic number ≥10 with all independent proof checks.
-- Do NOT work on universal upper bounds, Lean, Palomar, arXiv, manuscripts or outside correspondence.
-- S025 settled the D051/D054 original-219 queue. The whole fixed 271-row exactly-χ10 clique blow-up corpus is certified NON-BIPLANAR, so that priority is discharged (D058).
-- S026 may therefore choose new candidate sources within D042. It must justify each arm quantitatively and preregister caps before running.
+The owner's submission of this prompt, its link, or 'run next session' invokes exactly S027 under D047. No second confirmation. Stop before S028. D042 remains lower-only: one finite simple biplanar graph with chi>=10, explicit disjoint labelled layers, independent planarity checks and checked non9 proof or elementary counting certificate. No universal upper-bound work, Lean, registration, publication or correspondence.
 
-## Integration handoff note (2026-10-18)
-S025 local source commit8fda361 and PR31 main6883520 diverged. Read docs/S025_INTEGRATION_RECONCILIATION.md and validation/S025/INTEGRATION_MANIFEST.json, then obtain the final ordinary PR/two-parent merge/checks live. Both authority histories and the actual S025 execution prompt are preserved. Two omitted proof archives are restored against recorded compressed/raw digests; targeted .gitattributes preserve three recovered original tool byte hashes. No new scientific computation was performed during reconciliation and no S026 local-run permission is inferred.
+Read live remote main SHA/tree, PR parents, actual checks/jobs, open PRs/branches/rulesets before writes. Read AGENTS, STATE, START_HERE, SESSION_PROTOCOL, CERTIFICATE_POLICY, S026 CLOSEOUT/RESEARCH/ADVERSARIAL/PRIOR_ART/MANIFEST, research/S026_TWO_BRANCH_LEMMA.md, research/S026_CONTAINMENT_ENCODING.md, campaigns CAM0030/31 and validation/S026/SUMMARY.json. Preserve the original271 NON-BIPLANAR decisions; D051/D054 priority is discharged.
 
-## Read-first frozen S025 facts and integrity
-Independently pin live main (commit, tree, S025 PR and two-parent merge), workflows/checks, open PRs, branches and rulesets. Read:
-- AGENTS.md, STATE.json, START_HERE, SESSION_PROTOCOL, CERTIFICATE_POLICY, CLOUD_ENVIRONMENT;
-- research/S025_C5_OBSTRUCTIONS_CORPUS_CLOSURE.md;
-- sessions/S025/{RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT,MANIFEST.json};
-- campaigns CAM-0027..0029;
-- validation/S025 (C5_CERTIFICATES.json, TRANSFER_271.json, ARM_A_FRONTIER.json, SMOKE.json, ENVIRONMENT.json).
+Frozen S026 facts: S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12. P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. Newly certified tags: 24335, 23525, 23534. Remaining C5 sum17 targets: C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4]. Do not claim the full C5 iff while any remain UNKNOWN. External Patil primary sources already state balanced C5 non-biplanarity; novelty is unclaimed and external archives were not replayed.
 
-S025 key facts:
-1. **Lemma B/C (CLM-0090/0091).** Cross-layer K9-minor contraction lemmas, valid given K9's thickness 3.
-2. **Exact engine.** `tools/s025_minor_cegar.py --lemmaC 5` (Kuratowski CEGAR plus Lemma-C clauses) refuted 17-vertex C5 clique blow-ups in 43–2400 s. Plain Kuratowski CEGAR and the complete triangulation-cover SAT encoding were too weak; K9 cover was UNKNOWN at 600 s.
-3. **Verification of every refutation.**
-   - `tools/s025_check_minor_cert.py` re-justifies every CNF clause.
-   - `tools/s025_regen_cnf.py` rebuilds the CNF byte-for-byte from the gzipped lemma JSON.
-   - drat-trim VERIFIED native CaDiCaL proofs.
-4. **C5 threshold.** C5[a₁..a₅] (all aᵢ≥1) is biplanar for all 262 K9-free classes with Σaᵢ≤16, each with an explicit checked split. The Σaᵢ=17 classes listed as certified in C5_CERTIFICATES.json are non-biplanar. The other 8 Σaᵢ=17 classes are UNKNOWN: 3 are CEGAR-UNSAT with DRAT not completed and 5 are NOT_COMPLETED; all had annealing defect 1 (heuristic). The full iff-classification is pending those classes.
-5. **Corpus closure.** All 219 former UNKNOWN rows, row148 included, contain a certified C5 obstruction under explicit checked vertex maps. The corpus is 271/271 NON-BIPLANAR. This is not a χ₂ statement.
-6. **Positive oracle.** `tools/s025_cover_anneal.py` (triangulation-pair flips). Arm A weighted-independence annealing, heuristic best minima only:
-   - α≤3 biplanar graphs reached n=24; n=25..28 bottomed at 1, 4, 13, 35;
-   - W=3 total weight 28 stayed at ≥8 bad sets;
-   - α≤4 reached n=32.
-7. **Environment.** S025 ran on the owner's local Windows workstation with the S004-pinned native binaries after a full 271+K9 smoke PASS. Peak concurrency exhausted RAM (F071); respect one heavy ≤12 GiB worker and keep the total under 12 GiB.
+Main arm: improve generation with sound learned obstruction-support clauses. All2185 S026 generated models are now excluded, including recovered P29-B14-0001 (28 vertices,154 edges,alpha3,omega8), which avoids all26 sum17 C5 classes but has a full native checked non-biplanarity proof. Read validation/S026/filter-recovery:26 containment proofs, independent chromatic certificate, exact clause justification and byte regeneration. This disproves sufficiency of the C5 filters, not an Earth-Moon bound. Do not rerun any of the five closed candidates.
 
-Classical 9 ≤ χ₂ ≤ 12 is unchanged.
+Preload source clauses from the2180 independently checked S026 maps at their original weight profiles. For each explicit obstruction embedding, extract the required target base-edge support. With fixed bag capacities, that support forces the same injective non-induced subgraph embedding, so forbid its conjunction. Prove this clause, independently audit every map/support and test positive controls. Different profiles require fresh capacity/map validation. Learn from certified obstructions only, never from UNKNOWN. Include all21 certified C5 classes; use the newly certified P29 obstruction where a checked embedding applies. Its28 vertices make bounded deletion descent useful: optionally register at most28 one-vertex deletions,60s each exact,stop after1800s total,one worker; accept a smaller negative only with complete clause/native proof checks. No minimality claim from caps.
 
-## Arm 1 — finish and harden the C5 classification (bounded)
-- DRAT-certify the three CEGAR-UNSAT classes C5[2,4,3,3,5], C5[2,3,5,2,5] and C5[2,3,5,3,4]. Run the S025 engine on the five NOT_COMPLETED classes C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4] and C5[3,3,4,3,4]. Work serially, one heavy worker, cap 4 h each.
-- Certify each with clause re-justification, byte regeneration and drat-trim.
-- If all are certified, record the classification theorem with its exact dependency on K9.
-- Attempt, but do not require, a hand proof of the Σaᵢ≥17 direction from Lemma C. A partial hand argument is not a theorem.
+Register a whole local campaign of at most8h,one11GiB heavy tree and4h absolute per graph. Revised source:30 fixed profiles,100 models/profile,seed270018,180s soft/profile,7200s whole source,at most6 admitted graphs. Preserve a checked chi>=10 counting or native no9 certificate, K9/Euler and closed-family filters; audit admitted graphs against certified obstructions using the independent quotient CNF. Each admitted graph gets two60s positive trials and600s exact,plus1800s each native solve/check if needed. Register changed ranges before execution. Caps are UNKNOWN, not exhaustion. If no new admissible graph appears, report the quantitative result and propose a genuinely different source for S028 rather than repeating the same old model queue.
 
-## Arm 2 — obstruction-aware candidate source (main research arm)
-Design and preregister ONE source of explicitly ≥10-chromatic candidates that provably avoids:
-- K9;
-- every certified C5 obstruction as a subgraph;
-- S013/S014/S023 closed families.
+Secondary bounded arm: within the same8h whole-campaign budget, continue saved C5 theory-cut checkpoints on the remaining targets above, serially. First independently audit checkpoint input/eager metadata and saved cuts. S026's two-branch pilot used600s, reached UNKNOWN where listed, and saved Kuratowski cuts without internal learned state. Preregister one changed strength strategy (e.g. larger branch sets with the same proved lemma) or justified resumed search; at most3600s search per unresolved graph and1800s each native solve/check,4h absolute graph cap. Stop unchanged cap repetition. Every accepted negative requires independent clause justification, byte-for-byte CNF regeneration and checked native DRAT. Every positive needs explicit split/planarity checks; a sum17 positive would refute the proposed threshold and must be reported honestly. Only if all26 are certified negative may positivity-preserving deletion to sum17 plus the262 checked positives close the full C5 iff.
 
-Examples:
-- clique blow-ups of 9–11-vertex bases filtered by the new obstructions;
-- weighted/partial blow-ups whose bags are not cliques;
-- permuted-layer unions T ∪ σ(T) checked for χ_f > 9.
+Execute locally on the owner's laptop through Codex when S027 is invoked. Full scripts/cloud_smoke.py with absolute pinned native paths must pass271 originals plus retained/fresh K9 before science. One heavy process tree,11GiB private-memory cap, external wall supervision; no GPU benefit assumed. Reuse scripts/run_s026_local.py and audit patterns after adapting IDs/caps, and preserve exact raw source/input/native hashes. Use quiet watchdog waits, atomic queue/checkpoint JSON, flushed start/heartbeat/end records and hash-validated completed-unit reuse. Do not infer mid-solver resumption from progress counts. GitHub Actions is an alternate only if local execution is unavailable: D044 ubuntu-24.04 never-merged WIP workflow with SAME-JOB setup and full smoke; .github/workflows/s026-research.yml and validation/S026/HOSTED_39142133864.json retain actual runner/artifact evidence. Hosted green jobs are not mathematical proofs.
 
-For each candidate:
-- exact χ ≥ 10 by checked no-9 DRAT, or an elementary weighted-independence certificate;
-- biplanarity by annealer (positive) and minor-CEGAR (negative), with full certification.
-
-Report counts generated/filtered/decided, and stop at preregistered caps. Generalise Lemma C carefully (other certified non-biplanar minor targets, or two non-singleton branch sets) ONLY with a hand proof and an extended clause checker. Any new lemma family must pass K9/J1/C5 controls.
-
-## Arm 3 (optional, light) — chromatic-pressure frontier
-Extend the weighted-independence annealing only if a structural reason is given (e.g. χ_f-targeted weights from LP duals). Do not repeat S025 configurations.
-
-## Environment and reporting
-- If running locally: full scripts/cloud_smoke.py with absolute native paths before science.
-- Otherwise: Claude cloud hook, or D044 never-merged WIP GitHub Actions with same-job setup and full smoke.
-- Record package, native and source SHA256, seeds, caps, wall time and memory, exact attempted counts, and independent checker verdicts.
-- One heavy ≤12 GiB worker at a time; no RAM oversubscription.
-- Distinguish heuristic, exact finite, SOURCE_STATED and formally certified results.
-
-## S026 closeout contract
-- Write sessions/S026/{INPUT,PLAN,RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT,MANIFEST.json,OWNER_INVOCATION,EXECUTED_PROMPT}, paired catalogue claim/source entries, campaign/decision/failure/phase/session records and a truthful STATE.
-- Write a COMPLETE S027 FUTURE/UNEXECUTED prompt, byte-identical at authoritative/NEXT_SESSION_PROMPT.md and sessions/S026/S027_FUTURE_PROMPT.md.
-- One isolated authored commit, ordinary PR, non-force TWO-parent merge; independently verify main, tree, parents and hosted checks.
-- The final user report MUST include the full S027 prompt verbatim and verified GitHub links. STOP before S027.
+Refresh primary prior art twice with honest grades. Record exact counts, timings, memory, seeds, caps, errors and UNKNOWNs. Maintain paired sources/claims, campaigns, decisions/failures/session/phase ledgers and truthful STATE. Commit full S027 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT/MANIFEST/OWNER_INVOCATION/EXECUTED_PROMPT. Write identical COMPLETE S028 FUTURE prompts at authoritative/NEXT_SESSION_PROMPT.md and sessions/S027/S028_FUTURE_PROMPT.md. One atomic authored session commit, ordinary PR, non-force two-parent merge; independently verify main, parents, equal tree and actual hosted governance jobs. Final report must include verified commit/PR/merge links and the FULL S028 prompt verbatim. Do not execute S028.

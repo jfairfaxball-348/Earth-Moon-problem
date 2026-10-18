@@ -1,0 +1,111 @@
+{
+ "recovered_S025": true,
+ "original_manifest": {
+  "tag": "24335",
+  "provenance": "Ignored S025 local CEGAR checkpoint, recovered 2026-10-18; not a new proof check",
+  "files": {
+   "edges": {
+    "raw_sha256": "083231497354bba43f75c2db966d1ebe4a88d8a71f142d25b05de471aad293be",
+    "stored_sha256": "083231497354bba43f75c2db966d1ebe4a88d8a71f142d25b05de471aad293be",
+    "stored_path": "validation/S026/recovered/24335.edges"
+   },
+   "result.json": {
+    "raw_sha256": "a65a0ee432c86ffebaf50c3c1ee8f05416043e5872e9c995a3f5ab50611d862c",
+    "stored_sha256": "a65a0ee432c86ffebaf50c3c1ee8f05416043e5872e9c995a3f5ab50611d862c",
+    "stored_path": "validation/S026/recovered/24335.result.json"
+   },
+   "lemmas.json": {
+    "raw_sha256": "aecfaa5c93153a454e5befe414408e72452b80167043b61ba184029ce2072064",
+    "stored_sha256": "7d8883f21084f4371bbd775b904fd8858168f68a8473adf13d5ee0faa29a71e2",
+    "stored_path": "validation/S026/recovered/24335.lemmas.json.gz"
+   }
+  },
+  "original_cnf_sha256": "fabc21a1d09ae620860504e201a20687acea1d00c59c99e22e523f553aa0038b"
+ },
+ "recovery": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.lemmas.json",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.cnf"
+  ],
+  "returncode": 0,
+  "seconds": 5.563,
+  "peak_tree_rss_kib": 1364916,
+  "completed_process": true,
+  "log": "C5-24335\\recovery.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "proof": {
+  "justification": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_check_minor_cert.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor"
+   ],
+   "returncode": 0,
+   "seconds": 82.5,
+   "peak_tree_rss_kib": 1444128,
+   "completed_process": true,
+   "log": "C5-24335\\justification.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "regeneration": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.lemmas.json",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\rebuilt.cnf"
+   ],
+   "returncode": 0,
+   "seconds": 5.078,
+   "peak_tree_rss_kib": 1365804,
+   "completed_process": true,
+   "log": "C5-24335\\regeneration.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "cnf_byte_match": true,
+  "native": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335",
+    "1800",
+    "1800"
+   ],
+   "returncode": 0,
+   "seconds": 382.906,
+   "peak_tree_rss_kib": 324420,
+   "completed_process": true,
+   "log": "C5-24335\\native.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "certificate": {
+   "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.cnf",
+   "cnf_sha256": "fabc21a1d09ae620860504e201a20687acea1d00c59c99e22e523f553aa0038b",
+   "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+   "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+   "solver_returncode": 20,
+   "solve_seconds": 115.37,
+   "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+   "check_seconds": 237.14,
+   "drat_sha256": "3c3fbcc7030554770e323ac08398ccb4508467bc1df9292399bc5b6f50d22d68",
+   "drat_bytes": 109619027,
+   "checker_tail": "\nc parsing input formula with 3761 variables and 725131 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 80747 of 725131 clauses in core                            \n\nc 322299 of 680047 lemmas in core using 10934563 resolution steps\n\nc 0 RAT lemmas in core; 118386 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 237.128 seconds\n",
+   "verdict": "UNSAT_DRAT_VERIFIED",
+   "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335\\minor.drat.gz",
+   "drat_gz_sha256": "aa6e4e85eb4876547b4dca225a36b1b54e81bbb078f8c8796c69f7e5d9c36cb7"
+  },
+  "certified": true
+ },
+ "verdict": "NONBIPLANAR_CERTIFIED"
+}

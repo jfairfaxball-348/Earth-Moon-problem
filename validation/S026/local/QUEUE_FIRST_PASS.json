@@ -1,0 +1,184 @@
+{
+ "session": "S026",
+ "authority": "owner direct local instruction 2026-10-18",
+ "source_commit": "2688a611242a4c134b04949f97411860f8eb6ba1",
+ "memory_kib": 11534336,
+ "graph_absolute_wall_seconds": 14400,
+ "jobs": [
+  {
+   "tag": "24335",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "24335"
+    ],
+    "returncode": 0,
+    "seconds": 483.297,
+    "peak_tree_rss_kib": 1465248,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\24335.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "NONBIPLANAR_CERTIFIED",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335"
+  },
+  {
+   "tag": "23525",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "23525"
+    ],
+    "returncode": 0,
+    "seconds": 465.5,
+    "peak_tree_rss_kib": 1370864,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\23525.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "NONBIPLANAR_CERTIFIED",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23525"
+  },
+  {
+   "tag": "23534",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "23534"
+    ],
+    "returncode": 0,
+    "seconds": 375.031,
+    "peak_tree_rss_kib": 1244172,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\23534.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "NONBIPLANAR_CERTIFIED",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23534"
+  },
+  {
+   "tag": "23435",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "23435"
+    ],
+    "returncode": 1,
+    "seconds": 0.5,
+    "peak_tree_rss_kib": 57612,
+    "completed_process": false,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\23435.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23435"
+  },
+  {
+   "tag": "24344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "24344"
+    ],
+    "returncode": 1,
+    "seconds": 0.516,
+    "peak_tree_rss_kib": 57748,
+    "completed_process": false,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\24344.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344"
+  },
+  {
+   "tag": "24425",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "24425"
+    ],
+    "returncode": 1,
+    "seconds": 0.516,
+    "peak_tree_rss_kib": 57900,
+    "completed_process": false,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\24425.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24425"
+  },
+  {
+   "tag": "33344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "33344"
+    ],
+    "returncode": 1,
+    "seconds": 0.516,
+    "peak_tree_rss_kib": 58196,
+    "completed_process": false,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\33344.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-33344"
+  },
+  {
+   "tag": "33434",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "33434"
+    ],
+    "returncode": 1,
+    "seconds": 0.5,
+    "peak_tree_rss_kib": 57872,
+    "completed_process": false,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\33434.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-33434"
+  }
+ ],
+ "smoke_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\scripts\\cloud_smoke.py"
+  ],
+  "returncode": 0,
+  "seconds": 61.203,
+  "peak_tree_rss_kib": 631456,
+  "completed_process": true,
+  "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\smoke.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "status": "QUEUE_FINISHED_NOT_A_SESSION_CLOSEOUT",
+ "certified": 3
+}
