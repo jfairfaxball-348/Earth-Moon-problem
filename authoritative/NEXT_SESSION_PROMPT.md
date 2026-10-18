@@ -1,41 +1,77 @@
-# S025 — finish original-219 edge gaps with certified global decisions (FUTURE / UNEXECUTED)
+# S026 — obstruction-aware χ≥10 candidate generation with the S025 exact engine (FUTURE / UNEXECUTED)
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
-## D058: binding owner override — replaces ALL earlier S025 prompts
-Owner instruction: **"give me a prompt for the next session to finish off the remaining gaps in those 219. Make this override any existing next session prompt."** This document entirely replaces the earlier S025 two-arm chromatic-pressure/layer-first construction prompt in BOTH `authoritative/NEXT_SESSION_PROMPT.md` and `sessions/S024/S025_FUTURE_PROMPT.md`. Supersede conflicting queued language in README, roadmap or historical D057. Reassert D051/D054 **original 219 first**, strengthened to actively finish graph gaps and certify decisive answers rather than chase percentages. No new non-original layer-first families or unrelated upper-bound research in S025. D042 still targets chi_2>=10 by ONE fully certified 10-chromatic biplanar graph; previous 9<=chi_2<=12 remains unchanged. This D058 write is ONLY a governance change: **S025 remains UNEXECUTED**. The owner's next "run next session" or pasted/linked S025 prompt authorises immediate S025 execution under D047; no additional confirmation. STOP before S026.
+## Invocation and binding scope
+- The owner's next "run next session", or a submission of this S026 prompt or its link, authorises exactly S026 under D047. No second confirmation is needed. STOP before S027.
+- D042 remains lower-bound-only: exhibit a finite simple biplanar graph of chromatic number ≥10 with all independent proof checks.
+- Do NOT work on universal upper bounds, Lean, Palomar, arXiv, manuscripts or outside correspondence.
+- S025 settled the D051/D054 original-219 queue. The whole fixed 271-row exactly-χ10 clique blow-up corpus is certified NON-BIPLANAR, so that priority is discharged (D058).
+- S026 may therefore choose new candidate sources within D042. It must justify each arm quantitatively and preregister caps before running.
 
-## What success means: full edge partitions or rigorous nonbiplanarity
-The immutable original candidate pool has 271 exactly chi=10 graphs: 52 certified NONBIPLANAR, **219 BIPLANARITY_UNKNOWN**. Every original source edge must be accounted for. For EACH active original graph G, seek one of:
-- **BIPLANAR:** explicit labelled V,E1,E2 with E(G)=E1 disjoint_union E2, complete original-edge coverage and independently verified planarity of both spanning layers (embedding/rotation/Euler plus a separate checker); recheck original independently proof-checked no-9-colouring certificate and a proper 10-colouring. This single witness proves chi_2>=10. Preserve source SHA, independent validators and immutable proofs.
-- **NONBIPLANAR:** proof of exhaustiveness and soundness/completeness of the GLOBAL two-planar-layer decision encoding, plus source-faithful CNF and independently checked full UNSAT DRAT/LRAT or equally rigorous complete mathematical certificate. A constrained partial search, one fixed embedding, local flip radius, incomplete CEGAR, or raw solver "UNSAT" CANNOT certify a global negative.
-- **UNKNOWN:** all incomplete, capped, locally excluded or proof-unchecked results. Keep exact status and next reproducible step. Even 95% placed means nothing about likelihood of finishing the proof.
+## Integration handoff note (2026-10-18)
+S025 local source commit8fda361 and PR31 main6883520 diverged. Read docs/S025_INTEGRATION_RECONCILIATION.md and validation/S025/INTEGRATION_MANIFEST.json, then obtain the final ordinary PR/two-parent merge/checks live. Both authority histories and the actual S025 execution prompt are preserved. Two omitted proof archives are restored against recorded compressed/raw digests; targeted .gitattributes preserve three recovered original tool byte hashes. No new scientific computation was performed during reconciliation and no S026 local-run permission is inferred.
 
-The ambitious goal is to finish **as many of the 219 as possible, ideally all**, but mathematical completeness, reproducibility and honesty dominate throughput. This session MUST perform serious scientific computation and implement stronger algorithms where needed; no planning-only outcome masquerading as execution. ONE certified positive meets headline D042; independently certified negatives permanently reduce the queue. Do not claim the 219 settled merely because all were heuristically attempted.
+## Read-first frozen S025 facts and integrity
+Independently pin live main (commit, tree, S025 PR and two-parent merge), workflows/checks, open PRs, branches and rulesets. Read:
+- AGENTS.md, STATE.json, START_HERE, SESSION_PROTOCOL, CERTIFICATE_POLICY, CLOUD_ENVIRONMENT;
+- research/S025_C5_OBSTRUCTIONS_CORPUS_CLOSURE.md;
+- sessions/S025/{RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT,MANIFEST.json};
+- campaigns CAM-0027..0029;
+- validation/S025 (C5_CERTIFICATES.json, TRANSFER_271.json, ARM_A_FRONTIER.json, SMOKE.json, ENVIRONMENT.json).
 
-## Read-first baseline and 219 gap ledger
-First independently pin LIVE main SHA/tree, S024 #30 PR and two-parent merge, current workflows/checks/open PRs/branch protections. Read AGENTS.md, authoritative/STATE.json and START_HERE, docs/{SESSION_PROTOCOL,CERTIFICATE_POLICY,CLOUD_ENVIRONMENT,S018_SERIAL_219_DIRECTIVE}, sessions/S024/CLOSEOUT.md, research/S024_GLOBAL_TRIANGULATION_COVER.md, validation/S015/{SUMMARY.json,REMOTE_SEARCH_RESULT.json}, validations S016-S022 and archived original sources/certificates. Do not mistake old smoke passing **271 chromatic non-9 proofs** for settling biplanarity.
+S025 key facts:
+1. **Lemma B/C (CLM-0090/0091).** Cross-layer K9-minor contraction lemmas, valid given K9's thickness 3.
+2. **Exact engine.** `tools/s025_minor_cegar.py --lemmaC 5` (Kuratowski CEGAR plus Lemma-C clauses) refuted 17-vertex C5 clique blow-ups in 43–2400 s. Plain Kuratowski CEGAR and the complete triangulation-cover SAT encoding were too weak; K9 cover was UNKNOWN at 600 s.
+3. **Verification of every refutation.**
+   - `tools/s025_check_minor_cert.py` re-justifies every CNF clause.
+   - `tools/s025_regen_cnf.py` rebuilds the CNF byte-for-byte from the gzipped lemma JSON.
+   - drat-trim VERIFIED native CaDiCaL proofs.
+4. **C5 threshold.** C5[a₁..a₅] (all aᵢ≥1) is biplanar for all 262 K9-free classes with Σaᵢ≤16, each with an explicit checked split. The Σaᵢ=17 classes listed as certified in C5_CERTIFICATES.json are non-biplanar. The other 8 Σaᵢ=17 classes are UNKNOWN: 3 are CEGAR-UNSAT with DRAT not completed and 5 are NOT_COMPLETED; all had annealing defect 1 (heuristic). The full iff-classification is pending those classes.
+5. **Corpus closure.** All 219 former UNKNOWN rows, row148 included, contain a certified C5 obstruction under explicit checked vertex maps. The corpus is 271/271 NON-BIPLANAR. This is not a χ₂ statement.
+6. **Positive oracle.** `tools/s025_cover_anneal.py` (triangulation-pair flips). Arm A weighted-independence annealing, heuristic best minima only:
+   - α≤3 biplanar graphs reached n=24; n=25..28 bottomed at 1, 4, 13, 35;
+   - W=3 total weight 28 stayed at ≥8 bad sets;
+   - α≤4 reached n=32.
+7. **Environment.** S025 ran on the owner's local Windows workstation with the S004-pinned native binaries after a full 271+K9 smoke PASS. Peak concurrency exhausted RAM (F071); respect one heavy ≤12 GiB worker and keep the total under 12 GiB.
 
-S015's 657 trials covered all 219 **heuristically**: mean edge placement 83.75%; 210 graphs >=80%; 46 >=85%; 11 >=90%. This is NOT proof-completion percentage. S015 original rows 3,9,173 missed 11 edges; 167,222,223 missed 12; 61,234,238 missed 13. Prior row156 had an 11-missing historical partial, but later runs did not improve it. **Original row148 (25 vertices, 131 edges) improved in S018 to 125 placed / 6 missing (95.4% edge coverage).** Its remaining original edges were (0,1),(0,10),(5,7),(12,16),(17,24),(21,23). Full original graph still UNKNOWN after 75,653 sound necessary cuts and exhaustive local radius<=3 search over 325,626 configurations. Those results are not global proof.
+Classical 9 ≤ χ₂ ≤ 12 is unchanged.
 
-**First deliverable:** rebuild a complete source-hashed `validation/S025/ORIGINAL_219_LEDGER.json` mapping ALL 219 immutable row IDs to (n,m, best historical placed/missing/coverage, source of partial, exact solver attempts, certificate status, blockers, next action), with no unknowns reclassified without proofs. Independently calculate <=6/10/12/15/20 missing counts, rank top ~10 with an explicit explanation of scoring and identify missing or incompatible archived artifacts. Do not repeat a shallow 219-wide heuristic sweep for its own sake.
+## Arm 1 — finish and harden the C5 classification (bounded)
+- DRAT-certify the three CEGAR-UNSAT classes C5[2,4,3,3,5], C5[2,3,5,2,5] and C5[2,3,5,3,4]. Run the S025 engine on the five NOT_COMPLETED classes C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4] and C5[3,3,4,3,4]. Work serially, one heavy worker, cap 4 h each.
+- Certify each with clause re-justification, byte regeneration and drat-trim.
+- If all are certified, record the classification theorem with its exact dependency on K9.
+- Attempt, but do not require, a hand proof of the Σaᵢ≥17 direction from Lemma C. A partial hand argument is not a theorem.
 
-## Primary execution: close row148 before widening
-**Graph148 first**, unless independent quantitative triage demonstrably favours a different original exact-chi10 row; document any deviation. A single heavy worker <=12GiB, one active graph at a time, reproducible GitHub Actions D044 scientific WIP permitted if cloud local hooks absent.
+## Arm 2 — obstruction-aware candidate source (main research arm)
+Design and preregister ONE source of explicitly ≥10-chromatic candidates that provably avoids:
+- K9;
+- every certified C5 obstruction as a subgraph;
+- S013/S014/S023 closed families.
 
-1. Read and independently replay the best 125-edge placement with its exact ORIGINAL edges and rotations; preserve it. Implement a sound partial-extension engine placing **all six currently missing original edges**, including genuine edge displacement/ejection, embedding-aware insertion and reversible repacking. Test every resulting full split with TWO independent planar layer validators. If a fixed partial cannot extend, label only THAT partial infeasible and widen search; do not infer graph nonbiplanarity.
-2. Make real algorithmic progress on the **complete global** decision problem. Implement and independently audit the S024 two-sphere-triangulation covering model (or another equivalent complete method). Its SAT variables/constraints must enforce oriented-face directed-dart incidence, 3n-6 edges per complete triangulation, connectivity, ONE link cycle per vertex, correct source edge coverage and sound symmetry. Explain and independently test formula-to-embedding and embedding-to-formula equivalence; a face-count-only pseudomanifold relaxation is INVALID. For row148 each completion has 69 edges and q (completion overlap) + r (non-original added edges) =7; this is NOT the partial-placement flip radius. Previous 75,653 Kuratowski cuts require independent source/encoding compatibility checks before reuse.
-3. **Controls BEFORE row148 scientific interpretation:** at least one known certified biplanar positive (e.g. Sulanke or archived split), K9 certified nonbiplanar with a full independently checked native refutation, and adversarial disconnected/link-cycle/coverage fixtures. Record exact CNF, decoding checks, solver/proof checker commands, timings, peak RAM, hashes. Only after these pass, attempt a substantial global original148 decision, checkpoint and profile the true bottleneck.
-4. If row148 is *rigorously decided*, advance serially to the next promising original row, considering 3,9,173,167,222,223,61,234,238,156 with corrected per-source priority. Reuse the complete engine and original hashes; never silently switch to different families. If it remains capped UNKNOWN, explain exactly what failed, improve measured algorithms or document a quantified case-switch; keep row148 queued with resumable files. Avoid serial 30-second caps on many rows, mindless extra random seeds, and simply increasing local radius without a global completeness plan.
+Examples:
+- clique blow-ups of 9–11-vertex bases filtered by the new obstructions;
+- weighted/partial blow-ups whose bags are not cliques;
+- permuted-layer unions T ∪ σ(T) checked for χ_f > 9.
 
-## Mandatory integrity and resource constraints
-In every distinct scientific run, execute pinned D043 `bash scripts/cloud_setup.sh` and FULL `.venv/bin/python scripts/cloud_smoke.py` (all 271 original chromatic CNF/DRAT plus retained AND fresh K9) in the SAME job, before new scientific computation. Scientific jobs must record job/run IDs, exact input/edge SHA256, code/environment/native package SHA256, seed, wall-time, memory peak, iterations, solver proof, validation and persistent checkpoint hashes. Max one heavy <=12GiB worker; preserve verified scientific WIP via durable blobs without merging WIP ancestry. Positive needs all edges and separate validators; negative needs proven complete encoding and independent checked refutation; timeout=UNKNOWN.
+For each candidate:
+- exact χ ≥ 10 by checked no-9 DRAT, or an elementary weighted-independence certificate;
+- biplanarity by annealer (positive) and minor-CEGAR (negative), with full certification.
 
-NO universal upper bound, other graph families, Lean, Palomar, arXiv, manuscript, journal or correspondence in this session. Prior art/current checks only when needed for correctness; distinguish inherited/known from new results.
+Report counts generated/filtered/decided, and stop at preregistered caps. Generalise Lemma C carefully (other certified non-biplanar minor targets, or two non-singleton branch sets) ONLY with a hand proof and an extended clause checker. Any new lemma family must pass K9/J1/C5 controls.
 
-## S025 deliverables / closeout
-- Actually execute substantial original-row **proof-directed science** (not just prompt/governance); report positive, negative and unknown **cumulative counts** for 271 and 219, plus number *newly* decided, and numeric partial gaps separately. Never treat 90% edge coverage as nearly 90% of a proof.
-- Publish the complete per-index ranked original219 ledger, best replayable partials, reproducible validation artifacts, code, source hashes, complete/global checker evidence (or a frank precise UNIMPLEMENTED/INVALIDATED marker) and resumable solver checkpoints. Give row148's exact verdict or quantified obstruction and next command.
-- Update sessions/S025/{INPUT,PLAN,RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT,MANIFEST.json,OWNER_INVOCATION,EXECUTED_PROMPT}, validation/S025, campaigns, decisions, failures, phases, claims/sources where supported, and authoritative STATE accurately.
-- Create a **full S026 FUTURE / UNEXECUTED prompt**, byte-identical in `authoritative/NEXT_SESSION_PROMPT.md` and `sessions/S025/S026_FUTURE_PROMPT.md`, continuing **original219 serial gap-closure** until accepted headline witness, actual full classification, or a FRESH explicit owner override. Do NOT silently restore the S024 layer-first programme. The final S025 closeout MUST quote the entire S026 prompt and show the merged GitHub links.
-- One isolated authored S025 science commit, ordinary PR, non-force two-parent merge; independently verify actual main SHA/tree/parents/workflow status. Governance CI alone is not mathematical certification. STOP before S026.
+## Arm 3 (optional, light) — chromatic-pressure frontier
+Extend the weighted-independence annealing only if a structural reason is given (e.g. χ_f-targeted weights from LP duals). Do not repeat S025 configurations.
+
+## Environment and reporting
+- If running locally: full scripts/cloud_smoke.py with absolute native paths before science.
+- Otherwise: Claude cloud hook, or D044 never-merged WIP GitHub Actions with same-job setup and full smoke.
+- Record package, native and source SHA256, seeds, caps, wall time and memory, exact attempted counts, and independent checker verdicts.
+- One heavy ≤12 GiB worker at a time; no RAM oversubscription.
+- Distinguish heuristic, exact finite, SOURCE_STATED and formally certified results.
+
+## S026 closeout contract
+- Write sessions/S026/{INPUT,PLAN,RESEARCH,ADVERSARIAL,PRIOR_ART,CLOSEOUT,MANIFEST.json,OWNER_INVOCATION,EXECUTED_PROMPT}, paired catalogue claim/source entries, campaign/decision/failure/phase/session records and a truthful STATE.
+- Write a COMPLETE S027 FUTURE/UNEXECUTED prompt, byte-identical at authoritative/NEXT_SESSION_PROMPT.md and sessions/S026/S027_FUTURE_PROMPT.md.
+- One isolated authored commit, ordinary PR, non-force TWO-parent merge; independently verify main, tree, parents and hosted checks.
+- The final user report MUST include the full S027 prompt verbatim and verified GitHub links. STOP before S027.

@@ -1,4 +1,6 @@
-> **D058 latest owner override (2026-10-16):** S025 FUTURE/UNEXECUTED is ORIGINAL219 exact gap-closure, replacing the prior S025 layer-first work. Read authoritative/NEXT_SESSION_PROMPT.md and docs/S025_219_GAP_CLOSURE_DIRECTIVE.md first; all stale S023/S024 FUTURE labels in historical records are superseded.
+**Current authority after S025 (reconciled2026-10-18):** S025 is executed; the original271 corpus is NON-BIPLANAR and the original219 queue is discharged by recorded certified decisions. No chi>=10 witness; D042 lower-only and9..12 unchanged. S026 obstruction-aware candidate generation is FUTURE/UNEXECUTED. Earlier D058 queued text below is historical. See docs/S025_INTEGRATION_RECONCILIATION.md.
+
+> **Historical D058 queued owner override (2026-10-16; discharged by S025):** S025 FUTURE/UNEXECUTED is ORIGINAL219 exact gap-closure, replacing the prior S025 layer-first work. Read authoritative/NEXT_SESSION_PROMPT.md and docs/S025_219_GAP_CLOSURE_DIRECTIVE.md first; all stale S023/S024 FUTURE labels in historical records are superseded.
 
 # Authority, founding baseline and use
 
@@ -84,3 +86,14 @@ Exactly original graph148 was tested. CAM0024 [run38765947247](https://github.co
 
 ## S024 closed — 2026-10-16
 D057 S024-only accepted by owner's direct 'Run next session'. Same-job full pinned271+K9 smoke PASS in [Actions run38862555457](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38862555457). CAM0026 layer-first 18 attempts n22/28/36, 17 fully edge-disjoint maximal triangulation pairs and checked rotation/Euler plus <=8 proper colourings, one remaining overlap; ZERO chi>=10. GLOBAL row148 sphere-cover iff and q+r=7 hand-proved, full face/link/connectivity encoding SPECIFIED ONLY, no native row148 run or verdict. Original52 certified negatives/219 UNKNOWN, classical9<=chi2<=12. S025 complete prompt queued FUTURE/UNEXECUTED. Read sessions/S024/CLOSEOUT.md and research/S024_GLOBAL_TRIANGULATION_COVER.md.
+
+## S025 closed — 2026-10-16
+- **Invocation and environment.** The owner's "run next session" invoked S025 (D047). It ran on the owner's local Windows workstation with the S004-pinned native CaDiCaL/drat-trim, after a full scripts/cloud_smoke.py PASS (271/271 + K9).
+- **Arm B.**
+  - The complete triangulation-cover SAT was implemented and validated, but is too weak (K9 UNKNOWN at 600 s; F070).
+  - New tools: a flip-annealing positive oracle, plus a Kuratowski CEGAR with cross-layer K9-minor Lemma C clauses (every clause re-justified, CNF regenerable byte-for-byte, drat-trim VERIFIED).
+  - Row148's hardness descends to 17-vertex C5 clique blow-ups. Certified C5 obstructions embed, by explicit checked maps, into all 219 UNKNOWN rows: **the original 271 corpus is entirely NON-BIPLANAR** (CLM-0094, D058).
+  - C5[a] is biplanar for all 262 K9-free classes with Σ≤16; certified Σ=17 classes are non-biplanar.
+- **Arm A.** Weighted-independence chromatic-certificate annealing found no χ≥10 (heuristic frontier only).
+- χ₂ stays 9..12. Read research/S025_C5_OBSTRUCTIONS_CORPUS_CLOSURE.md, sessions/S025/CLOSEOUT.md and validation/S025.
+- S026 is FUTURE/UNEXECUTED (authoritative/NEXT_SESSION_PROMPT.md).

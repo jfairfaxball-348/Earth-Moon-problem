@@ -1,4 +1,6 @@
-**CURRENT D058 OWNER PRIORITY (2026-10-16):** next S025, FUTURE/UNEXECUTED, is proof-producing ORIGINAL219 serial missing-edge closure, not the earlier S025 layer-first chromatic generator. Restore D051/D054, start row148 (six original edges missing), then verified ranked original rows, require complete checked positive/negative certificates or keep UNKNOWN. Full binding prompt in authoritative/NEXT_SESSION_PROMPT.md; D042 lower-only unchanged. All older session-future mentions below are historical.
+**Current authority after S025 (reconciled2026-10-18):** S025 is executed; the original271 corpus is NON-BIPLANAR and the original219 queue is discharged by recorded certified decisions. No chi>=10 witness; D042 lower-only and9..12 unchanged. S026 obstruction-aware candidate generation is FUTURE/UNEXECUTED. Earlier D058 queued text below is historical. See docs/S025_INTEGRATION_RECONCILIATION.md.
+
+**HISTORICAL D058 QUEUED PRIORITY (2026-10-16; discharged by completed S025):** next S025, FUTURE/UNEXECUTED, is proof-producing ORIGINAL219 serial missing-edge closure, not the earlier S025 layer-first chromatic generator. Restore D051/D054, start row148 (six original edges missing), then verified ranked original rows, require complete checked positive/negative certificates or keep UNKNOWN. Full binding prompt in authoritative/NEXT_SESSION_PROMPT.md; D042 lower-only unchanged. All older session-future mentions below are historical.
 
 # Long-horizon strategy
 

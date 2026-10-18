@@ -1,0 +1,34 @@
+{
+ "verdict": "PASS",
+ "scope": "environment acceptance only; no new mathematical claim",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+ "checker": "C:/Earth-Moon-problem/artifacts/tmp/S004/drat-trim-mingw.exe",
+ "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+ "chromatic_rows_checked": 271,
+ "chromatic_rows_verified": 271,
+ "chromatic_cnf_byte_matches": 271,
+ "solver": "C:/Earth-Moon-problem/artifacts/tmp/S004/cadical.exe",
+ "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+ "k9": {
+  "cnf_sha256_match": true,
+  "proof_sha256_match": true,
+  "verified": true,
+  "seconds": 7.639,
+  "regenerate_returncode": 0,
+  "regenerate_stderr_tail": ""
+ },
+ "solver_roundtrip": {
+  "solver_returncode": 20,
+  "solve_seconds": 15.993,
+  "fresh_proof_verified": true,
+  "check_seconds": 7.393
+ },
+ "rows_summary": {
+  "checked": 271,
+  "all_verified": true,
+  "all_cnf_match": true
+ },
+ "command": "EMP_CADICAL=<abs>/artifacts/tmp/S004/cadical.exe EMP_DRAT_TRIM=<abs>/artifacts/tmp/S004/drat-trim-mingw.exe .venv/Scripts/python.exe scripts/cloud_smoke.py",
+ "note": "First attempt failed before any check (relative native path not found by Windows CreateProcess); rerun with absolute paths PASS. No scientific computation preceded the PASS."
+}

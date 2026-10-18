@@ -1,0 +1,3 @@
+# S025 OWNER INVOCATION
+Date: 2026-10-16. The owner's message in the Claude desktop app (Code tab), faithfully transcribed: "run next session - you are running locally now so you have freedom to run in cl...also session can be ambitious...don't stop at one milestone or result - keep pushing" (the middle of the message was truncated in transit to "cl..."; it is interpreted only as permission to run computation on this local machine, not as any change of scientific scope).
+Under D047 this message invokes exactly S025, queued at main b8733f8 (authoritative/NEXT_SESSION_PROMPT.md, copied byte-for-byte to EXECUTED_PROMPT.md). No authorisation for S026, publication, outreach, Lean or upper-bound work is inferred.

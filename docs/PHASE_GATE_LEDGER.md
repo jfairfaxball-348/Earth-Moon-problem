@@ -1,9 +1,9 @@
 # Phase-gate ledger
 
-| Gate | Requirement | Status after S010 |
+| Gate | Requirement | Status after S025 |
 |---|---|---|
 | 0 Bootstrap | Governed repo, authority, sources/claims, exact target, reproducibility plan | PASS — administrative only |
-| 1 Headline mathematics | Since D042: one certified biplanar graph with χ ≥ 10 (explicit layers, independent per-layer planarity, checked non-9-colourability proof), with source and proof audit | ACTIVE (lower bound only); 52/271 excluded, 219 UNKNOWN. No χ ≥ 10 witness; headline gate NOT PASSED |
+| 1 Headline mathematics | Since D042: one certified biplanar graph with χ ≥ 10 (explicit layers, independent per-layer planarity, checked non-9-colourability proof), with source and proof audit | ACTIVE (lower bound only); original271/271 NON-BIPLANAR after S025. No χ ≥ 10 witness; headline gate NOT PASSED |
 | 2 First novelty | Result-specific primary-source priority and overlap challenge | NOT STARTED |
 | 3 Lean | Clean pinned Lean/mathlib kernel proof of exact claim | NOT STARTED |
 | 4 Final novelty | Independent current literature/assumptions/formal statement check | NOT STARTED |
@@ -69,3 +69,8 @@ Fresh full 271 original native DRAT/CNF byte hashes + K9 controls PASS separatel
 D056 permitted research on both adjacent bounds ONLY in S023. Primary literature inspected including Szeider Sep2026 alpha<=2 upper subclass result, Patil prior order lower restrictions and ordinary critical-density inequalities. Two elementary hand-proved CONDITIONAL/NECESSARY lemmas CLM0085/0086, no global chi2 change. No cloud science job/native proof/Lean build and no reclassification of original52 NONBIPLANAR/219 UNKNOWN; row148 globally UNKNOWN. Formalisation, originality, Palomar, paper/arXiv, outreach remain gated. S024 proposed scoped D057 is FUTURE/UNEXECUTED, not silently in effect.
 
 S024 (2026-10-16): D057 allows planar-layer-first alternative positive source for this session; CAM0026 GitHub Actions [run38862555457](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38862555457) full same-job original271/K9 native smoke PASS. 17 of18 attempts gave actual disjoint maximal planar triangulation pairs with checkable rotation certificates, but every pair has a proper <=8-colouring, NO chi>=10 and no phase1 headline. Global row148 iff two sphere completions and q+r=7 specified only; no exact row148 SAT test and original52 NONBIPLANAR/219 UNKNOWN. Classical9..12; Lean, novelty, Palomar and publication gates unchanged.
+
+S025 (2026-10-16), Phase 1, no headline gate.
+- The original 271 exactly-χ10 corpus is now fully decided NON-BIPLANAR (CLM-0094), via DRAT-certified C5 obstructions (CLM-0092) and explicit subgraph maps. The K9 dependency is classical and programme-certified.
+- New exact engine (Lemma C CEGAR) and positive oracle (flip annealing). No χ≥10 biplanar witness; 9 ≤ χ₂ ≤ 12.
+- Novelty, Lean, Palomar and publication gates are unchanged and unpassed.

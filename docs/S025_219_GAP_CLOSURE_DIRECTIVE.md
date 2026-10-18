@@ -1,3 +1,5 @@
+**Current authority after S025 (reconciled2026-10-18):** S025 is executed; the original271 corpus is NON-BIPLANAR and the original219 queue is discharged by recorded certified decisions. No chi>=10 witness; D042 lower-only and9..12 unchanged. S026 obstruction-aware candidate generation is FUTURE/UNEXECUTED. Earlier D058 queued text below is historical. See docs/S025_INTEGRATION_RECONCILIATION.md. The original directive below is preserved unchanged as PR31 history. Its frozen S025 prompt remains sessions/S024/S025_FUTURE_PROMPT.md; current authority points to S026.
+
 # D058 — S025 original-219 gap-closure owner override (2026-10-16)
 
 The owner requested the next session finish the remaining missing-edge gaps among the 219 original exact-10-chromatic biplanarity-UNKNOWN graphs and explicitly override any existing queued session prompt. This is a *governance change only*. S024 remains the last completed session; S025 has NOT been executed.

@@ -622,3 +622,28 @@ Thickness<=2 iff the original simple graph is edge-covered by two maximal sphere
 
 ## CLM-0088 — COMPUTED_EXACT in finite recorded CAM0026 ONLY
 Actions run38862555457 job116847945627 with full original271 and native retained/fresh K9 smoke passed. 18 preregistered maximal-planar pair trials: 17 edge-disjoint n22/28/36 pairs with explicit edges, checked rotation/Euler and SAT produced proper colourings using <=8 colours, one n28 overlapping pair. Thus every 17 candidate **fails** to be chi>=9; no original219 classification and no improvement to 9<=chi2<=12. Permanent validation/S024 and tools/s024_layer_first.py. A proper colour assignment is an upper chromatic certificate, never a lower certificate.
+
+
+## CLM-0089 — PROGRAMME_PROVED
+Complete two-sphere-triangulation encoding: per layer, triangle=>edges, every selected pair in exactly two selected triangles, exactly 3n-6 edges, every vertex covered, plus valid lazy LINK (vertex link is one cycle) and CONN (spanning connected) cuts. Any model violating no cut is a sphere triangulation (closed connected simplicial 2-manifold with V-E+F=2), and every sphere triangulation on n>=4 vertices satisfies all clauses. Elementary; implemented in tools/s025_tricover.py with independent decoder tools/s025_check.py. Validated (K8/K9P3/J1/J2 SAT with checked splits) but K9 UNKNOWN at 600 s, so not used for refutations. Unoriented triangles replace the S024 oriented-dart spec (orientability is automatic for chi=2).
+
+## CLM-0090 — PROGRAMME_PROVED
+Lemma B: in any biplanar decomposition (L1,L2) of G, if Q is a clique and R_1..R_k (|Q|+k=9) are pairwise disjoint vertex sets disjoint from Q, each dominating Q and pairwise joined by G-edges, then some L_j[R_i] is disconnected. Contract each R_i in both layers; union contains K9, which has thickness 3. Hand proof in research/S025_C5_OBSTRUCTIONS_CORPUS_CLOSURE.md section 5. Novelty not claimed.
+
+## CLM-0091 — PROGRAMME_PROVED
+Lemma C: let Q be a K8 of G, R disjoint from Q with r in R, and j a layer of a biplanar decomposition. If L_j[R] is connected and every q in Q-N_G(r) has an L_j-neighbour in R, contradiction. Hence the clause -c[R,j] | OR_q -a[q,R,j] (with c,a auxiliary connectivity/adjacency variables implied by spanning trees/edges) holds for every biplanar split. Contract R in L_j, keep only r in the other layer; union contains K9. Encoded in tools/s025_minor_cegar.py --lemmaC; every clause independently re-justified by tools/s025_check_minor_cert.py. Novelty not claimed; depends on K9 thickness 3.
+
+## CLM-0092 — COMPUTED_EXACT
+The following 18 clique blow-ups of C5 (17 vertices each) are NOT biplanar: C5[1,1,7,1,7], C5[1,2,6,1,7], C5[1,2,6,2,6], C5[1,3,5,1,7], C5[1,3,5,2,6], C5[1,3,5,3,5], C5[1,4,4,1,7], C5[1,4,4,2,6], C5[1,4,4,3,5], C5[1,4,4,4,4], C5[1,5,3,2,6], C5[1,5,3,3,5], C5[1,6,2,2,6], C5[2,2,5,3,5], C5[2,3,4,2,6], C5[2,3,4,4,4], C5[2,5,2,6,2], C5[3,3,3,3,5]. Per graph: Kuratowski+Lemma-C CEGAR UNSAT; every CNF clause re-justified; CNF regenerable byte-for-byte from gzipped lemma JSON (tools/s025_regen_cnf.py); S004-pinned native CaDiCaL DRAT proof VERIFIED by drat-trim. Certificates validation/S025/C5_CERTIFICATES.json and validation/S025/certs/. Conditional only on K9 thickness 3 (classical; programme DRAT).
+
+## CLM-0093 — COMPUTED_EXACT
+Every clique blow-up C5[a1..a5] with all a_i>=1, a_i+a_{i+1}<=8 and sum a_i<=16 is biplanar (262 dihedral classes, explicit independently checked splits). Every C5[a] violating a_i+a_{i+1}<=8 contains K9, and every C5[a] with sum>=19 fails the Euler or triangle-free cross-edge bound; every sum-18 filter-feasible class contains a sum-17 feasible class. Together with CLM-0092 this yields: C5[a] is biplanar iff a_i+a_{i+1}<=8 for all i and sum a_i<=16, PROVIDED the sum-17 classes not listed in CLM-0092 are also non-biplanar (status UNKNOWN for those). Positive side: validation/S025/C5_CLASSIFY.json.gz (E1/E2 per class, checked by tools/s025_check.check_split). Filter count 297 matches S004. The iff is complete only once all 26 sum-17 classes are certified.
+
+## CLM-0094 — COMPUTED_EXACT
+All 219 formerly BIPLANARITY_UNKNOWN rows of the original 271 exactly-chi10 clique blow-up corpus (including row148, sha 4f8dab6c...) contain a DRAT-certified non-biplanar C5 blow-up of CLM-0092 as a subgraph and are therefore NOT biplanar. With the 52 earlier certified rows, the entire 271-row corpus is non-biplanar. Explicit injective vertex maps, every obstruction edge checked to be a row edge (validation/S025/TRANSFER_271.json, tools/s025_transfer_all.py). Not a chi2 statement; the corpus is a restricted biased source.
+
+## CLM-0095 — PROGRAMME_PROVED
+C5[1,1,7,1,7] is not biplanar (hand proof): it is two K9-e copies sharing the vertex r plus the edge pq between their other non-adjacent endpoints; a one-layer path argument adds a missing edge to a layer and yields a biplanar K9. Independent cross-check of one CLM-0092 instance; section 6 of the S025 dossier.
+
+## CLM-0096 — HEURISTIC
+S025 exploratory annealing minima: row148 two-triangulation covers leave >=4 edges uncovered in all 5 runs; alpha<=3 biplanar graphs found for n<=24 (minima 1,4,13,35 at n=25..28); weighted (W=3, total 28) minima >=8; alpha<=4 found for n<=32. Search outcomes only, never bounds. validation/S025/ARM_A_FRONTIER.json, ROW148_ANNEAL.json. Zero-objective states are certificates of existence for the stated n only.

@@ -1,0 +1,139 @@
+{
+ "session": "S025",
+ "date": "2026-10-16",
+ "owner_invocation": "run next session (D047), local workstation",
+ "decision": "D058",
+ "entry_main": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
+ "entry_tree": "24dda2c99983fe06004e3c758ba215c0fb29d5f2",
+ "entry_parents": [
+  "f66f0e76577a8f3d33a19884904f636875816325",
+  "2027da48d74a35fcb62dabec6d715a5d5118e8ee"
+ ],
+ "entry_open_pr_count": 0,
+ "entry_rulesets_count": 0,
+ "entry_main_governance_run": 38863687297,
+ "environment": {
+  "kind": "LOCAL_WINDOWS_WORKSTATION",
+  "native": {
+   "cadical": "artifacts/tmp/S004/cadical.exe (S004-pinned Windows CaDiCaL 3.0.1 build)",
+   "cadical_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+   "drat_trim": "artifacts/tmp/S004/drat-trim-mingw.exe (S004-pinned drat-trim, flushed MinGW build)",
+   "drat_trim_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_sat": "1.9.dev15",
+  "networkx": "3.5"
+ },
+ "smoke": {
+  "verdict": "PASS",
+  "chromatic_rows_verified": 271,
+  "cnf_byte_matches": 271,
+  "k9_retained": true,
+  "k9_fresh": true
+ },
+ "campaigns": [
+  "CAM-0027",
+  "CAM-0028",
+  "CAM-0029"
+ ],
+ "claims_new": [
+  "CLM-0089",
+  "CLM-0090",
+  "CLM-0091",
+  "CLM-0092",
+  "CLM-0093",
+  "CLM-0094",
+  "CLM-0095",
+  "CLM-0096"
+ ],
+ "sources_new": [
+  "SRC-0041"
+ ],
+ "failures_new": [
+  "F069",
+  "F070",
+  "F071",
+  "F072"
+ ],
+ "c5_sum17_certified": [
+  "C5[1,1,7,1,7]",
+  "C5[1,2,6,1,7]",
+  "C5[1,2,6,2,6]",
+  "C5[1,3,5,1,7]",
+  "C5[1,3,5,2,6]",
+  "C5[1,3,5,3,5]",
+  "C5[1,4,4,1,7]",
+  "C5[1,4,4,2,6]",
+  "C5[1,4,4,3,5]",
+  "C5[1,4,4,4,4]",
+  "C5[1,5,3,2,6]",
+  "C5[1,5,3,3,5]",
+  "C5[1,6,2,2,6]",
+  "C5[2,2,5,3,5]",
+  "C5[2,3,4,2,6]",
+  "C5[2,3,4,4,4]",
+  "C5[2,5,2,6,2]",
+  "C5[3,3,3,3,5]"
+ ],
+ "c5_sum17_pending": [
+  "C5[2,3,4,3,5]",
+  "C5[2,3,5,2,5]",
+  "C5[2,3,5,3,4]",
+  "C5[2,4,3,3,5]",
+  "C5[2,4,3,4,4]",
+  "C5[2,4,4,2,5]",
+  "C5[3,3,3,4,4]",
+  "C5[3,3,4,3,4]"
+ ],
+ "c5_sum_le16_biplanar_classes": 262,
+ "original_corpus": {
+  "certified_nonbiplanar": 271,
+  "biplanarity_unknown": 0,
+  "settled_in_S025": 219
+ },
+ "row148": {
+  "sha256": "4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598",
+  "status": "NONBIPLANAR_CERTIFIED",
+  "obstruction": "C5[2,5,2,6,2] on base bags 3,4,5,7,6",
+  "best_anneal_uncovered": 4
+ },
+ "chi2_bounds": [
+  9,
+  12
+ ],
+ "chi10_witness": null,
+ "novelty_gate": "NOT_PASSED",
+ "tool_sha256": {
+  "s025_c5_classify.py": "0a670bc48a423588b9df5d1dcb4e9ab1f2f19146ae88c3d3b30d8bfbd98f0454",
+  "s025_certify.py": "fad99ef418303ecbf7123daf3074cedfb26c7dba159e16e35a88746ec5433c66",
+  "s025_certify_batch.py": "7102bcdb711ee4f887506b8eacf49356bc279321f9f8faa80ac05ded1aab3c07",
+  "s025_check.py": "45c062e25188e4cc85a307cf8eb8fb21377fbf21b0ae18dce7aedd6e3a0e47fd",
+  "s025_check_minor_cert.py": "8cb2f8fe4e8b6ff8cde4a0a99495cf03c0164c96975e31a26083a69416e069e8",
+  "s025_cover_anneal.py": "6e42911c794033bcdf298fc65d3dc6fb4ee6b2ea245756eb346960f3bf15f2bd",
+  "s025_descent.py": "930f6feec797a785891a8f5c6bb5c2e06b989c306e6c17a0e9d37126914a21bf",
+  "s025_indep_anneal.py": "41cefbc2ddca3603d0255afaea3b96b4e64f83c35cea3332dec1c03fa5920a9e",
+  "s025_minor_cegar.py": "4d1658ae6c9983addab27100901538e71b42030628cd84c4ef6af77f491abb25",
+  "s025_package.py": "b2b4709414d73a1fd3f40fa8a574ceb989a585963a601fad8ecb951a4ecd9efb",
+  "s025_regen_cnf.py": "e48f2ed30120cd1b58e73558b737663bc2d32d84c7c134cec1d785d255db063c",
+  "s025_subblowup.py": "e17d4dfa6525ebed5c213f01a1eddc5b0be095fcd8a36ecde1e1cd3747ed2b3a",
+  "s025_sweep.py": "b18f1d5af07112b0e42ee1961e2a839708570e6db6a6e591162bdeaffd32db7c",
+  "s025_transfer.py": "3473a169e5da828d5b7264881033f199219200067863f5866fc58f36f3b97a28",
+  "s025_transfer_all.py": "287df0b030e50ecd7a9db5dfcb9027ad60631d26c5145ea0eae66cdb4e1f5d4e",
+  "s025_tricover.py": "be1c5ec12b3f075b5a0e538a7594d19c4f2c1b9245e7a1a7f378d36a53c565c0",
+  "s025_weighted_check.py": "c3fdc65add759af7a7749b5a07ba178c98353b7e307f836d4eab9b2cb5705ff9",
+  "biplanar_cegar.py": "db33d16d2943250876eb29abdbc7a10344fb55306ce4c1ab46da58c361f5e76e",
+  "blowup_graph.py": "ca164c97202b34d636ad722888650ebce107c0141c4bfb98cfe52ae36ae2221e",
+  "biplanar_cnf.py": "794cd0d9130185d243a4f3f5414527cfa3f1ce9d90b45cdcf0b9fc1ddc36e1a6"
+ },
+ "next_session": "S026_FUTURE_UNEXECUTED",
+ "integration_reconciliation": {
+  "date": "2026-10-18",
+  "original_local_commit": "8fda3619eb8708458d75ef02b80ba1c9e97f3c80",
+  "reconciliation_entry_main": "6883520145af87e0ce01c53946c4914884839bbb",
+  "record": "docs/S025_INTEGRATION_RECONCILIATION.md",
+  "packaging_manifest": "validation/S025/INTEGRATION_MANIFEST.json",
+  "original_tool_and_certificate_hashes_preserved": true,
+  "new_scientific_computation": false,
+  "next_session": "S026_FUTURE_UNEXECUTED"
+ }
+}
