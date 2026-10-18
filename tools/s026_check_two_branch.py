@@ -61,7 +61,7 @@ def check(edgefile, prefix):
     with tempfile.TemporaryDirectory() as td:
         p = str(Path(td)/'legacy')
         Path(p+'.lemmas.json').write_text(json.dumps(d))
-        Path(p+'.cnf').write_text(f'p cnf {nv} {len(rest)}\n'+'\n'.join(rest)+'\n')
+        Path(p+'.cnf').write_text(f'p cnf {nv} {len(rest)}\n'+'\n'.join(rest)+'\n',newline='\n')
         old_check(edgefile, p)
     rec = {'verdict': 'ALL_CLAUSES_JUSTIFIED', 'clauses': nc,
            'two_models': len(d['two_models']), 'extended_clauses_checked': nc-len(rest)}
@@ -80,7 +80,7 @@ def regen(edgefile, prefix, out):
     c.lemmas = [[tuple(e) for e in K] for K in d['lemmas']]
     cls = c.clauses()
     text = f'p cnf {c.nv} {len(cls)}\n'+''.join(' '.join(map(str, cl))+' 0\n' for cl in cls)
-    Path(out).write_text(text)
+    Path(out).write_text(text,newline='\n')
     assert Path(out).read_bytes() == Path(prefix+'.cnf').read_bytes()
     print('BYTE_IDENTICAL')
 

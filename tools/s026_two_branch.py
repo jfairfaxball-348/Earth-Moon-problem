@@ -58,7 +58,7 @@ class TwoBranch(MinorCegar):
     def dump(self, prefix):
         cls = self.clauses()
         Path(str(prefix)+'.cnf').write_text(f'p cnf {self.nv} {len(cls)}\n'+''.join(
-            ' '.join(map(str, cl))+' 0\n' for cl in cls))
+            ' '.join(map(str, cl))+' 0\n' for cl in cls),newline='\n')
         Path(str(prefix)+'.lemmas.json').write_text(json.dumps(self.data()))
 
     def checkpoint(self,prefix,iterations):
