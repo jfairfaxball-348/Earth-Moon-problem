@@ -38,6 +38,10 @@ assert all(r['tag'] in {c['tag'] for c in certified} for r in rows)
 state=read('authoritative/STATE.json')
 assert state['last_completed_session']=='S025' and state['recommended_next_session']=='S026'
 assert state['next_session_is_future_unexecuted'] is True
+assert state['next_session_priority'].startswith('S026 FUTURE/UNEXECUTED:')
+assert 'next_session_owner_override' not in state
+assert state['historical_s024_next_session_owner_override']['session']=='S024_FUTURE_UNEXECUTED'
+assert state['latest_session_integration']['status']=='VERIFIED_S025_INTEGRATION_PR32'
 assert state['original_corpus_status']['certified_nonbiplanar']==271
 assert state['original_corpus_status']['biplanarity_unknown']==0
 assert (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()==(ROOT/'sessions/S025/S026_FUTURE_PROMPT.md').read_bytes()
