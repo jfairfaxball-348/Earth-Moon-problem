@@ -1,0 +1,68 @@
+[
+ {
+  "tag": "24335",
+  "provenance": "Ignored S025 local CEGAR checkpoint, recovered 2026-10-18; not a new proof check",
+  "files": {
+   "edges": {
+    "raw_sha256": "083231497354bba43f75c2db966d1ebe4a88d8a71f142d25b05de471aad293be",
+    "stored_sha256": "083231497354bba43f75c2db966d1ebe4a88d8a71f142d25b05de471aad293be",
+    "stored_path": "validation/S026/recovered/24335.edges"
+   },
+   "result.json": {
+    "raw_sha256": "a65a0ee432c86ffebaf50c3c1ee8f05416043e5872e9c995a3f5ab50611d862c",
+    "stored_sha256": "a65a0ee432c86ffebaf50c3c1ee8f05416043e5872e9c995a3f5ab50611d862c",
+    "stored_path": "validation/S026/recovered/24335.result.json"
+   },
+   "lemmas.json": {
+    "raw_sha256": "aecfaa5c93153a454e5befe414408e72452b80167043b61ba184029ce2072064",
+    "stored_sha256": "7d8883f21084f4371bbd775b904fd8858168f68a8473adf13d5ee0faa29a71e2",
+    "stored_path": "validation/S026/recovered/24335.lemmas.json.gz"
+   }
+  },
+  "original_cnf_sha256": "fabc21a1d09ae620860504e201a20687acea1d00c59c99e22e523f553aa0038b"
+ },
+ {
+  "tag": "23525",
+  "provenance": "Ignored S025 local CEGAR checkpoint, recovered 2026-10-18; not a new proof check",
+  "files": {
+   "edges": {
+    "raw_sha256": "5d8410e7dc0395da60e027472733ee76c09047a0d6cab6425085eeef8e898038",
+    "stored_sha256": "5d8410e7dc0395da60e027472733ee76c09047a0d6cab6425085eeef8e898038",
+    "stored_path": "validation/S026/recovered/23525.edges"
+   },
+   "result.json": {
+    "raw_sha256": "aa09be84696df678105c67cb4b949423e07a3d82612e4d32bd684ce1c0472527",
+    "stored_sha256": "aa09be84696df678105c67cb4b949423e07a3d82612e4d32bd684ce1c0472527",
+    "stored_path": "validation/S026/recovered/23525.result.json"
+   },
+   "lemmas.json": {
+    "raw_sha256": "59a6d770fefbe38b696fc117d95cf9643b0fe54b7407d536b311767d51ab097e",
+    "stored_sha256": "4088e12bf3170189dcc140efada97f504081c9caf8013f9023779ce2db4ec2e6",
+    "stored_path": "validation/S026/recovered/23525.lemmas.json.gz"
+   }
+  },
+  "original_cnf_sha256": "9fdf7eaebcac937be6287b15f8a6468227e13252da8e1cf621ac917ecebb8d6a"
+ },
+ {
+  "tag": "23534",
+  "provenance": "Ignored S025 local CEGAR checkpoint, recovered 2026-10-18; not a new proof check",
+  "files": {
+   "edges": {
+    "raw_sha256": "0d56be5de0e303d8b2a77558bb4c826e7ceace1b7d53cb83e993ea86e4a22d64",
+    "stored_sha256": "0d56be5de0e303d8b2a77558bb4c826e7ceace1b7d53cb83e993ea86e4a22d64",
+    "stored_path": "validation/S026/recovered/23534.edges"
+   },
+   "result.json": {
+    "raw_sha256": "4090391f98e661d5406c5230ad0127f67a02e33f079a3543b90bf7f1c2317c1f",
+    "stored_sha256": "4090391f98e661d5406c5230ad0127f67a02e33f079a3543b90bf7f1c2317c1f",
+    "stored_path": "validation/S026/recovered/23534.result.json"
+   },
+   "lemmas.json": {
+    "raw_sha256": "d847e877aa11fbb66f07df2873b2c4f449e23108e6eb7f2a99e8bcb208938143",
+    "stored_sha256": "aa4181bc03b04e9007a8176cc40f3e65a63cf2f8c8b96a01b48993be913c8a50",
+    "stored_path": "validation/S026/recovered/23534.lemmas.json.gz"
+   }
+  },
+  "original_cnf_sha256": "0c6182c44a2f1910a0b65c5bb309d1e138dde29145ce3da1c7a177ec172e4659"
+ }
+]

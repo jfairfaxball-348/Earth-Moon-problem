@@ -48,3 +48,34 @@ so the main arm has a guaranteed budget. Arm3 omitted: no new LP-dual rationale.
 UNKNOWN. SAT-model exhaustion without a checked proof is not a mathematical
 negative result. No upper-bound research, Lean, registration or outreach.
 Search prior art at entry and again before closeout; no novelty guarantee.
+
+## Preregistered revision after initial source results, before revised science
+
+Initial WIP4f061de / Actions39141223033: source full smoke PASS, base9 generator
+UNSAT UNCHECKED; base10 and11 each2000 models, all4000 Euler-filtered. No candidate
+passed to a biplanarity test. Cancelled the remaining redundant cold-search batch
+after discovering all three S025 UNSAT checkpoints still on disk. Cancellation is
+NOT_COMPLETED, never negative evidence. Original workflow/source remains immutable
+on its WIP commit. Recovery is packaging only; original/raw/compressed hashes saved.
+
+Revised CAM0030: regenerate and certify recovered24335/23525/23534 without search.
+For the other five, pilot600s using the proved two-branch single-layer lemma
+(research/S026_TWO_BRANCH_LEMMA.md), R,S sizes2..3. Independent extended checker,
+byte regeneration, J1 and C5-33334 positive split/clause controls, same-job retained
+and fresh native K9 proofs required before use. Absolute4h maximum still applies;
+600s is a first method pilot, not a claim of completion. If capped, preserve UNKNOWN
+and assess strength before allocating a continuation. Native/check caps unchanged.
+
+Revised CAM0031 remains ONE clique-blow-up source. Move exact Euler bound into CNF
+via equivalent fresh Boolean copies and sequential cardinality. Thirty fixed
+weight profiles: nine deterministic sorted compositions of28, parts1..7, at each
+base order9,10,11 (including balanced); balanced profiles at orders12,13,14.
+Seed260018; at most100 models/profile,180s checked between solver calls, outer
+7200s process cap (an in-flight SAT call can exceed180s, so this is not a hard
+per-call promise). At mostSIX distinct admitted labelled edge sets; each60sx2
+annealing plus300s old minor CEGAR. All model graph6 strings retained, including
+filtered ones. All admitted candidates must avoid all18 certified C5s by complete
+bag-assignment search, K9, and the S023 universal-K6 source. S013/S014 anchored
+<=18-vertex families are avoided by candidate order28. Native DRAT is attempted
+on zero-model generator domains (60s solve/120s check); unchecked/domain-capped
+UNSAT remains an observation, never a graph-family exclusion.
