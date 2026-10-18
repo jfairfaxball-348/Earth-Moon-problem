@@ -1,0 +1,22 @@
+# S026 research record
+
+S026 targets one certified biplanar graph with chromatic number at least ten under D042. Original271 was already entirely non-biplanar. OWNER_INVOCATION and EXECUTED_PROMPT preserve entry authority.
+
+CAM0030 continues eight pending sum17 C5 classes. Three S025 complete cut sets were recovered by hashes, regenerated to original CNFs, and locally certified by native DRAT with independent clause checks and byte regeneration. The other five use the two-branch lemma in research/S026_TWO_BRANCH_LEMMA.md, including a case without K8 where Lemma C cannot apply. Checkpoints retain theory cuts, not internal learned SAT state.
+
+CAM0031 uses28-vertex clique blow-ups with alpha<=3, giving chi>=ceil(28/3)=10. Thirty fixed profiles at base orders9..14 have K9 and eager Euler constraints followed by old18-C5 filtering. Revised source:2185 models,2180 explicit old-obstruction maps, one capped filter UNKNOWN, four admitted. Five zero-model exact profile formulas have native DRAT proofs; other profiles are capped, not exhausted. Initial source separately produced4000 Euler-rejected models, motivating eager density.
+
+| Candidate | Edges | Initial exact stage | Final independent result |
+|---|---:|---|---|
+| P10-B10-0065 |155|UNKNOWN at cap|NON-BIPLANAR by new-C5 map|
+| P12-B10-0047 |155|Native DRAT negative|Also new-C5 map|
+| P19-B11-0008 |153|UNKNOWN at cap|NON-BIPLANAR by new-C5 map|
+| P27-B12-0087 |156|UNKNOWN at cap|NON-BIPLANAR by new-C5 map|
+
+Independent graph reconstruction checks all2180 maps and each admitted alpha=3/K9-free certificate. A second quotient-assignment SAT algorithm (research/S026_CONTAINMENT_ENCODING.md) proves all4 avoid all18 old obstructions:72 native DRAT certificates. It decodes explicit new-obstruction maps into all4. No admitted graph remains UNKNOWN; the separate capped-filter model remains UNKNOWN.
+
+Hosted pilots39141223033 and39142133864 retain permanent receipts. Revised source completed before the owner's local direction; hosted C5 work was cancelled. Local pinned binaries, fresh full271+retained/fresh K9 smoke and11GiB serial supervision gate continuation. The control-reader failure and same-target retry are explicit in PLAN and ADVERSARIAL.
+
+Davenport S110 supplied expected coverage counts, independent algorithms, durable progress/end markers, quiet waits, resource caps and permanent evidence. Progress output alone was not mid-shard resumption;14-worker concurrency was not copied. See docs/S026_LONG_RUN_LESSONS.md.
+
+PRIOR_ART records primary-source passes and attribution. Patil's primary repository already states the balanced C5 obstruction; no novelty is claimed. Final per-case C5 verdicts and timings are in CLOSEOUT and validation/S026/SUMMARY.json. No chi>=10 biplanar witness;9<=chi2<=12.

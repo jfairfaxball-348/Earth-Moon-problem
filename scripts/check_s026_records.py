@@ -46,7 +46,7 @@ for item in summary['jobs']:
         c=p['certificate']
         assert c['verdict']=='UNSAT_DRAT_VERIFIED' and c['solver_returncode']==20
         assert 's VERIFIED' in c['checker_tail']
-        proof=d/Path(c['drat_gz']).name
+        proof=d/c['drat_gz'].replace(chr(92),'/').rsplit('/',1)[-1]
         data=proof.read_bytes(); raw=gzip.decompress(data)
         assert sha(data)==c['drat_gz_sha256'] and sha(raw)==c['drat_sha256']
         assert len(raw)==c['drat_bytes']

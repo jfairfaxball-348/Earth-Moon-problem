@@ -1,4 +1,4 @@
-# Davenport S110 long-run lessons applied to Earth–Moon
+# Davenport S110 long-run lessons applied to Earthâ€“Moon
 
 Owner request during S026,2026-10-18: inspect yesterday's8+hour Davenport run and
 copy useful operational lessons. Read-only inspection of C:/Davenport-Counterexample-Hunt;
@@ -22,7 +22,7 @@ Live Davenport local mainda61638 contains S110 completed, plus later governance.
   because the two representative systems are different.
 - REVIEW.md explicitly retains shared reduction/trust assumptions, same-executor
   review and absentCI. Coverage is only support<=5 atn15/20, not Davenport's
-  universal question. No scientific conclusion is imported into Earth–Moon.
+  universal question. No scientific conclusion is imported into Earthâ€“Moon.
 
 ## Copy here
 
@@ -40,7 +40,7 @@ and full same-job smoke. Do not rewrite the history of a running experiment.
 
 Resume only a verified finished work unit or an explicitly saved solver checkpoint.
 Davenport's JSONL progress records were NOT automatic mid-shard resumption: neither
-algorithm reads the progress log to restart at the recorded index. Earth–Moon must
+algorithm reads the progress log to restart at the recorded index. Earthâ€“Moon must
 save CEGAR clause/lemma sets, generated CNFs, proof logs and solver inputs; a count
 alone cannot resume a SAT state. Already completed certificates must be skipped
 only after their full input/source/proof byte chain is validated.
@@ -56,3 +56,7 @@ The Windows stay_awake.ps1 was a process-scoped inhibitor restored on exit, not 
 permanent power setting. GitHub-hosted runners do not need this local helper.
 Budget overruns using measured per-unit timings and retain an honest cap/queue;
 do not silently replace expected coverage with the amount that happened to finish.
+
+## Actual S026 local adoption
+
+The owner directed local Codex execution. scripts/run_s026_local.py now uses this supervisor, fresh full271+K9 smoke, an11GiB tree cap, serial graph IDs, quiet waits, checkpointed theory cuts, durable journals and hash-validated finished-proof reuse. It holds a Windows file lock and process-scoped sleep inhibitor, restoring the inhibitor on exit. This continuation is distinct from immutable hosted fe92ca8. The post-queue audit takes the same heavy-worker lock. Native GPU acceleration is not assumed.

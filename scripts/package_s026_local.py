@@ -45,9 +45,11 @@ def main():
     if (audit/'AUDIT.json').exists():
         assert read(audit/'AUDIT.json')['status']=='FINISHED_WITH_EXPLICIT_PER_CASE_VERDICTS'
         copy_tree(audit,V/'audit')
+    recovery=ROOT/'artifacts/tmp/S026-filter-recovery'
+    if (recovery/'SUMMARY.json').exists():copy_tree(recovery,V/'filter-recovery')
     snapshots=V/'source-bytes';snapshots.mkdir(exist_ok=True)
     index=[]
-    files=list(V.rglob('SOURCE.json'))+[V/'local/ENVIRONMENT.json']
+    files=list(V.rglob('SOURCE.json'))+list(V.rglob('FAILED_CONTROL_SOURCE.json'))+[V/'local/ENVIRONMENT.json']
     for manifest in files:
         d=read(manifest)
         for filename,expected in d.get('source_sha256',{}).items():

@@ -1,0 +1,34 @@
+{
+ "edges_sha256": "089dab00bba1e375949b72b9f3841a25846eb94719653bf721a068d15ffd34d1",
+ "search": {
+  "command": [
+   "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/.venv/bin/python",
+   "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/tools/s025_minor_cegar.py",
+   "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S026/source/P27-B12-0087/graph.edges",
+   "/home/runner/work/Earth-Moon-problem/Earth-Moon-problem/artifacts/tmp/S026/source/P27-B12-0087/minor",
+   "300",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 305.058,
+  "cumulative_children_peak_rss_kib": 694096,
+  "log": "source/P27-B12-0087/search.log"
+ },
+ "result": {
+  "verdict": "UNKNOWN",
+  "iterations": 265,
+  "kuratowski_lemmas": 58814,
+  "minor_models": 9137,
+  "lemmaC_models": 88170,
+  "branch_sets": 7001,
+  "minor_clauses": 399093,
+  "build_seconds": 3.7,
+  "seconds": 304.4,
+  "symmetries": 17,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "verdict": "UNKNOWN"
+}

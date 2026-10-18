@@ -107,3 +107,7 @@ already checked all2180 maps, all4 alpha3/K9-free certificates,72 native DRAT
 absence certificates for the old18 obstructions, and explicit new-C5 maps closing
 all4 candidates. On a later audit reuse those exact checked case receipts after
 hash/input validation; do not repeat successful native proof work.
+
+## Final single-model filter recovery preregistration
+
+The sole original containment timeout P29-B14-0001 is retained by exact graph6 and weights. After the serial C5 queue AND existing four-candidate audit finish, use the independent quotient SAT algorithm on this one model against certified obstructions, new classes first. At most26 cases,45s external cap each,20000 PySAT conflicts,native10s/check20s;one11GiB tree. Stop at an independently checked positive map. A missing proof remains UNKNOWN. If every certified obstruction is proved absent, independently check alpha3/K9-free and apply the unused fifth candidate slot (two60s positive trials and300s exact). This is continuation of the SAME registered source, not a new family. Quantitative reason:72 earlier independent absence audits were inexpensive compared with the original backtracking timeout. Preserve the frozen initial source counts and record later recovery separately.
