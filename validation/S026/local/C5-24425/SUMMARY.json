@@ -1,0 +1,30 @@
+{
+ "edges_sha256": "5308f62781001cd853906242c2a57a530cc02eb756ade16d8b20bf6dfe6814ff",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s026_two_branch.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24425\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24425\\minor",
+   "600"
+  ],
+  "returncode": 0,
+  "seconds": 615.812,
+  "peak_tree_rss_kib": 905480,
+  "completed_process": true,
+  "log": "C5-24425\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "UNKNOWN",
+  "iterations": 2531,
+  "build_seconds": 0.23399999999674037,
+  "seconds": 614.5620000000054,
+  "two_models": 24384,
+  "kuratowski_lemmas": 338363,
+  "lemmaC_models": 1450,
+  "resumed_kuratowski_lemmas": 0
+ },
+ "verdict": "UNKNOWN"
+}

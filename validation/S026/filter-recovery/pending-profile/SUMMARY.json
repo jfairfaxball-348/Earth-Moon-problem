@@ -1,0 +1,191 @@
+{
+ "candidate": "P29-B14-0001",
+ "transfer_policy": "NO_NEGATIVE_TRANSFER_FROM_UNKNOWN_C5",
+ "cases": [
+  {
+   "tag": "23435",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_containment.py",
+     "decide",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\23435\\INPUT.json",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\23435"
+    ],
+    "returncode": 0,
+    "seconds": 1.031,
+    "peak_tree_rss_kib": 109628,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\23435\\run.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "verdict": "AVOIDS_DRAT_VERIFIED",
+   "proof": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\23435\\contain.cnf",
+    "cnf_sha256": "40ec5916685a2358b08bbd163b6ff11e72115c6448a8af5596f912aee2ea1b57",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 0.06,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 0.07,
+    "drat_sha256": "8f677e6ecd6beb711f1214eebe0ff75643d95d57aef0d9f2b451bc9582ad2df1",
+    "drat_bytes": 40207,
+    "checker_tail": "\nc parsing input formula with 238 variables and 20912 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 2575 of 20912 clauses in core                            \n\nc 396 of 523 lemmas in core using 16772 resolution steps\n\nc 0 RAT lemmas in core; 161 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.064 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\23435\\contain.drat.gz",
+    "drat_gz_sha256": "963ee4b54c9e05ee1f6a41ccb464d12127fd22c5c15706caaa78ab4e641d0ab0"
+   }
+  },
+  {
+   "tag": "24344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_containment.py",
+     "decide",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24344\\INPUT.json",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24344"
+    ],
+    "returncode": 0,
+    "seconds": 1.015,
+    "peak_tree_rss_kib": 124984,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24344\\run.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "verdict": "AVOIDS_DRAT_VERIFIED",
+   "proof": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24344\\contain.cnf",
+    "cnf_sha256": "b7b49b44643a55ab6efeff08bb11301b50b91ec039c24609fce6612475310655",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 0.03,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 0.07,
+    "drat_sha256": "a915c76e04336114ec9581c6dc7e01364cc6bd90df6c1a77b42cd480888fba06",
+    "drat_bytes": 49186,
+    "checker_tail": "\nc parsing input formula with 238 variables and 20912 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 3218 of 20912 clauses in core                            \n\nc 523 of 683 lemmas in core using 22277 resolution steps\n\nc 0 RAT lemmas in core; 237 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.066 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24344\\contain.drat.gz",
+    "drat_gz_sha256": "3817a3f8db8f6643639bddcf9d8654a22b67aa052558018da71f6d6b46e9aafc"
+   }
+  },
+  {
+   "tag": "24425",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_containment.py",
+     "decide",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24425\\INPUT.json",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24425"
+    ],
+    "returncode": 0,
+    "seconds": 1.015,
+    "peak_tree_rss_kib": 124908,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24425\\run.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "verdict": "AVOIDS_DRAT_VERIFIED",
+   "proof": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24425\\contain.cnf",
+    "cnf_sha256": "b8b726e68e066d42ffb5b918ab2e9e0d844376615925304b6f6799d68c69f987",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 0.04,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 0.08,
+    "drat_sha256": "23a978696c376c55a1a8c2e69f5ebd40c5809c8c035ea337c451127e3f39df91",
+    "drat_bytes": 50089,
+    "checker_tail": "\nc parsing input formula with 238 variables and 20688 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 3958 of 20688 clauses in core                            \n\nc 515 of 720 lemmas in core using 22319 resolution steps\n\nc 0 RAT lemmas in core; 154 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.067 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\24425\\contain.drat.gz",
+    "drat_gz_sha256": "74f16e8fef10d6ebf83a394f74697b17f37bbac891ac212ea75b6e08c0ccf83e"
+   }
+  },
+  {
+   "tag": "33344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_containment.py",
+     "decide",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33344\\INPUT.json",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33344"
+    ],
+    "returncode": 0,
+    "seconds": 1.015,
+    "peak_tree_rss_kib": 124772,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33344\\run.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "verdict": "AVOIDS_DRAT_VERIFIED",
+   "proof": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33344\\contain.cnf",
+    "cnf_sha256": "8b80b932dffb39f27ac46c86f92d164df1a3ada3eacf7d7c4120d967af890ecd",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 0.05,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 0.08,
+    "drat_sha256": "e9b5ce84301e5bc33caba0d79a5a5d98d82ca3dcc23d00a701c608f13b12e29b",
+    "drat_bytes": 70637,
+    "checker_tail": "\nc parsing input formula with 238 variables and 21024 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 5418 of 21024 clauses in core                            \n\nc 865 of 1153 lemmas in core using 44160 resolution steps\n\nc 0 RAT lemmas in core; 218 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.070 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33344\\contain.drat.gz",
+    "drat_gz_sha256": "367f3105fd4bf18342325ee072b579fcd1a64957a8aa79bbc02d996fdf7cd98a"
+   }
+  },
+  {
+   "tag": "33434",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_containment.py",
+     "decide",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33434\\INPUT.json",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33434"
+    ],
+    "returncode": 0,
+    "seconds": 1.015,
+    "peak_tree_rss_kib": 123644,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33434\\run.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "verdict": "AVOIDS_DRAT_VERIFIED",
+   "proof": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33434\\contain.cnf",
+    "cnf_sha256": "860768b2cd0fb72f8215594478257c6ccbd65ee934e159a6899a53b6a4b1fa7f",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 0.05,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 0.08,
+    "drat_sha256": "b408a1b1114db66c2b11d3b7034a2923e703a5fda389c074559bceef4d7b9d89",
+    "drat_bytes": 90650,
+    "checker_tail": "\nc parsing input formula with 238 variables and 20912 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 6007 of 20912 clauses in core                            \n\nc 1194 of 1470 lemmas in core using 55262 resolution steps\n\nc 0 RAT lemmas in core; 289 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.073 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\pending-profile\\33434\\contain.drat.gz",
+    "drat_gz_sha256": "9f8f197f275453efd36098e20e28e2677309018ab027a7e766cd8e7b66c05155"
+   }
+  }
+ ]
+}

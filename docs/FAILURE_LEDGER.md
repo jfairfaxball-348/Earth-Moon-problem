@@ -106,3 +106,9 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F070 (S025) | The complete two-sphere-triangulation SAT encoding (S024 spec) decides fixed graphs quickly enough for refutation | Valid controls pass, but K9 cover was UNKNOWN at 600 s, α≤2 existence at n=16 UNKNOWN at 900 s | Kept as a validated tool; refutations use the K9-minor CEGAR (CAM-0029) |
 | F071 (S025) | About 14 concurrent local workers fit the 16 GiB workstation | Free RAM fell to about 1 GiB. One CEGAR MemoryError (C5[2,3,4,3,5]); three runs and the plain baseline vanished without output; one certification batch MemoryError during proof gzip | Resource deviation; affected targets NOT_COMPLETED, nothing inferred. Keep total ≤12 GiB, one heavy worker |
 | F072 (S025) | Lemma B (both-layer contraction) alone suffices to decide 17-vertex C5 obstructions | C5[2,5,2,6,2] with Lemma B (K8+1, K7+2) was UNKNOWN at 3600 s in two runs; Lemma C gave UNSAT in 551 s | Single-layer contraction clauses (Lemma C) are the effective ingredient |
+
+| F073 (S026) | Dense source would admit candidates after post-hoc Euler filtering | Initial4000 models all fail Euler | Move exact Euler bound into registered source CNF; retain initial receipts, no negative family theorem |
+
+| F074 (S026) | New-method local controls execute | Path object passed to string-only J1 reader;five jobs BLOCKED_BEFORE_SEARCH | Convert path, retain failed receipts, fresh smoke and same-five retry; completed3 skipped |
+
+| F075 (S026) | Old18 obstruction avoidance yields a viable new source | All4 admitted contain a newly certified C5;5 new-method C5 pilots remain UNKNOWN | Integrate every certified obstruction into generation; preserve cap checkpoints; no iff or headline promotion |

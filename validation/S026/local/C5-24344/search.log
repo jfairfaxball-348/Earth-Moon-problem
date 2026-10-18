@@ -1,0 +1,10 @@
+{"kind": "checkpoint", "iterations": 250, "kuratowski_lemmas": 43216, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 496, "kuratowski_lemmas": 83715, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 762, "kuratowski_lemmas": 123947, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 997, "kuratowski_lemmas": 164687, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 1259, "kuratowski_lemmas": 202900, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 1646, "kuratowski_lemmas": 237650, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 1869, "kuratowski_lemmas": 267757, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 2090, "kuratowski_lemmas": 293622, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"kind": "checkpoint", "iterations": 2262, "kuratowski_lemmas": 317125, "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344\\minor.checkpoint.json.gz"}
+{"verdict": "UNKNOWN", "iterations": 2262, "build_seconds": 0.29699999999138527, "seconds": 614.5789999999979, "two_models": 36288, "kuratowski_lemmas": 317125, "lemmaC_models": 1700, "resumed_kuratowski_lemmas": 0}

@@ -1,0 +1,77 @@
+{
+ "avoids_all": true,
+ "tests": [
+  {
+   "tag": "11717",
+   "contains": false
+  },
+  {
+   "tag": "12617",
+   "contains": false
+  },
+  {
+   "tag": "12626",
+   "contains": false
+  },
+  {
+   "tag": "13517",
+   "contains": false
+  },
+  {
+   "tag": "13526",
+   "contains": false
+  },
+  {
+   "tag": "13535",
+   "contains": false
+  },
+  {
+   "tag": "14417",
+   "contains": false
+  },
+  {
+   "tag": "14426",
+   "contains": false
+  },
+  {
+   "tag": "14435",
+   "contains": false
+  },
+  {
+   "tag": "14444",
+   "contains": false
+  },
+  {
+   "tag": "15326",
+   "contains": false
+  },
+  {
+   "tag": "15335",
+   "contains": false
+  },
+  {
+   "tag": "16226",
+   "contains": false
+  },
+  {
+   "tag": "22535",
+   "contains": false
+  },
+  {
+   "tag": "23426",
+   "contains": false
+  },
+  {
+   "tag": "23444",
+   "contains": false
+  },
+  {
+   "tag": "25262",
+   "contains": false
+  },
+  {
+   "tag": "33335",
+   "contains": false
+  }
+ ]
+}

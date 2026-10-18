@@ -1,0 +1,10 @@
+{
+ "verdict": "UNKNOWN",
+ "iterations": 2360,
+ "build_seconds": 0.29699999999138527,
+ "seconds": 625.2649999999849,
+ "two_models": 38592,
+ "kuratowski_lemmas": 301234,
+ "lemmaC_models": 1700,
+ "resumed_kuratowski_lemmas": 0
+}

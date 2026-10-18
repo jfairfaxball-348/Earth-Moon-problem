@@ -1,0 +1,15 @@
+test_corrupt_rotation_rejected (test_rotation_certificates.TestConcreteCertificates.test_corrupt_rotation_rejected) ... ok
+test_genus_corruption_rejected (test_rotation_certificates.TestConcreteCertificates.test_genus_corruption_rejected) ... ok
+test_minimum_degree11_witness (test_rotation_certificates.TestConcreteCertificates.test_minimum_degree11_witness) ... ok
+test_sulanke_structure_and_rotations (test_rotation_certificates.TestConcreteCertificates.test_sulanke_structure_and_rotations) ... ok
+test_wrong_graph_rejected (test_rotation_certificates.TestConcreteCertificates.test_wrong_graph_rejected) ... ok
+test_bool_vertex_rejected (test_submission.TestPreliminaryCertificateValidation.test_bool_vertex_rejected) ... ok
+test_improper_colour_rejected (test_submission.TestPreliminaryCertificateValidation.test_improper_colour_rejected) ... ok
+test_loops_rejected (test_submission.TestPreliminaryCertificateValidation.test_loops_rejected) ... ok
+test_overlap_rejected (test_submission.TestPreliminaryCertificateValidation.test_overlap_rejected) ... ok
+test_well_formed (test_submission.TestPreliminaryCertificateValidation.test_well_formed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.004s
+
+OK

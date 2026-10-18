@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\tools\s026_campaign.py", line 199, in <module>
+    main()
+  File "C:\Earth-Moon-problem\tools\s026_campaign.py", line 190, in main
+    c5(sys.argv[2])
+  File "C:\Earth-Moon-problem\tools\s026_campaign.py", line 121, in c5
+    controls()
+  File "C:\Earth-Moon-problem\tools\s026_campaign.py", line 135, in controls
+    cases.append(('J1', json.loads(p.read_text()), read_edges(p.with_name('J1.edges'))))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Earth-Moon-problem\tools\biplanar_cnf.py", line 36, in read_edges
+    if path.endswith(".json"):
+       ^^^^^^^^^^^^^
+AttributeError: 'WindowsPath' object has no attribute 'endswith'

@@ -647,3 +647,33 @@ C5[1,1,7,1,7] is not biplanar (hand proof): it is two K9-e copies sharing the ve
 
 ## CLM-0096 — HEURISTIC
 S025 exploratory annealing minima: row148 two-triangulation covers leave >=4 edges uncovered in all 5 runs; alpha<=3 biplanar graphs found for n<=24 (minima 1,4,13,35 at n=25..28); weighted (W=3, total 28) minima >=8; alpha<=4 found for n<=32. Search outcomes only, never bounds. validation/S025/ARM_A_FRONTIER.json, ROW148_ANNEAL.json. Zero-objective states are certificates of existence for the stated n only.
+
+## CLM-0101 — COMPUTED_EXACT
+
+P29-B14-0001, g6 MLo?KqX@`[}@PcYW_ with fourteen clique bags of size2, has28 vertices,154 edges,alpha3,omega8 and chi>=10, but is NOT biplanar. Independent assignment CNFs with26 native checked DRAT proofs show it avoids every K9-free sum17 C5 class. Hence K9 and all such C5 obstructions are insufficient biplanarity filters even in this restricted source.
+
+validation/S026/filter-recovery/candidate: independent alpha3 enumeration,K9 absence,all clause justification,CNF byte regeneration,native DRAT. Search UNSAT107.8s, native solve3.35s/check2.83s; anneal defects8,7 are only heuristic.26 containment absence certificates include5 UNKNOWN obstructions without using their non-biplanarity. No novelty or chi2 advance. Positive-weight larger C5 blow-ups reduce to17 by vertex deletion; K9-containing ones cannot embed in this omega8 graph.
+
+## CLM-0097 — PROGRAMME_PROVED
+
+Two-branch one-layer contraction lemma: disjoint connected R,S outside K7 Q, with representatives r,s, layer neighbours replacing every missing Q-representative edge, and rs present in G or an R-S edge in that layer, contradict biplanarity.
+
+Hand proof research/S026_TWO_BRANCH_LEMMA.md; independent clause checker s026_check_two_branch.py; actual-meaning positive controls; K9 thickness3 dependency. Necessary candidate filter only; no novelty claim.
+
+## CLM-0098 — COMPUTED_EXACT
+
+S026 additionally certifies non-biplanarity of C5 weights ['24335', '23525', '23534']. Cumulative 21/26 sum17 classes certified; remaining ['23435', '24344', '24425', '33344', '33434'] UNKNOWN. All262 K9-free sum<=16 classes independently rechecked biplanar. The full iff remains pending unless all26 are certified.
+
+validation/S026/local per-graph clause justification, byte CNF regeneration and native checked DRAT. Three recovered S025 cut sets newly obtain complete proofs. Caps are UNKNOWN; original S025 claims retained historically.
+
+## CLM-0099 — PROGRAMME_PROVED
+
+Direct quotient-assignment CNF with exactly-one bag rows, explicit bag-capacity clauses, nonedge incompatibility and within-true-twin ordering is SAT iff a fixed clique blow-up obstruction embeds as a non-induced subgraph of the target clique blow-up.
+
+research/S026_CONTAINMENT_ENCODING.md. Independent decoder checks explicit injective vertex maps on labelled graph edges. A negative needs checked native DRAT for the exact CNF; no encoder/cardinality-library dependence.
+
+## CLM-0100 — COMPUTED_EXACT
+
+S026 restricted 28-vertex alpha<=3 source:2185 models,2180 independently checked old-C5 transfers,one initial filter timeout and four initially admitted graphs. Each admitted graph has alpha=3, noK9, and72 total native DRAT proofs show old18 absence. Each contains a newly certified obstruction, so all4 are NON-BIPLANAR. Five zero-model exact profile CNFs have native DRAT proofs.
+
+P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. validation/S026/source and audit. Base orders9..14,30 fixed profiles,seed260018,capped model counts and SAT calls; not an exhaustive family theorem or headline advance. An explicit proper colouring would only be an upper bound; chi>=10 here follows from28/alpha3, while biplanarity fails.

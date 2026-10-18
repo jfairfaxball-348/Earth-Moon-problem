@@ -1,0 +1,139 @@
+{
+ "session": "S026",
+ "authority": "owner direct local instruction 2026-10-18",
+ "source_commit": "ae3346609367472d529bdc2b58621b037e351714",
+ "memory_kib": 11534336,
+ "graph_absolute_wall_seconds": 14400,
+ "jobs": [
+  {
+   "tag": "24335",
+   "status": "VERIFIED_PRIOR_LOCAL_RECEIPT",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24335"
+  },
+  {
+   "tag": "23525",
+   "status": "VERIFIED_PRIOR_LOCAL_RECEIPT",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23525"
+  },
+  {
+   "tag": "23534",
+   "status": "VERIFIED_PRIOR_LOCAL_RECEIPT",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23534"
+  },
+  {
+   "tag": "23435",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "23435"
+    ],
+    "returncode": 0,
+    "seconds": 630.094,
+    "peak_tree_rss_kib": 952368,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\23435.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-23435"
+  },
+  {
+   "tag": "24344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "24344"
+    ],
+    "returncode": 0,
+    "seconds": 619.0,
+    "peak_tree_rss_kib": 986812,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\24344.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24344"
+  },
+  {
+   "tag": "24425",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "24425"
+    ],
+    "returncode": 0,
+    "seconds": 619.204,
+    "peak_tree_rss_kib": 979468,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\24425.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-24425"
+  },
+  {
+   "tag": "33344",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "33344"
+    ],
+    "returncode": 0,
+    "seconds": 618.5,
+    "peak_tree_rss_kib": 1070576,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\33344.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-33344"
+  },
+  {
+   "tag": "33434",
+   "process": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_campaign.py",
+     "c5",
+     "33434"
+    ],
+    "returncode": 0,
+    "seconds": 622.469,
+    "peak_tree_rss_kib": 1241460,
+    "completed_process": true,
+    "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\33434.driver.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "status": "UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\C5-33434"
+  }
+ ],
+ "smoke_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\scripts\\cloud_smoke.py"
+  ],
+  "returncode": 0,
+  "seconds": 57.157,
+  "peak_tree_rss_kib": 621928,
+  "completed_process": true,
+  "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-local\\smoke.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "status": "QUEUE_FINISHED_NOT_A_SESSION_CLOSEOUT",
+ "certified": 3
+}

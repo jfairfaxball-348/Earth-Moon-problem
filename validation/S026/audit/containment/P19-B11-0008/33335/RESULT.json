@@ -1,0 +1,20 @@
+{
+ "verdict": "AVOIDS_DRAT_VERIFIED",
+ "proof": {
+  "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-audit\\containment\\P19-B11-0008\\33335\\contain.cnf",
+  "cnf_sha256": "4f4cc472e0ab6b2b8dbeb28133edcfc3147d7420fc6400ad97d1a7324fdac613",
+  "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+  "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+  "solver_returncode": 20,
+  "solve_seconds": 0.04,
+  "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+  "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "check_seconds": 0.1,
+  "drat_sha256": "f713c9cbded3107050583712e460b10f2ada6a04c06cf4a7e975a17ee44f3016",
+  "drat_bytes": 3465,
+  "checker_tail": "\nc parsing input formula with 187 variables and 34366 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1212 of 34366 clauses in core                            \n\nc 119 of 237 lemmas in core using 4850 resolution steps\n\nc 0 RAT lemmas in core; 10 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.082 seconds\n",
+  "verdict": "UNSAT_DRAT_VERIFIED",
+  "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-audit\\containment\\P19-B11-0008\\33335\\contain.drat.gz",
+  "drat_gz_sha256": "a1f1b3d35b22d32f5ade62884f86332410942bca5b40b2eeb11df7ecab74e47b"
+ }
+}

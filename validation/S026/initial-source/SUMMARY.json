@@ -1,0 +1,76 @@
+{
+ "seed": 260018,
+ "universe": "labelled SAT models; no completeness claim",
+ "orders": [
+  {
+   "nbase": 9,
+   "weights": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "models": 0,
+   "euler_filtered": 0,
+   "cut_filtered": 0,
+   "c5_filtered": 0,
+   "filter_unknown": 0,
+   "admitted": 0,
+   "stop": "GENERATOR_UNSAT_UNCERTIFIED",
+   "seconds": 0.1
+  },
+  {
+   "nbase": 10,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+   ],
+   "models": 2000,
+   "euler_filtered": 2000,
+   "cut_filtered": 0,
+   "c5_filtered": 0,
+   "filter_unknown": 0,
+   "admitted": 0,
+   "stop": "MODEL_CAP",
+   "seconds": 0.66
+  },
+  {
+   "nbase": 11,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 2000,
+   "euler_filtered": 2000,
+   "cut_filtered": 0,
+   "c5_filtered": 0,
+   "filter_unknown": 0,
+   "admitted": 0,
+   "stop": "MODEL_CAP",
+   "seconds": 0.76
+  }
+ ],
+ "candidates": []
+}

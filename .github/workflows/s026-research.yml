@@ -1,0 +1,50 @@
+name: S026 obstruction-aware research (WIP NEVER MERGE)
+on:
+  push:
+    branches: [wip/S026-obstruction-aware]
+    paths: ['tools/s026_*.py', '.github/workflows/s026-research.yml']
+permissions:
+  contents: read
+jobs:
+  research:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        arm: [source, '24335', '23525', '23534', '23435', '24344', '24425', '33344', '33434']
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    concurrency:
+      group: EMP-S026-one-heavy-worker
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Pinned setup
+        run: bash scripts/cloud_setup.sh
+      - name: Full same-job smoke
+        run: .venv/bin/python scripts/cloud_smoke.py
+      - name: Serial bounded science
+        env:
+          ARM: ${{ matrix.arm }}
+        run: |
+          export EMP_CADICAL="$PWD/artifacts/tmp/native/bin/cadical"
+          export EMP_DRAT_TRIM="$PWD/artifacts/tmp/native/bin/drat-trim"
+          ulimit -v 12582912
+          if [ "$ARM" = source ]; then
+            timeout --kill-after=15s 7200s .venv/bin/python -u tools/s026_campaign.py source
+          else
+            timeout --kill-after=15s 13800s .venv/bin/python -u tools/s026_campaign.py c5 "$ARM"
+          fi
+      - name: Retain complete compact evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S026-${{ matrix.arm }}
+          retention-days: 90
+          if-no-files-found: warn
+          path: |
+            artifacts/tmp/S026/**
+            artifacts/tmp/cloud_smoke/RESULT.json
+            artifacts/tmp/native/ENVIRONMENT.json
