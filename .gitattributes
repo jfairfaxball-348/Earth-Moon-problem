@@ -14,3 +14,9 @@ validation/S008/**/*.log -text -whitespace
 validation/S009/** -text -whitespace
 # S010 preserves native logs and exact immutable source/launch snapshots.
 validation/S010/** -text -whitespace
+# S025 certificate hashes refer to the exact edge-file bytes as written.
+validation/S025/certs/*.edges -text -whitespace
+# Preserve the original source bytes named by the S025 manifest (including CRLF).
+tools/s025_check.py -text -whitespace
+tools/s025_indep_anneal.py -text -whitespace
+tools/s025_minor_cegar.py -text -whitespace

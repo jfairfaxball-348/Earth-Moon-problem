@@ -18,3 +18,6 @@
 S017 tested five original rows for approx 70–80s each using necessary Euler density cardinality cuts, all CAPPED UNKNOWN; row148 constructive partial got15 unplaced, worse than S016 historic10. Increasing 219-way breadth will not by itself fix exact SAT/Kuratowski weak cuts or the heuristic edge-placement plateau. S018 must instead independently audit lex symmetry source soundness, strengthen exact constraints and reversible planar embedding search, and put runtime into one candidate while preserving a falsifiable benchmark and proof requirements.
 
 **Exit:** S018 must implement/test a real serial and recoverable procedure, not just rewrite prose, when later invoked. If undecided, S019 continues same bottleneck/graph; no pivot until 219 queue is addressed on the owner's terms.
+
+## Discharged (S025, D058, 2026-10-16)
+Every original-219 row, row148 included, is certified NON-BIPLANAR via DRAT-certified 17-vertex C5 obstructions and explicit subgraph maps (CLM-0094; validation/S025/TRANSFER_271.json). The serial queue is complete.

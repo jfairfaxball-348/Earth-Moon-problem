@@ -1,4 +1,6 @@
-**D058 binding next-session override (2026-10-16):** S025 is solely original219 exact edge-gap closure (start row148 six missing), not prior S025 layer-first chromatic construction. This is queued governance, NOT scientific execution; D042 and D047 unchanged. Read docs/S025_219_GAP_CLOSURE_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md; stale historical future labels below are nonbinding.
+**Current authority after S025 (reconciled2026-10-18):** S025 is executed; the original271 corpus is NON-BIPLANAR and the original219 queue is discharged by recorded certified decisions. No chi>=10 witness; D042 lower-only and9..12 unchanged. S026 obstruction-aware candidate generation is FUTURE/UNEXECUTED. Earlier D058 queued text below is historical. See docs/S025_INTEGRATION_RECONCILIATION.md.
+
+**Historical D058 next-session override (2026-10-16; subsequently discharged by S025):** S025 is solely original219 exact edge-gap closure (start row148 six missing), not prior S025 layer-first chromatic construction. This is queued governance, NOT scientific execution; D042 and D047 unchanged. Read docs/S025_219_GAP_CLOSURE_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md; stale historical future labels below are nonbinding.
 
 # One-session, proof-first protocol
 
@@ -43,3 +45,6 @@ One active **original graph** and one heavy≤12GiB worker at a time; not two6Gi
 
 ## S024 execution-policy note
 The D056 S023 upper-versus-lower exception expired. Owner's S024 invocation adopted D057 for S024 only: lower-only programme still binding, exploratory new planar-first candidate source allowed alongside original graph148 global covering research, but 52/219 source verdicts frozen. S025 remains FUTURE. Same-job D044 full original271+K9 smoke was completed on hosted run38862555457; future runs must repeat smoke, not inherit this status.
+
+## S025 execution-policy note (D058)
+S025 ran locally on the owner's instruction, after a full smoke PASS. Its certified C5 obstructions settle all 219 original UNKNOWN rows, so the D054 serial original-219 priority above is DISCHARGED by complete decision. It is not repealed as a method. One heavy ≤12 GiB worker remains the rule; S025 breached it (F071) and that must not recur. S026 is FUTURE.

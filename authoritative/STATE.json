@@ -2,9 +2,9 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-16",
-  "last_completed_session": "S024",
-  "recommended_next_session": "S025",
-  "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
+  "last_completed_session": "S025",
+  "recommended_next_session": "S026",
+  "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
     "date": "2026-10-14",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S024",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S025",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S024 new layer-first 18 trials,17 edge-disjoint verified maximal planar pairs ALL proper <=8-colourable;1 overlapping non-candidate. Original52 NONBIPLANAR/219 UNKNOWN, original row148 UNKNOWN.",
+  "candidate_10_11_12": "S025: original 271 exactly-chi10 clique blow-up corpus ENTIRELY NON-BIPLANAR (52 earlier + 219 via DRAT-certified 17-vertex C5 obstructions and explicit subgraph maps). No chi>=10 biplanar candidate known.",
   "universal_improved_upper_bound": "NONE_PROVED; D056 S023 COMPARATIVE EXCEPTION COMPLETE; D042 UPPER BAN REINSTATED EXCEPT FUTURE OWNER-PROPOSED SESSION",
   "phases": [
     {
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S024_PRIMARY_ARXIV_STATEMENT_REREAD_PRIOR_METHOD;NO_2_2GB_REPLAY;NO_ORIGINALITY_CLAIM",
+  "source_status": "S025_PRIOR_ART_TWO_SEARCHES;SRC-0041_METADATA_ONLY;NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,8 +83,12 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S025 D058 OWNER OVERRIDE future/unexecuted: prioritise original219 complete original-edge biplanarity decisions; recreate all219 per-row gap ledger; start row148 six missing/131 then global exact two-triangulation encoder with independently checked controls and certified positive/negative; no new layer-first construction family. Retain 52 NONBIPLANAR/219 UNKNOWN and classical 9..12 until proof.",
-    "S024 proved complete two-triangulation cover equivalence and 25v131e q+r=7 count; oriented-face, one-link-cycle, whole-graph connectivity SAT specification written, NOT IMPLEMENTED or benchmarked, graph148 stays globally UNKNOWN.",
+    "S026 future: obstruction-aware chi>=10 candidate generation (avoid K9 and certified C5 obstructions), decide with flip-annealing oracle and Lemma-C minor CEGAR + DRAT; finish the remaining sum-17 C5 classes.",
+    "S025: 18/26 sum-17 C5 classes DRAT-certified non-biplanar; all 262 K9-free sum<=16 classes biplanar by explicit splits; iff-classification pending the rest.",
+    "S025: all 219 formerly UNKNOWN original rows settled NON-BIPLANAR (CLM-0094); D051/D054 priority discharged (D058). Dependency: K9 thickness 3 (classical; programme DRAT).",
+    "S025 Arm A heuristic frontier: alpha<=3 biplanar to n=24, alpha<=4 to n=32, W=3 total-28 weighted minima >=8; no chi>=10.",
+    "S025 resource deviation F071: local RAM oversubscription; affected runs NOT_COMPLETED.",
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed.",
     "S024 CAM0026 full same-job original271+K9 smoke PASS on GitHub Actions run38862555457; 17/18 genuinely disjoint maximal-planar layer pairs n22/28/36 verified by rotation/Euler, but each explicitly <=8-colourable, so zero chi>=10 witness. Stop overlap-only generator.",
     "Owner D056: S023 is NOW a two-sided proof-first feasibility audit of moving upper vs lower bound, including primary 2026 prior art, substantive lemma attempts BOTH sides and a defended preferred next route. D042 upper prohibition and D051/D054 row148-only priority suspended for this comparison alone; 52 NONBIPLANAR, 219 UNKNOWN, chi2 9..12 unchanged.",
     "S022 secondary CAM0025 found source-checked disjoint nonplanar obstruction packs A2, B1 around edge(0,1), but no four-per-side certificate. Four on side A impossible because vertex1 baseline layer A has only three incident edges other than target. Original remains UNKNOWN.",
@@ -108,11 +112,16 @@
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "session/S024-layer-first-global-cover",
-  "latest_session_entry_main": "f66f0e76577a8f3d33a19884904f636875816325",
+  "latest_session_branch": "session/S025-c5-obstructions-corpus-closure",
+  "latest_session_entry_main": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
   "latest_session_integration": {
-    "status": "PENDING_POST_MERGE_LIVE_READBACK",
-    "entry_main": "f66f0e76577a8f3d33a19884904f636875816325"
+    "status": "RECONCILED_ON_LIVE_MAIN_PENDING_POSTCOMMIT_PR_MERGE_READBACK",
+    "original_local_commit": "8fda3619eb8708458d75ef02b80ba1c9e97f3c80",
+    "original_session_entry_main": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
+    "reconciliation_entry_main": "6883520145af87e0ce01c53946c4914884839bbb",
+    "reconciliation_branch": "reconcile/S025-main-handoff",
+    "record": "docs/S025_INTEGRATION_RECONCILIATION.md",
+    "new_numbered_session_executed": false
   },
   "mathematical_results": [
     "CLM-0007",
@@ -191,7 +200,14 @@
     "CLM-0083",
     "CLM-0084",
     "CLM-0087",
-    "CLM-0088"
+    "CLM-0088",
+    "CLM-0089",
+    "CLM-0090",
+    "CLM-0091",
+    "CLM-0092",
+    "CLM-0093",
+    "CLM-0094",
+    "CLM-0095"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -461,7 +477,7 @@
     "decision": "D051",
     "date": "2026-10-15",
     "kind": "GOVERNANCE_REWRITE_NOT_SESSION",
-    "target": "All219 original χ10 biplanarity UNKNOWN first",
+    "target": "All219 original \u03c710 biplanarity UNKNOWN first",
     "canonical_list": "validation/S010/SUMMARY.json:remaining_unknown_indices",
     "runner": "GitHub Actions ubuntu-24.04 WIP allowed as verified D044 fallback",
     "new_scientific_jobs_executed": 0,
@@ -688,12 +704,62 @@
     "novelty_assessed": false,
     "full_dossier": "research/S023_UPPER_VS_LOWER_AUDIT.md"
   },
+  "original_corpus_status": {
+    "total": 271,
+    "certified_nonbiplanar": 271,
+    "biplanarity_unknown": 0,
+    "decided_in": "S004..S009 (52) and S025 (219)",
+    "claim": "CLM-0094"
+  },
+  "c5_blowup_classification": {
+    "biplanar_certified_classes_sum_le_16": 262,
+    "sum17_classes_total": 26,
+    "sum17_certified_nonbiplanar": 18,
+    "sum17_certified_list": [
+      "C5[1,1,7,1,7]",
+      "C5[1,2,6,1,7]",
+      "C5[1,2,6,2,6]",
+      "C5[1,3,5,1,7]",
+      "C5[1,3,5,2,6]",
+      "C5[1,3,5,3,5]",
+      "C5[1,4,4,1,7]",
+      "C5[1,4,4,2,6]",
+      "C5[1,4,4,3,5]",
+      "C5[1,4,4,4,4]",
+      "C5[1,5,3,2,6]",
+      "C5[1,5,3,3,5]",
+      "C5[1,6,2,2,6]",
+      "C5[2,2,5,3,5]",
+      "C5[2,3,4,2,6]",
+      "C5[2,3,4,4,4]",
+      "C5[2,5,2,6,2]",
+      "C5[3,3,3,3,5]"
+    ],
+    "iff_theorem_status": "PENDING_REMAINING_SUM17_CLASSES",
+    "claims": [
+      "CLM-0092",
+      "CLM-0093"
+    ]
+  },
+  "s024_integration_verified": {
+    "merge": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
+    "parents": [
+      "f66f0e76577a8f3d33a19884904f636875816325",
+      "2027da48d74a35fcb62dabec6d715a5d5118e8ee"
+    ],
+    "tree": "24dda2c99983fe06004e3c758ba215c0fb29d5f2",
+    "pr": 30,
+    "main_governance_run": 38863687297,
+    "conclusion": "success_governance_only"
+  },
   "owner_next_session_override": {
     "id": "D058",
     "date": "2026-10-16",
     "scope": "S025 replaces prior S025 instructions; original219 serial exact gap closure first; no layer-first/new construction families",
     "reference": "docs/S025_219_GAP_CLOSURE_DIRECTIVE.md",
-    "status": "QUEUED_NOT_EXECUTED",
-    "priority": "Original 219 (row148 first), exact biplanarity proof/certificates; partial percentages not proof progress"
+    "status": "DISCHARGED_BY_RECORDED_S025_CORPUS_DECISION",
+    "priority": "Original 219 (row148 first), exact biplanarity proof/certificates; partial percentages not proof progress",
+    "historical_queued_status": "QUEUED_NOT_EXECUTED",
+    "reconciliation_reference": "docs/S025_INTEGRATION_RECONCILIATION.md"
   }
 }

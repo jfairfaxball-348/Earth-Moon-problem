@@ -53,3 +53,7 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 
 - **CAM-0024 (S022)** one original row148 only, complete fixed-partial Hamming radius0..3 enumeration of 325626 flipsets, all exhausted, globally UNKNOWN; run38765947247 full new-job 271 native DRAT/CNF/K9 smoke PASS. Source, original hash, results and environment in validation/S022.
 - **CAM-0025 (S022)** separate original row148 Kuratowski compact support packing, full new-job cold 271+K9 smoke PASS, 175s best support packing A2/B1, no four-per-side certificate; run38767507306; global status unchanged.
+
+- **CAM-0027 (S025)** Arm A chromatic-certificate (weighted-independence) annealing over sphere-triangulation pairs, exploratory: α≤3 reached n=24, α≤4 reached n=32, W=3 total-28 minima ≥8; no χ≥10 witness (heuristic).
+- **CAM-0028 (S025)** Arm B complete triangulation-cover SAT (validated, too weak: K9 UNKNOWN at 600 s); flip-annealing oracle (row148 best 4 uncovered); descent to 17-vertex C5 obstructions; all 297 filter-feasible C5 classes annealed, 262 (n≤16) certified biplanar.
+- **CAM-0029 (S025)** Kuratowski + K9-minor (Lemma C) CEGAR with clause re-justification, byte regeneration and drat-trim: 17-vertex C5 obstructions certified non-biplanar; explicit maps settle all 219 UNKNOWN rows. The whole 271 corpus is NON-BIPLANAR.

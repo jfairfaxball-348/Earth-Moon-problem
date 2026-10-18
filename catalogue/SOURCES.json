@@ -1,7 +1,7 @@
 [
   {
     "id": "SRC-0001",
-    "title": "FÃ¤rbungsprobleme auf Flachen und Graphen",
+    "title": "F\u00c3\u00a4rbungsprobleme auf Flachen und Graphen",
     "authors": "Gerhard Ringel",
     "year": 1959,
     "url": null,
@@ -30,7 +30,7 @@
   },
   {
     "id": "SRC-0004",
-    "title": "The Earthâ€“Moon Problem",
+    "title": "The Earth\u00e2\u20ac\u201cMoon Problem",
     "authors": "Epoch AI",
     "year": 2026,
     "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
@@ -53,16 +53,16 @@
     "year": 2026,
     "url": "https://mathworld.wolfram.com/Earth-MoonProblem.html",
     "access": "SECONDARY_ONLY",
-    "note": "Summary only; historical 9â€“12 status."
+    "note": "Summary only; historical 9\u00e2\u20ac\u201c12 status."
   },
   {
     "id": "SRC-0007",
-    "title": "The Earthâ€“Moon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known Ï‡ = 10 candidates, and the status of Ï‡â‚‚",
+    "title": "The Earth\u00e2\u20ac\u201cMoon problem: a certified corpus of nine-critical biplanar graphs, the exhaustion of the known \u00cf\u2021 = 10 candidates, and the status of \u00cf\u2021\u00e2\u201a\u201a",
     "authors": "Digvijay Patil",
     "year": 2026,
     "url": "https://doi.org/10.5281/zenodo.22103613",
     "access": "PROOF_INSPECTED",
-    "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated HajÃ³s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
+    "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Haj\u00c3\u00b3s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only.",
     "accessed": "2026-10-12",
     "publication_date": "2026-08-26",
     "version": "First indexed version, concept record 22103612 resolves to 22103613",
@@ -100,7 +100,7 @@
   },
   {
     "id": "SRC-0011",
-    "title": "Oreâ€™s Conjecture on color-critical graphs is almost true",
+    "title": "Ore\u00e2\u20ac\u2122s Conjecture on color-critical graphs is almost true",
     "authors": "Alexandr Kostochka and Matthew Yancey",
     "year": 2014,
     "url": "https://arxiv.org/html/1209.1050v1",
@@ -170,7 +170,7 @@
   },
   {
     "id": "SRC-0018",
-    "title": "Small Biplanar Graphs Are 9-Colorable: The Earthâ€“Moon Problem up to 16 Vertices",
+    "title": "Small Biplanar Graphs Are 9-Colorable: The Earth\u00e2\u20ac\u201cMoon Problem up to 16 Vertices",
     "authors": "Alessio Doria",
     "year": 2026,
     "url": "https://doi.org/10.5281/zenodo.21824308",
@@ -358,7 +358,7 @@
   },
   {
     "id": "SRC-0035",
-    "title": "The Earth–Moon Problem",
+    "title": "The Earth\u2013Moon Problem",
     "authors": "Epoch AI",
     "year": 2026,
     "publication_date": "2026",
@@ -399,7 +399,7 @@
     "url": "https://doi.org/10.4230/LIPIcs.SAT.2023.14",
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-15",
-    "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth–Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported."
+    "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth\u2013Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported."
   },
   {
     "id": "SRC-0039",
@@ -423,5 +423,17 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-15",
     "note": "Primary JCTB published abstract read; improves DP-critical graph density, not a ready inequality for all ordinary 12-critical biplanar graphs. Explicit negative applicability audit."
+  },
+  {
+    "id": "SRC-0041",
+    "title": "On the Biplanarity of Blowups",
+    "authors": "David Eppstein",
+    "year": 2023,
+    "publication_date": "2023-01",
+    "url": "https://arxiv.org/abs/2301.09246",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-16",
+    "note": "Search-result excerpt only: disproves Gethner's conjecture that 2-blowups of planar graphs are biplanar. Relevant blow-up prior art; not opened; different family from clique blow-ups of C5."
   }
 ]
