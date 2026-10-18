@@ -28,3 +28,8 @@ https://arxiv.org/html/2609.28102v1
 https://arxiv.org/abs/2301.09246
 https://zenodo.org/records/22074335
 https://doi.org/10.5281/zenodo.22103613
+
+## Alternate primary source retrieved before closeout
+
+SRC-0017 live GitHub main5cb2ca9f7d4d6d195617c09f7348841636b646f6, treea1c9b38defd3c4d761aa13ac9c3b309056671191, date2026-08-26T08:35:09Z. Primary README, paper abstract and proofs/README inspected. The C5[3,4,3,4,3] thickness3 exclusion is explicitly stated there. Current access is STATEMENT_INSPECTED, no external certificate replay. The earlier secondary-only warning above is superseded for this statement, not for proof validation.
+https://github.com/Volkopat/earth-moon-biplanar/tree/5cb2ca9f7d4d6d195617c09f7348841636b646f6
