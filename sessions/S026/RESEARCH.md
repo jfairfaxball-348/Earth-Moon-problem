@@ -20,3 +20,7 @@ Hosted pilots39141223033 and39142133864 retain permanent receipts. Revised sourc
 Davenport S110 supplied expected coverage counts, independent algorithms, durable progress/end markers, quiet waits, resource caps and permanent evidence. Progress output alone was not mid-shard resumption;14-worker concurrency was not copied. See docs/S026_LONG_RUN_LESSONS.md.
 
 PRIOR_ART records primary-source passes and attribution. Patil's primary repository already states the balanced C5 obstruction; no novelty is claimed. Final per-case C5 verdicts and timings are in CLOSEOUT and validation/S026/SUMMARY.json. No chi>=10 biplanar witness;9<=chi2<=12.
+
+## Attempted hand threshold proof
+
+A uniform sum17 proof cannot be obtained merely by instantiating Lemma C: the class C5[3,3,4,3,4] has maximum adjacent bag sum7, hence no K8 at all. Replacing it by K7 plus two contracted sets produces the sound two-branch lemma, but counting weights alone does not force both sets connected in the SAME layer, the required missing-neighbour incidences, or their connecting edge. Those are precisely the unresolved layer-dependent alternatives encoded by the new clauses and Kuratowski cuts. No argument forcing one such model in every split was established. Therefore the finite pilot is not repackaged as a hand threshold theorem; remaining cases and the iff stay open.

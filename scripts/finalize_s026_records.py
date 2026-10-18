@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def write(p,s):
- p=ROOT/p;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s,encoding='utf-8')
+ p=ROOT/p;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s,encoding='utf-8',newline='\n')
 def save(p,d):write(p,json.dumps(d,indent=2)+chr(10))
 def append(p,marker,s):
  old=(ROOT/p).read_text(encoding='utf-8')
