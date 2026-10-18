@@ -19,7 +19,9 @@ CLOUD_ENVIRONMENT, S025 research/session/campaign/manifest and integration
 reconciliation records. S025 source/input/proof archives are programme evidence,
 not an inherited new-run smoke PASS. Bounds9..12; no certified chi>=10 witness.
 
-Environment selection: D044 GitHub Actions, ubuntu24.04, pinned source builds,
-Python3.12, full same-job271+retained/freshK9 smoke. No local scientific search
-or local native proof check is performed in S026. Local compression, hashing,
-file inspection, governance/unit checks and Git integration are administrative.
+Initial environment selection: D044 GitHub Actions, ubuntu24.04, pinned source
+builds, Python3.12, full same-job271+retained/freshK9 smoke. The main source stage
+completed there. The owner then expressly instructed local laptop execution
+through Codex; that supersedes the initial environment selection for the S026
+continuation only. Hosted queue cancelled; NEW local full smoke PASS before
+the serial C5 queue. See OWNER_INVOCATION.md and the append-only PLAN revisions.

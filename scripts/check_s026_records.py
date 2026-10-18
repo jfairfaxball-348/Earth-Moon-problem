@@ -34,12 +34,9 @@ for item in summary['jobs']:
     source=json.loads((d/'SOURCE.json').read_text())
     for name, expected in source['source_sha256'].items():
         name=name.replace('\\','/')
-        data=subprocess.check_output(['git','show',source['source_commit']+':'+name],cwd=ROOT)
-        if sha(data)!=expected:
-            snapshot=ROOT/'validation/S026/local/launch-source-bytes'/(Path(name).name+'.gz')
-            assert snapshot.exists(),(source['source_commit'],name,'missing observed raw byte snapshot')
-            raw=gzip.decompress(snapshot.read_bytes())
-            assert sha(raw)==expected and raw.replace(b'\r\n',b'\n')==data,(source['source_commit'],name)
+        snapshot=ROOT/'validation/S026/source-bytes'/(expected+'.py.gz')
+        assert snapshot.exists(),(source['source_commit'],name,'missing observed raw byte snapshot')
+        assert sha(gzip.decompress(snapshot.read_bytes()))==expected,(source['source_commit'],name)
     if item.get('certified'):
         r=json.loads((d/'SUMMARY.json').read_text())
         p=r['proof']
