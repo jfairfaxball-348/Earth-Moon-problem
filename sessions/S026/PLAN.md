@@ -79,3 +79,21 @@ bag-assignment search, K9, and the S023 universal-K6 source. S013/S014 anchored
 <=18-vertex families are avoided by candidate order28. Native DRAT is attempted
 on zero-model generator domains (60s solve/120s check); unchecked/domain-capped
 UNSAT remains an observation, never a graph-family exclusion.
+
+## Owner-directed local continuation
+
+Owner explicitly requests local laptop execution through Codex on2026-10-18.
+Cancel hosted39142133864 after its completed main source stage; retain all output.
+Local native paths are absolute S004-pinned binaries, and a NEW full271+K9 smoke
+must PASS before science. Register `scripts/run_s026_local.py`: eight C5 targets
+serially,11GiB aggregate private-memory supervision and4h absolute per-graph cap;
+recovered3 use saved CNFs, remaining5 first get600s method pilots. New two-branch
+CEGAR saves atomic compressed theory-cut checkpoints about every60s when solver
+control returns, using10000-conflict bounded SAT calls. Restart reuses only saved
+Kuratowski cuts, not the internal SAT solver memory. Checkpoint eager metadata
+must match regenerated input/source. Native/check/regen caps remain as above.
+Durable start/heartbeat/end events, atomic QUEUE and HANDBACK. No model calls in
+the runner. Windows tree-private-memory observer is reused verbatim from S005;
+external wall/private-memory guards pass independent toy-process exit/cap tests.
+Job Object attachment was denied by the Codex parent job; it was replaced by the
+already-established external supervisor BEFORE any local mathematical computation.

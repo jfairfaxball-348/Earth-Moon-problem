@@ -102,7 +102,12 @@ def generate(out):
                 if time.monotonic()-start > 180 or count >= 6:
                     stats['stop'] = 'REGISTERED_CAP'
                     break
-                if not solver.solve():
+                solver.conf_budget(10000)
+                answer=solver.solve_limited()
+                if answer is None:
+                    stats['stop']='CONFLICT_CAP_UNKNOWN'
+                    break
+                if answer is False:
                     stats['stop'] = 'GENERATOR_UNSAT_UNCERTIFIED'
                     if stats['models'] == 0:
                         cnf = profile_dir / 'domain.cnf'

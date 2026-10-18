@@ -20,3 +20,5 @@ validation/S025/certs/*.edges -text -whitespace
 tools/s025_check.py -text -whitespace
 tools/s025_indep_anneal.py -text -whitespace
 tools/s025_minor_cegar.py -text -whitespace
+# Recovered S025 checkpoints retain their observed Windows edge-file bytes.
+validation/S026/** -text -whitespace

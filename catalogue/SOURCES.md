@@ -370,5 +370,7 @@ Stefan Szeider (2026-09-23), *Biplanar graphs with independence number two are 9
 ## SRC-0040 — ABSTRACT_INSPECTED
 Peter Bradshaw, Ilkyoo Choi, Alexandr Kostochka, Jingwei Xu (July 2026), *A lower bound on the number of edges in DP-critical graphs*, JCTB 179, 118–146. DOI https://doi.org/10.1016/j.jctb.2026.03.002 . Publisher abstract read 2026-10-15. DP-critical statement cannot be directly invoked for arbitrary ordinary 12-critical graphs.
 
-## SRC-0041 — METADATA_ONLY
-David Eppstein (2023-01), *On the Biplanarity of Blowups*, https://arxiv.org/abs/2301.09246 (accessed 2026-10-16). Search-result excerpt only: disproves Gethner's conjecture that 2-blowups of planar graphs are biplanar. Relevant blow-up prior art; not opened; different family from clique blow-ups of C5.
+## SRC-0041 - ABSTRACT_INSPECTED
+David Eppstein, On the Biplanarity of Blowups, arXiv2301.09246v2; JGAA28(2),83-99(2024), DOI https://doi.org/10.7155/jgaa.v28i2.2989 . Primary abstract inspected2026-10-18: its two copies are NONADJACENT, unlike clique blow-ups. No proof or artifact replay; no novelty claim.
+
+S026 refresh2026-10-18: SRC-0012 primary Zenodo description re-inspected (STATEMENT_INSPECTED; PDF retrieval unavailable); SRC-0037 primary abstract/HTML introduction and Theorem1 re-inspected (STATEMENT_INSPECTED; external Lean/LRAT not replayed). SRC-0007 primary endpoint unavailable; the previously recorded PROOF_INSPECTED grade is historical, not fresh validation. A secondary index warns of prior C5[3,4,3,4,3] exclusion; no certificate is imported.

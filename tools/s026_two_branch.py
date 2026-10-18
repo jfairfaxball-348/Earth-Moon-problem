@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """S026 two-branch one-layer K9-minor CEGAR; see the hand proof dossier."""
 import itertools as it
+import gzip
+import hashlib
 import json
+import os
 from pathlib import Path
 import sys
 import time
 
 import networkx as nx
+from pysat.solvers import Solver
 from biplanar_cnf import read_edges
 from s025_minor_cegar import MinorCegar
 
@@ -57,20 +61,61 @@ class TwoBranch(MinorCegar):
             ' '.join(map(str, cl))+' 0\n' for cl in cls))
         Path(str(prefix)+'.lemmas.json').write_text(json.dumps(self.data()))
 
+    def checkpoint(self,prefix,iterations):
+        path=Path(str(prefix)+'.checkpoint.json.gz')
+        temp=path.with_name(path.name+'.tmp')
+        with gzip.open(temp,'wt',compresslevel=1) as f:
+            json.dump({'version':1,'iterations':iterations,'data':self.data()},f)
+        os.replace(temp,path)
+        print(json.dumps({'kind':'checkpoint','iterations':iterations,
+                          'kuratowski_lemmas':len(self.lemmas),'path':str(path)}),flush=True)
+
+    def run_resumable(self,seconds,prefix):
+        ck=Path(str(prefix)+'.checkpoint.json.gz')
+        resumed=0
+        if ck.exists():
+            old=json.load(gzip.open(ck,'rt'))
+            current=json.loads(json.dumps(self.data()))
+            assert all(current[k]==old['data'][k] for k in current if k!='lemmas'), 'checkpoint source/input mismatch'
+            self.lemmas=[[tuple(e) for e in K] for K in old['data']['lemmas']]
+            self.lemma_keys={frozenset(K) for K in self.lemmas}
+            resumed=len(self.lemmas)
+        start=time.monotonic(); last=start
+        with Solver(name='cadical195',bootstrap_with=self.clauses()) as solver:
+            for iteration in it.count(1):
+                if time.monotonic()-start>=seconds:
+                    self.checkpoint(prefix,iteration)
+                    return 'UNKNOWN',iteration,resumed
+                solver.conf_budget(10000)
+                answer=solver.solve_limited()
+                if answer is False:
+                    return 'UNSAT',iteration,resumed
+                if answer is True:
+                    model=set(x for x in solver.get_model() if x>0)
+                    left=[e for e in self.edges if self.idx[e] in model]
+                    right=[e for e in self.edges if self.idx[e] not in model]
+                    added=self.lemmas_from(left,solver,12)+self.lemmas_from(right,solver,12)
+                    if added==0:
+                        self.split=(left,right)
+                        return 'SAT',iteration,resumed
+                if time.monotonic()-last>=60:
+                    self.checkpoint(prefix,iteration); last=time.monotonic()
+
 
 def main():
     edges, prefix, seconds = read_edges(sys.argv[1]), sys.argv[2], float(sys.argv[3])
     t = time.monotonic()
     c = TwoBranch(edges)
     build = time.monotonic()-t
-    verdict, iterations = c.run(seconds)
+    verdict, iterations, resumed = c.run_resumable(seconds,prefix)
     if verdict == 'UNSAT':
         c.dump(prefix)
     elif verdict == 'SAT':
         Path(prefix+'.split.json').write_text(json.dumps({'n': c.n, 'E1': c.split[0], 'E2': c.split[1]}))
     result = {'verdict': verdict, 'iterations': iterations, 'build_seconds': build,
               'seconds': time.monotonic()-t, 'two_models': len(c.two_models),
-              'kuratowski_lemmas': len(c.lemmas), 'lemmaC_models': len(c.cmodels)}
+              'kuratowski_lemmas': len(c.lemmas), 'lemmaC_models': len(c.cmodels),
+              'resumed_kuratowski_lemmas':resumed}
     Path(prefix+'.result.json').write_text(json.dumps(result, indent=1))
     print(json.dumps(result), flush=True)
 

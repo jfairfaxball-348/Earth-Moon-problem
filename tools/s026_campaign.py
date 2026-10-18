@@ -10,15 +10,15 @@ import itertools as it
 import json
 import os
 from pathlib import Path
-import resource
 import shutil
 import subprocess
 import sys
 import time
+from s026_supervision import atomic_json,run_step
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
-OUT = ROOT / 'artifacts/tmp/S026'
+OUT = Path(os.environ.get('EMP_S026_OUTPUT',str(ROOT/'artifacts/tmp/S026')))
 OUT.mkdir(parents=True, exist_ok=True)
 
 
@@ -31,24 +31,14 @@ def sha(p):
 
 
 def save(p, obj):
-    Path(p).write_text(json.dumps(obj, indent=1))
+    atomic_json(p,obj)
 
 
 def child(args, cap, log):
-    t = time.monotonic()
-    with open(log, 'w') as f:
-        p = subprocess.Popen(args, stdout=f, stderr=subprocess.STDOUT, start_new_session=True)
-        try:
-            rc = p.wait(timeout=cap)
-        except subprocess.TimeoutExpired:
-            import signal
-            os.killpg(p.pid, signal.SIGKILL)
-            p.wait()
-            rc = 'WALL_CAPPED'
-    return dict(command=list(map(str, args)), returncode=rc,
-                seconds=round(time.monotonic() - t, 3),
-                cumulative_children_peak_rss_kib=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,
-                log=str(log.relative_to(OUT)))
+    rec=run_step(args,cap,log,OUT/'RUN_JOURNAL.jsonl',
+                 memory_kib=int(os.environ.get('EMP_S026_MEMORY_KIB',12*1024*1024)))
+    rec['log']=str(log.relative_to(OUT))
+    return rec
 
 
 def py(tool, *args):
@@ -129,7 +119,7 @@ def c5(tag):
         save(d/'SUMMARY.json', rec)
     else:
         controls()
-        rec = exact(edge, d, 600, two=True)
+        rec = exact(edge, d, int(os.environ.get('EMP_S026_SEARCH_SECONDS','600')), two=True)
     print(tag, rec['verdict'], flush=True)
 
 
@@ -190,7 +180,8 @@ def nx_graph(edges,n):
 
 def main():
     mode = sys.argv[1]
-    env = {'source_commit': os.environ.get('GITHUB_SHA'), 'run_id': os.environ.get('GITHUB_RUN_ID'),
+    commit=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
+    env = {'source_commit': commit, 'run_id': os.environ.get('GITHUB_RUN_ID','LOCAL_OFFLINE_S026'),
            'mode': sys.argv[1:], 'source_sha256': {str(p.relative_to(ROOT)): sha(p)
            for pattern in ['s025_*.py', 's026_*.py', 'biplanar_cegar.py', 'blowup_graph.py']
            for p in (ROOT / 'tools').glob(pattern)}}
