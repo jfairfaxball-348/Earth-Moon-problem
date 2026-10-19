@@ -1,0 +1,37 @@
+{
+ "edges_sha256": "8cf205c4f9700a3011614879b5dc4a6bc97ab89d4a8da99c951c36dea8561341",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag01\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag01\\minor",
+   "60",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 63.563,
+  "peak_tree_rss_kib": 522312,
+  "completed_process": true,
+  "log": "descent\\del-bag01\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "UNKNOWN",
+  "iterations": 87,
+  "kuratowski_lemmas": 16413,
+  "minor_models": 11381,
+  "lemmaC_models": 110178,
+  "branch_sets": 8726,
+  "minor_clauses": 432375,
+  "build_seconds": 2.7,
+  "seconds": 62.9,
+  "symmetries": 16,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "verdict": "UNKNOWN"
+}

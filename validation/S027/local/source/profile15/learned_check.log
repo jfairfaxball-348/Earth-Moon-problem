@@ -1,0 +1,1 @@
+{"profile": 15, "w": [6, 5, 5, 3, 2, 2, 2, 1, 1, 1], "learned_checked": 1417, "by_kind": {"PRELOAD": 23, "PRELOAD_PERM": 808, "CONTAIN": 49, "CONTAIN_PERM": 488, "EULER": 2, "EULER_PERM": 47}, "blocks": 0, "domain_byte_identical": true}

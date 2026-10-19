@@ -17,3 +17,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate S026 archived evidence integrity
         run: python scripts/check_s026_records.py
+      - name: Validate S027 archived evidence integrity
+        run: python scripts/check_s027_records.py

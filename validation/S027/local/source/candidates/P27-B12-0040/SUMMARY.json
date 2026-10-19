@@ -1,0 +1,106 @@
+{
+ "edges_sha256": "682db45deed119769fc5f68df68cbab958fc828a97bfb0cbd8e46233a7f6c3d2",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor",
+   "600",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 35.844,
+  "peak_tree_rss_kib": 606152,
+  "completed_process": true,
+  "log": "source\\candidates\\P27-B12-0040\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "UNSAT",
+  "iterations": 37,
+  "kuratowski_lemmas": 6248,
+  "minor_models": 11336,
+  "lemmaC_models": 110064,
+  "branch_sets": 9236,
+  "minor_clauses": 461440,
+  "build_seconds": 3.0,
+  "seconds": 31.1,
+  "symmetries": 17,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "proof": {
+  "justification": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_check_minor_cert.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor"
+   ],
+   "returncode": 0,
+   "seconds": 6.063,
+   "peak_tree_rss_kib": 720012,
+   "completed_process": true,
+   "log": "source\\candidates\\P27-B12-0040\\justification.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "regeneration": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor.lemmas.json",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\rebuilt.cnf"
+   ],
+   "returncode": 0,
+   "seconds": 5.547,
+   "peak_tree_rss_kib": 519616,
+   "completed_process": true,
+   "log": "source\\candidates\\P27-B12-0040\\regeneration.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "cnf_byte_match": true,
+  "native": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040",
+    "1800",
+    "1800"
+   ],
+   "returncode": 0,
+   "seconds": 12.125,
+   "peak_tree_rss_kib": 331900,
+   "completed_process": true,
+   "log": "source\\candidates\\P27-B12-0040\\native.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "certificate": {
+   "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor.cnf",
+   "cnf_sha256": "0d7029e3743cd6bc2251901dcf4a021ca4625193d87d8c35231f276ff90c3f5d",
+   "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+   "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+   "solver_returncode": 20,
+   "solve_seconds": 3.89,
+   "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+   "check_seconds": 2.58,
+   "drat_sha256": "c85e4e1ed6d17de3a0e47ae24bf409bf1f5fc0c0c5993bdcfbb7926132d32246",
+   "drat_bytes": 29618964,
+   "checker_tail": "\nc parsing input formula with 189534 variables and 474933 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 7744 of 474933 clauses in core                            \n\nc 5033 of 294134 lemmas in core using 65408 resolution steps\n\nc 0 RAT lemmas in core; 799 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 2.555 seconds\n",
+   "verdict": "UNSAT_DRAT_VERIFIED",
+   "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source\\candidates\\P27-B12-0040\\minor.drat.gz",
+   "drat_gz_sha256": "30c8dfc7632c48b7f56e46a80db7be6973c1f66cafe2b1138d96680a7f7ed10c"
+  },
+  "certified": true
+ },
+ "verdict": "NONBIPLANAR_CERTIFIED"
+}

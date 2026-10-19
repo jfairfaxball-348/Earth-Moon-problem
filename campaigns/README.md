@@ -61,3 +61,6 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 - **CAM-0030 (S026)** serial recovered/new-method C5 queue, local pinned full smoke, checked DRAT and resumable theory-cut checkpoints. S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12.
 
 - **CAM-0031 (S026)** 30-profile alpha3 source plus independent SAT containment audit; all4 admitted non-biplanar. See validation/S026.
+
+- **CAM-0032 (S027)** learned-obstruction alpha3 source: support/Euler/relabelled learned clauses, 13 profile domains closed by checked DRAT, 2 of 6 admitted certified non-biplanar, 4 UNKNOWN; no witness.
+- **CAM-0033 (S027)** P29 deletion descent (one 27-vertex negative) and size-4 two-branch C5 continuation: 24/26 sum17 classes certified, 2 UNKNOWN.

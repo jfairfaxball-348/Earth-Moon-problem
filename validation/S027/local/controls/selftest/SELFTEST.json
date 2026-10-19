@@ -1,0 +1,13 @@
+{
+ "agreement_tests": 435,
+ "contains": 390,
+ "avoids": 45,
+ "backtrack_agreements": 400,
+ "support_superset_tests": 1170,
+ "genuine_learned_clauses_accepted": 655,
+ "negative_controls_rejected": {
+  "contain_missing_support_edge": 1,
+  "non_weight_preserving_perm": 1,
+  "euler_one_edge_short": 1
+ }
+}

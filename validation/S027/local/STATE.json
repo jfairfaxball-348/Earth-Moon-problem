@@ -1,0 +1,64 @@
+{
+ "session": "S027",
+ "authority": "owner 'run next session' 2026-10-18 (D047), local Claude Code",
+ "source_commit": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+ "memory_kib": 11534336,
+ "whole_campaign_seconds": 28800,
+ "graph_absolute_seconds": 14400,
+ "smoke_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\scripts\\cloud_smoke.py"
+  ],
+  "returncode": 0,
+  "seconds": 57.484,
+  "peak_tree_rss_kib": 632564,
+  "completed_process": true,
+  "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\smoke.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "science_start_utc": "2026-10-18T19:45:00.461085+00:00",
+ "controls": "PASS",
+ "descent": {
+  "certified_negatives": 1,
+  "rows": 14,
+  "seconds": 911.8
+ },
+ "source_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s027_source.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\source",
+   "7200"
+  ],
+  "returncode": 0,
+  "seconds": 88.797,
+  "peak_tree_rss_kib": 879568,
+  "completed_process": true,
+  "log": "source.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "domains": {
+  "checked_profiles": 30,
+  "closed_drat": 13
+ },
+ "candidates": {
+  "P10-B10-0001": "UNKNOWN",
+  "P11-B10-0067": "UNKNOWN",
+  "P20-B11-0070": "UNKNOWN",
+  "P22-B11-0043": "UNKNOWN",
+  "P26-B11-0051": "NONBIPLANAR_CERTIFIED",
+  "P27-B12-0040": "NONBIPLANAR_CERTIFIED"
+ },
+ "c5": {
+  "33434": "UNKNOWN",
+  "23435": "NONBIPLANAR_CERTIFIED",
+  "24344": "NONBIPLANAR_CERTIFIED",
+  "24425": "NONBIPLANAR_CERTIFIED",
+  "33344": "UNKNOWN"
+ },
+ "status": "CAMPAIGN_FINISHED_NOT_A_SESSION_CLOSEOUT",
+ "science_seconds": 15027.8
+}

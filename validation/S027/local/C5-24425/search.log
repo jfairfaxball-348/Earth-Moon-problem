@@ -1,0 +1,3 @@
+{"kind": "checkpoint", "iterations": 11, "kuratowski_lemmas": 339175}
+{"kind": "checkpoint", "iterations": 49, "kuratowski_lemmas": 344331}
+{"verdict": "UNSAT", "iterations": 74, "build_and_seed_seconds": 25.44, "seconds": 228.56, "two_models": 270400, "branch_size": 4, "seeded_kuratowski_lemmas": 338363, "kuratowski_lemmas": 347052, "lemmaC_models": 1450}

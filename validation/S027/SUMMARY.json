@@ -1,0 +1,128 @@
+{
+ "session": "S027",
+ "entry_main": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+ "executor": "local Claude Code on owner workstation (D060)",
+ "smoke": {
+  "verdict": "PASS",
+  "chromatic": [
+   271,
+   271
+  ],
+  "k9": true,
+  "fresh": true
+ },
+ "science_start_utc": "2026-10-18T19:45:00.461085+00:00",
+ "science_seconds": 15027.8,
+ "whole_cap_seconds": 28800,
+ "controls": {
+  "agreement_tests": 435,
+  "contains": 390,
+  "avoids": 45,
+  "backtrack_agreements": 400,
+  "support_superset_tests": 1170,
+  "genuine_learned_clauses_accepted": 655,
+  "negative_controls_rejected": {
+   "contain_missing_support_edge": 1,
+   "non_weight_preserving_perm": 1,
+   "euler_one_edge_short": 1
+  }
+ },
+ "descent": {
+  "twin_classes": 14,
+  "certified": [
+   12
+  ],
+  "unknown": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   13
+  ]
+ },
+ "source": {
+  "seed": 270018,
+  "profiles": 30,
+  "models": 1831,
+  "contain": 1401,
+  "euler": 346,
+  "cut": 0,
+  "closed_k6": 0,
+  "filter_unknown": 0,
+  "admitted": 6,
+  "surplus": 78,
+  "preload_maps": 3167,
+  "learned_clauses": 62918,
+  "learned_check_pass": 30,
+  "closed_profiles_drat": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   15,
+   16,
+   17,
+   25
+  ],
+  "closed_blocking_dependencies": 0
+ },
+ "admitted": {
+  "P10-B10-0001": "UNKNOWN",
+  "P11-B10-0067": "UNKNOWN",
+  "P20-B11-0070": "UNKNOWN",
+  "P22-B11-0043": "UNKNOWN",
+  "P26-B11-0051": "NONBIPLANAR_CERTIFIED",
+  "P27-B12-0040": "NONBIPLANAR_CERTIFIED"
+ },
+ "c5": {
+  "33434": "UNKNOWN",
+  "23435": "NONBIPLANAR_CERTIFIED",
+  "24344": "NONBIPLANAR_CERTIFIED",
+  "24425": "NONBIPLANAR_CERTIFIED",
+  "33344": "UNKNOWN"
+ },
+ "c5_sum17_certified": 24,
+ "c5_sum17_unknown": [
+  "C5[3,3,4,3,4]",
+  "C5[3,3,3,4,4]"
+ ],
+ "iff_complete": false,
+ "replay": {
+  "items": 19,
+  "all_verified": true
+ },
+ "candidate_recheck": 84,
+ "cardinality_control": {
+  "profiles": 30,
+  "tests": 1200,
+  "near_boundary_counts": 364,
+  "verdict": "PASS"
+ },
+ "claims": [
+  "CLM-0102",
+  "CLM-0103",
+  "CLM-0104",
+  "CLM-0105",
+  "CLM-0106"
+ ],
+ "witness": null,
+ "range": [
+  9,
+  12
+ ],
+ "novelty_claimed": false,
+ "formalisation_executed": false
+}

@@ -1,0 +1,382 @@
+[
+ {
+  "tag": "33434",
+  "search": {
+   "verdict": "UNKNOWN",
+   "iterations": 1915,
+   "build_and_seed_seconds": 30.83,
+   "seconds": 3667.75,
+   "two_models": 181440,
+   "branch_size": 4,
+   "seeded_kuratowski_lemmas": 412724,
+   "kuratowski_lemmas": 810511,
+   "lemmaC_models": 0
+  },
+  "search_process": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33434\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33434\\minor",
+    "3600",
+    "4",
+    "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-33434\\minor.checkpoint.json.gz"
+   ],
+   "returncode": 0,
+   "seconds": 3670.063,
+   "peak_tree_rss_kib": 2697044,
+   "completed_process": true,
+   "log": "C5-33434\\search.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "seed_checkpoint_sha256": "90cc6868c614c595df1b524650d76abba8cc9621187b432f5590d2ad80c15586",
+  "verdict": "UNKNOWN"
+ },
+ {
+  "tag": "23435",
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 50,
+   "build_and_seed_seconds": 23.17,
+   "seconds": 135.59,
+   "two_models": 394752,
+   "branch_size": 4,
+   "seeded_kuratowski_lemmas": 301234,
+   "kuratowski_lemmas": 306977,
+   "lemmaC_models": 1700
+  },
+  "search_process": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor",
+    "3600",
+    "4",
+    "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-23435\\minor.checkpoint.json.gz"
+   ],
+   "returncode": 0,
+   "seconds": 136.766,
+   "peak_tree_rss_kib": 1781688,
+   "completed_process": true,
+   "log": "C5-23435\\search.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "seed_checkpoint_sha256": "fd4ecffff3e6b8683879d0bde237533cb276ea599fded493fd3baa71b426fe8e",
+  "proof": {
+   "justification": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_check_two_branch.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor"
+    ],
+    "returncode": 0,
+    "seconds": 93.891,
+    "peak_tree_rss_kib": 2923772,
+    "completed_process": true,
+    "log": "C5-23435\\justification.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "regeneration": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+     "regen",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\rebuilt.cnf"
+    ],
+    "returncode": 0,
+    "seconds": 11.11,
+    "peak_tree_rss_kib": 2313908,
+    "completed_process": true,
+    "log": "C5-23435\\regeneration.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "cnf_byte_match": true,
+   "native": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor.cnf",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435",
+     "1800",
+     "1800"
+    ],
+    "returncode": 0,
+    "seconds": 204.328,
+    "peak_tree_rss_kib": 605508,
+    "completed_process": true,
+    "log": "C5-23435\\native.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "certificate": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor.cnf",
+    "cnf_sha256": "d9e7cc414c2570529038219faa7cfe38d08f799d625e6934566a9725a605b38b",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 61.44,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 105.23,
+    "drat_sha256": "3bda006ee44d22c2dc0f6b216ca59cc5c0cad32becabf658aeae6c5342a29b13",
+    "drat_bytes": 162488777,
+    "checker_tail": "\nc parsing input formula with 40566 variables and 1267261 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 49814 of 1267261 clauses in core                            \n\nc 156229 of 1039526 lemmas in core using 4463377 resolution steps\n\nc 0 RAT lemmas in core; 50994 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 105.205 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-23435\\minor.drat.gz",
+    "drat_gz_sha256": "2d4c6e290521e2a97e0a7fe3e5167b45dd9506de5008c1bb6acd0089b90ea89b"
+   },
+   "certified": true
+  },
+  "verdict": "NONBIPLANAR_CERTIFIED"
+ },
+ {
+  "tag": "24344",
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 856,
+   "build_and_seed_seconds": 24.55,
+   "seconds": 681.95,
+   "two_models": 384192,
+   "branch_size": 4,
+   "seeded_kuratowski_lemmas": 317125,
+   "kuratowski_lemmas": 392382,
+   "lemmaC_models": 1700
+  },
+  "search_process": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor",
+    "3600",
+    "4",
+    "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-24344\\minor.checkpoint.json.gz"
+   ],
+   "returncode": 0,
+   "seconds": 683.328,
+   "peak_tree_rss_kib": 1984244,
+   "completed_process": true,
+   "log": "C5-24344\\search.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "seed_checkpoint_sha256": "c798528b6f914e7d61a553f4dc332b5dab36353a258e5605b3eb14e79af9d6f8",
+  "proof": {
+   "justification": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_check_two_branch.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor"
+    ],
+    "returncode": 0,
+    "seconds": 115.531,
+    "peak_tree_rss_kib": 3399968,
+    "completed_process": true,
+    "log": "C5-24344\\justification.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "regeneration": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+     "regen",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\rebuilt.cnf"
+    ],
+    "returncode": 0,
+    "seconds": 12.61,
+    "peak_tree_rss_kib": 2636712,
+    "completed_process": true,
+    "log": "C5-24344\\regeneration.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "cnf_byte_match": true,
+   "native": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor.cnf",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344",
+     "1800",
+     "1800"
+    ],
+    "returncode": 0,
+    "seconds": 875.094,
+    "peak_tree_rss_kib": 802972,
+    "completed_process": true,
+    "log": "C5-24344\\native.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "certificate": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor.cnf",
+    "cnf_sha256": "f35f491b9acb45cb667b805699d347d3cb1e27458687635c690992963d96f4f1",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 262.02,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 551.78,
+    "drat_sha256": "ced671d00670c868df67a362e9cce1b0691be5d7abca644a53340712a23edfd9",
+    "drat_bytes": 278497125,
+    "checker_tail": "\nc parsing input formula with 39118 variables and 1421263 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 117517 of 1421263 clauses in core                            \n\nc 549803 of 1868446 lemmas in core using 18761899 resolution steps\n\nc 0 RAT lemmas in core; 176266 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 551.747 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24344\\minor.drat.gz",
+    "drat_gz_sha256": "e639718d5ba08a687655904e96fab1f414065eab0c9ff613521485ee048a9b69"
+   },
+   "certified": true
+  },
+  "verdict": "NONBIPLANAR_CERTIFIED"
+ },
+ {
+  "tag": "24425",
+  "search": {
+   "verdict": "UNSAT",
+   "iterations": 74,
+   "build_and_seed_seconds": 25.44,
+   "seconds": 228.56,
+   "two_models": 270400,
+   "branch_size": 4,
+   "seeded_kuratowski_lemmas": 338363,
+   "kuratowski_lemmas": 347052,
+   "lemmaC_models": 1450
+  },
+  "search_process": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor",
+    "3600",
+    "4",
+    "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-24425\\minor.checkpoint.json.gz"
+   ],
+   "returncode": 0,
+   "seconds": 229.625,
+   "peak_tree_rss_kib": 1855788,
+   "completed_process": true,
+   "log": "C5-24425\\search.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "seed_checkpoint_sha256": "528dbdd184ad176b0670cc7aa6e8e2ad89478111f76c2d38ab310bc6b44b1254",
+  "proof": {
+   "justification": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s026_check_two_branch.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor"
+    ],
+    "returncode": 0,
+    "seconds": 100.375,
+    "peak_tree_rss_kib": 2982096,
+    "completed_process": true,
+    "log": "C5-24425\\justification.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "regeneration": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+     "regen",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\graph.edges",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\rebuilt.cnf"
+    ],
+    "returncode": 0,
+    "seconds": 10.094,
+    "peak_tree_rss_kib": 2289776,
+    "completed_process": true,
+    "log": "C5-24425\\regeneration.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "cnf_byte_match": true,
+   "native": {
+    "command": [
+     "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+     "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor.cnf",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425",
+     "1800",
+     "1800"
+    ],
+    "returncode": 0,
+    "seconds": 383.594,
+    "peak_tree_rss_kib": 691680,
+    "completed_process": true,
+    "log": "C5-24425\\native.log",
+    "memory_measure": "aggregate_private_commit",
+    "memory_cap_kib": 11534336
+   },
+   "certificate": {
+    "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor.cnf",
+    "cnf_sha256": "0d6fca249b78b7ebc47e1e9e94874ac8785873115687d61ad5600169dce2fde3",
+    "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "solver_returncode": 20,
+    "solve_seconds": 143.35,
+    "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "check_seconds": 194.37,
+    "drat_sha256": "bb61000dbec5ad807dc44a10451f7890239bfd980248520292101fb5ca787b0a",
+    "drat_bytes": 220699802,
+    "checker_tail": "\nc parsing input formula with 31960 variables and 1164032 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 67767 of 1164032 clauses in core                            \n\nc 252906 of 1539381 lemmas in core using 7972922 resolution steps\n\nc 0 RAT lemmas in core; 93310 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 194.345 seconds\n",
+    "verdict": "UNSAT_DRAT_VERIFIED",
+    "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-24425\\minor.drat.gz",
+    "drat_gz_sha256": "89e6eabf91d711141d44a0826549161090df8c0cffb8768014c7768a8238d166"
+   },
+   "certified": true
+  },
+  "verdict": "NONBIPLANAR_CERTIFIED"
+ },
+ {
+  "tag": "33344",
+  "search": {
+   "verdict": "UNKNOWN",
+   "iterations": 1273,
+   "build_and_seed_seconds": 26.78,
+   "seconds": 3655.09,
+   "two_models": 490320,
+   "branch_size": 4,
+   "seeded_kuratowski_lemmas": 334731,
+   "kuratowski_lemmas": 539064,
+   "lemmaC_models": 1890
+  },
+  "search_process": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33344\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33344\\minor",
+    "3600",
+    "4",
+    "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-33344\\minor.checkpoint.json.gz"
+   ],
+   "returncode": 0,
+   "seconds": 3656.969,
+   "peak_tree_rss_kib": 2387620,
+   "completed_process": true,
+   "log": "C5-33344\\search.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "seed_checkpoint_sha256": "3d250beba1c2b2871caf5528c0e82df6eb32dfe2bfe1a7e6911e6e5a72204dad",
+  "verdict": "UNKNOWN"
+ }
+]

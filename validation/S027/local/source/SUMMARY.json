@@ -1,0 +1,10905 @@
+{
+ "seed": 270018,
+ "universe": "labelled SAT models; no completeness claim",
+ "caps": {
+  "models_per_profile": 100,
+  "profile_seconds": 180,
+  "source_seconds": 7200.0,
+  "max_admitted": 6,
+  "perms_per_clause": 32,
+  "generator_conflicts": 200000,
+  "admission": "first filter-clean model per profile while fewer than 6 admitted; others SURPLUS_FILTER_CLEAN",
+  "contain_conflicts": 20000
+ },
+ "obstructions": [
+  [
+   "C5-11717",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-12617",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-12626",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13517",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13526",
+   17,
+   75,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13535",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14417",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14426",
+   17,
+   74,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14435",
+   17,
+   77,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14444",
+   17,
+   80,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-15326",
+   17,
+   73,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-15335",
+   17,
+   75,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-16226",
+   17,
+   72,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-22535",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-23426",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-23444",
+   17,
+   80,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-25262",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-33335",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-24335",
+   17,
+   77,
+   "validation/S026/local/C5-24335/SUMMARY.json"
+  ],
+  [
+   "C5-23525",
+   17,
+   76,
+   "validation/S026/local/C5-23525/SUMMARY.json"
+  ],
+  [
+   "C5-23534",
+   17,
+   79,
+   "validation/S026/local/C5-23534/SUMMARY.json"
+  ],
+  [
+   "P29-B14-0001",
+   28,
+   154,
+   "validation/S026/filter-recovery/candidate/SUMMARY.json"
+  ],
+  [
+   "P29-del-bag12",
+   27,
+   143,
+   "artifacts/tmp/S027-local/descent/del-bag12/SUMMARY.json"
+  ]
+ ],
+ "profiles": [
+  {
+   "profile": 0,
+   "nbase": 9,
+   "weights": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 0,
+   "learned_clauses": 0,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.28,
+   "domain_cnf": "profile00\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 1,
+   "nbase": 9,
+   "weights": [
+    5,
+    5,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1
+   ],
+   "models": 49,
+   "contain": 48,
+   "euler": 1,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 49,
+   "learned_clauses": 527,
+   "models_by_obstruction": {
+    "C5-33335": 8,
+    "C5-13535": 18,
+    "C5-13526": 2,
+    "C5-15335": 3,
+    "C5-23426": 1,
+    "C5-24335": 3,
+    "C5-23534": 4,
+    "C5-14435": 5,
+    "C5-22535": 1,
+    "C5-23525": 3
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.09,
+   "domain_cnf": "profile01\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 2,
+   "nbase": 9,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1
+   ],
+   "models": 7,
+   "contain": 7,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 65,
+   "learned_clauses": 88,
+   "models_by_obstruction": {
+    "C5-23426": 4,
+    "C5-12626": 1,
+    "C5-14435": 2
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.39,
+   "domain_cnf": "profile02\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 3,
+   "nbase": 9,
+   "weights": [
+    6,
+    5,
+    5,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 6,
+   "learned_clauses": 48,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.59,
+   "domain_cnf": "profile03\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 4,
+   "nbase": 9,
+   "weights": [
+    7,
+    4,
+    4,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 65,
+   "learned_clauses": 90,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 0.75,
+   "domain_cnf": "profile04\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 5,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 87,
+   "learned_clauses": 72,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 0.84,
+   "domain_cnf": "profile05\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 6,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    4,
+    4,
+    3,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 2,
+   "contain": 2,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 174,
+   "learned_clauses": 54,
+   "models_by_obstruction": {
+    "C5-12617": 1,
+    "C5-13517": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 0.98,
+   "domain_cnf": "profile06\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 7,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    5,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 4,
+   "contain": 4,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 136,
+   "learned_clauses": 60,
+   "models_by_obstruction": {
+    "C5-13517": 2,
+    "C5-12617": 2
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.09,
+   "domain_cnf": "profile07\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 8,
+   "nbase": 9,
+   "weights": [
+    7,
+    6,
+    6,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 50,
+   "learned_clauses": 24,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.38,
+   "domain_cnf": "profile08\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 9,
+   "nbase": 10,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 100,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 56,
+   "learned_clauses": 3605,
+   "models_by_obstruction": {
+    "C5-33335": 100
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 5.56
+  },
+  {
+   "profile": 10,
+   "nbase": 10,
+   "weights": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 100,
+   "contain": 58,
+   "euler": 8,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 15,
+   "learned_clauses": 1720,
+   "models_by_obstruction": {
+    "C5-14444": 12,
+    "C5-23444": 13,
+    "C5-23426": 3,
+    "C5-33335": 1,
+    "C5-14435": 17,
+    "C5-24335": 3,
+    "C5-14426": 2,
+    "C5-13526": 3,
+    "C5-13535": 1,
+    "C5-22535": 1,
+    "C5-23525": 2
+   },
+   "surplus": 33,
+   "stop": "MODEL_CAP",
+   "seconds": 3.3
+  },
+  {
+   "profile": 11,
+   "nbase": 10,
+   "weights": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 92,
+   "euler": 3,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 73,
+   "learned_clauses": 1664,
+   "models_by_obstruction": {
+    "C5-13526": 4,
+    "C5-14426": 5,
+    "C5-14435": 23,
+    "C5-15326": 2,
+    "C5-33335": 10,
+    "C5-13535": 12,
+    "C5-23534": 9,
+    "C5-14444": 4,
+    "C5-14417": 2,
+    "C5-13517": 2,
+    "C5-23444": 10,
+    "C5-22535": 1,
+    "C5-23525": 2,
+    "C5-24335": 5,
+    "C5-15335": 1
+   },
+   "surplus": 4,
+   "stop": "MODEL_CAP",
+   "seconds": 2.72
+  },
+  {
+   "profile": 12,
+   "nbase": 10,
+   "weights": [
+    5,
+    5,
+    4,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 99,
+   "euler": 1,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 126,
+   "learned_clauses": 1715,
+   "models_by_obstruction": {
+    "C5-24335": 5,
+    "C5-14435": 15,
+    "C5-13535": 23,
+    "C5-22535": 4,
+    "C5-14426": 1,
+    "C5-13526": 9,
+    "C5-33335": 7,
+    "C5-15335": 6,
+    "C5-25262": 2,
+    "C5-23525": 6,
+    "C5-13517": 3,
+    "C5-23426": 5,
+    "C5-12626": 1,
+    "C5-15326": 3,
+    "C5-23534": 4,
+    "C5-14417": 1,
+    "C5-16226": 2,
+    "C5-12617": 2
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 3.02
+  },
+  {
+   "profile": 13,
+   "nbase": 10,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 100,
+   "contain": 81,
+   "euler": 19,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 205,
+   "learned_clauses": 2957,
+   "models_by_obstruction": {
+    "C5-12626": 23,
+    "C5-14426": 18,
+    "C5-14444": 14,
+    "C5-14435": 5,
+    "C5-23426": 6,
+    "C5-25262": 2,
+    "C5-13526": 7,
+    "C5-23444": 6
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.36
+  },
+  {
+   "profile": 14,
+   "nbase": 10,
+   "weights": [
+    6,
+    5,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 98,
+   "euler": 2,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 171,
+   "learned_clauses": 1747,
+   "models_by_obstruction": {
+    "C5-12626": 13,
+    "C5-23426": 12,
+    "C5-13526": 19,
+    "C5-15335": 6,
+    "C5-13535": 21,
+    "C5-16226": 2,
+    "C5-25262": 8,
+    "C5-12617": 2,
+    "C5-14426": 1,
+    "C5-14435": 6,
+    "C5-13517": 1,
+    "C5-15326": 7
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.69
+  },
+  {
+   "profile": 15,
+   "nbase": 10,
+   "weights": [
+    6,
+    5,
+    5,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 51,
+   "contain": 49,
+   "euler": 2,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 362,
+   "learned_clauses": 1417,
+   "models_by_obstruction": {
+    "C5-13526": 14,
+    "C5-12626": 12,
+    "C5-13517": 1,
+    "C5-15326": 2,
+    "C5-13535": 15,
+    "C5-15335": 5
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.26,
+   "domain_cnf": "profile15\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 16,
+   "nbase": 10,
+   "weights": [
+    7,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 14,
+   "contain": 9,
+   "euler": 5,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 302,
+   "learned_clauses": 1229,
+   "models_by_obstruction": {
+    "C5-14444": 9
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.11,
+   "domain_cnf": "profile16\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 17,
+   "nbase": 10,
+   "weights": [
+    7,
+    6,
+    4,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 4,
+   "contain": 4,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 30,
+   "learned_clauses": 236,
+   "models_by_obstruction": {
+    "C5-11717": 2,
+    "C5-12617": 2
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.14,
+   "domain_cnf": "profile17\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 18,
+   "nbase": 11,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 61,
+   "euler": 39,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 100,
+   "learned_clauses": 6218,
+   "models_by_obstruction": {
+    "C5-13526": 15,
+    "C5-13535": 27,
+    "C5-12626": 3,
+    "C5-22535": 2,
+    "C5-15335": 5,
+    "C5-33335": 6,
+    "C5-23426": 1,
+    "C5-25262": 2
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 3.17
+  },
+  {
+   "profile": 19,
+   "nbase": 11,
+   "weights": [
+    5,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 83,
+   "euler": 17,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 24,
+   "learned_clauses": 3417,
+   "models_by_obstruction": {
+    "C5-13535": 35,
+    "C5-33335": 11,
+    "C5-14435": 5,
+    "C5-22535": 1,
+    "C5-13526": 11,
+    "C5-12626": 1,
+    "C5-13517": 2,
+    "C5-15335": 6,
+    "C5-15326": 3,
+    "C5-23444": 1,
+    "C5-23426": 1,
+    "C5-24335": 1,
+    "C5-23534": 1,
+    "C5-12617": 4
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 3.41
+  },
+  {
+   "profile": 20,
+   "nbase": 11,
+   "weights": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 68,
+   "euler": 27,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 59,
+   "learned_clauses": 3181,
+   "models_by_obstruction": {
+    "C5-13535": 12,
+    "C5-12617": 8,
+    "C5-13517": 12,
+    "C5-13526": 6,
+    "C5-14435": 6,
+    "C5-14426": 2,
+    "C5-12626": 2,
+    "C5-15335": 2,
+    "C5-33335": 10,
+    "C5-15326": 2,
+    "C5-24335": 3,
+    "C5-23534": 1,
+    "C5-23525": 1,
+    "C5-22535": 1
+   },
+   "surplus": 4,
+   "stop": "MODEL_CAP",
+   "seconds": 2.92
+  },
+  {
+   "profile": 21,
+   "nbase": 11,
+   "weights": [
+    5,
+    4,
+    4,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 87,
+   "euler": 13,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 88,
+   "learned_clauses": 2665,
+   "models_by_obstruction": {
+    "C5-14417": 5,
+    "C5-14426": 17,
+    "C5-14435": 26,
+    "C5-14444": 10,
+    "C5-13535": 9,
+    "C5-13526": 8,
+    "C5-23525": 1,
+    "C5-12617": 1,
+    "C5-13517": 5,
+    "C5-23534": 2,
+    "C5-33335": 3
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.48
+  },
+  {
+   "profile": 22,
+   "nbase": 11,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 73,
+   "euler": 26,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 278,
+   "learned_clauses": 4127,
+   "models_by_obstruction": {
+    "C5-12617": 6,
+    "C5-23426": 8,
+    "C5-13526": 10,
+    "C5-12626": 16,
+    "C5-16226": 1,
+    "C5-14426": 12,
+    "C5-14444": 11,
+    "C5-14435": 5,
+    "C5-23444": 4
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.53
+  },
+  {
+   "profile": 23,
+   "nbase": 11,
+   "weights": [
+    6,
+    5,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 95,
+   "euler": 5,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 61,
+   "learned_clauses": 2379,
+   "models_by_obstruction": {
+    "C5-15326": 7,
+    "C5-13526": 17,
+    "C5-14426": 6,
+    "C5-13535": 15,
+    "C5-16226": 2,
+    "C5-14435": 12,
+    "C5-12617": 6,
+    "C5-23426": 10,
+    "C5-13517": 2,
+    "C5-12626": 12,
+    "C5-15335": 3,
+    "C5-25262": 3
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.59
+  },
+  {
+   "profile": 24,
+   "nbase": 11,
+   "weights": [
+    6,
+    5,
+    4,
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 97,
+   "euler": 3,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 158,
+   "learned_clauses": 2820,
+   "models_by_obstruction": {
+    "C5-13526": 8,
+    "C5-12617": 10,
+    "C5-14417": 9,
+    "C5-13517": 5,
+    "C5-14426": 20,
+    "C5-12626": 24,
+    "C5-14435": 13,
+    "C5-11717": 8
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 2.48
+  },
+  {
+   "profile": 25,
+   "nbase": 11,
+   "weights": [
+    6,
+    6,
+    4,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 60,
+   "learned_clauses": 853,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.75,
+   "domain_cnf": "profile25\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 26,
+   "nbase": 11,
+   "weights": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 35,
+   "euler": 43,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 93,
+   "learned_clauses": 2201,
+   "models_by_obstruction": {
+    "C5-13535": 5,
+    "C5-14435": 5,
+    "C5-11717": 4,
+    "C5-13517": 14,
+    "C5-12617": 4,
+    "C5-14444": 1,
+    "C5-23444": 2
+   },
+   "surplus": 21,
+   "stop": "MODEL_CAP",
+   "seconds": 2.16
+  },
+  {
+   "profile": 27,
+   "nbase": 12,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 63,
+   "euler": 32,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 88,
+   "learned_clauses": 5709,
+   "models_by_obstruction": {
+    "C5-13526": 15,
+    "C5-14426": 6,
+    "C5-12626": 9,
+    "C5-13535": 10,
+    "C5-14435": 7,
+    "C5-23426": 4,
+    "C5-22535": 3,
+    "C5-24335": 2,
+    "C5-15335": 3,
+    "C5-23525": 1,
+    "C5-25262": 2,
+    "C5-23534": 1
+   },
+   "surplus": 4,
+   "stop": "MODEL_CAP",
+   "seconds": 4.92
+  },
+  {
+   "profile": 28,
+   "nbase": 13,
+   "weights": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 54,
+   "euler": 36,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 100,
+   "learned_clauses": 6106,
+   "models_by_obstruction": {
+    "C5-23426": 5,
+    "C5-13526": 14,
+    "C5-14444": 6,
+    "C5-14435": 5,
+    "C5-12626": 13,
+    "C5-14426": 5,
+    "C5-25262": 5,
+    "C5-23444": 1
+   },
+   "surplus": 10,
+   "stop": "MODEL_CAP",
+   "seconds": 7.94
+  },
+  {
+   "profile": 29,
+   "nbase": 14,
+   "weights": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 34,
+   "euler": 64,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 86,
+   "learned_clauses": 5989,
+   "models_by_obstruction": {
+    "C5-12626": 18,
+    "C5-14426": 13,
+    "C5-14444": 3
+   },
+   "surplus": 2,
+   "stop": "MODEL_CAP",
+   "seconds": 5.0
+  }
+ ],
+ "admitted": [
+  {
+   "name": "P10-B10-0001",
+   "g6": "I@YaaeWeG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P11-B10-0067",
+   "g6": "I@UeBEXeG",
+   "w": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 11,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P20-B11-0070",
+   "g6": "JWO[YaPFYb_",
+   "w": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 101,
+   "edges": 156,
+   "profile": 20,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P22-B11-0043",
+   "g6": "JIEOxVGiP^?",
+   "w": [
+    6,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 95,
+   "edges": 155,
+   "profile": 22,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P26-B11-0051",
+   "g6": "JHOW}Ai|@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P27-B12-0040",
+   "g6": "KQOGlL[BactB",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  }
+ ],
+ "filter_unknown": [],
+ "surplus_filter_clean": [
+  {
+   "name": "P10-B10-0002",
+   "g6": "I@YaaeWeW",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0003",
+   "g6": "I@YaaeWeg",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0009",
+   "g6": "I@iQINO[G",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0010",
+   "g6": "I@iQINO[g",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0011",
+   "g6": "I@iQINO[W",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0013",
+   "g6": "I@iQINOsG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0014",
+   "g6": "I@iQINOsW",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0015",
+   "g6": "I@iQINOsg",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0016",
+   "g6": "I@iQINOqg",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0017",
+   "g6": "I@iQINOqG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0018",
+   "g6": "I@iQINOqW",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0035",
+   "g6": "IHDKdQQFo",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0036",
+   "g6": "IHDKdQQFO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 153,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0037",
+   "g6": "IHDKdQQFW",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0043",
+   "g6": "IKq__[RCw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 95,
+   "edges": 151,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0044",
+   "g6": "IKq__[REw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0045",
+   "g6": "IKq__[RKw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0046",
+   "g6": "IKq__[RDw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0047",
+   "g6": "IKq__[RBw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0067",
+   "g6": "IHeAGkZPw",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0083",
+   "g6": "IPQAgxUFO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0084",
+   "g6": "IPYA_xQFO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0085",
+   "g6": "IPQAgwVVO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0086",
+   "g6": "IPQAgwVRO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 152,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0087",
+   "g6": "IPQAgwVYO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0088",
+   "g6": "IPQAgwVUO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 152,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0089",
+   "g6": "IPQAgwVQO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 94,
+   "edges": 149,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0090",
+   "g6": "IPQAgw^QO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0092",
+   "g6": "IPQAgw\\Y_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 155,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0093",
+   "g6": "IPQAgw\\U_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0094",
+   "g6": "IPQAgw\\Q_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 95,
+   "edges": 151,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0095",
+   "g6": "IPQAgw\\R_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0096",
+   "g6": "IPQAgw\\T_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P11-B10-0071",
+   "g6": "I@YaaeReG",
+   "w": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "maxcut": 96,
+   "edges": 152,
+   "profile": 11,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P11-B10-0072",
+   "g6": "I@YaaeXeG",
+   "w": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "maxcut": 97,
+   "edges": 153,
+   "profile": 11,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P11-B10-0089",
+   "g6": "IH_]AK\\k?",
+   "w": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 11,
+   "base_edges": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P11-B10-0092",
+   "g6": "IGMUAc\\i?",
+   "w": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 11,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P20-B11-0072",
+   "g6": "JWO[YaPDZb_",
+   "w": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 101,
+   "edges": 156,
+   "profile": 20,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P20-B11-0073",
+   "g6": "JWO[YaPDYb_",
+   "w": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 153,
+   "profile": 20,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P20-B11-0074",
+   "g6": "JWO[YaRDYb_",
+   "w": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 99,
+   "edges": 155,
+   "profile": 20,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P20-B11-0075",
+   "g6": "JWO[YaPDZa_",
+   "w": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 155,
+   "profile": 20,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0054",
+   "g6": "JHOW}?v{C[?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0055",
+   "g6": "JHOW}?v|C[?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 154,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0056",
+   "g6": "JHOW}?v{D[?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0057",
+   "g6": "JHOW}?v|DS?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0059",
+   "g6": "JHOW}?vjFc?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0061",
+   "g6": "JHOW}Am{@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0062",
+   "g6": "JHOW}AM|@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 154,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0063",
+   "g6": "JHOW}AM{@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0078",
+   "g6": "JHOW}Ewr@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0079",
+   "g6": "JHOW}Eor@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0080",
+   "g6": "JHOW}Eqr@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 154,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0088",
+   "g6": "JHOW}EK{@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0089",
+   "g6": "JHOW}EM{@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 154,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0090",
+   "g6": "JHOW}Ek{@m?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0092",
+   "g6": "JHOW}Cv{CW?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0093",
+   "g6": "JHOW}Cv{C[?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 154,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0094",
+   "g6": "JHOW}Cv{DW?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0095",
+   "g6": "JHOW}CvkEW?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 89,
+   "edges": 152,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0097",
+   "g6": "JHOW}CvmEW?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0098",
+   "g6": "JHOW}CvjF_?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P26-B11-0099",
+   "g6": "JHOW}CvrDo?",
+   "w": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "maxcut": 91,
+   "edges": 155,
+   "profile": 26,
+   "base_edges": [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0041",
+   "g6": "KQOGlL[BactE",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0046",
+   "g6": "KQOGlK]RActE",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0047",
+   "g6": "KQOGlLYR?mtA",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0049",
+   "g6": "KQOG\\LYT?mtA",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0006",
+   "g6": "LWbcV`SQaSaKDH",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 155,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0023",
+   "g6": "LcdHiNPI@CbiGe",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 101,
+   "edges": 154,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     10,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0033",
+   "g6": "LwCM_WLcb_?~ME",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 154,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     10,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0053",
+   "g6": "Lau@_gaFPJcTpo",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0072",
+   "g6": "LEQH`cbwM_p_R@",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 94,
+   "edges": 149,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0074",
+   "g6": "LEQHpcbwM_p_R@",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0075",
+   "g6": "LEQh`cbwM_p_R@",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0077",
+   "g6": "LEQH`cbwN_p_R@",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0078",
+   "g6": "LEQHhcbwM_p_R@",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 98,
+   "edges": 153,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0090",
+   "g6": "Lcghi?lL_ez?OY",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 99,
+   "edges": 154,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0025",
+   "g6": "MWf_aOQnAQ{gCgOy_",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 96,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     1,
+     13
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     7,
+     13
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     8,
+     13
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0073",
+   "g6": "Mw_gpWNqJJAOsDC`_",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 96,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     13
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  }
+ ],
+ "seconds": 87.88
+}

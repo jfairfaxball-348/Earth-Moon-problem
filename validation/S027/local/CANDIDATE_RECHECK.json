@@ -1,0 +1,768 @@
+{
+ "checked": 84,
+ "all_pass": true,
+ "rows": [
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0001",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P11-B10-0067",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P20-B11-0070",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P22-B11-0043",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0051",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P27-B12-0040",
+   "kind": "ADMITTED",
+   "edge_file_matches": true
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0002",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0003",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0009",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0010",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0011",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0013",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0014",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0015",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0016",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0017",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0018",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0035",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0036",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0037",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 151,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0043",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0044",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0045",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0046",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0047",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0067",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0083",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0084",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0085",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0086",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0087",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0088",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 149,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0089",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0090",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0092",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0093",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 151,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0094",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0095",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P10-B10-0096",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P11-B10-0071",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P11-B10-0072",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P11-B10-0089",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P11-B10-0092",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 156,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P20-B11-0072",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P20-B11-0073",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P20-B11-0074",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P20-B11-0075",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0054",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0055",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0056",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0057",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0059",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0061",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0062",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0063",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0078",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0079",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0080",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0088",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0089",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0090",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0092",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0093",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0094",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 152,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0095",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0097",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0098",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P26-B11-0099",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P27-B12-0041",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P27-B12-0046",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P27-B12-0047",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P27-B12-0049",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 155,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0006",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0023",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0033",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0053",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 149,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0072",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0074",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0075",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0077",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 153,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0078",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P28-B13-0090",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P29-B14-0025",
+   "kind": "SURPLUS"
+  },
+  {
+   "n": 28,
+   "m": 154,
+   "alpha_le_3": true,
+   "omega": 8,
+   "chi_lower_by_counting": 10,
+   "name": "P29-B14-0073",
+   "kind": "SURPLUS"
+  }
+ ]
+}

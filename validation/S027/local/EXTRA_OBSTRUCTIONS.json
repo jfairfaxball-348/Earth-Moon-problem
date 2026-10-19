@@ -1,0 +1,24 @@
+[
+ {
+  "name": "P29-del-bag12",
+  "g6": "MLo?KqX@`[}@PcYW_",
+  "u": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2
+  ],
+  "edges": "artifacts/tmp/S027-local/descent/del-bag12/graph.edges",
+  "certificate": "artifacts/tmp/S027-local/descent/del-bag12/SUMMARY.json"
+ }
+]
