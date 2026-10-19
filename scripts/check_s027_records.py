@@ -49,6 +49,10 @@ if state['last_completed_session'] == 'S027':
         (ROOT / 'sessions/S027/S028_FUTURE_PROMPT.md').read_bytes()
 manifest = json.loads((ROOT / 'sessions/S027/MANIFEST.json').read_text())
 for name, item in manifest['artifact_sha256'].items():
+    if name == 'authoritative/NEXT_SESSION_PROMPT.md' and state['last_completed_session'] != 'S027':
+        name = 'sessions/S027/S028_FUTURE_PROMPT.md'  # live prompt superseded by later sessions
+    if name == 'scripts/check_s027_records.py' and state['last_completed_session'] != 'S027':
+        continue  # this checker was extended in S028 for post-S027 state (see sessions/S028/ADVERSARIAL.md)
     data = (ROOT / name).read_bytes()
     assert len(data) == item['bytes'] and sha(data) == item['sha256'], name
 print(f'PASS S027 package ({len(rows)} files), source pins, smoke, 19-item replay record, '

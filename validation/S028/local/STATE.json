@@ -1,0 +1,114 @@
+{
+ "session": "S028",
+ "authority": "owner 'run next session' 2026-10-19 (D047), local Claude Code",
+ "source_commit": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac",
+ "memory_kib": 11534336,
+ "whole_campaign_seconds": 28800,
+ "graph_absolute_seconds": 14400,
+ "science_start_utc": "2026-10-19T03:33:36.607111+00:00",
+ "controls": "PASS",
+ "new_obstructions": [
+  "D013",
+  "D015",
+  "D017",
+  "D019",
+  "D021",
+  "D023",
+  "D027",
+  "D031",
+  "D033",
+  "D036",
+  "D042",
+  "D047",
+  "D053"
+ ],
+ "descent": {
+  "tested": 59,
+  "rows": 60,
+  "certified": [
+   "D013",
+   "D015",
+   "D017",
+   "D019",
+   "D021",
+   "D023",
+   "D027",
+   "D031",
+   "D033",
+   "D036",
+   "D042",
+   "D047",
+   "D053"
+  ],
+  "min_certified_order": 18,
+  "seconds": 6247.6
+ },
+ "refilter_S027": {
+  "NONBIPLANAR_BY_CERTIFIED_SUBGRAPH": 75,
+  "CLEAN_SCREEN": 9,
+  "SCREEN_UNKNOWN": 0
+ },
+ "source_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s028_source.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S028-local\\source",
+   "7200"
+  ],
+  "returncode": 0,
+  "seconds": 151.891,
+  "peak_tree_rss_kib": 1224304,
+  "completed_process": true,
+  "log": "source.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "source": {
+  "admitted": 4,
+  "surplus": 20
+ },
+ "domains": {
+  "checked": 30,
+  "closed_drat": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   12,
+   14,
+   15,
+   16,
+   17,
+   24,
+   25
+  ],
+  "closed_unconditional": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   12,
+   14,
+   15,
+   16,
+   17,
+   24,
+   25
+  ]
+ },
+ "status": "STOPPED_BY_OWNER_TIME_REQUEST_DURING_QUEUE",
+ "stop_note": "Owner asked to wrap up within 30 min; controller tree killed at ~06:28 UTC during candidate 1 of 13 (two-branch search at ~1100 iterations). Remaining 12 queue graphs NOT_RUN.",
+ "candidates": {
+  "S028-P10-B10-0007": "UNKNOWN (41 audit DRAT absence proofs; anneals 11/12 uncovered; exact 1800s UNKNOWN; two-branch size3 interrupted)"
+ }
+}

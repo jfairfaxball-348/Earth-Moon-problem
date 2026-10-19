@@ -1,0 +1,38 @@
+{
+ "edges_sha256": "794df14aec9db228108b27d22036587080423207c42ba64e3ffdcba66591ef76",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S028-local\\descent\\D037\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S028-local\\descent\\D037\\minor",
+   "120",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 27.359,
+  "peak_tree_rss_kib": 253816,
+  "completed_process": true,
+  "log": "descent\\D037\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "SAT",
+  "iterations": 286,
+  "kuratowski_lemmas": 14881,
+  "minor_models": 21,
+  "lemmaC_models": 198,
+  "branch_sets": 21,
+  "minor_clauses": 1167,
+  "build_seconds": 0.0,
+  "seconds": 26.6,
+  "symmetries": 10,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "split_checked": true,
+ "verdict": "BIPLANAR_CHECKED"
+}

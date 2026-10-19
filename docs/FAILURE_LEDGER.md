@@ -118,3 +118,7 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F077 (S027) | Size-4 branch sets close all pending sum17 C5 classes | C5[3,3,4,3,4] (no K8) and C5[3,3,3,4,4] UNKNOWN after 3600 s with 810k/539k cuts | Park them unless a genuinely new proved strengthening is registered; no unchanged cap repetition |
 
 | F078 (S027) | Large (27/28-vertex) certified obstructions prune the source | P29 and its 27-vertex deletion matched 0 of 1831 models | Generalise negatives by deletion descent before relearning |
+
+| F079 (S028) | P29-del-bag12 descends like P26/P27 | all 12 tested children UNKNOWN at 120s | P29-derived graphs are hard for --lemmaC5; prioritise easy roots |
+
+| F080 (S028) | The S028 queue fits the session | owner-requested stop after 1 of 13 graphs | S029 resumes the recorded queue |

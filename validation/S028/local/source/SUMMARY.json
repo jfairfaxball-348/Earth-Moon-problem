@@ -1,0 +1,4442 @@
+{
+ "seed": 270018,
+ "universe": "labelled SAT models; no completeness claim",
+ "caps": {
+  "models_per_profile": 100,
+  "profile_seconds": 180,
+  "source_seconds": 7200.0,
+  "max_admitted": 6,
+  "perms_per_clause": 32,
+  "generator_conflicts": 200000,
+  "admission": "first filter-clean model per profile while fewer than 6 admitted; others SURPLUS_FILTER_CLEAN",
+  "contain_conflicts": 20000
+ },
+ "obstructions": [
+  [
+   "C5-11717",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-12617",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-12626",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13517",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13526",
+   17,
+   75,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-13535",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14417",
+   17,
+   71,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14426",
+   17,
+   74,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14435",
+   17,
+   77,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-14444",
+   17,
+   80,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-15326",
+   17,
+   73,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-15335",
+   17,
+   75,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-16226",
+   17,
+   72,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-22535",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-23426",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-23444",
+   17,
+   80,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-25262",
+   17,
+   76,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-33335",
+   17,
+   79,
+   "validation/S025/C5_CERTIFICATES.json"
+  ],
+  [
+   "C5-24335",
+   17,
+   77,
+   "validation/S026/local/C5-24335/SUMMARY.json"
+  ],
+  [
+   "C5-23525",
+   17,
+   76,
+   "validation/S026/local/C5-23525/SUMMARY.json"
+  ],
+  [
+   "C5-23534",
+   17,
+   79,
+   "validation/S026/local/C5-23534/SUMMARY.json"
+  ],
+  [
+   "P29-B14-0001",
+   28,
+   154,
+   "validation/S026/filter-recovery/candidate/SUMMARY.json"
+  ],
+  [
+   "C5-23435",
+   17,
+   78,
+   "validation/S027/local/C5-23435/SUMMARY.json"
+  ],
+  [
+   "C5-24344",
+   17,
+   78,
+   "validation/S027/local/C5-24344/SUMMARY.json"
+  ],
+  [
+   "C5-24425",
+   17,
+   76,
+   "validation/S027/local/C5-24425/SUMMARY.json"
+  ],
+  [
+   "P29-del-bag12",
+   27,
+   143,
+   "validation/S027/local/descent/del-bag12/SUMMARY.json"
+  ],
+  [
+   "P26-B11-0051",
+   28,
+   155,
+   "validation/S027/local/source/candidates/P26-B11-0051/SUMMARY.json"
+  ],
+  [
+   "P27-B12-0040",
+   28,
+   154,
+   "validation/S027/local/source/candidates/P27-B12-0040/SUMMARY.json"
+  ],
+  [
+   "D013",
+   27,
+   144,
+   "artifacts/tmp/S028-local/descent/D013/SUMMARY.json"
+  ],
+  [
+   "D015",
+   26,
+   134,
+   "artifacts/tmp/S028-local/descent/D015/SUMMARY.json"
+  ],
+  [
+   "D017",
+   25,
+   125,
+   "artifacts/tmp/S028-local/descent/D017/SUMMARY.json"
+  ],
+  [
+   "D019",
+   24,
+   117,
+   "artifacts/tmp/S028-local/descent/D019/SUMMARY.json"
+  ],
+  [
+   "D021",
+   23,
+   109,
+   "artifacts/tmp/S028-local/descent/D021/SUMMARY.json"
+  ],
+  [
+   "D023",
+   22,
+   102,
+   "artifacts/tmp/S028-local/descent/D023/SUMMARY.json"
+  ],
+  [
+   "D027",
+   21,
+   95,
+   "artifacts/tmp/S028-local/descent/D027/SUMMARY.json"
+  ],
+  [
+   "D031",
+   20,
+   89,
+   "artifacts/tmp/S028-local/descent/D031/SUMMARY.json"
+  ],
+  [
+   "D033",
+   19,
+   83,
+   "artifacts/tmp/S028-local/descent/D033/SUMMARY.json"
+  ],
+  [
+   "D036",
+   18,
+   78,
+   "artifacts/tmp/S028-local/descent/D036/SUMMARY.json"
+  ],
+  [
+   "D042",
+   27,
+   142,
+   "artifacts/tmp/S028-local/descent/D042/SUMMARY.json"
+  ],
+  [
+   "D047",
+   26,
+   132,
+   "artifacts/tmp/S028-local/descent/D047/SUMMARY.json"
+  ],
+  [
+   "D053",
+   25,
+   121,
+   "artifacts/tmp/S028-local/descent/D053/SUMMARY.json"
+  ]
+ ],
+ "profiles": [
+  {
+   "profile": 0,
+   "nbase": 9,
+   "weights": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 0,
+   "learned_clauses": 0,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 4.25,
+   "domain_cnf": "profile00\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 1,
+   "nbase": 9,
+   "weights": [
+    5,
+    5,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1
+   ],
+   "models": 2,
+   "contain": 2,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 100,
+   "learned_clauses": 520,
+   "models_by_obstruction": {
+    "C5-33335": 1,
+    "C5-24335": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.86,
+   "domain_cnf": "profile01\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 2,
+   "nbase": 9,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 77,
+   "learned_clauses": 88,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.8,
+   "domain_cnf": "profile02\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 3,
+   "nbase": 9,
+   "weights": [
+    6,
+    5,
+    5,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 7,
+   "learned_clauses": 48,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.81,
+   "domain_cnf": "profile03\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 4,
+   "nbase": 9,
+   "weights": [
+    7,
+    4,
+    4,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 72,
+   "learned_clauses": 108,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 1.98,
+   "domain_cnf": "profile04\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 5,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 94,
+   "learned_clauses": 88,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.06,
+   "domain_cnf": "profile05\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 6,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    4,
+    4,
+    3,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 182,
+   "learned_clauses": 66,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.2,
+   "domain_cnf": "profile06\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 7,
+   "nbase": 9,
+   "weights": [
+    7,
+    5,
+    5,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 143,
+   "learned_clauses": 78,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.44,
+   "domain_cnf": "profile07\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 8,
+   "nbase": 9,
+   "weights": [
+    7,
+    6,
+    6,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 52,
+   "learned_clauses": 49,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.52,
+   "domain_cnf": "profile08\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 9,
+   "nbase": 10,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 100,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 180,
+   "learned_clauses": 5106,
+   "models_by_obstruction": {
+    "C5-33335": 100
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 12.67
+  },
+  {
+   "profile": 10,
+   "nbase": 10,
+   "weights": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 100,
+   "contain": 91,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 79,
+   "learned_clauses": 3337,
+   "models_by_obstruction": {
+    "C5-14426": 3,
+    "C5-14444": 11,
+    "C5-23444": 28,
+    "C5-24344": 11,
+    "C5-14435": 17,
+    "C5-23534": 4,
+    "C5-23435": 5,
+    "C5-23525": 1,
+    "C5-13526": 2,
+    "C5-33335": 2,
+    "C5-23426": 2,
+    "C5-24335": 2,
+    "C5-22535": 2,
+    "C5-13535": 1
+   },
+   "known_blocked": 34,
+   "surplus": 8,
+   "stop": "MODEL_CAP",
+   "seconds": 6.11
+  },
+  {
+   "profile": 11,
+   "nbase": 10,
+   "weights": [
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 98,
+   "euler": 2,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 175,
+   "learned_clauses": 2517,
+   "models_by_obstruction": {
+    "C5-23525": 6,
+    "C5-23435": 7,
+    "C5-24344": 2,
+    "C5-24335": 7,
+    "C5-23534": 9,
+    "C5-13535": 10,
+    "C5-33335": 4,
+    "C5-14435": 17,
+    "C5-22535": 4,
+    "C5-14444": 12,
+    "C5-23444": 7,
+    "C5-13526": 4,
+    "C5-12617": 3,
+    "C5-13517": 1,
+    "C5-15335": 1,
+    "C5-14426": 2,
+    "C5-15326": 1,
+    "C5-23426": 1
+   },
+   "known_blocked": 5,
+   "stop": "MODEL_CAP",
+   "seconds": 4.88
+  },
+  {
+   "profile": 12,
+   "nbase": 10,
+   "weights": [
+    5,
+    5,
+    4,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 45,
+   "contain": 45,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 237,
+   "learned_clauses": 1977,
+   "models_by_obstruction": {
+    "C5-14435": 4,
+    "C5-15335": 3,
+    "C5-33335": 6,
+    "C5-13535": 5,
+    "C5-23534": 2,
+    "C5-22535": 2,
+    "C5-23525": 7,
+    "C5-24335": 8,
+    "C5-12626": 1,
+    "C5-14426": 1,
+    "C5-16226": 1,
+    "C5-25262": 1,
+    "C5-23426": 2,
+    "C5-13517": 1,
+    "C5-13526": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 4.31,
+   "domain_cnf": "profile12\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 13,
+   "nbase": 10,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "models": 100,
+   "contain": 95,
+   "euler": 5,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 302,
+   "learned_clauses": 3665,
+   "models_by_obstruction": {
+    "C5-14426": 14,
+    "C5-13526": 6,
+    "C5-14444": 13,
+    "C5-14435": 12,
+    "C5-12626": 17,
+    "C5-23426": 12,
+    "C5-25262": 6,
+    "C5-16226": 9,
+    "C5-23444": 6
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 4.49
+  },
+  {
+   "profile": 14,
+   "nbase": 10,
+   "weights": [
+    6,
+    5,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 35,
+   "contain": 33,
+   "euler": 2,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 285,
+   "learned_clauses": 1921,
+   "models_by_obstruction": {
+    "C5-23426": 8,
+    "C5-12626": 4,
+    "C5-25262": 3,
+    "C5-14435": 2,
+    "C5-13535": 11,
+    "C5-14426": 1,
+    "C5-12617": 1,
+    "C5-15335": 2,
+    "C5-13526": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 3.86,
+   "domain_cnf": "profile14\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 15,
+   "nbase": 10,
+   "weights": [
+    6,
+    5,
+    5,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 2,
+   "contain": 2,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 434,
+   "learned_clauses": 1409,
+   "models_by_obstruction": {
+    "C5-13517": 1,
+    "C5-13535": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 3.22,
+   "domain_cnf": "profile15\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 16,
+   "nbase": 10,
+   "weights": [
+    7,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 2,
+   "contain": 2,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 331,
+   "learned_clauses": 1291,
+   "models_by_obstruction": {
+    "C5-14444": 2
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.12,
+   "domain_cnf": "profile16\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 17,
+   "nbase": 10,
+   "weights": [
+    7,
+    6,
+    4,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 1,
+   "contain": 1,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 37,
+   "learned_clauses": 242,
+   "models_by_obstruction": {
+    "C5-12617": 1
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 2.33,
+   "domain_cnf": "profile17\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 18,
+   "nbase": 11,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 75,
+   "euler": 25,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 197,
+   "learned_clauses": 8994,
+   "models_by_obstruction": {
+    "C5-13535": 22,
+    "C5-33335": 15,
+    "C5-15335": 10,
+    "C5-12626": 4,
+    "C5-13526": 18,
+    "C5-23534": 3,
+    "C5-23435": 1,
+    "C5-22535": 1,
+    "C5-23426": 1
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 5.84
+  },
+  {
+   "profile": 19,
+   "nbase": 11,
+   "weights": [
+    5,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 90,
+   "euler": 10,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 114,
+   "learned_clauses": 5784,
+   "models_by_obstruction": {
+    "C5-13526": 15,
+    "C5-33335": 11,
+    "C5-13535": 33,
+    "C5-24335": 3,
+    "C5-12626": 7,
+    "C5-14435": 6,
+    "C5-15335": 4,
+    "C5-25262": 1,
+    "C5-23435": 1,
+    "C5-13517": 3,
+    "C5-23426": 6
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 5.09
+  },
+  {
+   "profile": 20,
+   "nbase": 11,
+   "weights": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 83,
+   "euler": 17,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 134,
+   "learned_clauses": 4839,
+   "models_by_obstruction": {
+    "C5-14435": 21,
+    "C5-13526": 8,
+    "C5-13535": 14,
+    "C5-23525": 1,
+    "C5-33335": 10,
+    "C5-23444": 6,
+    "C5-24335": 2,
+    "C5-13517": 2,
+    "C5-15326": 2,
+    "C5-15335": 6,
+    "C5-23534": 4,
+    "C5-14444": 2,
+    "C5-12617": 1,
+    "C5-22535": 2,
+    "C5-23435": 1,
+    "C5-14426": 1
+   },
+   "known_blocked": 5,
+   "stop": "MODEL_CAP",
+   "seconds": 4.88
+  },
+  {
+   "profile": 21,
+   "nbase": 11,
+   "weights": [
+    5,
+    4,
+    4,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 93,
+   "euler": 7,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 183,
+   "learned_clauses": 4259,
+   "models_by_obstruction": {
+    "C5-13535": 15,
+    "C5-13526": 4,
+    "C5-13517": 1,
+    "C5-14435": 21,
+    "C5-24335": 1,
+    "C5-24344": 6,
+    "C5-14417": 5,
+    "C5-23444": 10,
+    "C5-14444": 9,
+    "C5-11717": 2,
+    "C5-15335": 1,
+    "C5-14426": 4,
+    "C5-22535": 8,
+    "C5-33335": 2,
+    "C5-23534": 1,
+    "C5-23435": 3
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 5.0
+  },
+  {
+   "profile": 22,
+   "nbase": 11,
+   "weights": [
+    6,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 83,
+   "euler": 17,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 368,
+   "learned_clauses": 5572,
+   "models_by_obstruction": {
+    "C5-12617": 7,
+    "C5-14426": 22,
+    "C5-12626": 11,
+    "C5-13526": 12,
+    "C5-25262": 2,
+    "C5-14417": 4,
+    "C5-16226": 5,
+    "C5-23426": 6,
+    "C5-24344": 4,
+    "C5-14435": 4,
+    "C5-23444": 2,
+    "C5-14444": 3,
+    "C5-15335": 1
+   },
+   "known_blocked": 1,
+   "stop": "MODEL_CAP",
+   "seconds": 4.5
+  },
+  {
+   "profile": 23,
+   "nbase": 11,
+   "weights": [
+    6,
+    5,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 97,
+   "euler": 3,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 161,
+   "learned_clauses": 3637,
+   "models_by_obstruction": {
+    "C5-12626": 13,
+    "C5-23426": 21,
+    "C5-13535": 16,
+    "C5-13526": 8,
+    "C5-15326": 6,
+    "C5-14426": 3,
+    "C5-12617": 8,
+    "C5-13517": 3,
+    "C5-14435": 6,
+    "C5-16226": 2,
+    "C5-25262": 9,
+    "C5-33335": 1,
+    "C5-15335": 1
+   },
+   "stop": "MODEL_CAP",
+   "seconds": 4.75
+  },
+  {
+   "profile": 24,
+   "nbase": 11,
+   "weights": [
+    6,
+    5,
+    4,
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 35,
+   "contain": 35,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 263,
+   "learned_clauses": 3024,
+   "models_by_obstruction": {
+    "C5-14435": 2,
+    "C5-12617": 11,
+    "C5-13526": 15,
+    "C5-14417": 2,
+    "C5-12626": 2,
+    "C5-14426": 3
+   },
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 3.84,
+   "domain_cnf": "profile24\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 25,
+   "nbase": 11,
+   "weights": [
+    6,
+    6,
+    4,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 0,
+   "contain": 0,
+   "euler": 0,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 66,
+   "learned_clauses": 923,
+   "models_by_obstruction": {},
+   "stop": "GENERATOR_UNSAT",
+   "seconds": 3.52,
+   "domain_cnf": "profile25\\domain.cnf",
+   "domain_blocking_dependencies": []
+  },
+  {
+   "profile": 26,
+   "nbase": 11,
+   "weights": [
+    7,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "models": 100,
+   "contain": 45,
+   "euler": 55,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 0,
+   "closed_k6": 0,
+   "preload_maps": 136,
+   "learned_clauses": 3303,
+   "models_by_obstruction": {
+    "C5-13535": 3,
+    "C5-12617": 7,
+    "C5-14435": 5,
+    "C5-13517": 17,
+    "C5-24344": 3,
+    "C5-14417": 6,
+    "C5-33335": 1,
+    "C5-11717": 3
+   },
+   "known_blocked": 22,
+   "stop": "MODEL_CAP",
+   "seconds": 3.08
+  },
+  {
+   "profile": 27,
+   "nbase": 12,
+   "weights": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 56,
+   "euler": 36,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 159,
+   "learned_clauses": 7871,
+   "models_by_obstruction": {
+    "C5-25262": 5,
+    "C5-13535": 5,
+    "C5-14435": 15,
+    "C5-23534": 1,
+    "C5-13526": 16,
+    "C5-12626": 5,
+    "C5-15335": 2,
+    "C5-14426": 3,
+    "C5-23444": 2,
+    "C5-23426": 2
+   },
+   "known_blocked": 5,
+   "surplus": 7,
+   "stop": "MODEL_CAP",
+   "seconds": 9.06
+  },
+  {
+   "profile": 28,
+   "nbase": 13,
+   "weights": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 61,
+   "euler": 37,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 157,
+   "learned_clauses": 8234,
+   "models_by_obstruction": {
+    "C5-25262": 10,
+    "C5-12626": 18,
+    "C5-13526": 5,
+    "C5-23426": 8,
+    "C5-14426": 5,
+    "C5-14444": 7,
+    "C5-23444": 1,
+    "C5-14435": 5,
+    "C5-24425": 1,
+    "C5-24344": 1
+   },
+   "known_blocked": 10,
+   "surplus": 1,
+   "stop": "MODEL_CAP",
+   "seconds": 11.66
+  },
+  {
+   "profile": 29,
+   "nbase": 14,
+   "weights": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "models": 100,
+   "contain": 48,
+   "euler": 47,
+   "cut": 0,
+   "unknown": 0,
+   "admitted": 1,
+   "closed_k6": 0,
+   "preload_maps": 124,
+   "learned_clauses": 7140,
+   "models_by_obstruction": {
+    "C5-14444": 4,
+    "C5-14426": 18,
+    "C5-12626": 25,
+    "P29-B14-0001": 1
+   },
+   "known_blocked": 2,
+   "surplus": 4,
+   "stop": "MODEL_CAP",
+   "seconds": 9.22
+  }
+ ],
+ "admitted": [
+  {
+   "name": "P10-B10-0007",
+   "g6": "I@VBDEWhO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P27-B12-0023",
+   "g6": "KQP[XYQAy`sG",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P28-B13-0034",
+   "g6": "Lco_`cdH[{IWR`",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  },
+  {
+   "name": "P29-B14-0002",
+   "g6": "MaDeDcda_spRv?HW?",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     13
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     13
+    ],
+    [
+     8,
+     13
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "ADMITTED"
+  }
+ ],
+ "filter_unknown": [],
+ "surplus_filter_clean": [
+  {
+   "name": "P10-B10-0010",
+   "g6": "I@VBDEWX_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0025",
+   "g6": "I@UbEEWX_",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0029",
+   "g6": "I@UbEEWpO",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0057",
+   "g6": "IPSQIMLbG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 102,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0061",
+   "g6": "IPSQIMKbg",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0063",
+   "g6": "IPSQIMKbG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 98,
+   "edges": 152,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0064",
+   "g6": "IPSQIMKbW",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 100,
+   "edges": 154,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P10-B10-0066",
+   "g6": "IPSQIMMbG",
+   "w": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "maxcut": 102,
+   "edges": 156,
+   "profile": 10,
+   "base_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0066",
+   "g6": "K`SpIV?FSDdX",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 104,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0067",
+   "g6": "K`CpIV?FSTlW",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 104,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0068",
+   "g6": "K`CpIV?eSTh[",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 104,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0071",
+   "g6": "K`CpIUWoSTh[",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 104,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0076",
+   "g6": "K`SpIVGcSD`Z",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 102,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0078",
+   "g6": "K`SpIUWoSD`\\",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 156,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P27-B12-0086",
+   "g6": "K`oXm?KGWjc]",
+   "w": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 97,
+   "edges": 154,
+   "profile": 27,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P28-B13-0068",
+   "g6": "LkGqWnOI`i@YIF",
+   "w": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 101,
+   "edges": 156,
+   "profile": 28,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     4,
+     12
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     10,
+     12
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0077",
+   "g6": "M`oOnZGGPHeQL`@m?",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 100,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     13
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     13
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0079",
+   "g6": "M`oOnRGGPHeUL`@u?",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 96,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     13
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     9,
+     13
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0093",
+   "g6": "M_jZ?bHibCk\\DODO_",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 96,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     12
+    ],
+    [
+     3,
+     13
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     7,
+     13
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  },
+  {
+   "name": "P29-B14-0099",
+   "g6": "M`xx{?DSHcoK_XqE?",
+   "w": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "maxcut": 96,
+   "edges": 154,
+   "profile": 29,
+   "base_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     13
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     13
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     13
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     13
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "omega": 8,
+   "alpha": 3,
+   "chromatic_lower": 10,
+   "num_vertices": 28,
+   "status": "SURPLUS_FILTER_CLEAN"
+  }
+ ],
+ "seconds": 151.22
+}

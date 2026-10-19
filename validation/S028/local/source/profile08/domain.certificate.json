@@ -1,0 +1,17 @@
+{
+ "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S028-local\\source\\profile08\\domain.cnf",
+ "cnf_sha256": "ccaaab8891c381d7144280aea43fc62a60ed599eee3d87490f8c4cf0ac293e03",
+ "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+ "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+ "solver_returncode": 20,
+ "solve_seconds": 0.05,
+ "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+ "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+ "check_seconds": 0.13,
+ "drat_sha256": "a76aee01c145e52352621526d51caa6a5c81fce9507ebb2f4ea0a5fc5317c13b",
+ "drat_bytes": 841877,
+ "checker_tail": "\nc parsing input formula with 22781 variables and 45816 clauses\n\nc WARNING: backward mode ignores deletion of (pseudo) unit clause [-1811937792] -18 0\n\nc finished parsing\n\nc UNSAT via unit propagation on the input instance\n\nc 7 of 45816 clauses in core                            \n\nc 1 of 3 lemmas in core using 7 resolution steps\n\nc 0 RAT lemmas in core; 0 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.117 seconds\n",
+ "verdict": "UNSAT_DRAT_VERIFIED",
+ "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S028-local\\source\\profile08\\domain.drat.gz",
+ "drat_gz_sha256": "b1f4d27eaa126b24075c585f1aaaf178cc001dd6eb1b3ef8434ead1ce7e9dc57"
+}

@@ -1,0 +1,78 @@
+{
+ "session": "S028",
+ "entry_main": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac",
+ "executor": "local Claude Code",
+ "stopped_early": true,
+ "smoke": "PASS",
+ "descent_certified": [
+  "D013",
+  "D015",
+  "D017",
+  "D019",
+  "D021",
+  "D023",
+  "D027",
+  "D031",
+  "D033",
+  "D036",
+  "D042",
+  "D047",
+  "D053"
+ ],
+ "descent_tested": 59,
+ "smallest": {
+  "name": "D036",
+  "g6": "GJaVBo",
+  "u": [
+   7,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n": 18,
+  "m": 78
+ },
+ "refilter": {
+  "excluded": 75,
+  "clean": 9
+ },
+ "closed_profiles": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  12,
+  14,
+  15,
+  16,
+  17,
+  24,
+  25
+ ],
+ "queue": {
+  "total": 13,
+  "processed": {
+   "S028-P10-B10-0007": "UNKNOWN"
+  },
+  "not_run": 12
+ },
+ "replay": {
+  "items": 29,
+  "all_verified": true
+ },
+ "witness": null,
+ "range": [
+  9,
+  12
+ ],
+ "novelty_claimed": false
+}

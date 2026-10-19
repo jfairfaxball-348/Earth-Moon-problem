@@ -30,3 +30,7 @@ research/S026_*.md -text -whitespace
 validation/S027/** -text -whitespace
 sessions/S027/** -text -whitespace
 research/S027_*.md -text -whitespace
+validation/S028/** -text -whitespace
+sessions/S028/** -text -whitespace
+validation/S028/** -text -whitespace
+sessions/S028/** -text -whitespace

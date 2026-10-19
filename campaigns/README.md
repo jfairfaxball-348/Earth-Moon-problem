@@ -64,3 +64,6 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 
 - **CAM-0032 (S027)** learned-obstruction alpha3 source: support/Euler/relabelled learned clauses, 13 profile domains closed by checked DRAT, 2 of 6 admitted certified non-biplanar, 4 UNKNOWN; no witness.
 - **CAM-0033 (S027)** P29 deletion descent (one 27-vertex negative) and size-4 two-branch C5 continuation: 24/26 sum17 classes certified, 2 UNKNOWN.
+
+- **CAM-0034 (S028)** deletion descent: 13 certified obstructions from P26/P27, smallest 18 vertices (D036).
+- **CAM-0035 (S028)** refilter (75/84 S027 survivors excluded), source rerun (16/30 profiles closed), exact queue (1 UNKNOWN, 12 NOT_RUN at owner stop).

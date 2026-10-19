@@ -1,0 +1,1 @@
+{"verdict": "SAT", "iterations": 63, "kuratowski_lemmas": 3501, "minor_models": 27, "lemmaC_models": 258, "branch_sets": 27, "minor_clauses": 1389, "build_seconds": 0.0, "seconds": 7.6, "symmetries": 9, "rmax": 5, "k2": false, "k3": false}

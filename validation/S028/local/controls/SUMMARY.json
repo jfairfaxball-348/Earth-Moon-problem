@@ -1,0 +1,28 @@
+{
+ "two_branch_size3": [
+  {
+   "name": "J1",
+   "two_models_size3": 0,
+   "all_minor_clauses_true": true
+  },
+  {
+   "name": "C5-33334",
+   "two_models_size3": 3888,
+   "all_minor_clauses_true": true
+  }
+ ],
+ "deletion_child_control": "PASS",
+ "selftest": {
+  "agreement_tests": 560,
+  "contains": 481,
+  "avoids": 79,
+  "backtrack_agreements": 400,
+  "support_superset_tests": 1443,
+  "genuine_learned_clauses_accepted": 1009,
+  "negative_controls_rejected": {
+   "contain_missing_support_edge": 1,
+   "non_weight_preserving_perm": 1,
+   "euler_one_edge_short": 1
+  }
+ }
+}

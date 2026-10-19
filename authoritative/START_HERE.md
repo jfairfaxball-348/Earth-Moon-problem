@@ -1,3 +1,7 @@
+# S028 completed authority update D061 (2026-10-19)
+
+S028 (owner "run next session", local Claude Code, full smoke PASS; stopped early at owner request): deletion descent certified 13 new clique blow-up obstructions down to 18 vertices (D036 = GJaVBo[7,3,2,2,1,1,1,1]); all 4 S027 admitted UNKNOWN and 71/78 surplus graphs excluded by checked certified-subgraph maps; 16/30 seed-270018 profiles closed by checked DRAT; S028 queue 1 UNKNOWN, 12 NOT_RUN. No chi>=10 biplanar witness; 9<=chi2<=12. S029 FUTURE/UNEXECUTED. Push/PR via the owner's Git Credential Manager account jfairfaxball-348 (gh helper shadows it). Historical instructions below retain their original scopes.
+
 # S027 completed authority update D060 (2026-10-19)
 
 S027 (owner "run next session", local Claude Code, full 271+K9 smoke PASS): learned certified-obstruction support clauses close 13/30 alpha3 28-vertex clique blow-up profiles by checked native DRAT (CLM-0103); 1831 models, 84 filter-clean; 3 new certified obstructions (27v P29 deletion, P26-B11-0051, P27-B12-0040; CLM-0104); admitted P10-B10-0001, P11-B10-0067, P20-B11-0070, P22-B11-0043 BIPLANARITY_UNKNOWN; C5 sum17 now 24/26 certified (CLM-0105), C5[3,3,4,3,4] and C5[3,3,3,4,4] UNKNOWN. No chi>=10 biplanar witness; 9<=chi2<=12. S028 (obstruction-closure loop) is FUTURE/UNEXECUTED. Each future invoked session must establish its own full smoke and record its executor. Historical instructions below retain their original scopes.

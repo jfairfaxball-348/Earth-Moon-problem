@@ -1,0 +1,597 @@
+[
+ {
+  "profile": 0,
+  "w": [
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 1,
+  "w": [
+   5,
+   5,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 2,
+  "w": [
+   6,
+   4,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 3,
+  "w": [
+   6,
+   5,
+   5,
+   4,
+   4,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 4,
+  "w": [
+   7,
+   4,
+   4,
+   4,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 5,
+  "w": [
+   7,
+   5,
+   4,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 6,
+  "w": [
+   7,
+   5,
+   4,
+   4,
+   3,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 7,
+  "w": [
+   7,
+   5,
+   5,
+   3,
+   3,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 8,
+  "w": [
+   7,
+   6,
+   6,
+   3,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 9,
+  "w": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 10,
+  "w": [
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 11,
+  "w": [
+   5,
+   4,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 12,
+  "w": [
+   5,
+   5,
+   4,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 13,
+  "w": [
+   6,
+   4,
+   4,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 14,
+  "w": [
+   6,
+   5,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 15,
+  "w": [
+   6,
+   5,
+   5,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 16,
+  "w": [
+   7,
+   4,
+   4,
+   4,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 17,
+  "w": [
+   7,
+   6,
+   4,
+   4,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 18,
+  "w": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 19,
+  "w": [
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 20,
+  "w": [
+   5,
+   4,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 21,
+  "w": [
+   5,
+   4,
+   4,
+   4,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 22,
+  "w": [
+   6,
+   4,
+   4,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 23,
+  "w": [
+   6,
+   5,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 24,
+  "w": [
+   6,
+   5,
+   4,
+   4,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 25,
+  "w": [
+   6,
+   6,
+   4,
+   3,
+   3,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "GENERATOR_UNSAT",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": [],
+  "domain_proof": "UNSAT_DRAT_VERIFIED"
+ },
+ {
+  "profile": 26,
+  "w": [
+   7,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 27,
+  "w": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 28,
+  "w": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ },
+ {
+  "profile": 29,
+  "w": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "stop": "MODEL_CAP",
+  "learned_check_returncode": 0,
+  "blocking_dependencies": [],
+  "unresolved_dependencies": []
+ }
+]

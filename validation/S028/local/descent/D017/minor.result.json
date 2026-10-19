@@ -1,0 +1,1 @@
+{"verdict": "UNSAT", "iterations": 37, "kuratowski_lemmas": 5143, "minor_models": 7054, "lemmaC_models": 67340, "branch_sets": 5058, "minor_clauses": 280114, "build_seconds": 1.7, "seconds": 19.6, "symmetries": 14, "rmax": 5, "k2": false, "k3": false}

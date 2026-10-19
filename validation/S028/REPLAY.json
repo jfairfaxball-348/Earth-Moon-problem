@@ -1,0 +1,211 @@
+{
+ "items": 29,
+ "all_verified": true,
+ "rows": [
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D013"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D015"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D017"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D019"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D021"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D023"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D027"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D031"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D033"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D036"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D042"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D047"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "D053"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile00"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile01"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile02"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile03"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile04"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile05"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile06"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile07"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile08"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile12"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile14"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile15"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile16"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile17"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile24"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile25"
+  }
+ ],
+ "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+ "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+}

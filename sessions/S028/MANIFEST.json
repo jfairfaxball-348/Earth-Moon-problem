@@ -1,0 +1,94 @@
+{
+  "session": "S028",
+  "entry_main": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac",
+  "environment": {
+    "kind": "LOCAL_WINDOWS_OWNER_INVOKED_S028",
+    "executor": "Claude Code (Opus 5.5), local",
+    "native_sha256": {
+      "EMP_CADICAL": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+      "EMP_DRAT_TRIM": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+    }
+  },
+  "artifact_sha256": {
+    "campaigns/CAM-0034.md": {
+      "bytes": 379,
+      "sha256": "c1eb1bad087799e5cd3a9ef339427c7dc425570ecdb315d593aad61e898dbf2e"
+    },
+    "campaigns/CAM-0035.md": {
+      "bytes": 436,
+      "sha256": "f6f1961508dc987f4abfb99123defcfd08e2ef1495a94f2d2df4616a0b494522"
+    },
+    "scripts/package_s028_local.py": {
+      "bytes": 1773,
+      "sha256": "01793bb483cfbfb94678c7c1994ef5d86136dcc7c42c520c9a331a5bacd1823d"
+    },
+    "scripts/replay_s028_certificates.py": {
+      "bytes": 4298,
+      "sha256": "50ad9e3e0b0ecf3beae3f3dc04db010cbea3cc741b71d6262dd09a428b8340fc"
+    },
+    "scripts/run_s028_local.py": {
+      "bytes": 22707,
+      "sha256": "b13b4e89b8ae5c1bdcf571212b7f3f634334bd0b20318e981a185a6713721fce"
+    },
+    "sessions/S028/ADVERSARIAL.md": {
+      "bytes": 1594,
+      "sha256": "c0268ffa3f96190d5aadca28bdbb6dc9d678b8fb8f47bc88601f53807f5ea935"
+    },
+    "sessions/S028/CLOSEOUT.md": {
+      "bytes": 1128,
+      "sha256": "867028ea1cf4dbd8bbc3026cdb28d2e50e417d6fa7e56f08d40b8bba0464dfa1"
+    },
+    "sessions/S028/EXECUTED_PROMPT.md": {
+      "bytes": 6259,
+      "sha256": "96122313e77cb325c6292de6f194cb5ba665cf2923f6be8c94279afba3e110ab"
+    },
+    "sessions/S028/INPUT.md": {
+      "bytes": 1151,
+      "sha256": "5357b44adfad0ddc9f97d04592db1bf395fa767b1aea6f12018034a37b5e3b1b"
+    },
+    "sessions/S028/OWNER_INVOCATION.md": {
+      "bytes": 824,
+      "sha256": "a14987b8300fa4fa931c08660c3bd05508e9d438b3d679bb5adf125f64812055"
+    },
+    "sessions/S028/PLAN.md": {
+      "bytes": 3792,
+      "sha256": "cb614b7a8de35ca002d44fc52f7c9d8969204d4b4fa6912392e10ffb3595c51d"
+    },
+    "sessions/S028/PRIOR_ART.md": {
+      "bytes": 486,
+      "sha256": "75216fb7fb7a46fecc992beac8bf7d630492831483e454f5902c1e339b2d65d7"
+    },
+    "sessions/S028/RESEARCH.md": {
+      "bytes": 1503,
+      "sha256": "392bcb9f80a0e1217aee90f01ab81163cd3497ad037409a04f8e7e4d9a0d2809"
+    },
+    "sessions/S028/S029_FUTURE_PROMPT.md": {
+      "bytes": 3394,
+      "sha256": "909adeb8482e68428dffb9ad98c7a08664f1f676d4ebf025fd38577dc0ce15d6"
+    },
+    "tools/s028_closure.py": {
+      "bytes": 2930,
+      "sha256": "cf24a0254024f75db04eaf37c6b54464a53a0f42088d8ef79ec497b0043cda0d"
+    },
+    "tools/s028_source.py": {
+      "bytes": 17233,
+      "sha256": "c3970891284055feec55290d5e0476f92b02a342faf643f577c4c04757c9f2e3"
+    },
+    "validation/S028/REPLAY.json": {
+      "bytes": 4042,
+      "sha256": "1afe87f7a8e172ee4a4b7eca6086b10f4f15aa8afd16ac11baa7c99100e55447"
+    },
+    "validation/S028/SUMMARY.json": {
+      "bytes": 865,
+      "sha256": "d79a8198721cb51ddd023198a10fcf3d7a557ff9538c55241d6ccf9234d8ae86"
+    },
+    "validation/S028/local/PACKAGE_MANIFEST.json": {
+      "bytes": 169403,
+      "sha256": "eb36e26244cc55d97e18bc1a84377f880fae097277f201e60f2b14f413d776d7"
+    },
+    "scripts/check_s028_records.py": {
+      "bytes": 2037,
+      "sha256": "60843ff1c95a69407ab5103d4799d6fb26dc317c620771cfecbdf60b3aed1f7c"
+    }
+  }
+}
