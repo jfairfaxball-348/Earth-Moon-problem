@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "exhaustive_n4_partition_controls": 2916,
+  "independent_rup": [
+    {
+      "q": 2,
+      "steps": 49,
+      "verified": true
+    },
+    {
+      "q": 3,
+      "steps": 188,
+      "verified": true
+    },
+    {
+      "q": 4,
+      "steps": 193,
+      "verified": true
+    }
+  ],
+  "seconds": 3.703,
+  "regular_stratum": "NOT_PROMOTED; hand coverage not independently verified"
+}

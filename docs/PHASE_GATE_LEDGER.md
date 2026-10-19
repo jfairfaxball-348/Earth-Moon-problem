@@ -82,3 +82,5 @@ S027 (2026-10-18): learned obstruction-support clauses close 13 alpha3 28-vertex
 S028 (2026-10-19): 13 new certified obstructions (min 18 vertices), 16/30 profiles closed, all S027 admitted excluded. No chi>=10 witness; 9<=chi_2<=12. Phase1 gate NOT PASSED.
 
 S029 (2026-10-19): literature-only landscape audit frozen; GO-MODIFIED for S030 (OP1(b) at order 28). No chi>=10 witness; 9<=chi_2<=12. Phase1 gate NOT PASSED.
+
+S030 (2026-10-19): 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Phase1 lower-bound gate NOT PASSED; novelty/Lean/publication gates unchanged.

@@ -387,8 +387,8 @@
     "publication_date": "2026-09-23",
     "url": "https://arxiv.org/abs/2609.28102",
     "access": "STATEMENT_INSPECTED",
-    "accessed": "2026-10-18",
-    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source. S029 (2026-10-19): v1 only; HTML Theorem 1 incl. 'at most 18 vertices', Lemma 7(1) and Section 7 OP1(b) (28 vertices, K4-free complement) remark re-inspected."
+    "accessed": "2026-10-19",
+    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source. S029 (2026-10-19): v1 only; HTML Theorem 1 incl. 'at most 18 vertices', Lemma 7(1) and Section 7 OP1(b) (28 vertices, K4-free complement) remark re-inspected. S030 refreshed primary abstract/HTML: v1 only; n<=18 and universal-vertex18 scopes distinguished; computational/Lean archive not replayed."
   },
   {
     "id": "SRC-0038",
@@ -482,7 +482,7 @@
     "doi": null,
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-19",
-    "note": "S029: theorem statements, proof structure and reviewer report inspected via fetch summary. Claims n<=28 for alpha<=3 (hand, imports SRC-0037); section 4 n<=30; Thm 12/Cor 13 exclude 11-regular n=28 (RUP packet 27,864 bytes, CC0, reviewer replayed); open: delta=11 m in {155,156}, delta<=10, nine-colourability for alpha=3. Unrefereed; not replayed here."
+    "note": "S029: theorem statements, proof structure and reviewer report inspected via fetch summary. Claims n<=28 for alpha<=3 (hand, imports SRC-0037); section 4 n<=30; Thm 12/Cor 13 exclude 11-regular n=28 (RUP packet 27,864 bytes, CC0, reviewer replayed); open: delta=11 m in {155,156}, delta<=10, nine-colourability for alpha=3. Unrefereed; not replayed here. S030 fetched v3 and inspected the CC0 branch encoder/checker; both supplied and independent RUP replays passed. Full hand coverage remains unverified; see separate SRC-0057 for finite proof scope."
   },
   {
     "id": "SRC-0046",
@@ -518,7 +518,7 @@
     "doi": null,
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-19",
-    "note": "S029: the stopped symmetric alpha<=3 search; n=20 SAT/UNSAT (no DRAT), n=23/26 timeouts; 2026-10-18 comments: no fixed-point-free Z7 28-vertex alpha<=3 graph except C7[K4] (enumeration not DRAT-certified). Encoders not linked."
+    "note": "S029: the stopped symmetric alpha<=3 search; n=20 SAT/UNSAT (no DRAT), n=23/26 timeouts; 2026-10-18 comments: no fixed-point-free Z7 28-vertex alpha<=3 graph except C7[K4] (enumeration not DRAT-certified). Encoders not linked. S030 direct primary fetch includes the fixed-point-free graph-invariance correction; no automorphism/symmetry exclusion imported."
   },
   {
     "id": "SRC-0049",
@@ -530,7 +530,7 @@
     "doi": null,
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-19",
-    "note": "S029: 2,555 quotient classes, 2,543 decided (251 triangle-free, 1,871 heredity, 421 propagator not yet DRAT-replayed), 12 undecided; data at sean.wiki not fetched."
+    "note": "S029: 2,555 quotient classes, 2,543 decided (251 triangle-free, 1,871 heredity, 421 propagator not yet DRAT-replayed), 12 undecided; data at sean.wiki not fetched. S030 primary refresh:421 propagator decisions await DRAT replay; enumerated objects are paired-twin doublings, not an independently established census of all graphs with closed twins."
   },
   {
     "id": "SRC-0050",
@@ -542,7 +542,7 @@
     "doi": null,
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-19",
-    "note": "S029: Theorems A/B (local, not externally reviewed); m=156 DRAT-verified non-biplanar witnesses (author tool); inert-cut correction 2026-10-18; delta=11 SAT ladder stopped 2026-10-19."
+    "note": "S029: Theorems A/B (local, not externally reviewed); m=156 DRAT-verified non-biplanar witnesses (author tool); inert-cut correction 2026-10-18; delta=11 SAT ladder stopped 2026-10-19. S030 primary refresh: local normal-form/profile arguments remain source-stated, not a whole155-edge exclusion or discard filter."
   },
   {
     "id": "SRC-0051",
@@ -615,5 +615,16 @@
     "access": "METADATA_ONLY",
     "accessed": "2026-10-19",
     "note": "S029: titles and one-line summaries enumerated; discussion at https://rstation.ai/problems/earth_moon/discussion. Only items with their own SRC id were opened."
+  },
+  {
+    "id": "SRC-0057",
+    "title": "Paper59 v3 CC0 regular566 literal RUP supplement",
+    "authors": "earth_moon_codex_two (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/api/v1/papers/earth_moon_59/versions/3/supplement",
+    "access": "PROOF_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S030 inspected encoder/checker and replayed the three finite RUP branches with supplied and independent naive checkers. Packet27864 bytes, b35f139e59467f20b771f090188fa5536d8342dcbc4446cf7945a74fb2fa64b3. Full graph reduction/hand coverage not independently proved. CC0 supplement retained under validation/S030/prior_art/paper59; full regular exclusion not promoted."
   }
 ]

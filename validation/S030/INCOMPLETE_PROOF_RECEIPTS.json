@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "pilot",
+    "raw_bytes": 5660672,
+    "sha256": "20abfc01e47b948d7af689fae09bcfde32a2a5fa8b37fd47b55784f8b69c1f9b",
+    "status": "INCOMPLETE_SEARCH_TRACE_NOT_A_CERTIFICATE",
+    "retained": false,
+    "reason": "UNKNOWN search; final CNF, semantic cuts and native logs retained instead"
+  },
+  {
+    "stage": "strong",
+    "raw_bytes": 18808832,
+    "sha256": "53ddcbe0e4c924d6af8cb156324020eb93d89168892b03fbb1928c30548767ac",
+    "status": "INCOMPLETE_SEARCH_TRACE_NOT_A_CERTIFICATE",
+    "retained": false,
+    "reason": "UNKNOWN search; final CNF, semantic cuts and native logs retained instead"
+  },
+  {
+    "stage": "sorted",
+    "raw_bytes": 206381056,
+    "sha256": "d4e2eb04138e28ee845ce2f5ae2634029a3598d00777a92816f77198671431e0",
+    "status": "INCOMPLETE_SEARCH_TRACE_NOT_A_CERTIFICATE",
+    "retained": false,
+    "reason": "UNKNOWN search; final CNF, semantic cuts and native logs retained instead"
+  }
+]

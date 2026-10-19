@@ -69,3 +69,5 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 - **CAM-0035 (S028)** refilter (75/84 S027 survivors excluded), source rerun (16/30 profiles closed), exact queue (1 UNKNOWN, 12 NOT_RUN at owner stop).
 
 - **S029**: no campaign (literature only).
+
+- **CAM-0036 (S030)** unrestricted labelled order28 S11 CEGAR; 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12.

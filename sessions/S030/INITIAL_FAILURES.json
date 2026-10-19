@@ -1,0 +1,9 @@
+{
+  "scope": "operational control failures before the general S11 search; no graph verdict promoted",
+  "events": [
+    {"stage": "entry wrapper", "observed": "KeyError: chromatic", "cause": "wrapper read nonexistent result field after cloud_smoke.py had completed full PASS", "resolution": "verified supervisor returncode0 and original result verdictPASS/chromatic_rows_verified271 before copying SMOKE.json; corrected wrapper field"},
+    {"stage": "initial controls invocation", "observed": "FileNotFoundError: artifacts/tmp/S030/SMOKE.json", "cause": "wrapper had not copied its successful smoke result", "resolution": "fail-closed before controls; independently confirmed fresh full PASS receipt and copied result"},
+    {"stage": "prospective alpha2 calibration", "observed": "AssertionError: a2 and a3", "cause": "retained J1 graph has independence number3, not2", "resolution": "label J1 honestly as alpha3, retain missing17v alpha2 calibration, verify additional order24 alpha3 positive split"},
+    {"stage": "source text receipt formatting", "observed": "UnicodeEncodeError in Windows console output", "cause": "console cp1252 could not encode mathematical subscript", "resolution": "use UTF8 stdout; repeat read-only receipt extraction"}
+  ]
+}

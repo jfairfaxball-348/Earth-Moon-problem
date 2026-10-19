@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+  "tree": "0d61e17ef478036e8680b68bdfe2b3f92a8232a7",
+  "parents": ["742c1a19bac8cd7caf4c734d73fc76262c8ced29", "7c60fa8b0d4201204cf059d6c34ac9fc90334be9"],
+  "prior_pr": 38,
+  "prior_pr_merged": true,
+  "open_prs": [],
+  "hosted_run": 39239671991,
+  "validate_job_check_run": 118017161029,
+  "hosted_conclusion": "success",
+  "combined_status": {"state": "pending", "total_count": 0, "interpretation": "not a CI pass; actual validate job independently inspected"},
+  "rulesets": [],
+  "branch_protection_endpoint": "404 Branch not protected",
+  "github_cli_identity": "jfairfaxball-348",
+  "local_worktree_at_entry": "clean main, matching remote main",
+  "session_branch": "codex/S030-op1b"
+}
