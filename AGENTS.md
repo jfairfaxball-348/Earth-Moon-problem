@@ -1,3 +1,7 @@
+# D062 owner pivot (2026-10-19; governance only, no session executed)
+
+After an S001–S028 review the owner pivoted: **S029 = prior-art and current-landscape audit, rStation r/earth_moon first, literature only, output FROZEN**; **S030 = the alpha<=3 finite programme** (T3: biplanar with alpha<=3 implies 9-colourable, or a chi>=10 witness; finite by Lemma F, n<=36), drafted in docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md and finalised by S029. The certified exhaustive search of that finite domain is authorised for S030 when invoked; no universal upper-bound work beyond it. The old S029 obstruction-closure queue is PARKED with statuses unchanged (sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062)). No chi>=10 witness; 9<=chi2<=12. Historical instructions below retain their original scopes.
+
 # S028 completed authority update D061 (2026-10-19)
 
 S028 (owner "run next session", local Claude Code, full smoke PASS; stopped early at owner request): deletion descent certified 13 new clique blow-up obstructions down to 18 vertices (D036 = GJaVBo[7,3,2,2,1,1,1,1]); all 4 S027 admitted UNKNOWN and 71/78 surplus graphs excluded by checked certified-subgraph maps; 16/30 seed-270018 profiles closed by checked DRAT; S028 queue 1 UNKNOWN, 12 NOT_RUN. No chi>=10 biplanar witness; 9<=chi2<=12. S029 FUTURE/UNEXECUTED. Push/PR via the owner's Git Credential Manager account jfairfaxball-348 (gh helper shadows it). Historical instructions below retain their original scopes.

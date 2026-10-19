@@ -1,3 +1,5 @@
+**CURRENT D062 (2026-10-19): next session S029 is a prior-art/landscape audit (rStation first, literature only, frozen); S030 is the alpha<=3 finite programme. Old S029 queue PARKED. See docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md.**
+
 # S028 completed authority update D061 (2026-10-19)
 
 S028 (owner "run next session", local Claude Code, full smoke PASS; stopped early at owner request): deletion descent certified 13 new clique blow-up obstructions down to 18 vertices (D036 = GJaVBo[7,3,2,2,1,1,1,1]); all 4 S027 admitted UNKNOWN and 71/78 surplus graphs excluded by checked certified-subgraph maps; 16/30 seed-270018 profiles closed by checked DRAT; S028 queue 1 UNKNOWN, 12 NOT_RUN. No chi>=10 biplanar witness; 9<=chi2<=12. S029 FUTURE/UNEXECUTED. Push/PR via the owner's Git Credential Manager account jfairfaxball-348 (gh helper shadows it). Historical instructions below retain their original scopes.

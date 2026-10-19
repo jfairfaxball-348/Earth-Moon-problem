@@ -19,5 +19,5 @@ jobs:
         run: python scripts/check_s026_records.py
       - name: Validate S027 archived evidence integrity
         run: python scripts/check_s027_records.py
-      - name: Validate S028 archived evidence integrity
-        run: python scripts/check_s028_records.py
+      - name: Validate S028 archived evidence integrity and D062 prompt
+        run: python scripts/check_d062_records.py

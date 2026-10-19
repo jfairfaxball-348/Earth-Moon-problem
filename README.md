@@ -1,6 +1,6 @@
 # Earth–Moon Problem — Long-Form Research Programme
 
-**CURRENT NEXT SESSION: S027, FUTURE/UNEXECUTED.** S025 completed locally and certified the original271 corpus NON-BIPLANAR. D058 original219 priority is discharged; new obstruction-aware candidate generation is queued. See [next prompt](authoritative/NEXT_SESSION_PROMPT.md) and [integration reconciliation](docs/S025_INTEGRATION_RECONCILIATION.md).
+**CURRENT NEXT SESSION: S029, FUTURE/UNEXECUTED (D062).** Prior-art and current-landscape audit (rStation first), frozen as the baseline for S030, the alpha<=3 finite programme. See [next prompt](authoritative/NEXT_SESSION_PROMPT.md) and [D062 directive](docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md).
 
 
 **Headline (re-scoped 2026-10-14, decision D042):** raise the lower bound of the Earth–Moon problem (EMP) from χ₂ > 8 to **χ₂ > 9**, i.e. construct and fully certify a finite simple biplanar graph with chromatic number at least 10. Solving EMP outright and improving the upper bound 12 are out of scope. **Status after S026 (2026-10-18): no χ ≥ 10 biplanar witness; all271 original candidate rows NON-BIPLANAR. Bounds9..12 unchanged.**
