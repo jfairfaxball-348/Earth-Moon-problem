@@ -390,3 +390,42 @@ S027 refresh 2026-10-18: SRC-0021 earth-moon-chi10 GitHub URL returned HTTP 404 
 S027 pass 2 (2026-10-19): SRC-0044 note extended (rStation front-page titles; paper 13 v2 excerpts). No 10-chromatic biplanar announcement found.
 
 S028 (2026-10-19): no new source; prior-art refresh limited by owner-requested early stop (see sessions/S028/PRIOR_ART.md).
+
+
+## SRC-0045 - STATEMENT_INSPECTED
+earth_moon_codex_two (rStation handle; human authorship unverified), *Private cliques and the order bound for biplanar graphs of independence number three (rStation paper 59, v3)*, 2026-10-15, https://rstation.ai/problems/earth_moon/papers/59 . S029: theorem statements, proof structure and reviewer report inspected via fetch summary. Claims n<=28 for alpha<=3 (hand, imports SRC-0037); section 4 n<=30; Thm 12/Cor 13 exclude 11-regular n=28 (RUP packet 27,864 bytes, CC0, reviewer replayed); open: delta=11 m in {155,156}, delta<=10, nine-colourability for alpha=3. Unrefereed; not replayed here.
+
+## SRC-0046 - STATEMENT_INSPECTED
+extremal_layer_archaeologist (rStation handle), *Ten-critical biplanar graphs on twenty-one vertices have independence number three (rStation paper 33, v2)*, 2026-10-11, https://rstation.ai/problems/earth_moon/papers/33 . S029: main theorem, method (hand + exact-fraction + RUP), dependencies (order<=20 via paper 18) and reviewer report inspected. Imports census completeness. Not replayed.
+
+## SRC-0047 - STATEMENT_INSPECTED
+opus_earthmoon (rStation handle), *Biplanar graphs on twenty vertices are 9-colourable: the seventeen-vertex core branch (rStation paper 18, v2)*, 2026-10-07, https://rstation.ai/problems/earth_moon/papers/18 . S029: Corollary 4 (every biplanar graph on <=20 vertices is 9-colourable) combining papers 1,3,4,6,16; LRAT/DRAT by author; reviewer did not regenerate proofs. Not replayed.
+
+## SRC-0048 - STATEMENT_INSPECTED
+low_alpha_designer (rStation handle), *Symmetric exact search for alpha<=3 biplanar pairs: scoped results and why I am stopping (rStation post 152)*, 2026-10-16, https://rstation.ai/r/earth_moon/posts/152 . S029: the stopped symmetric alpha<=3 search; n=20 SAT/UNSAT (no DRAT), n=23/26 timeouts; 2026-10-18 comments: no fixed-point-free Z7 28-vertex alpha<=3 graph except C7[K4] (enumeration not DRAT-certified). Encoders not linked.
+
+## SRC-0049 - STATEMENT_INSPECTED
+forget_me_not (rStation handle), *A finished census of the fully twinned 28-vertex slice of the alpha<=3 route, and a second biplanarity oracle on offer (rStation post 155)*, 2026-10-17, https://rstation.ai/r/earth_moon/posts/155 . S029: 2,555 quotient classes, 2,543 decided (251 triangle-free, 1,871 heredity, 421 propagator not yet DRAT-replayed), 12 undecided; data at sean.wiki not fetched.
+
+## SRC-0050 - STATEMENT_INSPECTED
+earth_moon_codex_two; low_alpha_designer (rStation handles), *The 155-edge endpoint: overlapping eight-cliques have two nonbiplanar normal forms (rStation post 146, with comments to 2026-10-19)*, 2026-10-15, https://rstation.ai/r/earth_moon/posts/146 . S029: Theorems A/B (local, not externally reviewed); m=156 DRAT-verified non-biplanar witnesses (author tool); inert-cut correction 2026-10-18; delta=11 SAT ladder stopped 2026-10-19.
+
+## SRC-0051 - STATEMENT_INSPECTED
+opus_earthmoon (rStation handle), *All known counting-feasible chi=10 candidates are (q,2/3)-passports ... (rStation post 141)*, 2026-10-15, https://rstation.ai/r/earth_moon/posts/141 . S029: 12 weight-28 passports reduce to the alpha<=3 route, all certified non-biplanar by author tool; conjecture F9; archive private.
+
+## SRC-0052 - STATEMENT_INSPECTED
+low_alpha_designer; orbit_cartographer (audits) (rStation handles), *Order-21 proof ledger v1 (rStation post 144)*, 2026-10-15, https://rstation.ai/r/earth_moon/posts/144 . S029: page truncated at 100k chars. Orders <=20 closed per ledger; order-21 branches t=11 |D|=5..13, t=17, t=18 open.
+
+## SRC-0053 - STATEMENT_INSPECTED
+low_alpha_designer (rStation handle), *Strategy check: clustering on t=18, the neglected t=11 middle, the ledger ceiling, and a dormant construction lead (rStation post 154)*, 2026-10-17, https://rstation.ai/r/earth_moon/posts/154 . S029: truncated page. Ledger projected to stop around order 22-23; six 21-vertex 114-edge chi=10 alpha=3 near-misses failing a 13-vertex density bound.
+
+## SRC-0054 - STATEMENT_INSPECTED
+selene_opus (rStation handle), *Constructive flip-pair search for OP1(b)/OP2 targets (rStation post 52)*, 2026-10-06, https://rstation.ai/r/earth_moon/posts/52 . S029: heuristic floors (n=26: 2 independent 4-sets; n=28: 28); explicitly no proof value.
+
+## SRC-0055 - STATEMENT_INSPECTED
+seanstock, *bipsat2: biplanarity via CaDiCaL with a Boyer-Myrvold external propagator*, undated, https://github.com/seanstock/bipsat2 . S029: README only: persistent Kuratowski lemmas, exact layer sizes, twin lex-leaders, DRAT replay via tools/replay.py; MIT. Not built or run.
+
+## SRC-0056 - METADATA_ONLY
+rStation forum authors, *rStation r/earth_moon full papers listing (67) and discussion listing (163 posts)*, 2026-10-19 (listing access), https://rstation.ai/problems/earth_moon/papers . S029: titles and one-line summaries enumerated; discussion at https://rstation.ai/problems/earth_moon/discussion. Only items with their own SRC id were opened.
+
+S029 refresh 2026-10-19: SRC-0037 (v1 only; Theorem 1 n<=18; OP1(b) open), SRC-0018/0007/0039 single Zenodo versions, SRC-0021 404 (grade unchanged), SRC-0003 OP1(b) via secondary quotation. See research/S029_LANDSCAPE.md.

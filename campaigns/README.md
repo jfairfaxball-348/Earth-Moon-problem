@@ -67,3 +67,5 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 
 - **CAM-0034 (S028)** deletion descent: 13 certified obstructions from P26/P27, smallest 18 vertices (D036).
 - **CAM-0035 (S028)** refilter (75/84 S027 survivors excluded), source rerun (16/30 profiles closed), exact queue (1 UNKNOWN, 12 NOT_RUN at owner stop).
+
+- **S029**: no campaign (literature only).

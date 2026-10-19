@@ -1,3 +1,7 @@
+# D063 S029 completed (2026-10-19; literature only)
+
+S029 (owner "run next session", cloud Claude Code) froze the prior-art/landscape baseline (research/S029_LANDSCAPE.md; validation/S029/LANDSCAPE_FREEZE.json). GO-MODIFIED: **S030 = certified two-sided decision of Gethner–Sulanke OP1(b), i.e. biplanar graphs on 28 vertices with alpha<=3 (each one is a chi>=10 witness)**, stratified by minimum degree. Lemma F is superseded (n<=30 via Szeider; n<=28 claimed by rStation paper 59). T3 for 21<=n<=27 is PARKED. The old S029 queue stays PARKED. No chi>=10 witness; 9<=chi2<=12. S030 FUTURE/UNEXECUTED. Historical instructions below retain their original scopes.
+
 # D062 owner pivot (2026-10-19; governance only, no session executed)
 
 After an S001–S028 review the owner pivoted: **S029 = prior-art and current-landscape audit, rStation r/earth_moon first, literature only, output FROZEN**; **S030 = the alpha<=3 finite programme** (T3: biplanar with alpha<=3 implies 9-colourable, or a chi>=10 witness; finite by Lemma F, n<=36), drafted in docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md and finalised by S029. The certified exhaustive search of that finite domain is authorised for S030 when invoked; no universal upper-bound work beyond it. The old S029 obstruction-closure queue is PARKED with statuses unchanged (sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062)). No chi>=10 witness; 9<=chi2<=12. Historical instructions below retain their original scopes.

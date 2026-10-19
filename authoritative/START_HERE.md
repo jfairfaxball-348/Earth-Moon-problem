@@ -1,3 +1,7 @@
+# D063 S029 completed (2026-10-19; literature only)
+
+S029 (owner "run next session", cloud Claude Code) froze the prior-art/landscape baseline (research/S029_LANDSCAPE.md; validation/S029/LANDSCAPE_FREEZE.json). GO-MODIFIED: **S030 = certified two-sided decision of Gethner–Sulanke OP1(b), i.e. biplanar graphs on 28 vertices with alpha<=3 (each one is a chi>=10 witness)**, stratified by minimum degree. Lemma F is superseded (n<=30 via Szeider; n<=28 claimed by rStation paper 59). T3 for 21<=n<=27 is PARKED. The old S029 queue stays PARKED. No chi>=10 witness; 9<=chi2<=12. S030 FUTURE/UNEXECUTED. Historical instructions below retain their original scopes.
+
 **CURRENT D062 (2026-10-19): next session S029 is a prior-art/landscape audit (rStation first, literature only, frozen); S030 is the alpha<=3 finite programme. Old S029 queue PARKED. See docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md.**
 
 # S028 completed authority update D061 (2026-10-19)

@@ -122,3 +122,5 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F079 (S028) | P29-del-bag12 descends like P26/P27 | all 12 tested children UNKNOWN at 120s | P29-derived graphs are hard for --lemmaC5; prioritise easy roots |
 
 | F080 (S028) | The S028 queue fits the session | owner-requested stop after 1 of 13 graphs | S029 resumes the recorded queue |
+
+| F081 (S029) | Lemma F (n<=36) was the right finiteness bound for the alpha<=3 programme | n<=30 already follows from Szeider's n<=18 (and n<=28 is claimed); below 28, T3 is not a counting question | Audit the landscape before drafting a finite programme; reduce to the counting endpoint (order 28) |
