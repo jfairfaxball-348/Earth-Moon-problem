@@ -1,0 +1,16 @@
+{
+ "status": "PASS",
+ "solver": "cadical300",
+ "persistent_n4_assignments": 2916,
+ "incremental_clause_addition": "PASS",
+ "S030_models_replayed": 44,
+ "S030_cut_audits": [
+  30,
+  734,
+  1084
+ ],
+ "regular_rup": "THREE_BRANCHES_VERIFIED_TWICE; HAND_COVERAGE_NOT_REPROVED",
+ "positive24": "PASS",
+ "known17_alpha2": "NOT_RETRIEVED; no theorem promoted",
+ "seconds": 14.219000000040978
+}

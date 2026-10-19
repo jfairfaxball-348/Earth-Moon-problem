@@ -1,3 +1,13 @@
+# D065 owner long-run authorization (2026-10-19; S031 IN_PROGRESS)
+
+Owner explicitly authorized S031 and successive numbered sessions until context
+or usage allowance runs out, prioritizing long runs left working and checked
+after hours. See docs/D065_LONG_RUN_AUTHORIZATION.md and sessions/S031/RUNNING.md.
+This supersedes earlier stop-before-next gates for this campaign; all scientific,
+integration, parked-queue and publication gates remain. S031 is RUNNING, not
+closed. Check actual PIDs/checkpoints before starting any worker; never duplicate
+the active heavy process. Last completed session remains S030.
+
 # D064 S030 completed (2026-10-19; bounded OP1(b), no stratum decision)
 
 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full local271+K9 smoke PASS; executor Codex desktop. Paper59 finite RUP branches replayed, hand coverage not independently re-proved. S031 FUTURE/UNEXECUTED: persistent certified S11 continuation. Older queues remain PARKED.

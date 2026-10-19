@@ -89,7 +89,7 @@
     "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
     "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
   ],
-  "next_session_is_future_unexecuted": true,
+  "next_session_is_future_unexecuted": false,
   "latest_session_branch": "codex/S030-op1b",
   "latest_session_entry_main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
   "latest_session_integration": {
@@ -1444,5 +1444,32 @@
     "main_governance_run": 39239671991,
     "job": 118017161029
   },
-  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain"
+  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
+  "active_session": {
+    "id": "S031",
+    "status": "IN_PROGRESS_LONG_RUN",
+    "authority": "docs/D065_LONG_RUN_AUTHORIZATION.md",
+    "branch": "codex/S031-persistent-op1b",
+    "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+    "started_utc": "2026-10-19T18:44:37.981473+00:00",
+    "controller_pid": 15080,
+    "worker_pid": 10792,
+    "runtime_directory": "artifacts/tmp/S031",
+    "running_handoff": "sessions/S031/RUNNING.md",
+    "followup_automation_id": "earth-moon-long-run-continuation",
+    "scheduled_interval_hours": 2,
+    "worker_cap_seconds": 28800,
+    "last_completed_session_still": "S030",
+    "scientific_status": "NO_NEW_CERTIFIED_STRATUM_OR_WITNESS"
+  },
+  "standing_continuation_authorization": {
+    "decision": "D065",
+    "successive_sessions_authorized": true,
+    "stop_conditions": [
+      "owner revocation",
+      "context exhausted",
+      "usage allowance exhausted"
+    ],
+    "preserve_session_scopes_and_publication_gates": true
+  }
 }
