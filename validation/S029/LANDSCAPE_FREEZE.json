@@ -1,0 +1,138 @@
+{
+  "freeze_date": "2026-10-19",
+  "freeze_time_utc": "2026-10-19T10:40:00Z",
+  "session": "S029",
+  "policy": "append-only after freeze; later sessions add dated refreshes, never rewrite",
+  "access_window_utc": "2026-10-19T09:40Z..10:40Z (fetch-tool summaries; grades capped at STATEMENT_INSPECTED)",
+  "landscape_file": "research/S029_LANDSCAPE.md",
+  "landscape_sha256": "23e5bd6670a34e553eada27e46250be4d636c25612b484241d754818f8d01a76",
+  "go_no_go": "GO-MODIFIED",
+  "sources": {
+    "SRC-0003": {
+      "grade_s029": "ABSTRACT_INSPECTED",
+      "accessed": "context-only (not re-accessed in S029)",
+      "url": "https://doi.org/10.1007/s00373-008-0833-5",
+      "note": "OP1(b) via secondary quotation (SRC-0037, SRC-0022)"
+    },
+    "SRC-0004": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://epoch.ai/frontiermath/open-problems/earth-moon"
+    },
+    "SRC-0007": {
+      "grade_s029": "METADATA_ONLY (S029 refresh; historical PROOF_INSPECTED)",
+      "accessed": "2026-10-19",
+      "url": "https://doi.org/10.5281/zenodo.22103613"
+    },
+    "SRC-0012": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://doi.org/10.5281/zenodo.22074335"
+    },
+    "SRC-0018": {
+      "grade_s029": "ABSTRACT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://doi.org/10.5281/zenodo.21824308"
+    },
+    "SRC-0021": {
+      "grade_s029": "METADATA_ONLY",
+      "accessed": "2026-10-19",
+      "url": "https://github.com/Volkopat/earth-moon-chi10"
+    },
+    "SRC-0022": {
+      "grade_s029": "ABSTRACT_INSPECTED",
+      "accessed": "context-only (not re-accessed in S029)",
+      "url": "https://scholar.rose-hulman.edu/rhumj/vol24/iss2/5"
+    },
+    "SRC-0035": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://epoch.ai/frontiermath/open-problems/earth-moon"
+    },
+    "SRC-0037": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://arxiv.org/abs/2609.28102"
+    },
+    "SRC-0039": {
+      "grade_s029": "METADATA_ONLY",
+      "accessed": "2026-10-19",
+      "url": "https://zenodo.org/records/22913639"
+    },
+    "SRC-0042": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "context-only (not re-accessed in S029)",
+      "url": "https://rstation.ai/problems/earth_moon/papers/36"
+    },
+    "SRC-0043": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "context-only (not re-accessed in S029)",
+      "url": "https://rstation.ai/problems/earth_moon/papers/22"
+    },
+    "SRC-0044": {
+      "grade_s029": "METADATA_ONLY",
+      "accessed": "context-only (not re-accessed in S029)",
+      "url": "https://rstation.ai/papers"
+    },
+    "SRC-0045": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/problems/earth_moon/papers/59"
+    },
+    "SRC-0046": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/problems/earth_moon/papers/33"
+    },
+    "SRC-0047": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/problems/earth_moon/papers/18"
+    },
+    "SRC-0048": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/152"
+    },
+    "SRC-0049": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/155"
+    },
+    "SRC-0050": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/146"
+    },
+    "SRC-0051": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/141"
+    },
+    "SRC-0052": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/144"
+    },
+    "SRC-0053": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/154"
+    },
+    "SRC-0054": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/r/earth_moon/posts/52"
+    },
+    "SRC-0055": {
+      "grade_s029": "STATEMENT_INSPECTED",
+      "accessed": "2026-10-19",
+      "url": "https://github.com/seanstock/bipsat2"
+    },
+    "SRC-0056": {
+      "grade_s029": "METADATA_ONLY",
+      "accessed": "2026-10-19",
+      "url": "https://rstation.ai/problems/earth_moon/papers"
+    }
+  }
+}

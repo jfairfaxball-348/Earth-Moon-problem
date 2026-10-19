@@ -1,0 +1,63 @@
+{
+  "session": "S029",
+  "entry_main": "742c1a19bac8cd7caf4c734d73fc76262c8ced29",
+  "environment": {
+    "kind": "CLAUDE_CODE_CLOUD_CONTAINER",
+    "executor": "Claude Code (cloud)",
+    "smoke": "NOT_RUN: literature-only session, no scientific script executed"
+  },
+  "artifact_sha256": {
+    "authoritative/NEXT_SESSION_PROMPT.md": {
+      "bytes": 7441,
+      "sha256": "927240acc8d17a3db4778fd620a5e82dbe67b72aa47d0a5d3c4104559c8f4428"
+    },
+    "research/S029_LANDSCAPE.md": {
+      "bytes": 18675,
+      "sha256": "23e5bd6670a34e553eada27e46250be4d636c25612b484241d754818f8d01a76"
+    },
+    "scripts/check_s029_records.py": {
+      "bytes": 1289,
+      "sha256": "13593cfb270aec0200a8946b185ab2f66b610136984986947c09a7ee0ee6890d"
+    },
+    "sessions/S029/ADVERSARIAL.md": {
+      "bytes": 1348,
+      "sha256": "7d80dd1b56de37e5f3062e1578115c1892c085a8f711bb3e408af0e7688edd84"
+    },
+    "sessions/S029/CLOSEOUT.md": {
+      "bytes": 1244,
+      "sha256": "d3aad9752e1d8f8c628ff727d9db01a66f5ca19f4d2eb546fe1339605e173595"
+    },
+    "sessions/S029/EXECUTED_PROMPT.md": {
+      "bytes": 5303,
+      "sha256": "b4618a6b62f2dd9ae8f8345dde0f9eed2572a468b1410311245d8b4b4136b17e"
+    },
+    "sessions/S029/INPUT.md": {
+      "bytes": 750,
+      "sha256": "96ffda62cb938c594e6811d5f1ce82bba4515fe27687ac90acb818e90265bdfa"
+    },
+    "sessions/S029/OWNER_INVOCATION.md": {
+      "bytes": 579,
+      "sha256": "cc9b111564f26235ac974f89ecde0e0fd4bb0bdc06e04a014d89ed060e33f2a0"
+    },
+    "sessions/S029/PLAN.md": {
+      "bytes": 828,
+      "sha256": "e17525f89d4e450e10f3da22b851c94698f3580e84ce54e634c683fda0cd0e2b"
+    },
+    "sessions/S029/PRIOR_ART.md": {
+      "bytes": 275,
+      "sha256": "a365afcd84d318454a6aa9e2f8ba517eee68216a253da6288bcb8f8bd76c1f94"
+    },
+    "sessions/S029/RESEARCH.md": {
+      "bytes": 905,
+      "sha256": "8fe1a8cca344643b371add053fab1c16ce2f2fd5d918e232a86fe390e96523ef"
+    },
+    "sessions/S029/S030_FUTURE_PROMPT.md": {
+      "bytes": 7441,
+      "sha256": "927240acc8d17a3db4778fd620a5e82dbe67b72aa47d0a5d3c4104559c8f4428"
+    },
+    "validation/S029/LANDSCAPE_FREEZE.json": {
+      "bytes": 4684,
+      "sha256": "e694ef3e3c91d929382176f7bcbb1dee125ff505170271965f00e66bd60d0034"
+    }
+  }
+}

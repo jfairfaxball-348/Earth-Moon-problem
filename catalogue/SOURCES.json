@@ -26,7 +26,7 @@
     "year": 2009,
     "url": "https://doi.org/10.1007/s00373-008-0833-5",
     "access": "ABSTRACT_INSPECTED",
-    "note": "Publisher abstract inspected, proof inaccessible."
+    "note": "Publisher abstract inspected, proof inaccessible. S029: Open Problem 1(b) (thickness-two graph on 28 vertices with K4-free complement) seen quoted in SRC-0037 and SRC-0022; original not re-inspected."
   },
   {
     "id": "SRC-0004",
@@ -62,7 +62,7 @@
     "year": 2026,
     "url": "https://doi.org/10.5281/zenodo.22103613",
     "access": "PROOF_INSPECTED",
-    "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Haj\u00c3\u00b3s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only. S026 primary Zenodo endpoint unavailable on2026-10-18; a secondary index names prior C5[3,4,3,4,3] exclusion. Historical proof-access grade is not fresh validation.",
+    "note": "Primary API, PDF sections 3.3/3.3a and certificate README inspected. Confirmed overlap on saturated Haj\u00c3\u00b3s cone. DRAT runs/theory lemmas not replayed; README leaves independent lex-leader validation open. Corpus and order bounds source-stated only. S026 primary Zenodo endpoint unavailable on2026-10-18; a secondary index names prior C5[3,4,3,4,3] exclusion. Historical proof-access grade is not fresh validation. S029: Zenodo versions API shows a single version; no alpha<=3/28-vertex metadata.",
     "accessed": "2026-10-12",
     "publication_date": "2026-08-26",
     "version": "First indexed version, concept record 22103612 resolves to 22103613",
@@ -175,7 +175,7 @@
     "year": 2026,
     "url": "https://doi.org/10.5281/zenodo.21824308",
     "access": "ABSTRACT_INSPECTED",
-    "note": "Zenodo API record (published 2026-08-06, CC BY 4.0) description only; result conditional on Lalonde's census of edge-7-critical graphs on 13 vertices.",
+    "note": "Zenodo API record (published 2026-08-06, CC BY 4.0) description only; result conditional on Lalonde's census of edge-7-critical graphs on 13 vertices. S029: Zenodo versions API shows a single version (2026-08-06).",
     "accessed": "2026-10-12"
   },
   {
@@ -205,7 +205,7 @@
     "year": 2026,
     "url": "https://github.com/Volkopat/earth-moon-chi10",
     "access": "METADATA_ONLY",
-    "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred. S008 live repository API still404; contents UNKNOWN. S009 correct live repository API404 again; contents UNKNOWN.",
+    "note": "Search excerpt only; fetch 404, clone required credentials. S004 live GitHub API again returned 404; no contents inspected. S005 live API still 404; contents unavailable. S006 live GitHub API still404; no contents inferred. S007 live GitHub API still404; no contents inferred. S008 live repository API still404; contents UNKNOWN. S009 correct live repository API404 again; contents UNKNOWN. S029: direct fetch 404 again; search excerpt of README states no 10-chromatic biplanar graph was found. Grade unchanged.",
     "accessed": "2026-10-14"
   },
   {
@@ -388,7 +388,7 @@
     "url": "https://arxiv.org/abs/2609.28102",
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-18",
-    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source."
+    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source. S029 (2026-10-19): v1 only; HTML Theorem 1 incl. 'at most 18 vertices', Lemma 7(1) and Section 7 OP1(b) (28 vertices, K4-free complement) remark re-inspected."
   },
   {
     "id": "SRC-0038",
@@ -410,7 +410,7 @@
     "url": "https://zenodo.org/records/22913639",
     "access": "METADATA_ONLY",
     "accessed": "2026-10-15",
-    "note": "Author primary Zenodo supplementary record inspected: Lean, 3275 SAT instances, LRAT, 2.2GB ZIP and three unformalized planar hypotheses. ZIP NOT downloaded or replayed; no claim of independently validated formal proof in S023."
+    "note": "Author primary Zenodo supplementary record inspected: Lean, 3275 SAT instances, LRAT, 2.2GB ZIP and three unformalized planar hypotheses. ZIP NOT downloaded or replayed; no claim of independently validated formal proof in S023. S029: still v1 only (2.24 GB zip)."
   },
   {
     "id": "SRC-0040",
@@ -471,5 +471,149 @@
     "access": "METADATA_ONLY",
     "accessed": "2026-10-18",
     "note": "S027: titles/abstract fragments only, claiming biplanar graphs on <=18, <=19 and 20 vertices are 9-colourable and a linking lemma (paper 13). Not inspected or replayed; unrefereed. If correct, a chi>=10 biplanar graph needs >=21 vertices, consistent with the 28-vertex source. Pass 2 (2026-10-19): front-page titles claim hand exclusions of C5[2,2,5,2,6] and C5[2,3,4,2,6] (already certified here) and a stopped alpha<=3 symmetric search; paper 13 v2 excerpts (minimal non-biplanar graphs on <=10 vertices are K9 and K10-K3). Not replayed."
+  },
+  {
+    "id": "SRC-0045",
+    "title": "Private cliques and the order bound for biplanar graphs of independence number three (rStation paper 59, v3)",
+    "authors": "earth_moon_codex_two (rStation handle; human authorship unverified)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/problems/earth_moon/papers/59",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: theorem statements, proof structure and reviewer report inspected via fetch summary. Claims n<=28 for alpha<=3 (hand, imports SRC-0037); section 4 n<=30; Thm 12/Cor 13 exclude 11-regular n=28 (RUP packet 27,864 bytes, CC0, reviewer replayed); open: delta=11 m in {155,156}, delta<=10, nine-colourability for alpha=3. Unrefereed; not replayed here."
+  },
+  {
+    "id": "SRC-0046",
+    "title": "Ten-critical biplanar graphs on twenty-one vertices have independence number three (rStation paper 33, v2)",
+    "authors": "extremal_layer_archaeologist (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-11",
+    "url": "https://rstation.ai/problems/earth_moon/papers/33",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: main theorem, method (hand + exact-fraction + RUP), dependencies (order<=20 via paper 18) and reviewer report inspected. Imports census completeness. Not replayed."
+  },
+  {
+    "id": "SRC-0047",
+    "title": "Biplanar graphs on twenty vertices are 9-colourable: the seventeen-vertex core branch (rStation paper 18, v2)",
+    "authors": "opus_earthmoon (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-07",
+    "url": "https://rstation.ai/problems/earth_moon/papers/18",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: Corollary 4 (every biplanar graph on <=20 vertices is 9-colourable) combining papers 1,3,4,6,16; LRAT/DRAT by author; reviewer did not regenerate proofs. Not replayed."
+  },
+  {
+    "id": "SRC-0048",
+    "title": "Symmetric exact search for alpha<=3 biplanar pairs: scoped results and why I am stopping (rStation post 152)",
+    "authors": "low_alpha_designer (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-16",
+    "url": "https://rstation.ai/r/earth_moon/posts/152",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: the stopped symmetric alpha<=3 search; n=20 SAT/UNSAT (no DRAT), n=23/26 timeouts; 2026-10-18 comments: no fixed-point-free Z7 28-vertex alpha<=3 graph except C7[K4] (enumeration not DRAT-certified). Encoders not linked."
+  },
+  {
+    "id": "SRC-0049",
+    "title": "A finished census of the fully twinned 28-vertex slice of the alpha<=3 route, and a second biplanarity oracle on offer (rStation post 155)",
+    "authors": "forget_me_not (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-17",
+    "url": "https://rstation.ai/r/earth_moon/posts/155",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: 2,555 quotient classes, 2,543 decided (251 triangle-free, 1,871 heredity, 421 propagator not yet DRAT-replayed), 12 undecided; data at sean.wiki not fetched."
+  },
+  {
+    "id": "SRC-0050",
+    "title": "The 155-edge endpoint: overlapping eight-cliques have two nonbiplanar normal forms (rStation post 146, with comments to 2026-10-19)",
+    "authors": "earth_moon_codex_two; low_alpha_designer (rStation handles)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/r/earth_moon/posts/146",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: Theorems A/B (local, not externally reviewed); m=156 DRAT-verified non-biplanar witnesses (author tool); inert-cut correction 2026-10-18; delta=11 SAT ladder stopped 2026-10-19."
+  },
+  {
+    "id": "SRC-0051",
+    "title": "All known counting-feasible chi=10 candidates are (q,2/3)-passports ... (rStation post 141)",
+    "authors": "opus_earthmoon (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/r/earth_moon/posts/141",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: 12 weight-28 passports reduce to the alpha<=3 route, all certified non-biplanar by author tool; conjecture F9; archive private."
+  },
+  {
+    "id": "SRC-0052",
+    "title": "Order-21 proof ledger v1 (rStation post 144)",
+    "authors": "low_alpha_designer; orbit_cartographer (audits) (rStation handles)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/r/earth_moon/posts/144",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: page truncated at 100k chars. Orders <=20 closed per ledger; order-21 branches t=11 |D|=5..13, t=17, t=18 open."
+  },
+  {
+    "id": "SRC-0053",
+    "title": "Strategy check: clustering on t=18, the neglected t=11 middle, the ledger ceiling, and a dormant construction lead (rStation post 154)",
+    "authors": "low_alpha_designer (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-17",
+    "url": "https://rstation.ai/r/earth_moon/posts/154",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: truncated page. Ledger projected to stop around order 22-23; six 21-vertex 114-edge chi=10 alpha=3 near-misses failing a 13-vertex density bound."
+  },
+  {
+    "id": "SRC-0054",
+    "title": "Constructive flip-pair search for OP1(b)/OP2 targets (rStation post 52)",
+    "authors": "selene_opus (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-06",
+    "url": "https://rstation.ai/r/earth_moon/posts/52",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: heuristic floors (n=26: 2 independent 4-sets; n=28: 28); explicitly no proof value."
+  },
+  {
+    "id": "SRC-0055",
+    "title": "bipsat2: biplanarity via CaDiCaL with a Boyer-Myrvold external propagator",
+    "authors": "seanstock",
+    "year": 2026,
+    "publication_date": "undated",
+    "url": "https://github.com/seanstock/bipsat2",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-19",
+    "note": "S029: README only: persistent Kuratowski lemmas, exact layer sizes, twin lex-leaders, DRAT replay via tools/replay.py; MIT. Not built or run."
+  },
+  {
+    "id": "SRC-0056",
+    "title": "rStation r/earth_moon full papers listing (67) and discussion listing (163 posts)",
+    "authors": "rStation forum authors",
+    "year": 2026,
+    "publication_date": "2026-10-19 (listing access)",
+    "url": "https://rstation.ai/problems/earth_moon/papers",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-19",
+    "note": "S029: titles and one-line summaries enumerated; discussion at https://rstation.ai/problems/earth_moon/discussion. Only items with their own SRC id were opened."
   }
 ]

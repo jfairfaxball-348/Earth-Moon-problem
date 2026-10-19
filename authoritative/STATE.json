@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-19",
-  "last_completed_session": "S028",
-  "recommended_next_session": "S029",
+  "last_completed_session": "S029",
+  "recommended_next_session": "S030",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S028",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S029",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S027_PRIMARY_SOURCE_REFRESH_TWICE_ACCESS_GRADED_NO_NOVELTY_CLAIM",
+  "source_status": "S029_LANDSCAPE_FROZEN_2026-10-19_TWO_NOVELTY_PASSES_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,17 +83,17 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S029 FUTURE (D062): prior-art and current-landscape audit, rStation r/earth_moon first; literature only; freeze baseline; write full S030 prompt with go/no-go.",
-    "S030 FUTURE (D062 draft): alpha<=3 finite programme T3 (biplanar alpha<=3 implies 9-colourable, or a chi>=10 witness); Lemma F n<=36 to be re-proved.",
+    "S030 FUTURE (D063, GO-MODIFIED by frozen S029 audit): certified two-sided decision of Gethner-Sulanke OP1(b): biplanar graphs on 28 vertices with alpha<=3 (any is a chi>=10 witness), by strata delta=11 (m 155/156), 10, 9; caps are UNKNOWN.",
+    "PARKED: T3 for 21<=n<=27 (non-counting; overlaps rStation order-by-order programme).",
     "PARKED (not discharged): old S029 obstruction-closure queue (12 NOT_RUN, S028-P10-B10-0007 UNKNOWN, 9 S027 surplus) and C5[3,3,4,3,4], C5[3,3,3,4,4].",
-    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach (including rStation posting) gated."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "claude/S028-obstruction-closure",
-  "latest_session_entry_main": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac",
+  "latest_session_branch": "claude/charming-hamilton-ej1aav",
+  "latest_session_entry_main": "742c1a19bac8cd7caf4c734d73fc76262c8ced29",
   "latest_session_integration": {
-    "status": "S028_AUTHORED_AND_MERGE_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac"
+    "status": "S029_AUTHORED_AND_MERGE_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
+    "entry_main": "742c1a19bac8cd7caf4c734d73fc76262c8ced29"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -1167,7 +1167,7 @@
     "novelty_claimed": false,
     "formalisation_executed": false
   },
-  "session_gate": "S028 completed (early stop at owner request); S029 FUTURE/UNEXECUTED until new owner invocation under D047.",
+  "session_gate": "S029 completed (literature only, frozen); S030 FUTURE/UNEXECUTED until new owner invocation under D047.",
   "historical_open_obligations_before_S026": [
     "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
     "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
@@ -1345,5 +1345,28 @@
     "directive": "docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md",
     "summary": "Pivot: S029 = prior-art/landscape audit (rStation first), frozen; S030 = alpha<=3 finite programme (Option 5). Old S029 queue parked. Exhaustive certified search of the finite alpha<=3 domain authorised for S030 when invoked as a finite-domain computation; no universal upper-bound work beyond it. D042 headline unchanged.",
     "superseded_prompt": "sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062)"
+  },
+  "historical_open_obligations_before_S029": [
+    "S029 FUTURE (D062): prior-art and current-landscape audit, rStation r/earth_moon first; literature only; freeze baseline; write full S030 prompt with go/no-go.",
+    "S030 FUTURE (D062 draft): alpha<=3 finite programme T3 (biplanar alpha<=3 implies 9-colourable, or a chi>=10 witness); Lemma F n<=36 to be re-proved.",
+    "PARKED (not discharged): old S029 obstruction-closure queue (12 NOT_RUN, S028-P10-B10-0007 UNKNOWN, 9 S027 surplus) and C5[3,3,4,3,4], C5[3,3,3,4,4].",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
+  ],
+  "s029_research": {
+    "type": "LITERATURE_ONLY",
+    "executor": "Claude Code, cloud container",
+    "smoke": "NOT_RUN (no scientific script executed; governance hash checks only)",
+    "landscape": "research/S029_LANDSCAPE.md",
+    "freeze": "validation/S029/LANDSCAPE_FREEZE.json",
+    "new_sources": "SRC-0045..SRC-0056",
+    "new_claims": "CLM-0110..CLM-0113",
+    "go_no_go": "GO-MODIFIED",
+    "summary": "Lemma F superseded (n<=30 via Szeider; n<=28 claimed by rStation paper 59). alpha<=3 counting route = OP1(b) at exactly 28 vertices; rStation excluded 11-regular case; delta<=10 and delta=11 m in {155,156} open. T3 below 28 overlaps rStation order programme and is PARKED. No 10-chromatic biplanar graph announced anywhere searched; nobody claims T3."
+  },
+  "d063_s029_decision": {
+    "date": "2026-10-19",
+    "type": "S029_GO_MODIFIED",
+    "next": "S030 OP1(b) order-28 stratified certified decision",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md = sessions/S029/S030_FUTURE_PROMPT.md"
   }
 }
