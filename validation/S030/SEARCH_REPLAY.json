@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "artifacts\\tmp\\S030\\pilot",
+    "models_checked": 10,
+    "cuts_checked": 30,
+    "cut_types": {
+      "K9": 10,
+      "Kuratowski": 20
+    },
+    "base_clauses": 334054,
+    "variables": 17976,
+    "verdict": "UNKNOWN",
+    "exhaustion": false,
+    "status": "PASS"
+  },
+  {
+    "directory": "artifacts\\tmp\\S030\\strong",
+    "models_checked": 16,
+    "cuts_checked": 734,
+    "cut_types": {
+      "K9": 702,
+      "Kuratowski": 32
+    },
+    "base_clauses": 334083,
+    "variables": 17976,
+    "verdict": "UNKNOWN",
+    "exhaustion": false,
+    "status": "PASS"
+  },
+  {
+    "directory": "artifacts\\tmp\\S030\\sorted",
+    "models_checked": 18,
+    "cuts_checked": 1084,
+    "cut_types": {
+      "K9": 1016,
+      "Kuratowski": 68
+    },
+    "base_clauses": 334221,
+    "variables": 17976,
+    "verdict": "UNKNOWN",
+    "exhaustion": false,
+    "status": "PASS"
+  }
+]

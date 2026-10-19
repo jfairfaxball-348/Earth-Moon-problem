@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-19",
-  "last_completed_session": "S029",
-  "recommended_next_session": "S030",
+  "last_completed_session": "S030",
+  "recommended_next_session": "S031",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S029",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S030",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_LANDSCAPE_FROZEN_2026-10-19_TWO_NOVELTY_PASSES_NO_NOVELTY_CLAIM",
+  "source_status": "S029_FROZEN_PLUS_S030_DATED_REFRESH_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,17 +83,18 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S030 FUTURE (D063, GO-MODIFIED by frozen S029 audit): certified two-sided decision of Gethner-Sulanke OP1(b): biplanar graphs on 28 vertices with alpha<=3 (any is a chi>=10 witness), by strata delta=11 (m 155/156), 10, 9; caps are UNKNOWN.",
-    "PARKED: T3 for 21<=n<=27 (non-counting; overlaps rStation order-by-order programme).",
-    "PARKED (not discharged): old S029 obstruction-closure queue (12 NOT_RUN, S028-P10-B10-0007 UNKNOWN, 9 S027 surplus) and C5[3,3,4,3,4], C5[3,3,3,4,4].",
-    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach (including rStation posting) gated."
+    "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
+    "S11 regular154 SOURCE_STATED; only three finite RUP branches replayed, hand coverage not independently re-proved.",
+    "S10/S9 NOT_RUN; delta>=9 conditional on SRC-0037, unconditional fallback S8 NOT_RUN.",
+    "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
+    "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "claude/charming-hamilton-ej1aav",
-  "latest_session_entry_main": "742c1a19bac8cd7caf4c734d73fc76262c8ced29",
+  "latest_session_branch": "codex/S030-op1b",
+  "latest_session_entry_main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
   "latest_session_integration": {
-    "status": "S029_AUTHORED_AND_MERGE_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "742c1a19bac8cd7caf4c734d73fc76262c8ced29"
+    "status": "S030_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
+    "entry_main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -192,7 +193,10 @@
     "CLM-0106",
     "CLM-0107",
     "CLM-0108",
-    "CLM-0109"
+    "CLM-0109",
+    "CLM-0114",
+    "CLM-0115",
+    "CLM-0116"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1368,5 +1372,77 @@
     "type": "S029_GO_MODIFIED",
     "next": "S030 OP1(b) order-28 stratified certified decision",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md = sessions/S029/S030_FUTURE_PROMPT.md"
-  }
+  },
+  "s030_science": {
+    "session": "S030",
+    "executor": "Codex desktop local Windows",
+    "smoke": "PASS_FULL_271_PLUS_K9",
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "seconds": 1181.281,
+    "sat_models": 44,
+    "search_segments": [
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "stop": 4294967295,
+        "seconds": 194.938,
+        "cuts": 30
+      },
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "strengthened": true,
+        "stop": 4294967295,
+        "seconds": 186.203,
+        "cuts": 734
+      },
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "strengthened": true,
+        "sorted_anchor": true,
+        "seed": "artifacts/tmp/S030/strong/CUTS.json",
+        "stop": "WALL_CAPPED",
+        "seconds": 800.14,
+        "cuts": 1084
+      }
+    ],
+    "peak_private_kib": 176408,
+    "regular_packet": "THREE_FINITE_BRANCHES_RUP_VERIFIED; HAND_COVERAGE_NOT_REPROVED",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    }
+  },
+  "s029_integration_verified": {
+    "pr": 38,
+    "authored_commit": "7c60fa8b0d4201204cf059d6c34ac9fc90334be9",
+    "merge_commit": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+    "parents": [
+      "742c1a19bac8cd7caf4c734d73fc76262c8ced29",
+      "7c60fa8b0d4201204cf059d6c34ac9fc90334be9"
+    ],
+    "tree": "0d61e17ef478036e8680b68bdfe2b3f92a8232a7",
+    "main_governance_run": 39239671991,
+    "job": 118017161029
+  },
+  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain"
 }

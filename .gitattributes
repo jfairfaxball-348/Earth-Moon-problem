@@ -32,5 +32,8 @@ sessions/S027/** -text -whitespace
 research/S027_*.md -text -whitespace
 validation/S028/** -text -whitespace
 sessions/S028/** -text -whitespace
+# S030 hashes refer to observed Windows records and exact CC0 source bytes.
+validation/S030/** -text -whitespace
+sessions/S030/** -text -whitespace
 validation/S028/** -text -whitespace
 sessions/S028/** -text -whitespace

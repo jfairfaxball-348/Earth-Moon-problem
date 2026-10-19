@@ -124,3 +124,7 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F080 (S028) | The S028 queue fits the session | owner-requested stop after 1 of 13 graphs | S029 resumes the recorded queue |
 
 | F081 (S029) | Lemma F (n<=36) was the right finiteness bound for the alpha<=3 programme | n<=30 already follows from Szeider's n<=18 (and n<=28 is claimed); below 28, T3 is not a counting question | Audit the landscape before drafting a finite programme; reduce to the counting endpoint (order 28) |
+
+| F082 (S030) | General labelled K9/Kuratowski CEGAR closes S11 in one bounded session | 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Native restart learning is lost between cuts | Persist incremental learning and validated semantic cuts; do not equate model throughput with exhaustive coverage |
+
+| F083 (S030) | Prospective control J1 is alpha2; gate wrapper schema matches | J1 has alpha3; initial wrapper read nonexistent chromatic field after successful smoke | Preserve initial failures, verify fresh original PASS receipt, use actual row counters; no theorem promoted on missing17v alpha2 calibration |

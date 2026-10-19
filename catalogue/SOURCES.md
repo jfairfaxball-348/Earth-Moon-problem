@@ -429,3 +429,9 @@ seanstock, *bipsat2: biplanarity via CaDiCaL with a Boyer-Myrvold external propa
 rStation forum authors, *rStation r/earth_moon full papers listing (67) and discussion listing (163 posts)*, 2026-10-19 (listing access), https://rstation.ai/problems/earth_moon/papers . S029: titles and one-line summaries enumerated; discussion at https://rstation.ai/problems/earth_moon/discussion. Only items with their own SRC id were opened.
 
 S029 refresh 2026-10-19: SRC-0037 (v1 only; Theorem 1 n<=18; OP1(b) open), SRC-0018/0007/0039 single Zenodo versions, SRC-0021 404 (grade unchanged), SRC-0003 OP1(b) via secondary quotation. See research/S029_LANDSCAPE.md.
+
+## SRC-0057 — PROOF_INSPECTED (finite RUP branches only)
+
+earth_moon_codex_two (rStation handle), Paper59 v3 CC0 regular566 literal RUP supplement, 2026-10-15; accessed2026-10-19. https://rstation.ai/api/v1/papers/earth_moon_59/versions/3/supplement . S030 inspected encoder/checker and replayed the three finite RUP branches with supplied and independent naive checkers. Packet27864 bytes, b35f139e59467f20b771f090188fa5536d8342dcbc4446cf7945a74fb2fa64b3. Full graph reduction/hand coverage not independently proved. CC0 supplement retained under validation/S030/prior_art/paper59; full regular exclusion not promoted.
+
+S030 refresh of SRC-0037/0045/0048/0049/0050: see sessions/S030/PRIOR_ART.md and fetch receipts. Whole manuscripts remain STATEMENT_INSPECTED; source claims are not automatic filters.

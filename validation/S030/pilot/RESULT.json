@@ -1,0 +1,178 @@
+{
+ "stratum": "S11_m155_156",
+ "verdict": "UNKNOWN",
+ "coverage": "all labelled graphs, vertex0 degree11",
+ "S10": "NOT_RUN",
+ "S9": "NOT_RUN",
+ "regular154": "SOURCE_STATED_NOT_IMPORTED",
+ "stop": 4294967295,
+ "seconds": 194.938,
+ "iterations": [
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 13.641,
+   "peak_tree_rss_kib": 151376,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0000.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "bca4b672bb768cf93f5190ace1aff2abc88cde19962a4d664cddef1036acd15d"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 19.203,
+   "peak_tree_rss_kib": 155576,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0001.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "3529337a51dbac943b433612d74ad7ac7e0f5e19de69a38153e35606f9e1664a"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 10.11,
+   "peak_tree_rss_kib": 164880,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0002.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "222805fcefa6c755d8e321799e27da656602282dd4cf9099ca3a03aa8e54f8ff"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 19.719,
+   "peak_tree_rss_kib": 156472,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0003.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "2b3e104db8538cc075530f5dce76be698a48802f65221f2964df05e0379b3502"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 34.844,
+   "peak_tree_rss_kib": 154832,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0004.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "291930a10f04f84a0fec56cdebf7e1417a6db9c6c6ca5ae1e7e01748a6c52675"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 21.704,
+   "peak_tree_rss_kib": 149416,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0005.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "4e71dc9bfeb7841b19c32df3d0f42ce86bf537c0b4d8ecc351302c688fec5cf6"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 15.656,
+   "peak_tree_rss_kib": 158048,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0006.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "b2247afb91d4d465aad1e734dcc1061c9e8f525e129b135b21f1d266d214b172"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 18.672,
+   "peak_tree_rss_kib": 158080,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0007.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "293cefc3f1d0cab1744b3a18316b807269d60b9feaec49bc5ceb4a3431a7db08"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 17.672,
+   "peak_tree_rss_kib": 157388,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0008.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "3f73251d9c983321836cf482c48f99099e8ca2205d6e03dd8a1d0da172f4746e"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 10,
+   "seconds": 14.125,
+   "peak_tree_rss_kib": 159632,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0009.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "915a84304743c8fcc82795cfe0ee724252c6f4cbbbbbccb9119e52a4eec30e83"
+  },
+  {
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\current.drat"
+   ],
+   "returncode": 4294967295,
+   "seconds": 1.531,
+   "peak_tree_rss_kib": 143800,
+   "completed_process": false,
+   "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\solve-0010.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336,
+   "cnf_sha256": "f0b094f1105070ea94dded3d230f188f10b3ac5099e7328462083994a188c687"
+  }
+ ],
+ "cuts": 30
+}

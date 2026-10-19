@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "branches": [
+    {
+      "q": 2,
+      "input_clauses": 173170,
+      "used_input_clauses": 354,
+      "RUP_additions": 49,
+      "empty_clause_verified": true
+    },
+    {
+      "q": 3,
+      "input_clauses": 173170,
+      "used_input_clauses": 1338,
+      "RUP_additions": 188,
+      "empty_clause_verified": true
+    },
+    {
+      "q": 4,
+      "input_clauses": 173170,
+      "used_input_clauses": 1195,
+      "RUP_additions": 193,
+      "empty_clause_verified": true
+    }
+  ],
+  "seconds": 0.625,
+  "packet_bytes": 27864,
+  "packet_sha256": "b35f139e59467f20b771f090188fa5536d8342dcbc4446cf7945a74fb2fa64b3",
+  "scope": "all three hand-covered universal/K3,3 interface branches; hand reductions remain separate premises"
+}

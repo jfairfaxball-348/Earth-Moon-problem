@@ -22,4 +22,6 @@ jobs:
       - name: Validate S028 archived evidence integrity and D062 prompt
         run: python scripts/check_d062_records.py
       - name: Validate S029 frozen landscape and S030 prompt
-        run: python scripts/check_s029_records.py
+        run: python scripts/check_s030_history.py
+      - name: Validate S030 bounded search records and S031 prompt
+        run: python scripts/check_s030_records.py

@@ -1,0 +1,59 @@
+{
+  "session": "S030",
+  "executor": "Codex desktop local Windows",
+  "smoke": "PASS_FULL_271_PLUS_K9",
+  "S11_m155_156": "UNKNOWN",
+  "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+  "S10": "NOT_RUN",
+  "S9": "NOT_RUN",
+  "S8_unconditional_fallback": "NOT_RUN",
+  "witness": null,
+  "certified_strata": [],
+  "seconds": 1181.281,
+  "sat_models": 44,
+  "search_segments": [
+    {
+      "stratum": "S11_m155_156",
+      "verdict": "UNKNOWN",
+      "coverage": "all labelled graphs, vertex0 degree11",
+      "S10": "NOT_RUN",
+      "S9": "NOT_RUN",
+      "regular154": "SOURCE_STATED_NOT_IMPORTED",
+      "stop": 4294967295,
+      "seconds": 194.938,
+      "cuts": 30
+    },
+    {
+      "stratum": "S11_m155_156",
+      "verdict": "UNKNOWN",
+      "coverage": "all labelled graphs, vertex0 degree11",
+      "S10": "NOT_RUN",
+      "S9": "NOT_RUN",
+      "regular154": "SOURCE_STATED_NOT_IMPORTED",
+      "strengthened": true,
+      "stop": 4294967295,
+      "seconds": 186.203,
+      "cuts": 734
+    },
+    {
+      "stratum": "S11_m155_156",
+      "verdict": "UNKNOWN",
+      "coverage": "all labelled graphs, vertex0 degree11",
+      "S10": "NOT_RUN",
+      "S9": "NOT_RUN",
+      "regular154": "SOURCE_STATED_NOT_IMPORTED",
+      "strengthened": true,
+      "sorted_anchor": true,
+      "seed": "artifacts/tmp/S030/strong/CUTS.json",
+      "stop": "WALL_CAPPED",
+      "seconds": 800.14,
+      "cuts": 1084
+    }
+  ],
+  "peak_private_kib": 176408,
+  "regular_packet": "THREE_FINITE_BRANCHES_RUP_VERIFIED; HAND_COVERAGE_NOT_REPROVED",
+  "range": {
+    "lower": 9,
+    "upper": 12
+  }
+}

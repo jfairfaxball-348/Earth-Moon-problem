@@ -1,0 +1,23 @@
+{
+ "positive": [
+  {
+   "n": 17,
+   "alpha_at_most_2": false,
+   "alpha_at_most_3": true,
+   "split_checked": true
+  },
+  {
+   "n": 18,
+   "alpha_at_most_2": false,
+   "alpha_at_most_3": true,
+   "split_checked": true
+  }
+ ],
+ "C7K4": {
+  "triangle_free_edges": 112,
+  "bound": 104,
+  "nonbiplanar": true
+ },
+ "retained_split_encoding_satisfiable": true,
+ "near25": "NOT_CONSTRUCTED; no invented positive control"
+}

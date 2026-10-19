@@ -1,0 +1,13 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "C:\\Earth-Moon-problem\\scripts\\cloud_smoke.py"
+ ],
+ "returncode": 0,
+ "seconds": 59.094,
+ "peak_tree_rss_kib": 632208,
+ "completed_process": true,
+ "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S030\\smoke.log",
+ "memory_measure": "aggregate_private_commit",
+ "memory_cap_kib": 11534336
+}

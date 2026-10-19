@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "n": 30,
+      "degrees": [
+        11,
+        11,
+        11
+      ],
+      "profiles": []
+    },
+    {
+      "n": 29,
+      "degrees": [
+        10,
+        10,
+        10
+      ],
+      "profiles": []
+    },
+    {
+      "n": 29,
+      "degrees": [
+        10,
+        10,
+        11
+      ],
+      "profiles": []
+    },
+    {
+      "n": 29,
+      "degrees": [
+        10,
+        11,
+        11
+      ],
+      "profiles": []
+    },
+    {
+      "n": 29,
+      "degrees": [
+        10,
+        10,
+        12
+      ],
+      "profiles": [
+        {
+          "private": [
+            7,
+            7,
+            6
+          ],
+          "double_01_02_12": [
+            0,
+            3,
+            3
+          ],
+          "triple": 0
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "degrees": [
+        11,
+        11,
+        11
+      ],
+      "profiles": [
+        {
+          "private": [
+            6,
+            6,
+            7
+          ],
+          "double_01_02_12": [
+            3,
+            2,
+            2
+          ],
+          "triple": 0
+        },
+        {
+          "private": [
+            6,
+            7,
+            6
+          ],
+          "double_01_02_12": [
+            2,
+            3,
+            2
+          ],
+          "triple": 0
+        },
+        {
+          "private": [
+            7,
+            6,
+            6
+          ],
+          "double_01_02_12": [
+            2,
+            2,
+            3
+          ],
+          "triple": 0
+        }
+      ]
+    }
+  ],
+  "positive_control_without_linking": [
+    {
+      "private": [
+        7,
+        7,
+        7
+      ],
+      "double_01_02_12": [
+        2,
+        2,
+        2
+      ],
+      "triple": 0
+    }
+  ],
+  "all_406_edge_multiplicities": {
+    "twice_internal_private": 70,
+    "zero_opposite_or_distinct_double": 68,
+    "once_other": 268
+  },
+  "status": "PASS",
+  "scope": "integer accounting only; no graph realizability claim"
+}

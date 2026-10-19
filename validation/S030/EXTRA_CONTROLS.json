@@ -1,0 +1,8 @@
+{
+  "positive24": "PASS",
+  "anchor_C7K4": "PASS",
+  "triangle_free_generator": "PASS",
+  "supplement_manifest_files": 15,
+  "source17_alpha2": "NOT_RETRIEVED; J1 was correctly found to have alpha3",
+  "source18_alpha2": "SOURCE_STATED; no purported positive alpha2 witness asserted"
+}

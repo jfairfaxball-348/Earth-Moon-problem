@@ -1062,5 +1062,35 @@
     ],
     "claim": "rStation claims (unrefereed): alpha<=3 biplanar => n<=28; no 11-regular alpha<=3 biplanar graph on 28 vertices; every biplanar graph on <=20 vertices is 9-colourable; 10-critical biplanar on 21 vertices has alpha=3. Open there: delta<=10 and delta=11 with m in {155,156} at n=28; T3.",
     "notes": "Recorded for prioritisation and attribution only; not used as a discard filter until re-proved or replayed."
+  },
+  {
+    "id": "CLM-0114",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014",
+      "SRC-0012",
+      "SRC-0037"
+    ],
+    "claim": "Necessary order28 alpha<=3 biplanar filters: K9-free,117<=m<=156,delta<=11, every triangle-free subgraph has<=104 edges. Unconditionally delta>=8; conditionally on SRC-0037 Theorem1 delta>=9.",
+    "notes": "Full attributed proofs sessions/S030/RESEARCH.md; the conditional delta9 statement does not discharge S8 without its source premise. No novelty or colouring theorem."
+  },
+  {
+    "id": "CLM-0115",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014",
+      "SRC-0045"
+    ],
+    "claim": "Every K9-free order28 graph of minimum degree11 can be relabelled with independent roots0,1,2, neighbors of0 exactly3..13, and nondecreasing adjacency-to-(1,2) types in blocks3..13 and14..27. A biplanar split can put edge03 in layer1.",
+    "notes": "Antineighborhood of a degree11 vertex has16 vertices and is not a clique; pick a nonadjacent pair, fix the root star, sort within blocks, exchange layers. Full proof sessions/S030/RESEARCH.md. No automorphism assumption and no novelty."
+  },
+  {
+    "id": "CLM-0116",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0057"
+    ],
+    "claim": "Paper59 v3 finite branches q=2,3,4 regenerate71834-variable173170-clause formulas and have independently checked49,188,193 RUP additions ending in empty clauses.",
+    "notes": "Supplied stdlib checker plus independent naive unit propagation; all15 supplied file hashes match API manifest. This is only the propositional part: full11-regular graph exclusion remains SOURCE_STATED; hand coverage and reductions are separate premises."
   }
 ]
