@@ -1,3 +1,7 @@
+**Latest owner scope D066: S031 ONLY.** Continue its running campaign and
+closeout, then stop; no successor execution. Earlier D065 wording below is
+historical and superseded on this point.
+
 # S031 preregistration — persistent order-28 S11 campaign
 
 Entry: remote main dd802686215781cbc35aa86ea14c54369aaec7e5, tree

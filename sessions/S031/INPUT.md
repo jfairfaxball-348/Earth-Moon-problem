@@ -1,3 +1,7 @@
+**Latest owner scope D066: S031 ONLY.** Continue its running campaign and
+closeout, then stop; no successor execution. Earlier D065 wording below is
+historical and superseded on this point.
+
 # S031 input — 2026-10-19
 
 Owner explicitly invoked S031 and successive numbered sessions, prioritizing

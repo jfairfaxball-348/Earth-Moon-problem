@@ -1,3 +1,10 @@
+# D066 owner scope update (2026-10-19): S031 ONLY
+
+Continue the running S031 eight-hour campaign, monitoring and required closeout;
+then stop. D066 supersedes D065 successive-session authorization. Do not run
+S032 or any later session without a fresh owner invocation. See
+docs/D066_S031_ONLY.md. Disable the scheduled monitor after S031 closes.
+
 # D065 owner long-run authorization (2026-10-19; S031 IN_PROGRESS)
 
 Owner explicitly authorized S031 and successive numbered sessions until context

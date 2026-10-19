@@ -1,8 +1,8 @@
 # S031 is RUNNING — multi-hour campaign, not a closeout
 
-Owner D065 explicitly authorizes S031 and successive sessions while context/
-usage permit, with long unattended runs and checks after hours. Do not ask for
-a second invocation. Preserve each session's scientific scope and final gates.
+Owner D066 limits execution to S031 ONLY. Continue its running eight-hour
+campaign, scheduled checks, independent validation and required closeout, then
+stop. D065 is historical launch provenance. S032 requires a fresh invocation.
 
 Current campaign started2026-10-19 at18:44:38 UTC (19:44 London). It has an8h
 external cap, one heavy worker,11GiB aggregate private-memory limit and10GiB
@@ -32,8 +32,7 @@ No further restarts are planned. Zero models alone is not a stall if CPU and
 conflict counters advance. Review growth after hours, not every few minutes.
 
 Automation `earth-moon-long-run-continuation` is ACTIVE, checking every2h in this
-chat. Resolve future active sessions through STATE.active_session rather than
-permanently monitoring S031 after it closes. Stay quiet when unchanged; report
+chat. Monitor only S031. After its closeout disable this heartbeat and stop. Stay quiet when unchanged; report
 meaningful progress, completion, failure or required user action.
 
 Fresh S031 full271+retained/fresh K9 smoke PASS. Controls:44 S030 models replayed,
@@ -57,8 +56,8 @@ make claims. Complete S031 records, paired catalogues/ledgers and full S032
 prompt; one authored commit on codex/S031-persistent-op1b with sole parent entry
 main, ordinary PR, non-force two-parent merge and actual head/main hosted jobs.
 Unmerged wip/S031-long-run is backup only: do not merge or inherit its commit
-history into the final session commit. D065 permits S032 after S031 closeout
-while allowance/context remain; keep following scientific scopes and full smoke.
+history into the final session commit. D066 requires stopping after S031 closeout. Leave S032 FUTURE/UNEXECUTED
+and disable the heartbeat; a new owner invocation is required for S032.
 
 During this active campaign STATE.last_completed_session stays S030 and
 next_session_is_future_unexecuted is false for active S031. The normal closeout

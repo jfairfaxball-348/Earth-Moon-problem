@@ -23,7 +23,7 @@ def main():
         assert entry=='dd802686215781cbc35aa86ea14c54369aaec7e5'
         git(['read-tree','HEAD'])
         paths=['.gitattributes','AGENTS.md','authoritative/STATE.json','campaigns/CAM-0037.md',
-               'campaigns/README.md','docs/D065_LONG_RUN_AUTHORIZATION.md','docs/DECISION_LOG.md',
+               'campaigns/README.md','docs/D065_LONG_RUN_AUTHORIZATION.md','docs/D066_S031_ONLY.md','docs/DECISION_LOG.md',
                'docs/SESSION_LEDGER.md','sessions/S031','validation/S031']
         paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'scripts').glob('*s031*.py')]
         paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s031_*.py')]

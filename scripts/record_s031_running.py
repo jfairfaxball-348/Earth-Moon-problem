@@ -46,9 +46,11 @@ def main():
         'followup_automation_id':'earth-moon-long-run-continuation',
         'scheduled_interval_hours':2,'worker_cap_seconds':28800,
         'last_completed_session_still':'S030','scientific_status':'NO_NEW_CERTIFIED_STRATUM_OR_WITNESS'}
-    state['standing_continuation_authorization']={'decision':'D065',
-        'successive_sessions_authorized':True,'stop_conditions':['owner revocation','context exhausted','usage allowance exhausted'],
+    state['standing_continuation_authorization']={'decision':'D066',
+        'successive_sessions_authorized':False,'authorized_session':'S031',
+        'stop_conditions':['S031 closeout','owner revocation','context exhausted','usage allowance exhausted'],
         'preserve_session_scopes_and_publication_gates':True}
+    state['active_session']['authority']='docs/D066_S031_ONLY.md'
     write(ROOT/'authoritative/STATE.json',state)
     manifest={'scope':'running launch snapshot only; no S031 closeout',
               'recorded_utc':datetime.now(timezone.utc).isoformat(),'artifact_sha256':{}}

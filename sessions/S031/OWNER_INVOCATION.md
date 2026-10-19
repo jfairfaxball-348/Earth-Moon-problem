@@ -1,3 +1,7 @@
+**Latest owner scope D066: S031 ONLY.** Continue its running campaign and
+closeout, then stop; no successor execution. Earlier D065 wording below is
+historical and superseded on this point.
+
 # Owner invocation — S031 and standing continuation
 
 2026-10-19, Codex desktop, local Windows workstation.

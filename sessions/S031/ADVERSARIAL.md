@@ -1,3 +1,7 @@
+**Latest owner scope D066: S031 ONLY.** Continue its running campaign and
+closeout, then stop; no successor execution. Earlier D065 wording below is
+historical and superseded on this point.
+
 # S031 adversarial checks — in progress
 
 Fresh smoke and independent replay are mandatory; no inherited PASS substitutes.

@@ -8,7 +8,8 @@ state=json.loads((ROOT/'authoritative/STATE.json').read_text(encoding='utf-8'))
 assert state['last_completed_session']=='S030' and state['active_session']['id']=='S031'
 assert state['active_session']['status']=='IN_PROGRESS_LONG_RUN'
 assert state['next_session_is_future_unexecuted'] is False
-assert state['standing_continuation_authorization']['successive_sessions_authorized'] is True
+assert state['standing_continuation_authorization']['successive_sessions_authorized'] is False
+assert state['standing_continuation_authorization']['decision']=='D066'
 assert (ROOT/'sessions/S031/EXECUTED_PROMPT.md').read_bytes()==(ROOT/'sessions/S030/S031_FUTURE_PROMPT.md').read_bytes()
 manifest=json.loads((ROOT/'sessions/S031/START_MANIFEST.json').read_text())
 for name,row in manifest['artifact_sha256'].items():

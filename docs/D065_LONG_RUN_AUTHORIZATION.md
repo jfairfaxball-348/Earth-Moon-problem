@@ -1,5 +1,9 @@
 # D065 — owner authorization for sustained successive sessions
 
+**Superseded in part by D066:** the owner subsequently limited execution to
+S031 only. Continue that running campaign and close it out, then stop. The text
+below preserves the original authorization; it no longer authorizes successors.
+
 2026-10-19. Exact owner message:
 
 > Run s031 and keep going through that and successive sessions unless context or usage allowance runs out. Prioritise long runs that you leave going and check after hours
