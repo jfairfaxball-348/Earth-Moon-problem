@@ -1,3 +1,5 @@
+**CURRENT D062 (2026-10-19): next session S029 is a prior-art/landscape audit (rStation first, literature only, frozen); S030 is the alpha<=3 finite programme. Old S029 queue PARKED. See docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md.**
+
 **Current authority after S025 (reconciled2026-10-18):** S025 is executed; the original271 corpus is NON-BIPLANAR and the original219 queue is discharged by recorded certified decisions. No chi>=10 witness; D042 lower-only and9..12 unchanged. S026 obstruction-aware candidate generation is FUTURE/UNEXECUTED. Earlier D058 queued text below is historical. See docs/S025_INTEGRATION_RECONCILIATION.md.
 
 **Historical D058 next-session override (2026-10-16; subsequently discharged by S025):** S025 is solely original219 exact edge-gap closure (start row148 six missing), not prior S025 layer-first chromatic construction. This is queued governance, NOT scientific execution; D042 and D047 unchanged. Read docs/S025_219_GAP_CLOSURE_DIRECTIVE.md and authoritative/NEXT_SESSION_PROMPT.md; stale historical future labels below are nonbinding.

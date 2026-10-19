@@ -83,8 +83,9 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S029 FUTURE: process the 12 NOT_RUN S028 queue graphs (3 S028 admitted, 9 S027 surplus), descent from D036 and new negatives, source rerun.",
-    "Full C5 iff pending C5[3,3,4,3,4] and C5[3,3,3,4,4]; parked.",
+    "S029 FUTURE (D062): prior-art and current-landscape audit, rStation r/earth_moon first; literature only; freeze baseline; write full S030 prompt with go/no-go.",
+    "S030 FUTURE (D062 draft): alpha<=3 finite programme T3 (biplanar alpha<=3 implies 9-colourable, or a chi>=10 witness); Lemma F n<=36 to be re-proved.",
+    "PARKED (not discharged): old S029 obstruction-closure queue (12 NOT_RUN, S028-P10-B10-0007 UNKNOWN, 9 S027 surplus) and C5[3,3,4,3,4], C5[3,3,3,4,4].",
     "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
   ],
   "next_session_is_future_unexecuted": true,
@@ -1332,5 +1333,17 @@
       "validation/S028/REPLAY.json",
       "validation/S028/local"
     ]
+  },
+  "historical_open_obligations_before_D062": [
+    "S029 FUTURE: process the 12 NOT_RUN S028 queue graphs (3 S028 admitted, 9 S027 surplus), descent from D036 and new negatives, source rerun.",
+    "Full C5 iff pending C5[3,3,4,3,4] and C5[3,3,3,4,4]; parked.",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
+  ],
+  "d062_owner_decision": {
+    "date": "2026-10-19",
+    "type": "GOVERNANCE_ONLY",
+    "directive": "docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md",
+    "summary": "Pivot: S029 = prior-art/landscape audit (rStation first), frozen; S030 = alpha<=3 finite programme (Option 5). Old S029 queue parked. Exhaustive certified search of the finite alpha<=3 domain authorised for S030 when invoked as a finite-domain computation; no universal upper-bound work beyond it. D042 headline unchanged.",
+    "superseded_prompt": "sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062)"
   }
 }
