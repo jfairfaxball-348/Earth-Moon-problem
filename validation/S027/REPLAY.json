@@ -1,0 +1,141 @@
+{
+ "items": 19,
+ "all_verified": true,
+ "rows": [
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "C5-23435"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "C5-24344"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "C5-24425"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "P29-del-bag12"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "P26-B11-0051"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "P27-B12-0040"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile00"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile01"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile02"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile03"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile04"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile05"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile06"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile07"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile08"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile15"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile16"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile17"
+  },
+  {
+   "cnf_sha256_match": true,
+   "drat_sha256_match": true,
+   "drat_trim": "VERIFIED",
+   "ok": true,
+   "item": "profile25"
+  }
+ ],
+ "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+ "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+}

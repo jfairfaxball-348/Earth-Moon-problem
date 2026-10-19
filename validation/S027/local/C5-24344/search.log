@@ -1,0 +1,9 @@
+{"kind": "checkpoint", "iterations": 176, "kuratowski_lemmas": 328979}
+{"kind": "checkpoint", "iterations": 396, "kuratowski_lemmas": 344273}
+{"kind": "checkpoint", "iterations": 497, "kuratowski_lemmas": 351544}
+{"kind": "checkpoint", "iterations": 582, "kuratowski_lemmas": 360364}
+{"kind": "checkpoint", "iterations": 697, "kuratowski_lemmas": 368729}
+{"kind": "checkpoint", "iterations": 746, "kuratowski_lemmas": 374547}
+{"kind": "checkpoint", "iterations": 797, "kuratowski_lemmas": 383858}
+{"kind": "checkpoint", "iterations": 841, "kuratowski_lemmas": 390423}
+{"verdict": "UNSAT", "iterations": 856, "build_and_seed_seconds": 24.55, "seconds": 681.95, "two_models": 384192, "branch_size": 4, "seeded_kuratowski_lemmas": 317125, "kuratowski_lemmas": 392382, "lemmaC_models": 1700}

@@ -26,3 +26,7 @@ validation/S026/** -text -whitespace
 # Freeze S026 manifest-listed research/session bytes across Windows and CI.
 sessions/S026/** -text -whitespace
 research/S026_*.md -text -whitespace
+# S027 archived local campaign bytes (manifest hashes refer to exact bytes).
+validation/S027/** -text -whitespace
+sessions/S027/** -text -whitespace
+research/S027_*.md -text -whitespace

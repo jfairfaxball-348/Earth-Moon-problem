@@ -112,3 +112,9 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F074 (S026) | New-method local controls execute | Path object passed to string-only J1 reader;five jobs BLOCKED_BEFORE_SEARCH | Convert path, retain failed receipts, fresh smoke and same-five retry; completed3 skipped |
 
 | F075 (S026) | Old18 obstruction avoidance yields a viable new source | All4 admitted contain a newly certified C5;5 new-method C5 pilots remain UNKNOWN | Integrate every certified obstruction into generation; preserve cap checkpoints; no iff or headline promotion |
+
+| F076 (S027) | One-vertex deletions of P29 are decidable at 60 s | 13 of 14 twin-class deletions UNKNOWN at ~62 s; one certified at 58.9 s | Use longer per-deletion caps and descend from the easy new negatives (P26/P27 certified in 8 s/31 s) in S028 |
+
+| F077 (S027) | Size-4 branch sets close all pending sum17 C5 classes | C5[3,3,4,3,4] (no K8) and C5[3,3,3,4,4] UNKNOWN after 3600 s with 810k/539k cuts | Park them unless a genuinely new proved strengthening is registered; no unchanged cap repetition |
+
+| F078 (S027) | Large (27/28-vertex) certified obstructions prune the source | P29 and its 27-vertex deletion matched 0 of 1831 models | Generalise negatives by deletion descent before relearning |

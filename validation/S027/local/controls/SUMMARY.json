@@ -1,0 +1,32 @@
+{
+ "two_branch_size4_positive_controls": [
+  {
+   "name": "J1",
+   "known_split": "PASS",
+   "all_minor_clauses_satisfied": true,
+   "two_models_size4": 0,
+   "checker_and_byte_regeneration": "PASS"
+  },
+  {
+   "name": "C5-33334",
+   "known_split": "PASS",
+   "all_minor_clauses_satisfied": true,
+   "two_models_size4": 29808,
+   "checker_and_byte_regeneration": "PASS"
+  }
+ ],
+ "K9_retained_and_fresh": "PASS_IN_SAME_RUN_SMOKE",
+ "selftest": {
+  "agreement_tests": 435,
+  "contains": 390,
+  "avoids": 45,
+  "backtrack_agreements": 400,
+  "support_superset_tests": 1170,
+  "genuine_learned_clauses_accepted": 655,
+  "negative_controls_rejected": {
+   "contain_missing_support_edge": 1,
+   "non_weight_preserving_perm": 1,
+   "euler_one_edge_short": 1
+  }
+ }
+}

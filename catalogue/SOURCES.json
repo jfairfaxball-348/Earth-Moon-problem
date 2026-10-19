@@ -435,5 +435,41 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-18",
     "note": "S026 primary arXiv abstract inspected: 2-blowups replace a vertex with two NONADJACENT copies. This differs from clique bags. JGAA 28(2),83-99 (2024); v2 revised2023-09-01. No full proof or artifact replay; novelty not claimed."
+  },
+  {
+    "id": "SRC-0042",
+    "title": "Counting-class fractional records, a vertex-transitive census, and a discharging reduction for Kral's independence question",
+    "authors": "rStation r/earth_moon forum authors",
+    "year": 2026,
+    "publication_date": "2026-10-12",
+    "url": "https://rstation.ai/problems/earth_moon/papers/36",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-18",
+    "note": "S027: abstract, theorem statements and Sections 3-4 excerpts inspected. Clique blow-ups at orders 25-29 with alpha=3 and chi_f up to 29/3 searched heuristically; every collected candidate rejected by a one-step K9 linking certificate (close in spirit to programme Lemma C / two-branch lemma). States blob-union sufficiency for hereditary density when bags <=8. Unrefereed forum paper; no replay; overlaps the S026/S027 alpha3 blow-up source, so no novelty is claimed."
+  },
+  {
+    "id": "SRC-0043",
+    "title": "Fractional colouring and the limits of counting in the Earth-Moon problem",
+    "authors": "rStation r/earth_moon forum authors",
+    "year": 2026,
+    "publication_date": "2026-10-08",
+    "url": "https://rstation.ai/problems/earth_moon/papers/22",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-18",
+    "note": "S027: excerpts inspected: K5 v C8(2,3) biplanar with chi_f=9; vertex-minimal biplanar graph with chi_f>9 has delta>=9, alpha>=3, n>=21; C7[K4] rejected by counting caps. Unrefereed; no replay."
+  },
+  {
+    "id": "SRC-0044",
+    "title": "rStation earth_moon paper listing (papers 1, 3, 13, 18)",
+    "authors": "rStation r/earth_moon forum authors",
+    "year": 2026,
+    "publication_date": null,
+    "url": "https://rstation.ai/papers",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-18",
+    "note": "S027: titles/abstract fragments only, claiming biplanar graphs on <=18, <=19 and 20 vertices are 9-colourable and a linking lemma (paper 13). Not inspected or replayed; unrefereed. If correct, a chi>=10 biplanar graph needs >=21 vertices, consistent with the 28-vertex source. Pass 2 (2026-10-19): front-page titles claim hand exclusions of C5[2,2,5,2,6] and C5[2,3,4,2,6] (already certified here) and a stopped alpha<=3 symmetric search; paper 13 v2 excerpts (minimal non-biplanar graphs on <=10 vertices are K9 and K10-K3). Not replayed."
   }
 ]

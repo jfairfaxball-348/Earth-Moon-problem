@@ -1,0 +1,11 @@
+{
+ "verdict": "UNSAT",
+ "iterations": 856,
+ "build_and_seed_seconds": 24.55,
+ "seconds": 681.95,
+ "two_models": 384192,
+ "branch_size": 4,
+ "seeded_kuratowski_lemmas": 317125,
+ "kuratowski_lemmas": 392382,
+ "lemmaC_models": 1700
+}

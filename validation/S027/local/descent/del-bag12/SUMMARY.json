@@ -1,0 +1,106 @@
+{
+ "edges_sha256": "e21cdbd73dd90a41b8a4095843b73dc5ddb43317c3112341c3505c697ad53b16",
+ "search": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor",
+   "60",
+   "--lemmaC",
+   "5"
+  ],
+  "returncode": 0,
+  "seconds": 63.078,
+  "peak_tree_rss_kib": 456032,
+  "completed_process": true,
+  "log": "descent\\del-bag12\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "result": {
+  "verdict": "UNSAT",
+  "iterations": 79,
+  "kuratowski_lemmas": 14846,
+  "minor_models": 8985,
+  "lemmaC_models": 86514,
+  "branch_sets": 6851,
+  "minor_clauses": 369167,
+  "build_seconds": 2.2,
+  "seconds": 58.9,
+  "symmetries": 16,
+  "rmax": 5,
+  "k2": false,
+  "k3": false
+ },
+ "proof": {
+  "justification": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_check_minor_cert.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor"
+   ],
+   "returncode": 0,
+   "seconds": 7.578,
+   "peak_tree_rss_kib": 552536,
+   "completed_process": true,
+   "log": "descent\\del-bag12\\justification.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "regeneration": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\graph.edges",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor.lemmas.json",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\rebuilt.cnf"
+   ],
+   "returncode": 0,
+   "seconds": 4.547,
+   "peak_tree_rss_kib": 375396,
+   "completed_process": true,
+   "log": "descent\\del-bag12\\regeneration.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "cnf_byte_match": true,
+  "native": {
+   "command": [
+    "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+    "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor.cnf",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12",
+    "1800",
+    "1800"
+   ],
+   "returncode": 0,
+   "seconds": 10.61,
+   "peak_tree_rss_kib": 214224,
+   "completed_process": true,
+   "log": "descent\\del-bag12\\native.log",
+   "memory_measure": "aggregate_private_commit",
+   "memory_cap_kib": 11534336
+  },
+  "certificate": {
+   "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor.cnf",
+   "cnf_sha256": "292b32eb05425bedad5e314ae32ae323b4ce3541835af2e36b2abd248449aa65",
+   "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+   "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+   "solver_returncode": 20,
+   "solve_seconds": 3.72,
+   "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+   "check_seconds": 2.75,
+   "drat_sha256": "932fcbeb660e92e89abc05b47abfc1ef9b060ca9b3eacf882c618aaddf3f0aa9",
+   "drat_bytes": 23328754,
+   "checker_tail": "\nc parsing input formula with 136759 variables and 399754 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 10595 of 399754 clauses in core                            \n\nc 5205 of 239127 lemmas in core using 96923 resolution steps\n\nc 0 RAT lemmas in core; 1238 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 2.729 seconds\n",
+   "verdict": "UNSAT_DRAT_VERIFIED",
+   "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\descent\\del-bag12\\minor.drat.gz",
+   "drat_gz_sha256": "d2201a57e6d5931007f10d06f108e123550c1c22ca232d7d6386b99364112872"
+  },
+  "certified": true
+ },
+ "verdict": "NONBIPLANAR_CERTIFIED"
+}

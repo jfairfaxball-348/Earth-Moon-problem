@@ -376,3 +376,15 @@ David Eppstein, On the Biplanarity of Blowups, arXiv2301.09246v2; JGAA28(2),83-9
 S026 refresh2026-10-18: SRC-0012 primary Zenodo description re-inspected (STATEMENT_INSPECTED; PDF retrieval unavailable); SRC-0037 primary abstract/HTML introduction and Theorem1 re-inspected (STATEMENT_INSPECTED; external Lean/LRAT not replayed). SRC-0007 primary endpoint unavailable; the previously recorded PROOF_INSPECTED grade is historical, not fresh validation. A secondary index warns of prior C5[3,4,3,4,3] exclusion; no certificate is imported.
 
 S026 SRC-0017 refresh2026-10-18: primary GitHub main5cb2ca9f7d4d6d195617c09f7348841636b646f6, treea1c9b38defd3c4d761aa13ac9c3b309056671191 verified. README, paper abstract and proofs/README explicitly state the earlier C5[3,4,3,4,3] exclusion; large external proof archives were not replayed. Current access STATEMENT_INSPECTED. This resolves the secondary-only warning through an alternate primary endpoint; Zenodo retrieval itself remains unavailable.
+
+## SRC-0042 - STATEMENT_INSPECTED
+rStation r/earth_moon forum authors, Counting-class fractional records, a vertex-transitive census, and a discharging reduction for Kral's independence question, 2026-10-12, https://rstation.ai/problems/earth_moon/papers/36 . S027: abstract, theorem statements and Sections 3-4 excerpts inspected. Clique blow-ups at orders 25-29 with alpha=3 and chi_f up to 29/3 searched heuristically; every collected candidate rejected by a one-step K9 linking certificate (close in spirit to programme Lemma C / two-branch lemma). States blob-union sufficiency for hereditary density when bags <=8. Unrefereed forum paper; no replay; overlaps the S026/S027 alpha3 blow-up source, so no novelty is claimed.
+
+## SRC-0043 - STATEMENT_INSPECTED
+rStation r/earth_moon forum authors, Fractional colouring and the limits of counting in the Earth-Moon problem, 2026-10-08, https://rstation.ai/problems/earth_moon/papers/22 . S027: excerpts inspected: K5 v C8(2,3) biplanar with chi_f=9; vertex-minimal biplanar graph with chi_f>9 has delta>=9, alpha>=3, n>=21; C7[K4] rejected by counting caps. Unrefereed; no replay.
+
+## SRC-0044 - METADATA_ONLY
+rStation r/earth_moon forum authors, rStation earth_moon paper listing (papers 1, 3, 13, 18), undated, https://rstation.ai/papers . S027: titles/abstract fragments only, claiming biplanar graphs on <=18, <=19 and 20 vertices are 9-colourable and a linking lemma (paper 13). Not inspected or replayed; unrefereed. If correct, a chi>=10 biplanar graph needs >=21 vertices, consistent with the 28-vertex source.
+
+S027 refresh 2026-10-18: SRC-0021 earth-moon-chi10 GitHub URL returned HTTP 404 in this tool (grade unchanged, METADATA_ONLY). SRC-0037 abstract/HTML re-inspected (STATEMENT_INSPECTED).
+S027 pass 2 (2026-10-19): SRC-0044 note extended (rStation front-page titles; paper 13 v2 excerpts). No 10-chromatic biplanar announcement found.

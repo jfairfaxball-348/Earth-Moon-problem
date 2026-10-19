@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-18",
-  "last_completed_session": "S026",
-  "recommended_next_session": "S027",
+  "as_of": "2026-10-19",
+  "last_completed_session": "S027",
+  "recommended_next_session": "S028",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,13 +17,13 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S026",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S027",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
     "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
   },
-  "candidate_10_11_12": "S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12. P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive.",
+  "candidate_10_11_12": "S027: learned certified-obstruction support clauses close 13/30 alpha3 28-vertex clique blow-up profiles by checked native DRAT; 1831 source models, 1401 excluded by checked obstruction maps, 346 by Euler subset clauses, 84 filter-clean (6 admitted, 78 surplus). New certified obstructions: P29 minus a bag-12 vertex (27v), P26-B11-0051 and P27-B12-0040 (28v, alpha3, omega8). Admitted P10-B10-0001, P11-B10-0067, P20-B11-0070, P22-B11-0043 BIPLANARITY_UNKNOWN at 600s. C5 sum17: 24/26 certified (new C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5]); C5[3,3,4,3,4], C5[3,3,3,4,4] UNKNOWN. No chi>=10 biplanar witness; 9<=chi2<=12.",
   "universal_improved_upper_bound": "NONE_PROVED; D056 S023 COMPARATIVE EXCEPTION COMPLETE; D042 UPPER BAN REINSTATED EXCEPT FUTURE OWNER-PROPOSED SESSION",
   "phases": [
     {
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S026_PRIMARY_SOURCE_REFRESH_ACCESS_GRADED_NO_NOVELTY_CLAIM",
+  "source_status": "S027_PRIMARY_SOURCE_REFRESH_TWICE_ACCESS_GRADED_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,19 +83,18 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
-    "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
-    "Local laptop execution preferred by owner; each invoked session must pass full271+K9 smoke,one heavy11GiB tree,explicit caps and durable checkpoints.",
-    "Full C5 iff remains pending5 sum17 classes;21 certified negatives and262 checked positives.",
+    "S028 FUTURE: obstruction-closure loop: deletion descent on certified S027 negatives, refilter 4 admitted UNKNOWN + 78 surplus, regenerate with all certified obstructions.",
+    "Full C5 iff pending C5[3,3,4,3,4] and C5[3,3,3,4,4] (24 certified negatives, 262 checked positives); park unless a new proved strengthening is registered.",
+    "Local execution: each invoked session must pass full 271+K9 smoke, one heavy 11GiB tree, explicit caps and durable checkpoints; executor identity recorded.",
     "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication and outreach remain unexecuted/gated."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "codex/S026-obstruction-aware",
-  "latest_session_entry_main": "96c9f3c9d482844a5c952d856132b99579b660bd",
+  "latest_session_branch": "claude/S027-learned-obstruction",
+  "latest_session_entry_main": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
   "latest_session_integration": {
-    "status": "S026_AUTHORED_AND_MERGE_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "96c9f3c9d482844a5c952d856132b99579b660bd",
-    "receipt_scope": "The atomic commit cannot contain its own outgoing SHA. Verify ordinary PR, two-parent merge, equal tree and actual hosted governance jobs live; WIP branches are never merged."
+    "status": "S027_AUTHORED_AND_MERGE_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
+    "entry_main": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+    "receipt_scope": "The atomic commit cannot contain its own outgoing SHA. Verify ordinary PR, two-parent merge, equal tree and actual hosted governance jobs live."
   },
   "mathematical_results": [
     "CLM-0007",
@@ -186,7 +185,12 @@
     "CLM-0097",
     "CLM-0098",
     "CLM-0099",
-    "CLM-0100"
+    "CLM-0100",
+    "CLM-0102",
+    "CLM-0103",
+    "CLM-0104",
+    "CLM-0105",
+    "CLM-0106"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -451,7 +455,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S027 FUTURE/UNEXECUTED: learned certified-obstruction support clauses in new candidate generation; bounded saved C5 continuation. All2185 S026 models non-biplanar; all271 originals already closed. Execute only on new owner invocation.",
+  "next_session_priority": "S028 FUTURE/UNEXECUTED: obstruction-closure loop (descent of certified negatives, refilter survivors, regenerate). C5 two pending classes parked unless a proved strengthening is registered.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -684,7 +688,7 @@
   "c5_blowup_classification": {
     "biplanar_certified_classes_sum_le_16": 262,
     "sum17_classes_total": 26,
-    "sum17_certified_nonbiplanar": 21,
+    "sum17_certified_nonbiplanar": 24,
     "sum17_certified_list": [
       "C5[1,1,7,1,7]",
       "C5[1,2,6,1,7]",
@@ -706,13 +710,17 @@
       "C5[3,3,3,3,5]",
       "C5[2,4,3,3,5]",
       "C5[2,3,5,2,5]",
-      "C5[2,3,5,3,4]"
+      "C5[2,3,5,3,4]",
+      "C5[2,3,4,3,5]",
+      "C5[2,4,3,4,4]",
+      "C5[2,4,4,2,5]"
     ],
     "iff_theorem_status": "PENDING_REMAINING_SUM17_CLASSES",
     "claims": [
       "CLM-0092",
       "CLM-0093",
-      "CLM-0098"
+      "CLM-0098",
+      "CLM-0105"
     ],
     "additional_S026_certified_tags": [
       "24335",
@@ -720,11 +728,13 @@
       "23534"
     ],
     "pending_sum17_tags": [
-      "23435",
-      "24344",
-      "24425",
       "33344",
       "33434"
+    ],
+    "additional_S027_certified_tags": [
+      "23435",
+      "24344",
+      "24425"
     ]
   },
   "s024_integration_verified": {
@@ -1155,7 +1165,7 @@
     "novelty_claimed": false,
     "formalisation_executed": false
   },
-  "session_gate": "S026 completed; S027 FUTURE/UNEXECUTED until new owner invocation under D047. D042 lower-only; no publication/formalisation.",
+  "session_gate": "S027 completed; S028 FUTURE/UNEXECUTED until new owner invocation under D047. D042 lower-only; no publication/formalisation.",
   "historical_open_obligations_before_S026": [
     "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
     "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
@@ -1187,5 +1197,72 @@
     "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
     "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
     "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
-  ]
+  ],
+  "historical_open_obligations_before_S027": [
+    "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
+    "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
+    "Local laptop execution preferred by owner; each invoked session must pass full271+K9 smoke,one heavy11GiB tree,explicit caps and durable checkpoints.",
+    "Full C5 iff remains pending5 sum17 classes;21 certified negatives and262 checked positives.",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication and outreach remain unexecuted/gated."
+  ],
+  "s026_integration_verified": {
+    "pr": 34,
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/34",
+    "authored_commit": "2cd5c94999a817e384d346df6a08930b7591ae31",
+    "merge_commit": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+    "parents": [
+      "96c9f3c9d482844a5c952d856132b99579b660bd",
+      "2cd5c94999a817e384d346df6a08930b7591ae31"
+    ],
+    "tree": "c439fe83c038b5627b9c53a3e05cb2ae65e4cd03",
+    "main_governance_run": 39155369381,
+    "pr_governance_run": 39155308588,
+    "verified_by": "S027 entry live read 2026-10-18; governance success is not proof replay"
+  },
+  "s027_science": {
+    "session": "S027",
+    "entry_main": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+    "overview": "S027: learned certified-obstruction support clauses close 13/30 alpha3 28-vertex clique blow-up profiles by checked native DRAT; 1831 source models, 1401 excluded by checked obstruction maps, 346 by Euler subset clauses, 84 filter-clean (6 admitted, 78 surplus). New certified obstructions: P29 minus a bag-12 vertex (27v), P26-B11-0051 and P27-B12-0040 (28v, alpha3, omega8). Admitted P10-B10-0001, P11-B10-0067, P20-B11-0070, P22-B11-0043 BIPLANARITY_UNKNOWN at 600s. C5 sum17: 24/26 certified (new C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5]); C5[3,3,4,3,4], C5[3,3,3,4,4] UNKNOWN. No chi>=10 biplanar witness; 9<=chi2<=12.",
+    "executor": "local Claude Code (owner workstation), D060",
+    "campaigns": [
+      "CAM-0032",
+      "CAM-0033"
+    ],
+    "smoke": "full local 271/271 + retained/fresh K9 PASS at entry and as campaign gate",
+    "science_seconds": 15027.8,
+    "peak_tree_private_kib": 2697044,
+    "profile_domains_closed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      15,
+      16,
+      17,
+      25
+    ],
+    "new_certified_obstructions": [
+      "P29-del-bag12",
+      "P26-B11-0051",
+      "P27-B12-0040"
+    ],
+    "admitted_unknown": [
+      "P10-B10-0001",
+      "P11-B10-0067",
+      "P20-B11-0070",
+      "P22-B11-0043"
+    ],
+    "surplus_filter_clean_unknown": 78,
+    "evidence": [
+      "validation/S027/SUMMARY.json",
+      "validation/S027/REPLAY.json",
+      "validation/S027/local"
+    ],
+    "novelty_claimed": false
+  }
 }

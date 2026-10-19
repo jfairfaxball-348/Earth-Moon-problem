@@ -1,0 +1,11 @@
+{
+ "verdict": "UNKNOWN",
+ "iterations": 1273,
+ "build_and_seed_seconds": 26.78,
+ "seconds": 3655.09,
+ "two_models": 490320,
+ "branch_size": 4,
+ "seeded_kuratowski_lemmas": 334731,
+ "kuratowski_lemmas": 539064,
+ "lemmaC_models": 1890
+}

@@ -1,0 +1,34 @@
+{
+ "tag": "33344",
+ "search": {
+  "verdict": "UNKNOWN",
+  "iterations": 1273,
+  "build_and_seed_seconds": 26.78,
+  "seconds": 3655.09,
+  "two_models": 490320,
+  "branch_size": 4,
+  "seeded_kuratowski_lemmas": 334731,
+  "kuratowski_lemmas": 539064,
+  "lemmaC_models": 1890
+ },
+ "search_process": {
+  "command": [
+   "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+   "C:\\Earth-Moon-problem\\tools\\s027_two_branch.py",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33344\\graph.edges",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S027-local\\C5-33344\\minor",
+   "3600",
+   "4",
+   "C:\\Earth-Moon-problem\\validation\\S026\\local\\C5-33344\\minor.checkpoint.json.gz"
+  ],
+  "returncode": 0,
+  "seconds": 3656.969,
+  "peak_tree_rss_kib": 2387620,
+  "completed_process": true,
+  "log": "C5-33344\\search.log",
+  "memory_measure": "aggregate_private_commit",
+  "memory_cap_kib": 11534336
+ },
+ "seed_checkpoint_sha256": "3d250beba1c2b2871caf5528c0e82df6eb32dfe2bfe1a7e6911e6e5a72204dad",
+ "verdict": "UNKNOWN"
+}

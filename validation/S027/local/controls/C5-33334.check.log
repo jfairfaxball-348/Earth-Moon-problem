@@ -1,0 +1,2 @@
+{"verdict": "ALL_CLAUSES_JUSTIFIED", "clauses": 6085, "variables": 6129, "kuratowski_lemmas": 0, "branch_sets": 216, "lemmaC_models": 0, "lemmaB_models": 0, "automorphisms_for_lex": 12}
+{"verdict": "ALL_CLAUSES_JUSTIFIED", "clauses": 59005, "two_models": 29808, "extended_clauses_checked": 52920}

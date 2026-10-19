@@ -53,11 +53,15 @@ for item in summary['jobs']:
         assert (d/'lemmas.json.gz').is_file() and (d/'graph.edges').is_file()
 
 state=read('authoritative/STATE.json')
-assert state['last_completed_session']=='S026' and state['recommended_next_session']=='S027'
+# Later sessions supersede the S026 live-state assertions; the S027 prompt must stay archived.
+assert int(state['last_completed_session'][1:])>=26
 assert state['next_session_is_future_unexecuted'] is True
 assert state['original_corpus_status']['certified_nonbiplanar']==271
 assert state['original_corpus_status']['biplanarity_unknown']==0
-assert (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()==(ROOT/'sessions/S026/S027_FUTURE_PROMPT.md').read_bytes()
+if state['last_completed_session']=='S026':
+    assert (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()==(ROOT/'sessions/S026/S027_FUTURE_PROMPT.md').read_bytes()
+else:
+    assert (ROOT/'sessions/S026/S027_FUTURE_PROMPT.md').read_bytes()==(ROOT/'sessions/S027/EXECUTED_PROMPT.md').read_bytes()
 manifest=read('sessions/S026/MANIFEST.json')
 for name, item in manifest['artifact_sha256'].items():
     data=(ROOT/name).read_bytes()
