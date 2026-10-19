@@ -1,0 +1,1 @@
+{"verdict": "UNKNOWN", "iterations": 214, "kuratowski_lemmas": 39086, "minor_models": 3622, "lemmaC_models": 35084, "branch_sets": 3622, "minor_clauses": 153096, "build_seconds": 1.0, "seconds": 121.5, "symmetries": 15, "rmax": 5, "k2": false, "k3": false}

@@ -388,3 +388,5 @@ rStation r/earth_moon forum authors, rStation earth_moon paper listing (papers 1
 
 S027 refresh 2026-10-18: SRC-0021 earth-moon-chi10 GitHub URL returned HTTP 404 in this tool (grade unchanged, METADATA_ONLY). SRC-0037 abstract/HTML re-inspected (STATEMENT_INSPECTED).
 S027 pass 2 (2026-10-19): SRC-0044 note extended (rStation front-page titles; paper 13 v2 excerpts). No 10-chromatic biplanar announcement found.
+
+S028 (2026-10-19): no new source; prior-art refresh limited by owner-requested early stop (see sessions/S028/PRIOR_ART.md).

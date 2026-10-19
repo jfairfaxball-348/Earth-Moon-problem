@@ -1,0 +1,342 @@
+[
+ {
+  "name": "C5-23435",
+  "g6": "Dhc",
+  "u": [
+   2,
+   3,
+   4,
+   3,
+   5
+  ],
+  "edges": "validation/S027/local/C5-23435/graph.edges",
+  "certificate": "validation/S027/local/C5-23435/SUMMARY.json"
+ },
+ {
+  "name": "C5-24344",
+  "g6": "Dhc",
+  "u": [
+   2,
+   4,
+   3,
+   4,
+   4
+  ],
+  "edges": "validation/S027/local/C5-24344/graph.edges",
+  "certificate": "validation/S027/local/C5-24344/SUMMARY.json"
+ },
+ {
+  "name": "C5-24425",
+  "g6": "Dhc",
+  "u": [
+   2,
+   4,
+   4,
+   2,
+   5
+  ],
+  "edges": "validation/S027/local/C5-24425/graph.edges",
+  "certificate": "validation/S027/local/C5-24425/SUMMARY.json"
+ },
+ {
+  "name": "P29-del-bag12",
+  "g6": "MLo?KqX@`[}@PcYW_",
+  "u": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2
+  ],
+  "edges": "validation/S027/local/descent/del-bag12/graph.edges",
+  "certificate": "validation/S027/local/descent/del-bag12/SUMMARY.json"
+ },
+ {
+  "name": "P26-B11-0051",
+  "g6": "JHOW}Ai|@m?",
+  "u": [
+   7,
+   4,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "validation/S027/local/source/candidates/P26-B11-0051/graph.edges",
+  "certificate": "validation/S027/local/source/candidates/P26-B11-0051/SUMMARY.json"
+ },
+ {
+  "name": "P27-B12-0040",
+  "g6": "KQOGlL[BactB",
+  "u": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "edges": "validation/S027/local/source/candidates/P27-B12-0040/graph.edges",
+  "certificate": "validation/S027/local/source/candidates/P27-B12-0040/SUMMARY.json"
+ },
+ {
+  "name": "D013",
+  "g6": "JHOW}Ai|@m?",
+  "u": [
+   7,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D013/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D013/SUMMARY.json"
+ },
+ {
+  "name": "D015",
+  "g6": "JHOW}Ai|@m?",
+  "u": [
+   7,
+   2,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D015/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D015/SUMMARY.json"
+ },
+ {
+  "name": "D017",
+  "g6": "JHOW}Ai|@m?",
+  "u": [
+   7,
+   1,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D017/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D017/SUMMARY.json"
+ },
+ {
+  "name": "D019",
+  "g6": "IGK{EjgZ_",
+  "u": [
+   7,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D019/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D019/SUMMARY.json"
+ },
+ {
+  "name": "D021",
+  "g6": "IGK{EjgZ_",
+  "u": [
+   7,
+   2,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D021/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D021/SUMMARY.json"
+ },
+ {
+  "name": "D023",
+  "g6": "IGK{EjgZ_",
+  "u": [
+   7,
+   1,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D023/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D023/SUMMARY.json"
+ },
+ {
+  "name": "D027",
+  "g6": "IGK{EjgZ_",
+  "u": [
+   7,
+   1,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D027/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D027/SUMMARY.json"
+ },
+ {
+  "name": "D031",
+  "g6": "IGK{EjgZ_",
+  "u": [
+   7,
+   1,
+   3,
+   1,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D031/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D031/SUMMARY.json"
+ },
+ {
+  "name": "D033",
+  "g6": "HB]DU`[",
+  "u": [
+   7,
+   3,
+   1,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D033/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D033/SUMMARY.json"
+ },
+ {
+  "name": "D036",
+  "g6": "GJaVBo",
+  "u": [
+   7,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D036/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D036/SUMMARY.json"
+ },
+ {
+  "name": "D042",
+  "g6": "KQOGlL[BactB",
+  "u": [
+   3,
+   3,
+   3,
+   3,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D042/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D042/SUMMARY.json"
+ },
+ {
+  "name": "D047",
+  "g6": "KQOGlL[BactB",
+  "u": [
+   3,
+   3,
+   3,
+   3,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D047/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D047/SUMMARY.json"
+ },
+ {
+  "name": "D053",
+  "g6": "KQOGlL[BactB",
+  "u": [
+   3,
+   3,
+   3,
+   3,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "edges": "artifacts/tmp/S028-local/descent/D053/graph.edges",
+  "certificate": "artifacts/tmp/S028-local/descent/D053/SUMMARY.json"
+ }
+]

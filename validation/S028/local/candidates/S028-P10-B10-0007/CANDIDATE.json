@@ -1,0 +1,19 @@
+{
+ "name": "S028-P10-B10-0007",
+ "kind": "S028_ADMITTED",
+ "g6": "I@VBDEWhO",
+ "w": [
+  4,
+  4,
+  4,
+  3,
+  3,
+  3,
+  2,
+  2,
+  2,
+  1
+ ],
+ "num_vertices": 28,
+ "edge_count": 156
+}
