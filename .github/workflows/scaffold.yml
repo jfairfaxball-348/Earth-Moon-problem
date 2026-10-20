@@ -25,3 +25,5 @@ jobs:
         run: python scripts/check_s030_history.py
       - name: Validate S030 bounded search records and S031 prompt
         run: python scripts/check_s030_records.py
+      - name: Validate S031 capped long-run records and S032 future prompt
+        run: python scripts/check_s031_records.py

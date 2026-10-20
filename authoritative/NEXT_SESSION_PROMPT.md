@@ -1,19 +1,91 @@
-# S031 — OP1(b): persistent certified S11 continuation (FUTURE / UNEXECUTED)
+# S032 — OP1(b): strengthen persistent S11 search (FUTURE / UNEXECUTED)
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
-The owner's submission of this prompt, its link, or "run next session" invokes exactly S031 under D047. Stop before S032. D042 lower-only scope and D062/D063 order 28 pivot remain binding. No universal upper-bound work, T3 below28, outreach, formalisation, registration or publication.
+This is a handoff only. D066 ended authorization after S031; do not execute
+S032 until the owner supplies this prompt, its link, or a fresh next-session
+invocation (D047). That act invokes exactly S032; stop before S033. Preserve
+D042 lower-only scope, the order-28 OP1(b) target, all parked queues and the
+separate publication, outreach, registration and formalisation gates.
 
-Target: a simple biplanar graph on 28 vertices with alpha<=3, hence chi>=10, or a checked exclusion of a complete explicitly stated stratum. S030 did not decide any stratum. S11 (delta 11,m = 155/156) is UNKNOWN; S10/S9 are NOT_RUN. The m = 154 regular case remains SOURCE_STATED: S030 replayed only paper 59's three finite RUP branches, not the hand coverage. Delta>=9 imports SRC-0037; an unconditional delta>=8 proof leaves S8 as an explicit fallback obligation. Classical 9<=chi2<=12; no chi10 witness.
+Target: an explicit simple biplanar graph on 28 vertices with alpha<=3, hence
+chi>=10, or an independently checked exclusion of a complete stated stratum.
+S031's persistent run capped after28692s,46 relaxation models,1809 checked cuts
+(1114 inherited,695 new),205206574 conflicts and2073 budget slices. Both layers
+of every saved model are nonplanar. S11 delta11/m155..156 remains UNKNOWN;
+S10/S9/S8 NOT_RUN. Regular154 remains SOURCE_STATED: only three finite RUP
+branches were replayed, not hand coverage. Delta>=9 depends on SRC-0037;
+the unconditional delta>=8 boundary leaves S8 explicit. No chi>=10 witness;
+classical9<=chi2<=12. These sampled models do not measure exhaustive coverage.
 
-Entry: independently reconcile live remote main SHA/tree/parents, PR/check jobs/open branches; read AGENTS, STATE, START_HERE, protocol, S030 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT/MANIFEST, validation/S030/SUMMARY.json and SEARCH_REPLAY.json. S029 landscape remains frozen. Keep old queues parked. Record executor. Use hooked cloud setup or the S030-authorised local pinned toolchain; run full scripts/cloud_smoke.py with 271 proofs plus retained/fresh K9 before science. One heavy process tree<=11 GiB, external wall/private-memory supervision on Windows; no CaDiCaL -t there. A smoke FAIL blocks science. D044 fallback is a preregistered never-merged WIP Actions branch, ubuntu-24.04, SAME-JOB scripts/cloud_setup.sh then full smoke, science and durable artifact download; tested historical runner details are in docs/CLOUD_ENVIRONMENT.md and validation/S011/SUMMARY.json. Hosted scaffold CI is governance only.
+Independently reconcile live remote main SHA/tree/parents, actual PR/head/main
+jobs, open PRs and competing branches. Read AGENTS, STATE, START_HERE, protocol,
+D066, all S031 records, MANIFEST/START_MANIFEST, validation/S031/SUMMARY.json,
+SEARCH_REPLAY.json and PACKAGE.json. Historical RUNNING.md and start/controller
+snapshots are provenance, not current authority. S031's worker has stopped;
+verify actual PIDs before any launch. Never duplicate an active heavy worker.
+WIP snapshots are never merged or inherited into the session commit.
 
-First independently replay S030 archived models, cuts and finite RUP packet; inspect exact source snapshots and hashes. Obtain an actual 17-vertex alpha 2 positive control if accessible; J1 is alpha 3. The 24-vertex alpha 3 split is an additional positive control. Do not turn missing calibration into a negative theorem.
+Record executor. Use the hooked cloud setup or owner-authorized local pinned
+toolchain. Before science run a NEW full scripts/cloud_smoke.py: all271 archived
+CNF/proof checks plus retained/fresh K9. A failure blocks science. One heavy
+process tree<=11GiB aggregate private memory, external Windows wall/memory
+supervision,10GiB disk reserve. Windows CaDiCaL has no usable -t switch.
+Declare wall ceiling, workers/CPU/RAM, overnight suitability, laptop power and
+awake requirements, checkpoints and wakeups before any long campaign. Prefer
+one substantive multi-hour campaign with durable checks after hours. Do not
+reuse S031's disabled monitor without configuring a newly authorized monitor.
 
-Prioritise a materially changed persistent incremental CEGAR solver retaining learned state between valid cuts, with native final-formula DRAT replay if UNSAT, rather than unchanged native restart caps. Preregister finite ranges, symmetry and proof, encoding, memory, wall caps and stop rules before execution. Reuse the globally valid S030 cuts after independent validation. Decode archived final.cnf.gz/CUTS/VARIABLES; do not claim native CDCL state was retained. Root/star/type sorting is justified by CLM-0115; no twin or graph-automorphism restriction. Keep exact alpha-four-set, edge/degree/layer cardinalities, K9, triangle-free104 and certified-library filters; every cut needs an independent semantic checker. Measure bottlenecks without predicting exhaustion from sample throughput.
+Reproduction: with pinned python-sat1.9.dev15/networkx3.5 run
+`.venv/Scripts/python.exe scripts/replay_s031_search.py validation/S031/search`
+(Linux: .venv/bin/python). This checks all46 full assignments against their
+chronological formula, all1809 cut semantics, variable maps and regenerated
+336030-clause17976-variable final formula. Decompress archived JSON/CNF files
+into a NEW session scratch directory; never edit S031 evidence. Revalidate
+the semantic checkpoint. Private CDCL state is gone after the cap; a new
+process restores only semantic cuts. Fresh solver/positive controls remain
+required, including independent RUP checks and the24-vertex alpha3 split.
+An actual17-vertex alpha2 control was not retrieved; J1 has alpha3.
 
-Continue S11 first. Only a full-stratum checked proof can exclude it; bank each completed stratum separately. S10 then S9 follow only after an actual S11 decision. Caps stay UNKNOWN and retain S11 for the handoff. Any planar SAT survivor stops all search for independent layer/embedding, alpha, proper colouring and chi>=10 counting validation.
+Do not simply repeat an unchanged eight-hour cap. Diagnose the205M-conflict
+bottleneck and preregister a materially stronger sound method: for example
+incremental partial-assignment planarity propagation or a reviewed persistent
+native external propagator, with proof-producing final-formula replay. Inspect
+and attribute SRC-0055 bipsat2 before reuse; its twinning assumptions must not
+restrict the full labelled domain. A different encoding or decomposition needs
+a coverage proof, controls and independent semantic checks. Preserve CLM-0115
+root/star/type relabelling, exact alpha-four-set, degree/edge/layer constraints,
+and sound K9/triangle-free104/certified-library cuts. No sampled-model blockers,
+unproved automorphism assumptions or family-only substitutes for the stratum.
 
-Refresh paper 59, posts 146/152/155 and arXiv since S030 receipts; source-stated results only prioritise until independently re-proved/replayed. The post 155 propagator decisions await DRAT, and its enumerated family is the paired-twin doubling slice. Attribute overlap; no novelty claim and no forum contact.
+Continue S11 first. Only a complete independently checked S11 decision permits
+S10 then S9; keep unconditional S8 and regular154 dependencies explicit. Every
+cut must be semantically checked and linked to exact variables/source inputs.
+On incremental UNSAT save the full formula and obtain/check native DRAT with
+pinned checker under separately declared serial caps. Bare UNSAT, interrupted
+proofs and timeouts remain UNKNOWN. Any planar survivor stops all search for
+independent labelled layers/embedding, alpha, proper colouring and chi>=10
+counting validation.28/3 counting applies only after biplanarity is checked.
 
-Close exactly S031 with complete records, paired sources/claims and ledgers, permanent certificates/hashes, truthful STATE, byte-identical COMPLETE S032 future prompts in authoritative/NEXT_SESSION_PROMPT.md and sessions/S031/S032_FUTURE_PROMPT.md. One atomic authored commit, ordinary PR, non-force two-parent merge, independently verified main/tree/parents and actual hosted jobs. Final report must include verified links, all stratum verdicts and the FULL S032 prompt. Do not execute S032.
+Refresh paper59, posts146/152/155 and arXiv2609.28102 against S031 dated receipts.
+The S031 closeout article bodies were unchanged, paper59 v3/arXiv v1. Source
+claims only prioritize until re-proved/replayed; no novelty guarantee or forum
+contact. S029 frozen baseline stays intact. T3 orders21..27 and the old S029
+obstruction/C5 queues remain PARKED.
+
+D044 alternate runner: preregister a new never-merged WIP Actions job on
+ubuntu-24.04; SAME-JOB `bash scripts/cloud_setup.sh`, full smoke, registered
+science, upload/download exact sources/environment/proof artifacts. Tested
+historical workflow/run/artifact details: docs/CLOUD_ENVIRONMENT.md and
+validation/S011/SUMMARY.json (runs38623187997/38623722547/38624616691,
+preservation38625149681). Expiring ZIPs cannot be sole permanent evidence.
+Hosted Research scaffold checks validate governance, not mathematical claims.
+
+Close exactly S032 with complete records, paired sources/claims and all
+session/phase/decision/failure/campaign ledgers, permanent evidence/hashes,
+truthful STATE and byte-identical COMPLETE S033 future prompts in authoritative/
+NEXT_SESSION_PROMPT.md and sessions/S032/S033_FUTURE_PROMPT.md. One atomic
+authored session commit from live entry main, ordinary PR, non-force two-parent
+merge and independently verified main/tree/parents and actual hosted jobs.
+Final report includes verified commit/PR/merge links, all stratum verdicts and
+the FULL S033 prompt. Disable S032 monitoring at closeout; do not execute S033.

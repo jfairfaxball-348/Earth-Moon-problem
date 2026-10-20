@@ -1,0 +1,13 @@
+{
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "scripts/s031_controls.py"
+ ],
+ "returncode": 0,
+ "seconds": 14.656,
+ "peak_tree_rss_kib": 154840,
+ "completed_process": true,
+ "log": "artifacts\\tmp\\S031\\controls.log",
+ "memory_measure": "aggregate_private_commit",
+ "memory_cap_kib": 11534336
+}

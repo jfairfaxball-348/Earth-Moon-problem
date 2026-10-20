@@ -767,3 +767,9 @@ Antineighborhood of a degree11 vertex has16 vertices and is not a clique; pick a
 Paper59 v3 finite branches q=2,3,4 regenerate71834-variable173170-clause formulas and have independently checked49,188,193 RUP additions ending in empty clauses.
 
 Supplied stdlib checker plus independent naive unit propagation; all15 supplied file hashes match API manifest. This is only the propositional part: full11-regular graph exclusion remains SOURCE_STATED; hand coverage and reductions are separate premises. Sources: SRC-0057.
+
+## CLM-0117 — COMPUTED_EXACT
+
+S031 finite replay checks46 saved S11 relaxation assignments chronologically,1809 sound semantic cuts and the exact regenerated17976-variable336030-clause final formula; both layers of each saved model have checked nonplanar subdivisions.
+
+validation/S031/SEARCH_REPLAY.json; scripts/replay_s031_search.py. This is a finite audit only:28692s WALL_CAPPED, S11 UNKNOWN, no certified stratum or biplanar witness.1629 K9/180 Kuratowski cuts total,1114 seeds/695 new. No complete graph biplanarity exclusion inferred from one rejected split. Sources: internal saved assignments and independently checked cut certificates; no external theorem promoted.

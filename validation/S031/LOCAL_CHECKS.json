@@ -1,0 +1,71 @@
+[
+  {
+    "command": [
+      "scripts/check_scaffold.py"
+    ],
+    "returncode": 0,
+    "stdout": "S031 governance checks: PASS (not proof, not hosted CI)\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_corrupt_rotation_rejected (test_rotation_certificates.TestConcreteCertificates.test_corrupt_rotation_rejected) ... ok\ntest_genus_corruption_rejected (test_rotation_certificates.TestConcreteCertificates.test_genus_corruption_rejected) ... ok\ntest_minimum_degree11_witness (test_rotation_certificates.TestConcreteCertificates.test_minimum_degree11_witness) ... ok\ntest_sulanke_structure_and_rotations (test_rotation_certificates.TestConcreteCertificates.test_sulanke_structure_and_rotations) ... ok\ntest_wrong_graph_rejected (test_rotation_certificates.TestConcreteCertificates.test_wrong_graph_rejected) ... ok\ntest_bool_vertex_rejected (test_submission.TestPreliminaryCertificateValidation.test_bool_vertex_rejected) ... ok\ntest_improper_colour_rejected (test_submission.TestPreliminaryCertificateValidation.test_improper_colour_rejected) ... ok\ntest_loops_rejected (test_submission.TestPreliminaryCertificateValidation.test_loops_rejected) ... ok\ntest_overlap_rejected (test_submission.TestPreliminaryCertificateValidation.test_overlap_rejected) ... ok\ntest_well_formed (test_submission.TestPreliminaryCertificateValidation.test_well_formed) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.004s\n\nOK\n"
+  },
+  {
+    "command": [
+      "scripts/check_s026_records.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S026 byte integrity, archived checker receipts, job-local smoke records, source pins, state and identical S027 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/check_s027_records.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S027 package (617 files), source pins, smoke, 19-item replay record, domain certificate hashes, state and identical S028 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/check_d062_records.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S028 package, source pins, smoke, 29-item replay record, state and identical S029 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\nPASS D062: frozen S028 records intact; authoritative S029 prompt identical to sessions/S028/S029_FUTURE_PROMPT_D062.md\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/check_s030_history.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S029: frozen landscape hash, executed D062 prompt, identical S030 prompts, manifest\nPASS S030 history adapter: frozen S029 checker intact; superseded prompt resolves to its byte-identical archive\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/check_s030_records.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S030 hashes, smoke receipt, independent control/replay records, prompt identity; metadata only\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/check_s031_records.py"
+    ],
+    "returncode": 0,
+    "stdout": "PASS S031 archived hashes, smoke/controls/replay receipts, UNKNOWN boundaries and future prompt; metadata only\n",
+    "stderr": ""
+  }
+]

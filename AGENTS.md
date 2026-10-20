@@ -1,3 +1,24 @@
+# D067 S031 completed (2026-10-20; eight-hour persistent S11 cap)
+
+46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full fresh271+K9 smoke/controls PASS. D066 S031-only scope is discharged by closeout; S032 FUTURE/UNEXECUTED requires fresh invocation. Parked queues and all scientific/publication gates unchanged.
+
+# D066 owner scope update (2026-10-19): S031 ONLY
+
+Continue the running S031 eight-hour campaign, monitoring and required closeout;
+then stop. D066 supersedes D065 successive-session authorization. Do not run
+S032 or any later session without a fresh owner invocation. See
+docs/D066_S031_ONLY.md. Disable the scheduled monitor after S031 closes.
+
+# D065 owner long-run authorization (2026-10-19; S031 IN_PROGRESS)
+
+Owner explicitly authorized S031 and successive numbered sessions until context
+or usage allowance runs out, prioritizing long runs left working and checked
+after hours. See docs/D065_LONG_RUN_AUTHORIZATION.md and sessions/S031/RUNNING.md.
+This supersedes earlier stop-before-next gates for this campaign; all scientific,
+integration, parked-queue and publication gates remain. S031 is RUNNING, not
+closed. Check actual PIDs/checkpoints before starting any worker; never duplicate
+the active heavy process. Last completed session remains S030.
+
 # D064 S030 completed (2026-10-19; bounded OP1(b), no stratum decision)
 
 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full local271+K9 smoke PASS; executor Codex desktop. Paper59 finite RUP branches replayed, hand coverage not independently re-proved. S031 FUTURE/UNEXECUTED: persistent certified S11 continuation. Older queues remain PARKED.

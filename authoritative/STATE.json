@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-19",
-  "last_completed_session": "S030",
-  "recommended_next_session": "S031",
+  "as_of": "2026-10-20",
+  "last_completed_session": "S031",
+  "recommended_next_session": "S032",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S030",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S031",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_FROZEN_PLUS_S030_DATED_REFRESH_NO_NOVELTY_CLAIM",
+  "source_status": "S029_FROZEN_PLUS_S031_DATED_REFRESH_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,18 +83,18 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
+    "S032 FUTURE/UNEXECUTED: stronger certified S11 method; S031 whole stratum UNKNOWN.",
     "S11 regular154 SOURCE_STATED; only three finite RUP branches replayed, hand coverage not independently re-proved.",
     "S10/S9 NOT_RUN; delta>=9 conditional on SRC-0037, unconditional fallback S8 NOT_RUN.",
     "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
     "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "codex/S030-op1b",
-  "latest_session_entry_main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+  "latest_session_branch": "codex/S031-persistent-op1b",
+  "latest_session_entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
   "latest_session_integration": {
-    "status": "S030_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a"
+    "status": "S031_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
+    "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -461,7 +461,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S029 FUTURE/UNEXECUTED: finish the S028 queue (12 NOT_RUN graphs), descend from the 18-vertex D036 and other certified negatives, regenerate.",
+  "next_session_priority": "S032 FUTURE: diagnose/strengthen persistent S11 method, revalidate saved semantic cuts; no unchanged automatic eight-hour rerun.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1171,7 +1171,7 @@
     "novelty_claimed": false,
     "formalisation_executed": false
   },
-  "session_gate": "S029 completed (literature only, frozen); S030 FUTURE/UNEXECUTED until new owner invocation under D047.",
+  "session_gate": "S031 completed capped UNKNOWN; D066 stop after closeout. S032 FUTURE/UNEXECUTED requires fresh owner invocation under D047.",
   "historical_open_obligations_before_S026": [
     "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
     "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
@@ -1444,5 +1444,90 @@
     "main_governance_run": 39239671991,
     "job": 118017161029
   },
-  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain"
+  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
+  "standing_continuation_authorization": {
+    "decision": "D066",
+    "successive_sessions_authorized": false,
+    "stop_conditions": [
+      "S031 closeout",
+      "owner revocation",
+      "context exhausted",
+      "usage allowance exhausted"
+    ],
+    "preserve_session_scopes_and_publication_gates": true,
+    "authorized_session": "S031",
+    "status": "S031_EXECUTION_FINISHED_NO_SUCCESSOR_AUTHORIZATION"
+  },
+  "historical_open_obligations_before_S031": [
+    "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
+    "S11 regular154 SOURCE_STATED; only three finite RUP branches replayed, hand coverage not independently re-proved.",
+    "S10/S9 NOT_RUN; delta>=9 conditional on SRC-0037, unconditional fallback S8 NOT_RUN.",
+    "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
+    "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
+  ],
+  "s031_science": {
+    "session": "S031",
+    "executor": "Codex desktop local Windows",
+    "started_utc": "2026-10-19T18:44:38.822765+00:00",
+    "finished_utc": "2026-10-20T02:42:51.930132+00:00",
+    "status": "COMPLETED_WALL_CAPPED",
+    "search_seconds": 28692.0,
+    "external_worker_seconds": 28694.14,
+    "startup_diagnostic_seconds": 82.14,
+    "sat_models": 46,
+    "seed_cuts": 1114,
+    "new_cuts": 695,
+    "cuts": 1809,
+    "conflicts": 205206574,
+    "budget_slices": 2073,
+    "peak_aggregate_private_kib": 1284484,
+    "memory_cap_kib": 11534336,
+    "sleep_inhibition_released": true,
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "independent_replay": "PASS",
+    "smoke": "PASS_FULL_271_PLUS_RETAINED_AND_FRESH_K9",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "next_session": "S032_FUTURE_UNEXECUTED",
+    "successive_sessions_authorized": false,
+    "monitor": "DISABLE_AFTER_INTEGRATION_D066"
+  },
+  "s031_completed_runtime": {
+    "id": "S031",
+    "status": "COMPLETED_WALL_CAPPED_UNKNOWN",
+    "authority": "docs/D066_S031_ONLY.md",
+    "branch": "codex/S031-persistent-op1b",
+    "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+    "started_utc": "2026-10-19T18:44:37.981473+00:00",
+    "controller_pid": 15080,
+    "worker_pid": 10792,
+    "runtime_directory": "artifacts/tmp/S031",
+    "running_handoff": "sessions/S031/RUNNING.md",
+    "followup_automation_id": "earth-moon-long-run-continuation",
+    "scheduled_interval_hours": 2,
+    "worker_cap_seconds": 28800,
+    "last_completed_session_still": "S030",
+    "scientific_status": "NO_NEW_CERTIFIED_STRATUM_OR_WITNESS",
+    "finished_utc": "2026-10-20T02:42:51.930132+00:00"
+  },
+  "s030_integration_verified": {
+    "pr": 39,
+    "authored_commit": "45bc0437d99deb6580c78e057c483694eeeae1e7",
+    "merge_commit": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+    "parents": [
+      "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+      "45bc0437d99deb6580c78e057c483694eeeae1e7"
+    ],
+    "tree": "9a97e5d1c06d6f50b1903b13bad1aa9c77757950",
+    "main_governance_run": 39303612275,
+    "job": 118234888136
+  }
 }

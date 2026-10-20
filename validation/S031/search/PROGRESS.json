@@ -1,0 +1,28 @@
+{
+ "pid": 10792,
+ "solver": "cadical300",
+ "persistent_instance_count": 1,
+ "started_utc": "2026-10-19T18:44:38.822765+00:00",
+ "cap_seconds": 28680,
+ "base_clauses": 334221,
+ "seed_cuts": 1114,
+ "resumed_semantic_checkpoint": true,
+ "conflicts_per_slice": 100000,
+ "decisions_per_slice": 1000000,
+ "native_learned_state_restored": false,
+ "source_sha256": "1827734763f7b6daaceeabeb58b22abb92b084ae422354d87ea4c62924db390a",
+ "status": "WALL_CAPPED",
+ "verdict": "UNKNOWN",
+ "models": 46,
+ "cuts": 1809,
+ "slices": 2073,
+ "seconds": 28692.0,
+ "stats": {
+  "restarts": 6338637,
+  "conflicts": 205206574,
+  "decisions": 515307191,
+  "propagations": 54750901088
+ },
+ "updated_utc": "2026-10-20T02:42:50.606156+00:00",
+ "free_disk_bytes": 102837624832
+}
