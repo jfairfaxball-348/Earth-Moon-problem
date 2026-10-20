@@ -71,3 +71,5 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 | S030 | 2026-10-19 | Owner `run next session`, Codex desktop local; CAM0036 unrestricted labelled OP1(b) CEGAR | 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Paper59 finite branches replayed twice; hand coverage source-stated | Complete bounded session; S031 FUTURE |
 
 | S031 | 2026-10-19/20 | D065 launch, D066 S031 ONLY; local Codex; CAM0037 persistent worker | 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. | Complete capped; S032 FUTURE/UNEXECUTED; stop |
+
+| S032 | 2026-10-20 | D047/D068 direct owner invocation; local Codex; CAM0038 partial-planarity native S11 | IN_PROGRESS; fresh full smoke/replay and scoped native controls; free K9 bounded UNKNOWN | Not closed; S031 remains last completed |

@@ -773,3 +773,9 @@ Supplied stdlib checker plus independent naive unit propagation; all15 supplied 
 S031 finite replay checks46 saved S11 relaxation assignments chronologically,1809 sound semantic cuts and the exact regenerated17976-variable336030-clause final formula; both layers of each saved model have checked nonplanar subdivisions.
 
 validation/S031/SEARCH_REPLAY.json; scripts/replay_s031_search.py. This is a finite audit only:28692s WALL_CAPPED, S11 UNKNOWN, no certified stratum or biplanar witness.1629 K9/180 Kuratowski cuts total,1114 seeds/695 new. No complete graph biplanarity exclusion inferred from one rejected split. Sources: internal saved assignments and independently checked cut certificates; no external theorem promoted.
+
+## CLM-0118 — COMPUTED_EXACT
+
+S032 300s native partial-planarity diagnostic emits162536 negative single-layer Kuratowski clauses, all independently checked by subdivision suppression; the336030-clause17976-variable S031 formula is retained by a checked bijective literal renaming.
+
+artifacts/tmp/S032/DIAGNOSTIC_AUDIT.json and frozen validation/S032/start/DIAGNOSTIC_AUDIT.json. Native829538 planarity checks, no model, cap UNKNOWN; no graph/stratum exclusion. Scoped native controls retain free K9 UNKNOWN. Unbounded-duration campaign is IN_PROGRESS under D069; this finite diagnostic claim does not report its eventual outcome. Source: SRC-0055 (method attribution only); independent internal audit.

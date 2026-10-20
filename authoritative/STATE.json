@@ -89,7 +89,7 @@
     "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
     "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
   ],
-  "next_session_is_future_unexecuted": true,
+  "next_session_is_future_unexecuted": false,
   "latest_session_branch": "codex/S031-persistent-op1b",
   "latest_session_entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
   "latest_session_integration": {
@@ -1446,17 +1446,17 @@
   },
   "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
   "standing_continuation_authorization": {
-    "decision": "D066",
+    "decision": "D069",
+    "invocation_decision": "D068",
+    "authorized_session": "S032",
     "successive_sessions_authorized": false,
+    "status": "ACTIVE_S032_ONLY",
     "stop_conditions": [
-      "S031 closeout",
-      "owner revocation",
-      "context exhausted",
-      "usage allowance exhausted"
+      "S032 closeout",
+      "owner stop",
+      "context or usage exhausted"
     ],
-    "preserve_session_scopes_and_publication_gates": true,
-    "authorized_session": "S031",
-    "status": "S031_EXECUTION_FINISHED_NO_SUCCESSOR_AUTHORIZATION"
+    "preserve_session_scopes_and_publication_gates": true
   },
   "historical_open_obligations_before_S031": [
     "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
@@ -1529,5 +1529,23 @@
     "tree": "9a97e5d1c06d6f50b1903b13bad1aa9c77757950",
     "main_governance_run": 39303612275,
     "job": 118234888136
+  },
+  "active_session": {
+    "id": "S032",
+    "status": "IN_PROGRESS_LONG_RUN",
+    "owner_message": "Okay, run next session",
+    "branch": "codex/S032-partial-planarity",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+    "authority": "D047 direct invocation; sessions/S032/OWNER_INVOCATION.md",
+    "runtime_directory": "artifacts/tmp/S032/campaign",
+    "scientific_status": "S11_UNKNOWN_NO_CERTIFIED_STRATUM_OR_WITNESS",
+    "controller_pid": 13056,
+    "worker_pid": 12892,
+    "started_utc": "2026-10-20T06:25:56.744128+00:00",
+    "running_handoff": "sessions/S032/RUNNING.md",
+    "followup_automation_id": "earth-moon-s032-monitor",
+    "worker_cap_seconds": null,
+    "no_fixed_wall_limit": true,
+    "duration_authority": "D069"
   }
 }

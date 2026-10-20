@@ -1,0 +1,228 @@
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcanalyze.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcarena.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcassume.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcaverages.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcbackbone.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcbacktrack.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcbackward.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcbins.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcblock.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcccadical.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcchecker.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcclause.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccollect.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccompact.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccondition.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcconfig.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccongruence.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcconstrain.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccontract.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrccover.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcdecide.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcdecompose.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcdeduplicate.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcdefinition.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcdrattracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcelim.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcelimfast.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcema.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcextend.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcexternal.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcexternal_propagate.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcfactor.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcfile.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcflags.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcflip.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcformat.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcfrattracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcgates.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcidruptracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcinstantiate.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcinternal.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcipasir.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclidruptracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclimit.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclogging.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclookahead.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclratchecker.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclrattracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrclucky.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcmessage.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcminimize.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcoccs.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcoptions.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcparse.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcphases.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcprobe.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcprofile.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcproof.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcpropagate.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcqueue.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcrandom.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcreap.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcreduce.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcrephase.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcreport.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcresources.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcrestart.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcrestore.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcscore.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcshrink.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcsignal.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcsolution.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcsolver.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcstable.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcstats.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcsubsume.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcsweep.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcterminal.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcternary.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrctier.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrctransred.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcunstable.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcutil.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcvar.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcveripbtracer.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcversion.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcvivify.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcwalk.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcwalk_full_occs.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcwarmup.cpp'
+clang-23: error: no such file or directory: 'C:Earth-Moon-problemartifactstmpS004cadicalsrcwatch.cpp'
+In file included from C:\Earth-Moon-problem\artifacts\tmp\S032\native\bipsat_s032.cpp:36:
+C:\Earth-Moon-problem\artifacts\tmp\S004\cadical\src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+C:\Earth-Moon-problem\artifacts\tmp\S032\native\bipsat_s032.cpp:446:10: error: no member named 'reserve' in 'CaDiCaL::Solver'
+  446 |   solver.reserve (2 * m + extra_vars);
+      |   ~~~~~~ ^
+1 warning and 1 error generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/ccadical.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/congruence.cpp:1:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/congruence.hpp:16:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/signal.cpp:2:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/solver.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/vivify.cpp:2:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/internal.hpp:8:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/walk.cpp:2:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/internal.hpp:8:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/warmup.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:\Earth-Moon-problem\artifacts\tmp\S032\native\bipsat_s032.cpp:36:
+C:\Earth-Moon-problem\artifacts\tmp\S004\cadical\src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/ccadical.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/congruence.cpp:1:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/congruence.hpp:16:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/signal.cpp:2:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/solver.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/vivify.cpp:2:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/internal.hpp:8:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/walk.cpp:2:
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/internal.hpp:8:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/inttypes.hpp:19:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+   19 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.
+In file included from C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/warmup.cpp:1:
+C:/Earth-Moon-problem/artifacts/tmp/S004/cadical/src/cadical.hpp:1132:9: warning: '__USE_MINGW_ANSI_STDIO' macro redefined [-Wmacro-redefined]
+ 1132 | #define __USE_MINGW_ANSI_STDIO 1
+      |         ^
+C:/Earth-Moon-problem/artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/include/_mingw.h:477:9: note: previous definition is here
+  477 | #define __USE_MINGW_ANSI_STDIO 0      /* was not defined so it should be 0 */
+      |         ^
+1 warning generated.

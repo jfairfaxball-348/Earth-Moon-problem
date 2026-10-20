@@ -437,3 +437,5 @@ earth_moon_codex_two (rStation handle), Paper59 v3 CC0 regular566 literal RUP su
 S030 refresh of SRC-0037/0045/0048/0049/0050: see sessions/S030/PRIOR_ART.md and fetch receipts. Whole manuscripts remain STATEMENT_INSPECTED; source claims are not automatic filters.
 
 S031 dated refresh (entry2026-10-19, closeout2026-10-20): SRC-0037/0045/0048/0049/0050 unchanged at article-text/abstract level; paper59 v3 and arXiv v1. Exact receipts/comparison: validation/S031/prior-art-closeout. Access grades and source-stated boundaries unchanged; no new external source or novelty claim.
+
+S032 SRC-0055 update (2026-10-20, STATEMENT_INSPECTED remains): bipsat2 source/NOTICE/formats inspected at ab6e472b7ef4ab7dca1d12c8907b3c74399d3828; optional-edge implementation adapted/built on native CaDiCaL3.0.1, with independent subdivision guard and scoped controls. No twin/family encoding imported. Free K9 capped UNKNOWN at60s/300s. Source/runtime archive under validation/S032/start; no theorem/novelty promotion.

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "paper59",
+    "article_text_sha256": "d5cbf4975d5e8f0aaf996fb6bf2518aa838a2b343330f7354332064dfa146abc",
+    "unchanged_since_S031": true
+  },
+  {
+    "source": "post146",
+    "article_text_sha256": "060b81f0658a98c25c0d3e0ed3bf360db3ebe3de660380d855e949ee21f7e50d",
+    "unchanged_since_S031": true
+  },
+  {
+    "source": "post152",
+    "article_text_sha256": "50aa81dae92e72dc189fe1aeb766cdf13b4e9575173cec080de95db725851812",
+    "unchanged_since_S031": true
+  },
+  {
+    "source": "post155",
+    "article_text_sha256": "f678ad7ca47b89b383eb3cbfa6b96f0dd57f4b4205b69f81589e68e0fc7d07ac",
+    "unchanged_since_S031": true
+  }
+]
