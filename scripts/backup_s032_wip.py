@@ -26,7 +26,7 @@ def main():
                'campaigns/README.md','docs/D068_S032_INVOCATION.md','docs/D069_S032_NO_FIXED_WALL_LIMIT.md','docs/DECISION_LOG.md',
                'docs/SESSION_LEDGER.md','catalogue/SOURCES.json','catalogue/SOURCES.md','catalogue/CLAIMS.json','catalogue/CLAIMS.md','sessions/S032','validation/S032']
         paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'scripts').glob('*s032*.py')]
-        paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s032_*.py')]
+        paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s032_*') if p.is_file()]
         git(['add','--',*paths])
         tree=git(['write-tree'])
         previous=subprocess.run(['git','rev-parse','--verify',REF],cwd=ROOT,capture_output=True,text=True)
