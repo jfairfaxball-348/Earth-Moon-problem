@@ -1,0 +1,14 @@
+{
+ "pid": 12892,
+ "controller_pid": 13056,
+ "started_utc": "2026-10-20T06:26:08.995363+00:00",
+ "command": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\native\\bipsat_s032.exe",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\S11.inst",
+  "--timeout",
+  "inf",
+  "--lemmas",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\campaign\\learned.lem"
+ ],
+ "native_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105"
+}
