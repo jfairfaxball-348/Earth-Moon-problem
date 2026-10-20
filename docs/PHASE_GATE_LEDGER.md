@@ -84,3 +84,5 @@ S028 (2026-10-19): 13 new certified obstructions (min 18 vertices), 16/30 profil
 S029 (2026-10-19): literature-only landscape audit frozen; GO-MODIFIED for S030 (OP1(b) at order 28). No chi>=10 witness; 9<=chi_2<=12. Phase1 gate NOT PASSED.
 
 S030 (2026-10-19): 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Phase1 lower-bound gate NOT PASSED; novelty/Lean/publication gates unchanged.
+
+S031 (2026-10-20): 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Phase1 lower-bound gate NOT PASSED; no novelty/Lean/registration/publication/outreach advancement. D066 stops after S031.

@@ -1,0 +1,50 @@
+{
+  "scope": "S031 completed capped session; no witness or whole-stratum result",
+  "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+  "artifact_sha256": {
+    "sessions/S031/ADVERSARIAL.md": {
+      "bytes": 1994,
+      "sha256": "7d8c4c495a6f050ba8efb6b7fb2e65b4c820a4560a944e36385082ca0c3c61b5"
+    },
+    "sessions/S031/CLOSEOUT.md": {
+      "bytes": 3398,
+      "sha256": "3fbcc75a3ea0b68640146ae8af534b8ef35824c3ecbf56ff1a90889a54c4f2a8"
+    },
+    "sessions/S031/EXECUTED_PROMPT.md": {
+      "bytes": 4138,
+      "sha256": "a7b185e6b614e4eb9e85e30e61820dac952cf410c244a31d8003a90e35c0b00b"
+    },
+    "sessions/S031/INPUT.md": {
+      "bytes": 2017,
+      "sha256": "8adfcf0fcd370a39a81551b9818bd696ce7be1e32d160355870a936454cd41c1"
+    },
+    "sessions/S031/OWNER_INVOCATION.md": {
+      "bytes": 715,
+      "sha256": "94c8718b60ab4b91a8b0bde7009b02765121283b4b12f98805238cf31616f0a5"
+    },
+    "sessions/S031/PLAN.md": {
+      "bytes": 5219,
+      "sha256": "e363bd2df9277cb1459fb599e7b52a88048604e433e5a616983e3871b0fdb1fa"
+    },
+    "sessions/S031/PRIOR_ART.md": {
+      "bytes": 1648,
+      "sha256": "0b27ce3b71a2b406b9ebf5b560c66e7e233732b28bd7c9712a84eb3823e6b477"
+    },
+    "sessions/S031/RESEARCH.md": {
+      "bytes": 2280,
+      "sha256": "379ebe7c587f399ed81b95b391071b21289fc6d5a8e386c2d2196644c2878324"
+    },
+    "sessions/S031/RUNNING.md": {
+      "bytes": 4711,
+      "sha256": "49baf5d8675ed0c31fcf9f1366451624da723331f6a0b4e9aa254f7517c0838a"
+    },
+    "sessions/S031/S032_FUTURE_PROMPT.md": {
+      "bytes": 6090,
+      "sha256": "446e5276074e257d7f00e443347942da43f1dea704d66b0e5398ded8a890e37b"
+    },
+    "sessions/S031/START_MANIFEST.json": {
+      "bytes": 4423,
+      "sha256": "e934bcd5b0e4b5023b9b5f8b2ec1eacc41aee58122428e972768f8cfee3c85ef"
+    }
+  }
+}

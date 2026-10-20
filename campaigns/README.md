@@ -70,4 +70,6 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 
 - **S029**: no campaign (literature only).
 
+- **CAM-0037 (S031, COMPLETED UNKNOWN)** persistent28692s S11 run;46 models/1809 cuts independently audited; no certified stratum or witness. S032 FUTURE only (D066).
+
 - **CAM-0036 (S030)** unrestricted labelled order28 S11 CEGAR; 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12.

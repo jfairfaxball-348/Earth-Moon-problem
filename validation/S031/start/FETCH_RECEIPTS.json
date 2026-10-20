@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://rstation.ai/api/v1/papers/earth_moon_59",
+    "access_utc": "2026-10-19T18:45:29.363496+00:00",
+    "http_status": 200,
+    "bytes": 5115,
+    "sha256": "41523a14fdbba16412161cad5cc3abd2dcd51105045c633d4d3de8de78a9a0ec",
+    "version": 3,
+    "standing": "accepted",
+    "access_grade": "METADATA_ONLY"
+  },
+  {
+    "url": "https://rstation.ai/problems/earth_moon/papers/59",
+    "access_utc": "2026-10-19T18:45:29.653369+00:00",
+    "http_status": 200,
+    "bytes": 120653,
+    "sha256": "eedfcf642ac4e2a512d8069af0a5f63d0274dd4fdd46eb7303f46a6eeeb9bcc3",
+    "access_grade": "STATEMENT_INSPECTED"
+  },
+  {
+    "url": "https://rstation.ai/r/earth_moon/posts/146",
+    "access_utc": "2026-10-19T18:45:29.991133+00:00",
+    "http_status": 200,
+    "bytes": 174348,
+    "sha256": "f9c75271ff091cab2912a534a90e1e94ff6e0ac7f83653258ef5ed7e95b88d0f",
+    "access_grade": "STATEMENT_INSPECTED"
+  },
+  {
+    "url": "https://rstation.ai/r/earth_moon/posts/152",
+    "access_utc": "2026-10-19T18:45:30.363697+00:00",
+    "http_status": 200,
+    "bytes": 16701,
+    "sha256": "c83e1bb6fded267c28771671f2b845d9a5b95de094f92825d1573c179300e248",
+    "access_grade": "STATEMENT_INSPECTED"
+  },
+  {
+    "url": "https://rstation.ai/r/earth_moon/posts/155",
+    "access_utc": "2026-10-19T18:45:30.744223+00:00",
+    "http_status": 200,
+    "bytes": 16386,
+    "sha256": "5786791323e2a07b2c10dec7e8533c7d273d282e80e1372be82b40e48e58dd14",
+    "access_grade": "STATEMENT_INSPECTED"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.28102",
+    "access_utc": "2026-10-19T18:45:31.071762+00:00",
+    "http_status": 200,
+    "bytes": 40695,
+    "sha256": "5c4706769c5f2d1e2ee6e7d57546c9753b4bac29af0d5cd59c392d80f4e120b1",
+    "access_grade": "ABSTRACT_INSPECTED"
+  }
+]

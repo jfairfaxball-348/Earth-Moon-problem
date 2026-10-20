@@ -1,0 +1,239 @@
+{
+  "observed_utc": "2026-10-20T02:49:56.973250+00:00",
+  "reads": {
+    "main": {
+      "returncode": 0,
+      "data": {
+        "sha": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+        "tree": {
+          "sha": "9a97e5d1c06d6f50b1903b13bad1aa9c77757950",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/trees/9a97e5d1c06d6f50b1903b13bad1aa9c77757950"
+        },
+        "parents": [
+          "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+          "45bc0437d99deb6580c78e057c483694eeeae1e7"
+        ]
+      },
+      "stderr": ""
+    },
+    "pr39": {
+      "returncode": 0,
+      "data": {
+        "baseRefOid": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+        "headRefOid": "45bc0437d99deb6580c78e057c483694eeeae1e7",
+        "mergeCommit": {
+          "oid": "dd802686215781cbc35aa86ea14c54369aaec7e5"
+        },
+        "mergedAt": "2026-10-19T18:33:57Z",
+        "number": 39,
+        "state": "MERGED",
+        "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/39"
+      },
+      "stderr": ""
+    },
+    "open_prs": {
+      "returncode": 0,
+      "data": [],
+      "stderr": ""
+    },
+    "workflows": {
+      "returncode": 0,
+      "data": {
+        "total_count": 24,
+        "workflows": [
+          {
+            "id": 384723604,
+            "name": "S011 edge criticality audit (unmerged WIP)",
+            "path": ".github/workflows/s011-edge-critical.yml",
+            "state": "active"
+          },
+          {
+            "id": 384727398,
+            "name": "S011 preserve checked certificate archive (unmerged WIP)",
+            "path": ".github/workflows/s011-preserve-certificates.yml",
+            "state": "active"
+          },
+          {
+            "id": 384713335,
+            "name": "S011 positive search (unmerged WIP)",
+            "path": ".github/workflows/s011-research.yml",
+            "state": "active"
+          },
+          {
+            "id": 384702111,
+            "name": "S011 environment smoke (unmerged WIP)",
+            "path": ".github/workflows/s011-smoke.yml",
+            "state": "active"
+          },
+          {
+            "id": 384717055,
+            "name": "S011 sparsification (unmerged WIP)",
+            "path": ".github/workflows/s011-sparsify.yml",
+            "state": "active"
+          },
+          {
+            "id": 384799563,
+            "name": "S012 all one-edge swap nine-colouring witnesses (unmerged WIP)",
+            "path": ".github/workflows/s012-swap-audit.yml",
+            "state": "active"
+          },
+          {
+            "id": 384822532,
+            "name": "S013 constructive positive-only (WIP never merge)",
+            "path": ".github/workflows/s013-constructive.yml",
+            "state": "active"
+          },
+          {
+            "id": 385302644,
+            "name": "S015 extract scientific evidence (never merge WIP)",
+            "path": ".github/workflows/s015-preserve.yml",
+            "state": "active"
+          },
+          {
+            "id": 385300452,
+            "name": "S015 219 candidate recheck (unmerged WIP)",
+            "path": ".github/workflows/s015-recheck.yml",
+            "state": "active"
+          },
+          {
+            "id": 385320457,
+            "name": "S016 exact original graph checks (unmerged WIP)",
+            "path": ".github/workflows/s016-exact.yml",
+            "state": "active"
+          },
+          {
+            "id": 385360877,
+            "name": "S017 density and original-graph repair (NEVER MERGE WIP)",
+            "path": ".github/workflows/s017-density-originals.yml",
+            "state": "active"
+          },
+          {
+            "id": 385413084,
+            "name": "S018 serial row148 exact science (NEVER MERGE WIP)",
+            "path": ".github/workflows/s018-serial-row148.yml",
+            "state": "active"
+          },
+          {
+            "id": 385492796,
+            "name": "S019 deep exact row148 scientific search (NEVER MERGE WIP)",
+            "path": ".github/workflows/s019-row148-deep.yml",
+            "state": "active"
+          },
+          {
+            "id": 385602500,
+            "name": "S019 row148 original resumed density-CNF (NEVER MERGE WIP)",
+            "path": ".github/workflows/s019-row148-density.yml",
+            "state": "active"
+          },
+          {
+            "id": 385513666,
+            "name": "S019 row148 audited symmetric exact decision (NEVER MERGE WIP)",
+            "path": ".github/workflows/s019-row148-sym.yml",
+            "state": "active"
+          },
+          {
+            "id": 385601672,
+            "name": "S019 original row148 continued science (NEVER MERGE WIP)",
+            "path": ".github/workflows/s019-serial-row148.yml",
+            "state": "active"
+          },
+          {
+            "id": 385651968,
+            "name": "S020 row148 induced Euler and face insertion (NEVER MERGE WIP)",
+            "path": ".github/workflows/s020-row148-embedding.yml",
+            "state": "active"
+          },
+          {
+            "id": 385706132,
+            "name": "S021 cancel redundant earlier revisions (NO SCIENCE)",
+            "path": ".github/workflows/s021-cancel-duplicates.yml",
+            "state": "active"
+          },
+          {
+            "id": 385701681,
+            "name": "S021 original148 cross Euler exact search (NEVER MERGE WIP)",
+            "path": ".github/workflows/s021-row148-cross-euler.yml",
+            "state": "active"
+          },
+          {
+            "id": 385740729,
+            "name": "S022 row148 exact bounded neighbourhood (WIP NEVER MERGE)",
+            "path": ".github/workflows/s022-row148-exact-neighbourhood.yml",
+            "state": "active"
+          },
+          {
+            "id": 385751033,
+            "name": "S022 row148 proof-certificate packing (WIP NEVER MERGE)",
+            "path": ".github/workflows/s022-row148-obstruction-pack.yml",
+            "state": "active"
+          },
+          {
+            "id": 386389830,
+            "name": "S024 layer-first candidate search (NEVER MERGE WIP)",
+            "path": ".github/workflows/s024-layer-first.yml",
+            "state": "active"
+          },
+          {
+            "id": 388550931,
+            "name": "S026 obstruction-aware research (WIP NEVER MERGE)",
+            "path": ".github/workflows/s026-research.yml",
+            "state": "active"
+          },
+          {
+            "id": 382361523,
+            "name": "Research scaffold checks",
+            "path": ".github/workflows/scaffold.yml",
+            "state": "active"
+          }
+        ]
+      },
+      "stderr": ""
+    },
+    "main_checks": {
+      "returncode": 0,
+      "data": {
+        "total_count": 1,
+        "check_runs": [
+          {
+            "id": 118234888136,
+            "name": "validate",
+            "head_sha": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+            "status": "completed",
+            "conclusion": "success",
+            "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39303612275/job/118234888136"
+          }
+        ]
+      },
+      "stderr": ""
+    },
+    "main_status": {
+      "returncode": 0,
+      "data": {
+        "state": "pending",
+        "sha": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+        "total_count": 0,
+        "statuses": []
+      },
+      "stderr": ""
+    },
+    "protection": {
+      "returncode": 1,
+      "data": {
+        "message": "Branch not protected",
+        "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+        "status": "404"
+      },
+      "stderr": "gh: Branch not protected (HTTP 404)\n"
+    },
+    "rulesets": {
+      "returncode": 0,
+      "data": [],
+      "stderr": ""
+    },
+    "branches": {
+      "returncode": 0,
+      "data": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569\trefs/heads/ccr-1d66faf5-kctudc\n84fe7b8e231203af5ec9f71d8e575ae4e47b8c2e\trefs/heads/ccr-4ad27c72-6hxjup\n22452e26a4e1e43226e34a057c7cd0f7591ed580\trefs/heads/ccr-ca34b331-a5bcoj\n21be2dd7fe140e4588e3959bc127b185114eccb3\trefs/heads/claude/S027-learned-obstruction\n34b17bc53e6203ebc50a349b8f196c5067c9a981\trefs/heads/claude/S028-obstruction-closure\n7c60fa8b0d4201204cf059d6c34ac9fc90334be9\trefs/heads/claude/charming-hamilton-ej1aav\n6959e0093ee44ce7c2645afb6635f3e04d714c95\trefs/heads/codex/S004-candidate-frontier\na58f7d42a83c84f08c6ea4ebc913267d78ce0cf9\trefs/heads/codex/S005-certified-obstructions\neefd36469895f20da4dd8eedcb6d411d75288abf\trefs/heads/codex/S006-critical-frontier\n2751cfc659462b888d5579c98358e85d3f909d03\trefs/heads/codex/S007-deficit-palette\ncbdb8236f27d8f39ceeb268975cd47ac39fc323a\trefs/heads/codex/S008-kuratowski-support\n6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c\trefs/heads/codex/S009-transfer-colours\nb585c03825b32cae1735d8c30a2357e652ba3e37\trefs/heads/codex/S010-strategic-reset\n2cd5c94999a817e384d346df6a08930b7591ae31\trefs/heads/codex/S026-obstruction-aware\n45bc0437d99deb6580c78e057c483694eeeae1e7\trefs/heads/codex/S030-op1b\n85d6559331888a6d9d5276d47594bd2835b11a15\trefs/heads/directive/D056-S023-upper-lower-feasibility\n28f6584d4941e5bb918f0f5daeb15d61748cac22\trefs/heads/directive/D058-S025-original219-gap-closure\nb4b0f53d8b34c48574bce351d1012d861d6a388b\trefs/heads/governance/D051-s015-219-github-actions\n1d85f48a22e504ca91aa151436baab2ce6c9ef81\trefs/heads/governance/D054-serial-original219-S018\ndd802686215781cbc35aa86ea14c54369aaec7e5\trefs/heads/main\n99fe3aed10fed945f61dd673e91a606f5307e5a3\trefs/heads/reconcile/S025-final-state-readback\n2b0915f7f9c968f6b4daf84866bff914edfd48b3\trefs/heads/reconcile/S025-main-handoff\n99eb9f2bcfcb554a6cc652b15ba95a7a895a5774\trefs/heads/session/S001-bootstrap-emp\nc748c4c5bc5b5d48dcbff5516d2cc8f4be485acc\trefs/heads/session/S002-structural-attack\n8893aa34927c37c3d71b2201f50838635c3d30e5\trefs/heads/session/S011-certified-construction-search\nc80366947d821dcf79a2af791c1ea4757bc156b6\trefs/heads/session/S012-layer-aware-chromatic-restoring\n16a1329b22bba0d86c8c083ac529e4bca182f68b\trefs/heads/session/S012-layer-aware-construction\ne8f6791addec039a1a9ca575e5022823b3b5e98d\trefs/heads/session/S013-tight-sulanke-and-layer-first\nc8ca1b17484fdeeb81a4f35bf95023c7dbe81352\trefs/heads/session/S014-seven-vertex-hall-closure\n3cb360e566dd2385444120ffbb87283e66e29b1b\trefs/heads/session/S015-219-recheck\nc65f8b89ab4b4eb20ac5ed0ee9eaa6b4a4b1e3fa\trefs/heads/session/S016-original-proof-escalation\n95cfa6629305ec8d1a69ab3cc7656ef8c3c42752\trefs/heads/session/S017-density-originals\n5db24920f4c29d7cacd5d5e7f2609fbdc49b10f8\trefs/heads/session/S018-serial-original148\neb59071a2248719b2c3cd6702cc5d29c235d8069\trefs/heads/session/S019-original148-density-resume\n0ede3ef6afd392daf0e31358b7e22a6c86828ddb\trefs/heads/session/S020-original148-embedding-local-euler\n7b1d91db4d0274bbd60638a0f3038c78443d3cfb\trefs/heads/session/S021-original148-cross-euler\n78950a5b040a3c26a5704ceff904b43b36745610\trefs/heads/session/S022-original148-exact-neighbourhood\n6a971c40dbad029bf69995f0e17226c694e10ce6\trefs/heads/session/S023-two-sided-difficulty-audit\n2027da48d74a35fcb62dabec6d715a5d5118e8ee\trefs/heads/session/S024-layer-first-global-cover\n96810e6abf27d219b2d7e86e3a433ce7f0aee518\trefs/heads/wip/S011-edge-critical\nbc884386fe783fabb6f34f2597c57c39ed76d2e0\trefs/heads/wip/S011-github-smoke\n99df83c5fd161e9930ace8617d897f658ce82a8c\trefs/heads/wip/S011-positive-search\ncc9ba9afd68890a6c74ca3143e985907fdfc0600\trefs/heads/wip/S011-preserve-certificates\nb5ae360eb4c3eb74dc1adec2f26fe8f324505fe1\trefs/heads/wip/S011-sparsify-search\n9168e1567ccabdda50068771f7c9c5c6f0703a39\trefs/heads/wip/S012-swap\nf823117fa8563bfaa3e528020dddc830605a7ad0\trefs/heads/wip/S013-constructive\nef2b73f83d872b740088b4d18302ac3d3c358d16\trefs/heads/wip/S015-219-recheck\n86a747c12497014739cce236581153e0e16e31e0\trefs/heads/wip/S015-preserve-run\n9499aaed9af6c02e096a86651ce364019df966e0\trefs/heads/wip/S016-exact-originals\n30099ef4a53940ccd4e9c9bd4f20021612e70a86\trefs/heads/wip/S017-density-originals\n65d78133bbbadee5e71d7e5fa27d59cd0511f9ae\trefs/heads/wip/S018-serial-row148\n48923710fc269077eeecd155386cd59149d6282e\trefs/heads/wip/S019-row148-continuation\n9f45c5b438bbe5a9951f7ee6ecfeb0dce6ac9a9a\trefs/heads/wip/S019-row148-deep\n3117dabd7ef9b263dcb7c4b6e943b629d2fdbd9b\trefs/heads/wip/S019-row148-resume-density\na6057a46dd5e4b2524f179b2b4de2cbb9dc7e49f\trefs/heads/wip/S019-row148-symmetric2\n018a9dd7cb22ada063bbbe5bc4589c6f852a2fcf\trefs/heads/wip/S019-row148-triangulation3\n8f5615e7456a1b997a6a39306ecfaf9a82aae4d3\trefs/heads/wip/S020-row148-embedding-euler\n7ab9842aa20ed3ce8a3b316044370786946e273f\trefs/heads/wip/S021-row148-cross-euler\n83f6a058b2349edba07ef875aaaaf9b36a04dbd8\trefs/heads/wip/S022-row148-exact-neighbourhood\n96d59c302c13ad582e464dc0612b29ee8e73e023\trefs/heads/wip/S024-layer-first-science\nfcbfa09f1f474329402c13690aa948a1351a9212\trefs/heads/wip/S026-local-serial\nfe92ca8763646e8ef8a768e9d1d9e0eea6b4cf9d\trefs/heads/wip/S026-obstruction-aware\n4f436bf10927e9867dc402083d8fb93fcdf1248b\trefs/heads/wip/S031-long-run\n",
+      "stderr": ""
+    }
+  }
+}

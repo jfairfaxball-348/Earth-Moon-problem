@@ -435,3 +435,5 @@ S029 refresh 2026-10-19: SRC-0037 (v1 only; Theorem 1 n<=18; OP1(b) open), SRC-0
 earth_moon_codex_two (rStation handle), Paper59 v3 CC0 regular566 literal RUP supplement, 2026-10-15; accessed2026-10-19. https://rstation.ai/api/v1/papers/earth_moon_59/versions/3/supplement . S030 inspected encoder/checker and replayed the three finite RUP branches with supplied and independent naive checkers. Packet27864 bytes, b35f139e59467f20b771f090188fa5536d8342dcbc4446cf7945a74fb2fa64b3. Full graph reduction/hand coverage not independently proved. CC0 supplement retained under validation/S030/prior_art/paper59; full regular exclusion not promoted.
 
 S030 refresh of SRC-0037/0045/0048/0049/0050: see sessions/S030/PRIOR_ART.md and fetch receipts. Whole manuscripts remain STATEMENT_INSPECTED; source claims are not automatic filters.
+
+S031 dated refresh (entry2026-10-19, closeout2026-10-20): SRC-0037/0045/0048/0049/0050 unchanged at article-text/abstract level; paper59 v3 and arXiv v1. Exact receipts/comparison: validation/S031/prior-art-closeout. Access grades and source-stated boundaries unchanged; no new external source or novelty claim.

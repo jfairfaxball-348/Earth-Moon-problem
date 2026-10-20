@@ -1,3 +1,7 @@
+# D067 S031 completed (2026-10-20; eight-hour persistent S11 cap)
+
+46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full fresh271+K9 smoke/controls PASS. D066 S031-only scope is discharged by closeout; S032 FUTURE/UNEXECUTED requires fresh invocation. Parked queues and all scientific/publication gates unchanged.
+
 # D064 S030 completed (2026-10-19; bounded OP1(b), no stratum decision)
 
 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full local271+K9 smoke PASS; executor Codex desktop. Paper59 finite RUP branches replayed, hand coverage not independently re-proved. S031 FUTURE/UNEXECUTED: persistent certified S11 continuation. Older queues remain PARKED.

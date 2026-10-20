@@ -128,3 +128,7 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F082 (S030) | General labelled K9/Kuratowski CEGAR closes S11 in one bounded session | 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Native restart learning is lost between cuts | Persist incremental learning and validated semantic cuts; do not equate model throughput with exhaustive coverage |
 
 | F083 (S030) | Prospective control J1 is alpha2; gate wrapper schema matches | J1 has alpha3; initial wrapper read nonexistent chromatic field after successful smoke | Preserve initial failures, verify fresh original PASS receipt, use actual row counters; no theorem promoted on missing17v alpha2 calibration |
+
+| F084 (S031) | Persistent incremental CDCL will finish S11 within eight hours |28692s,205206574 conflicts,46 relaxation models,695 added sound cuts; full stratum still UNKNOWN | Diagnose search/propagation bottleneck and validate a materially stronger method before repeating an unchanged cap; preserve semantic cuts and explicit loss of private CDCL state |
+
+| F085 (S031 startup) |2000-conflict/20000-decision slices suit long-run checkpointing |914 re-entries in82.14s, no model; diagnostic stopped gracefully | Preserved exact receipts/source; current campaign used100000/1000000 on one live instance, then completed its registered cap |

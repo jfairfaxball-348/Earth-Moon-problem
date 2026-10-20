@@ -1,0 +1,298 @@
+{
+  "status": "PASS",
+  "models_checked": 46,
+  "cuts_checked": 1809,
+  "seed_cuts": 1114,
+  "new_cuts": 695,
+  "cut_types": {
+    "K9": 1629,
+    "Kuratowski": 180
+  },
+  "base_clauses": 334221,
+  "final_clauses": 336030,
+  "variables": 17976,
+  "chronological_assignment_checks": true,
+  "final_formula_regenerated": true,
+  "each_model_has_two_checked_nonplanar_layers": true,
+  "whole_stratum_certified": false,
+  "verdict": "UNKNOWN",
+  "per_model": [
+    {
+      "model": 1,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 2,
+      "edges": 156,
+      "cuts": 57,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 3,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 4,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 5,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 6,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 7,
+      "edges": 156,
+      "cuts": 58,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 8,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 9,
+      "edges": 156,
+      "cuts": 22,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 10,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 11,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 12,
+      "edges": 156,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 13,
+      "edges": 156,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 14,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 15,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 16,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 17,
+      "edges": 156,
+      "cuts": 57,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 18,
+      "edges": 156,
+      "cuts": 57,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 19,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 20,
+      "edges": 156,
+      "cuts": 4,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 21,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 22,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 23,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 24,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 25,
+      "edges": 156,
+      "cuts": 57,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 26,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 27,
+      "edges": 156,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 28,
+      "edges": 156,
+      "cuts": 57,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 29,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 30,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 31,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 32,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 33,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 34,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 35,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 36,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 37,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 38,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 39,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 40,
+      "edges": 155,
+      "cuts": 2,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 41,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 42,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 43,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 44,
+      "edges": 156,
+      "cuts": 13,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 45,
+      "edges": 156,
+      "cuts": 12,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    },
+    {
+      "model": 46,
+      "edges": 156,
+      "cuts": 4,
+      "both_layers_nonplanar_by_checked_subdivisions": true
+    }
+  ],
+  "seconds": 10.062
+}
