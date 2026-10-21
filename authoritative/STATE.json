@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-20",
-  "last_completed_session": "S031",
-  "recommended_next_session": "S032",
+  "last_completed_session": "S032",
+  "recommended_next_session": "S033",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S031",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S032",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,18 +83,17 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S032 FUTURE/UNEXECUTED: stronger certified S11 method; S031 whole stratum UNKNOWN.",
-    "S11 regular154 SOURCE_STATED; only three finite RUP branches replayed, hand coverage not independently re-proved.",
-    "S10/S9 NOT_RUN; delta>=9 conditional on SRC-0037, unconditional fallback S8 NOT_RUN.",
-    "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
-    "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
+    "S033 FUTURE/UNEXECUTED; no automatic S032 resume. Exact projected count/ETA not computed; use bounded proof-backed region accounting if owner invokes.",
+    "S11 m155/156 UNKNOWN; regular154 SOURCE_STATED, finite RUP branches only.",
+    "S10/S9 NOT_RUN; delta>=9 conditional on SRC0037; unconditional S8 NOT_RUN.",
+    "All parked queues and publication/outreach/formalisation gates unchanged;9<=chi2<=12."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "codex/S031-persistent-op1b",
-  "latest_session_entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+  "latest_session_branch": "codex/S032-partial-planarity",
+  "latest_session_entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
   "latest_session_integration": {
-    "status": "S031_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5"
+    "status": "S032_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -1446,17 +1445,17 @@
   },
   "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
   "standing_continuation_authorization": {
-    "decision": "D066",
+    "decision": "D070",
+    "invocation_decision": "D068",
+    "authorized_session": "S032",
     "successive_sessions_authorized": false,
+    "status": "ENDED_D070_OWNER_STOP_NO_AUTOMATIC_RESUME",
     "stop_conditions": [
-      "S031 closeout",
-      "owner revocation",
-      "context exhausted",
-      "usage allowance exhausted"
+      "S032 closeout",
+      "owner stop",
+      "context or usage exhausted"
     ],
-    "preserve_session_scopes_and_publication_gates": true,
-    "authorized_session": "S031",
-    "status": "S031_EXECUTION_FINISHED_NO_SUCCESSOR_AUTHORIZATION"
+    "preserve_session_scopes_and_publication_gates": true
   },
   "historical_open_obligations_before_S031": [
     "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
@@ -1529,5 +1528,66 @@
     "tree": "9a97e5d1c06d6f50b1903b13bad1aa9c77757950",
     "main_governance_run": 39303612275,
     "job": 118234888136
+  },
+  "s032_completed_runtime": {
+    "id": "S032",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "owner_message": "Okay, run next session",
+    "branch": "codex/S032-partial-planarity",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+    "authority": "D047 direct invocation; sessions/S032/OWNER_INVOCATION.md",
+    "runtime_directory": "artifacts/tmp/S032/campaign",
+    "scientific_status": "S11_UNKNOWN_NO_CERTIFIED_STRATUM_OR_WITNESS",
+    "controller_pid": 13056,
+    "worker_pid": 12892,
+    "started_utc": "2026-10-20T06:25:56.744128+00:00",
+    "running_handoff": "sessions/S032/RUNNING.md",
+    "followup_automation_id": "earth-moon-s032-monitor",
+    "worker_cap_seconds": null,
+    "no_fixed_wall_limit": true,
+    "duration_authority": "D070_OWNER_STOP",
+    "followup_automation_status": "PAUSED",
+    "finished_utc": "2026-10-21T06:55:03.419463+00:00"
+  },
+  "s032_science": {
+    "session": "S032",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "executor": "Codex desktop local Windows",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+    "started_utc": "2026-10-20T06:25:56.744128+00:00",
+    "finished_utc": "2026-10-21T06:55:03.419463+00:00",
+    "wall_seconds": 88133.828,
+    "sleep_gap_seconds": 30853.814352035522,
+    "observed_native_cpu_seconds_before_stop": 57120.4375,
+    "peak_private_kib": 2774176,
+    "retained_geometric_rules": 2579937,
+    "diagnostic_seed_rules": 162536,
+    "campaign_new_rules": 2417401,
+    "lemma_bytes": 189309949,
+    "lemma_sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+    "partial_checks_last_observed": 14653878,
+    "complete_model_checks_last_observed": 0,
+    "native_cdcl_state_saved": false,
+    "independent_rule_and_renaming_audit": "PASS",
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "monitor_status": "PAUSED",
+    "all_campaign_processes_stopped": true,
+    "no_automatic_resume": true,
+    "rebuilt_native_sha256": "11f9edd801c33387a77dd71d539873985109d05d3e381dcdb49f3076a18c9740",
+    "progress_controls": "PASS",
+    "free_K9_native": "UNKNOWN_AT_2S_IN_REBUILD; HISTORICAL60S/300S_UNKNOWN",
+    "exact_projected_excluded_graph_count": "NOT_COMPUTED",
+    "coverage_demo": "cell128 checked UNSAT both base-only and augmented; baseline encoder closure, not a new graph result",
+    "next_session": "S033_FUTURE_UNEXECUTED"
   }
 }

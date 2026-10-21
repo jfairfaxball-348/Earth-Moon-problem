@@ -1,0 +1,118 @@
+{
+  "observed_utc": "2026-10-21T06:33:21.403306+00:00",
+  "verdict": "UNKNOWN",
+  "controller_status": "SEARCH_RUNNING",
+  "process_sample_seconds": 5.0,
+  "processes": [
+    {
+      "pid": 13056,
+      "creation_filetime": 134369511563155530,
+      "exit_filetime": 0,
+      "cpu_seconds": 630.890625,
+      "same_process_across_sample": true,
+      "sample_cpu_seconds": 0.046875,
+      "sample_one_core_utilisation": 0.009375
+    },
+    {
+      "pid": 12892,
+      "creation_filetime": 134369511689923011,
+      "exit_filetime": 0,
+      "cpu_seconds": 55832.59375,
+      "same_process_across_sample": true,
+      "sample_cpu_seconds": 5.0,
+      "sample_one_core_utilisation": 1.0
+    }
+  ],
+  "source_runtime_hashes_match": true,
+  "hash_checks": {
+    "scripts/run_s032_native.py": true,
+    "scripts/build_s032_native.py": true,
+    "scripts/prepare_s032.py": true,
+    "scripts/check_s032_native.py": true,
+    "tools/s032_subdivision.hpp": true,
+    "tools/s030_op1b.py": true,
+    "tools/s031_check.py": true,
+    "scripts/replay_s030_search.py": true,
+    "tools/s026_supervision.py": true,
+    "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libc++.dll": true,
+    "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libunwind.dll": true
+  },
+  "native_input_hashes_match": true,
+  "progress": {
+    "pid": 12892,
+    "seconds": 86800.125,
+    "private_tree_kib": 2520812,
+    "peak_private_tree_kib": 2774176,
+    "free_disk_bytes": 110712492032,
+    "native_progress": "c S032_PROGRESS seconds=86787.480 checks=14289002 cuts=2369267 model_checks=0 check_seconds=50.442\r",
+    "verdict": "UNKNOWN",
+    "updated_utc": "2026-10-21T06:32:49.307149+00:00"
+  },
+  "checkpoint": {
+    "session": "S032",
+    "updated_utc": "2026-10-21T06:31:02.896562+00:00",
+    "input_sha256": "550400a312b17d144b40dc376842fd7506f351c9828f0c0c759b4e4839d7679c",
+    "native_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105",
+    "lemma_file": "learned.lem",
+    "complete_lemma_lines": 2531803,
+    "complete_lemma_bytes": 186422598,
+    "omitted_incomplete_tail_bytes": 0,
+    "lemma_sha256": "e7c95026f53b7488f0842557375f9682a16cc8439cdb7af50ea9ecfc59c0f90c",
+    "native_cdcl_state_saved": false,
+    "verdict": "UNKNOWN",
+    "note": "full fixed input plus this hashed complete prefix of append-only learned.lem; not an exhaustion certificate"
+  },
+  "checkpoint_age_seconds": 138.50674390792847,
+  "result_exists": false,
+  "free_disk_bytes": 110712610816,
+  "history": {
+    "first": {
+      "utc": "2026-10-20T06:26:39.472963+00:00",
+      "checks": 0,
+      "cuts": 0,
+      "model_checks": 0,
+      "check_seconds": 0.0,
+      "observed_interval_seconds": 0.0
+    },
+    "latest": {
+      "utc": "2026-10-21T06:33:19.728279+00:00",
+      "checks": 14289002,
+      "cuts": 2369267,
+      "model_checks": 0,
+      "check_seconds": 50.442,
+      "observed_interval_seconds": 55946.440963983536
+    },
+    "observed_interval_seconds": 55946.440963983536,
+    "unobserved_gaps": [
+      {
+        "start": "2026-10-20T21:31:47.972789+00:00",
+        "end": "2026-10-21T06:06:01.787141+00:00",
+        "seconds": 30853.814352035522
+      }
+    ],
+    "current_no_new_geometric_rule_observed_seconds": 151.81540417671204,
+    "longest_no_new_geometric_rule_observed_seconds": 9912.242758989334,
+    "windows": {
+      "3600": {
+        "observed_seconds": 3577.3267409801483,
+        "new_checks": 777390,
+        "new_rules": 121993,
+        "rules_per_observed_hour": 122766.19716310033
+      },
+      "7200": {
+        "observed_seconds": 7181.506232023239,
+        "new_checks": 939428,
+        "new_rules": 145311,
+        "rules_per_observed_hour": 72842.60196939521
+      }
+    }
+  },
+  "limitations": [
+    "No total-work counter, coverage percentage, completion probability or ETA.",
+    "Quiet geometric counters do not measure internal logical progress or prove a hang.",
+    "Intervals over90s are unobserved gaps, not automatically sleep.",
+    "Process CPU is cumulative; journal window rates exclude unobserved gaps.",
+    "Live CDCL conflicts, decisions and internal learned clauses are not exposed.",
+    "This analyser does not stop, suspend, modify or launch a solver."
+  ]
+}

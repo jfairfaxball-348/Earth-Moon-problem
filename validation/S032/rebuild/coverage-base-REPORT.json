@@ -1,0 +1,14 @@
+{
+ "raw_labelled_edge_sets_before_other_constraints": "133062267322402410828859661069233974317163983949037631953067649784856572816440653126133468073603591681952756400",
+ "encoded_region_weight": "962529395115471692412201601417785885917459089893513951759976919652746177248195403766006103248781426290",
+ "proof_closed_region_weight": "9322744242554497409064302285487725332462425702686375763670797058696929893417609120764907699880974850",
+ "unresolved_region_weight": "953206650872917195003137299132298160584996664190827575996306122594049247354777794645241195548900451440",
+ "proof_closed_regions": 1,
+ "total_regions": 256,
+ "encoded_region_percentage": 0.9685672240104497,
+ "includes_retained_rules": false,
+ "mathematical_verdict": "UNKNOWN",
+ "meaning": "Labelled edge sets satisfying graph unit pins and m155/156; other constraints remain to be checked.",
+ "warning": "Encoder symmetry pins/sorting are not nonbiplanarity exclusions of differently labelled graphs. No ETA.",
+ "limitation": "This counts checked closed regions of the encoded domain, not graphs excluded solely by new rules or progress towards a witness. SAT and caps stay unresolved. A high percentage need not imply a short remaining runtime."
+}

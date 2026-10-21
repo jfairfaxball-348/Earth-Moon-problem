@@ -1,3 +1,15 @@
+# D070 S032 OWNER STOP — preserve rules and rebuild progress tools
+
+The owner stopped S032 on2026-10-21. All2579937 geometric rules are archived and independently checked. Monitor PAUSED. S032 closeout complete; rebuilt progress tools tested. No long search restart or S033 without fresh owner invocation. See docs/D070_S032_OWNER_STOP_AND_PROGRESS_REBUILD.md.
+
+# D069 S032 runs until stop — no eight-hour cutoff
+
+Latest owner instruction removes the fixed S032 wall limit. Keep one11GiB worker,10GiB disk reserve, checkpoints/monitoring and independent proof gates. See docs/D069_S032_NO_FIXED_WALL_LIMIT.md. S032 ONLY; S033 still requires fresh invocation.
+
+# D068 S032 invoked — IN_PROGRESS (2026-10-20)
+
+Owner "Okay, run next session" invokes S032 only under D047. See docs/D068_S032_INVOCATION.md and sessions/S032/PLAN.md. S031 remains last completed; no S033 authorization. Do not duplicate a running heavy process.
+
 # D067 S031 completed (2026-10-20; eight-hour persistent S11 cap)
 
 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full fresh271+K9 smoke/controls PASS. D066 S031-only scope is discharged by closeout; S032 FUTURE/UNEXECUTED requires fresh invocation. Parked queues and all scientific/publication gates unchanged.

@@ -601,8 +601,8 @@
     "url": "https://github.com/seanstock/bipsat2",
     "doi": null,
     "access": "STATEMENT_INSPECTED",
-    "accessed": "2026-10-19",
-    "note": "S029: README only: persistent Kuratowski lemmas, exact layer sizes, twin lex-leaders, DRAT replay via tools/replay.py; MIT. Not built or run."
+    "accessed": "2026-10-20",
+    "note": "S029: README only: persistent Kuratowski lemmas, exact layer sizes, twin lex-leaders, DRAT replay via tools/replay.py; MIT. Not built or run. S032: implementation/NOTICE/encoding formats inspected at ab6e472b7ef4ab7dca1d12c8907b3c74399d3828, optional-edge driver adapted to pinned CaDiCaL3.0.1 with independent subdivision guard; native build and scoped controls/diagnostic run locally. Twin/family encodings not imported. Free K9 UNKNOWN at60s/300s; no stratum verdict or novelty claim. S032 D070: instrumented successor adds internal counters only; final2579937 layer-clause audit passes. No exact projected graph count or runtime prediction; scope remains implementation inspection, not a new mathematical source claim."
   },
   {
     "id": "SRC-0056",

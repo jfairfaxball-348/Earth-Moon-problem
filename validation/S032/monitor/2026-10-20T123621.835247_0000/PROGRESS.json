@@ -1,0 +1,10 @@
+{
+ "pid": 12892,
+ "seconds": 22221.875,
+ "private_tree_kib": 1163872,
+ "peak_private_tree_kib": 1313708,
+ "free_disk_bytes": 102448209920,
+ "native_progress": "c S032_PROGRESS seconds=22200.661 checks=4819120 cuts=1044675 model_checks=0 check_seconds=16.243\r",
+ "verdict": "UNKNOWN",
+ "updated_utc": "2026-10-20T12:36:30.941787+00:00"
+}
