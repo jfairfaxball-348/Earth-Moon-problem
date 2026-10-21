@@ -54,7 +54,7 @@ done
 if [ ! -x "$BIN/cadical" ] || [ "$(cat "$BIN/cadical.pin" 2>/dev/null)" != "$CADICAL_SHA" ]; then
   say "building CaDiCaL $CADICAL_SHA"
   fetch_pin "$CADICAL_URL" "$CADICAL_SHA" "$SRC/cadical"
-  (cd "$SRC/cadical" && ./configure >>"$LOG" 2>&1 && make -j"$(nproc)" >>"$LOG" 2>&1)
+  (cd "$SRC/cadical" && ./configure >>"$LOG" 2>&1 && make -j"${EMP_BUILD_JOBS:-1}" >>"$LOG" 2>&1)
   cp "$SRC/cadical/build/cadical" "$BIN/cadical"
   echo "$CADICAL_SHA" > "$BIN/cadical.pin"
 fi

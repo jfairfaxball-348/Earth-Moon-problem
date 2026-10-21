@@ -29,3 +29,5 @@ jobs:
         run: python scripts/check_s031_records.py
       - name: Validate D072 phone S033 prompt and preserved S032 history
         run: python scripts/check_d072_active_prompt.py
+      - name: Validate S033 ARM64 environment evidence integrity
+        run: python scripts/check_s033_records.py

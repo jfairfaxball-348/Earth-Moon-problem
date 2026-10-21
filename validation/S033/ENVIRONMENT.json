@@ -1,0 +1,22 @@
+{
+ "purpose": "Realised cloud environment (D043); a new environment, not a byte reproduction of the Windows S004-S010 binaries",
+ "platform": "Linux-6.17.0-PRoot-Distro-aarch64-with-glibc2.41",
+ "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+ "packages": {
+  "python-sat": "1.9.dev15",
+  "networkx": "3.5",
+  "numpy": "2.5.4",
+  "pymupdf": "1.26.6"
+ },
+ "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+ "native_sources": {
+  "cadical": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "drat-trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+ },
+ "native_sha256": {
+  "cadical": "79b80ee92308f0f903868447d536ad43674ae96ef916af9649b38a9d5f814335",
+  "drat-trim": "892b3056a76c8f71f31a285b99033ce0f1e4c53606db1551b6daac99a024c21a"
+ },
+ "cpus": 10,
+ "mem_total_kib": 7397292
+}

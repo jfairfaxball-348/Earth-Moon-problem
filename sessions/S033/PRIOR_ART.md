@@ -1,0 +1,1 @@
+S033 is environment setup/verification, not a new literature or novelty session. Reused SRC-0055 pinned bipsat2 revision ab6e472b7ef4ab7dca1d12c8907b3c74399d3828 and inherited D043 CaDiCaL/drat-trim pins. No source access grade or mathematical claim promoted; catalogue MD/JSON remain unchanged and synced. No new witness or mathematical campaign.

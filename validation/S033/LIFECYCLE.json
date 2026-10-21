@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "mode": "bounded",
+      "status": "FINISHED_UNKNOWN",
+      "record": {
+        "status": "FINISHED_UNKNOWN",
+        "verdict": "UNKNOWN",
+        "input": "/root/Earth-Moon-problem/artifacts/tmp/S033/controls-v2/K9.inst",
+        "input_sha256": "90f98a5730c00873e284ece925305551bfe1a62ebc18112287a128eec84f9b9f",
+        "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+        "seconds_cap": 5,
+        "rss_cap_kib": 1048576,
+        "disk_reserve_bytes": 4294967296,
+        "directory": "/root/Earth-Moon-problem/artifacts/tmp/S033/diagnostic-1792612042532798218",
+        "controller_pid": 25739,
+        "peak_rss_kib": 9688,
+        "thermal": "UNAVAILABLE; no thermal safety claim",
+        "native_cdcl_state_saved": false,
+        "worker_pid": 25740,
+        "worker_start_ticks": "129218495",
+        "elapsed_seconds": 5.063978202990256,
+        "returncode": 0,
+        "cpu_seconds": 4.839697,
+        "wall_seconds": 5.171906835981645,
+        "free_disk_bytes": 16044011520
+      }
+    },
+    {
+      "mode": "stop",
+      "status": "OWNER_STOP",
+      "record": {
+        "status": "OWNER_STOP",
+        "verdict": "UNKNOWN",
+        "input": "/root/Earth-Moon-problem/artifacts/tmp/S033/controls-v2/K9.inst",
+        "input_sha256": "90f98a5730c00873e284ece925305551bfe1a62ebc18112287a128eec84f9b9f",
+        "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+        "seconds_cap": 5,
+        "rss_cap_kib": 1048576,
+        "disk_reserve_bytes": 4294967296,
+        "directory": "/root/Earth-Moon-problem/artifacts/tmp/S033/diagnostic-1792612048370090327",
+        "controller_pid": 25755,
+        "peak_rss_kib": 5184,
+        "thermal": "UNAVAILABLE; no thermal safety claim",
+        "native_cdcl_state_saved": false,
+        "worker_pid": 25769,
+        "worker_start_ticks": "129219079",
+        "elapsed_seconds": 0.2509810540359467,
+        "returncode": -15,
+        "cpu_seconds": 0.30967,
+        "wall_seconds": 0.5946489450288936,
+        "free_disk_bytes": 16043827200
+      }
+    },
+    {
+      "mode": "signal",
+      "status": "OWNER_STOP",
+      "record": {
+        "status": "OWNER_STOP",
+        "verdict": "UNKNOWN",
+        "input": "/root/Earth-Moon-problem/artifacts/tmp/S033/controls-v2/K9.inst",
+        "input_sha256": "90f98a5730c00873e284ece925305551bfe1a62ebc18112287a128eec84f9b9f",
+        "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+        "seconds_cap": 5,
+        "rss_cap_kib": 1048576,
+        "disk_reserve_bytes": 4294967296,
+        "directory": "/root/Earth-Moon-problem/artifacts/tmp/S033/diagnostic-1792612049340206812",
+        "controller_pid": 25795,
+        "peak_rss_kib": 4240,
+        "thermal": "UNAVAILABLE; no thermal safety claim",
+        "native_cdcl_state_saved": false,
+        "worker_pid": 25838,
+        "worker_start_ticks": "129219173",
+        "returncode": -15,
+        "cpu_seconds": 0.0077209999999999996,
+        "wall_seconds": 0.2524007809115574,
+        "free_disk_bytes": 16044294144
+      }
+    },
+    {
+      "mode": "kill_recover",
+      "status": "RECOVERED_UNKNOWN",
+      "record": {
+        "status": "RECOVERED_UNKNOWN",
+        "verdict": "UNKNOWN",
+        "input": "/root/Earth-Moon-problem/artifacts/tmp/S033/controls-v2/K9.inst",
+        "input_sha256": "90f98a5730c00873e284ece925305551bfe1a62ebc18112287a128eec84f9b9f",
+        "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+        "seconds_cap": 5,
+        "rss_cap_kib": 1048576,
+        "disk_reserve_bytes": 4294967296,
+        "directory": "/root/Earth-Moon-problem/artifacts/tmp/S033/diagnostic-1792612049919703296",
+        "controller_pid": 25866,
+        "peak_rss_kib": 0,
+        "thermal": "UNAVAILABLE; no thermal safety claim",
+        "native_cdcl_state_saved": false,
+        "worker_pid": 25867,
+        "worker_start_ticks": "129219231"
+      }
+    }
+  ],
+  "coverage_SIGTERM_cleanup": true
+}

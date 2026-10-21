@@ -1,0 +1,3 @@
+Ported the existing S032 guarded optional-edge bipsat2 engine to POSIX/aarch64 using pinned Linux CaDiCaL. Scientific source transformations and independent subdivision guard are reused; generated sources, compiler commands and source/executable hashes are in validation/S033/BUILD.json and native archive. New bounded POSIX/proot diagnostic supervision provides exclusive lock, atomic status, RSS/disk/wall caps, STOP, signal cleanup and stale-worker identity checks. Windows build and archived evidence are preserved.
+
+Full phone-local 271/271 byte identity/DRAT plus retained/fresh K9 smoke PASS; fixed native controls PASS, free native K9 UNKNOWN at2s. Full rules/mapping audit and lifecycle results are recorded in validation/S033. No new mathematical claim;9<=chi2<=12.

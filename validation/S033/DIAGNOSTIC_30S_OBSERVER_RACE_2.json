@@ -1,0 +1,22 @@
+{
+ "status": "RSS_UNAVAILABLE",
+ "verdict": "UNKNOWN",
+ "input": "/root/Earth-Moon-problem/artifacts/tmp/S033/coverage-full/cell-0128.inst",
+ "input_sha256": "28de738209f72d20753694782803b5fd7a9b0e2cb2e19a5186fd2437bae2f49f",
+ "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+ "seconds_cap": 30,
+ "rss_cap_kib": 1048576,
+ "disk_reserve_bytes": 4294967296,
+ "directory": "/root/Earth-Moon-problem/artifacts/tmp/S033/diagnostic-1792611904607800054",
+ "controller_pid": 24555,
+ "peak_rss_kib": 381608,
+ "thermal": "UNAVAILABLE; no thermal safety claim",
+ "native_cdcl_state_saved": false,
+ "worker_pid": 24645,
+ "worker_start_ticks": "129204738",
+ "elapsed_seconds": 3.217461289023049,
+ "returncode": 20,
+ "cpu_seconds": 3.081550000000002,
+ "wall_seconds": 3.549742422066629,
+ "free_disk_bytes": 16054059008
+}

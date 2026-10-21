@@ -1,3 +1,7 @@
+# S033 completed — ARM64 phone validated (2026-10-21)
+
+PHONE_READY_VALIDATED: real guarded native build, full271+retained/fresh K9 smoke,1024n5/K33/positive24, full retained-rule/mapping audit and STOP/signal/kill recovery PASS. Free native K9 UNKNOWN at2s. Thermal readings unavailable; short one-worker diagnostics only. Classical9<=chi2<=12; S11 UNKNOWN, S10/S9/S8 NOT_RUN. S034 is FUTURE/UNEXECUTED and requires fresh owner invocation. D072 same-main/no-PR and rollback rules continue. See sessions/S033/CLOSEOUT.md and docs/S033_PHONE_GUIDE.md.
+
 # D072 (2026-10-21) — phone ARM64 environment test; current S033 authority
 
 The ACTIVE NEXT SESSION is now **S033: Samsung Galaxy S24 / Termux / Debian (proot) ARM64 port and verification**. S033 is setup plus rigorous validation, NOT the D071 parallel SAT campaign. Move D071's planned genuine worker/parallel search to S034 after phone validation. Owner will make an ordinary full clone, accepting ~1.5GB data, and wants NO new project, repo, development branch or PR. Phone experiment works in this repository on 'main' using normal non-force Git commits/push where allowed; this narrowly overrides old branch/PR session protocol but NEVER mathematical certification or archive integrity. Existing Windows/laptop solver is retained; phone adjustments reversible using 'git revert'. Saying "run next session" in the clone invokes S033 under D047; do not run S034 automatically. See authoritative/NEXT_SESSION_PROMPT.md and docs/D072_S033_PHONE_TEST_DIRECTIVE.json.

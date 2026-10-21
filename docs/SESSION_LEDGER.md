@@ -73,3 +73,5 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 | S031 | 2026-10-19/20 | D065 launch, D066 S031 ONLY; local Codex; CAM0037 persistent worker | 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. | Complete capped; S032 FUTURE/UNEXECUTED; stop |
 
 | S032 | 2026-10-20/21 | D068 invocation, D069 no fixed wall, D070 owner stop/rebuild; local Codex, CAM0038 |2579937 geometric rules independently audited; no model/stratum/witness; S11 UNKNOWN; proof-backed region tooling and native telemetry rebuilt/tested;9<=chi2<=12 | Complete owner-stopped; S033 FUTURE, no automatic resume |
+
+| S033 | 2026-10-21 | D047 invocation, D072 ARM64 phone setup; existing main | PHONE_READY_VALIDATED: real native build, full271+K9 smoke,1024n5/K33/positive24, full rules/mapping audit, STOP/signal/kill recovery; no math advance | Complete; S034 FUTURE/UNEXECUTED |

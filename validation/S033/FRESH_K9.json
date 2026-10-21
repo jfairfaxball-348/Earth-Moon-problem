@@ -1,0 +1,7 @@
+{
+  "fresh_solver_proof_sha256": "ab3b665af9601da8c423974dd2abc8dcfff0dc0bde377fd653dcb7e001774c6b",
+  "permanent_identical_bytes_archive": "validation/S004/controls/cover-K9.drat.gz",
+  "reason": "Fresh deterministic phone proof is byte-identical to retained proof; preserve existing content rather than duplicate it",
+  "fresh_cnf_sha256": "92512fcbdaaba1e89830df47a52f78d88099af6a9e3229dcefb62e063df8a00d",
+  "fresh_check_verified": true
+}

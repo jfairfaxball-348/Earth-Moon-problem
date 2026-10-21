@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-20",
-  "last_completed_session": "S032",
-  "recommended_next_session": "S033",
+  "as_of": "2026-10-21",
+  "last_completed_session": "S033",
+  "recommended_next_session": "S034",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S032",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S033",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,17 +83,21 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S033 FUTURE/UNEXECUTED; no automatic S032 resume. Exact projected count/ETA not computed; use bounded proof-backed region accounting if owner invokes.",
+    "S034 FUTURE/UNEXECUTED; no automatic solver campaign. Fresh same-phone acceptance and practical finite campaign budget required.",
     "S11 m155/156 UNKNOWN; regular154 SOURCE_STATED, finite RUP branches only.",
     "S10/S9 NOT_RUN; delta>=9 conditional on SRC0037; unconditional S8 NOT_RUN.",
-    "All parked queues and publication/outreach/formalisation gates unchanged;9<=chi2<=12."
+    "All parked queues/publication/formalisation gates unchanged;9<=chi2<=12. Thermal readings unavailable."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "codex/S032-partial-planarity",
-  "latest_session_entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+  "latest_session_branch": "main",
+  "latest_session_entry_main": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
   "latest_session_integration": {
-    "status": "S032_IDENTITIES_TO_BE_VERIFIED_LIVE_AFTER_COMMIT",
-    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f"
+    "status": "OWNER_GITHUB_CONNECTION_FAST_FORWARD_PENDING",
+    "entry_main": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
+    "authority": "D072 same-main/no-PR override",
+    "remote_main_observed": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
+    "hosted_post_session_checks": "VERIFY_AFTER_PUBLICATION",
+    "transport": "Authenticated owner GitHub Git-data API; identical local tree; non-force leased main update"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -460,7 +464,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S032 FUTURE: diagnose/strengthen persistent S11 method, revalidate saved semantic cuts; no unchanged automatic eight-hour rerun.",
+  "next_session_priority": "S034 FUTURE: real bounded solver session after fresh full phone acceptance and practical budget; D071 exact region scheduling; initially ONE worker.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1589,5 +1593,45 @@
     "exact_projected_excluded_graph_count": "NOT_COMPUTED",
     "coverage_demo": "cell128 checked UNSAT both base-only and augmented; baseline encoder closure, not a new graph result",
     "next_session": "S033_FUTURE_UNEXECUTED"
+  },
+  "s033_environment": {
+    "session": "S033",
+    "mobile_verdict": "PHONE_READY_VALIDATED",
+    "architecture": "aarch64",
+    "phone_model": "SM-S921B",
+    "platform": "Android16 / Termux / Debian13 proot",
+    "full_smoke": "PASS_271_PLUS_RETAINED_AND_FRESH_K9",
+    "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+    "native_controls": "SCOPED_PASS_WITH_FREE_K9_UNKNOWN",
+    "free_native_K9": "UNKNOWN_AT_2S",
+    "rules": 2579937,
+    "input_audit": "PASS",
+    "input_audit_seconds": 209.17654058593325,
+    "audit_networkx_comparison_controls": 3583,
+    "lifecycle": "PASS",
+    "diagnostic_status": "FINISHED_UNKNOWN",
+    "diagnostic_wall_seconds": 21.787098359083757,
+    "diagnostic_cpu_seconds": 21.163325999999998,
+    "diagnostic_peak_rss_kib": 385572,
+    "thermal": "UNAVAILABLE; no thermal/throttling guarantee",
+    "caps": {
+      "workers": 1,
+      "native_wall_max_seconds": 30,
+      "rss_kib": 1048576,
+      "disk_reserve_bytes": 4294967296
+    },
+    "S11_m155_156": "UNKNOWN",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8": "NOT_RUN",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "witness_established": false,
+    "certified_strata": [],
+    "S034_executed": false,
+    "windows_support": "build scripts retained; Windows execution not tested on ARM64",
+    "rollback": "ordinary git revert of S033 commit; preserve later work"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "session": "S033",
+  "mobile_verdict": "PHONE_READY_VALIDATED",
+  "architecture": "aarch64",
+  "phone_model": "SM-S921B",
+  "platform": "Android16 / Termux / Debian13 proot",
+  "full_smoke": "PASS_271_PLUS_RETAINED_AND_FRESH_K9",
+  "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+  "native_controls": "SCOPED_PASS_WITH_FREE_K9_UNKNOWN",
+  "free_native_K9": "UNKNOWN_AT_2S",
+  "rules": 2579937,
+  "input_audit": "PASS",
+  "input_audit_seconds": 209.17654058593325,
+  "audit_networkx_comparison_controls": 3583,
+  "lifecycle": "PASS",
+  "diagnostic_status": "FINISHED_UNKNOWN",
+  "diagnostic_wall_seconds": 21.787098359083757,
+  "diagnostic_cpu_seconds": 21.163325999999998,
+  "diagnostic_peak_rss_kib": 385572,
+  "thermal": "UNAVAILABLE; no thermal/throttling guarantee",
+  "caps": {
+    "workers": 1,
+    "native_wall_max_seconds": 30,
+    "rss_kib": 1048576,
+    "disk_reserve_bytes": 4294967296
+  },
+  "S11_m155_156": "UNKNOWN",
+  "S10": "NOT_RUN",
+  "S9": "NOT_RUN",
+  "S8": "NOT_RUN",
+  "range": {
+    "lower": 9,
+    "upper": 12
+  },
+  "witness_established": false,
+  "certified_strata": [],
+  "S034_executed": false,
+  "windows_support": "build scripts retained; Windows execution not tested on ARM64",
+  "rollback": "ordinary git revert of S033 commit; preserve later work"
+}

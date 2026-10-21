@@ -102,6 +102,19 @@ def linux_tree(root):
     return found, sum(processes.get(p,(0,0))[1] for p in found)
 
 
+def observed_tree_bytes(root_pid):
+    """Platform memory observation; fail closed if POSIX RSS is unavailable."""
+    if os.name == 'nt':
+        return windows_tree_bytes(root_pid)
+    status = Path(f'/proc/{root_pid}/status').read_text()
+    if 'VmRSS:' not in status:
+        raise RuntimeError('RSS unavailable for supervised process')
+    _, rss = linux_tree(root_pid)
+    if rss <= 0:
+        raise RuntimeError('RSS unavailable for supervised process tree')
+    return rss * 1024
+
+
 def kill_tree(process):
     if os.name=='posix':
         descendants,_=linux_tree(process.pid)

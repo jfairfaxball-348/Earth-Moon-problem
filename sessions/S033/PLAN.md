@@ -1,0 +1,5 @@
+Preregistered: ARM64 Debian13/proot; serial compilation; one native worker; diagnostic <=30 seconds, RSS <=1048576 KiB, free disk >=4 GiB. No long campaign. Full 271+retained/fresh K9 smoke required before native controls. All1024 n5, K33, positive24, 2-second free K9 UNKNOWN allowed. Verify archived rule hash/count and bijective input mapping. Test STOP, signals and kill recovery. Unavailable thermal/RSS readings block trustworthy monitored search. Preserve all S032 archive bytes.
+
+Audit amendment before execution: replace expensive NetworkX object construction with independent adjacency-set subdivision suppression; compare on exhaustive n5, sampled n6 and512 subdivided K5/K33 controls, then audit every retained clause and exact mapping. Stop original uncompleted audit; never accept its partial progress.
+
+Diagnostic refinement:10s startup cap repeated at registered30s maximum; observed RSS/normal-exit race fixed using a bounded exit wait and lifecycle/full-input checks repeated. Final21.79s/21.16CPU,385572KiB RSS, all2915975 clauses read; known cell128 only.

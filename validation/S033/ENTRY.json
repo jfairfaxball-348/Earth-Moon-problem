@@ -1,0 +1,20 @@
+{
+  "architecture": "aarch64",
+  "platform": "Linux-6.17.0-PRoot-Distro-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "rules": {
+    "lines": 2579937,
+    "bytes": 189309949,
+    "sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177"
+  },
+  "entry_main": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
+  "thermal_readings": {},
+  "termux_version_environment": "UNAVAILABLE",
+  "phone_properties": {
+    "ro.product.model": "SM-S921B",
+    "ro.product.manufacturer": "samsung",
+    "ro.build.version.release": "16"
+  },
+  "proot_version": " _____ _____              ___\n|  __ \\  __ \\_____  _____|   |_\n|   __/     /  _  \\/  _  \\    _|\n|__|  |__|__\\_____/\\_____/\\____| 5.1.107.98\n\nbuilt-in accelerators: process_vm = yes, seccomp_filter = yes\n\nVisit http://proot.me for help, bug reports, suggestions, patchs, ...\nCopyright (C) 2015 STMicroelectronics, licensed under GPL v2 or later.\n",
+  "uname_is_proot_reported": true
+}
