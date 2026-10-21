@@ -74,3 +74,10 @@ archives are frozen under validation/S032/start and START_MANIFEST.json.
 Normal completed-session scaffold invariants intentionally do not hold during
 this active campaign; use scripts/check_s032_running.py. Do not manufacture a
 closeout to make governance CI green.
+
+Owner-requested read-only analyser (2026-10-21): run
+`.venv/Scripts/python.exe scripts/analyse_s032_progress.py --out validation/S032/progress-analysis`
+during scheduled checks. This samples query-only process CPU and streams the
+existing journal, separating long unobserved gaps from observed running time.
+Report rule/check throughput and quiet stretches; these are NOT coverage or ETA.
+It never stops, suspends, modifies or launches a solver. See PROGRESS_ANALYSIS.md.
