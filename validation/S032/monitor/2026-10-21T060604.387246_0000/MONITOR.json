@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-21T06:07:08.768120+00:00",
+  "status": "RUNNING_AFTER_OVERNIGHT_EXECUTION_GAP",
+  "verdict": "UNKNOWN",
+  "checkpoint_prefix_sha256_verified": true,
+  "checkpoint_lines": 2465141,
+  "native_pid": 12892,
+  "controller_pid": 13056,
+  "source_native_runtime_input_hashes_match": true,
+  "native_cpu_seconds_observed": 54212.1875,
+  "controller_cpu_seconds_observed": 612.703125,
+  "native_private_bytes_observed": 766787584,
+  "controller_private_bytes_observed": 1761648640,
+  "no_fixed_wall_limit": true,
+  "no_new_worker_started": true,
+  "observation": "Windows Power-Troubleshooter confirms low-power interval 2026-10-20T21:31:45.827796900Z to 2026-10-21T06:06:01.114659500Z; Kernel-Power sleep reason Battery. Same controller/native PIDs survived. Native CPU advanced from54212.1875 to54242.359375 seconds after wake. BatteryStatus2 (AC) at6percent. No restart performed."
+}

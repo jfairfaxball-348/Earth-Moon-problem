@@ -1,0 +1,55 @@
+{
+ "session": "S032",
+ "pid": 13056,
+ "status": "STOPPED_UNKNOWN_REVIEW_REQUIRED",
+ "started_utc": "2026-10-20T06:25:56.744128+00:00",
+ "search_cap_seconds": null,
+ "external_cap_seconds": null,
+ "no_fixed_wall_limit": true,
+ "duration_authority": "D069 owner continue until stop",
+ "proof_wall_limit_seconds": null,
+ "memory_cap_kib": 11534336,
+ "diagnostic": false,
+ "input_sha256": "550400a312b17d144b40dc376842fd7506f351c9828f0c0c759b4e4839d7679c",
+ "native_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105",
+ "session_closed": false,
+ "witness_established": false,
+ "native_control_scope": "SCOPED_PASS_WITH_FREE_K9_UNKNOWN",
+ "source_sha256": {
+  "scripts/run_s032_native.py": "70f649de925d02fe87715399b562ae072e3d140334a3cb06471e4c64d01fa278",
+  "scripts/build_s032_native.py": "8ae7e7093b39e099859d45e3516196c89801dcd75a302fe7131ee1adac16001e",
+  "scripts/prepare_s032.py": "8e99245ccd438f83ab2fa62b417062f1cb57289379f08eeb81369743e440a0da",
+  "scripts/check_s032_native.py": "705dd9138525051fa65ea3cd56beb431aa5c1d71fd221b42f1c43eef28acdf0c",
+  "tools/s032_subdivision.hpp": "c429176a1fc3a59cd6893c950469130fd8953e13528bbb12d257262ee044c727",
+  "tools/s030_op1b.py": "777e65808e679338e5840723769cc99f6f9fdc257d821ba3989547d32416c822",
+  "tools/s031_check.py": "2162209743267bafd32bd10cc4f723989f5dbce2183ffb0d31e0fffa5faaf211",
+  "scripts/replay_s030_search.py": "297f7f655a66ab50fa3459cb6a893be52422f855e704a2586edd7a4bda669a40",
+  "tools/s026_supervision.py": "2775bbc9dbd4e953159fa643b61be81f0195d6f01a88fcb0cef2d0f4cd17ff26"
+ },
+ "runtime_sha256": {
+  "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libc++.dll": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b",
+  "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libunwind.dll": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780"
+ },
+ "resumed_lemma_count": 162536,
+ "resumed_lemma_sha256": "06c6ba9e4ab778ed45395df083c94c443ab750a8d9443c489482ff7e3dc5e6f2",
+ "sleep_inhibition_requested": true,
+ "worker_pid": 12892,
+ "command": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\native\\bipsat_s032.exe",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\S11.inst",
+  "--timeout",
+  "inf",
+  "--lemmas",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\campaign\\learned.lem"
+ ],
+ "updated_utc": "2026-10-21T06:55:03.417464+00:00",
+ "worker_result": {
+  "returncode": 1,
+  "stop_reason": "OWNER_STOP",
+  "seconds": 88133.828,
+  "peak_aggregate_private_kib": 2774176,
+  "free_disk_bytes": 110714245120
+ },
+ "finished_utc": "2026-10-21T06:55:03.419463+00:00",
+ "sleep_inhibition_released": true
+}

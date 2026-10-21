@@ -1,0 +1,102 @@
+{
+  "scope": "S032 running launch snapshot, not session closeout",
+  "recorded_utc": "2026-10-20T06:27:44.817251+00:00",
+  "artifact_sha256": {
+    "validation/S032/start/base.cnf.gz": {
+      "bytes": 1289188,
+      "sha256": "84528229faf51678abc3404db75070dade111393d99265f689fec0ed133fea9f"
+    },
+    "validation/S032/start/BUILD.json": {
+      "bytes": 39856,
+      "sha256": "39dec5de8b16f8affe43cecf9fcb8fbb907f6f2ee81998444d5e4be2bb81d997"
+    },
+    "validation/S032/start/build.log": {
+      "bytes": 19351,
+      "sha256": "503a9451c2413b4a9ea89612686689677de6a8e57b1080502f0d2cb7a85c158f"
+    },
+    "validation/S032/start/CONTROLS.json": {
+      "bytes": 387,
+      "sha256": "ccecc3bff877b656ca97ede849d3e23c77fe6389e5506fbc017c35858817eb70"
+    },
+    "validation/S032/start/DIAGNOSTIC_AUDIT.json": {
+      "bytes": 766,
+      "sha256": "3714ee687954035fdccb3400a526baa2ad7cfcbcdaa4f2a741c32c09858a4408"
+    },
+    "validation/S032/start/diagnostics.tar.gz": {
+      "bytes": 3484169,
+      "sha256": "cda929ff87b9b954ce5f86701cd024819cdfa5f136b93c6d086f932a2fd240a7"
+    },
+    "validation/S032/start/ENTRY_VERIFICATION.json": {
+      "bytes": 43899,
+      "sha256": "310f8de4f719d264c364c5caa92dcc3e0381039515a9dfc46a141eed3b384532"
+    },
+    "validation/S032/start/ENVIRONMENT.json": {
+      "bytes": 764,
+      "sha256": "d36769bf8844d68e0bdc4d3ac6eca3080bccc34ffaca1a97cbffa1655906b113"
+    },
+    "validation/S032/start/GATE.json": {
+      "bytes": 368,
+      "sha256": "6ac0024872d046872e4eb0f9d29457eeb890ff92b76d07d9d06c6a76a9977044"
+    },
+    "validation/S032/start/INFINITE_TIMEOUT_CONTROL.json": {
+      "bytes": 3610,
+      "sha256": "71362b7c029b0c63fbbea3468d89c3f03b5de7b902c5390c5c0026224bd2a0e8"
+    },
+    "validation/S032/start/INITIAL_CHECKPOINT.json": {
+      "bytes": 644,
+      "sha256": "69ec25119aa4f7e18708f01e9f501df4700526e936ffdd11f0c4d9d3c7eea938"
+    },
+    "validation/S032/start/INITIAL_CONTROLLER.json": {
+      "bytes": 2374,
+      "sha256": "d772ec19f8a3936ebfcd9b42a983fb4e74393d802194dfd2b5b999e16df1f1c4"
+    },
+    "validation/S032/start/INITIAL_PROGRESS.json": {
+      "bytes": 326,
+      "sha256": "fd58ccca9e3bb245a53faf38e5377054031d57b84f84007796dcc387c28094e5"
+    },
+    "validation/S032/start/INITIAL_WORKER.json": {
+      "bytes": 445,
+      "sha256": "a46a5e0a59cc7d8e5c491cbff164b5d6a0f066e47797fce746aa4ac303d2053b"
+    },
+    "validation/S032/start/INPUTS.json": {
+      "bytes": 349606,
+      "sha256": "d49e957f503f2ce2d7f9f0dd1d111364919976366cb254fd95a919a8267d6799"
+    },
+    "validation/S032/start/native-source-runtime.tar.gz": {
+      "bytes": 2153665,
+      "sha256": "c744c960101a6a2c7f6aa4f1ca7aa8ade4e0d48810f306a5e2f4242f1f603ae3"
+    },
+    "validation/S032/start/NATIVE_CONTROLS.json": {
+      "bytes": 9151,
+      "sha256": "6656af07d1a479f52e9c2ec6c1b288db3f5b9c1ff29ee56f773ac7bb7150b4a9"
+    },
+    "validation/S032/start/original.cnf.gz": {
+      "bytes": 1268558,
+      "sha256": "c785a06bddcbc38a8f349a1e221e4aa910fedb18b4b1322b111bd786df3a3650"
+    },
+    "validation/S032/start/prior-art/ARTICLE_COMPARISON.json": {
+      "bytes": 651,
+      "sha256": "209812219a38827226421feda89ea44d828d5ebbdca5f763c72bedc948398f8f"
+    },
+    "validation/S032/start/prior-art/FETCH_RECEIPTS.json": {
+      "bytes": 1707,
+      "sha256": "a7da661c19fff8140bc645935e2be299921464c7210e5b06fa4a4c2748c2f8a4"
+    },
+    "validation/S032/start/S030_REPLAY.json": {
+      "bytes": 803,
+      "sha256": "795d8acc5bf6c7d3747749570fcff4b87a1684d113bf35c810e6d4da8a3248ed"
+    },
+    "validation/S032/start/S11.inst.gz": {
+      "bytes": 1289752,
+      "sha256": "6e4781cf720dde81843cda39fdc4f817807fd0e29b824b0ee9abe68199f4b48a"
+    },
+    "validation/S032/start/SMOKE.json": {
+      "bytes": 35257,
+      "sha256": "63737317fadf52ed1a6c8f9d66a8ceaaa31606b9f50764f9421c84eb65e816d7"
+    },
+    "validation/S032/start/THIRD_PARTY_NOTICES.md": {
+      "bytes": 838,
+      "sha256": "328baaf36d82355e1af93220445d8358430b6417504d58a6892ebc98470067fc"
+    }
+  }
+}

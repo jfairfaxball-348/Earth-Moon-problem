@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "directory": "diagnostic",
+  "independently_checked_native_clauses": 162536,
+  "base_clauses": 336030,
+  "bijective_renaming_checked": true,
+  "native_stats": {
+    "checks": 829538,
+    "nonplanar": 162536,
+    "clauses_added": 162536,
+    "model_checks": 0
+  },
+  "worker_result": {
+    "returncode": 0,
+    "stop_reason": null,
+    "seconds": 300.75,
+    "peak_aggregate_private_kib": 148924,
+    "free_disk_bytes": 102761308160
+  },
+  "verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "witness_established": false,
+  "native_source_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105",
+  "lemma_sha256": "06c6ba9e4ab778ed45395df083c94c443ab750a8d9443c489482ff7e3dc5e6f2",
+  "seconds": 12.78100000001723
+}

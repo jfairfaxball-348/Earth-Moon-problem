@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-20T16:34:42.833967+00:00",
+  "status": "HEALTHY_RUNNING",
+  "verdict": "UNKNOWN",
+  "checkpoint_prefix_sha256_verified": true,
+  "checkpoint_lines": 1685623,
+  "native_pid": 12892,
+  "controller_pid": 13056,
+  "source_native_runtime_input_hashes_match": true,
+  "native_cpu_seconds_observed": 36388.84,
+  "controller_cpu_seconds_observed": 349.42,
+  "native_private_bytes_observed": 611823616,
+  "controller_private_bytes_observed": 1187237888,
+  "no_fixed_wall_limit": true,
+  "no_new_worker_started": true
+}

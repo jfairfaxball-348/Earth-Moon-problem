@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "directory": "campaign",
+  "independently_checked_native_clauses": 2579937,
+  "base_clauses": 336030,
+  "bijective_renaming_checked": true,
+  "native_stats": null,
+  "worker_result": {
+    "returncode": 1,
+    "stop_reason": "OWNER_STOP",
+    "seconds": 88133.828,
+    "peak_aggregate_private_kib": 2774176,
+    "free_disk_bytes": 110714245120
+  },
+  "verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "witness_established": false,
+  "native_source_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105",
+  "lemma_sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+  "seconds": 192.3279999999795
+}

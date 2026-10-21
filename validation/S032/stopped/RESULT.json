@@ -1,0 +1,14 @@
+{
+ "returncode": 1,
+ "stop_reason": "OWNER_STOP",
+ "seconds": 88133.828,
+ "peak_aggregate_private_kib": 2774176,
+ "free_disk_bytes": 110714245120,
+ "S11_m155_156": "UNKNOWN",
+ "S10": "NOT_RUN",
+ "S9": "NOT_RUN",
+ "S8": "NOT_RUN",
+ "whole_stratum_certified": false,
+ "witness_established": false,
+ "native_cdcl_state_saved": false
+}

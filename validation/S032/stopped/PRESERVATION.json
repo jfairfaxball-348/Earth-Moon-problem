@@ -1,0 +1,10 @@
+{
+  "status": "OWNER_STOPPED_UNKNOWN_RULES_PRESERVED",
+  "utc": "2026-10-21T06:56:29.554746+00:00",
+  "rules": 2579937,
+  "bytes": 189309949,
+  "sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+  "native_cdcl_state_saved": false,
+  "no_restart_authorized": true,
+  "native_exe_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105"
+}

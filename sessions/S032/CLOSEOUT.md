@@ -1,0 +1,52 @@
+# S032 closeout — safely stopped; rules preserved; progress tools rebuilt
+
+Owner stopped the long campaign under D070 on2026-10-21. Registered STOP
+produced OWNER_STOP, the native/controller exited, lock cleared and sleep
+inhibition released. Monitor PAUSED. No long search has been restarted.
+
+Retained2579937 complete geometric rules (162536 diagnostic seeds plus2417401
+campaign additions),189309949 bytes, zero partial tail. Full independent
+subdivision audit and exact336030-clause/17976-variable input renaming passed.
+Uncompressed SHA2566e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177.
+The190MB plain file and lossless archive are verified; compressed bytes, exact
+source/runtime/input and controls are permanently archived. Private CDCL state
+was lost at stop, as disclosed; semantic geometric knowledge is preserved.
+
+Wall duration88133.828s includes8h34m battery sleep; about15.9 CPU hours were
+observed before stop. Last native counters14653878 partial checks, zero complete
+models. Peak aggregate private2774176KiB, below11GiB. S11 UNKNOWN; no witness,
+stratum proof or lower-bound advance. Regular154 source-stated; S10/S9/S8
+NOT_RUN and conditional-delta/parked/publication/formalisation gates unchanged.
+
+Built a separate native successor with periodic/final conflicts, decisions and
+propagations telemetry. Rebuilt1024 exhaustive n5/fixed K33/positive24 controls
+passed.2s free K9 remained UNKNOWN; neither earlier60s/300s caps nor this stress
+test certify K9. New disjoint-region accounting has exact combinatorial weights
+and requires standalone checked DRAT to close a region. Tiny controls test SAT
+remaining unresolved, damaged-proof rejection and exact weights. Exported real
+cell128 payload byte-matches its independently refuted formula.
+
+Real cell128 is checked UNSAT both WITHOUT and WITH retained campaign clauses.
+It closes0.9685672240percent of the stated unit-pinned encoded denominator,
+already implied by baseline encoder/symmetry constraints. This is NOT a new
+nonbiplanar graph exclusion, a measured benefit from new rules, a witness, or
+percent-to-solution. Its first augmented15s checker cap remains UNKNOWN;
+later60s replay/check succeeded. All proof/cap bytes are archived. Other255
+regions unresolved; no exact count of graphs excluded solely by learned layer
+rules was computed. That would require projected counting over graph edges with
+existential layer/auxiliary assignments, not addition of rule effects.
+
+Read PROGRESS_TOOLS.md for CLI commands and limitations. `report` starts no
+solver; `check` explicitly starts bounded standalone proof work only; `export`
+writes future region input only. No successor search or S033 was executed.
+Historical RUNNING/PLAN/launch snapshots retain original wording/provenance;
+D070 supersedes D069 continuation. S033 future prompt requires fresh invocation
+and a practical budget, fresh smoke and domain/resource/proof gates.
+
+One atomic authored session commit from entrymain e3145c77a7350ebd2c8aa3197cf97bf5e626099f;
+WIP backup history is never inherited. Ordinary PR/non-force two-parent merge
+and actual head/main hosted jobs are verified after commit. Job identities are
+reported live because a commit cannot pin its own final hash. Scaffold checks
+test integrity/governance, not mathematical soundness or search exhaustion.
+
+Validation: rebuilt1024 fixed controls, K33/positive24, periodic/final internal telemetry,2s free-K9 stress (UNKNOWN), proof-backed toy-region checks, damaged-proof rejection, real cell128 base/augmented DRAT, exact exported formula comparison, all10 existing tests and S026/S027/D062/S029-history/S030/S031/S032 archive/governance checks PASS. Hosted checks verified separately after push/merge.

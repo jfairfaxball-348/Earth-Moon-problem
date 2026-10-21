@@ -1,0 +1,48 @@
+"""Never-merged WIP snapshot without changing the actual session branch/index."""
+from datetime import datetime,timezone
+import json
+import os
+from pathlib import Path
+import subprocess
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'artifacts/tmp/S032'
+REF='refs/heads/wip/S032-long-run'
+
+
+def main():
+    state=json.loads((ROOT/'authoritative/STATE.json').read_text(encoding='utf-8'))
+    assert state['active_session']['id']=='S032' and state['last_completed_session']=='S031'
+    temp_index=OUT/f'backup-{os.getpid()}.index'
+    assert temp_index.parent.resolve()==OUT.resolve()
+    env=os.environ.copy();env['GIT_INDEX_FILE']=str(temp_index)
+    def git(args,**kw):
+        return subprocess.check_output(['git',*args],cwd=ROOT,env=env,**kw).decode().strip()
+    try:
+        entry=git(['rev-parse','HEAD'])
+        assert entry=='e3145c77a7350ebd2c8aa3197cf97bf5e626099f'
+        git(['read-tree','HEAD'])
+        paths=['.gitattributes','AGENTS.md','authoritative/STATE.json','authoritative/START_HERE.md','campaigns/CAM-0038.md',
+               'campaigns/README.md','docs/D068_S032_INVOCATION.md','docs/D069_S032_NO_FIXED_WALL_LIMIT.md','docs/DECISION_LOG.md',
+               'docs/SESSION_LEDGER.md','catalogue/SOURCES.json','catalogue/SOURCES.md','catalogue/CLAIMS.json','catalogue/CLAIMS.md','sessions/S032','validation/S032']
+        paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'scripts').glob('*s032*.py')]
+        paths += [p.relative_to(ROOT).as_posix() for p in (ROOT/'tools').glob('s032_*') if p.is_file()]
+        git(['add','--',*paths])
+        tree=git(['write-tree'])
+        previous=subprocess.run(['git','rev-parse','--verify',REF],cwd=ROOT,capture_output=True,text=True)
+        parent=previous.stdout.strip() if previous.returncode==0 else entry
+        commit=git(['commit-tree',tree,'-p',parent],input=b'WIP S032 running long campaign; backup only, never merge\n')
+        git(['update-ref',REF,commit,parent if previous.returncode==0 else '0'*40])
+        git(['-c','credential.helper=','-c','credential.helper=manager','-c','credential.username=jfairfaxball-348',
+             'push','origin',f'{commit}:{REF}'])
+        remote=git(['ls-remote','origin',REF]).split()[0];assert remote==commit
+        assert git(['rev-parse','HEAD'])==entry
+        receipt={'commit':commit,'tree':tree,'ref':REF,'never_merge':True,'session_head_unchanged':entry,
+                 'utc':datetime.now(timezone.utc).isoformat()}
+        (OUT/'WIP_BACKUP.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8',newline='\n')
+        print(json.dumps(receipt))
+    finally:
+        temp_index.unlink(missing_ok=True)
+
+
+if __name__=='__main__':main()

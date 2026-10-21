@@ -1,0 +1,716 @@
+{
+  "verified_utc": "2026-10-20T06:14:17.101566+00:00",
+  "main": {
+    "returncode": 0,
+    "data": {
+      "sha": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "node_id": "C_kwDOVGR21NoAKGUzMTQ1Yzc3YTczNTBlYmQyYzhhYTMxOTdjZjk3YmY1ZTYyNjA5OWY",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/commits/e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/commit/e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "author": {
+        "name": "John Fairfax-Ball",
+        "email": "jfairfaxball@gmail.com",
+        "date": "2026-10-20T02:51:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-20T02:51:42Z"
+      },
+      "tree": {
+        "sha": "65007fedfa7b7488cd104169c00c4125809c4f18",
+        "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/trees/65007fedfa7b7488cd104169c00c4125809c4f18"
+      },
+      "message": "Merge pull request #40 from jfairfaxball-348/codex/S031-persistent-op1b\n\nS031: archive eight-hour persistent S11 cap and checked evidence",
+      "parents": [
+        {
+          "sha": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/commits/dd802686215781cbc35aa86ea14c54369aaec7e5",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/commit/dd802686215781cbc35aa86ea14c54369aaec7e5"
+        },
+        {
+          "sha": "8718f45230726362b8eed7b5964b12035cda81a5",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/commits/8718f45230726362b8eed7b5964b12035cda81a5",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/commit/8718f45230726362b8eed7b5964b12035cda81a5"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq1tc+CRC1aQ7uu5UhlAAA7mUQAGTAdBAx2zB5K29YDhmQ+s8N\nT+essIyxe8z8u5yOqM/YWHqgynV+mDeTYfMpbhSM3q/rJwo44BFrzDAcr2/pbwyX\nJmzu7GpSIsscz4hUiuPhqxXH+2U0+JTdBz1lAKmJqJpVh4aCwoMsGX/SCjDSAEcT\nfEnZh4Mhyz9BuKSjpogL6BMEmlgdY6ZJJ1eEqkdxSY6HhDUioKLModYFV29WX7mz\nlLtM7dsBrp4ArkgFOz4WyOZc6l5u2+zNvRB+pv+r4l1q+sopQaHkMt5sxLdsSKDz\n+mIAVMDs0qewFjInih1fkrJFG2NwLdzy6Y7ZFwMhpWjEOdRmnUKa0YLLPIkI1SoO\ntRTW+KqRy40Vc+yTWnhxG+HHTrH0Cau4h1S4ubzTSy57flJlJMpq4DaBNR/QhQVD\n5pYqXQWK4/xBg4wP8ca369yRKyFgytKlGZ6Bs95oKoFly7a1S6gyd/J0odD/idur\nvI2CteBqAjIuPjhwo65m+WdNOWDqUAaJe4NZRqLcSvs6oLRCe8SPoswLPSd5DMk7\ntmoW5HeySeASilq4Nz7LZoqvScrQRiXznfHc0i60vESrRnXfOhgjSM3WQeF5yWfa\n9gsHcigJNYlno5PzwVpGMmRHG+VemkBBGlM6BpNWB3bMXl8nBE617VgnJ6gzTxL+\n1L4vBIz2ZxM4Ov74anGr\n=WUD1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 65007fedfa7b7488cd104169c00c4125809c4f18\nparent dd802686215781cbc35aa86ea14c54369aaec7e5\nparent 8718f45230726362b8eed7b5964b12035cda81a5\nauthor John Fairfax-Ball <jfairfaxball@gmail.com> 1792464702 +0100\ncommitter GitHub <noreply@github.com> 1792464702 +0100\n\nMerge pull request #40 from jfairfaxball-348/codex/S031-persistent-op1b\n\nS031: archive eight-hour persistent S11 cap and checked evidence",
+        "verified_at": "2026-10-20T02:51:43Z"
+      }
+    },
+    "stderr": ""
+  },
+  "open_prs": {
+    "returncode": 0,
+    "data": [],
+    "stderr": ""
+  },
+  "main_job": {
+    "returncode": 0,
+    "data": {
+      "id": 118427545594,
+      "run_id": 39361198028,
+      "workflow_name": "Research scaffold checks",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/runs/39361198028",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVGR21M8AAAAbktTv-g",
+      "head_sha": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/jobs/118427545594",
+      "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39361198028/job/118427545594",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-20T02:51:46Z",
+      "started_at": "2026-10-20T02:51:47Z",
+      "completed_at": "2026-10-20T02:52:22Z",
+      "name": "validate",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-20T02:51:48Z",
+          "completed_at": "2026-10-20T02:51:48Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-20T02:51:48Z",
+          "completed_at": "2026-10-20T02:52:17Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-20T02:52:17Z",
+          "completed_at": "2026-10-20T02:52:17Z"
+        },
+        {
+          "name": "Validate authoritative state and catalogues",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-20T02:52:17Z",
+          "completed_at": "2026-10-20T02:52:17Z"
+        },
+        {
+          "name": "Run preliminary certificate checker tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-20T02:52:17Z",
+          "completed_at": "2026-10-20T02:52:18Z"
+        },
+        {
+          "name": "Validate S026 archived evidence integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-20T02:52:18Z",
+          "completed_at": "2026-10-20T02:52:19Z"
+        },
+        {
+          "name": "Validate S027 archived evidence integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-20T02:52:19Z",
+          "completed_at": "2026-10-20T02:52:19Z"
+        },
+        {
+          "name": "Validate S028 archived evidence integrity and D062 prompt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-20T02:52:19Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Validate S029 frozen landscape and S030 prompt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Validate S030 bounded search records and S031 prompt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Validate S031 capped long-run records and S032 future prompt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 22,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 23,
+          "started_at": "2026-10-20T02:52:20Z",
+          "completed_at": "2026-10-20T02:52:20Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/check-runs/118427545594",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012836,
+      "runner_name": "GitHub Actions 1000012836",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    "stderr": ""
+  },
+  "workflows": {
+    "returncode": 0,
+    "data": {
+      "total_count": 24,
+      "workflows": [
+        {
+          "id": 384723604,
+          "node_id": "W_kwDOVGR21M4W7mqU",
+          "name": "S011 edge criticality audit (unmerged WIP)",
+          "path": ".github/workflows/s011-edge-critical.yml",
+          "state": "active",
+          "created_at": "2026-10-14T20:33:02.000+01:00",
+          "updated_at": "2026-10-14T20:48:01.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384723604",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s011-edge-critical.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S011%20edge%20criticality%20audit%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384727398,
+          "node_id": "W_kwDOVGR21M4W7nlm",
+          "name": "S011 preserve checked certificate archive (unmerged WIP)",
+          "path": ".github/workflows/s011-preserve-certificates.yml",
+          "state": "active",
+          "created_at": "2026-10-14T20:36:50.000+01:00",
+          "updated_at": "2026-10-14T20:48:01.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384727398",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s011-preserve-certificates.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S011%20preserve%20checked%20certificate%20archive%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384713335,
+          "node_id": "W_kwDOVGR21M4W7kJ3",
+          "name": "S011 positive search (unmerged WIP)",
+          "path": ".github/workflows/s011-research.yml",
+          "state": "active",
+          "created_at": "2026-10-14T20:22:57.000+01:00",
+          "updated_at": "2026-10-14T20:48:01.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384713335",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s011-research.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S011%20positive%20search%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384702111,
+          "node_id": "W_kwDOVGR21M4W7haf",
+          "name": "S011 environment smoke (unmerged WIP)",
+          "path": ".github/workflows/s011-smoke.yml",
+          "state": "active",
+          "created_at": "2026-10-14T20:12:21.000+01:00",
+          "updated_at": "2026-10-14T20:12:21.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384702111",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s011-smoke.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S011%20environment%20smoke%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384717055,
+          "node_id": "W_kwDOVGR21M4W7lD_",
+          "name": "S011 sparsification (unmerged WIP)",
+          "path": ".github/workflows/s011-sparsify.yml",
+          "state": "active",
+          "created_at": "2026-10-14T20:26:45.000+01:00",
+          "updated_at": "2026-10-14T20:48:01.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384717055",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s011-sparsify.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S011%20sparsification%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384799563,
+          "node_id": "W_kwDOVGR21M4W75NL",
+          "name": "S012 all one-edge swap nine-colouring witnesses (unmerged WIP)",
+          "path": ".github/workflows/s012-swap-audit.yml",
+          "state": "active",
+          "created_at": "2026-10-14T21:53:39.000+01:00",
+          "updated_at": "2026-10-14T22:05:33.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384799563",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s012-swap-audit.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S012%20all%20one-edge%20swap%20nine-colouring%20witnesses%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 384822532,
+          "node_id": "W_kwDOVGR21M4W7-0E",
+          "name": "S013 constructive positive-only (WIP never merge)",
+          "path": ".github/workflows/s013-constructive.yml",
+          "state": "active",
+          "created_at": "2026-10-14T22:19:55.000+01:00",
+          "updated_at": "2026-10-14T22:32:33.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/384822532",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s013-constructive.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S013%20constructive%20positive-only%20(WIP%20never%20merge)/badge.svg"
+        },
+        {
+          "id": 385302644,
+          "node_id": "W_kwDOVGR21M4W90B0",
+          "name": "S015 extract scientific evidence (never merge WIP)",
+          "path": ".github/workflows/s015-preserve.yml",
+          "state": "active",
+          "created_at": "2026-10-15T09:39:05.000+01:00",
+          "updated_at": "2026-10-15T09:49:34.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385302644",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s015-preserve.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S015%20extract%20scientific%20evidence%20(never%20merge%20WIP)/badge.svg"
+        },
+        {
+          "id": 385300452,
+          "node_id": "W_kwDOVGR21M4W9zfk",
+          "name": "S015 219 candidate recheck (unmerged WIP)",
+          "path": ".github/workflows/s015-recheck.yml",
+          "state": "active",
+          "created_at": "2026-10-15T09:36:23.000+01:00",
+          "updated_at": "2026-10-15T09:49:34.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385300452",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s015-recheck.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S015%20219%20candidate%20recheck%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 385320457,
+          "node_id": "W_kwDOVGR21M4W94YJ",
+          "name": "S016 exact original graph checks (unmerged WIP)",
+          "path": ".github/workflows/s016-exact.yml",
+          "state": "active",
+          "created_at": "2026-10-15T09:59:12.000+01:00",
+          "updated_at": "2026-10-15T10:15:58.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385320457",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s016-exact.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S016%20exact%20original%20graph%20checks%20(unmerged%20WIP)/badge.svg"
+        },
+        {
+          "id": 385360877,
+          "node_id": "W_kwDOVGR21M4W-CPt",
+          "name": "S017 density and original-graph repair (NEVER MERGE WIP)",
+          "path": ".github/workflows/s017-density-originals.yml",
+          "state": "active",
+          "created_at": "2026-10-15T10:40:59.000+01:00",
+          "updated_at": "2026-10-15T10:57:39.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385360877",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s017-density-originals.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S017%20density%20and%20original-graph%20repair%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385413084,
+          "node_id": "W_kwDOVGR21M4W-O_c",
+          "name": "S018 serial row148 exact science (NEVER MERGE WIP)",
+          "path": ".github/workflows/s018-serial-row148.yml",
+          "state": "active",
+          "created_at": "2026-10-15T11:38:14.000+01:00",
+          "updated_at": "2026-10-15T12:04:44.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385413084",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s018-serial-row148.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S018%20serial%20row148%20exact%20science%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385492796,
+          "node_id": "W_kwDOVGR21M4W-ic8",
+          "name": "S019 deep exact row148 scientific search (NEVER MERGE WIP)",
+          "path": ".github/workflows/s019-row148-deep.yml",
+          "state": "active",
+          "created_at": "2026-10-15T13:10:32.000+01:00",
+          "updated_at": "2026-10-15T13:10:32.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385492796",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s019-row148-deep.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S019%20deep%20exact%20row148%20scientific%20search%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385602500,
+          "node_id": "W_kwDOVGR21M4W-9PE",
+          "name": "S019 row148 original resumed density-CNF (NEVER MERGE WIP)",
+          "path": ".github/workflows/s019-row148-density.yml",
+          "state": "active",
+          "created_at": "2026-10-15T14:48:50.000+01:00",
+          "updated_at": "2026-10-15T15:13:39.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385602500",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s019-row148-density.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S019%20row148%20original%20resumed%20density-CNF%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385513666,
+          "node_id": "W_kwDOVGR21M4W-njC",
+          "name": "S019 row148 audited symmetric exact decision (NEVER MERGE WIP)",
+          "path": ".github/workflows/s019-row148-sym.yml",
+          "state": "active",
+          "created_at": "2026-10-15T13:31:31.000+01:00",
+          "updated_at": "2026-10-15T13:31:31.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385513666",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s019-row148-sym.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S019%20row148%20audited%20symmetric%20exact%20decision%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385601672,
+          "node_id": "W_kwDOVGR21M4W-9CI",
+          "name": "S019 original row148 continued science (NEVER MERGE WIP)",
+          "path": ".github/workflows/s019-serial-row148.yml",
+          "state": "active",
+          "created_at": "2026-10-15T14:48:09.000+01:00",
+          "updated_at": "2026-10-15T14:48:09.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385601672",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s019-serial-row148.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S019%20original%20row148%20continued%20science%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385651968,
+          "node_id": "W_kwDOVGR21M4W_JUA",
+          "name": "S020 row148 induced Euler and face insertion (NEVER MERGE WIP)",
+          "path": ".github/workflows/s020-row148-embedding.yml",
+          "state": "active",
+          "created_at": "2026-10-15T15:34:32.000+01:00",
+          "updated_at": "2026-10-15T15:57:06.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385651968",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s020-row148-embedding.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S020%20row148%20induced%20Euler%20and%20face%20insertion%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385706132,
+          "node_id": "W_kwDOVGR21M4W_WiU",
+          "name": "S021 cancel redundant earlier revisions (NO SCIENCE)",
+          "path": ".github/workflows/s021-cancel-duplicates.yml",
+          "state": "active",
+          "created_at": "2026-10-15T16:28:04.000+01:00",
+          "updated_at": "2026-10-15T16:28:04.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385706132",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s021-cancel-duplicates.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S021%20cancel%20redundant%20earlier%20revisions%20(NO%20SCIENCE)/badge.svg"
+        },
+        {
+          "id": 385701681,
+          "node_id": "W_kwDOVGR21M4W_Vcx",
+          "name": "S021 original148 cross Euler exact search (NEVER MERGE WIP)",
+          "path": ".github/workflows/s021-row148-cross-euler.yml",
+          "state": "active",
+          "created_at": "2026-10-15T16:23:24.000+01:00",
+          "updated_at": "2026-10-15T16:46:10.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385701681",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s021-row148-cross-euler.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S021%20original148%20cross%20Euler%20exact%20search%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 385740729,
+          "node_id": "W_kwDOVGR21M4W_e-5",
+          "name": "S022 row148 exact bounded neighbourhood (WIP NEVER MERGE)",
+          "path": ".github/workflows/s022-row148-exact-neighbourhood.yml",
+          "state": "active",
+          "created_at": "2026-10-15T17:04:55.000+01:00",
+          "updated_at": "2026-10-15T17:31:19.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385740729",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s022-row148-exact-neighbourhood.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S022%20row148%20exact%20bounded%20neighbourhood%20(WIP%20NEVER%20MERGE)/badge.svg"
+        },
+        {
+          "id": 385751033,
+          "node_id": "W_kwDOVGR21M4W_hf5",
+          "name": "S022 row148 proof-certificate packing (WIP NEVER MERGE)",
+          "path": ".github/workflows/s022-row148-obstruction-pack.yml",
+          "state": "active",
+          "created_at": "2026-10-15T17:15:51.000+01:00",
+          "updated_at": "2026-10-15T17:31:19.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/385751033",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s022-row148-obstruction-pack.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S022%20row148%20proof-certificate%20packing%20(WIP%20NEVER%20MERGE)/badge.svg"
+        },
+        {
+          "id": 386389830,
+          "node_id": "W_kwDOVGR21M4XB9dG",
+          "name": "S024 layer-first candidate search (NEVER MERGE WIP)",
+          "path": ".github/workflows/s024-layer-first.yml",
+          "state": "active",
+          "created_at": "2026-10-16T07:40:36.000+01:00",
+          "updated_at": "2026-10-16T07:40:36.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/386389830",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s024-layer-first.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S024%20layer-first%20candidate%20search%20(NEVER%20MERGE%20WIP)/badge.svg"
+        },
+        {
+          "id": 388550931,
+          "node_id": "W_kwDOVGR21M4XKNET",
+          "name": "S026 obstruction-aware research (WIP NEVER MERGE)",
+          "path": ".github/workflows/s026-research.yml",
+          "state": "active",
+          "created_at": "2026-10-18T16:36:09.000+01:00",
+          "updated_at": "2026-10-18T19:42:13.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/388550931",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/s026-research.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/S026%20obstruction-aware%20research%20(WIP%20NEVER%20MERGE)/badge.svg"
+        },
+        {
+          "id": 382361523,
+          "node_id": "W_kwDOVGR21M4Wyl-z",
+          "name": "Research scaffold checks",
+          "path": ".github/workflows/scaffold.yml",
+          "state": "active",
+          "created_at": "2026-10-12T17:51:32.000+01:00",
+          "updated_at": "2026-10-12T17:51:49.000+01:00",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/actions/workflows/382361523",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/blob/main/.github/workflows/scaffold.yml",
+          "badge_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/workflows/Research%20scaffold%20checks/badge.svg"
+        }
+      ]
+    },
+    "stderr": ""
+  },
+  "status": {
+    "returncode": 0,
+    "data": {
+      "state": "pending",
+      "statuses": [],
+      "sha": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "total_count": 0,
+      "repository": {
+        "id": 1415870164,
+        "node_id": "R_kgDOVGR21A",
+        "name": "Earth-Moon-problem",
+        "full_name": "jfairfaxball-348/Earth-Moon-problem",
+        "private": false,
+        "owner": {
+          "login": "jfairfaxball-348",
+          "id": 294537967,
+          "node_id": "U_kgDOEY5K7w",
+          "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jfairfaxball-348",
+          "html_url": "https://github.com/jfairfaxball-348",
+          "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+          "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+          "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+          "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+          "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem",
+        "forks_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/forks",
+        "keys_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/teams",
+        "hooks_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/hooks",
+        "issue_events_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/events",
+        "assignees_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/tags",
+        "blobs_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/languages",
+        "stargazers_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/stargazers",
+        "contributors_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/contributors",
+        "subscribers_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/subscribers",
+        "subscription_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/subscription",
+        "commits_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/merges",
+        "archive_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/downloads",
+        "issues_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/labels{/name}",
+        "releases_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/deployments"
+      },
+      "commit_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/commits/e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+      "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/commits/e3145c77a7350ebd2c8aa3197cf97bf5e626099f/status"
+    },
+    "stderr": ""
+  },
+  "checks": {
+    "returncode": 0,
+    "data": {
+      "total_count": 1,
+      "check_runs": [
+        {
+          "id": 118427545594,
+          "name": "validate",
+          "node_id": "CR_kwDOVGR21M8AAAAbktTv-g",
+          "head_sha": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+          "external_id": "d76018ac-f0da-5b66-a4a1-89abc0b62af3",
+          "url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/check-runs/118427545594",
+          "html_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39361198028/job/118427545594",
+          "details_url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39361198028/job/118427545594",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-20T02:51:47Z",
+          "completed_at": "2026-10-20T02:52:22Z",
+          "output": {
+            "title": null,
+            "summary": null,
+            "text": null,
+            "annotations_count": 2,
+            "annotations_url": "https://api.github.com/repos/jfairfaxball-348/Earth-Moon-problem/check-runs/118427545594/annotations"
+          },
+          "check_suite": {
+            "id": 106662426743
+          },
+          "app": {
+            "id": 15368,
+            "client_id": "Iv1.05c79e9ad1f6bdfa",
+            "slug": "github-actions",
+            "node_id": "MDM6QXBwMTUzNjg=",
+            "owner": {
+              "login": "github",
+              "id": 9919,
+              "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github",
+              "html_url": "https://github.com/github",
+              "followers_url": "https://api.github.com/users/github/followers",
+              "following_url": "https://api.github.com/users/github/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+              "organizations_url": "https://api.github.com/users/github/orgs",
+              "repos_url": "https://api.github.com/users/github/repos",
+              "events_url": "https://api.github.com/users/github/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github/received_events",
+              "type": "Organization",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "name": "GitHub Actions",
+            "description": "Automate your workflow from idea to production",
+            "external_url": "https://help.github.com/en/actions",
+            "html_url": "https://github.com/apps/github-actions",
+            "created_at": "2018-07-30T09:30:17Z",
+            "updated_at": "2026-06-18T16:17:48Z",
+            "permissions": {
+              "actions": "write",
+              "administration": "read",
+              "artifact_metadata": "write",
+              "attestations": "write",
+              "checks": "write",
+              "code_quality": "write",
+              "contents": "write",
+              "copilot_requests": "write",
+              "deployments": "write",
+              "discussions": "write",
+              "drives": "write",
+              "issues": "write",
+              "merge_queues": "write",
+              "metadata": "read",
+              "models": "read",
+              "packages": "write",
+              "pages": "write",
+              "pull_requests": "write",
+              "repository_hooks": "write",
+              "repository_projects": "write",
+              "security_events": "write",
+              "statuses": "write",
+              "vulnerability_alerts": "read"
+            },
+            "events": [
+              "branch_protection_rule",
+              "check_run",
+              "check_suite",
+              "create",
+              "delete",
+              "deployment",
+              "deployment_status",
+              "discussion",
+              "discussion_comment",
+              "fork",
+              "gollum",
+              "issues",
+              "issue_comment",
+              "label",
+              "merge_group",
+              "milestone",
+              "page_build",
+              "public",
+              "pull_request",
+              "pull_request_review",
+              "pull_request_review_comment",
+              "push",
+              "registry_package",
+              "release",
+              "repository",
+              "repository_dispatch",
+              "status",
+              "watch",
+              "workflow_dispatch",
+              "workflow_run"
+            ]
+          },
+          "pull_requests": []
+        }
+      ]
+    },
+    "stderr": ""
+  },
+  "rulesets": {
+    "returncode": 0,
+    "data": [],
+    "stderr": ""
+  },
+  "protection": {
+    "returncode": 1,
+    "data": {
+      "message": "Branch not protected",
+      "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+      "status": "404"
+    },
+    "stderr": "gh: Branch not protected (HTTP 404)\n"
+  },
+  "branches": {
+    "returncode": 0,
+    "data": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569\trefs/heads/ccr-1d66faf5-kctudc\n84fe7b8e231203af5ec9f71d8e575ae4e47b8c2e\trefs/heads/ccr-4ad27c72-6hxjup\n22452e26a4e1e43226e34a057c7cd0f7591ed580\trefs/heads/ccr-ca34b331-a5bcoj\n21be2dd7fe140e4588e3959bc127b185114eccb3\trefs/heads/claude/S027-learned-obstruction\n34b17bc53e6203ebc50a349b8f196c5067c9a981\trefs/heads/claude/S028-obstruction-closure\n7c60fa8b0d4201204cf059d6c34ac9fc90334be9\trefs/heads/claude/charming-hamilton-ej1aav\n6959e0093ee44ce7c2645afb6635f3e04d714c95\trefs/heads/codex/S004-candidate-frontier\na58f7d42a83c84f08c6ea4ebc913267d78ce0cf9\trefs/heads/codex/S005-certified-obstructions\neefd36469895f20da4dd8eedcb6d411d75288abf\trefs/heads/codex/S006-critical-frontier\n2751cfc659462b888d5579c98358e85d3f909d03\trefs/heads/codex/S007-deficit-palette\ncbdb8236f27d8f39ceeb268975cd47ac39fc323a\trefs/heads/codex/S008-kuratowski-support\n6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c\trefs/heads/codex/S009-transfer-colours\nb585c03825b32cae1735d8c30a2357e652ba3e37\trefs/heads/codex/S010-strategic-reset\n2cd5c94999a817e384d346df6a08930b7591ae31\trefs/heads/codex/S026-obstruction-aware\n45bc0437d99deb6580c78e057c483694eeeae1e7\trefs/heads/codex/S030-op1b\n8718f45230726362b8eed7b5964b12035cda81a5\trefs/heads/codex/S031-persistent-op1b\n85d6559331888a6d9d5276d47594bd2835b11a15\trefs/heads/directive/D056-S023-upper-lower-feasibility\n28f6584d4941e5bb918f0f5daeb15d61748cac22\trefs/heads/directive/D058-S025-original219-gap-closure\nb4b0f53d8b34c48574bce351d1012d861d6a388b\trefs/heads/governance/D051-s015-219-github-actions\n1d85f48a22e504ca91aa151436baab2ce6c9ef81\trefs/heads/governance/D054-serial-original219-S018\ne3145c77a7350ebd2c8aa3197cf97bf5e626099f\trefs/heads/main\n99fe3aed10fed945f61dd673e91a606f5307e5a3\trefs/heads/reconcile/S025-final-state-readback\n2b0915f7f9c968f6b4daf84866bff914edfd48b3\trefs/heads/reconcile/S025-main-handoff\n99eb9f2bcfcb554a6cc652b15ba95a7a895a5774\trefs/heads/session/S001-bootstrap-emp\nc748c4c5bc5b5d48dcbff5516d2cc8f4be485acc\trefs/heads/session/S002-structural-attack\n8893aa34927c37c3d71b2201f50838635c3d30e5\trefs/heads/session/S011-certified-construction-search\nc80366947d821dcf79a2af791c1ea4757bc156b6\trefs/heads/session/S012-layer-aware-chromatic-restoring\n16a1329b22bba0d86c8c083ac529e4bca182f68b\trefs/heads/session/S012-layer-aware-construction\ne8f6791addec039a1a9ca575e5022823b3b5e98d\trefs/heads/session/S013-tight-sulanke-and-layer-first\nc8ca1b17484fdeeb81a4f35bf95023c7dbe81352\trefs/heads/session/S014-seven-vertex-hall-closure\n3cb360e566dd2385444120ffbb87283e66e29b1b\trefs/heads/session/S015-219-recheck\nc65f8b89ab4b4eb20ac5ed0ee9eaa6b4a4b1e3fa\trefs/heads/session/S016-original-proof-escalation\n95cfa6629305ec8d1a69ab3cc7656ef8c3c42752\trefs/heads/session/S017-density-originals\n5db24920f4c29d7cacd5d5e7f2609fbdc49b10f8\trefs/heads/session/S018-serial-original148\neb59071a2248719b2c3cd6702cc5d29c235d8069\trefs/heads/session/S019-original148-density-resume\n0ede3ef6afd392daf0e31358b7e22a6c86828ddb\trefs/heads/session/S020-original148-embedding-local-euler\n7b1d91db4d0274bbd60638a0f3038c78443d3cfb\trefs/heads/session/S021-original148-cross-euler\n78950a5b040a3c26a5704ceff904b43b36745610\trefs/heads/session/S022-original148-exact-neighbourhood\n6a971c40dbad029bf69995f0e17226c694e10ce6\trefs/heads/session/S023-two-sided-difficulty-audit\n2027da48d74a35fcb62dabec6d715a5d5118e8ee\trefs/heads/session/S024-layer-first-global-cover\n96810e6abf27d219b2d7e86e3a433ce7f0aee518\trefs/heads/wip/S011-edge-critical\nbc884386fe783fabb6f34f2597c57c39ed76d2e0\trefs/heads/wip/S011-github-smoke\n99df83c5fd161e9930ace8617d897f658ce82a8c\trefs/heads/wip/S011-positive-search\ncc9ba9afd68890a6c74ca3143e985907fdfc0600\trefs/heads/wip/S011-preserve-certificates\nb5ae360eb4c3eb74dc1adec2f26fe8f324505fe1\trefs/heads/wip/S011-sparsify-search\n9168e1567ccabdda50068771f7c9c5c6f0703a39\trefs/heads/wip/S012-swap\nf823117fa8563bfaa3e528020dddc830605a7ad0\trefs/heads/wip/S013-constructive\nef2b73f83d872b740088b4d18302ac3d3c358d16\trefs/heads/wip/S015-219-recheck\n86a747c12497014739cce236581153e0e16e31e0\trefs/heads/wip/S015-preserve-run\n9499aaed9af6c02e096a86651ce364019df966e0\trefs/heads/wip/S016-exact-originals\n30099ef4a53940ccd4e9c9bd4f20021612e70a86\trefs/heads/wip/S017-density-originals\n65d78133bbbadee5e71d7e5fa27d59cd0511f9ae\trefs/heads/wip/S018-serial-row148\n48923710fc269077eeecd155386cd59149d6282e\trefs/heads/wip/S019-row148-continuation\n9f45c5b438bbe5a9951f7ee6ecfeb0dce6ac9a9a\trefs/heads/wip/S019-row148-deep\n3117dabd7ef9b263dcb7c4b6e943b629d2fdbd9b\trefs/heads/wip/S019-row148-resume-density\na6057a46dd5e4b2524f179b2b4de2cbb9dc7e49f\trefs/heads/wip/S019-row148-symmetric2\n018a9dd7cb22ada063bbbe5bc4589c6f852a2fcf\trefs/heads/wip/S019-row148-triangulation3\n8f5615e7456a1b997a6a39306ecfaf9a82aae4d3\trefs/heads/wip/S020-row148-embedding-euler\n7ab9842aa20ed3ce8a3b316044370786946e273f\trefs/heads/wip/S021-row148-cross-euler\n83f6a058b2349edba07ef875aaaaf9b36a04dbd8\trefs/heads/wip/S022-row148-exact-neighbourhood\n96d59c302c13ad582e464dc0612b29ee8e73e023\trefs/heads/wip/S024-layer-first-science\nfcbfa09f1f474329402c13690aa948a1351a9212\trefs/heads/wip/S026-local-serial\nfe92ca8763646e8ef8a768e9d1d9e0eea6b4cf9d\trefs/heads/wip/S026-obstruction-aware\n4f436bf10927e9867dc402083d8fb93fcdf1248b\trefs/heads/wip/S031-long-run\n",
+    "stderr": ""
+  }
+}

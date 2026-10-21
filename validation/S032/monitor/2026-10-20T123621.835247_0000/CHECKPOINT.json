@@ -1,0 +1,14 @@
+{
+  "session": "S032",
+  "updated_utc": "2026-10-20T12:36:21.835247+00:00",
+  "input_sha256": "550400a312b17d144b40dc376842fd7506f351c9828f0c0c759b4e4839d7679c",
+  "native_sha256": "cd705f57636a8a81701e83035eb7895dfec197f4ed0d2ee30d491c9659704105",
+  "lemma_file": "learned.lem",
+  "complete_lemma_lines": 1207211,
+  "complete_lemma_bytes": 90155837,
+  "omitted_incomplete_tail_bytes": 0,
+  "lemma_sha256": "c7fe4685632a16f02e1fa036eb111119532eed9e4b5e10ce5a201fcd8bffad1a",
+  "native_cdcl_state_saved": false,
+  "verdict": "UNKNOWN",
+  "note": "full fixed input plus this hashed complete prefix of append-only learned.lem; not an exhaustion certificate"
+}

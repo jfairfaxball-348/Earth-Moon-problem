@@ -127,3 +127,9 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 **D066 (owner,2026-10-19):** "If its 8 hours then just run that one session" limits execution to S031 only, superseding D065 successive-session authorization. Keep the running worker and monitoring; finish required S031 validation/integration, write but do not execute S032, then disable monitor and stop.
 
 **D067 (S031 closeout,2026-10-20):** 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. D066 remains binding: disable monitor after integration and stop. Future S032 should first diagnose/strengthen the persistent method; no successor execution or scope change authorized.
+
+**D068 (owner,2026-10-20):** "Okay, run next session" invokes exactly S032 under D047, satisfying D066 fresh-invocation gate. Native partial-assignment planarity, independently guarded cuts, scoped controls with free K9 UNKNOWN, up to8h/11GiB S11 campaign and monitoring. No S033/publication/parked-queue authorization. S032 IN_PROGRESS.
+
+**D069 (owner,2026-10-20):** "Don't limit it to 8 hours.....Just keep going until you stop" removes S032 fixed wall limits. --cap0/--timeout inf; serial proof/checker phases likewise unbounded in time, still11GiB/10GiB-disk/owner-stop supervised. No S033 authorization; no mathematical status change.
+
+**D070 (owner,2026-10-21):** safely stop S032, retain rules and rebuild progress capability. Registered OWNER_STOP; all2579937 saved clauses independently checked and losslessly archived. Monitor PAUSED; no automatic restart. Separate native internal telemetry and proof-backed disjoint-region CLI built/tested. Exact projected count/ETA unknown. S032 closes UNKNOWN, S033 FUTURE/UNEXECUTED.

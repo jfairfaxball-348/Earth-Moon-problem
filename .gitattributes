@@ -40,3 +40,7 @@ validation/S031/** -text -whitespace
 sessions/S031/** -text -whitespace
 validation/S028/** -text -whitespace
 sessions/S028/** -text -whitespace
+
+# Exact S032 launch/evidence bytes across Windows and hosted validation.
+validation/S032/** -text -whitespace
+sessions/S032/** -text -whitespace

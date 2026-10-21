@@ -773,3 +773,15 @@ Supplied stdlib checker plus independent naive unit propagation; all15 supplied 
 S031 finite replay checks46 saved S11 relaxation assignments chronologically,1809 sound semantic cuts and the exact regenerated17976-variable336030-clause final formula; both layers of each saved model have checked nonplanar subdivisions.
 
 validation/S031/SEARCH_REPLAY.json; scripts/replay_s031_search.py. This is a finite audit only:28692s WALL_CAPPED, S11 UNKNOWN, no certified stratum or biplanar witness.1629 K9/180 Kuratowski cuts total,1114 seeds/695 new. No complete graph biplanarity exclusion inferred from one rejected split. Sources: internal saved assignments and independently checked cut certificates; no external theorem promoted.
+
+## CLM-0118 — COMPUTED_EXACT
+
+S032 300s native partial-planarity diagnostic emits162536 negative single-layer Kuratowski clauses, all independently checked by subdivision suppression; the336030-clause17976-variable S031 formula is retained by a checked bijective literal renaming.
+
+artifacts/tmp/S032/DIAGNOSTIC_AUDIT.json and frozen validation/S032/start/DIAGNOSTIC_AUDIT.json. Native829538 planarity checks, no model, cap UNKNOWN; no graph/stratum exclusion. Scoped native controls retain free K9 UNKNOWN. The later campaign was owner-stopped under D070, UNKNOWN; see CLM0119 for the final finite audit. Source: SRC-0055 (method attribution only); independent internal audit.
+
+## CLM-0119 — COMPUTED_EXACT
+
+All2579937 persisted S032 geometric clauses independently satisfy the single-layer K5/K33-subdivision check; original336030 clauses/17976 variables retained by independently checked bijective renaming.
+
+Owner-stopped campaign UNKNOWN; no complete model, witness or whole-stratum proof. Lossless189309949-byte rule archive matches final SHA256. Rebuilt progress tools pass finite controls; encoded cell128 DRAT closure is baseline encoder/symmetry closure, not a new nonbiplanarity theorem or increment attributable to learned rules. Exact projected graph count and ETA not computed. Source: SRC-0055 (method attribution); internal independent audit.

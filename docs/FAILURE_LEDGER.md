@@ -132,3 +132,7 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 | F084 (S031) | Persistent incremental CDCL will finish S11 within eight hours |28692s,205206574 conflicts,46 relaxation models,695 added sound cuts; full stratum still UNKNOWN | Diagnose search/propagation bottleneck and validate a materially stronger method before repeating an unchanged cap; preserve semantic cuts and explicit loss of private CDCL state |
 
 | F085 (S031 startup) |2000-conflict/20000-decision slices suit long-run checkpointing |914 re-entries in82.14s, no model; diagnostic stopped gracefully | Preserved exact receipts/source; current campaign used100000/1000000 on one live instance, then completed its registered cap |
+
+| F086 (S032) | Partial-planarity learning will finish within practical laptop runtime | Owner stopped after88133.828s wall including8h34m battery sleep; about15.9 observed CPU hours, no complete model | Preserve2579937 rules; no ETA from counters; rebuild logical telemetry and proof-backed disjoint-region accounting; no automatic restart |
+
+| F087 (S032 progress demo) |15s suffices for augmented region DRAT checking | Solver UNSAT but checker capped; correctly UNKNOWN | Preserve failed attempt; later60s replay/check PASS; baseline-only proof closes same encoder region, so do not attribute this to new rules |

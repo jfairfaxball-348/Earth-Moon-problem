@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "native_sha256": "11f9edd801c33387a77dd71d539873985109d05d3e381dcdb49f3076a18c9740",
+  "exhaustive_n5": 1024,
+  "K33": "PASS",
+  "positive24": "PASS",
+  "telemetry": "PASS",
+  "rows": [
+    {
+      "name": "n5-0",
+      "returncode": 10,
+      "checked_rules": 0
+    },
+    {
+      "name": "n5-1023",
+      "returncode": 20,
+      "checked_rules": 1
+    },
+    {
+      "name": "K33",
+      "returncode": 20,
+      "checked_rules": 1
+    },
+    {
+      "name": "positive24",
+      "returncode": 10,
+      "checked_rules": 0
+    }
+  ],
+  "free_K9": "UNKNOWN_AT_2S",
+  "free_K9_checked_rules": 22941,
+  "toy_disjoint_weights_and_checked_UNSAT": "PASS",
+  "toy_SAT_not_counted_as_closed": "PASS",
+  "damaged_proof_rejected": true,
+  "seconds": 21.10999999998603,
+  "whole_stratum_certified": false,
+  "witness_established": false,
+  "exported_region_clause_comparison": "PASS: real cell128 instance payload byte-identical to its independently refuted full CNF"
+}
