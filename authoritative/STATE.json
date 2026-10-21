@@ -1446,11 +1446,11 @@
   },
   "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
   "standing_continuation_authorization": {
-    "decision": "D069",
+    "decision": "D070",
     "invocation_decision": "D068",
     "authorized_session": "S032",
     "successive_sessions_authorized": false,
-    "status": "ACTIVE_S032_ONLY",
+    "status": "STOPPED_BY_OWNER_NO_AUTOMATIC_RESUME",
     "stop_conditions": [
       "S032 closeout",
       "owner stop",
@@ -1532,7 +1532,7 @@
   },
   "active_session": {
     "id": "S032",
-    "status": "IN_PROGRESS_LONG_RUN",
+    "status": "OWNER_STOPPED_REBUILD_AND_CLOSEOUT",
     "owner_message": "Okay, run next session",
     "branch": "codex/S032-partial-planarity",
     "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
@@ -1546,6 +1546,7 @@
     "followup_automation_id": "earth-moon-s032-monitor",
     "worker_cap_seconds": null,
     "no_fixed_wall_limit": true,
-    "duration_authority": "D069"
+    "duration_authority": "D070_OWNER_STOP",
+    "followup_automation_status": "PAUSED"
   }
 }

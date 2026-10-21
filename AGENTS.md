@@ -1,3 +1,7 @@
+# D070 S032 OWNER STOP — preserve rules and rebuild progress tools
+
+The owner stopped S032 on2026-10-21. All2579937 geometric rules are archived and independently checked. Monitor PAUSED. Rebuild/test and closeout only; no long search restart or S033 without fresh owner invocation. See docs/D070_S032_OWNER_STOP_AND_PROGRESS_REBUILD.md.
+
 # D069 S032 runs until stop — no eight-hour cutoff
 
 Latest owner instruction removes the fixed S032 wall limit. Keep one11GiB worker,10GiB disk reserve, checkpoints/monitoring and independent proof gates. See docs/D069_S032_NO_FIXED_WALL_LIMIT.md. S032 ONLY; S033 still requires fresh invocation.

@@ -1,3 +1,7 @@
+# STOPPED by owner —2026-10-21 (D070)
+
+The material below is historical launch provenance. The same controller/native have exited, ACTIVE.lock is gone, monitor PAUSED and sleep inhibition released. See CLOSEOUT.md and validation/S032/stopped. No automatic restart.
+
 # S032 is RUNNING — no fixed wall limit (D069)
 
 Owner directly invoked S032, then said: "Don't limit it to 8 hours.....Just keep going until you stop".
