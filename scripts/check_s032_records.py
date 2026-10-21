@@ -56,7 +56,22 @@ for name in ['coverage','coverage-base']:
     assert sum(int(cell['weight']) for cell in ledger['cells'])==int(report['encoded_region_weight'])
     assert report['mathematical_verdict']=='UNKNOWN'
 assert (ROOT/'sessions/S032/EXECUTED_PROMPT.md').read_bytes()==(ROOT/'sessions/S031/S032_FUTURE_PROMPT.md').read_bytes()
-assert (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()==(ROOT/'sessions/S032/S033_FUTURE_PROMPT.md').read_bytes()
+# S032's archived S033 handoff is immutable and checked by MANIFEST.json above.
+# A later owner directive may supersede the *active* prompt without rewriting
+# the historical archive. D071 pins both exact Git blob bytes for that override.
+archived=ROOT/'sessions/S032/S033_FUTURE_PROMPT.md'
+active=ROOT/'authoritative/NEXT_SESSION_PROMPT.md'
+if active.read_bytes()!=archived.read_bytes():
+    d=json.loads((ROOT/'docs/D071_S033_PARALLEL_DIRECTIVE.json').read_text())
+    def git_blob_sha(path):
+        raw=path.read_bytes()
+        return hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+    assert d['decision']=='D071' and d['scope']=='ACTIVE_S033_PROMPT_ONLY'
+    assert d['archived_prompt_git_blob_sha']==git_blob_sha(archived)
+    assert d['active_prompt_git_blob_sha']==git_blob_sha(active)
+    assert 'S033' in active.read_text(encoding='utf-8').splitlines()[0]
+    assert d['does_not_invoke_s033'] and d['preserves_s032_archive']
+
 state=json.loads((ROOT/'authoritative/STATE.json').read_text())
 if state['last_completed_session']=='S032':
     assert state['recommended_next_session']=='S033' and state['next_session_is_future_unexecuted']

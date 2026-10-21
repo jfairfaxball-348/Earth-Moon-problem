@@ -1,0 +1,13 @@
+{
+  "decision": "D071",
+  "date": "2026-10-21",
+  "scope": "ACTIVE_S033_PROMPT_ONLY",
+  "authority": "Owner explicitly directed update of the queued next S033 session to implement safe multi-core/parallel region workers.",
+  "active_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+  "active_prompt_git_blob_sha": "874009d9de3c787bb86dc677a07226809bd072d8",
+  "archived_prompt": "sessions/S032/S033_FUTURE_PROMPT.md",
+  "archived_prompt_git_blob_sha": "8dd876f9ac489471d981f23ca47e85a27cc693c7",
+  "preserves_s032_archive": true,
+  "does_not_invoke_s033": true,
+  "statement": "The archived future prompt belongs to S032's hash-pinned historical manifest and must remain byte-identical. The active S033 prompt is owner-amended in D071. S033 remains future/unexecuted until fresh invocation. D042 research boundaries and D070 owner stop are unchanged."
+}
