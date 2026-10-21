@@ -1,0 +1,17 @@
+{
+  "decision": "D072",
+  "date": "2026-10-21",
+  "scope": "ACTIVE_S033_PHONE_OVERRIDE",
+  "authority": "User directs full clone of existing Earth-Moon problem on Galaxy S24 Debian/proot, reversible S033 ARM64 setup as FIRST next session and actual S034 solver/parallel work afterward; no separate project, branch or PR.",
+  "active_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+  "active_prompt_git_blob_sha": "08b49ffc2943dae547fc7e78fb61e917137713ce",
+  "previous_active_prompt_sha": "874009d9de3c787bb86dc677a07226809bd072d8",
+  "archived_s032_prompt": "sessions/S032/S033_FUTURE_PROMPT.md",
+  "archived_s032_prompt_sha": "8dd876f9ac489471d981f23ca47e85a27cc693c7",
+  "preserves_s032_archive": true,
+  "does_not_invoke_s033": true,
+  "s033": "PHONE_ENVIRONMENT_SETUP_AND_VERIFICATION",
+  "s034": "SOLVER_AND_D071_PARALLEL_REGION_WORK",
+  "math_verdict_unchanged": true,
+  "change_management": "Same repo/main; no separate branch/PR; normal non-force Git push when safe; revert with ordinary git revert"
+}

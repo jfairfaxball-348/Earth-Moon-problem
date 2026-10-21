@@ -27,5 +27,5 @@ jobs:
         run: python scripts/check_s030_records.py
       - name: Validate S031 capped long-run records and S032 future prompt
         run: python scripts/check_s031_records.py
-      - name: Validate S032 owner-stop archives and progress rebuild records
-        run: python scripts/check_d071_active_prompt.py
+      - name: Validate D072 phone S033 prompt and preserved S032 history
+        run: python scripts/check_d072_active_prompt.py

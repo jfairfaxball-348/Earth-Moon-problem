@@ -1,3 +1,7 @@
+# D072 (2026-10-21) — phone ARM64 environment test; current S033 authority
+
+The ACTIVE NEXT SESSION is now **S033: Samsung Galaxy S24 / Termux / Debian (proot) ARM64 port and verification**. S033 is setup plus rigorous validation, NOT the D071 parallel SAT campaign. Move D071's planned genuine worker/parallel search to S034 after phone validation. Owner will make an ordinary full clone, accepting ~1.5GB data, and wants NO new project, repo, development branch or PR. Phone experiment works in this repository on 'main' using normal non-force Git commits/push where allowed; this narrowly overrides old branch/PR session protocol but NEVER mathematical certification or archive integrity. Existing Windows/laptop solver is retained; phone adjustments reversible using 'git revert'. Saying "run next session" in the clone invokes S033 under D047; do not run S034 automatically. See authoritative/NEXT_SESSION_PROMPT.md and docs/D072_S033_PHONE_TEST_DIRECTIVE.json.
+
 # D070 S032 OWNER STOP — preserve rules and rebuild progress tools
 
 The owner stopped S032 on2026-10-21. All2579937 geometric rules are archived and independently checked. Monitor PAUSED. S032 closeout complete; rebuilt progress tools tested. No long search restart or S033 without fresh owner invocation. See docs/D070_S032_OWNER_STOP_AND_PROGRESS_REBUILD.md.
