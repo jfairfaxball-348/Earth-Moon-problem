@@ -1,5 +1,5 @@
 {
- "status": "RECOVERY_CONTROLS_PUBLISHED_BEFORE_SCIENTIFIC_RAM_RESUME",
+ "status": "FULL_RESTORE_AND_RETAINED_RAM_PILOT_PASS_PRESERVED_PAUSE_AT_ADDITIONAL_THREAD_GATE",
  "files": {
   ".github/workflows/scaffold.yml": {
    "bytes": 1985,
@@ -106,8 +106,8 @@
    "sha256": "7ba90e7a3d021ca3419f267c8ecbd023cdcf4092441743707a3570edd73defc2"
   },
   "sessions/S035/MONITOR_PROMPT.md": {
-   "bytes": 1894,
-   "sha256": "bcd25a63eaf82a6a53431e9e13caa9ef4a203f8bfba8f24420f8c328187e42f9"
+   "bytes": 2302,
+   "sha256": "b444ea29dc1fc74f4f309a259f09d03de528585265f42f1328578d7ee5672378"
   },
   "validation/S035/resume/live/evaluate_pilot.py": {
    "bytes": 13279,
@@ -216,6 +216,42 @@
   "validation/S035/resume/audit/STATUS_FIELD_REVIEW.md": {
    "bytes": 1275,
    "sha256": "23ae4c3d1ff981c2a0ced28f74e913606a04a1a8df5483f17a26b5dad60768be"
+  },
+  "AGENTS.md": {
+   "bytes": 20587,
+   "sha256": "5f9933fd8024406f57ed61f05d19af93e6d3dbe6d6f602f430998dd97537493a"
+  },
+  "authoritative/START_HERE.md": {
+   "bytes": 29400,
+   "sha256": "546f68708be045b276d7229a92a93975f2b25be320fae8d0c849121c80599d24"
+  },
+  "authoritative/STATE.json": {
+   "bytes": 78080,
+   "sha256": "d2ba154285a4a386a6dfb0afcbd133f0ddbe039a30ab859106c7ff62d36257c7"
+  },
+  "scripts/check_scaffold.py": {
+   "bytes": 2532,
+   "sha256": "15fa8b39e47426e1c9f6ae2123150cde4937d52ca6e4fad6126dfda24a17c86b"
+  },
+  "docs/SESSION_LEDGER.md": {
+   "bytes": 17690,
+   "sha256": "38bacb1157df4e758aa7b94a0c50f1a81d68b92b17cd86332b9f0d1fe99f8654"
+  },
+  "docs/FAILURE_LEDGER.md": {
+   "bytes": 26919,
+   "sha256": "3a8912a48fe438a818dbf85ab7553ffed41bc0140fd640eadd3a0b1c5ddd0f92"
+  },
+  "sessions/S035/RECOVERY_BLOCKED.md": {
+   "bytes": 3081,
+   "sha256": "d1d0dcfec349c7dd52663edf1310b8554718f9626c56c1db4ecc1e6f991932ee"
+  },
+  "validation/S035/resume/STATUS_LABEL_DIAGNOSIS.json": {
+   "bytes": 5739,
+   "sha256": "d6b6e8d8d13c8a3968e144df06f3d9d28a6648c4dd307a520b09f0c55eaa5a46"
+  },
+  "validation/S035/resume/THREAD_GATE_PAUSE.json": {
+   "bytes": 5375,
+   "sha256": "0e1fff12d300d8453993a499d208d113388cb116013a0737414f39c9d72b19b1"
   }
  },
  "proof_replay": false

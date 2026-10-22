@@ -1,0 +1,263 @@
+{
+ "processes": [
+  {
+   "pid": 14192,
+   "start_ticks": "1792682628.7765863",
+   "status": "stopped",
+   "cpu": 37.390625,
+   "threads": [
+    {
+     "tid": 13920,
+     "previous_count": 1,
+     "created_ticks": "134371562287765888",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 10296,
+   "start_ticks": "1792682629.3092763",
+   "status": "running",
+   "cpu": 0.015625,
+   "threads": [
+    {
+     "tid": 10628,
+     "previous_count": 1,
+     "created_ticks": "134371562293092797",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 9076,
+     "previous_count": 1,
+     "created_ticks": "134371684766965844",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 14508,
+   "start_ticks": "1792682629.3147533",
+   "status": "stopped",
+   "cpu": 0.03125,
+   "threads": [
+    {
+     "tid": 13904,
+     "previous_count": 1,
+     "created_ticks": "134371562293225111",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 13208,
+     "previous_count": 1,
+     "created_ticks": "134371562293228588",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 18384,
+   "start_ticks": "1792682629.327922",
+   "status": "running",
+   "cpu": 1212.671875,
+   "threads": [
+    {
+     "tid": 7056,
+     "previous_count": 1,
+     "created_ticks": "134371562293279248",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 9932,
+     "previous_count": 1,
+     "created_ticks": "134371562383956908",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 12096,
+     "previous_count": 1,
+     "created_ticks": "134371562383963206",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 12888,
+     "previous_count": 1,
+     "created_ticks": "134371684766966327",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 12384,
+   "start_ticks": "1792682640.4900093",
+   "status": "running",
+   "cpu": 3676.890625,
+   "threads": [
+    {
+     "tid": 4888,
+     "previous_count": 1,
+     "created_ticks": "134371562404900220",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 5408,
+     "previous_count": 1,
+     "created_ticks": "134371684766967440",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 3500,
+   "start_ticks": "1792682640.5223634",
+   "status": "running",
+   "cpu": 3680.28125,
+   "threads": [
+    {
+     "tid": 13668,
+     "previous_count": 1,
+     "created_ticks": "134371562405223651",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 16156,
+     "previous_count": 1,
+     "created_ticks": "134371684766969032",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "status": "running",
+   "cpu": 3144.125,
+   "threads": [
+    {
+     "tid": 17908,
+     "previous_count": 1,
+     "created_ticks": "134371562577049198",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 13732,
+     "previous_count": 1,
+     "created_ticks": "134371684766971439",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "status": "running",
+   "cpu": 3144.640625,
+   "threads": [
+    {
+     "tid": 4232,
+     "previous_count": 1,
+     "created_ticks": "134371562577355010",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 10796,
+     "previous_count": 1,
+     "created_ticks": "134371684766975186",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 11104,
+   "start_ticks": "1792682657.7398837",
+   "status": "stopped",
+   "cpu": 0.0,
+   "threads": [
+    {
+     "tid": 12920,
+     "previous_count": 1,
+     "created_ticks": "134371562577481312",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 9040,
+     "previous_count": 1,
+     "created_ticks": "134371562577484847",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 15352,
+   "start_ticks": "1792682657.7101965",
+   "status": "stopped",
+   "cpu": 0.015625,
+   "threads": [
+    {
+     "tid": 7960,
+     "previous_count": 1,
+     "created_ticks": "134371562577180081",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 8936,
+     "previous_count": 1,
+     "created_ticks": "134371562577185127",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 2224,
+   "start_ticks": "1792682640.5278616",
+   "status": "stopped",
+   "cpu": 0.015625,
+   "threads": [
+    {
+     "tid": 11120,
+     "previous_count": 2,
+     "created_ticks": "134371562405370234",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 9080,
+     "previous_count": 2,
+     "created_ticks": "134371562405373811",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 6808,
+   "start_ticks": "1792682640.4960043",
+   "status": "stopped",
+   "cpu": 0.015625,
+   "threads": [
+    {
+     "tid": 12492,
+     "previous_count": 2,
+     "created_ticks": "134371562405043530",
+     "zero_count_left_suspended": false
+    },
+    {
+     "tid": 12884,
+     "previous_count": 2,
+     "created_ticks": "134371562405047831",
+     "zero_count_left_suspended": false
+    }
+   ],
+   "cpu_delta": 0.0
+  }
+ ],
+ "method": "Balanced SuspendThread/ResumeThread for positive counts; zero surprise left suspended"
+}

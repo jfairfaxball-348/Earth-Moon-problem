@@ -1,3 +1,13 @@
+# S035 recovery authorised; preserved pause at thread identity gate (22 October2026)
+
+Full recovery and the120s same-process pilot passed. Sustained search has NOT
+begun: additional thread identities and inconsistent Windows status labels
+blocked safe rearm. All original PID/create identities survive, sampled threads
+have positive suspend counts and measured CPU is zero. Preserve RAM; no blind
+resume, legacy recovery, force termination or S036. Read
+sessions/S035/RECOVERY_BLOCKED.md. Owner continuation is already authorised.
+Next check-in ONLY23 October07:30 Europe/London; earlier times are superseded.
+
 # S035 OWNER PAUSED (22 October2026)
 
 Preservation/SAT-first owner directive supersedes running instructions below.

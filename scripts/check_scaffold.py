@@ -34,7 +34,8 @@ if active:
     assert active["id"] == state["recommended_next_session"]
     assert active["status"] in ("RUNNING", "PAUSED")
     if active["status"] == "PAUSED":
-        assert active["owner_resume_required"] and (ROOT/'sessions/S035/PAUSE.md').is_file()
+        assert (active.get("owner_resume_required") or active.get("resumption_authorized"))
+        assert (ROOT/'sessions/S035/PAUSE.md').is_file()
     assert state["next_session_is_future_unexecuted"] is False
 else:
     assert state["next_session_is_future_unexecuted"] is True

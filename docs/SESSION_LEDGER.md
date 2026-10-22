@@ -83,3 +83,5 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 | S035 |2026-10-22| D047/D074 owner Windows invocation; CAM0040 | Fresh Windows acceptance and genuine1/2/3-worker benchmarks PASS; sustained2 workers RUNNING | IN_PROGRESS; no S036 |
 
 S035 PAUSED by owner:12 processes suspended, four RAM contexts retained, nine UNKNOWN; durable archive/recovery; no new search, no S036.
+
+S035 owner-invoked recovery: full restore and actual120s same-process pilot PASS, original four RAM identities retained. Later rearm refused at additional-thread identity gate; preserved pause, sustained search NOT_STARTED. Next check-in23Oct07:30London only. See sessions/S035/RECOVERY_BLOCKED.md; no S036 or mathematical promotion.
