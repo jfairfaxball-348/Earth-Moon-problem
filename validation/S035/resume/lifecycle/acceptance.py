@@ -168,6 +168,7 @@ def main():
                 campaign.run(area, control, pilot_seconds=3.2)
             adopted = json.loads((control / "ADOPTION.json").read_text())
             assert adopted["status"] == "PAUSED" and not adopted["pause_errors"]
+            assert adopted["executing_cells"] == []
             assert all(row["turns"] >= 2 for row in adopted["contexts"])
             assert all(checked(row["worker"]).status() == psutil.STATUS_STOPPED for row in contexts)
             assert (area / "STOP").exists() and (control / "STOP").exists()

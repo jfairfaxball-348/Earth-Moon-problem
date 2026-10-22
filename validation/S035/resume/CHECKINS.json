@@ -2,9 +2,12 @@
  "automation_id": "earth-moon-s035-monitor",
  "status": "ACTIVE",
  "target_thread_id": "01a162ae-cf31-79c1-ac1d-ae715fa97482",
- "rrule": "RRULE:FREQ=DAILY;BYHOUR=7,21;BYMINUTE=0;BYSECOND=0;UNTIL=20261023T060000Z",
+ "rrule": "DTSTART:20261023T063000Z\nRRULE:FREQ=DAILY;COUNT=1",
  "timezone": "Europe/London",
- "requested_checkins": [
+ "hourly_replaced": true,
+ "after_second_checkin": null,
+ "independent_resource_guard_unchanged": true,
+ "superseded_checkins": [
   {
    "local": "2026-10-22T21:00:00+01:00",
    "utc": "2026-10-22T20:00:00Z"
@@ -14,7 +17,12 @@
    "utc": "2026-10-23T06:00:00Z"
   }
  ],
- "hourly_replaced": true,
- "after_second_checkin": "PAUSE_HEARTBEAT",
- "independent_resource_guard_unchanged": true
+ "requested_checkins": [
+  {
+   "local": "2026-10-23T07:30:00+01:00",
+   "utc": "2026-10-23T06:30:00Z"
+  }
+ ],
+ "after_requested_checkin": "PAUSE_HEARTBEAT",
+ "latest_owner_instruction": "Continue. New schedule steer... do not check again until7.30am"
 }

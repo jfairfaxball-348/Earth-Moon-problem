@@ -1,0 +1,349 @@
+{
+ "status": "PASS",
+ "created_epoch": 1792693897.8404295,
+ "originals_modified": false,
+ "scientific_verdict": "UNKNOWN",
+ "whole_stratum_certified": false,
+ "warning": "Counters and clause occurrences are not graph coverage or an ETA.",
+ "preserved": [
+  {
+   "source": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\BEFORE_PILOT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\BEFORE_PILOT.json",
+   "sha256": "b60b70cd2d149b147860b3219931439a5406162f0821d9297257ab584b2b7dfc",
+   "bytes": 4468
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\AFTER_PILOT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\AFTER_PILOT.json",
+   "sha256": "83cc9bfa39758be3e244bce0ca89855e171a607d131f9ca5e4d61e819b0b62cb",
+   "bytes": 4469
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\ADOPTION.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\ADOPTION.json",
+   "sha256": "c5f80530cb110cd7187d025dfdd199ba9b26d10c35a6c513d8ecaba49946cc9a",
+   "bytes": 7869
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\JOURNAL.jsonl",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\JOURNAL.jsonl",
+   "sha256": "000fd5bb6a7deb338970938befaef9f5497c91f0f04d342c14aadf0189fa7faf",
+   "bytes": 8708
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\CONTROLLER.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\CONTROLLER.json",
+   "sha256": "ae0433e7a1ae3bf3c58f0e7bde5112a901d991cdd6e6cf0f243c7d9eaa10ed2c",
+   "bytes": 209
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\WATCHER.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\WATCHER.json",
+   "sha256": "ac0743fb43230d56ca09acb7515c417ae38e88c79dfc35b34275847b944a6227",
+   "bytes": 218
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\native.log",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0000\\native.log",
+   "sha256": "7f2384909e075c887c5df45d8ba5afd2e366e5ebf043c3d6f0d590126219a59c",
+   "bytes": 219742
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\INPUT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0000\\INPUT.json",
+   "sha256": "634e29544cc36272ae5c47f69dd218303deb58716aa782794171f2f523f72f81",
+   "bytes": 52759
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\native.log",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0007\\native.log",
+   "sha256": "5425943a8b26a9b69eeac7f00090d3d4bdef306e186398c8bd9255f9612ae03b",
+   "bytes": 257451
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\INPUT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0007\\INPUT.json",
+   "sha256": "e43a34722cbbb6963f26c16ad801cbfc5841e176950842bcab0b6b57d79f5800",
+   "bytes": 52209
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\native.log",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0127\\native.log",
+   "sha256": "bee2c54b9507ccd1dec0b68ca615871d9af18b68e83f2942ceaac4da8597421e",
+   "bytes": 252124
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\INPUT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0127\\INPUT.json",
+   "sha256": "b22baf7fb19672241642610c824ac9c0eac02f9585c4bd46641f3a223ab4df9f",
+   "bytes": 52205
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\native.log",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0255\\native.log",
+   "sha256": "b0ef2ae128180a430d91672f7fdba5947e220d22a586d563b9bce10237aa7b10",
+   "bytes": 219291
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\INPUT.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0255\\INPUT.json",
+   "sha256": "8958e24fe6d042a069a3941efd608b614a41c6e4403fddf993931d9f791dee86",
+   "bytes": 53303
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\checkpoints\\cell-0000-1792693843075562700.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\checkpoints\\cell-0000-1792693843075562700.json",
+   "sha256": "0b86f6c90e00f4bbd6c8ccececac8efdd06fcc64b1491238b5f9e6aa46617e3f",
+   "bytes": 949
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\checkpoints\\cell-0007-1792693843199167400.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\checkpoints\\cell-0007-1792693843199167400.json",
+   "sha256": "f0ff67817c45bdf2038073926371f147767001172963c5ce5a3a8eb7a86ff7a5",
+   "bytes": 949
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\checkpoints\\cell-0127-1792693843202105500.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\checkpoints\\cell-0127-1792693843202105500.json",
+   "sha256": "b6895d8183e0a99b921bcb13979ab83a14e253ffafe7902fd9cab3d5fc47b262",
+   "bytes": 936
+  },
+  {
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\checkpoints\\cell-0255-1792693843229999200.json",
+   "copy": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\checkpoints\\cell-0255-1792693843229999200.json",
+   "sha256": "ff314e88a7834122fd637283549ed96e11dea330c821e60a9b97f27bca22463a",
+   "bytes": 946
+  }
+ ],
+ "source_sha256": "f082da5d63ad116e5a4af76a0a73002c5840b53a53ded11a5cd0d04b35be1151",
+ "evaluation_directory": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600",
+ "native": [
+  {
+   "cell": 0,
+   "worker": {
+    "pid": 14812,
+    "start_ticks": "1792682657.7049177",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.707673+00:00"
+   },
+   "turns": 2,
+   "active_cpu_seconds": 58.96875,
+   "before_counters": {
+    "conflicts": 22492009,
+    "decisions": 56534525,
+    "propagations": 4764188642
+   },
+   "after_counters": {
+    "conflicts": 22703573,
+    "decisions": 57433462,
+    "propagations": 4811017979
+   },
+   "deltas": {
+    "conflicts": 211564,
+    "decisions": 898937,
+    "propagations": 46829337
+   },
+   "conflicts_per_active_cpu_second": 3587.7307896131424,
+   "paused_cpu_delta": 0.0,
+   "private_bytes": 696520704
+  },
+  {
+   "cell": 7,
+   "worker": {
+    "pid": 12384,
+    "start_ticks": "1792682640.4900093",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.489824+00:00"
+   },
+   "turns": 2,
+   "active_cpu_seconds": 59.234375,
+   "before_counters": {
+    "conflicts": 24651595,
+    "decisions": 58620126,
+    "propagations": 5277916706
+   },
+   "after_counters": {
+    "conflicts": 24853396,
+    "decisions": 59427763,
+    "propagations": 5322016328
+   },
+   "deltas": {
+    "conflicts": 201801,
+    "decisions": 807637,
+    "propagations": 44099622
+   },
+   "conflicts_per_active_cpu_second": 3406.822474281192,
+   "paused_cpu_delta": 0.0,
+   "private_bytes": 871075840
+  },
+  {
+   "cell": 127,
+   "worker": {
+    "pid": 3500,
+    "start_ticks": "1792682640.5223634",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.530027+00:00"
+   },
+   "turns": 2,
+   "active_cpu_seconds": 60.09375,
+   "before_counters": {
+    "conflicts": 24660333,
+    "decisions": 58571834,
+    "propagations": 5469064448
+   },
+   "after_counters": {
+    "conflicts": 24859040,
+    "decisions": 59354730,
+    "propagations": 5514531722
+   },
+   "deltas": {
+    "conflicts": 198707,
+    "decisions": 782896,
+    "propagations": 45467274
+   },
+   "conflicts_per_active_cpu_second": 3306.616744669787,
+   "paused_cpu_delta": 0.0,
+   "private_bytes": 791158784
+  },
+  {
+   "cell": 255,
+   "worker": {
+    "pid": 17984,
+    "start_ticks": "1792682657.7354991",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.737848+00:00"
+   },
+   "turns": 2,
+   "active_cpu_seconds": 60.171875,
+   "before_counters": {
+    "conflicts": 21207159,
+    "decisions": 49763568,
+    "propagations": 4743657418
+   },
+   "after_counters": {
+    "conflicts": 21375696,
+    "decisions": 50432597,
+    "propagations": 4783658246
+   },
+   "deltas": {
+    "conflicts": 168537,
+    "decisions": 669029,
+    "propagations": 40000828
+   },
+   "conflicts_per_active_cpu_second": 2800.9265125941315,
+   "paused_cpu_delta": 0.0,
+   "private_bytes": 890757120
+  }
+ ],
+ "peak_executing_slots": 2,
+ "all_four_same_identities": true,
+ "all_eight_legacy_stopped": true,
+ "all_four_native_paused_zero_cpu": true,
+ "every_region_resumed_twice": true,
+ "geometric_deltas": [
+  {
+   "cell": 0,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+   "baseline_bytes": 37645991,
+   "baseline_complete_bytes": 37645991,
+   "baseline_partial_bytes": 0,
+   "end_complete_bytes": 37645991,
+   "observed_source_bytes": 37645991,
+   "omitted_incomplete_tail_bytes": 0,
+   "preserved_delta": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0000\\pilot-geometric-delta.lem",
+   "delta_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "delta_bytes": 0,
+   "independently_checked_clause_occurrences": 0,
+   "subdivision_counts": {},
+   "status": "INDEPENDENT_SUBDIVISION_PASS",
+   "uniqueness_claimed": false
+  },
+  {
+   "cell": 7,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+   "baseline_bytes": 28409338,
+   "baseline_complete_bytes": 28409338,
+   "baseline_partial_bytes": 0,
+   "end_complete_bytes": 28409338,
+   "observed_source_bytes": 28409338,
+   "omitted_incomplete_tail_bytes": 0,
+   "preserved_delta": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0007\\pilot-geometric-delta.lem",
+   "delta_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "delta_bytes": 0,
+   "independently_checked_clause_occurrences": 0,
+   "subdivision_counts": {},
+   "status": "INDEPENDENT_SUBDIVISION_PASS",
+   "uniqueness_claimed": false
+  },
+  {
+   "cell": 127,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem",
+   "baseline_bytes": 1155,
+   "baseline_complete_bytes": 1155,
+   "baseline_partial_bytes": 0,
+   "end_complete_bytes": 1155,
+   "observed_source_bytes": 1155,
+   "omitted_incomplete_tail_bytes": 0,
+   "preserved_delta": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0127\\pilot-geometric-delta.lem",
+   "delta_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "delta_bytes": 0,
+   "independently_checked_clause_occurrences": 0,
+   "subdivision_counts": {},
+   "status": "INDEPENDENT_SUBDIVISION_PASS",
+   "uniqueness_claimed": false
+  },
+  {
+   "cell": 255,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem",
+   "baseline_bytes": 5899058,
+   "baseline_complete_bytes": 5899058,
+   "baseline_partial_bytes": 0,
+   "end_complete_bytes": 5899058,
+   "observed_source_bytes": 5899058,
+   "omitted_incomplete_tail_bytes": 0,
+   "preserved_delta": "C:\\Earth-Moon-problem\\validation\\S035\\resume\\live\\evaluation-1792693897840429600\\cell-0255\\pilot-geometric-delta.lem",
+   "delta_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "delta_bytes": 0,
+   "independently_checked_clause_occurrences": 0,
+   "subdivision_counts": {},
+   "status": "INDEPENDENT_SUBDIVISION_PASS",
+   "uniqueness_claimed": false
+  }
+ ],
+ "independently_checked_new_clause_occurrences": 0,
+ "geometric_clauses_added_to_old_ledger": false,
+ "new_region_closures": 0,
+ "mapping_sha256": "d49e957f503f2ce2d7f9f0dd1d111364919976366cb254fd95a919a8267d6799"
+}

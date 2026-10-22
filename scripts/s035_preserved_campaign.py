@@ -184,7 +184,8 @@ def halt_all(control, adoption, reason):
         # already been attempted; emergency suspension is idempotent.
         errors.append(dict(stage="mutation_lock", error=repr(exc)))
         pause_registered()
-    adoption.update(status="PAUSED", reason=reason, updated_epoch=time.time(), pause_errors=errors)
+    adoption.update(status="PAUSED", reason=reason, updated_epoch=time.time(), pause_errors=errors,
+                    executing_cells=[])
     atomic_json(control / "ADOPTION.json", adoption)
     log_evidence = []
     for context in adoption["contexts"]:

@@ -30,3 +30,15 @@ layout; that statement was corrected before publication. The actual scan gaps
 were other scientific roots, candidate/result variants and race/failure handling.
 
 No failure changed a graph verdict, certificate, encoded closure or headline.
+
+The first live startup attempt preceded the watcher's readiness record; the
+controller refused it before opening/resuming native contexts. A second attempt
+met a Windows reader-sharing PermissionError in the watcher's atomic status
+replacement. Its safety path suspended identities idempotently and latched only
+the new control STOP. BEFORE_PILOT vs AFTER_REFUSED_STARTUP shows identical native
+CPU/counters/log/journal bytes. All failed control files and logs are preserved
+in startup-refused/ and the original separate runtime directory. Read/replace
+retries and real concurrent-reader controls passed before ordinary publication
+0922b7c and the successful actual pilot. The halted adoption status also now
+clears its current executing_cells list; per-context paused states and OS CPU
+were already correct in the original successful pilot.

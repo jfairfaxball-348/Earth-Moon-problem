@@ -1,0 +1,2420 @@
+{
+ "recipe": {
+  "n": 28,
+  "pairs": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    9
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    0,
+    13
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    0,
+    18
+   ],
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    0,
+    21
+   ],
+   [
+    0,
+    22
+   ],
+   [
+    0,
+    23
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    25
+   ],
+   [
+    0,
+    26
+   ],
+   [
+    0,
+    27
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    9
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    1,
+    13
+   ],
+   [
+    1,
+    14
+   ],
+   [
+    1,
+    15
+   ],
+   [
+    1,
+    16
+   ],
+   [
+    1,
+    17
+   ],
+   [
+    1,
+    18
+   ],
+   [
+    1,
+    19
+   ],
+   [
+    1,
+    20
+   ],
+   [
+    1,
+    21
+   ],
+   [
+    1,
+    22
+   ],
+   [
+    1,
+    23
+   ],
+   [
+    1,
+    24
+   ],
+   [
+    1,
+    25
+   ],
+   [
+    1,
+    26
+   ],
+   [
+    1,
+    27
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    12
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    2,
+    14
+   ],
+   [
+    2,
+    15
+   ],
+   [
+    2,
+    16
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    2,
+    18
+   ],
+   [
+    2,
+    19
+   ],
+   [
+    2,
+    20
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    2,
+    22
+   ],
+   [
+    2,
+    23
+   ],
+   [
+    2,
+    24
+   ],
+   [
+    2,
+    25
+   ],
+   [
+    2,
+    26
+   ],
+   [
+    2,
+    27
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    3,
+    13
+   ],
+   [
+    3,
+    14
+   ],
+   [
+    3,
+    15
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    3,
+    18
+   ],
+   [
+    3,
+    19
+   ],
+   [
+    3,
+    20
+   ],
+   [
+    3,
+    21
+   ],
+   [
+    3,
+    22
+   ],
+   [
+    3,
+    23
+   ],
+   [
+    3,
+    24
+   ],
+   [
+    3,
+    25
+   ],
+   [
+    3,
+    26
+   ],
+   [
+    3,
+    27
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    4,
+    14
+   ],
+   [
+    4,
+    15
+   ],
+   [
+    4,
+    16
+   ],
+   [
+    4,
+    17
+   ],
+   [
+    4,
+    18
+   ],
+   [
+    4,
+    19
+   ],
+   [
+    4,
+    20
+   ],
+   [
+    4,
+    21
+   ],
+   [
+    4,
+    22
+   ],
+   [
+    4,
+    23
+   ],
+   [
+    4,
+    24
+   ],
+   [
+    4,
+    25
+   ],
+   [
+    4,
+    26
+   ],
+   [
+    4,
+    27
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    5,
+    13
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    5,
+    16
+   ],
+   [
+    5,
+    17
+   ],
+   [
+    5,
+    18
+   ],
+   [
+    5,
+    19
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    21
+   ],
+   [
+    5,
+    22
+   ],
+   [
+    5,
+    23
+   ],
+   [
+    5,
+    24
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    5,
+    26
+   ],
+   [
+    5,
+    27
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    19
+   ],
+   [
+    6,
+    20
+   ],
+   [
+    6,
+    21
+   ],
+   [
+    6,
+    22
+   ],
+   [
+    6,
+    23
+   ],
+   [
+    6,
+    24
+   ],
+   [
+    6,
+    25
+   ],
+   [
+    6,
+    26
+   ],
+   [
+    6,
+    27
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    14
+   ],
+   [
+    7,
+    15
+   ],
+   [
+    7,
+    16
+   ],
+   [
+    7,
+    17
+   ],
+   [
+    7,
+    18
+   ],
+   [
+    7,
+    19
+   ],
+   [
+    7,
+    20
+   ],
+   [
+    7,
+    21
+   ],
+   [
+    7,
+    22
+   ],
+   [
+    7,
+    23
+   ],
+   [
+    7,
+    24
+   ],
+   [
+    7,
+    25
+   ],
+   [
+    7,
+    26
+   ],
+   [
+    7,
+    27
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    13
+   ],
+   [
+    8,
+    14
+   ],
+   [
+    8,
+    15
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    8,
+    17
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    19
+   ],
+   [
+    8,
+    20
+   ],
+   [
+    8,
+    21
+   ],
+   [
+    8,
+    22
+   ],
+   [
+    8,
+    23
+   ],
+   [
+    8,
+    24
+   ],
+   [
+    8,
+    25
+   ],
+   [
+    8,
+    26
+   ],
+   [
+    8,
+    27
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    13
+   ],
+   [
+    9,
+    14
+   ],
+   [
+    9,
+    15
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    9,
+    17
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    9,
+    19
+   ],
+   [
+    9,
+    20
+   ],
+   [
+    9,
+    21
+   ],
+   [
+    9,
+    22
+   ],
+   [
+    9,
+    23
+   ],
+   [
+    9,
+    24
+   ],
+   [
+    9,
+    25
+   ],
+   [
+    9,
+    26
+   ],
+   [
+    9,
+    27
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    10,
+    15
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    10,
+    17
+   ],
+   [
+    10,
+    18
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    10,
+    21
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    10,
+    23
+   ],
+   [
+    10,
+    24
+   ],
+   [
+    10,
+    25
+   ],
+   [
+    10,
+    26
+   ],
+   [
+    10,
+    27
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    11,
+    13
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    11,
+    16
+   ],
+   [
+    11,
+    17
+   ],
+   [
+    11,
+    18
+   ],
+   [
+    11,
+    19
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    11,
+    21
+   ],
+   [
+    11,
+    22
+   ],
+   [
+    11,
+    23
+   ],
+   [
+    11,
+    24
+   ],
+   [
+    11,
+    25
+   ],
+   [
+    11,
+    26
+   ],
+   [
+    11,
+    27
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    15
+   ],
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    19
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    21
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    12,
+    23
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    25
+   ],
+   [
+    12,
+    26
+   ],
+   [
+    12,
+    27
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    13,
+    15
+   ],
+   [
+    13,
+    16
+   ],
+   [
+    13,
+    17
+   ],
+   [
+    13,
+    18
+   ],
+   [
+    13,
+    19
+   ],
+   [
+    13,
+    20
+   ],
+   [
+    13,
+    21
+   ],
+   [
+    13,
+    22
+   ],
+   [
+    13,
+    23
+   ],
+   [
+    13,
+    24
+   ],
+   [
+    13,
+    25
+   ],
+   [
+    13,
+    26
+   ],
+   [
+    13,
+    27
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    14,
+    16
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    14,
+    18
+   ],
+   [
+    14,
+    19
+   ],
+   [
+    14,
+    20
+   ],
+   [
+    14,
+    21
+   ],
+   [
+    14,
+    22
+   ],
+   [
+    14,
+    23
+   ],
+   [
+    14,
+    24
+   ],
+   [
+    14,
+    25
+   ],
+   [
+    14,
+    26
+   ],
+   [
+    14,
+    27
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    15,
+    18
+   ],
+   [
+    15,
+    19
+   ],
+   [
+    15,
+    20
+   ],
+   [
+    15,
+    21
+   ],
+   [
+    15,
+    22
+   ],
+   [
+    15,
+    23
+   ],
+   [
+    15,
+    24
+   ],
+   [
+    15,
+    25
+   ],
+   [
+    15,
+    26
+   ],
+   [
+    15,
+    27
+   ],
+   [
+    16,
+    17
+   ],
+   [
+    16,
+    18
+   ],
+   [
+    16,
+    19
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    16,
+    21
+   ],
+   [
+    16,
+    22
+   ],
+   [
+    16,
+    23
+   ],
+   [
+    16,
+    24
+   ],
+   [
+    16,
+    25
+   ],
+   [
+    16,
+    26
+   ],
+   [
+    16,
+    27
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    17,
+    19
+   ],
+   [
+    17,
+    20
+   ],
+   [
+    17,
+    21
+   ],
+   [
+    17,
+    22
+   ],
+   [
+    17,
+    23
+   ],
+   [
+    17,
+    24
+   ],
+   [
+    17,
+    25
+   ],
+   [
+    17,
+    26
+   ],
+   [
+    17,
+    27
+   ],
+   [
+    18,
+    19
+   ],
+   [
+    18,
+    20
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    18,
+    22
+   ],
+   [
+    18,
+    23
+   ],
+   [
+    18,
+    24
+   ],
+   [
+    18,
+    25
+   ],
+   [
+    18,
+    26
+   ],
+   [
+    18,
+    27
+   ],
+   [
+    19,
+    20
+   ],
+   [
+    19,
+    21
+   ],
+   [
+    19,
+    22
+   ],
+   [
+    19,
+    23
+   ],
+   [
+    19,
+    24
+   ],
+   [
+    19,
+    25
+   ],
+   [
+    19,
+    26
+   ],
+   [
+    19,
+    27
+   ],
+   [
+    20,
+    21
+   ],
+   [
+    20,
+    22
+   ],
+   [
+    20,
+    23
+   ],
+   [
+    20,
+    24
+   ],
+   [
+    20,
+    25
+   ],
+   [
+    20,
+    26
+   ],
+   [
+    20,
+    27
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    21,
+    23
+   ],
+   [
+    21,
+    24
+   ],
+   [
+    21,
+    25
+   ],
+   [
+    21,
+    26
+   ],
+   [
+    21,
+    27
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    22,
+    24
+   ],
+   [
+    22,
+    25
+   ],
+   [
+    22,
+    26
+   ],
+   [
+    22,
+    27
+   ],
+   [
+    23,
+    24
+   ],
+   [
+    23,
+    25
+   ],
+   [
+    23,
+    26
+   ],
+   [
+    23,
+    27
+   ],
+   [
+    24,
+    25
+   ],
+   [
+    24,
+    26
+   ],
+   [
+    24,
+    27
+   ],
+   [
+    25,
+    26
+   ],
+   [
+    25,
+    27
+   ],
+   [
+    26,
+    27
+   ]
+  ],
+  "variables": 17976,
+  "base": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\base.cnf",
+  "base_clauses": 336030,
+  "base_sha256": "3066258744e74f5bef453caeb9f0c8cbfd43f702721d2c124950e62366d1681d",
+  "sources": [
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S032\\campaign\\learned.lem",
+    "sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+    "count": 2579937
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0000\\ce6d64db9b044dabb67a6c63e568b75d\\new-cuts.accepted.lem",
+    "count": 12566,
+    "sha256": "42ca8f9ab0fe97a144656f04c5f575205b4d8fce26c140698f8e6a37f8abb180",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T20:54:32.277448+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0001\\e89a94b31e0b488287e0e6b1203ec449\\new-cuts.accepted.lem",
+    "count": 7944,
+    "sha256": "57de2e3280dd79d72de6b491ab8849e3c1b0b3b17066c10429a33f7d598aa66b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T20:55:22.987162+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0002\\b268c531e4b1461bba3a1c34b4443201\\new-cuts.accepted.lem",
+    "count": 6,
+    "sha256": "789166e82756c51128fcfec971412a3b661506c1c8b7538af3be988136ca0a05",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T20:55:56.096584+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0003\\c4a81c48e5d14b639c97bb17d30bfa50\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "a89587cc523ac72a9d5116baed0983eb8a05ff9000a3cbf760bfe639f5d9b75c",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T20:59:47.182650+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0004\\ca165a0f92bc42bc837871410be13714\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "97c5420239c05609ade8e90b76d0df2b41c55ee9c18eac23b85d08d04bfd34da",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:00:11.915131+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0005\\2f3672f62bf54bf291056ef01b97ec8f\\new-cuts.accepted.lem",
+    "count": 136,
+    "sha256": "1d344e9211e3a034ce247c7082bfd231f7d2c567aa14a445e18795b90c0b8d79",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:00:54.858693+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0006\\1428c162ad7e4869997feaf372318f73\\new-cuts.accepted.lem",
+    "count": 836,
+    "sha256": "4c144c2c868ff1faf8d689ca28f055ad5b8ccad91b2b1b6b778fd9af740ef1f0",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:01:34.361760+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0007\\e830d324a8474996b742525910f6b412\\new-cuts.accepted.lem",
+    "count": 62,
+    "sha256": "3f5adb0b0dd5b8c21a899591d2993b85e4ccbee0914c6836a0ddaac7fd65c08f",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:04:12.387148+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0009\\da06ce469b104d79b41feb50dadfab7e\\new-cuts.accepted.lem",
+    "count": 168,
+    "sha256": "95968e08c3bac3d7dba23bca676d6c9d410eb508c62bcc7ead7ca7a79ed84413",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:06:18.426228+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0010\\aa2fb67060e24a7e99d81002feae4c77\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "0ab60789d5e8f20a96c097a74779103b9d4c1834d542f2831df5f63750fe6e87",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:07:03.355218+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0012\\a0ff867405f242ab81534892d3a7f0ff\\new-cuts.accepted.lem",
+    "count": 8,
+    "sha256": "f0b89ee0842b2e6ed822cebcd470c149fa426f72e3a8ddbc5eec8822f6a09219",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:08:27.592111+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0013\\d9ea64e30dfe4405bb2db73d3e397bbd\\new-cuts.accepted.lem",
+    "count": 463,
+    "sha256": "04f39cbc652dd735b8eee0fc30ca0378d2b2b201dd10f7fad92ae778d512647c",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:09:06.921206+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0014\\deb874d3572f41c1ba36dfda9d0f3ad8\\new-cuts.accepted.lem",
+    "count": 144,
+    "sha256": "7ff3b62344adf4075a57442967d2a540aafbedba91621819299df2989498cf9f",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:09:44.491193+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0015\\33cb3625ffa245e6b95299635105a7f8\\new-cuts.accepted.lem",
+    "count": 12263,
+    "sha256": "6225c1a15d550a7c76d64b1145db2a2839c7ceaa5d135fe236d72b61195a5893",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:12:30.879796+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0016\\7a1fe47d34444804be79db6cb5ff97b6\\new-cuts.accepted.lem",
+    "count": 3,
+    "sha256": "e1aa8877d7e76bef7d00f1f14bbfd59cc50490494d810532c76504fab91b781e",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:12:37.006524+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0017\\ca543ceac9104bf6b3db7465068b47aa\\new-cuts.accepted.lem",
+    "count": 378,
+    "sha256": "1d85fcc1fe54c52fcce78728ca8a71fdce8104d8d972dd47eb90d7fed7eecf04",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:14:11.288422+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0018\\fab39ca869f5407aa6da5badbdb6b776\\new-cuts.accepted.lem",
+    "count": 121,
+    "sha256": "80fe8d87341e797c541d250dde36c5f20d47c6e7cc67cf732ae35f3f5ed9e22d",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:14:55.903094+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0020\\5d857a107bcd435dbca1415d415bac38\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "ac17570a8a9d42f63655d2f14bd6d1fbcff6cf4f85f25bc2a0246afdd9ed6093",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:16:43.158132+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0021\\06f2dfdf1082451aa3e0ed7eea355c36\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "850b1f70ae17d83ec2ac31123444eacf0925ef02b5f67811a055dbb72ed843a0",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:17:54.403115+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0023\\835daee67da3443d943746c69ed03353\\new-cuts.accepted.lem",
+    "count": 8,
+    "sha256": "2da2c9d170ee15b12b0365f243d71ff6261ee6ccf34dc563b42fbb048d0e6099",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:21:29.438167+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0024\\5e99e7256f434c919b28b177b44d6f72\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "c9ba95d37300a33eff763fdf1acdd2a01c045edc5123eb42a10b22784121311a",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:23:39.940923+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0025\\7b81bd26c2a14c509c61dd156041cf04\\new-cuts.accepted.lem",
+    "count": 244,
+    "sha256": "bcdc087164372c6a8baecfc02fafdab2b139c2c47351ba809002bbfcd849cf93",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:25:51.230906+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0028\\a20218e05265470eb8ac351e0b268c6d\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "381c971711d2daf4e0343cca3e4f6adef816072b8a054aaada57424f2cb32227",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:32:18.566895+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0029\\c9d07fced9ed413485d299bcae26d221\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "b51f950d9cf6556bb6723cd6059d856fa14c14ab25bc444f1c6c309d53b4f6ac",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:34:25.963596+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0030\\481437410f634c3087fdda4b14aef498\\new-cuts.accepted.lem",
+    "count": 1547,
+    "sha256": "c1544e472ca792d4662aa1f10e58e94c3053eba8a7367e7329e1a65a1494b45e",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:36:48.915107+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0031\\cc52a83fe91e4fb9be99e0d5804892ee\\new-cuts.accepted.lem",
+    "count": 6247,
+    "sha256": "ec7f14946bbd9dce67e08b018013a9e54fb6e1d0d7e4b9de44313ebb3c29d9a4",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:40:22.974363+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0032\\0a01d717096743ddbf2a9fb89c54ad03\\new-cuts.accepted.lem",
+    "count": 641,
+    "sha256": "0686816de0a4872004972135e4ddb5b550d7ecea93d28c66d2037a7cedc9c52d",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:40:48.695164+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0033\\c06476327fba42988fe4eec5f9b78133\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "660cb3116a9a58c60d7381fae0f5a68a59dc3b5299e354c2c27c24e63a24b9f9",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:42:58.116514+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0037\\c7d3670d67d24212b0e4162b76215504\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "b0269aaec9ffae28be34b228f7d9b971f21c2fbd6857431842c816317607d7c1",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T21:51:16.960477+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0048\\0ecc84ab405d493bb54aee9d2cf04506\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "b56168d90aee8df7399cec21dbba0e4d390c276a3e2e2f5022416e4a84e47696",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:13:44.958400+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0050\\9ba42a48f1744171bd14c6dbd9ff937e\\new-cuts.accepted.lem",
+    "count": 4,
+    "sha256": "1bfb73d0f0157a521b68a7c9803cb19a40ba511cf68624c79c2844a08efdbae9",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:17:51.592616+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0051\\38651050666c44e4953766e982cf2c6e\\new-cuts.accepted.lem",
+    "count": 111,
+    "sha256": "aec8a8f03c4378c8a823ba4993879cb7ada6b7438d6cc6cc48681d1165b49447",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:19:52.705690+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0053\\2fbb02920074408b8d95b7a1edf1136c\\new-cuts.accepted.lem",
+    "count": 9304,
+    "sha256": "587e616f7d8eafc8ed8417e85ac242522b1576aad3da07244ff8fd39b6797182",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:24:04.927849+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0056\\feb860b7731c4d8aa4e97f3c8e6bb9a9\\new-cuts.accepted.lem",
+    "count": 134,
+    "sha256": "1a6ad5ef2708f62d440ea7df192a5ebf25004d89733c0b212477cd8e415be729",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:29:53.601084+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0061\\19877d005bad4416a97e483983d4b7ab\\new-cuts.accepted.lem",
+    "count": 481,
+    "sha256": "d0734d73952b3a6d2c5c8c3711fc2050a7000b8d8617a1cb3610e9d010ccc475",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:40:03.703871+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0062\\6b716ae98af6480a8a4df308ec1bdcd6\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "22a55dcc1a968e261bfdc3f55c808690da1129f700cc95ed8d5e04614993b0dc",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:42:02.998586+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0063\\d5c49d9d573549ffb9086829bbd4a822\\new-cuts.accepted.lem",
+    "count": 14596,
+    "sha256": "f1b444ee48b191f6356813b9912faff3385d693686ec7f532eab790a7255dd80",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:45:43.149137+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0064\\8905fd07119040b490256c573c730b1c\\new-cuts.accepted.lem",
+    "count": 664,
+    "sha256": "ea9185c3b47599d26aee6d6363840be3d72ea2e23113e64c3ece8021f5405f44",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:46:10.492622+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0065\\29cc52b9ab3148d395475684eedcee27\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "de425028d039e7b374d2a9dd531956c9461ee4fd018cb217e4ef766f7f900a34",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T22:48:11.193139+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0073\\77c22566f49244dcae7f51676660035e\\new-cuts.accepted.lem",
+    "count": 573,
+    "sha256": "2a5fed1ff56fd3a470e8567c76db43145c2fd29bf5c074f2b11c615220096cf5",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:04:28.093587+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0076\\abc3c33b28094ae694011a33d494b96f\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "562cfaa1805a6f79c0938874470b061e119ce3a4a3a1c60ee90a4329be97a389",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:10:30.760361+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0077\\ea4bb75f11174fe4b7e2961c44dd0cbe\\new-cuts.accepted.lem",
+    "count": 19,
+    "sha256": "abbd79ac9be12874c3d1fb288dda08cf0bba01d4150b8199365e70e0b4349c8b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:12:34.078977+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0079\\8af1eff4e6f54651ab34d3db30fa47cd\\new-cuts.accepted.lem",
+    "count": 11,
+    "sha256": "933ca5555bd4b30507c6d387fae375c96f8cc828f158e3270c1be30366dbe226",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:16:41.284915+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0090\\981780f603fc4af9998eeeb53453cbe3\\new-cuts.accepted.lem",
+    "count": 37,
+    "sha256": "e6fbc9af1e8f62a01892e077ab07f0c0e59d1dc9cc16533ba311402241fc8c3a",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:39:03.142114+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0092\\fac492f27a294a0083c819b7dfa3a79a\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "daca8c9a86848b7d385895c730e023e245b17168af86ed5401926ccecf83e5b2",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:43:08.149294+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0093\\25a1f69a03df4d5798cd1aaf0d3a3dd4\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "0854fb4b07f08783f2fd8fe7a844f535695afe39ce2e044e4f3680e15b2141a6",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:45:11.255414+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0095\\cb0047c4494845d387f05454c6e8e42d\\new-cuts.accepted.lem",
+    "count": 4,
+    "sha256": "957356e71534b4ec355a4dde7535122dad357d9856421a663a68e050ce3c4f53",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:49:16.183832+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0096\\8ebf04037ea0428e95dbe37a1fbaed2f\\new-cuts.accepted.lem",
+    "count": 10312,
+    "sha256": "6d8fb35b0fa47f8c78fe25f7f7fbfeaf0c6620e68eb1ade561dff757e04bdf53",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:51:30.560115+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0098\\b77829f606b24ad3ac964fece5a4afd4\\new-cuts.accepted.lem",
+    "count": 12014,
+    "sha256": "74628a65725caeeaebaad182cc1cd06f635668a1e689b9baf6d53aba9f7715ab",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-21T23:55:37.084832+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034\\attempts\\cell-0101\\076c879e70854acca7417bd6a6e1f262\\new-cuts.accepted.lem",
+    "count": 975,
+    "sha256": "01877f92134b50e34dd69d404c99f1b641a397b5ccaa363642752faea98ed048",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T00:01:33.334424+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0111\\776e3b9c38d348e08dfb9433e6406ed2\\new-cuts.accepted.lem",
+    "count": 187,
+    "sha256": "ff2f5ad607219f966f306891fd5b980124e8e978aacc429907a975dbcafd478e",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:44:36.994011+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0116\\b57cf940f2b943dd8baacadcb4d4717d\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "0f8ef05225353cd5b2806581b4c9ff2810b49f4c19140aea6c18ee49dad7d0bb",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:48:20.102725+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0117\\91dbd0a3d0dc4cfea151a4a957ab7bd0\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "7169615f3cc4e57ee20c7401861cd29393f7861eaa87d0cdcfb529a943f94fe6",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:49:02.385672+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0120\\f6cb5b8be53d4228b601f5aed4c8fba5\\new-cuts.accepted.lem",
+    "count": 2,
+    "sha256": "d8a6a1cc0c1fb97df3c42267d2ced9e0cea69fa7ae96e554560b108f4323db80",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:51:06.788898+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0121\\36bcf85d315d4b3791b326f8811d2e40\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "ee78d212aad4f4be6308e24dbae0d014156b804141b0776245cbedbfdad8b112",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:51:46.316501+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0122\\08220f5c765f4994b4518c2c1073c8d7\\new-cuts.accepted.lem",
+    "count": 323,
+    "sha256": "74e6c0993b24bbd80fd424fb8c174873acce5ca6d2f8c817bc9805b021ed1f42",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:52:46.229587+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0123\\07ff6e69fecb49d49cbf389517615ed7\\new-cuts.accepted.lem",
+    "count": 4,
+    "sha256": "c22b60ba88af41be36032575466228c66b3aae012c147aa74db64d78a58496c6",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T08:52:55.630985+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\b83a67a676e34d3eb84050d941e46db2\\new-cuts.accepted.lem",
+    "count": 8379,
+    "sha256": "04bb848fab2c422f5439a1ad3ba6b33ff29801e61fe0656edf49e46af769b159",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T09:25:26.013842+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\e0a4d24d1eee4462926f2583c69450af\\new-cuts.accepted.lem",
+    "count": 10535,
+    "sha256": "b80f216c2ba589359d7487b6aa5fbf45044ec38729750cfb8fa54a787f1d3f80",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T11:06:23.080130+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\d318076ca17845378321872198895cd2\\new-cuts.accepted.lem",
+    "count": 1381,
+    "sha256": "3432b6a4e8c9de4ac46cdacc2e09ba275ad831f866c6c0e4cb77ef998088755a",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T11:07:34.509243+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\deda9559909b413d8c0b0dfa29012c27\\new-cuts.accepted.lem",
+    "count": 1461,
+    "sha256": "fa5e073e2233e8e4cd1d4b7979d1181c9f6f5572e30ad93713e40becad4a2810",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T11:36:23.898772+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\706d216dbe8e475a86a3ac352d8d5826\\new-cuts.accepted.lem",
+    "count": 12364,
+    "sha256": "32bd2aff7533c9b5ed7a1a988638badcd68737c7cb8fb15879b0d8acf397cd13",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T11:38:22.225251+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\a8f6857bcf57453b9a4f7c2c79a7e33f\\new-cuts.accepted.lem",
+    "count": 1,
+    "sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T12:06:24.448145+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\8e0b2e5120bc44c29c1c052f287adf9e\\new-cuts.accepted.lem",
+    "count": 10048,
+    "sha256": "85275153e470263a75ef0121c659aa7569b26deca6bfb15ffa4967913a6fa6c4",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T12:09:09.482452+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\38f130e25c5e45e4b5a5e689dd5a432d\\new-cuts.accepted.lem",
+    "count": 246,
+    "sha256": "4133985ea55ea2704e766d2bed8a9d018e09f1dbe35b3d146160662f9596dcb9",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T12:36:25.165750+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\c1a7ce810a1a4033bbc873f1e936534c\\new-cuts.accepted.lem",
+    "count": 40,
+    "sha256": "1ec820df3556ffc39cac807f68fefdb2fab4d188a10f2cbab8c9b5202b895a6f",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T12:39:56.488892+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\078b5360ba664ef09e939276da3677a6\\new-cuts.accepted.lem",
+    "count": 66,
+    "sha256": "2ace2ca11fe786349b97589e5f426784348cb2629c487fe6bec75e487e1b0ac9",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T13:06:25.556883+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\7065dedcaa344195adbec177e380c428\\new-cuts.accepted.lem",
+    "count": 32,
+    "sha256": "ebdf410edff8db087df31ecf8e3c121c1e7fd03bf7772c187f746bddf6062cea",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T13:10:43.408459+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\9e4eeac64eed4572baae2e6f408a0af5\\new-cuts.accepted.lem",
+    "count": 11800,
+    "sha256": "888500dee79ee08e6a0c825310fa7c0e899700d55b17e75f0e43e975508e90f2",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T13:36:26.416166+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\ffd3e49496734e8ba2175f90204899ea\\new-cuts.accepted.lem",
+    "count": 35,
+    "sha256": "7b1eeccf82842db5a04398f4411e4e85a9521d7dd1779f993bd29238b0e38d25",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T13:40:43.748474+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\d3bd400034fb45e28fe580acc4197192\\new-cuts.accepted.lem",
+    "count": 6490,
+    "sha256": "32f8d44c311307052628133cf337e94b103c80b489f878e9f3057d5642aa977b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T14:06:27.122312+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\6bdc0505f69f4c56af8f16fc608d8b61\\new-cuts.accepted.lem",
+    "count": 12007,
+    "sha256": "31536ef4fab3776719251046fa78a414182dbe0edfacd06d09f74ac42a6d6dd1",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T14:36:28.014920+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\5e7be72d2517470c9a5b02c11e45cd2b\\new-cuts.accepted.lem",
+    "count": 4608,
+    "sha256": "fffddf02f007db07c9f20a229354dbb8872e0fe90fdffcf38440f389f3b5db1b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T14:40:45.105470+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic-overlap-aborted\\default_walk\\new-cuts.accepted.lem",
+    "count": 11815,
+    "sha256": "ee298092a362a012d142d449fad24a16610e3b3ce8f7588476558d234734d62f",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:08:01.375197+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic\\congruence_disabled\\new-cuts.accepted.lem",
+    "count": 11216,
+    "sha256": "43e32fa477b419aad3f34a13078f4641cab1a065607dffdcaf40e5ef40156034",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:14:46.239171+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\ed99a4d0d6fb498891285fc8491ba3ce\\new-cuts.accepted.lem",
+    "count": 11766,
+    "sha256": "78fbabf95609d09831e675aae6f1c4db190f422ed0a7b36110b8ab1a8fbe99db",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:16:38.873375+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\3b2ae8e5d86548508f871cd60ea2dac6\\new-cuts.accepted.lem",
+    "count": 51,
+    "sha256": "f52e4ddb0c2ee4f326a8305d1f079c90d150395d47ee0bfa8e51280e54619dca",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:16:38.944450+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\8b87b1b54c08472aac2d7f67ca5ec30a\\a-41bc5a288912bce3.lem",
+    "count": 9106,
+    "sha256": "41bc5a288912bce329ad4819151728c9391c10f740fe1ec670a63fac25f5f03b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:16:56.653428+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\8b87b1b54c08472aac2d7f67ca5ec30a\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 721673
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\a-84d41d99a59c4da5.lem",
+    "count": 19052,
+    "sha256": "84d41d99a59c4da5a941ca12b2e7a14268cdc25505a9cefc086a01f6ef78fe5b",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:16:56.909427+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 1635880
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\a-b6f50caeafc03f41.lem",
+    "count": 42535,
+    "sha256": "b6f50caeafc03f41e6805aaba8b9092e4f4e49a4ae1c03023041e17207902a31",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:17:13.330795+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\new-cuts.lem",
+    "start_byte": 1635880,
+    "end_byte": 4983737
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\6f6c572b23d345d684c6175f1b145443\\a-3b5ea010e0c114bf.lem",
+    "count": 11324,
+    "sha256": "3b5ea010e0c114bf557c355c279871d4f58295c44a9fb16f2da9e2f01d5498a8",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:17:13.604593+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\6f6c572b23d345d684c6175f1b145443\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 919153
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\7d1f4de67aa543cdb00f77a6c29fb464\\a-dea5977a33ee7148.lem",
+    "count": 43,
+    "sha256": "dea5977a33ee7148875d9858ef65d22d62d2ec4eab5edea0c34a24a035a10a56",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:17:30.500612+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\7d1f4de67aa543cdb00f77a6c29fb464\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 2611
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\a-6da1c47a32f86fbc.lem",
+    "count": 10941,
+    "sha256": "6da1c47a32f86fbc117ec08493e2570edb5f7b5e24cf17e54ba3958cf7107f03",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:17:47.860439+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 857695
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\e42c03017a8b410c8ceb72b04e08cacc\\a-168a55cd35f0e155.lem",
+    "count": 11144,
+    "sha256": "168a55cd35f0e1551376aa03ba5625c50d62e9de8c027a31ab152f899c6c9595",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:17:47.907915+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\e42c03017a8b410c8ceb72b04e08cacc\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 860753
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\928085d643f04021913ce831cac86042\\a-3dcb8e23d5514cd4.lem",
+    "count": 37,
+    "sha256": "3dcb8e23d5514cd4d0ec86d735d4bf7477008e6b4656b57eac5189dbdfabfba3",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:04.775631+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\928085d643f04021913ce831cac86042\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 2378
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\a-4e0d882fc4e476f3.lem",
+    "count": 9813,
+    "sha256": "4e0d882fc4e476f3d610df48f0bd90348ebb794b6dccd3053f7923fdb0661a47",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:05.104157+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 770211
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\329f1940f6e948988b593722bda18aa5\\a-63f52e621583fbfe.lem",
+    "count": 113,
+    "sha256": "63f52e621583fbfe1fc0532f87eb1dae861865c55e91686059dd6900fafc9790",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:21.904292+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\329f1940f6e948988b593722bda18aa5\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 7617
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\d64538538324477e86671cf7bf79b804\\a-fb244cf2bdeb698b.lem",
+    "count": 14243,
+    "sha256": "fb244cf2bdeb698bac90b46d18933b2d2e56971c316c031e9e222483c3fdfc73",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:22.573701+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\d64538538324477e86671cf7bf79b804\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 1287607
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\a-0bbe9e86985de62b.lem",
+    "count": 11125,
+    "sha256": "0bbe9e86985de62b503c3c2052022d59b4c7a4ec9251bf1ab1732c58fa621dd7",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:39.177491+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 889662
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\616d07e3887840f6bf870d4472c3764b\\a-5ff7d63a9452cd76.lem",
+    "count": 127,
+    "sha256": "5ff7d63a9452cd763b6ee5f83738c849c93db216f4a7cb7b616600e13abd17fe",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:39.295564+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\616d07e3887840f6bf870d4472c3764b\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 10071
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\566de2f8608e4520802f648a31dfa1fc\\a-ece13e452105fa9a.lem",
+    "count": 23,
+    "sha256": "ece13e452105fa9a15f59ac95e3c744e58fb8c21cd47318a0c2e9f1d435ef38d",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:55.682110+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\566de2f8608e4520802f648a31dfa1fc\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 1505
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\a-6d546947d43188fd.lem",
+    "count": 53314,
+    "sha256": "6d546947d43188fdf699a0f4df3ffb519acba34c735c0062f153c137c5fe20ef",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:18:55.930285+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\new-cuts.lem",
+    "start_byte": 857695,
+    "end_byte": 4932183
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\a-2913bd15b3724d21.lem",
+    "count": 45,
+    "sha256": "2913bd15b3724d211a173d01bef8f2a00f41d4e364c32f4f2ca91c299b301ef9",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:19:11.197498+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\new-cuts.lem",
+    "start_byte": 770211,
+    "end_byte": 773466
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\2055d516c45c4970984cedf2f08f8012\\a-f005abe6eca1264b.lem",
+    "count": 10854,
+    "sha256": "f005abe6eca1264b517e034d3c6e6cd6e672bc4e86ac09a4dfc64ee02ec6d8fc",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:19:12.704560+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\2055d516c45c4970984cedf2f08f8012\\new-cuts.lem",
+    "start_byte": 0,
+    "end_byte": 873412
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\a-79bd2da23b439fb4.lem",
+    "count": 101098,
+    "sha256": "79bd2da23b439fb4e5db9a298dfe6da98f7f0c03d7db72e38cac13805b5babb0",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:19:45.939612+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\new-cuts.lem",
+    "start_byte": 889662,
+    "end_byte": 8735300
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\a-58dc9646d8451d69.lem",
+    "count": 32205,
+    "sha256": "58dc9646d8451d69c9c7acd17dea4b83a37c0c4cf7c06836c3b201d9bd9ebb41",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:21:45.312447+00:00",
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\new-cuts.lem",
+    "start_byte": 773466,
+    "end_byte": 3261506
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\new-cuts.accepted.lem",
+    "count": 112223,
+    "sha256": "ca34f41127dc5db58f93ab7a04a216c81aa36997eb096850f9816bad024ead3a",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:23:52.795521+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\new-cuts.accepted.lem",
+    "count": 42063,
+    "sha256": "2a8805f5cd17798725e143c5c749e1d7664164df56bdd17a504e86fc3e6ffab1",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:23:54.631034+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\new-cuts.accepted.lem",
+    "count": 64255,
+    "sha256": "1e3e0b530a7b291b367f293326571c40df11608fdb96ce583627028d00594e10",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:23:56.024475+00:00"
+   },
+   {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\new-cuts.accepted.lem",
+    "count": 61587,
+    "sha256": "b01e3ef062df1337730115f9c910832d59e2b227aae9314145df2839ddbde0a6",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "utc": "2026-10-22T15:23:57.973934+00:00"
+   }
+  ],
+  "assumptions": [
+   -785,
+   786,
+   787,
+   788,
+   789,
+   790,
+   791,
+   792
+  ],
+  "mapping_sha256": "d49e957f503f2ce2d7f9f0dd1d111364919976366cb254fd95a919a8267d6799"
+ },
+ "input_sha256": "359052055b11f3cc07197f19a5ec7b2558c81bda8c2961a0659918c1c0f3bd0b",
+ "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777",
+ "source_sha256": {
+  "tools/s035_windows.py": "f3175907b5a5fe8a08312fc04a37b15c4e7ece90bf4d354d26ab641d8dd96274",
+  "tools/s035_regions.py": "a898d7f712343dd891e60c8c58cd0aa8c5d5464413231d22c98f04c777b965d7",
+  "tools/s035_engine.py": "493fc4912777d9b0e0813233d07d4a81427e726eaa9475fe7008bbe8ff4c1063",
+  "tools/s035_storage.py": "c2a0749d40e70b30898cf712fbac74f45b5ecbeb54e82e001d1e31989e4cc8fb",
+  "scripts/s035_campaign.py": "384d6f1b43d1779faa29bc8f6a041a80a3869c5284accb2d38427a898f8a37d6",
+  "scripts/prepare_s035.py": "1913f2f8a8a08fdc4c21be06f1947cffdd903bb2571c239cd6a8130a0353ee76",
+  "scripts/benchmark_s035.py": "1658c58c61f90ed7da660533f14cf03c0d18dbd24b73dbf0244c18ee3bf122b4",
+  "scripts/import_s035.py": "c937e0f99b9cc14182ca337e739d568cb046fa273b258176860bf6c0ab32ff1e",
+  "scripts/audit_s033_fast.py": "95f86b2aa34ab2bed63283fe59aa20c47a3232cba64c03b1119381c77e2775fc",
+  "tools/s032_subdivision.hpp": "c429176a1fc3a59cd6893c950469130fd8953e13528bbb12d257262ee044c727",
+  "scripts/start_s035.py": "26310d07b3db1274a03f7eaf2056ed9fe4e13eb8c730f371a643c170bf0e903a",
+  "tools/s035_resident_engine.py": "d6abe8eb2a00cef1471e2b8b3b3b24e6824ee0273b73ba8a1835d4f9b6ad76ba",
+  "scripts/s035_resident_campaign.py": "58427c451ecd44302612a607b001c4d28037fb8526ac10cb5a65ef984cb4108f",
+  "scripts/build_s035_resident_native.py": "c02922c6e273590dc25f5386919f598c4bfa7f6c8b562a1760abc9bf2fbd6416",
+  "scripts/resume_s035_resident.py": "8fd5552b58d6c05073799890a1b2254590cb75d05a85eae4ce85a46106dfc9d4",
+  "scripts/diagnose_s035_phases.py": "ec706cc6b0524be058afafc05eba60b328f385b957e6024a6d93f5751bb24d86",
+  "scripts/reconfigure_s035_resident_batch.py": "9f301bd31a5d143ecd104f246878bfef921aba0e9feade39605d09ec5d3f62e4"
+ },
+ "resident": true
+}

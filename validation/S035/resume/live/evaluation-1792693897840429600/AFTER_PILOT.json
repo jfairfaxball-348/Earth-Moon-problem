@@ -1,0 +1,164 @@
+{
+ "epoch": 1792693884.5624175,
+ "native": [
+  {
+   "cell": 0,
+   "worker": {
+    "pid": 14812,
+    "start_ticks": "1792682657.7049177",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.707673+00:00"
+   },
+   "status": "stopped",
+   "cpu_seconds": 3144.125,
+   "private_bytes": 696520704,
+   "counters": {
+    "conflicts": 22703573,
+    "decisions": 57433462,
+    "propagations": 4811017979
+   },
+   "log_bytes": 219742,
+   "geometric_journal_bytes": 37645991,
+   "sample_cpu_delta": 0.0
+  },
+  {
+   "cell": 7,
+   "worker": {
+    "pid": 12384,
+    "start_ticks": "1792682640.4900093",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.489824+00:00"
+   },
+   "status": "stopped",
+   "cpu_seconds": 3676.890625,
+   "private_bytes": 871075840,
+   "counters": {
+    "conflicts": 24853396,
+    "decisions": 59427763,
+    "propagations": 5322016328
+   },
+   "log_bytes": 257451,
+   "geometric_journal_bytes": 28409338,
+   "sample_cpu_delta": 0.0
+  },
+  {
+   "cell": 127,
+   "worker": {
+    "pid": 3500,
+    "start_ticks": "1792682640.5223634",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.530027+00:00"
+   },
+   "status": "stopped",
+   "cpu_seconds": 3680.28125,
+   "private_bytes": 791158784,
+   "counters": {
+    "conflicts": 24859040,
+    "decisions": 59354730,
+    "propagations": 5514531722
+   },
+   "log_bytes": 252124,
+   "geometric_journal_bytes": 1155,
+   "sample_cpu_delta": 0.0
+  },
+  {
+   "cell": 255,
+   "worker": {
+    "pid": 17984,
+    "start_ticks": "1792682657.7354991",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.737848+00:00"
+   },
+   "status": "stopped",
+   "cpu_seconds": 3144.640625,
+   "private_bytes": 890757120,
+   "counters": {
+    "conflicts": 21375696,
+    "decisions": 50432597,
+    "propagations": 4783658246
+   },
+   "log_bytes": 219291,
+   "geometric_journal_bytes": 5899058,
+   "sample_cpu_delta": 0.0
+  }
+ ],
+ "legacy": [
+  {
+   "pid": 14192,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 10296,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 14508,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 18384,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 11104,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 15352,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 2224,
+   "same_identity": true,
+   "status": "stopped"
+  },
+  {
+   "pid": 6808,
+   "same_identity": true,
+   "status": "stopped"
+  }
+ ],
+ "all_legacy_preserved": true,
+ "all_native_paused": true,
+ "thermal": "UNAVAILABLE",
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false
+}
