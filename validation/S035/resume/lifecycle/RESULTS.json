@@ -1,0 +1,53 @@
+{
+ "status": "PASS",
+ "controls": [
+  {
+   "control": "nested_counts_identity_retention_duplicate_rejection",
+   "status": "PASS",
+   "worker": {
+    "pid": 16796,
+    "start_ticks": "1792692115.3993962"
+   },
+   "turns": 3,
+   "paused_cpu_delta": 0
+  },
+  {
+   "control": "cooperative_fixture_exit_without_termination",
+   "status": "PASS",
+   "code": 0
+  },
+  {
+   "control": "retained_handle_natural_exit",
+   "status": "PASS",
+   "code": 10
+  },
+  {
+   "control": "retained_handle_natural_exit",
+   "status": "PASS",
+   "code": 20
+  },
+  {
+   "control": "fresh_four_context_scheduler_fixture",
+   "status": "PASS",
+   "peak_executing": 2,
+   "all_four_resumed_twice": true,
+   "originals_unmodified": true,
+   "scientific_preflight_and_watcher_mocked": true
+  },
+  {
+   "control": "bounded_pilot_rearm_archives_only_new_controls",
+   "status": "PASS",
+   "live_controller_rejected": true,
+   "historical_stop_retained": true
+  },
+  {
+   "control": "terminal_logging_failure_cannot_bypass_preservation",
+   "status": "PASS",
+   "all_four_suspended": true,
+   "exception_propagated": true
+  }
+ ],
+ "original_scientific_processes_touched": false,
+ "native_cooperative_exit_hook": "NOT_PRESENT_IN_OLD_BINARY_PAUSE_PRESERVES_RAM",
+ "no_scientific_claim": true
+}

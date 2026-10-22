@@ -1,0 +1,196 @@
+{
+ "status": "PLAN_ONLY",
+ "contexts": [
+  {
+   "cell": 0,
+   "worker": {
+    "pid": 14812,
+    "start_ticks": "1792682657.7049177",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.707673+00:00"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64",
+   "original_state": "RUNNING",
+   "original_turns": 8,
+   "turns": 0,
+   "active_seconds": 0.0,
+   "state": "PAUSED"
+  },
+  {
+   "cell": 7,
+   "worker": {
+    "pid": 12384,
+    "start_ticks": "1792682640.4900093",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.489824+00:00"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741",
+   "original_state": "PARKED",
+   "original_turns": 8,
+   "turns": 0,
+   "active_seconds": 0.0,
+   "state": "PAUSED"
+  },
+  {
+   "cell": 127,
+   "worker": {
+    "pid": 3500,
+    "start_ticks": "1792682640.5223634",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.530027+00:00"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f",
+   "original_state": "PARKED",
+   "original_turns": 8,
+   "turns": 0,
+   "active_seconds": 0.0,
+   "state": "PAUSED"
+  },
+  {
+   "cell": 255,
+   "worker": {
+    "pid": 17984,
+    "start_ticks": "1792682657.7354991",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.737848+00:00"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd",
+   "original_state": "RUNNING",
+   "original_turns": 8,
+   "turns": 0,
+   "active_seconds": 0.0,
+   "state": "PAUSED"
+  }
+ ],
+ "original_processes": [
+  {
+   "pid": 14192,
+   "start_ticks": "1792682628.7765863",
+   "was_status": "running",
+   "name": "python.exe"
+  },
+  {
+   "pid": 10296,
+   "start_ticks": "1792682629.3092763",
+   "was_status": "running",
+   "name": "python.exe"
+  },
+  {
+   "pid": 14508,
+   "start_ticks": "1792682629.3147533",
+   "was_status": "running",
+   "name": "conhost.exe"
+  },
+  {
+   "pid": 18384,
+   "start_ticks": "1792682629.327922",
+   "was_status": "running",
+   "name": "python.exe"
+  },
+  {
+   "pid": 12384,
+   "start_ticks": "1792682640.4900093",
+   "was_status": "stopped",
+   "name": "bipsat_s032.exe"
+  },
+  {
+   "pid": 3500,
+   "start_ticks": "1792682640.5223634",
+   "was_status": "stopped",
+   "name": "bipsat_s032.exe"
+  },
+  {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "was_status": "running",
+   "name": "bipsat_s032.exe"
+  },
+  {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "was_status": "running",
+   "name": "bipsat_s032.exe"
+  },
+  {
+   "pid": 11104,
+   "start_ticks": "1792682657.7398837",
+   "was_status": "running",
+   "name": "conhost.exe"
+  },
+  {
+   "pid": 15352,
+   "start_ticks": "1792682657.7101965",
+   "was_status": "running",
+   "name": "conhost.exe"
+  },
+  {
+   "pid": 2224,
+   "start_ticks": "1792682640.5278616",
+   "was_status": "stopped",
+   "name": "conhost.exe"
+  },
+  {
+   "pid": 6808,
+   "start_ticks": "1792682640.4960043",
+   "was_status": "stopped",
+   "name": "conhost.exe"
+  }
+ ],
+ "historical_pause_sha256": "42f658736a0208a7101af3b022e0ed7fec70fdf47e216cafe160b7650010e0ca",
+ "historical_regions_sha256": "991f3ea8944a2305540751b48f4a0746fc37434316ba7be7961395fe617120ea",
+ "unresolved_ids": [
+  0,
+  1,
+  3,
+  7,
+  15,
+  31,
+  63,
+  127,
+  255
+ ],
+ "proof_closed_regions": 247,
+ "cold_ids": [
+  1,
+  3,
+  15,
+  31,
+  63
+ ],
+ "legacy_control_policy": "PERMANENTLY_SUSPENDED_STOP_LATCHED",
+ "deadline_policy": "FRESH_MONOTONIC_ACTIVE_TURNS_NO_OVERALL_CUTOFF",
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false
+}

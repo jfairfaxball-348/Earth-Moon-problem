@@ -40,4 +40,5 @@ jobs:
       - name: Validate S035 owner pause and SAT-first handling
         run: |
           python scripts/check_s035_sat_first.py
-          python scripts/check_s035_pause_records.py
+          python scripts/check_s035_resume_records.py
+          python scripts/check_s035_sat_resume.py

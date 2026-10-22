@@ -1,0 +1,59 @@
+{
+ "status": "PASS",
+ "controls": [
+  {
+   "control": "valid_recipe",
+   "status": "PASS_ACCEPTED"
+  },
+  {
+   "control": "valid_control",
+   "status": "PASS_ACCEPTED"
+  },
+  {
+   "control": "bad_header",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "bad_pair_order",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "bad_clause_count",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "incomplete_assignment",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "contradictory_assignment",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "violated_assumption",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "violated_graph_unit",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "bad_recipe_hash",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "edge_domain",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "nonplanar_layer",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  },
+  {
+   "control": "missing_input",
+   "status": "PASS_REJECTED_WITH_SAT_ALERT_EVIDENCE"
+  }
+ ],
+ "native_workers_launched": 0,
+ "source_sha256": "c4b72f5cb5759385c61588e54f12593acc879abdd2d6d5361e2249f19395fefd"
+}

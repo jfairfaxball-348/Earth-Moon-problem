@@ -1,0 +1,24 @@
+{
+ "status": "PASS",
+ "portable": {
+  "all_scientific_roots": true,
+  "append_and_replacement": true,
+  "exit10_stop_race": true,
+  "alternate_candidate_name": true,
+  "alert_precedes_validation_failure": true,
+  "original_log_preserved": true,
+  "final_pause_scan_catches_late_SAT": true
+ },
+ "windows": {
+  "real_candidate_interrupt": true,
+  "paused_cpu_zero": true,
+  "validation_failure_keeps_alert": true,
+  "STOP_race": true,
+  "malformed_adoption_preserves_worker": true,
+  "stale_controller_guard": true,
+  "controller_loss_guard": true,
+  "owner_stop_guard": true,
+  "nonforcing_natural_exit": true,
+  "original_campaign_untouched": true
+ }
+}

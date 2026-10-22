@@ -1,0 +1,18 @@
+{
+ "entry_main": "3118649b248b9045d48b408074b2dc77901b7d2c",
+ "entry_tree": "df5ed58c693f19a85c4902a00ba1d85be6534f38",
+ "owner_invocation": "Continue S035 from the owner pause. Read AGENTS.md and authoritative/NEXT_SESSION_PROMPT.md, preserve all evidence, and follow the SAT-first recovery handover.",
+ "S036_authorized": false,
+ "local_edits_on_entry": [],
+ "remote_main_verified": true,
+ "open_pull_requests": [],
+ "entry_hosted_run": {
+  "id": 39825300402,
+  "job": 119986892487,
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39825300402"
+ },
+ "scope": "S035 ONLY; recovery controls precede scientific RAM resume",
+ "recorded_utc": "2026-10-22T17:59:54.189712+00:00"
+}
