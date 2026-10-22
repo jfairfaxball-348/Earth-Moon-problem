@@ -90,3 +90,7 @@ S031 (2026-10-20): 46 relaxation models independently audited;28692s persistent 
 S032 (2026-10-21): owner-stopped UNKNOWN;2579937 independently checked layer rules. No witness, stratum or lower-bound advance. Region-accounting baseline closure is not a graph theorem; Phase1 gate NOT PASSED. All parked/publication/formalisation gates unchanged.
 
 S033 (2026-10-21): PHONE_READY_VALIDATED environment only. Phase1 lower-bound gate NOT PASSED; no witness or stratum decision;9<=chi2<=12. Parked/publication/formalisation gates unchanged.
+
+S034 RUNNING (D073): phone verification/scheduler acceptance PASS; no stratum or lower-bound result. Phase1 gate NOT PASSED. Source/claim catalogues remain unchanged and synced.
+
+S034 COMPLETED_SAFETY_STOP_UNKNOWN:16 encoded region proofs,93047 independently checked added clause occurrences, no witness/whole-stratum proof. Phase1 NOT PASSED;9..12 unchanged. S035 Windows multiple workers queued by D074, not executed.

@@ -135,3 +135,7 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 **D070 (owner,2026-10-21):** safely stop S032, retain rules and rebuild progress capability. Registered OWNER_STOP; all2579937 saved clauses independently checked and losslessly archived. Monitor PAUSED; no automatic restart. Separate native internal telemetry and proof-backed disjoint-region CLI built/tested. Exact projected count/ETA unknown. S032 closes UNKNOWN, S033 FUTURE/UNEXECUTED.
 
 S033 execution (2026-10-21,D072/D047): owner invoked phone setup with run next session. Validated existing guarded solver on ARM64; direct main/no PR, reversible compatibility changes, no S034 execution or scientific scope change.
+
+**D073 (owner,2026-10-21):** invoke S034 now, finish setup/verification/256-region scheduling then genuine computation continuously until22 October07:00 UK/06:00 UTC. One worker initially, more only after verified safety, continue through individual UNKNOWNs/milestones, checkpoints/resource safeguards, clean deadline stop. No further confirmation except actual safety issue/unavoidable blocker; no S035 authorization.
+
+**D074 (owner,2026-10-22):** close S034 and commit/push; queue S035 as Windows laptop multiple-worker continuation. See docs/D074_S035_WINDOWS_MULTIPLE_WORKERS.md. No S035 invocation or phone restart.

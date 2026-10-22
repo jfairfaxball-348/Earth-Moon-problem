@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "all_original_file_hashes_verified": 1510,
+  "metadata_files_restored": 1415,
+  "proof_files_verified_without_expansion": 95,
+  "command": "python scripts/restore_s034.py --output artifacts/tmp/S034/restore-validation",
+  "archive_sha256": "18f0aceacd31bdb636e100d2de6ce37500878c6b801a94d830a6553c7e1fa79d"
+}

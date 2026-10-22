@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-21",
-  "last_completed_session": "S033",
-  "recommended_next_session": "S034",
+  "as_of": "2026-10-22",
+  "last_completed_session": "S034",
+  "recommended_next_session": "S035",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S033",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S034",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,21 +83,20 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S034 FUTURE/UNEXECUTED; no automatic solver campaign. Fresh same-phone acceptance and practical finite campaign budget required.",
-    "S11 m155/156 UNKNOWN; regular154 SOURCE_STATED, finite RUP branches only.",
-    "S10/S9 NOT_RUN; delta>=9 conditional on SRC0037; unconditional S8 NOT_RUN.",
-    "All parked queues/publication/formalisation gates unchanged;9<=chi2<=12. Thermal readings unavailable."
+    "S035 FUTURE/UNEXECUTED: Windows laptop multiple-worker continuation of S034; fresh Windows acceptance, portable scheduler, storage fixes, measured1/2/3-worker trials, then safe sustained multiple workers. No phone restart.",
+    "S11 m155/156 UNKNOWN;240 encoded regions unresolved;16 encoded closures are not individual graph decisions.",
+    "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; private CDCL state not saved.",
+    "All parked queues/publication/formalisation gates unchanged;9<=chi2<=12."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
+  "latest_session_entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
   "latest_session_integration": {
-    "status": "OWNER_GITHUB_CONNECTION_FAST_FORWARD_PENDING",
-    "entry_main": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
-    "authority": "D072 same-main/no-PR override",
-    "remote_main_observed": "0155145c4b164e4f6ca85cac351d13047dd71bc4",
-    "hosted_post_session_checks": "VERIFY_AFTER_PUBLICATION",
-    "transport": "Authenticated owner GitHub Git-data API; identical local tree; non-force leased main update"
+    "status": "VERIFY_FINAL_COMMIT_AND_HOSTED_JOBS_AFTER_PUBLICATION",
+    "entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
+    "authority": "D072 existing main workflow; D074 owner closeout/push",
+    "transport": "Authenticated owner GitHub Git-data API; identical local tree; non-force leased main update",
+    "hosted_post_session_checks": "VERIFY_AFTER_PUBLICATION"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -464,7 +463,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S034 FUTURE: real bounded solver session after fresh full phone acceptance and practical budget; D071 exact region scheduling; initially ONE worker.",
+  "next_session_priority": "S035 FUTURE/UNEXECUTED: Windows laptop multiple-worker continuation of S034; fresh Windows acceptance, portable scheduler, storage fixes, measured1/2/3-worker trials, then safe sustained multiple workers. No phone restart.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1633,5 +1632,178 @@
     "S034_executed": false,
     "windows_support": "build scripts retained; Windows execution not tested on ARM64",
     "rollback": "ordinary git revert of S033 commit; preserve later work"
+  },
+  "s034_completed_runtime": {
+    "id": "S034",
+    "status": "COMPLETED_SAFETY_STOP_UNKNOWN",
+    "authority": "D073 owner overnight invocation",
+    "deadline_utc": "2026-10-22T06:00:00Z",
+    "deadline_uk": "2026-10-22T07:00:00+01:00",
+    "runtime_status_authority": "artifacts/tmp/S034/campaign/GUARDIAN.json",
+    "runtime_directory": "artifacts/tmp/S034/campaign",
+    "workers": 1,
+    "entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
+    "running_handoff": "sessions/S034/RUNNING.md",
+    "no_automatic_S035": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "stopped_utc": "2026-10-22T00:01:43.694976+00:00",
+    "stop_reason": "SAFETY_DISK_RESERVE"
+  },
+  "s034_science": {
+    "session": "S034",
+    "status": "COMPLETED_SAFETY_STOP_UNKNOWN",
+    "executor": "Codex on Samsung SM-S921B / Android16 Termux Debian13 proot ARM64",
+    "started_utc": "2026-10-21T20:52:22.833277+00:00",
+    "stopped_utc": "2026-10-22T00:01:43.694976+00:00",
+    "elapsed_campaign_seconds": 11360.861699,
+    "stop_reason": "SAFETY_DISK_RESERVE",
+    "total_regions": 256,
+    "visited_regions": 102,
+    "total_visits": 102,
+    "proof_closed_regions": 16,
+    "unresolved_regions": 240,
+    "not_visited_regions": 154,
+    "unresolved_visited_regions": 86,
+    "new_geometric_clauses": 93047,
+    "clause_count_note": "Persisted independently checked occurrences; not a globally unique count.",
+    "inherited_geometric_clauses": 2579937,
+    "total_geometric_clause_occurrences": 2672984,
+    "cut_reaudit": "PASS_ALL_93047",
+    "partition_audit": "PASS_256_EXHAUSTIVE_DISJOINT",
+    "certificate_integrity_audit": "PASS_RECONSTRUCTED_FORMULA_HASHES_AND_ORIGINAL_PINNED_DRAT_RECEIPTS",
+    "new_DRAT_replay": false,
+    "certificates": [
+      {
+        "cell": 4,
+        "formula_sha256": "73fcbdfe27b4c6021ce63558a78268d629d046bd11d866737d122ef8e784d839",
+        "proof_sha256": "9c95d68850c7abccf71d6ba7c9584558828c487b861a2614933d75b478191e63",
+        "checker_log_sha256": "4f75ea7f703a227845e1a337affb0092f07fcc45a62e5305ebbcdb3d58ff948e"
+      },
+      {
+        "cell": 5,
+        "formula_sha256": "fd1022a69a524b3237e6ed75c165802366f324bd5eaeb1bcd41f6fb26b25543e",
+        "proof_sha256": "d2fa7b1a20597413df1b38d7ce9e414333fe7daf4a5e1888e30529389538c160",
+        "checker_log_sha256": "cbd425008a94378103bfc4f74a1618e70eeca6901088f484203e6425f04e3bea"
+      },
+      {
+        "cell": 6,
+        "formula_sha256": "69baf54b9b64778781424a75532f99ebcf8acf6c0317182085839b1fff6eeca0",
+        "proof_sha256": "93c8dcbd7e54801d89c3cc6257356118e2eeda29a506c6a435e21b74a2c70db1",
+        "checker_log_sha256": "082f27812ffd2d2e12ae36f7ad170810840c6db5acd5492470a89baf46ffb09d"
+      },
+      {
+        "cell": 8,
+        "formula_sha256": "2af84684797f72fe05d92c8c85137816f7db8290ff77aa43fcbaef30419eff3a",
+        "proof_sha256": "fdf5d8273fcb374957223cece87aaca32c3b890bbf87e3404c8849c455372111",
+        "checker_log_sha256": "d71ace14491582c77f09d3dbac4de7096bd9c00646fb7cde30d9b55ca8984c01"
+      },
+      {
+        "cell": 9,
+        "formula_sha256": "ad9d22ff17c1a7f628ae9395e45f72f31f9f61c41caa70acae389da2a0393e8e",
+        "proof_sha256": "4b1c1bae8a7cad466cebc6cc83dca654adb25b0917fbe58f1da88b2a84ae3913",
+        "checker_log_sha256": "6ba67c976a86aa588653333cd4cee09aea795326600ed6ffcaf1b3780ae60322"
+      },
+      {
+        "cell": 10,
+        "formula_sha256": "8fda51a918dc1e1d658f00d26b89e084c2b4a679e7c8774eca9efa53373c5d7d",
+        "proof_sha256": "926d5533e74d7ebcfaf83a25adb40264297a29eccc512f8de81b9dc0272b725c",
+        "checker_log_sha256": "3356ceb11a10f4acf487a29cfd199944242d4b0b8f871e99d27f2c83f6033f9a"
+      },
+      {
+        "cell": 11,
+        "formula_sha256": "1b713b71cd4cfeae5c9edc53187145163f302952eadb4d998d9c84f1bdadaec9",
+        "proof_sha256": "ee1294c3cf6b979d82364701b7965abaa5d95c3223a443236b6ac86a97b1cee2",
+        "checker_log_sha256": "55bdd112dcff4e0519a00ef27d49b6001e8c41eff36ebc7dddad002105188696"
+      },
+      {
+        "cell": 12,
+        "formula_sha256": "cbf4d691c883254682421a30f2fe3d592aff80f389c430e19bfa169b015bde9f",
+        "proof_sha256": "1e00f67c7b841a015bfa30ec267f16fed49e679edb1fdc50c5289c7003013ec3",
+        "checker_log_sha256": "6deada1e4ba7bf3e67989e48a778f549d14c5744e1f5a71ff02d134e42393914"
+      },
+      {
+        "cell": 13,
+        "formula_sha256": "d50fab4891051e60655701586ed940ab080e365a6b793989f70d00a6f1b60c50",
+        "proof_sha256": "ae13be3aa009fad086dff8334758782a6abb9f650e408ddeaec76fb40fb7275b",
+        "checker_log_sha256": "6cc9dd5241d128560d9b681a04f7b8341a71afa653d9e2f1b37b96d5009ad083"
+      },
+      {
+        "cell": 14,
+        "formula_sha256": "9b5a374003fe5c713b8552796b9ed303dde9a969fc2e8c70e55bcc8e8267628d",
+        "proof_sha256": "50cd3ed97877f66c05b2390775d90bdbb33ce5dcd4a4da151c99b95db1112c15",
+        "checker_log_sha256": "423c4626f588deffd1ae3e8e4f092082ff36641965ad42594abc572c57ccbb67"
+      },
+      {
+        "cell": 16,
+        "formula_sha256": "78646109756617ff0b34de7c685fe27beaa8397f64f627e894896e082fba2fde",
+        "proof_sha256": "5be8f804d1f18806be4721d49b3a48a3a246870333e3578c8d1c8097dc486575",
+        "checker_log_sha256": "122e82e0deb5a60093281aac561aa2d4cd2eb92ab58f79d0321518af030aa4c6"
+      },
+      {
+        "cell": 17,
+        "formula_sha256": "4acf978fdafa245548ac66cf452f4f2eda15ae271f4ce2fd539c8f37572f426a",
+        "proof_sha256": "82676907c4d48d25e35cd26cbbe8b42f487cf5c48188b604bed9f578bd8d6863",
+        "checker_log_sha256": "6de84e4cdf45cc7991e9615680640a5d0c69f74031cec93966841b82e5e31a84"
+      },
+      {
+        "cell": 18,
+        "formula_sha256": "a65324b220ad0bf3fdcef5acc83dca118515105965001bd6da84ba883783ad19",
+        "proof_sha256": "ff0425a7fc812d7b149d23a05b2feac73157592c80c39e24bb6c6706b3a6bd58",
+        "checker_log_sha256": "2432c1b2d41ae556dfd9e111222c183031f2f0628215c7a79c861d3d673cacdd"
+      },
+      {
+        "cell": 19,
+        "formula_sha256": "1713fecb91f5818033d99ed19a26ffd46d610bf144de6236280e5ac8c869d0c9",
+        "proof_sha256": "6dc5734a4d3f6c3da6a7b95c302129e6d7d7133dabe80519379df76a436412b4",
+        "checker_log_sha256": "c5389ef8eebafe9d9380a8a5d072e3a1cc868472a9623f8d65d4e44e775ee7fd"
+      },
+      {
+        "cell": 20,
+        "formula_sha256": "4b8bf04b59f365c8b9584b403eb4fa6297786551fda48f51b28392bc9af73844",
+        "proof_sha256": "26df75eeb1343e62d8bae552fa25814f0e4ef7479fc72099c2d1d5bf03c7c09f",
+        "checker_log_sha256": "0dce97198ab640b380ec80b8e5fd46c788faaeebd0a189764e4347feeeef7c62"
+      },
+      {
+        "cell": 21,
+        "formula_sha256": "10abea0dc183bcc2c1daa85830b866d6e65ea82136bb5bae92e429c3cc0cab5b",
+        "proof_sha256": "dc5cfc665c6428ef7ddcbb6bed4319f5e6f6f3e84ec8bbf228f891c6d0cac3c3",
+        "checker_log_sha256": "d9d7f12afb3a62b3bb3fd55901ec5b1f7e341c56e7641847de827031fd37cd34"
+      }
+    ],
+    "outcomes": {
+      "VISIT_QUANTUM": 6,
+      "RSS_CAPPED": 1,
+      "PROOF_PENDING_UNKNOWN": 79,
+      "INDEPENDENT_DRAT_VERIFIED": 16,
+      "NOT_RUN": 154
+    },
+    "peak_observed_aggregate_rss_kib": 1118420,
+    "memory_cap_note": "1GiB sampled aggregate RSS visit cap; observed sampling overshoot checkpointed/requeued.",
+    "all_recorded_workers_stopped": true,
+    "native_cdcl_state_saved": false,
+    "thermal": "UNAVAILABLE",
+    "mathematical_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": null,
+    "certified_strata": [],
+    "exact_new_graph_exclusions": "NOT_ESTABLISHED",
+    "baseline_vs_learned_closure_benefit": "NOT_SEPARATELY_MEASURED",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8": "NOT_RUN",
+    "next_session": "S035_FUTURE_UNEXECUTED_WINDOWS_MULTIPLE_WORKERS",
+    "runtime_files": 1510,
+    "runtime_original_bytes": 11225675405,
+    "raw_DRAT_bytes": 11200738114,
+    "lossless_archive_bytes": 17733296,
+    "lossless_archive_verification": "PASS_ALL_ORIGINAL_FILE_HASHES",
+    "portable_restore_test": "PASS_ALL_ORIGINAL_BYTES_VERIFIED_1415_METADATA_FILES_RESTORED"
   }
 }

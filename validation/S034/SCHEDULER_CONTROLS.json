@@ -1,0 +1,22 @@
+{
+ "status": "PASS",
+ "native_sha256": "b545109e26a030c5d3f26d71d861df031fd3ab962ae79bf31345ee5bb7a164b3",
+ "exact_small_graph_assignments": 512,
+ "concurrent_unique_claims": 8,
+ "two_small_native_workers": "PASS_NOT_A_REAL_PHONE_CONCURRENCY_BENCHMARK",
+ "proof_closed_small_regions": 2,
+ "duplicate_guard_rejected": true,
+ "wrong_token_rejected": true,
+ "controller_kill_restart": "PASS",
+ "read_only_status": true,
+ "native_absolute_deadline": "PASS_UNKNOWN",
+ "guardian_deadline": "PASS_UNKNOWN",
+ "damaged_proof_rejected": true,
+ "controls_directory": "/root/Earth-Moon-problem/artifacts/tmp/S034/scheduler-controls-1792615814283297905",
+ "seconds": 29.463410859112628,
+ "source_sha256": {
+  "tools/s034_regions.py": "ca9d6bfb2282fc7b091cfb43df484cb25caa4a2a0e6c3b89b218770561bf5dad",
+  "tools/s034_engine.py": "01e3aba70d2dc1cc9b808570e2df7d88a923a49509da4c69653cad9517994a1a",
+  "scripts/s034_campaign.py": "e5f8bb55f77d7e11a6d74a0297bae604ed101801bd169727435d0fcd35ad9abb"
+ }
+}

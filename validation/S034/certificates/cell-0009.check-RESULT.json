@@ -1,0 +1,16 @@
+{
+ "command": [
+  "/root/Earth-Moon-problem/artifacts/tmp/native/bin/drat-trim",
+  "/root/Earth-Moon-problem/artifacts/tmp/S034/campaign/attempts/cell-0009/da06ce469b104d79b41feb50dadfab7e/formula.cnf",
+  "/root/Earth-Moon-problem/artifacts/tmp/S034/campaign/attempts/cell-0009/da06ce469b104d79b41feb50dadfab7e/proof.drat",
+  "-t",
+  "118"
+ ],
+ "returncode": 0,
+ "reason": null,
+ "wall_seconds": 35.65231035207398,
+ "aggregate_child_cpu_delta": 34.93160599999999,
+ "cpu_note": "Per-stage when one worker; aggregate overlapping children when concurrent",
+ "log": "/root/Earth-Moon-problem/artifacts/tmp/S034/campaign/attempts/cell-0009/da06ce469b104d79b41feb50dadfab7e/check.log",
+ "verdict": "UNKNOWN"
+}

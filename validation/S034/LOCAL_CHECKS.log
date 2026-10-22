@@ -1,0 +1,51 @@
+check_scaffold.py
+S034 governance checks: PASS (not proof, not hosted CI)
+
+check_s026_records.py
+PASS S026 byte integrity, archived checker receipts, job-local smoke records, source pins, state and identical S027 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+
+check_s027_records.py
+PASS S027 package (617 files), source pins, smoke, 19-item replay record, domain certificate hashes, state and identical S028 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+
+check_d062_records.py
+PASS S028 package, source pins, smoke, 29-item replay record, state and identical S029 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+PASS D062: frozen S028 records intact; authoritative S029 prompt identical to sessions/S028/S029_FUTURE_PROMPT_D062.md
+
+check_s030_history.py
+PASS S029: frozen landscape hash, executed D062 prompt, identical S030 prompts, manifest
+PASS S030 history adapter: frozen S029 checker intact; superseded prompt resolves to its byte-identical archive
+
+check_s030_records.py
+PASS S030 hashes, smoke receipt, independent control/replay records, prompt identity; metadata only
+
+check_s031_records.py
+PASS S031 archived hashes, smoke/controls/replay receipts, UNKNOWN boundaries and future prompt; metadata only
+
+check_d072_active_prompt.py
+PASS S032 preserved rules/archive hashes, UNKNOWN boundaries, rebuilt controls and paired future prompt; integrity only, not fresh proof replay
+PASS D072 mobile override and historical S032 preservation
+
+check_s033_records.py
+PASS S033 mobile evidence integrity; same-environment replay still required for future science
+
+check_s034_records.py
+PASS S034 final archive/receipts/256-region integrity and S035 Windows multiple-worker handover; not proof replay or search exhaustion
+
+test_corrupt_rotation_rejected (test_rotation_certificates.TestConcreteCertificates.test_corrupt_rotation_rejected) ... ok
+test_genus_corruption_rejected (test_rotation_certificates.TestConcreteCertificates.test_genus_corruption_rejected) ... ok
+test_minimum_degree11_witness (test_rotation_certificates.TestConcreteCertificates.test_minimum_degree11_witness) ... ok
+test_sulanke_structure_and_rotations (test_rotation_certificates.TestConcreteCertificates.test_sulanke_structure_and_rotations) ... ok
+test_wrong_graph_rejected (test_rotation_certificates.TestConcreteCertificates.test_wrong_graph_rejected) ... ok
+test_bool_vertex_rejected (test_submission.TestPreliminaryCertificateValidation.test_bool_vertex_rejected) ... ok
+test_improper_colour_rejected (test_submission.TestPreliminaryCertificateValidation.test_improper_colour_rejected) ... ok
+test_loops_rejected (test_submission.TestPreliminaryCertificateValidation.test_loops_rejected) ... ok
+test_overlap_rejected (test_submission.TestPreliminaryCertificateValidation.test_overlap_rejected) ... ok
+test_well_formed (test_submission.TestPreliminaryCertificateValidation.test_well_formed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.028s
+
+OK

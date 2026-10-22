@@ -29,7 +29,13 @@ if number >= 2:
     for name in ("RESEARCH", "ADVERSARIAL", "PRIOR_ART"):
         assert (ROOT / f"sessions/{session}/{name}.md").is_file()
 assert state["recommended_next_session"] in (ROOT / "authoritative/NEXT_SESSION_PROMPT.md").read_text(encoding="utf-8")
-assert state["next_session_is_future_unexecuted"] is True
+active = state.get("active_session")
+if active:
+    assert active["id"] == state["recommended_next_session"]
+    assert active["status"] == "RUNNING"
+    assert state["next_session_is_future_unexecuted"] is False
+else:
+    assert state["next_session_is_future_unexecuted"] is True
 assert state["phases"][0]["status"] == "PASS_ADMIN_ONLY"
 assert len({s["id"] for s in sources}) == len(sources)
 assert len({c["id"] for c in claims}) == len(claims)

@@ -1,0 +1,16 @@
+{
+  "session": "S034",
+  "entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
+  "entry_tree": "f8ae881e2a9a0f6edbfc4412e5d89ac371ac1b49",
+  "entry_check_utc": "2026-10-21T20:09:08.375111+00:00",
+  "deadline_utc": "2026-10-22T06:00:00Z",
+  "deadline_uk": "2026-10-22T07:00:00+01:00",
+  "absolute_deadline_epoch": 1792648800,
+  "status": "RUNNING_NOT_CLOSED",
+  "publication": "D072 existing main/non-force; authenticated owner GitHub connection",
+  "scientific_verdict": "UNKNOWN",
+  "range": {
+    "lower": 9,
+    "upper": 12
+  }
+}

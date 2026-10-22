@@ -139,3 +139,7 @@ S019 reporting defect: inherited `exact.mode` incorrectly retained no-cardinalit
 
 
 S033 environment observations: bubblewrap cannot start in proot because of host-mount layout; authorized direct commands used. Missing Debian venv package installed. Frozen S032 coverage script restored exactly; tested POSIX equivalent lives in s033_coverage_core.py. Observed normal-exit/RSS sampling race fixed and lifecycle/full-input diagnostics repeated. Slow incomplete NetworkX archive audit replaced by independently cross-checked adjacency audit, then all clauses checked. Thermal/Termux-version readings unavailable. Native freeK9 capped UNKNOWN; no mathematical negative inferred.
+
+| F088 (S034) | Phone storage suffices until the overnight deadline |95 retained DRAT files consumed11200738114 bytes;4GiB reserve stopped computation00:01:43Z after102 visits;79 proofs pending UNKNOWN | Losslessly archive all intermediates; laptop must cap/compress proof storage before scaling; preserve all UNKNOWNs and semantic checkpoints |
+
+| F089 (S034 closeout) | Raw concatenation reproduces text-mode formula hash | Initial final-audit hash mismatch because Windows seed CRLF is normalized by registered materialise() | Correct independent reconstruction to the same universal-newline input/LF output; all16 exact formula hashes pass; original certificates unchanged |

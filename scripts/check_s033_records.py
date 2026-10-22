@@ -45,7 +45,10 @@ assert hashlib.sha256(gzip.decompress((ROOT/f["permanent_identical_bytes_archive
 prompt=(ROOT/"sessions/S033/S034_FUTURE_PROMPT.md").read_bytes()
 state=read("authoritative/STATE.json")
 if state["last_completed_session"]=="S033":
-    assert state["recommended_next_session"]=="S034" and state["next_session_is_future_unexecuted"]
+    assert state["recommended_next_session"]=="S034"
+    active=state.get("active_session")
+    assert state["next_session_is_future_unexecuted"] is (not bool(active))
+    if active:assert active["id"]=="S034" and active["status"]=="RUNNING"
     assert prompt==(ROOT/"authoritative/NEXT_SESSION_PROMPT.md").read_bytes()
 executed=(ROOT/"sessions/S033/EXECUTED_PROMPT.md").read_bytes()
 assert hashlib.sha1(b"blob "+str(len(executed)).encode()+b"\0"+executed).hexdigest()==read("docs/D072_S033_PHONE_TEST_DIRECTIVE.json")["active_prompt_git_blob_sha"]

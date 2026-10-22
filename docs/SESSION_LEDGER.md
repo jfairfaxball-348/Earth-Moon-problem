@@ -75,3 +75,7 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 | S032 | 2026-10-20/21 | D068 invocation, D069 no fixed wall, D070 owner stop/rebuild; local Codex, CAM0038 |2579937 geometric rules independently audited; no model/stratum/witness; S11 UNKNOWN; proof-backed region tooling and native telemetry rebuilt/tested;9<=chi2<=12 | Complete owner-stopped; S033 FUTURE, no automatic resume |
 
 | S033 | 2026-10-21 | D047 invocation, D072 ARM64 phone setup; existing main | PHONE_READY_VALIDATED: real native build, full271+K9 smoke,1024n5/K33/positive24, full rules/mapping audit, STOP/signal/kill recovery; no math advance | Complete; S034 FUTURE/UNEXECUTED |
+
+| S034 | 2026-10-21/22 | D073 explicit overnight invocation; CAM0039 | Fresh full phone acceptance and scheduler controls PASS; genuine256-region campaign RUNNING until07:00 UK | IN_PROGRESS; no S035 invocation |
+
+| S034 | 2026-10-21/22 | CAM0039 completed safety stop (disk) |102 visits;16 encoded DRAT closures;93047 checked additions;240 unresolved; no witness/stratum | S035 Windows multiple workers FUTURE/UNEXECUTED (D074) |

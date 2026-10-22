@@ -79,3 +79,7 @@ S010 manifest/SUMMARY retain actual domains; S011 FUTURE/UNEXECUTED. Historical 
 CAM-0038 S032: COMPLETED_OWNER_STOP_UNKNOWN;2579937 checked geometric clauses; rebuilt telemetry/region CLI; no automatic resume, S033 FUTURE.
 
 S033: environment validation only (no new search campaign). PHONE_READY_VALIDATED; full evidence validation/S033. CAM-0038 remains OWNER_STOPPED_UNKNOWN; S034 solver work is FUTURE/UNEXECUTED.
+
+**CAM-0039 / S034 RUNNING:** owner-authorised overnight exact256-region S11 campaign until22 October07:00 UK; one phone worker with checkpoints/proof gates; no session closeout or S035 invocation yet.
+
+**CAM-0039 / S034 COMPLETED_SAFETY_STOP_UNKNOWN:**102 visits,16 encoded proof closures,93047 checked additions;240 unresolved. Lossless full-runtime archive. S035 Windows multiple workers FUTURE/UNEXECUTED (D074). Earlier RUNNING entry above is historical.

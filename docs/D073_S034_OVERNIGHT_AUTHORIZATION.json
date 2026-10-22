@@ -1,0 +1,16 @@
+{
+  "decision": "D073",
+  "date": "2026-10-21",
+  "session": "S034",
+  "authority": "Explicit owner invocation and overnight computational authorization",
+  "owner_instruction": "Run S034 now. I authorise an overnight computational campaign continuing until 07:00 UK time on Thursday 22 October 2026. Complete the S034 setup, verification and 256-region scheduling work, then begin genuine solver computation. Keep the computation running and move systematically through unresolved regions. Do not stop merely because an individual region remains UNKNOWN or a session milestone has been achieved. Use one worker initially. Increase concurrency only if verified safe. Maintain RAM, disk and runtime safeguards, preserve checkpoints and intermediate results, and stop if the device becomes unsafe or unstable. Do not impose arbitrary short timeouts on the overall campaign. At 07:00, checkpoint and stop cleanly, preserving all results and progress for the next session. Do not require further confirmation unless a genuine safety issue or unavoidable blocker arises.",
+  "deadline_uk": "2026-10-22T07:00:00+01:00",
+  "deadline_utc": "2026-10-22T06:00:00Z",
+  "deadline_epoch": 1792648800,
+  "timezone_conversion": "Europe/London via system zoneinfo",
+  "initial_scientific_workers": 1,
+  "continue_through_unknowns_and_milestones": true,
+  "no_automatic_S035": true,
+  "preserve_math_and_archive_gates": true,
+  "change_management": "D072 existing repo/main, ordinary non-force publication, no branch/PR"
+}

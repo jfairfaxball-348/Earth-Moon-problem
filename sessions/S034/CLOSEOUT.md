@@ -1,0 +1,55 @@
+# S034 closeout — phone campaign safety-stopped; Windows continuation queued
+
+S034 is complete. Genuine one-worker guarded solver computation ran from
+21 October20:52:22Z to22 October00:01:43Z,11360.862s (3h9m21s). It stopped
+cleanly for SAFETY_DISK_RESERVE, before the authorised06:00 UTC/07:00 UK deadline.
+No worker remained active and no successor was launched. This was a storage
+safety stop, not completion of the finite search or an arbitrary campaign cap.
+
+The256-region ledger records102 visits:16 UNSAT_DRAT_VERIFIED encoded regions,
+86 visited UNKNOWN and154 unvisited UNKNOWN. Independently rechecked93047 new
+single-layer K5/K33-subdivision clause occurrences; together with2579937 retained
+S032 clauses there are2672984 occurrences, not a globally unique count. No saved
+SAT candidate, witness, new individual graph decision or whole-stratum proof.
+S11m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12.
+
+Fresh full271+retained/fresh K9 smoke, native1024n5/K33/positive24, original-rule
+and exact mapping audits, actual restart/deadline/claim/proof controls passed.
+Final audit independently reconstructed all16 formula hashes and checked proof,
+checker-log and pinned-checker identities against the original successful DRAT
+receipts. It did not rerun the DRAT checker; prior independent proof receipts
+are preserved. All93047 additions were independently subdivision-audited again.
+Encoded closures are not16 graph exclusions; baseline/symmetry versus learned
+benefit has not been isolated. No percent-to-solution or ETA is justified.
+
+One worker,1GiB sampled RSS visit cap,4GiB disk reserve,384MiB available-memory
+floor. Peak observed aggregate RSS1118420KiB includes sampling overshoot; a
+capped visit was checkpointed/requeued. Thermal/PSI readings unavailable. Of102
+visits,79 ended pending proof,16 proof verified,6 visit quantum,1 RSS capped.
+Private CDCL learning was lost between visits; only semantic cuts resume.
+
+Storage inventory shows11200738114 bytes in95 DRAT files, including unfinished
+proofs. Archive every runtime file losslessly using interleaved proof chunks;
+verify all original file sizes/SHA256 by streaming restoration. See
+validation/S034/RUNTIME_INVENTORY.json, campaign.tar.xz and FINAL_MANIFEST.json.
+Original frozen S032/S033 evidence remains unchanged. Raw runtime files remain
+local; the portable archive carries their exact bytes and original provenance.
+See docs/S034_RECOVERY.md. The runtime's absolute POSIX paths, ARM64 binaries
+and expired deadlines must never be blindly reused on Windows.
+
+D074 queues S035 on the Windows laptop with multiple workers: fresh Windows
+acceptance/port, proof-storage controls, measured1/2/3-worker trials and safe
+sustained2-or3-worker continuation (four only if justified). S035 is FUTURE /
+UNEXECUTED; this closeout is not its invocation. All parked/scientific/publication
+gates remain. Sources unchanged; CLM-0120 records this finite internal audit.
+
+One atomic authored commit on existing main under the existing owner workflow;
+no branch/PR or force push. Entry main236d97e8c142b8fdf8d124f02f9c1b754693002f,
+treef8ae881e2a9a0f6edbfc4412e5d89ac371ac1b49. Final commit/tree/parent and actual
+hosted governance jobs are verified after publication and reported to the owner;
+zero hosted checks is not PASS. GitHub connected owner transport may be used
+because local CLI credentials are unavailable. D044 fallback permanent details
+are preserved in the complete paired S035 prompt. Hosted CI checks integrity,
+not mathematical search exhaustion. No new external literature/novelty claim.
+
+Validation: all ten repository/archive/governance check scripts PASS, including frozen S032/S033 integrity and final S034 receipt/partition checks; all10 certificate-checker unit tests PASS. See validation/S034/LOCAL_CHECKS.log.
