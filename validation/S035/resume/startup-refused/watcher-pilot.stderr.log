@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 343, in <module>
+    main()
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 329, in main
+    write(control/'WATCHER.json', dict(**identity, status='WATCHING', ready=True,
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 48, in write
+    os.replace(temp, path)
+PermissionError: [WinError 5] Access is denied: 'C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\WATCHER.json.2196.tmp' -> 'C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\WATCHER.json'

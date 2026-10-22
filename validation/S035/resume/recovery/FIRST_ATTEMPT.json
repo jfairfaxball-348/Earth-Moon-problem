@@ -1,0 +1,85 @@
+{
+  "status": "FAILED_PRESERVATION_REVIEW_REQUIRED",
+  "entry_main": "3118649b248b9045d48b408074b2dc77901b7d2c",
+  "started_utc": "2026-10-22T17:51:09Z",
+  "steps": [
+    {
+      "name": "archive_verify",
+      "command": [
+        "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+        "scripts/archive_s035_pause.py",
+        "--verify"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 465.76790261268616
+    },
+    {
+      "name": "restore_all",
+      "command": [
+        "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+        "scripts/restore_s035_pause.py",
+        "--output",
+        "C:\\EM-S035-recovery"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 40.04083752632141
+    }
+  ],
+  "process_actions": "NONE; never launch/resume/suspend/terminate a campaign identity",
+  "scientific_replay": false,
+  "original_evidence_deleted": false,
+  "runtime_parts": {
+    "status": "PASS_ALL_8_PARTS_AND_JOINED_AND_LOCAL_ARCHIVE",
+    "bytes": 593107384,
+    "sha256": "bd2f8dbecc1d0558d9cb0110f3d205d7b65c405db830c61b7203fde312f09ab5",
+    "parts": [
+      {
+        "name": "runtime.tar.xz.part000",
+        "bytes": 83886080,
+        "sha256": "4e03091a95b97543844adababee5de6f773b55317e9e043a1690617fe7149cc2"
+      },
+      {
+        "name": "runtime.tar.xz.part001",
+        "bytes": 83886080,
+        "sha256": "e4a316ee22803ed01730d1b8c2ad336ff444e63f74b5b0e552675b6d2388d8c2"
+      },
+      {
+        "name": "runtime.tar.xz.part002",
+        "bytes": 83886080,
+        "sha256": "36bf3dd16e512fc56cbfc5c047d4ac686c220ad5c7b4bbec5d917c16f7998280"
+      },
+      {
+        "name": "runtime.tar.xz.part003",
+        "bytes": 83886080,
+        "sha256": "98fda17dfd159c9f965cbc7ebb1fc9db83c2785112a7b27656152d346c68f1b7"
+      },
+      {
+        "name": "runtime.tar.xz.part004",
+        "bytes": 83886080,
+        "sha256": "a8430262b517b974f1b13b037a6ef437def1f1b1e42b3e89dbd0cf9f74f432e1"
+      },
+      {
+        "name": "runtime.tar.xz.part005",
+        "bytes": 83886080,
+        "sha256": "53dc3821f04dc33108c852b4f3884fc77aff71bc50545cfe265b3035d749267c"
+      },
+      {
+        "name": "runtime.tar.xz.part006",
+        "bytes": 83886080,
+        "sha256": "4c043bdbd5d0a38baa52eb12bf7ca1f13e7035fe05425697a9f5ca63a9f6cc34"
+      },
+      {
+        "name": "runtime.tar.xz.part007",
+        "bytes": 5904824,
+        "sha256": "eacf2c1a5f7200425bb0ceac920ee786ac0f127975278b0dc5d8f49ee6a44034"
+      }
+    ]
+  },
+  "pause_manifest": {
+    "status": "PASS_ALL_LISTED_FILE_HASHES",
+    "files": 44
+  },
+  "recovery_root": "C:\\EM-S035-recovery",
+  "free_bytes_before_restore": 64604950528,
+  "error": "AssertionError('restore_all')"
+}

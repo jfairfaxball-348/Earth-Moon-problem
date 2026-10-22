@@ -17,6 +17,17 @@ import s035_sat_first_resume as guard
 def portable():
     with tempfile.TemporaryDirectory() as temporary:
         area = Path(temporary)/'campaign'; area.mkdir()
+        shared = area/'sharing.json'
+        actual_replace = guard.os.replace
+        calls = []
+        def transient_sharing(*args):
+            calls.append(1)
+            if len(calls) < 4:
+                raise PermissionError('Windows reader denies atomic replacement')
+            return actual_replace(*args)
+        with patch.object(guard.os, 'replace', side_effect=transient_sharing):
+            guard.write(shared, dict(status='complete'))
+        assert guard.read(shared) == dict(status='complete') and len(calls) == 4
         paths = []
         for name in guard.SCIENTIFIC:
             p = area.parent/name/'attempts/cell-0000/token'; p.mkdir(parents=True, exist_ok=True)
@@ -65,17 +76,33 @@ def portable():
     return dict(all_scientific_roots=True, append_and_replacement=True,
                 exit10_stop_race=True, alternate_candidate_name=True,
                 alert_precedes_validation_failure=True, original_log_preserved=True,
-                final_pause_scan_catches_late_SAT=True)
+                final_pause_scan_catches_late_SAT=True, transient_atomic_sharing_retry=True)
 
 
 def windows():
     import psutil
+    import threading
     from s035_preserved_lifecycle import identity, pause_identity, resume_identity, checked
     # This worker observes a file and exits cooperatively after the test; it is
     # unrelated to all scientific identities and never calls a solver.
     with tempfile.TemporaryDirectory() as temporary:
         area = Path(temporary)/'campaign'; area.mkdir()
         control = area/'RESUME_CONTROL'; control.mkdir()
+        shared = control/'sharing.json'; guard.write(shared, dict(counter=0))
+        reading = threading.Event(); errors = []
+        def reader():
+            try:
+                while not reading.is_set():
+                    assert 'counter' in guard.read(shared)
+            except BaseException as exc:
+                errors.append(repr(exc))
+        thread = threading.Thread(target=reader); thread.start()
+        try:
+            for counter in range(250):
+                guard.write(shared, dict(counter=counter))
+        finally:
+            reading.set(); thread.join(timeout=5)
+        assert not thread.is_alive() and not errors
         directory = area/'attempts/cell-0000/test'; directory.mkdir(parents=True)
         done = area/'COOPERATIVE_EXIT'
         code = 'import pathlib,time,sys;p=pathlib.Path(sys.argv[1]);\nwhile not p.exists(): time.sleep(.01)\nsys.exit(0)'
@@ -170,7 +197,8 @@ def windows():
     return dict(real_candidate_interrupt=True, paused_cpu_zero=True, validation_failure_keeps_alert=True,
                 STOP_race=True, malformed_adoption_preserves_worker=True,
                 stale_controller_guard=True, controller_loss_guard=True, owner_stop_guard=True,
-                nonforcing_natural_exit=True, original_campaign_untouched=True)
+                nonforcing_natural_exit=True, real_atomic_read_write_contention=True,
+                original_campaign_untouched=True)
 
 
 if __name__ == '__main__':

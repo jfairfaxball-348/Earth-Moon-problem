@@ -32,10 +32,15 @@ def sha(path):
 
 
 def read(path, default=None):
-    try:
-        return json.loads(Path(path).read_text(encoding='utf-8'))
-    except FileNotFoundError:
-        return {} if default is None else default
+    for attempt in range(100):
+        try:
+            return json.loads(Path(path).read_text(encoding='utf-8'))
+        except FileNotFoundError:
+            return {} if default is None else default
+        except PermissionError:
+            if attempt == 99:
+                raise
+            time.sleep(.01)
 
 
 def write(path, value):
@@ -45,7 +50,16 @@ def write(path, value):
     with temp.open('w', encoding='utf-8', newline='\n') as f:
         json.dump(value, f, indent=1)
         f.write('\n'); f.flush(); os.fsync(f.fileno())
-    os.replace(temp, path)
+    # On Windows, a concurrent status read can briefly deny FILE_SHARE_DELETE.
+    # Keep the complete fsynced temp file and retry the atomic replacement.
+    for attempt in range(100):
+        try:
+            os.replace(temp, path)
+            return
+        except PermissionError:
+            if attempt == 99:
+                raise
+            time.sleep(.01)
 
 
 class Scanner:

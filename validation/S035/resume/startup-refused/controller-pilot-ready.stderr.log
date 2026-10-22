@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\scripts\s035_preserved_campaign.py", line 502, in <module>
+    main()
+  File "C:\Earth-Moon-problem\scripts\s035_preserved_campaign.py", line 498, in main
+    run(area, control, args.pilot_seconds)
+  File "C:\Earth-Moon-problem\scripts\s035_preserved_campaign.py", line 299, in run
+    raise LifecycleError("A preservation stop/SAT alert is latched")
+s035_preserved_lifecycle.LifecycleError: A preservation stop/SAT alert is latched

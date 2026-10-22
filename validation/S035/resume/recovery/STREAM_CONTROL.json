@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "objects": 10004,
+  "exact_gzip_members": 4,
+  "refused_existing_root": true,
+  "damaged_inventory_rejected": true,
+  "controls_retained": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035-restore-control-0iblqwtj",
+  "process_actions": "NONE"
+}

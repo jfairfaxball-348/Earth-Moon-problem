@@ -1,0 +1,20 @@
+{
+ "automation_id": "earth-moon-s035-monitor",
+ "status": "ACTIVE",
+ "target_thread_id": "01a162ae-cf31-79c1-ac1d-ae715fa97482",
+ "rrule": "RRULE:FREQ=DAILY;BYHOUR=7,21;BYMINUTE=0;BYSECOND=0;UNTIL=20261023T060000Z",
+ "timezone": "Europe/London",
+ "requested_checkins": [
+  {
+   "local": "2026-10-22T21:00:00+01:00",
+   "utc": "2026-10-22T20:00:00Z"
+  },
+  {
+   "local": "2026-10-23T07:00:00+01:00",
+   "utc": "2026-10-23T06:00:00Z"
+  }
+ ],
+ "hourly_replaced": true,
+ "after_second_checkin": "PAUSE_HEARTBEAT",
+ "independent_resource_guard_unchanged": true
+}

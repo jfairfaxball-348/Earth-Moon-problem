@@ -1,0 +1,19 @@
+{
+ "commit": "e9a4f4e3bf1584c4bce919badb833c07240f7af0",
+ "tree": "21c6e17267d26731b02f69250163663d4a441f08",
+ "remote_main_verified": true,
+ "source_manifest_committed_bytes_match": true,
+ "hosted_run": {
+  "id": 39828616279,
+  "job": 119998471179,
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/39828616279"
+ },
+ "prior_run": {
+  "id": 39828526770,
+  "conclusion": "failure",
+  "cause": "New validator control script normalized from CRLF to LF in Git; manifest row corrected in ordinary next commit",
+  "scientific_result_affected": false
+ }
+}

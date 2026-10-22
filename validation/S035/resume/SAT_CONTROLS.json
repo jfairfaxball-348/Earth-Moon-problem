@@ -7,7 +7,8 @@
   "alternate_candidate_name": true,
   "alert_precedes_validation_failure": true,
   "original_log_preserved": true,
-  "final_pause_scan_catches_late_SAT": true
+  "final_pause_scan_catches_late_SAT": true,
+  "transient_atomic_sharing_retry": true
  },
  "windows": {
   "real_candidate_interrupt": true,
@@ -19,6 +20,7 @@
   "controller_loss_guard": true,
   "owner_stop_guard": true,
   "nonforcing_natural_exit": true,
+  "real_atomic_read_write_contention": true,
   "original_campaign_untouched": true
  }
 }

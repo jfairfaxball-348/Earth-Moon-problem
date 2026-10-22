@@ -14,8 +14,8 @@
    "sha256": "cccfb29b46d9965e6ff150cf597206a9046d6266031f1492894ffcfcb946df2a"
   },
   "scripts/check_s035_sat_resume.py": {
-   "bytes": 10852,
-   "sha256": "8e1375798393dd4b9b37a5be05782335e4bbc03d651539affb55452fe17384a9"
+   "bytes": 12147,
+   "sha256": "94937df9fbf7ffafaa2a0501176a351d270bf994d12a82a0bab4a6bc69c504d3"
   },
   "scripts/check_s035_sat_validation.py": {
    "bytes": 6049,
@@ -30,8 +30,8 @@
    "sha256": "319228e2aaceaef56eea3edc7c18ba0f36394583e2dc7a6d8bd5589ad5dbb57a"
   },
   "scripts/s035_sat_first_resume.py": {
-   "bytes": 16255,
-   "sha256": "9993dbb778f1cbad969141607b7afd206683cee43cfde090e55fb50a7966f83e"
+   "bytes": 16752,
+   "sha256": "0a6c94475c7ee035872c356ce5b1f3d69849e6c9f72f4cdfe1a6944df922cdf5"
   },
   "scripts/observe_s035_preserved.py": {
    "bytes": 3103,
@@ -54,8 +54,8 @@
    "sha256": "e925f88ff9f95c87346417252b01879235095d7b800fefb0dd2f700f0d684fe3"
   },
   "validation/S035/resume/SAT_CONTROLS.json": {
-   "bytes": 653,
-   "sha256": "0cb60715088a299fb54fcec08fb24ea581ba6bbeed705986e2e9ae4d27906e4e"
+   "bytes": 740,
+   "sha256": "09c19686e409d2ba8d313b4a1376cf83dd5e4e2e786cde73c2b0cb01dbaf32b2"
   },
   "validation/S035/resume/BEFORE_PILOT.json": {
    "bytes": 4468,

@@ -1,0 +1,68 @@
+{
+  "files": {
+    "validation/S035/resume/recovery/archive_verify.log": {
+      "bytes": 43,
+      "sha256": "ed040101431a74d233ea8e81f7198b1ed852266d2f65dab9fc233f5ad23e2716"
+    },
+    "validation/S035/resume/recovery/check_stream_restore.py": {
+      "bytes": 2962,
+      "sha256": "632a242bc7d9eeb68afe2c5d5a5543dc2ab329be79dd921669daa8213727b732"
+    },
+    "validation/S035/resume/recovery/CORRUPT_OBJECT_CONTROL.json": {
+      "bytes": 192,
+      "sha256": "9fdd5c7902f4d370ebc2ab7c552237ce0ef893613483f8f07e9f7cd391b39ea5"
+    },
+    "validation/S035/resume/recovery/FINAL.json": {
+      "bytes": 1228,
+      "sha256": "ed4d44a19272737488f0740329f1ce76cebcdb5cd8ddd5828b5e2460db1ddd0b"
+    },
+    "validation/S035/resume/recovery/FINAL.md": {
+      "bytes": 2428,
+      "sha256": "3dd6f4fe9a8db81c76b098e8d02f6bcfb891bfcc857ccdeb44ce8d96a95de56b"
+    },
+    "validation/S035/resume/recovery/finalize_recovery_record.py": {
+      "bytes": 5507,
+      "sha256": "0eca06bfb4f4abb76f1ba9746f6ac30606c83671b077bdaf77309c21bdc71899"
+    },
+    "validation/S035/resume/recovery/FIRST_ATTEMPT.json": {
+      "bytes": 2764,
+      "sha256": "ffbb539508e00d0dc024e51a04374aafeaac828d825e2490ecd877620a80ed7f"
+    },
+    "validation/S035/resume/recovery/FIRST_ATTEMPT_restore_all.log": {
+      "bytes": 922,
+      "sha256": "c1205d9bf7f3b5e3075f024236fc1c575dfd436f9e68e5500c7422fe159260d8"
+    },
+    "validation/S035/resume/recovery/PREUPGRADE_ORIGINAL.json": {
+      "bytes": 274,
+      "sha256": "60efe7c297ff63b14bd52862a5aa3f2a7a8a4dc284dac23072eb02970d207af9"
+    },
+    "validation/S035/resume/recovery/README.md": {
+      "bytes": 2381,
+      "sha256": "34a96e76e68c32c2cfb257a787139dd38dcff54be479c2ccedbb63b5c29a7802"
+    },
+    "validation/S035/resume/recovery/REPORT.json": {
+      "bytes": 4052,
+      "sha256": "b992a206e38561330b8ee78f66b824122dba76ff5ec44becda4cdde94ff7d5ca"
+    },
+    "validation/S035/resume/recovery/restore_all.log": {
+      "bytes": 922,
+      "sha256": "c1205d9bf7f3b5e3075f024236fc1c575dfd436f9e68e5500c7422fe159260d8"
+    },
+    "validation/S035/resume/recovery/restore_all_streaming.log": {
+      "bytes": 491,
+      "sha256": "ca02cd6085c54c06704f55b8e02693ee3f8d7f4c76bbe1bd3cf3da157b70ea0b"
+    },
+    "validation/S035/resume/recovery/STREAM_CONTROL.json": {
+      "bytes": 275,
+      "sha256": "675b95fe9497916bdace976424ec075bb4958998ebcfe415956a9ea5eac75b86"
+    },
+    "validation/S035/resume/recovery/verify_recovery.py": {
+      "bytes": 7347,
+      "sha256": "415f9d7f1b2691bbc65de9772a3ccd358f6a840f6fdb2200b6d85b357e03f11d"
+    },
+    "scripts/restore_s035_preserved.py": {
+      "bytes": 3835,
+      "sha256": "f946491dbeb6f9d6e0f728b53e724f03342805d0893e43d14da4ec1b47e095cc"
+    }
+  }
+}

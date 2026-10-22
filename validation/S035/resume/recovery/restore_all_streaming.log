@@ -1,0 +1,4 @@
+PASS all archived original bytes verified; restored C:\EM-S035-recovery-20261022T180328Z\_S034_original including DRAT
+No worker launched; absolute JSON paths need explicit Windows import.
+PASS all restored S035 original file bytes; no process launched. Absolute recipe paths are provenance and need explicit hash-checked rebasing.
+Dependencies: restore validation/S035/pause/dependencies.tar.xz into another new root using DEPENDENCIES.json. Do not run old STOP/recover or remove STOP.

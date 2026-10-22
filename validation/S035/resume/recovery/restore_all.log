@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\scripts\restore_s035_pause.py", line 40, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Earth-Moon-problem\scripts\restore_s035_pause.py", line 26, in main
+    verify(resolve(ROOT/'validation/S035/pause/runtime.tar.xz'),inv,objects)
+  File "C:\Earth-Moon-problem\scripts\archive_s035_pause.py", line 64, in verify
+    if target:st['file']=(target/key).open('wb')
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\johnf\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files: 'C:\\EM-S035-recovery\\_verified_objects\\c918658a3cc55692771f9a01b4fbeb3936ddc7323386840632d084c94068f74c'
