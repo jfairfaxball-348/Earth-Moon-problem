@@ -18,8 +18,8 @@
    "sha256": "8e1375798393dd4b9b37a5be05782335e4bbc03d651539affb55452fe17384a9"
   },
   "scripts/check_s035_sat_validation.py": {
-   "bytes": 6161,
-   "sha256": "2497690ab061d0cdb81c0c858e57e9f6a6efcc7e060c196682b8b72454666f04"
+   "bytes": 6049,
+   "sha256": "01448632038caec1cc324ac2aef7417851f9324a9a97f02b5b698c62f2dcb05a"
   },
   "scripts/restore_s035_preserved.py": {
    "bytes": 3835,
