@@ -139,3 +139,9 @@ S033 execution (2026-10-21,D072/D047): owner invoked phone setup with run next s
 **D073 (owner,2026-10-21):** invoke S034 now, finish setup/verification/256-region scheduling then genuine computation continuously until22 October07:00 UK/06:00 UTC. One worker initially, more only after verified safety, continue through individual UNKNOWNs/milestones, checkpoints/resource safeguards, clean deadline stop. No further confirmation except actual safety issue/unavoidable blocker; no S035 authorization.
 
 **D074 (owner,2026-10-22):** close S034 and commit/push; queue S035 as Windows laptop multiple-worker continuation. See docs/D074_S035_WINDOWS_MULTIPLE_WORKERS.md. No S035 invocation or phone restart.
+
+S035 invocation2026-10-22: owner says run next session, >90GB free and laptop on power/wifi without sleep. Exactly S035, existing main/no new branch/PR, genuine multiple workers after measured acceptance; no overall arbitrary cutoff and no S036 invocation.
+
+S035 owner-requested resident upgrade: independently instrumented flat counters identify congruence simplification (mode2052). Equal90s same-input comparison default4216 conflicts versus congruence-disabled1003623, both UNKNOWN, same11216 checked geometric occurrences. Select optional congruence off; retain random walk default. Same-PID per-region resident RAM contexts replace destructive wall-quantum restarts; preserve independent standalone DRAT gates and all prior evidence. No S036 invocation.
+
+S035 owner pause: preservation first; no forced termination; SAT discoveries absolute priority; nine-region diagnostics and verified main publication before any further heavy computation. S036 not invoked.

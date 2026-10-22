@@ -1,0 +1,43 @@
+{
+ "status": "RUNNING",
+ "reason": null,
+ "pid": 18384,
+ "start_ticks": "1792682629.327922",
+ "deadline": null,
+ "updated_utc": "2026-10-22T17:16:16.982387+00:00",
+ "active": {
+  "128391c32444452f9f5c2710e534ef82": {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:17.707673+00:00"
+  },
+  "66bdb4c9d8a94729b032880bf93933df": {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:17.737848+00:00"
+  }
+ },
+ "peak_aggregate_rss_kib": 3582660,
+ "available_kib": 7200516,
+ "temperatures_c": {},
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false
+}

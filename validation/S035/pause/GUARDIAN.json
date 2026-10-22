@@ -1,0 +1,22 @@
+{
+ "status": "RUNNING",
+ "pid": 14192,
+ "start_ticks": "1792682628.7765863",
+ "controller": {
+  "pid": 10296,
+  "start_ticks": "1792682629.3092763"
+ },
+ "deadline": null,
+ "updated_utc": "2026-10-22T17:16:14.347939+00:00",
+ "restarts": 0,
+ "lower_priority_requested": true,
+ "sleep_inhibition": true,
+ "sample": {
+  "private": 3246120960,
+  "rss": 2958712832,
+  "cpu": 14640.5,
+  "processes": 12
+ },
+ "thermal": "UNAVAILABLE",
+ "verdict": "UNKNOWN"
+}

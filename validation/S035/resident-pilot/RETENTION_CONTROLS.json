@@ -1,0 +1,13 @@
+{
+ "status": "PASS",
+ "same_pid_and_create_time_across_turns": true,
+ "turns": 2,
+ "paused_cpu_seconds_under_005": true,
+ "conflicts_before": 69887,
+ "conflicts_after": 99667,
+ "original_delta_hashes_unchanged": true,
+ "memory_eviction_kills_only_parked_identity": true,
+ "semantic_checkpoints_retained": true,
+ "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777",
+ "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\resident-acceptance\\retention-1792681853849587600\\campaign"
+}

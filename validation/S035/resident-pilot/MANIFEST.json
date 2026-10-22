@@ -1,0 +1,61 @@
+{
+ "status": "S035_RUNNING_RESIDENT_UPGRADE",
+ "files": {
+  "validation/S035/resident/BUILD.json": {
+   "bytes": 40397,
+   "sha256": "905a1e69405ac14dd3d41bf3f14d0f1c2e290245cc93fa60bf486ef1a371bbf5"
+  },
+  "validation/S035/resident/controls-and-diagnostics.tar.gz": {
+   "bytes": 4507998,
+   "sha256": "c19b14fb819ebc9c3affee85c8880b12ea8c2699ab89dc8a6b3c87b8b6d180da"
+  },
+  "validation/S035/resident/DIAGNOSTIC.json": {
+   "bytes": 10405,
+   "sha256": "a27320e8fe4ee876d01e73b9701720f8602dfd29e92c05ed5954eeba288f3658"
+  },
+  "validation/S035/resident/LAUNCH_SNAPSHOT.json": {
+   "bytes": 7471,
+   "sha256": "d50670525c77ff5d83d36a6def697f4be90bfca8e3d1e4ada419f81b6c6dfd40"
+  },
+  "validation/S035/resident/native-and-sources.tar.gz": {
+   "bytes": 790179,
+   "sha256": "f5e1a7f9fe0e3ba9eda289cd4a0879c7b6c66d0030dd65f91caedf0649eb2481"
+  },
+  "validation/S035/resident/NATIVE_CONTROLS_CONGRUENCE_DISABLED.json": {
+   "bytes": 9130,
+   "sha256": "5aa83563388a01d8f40a738dfc3468a10e8f6eeee4197cc7737f4785b6d93de2"
+  },
+  "validation/S035/resident/NATIVE_CONTROLS_DEFAULT.json": {
+   "bytes": 9131,
+   "sha256": "02245449c5faa253e6b8c6b41be82d55bc94200614a244b294746949b64f00b4"
+  },
+  "validation/S035/resident/REGIONS.json.gz": {
+   "bytes": 21978,
+   "sha256": "ebc0276dddcd29de624349257c4deee9e6042090767abad9d0d892bd745f1575"
+  },
+  "validation/S035/resident/REGISTERED_CONFIG.json": {
+   "bytes": 15580,
+   "sha256": "5937e729368ca4c0ed52318476ef3cc4ecc04f239912a7f8b5dd3c0cd9a1ecc8"
+  },
+  "validation/S035/resident/RESIDENT_LIVE_SNAPSHOT.json": {
+   "bytes": 326347,
+   "sha256": "bedd291755b78bcf612a497b3c7c92ce011704de7edb9048a512c5cd3e7e28c4"
+  },
+  "validation/S035/resident/RETENTION_CONTROLS.json": {
+   "bytes": 522,
+   "sha256": "6ba072c9d7a6a4dfbaccf8d688358db62d8b5613c275c6bb954b1a6373d1e3cc"
+  },
+  "validation/S035/resident/SCHEDULER_CONTROLS.json": {
+   "bytes": 1309,
+   "sha256": "0c54cee2166b2646686a0dd69a0db6accf839b7455d9d9148eb13bbfe39db210"
+  },
+  "validation/S035/resident/SMOKE.json": {
+   "bytes": 35271,
+   "sha256": "a21efd6d96faccb66c90afe038161a6a138dbbdd1fd2e3f854d9f659f5f307da"
+  },
+  "sessions/S035/RESIDENT_UPGRADE_PLAN.md": {
+   "bytes": 3478,
+   "sha256": "161d30828f9504a7684acb903fdd06a6c604538d91c29c746dd3b0447e302579"
+  }
+ }
+}

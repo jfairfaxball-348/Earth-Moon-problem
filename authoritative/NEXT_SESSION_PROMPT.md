@@ -1,25 +1,66 @@
-# S035 — Windows laptop continuation with multiple solver workers (FUTURE / UNEXECUTED)
+# S035 â€” SAT-first resumption and nine-region diagnostic (OWNER INVOCATION REQUIRED)
 
-Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
+This prompt resumes S035 only when the owner explicitly supplies it for execution.
+S035 is PAUSED, not completed. S036 and all later sessions are not authorised.
+Use this existing repository/main; no new project, branch, PR or force push.
 
-The owner supplying this prompt or saying “run next session” invokes exactly S035 under D047. Run on the owner's Windows laptop, not the phone. D074 explicitly requests genuine multiple-worker solver computation. Do not run S036 automatically. Read AGENTS.md, authoritative/STATE.json, docs/SESSION_PROTOCOL.md, docs/D074_S035_WINDOWS_MULTIPLE_WORKERS.md, sessions/S034/CLOSEOUT.md, validation/S034/SUMMARY.json and docs/S034_RECOVERY.md.
+1. Read AGENTS.md, authoritative/STATE.json, sessions/S035/PAUSE.md,
+   NINE_REGION_DIAGNOSTIC.md, RESIDENT_UPGRADE_PLAN.md and validation/S035/pause/.
+   Reconcile remote main, actual hosted jobs and local edits. Do not automatically
+   launch or recover a guardian. The prior guardian/controller JSON says RUNNING
+   because it is frozen: OWNER_PAUSE.json and authoritative PAUSED take priority.
 
-1. Establish live remote main SHA/tree, local status, competing writers, open PRs and actual hosted checks. Use this existing repository/main and ordinary non-force commits/pushes; no new project, clone, development branch or PR. Preserve uncommitted owner work and all historical archives. If remote changes, reconcile safely rather than reset or force. Record executor, Windows version, CPU, RAM, free disk, compiler and exact source/package/native hashes. Confirm no existing worker before launching one.
+2. SAT FIRST: inspect SAT_AUDIT.json and rescan all native logs, exit-code10
+   results and candidate files. Run scripts/s035_sat_first_watch.py --once.
+   Any SAT signal takes precedence over UNKNOWN, stop reasons and ordinary
+   progress. Preserve the complete assignment, exact input/recipe, logs, sources
+   and hashes; suspend the campaign immediately and independently validate CNF,
+   both planar layers, disjoint union, alpha<=3, order28, degree/edge domain and
+   a proper colouring. Report a potentially valid witness prominently. Difficulty
+   alone implies neither SAT nor UNSAT. Do not promote before full domain review.
 
-2. Run fresh full 271/271 CNF byte-identity and independent retained DRAT checks, retained/fresh K9 smoke, native fixed/exhaustive n5 controls, positive24, subdivision guard and stop/crash/recovery controls on the actual Windows environment. Use pinned Windows build/support from S032 or a rigorously tested port. Linux ARM64 binaries and historical PASS records do not validate Windows. Missing acceptance blocks genuine search. Preserve Windows process-tree, memory, disk and sleep-inhibition safeguards and release sleep inhibition on stop.
+3. Use scripts/s035_pause_status.py. Twelve original processes were suspended,
+   not killed; four native contexts retain RAM CDCL only while their PID/create
+   identities survive. STOP remains latched. NEVER blindly remove STOP, resume
+   the old guardian or call legacy recover: legacy STOP/recover uses taskkill /F.
+   The native has no cooperative exit handler. Resolve this lifecycle blocker and
+   validate a non-forcing pause/exit path on small controls before heavy work.
+   A same-process RAM resume also requires explicit identity-aware handling of
+   suspend counts, frozen wall deadlines and queued claims; no safe one-command
+   RAM resume is currently supplied. Do not discard it to simplify recovery.
 
-3. Verify the final S034 manifest and lossless archive. Restore metadata/checkpoints with scripts/restore_s034.py --output artifacts/tmp/S035/imported-s034; --proofs is optional and expands about11.2GB. Import rather than blindly run the POSIX controller: it uses fcntl, /proc, POSIX process groups and expired wall/monotonic deadlines. Implement and test native Windows locks, unique atomic claims, PID/create-time identities, process-tree termination, STOP/signals/crash recovery and a read-only status command. Rebase artifact paths explicitly; retain original hash-pinned provenance. Never reuse the ARM64 executable or S034 deadline.
+4. Durable semantic recovery: verify every runtime.tar.xz part and joined SHA,
+   then python scripts/archive_s035_pause.py --verify. Use python scripts/restore_s035_pause.py --output C:\EM-S035-recovery
+   to restore original objects and logical paths into a NEW directory. The
+   script never launches a worker and verifies all restored hashes. Restore referenced
+   S034 raw proof files with scripts/restore_s034.py --output <new-dir> --proofs
+   from the committed, hash-verified validation/S034/campaign.tar.xz. Never
+   overwrite live suspended work. Restore dependencies.tar.xz into a NEW root using DEPENDENCIES.json
+   hashes for S032 base/seed, Windows checker and required runtime DLLs. Rebase only registered prefixes with hash checks.
+   Restore gzip containers with pinned zlib1.3.1/level1; all original compressed
+   and raw proof hashes were checked. The original pre-resident gzip container
+   remains local; all its member bytes are independently stored in the pause
+   archive. Operational live lock bytes are excluded and never copied to recovery.
 
-4. Retain original S11 order28 alpha<=3/minimum-degree11 formulation,17976 variables,336030 baseline clauses, exact mapping and all2579937 S032 geometric clauses. Source validation/S032/stopped/learned.lem.gz expands to189309949 bytes, SHA256 6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177. Independently re-audit mapping and rule soundness. Import all93047 independently checked S034 clause occurrences from validation/S034/new-geometric.lem.gz and their provenance; deduplicate only with an audited mapping. Total retained occurrences2672984, not a unique count. Private CDCL state was not saved. Formula reconstruction normalizes source CRLF to LF while raw source hashes stay unchanged.
+5. Exact unresolved IDs: 0,1,3,7,15,31,63,127,255. All UNKNOWN; no pending UNSAT
+   proofs or verification backlog at pause. RAM contexts: 0,7,127,255. Cold queue:
+   1,3,15,31,63. Historical private_cdcl_retained flags on cold rows are stale;
+   use the actual resident context map. Keep 247 independently proof-closed encoded
+   regions. Standalone fresh DRAT plus independent checker gates every new closure.
 
-5. Resume the same exact256 disjoint graph-presence regions and existential layer/auxiliary variables. Validate partition assumptions, weights and original certificate formulas/DRAT before treating the16 encoded regions as closed. There are240 unresolved regions:86 visited UNKNOWN and154 unvisited. Retain79 pending proof cases; prioritize efficient proof completion alongside exploration without repeatedly regenerating large unchecked files. Pending proofs, caps and crashes remain UNKNOWN. Closures are encoded regions, not16 individual nonbiplanar graphs; baseline-versus-learned benefit has not been isolated. Weights do not measure percentage-to-solution or ETA.
+6. Before any new heavy computation, commit/push diagnostic and SAT/lifecycle
+   improvements and verify remote main. Run the SAT-first supervisor outside the
+   guardian tree BEFORE future workers, preserving prominent SAT_ALERT.json even
+   if validation fails. Test candidate interruption, validation failure and STOP
+   races; do not rely solely on successful native return handling. Use targeted
+   comparisons per region; avoid identical capped proof regeneration or blind
+   restarts. Keep congruence disabled and random walk default unless a registered
+   comparison justifies change. Four resident admissions including reservations,
+   two executing slots, 600s fair turns; no repeated cache churn.
 
-6. Fix storage before scaling: S034 stopped at01:01 UK when retained DRAT files consumed about11.2GB and approached the4GiB free reserve. Reserve at least10GiB on the laptop, with explicit per-attempt/proof and aggregate disk budgets. Compress completed/partial proof journals losslessly as they leave the active path, verify restoration and SHA256 before any removal of redundant runtime copies, and avoid256 copies of the190MB input. Preserve semantic checkpoints, recipes, proof/checker logs, hashes and intermediate results. Evaluate compact/binary DRAT only after an independently checked roundtrip; do not silently discard proof evidence. Improve long-lived per-region worker reuse where practical because S034 discarded private CDCL learning between visits.
-
-7. Preregister real1/2/3-worker benchmarks on unresolved regions using equal wall intervals, recording aggregate CPU/RAM/disk, thermal visibility, useful checked cuts and independently proof-closed regions. Include every benchmark's scientific outputs in the ledger. Use measured peak private commit/RSS plus headroom and Windows available memory to set per-worker and aggregate caps; never multiply the old11GiB limit blindly. Start serially for calibration, then use at least TWO genuine workers if safely supported. Select2 or3 from measured throughput; four only if safely justified. Small synthetic two-worker controls alone are insufficient. If multiple workers are unsafe or unavailable, checkpoint and report the specific blocker rather than silently call a serial run the requested campaign.
-
-8. Begin sustained genuine guarded solver computation using collision-free dynamic claims and independently audited global clause sharing. Continue systematically through unresolved regions; UNKNOWN or a session milestone is not a reason to end. Register runtime/stopping policy before launch using any explicit owner duration, and do not inherit S034's expired07:00 cutoff or impose an arbitrary short overall campaign timeout. Maintain an autonomous monitor, periodic complete-prefix checkpoints and safe owner STOP. Stop cleanly on actual unsafe memory/disk/thermal/process behaviour, an applicable owner deadline/stop, or an unavoidable blocker. Preserve the last audited checkpoint if the laptop sleeps/crashes.
-
-9. Native SAT is a candidate only: independently verify explicit labelled V,E1,E2, edge disjointness, each layer's planarity, all formula constraints and alpha<=3 on28 vertices. The independent-set counting argument forbids9 colours; validate any claimed proper colouring separately. Native UNSAT text alone closes nothing: regenerate the exact registered region formula, produce standalone CaDiCaL DRAT and independently check with drat-trim. Whole-stratum promotion additionally requires a complete encoded-domain/symmetry audit. Maintain9<=chi2<=12 unless a fully certified advance exists. S11m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN. D042 lower-bound-only scope and all parked/publication/outreach/Lean gates remain unchanged.
-
-10. Close exactly S035 with all session records, synced sources/claims/state/ledgers, permanent compressed evidence and manifests, Windows/concurrency/storage findings, ordinary non-force publication and verified actual hosted-check status. D044 fallback remains ubuntu-24.04 with pinned setup and full smoke in the SAME job; historical runs38623187997,38623722547,38624616691,38635879431 and permanent validation/S011/SUMMARY.json and validation/S012 evidence. A fallback is not evidence of a Windows multiworker run. Commit identical complete S036 future prompts in authoritative/ and sessions/S035/, print the FULL prompt with verified commit links, and stop before S036.
+7. Retain 6GiB aggregate/2GiB per-worker private caps, 2GiB RAM floor,
+   10GiB disk reserve, 2GiB raw-proof attempt cap and 40GiB campaign/64GiB S035
+   budgets. Soft resident targets:5GiB/2.5GiB available RAM. Thermal unavailable.
+   Respect fresh owner runtime instructions. Keep all checkpoints and evidence.
+   S11 remains UNKNOWN;9<=chi2<=12. Encoded region closures are not graph or whole
+   stratum exclusions. Preserve parked/publication/outreach/Lean gates.

@@ -44,3 +44,7 @@ sessions/S028/** -text -whitespace
 # Exact S032 launch/evidence bytes across Windows and hosted validation.
 validation/S032/** -text -whitespace
 sessions/S032/** -text -whitespace
+validation/S035/** -text -whitespace
+sessions/S035/** -text -whitespace
+tools/s035*.py -text -whitespace
+scripts/s035*.py -text -whitespace

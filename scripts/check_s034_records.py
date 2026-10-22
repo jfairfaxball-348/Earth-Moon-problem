@@ -8,7 +8,7 @@ import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'tools'))
-from s034_regions import validate_partition
+from region_partition import validate_partition
 
 def read(name):
     return json.loads((ROOT/name).read_text())
@@ -113,9 +113,16 @@ if final_path.exists():
     prompt = (ROOT/'sessions/S034/S035_FUTURE_PROMPT.md').read_bytes()
     assert b'Windows' in prompt and b'multiple' in prompt and b'FUTURE / UNEXECUTED' in prompt
     if state['last_completed_session'] == 'S034':
-        assert state['recommended_next_session'] == 'S035' and not state.get('active_session')
-        assert state['next_session_is_future_unexecuted'] is True
-        assert prompt == (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
+        assert state['recommended_next_session'] == 'S035'
+        if state.get('active_session'):
+            assert state['active_session']['id']=='S035' and state['active_session']['status'] in ('RUNNING','PAUSED')
+            assert state['next_session_is_future_unexecuted'] is False
+        else:
+            assert state['next_session_is_future_unexecuted'] is True
+        if state.get('active_session',{}).get('status')=='PAUSED':
+            assert (ROOT/'sessions/S035/RESUME_PROMPT.md').read_bytes()==(ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
+        else:
+            assert prompt == (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
     print('PASS S034 final archive/receipts/256-region integrity and S035 Windows multiple-worker handover; not proof replay or search exhaustion')
 else:
     print('PASS S034 registered256-region partition, fresh phone gates and immutable running evidence; not a closeout or new mathematical claim')

@@ -79,3 +79,7 @@ S025 integration reconciliation (2026-10-18; no new numbered session): transplan
 | S034 | 2026-10-21/22 | D073 explicit overnight invocation; CAM0039 | Fresh full phone acceptance and scheduler controls PASS; genuine256-region campaign RUNNING until07:00 UK | IN_PROGRESS; no S035 invocation |
 
 | S034 | 2026-10-21/22 | CAM0039 completed safety stop (disk) |102 visits;16 encoded DRAT closures;93047 checked additions;240 unresolved; no witness/stratum | S035 Windows multiple workers FUTURE/UNEXECUTED (D074) |
+
+| S035 |2026-10-22| D047/D074 owner Windows invocation; CAM0040 | Fresh Windows acceptance and genuine1/2/3-worker benchmarks PASS; sustained2 workers RUNNING | IN_PROGRESS; no S036 |
+
+S035 PAUSED by owner:12 processes suspended, four RAM contexts retained, nine UNKNOWN; durable archive/recovery; no new search, no S036.

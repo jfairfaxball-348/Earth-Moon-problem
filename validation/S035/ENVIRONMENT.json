@@ -1,0 +1,20 @@
+{
+ "executor": "Codex desktop local Windows, S035 owner direct next-session invocation",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+ "packages": {
+  "python-sat": "1.9.dev15",
+  "networkx": "3.5"
+ },
+ "pysolvers_sha256": "96b7325a76b78d1509e86bd454cd309d467307fb573fc01ddbfea6dabf8b3104",
+ "native": {
+  "EMP_CADICAL": {
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+   "sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48"
+  },
+  "EMP_DRAT_TRIM": {
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+   "sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+  }
+ }
+}

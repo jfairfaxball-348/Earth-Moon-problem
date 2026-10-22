@@ -1,0 +1,430 @@
+{
+  "status": "SCOPED_PASS_WITH_FREE_K9_UNKNOWN",
+  "exhaustive_n5_fixed_graphs": 1024,
+  "random_n6_partitions": 64,
+  "prior_unconstrained_K9": "UNKNOWN_AT_60S; 94531 independently checked clauses; not a decision",
+  "fixed_controls_reused_from": null,
+  "free_K9_reused_from": null,
+  "positive24": "PASS",
+  "K33": "PASS",
+  "free_K9": "UNKNOWN_AT_2S",
+  "rows": [
+    {
+      "name": "n5-0000",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n5-1023",
+      "expected_planar_layers": false,
+      "returncode": 20,
+      "checked_lemmas": 1
+    },
+    {
+      "name": "n6-00",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-01",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-02",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-03",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-04",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-05",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-06",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-07",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-08",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-09",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-10",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-11",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-12",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-13",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-14",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-15",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-16",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-17",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-18",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-19",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-20",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-21",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-22",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-23",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-24",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-25",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-26",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-27",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-28",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-29",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-30",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-31",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-32",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-33",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-34",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-35",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-36",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-37",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-38",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-39",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-40",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-41",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-42",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-43",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-44",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-45",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-46",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-47",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-48",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-49",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-50",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-51",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-52",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-53",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-54",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-55",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-56",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-57",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-58",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-59",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-60",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-61",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-62",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "n6-63",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "K33",
+      "expected_planar_layers": false,
+      "returncode": 20,
+      "checked_lemmas": 1
+    },
+    {
+      "name": "positive24",
+      "expected_planar_layers": true,
+      "returncode": 10,
+      "checked_lemmas": 0
+    },
+    {
+      "name": "free_K9",
+      "returncode": 0,
+      "checked_lemmas": 22941,
+      "verdict": "UNKNOWN",
+      "coverage": "full partition universe encoded; no exhaustion from cap"
+    }
+  ],
+  "native_sha256": "2bb59244fc1453e2e17b1c78d5090db17a25df88c703a9380ca6a62d7939acdc",
+  "seconds": 24.811999999999898
+}

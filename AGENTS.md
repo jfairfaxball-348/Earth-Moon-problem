@@ -1,3 +1,31 @@
+# S035 OWNER PAUSED (22 October2026)
+
+Preservation/SAT-first owner directive supersedes running instructions below.
+All campaign processes are SUSPENDED, STOP latched; no heavy computation or
+S036 is authorised. Use scripts/s035_pause_status.py and sessions/S035/PAUSE.md.
+Do not call legacy recover/STOP or blindly resume guardian: those paths force
+terminate processes. RAM learning survives only in the suspended identities.
+Read the identical authoritative/S035 RESUME prompt before future work.
+
+# S035 resident upgrade ACTIVE (22 October2026)
+
+Owner requested flat-counter investigation and preservation of useful learning.
+Use scripts/s035_resident_campaign.py for current status/STOP. Two active slots;
+additional per-region native processes may be intentionally PARKED with RAM CDCL
+retained between fair turns. Inspect RESIDENT_CONTEXTS.json and PID/create-time
+identities before any action. Keep hard memory/disk safeguards and proof gates.
+Original launch handoff below is historical; current details in sessions/S035/RUNNING.md
+and validation/S035/resident/. No S036 authorization.
+
+# S035 IN_PROGRESS - Windows multiple-worker invocation (22 October2026)
+
+Owner invoked S035 with power/wifi/no-sleep conditions. Fresh Windows acceptance,
+measured1/2/3-worker trials then sustained multiple workers with resource guards.
+No fixed overall cutoff; stop on owner STOP or actual unsafe/blocking condition.
+Existing main, ordinary non-force publication; no new branch/PR. Inspect actual
+S035 guardian/controller and PID/create-time identities before any launch. S036
+not authorised. Last completed S034;9<=chi2<=12 unchanged. See sessions/S035/PLAN.md.
+
 # S034 completed — S035 Windows multiple-worker continuation queued (D074)
 
 S034 phone campaign stopped safely at22 October2026,00:01:43 UTC for disk reserve.

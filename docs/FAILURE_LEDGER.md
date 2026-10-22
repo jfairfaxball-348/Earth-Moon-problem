@@ -143,3 +143,9 @@ S033 environment observations: bubblewrap cannot start in proot because of host-
 | F088 (S034) | Phone storage suffices until the overnight deadline |95 retained DRAT files consumed11200738114 bytes;4GiB reserve stopped computation00:01:43Z after102 visits;79 proofs pending UNKNOWN | Losslessly archive all intermediates; laptop must cap/compress proof storage before scaling; preserve all UNKNOWNs and semantic checkpoints |
 
 | F089 (S034 closeout) | Raw concatenation reproduces text-mode formula hash | Initial final-audit hash mismatch because Windows seed CRLF is normalized by registered materialise() | Correct independent reconstruction to the same universal-newline input/LF output; all16 exact formula hashes pass; original certificates unchanged |
+
+S035 setup: initial DLL PATH failure, Windows atomic-read sharing conflict and early heartbeat race were caught by synthetic controls and repaired before science. Fresh lifecycle/orphan controls PASS; failed fixture outputs retained. No mathematical verdict from failures.
+
+S035 resident pilot: all-nine admission caused memory-driven cache evictions, caught before leaving the revised campaign unattended. V2 bounds admission to four retained contexts/two active slots, avoiding repeated cold rotation. Original pilot evidence retained; no mathematical verdict. Diagnostic overlap was discarded for performance; a later small retention fixture overlap is recorded separately from the clean90s same-input comparison.
+
+S035 lifecycle blocker: legacy STOP/recover taskkill /F and no native cooperative exit; non-destructive suspension used. RAM CDCL cannot be serialized. Cold private_cdcl_retained flags stale; actual context map authoritative. No SAT/proof promotion.

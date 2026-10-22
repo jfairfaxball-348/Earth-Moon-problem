@@ -1,0 +1,21 @@
+{
+ "bytes": 241301727,
+ "sha256": "b0cd33974d61cdb19574a5e8a487bd0576a425dc21a037b7726f1fbf54aa7723",
+ "parts": [
+  {
+   "name": "acceptance-and-benchmarks.tar.gz.part000",
+   "bytes": 83886080,
+   "sha256": "b75fbb269f7aebdb6f2f77de9be1005528fd7626656b65beddd1ab6dd52c2ec1"
+  },
+  {
+   "name": "acceptance-and-benchmarks.tar.gz.part001",
+   "bytes": 83886080,
+   "sha256": "687d4ff7322f808d07a9e986295b803cdb059be94840893db8a6a2ae6e6a33a6"
+  },
+  {
+   "name": "acceptance-and-benchmarks.tar.gz.part002",
+   "bytes": 73529567,
+   "sha256": "47356bb646e69c1e695937ceea83f63edee8600bde4ee91ef5834e2185a4f275"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "status": "NO_SCIENTIFIC_SAT_OR_CANDIDATE_FOUND",
+ "scanned_files": 4820,
+ "hits": [],
+ "classified_control_hits": [],
+ "scope": [
+  "campaign",
+  "benchmark-1",
+  "benchmark-2",
+  "benchmark-3",
+  "imported-s034",
+  "phase-diagnostic",
+  "phase-diagnostic-overlap-aborted"
+ ],
+ "not_claimed": "No inference of SAT or UNSAT from difficulty"
+}

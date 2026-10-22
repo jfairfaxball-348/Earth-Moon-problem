@@ -1,0 +1,191 @@
+{
+ "status": "RUNNING",
+ "controller": {
+  "status": "RUNNING",
+  "reason": null,
+  "pid": 2608,
+  "start_ticks": "1792658491.5870917",
+  "deadline": null,
+  "updated_utc": "2026-10-22T08:41:42.661012+00:00",
+  "active": {
+   "dd64d28a72554e678978bb7962302e32": {
+    "pid": 15772,
+    "start_ticks": "1792658495.7033288",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\input.inst",
+     "--timeout",
+     "1796",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T08:41:35.695991+00:00"
+   },
+   "073cd98b279f452984499019232e321f": {
+    "pid": 12316,
+    "start_ticks": "1792658495.8246827",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\input.inst",
+     "--timeout",
+     "1796",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T08:41:35.827846+00:00"
+   }
+  },
+  "peak_aggregate_rss_kib": 1030804,
+  "available_kib": 8560748,
+  "temperatures_c": {},
+  "verdict": "UNKNOWN",
+  "whole_stratum_certified": false
+ },
+ "guardian": {
+  "status": "RUNNING",
+  "pid": 15092,
+  "start_ticks": "1792658490.8844423",
+  "controller": {
+   "pid": 2036,
+   "start_ticks": "1792658491.5676706"
+  },
+  "deadline": null,
+  "updated_utc": "2026-10-22T08:41:41.634615+00:00",
+  "restarts": 0,
+  "lower_priority_requested": true,
+  "sleep_inhibition": true,
+  "sample": {
+   "private": 947470336,
+   "rss": 897744896,
+   "cpu": 17.28125,
+   "processes": 8
+  },
+  "thermal": "UNAVAILABLE",
+  "verdict": "UNKNOWN"
+ },
+ "controller_process_alive": true,
+ "deadline": null,
+ "total_regions": 256,
+ "proof_closed_regions": 20,
+ "unresolved_regions": 236,
+ "total_visits": 120,
+ "active": [
+  {
+   "id": 106,
+   "claim": {
+    "token": "dd64d28a72554e678978bb7962302e32",
+    "controller_pid": 2608,
+    "owner": "worker-0",
+    "claimed_utc": "2026-10-22T08:41:32.252860+00:00",
+    "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32",
+    "worker": {
+     "pid": 15772,
+     "start_ticks": "1792658495.7033288",
+     "phase": "native",
+     "command": [
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\input.inst",
+      "--timeout",
+      "1796",
+      "--lemmas",
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\new-cuts.lem"
+     ],
+     "utc": "2026-10-22T08:41:35.695991+00:00"
+    },
+    "phase": "native"
+   },
+   "worker": {
+    "pid": 15772,
+    "start_ticks": "1792658495.7033288",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\input.inst",
+     "--timeout",
+     "1796",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T08:41:35.695991+00:00",
+    "elapsed": 0.125,
+    "deadline": null,
+    "phase_end": 1792660292.5503228,
+    "verdict": "UNKNOWN",
+    "native_progress": []
+   },
+   "checkpoint": {
+    "file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\new-cuts.lem",
+    "complete_lines": 0,
+    "complete_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "omitted_tail_bytes": 0,
+    "native_cdcl_state_saved": false,
+    "verdict": "UNKNOWN",
+    "utc": "2026-10-22T08:41:43.387475+00:00"
+   }
+  },
+  {
+   "id": 107,
+   "claim": {
+    "token": "073cd98b279f452984499019232e321f",
+    "controller_pid": 2608,
+    "owner": "worker-1",
+    "claimed_utc": "2026-10-22T08:41:32.359824+00:00",
+    "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f",
+    "worker": {
+     "pid": 12316,
+     "start_ticks": "1792658495.8246827",
+     "phase": "native",
+     "command": [
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\input.inst",
+      "--timeout",
+      "1796",
+      "--lemmas",
+      "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\new-cuts.lem"
+     ],
+     "utc": "2026-10-22T08:41:35.827846+00:00"
+    },
+    "phase": "native"
+   },
+   "worker": {
+    "pid": 12316,
+    "start_ticks": "1792658495.8246827",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\input.inst",
+     "--timeout",
+     "1796",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T08:41:35.827846+00:00",
+    "elapsed": 0.1089999999999236,
+    "deadline": null,
+    "phase_end": 1792660292.6556695,
+    "verdict": "UNKNOWN",
+    "native_progress": []
+   },
+   "checkpoint": {
+    "file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\new-cuts.lem",
+    "complete_lines": 0,
+    "complete_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "omitted_tail_bytes": 0,
+    "native_cdcl_state_saved": false,
+    "verdict": "UNKNOWN",
+    "utc": "2026-10-22T08:41:42.995116+00:00"
+   }
+  }
+ ],
+ "accepted_new_clauses": 93047,
+ "proof_closed_weight": "117947359516813775114756678519624041254627900917414847866961553764132936155455039042678721115975905466",
+ "encoded_domain_weight": "962529395115471692412201601417785885917459089893513951759976919652746177248195403766006103248781426290",
+ "mathematical_verdict": "UNKNOWN",
+ "whole_stratum_certified": false,
+ "weight_meaning": "Labelled graph-presence sets satisfying graph unit pins and edge count only; other CNF constraints unchecked in this denominator.",
+ "warning": "Encoded labelled domain only; no percent-to-solution or ETA; private CDCL state not saved"
+}

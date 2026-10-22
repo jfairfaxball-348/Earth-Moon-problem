@@ -1,0 +1,10 @@
+{
+ "status": "STOPPED",
+ "reason": "OWNER_STOP",
+ "deadline": null,
+ "updated_utc": "2026-10-22T15:01:31.604221+00:00",
+ "peak_aggregate_rss_kib": 1493980,
+ "available_kib": 9892924,
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false
+}

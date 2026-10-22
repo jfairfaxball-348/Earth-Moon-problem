@@ -1,0 +1,19 @@
+{
+  "os": {
+    "Caption": "Microsoft Windows 11 Home",
+    "Version": "10.0.26300",
+    "TotalVisibleMemorySize": 16471564,
+    "FreePhysicalMemory": 9076380
+  },
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "disk": {
+    "Used": 913695059968,
+    "Free": 86006808576
+  },
+  "power": "Owner confirms connected to power/wifi and no sleep",
+  "executor": "Codex desktop local Windows S035"
+}

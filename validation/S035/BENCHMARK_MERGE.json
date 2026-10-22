@@ -1,0 +1,9 @@
+{
+ "status": "PASS",
+ "total_visits": 118,
+ "proof_closed_regions": 20,
+ "retained_checked_sources": 50,
+ "retained_new_occurrences": 0,
+ "identical_block_aliases": [],
+ "all_benchmark_outputs_retained": true
+}

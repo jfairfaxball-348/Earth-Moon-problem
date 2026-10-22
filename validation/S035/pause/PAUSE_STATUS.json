@@ -1,0 +1,118 @@
+{
+ "status": "OWNER_PAUSED",
+ "stop_latched": true,
+ "processes": [
+  {
+   "pid": 14192,
+   "start_ticks": "1792682628.7765863",
+   "was_status": "running",
+   "name": "python.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 10296,
+   "start_ticks": "1792682629.3092763",
+   "was_status": "running",
+   "name": "python.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 14508,
+   "start_ticks": "1792682629.3147533",
+   "was_status": "running",
+   "name": "conhost.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 18384,
+   "start_ticks": "1792682629.327922",
+   "was_status": "running",
+   "name": "python.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 12384,
+   "start_ticks": "1792682640.4900093",
+   "was_status": "stopped",
+   "name": "bipsat_s032.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 3500,
+   "start_ticks": "1792682640.5223634",
+   "was_status": "stopped",
+   "name": "bipsat_s032.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "was_status": "running",
+   "name": "bipsat_s032.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "was_status": "running",
+   "name": "bipsat_s032.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 11104,
+   "start_ticks": "1792682657.7398837",
+   "was_status": "running",
+   "name": "conhost.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 15352,
+   "start_ticks": "1792682657.7101965",
+   "was_status": "running",
+   "name": "conhost.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 2224,
+   "start_ticks": "1792682640.5278616",
+   "was_status": "stopped",
+   "name": "conhost.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  },
+  {
+   "pid": 6808,
+   "start_ticks": "1792682640.4960043",
+   "was_status": "stopped",
+   "name": "conhost.exe",
+   "identity_alive": true,
+   "suspended": true,
+   "cpu_delta": 0.0
+  }
+ ],
+ "all_surviving_processes_suspended": true,
+ "ram_retention": "Only while the same suspended native identities survive",
+ "semantic_recovery": "validation/S035/pause/RUNTIME_INVENTORY.json",
+ "no_heavy_work_authorized": true
+}

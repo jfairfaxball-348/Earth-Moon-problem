@@ -7,3 +7,7 @@ __pycache__/
 *.olean
 .DS_Store
 artifacts/tmp/
+# S035 originals remain local; verified sub-90MiB parts are committed instead.
+validation/S035/acceptance-and-benchmarks.tar.gz
+validation/S035/pause/runtime.tar.xz
+validation/S035/pause/*.part

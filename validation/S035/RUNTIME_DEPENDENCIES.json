@@ -1,0 +1,21 @@
+{
+ "psutil_version": "7.1.0",
+ "psutil_files": {
+  "C:\\Earth-Moon-problem\\.venv\\Lib\\site-packages\\psutil\\_psutil_windows.pyd": "4799a73d398b0a73c2720a8cf5881cdc6baade50fff912482dd3b4ec4bd76357"
+ },
+ "compiler_runtime_dlls": {
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libc++.dll": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libclang-cpp.dll": "de0e788d706e25df582ffba132c50ed57568cb669d09acd78cba84b0b5a04d48",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libclang_rt.asan_dynamic-x86_64.dll": "23f93e1d3f4b13a5a8447f78c2bcd08ab1c98fd891ea785b8fa395030d17c05d",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libffi-8.dll": "ea32ce9aad2fd63ca7064b23a3b3ac68e98ea73b8fe171d2cfc9e9a10ce7fc85",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\liblldb.dll": "e9d268f9156fac6b7bd4cf299a0f3881d4e5de07b99652cbb5632ad6048e71cb",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libLLVM-23.dll": "7913a4fecb6172756dbb35d08ac487fb0b0f0642e7adee166305984f3fa96511",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libomp.dll": "2bbae398a027e33936be6882daa010533934c4daa40013e3077a31cbb5876b79",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libpython3.14.dll": "37f48732aaa305ad257f8d09ab26f03c03573fb0aea02273048014c0d3e06fd1",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libpython3.dll": "6368eeb3c56200a7aa9033cc49a71b8bae3545dccb903f2b70056d464b052865",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libunwind.dll": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\compiler\\llvm-mingw-20261006-ucrt-x86_64\\bin\\libwinpthread-1.dll": "7658f9e5e89213af287d342c554b8abcb5b2700b4a44d02184b56004b104ceec"
+ },
+ "python_executable": "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+ "python_executable_sha256": "0b471133e110cfb53a061cad528ce8e517d7b9ac41a0a396c39ad795a487fc14"
+}

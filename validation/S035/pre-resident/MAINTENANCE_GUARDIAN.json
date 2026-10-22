@@ -1,0 +1,8 @@
+{
+ "status": "STOPPED",
+ "reason": "OWNER_STOP",
+ "deadline": null,
+ "stopped_utc": "2026-10-22T15:01:31.658172+00:00",
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false
+}

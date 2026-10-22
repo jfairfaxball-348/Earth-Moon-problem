@@ -33,3 +33,11 @@ jobs:
         run: python scripts/check_s033_records.py
       - name: Validate S034 registered region campaign evidence
         run: python scripts/check_s034_records.py
+      - name: Validate S035 Windows multiple-worker launch evidence
+        run: python scripts/check_s035_records.py
+      - name: Validate S035 resident execution upgrade evidence
+        run: python scripts/check_s035_resident_records.py
+      - name: Validate S035 owner pause and SAT-first handling
+        run: |
+          python scripts/check_s035_sat_first.py
+          python scripts/check_s035_pause_records.py

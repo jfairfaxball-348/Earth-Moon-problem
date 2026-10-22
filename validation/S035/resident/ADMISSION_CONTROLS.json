@@ -1,0 +1,8 @@
+{
+ "status": "PASS",
+ "batch_limit": 4,
+ "only_resident_contexts_claimed_when_full": true,
+ "claimed_reservations_counted": true,
+ "cold_fifth_context_not_admitted": true,
+ "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\resident-acceptance\\admission-1792682558915274300\\campaign"
+}

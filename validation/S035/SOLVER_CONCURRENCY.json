@@ -1,0 +1,17 @@
+{
+ "1": {
+  "solvers": 1,
+  "checkers": 1,
+  "all_slots": 1
+ },
+ "2": {
+  "solvers": 2,
+  "checkers": 2,
+  "all_slots": 2
+ },
+ "3": {
+  "solvers": 3,
+  "checkers": 3,
+  "all_slots": 3
+ }
+}

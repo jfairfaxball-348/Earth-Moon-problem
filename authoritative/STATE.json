@@ -83,12 +83,12 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S035 FUTURE/UNEXECUTED: Windows laptop multiple-worker continuation of S034; fresh Windows acceptance, portable scheduler, storage fixes, measured1/2/3-worker trials, then safe sustained multiple workers. No phone restart.",
+    "S035 IN_PROGRESS on Windows: complete acceptance,1/2/3-worker benchmarks then safe sustained multiple-worker computation. Owner supplied power/wifi/no-sleep; no fixed campaign cutoff.",
     "S11 m155/156 UNKNOWN;240 encoded regions unresolved;16 encoded closures are not individual graph decisions.",
     "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; private CDCL state not saved.",
     "All parked queues/publication/formalisation gates unchanged;9<=chi2<=12."
   ],
-  "next_session_is_future_unexecuted": true,
+  "next_session_is_future_unexecuted": false,
   "latest_session_branch": "main",
   "latest_session_entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
   "latest_session_integration": {
@@ -463,7 +463,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S035 FUTURE/UNEXECUTED: Windows laptop multiple-worker continuation of S034; fresh Windows acceptance, portable scheduler, storage fixes, measured1/2/3-worker trials, then safe sustained multiple workers. No phone restart.",
+  "next_session_priority": "S035 owner-paused: SAT-first audit, cooperative lifecycle repair and nine-region diagnosis before any owner-authorised resume. No S036.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1805,5 +1805,60 @@
     "lossless_archive_bytes": 17733296,
     "lossless_archive_verification": "PASS_ALL_ORIGINAL_FILE_HASHES",
     "portable_restore_test": "PASS_ALL_ORIGINAL_BYTES_VERIFIED_1415_METADATA_FILES_RESTORED"
+  },
+  "active_session": {
+    "id": "S035",
+    "status": "PAUSED",
+    "authority": "D047/D074 owner invocation2026-10-22; power/wifi/no-sleep confirmed",
+    "entry_main": "4eac1237723134f1d1924938f476a06287aab919",
+    "entry_tree": "8d2f866cd9536552532ddb7099e4d6642fd08bba",
+    "runtime_directory": "artifacts/tmp/S035/campaign",
+    "no_automatic_S036": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "workers": 0,
+    "runtime_status_authority": "artifacts/tmp/S035/campaign/OWNER_PAUSE.json",
+    "running_handoff": "sessions/S035/PAUSE.md",
+    "deadline": null,
+    "execution_revision": "S035_RESIDENT_V2",
+    "controller_entry": "scripts/s035_resident_campaign.py",
+    "private_cdcl_policy": "Retained in RAM per region between scheduled turns; semantic-only recovery after process loss",
+    "diagnostic": "Optional congruence simplification disabled after measured comparison",
+    "maintenance": false,
+    "processes_exited": false,
+    "all_processes_suspended": true,
+    "owner_resume_required": true
+  },
+  "s035_owner_pause": {
+    "status": "PAUSED",
+    "proof_closed_regions": 247,
+    "unresolved_ids": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127,
+      255
+    ],
+    "ram_regions": [
+      0,
+      7,
+      127,
+      255
+    ],
+    "cold_regions": [
+      1,
+      3,
+      15,
+      31,
+      63
+    ],
+    "SAT_audit": "NO_SCIENTIFIC_SAT_OR_CANDIDATE_FOUND",
+    "durable_CDCL_snapshot": false,
+    "heartbeat": "PAUSED",
+    "recovery": "validation/S035/pause/RUNTIME_INVENTORY.json"
   }
 }

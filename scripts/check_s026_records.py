@@ -55,7 +55,7 @@ for item in summary['jobs']:
 state=read('authoritative/STATE.json')
 # Later sessions supersede the S026 live-state assertions; the S027 prompt must stay archived.
 assert int(state['last_completed_session'][1:])>=26
-assert state['next_session_is_future_unexecuted'] is True
+assert state['next_session_is_future_unexecuted'] is (not bool(state.get('active_session')))
 assert state['original_corpus_status']['certified_nonbiplanar']==271
 assert state['original_corpus_status']['biplanarity_unknown']==0
 if state['last_completed_session']=='S026':

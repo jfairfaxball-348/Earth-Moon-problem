@@ -1,0 +1,39 @@
+check_scaffold.py
+S034 governance checks: PASS (not proof, not hosted CI)
+
+check_s026_records.py
+PASS S026 byte integrity, archived checker receipts, job-local smoke records, source pins, state and identical S027 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+
+check_s027_records.py
+PASS S027 package (617 files), source pins, smoke, 19-item replay record, domain certificate hashes, state and identical S028 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+
+check_d062_records.py
+PASS S028 package, source pins, smoke, 29-item replay record, state and identical S029 prompts
+Metadata/packaging only: no native proof replay or new mathematical computation
+PASS D062: frozen S028 records intact; authoritative S029 prompt identical to sessions/S028/S029_FUTURE_PROMPT_D062.md
+
+check_s030_history.py
+PASS S029: frozen landscape hash, executed D062 prompt, identical S030 prompts, manifest
+PASS S030 history adapter: frozen S029 checker intact; superseded prompt resolves to its byte-identical archive
+
+check_s030_records.py
+PASS S030 hashes, smoke receipt, independent control/replay records, prompt identity; metadata only
+
+check_s031_records.py
+PASS S031 archived hashes, smoke/controls/replay receipts, UNKNOWN boundaries and future prompt; metadata only
+
+check_d072_active_prompt.py
+PASS S032 preserved rules/archive hashes, UNKNOWN boundaries, rebuilt controls and paired future prompt; integrity only, not fresh proof replay
+PASS D072 mobile override and historical S032 preservation
+
+check_s033_records.py
+PASS S033 mobile evidence integrity; same-environment replay still required for future science
+
+check_s034_records.py
+PASS S034 final archive/receipts/256-region integrity and S035 Windows multiple-worker handover; not proof replay or search exhaustion
+
+check_s035_records.py
+PASS S035 fresh Windows acceptance, replay and real multiworker launch evidence; not a closeout, search exhaustion or headline advance
+

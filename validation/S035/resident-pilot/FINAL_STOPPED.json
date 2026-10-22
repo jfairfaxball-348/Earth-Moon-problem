@@ -1,0 +1,43 @@
+{
+ "status": "STOPPED",
+ "reason": "OWNER_STOP",
+ "deadline": null,
+ "stopped_utc": "2026-10-22T15:21:46.040322+00:00",
+ "verdict": "UNKNOWN",
+ "whole_stratum_certified": false,
+ "progress": {
+  "status": "STOPPED",
+  "controller": {
+   "status": "STOPPED",
+   "reason": "OWNER_STOP",
+   "deadline": null,
+   "updated_utc": "2026-10-22T15:21:45.971111+00:00",
+   "peak_aggregate_rss_kib": 5442900,
+   "available_kib": 6931504,
+   "verdict": "UNKNOWN",
+   "whole_stratum_certified": false
+  },
+  "guardian": {
+   "status": "STOPPED",
+   "reason": "OWNER_STOP",
+   "deadline": null,
+   "stopped_utc": "2026-10-22T15:21:46.040322+00:00",
+   "verdict": "UNKNOWN",
+   "whole_stratum_certified": false
+  },
+  "controller_process_alive": false,
+  "deadline": null,
+  "total_regions": 256,
+  "proof_closed_regions": 247,
+  "unresolved_regions": 9,
+  "total_visits": 390,
+  "active": [],
+  "accepted_new_clauses": 545050,
+  "proof_closed_weight": "919823340192144232604042047191275649691283701910373581162166405609211255193652848986384843871169430470",
+  "encoded_domain_weight": "962529395115471692412201601417785885917459089893513951759976919652746177248195403766006103248781426290",
+  "mathematical_verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "weight_meaning": "Labelled graph-presence sets satisfying graph unit pins and edge count only; other CNF constraints unchecked in this denominator.",
+  "warning": "Encoded labelled domain only; no percent-to-solution or ETA; private CDCL state not saved"
+ }
+}

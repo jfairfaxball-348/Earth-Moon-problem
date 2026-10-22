@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "base_clauses": 336030,
+  "variables": 17976,
+  "bijective_renaming_checked": true,
+  "independently_checked_native_clauses": 2579937,
+  "lemma_sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+  "verdict": "UNKNOWN",
+  "validator": "independent Python adjacency-set suppression; every clause checked",
+  "networkx_comparison_controls": 3583,
+  "seconds": 58.01599999999985
+}

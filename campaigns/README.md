@@ -83,3 +83,7 @@ S033: environment validation only (no new search campaign). PHONE_READY_VALIDATE
 **CAM-0039 / S034 RUNNING:** owner-authorised overnight exact256-region S11 campaign until22 October07:00 UK; one phone worker with checkpoints/proof gates; no session closeout or S035 invocation yet.
 
 **CAM-0039 / S034 COMPLETED_SAFETY_STOP_UNKNOWN:**102 visits,16 encoded proof closures,93047 checked additions;240 unresolved. Lossless full-runtime archive. S035 Windows multiple workers FUTURE/UNEXECUTED (D074). Earlier RUNNING entry above is historical.
+
+**CAM-0040 / S035 RUNNING:** Windows exact256-region continuation; measured1/2/3-worker trials, selected2 genuine workers. Owner STOP/safety guards, no fixed campaign cutoff.9..12 unchanged; no S036 execution.
+
+CAM-0040 / S035 OWNER_PAUSED:247 encoded proof closures; unresolved0,1,3,7,15,31,63,127,255. SAT-first/lifecycle diagnostic handover; no auto-resume.

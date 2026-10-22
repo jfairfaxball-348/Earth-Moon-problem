@@ -94,3 +94,9 @@ S033 (2026-10-21): PHONE_READY_VALIDATED environment only. Phase1 lower-bound ga
 S034 RUNNING (D073): phone verification/scheduler acceptance PASS; no stratum or lower-bound result. Phase1 gate NOT PASSED. Source/claim catalogues remain unchanged and synced.
 
 S034 COMPLETED_SAFETY_STOP_UNKNOWN:16 encoded region proofs,93047 independently checked added clause occurrences, no witness/whole-stratum proof. Phase1 NOT PASSED;9..12 unchanged. S035 Windows multiple workers queued by D074, not executed.
+
+S035 RUNNING: Windows acceptance/import/proof replays and real multiworker calibration PASS. Phase1 gate NOT PASSED; no headline advance. Sources/claims unchanged and synchronized.
+
+S035 resident upgrade remains Phase1 IN_PROGRESS: solver performance/learning retention improved after fresh controls; no new mathematical promotion. RAM CDCL retention is not durable proof evidence.
+
+S035 PAUSED:247 encoded DRAT closures, nine UNKNOWN; SAT-first/lifecycle acceptance required before resume;9..12 and all separate gates unchanged.

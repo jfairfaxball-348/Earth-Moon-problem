@@ -1,0 +1,10 @@
+{
+ "automation_id": "earth-moon-s035-monitor",
+ "kind": "heartbeat",
+ "status": "ACTIVE",
+ "interval_hours": 1,
+ "notify": "meaningful scientific change, completion, safety stop, failure or required user action only",
+ "no_automatic_S036": true,
+ "old_S031_S032_monitors": "REMAIN_PAUSED",
+ "local_guardian": "artifacts/tmp/S035/campaign/GUARDIAN.json"
+}

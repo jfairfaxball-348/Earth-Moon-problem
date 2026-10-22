@@ -1,0 +1,9 @@
+{
+ "status": "PASS_ALL_ORIGINAL_OBJECT_BYTES_AND_GZIP_RECONSTRUCTION",
+ "archive_sha256": "bd2f8dbecc1d0558d9cb0110f3d205d7b65c405db830c61b7203fde312f09ab5",
+ "archive_bytes": 593107384,
+ "files": 24891,
+ "unique_objects": 12969,
+ "external_S034_files": 95,
+ "no_original_deleted": true
+}

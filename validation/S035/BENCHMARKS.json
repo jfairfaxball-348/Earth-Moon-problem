@@ -1,0 +1,58 @@
+{
+ "status": "PASS",
+ "rows": [
+  {
+   "workers": 1,
+   "registered_wall_seconds": 120,
+   "observed_wall_seconds": 122.39099999999985,
+   "peak_private_bytes": 762929152,
+   "peak_rss_bytes": 648032256,
+   "minimum_available_kib": 8762260,
+   "peak_genuine_worker_slots": 1,
+   "cpu_seconds": 120.484375,
+   "peak_disk_bytes": 541511050,
+   "new_checked_cuts": 0,
+   "new_proof_closed_regions": 2,
+   "total_visits": 3,
+   "thermal": "UNAVAILABLE_NO_THERMAL_GUARANTEE",
+   "status": "COMPLETE_CALIBRATION_UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-1"
+  },
+  {
+   "workers": 2,
+   "registered_wall_seconds": 120,
+   "observed_wall_seconds": 120.9849999999999,
+   "peak_private_bytes": 1260920832,
+   "peak_rss_bytes": 1050722304,
+   "minimum_available_kib": 8247952,
+   "peak_genuine_worker_slots": 2,
+   "cpu_seconds": 225.484375,
+   "peak_disk_bytes": 874903033,
+   "new_checked_cuts": 0,
+   "new_proof_closed_regions": 4,
+   "total_visits": 6,
+   "thermal": "UNAVAILABLE_NO_THERMAL_GUARANTEE",
+   "status": "COMPLETE_CALIBRATION_UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-2"
+  },
+  {
+   "workers": 3,
+   "registered_wall_seconds": 120,
+   "observed_wall_seconds": 122.54700000000003,
+   "peak_private_bytes": 1710751744,
+   "peak_rss_bytes": 1585700864,
+   "minimum_available_kib": 7821996,
+   "peak_genuine_worker_slots": 3,
+   "cpu_seconds": 340.609375,
+   "peak_disk_bytes": 1414221138,
+   "new_checked_cuts": 0,
+   "new_proof_closed_regions": 4,
+   "total_visits": 7,
+   "thermal": "UNAVAILABLE_NO_THERMAL_GUARANTEE",
+   "status": "COMPLETE_CALIBRATION_UNKNOWN",
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-3"
+  }
+ ],
+ "private_cdcl_state_saved": false,
+ "mathematical_verdict": "UNKNOWN"
+}

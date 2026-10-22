@@ -1,0 +1,24 @@
+{
+ "status": "PASS",
+ "native_sha256": "2bb59244fc1453e2e17b1c78d5090db17a25df88c703a9380ca6a62d7939acdc",
+ "exact_small_graph_assignments": 512,
+ "concurrent_unique_claims": 8,
+ "two_small_native_workers": "PASS_SYNTHETIC_ONLY_NOT_REAL_SCIENCE_BENCHMARK",
+ "proof_closed_small_regions": 2,
+ "duplicate_guard_rejected": true,
+ "wrong_token_rejected": true,
+ "controller_kill_restart": "PASS",
+ "read_only_status": true,
+ "native_finite_timeout": "PASS_UNKNOWN",
+ "guardian_deadline": "PASS_UNKNOWN",
+ "damaged_proof_rejected": true,
+ "controls_directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\scheduler-controls-1792657934612829800",
+ "seconds": 45.312000000000126,
+ "source_sha256": {
+  "tools/s035_regions.py": "a898d7f712343dd891e60c8c58cd0aa8c5d5464413231d22c98f04c777b965d7",
+  "tools/s035_engine.py": "493fc4912777d9b0e0813233d07d4a81427e726eaa9475fe7008bbe8ff4c1063",
+  "scripts/s035_campaign.py": "384d6f1b43d1779faa29bc8f6a041a80a3869c5284accb2d38427a898f8a37d6",
+  "tools/s035_windows.py": "f3175907b5a5fe8a08312fc04a37b15c4e7ece90bf4d354d26ab641d8dd96274",
+  "tools/s035_storage.py": "c2a0749d40e70b30898cf712fbac74f45b5ecbeb54e82e001d1e31989e4cc8fb"
+ }
+}

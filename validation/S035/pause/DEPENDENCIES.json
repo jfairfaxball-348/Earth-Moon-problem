@@ -1,0 +1,26 @@
+{
+ "status": "PASS_ALL_DEPENDENCY_BYTES_RESTORED_AND_HASHED",
+ "files": {
+  "artifacts/tmp/S032/base.cnf": {
+   "bytes": 7215866,
+   "sha256": "3066258744e74f5bef453caeb9f0c8cbfd43f702721d2c124950e62366d1681d"
+  },
+  "artifacts/tmp/S032/campaign/learned.lem": {
+   "bytes": 189309949,
+   "sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177"
+  },
+  "artifacts/tmp/S004/drat-trim-mingw.exe": {
+   "bytes": 108032,
+   "sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e"
+  },
+  "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libc++.dll": {
+   "bytes": 2000384,
+   "sha256": "81fb50f0866840d7e5a1d35d48cf31adc02f623a61d8b77daf62881e1e59401b"
+  },
+  "artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin/libunwind.dll": {
+   "bytes": 183808,
+   "sha256": "b0636a4281610124704adb2be2edf5642e830d86c68b7f27dbc9c8154705a780"
+  }
+ },
+ "archive_sha256": "d7848c92e40d6fbb28ae1122e9ef097bf9e10b572a9ee1acb3b31b64e0b7f855"
+}

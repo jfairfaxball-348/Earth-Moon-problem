@@ -1,0 +1,62 @@
+{
+ "status": "PASS_GENUINE_RESIDENT_BATCH",
+ "contexts": [
+  {
+   "cell": 7,
+   "state": "RUNNING",
+   "turns": 3,
+   "pid": 12384,
+   "sample": {
+    "private": 571781120,
+    "rss": 530292736,
+    "cpu": 81.921875,
+    "processes": 2
+   }
+  },
+  {
+   "cell": 127,
+   "state": "RUNNING",
+   "turns": 3,
+   "pid": 3500,
+   "sample": {
+    "private": 569466880,
+    "rss": 547246080,
+    "cpu": 81.140625,
+    "processes": 2
+   }
+  },
+  {
+   "cell": 0,
+   "state": "PARKED",
+   "turns": 2,
+   "pid": 14812,
+   "sample": {
+    "private": 473829376,
+    "rss": 444551168,
+    "cpu": 30.09375,
+    "processes": 2
+   }
+  },
+  {
+   "cell": 255,
+   "state": "PARKED",
+   "turns": 2,
+   "pid": 17984,
+   "sample": {
+    "private": 644710400,
+    "rss": 573997056,
+    "cpu": 29.984375,
+    "processes": 2
+   }
+  }
+ ],
+ "source_and_native_hashes": "PASS",
+ "guard": {
+  "private": 2413965312,
+  "rss": 2248687616,
+  "cpu": 247.078125,
+  "processes": 12
+ },
+ "available_kib": 8192232,
+ "no_new_evictions_since_V2": true
+}

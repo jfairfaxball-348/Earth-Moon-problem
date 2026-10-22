@@ -1,0 +1,1310 @@
+{
+ "status": "PASS_ALL_SCIENTIFIC_COMPLETE_PREFIXES",
+ "journals": [
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\329f1940f6e948988b593722bda18aa5\\new-cuts.lem",
+   "complete_bytes": 7617,
+   "complete_lines": 113,
+   "prefix_sha256": "63f52e621583fbfe1fc0532f87eb1dae861865c55e91686059dd6900fafc9790",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\8b87b1b54c08472aac2d7f67ca5ec30a\\new-cuts.lem",
+   "complete_bytes": 721673,
+   "complete_lines": 9106,
+   "prefix_sha256": "41bc5a288912bce329ad4819151728c9391c10f740fe1ec670a63fac25f5f03b",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\c1a7ce810a1a4033bbc873f1e936534c\\new-cuts.lem",
+   "complete_bytes": 2233,
+   "complete_lines": 40,
+   "prefix_sha256": "1ec820df3556ffc39cac807f68fefdb2fab4d188a10f2cbab8c9b5202b895a6f",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+   "complete_bytes": 37645991,
+   "complete_lines": 500513,
+   "prefix_sha256": "faa61a3e2d44f72457c69a9ba60f43aa066bce5155bd50b408e729abc4bed622",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\ed99a4d0d6fb498891285fc8491ba3ce\\new-cuts.lem",
+   "complete_bytes": 949391,
+   "complete_lines": 11766,
+   "prefix_sha256": "78fbabf95609d09831e675aae6f1c4db190f422ed0a7b36110b8ab1a8fbe99db",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4\\new-cuts.lem",
+   "complete_bytes": 8735300,
+   "complete_lines": 112223,
+   "prefix_sha256": "ca34f41127dc5db58f93ab7a04a216c81aa36997eb096850f9816bad024ead3a",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\6f6c572b23d345d684c6175f1b145443\\new-cuts.lem",
+   "complete_bytes": 919153,
+   "complete_lines": 11324,
+   "prefix_sha256": "3b5ea010e0c114bf557c355c279871d4f58295c44a9fb16f2da9e2f01d5498a8",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\9e4eeac64eed4572baae2e6f408a0af5\\new-cuts.lem",
+   "complete_bytes": 960778,
+   "complete_lines": 11800,
+   "prefix_sha256": "888500dee79ee08e6a0c825310fa7c0e899700d55b17e75f0e43e975508e90f2",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\d318076ca17845378321872198895cd2\\new-cuts.lem",
+   "complete_bytes": 88519,
+   "complete_lines": 1381,
+   "prefix_sha256": "3432b6a4e8c9de4ac46cdacc2e09ba275ad831f866c6c0e4cb77ef998088755a",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\1fe62f972b564c958c86cf8e726460e9\\new-cuts.lem",
+   "complete_bytes": 53,
+   "complete_lines": 1,
+   "prefix_sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\566de2f8608e4520802f648a31dfa1fc\\new-cuts.lem",
+   "complete_bytes": 1505,
+   "complete_lines": 23,
+   "prefix_sha256": "ece13e452105fa9a15f59ac95e3c744e58fb8c21cd47318a0c2e9f1d435ef38d",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\a8f6857bcf57453b9a4f7c2c79a7e33f\\new-cuts.lem",
+   "complete_bytes": 53,
+   "complete_lines": 1,
+   "prefix_sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\ef2ef1ee58ca4aec9155644cac999f94\\new-cuts.lem",
+   "complete_bytes": 53,
+   "complete_lines": 1,
+   "prefix_sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\2055d516c45c4970984cedf2f08f8012\\new-cuts.lem",
+   "complete_bytes": 873412,
+   "complete_lines": 10854,
+   "prefix_sha256": "f005abe6eca1264b517e034d3c6e6cd6e672bc4e86ac09a4dfc64ee02ec6d8fc",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\6bdc0505f69f4c56af8f16fc608d8b61\\new-cuts.lem",
+   "complete_bytes": 926278,
+   "complete_lines": 12007,
+   "prefix_sha256": "31536ef4fab3776719251046fa78a414182dbe0edfacd06d09f74ac42a6d6dd1",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\8e0b2e5120bc44c29c1c052f287adf9e\\new-cuts.lem",
+   "complete_bytes": 805856,
+   "complete_lines": 10048,
+   "prefix_sha256": "85275153e470263a75ef0121c659aa7569b26deca6bfb15ffa4967913a6fa6c4",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+   "complete_bytes": 28409338,
+   "complete_lines": 381110,
+   "prefix_sha256": "88513676b862169c2aef6d1bacb30b07e634c65cd6788c55821055dbc95e4278",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\e42c03017a8b410c8ceb72b04e08cacc\\new-cuts.lem",
+   "complete_bytes": 860753,
+   "complete_lines": 11144,
+   "prefix_sha256": "168a55cd35f0e1551376aa03ba5625c50d62e9de8c027a31ab152f899c6c9595",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5\\new-cuts.lem",
+   "complete_bytes": 3261506,
+   "complete_lines": 42063,
+   "prefix_sha256": "2a8805f5cd17798725e143c5c749e1d7664164df56bdd17a504e86fc3e6ffab1",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\38f130e25c5e45e4b5a5e689dd5a432d\\new-cuts.lem",
+   "complete_bytes": 18738,
+   "complete_lines": 246,
+   "prefix_sha256": "4133985ea55ea2704e766d2bed8a9d018e09f1dbe35b3d146160662f9596dcb9",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\5e7be72d2517470c9a5b02c11e45cd2b\\new-cuts.lem",
+   "complete_bytes": 377080,
+   "complete_lines": 4608,
+   "prefix_sha256": "fffddf02f007db07c9f20a229354dbb8872e0fe90fdffcf38440f389f3b5db1b",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06\\new-cuts.lem",
+   "complete_bytes": 4932183,
+   "complete_lines": 64255,
+   "prefix_sha256": "1e3e0b530a7b291b367f293326571c40df11608fdb96ce583627028d00594e10",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\706d216dbe8e475a86a3ac352d8d5826\\new-cuts.lem",
+   "complete_bytes": 951059,
+   "complete_lines": 12364,
+   "prefix_sha256": "32bd2aff7533c9b5ed7a1a988638badcd68737c7cb8fb15879b0d8acf397cd13",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\d3bd400034fb45e28fe580acc4197192\\new-cuts.lem",
+   "complete_bytes": 538597,
+   "complete_lines": 6490,
+   "prefix_sha256": "32f8d44c311307052628133cf337e94b103c80b489f878e9f3057d5642aa977b",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\616d07e3887840f6bf870d4472c3764b\\new-cuts.lem",
+   "complete_bytes": 10071,
+   "complete_lines": 127,
+   "prefix_sha256": "5ff7d63a9452cd763b6ee5f83738c849c93db216f4a7cb7b616600e13abd17fe",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\7d1f4de67aa543cdb00f77a6c29fb464\\new-cuts.lem",
+   "complete_bytes": 2611,
+   "complete_lines": 43,
+   "prefix_sha256": "dea5977a33ee7148875d9858ef65d22d62d2ec4eab5edea0c34a24a035a10a56",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\deda9559909b413d8c0b0dfa29012c27\\new-cuts.lem",
+   "complete_bytes": 96012,
+   "complete_lines": 1461,
+   "prefix_sha256": "fa5e073e2233e8e4cd1d4b7979d1181c9f6f5572e30ad93713e40becad4a2810",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\ffd3e49496734e8ba2175f90204899ea\\new-cuts.lem",
+   "complete_bytes": 2130,
+   "complete_lines": 35,
+   "prefix_sha256": "7b1eeccf82842db5a04398f4411e4e85a9521d7dd1779f993bd29238b0e38d25",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0106\\dd64d28a72554e678978bb7962302e32\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0107\\073cd98b279f452984499019232e321f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0108\\854da1fd623848afad51528110df512a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0109\\584fc0f55f7e488d9f16751440c05def\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0110\\ff0a0e0d736b41e8a350f8cbe646f16f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0111\\776e3b9c38d348e08dfb9433e6406ed2\\new-cuts.lem",
+   "complete_bytes": 14146,
+   "complete_lines": 187,
+   "prefix_sha256": "ff2f5ad607219f966f306891fd5b980124e8e978aacc429907a975dbcafd478e",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0112\\60731dc150bf43c1a396998278aae499\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0113\\59301559449648b6a073faf6cff1928e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0114\\41a7f2337dc84b8487bee6dca0167f45\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0115\\e7142224ee6046a4be0ae23387823a75\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0116\\b57cf940f2b943dd8baacadcb4d4717d\\new-cuts.lem",
+   "complete_bytes": 121,
+   "complete_lines": 2,
+   "prefix_sha256": "0f8ef05225353cd5b2806581b4c9ff2810b49f4c19140aea6c18ee49dad7d0bb",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0117\\91dbd0a3d0dc4cfea151a4a957ab7bd0\\new-cuts.lem",
+   "complete_bytes": 68,
+   "complete_lines": 1,
+   "prefix_sha256": "7169615f3cc4e57ee20c7401861cd29393f7861eaa87d0cdcfb529a943f94fe6",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0118\\6111b8349ba247eda0442587ee623813\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0119\\99001c3c5a044f28aff48e8da7c7397e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0120\\f6cb5b8be53d4228b601f5aed4c8fba5\\new-cuts.lem",
+   "complete_bytes": 106,
+   "complete_lines": 2,
+   "prefix_sha256": "d8a6a1cc0c1fb97df3c42267d2ced9e0cea69fa7ae96e554560b108f4323db80",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0121\\36bcf85d315d4b3791b326f8811d2e40\\new-cuts.lem",
+   "complete_bytes": 53,
+   "complete_lines": 1,
+   "prefix_sha256": "ee78d212aad4f4be6308e24dbae0d014156b804141b0776245cbedbfdad8b112",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0122\\08220f5c765f4994b4518c2c1073c8d7\\new-cuts.lem",
+   "complete_bytes": 23879,
+   "complete_lines": 323,
+   "prefix_sha256": "74e6c0993b24bbd80fd424fb8c174873acce5ca6d2f8c817bc9805b021ed1f42",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0123\\07ff6e69fecb49d49cbf389517615ed7\\new-cuts.lem",
+   "complete_bytes": 222,
+   "complete_lines": 4,
+   "prefix_sha256": "c22b60ba88af41be36032575466228c66b3aae012c147aa74db64d78a58496c6",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0124\\2358d27f94c64344be399af00f0ffdc0\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0125\\1a6bb06035514d4fbd01fcece7535860\\new-cuts.lem",
+   "complete_bytes": 222,
+   "complete_lines": 4,
+   "prefix_sha256": "c22b60ba88af41be36032575466228c66b3aae012c147aa74db64d78a58496c6",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0126\\45f1345e54744f3d95590cf8daf56bde\\new-cuts.lem",
+   "complete_bytes": 222,
+   "complete_lines": 4,
+   "prefix_sha256": "c22b60ba88af41be36032575466228c66b3aae012c147aa74db64d78a58496c6",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\078b5360ba664ef09e939276da3677a6\\new-cuts.lem",
+   "complete_bytes": 4998,
+   "complete_lines": 66,
+   "prefix_sha256": "2ace2ca11fe786349b97589e5f426784348cb2629c487fe6bec75e487e1b0ac9",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\3b2ae8e5d86548508f871cd60ea2dac6\\new-cuts.lem",
+   "complete_bytes": 3884,
+   "complete_lines": 51,
+   "prefix_sha256": "f52e4ddb0c2ee4f326a8305d1f079c90d150395d47ee0bfa8e51280e54619dca",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\928085d643f04021913ce831cac86042\\new-cuts.lem",
+   "complete_bytes": 2378,
+   "complete_lines": 37,
+   "prefix_sha256": "3dcb8e23d5514cd4d0ec86d735d4bf7477008e6b4656b57eac5189dbdfabfba3",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\b83a67a676e34d3eb84050d941e46db2\\new-cuts.lem",
+   "complete_bytes": 719042,
+   "complete_lines": 8379,
+   "prefix_sha256": "04bb848fab2c422f5439a1ad3ba6b33ff29801e61fe0656edf49e46af769b159",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem",
+   "complete_bytes": 1155,
+   "complete_lines": 19,
+   "prefix_sha256": "baa11c47709519a4b0c5133f9c8a42ff8d4b2fda3eddb3e7c0f1d8b4ec7a0ad9",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0128\\8f3cd311e7824c24b4d0d6281023ff7c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0129\\fff8702b580a4f7dba2a29632beba9fc\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0130\\bca1fed025bf4c108821cdd6b40b2961\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0131\\d7ae5830b2dc407392473a7149db9900\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0132\\f0d19a37f45c4616b566236784a69860\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0133\\983b6b4ec4724d378a749b9632f7e4c6\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0134\\2441abab3a5b4e209ff43373fdafaac5\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0135\\ee570f9f5ac44c62b54b23eb8707c6a8\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0136\\c28d7c1c22804c9083ec34d77319f785\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0137\\303fde446e14446e8e4ab75f15bc2a2a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0138\\cd808449a45a432cb62b044dc35ebfc3\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0139\\036f7c43c6854b53af21dc8646341117\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0140\\421921283139440882f93c2557b50cb4\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0141\\b324aec0c9ba4fe391ced540b695c5eb\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0142\\e933d67dc332419d8fe5177fbf8dff1d\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0143\\a1cd4e212d334329b0beb8bf650c09bd\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0144\\51bb9137f0b34a6da87c7b72a320b130\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0145\\38f064d5c7234a9d930e1bc24883ddca\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0146\\0aee1916ba904313ba77e4fd7ba97407\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0147\\ead97add389841369c829fbd1df94a4c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0148\\444f41e7ccbf4bcda6795e82b64b0b64\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0149\\f130ac17e5044e04b4cfe2ee88dbd711\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0150\\91a3e474671b4080ba4af64cee68538e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0151\\6335953d39f14825ae708f5995b6c907\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0152\\f861e96404ed4fc8bf6547fffd3289dc\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0153\\09f58f384e7a40d1abb003fa28054e77\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0154\\b51cd3a271bc47a19039cf62e1942c4e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0155\\dbf01f175bd446f0a532e5a36902bbec\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0156\\9dd2d899644949dc95f74ccc587b0e5e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0157\\9aa0ddaf658a4c86b8004b50c751c7e2\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0158\\366ffcffd5664689ab5913ba73126129\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0159\\07dc31950be1445e9bb6f0ce5afb1b9a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0160\\45920347b0d348778272780a2d7ec048\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0161\\7dfe67f2ca234fbbad6c0404206129a0\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0162\\7155f439f7994457b14195f78e5596e8\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0163\\e53f5930435147e489d9c18b15832b39\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0164\\4e21388147854e75b3123c9312cbd0fc\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0165\\a153e2d9008f46d0af7cb56ce0d3a5c7\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0166\\7d6ebb7a76704dc9afb85a8aa6521fff\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0167\\613b6d8ba9674210ade80a8ad62cfe99\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0168\\48607071e216485680d19f7e6f9aabca\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0169\\5cf9590103cd489ba63cd61686f4b542\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0170\\bc320b0be1214d09ad6adffaa61dcf9f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0171\\2a258d85f0a04b588a1d28fd6458f656\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0172\\05d05ad3f9754ce6837d3ab2a5388407\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0173\\ca0ee445db884285853ef727abb46f5b\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0174\\3cc844a50b11459ab4b10952f589ac6a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0175\\fb6cfa3c8e5d404ba1b26b0c65bec480\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0176\\171a7949404740a3a10da5f51a30ed95\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0177\\dbafdb8b49554016bd50e86b7505fa09\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0178\\28baf189a8c5403fa6857bfb08730f88\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0179\\939632f68cde48f8829e037bf1168c42\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0180\\c6b611a98ae04837a1b052297b7a8a3a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0181\\bdb9bbd8599e48b285013db89ca3d175\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0182\\5b9d840bd31a4da19262170779c036fc\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0183\\c89aee9299a44526a8fd2801c14853a2\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0184\\9df5ea58494a4d1eb31555b4edbfb781\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0185\\6dd00e63ecfa4d9a9d246da2bba5460c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0186\\a01e20777bd140ed9e2fa4ef4df85eb4\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0187\\363b982905e2412a9c6760bea5cee85c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0188\\403f6c6293d243e0bb121719def2a551\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0189\\43d1059dfe7143a4ac0edd5de966cbc8\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0190\\382833d6e9d14e04a0853fd5d32ec1c3\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0191\\f5bd4028e5de449fb4cb6e7ec4d5aea7\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0192\\4bb27f95aea34a22900f3ce514dbec11\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0193\\22035cfc89224f69b695e3511896a087\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0194\\c15f8bbeac77451eb9f207556631be0e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0195\\b35885ca255c44f19a74a016841375e3\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0196\\719e179f154040ddbf09dadfb40e254f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0197\\c880e097ebb745ee983aab6917006ed9\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0198\\212dae10c3bd4e8dae844289704dc2f3\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0199\\27115be6d05248e28282efe1d20ef747\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0200\\8ac3e942707a44ff825eb666326ce195\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0201\\41081661e86745f7811bdec5c729fd23\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0202\\e4c1025f15f04cdd83fc8b4abc8deafb\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0203\\1ee2c5b8069948cab307d96b1b68a2c8\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0204\\00f0e7e2d5ee424ca88873160528162f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0205\\ec514d60d8734463b2b173fa5119ed1c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0206\\c4d4409fd63c4c989b5372bafbc0257e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0207\\f16d294c20794afbb1603e533bd1c2fb\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0208\\d5a9eda722d6492985607f103a6923fc\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0209\\38e39a900c2d4c879c04282bf04efcd0\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0210\\dce1aa25ea6043c98f41f07ed55d0cdb\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0211\\a851374a4c1f487884433205646e5c8d\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0212\\f20f12876026491dbca4c4325d119c1e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0213\\001e7f26aee645b5979b7fdfec6c6ec4\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0214\\26a62eca300f4b03b2a121a9e82d3b0c\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0215\\def8aea4401a49c4926fe28e9ffcf8c6\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0216\\7b44aa2834ac4a07840c7f7760680e90\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0217\\4bb3a9644ed5413ca8eb1450fe77a055\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0218\\0b263bb392a84e559bccc0599d250250\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0219\\2a0eba0c5880479d9568e89567e83557\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0220\\38b40f0abd92489686502c5d5dde2088\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0221\\e250c44de8e544be91ef5b7d60f4f168\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0222\\799eb89c1def487c97912cc76e04eb57\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0223\\9cfcc18be4d84f5393a95dd5406ec5a2\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0224\\d85fc23f3720426bbc30622269b41eef\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0225\\92854f442e5745989335bca16c8e80f4\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0226\\983abacaf29044b98a1341d250ca90e6\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0227\\07ae8523478f4702bdbee17befd4f7ec\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0228\\9161958301a6449993ebbb06e764361e\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0229\\765030e9f26745cc9055a63f60b7869f\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0230\\1c6d9a2ba635493fbc8aeb5d0d59ad99\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0231\\24abc427baa74e0c8bf4a499bfdc8c30\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0232\\a0780425f14b4ddb89f30fb8fb6e89ef\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0233\\39001ca3e87e404a866546d0a49a3fe2\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0234\\2c6ff81a82f944598725ed0a547c3e74\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0235\\43c7f7232a3e4a3c8bb242e3a1c76be8\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0236\\dff6acbfecb048adb2ba1a39788525b5\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0237\\6e72e305774d43a5b3fd615417b86504\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0238\\8929aee09d8544c695052a986b2506ff\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0239\\ad23e9cc45514ff28ff2d7d308ac9e26\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0240\\5c83ca74c3d34730b5d02bfd7054ecab\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0241\\92406981f875485d900e59e1d6d15a3d\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0242\\91144741c7ba49009d8fc5fda1f5a2de\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0243\\0a22750715af4997b3043c9acfaa721b\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0244\\e1bf1b303d2d4f48b48316fcb1e7059b\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0245\\270853bcba6947cb87d6712358915168\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0246\\ef192c599e224d4fa9ac5f4e37ac4337\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0247\\3953e87d34ba4612922b520a07744ffe\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0248\\6c72d1de81b84207bab195782b5d3ff6\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0249\\4c4b1c0ad1c047fdab4cc2ee3e449e62\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0250\\7fc5956c6a834093b2a3788e7d96ea7a\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0251\\b5ca6bb8a05644c4b43f7980d2366cad\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0252\\cb5b9fa04d1f4ac482abcd1c29d5c4cf\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0253\\7e852a83a14f4615b39e92421d1db97d\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0254\\775e2e2cdd7e418ab8a728fd85c3a4a9\\new-cuts.lem",
+   "complete_bytes": 0,
+   "complete_lines": 0,
+   "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095\\new-cuts.lem",
+   "complete_bytes": 4983737,
+   "complete_lines": 61587,
+   "prefix_sha256": "b01e3ef062df1337730115f9c910832d59e2b227aae9314145df2839ddbde0a6",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\7065dedcaa344195adbec177e380c428\\new-cuts.lem",
+   "complete_bytes": 2151,
+   "complete_lines": 32,
+   "prefix_sha256": "ebdf410edff8db087df31ecf8e3c121c1e7fd03bf7772c187f746bddf6062cea",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem",
+   "complete_bytes": 5899058,
+   "complete_lines": 74604,
+   "prefix_sha256": "ecf299de2bbd0b77dd71ea0c0de41baeabbd272141cf97db6601e07f4e7c67b0",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\d64538538324477e86671cf7bf79b804\\new-cuts.lem",
+   "complete_bytes": 1287607,
+   "complete_lines": 14243,
+   "prefix_sha256": "fb244cf2bdeb698bac90b46d18933b2d2e56971c316c031e9e222483c3fdfc73",
+   "omitted_incomplete_tail_bytes": 0
+  },
+  {
+   "path": "artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\e0a4d24d1eee4462926f2583c69450af\\new-cuts.lem",
+   "complete_bytes": 835817,
+   "complete_lines": 10535,
+   "prefix_sha256": "b80f216c2ba589359d7487b6aa5fbf45044ec38729750cfb8fa54a787f1d3f80",
+   "omitted_incomplete_tail_bytes": 0
+  }
+ ],
+ "unique_prefixes": 44,
+ "independently_checked_clause_occurrences": 1385218,
+ "incomplete_tails_retained_not_promoted": true
+}

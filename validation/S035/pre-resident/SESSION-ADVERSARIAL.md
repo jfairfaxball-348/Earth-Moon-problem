@@ -1,0 +1,9 @@
+# S035 ongoing adversarial record
+
+Fresh scientific acceptance is required on the actual Windows build. Linux ARM64 receipts and small concurrent fixtures cannot justify genuine multiple-worker search. All16 inherited closures must replay on Windows before being recognized; they are encoded regions, not graph exclusions. The complete256-region partition remains existential in layer/auxiliary variables and is not yet a whole-stratum theorem.
+
+Windows DLL discovery failed in the first scheduler fixture despite native controls passing with their explicit compiler PATH. The scheduler now explicitly includes the pinned compiler runtime directory. Initial tests exposed a brief Windows atomic-replace/read sharing conflict and an early-controller heartbeat race; status reads retry sharing conflicts and crash tests wait for the actual controller PID. The strengthened crash test kills only the controller, leaving a genuine orphan for identity-checked recovery. Earlier failed fixture outputs remain on disk as provenance; no science ran under them.
+
+No new theorem, graph verdict or novelty claim is made. Sources/claims catalogues remain unchanged and synchronized. All2,672,984 inherited geometric occurrences must remain sound; identical accepted block hashes may be shared only with unchanged literal mapping. All partial proofs and capped visits remain UNKNOWN. A native UNSAT is pending until standalone independently checked DRAT. Completed proof archives must restore byte-for-byte before raw duplicates are removed.
+
+Private CDCL state is not persisted and is lost between visits; semantic cuts/checkpoints survive. Core thermal sensors are unavailable through the Windows API used here; no thermal guarantee is claimed. Physical safety cannot be inferred from a synthetic test or free disk. Native and proof-worker resource use must be measured on the genuine unresolved formulas. All setup failures, benchmark outputs and any safety stop must be preserved.
