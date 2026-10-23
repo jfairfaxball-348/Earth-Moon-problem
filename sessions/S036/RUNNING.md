@@ -67,3 +67,33 @@ started for 0, 7, 127, 255 from exact recipes, admitted one at a time through a
 measured memory gate (aggregate + 1.5 GiB <= 5 GiB, available - 1.5 GiB >=
 2.75 GiB), then kept resident in two-slot 600 s fair turns. Real controls:
 validation/S036/FRESH_CONTROLS.json.
+
+## Fresh residents RUNNING — 23 October 2026 12:27 UTC
+
+Fresh-campaign acceptance commit 79304bdf3ac61c9a05fe126dc8ab71490cb9bd86 (hosted run
+39953216809, 23/23 steps success). The adoption-stage control state was archived to
+artifacts/tmp/S036/control/history/*-adoption-identity-loss without resuming anything.
+Supervisor and fresh controller were launched through WMI; their ancestry is
+WmiPrvSE -> cmd.exe -> venv launcher -> python (only the venv launcher's own job),
+and every solver is outside any job object: closing Claude Code, ChatGPT/Codex or a
+terminal cannot end the search. Recorded identities (recheck; not authority):
+controller 3556 1792758441.015757; supervisor 11768 1792758430.0021162; residents 0: PID 10804 / 1792758446.0958302; 7: PID 17812 / 1792758571.635335; 127: PID 15944 / 1792759050.8506148; 255: PID 11332 / 1792759176.461158.
+
+Residents were admitted one at a time (120 s stagger, measured memory gate). First
+turns: region 0 +2.9M conflicts and 314K geometric cuts, region 7 +1.9M conflicts,
+both then parked with RAM retained while 127 and 255 execute; private memory per
+resident 0.56-1.14 GB, aggregate about 3.8 GiB. Liveness only.
+
+The cold runner was first admitted before residents 127/255 (memory was then ample),
+inverting the registered priority. Its arm was stopped cooperatively, but the runner
+counted that operator stop as a completed arm and began the next arm. The runner helper
+(a Python scheduler holding no solver learning) was then terminated, and its current
+cold solver was ended through its cooperative stop file (exit 0, stop marker logged);
+no solver was force-terminated. Fixes: cold admission now waits while any
+resident is queued or another cold solver is alive, and an arm counts only when it
+ran its full budget to the natural timeout. The two early region-1 baseline attempts
+are marked not counted. Registered diagnostics restarted once the resident queue emptied.
+
+Loaded residents' input.inst copies (0.33-0.40 GB each) were released after load;
+INPUT.json keeps each exact recipe and input SHA256 (hash-pinned sources retained) for
+SAT validation by rematerialisation.

@@ -101,6 +101,15 @@ def gates(admission=False, cold_private=0):
         return 'IDENTITY_SAMPLE_UNAVAILABLE:' + repr(exc)
     available = psutil.virtual_memory().available
     if admission:
+        # Retained residents have priority: no cold admission while any is queued.
+        if adoption.get('queued_regions'):
+            return 'RESIDENTS_QUEUED ' + ','.join(map(str, adoption['queued_regions']))
+        try:
+            slot = read_json(CONTROL / 'COLD_SLOT.json') if (CONTROL / 'COLD_SLOT.json').exists() else {}
+            if slot.get('state') == 'RUNNING' and live_identity(slot['worker']['pid'], slot['worker']['start_ticks']):
+                return 'COLD_SLOT_OCCUPIED'
+        except Exception as exc:
+            return 'COLD_SLOT_METADATA_UNAVAILABLE:' + repr(exc)
         if available < plan['available_ram_bytes_min']:
             return f'ADMISSION_AVAILABLE_RAM {available}'
         if private + plan['admission_reserve_bytes'] > plan['aggregate_private_after_admission_max']:
@@ -312,8 +321,7 @@ def diagnose(regions, arm_names, budget, max_wait, max_yields=6):
     """Each arm counts only when it runs its full budget; a yielded attempt is retried later."""
     arms = [a for a in read_json(ARMS)['arms'] if not arm_names or a['name'] in arm_names]
     summary = read_json(summary_path())['rows'] if summary_path().exists() else []
-    done = {(r['region'], r['arm']) for r in summary if r.get('purpose') == 'diag' and r.get('returncode') == 0
-            and not r.get('yield_reason')}
+    done = {(r['region'], r['arm']) for r in summary if r.get('purpose') == 'diag' and r.get('counted')}
     for region in regions:
         todo = [a for a in arms if (region, a['name']) not in done]
         if not todo:
@@ -332,7 +340,9 @@ def diagnose(regions, arm_names, budget, max_wait, max_yields=6):
                     journal(COLD / 'JOURNAL.jsonl', 'cold_not_admitted', region=region, arm=arm['name'], reason=reason)
                     return summary
                 result = run_arm(region, arm, source, meta, budget, 'diag')
-                result['counted'] = result['returncode'] == 0 and not result['yield_reason']
+                # Counted only when the arm ran its full budget and ended by the natural timeout.
+                result['counted'] = (result['returncode'] == 0 and not result['yield_reason']
+                                     and not result['cooperative_stop'] and result['wall_seconds'] >= budget - 30)
                 summary.append(result)
                 atomic_json(summary_path(), dict(rows=summary, verdict='UNKNOWN', updated_epoch=time.time()))
                 if result['returncode'] != 0:
