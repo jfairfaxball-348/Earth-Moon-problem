@@ -3,11 +3,31 @@
  "session": "S036",
  "slot": "One optional bounded cold slot beside the two retained fair-turn slots; never more than one cold native process.",
  "retained_contexts": "Four retained RAM contexts 0,7,127,255 are never evicted, restarted, duplicated or slowed by preemption; the cold slot always yields first.",
- "admission_gate": {"available_ram_bytes_min": 4026531840, "aggregate_private_after_admission_max": 5368709120, "admission_reserve_bytes": 1342177280, "free_disk_min_bytes": 11811160064, "session_storage_max_bytes": 68719476736, "supervisor_heartbeat_max_age_seconds": 10, "controller_running_required": true, "s036_stop_or_sat_alert_absent": true},
+ "admission_gate": {
+  "available_ram_bytes_min": 4778106880,
+  "aggregate_private_after_admission_max": 5368709120,
+  "admission_reserve_bytes": 1610612736,
+  "free_disk_min_bytes": 11811160064,
+  "session_storage_max_bytes": 68719476736,
+  "supervisor_heartbeat_max_age_seconds": 10,
+  "controller_running_required": true,
+  "s036_stop_or_sat_alert_absent": true
+ },
  "yield_conditions": "Cooperative stop (natural exit 0) when available RAM < 2.75 GiB, aggregate private (residents + cold) > 5 GiB, cold private > 1.5 GiB, S036 STOP/SAT_ALERT, controller not RUNNING/THROTTLED or supervisor heartbeat stale. A supervisor alert also suspends the registered cold identity; nothing is force-terminated.",
  "measured_safety": "Before admission and during every arm the runner journals available RAM, aggregate private, cold private and the retained contexts' per-turn conflict rates; resident interference is assessed from METRICS.jsonl turns with and without the cold slot.",
  "cpu": "16 logical / 8 physical CPUs; at most three concurrent native solvers. Eight logical CPUs do not imply eight safe resident workers.",
  "fairness_after_diagnostics": "Round-robin over cold regions 1,3,15,31,63 in bounded spans (registered span 14400 s wall), using that region's adopted arm and an input that adds only independently audited cold geometric cuts. Each span ends by natural timeout or cooperative stop; its new geometric cuts are audited before reuse. Private CDCL is lost at span end and is never claimed as retained.",
  "storage": "Each materialised cold input (~0.26 GB) is deleted after its region's runs; INPUT.json keeps the exact recipe and SHA256 for reproduction.",
- "thermal": "Windows core sensors unavailable; no thermal guarantee."
+ "thermal": "Windows core sensors unavailable; no thermal guarantee.",
+ "amendment_1": {
+  "utc": "2026-10-23T12:15Z",
+  "reason": "Measured before any counted diagnostic arm: cold region 1 peaked at 1.23 GB private (22 s smoke) and 1.35 GB (86 s diag attempt); the latter drove available RAM to 2.58 GiB and the slot yielded cooperatively below the registered 2.75 GiB line. With the owner desktop applications resident the original 3.75 GiB admission margin would thrash.",
+  "admission_gate_changes": {
+   "available_ram_bytes_min": 4778106880,
+   "admission_reserve_bytes": 1610612736,
+   "derivation": "2.75 GiB yield line + 1.45 GiB measured cold peak + 0.25 GiB margin = 4.45 GiB; reserve 1.5 GiB"
+  },
+  "yielded_attempts": "A yielded or interrupted arm is not counted; it is retried after 120 s, at most six times, and only full-budget arms enter the comparison.",
+  "unchanged": "Yield conditions, arms, metrics, adoption rule, fairness rotation and hard limits are unchanged."
+ }
 }

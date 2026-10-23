@@ -243,6 +243,9 @@ def run_arm(region, arm, source, meta, budget, purpose):
     if code == 20:
         with_ledger(lambda data: data['regions'].setdefault(str(region), {}).setdefault('pending_proofs', []).append(
             dict(directory=str(directory), recipe_key=meta['recipe_key'], status=status)))
+    if code == 0:
+        # UNKNOWN: the exact input is reproducible from INPUT.json; release this hard link.
+        (directory / 'input.inst').unlink()
     return result
 
 
@@ -286,42 +289,105 @@ def audit_cuts(region, directory):
     return row
 
 
+TERMINAL_GATES = ('S036_STOP_LATCHED', 'SAT_ALERT_PRESENT', 'CONTROLLER_NOT_RUNNING:PAUSED')
+
+
 def wait_admission(max_wait):
+    """Wait for the measured admission gate; stop at once on STOP, SAT or a paused controller."""
     end = time.monotonic() + max_wait
     while True:
         reason = gates(admission=True)
         if reason is None:
             return None
-        if time.monotonic() >= end:
+        if reason.startswith(TERMINAL_GATES) or time.monotonic() >= end:
             return reason
-        time.sleep(10)
+        time.sleep(30)
 
 
-def diagnose(regions, arm_names, budget, max_wait):
+def summary_path():
+    return COLD / 'DIAGNOSTIC_SUMMARY.json'
+
+
+def diagnose(regions, arm_names, budget, max_wait, max_yields=6):
+    """Each arm counts only when it runs its full budget; a yielded attempt is retried later."""
     arms = [a for a in read_json(ARMS)['arms'] if not arm_names or a['name'] in arm_names]
-    summary = []
+    summary = read_json(summary_path())['rows'] if summary_path().exists() else []
+    done = {(r['region'], r['arm']) for r in summary if r.get('purpose') == 'diag' and r.get('returncode') == 0
+            and not r.get('yield_reason')}
     for region in regions:
+        todo = [a for a in arms if (region, a['name']) not in done]
+        if not todo:
+            continue
         source, meta = materialise_region(region)
         journal(COLD / 'JOURNAL.jsonl', 'cold_region_input', region=region, input_sha256=meta['input_sha256'],
                 recipe_key=meta['recipe_key'], sources=len(meta['recipe']['sources']))
-        for arm in arms:
-            reason = wait_admission(max_wait)
-            if reason:
-                summary.append(dict(region=region, arm=arm['name'], status='NOT_ADMITTED', reason=reason))
-                journal(COLD / 'JOURNAL.jsonl', 'cold_not_admitted', region=region, arm=arm['name'], reason=reason)
-                return summary
-            result = run_arm(region, arm, source, meta, budget, 'diag')
-            summary.append(result)
-            atomic_json(COLD / 'DIAGNOSTIC_SUMMARY.json', dict(rows=summary, verdict='UNKNOWN', updated_epoch=time.time()))
-            if result['returncode'] != 0 or result['yield_reason']:
-                return summary
+        for arm in todo:
+            yields = 0
+            while True:
+                reason = wait_admission(max_wait)
+                if reason:
+                    summary.append(dict(region=region, arm=arm['name'], status='NOT_ADMITTED', reason=reason,
+                                        epoch=time.time()))
+                    atomic_json(summary_path(), dict(rows=summary, verdict='UNKNOWN', updated_epoch=time.time()))
+                    journal(COLD / 'JOURNAL.jsonl', 'cold_not_admitted', region=region, arm=arm['name'], reason=reason)
+                    return summary
+                result = run_arm(region, arm, source, meta, budget, 'diag')
+                result['counted'] = result['returncode'] == 0 and not result['yield_reason']
+                summary.append(result)
+                atomic_json(summary_path(), dict(rows=summary, verdict='UNKNOWN', updated_epoch=time.time()))
+                if result['returncode'] != 0:
+                    return summary
+                if result['counted']:
+                    break
+                yields += 1
+                if yields >= max_yields:
+                    journal(COLD / 'JOURNAL.jsonl', 'cold_arm_abandoned_after_yields', region=region,
+                            arm=arm['name'], yields=yields)
+                    return summary
+                time.sleep(120)
         source.unlink()
     return summary
 
 
+def adopt(summary):
+    """Apply the pre-registered adoption rule (validation/S036/DIAGNOSTIC_ARMS.json) mechanically."""
+    registered = read_json(ARMS)
+    counted = [r for r in summary if r.get('purpose') == 'diag' and r.get('counted')]
+    regions = {}
+    for region in COLD_REGIONS:
+        rows = {r['arm']: r for r in counted if r['region'] == region}
+        base = rows.get('baseline')
+        decision = dict(arm='baseline', reason='baseline kept')
+        if base is None or 'conflicts_per_cpu_second' not in base:
+            decision['reason'] = 'baseline arm missing or unmeasured; baseline kept'
+        else:
+            qualified = []
+            for name, row in rows.items():
+                if name == 'baseline':
+                    continue
+                checks = dict(exit_by_timeout=row['returncode'] == 0 and not row.get('yield_reason'),
+                              no_pathology=not row.get('flat_counter_pathology'),
+                              memory=row.get('peak_private_bytes', 1 << 62) <= 1.5 * GiB,
+                              conflicts=row.get('conflicts_per_cpu_second', 0) >= 1.5 * base['conflicts_per_cpu_second'],
+                              cuts=row.get('cuts_per_cpu_second', 0) >= 0.75 * base.get('cuts_per_cpu_second', 0))
+                decision.setdefault('checks', {})[name] = checks
+                if all(checks.values()):
+                    qualified.append((row['conflicts_per_cpu_second'], name))
+            if qualified:
+                best = max(qualified)
+                decision.update(arm=best[1], reason='registered rule satisfied (highest conflicts/CPU-s among qualifiers)')
+        decision['measured_arms'] = sorted(rows)
+        regions[str(region)] = decision
+    value = dict(status='ADOPTION_BY_REGISTERED_RULE', rule=registered['adoption_rule'], regions=regions,
+                 interpretation_limits=registered['interpretation_limits'], epoch=time.time())
+    atomic_json(COLD / 'ARM_ADOPTION.json', value)
+    journal(COLD / 'JOURNAL.jsonl', 'cold_arm_adoption', regions={k: v['arm'] for k, v in regions.items()})
+    return value
+
+
 def adopted_arm(region):
     arms = {a['name']: a for a in read_json(ARMS)['arms']}
-    adoption = read_json(ROOT / 'validation/S036/ARM_ADOPTION.json') if (ROOT / 'validation/S036/ARM_ADOPTION.json').exists() else {}
+    adoption = read_json(COLD / 'ARM_ADOPTION.json') if (COLD / 'ARM_ADOPTION.json').exists() else {}
     return arms[adoption.get('regions', {}).get(str(region), {}).get('arm', 'baseline')]
 
 
@@ -343,16 +409,33 @@ def rotate(span, max_wait):
         if result['returncode'] != 0:
             atomic_json(state_path, state)
             return state
+        # A span that yielded early is resumed later for the same region (semantic
+        # cuts kept); only a span that ran its full budget advances the rotation.
         if not result['yield_reason']:
             state['next_index'] += 1
         atomic_json(state_path, state)
         if result['yield_reason']:
-            return state
+            time.sleep(120)
+
+
+def campaign(regions, budget, span, max_wait):
+    """Finish registered diagnostics, adopt by the registered rule, then rotate fairly."""
+    arms = read_json(ARMS)['arms']
+    summary = diagnose(regions, [], budget, max_wait)
+    done = {(r['region'], r['arm']) for r in summary if r.get('purpose') == 'diag' and r.get('counted')}
+    missing = [(g, a['name']) for g in regions for a in arms if (g, a['name']) not in done]
+    if missing:
+        journal(COLD / 'JOURNAL.jsonl', 'cold_campaign_stopped_before_adoption', missing=len(missing))
+        return dict(status='DIAGNOSTICS_INCOMPLETE', missing=missing)
+    adoption = adopt(summary)
+    state = rotate(span, max_wait)
+    return dict(status='ROTATION_STOPPED', adoption={k: v['arm'] for k, v in adoption['regions'].items()},
+                spans=len(state['spans']))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=('diagnose', 'rotate', 'status', 'audit-only'))
+    parser.add_argument('action', choices=('diagnose', 'rotate', 'campaign', 'status'))
     parser.add_argument('--regions', default='1,3,15,31,63')
     parser.add_argument('--arms', default='')
     parser.add_argument('--budget', type=float, default=360)
@@ -367,8 +450,12 @@ def main():
                               ledger=load_ledger()), indent=1)); return
     lock = COLD / 'RUNNER.lock'
     from s035_windows import locked
-    with locked(lock, blocking=False):
-        if args.action == 'diagnose':
+    # campaign queues behind any runner already holding the slot; at most one
+    # cold native process can exist because every run_arm happens under this lock.
+    with locked(lock, blocking=args.action == 'campaign'):
+        if args.action == 'campaign':
+            print(json.dumps(campaign(regions, args.budget, args.span, args.max_wait), indent=1))
+        elif args.action == 'diagnose':
             rows = diagnose(regions, [a for a in args.arms.split(',') if a], args.budget, args.max_wait)
             print(json.dumps([{k: r.get(k) for k in ('region', 'arm', 'returncode', 'status', 'yield_reason',
                                                       'conflicts_per_cpu_second', 'cuts_per_cpu_second',
