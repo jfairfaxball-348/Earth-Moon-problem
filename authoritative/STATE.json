@@ -1944,7 +1944,7 @@
     "deadline": null,
     "owner_resume_required": false,
     "resumption_authorized": true,
-    "stage": "FRESH_SEMANTIC_RECOVERY_RESIDENTS_RUNNING_COLD_DIAGNOSTICS_ACTIVE",
+    "stage": "FRESH_RESIDENTS_RESUMED_SAME_IDENTITIES_COLD_DIAGNOSTICS_ACTIVE",
     "acceptance_commit": "7a1c5b8136a7bfa2c91c9c51bb75caf7f1669483",
     "acceptance_hosted_run": "39949472103",
     "running_handoff": "sessions/S036/RUNNING.md",
@@ -1952,16 +1952,16 @@
     "identity_loss": "validation/S036/identity-loss/IDENTITY_LOSS.json",
     "private_cdcl_of_s035_contexts": "LOST_UNRECOVERABLE",
     "launcher": "scripts/s036_launch.py (WMI, outside application job objects)",
-    "fresh_acceptance_commit": "79304bdf3ac61c9a05fe126dc8ab71490cb9bd86",
-    "fresh_acceptance_hosted_run": "39953216809",
+    "fresh_acceptance_commit": "369bd00259d09c0bcf9d1746fc77c7719d384717",
+    "fresh_acceptance_hosted_run": "39955978643",
     "launch_identities": {
       "controller": {
-        "pid": 3556,
-        "start_ticks": "1792758441.015757"
+        "pid": 16436,
+        "start_ticks": "1792759722.9924011"
       },
       "supervisor": {
-        "pid": 11768,
-        "start_ticks": "1792758430.0021162"
+        "pid": 13324,
+        "start_ticks": "1792759718.4744055"
       },
       "residents": {
         "0": {

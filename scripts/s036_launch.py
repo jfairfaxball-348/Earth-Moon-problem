@@ -31,6 +31,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('role', choices=sorted(ENTRIES))
     parser.add_argument('--pilot-seconds', type=float)
+    parser.add_argument('--resume', action='store_true')
     parser.add_argument('--no-wmi', action='store_true', help='child of this shell (inherits its job object)')
     args, extra = parser.parse_known_args()
     assert not extra or args.role == 'cold', 'Extra arguments are only passed to the bounded cold slot'
@@ -38,6 +39,9 @@ def main():
     if args.pilot_seconds:
         assert args.role in ('controller', 'fresh')
         command += ['--pilot-seconds', str(args.pilot_seconds)]
+    if args.resume:
+        assert args.role == 'fresh', '--resume re-adopts a prepared fresh campaign only'
+        command += ['--resume']
     CONTROL.mkdir(parents=True, exist_ok=True)
     log = CONTROL / f'{args.role}-{time.strftime("%Y%m%dT%H%M%S")}.log'
     if args.no_wmi:

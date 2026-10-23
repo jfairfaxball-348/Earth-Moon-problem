@@ -97,3 +97,22 @@ are marked not counted. Registered diagnostics restarted once the resident queue
 Loaded residents' input.inst copies (0.33-0.40 GB each) were released after load;
 INPUT.json keeps each exact recipe and input SHA256 (hash-pinned sources retained) for
 SAT validation by rematerialisation.
+
+## 12:41 UTC preservation pause, fixes and same-identity resume (12:48 UTC)
+
+The cold slot was admitted one second after resident 255 launched, before it had
+loaded; both then grew and aggregate private memory (5.39 GB) crossed the 5 GiB target,
+so the controller paused all four residents (RAM retained, no errors). The supervisor
+also suspended the registered cold solver before it could see its cooperative stop; it
+was later resumed only so that it exited through its stop file (exit 0). Fixes (commit
+369bd00, hosted run 39955978643): cold admission waits until all residents have loaded;
+a target crossing with a live cold solver triggers the cold solver's cooperative stop
+instead of a halt; prepare-resume re-adopts a cleanly paused fresh campaign's SAME
+processes (idle thread-pool workers created while suspended are suspended with the rest).
+
+prepare-resume verified all four residents alive and suspended and archived the controls
+without resuming anything; a fresh supervisor (13324 / 1792759718.4744055) and controller (16436 / 1792759722.9924011) were
+launched through WMI with --resume. Residents 127 and 255 continued their counters
+from the paused values (same processes, RAM learning intact). Loaded residents now use
+0.6-0.85 GB each; the registered region-1 baseline cold arm was admitted and aggregate
+private memory stayed at 3.8-4.2 GiB. Liveness only; nine regions UNKNOWN.
