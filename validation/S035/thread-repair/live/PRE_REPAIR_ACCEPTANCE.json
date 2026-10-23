@@ -1,0 +1,12 @@
+{
+ "status": "PASS",
+ "published_commit": "0922b7c5749ac9802e6b1b5d700bb269fa3ce4ad",
+ "source_sha256": {
+  "tools/s035_preserved_lifecycle.py": "9ff8cccadf1a11c6f8282ed6387cc4759f2da97938aeb106bb80c44939aedf8d",
+  "scripts/s035_preserved_campaign.py": "319228e2aaceaef56eea3edc7c18ba0f36394583e2dc7a6d8bd5589ad5dbb57a",
+  "scripts/s035_sat_first_resume.py": "0a6c94475c7ee035872c356ce5b1f3d69849e6c9f72f4cdfe1a6944df922cdf5",
+  "tools/s035_sat_validation.py": "c4b72f5cb5759385c61588e54f12593acc879abdd2d6d5361e2249f19395fefd"
+ },
+ "controls": "validation/S035/resume/SAT_CONTROLS.json; audit/SHARING_FIX_REVIEW.json; lifecycle/RESULTS.json",
+ "recovery_receipt_sha256": "ed4d44a19272737488f0740329f1ce76cebcdb5cd8ddd5828b5e2460db1ddd0b"
+}

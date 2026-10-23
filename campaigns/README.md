@@ -87,3 +87,5 @@ S033: environment validation only (no new search campaign). PHONE_READY_VALIDATE
 **CAM-0040 / S035 RUNNING:** Windows exact256-region continuation; measured1/2/3-worker trials, selected2 genuine workers. Owner STOP/safety guards, no fixed campaign cutoff.9..12 unchanged; no S036 execution.
 
 CAM-0040 / S035 OWNER_PAUSED:247 encoded proof closures; unresolved0,1,3,7,15,31,63,127,255. SAT-first/lifecycle diagnostic handover; no auto-resume.
+
+CAM-0040 / S035 sustained RUNNING2026-10-23: verified live controller/SAT watcher, original RAM contexts0,7,127,255; two slots; cold queue unchanged. No proof/headline advance.

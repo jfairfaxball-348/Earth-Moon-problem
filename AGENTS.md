@@ -1,3 +1,12 @@
+# S035 sustained search RUNNING (23 October2026)
+
+The classified-thread repair and40s same-process validation passed; sustained
+600s fair turns are now RUNNING, not merely planned. Read RESUME_CONTROL live
+identities/leases and sessions/S035/RESUMED_RUNNING.md. Two active slots/four
+retained original contexts; helpers and all legacy controls remain frozen.
+No duplicate launch, cold admission, fresh heavy proof or S036. Older PAUSED
+headers below are historical. The requested heartbeat remains paused.
+
 # S035 authorised resumption — classified thread isolation repair (23 October2026)
 
 Original solver threads may resume only after the newly published lifecycle

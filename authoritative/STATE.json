@@ -463,7 +463,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S035 authorised recovery paused at additional-thread identity gate; preserve RAM and evidence; next check-in23Oct07:30London; no S036",
+  "next_session_priority": "S035 sustained retained-thread search RUNNING: inspect live RESUME_CONTROL identities and SAT-first supervisor; never duplicate or wake legacy controls. No S036.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1808,7 +1808,7 @@
   },
   "active_session": {
     "id": "S035",
-    "status": "PAUSED",
+    "status": "RUNNING",
     "authority": "D047/D074 owner invocation2026-10-22; power/wifi/no-sleep confirmed",
     "entry_main": "4eac1237723134f1d1924938f476a06287aab919",
     "entry_tree": "8d2f866cd9536552532ddb7099e4d6642fd08bba",
@@ -1816,19 +1816,20 @@
     "no_automatic_S036": true,
     "whole_stratum_certified": false,
     "witness_established": false,
-    "workers": 0,
-    "runtime_status_authority": "validation/S035/resume/STATUS_LABEL_DIAGNOSIS.json",
-    "running_handoff": "sessions/S035/THREAD_REPAIR.md",
+    "workers": 2,
+    "runtime_status_authority": "artifacts/tmp/S035/campaign/RESUME_CONTROL/ADOPTION.json",
+    "running_handoff": "sessions/S035/RESUMED_RUNNING.md",
     "deadline": null,
     "execution_revision": "S035_RESIDENT_V2",
-    "controller_entry": "scripts/s035_resident_campaign.py",
+    "controller_entry": "scripts/s035_preserved_campaign.py",
     "private_cdcl_policy": "Retained in RAM per region between scheduled turns; semantic-only recovery after process loss",
     "diagnostic": "Optional congruence simplification disabled after measured comparison",
     "maintenance": false,
     "processes_exited": false,
-    "all_processes_suspended": true,
+    "all_processes_suspended": false,
     "owner_resume_required": false,
-    "resumption_authorized": true
+    "resumption_authorized": true,
+    "controller_revision": "S035_ORIGINAL_THREADS_HELPERS_QUARANTINED"
   },
   "s035_owner_pause": {
     "status": "PAUSED",
@@ -1878,9 +1879,19 @@
     "no_new_native_solver_processes": true
   },
   "s035_thread_repair": {
-    "status": "CONTROLS_PASS_PENDING_PUBLISHED_ACCEPTANCE_AND_LIVE_VALIDATION",
+    "status": "SUSTAINED_RUNNING_CONFIRMED_AFTER_40S_VALIDATION",
     "helper_policy": "QUARANTINED_NEVER_RESUME",
     "no_new_workers": true,
-    "no_S036": true
+    "no_S036": true,
+    "controller": {
+      "pid": 9880,
+      "start_ticks": "1792740361.8891678"
+    },
+    "watcher": {
+      "pid": 3292,
+      "start_ticks": "1792740358.6699057"
+    },
+    "evidence": "validation/S035/thread-repair/live/SUSTAINED_OBSERVATION.json",
+    "source_commit": "12d8694f1d54a4128eed197af4eaebfbc95c2775"
   }
 }

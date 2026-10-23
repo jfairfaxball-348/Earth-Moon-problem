@@ -90,8 +90,8 @@
    "sha256": "c852c082914ba08e9330225f2e6e74ef5d78164ec79321600017444eac4d1161"
   },
   "scripts/check_s035_resume_records.py": {
-   "bytes": 3874,
-   "sha256": "c6dc969665f558c5a985a96aca30bb7dbb4d93a7d31defc90275f3b3a5121b48"
+   "bytes": 3978,
+   "sha256": "fb68dc2ec51680c24fd19727da328d9927304cbddc7490f1651ab4d9f1c40156"
   },
   "scripts/s035_preserved_campaign.py": {
    "bytes": 27901,
@@ -124,6 +124,10 @@
   "validation/S035/thread-repair/frozen-source/d2ba154285a4a386a6dfb0afcbd133f0ddbe039a30ab859106c7ff62d36257c7.bytes": {
    "bytes": 78080,
    "sha256": "d2ba154285a4a386a6dfb0afcbd133f0ddbe039a30ab859106c7ff62d36257c7"
+  },
+  "validation/S035/thread-repair/frozen-source/38bacb1157df4e758aa7b94a0c50f1a81d68b92b17cd86332b9f0d1fe99f8654.bytes": {
+   "bytes": 17690,
+   "sha256": "38bacb1157df4e758aa7b94a0c50f1a81d68b92b17cd86332b9f0d1fe99f8654"
   }
  }
 }

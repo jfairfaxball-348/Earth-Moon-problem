@@ -1,66 +1,37 @@
-# S035 â€” SAT-first resumption and nine-region diagnostic (OWNER INVOCATION REQUIRED)
+# S035 — inspect the live sustained continuation (S036 NOT AUTHORISED)
 
-This prompt resumes S035 only when the owner explicitly supplies it for execution.
-S035 is PAUSED, not completed. S036 and all later sessions are not authorised.
-Use this existing repository/main; no new project, branch, PR or force push.
+Owner already authorised S035 continuation. Read AGENTS.md, authoritative/STATE.json,
+sessions/S035/RESUMED_RUNNING.md and THREAD_REPAIR.md before acting. Do not launch
+a duplicate controller or solver. This is the same S035, not a completed session.
 
-1. Read AGENTS.md, authoritative/STATE.json, sessions/S035/PAUSE.md,
-   NINE_REGION_DIAGNOSTIC.md, RESIDENT_UPGRADE_PLAN.md and validation/S035/pause/.
-   Reconcile remote main, actual hosted jobs and local edits. Do not automatically
-   launch or recover a guardian. The prior guardian/controller JSON says RUNNING
-   because it is frozen: OWNER_PAUSE.json and authoritative PAUSED take priority.
+1. Read actual RESUME_CONTROL/ADOPTION.json, CONTROLLER.json and WATCHER.json under
+   artifacts/tmp/S035/campaign. Verify PID/create times, heartbeat freshness, CPU,
+   memory/disk safeguards, immutable input/native/source hashes and actual state.
+   Healthy RUNNING uses two executing slots, four retained regions0,7,127,255 and
+   fair600s turns without an overall time cutoff. Cold1,3,15,31,63 remain queued.
 
-2. SAT FIRST: inspect SAT_AUDIT.json and rescan all native logs, exit-code10
-   results and candidate files. Run scripts/s035_sat_first_watch.py --once.
-   Any SAT signal takes precedence over UNKNOWN, stop reasons and ordinary
-   progress. Preserve the complete assignment, exact input/recipe, logs, sources
-   and hashes; suspend the campaign immediately and independently validate CNF,
-   both planar layers, disjoint union, alpha<=3, order28, degree/edge domain and
-   a proper colouring. Report a potentially valid witness prominently. Difficulty
-   alone implies neither SAT nor UNSAT. Do not promote before full domain review.
+2. Exact original solver threads alone may resume. Classified Windows thread-pool
+   helpers remain quarantined and all legacy processes stay frozen. Never blindly
+   admit new threads, rearm a paused controller, remove original STOP, run legacy
+   recover/STOP, kill/evict/replace RAM contexts, duplicate workers or start S036.
+   A paused/failing live registry overrides this historical running snapshot;
+   diagnose and preserve first. Use the published thread policy and acceptance.
 
-3. Use scripts/s035_pause_status.py. Twelve original processes were suspended,
-   not killed; four native contexts retain RAM CDCL only while their PID/create
-   identities survive. STOP remains latched. NEVER blindly remove STOP, resume
-   the old guardian or call legacy recover: legacy STOP/recover uses taskkill /F.
-   The native has no cooperative exit handler. Resolve this lifecycle blocker and
-   validate a non-forcing pause/exit path on small controls before heavy work.
-   A same-process RAM resume also requires explicit identity-aware handling of
-   suspend counts, frozen wall deadlines and queued claims; no safe one-command
-   RAM resume is currently supplied. Do not discard it to simplify recovery.
+3. SAT takes absolute priority. Preserve assignment, exact input/recipe, logs,
+   sources and hashes; suspend surviving identities non-forcing; validate with
+   tools/s035_sat_validation.py. Report a potentially valid witness prominently.
+   Failed validation stays SAT review. Native UNSAT requires fresh standalone DRAT
+   and independent checking; no fresh heavy proof generation is authorised here.
 
-4. Durable semantic recovery: verify every runtime.tar.xz part and joined SHA,
-   then python scripts/archive_s035_pause.py --verify. Use python scripts/restore_s035_pause.py --output C:\EM-S035-recovery
-   to restore original objects and logical paths into a NEW directory. The
-   script never launches a worker and verifies all restored hashes. Restore referenced
-   S034 raw proof files with scripts/restore_s034.py --output <new-dir> --proofs
-   from the committed, hash-verified validation/S034/campaign.tar.xz. Never
-   overwrite live suspended work. Restore dependencies.tar.xz into a NEW root using DEPENDENCIES.json
-   hashes for S032 base/seed, Windows checker and required runtime DLLs. Rebase only registered prefixes with hash checks.
-   Restore gzip containers with pinned zlib1.3.1/level1; all original compressed
-   and raw proof hashes were checked. The original pre-resident gzip container
-   remains local; all its member bytes are independently stored in the pause
-   archive. Operational live lock bytes are excluded and never copied to recovery.
+4. Keep6GiB aggregate/2GiB per worker,2GiB RAM floor,10GiB disk reserve,2GiB raw
+   proof and40GiB campaign/64GiB total S035 budgets. Soft pressure preserves RAM;
+   no thermal guarantee. Preserve new complete geometric prefixes for independent
+   audit before sharing/promoting them. Keep all original archives/checkpoints.
 
-5. Exact unresolved IDs: 0,1,3,7,15,31,63,127,255. All UNKNOWN; no pending UNSAT
-   proofs or verification backlog at pause. RAM contexts: 0,7,127,255. Cold queue:
-   1,3,15,31,63. Historical private_cdcl_retained flags on cold rows are stale;
-   use the actual resident context map. Keep 247 independently proof-closed encoded
-   regions. Standalone fresh DRAT plus independent checker gates every new closure.
-
-6. Before any new heavy computation, commit/push diagnostic and SAT/lifecycle
-   improvements and verify remote main. Run the SAT-first supervisor outside the
-   guardian tree BEFORE future workers, preserving prominent SAT_ALERT.json even
-   if validation fails. Test candidate interruption, validation failure and STOP
-   races; do not rely solely on successful native return handling. Use targeted
-   comparisons per region; avoid identical capped proof regeneration or blind
-   restarts. Keep congruence disabled and random walk default unless a registered
-   comparison justifies change. Four resident admissions including reservations,
-   two executing slots, 600s fair turns; no repeated cache churn.
-
-7. Retain 6GiB aggregate/2GiB per-worker private caps, 2GiB RAM floor,
-   10GiB disk reserve, 2GiB raw-proof attempt cap and 40GiB campaign/64GiB S035
-   budgets. Soft resident targets:5GiB/2.5GiB available RAM. Thermal unavailable.
-   Respect fresh owner runtime instructions. Keep all checkpoints and evidence.
-   S11 remains UNKNOWN;9<=chi2<=12. Encoded region closures are not graph or whole
-   stratum exclusions. Preserve parked/publication/outreach/Lean gates.
+5.247 encoded regions remain proof-closed; nine remain UNKNOWN. Encoded closures
+   are not graph exclusions or whole-stratum proof. S11 UNKNOWN;9<=chi2<=12.
+   Publication/outreach/Lean gates stay separate. Existing main, ordinary non-force
+   commits/pushes; no new branch/project/PR. Preserve immutable pause and recovery
+   manifests using their archived exact source bytes. Keep this prompt identical
+   to sessions/S035/CONTINUATION_PROMPT.md. The scheduled check-ins completed and
+   their heartbeat stays paused; do not add hourly notifications without request.

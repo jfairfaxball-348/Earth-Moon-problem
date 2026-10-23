@@ -145,3 +145,5 @@ S035 invocation2026-10-22: owner says run next session, >90GB free and laptop on
 S035 owner-requested resident upgrade: independently instrumented flat counters identify congruence simplification (mode2052). Equal90s same-input comparison default4216 conflicts versus congruence-disabled1003623, both UNKNOWN, same11216 checked geometric occurrences. Select optional congruence off; retain random walk default. Same-PID per-region resident RAM contexts replace destructive wall-quantum restarts; preserve independent standalone DRAT gates and all prior evidence. No S036 invocation.
 
 S035 owner pause: preservation first; no forced termination; SAT discoveries absolute priority; nine-region diagnostics and verified main publication before any further heavy computation. S036 not invoked.
+
+S035 thread identity gate resolved by matched Microsoft symbols and original-thread-only quarantine policy. Helpers never resume; counter-based suspension replaces misleading process status. Published controls and actual retained-process validation passed before sustained search.

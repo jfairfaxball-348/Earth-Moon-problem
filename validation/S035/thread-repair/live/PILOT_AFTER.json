@@ -1,0 +1,142 @@
+[
+ {
+  "cell": 0,
+  "worker": {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:17.707673+00:00"
+  },
+  "cpu": 3163.828125,
+  "threads": [
+   {
+    "tid": 17908,
+    "created_ticks": "134371562577049198",
+    "suspend_count": 1
+   },
+   {
+    "tid": 13732,
+    "created_ticks": "134371684766971439",
+    "suspend_count": 1
+   }
+  ],
+  "counters": [
+   22764097,
+   57687232,
+   4824245081
+  ]
+ },
+ {
+  "cell": 7,
+  "worker": {
+   "pid": 12384,
+   "start_ticks": "1792682640.4900093",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:00.489824+00:00"
+  },
+  "cpu": 3697.765625,
+  "threads": [
+   {
+    "tid": 4888,
+    "created_ticks": "134371562404900220",
+    "suspend_count": 1
+   },
+   {
+    "tid": 5408,
+    "created_ticks": "134371684766967440",
+    "suspend_count": 1
+   }
+  ],
+  "counters": [
+   24927352,
+   59724145,
+   5337910366
+  ]
+ },
+ {
+  "cell": 127,
+  "worker": {
+   "pid": 3500,
+   "start_ticks": "1792682640.5223634",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:00.530027+00:00"
+  },
+  "cpu": 3700.65625,
+  "threads": [
+   {
+    "tid": 13668,
+    "created_ticks": "134371562405223651",
+    "suspend_count": 1
+   },
+   {
+    "tid": 16156,
+    "created_ticks": "134371684766969032",
+    "suspend_count": 1
+   }
+  ],
+  "counters": [
+   24976430,
+   59532631,
+   5538789031
+  ]
+ },
+ {
+  "cell": 255,
+  "worker": {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "phase": "native",
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+    "--timeout",
+    "inf",
+    "--lemmas",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+   ],
+   "utc": "2026-10-22T15:24:17.737848+00:00"
+  },
+  "cpu": 3165.015625,
+  "threads": [
+   {
+    "tid": 4232,
+    "created_ticks": "134371562577355010",
+    "suspend_count": 1
+   },
+   {
+    "tid": 10796,
+    "created_ticks": "134371684766975186",
+    "suspend_count": 1
+   }
+  ],
+  "counters": [
+   21414987,
+   50573532,
+   4792652894
+  ]
+ }
+]

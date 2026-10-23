@@ -1,0 +1,31 @@
+{
+ "status": "RUNNING_UNBOUNDED_600S_TURNS",
+ "controller": {
+  "pid": 9880,
+  "start_ticks": "1792740361.8891678"
+ },
+ "watcher": {
+  "pid": 3292,
+  "start_ticks": "1792740358.6699057"
+ },
+ "sample": {
+  "private": 3236700160,
+  "rss": 2953613312,
+  "cpu": 15012.5,
+  "processes": 14
+ },
+ "executing_cells": [
+  0,
+  7
+ ],
+ "source_commit": "12d8694f1d54a4128eed197af4eaebfbc95c2775",
+ "source_sha256": {
+  "tools/s035_preserved_lifecycle.py": "690f8caf996937cce4c5f439b6cbf66602976f5b887f8e7e8a519dfc937e2a97",
+  "scripts/s035_preserved_campaign.py": "2df0d3a5bd1f7d180ec51dc5581d230fb3171160d5203a1c3d1b4c6e839d3ea3",
+  "scripts/s035_sat_first_resume.py": "0a6c94475c7ee035872c356ce5b1f3d69849e6c9f72f4cdfe1a6944df922cdf5",
+  "tools/s035_sat_validation.py": "c4b72f5cb5759385c61588e54f12593acc879abdd2d6d5361e2249f19395fefd",
+  "tools/s035_thread_policy.py": "8d59f8d10da4a9e3929d9fd70ef44b93c5a896f939b5e5999122b05395fa73f2"
+ },
+ "original_stop_latched": true,
+ "recorded_epoch": 1792740376.8791242
+}

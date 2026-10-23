@@ -119,7 +119,9 @@ if final_path.exists():
             assert state['next_session_is_future_unexecuted'] is False
         else:
             assert state['next_session_is_future_unexecuted'] is True
-        if state.get('active_session',{}).get('status')=='PAUSED':
+        if (ROOT/'sessions/S035/CONTINUATION_PROMPT.md').exists():
+            assert (ROOT/'sessions/S035/CONTINUATION_PROMPT.md').read_bytes()==(ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
+        elif state.get('active_session',{}).get('status')=='PAUSED':
             assert (ROOT/'sessions/S035/RESUME_PROMPT.md').read_bytes()==(ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
         else:
             assert prompt == (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
