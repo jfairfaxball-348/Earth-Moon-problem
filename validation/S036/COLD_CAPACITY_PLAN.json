@@ -12,7 +12,8 @@
   "supervisor_heartbeat_max_age_seconds": 10,
   "controller_running_required": true,
   "s036_stop_or_sat_alert_absent": true,
-  "cold_yield_aggregate_max": 6174015488
+  "cold_yield_aggregate_max": 6174015488,
+  "cold_private_max": 2040109465
  },
  "yield_conditions": "Cooperative stop (natural exit 0) when available RAM < 2.75 GiB, aggregate private (residents + cold) > 5 GiB, cold private > 1.5 GiB, S036 STOP/SAT_ALERT, controller not RUNNING/THROTTLED or supervisor heartbeat stale. A supervisor alert also suspends the registered cold identity; nothing is force-terminated.",
  "measured_safety": "Before admission and during every arm the runner journals available RAM, aggregate private, cold private and the retained contexts' per-turn conflict rates; resident interference is assessed from METRICS.jsonl turns with and without the cold slot.",
@@ -37,5 +38,13 @@
   "reason": "Four loaded fresh residents use about 3.5 GiB private, so a 1.35 GB cold solver crossed the 5 GiB target; the region-1 phase0 arm yielded six times and the campaign stopped with 24 arms missing.",
   "change": "The cold slot may occupy the band between the 5 GiB resident target and 5.75 GiB aggregate private; admission requires aggregate + 1.5 GiB reserve <= 5.75 GiB; the cold solver yields above 5.75 GiB.",
   "unchanged": "6 GiB aggregate and 2 GiB per-worker hard caps, 2 GiB available floor, 2.75 GiB available yield line, residents alone bound by the 5 GiB target, cold always yields first, arms/metrics/adoption rule."
+ },
+ "amendment_3": {
+  "utc": "2026-10-23T14:45Z",
+  "authority": "Owner delegation, 23 October 2026 (\"whatever you think is best\")",
+  "reason": "Region 1 input grew with its audited cuts; the phase0 arm reached 1.67 GB private within 55 s and yielded at the 1.5 GiB cold per-solver cap.",
+  "change": "Cold per-solver yield cap 1.9 GiB (below the 2 GiB per-worker hard cap); the adoption rule memory criterion uses the same 1.9 GiB.",
+  "timing": "Registered when only the region-1 baseline arm had been counted; no non-baseline arm result existed.",
+  "unchanged": "2 GiB per-worker and 6 GiB aggregate hard caps, 5.75 GiB cold band, residents bound by 5 GiB, cold yields first."
  }
 }

@@ -116,3 +116,22 @@ launched through WMI with --resume. Residents 127 and 255 continued their counte
 from the paused values (same processes, RAM learning intact). Loaded residents now use
 0.6-0.85 GB each; the registered region-1 baseline cold arm was admitted and aggregate
 private memory stayed at 3.8-4.2 GiB. Liveness only; nine regions UNKNOWN.
+
+## Cold band amendments and equal-input repair (14:37-14:51 UTC)
+
+The 15:14 BST check-in reported the cold diagnostics abandoned (aggregate crossed the
+5 GiB target with four loaded residents). With the owner's delegation the cold slot
+may now occupy the band up to 5.75 GiB aggregate (residents alone still bound by
+5 GiB; 6 GiB aggregate and 2 GiB per-worker hard caps unchanged), and its per-solver
+yield cap and the adoption memory criterion are 1.9 GiB (COLD_CAPACITY_PLAN amendments
+2 and 3; registered before any non-baseline arm was counted). The controller switched
+over by a preservation pause and same-identity resume (commit c402824, hosted run
+39971271327); residents kept their RAM.
+
+Partial (yielded) attempts had been adding their audited cuts to region 1's recipe,
+so later arms would not have read the counted baseline's input. Diagnostics now use one
+frozen recipe per region (region 1 frozen to the counted baseline input c2e16af3...),
+and cuts found during diagnostics join only the later rotation recipes. The region-1
+phase0 arm then ran its full budget on the identical input and was counted. Idle cold
+runner helpers (no solver child) were ended between attempts to apply these changes;
+every cold solver ended by timeout or its cooperative stop file.

@@ -124,18 +124,27 @@ def gates(admission=False, cold_private=0):
             return f'YIELD_AVAILABLE_RAM {available}'
         if private + cold_private > plan.get('cold_yield_aggregate_max', 5 * GiB):
             return f'YIELD_AGGREGATE_PRIVATE {private + cold_private}'
-        if cold_private > 1.5 * GiB:
+        if cold_private > plan.get('cold_private_max', 1.5 * GiB):
             return f'YIELD_COLD_PRIVATE {cold_private}'
         if shutil.disk_usage(ROOT).free < 10 * GiB:
             return 'YIELD_DISK_RESERVE'
     return None
 
 
-def materialise_region(region):
+def materialise_region(region, purpose='span'):
+    """Exact input for a region. Diagnostics use one FROZEN recipe per region (equal input
+    for every arm); cuts found during diagnostics join later rotation recipes only."""
     from s035_engine import materialise
     cfg, value = recipe_for(region)
     directory = COLD / f'region-{region:04d}'
     directory.mkdir(parents=True, exist_ok=True)
+    if purpose == 'diag':
+        frozen = directory / 'DIAG_RECIPE.json'
+        if frozen.exists():
+            value = read_json(frozen)['recipe']
+        else:
+            atomic_json(frozen, dict(recipe=copy.deepcopy(value), frozen_epoch=time.time(),
+                                     note='equal input for every registered arm of this region'))
     key = hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()[:16]
     source = directory / f'input-{key}.inst'
     meta_path = directory / f'input-{key}.json'
@@ -248,7 +257,7 @@ def run_arm(region, arm, source, meta, budget, purpose):
         rows = read_json(CONTROL / 'COLD_TERMINAL.json').get('results', []) if (CONTROL / 'COLD_TERMINAL.json').exists() else []
         rows.append(dict(region=region, directory=str(directory), returncode=code, status=status, worker=worker))
         atomic_json(CONTROL / 'COLD_TERMINAL.json', dict(results=rows, no_region_promoted=True, updated_epoch=time.time()))
-    result['audit'] = audit_cuts(region, directory)
+    result['audit'] = audit_cuts(region, directory, 'diagnostic_blocks' if purpose == 'diag' else 'audited_blocks')
     atomic_json(directory / 'native-RESULT.json', result)
     journal(COLD / 'JOURNAL.jsonl', 'cold_finished', **{k: v for k, v in result.items() if k != 'audit'},
             audited=result['audit'].get('count'))
@@ -268,7 +277,7 @@ def with_ledger(update):
     return data
 
 
-def audit_cuts(region, directory):
+def audit_cuts(region, directory, key='audited_blocks'):
     """Independently subdivision-check every complete new clause before reuse."""
     from s035_engine import subdivision
     cfg = read_json(AREA / 'CONFIG.json')
@@ -297,7 +306,7 @@ def audit_cuts(region, directory):
     row = dict(path=str(target), count=count, sha256=h.hexdigest(), audit='INDEPENDENT_SUBDIVISION_PASS',
                n=cfg['n'], origin=str(source), region=region, session='S036')
     atomic_json(target.with_suffix('.audit.json'), row)
-    with_ledger(lambda data: data['regions'].setdefault(str(region), {}).setdefault('audited_blocks', []).append(row))
+    with_ledger(lambda data: data['regions'].setdefault(str(region), {}).setdefault(key, []).append(row))
     return row
 
 
@@ -329,7 +338,7 @@ def diagnose(regions, arm_names, budget, max_wait, max_yields=6):
         todo = [a for a in arms if (region, a['name']) not in done]
         if not todo:
             continue
-        source, meta = materialise_region(region)
+        source, meta = materialise_region(region, 'diag')
         journal(COLD / 'JOURNAL.jsonl', 'cold_region_input', region=region, input_sha256=meta['input_sha256'],
                 recipe_key=meta['recipe_key'], sources=len(meta['recipe']['sources']))
         for arm in todo:
@@ -380,7 +389,8 @@ def adopt(summary):
                     continue
                 checks = dict(exit_by_timeout=row['returncode'] == 0 and not row.get('yield_reason'),
                               no_pathology=not row.get('flat_counter_pathology'),
-                              memory=row.get('peak_private_bytes', 1 << 62) <= 1.5 * GiB,
+                              memory=row.get('peak_private_bytes', 1 << 62) <= read_json(PLAN)['admission_gate'].get(
+                                  'cold_private_max', 1.5 * GiB),
                               conflicts=row.get('conflicts_per_cpu_second', 0) >= 1.5 * base['conflicts_per_cpu_second'],
                               cuts=row.get('cuts_per_cpu_second', 0) >= 0.75 * base.get('cuts_per_cpu_second', 0))
                 decision.setdefault('checks', {})[name] = checks
@@ -441,6 +451,11 @@ def campaign(regions, budget, span, max_wait):
         journal(COLD / 'JOURNAL.jsonl', 'cold_campaign_stopped_before_adoption', missing=len(missing))
         return dict(status='DIAGNOSTICS_INCOMPLETE', missing=missing)
     adoption = adopt(summary)
+    # Diagnostics are complete: their audited cuts now join each region's rotation recipe.
+    def promote(data):
+        for row in data['regions'].values():
+            row.setdefault('audited_blocks', []).extend(row.pop('diagnostic_blocks', []))
+    with_ledger(promote)
     state = rotate(span, max_wait)
     return dict(status='ROTATION_STOPPED', adoption={k: v['arm'] for k, v in adoption['regions'].items()},
                 spans=len(state['spans']))
