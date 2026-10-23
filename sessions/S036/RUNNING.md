@@ -135,3 +135,30 @@ and cuts found during diagnostics join only the later rotation recipes. The regi
 phase0 arm then ran its full budget on the identical input and was counted. Idle cold
 runner helpers (no solver child) were ended between attempts to apply these changes;
 every cold solver ended by timeout or its cooperative stop file.
+
+## 15:49 UTC hard-cap pause; owner-approved machine limits and recycling (resumed 17:12 UTC)
+
+At 15:49:42 UTC the controller paused all four residents (SAFETY_AGGREGATE_PRIVATE_CAP,
+no errors, RAM retained): fresh residents grow as they learn (region 7 845 -> 1619 MiB)
+and a cold solver was loading. The 17:14 BST check-in and the relay reported it. Owner
+decision: "Both. Recycle where needed but just raise the limits to whatever this machine
+can handle. This is the only thing running and only thing that will be running."
+
+Measured: 15.71 GiB physical, about 6.4 GiB used outside the search. New limits
+(validation/S036/MACHINE_LIMITS.json, commit fa29fef, hosted run 39992832551): 8 GiB
+aggregate and 3 GiB per-solver hard caps, 1.25 GiB available hard floor, 7 GiB resident
+target, 2 GiB throttle line, 8 GiB disk reserve, cold band to 7.75 GiB; all four residents
+execute concurrently (plus the one bounded cold solver, five of eight physical cores).
+Recycling: a resident past 2.5 GiB, the largest when residents pass 7 GiB, or the largest
+after 300 s below the throttle line is stopped through its stop file (exit 0), its new
+clauses are independently audited into an immutable region block, and a new generation
+starts from the enlarged recipe (2 h cooldown per region; private CDCL of that process
+lost, never claimed). Hard-cap pauses resume only with explicit owner authorisation.
+
+Operator resume: the cold solver suspended at the pause was let exit through its stop
+file; the idle old cold runner helper (no solver child) was ended; prepare-resume
+--owner-authorized verified the four residents and archived the controls; a fresh
+supervisor (13336 / 1792775528.128196) and controller (6028 / 1792775532.676816) were launched through WMI with --resume.
+All four residents then executed concurrently from their paused counters (same
+processes); the cold slot was admitted for region 15 (frozen equal input 52b7b00e...).
+Liveness only; nine regions UNKNOWN.

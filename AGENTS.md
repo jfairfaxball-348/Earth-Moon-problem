@@ -1,3 +1,13 @@
+# S036 IN_PROGRESS — machine limits, four concurrent residents, automatic recycling (23 October 2026)
+
+Owner (17:05 UTC): "Recycle where needed but just raise the limits to whatever this
+machine can handle." Limits: validation/S036/MACHINE_LIMITS.json (8 GiB aggregate /
+3 GiB per solver hard, 1.25 GiB available floor, 7 GiB resident target). All four
+residents execute concurrently; a resident that outgrows its limits is RECYCLED
+(cooperative stop, audited cuts, new generation, new PID) instead of halting the run.
+Hard-cap pauses resume only with prepare-resume --owner-authorized. Read
+sessions/S036/RUNNING.md; live authority artifacts/tmp/S036/control.
+
 # S036 IN_PROGRESS — S035 RAM identities LOST; fresh semantic-recovery residents (23 October 2026)
 
 At 12:14 UTC the owner closed the ChatGPT app; all twelve S035 processes (launched
