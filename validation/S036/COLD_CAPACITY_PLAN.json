@@ -4,16 +4,19 @@
  "slot": "One optional bounded cold slot beside the two retained fair-turn slots; never more than one cold native process.",
  "retained_contexts": "Four retained RAM contexts 0,7,127,255 are never evicted, restarted, duplicated or slowed by preemption; the cold slot always yields first.",
  "admission_gate": {
-  "available_ram_bytes_min": 4778106880,
-  "aggregate_private_after_admission_max": 6174015488,
-  "admission_reserve_bytes": 1610612736,
-  "free_disk_min_bytes": 11811160064,
+  "available_ram_bytes_min": 4831838208,
+  "aggregate_private_after_admission_max": 8321499136,
+  "admission_reserve_bytes": 2147483648,
+  "free_disk_min_bytes": 9663676416,
   "session_storage_max_bytes": 68719476736,
   "supervisor_heartbeat_max_age_seconds": 10,
   "controller_running_required": true,
   "s036_stop_or_sat_alert_absent": true,
-  "cold_yield_aggregate_max": 6174015488,
-  "cold_private_max": 2040109465
+  "cold_yield_aggregate_max": 8321499136,
+  "cold_private_max": 2684354560,
+  "adoption_memory_max": 2040109465,
+  "cold_yield_available_min": 2684354560,
+  "cold_yield_disk_min": 8589934592
  },
  "yield_conditions": "Cooperative stop (natural exit 0) when available RAM < 2.75 GiB, aggregate private (residents + cold) > 5 GiB, cold private > 1.5 GiB, S036 STOP/SAT_ALERT, controller not RUNNING/THROTTLED or supervisor heartbeat stale. A supervisor alert also suspends the registered cold identity; nothing is force-terminated.",
  "measured_safety": "Before admission and during every arm the runner journals available RAM, aggregate private, cold private and the retained contexts' per-turn conflict rates; resident interference is assessed from METRICS.jsonl turns with and without the cold slot.",
@@ -46,5 +49,11 @@
   "change": "Cold per-solver yield cap 1.9 GiB (below the 2 GiB per-worker hard cap); the adoption rule memory criterion uses the same 1.9 GiB.",
   "timing": "Registered when only the region-1 baseline arm had been counted; no non-baseline arm result existed.",
   "unchanged": "2 GiB per-worker and 6 GiB aggregate hard caps, 5.75 GiB cold band, residents bound by 5 GiB, cold yields first."
+ },
+ "amendment_4": {
+  "utc": "2026-10-23T17:05Z",
+  "authority": "Owner, 23 October 2026: \"Both. Recycle where needed but just raise the limits to whatever this machine can handle. This is the only thing running and only thing that will be running.\"",
+  "change": "Machine limits (validation/S036/MACHINE_LIMITS.json): cold band ceiling 7.75 GiB aggregate; admission needs aggregate + 2 GiB reserve <= 7.75 GiB and >= 4.5 GiB available (2.5 GiB yield line + 1.75 GiB measured peak + 0.25 margin); cold yields below 2.5 GiB available, above 7.75 GiB aggregate, above 2.5 GiB own private or below 8 GiB free disk. Adoption memory criterion stays 1.9 GiB (amendment 3). A RUNNER.STOP file stops the runner cooperatively.",
+  "unchanged": "One cold solver at most; residents have priority and the cold solver always yields first; arms, frozen equal inputs, metrics and adoption rule."
  }
 }

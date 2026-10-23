@@ -1,0 +1,54 @@
+{
+ "status": "OWNER_APPROVED_MACHINE_LIMITS",
+ "session": "S036",
+ "utc": "2026-10-23T17:05Z",
+ "authority": "Owner, 23 October 2026: \"Both. Recycle where needed but just raise the limits to whatever this machine can handle. This is the only thing running and only thing that will be running.\"",
+ "trigger": "15:49:42 UTC preservation pause SAFETY_AGGREGATE_PRIVATE_CAP: four growing fresh residents (region 7 845 -> 1619 MiB) plus a loading cold solver crossed the 6 GiB aggregate hard cap; no errors, RAM retained.",
+ "measured": {
+  "physical_gib": 15.71,
+  "used_outside_search_gib": 6.4,
+  "claude_app_rss_gib": 2.2,
+  "check_in_session_transient_gib": 0.5,
+  "pagefile_gib": 7.25,
+  "logical_cpus": 16,
+  "physical_cpus": 8,
+  "free_disk_gib": 17.4,
+  "note": "used_outside_search = used physical minus the solvers RSS; varies with check-in sessions"
+ },
+ "limits": {
+  "aggregate_private_hard_gib": 8,
+  "per_worker_private_hard_gib": 3,
+  "available_floor_hard_gib": 1.25,
+  "resident_target_gib": 7,
+  "soft_available_throttle_gib": 2.0,
+  "throttle_clear_margin_gib": 0.25,
+  "disk_reserve_gib": 8,
+  "cold_band_ceiling_gib": 7.75,
+  "raw_proof_attempt_gib": 2,
+  "campaign_storage_gib": 40,
+  "session_storage_gib": 64,
+  "active_slots": 4,
+  "cold_slots": 1
+ },
+ "previous": {
+  "aggregate_private_hard_gib": 6,
+  "per_worker_private_hard_gib": 2,
+  "available_floor_hard_gib": 2,
+  "resident_target_gib": 5,
+  "soft_available_throttle_gib": 2.5,
+  "disk_reserve_gib": 10,
+  "active_slots": 2
+ },
+ "derivation": "15.71 GiB physical - ~6.4 GiB outside the search - 1.25 GiB floor ~= 8 GiB for solvers; the 7 GiB resident target keeps available RAM near the 2 GiB throttle line so a check-in session (~0.5 GiB) cannot reach the hard floor; per-worker 3 GiB hard with recycling at 2.5 GiB; 8 physical cores carry four residents plus one cold solver.",
+ "recycling": {
+  "per_worker_trigger_gib": 2.5,
+  "resident_target_trigger": "largest resident when residents exceed 7 GiB (cold slot yields first)",
+  "low_ram_trigger": "largest resident after 300 s continuously below the 2 GiB throttle line, one at a time",
+  "cooldown_seconds": 7200,
+  "stop": "cooperative stop file; natural exit 0 within 60 s or the resident is re-suspended and the run pauses (RECYCLE_STOP_TIMEOUT)",
+  "learning": "private CDCL of the recycled process is lost; its new geometric clauses are independently subdivision-audited into an immutable region block and included in the relaunch recipe",
+  "never": "no forced termination, no SAT/UNSAT downgrade; exit 10 or 20 during a recycle is a terminal review event"
+ },
+ "thermal": "Windows core sensors unavailable; no thermal guarantee.",
+ "verdict": "UNKNOWN"
+}

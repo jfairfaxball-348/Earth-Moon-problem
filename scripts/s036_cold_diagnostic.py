@@ -76,6 +76,8 @@ def recipe_for(region):
 def gates(admission=False, cold_private=0):
     """Return None when the cold slot may run, else the registered yield reason."""
     plan = read_json(PLAN)['admission_gate']
+    if (COLD / 'RUNNER.STOP').exists():
+        return 'RUNNER_STOP_REQUESTED'
     if (CONTROL / 'STOP').exists():
         return 'S036_STOP_LATCHED'
     if (CONTROL / 'SAT_ALERT.json').exists() or (AREA / 'SAT_ALERT.json').exists():
@@ -120,13 +122,13 @@ def gates(admission=False, cold_private=0):
         if shutil.disk_usage(ROOT).free < plan['free_disk_min_bytes']:
             return 'ADMISSION_DISK'
     else:
-        if available < int(2.75 * GiB):
+        if available < plan.get('cold_yield_available_min', int(2.75 * GiB)):
             return f'YIELD_AVAILABLE_RAM {available}'
         if private + cold_private > plan.get('cold_yield_aggregate_max', 5 * GiB):
             return f'YIELD_AGGREGATE_PRIVATE {private + cold_private}'
         if cold_private > plan.get('cold_private_max', 1.5 * GiB):
             return f'YIELD_COLD_PRIVATE {cold_private}'
-        if shutil.disk_usage(ROOT).free < 10 * GiB:
+        if shutil.disk_usage(ROOT).free < plan.get('cold_yield_disk_min', 10 * GiB):
             return 'YIELD_DISK_RESERVE'
     return None
 
@@ -271,6 +273,13 @@ def run_arm(region, arm, source, meta, budget, purpose):
 
 
 def with_ledger(update):
+    # The resident controller also registers recycled-resident blocks: serialise writers.
+    from s035_windows import locked
+    with locked(ledger_path().with_suffix('.lock')):
+        return _with_ledger(update)
+
+
+def _with_ledger(update):
     data = load_ledger()
     update(data)
     atomic_json(ledger_path(), data)
@@ -310,7 +319,7 @@ def audit_cuts(region, directory, key='audited_blocks'):
     return row
 
 
-TERMINAL_GATES = ('S036_STOP_LATCHED', 'SAT_ALERT_PRESENT', 'CONTROLLER_NOT_RUNNING:PAUSED')
+TERMINAL_GATES = ('RUNNER_STOP_REQUESTED', 'S036_STOP_LATCHED', 'SAT_ALERT_PRESENT', 'CONTROLLER_NOT_RUNNING:PAUSED')
 
 
 def wait_admission(max_wait):
@@ -390,7 +399,7 @@ def adopt(summary):
                 checks = dict(exit_by_timeout=row['returncode'] == 0 and not row.get('yield_reason'),
                               no_pathology=not row.get('flat_counter_pathology'),
                               memory=row.get('peak_private_bytes', 1 << 62) <= read_json(PLAN)['admission_gate'].get(
-                                  'cold_private_max', 1.5 * GiB),
+                                  'adoption_memory_max', 1.9 * GiB),
                               conflicts=row.get('conflicts_per_cpu_second', 0) >= 1.5 * base['conflicts_per_cpu_second'],
                               cuts=row.get('cuts_per_cpu_second', 0) >= 0.75 * base.get('cuts_per_cpu_second', 0))
                 decision.setdefault('checks', {})[name] = checks
