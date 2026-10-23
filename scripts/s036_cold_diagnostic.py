@@ -104,6 +104,9 @@ def gates(admission=False, cold_private=0):
         # Retained residents have priority: no cold admission while any is queued.
         if adoption.get('queued_regions'):
             return 'RESIDENTS_QUEUED ' + ','.join(map(str, adoption['queued_regions']))
+        # Measure loaded residents, not ones still reading their input (S036 race at 12:39 UTC).
+        if any(time.time() - c.get('launched_epoch', 0) < 300 for c in adoption.get('contexts', [])):
+            return 'RESIDENT_STILL_LOADING'
         try:
             slot = read_json(CONTROL / 'COLD_SLOT.json') if (CONTROL / 'COLD_SLOT.json').exists() else {}
             if slot.get('state') == 'RUNNING' and live_identity(slot['worker']['pid'], slot['worker']['start_ticks']):

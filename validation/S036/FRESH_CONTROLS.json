@@ -1,6 +1,7 @@
 {
- "scheduler": "four fixture natives admitted one at a time, peak two executing, 6 metric rows, all suspended at pilot end without errors, then cooperative exits ['COOPERATIVE_STOP']",
+ "scheduler": "four fixture natives admitted one at a time, peak two executing, 6 metric rows, all suspended at pilot end; prepare-resume archived controls without resuming, then the same identities were re-adopted and advanced; cooperative exits ['COOPERATIVE_STOP']",
  "sat_path": "native exit 10 recorded in TERMINAL and SAT_ALERT, controller halted with SAT priority, peer suspended",
+ "cold_yield": "aggregate target crossed with a live cold solver: controller requested its cooperative stop (exit 0) and kept the residents running instead of halting",
  "wmi_launch": "WMI-created process outside any job (this shell in job: True) and ran as the user",
  "status": "PASS",
  "native_sha256": "ae663f530102c0d7e888e53e9ce64fe579e277626d5d10eac4cb207a7683dd24",
@@ -8,7 +9,7 @@
   "tools/s036_sat_scan.py": "48141b853a3971f855573d6b7f1105f87fa7888922011d2575e5d88757f68fdf",
   "scripts/s036_sat_supervisor.py": "c214cbca489ee663e9e4833a9270a0eef7bae256a3cc9970b24276bc4d4c005a",
   "scripts/s036_resident_controller.py": "6205cf5a1e9c0c5be754bb5c4fab371ee9e78f4b5ab6541be964650ff63f82c7",
-  "scripts/s036_fresh_campaign.py": "4fa3005f45f2c4b3abcf0c3f63fd40a9fa3d3c57e8b91259e218a251ae0a6fc3",
+  "scripts/s036_fresh_campaign.py": "4c0edfce51628d983856b104372ed626e1e0775fa8dd6cf23c0ac63ee7542ce4",
   "tools/s035_preserved_lifecycle.py": "690f8caf996937cce4c5f439b6cbf66602976f5b887f8e7e8a519dfc937e2a97",
   "scripts/s035_preserved_campaign.py": "2df0d3a5bd1f7d180ec51dc5581d230fb3171160d5203a1c3d1b4c6e839d3ea3",
   "tools/s035_sat_validation.py": "c4b72f5cb5759385c61588e54f12593acc879abdd2d6d5361e2249f19395fefd",
@@ -16,5 +17,5 @@
  },
  "forced_terminations": 0,
  "scientific_processes_touched": false,
- "test_sha256": "316010c4e441c76ac78a13db7e7654a01889ca27861b988c8c582837ebf87b04"
+ "test_sha256": "7aba7ad5bc8008029b218a0966f7e80c0439242fde8098625cce74cd96df6b75"
 }

@@ -150,14 +150,75 @@ def terminal(control, contexts, handles):
     return 'NATIVE_RETURN_PRESERVED_PENDING_PROOF_OR_FAILURE_REVIEW'
 
 
-def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None):
+RESUMABLE = ('SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE', 'BOUNDED_PILOT_COMPLETE_RAM_PRESERVED',
+             'SOFT_AVAILABLE_RAM_THROTTLE', 'SUPERVISOR_PAUSE:OWNER_OR_CONTROLLER_STOP', 'OWNER_OR_CONTROLLER_STOP')
+KEEP_ON_ARCHIVE = {'history', 'CONTROLLER.lock', 'MUTATION.lock', 'WATCHER.lock', 'ACCEPTANCE_FRESH.json',
+                   'COLD_SLOT.json'}
+
+
+def prepare_resume(control):
+    """Operator step: verify a cleanly paused fresh campaign and archive its controls.
+
+    Never resumes a process. Refuses after SAT, native return, supervisor failure,
+    pause errors, a live previous controller/supervisor or any resident that is not
+    alive with every thread suspended. Writes RESUME_PLAN.json for `run --resume`.
+    """
+    control = Path(control).resolve()
+    if (control / 'SAT_ALERT.json').exists() or (control / 'TERMINAL.json').exists():
+        raise LifecycleError('SAT or native return requires review; no resume')
+    if (control / 'WATCHER_FAILURE.json').exists():
+        raise LifecycleError('Supervisor failure recorded; manual review required')
+    previous = read_json(control / 'ADOPTION.json')
+    if (previous.get('mode') != 'FRESH_SEMANTIC_RECOVERY_RESIDENTS' or previous.get('status') != 'PAUSED'
+            or previous.get('pause_errors') or previous.get('exited_cells') or previous.get('reason') not in RESUMABLE):
+        raise LifecycleError('Previous fresh campaign is not cleanly paused for a resumable reason')
+    for record in (previous['controller'], previous['watcher']):
+        try:
+            checked(record)
+        except LifecycleError:
+            continue
+        raise LifecycleError('Previous controller/supervisor has not exited')
+    for context in previous['contexts']:
+        rows = life_counts(context['worker'])
+        context.update(threads=rows, state='PAUSED')
+    history = control / 'history' / (str(time.time_ns()) + '-fresh-resume-' + uuid.uuid4().hex[:6])
+    history.mkdir(parents=True)
+    moved = []
+    for path in list(control.iterdir()):
+        if path.name in KEEP_ON_ARCHIVE:
+            continue
+        path.rename(history / path.name); moved.append(path.name)
+    plan = dict(status='RESUME_PLAN_VERIFIED_NO_PROCESS_RESUMED', previous_reason=previous['reason'],
+                history=str(history), moved=moved, contexts=previous['contexts'],
+                queued_regions=previous.get('queued_regions', []), epoch=time.time())
+    atomic_json(control / 'RESUME_PLAN.json', plan)
+    journal(control / 'JOURNAL.jsonl', 'fresh_resume_prepared', history=str(history),
+            cells=[c['cell'] for c in previous['contexts']], no_process_resumed=True)
+    return plan
+
+
+def life_counts(worker):
+    """Suspend every current thread of OUR resident (idempotent) and return exact counts.
+
+    Suspended processes can acquire idle OS thread-pool workers (as in S035); for
+    processes this campaign launched they are suspended with the rest, never left running.
+    Raises if the process no longer survives.
+    """
+    return pause_identity(worker)
+
+
+def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume=False):
     area, control = Path(area).resolve(), Path(control).resolve()
     if fixture is None:
         if control != CONTROL.resolve():
             raise LifecycleError('Fresh campaign uses the registered S036 control directory')
         published_acceptance(control)
-        if (control / 'ADOPTION.json').exists():
-            raise LifecycleError('Archive the previous S036 control state before a fresh campaign')
+    if resume:
+        plan = read_json(control / 'RESUME_PLAN.json')
+        if plan.get('status') != 'RESUME_PLAN_VERIFIED_NO_PROCESS_RESUMED' or (control / 'ADOPTION.json').exists():
+            raise LifecycleError('Resume requires a verified RESUME_PLAN and archived previous adoption')
+    elif (control / 'ADOPTION.json').exists():
+        raise LifecycleError('Archive the previous S036 control state before a fresh campaign')
     supervisor = ctl.watcher(control)
     reason = ctl.stop_reason(area, control)
     if reason:
@@ -165,6 +226,17 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None):
     controller = identity(os.getpid())
     registry = [controller, supervisor]
     contexts, handles, queue = [], {}, list(regions)
+    if resume:
+        queue = list(plan['queued_regions'])
+        for context in plan['contexts']:
+            context.update(threads=life_counts(context['worker']), state='PAUSED')
+            context.pop('turn_start_metrics', None)
+            handles[context['cell']] = ProcessHandle(context['worker'])
+            contexts.append(context)
+        (control / 'RESUME_PLAN.json').rename(control / f'RESUME_PLAN-used-{time.time_ns()}.json')
+        journal(control / 'JOURNAL.jsonl', 'fresh_resume_adopted', cells=[c['cell'] for c in contexts],
+                same_identities=True)
+    cold_yield_since = None
     active_started, turn_start, cache = {}, {}, {}
     throttle = dict(active=False, clear_since=None, events=0)
     adoption = dict(status='PREPARING', session='S036', mode='FRESH_SEMANTIC_RECOVERY_RESIDENTS', controller=controller,
@@ -212,6 +284,22 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None):
                     break
                 hard, soft, sample = ctl.resource_reason(area, control, contexts,
                                                          registry + [c['worker'] for c in contexts], cache)
+                if hard == 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE' and sample.get('cold_slot'):
+                    # The cold slot always yields first: request its cooperative stop
+                    # and give it up to 60 s before treating the target as binding.
+                    cold_yield_since = cold_yield_since or time.monotonic()
+                    if time.monotonic() - cold_yield_since < 60:
+                        try:
+                            Path(read_json(control / 'COLD_SLOT.json')['stop_file']).touch()
+                        except Exception as exc:
+                            journal(control / 'JOURNAL.jsonl', 'cold_yield_request_failed', error=repr(exc))
+                        if not adoption.get('cold_yield_requested_epoch') or \
+                                time.time() - adoption['cold_yield_requested_epoch'] > 60:
+                            adoption['cold_yield_requested_epoch'] = time.time()
+                            journal(control / 'JOURNAL.jsonl', 'cold_slot_yield_requested', private=sample['private'])
+                        hard = None
+                elif not sample.get('cold_slot'):
+                    cold_yield_since = None
                 if hard:
                     reason = hard
                     break
@@ -312,17 +400,21 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=('run', 'status', 'pause'))
+    parser.add_argument('action', choices=('run', 'status', 'pause', 'prepare-resume'))
     parser.add_argument('--pilot-seconds', type=float)
+    parser.add_argument('--resume', action='store_true', help='adopt the residents named in RESUME_PLAN.json')
     args = parser.parse_args()
     if args.action == 'status':
         print(json.dumps(read_json(CONTROL / 'ADOPTION.json'), indent=1))
+    elif args.action == 'prepare-resume':
+        plan = prepare_resume(CONTROL)
+        print(json.dumps({k: plan[k] for k in ('status', 'previous_reason', 'history', 'queued_regions')}, indent=1))
     elif args.action == 'pause':
         (CONTROL / 'STOP').touch(); print('Preservation pause requested; residents will be suspended, not terminated.')
     else:
         if args.pilot_seconds is not None and not 0 < args.pilot_seconds <= 120:
             raise LifecycleError('Pilot must be between zero and 120 seconds')
-        run(AREA, CONTROL, pilot_seconds=args.pilot_seconds)
+        run(AREA, CONTROL, pilot_seconds=args.pilot_seconds, resume=args.resume)
 
 
 if __name__ == '__main__':

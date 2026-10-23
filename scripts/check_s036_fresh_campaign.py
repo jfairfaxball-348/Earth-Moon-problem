@@ -106,9 +106,61 @@ def scheduler(root):
     assert peak == 2, peak
     assert all(all(t['suspend_count'] > 0 for t in life.thread_counts(c['worker'])) for c in a['contexts'])
     assert any(m.get('delta_cpu_seconds', 0) > 0 for m in metrics)
+    # Resume: the SAME paused processes are re-adopted with their RAM; nothing relaunches.
+    before = {c['cell']: (c['worker'], c['turns']) for c in a['contexts']}
+    a['controller'] = dict(pid=2147483000, start_ticks='0'); a['watcher'] = dict(pid=2147483001, start_ticks='0')
+    (control / 'ADOPTION.json').write_text(json.dumps(a))
+    plan = fresh.prepare_resume(control)
+    assert plan['status'] == 'RESUME_PLAN_VERIFIED_NO_PROCESS_RESUMED' and not (control / 'STOP').exists()
+    assert all(all(t['suspend_count'] > 0 for t in life.thread_counts(w)) for w, _ in before.values())
+    with patch.object(ctl, 'watcher', lambda c, stale_seconds=10: life.identity(os.getpid())):
+        fresh.run(area, control, regions=regions, pilot_seconds=8, fixture=fixture, resume=True)
+    b = json.loads((control / 'ADOPTION.json').read_text())
+    assert b['reason'] == 'BOUNDED_PILOT_COMPLETE_RAM_PRESERVED' and not b['pause_errors']
+    assert {c['cell']: c['worker'] for c in b['contexts']} == {k: v[0] for k, v in before.items()}
+    assert all(c['turns'] > before[c['cell']][1] for c in b['contexts'])
+    kinds = [json.loads(x)['kind'] for x in (control / 'JOURNAL.jsonl').read_text().splitlines()]
+    assert kinds.count('fresh_resident_launched') == 0 and 'fresh_resume_adopted' in kinds, \
+        'resume must adopt the same residents and launch none'
     codes = finish(control)
     return (f'four fixture natives admitted one at a time, peak two executing, {len(metrics)} metric rows, '
-            f'all suspended at pilot end without errors, then cooperative exits {sorted(set(codes.values()))}')
+            f'all suspended at pilot end; prepare-resume archived controls without resuming, then the same '
+            f'identities were re-adopted and advanced; cooperative exits {sorted(set(codes.values()))}')
+
+
+def cold_yield(root):
+    base = root / 'coldyield'; base.mkdir()
+    area, control = area_control(base)
+    k9, _ = k9_instance(base)
+    fixture = fixture_for(base, (30, 31), [k9, k9])
+    cold_dir = base / 'cold'; cold_dir.mkdir()
+    stop = cold_dir / 'COOPERATIVE_STOP'
+    env = dict(os.environ, EMP_S035_DISABLE_CONGRUENCE='1', EMP_S036_STOP_FILE=str(stop))
+    with (cold_dir / 'native.log').open('w') as log:
+        cold = subprocess.Popen([str(EXE), str(k9), '--timeout', '300', '--lemmas', str(cold_dir / 'c.lem')],
+                                stdout=log, stderr=subprocess.STDOUT, env=env,
+                                creationflags=subprocess.CREATE_NO_WINDOW)
+    worker = life.identity(cold.pid)
+    (control / 'COLD_SLOT.json').write_text(json.dumps(dict(state='RUNNING', worker=worker, stop_file=str(stop),
+                                                            directory=str(cold_dir))))
+    real = ctl.resource_reason
+
+    def over_target(area_, control_, contexts, registry, cache):
+        hard, soft, sample = real(area_, control_, contexts, registry, cache)
+        if sample.get('cold_slot'):
+            return 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE', None, sample
+        return None, None, sample
+    with patch.object(ctl, 'watcher', lambda c, stale_seconds=10: life.identity(os.getpid())), \
+            patch.object(ctl, 'resource_reason', over_target), patch.dict(fresh.ADMISSION, loading_seconds=1):
+        fresh.run(area, control, regions=(30, 31), pilot_seconds=10, fixture=fixture)
+    code = cold.wait(timeout=30)
+    a = json.loads((control / 'ADOPTION.json').read_text())
+    kinds = [json.loads(x)['kind'] for x in (control / 'JOURNAL.jsonl').read_text().splitlines()]
+    assert code == 0 and 'c S036_COOPERATIVE_STOP' in (cold_dir / 'native.log').read_text()
+    assert 'cold_slot_yield_requested' in kinds and a['reason'] == 'BOUNDED_PILOT_COMPLETE_RAM_PRESERVED', a['reason']
+    finish(control)
+    return ('aggregate target crossed with a live cold solver: controller requested its cooperative stop '
+            '(exit 0) and kept the residents running instead of halting')
 
 
 def sat_path(root):
@@ -170,6 +222,7 @@ def main():
         root = Path(td)
         report['scheduler'] = scheduler(root)
         report['sat_path'] = sat_path(root)
+        report['cold_yield'] = cold_yield(root)
         report['wmi_launch'] = wmi_launch(root)
     report.update(status='PASS', native_sha256=sha(EXE), source_sha256=fresh.sources(), forced_terminations=0,
                   scientific_processes_touched=False, test_sha256=sha(__file__))
