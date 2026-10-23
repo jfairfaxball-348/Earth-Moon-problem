@@ -1,0 +1,24 @@
+{
+ "status": "REGISTERED_BEFORE_ANY_S036_COLD_RUN",
+ "session": "S036",
+ "registered_utc": "2026-10-23",
+ "native": "artifacts/tmp/S036/native/bipsat_s032.exe",
+ "native_change": "EMP_S036_CADICAL_OPTIONS (fail-closed name=value CaDiCaL options) and EMP_S036_STOP_FILE (cooperative UNKNOWN exit 0); search/propagation/certificate logic unchanged from the S035 resident native",
+ "common_settings": {"congruence": "disabled via EMP_S035_DISABLE_CONGRUENCE (measured harmful in S035)", "random_walk": "CaDiCaL default (S035 registered setting)"},
+ "regions": [1, 3, 15, 31, 63],
+ "region_reason": "Cold regions have semantic recovery only; the four retained RAM contexts 0,7,127,255 keep their original executable and settings and are never restarted for a comparison.",
+ "equal_input": "Per region one immutable input.inst (base + S032 seed + all S035 ledger-accepted independently audited geometric cuts + region assumptions) is materialised once and hashed; every arm of that region reads the identical bytes.",
+ "budget_wall_seconds_per_arm": 360,
+ "measurement_window": "From the first native progress line after lemma loading to exit; rates divide counter deltas by measured process CPU seconds in the same window.",
+ "arms": [
+  {"name": "baseline", "options": "", "family": "control", "meaning": "S035 registered resident configuration"},
+  {"name": "phase0", "options": "phase=0", "family": "branching polarity", "meaning": "initial decision phase false (layers start empty)"},
+  {"name": "focused", "options": "stabilize=0", "family": "branching/restart mode", "meaning": "focused mode only (VMTF, frequent restarts; CaDiCaL unsat-style)"},
+  {"name": "stable", "options": "stabilizeonly=1", "family": "branching/restart mode", "meaning": "stable mode only (EVSIDS, target phases; CaDiCaL sat-style)"},
+  {"name": "noinprocessing", "options": "inprocessing=0", "family": "inprocessing", "meaning": "no inprocessing (elim/subsume/vivify/probe/sweep)"}
+ ],
+ "metrics": ["conflicts_per_cpu_second", "geometric_cuts_per_cpu_second", "decisions_per_cpu_second", "propagations_per_cpu_second", "peak_private_bytes", "native_exit_code", "flat_counter_pathology (conflicts unchanged >=60 s with CPU busy)"],
+ "adoption_rule": "An arm replaces baseline for that region's later cold-slot spans only if it exited by timeout with no pathology, peak private <=1.5 GiB, conflicts/CPU-s >=1.5x baseline and geometric cuts/CPU-s >=0.75x baseline. Otherwise baseline is kept. Ties keep baseline.",
+ "interpretation_limits": "Throughput and activity screens only. Counters are not progress toward closure, not an ETA and not evidence of SAT or UNSAT. Native UNSAT never closes a region without fresh standalone DRAT and an independent checker; any SAT/exit-10 outranks everything and is independently validated.",
+ "sharing_rule": "Only independently subdivision-audited geometric clauses may enter a later cold recipe; private CDCL clauses never cross regions."
+}

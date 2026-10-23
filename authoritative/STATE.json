@@ -83,12 +83,12 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S036 FUTURE/UNEXECUTED: SAT-first watcher repair, targeted nine-region diagnostics, acceptance then real sustained search.",
+    "S036 IN_PROGRESS: watcher repair accepted locally; publish, adopt retained contexts, launch sustained search, cold diagnostics.",
     "S11 m155/156 UNKNOWN;247 encoded closures and nine UNKNOWN are not graph/stratum closure.",
     "Four suspended original RAM contexts survive only while exact processes survive; no durable CDCL snapshot.",
     "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged;9<=chi2<=12."
   ],
-  "next_session_is_future_unexecuted": true,
+  "next_session_is_future_unexecuted": false,
   "latest_session_branch": "main",
   "latest_session_entry_main": "bef7b0131d72e6147f32b4d2e0a7885388f5c39d",
   "latest_session_integration": {
@@ -1926,5 +1926,24 @@
     "private_cdcl_serialized": false,
     "S036_executed": false
   },
-  "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains."
+  "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
+  "active_session": {
+    "id": "S036",
+    "status": "PAUSED",
+    "authority": "D047/D074 owner invocation 2026-10-23 (\"run next session\")",
+    "entry_main": "45a2f328471ccad39b49160b12560c0fe1b27f91",
+    "runtime_directory": "artifacts/tmp/S036/control",
+    "adopted_contexts": "S035 native identities for regions 0,7,127,255 (read-only S035 campaign)",
+    "runtime_status_authority": "artifacts/tmp/S036/control/ADOPTION.json",
+    "controller_entry": "scripts/s036_resident_controller.py",
+    "supervisor_entry": "scripts/s036_sat_supervisor.py",
+    "no_automatic_S037": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "workers": 2,
+    "deadline": null,
+    "owner_resume_required": false,
+    "resumption_authorized": true,
+    "stage": "ACCEPTANCE_PUBLICATION_BEFORE_SUSTAINED_LAUNCH"
+  }
 }

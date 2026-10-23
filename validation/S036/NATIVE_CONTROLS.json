@@ -1,0 +1,1031 @@
+{
+ "status": "PASS",
+ "native": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\native\\bipsat_s032.exe",
+ "native_sha256": "ae663f530102c0d7e888e53e9ce64fe579e277626d5d10eac4cb207a7683dd24",
+ "exhaustive_n5_fixed_graphs": 1024,
+ "random_n6_partitions": 64,
+ "K33": "PASS",
+ "positive24": "PASS",
+ "arms": [
+  "baseline",
+  "phase0",
+  "focused",
+  "stable",
+  "noinprocessing"
+ ],
+ "arm_fixed_controls": 70,
+ "option_rejections": [
+  {
+   "options": "nosuchoption=1",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: unknown EMP_S036_CADICAL_OPTIONS name"
+  },
+  {
+   "options": "phase=7",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: EMP_S036_CADICAL_OPTIONS value not applied"
+  },
+  {
+   "options": "phase",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: malformed EMP_S036_CADICAL_OPTIONS item"
+  },
+  {
+   "options": "=1",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: malformed EMP_S036_CADICAL_OPTIONS item"
+  },
+  {
+   "options": "phase=x",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: non-integer EMP_S036_CADICAL_OPTIONS value"
+  },
+  {
+   "options": "phase=1,stable",
+   "returncode": 3,
+   "stderr": "bipsat FATAL: malformed EMP_S036_CADICAL_OPTIONS item"
+  }
+ ],
+ "cooperative_stop": {
+  "returncode": 0,
+  "latency_seconds": 0.031,
+  "checked_lemmas": 40202,
+  "marker": true
+ },
+ "free_K9_timeout": {
+  "returncode": 0,
+  "checked_lemmas": 39545
+ },
+ "rows": [
+  {
+   "name": "n5-0000",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n6-00",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-08",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-09",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-10",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-11",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-12",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-13",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-14",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-15",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-16",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-17",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-18",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-19",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-20",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-21",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-22",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-23",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-24",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-25",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-26",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-27",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-28",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-29",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-30",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-31",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-32",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-33",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-34",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-35",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-36",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-37",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-38",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-39",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-40",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-41",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-42",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-43",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-44",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-45",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-46",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-47",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-48",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-49",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-50",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-51",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-52",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-53",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-54",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-55",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-56",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-57",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-58",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-59",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-60",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-61",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-62",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-63",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  }
+ ],
+ "arm_rows": [
+  {
+   "name": "n5-0000",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n5-0341",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0682",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-00",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0000",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "phase=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n5-0341",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0682",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-00",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "phase=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "phase=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0000",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "stabilize=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n5-0341",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0682",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-00",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "stabilize=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "stabilize=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0000",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n5-0341",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0682",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-00",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "stabilizeonly=1",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0000",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-1023",
+   "options": "inprocessing=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "n5-0341",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n5-0682",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-00",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-01",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-02",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-03",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-04",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-05",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-06",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "n6-07",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  },
+  {
+   "name": "K33",
+   "options": "inprocessing=0",
+   "expected_planar_layers": false,
+   "returncode": 20,
+   "checked_lemmas": 1
+  },
+  {
+   "name": "positive24",
+   "options": "inprocessing=0",
+   "expected_planar_layers": true,
+   "returncode": 10,
+   "checked_lemmas": 0
+  }
+ ],
+ "seconds": 29.921999999991385,
+ "scope": "native plumbing/soundness controls only; no scientific verdict"
+}

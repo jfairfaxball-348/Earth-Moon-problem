@@ -17,12 +17,21 @@ def sha(p):
     return h.hexdigest()
 
 state=read(ROOT/'authoritative/STATE.json')
-assert state['last_completed_session']=='S035' and state['recommended_next_session']=='S036'
-assert state['next_session_is_future_unexecuted'] and not state.get('active_session')
-assert state['s035_closeout']['S036_executed'] is False
-prompt=(ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
-assert prompt==(ROOT/'sessions/S035/S036_FUTURE_PROMPT.md').read_bytes()
+prompt=(ROOT/'sessions/S035/S036_FUTURE_PROMPT.md').read_bytes()
 assert b'FUTURE / UNEXECUTED' in prompt and b'PermissionError' in prompt and b'SAT FIRST' in prompt
+assert state['s035_closeout']['S036_executed'] is False  # recorded at S035 closeout
+if state['last_completed_session']=='S035':
+    assert state['recommended_next_session']=='S036'
+    active=state.get('active_session')
+    if active:
+        # S036 invoked (D047): the executed prompt stays installed while it runs.
+        assert active['id']=='S036' and active['status'] in ('RUNNING','PAUSED')
+        assert state['next_session_is_future_unexecuted'] is False
+    else:
+        assert state['next_session_is_future_unexecuted']
+    assert prompt==(ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes()
+else:
+    assert int(state['last_completed_session'][1:])>35
 assert state['confirmed_classical_range']['lower']==9 and state['confirmed_classical_range']['upper']==12
 audit=read(OUT/'AUDIT.json')
 assert len(audit['certificates'])==audit['proof_closed_regions']==247
@@ -61,6 +70,10 @@ for name,row in inventory['files'].items():
     else:assert name=='pre-resident-runtime.tar.gz' and row['sha256']==base['original_preupgrade_container']['sha256']
 assert b'PermissionError' in (OUT/'resume-control/watcher-sustained.log').read_bytes()
 assert read(OUT/'resume-control/GUARD_PAUSE.json')['reason']=='WATCHER_FAILURE'
+later=bool(state.get('active_session')) or state['last_completed_session']!='S035'
 for name,row in read(OUT/'MANIFEST.json')['files'].items():
+    # Shared governance files legitimately change in later sessions; their S035
+    # closeout bytes stay pinned in commit 45a2f328471ccad39b49160b12560c0fe1b27f91.
+    if later and not name.startswith(('validation/S035/','sessions/S035/')):continue
     p=ROOT/name;assert p.stat().st_size==row['bytes'] and sha(p)==row['sha256'],name
 print('PASS S035 closed UNKNOWN, SAT-first preserved identities, exact delta/base recovery, S036 prompt; not fresh proof replay')

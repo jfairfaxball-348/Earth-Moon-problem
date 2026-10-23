@@ -1,0 +1,35 @@
+{
+ "status": "PASS",
+ "scanner": [
+  "10178 full reads during 3-writer atomic replacement: no failure; retried 30",
+  "SAT written under exclusive lock detected after 1.06s of bounded retries",
+  "permanent lock: PENDING without cache advance, ScanUnavailable after budget, concurrent SAT still returned, SAT found after release",
+  "cross-block marker, split append, truncation, exit10 JSON and candidate names detected"
+ ],
+ "supervisor": [
+  "10s of full/fast scans during continuous replacement: WATCHING, then owner STOP paused the worker; retried reads 1",
+  "permanent exclusive lock: worker suspended first, explicit WATCHER_SCAN_UNAVAILABLE with traceback, fresh rescan lists the unreadable file, controller reports the cause",
+  "SAT appended under an exclusive lock: bounded retry, SAT_ALERT before validation, worker suspended, rejected fixture validation kept the alert",
+  "stale_controller: supervisor paused the worker with ADOPTED_CONTROLLER_LEASE_EXPIRED",
+  "controller_lost: supervisor paused the worker with ADOPTED_CONTROLLER_IDENTITY_LOST",
+  "late SAT after the final pause caught by the fresh complete rescan"
+ ],
+ "controller": [
+  "four-resident/two-slot pilot: peak 2, turns [2, 2, 2, 2], 6 metric rows with CPU deltas; rearm archived controls without resume",
+  "soft RAM dip throttled (executing turns paused, no resumes) and cleared after the sustained interval without ending the run",
+  "controller halt reason carries the supervisor cause SUPERVISOR_PAUSE:WATCHER_SCAN_UNAVAILABLE"
+ ],
+ "scientific_processes_touched": false,
+ "forced_terminations": 0,
+ "source_sha256": {
+  "tools/s036_sat_scan.py": "a913f8c0d168af4a2c234638aa12297dc15c7411a99463443f2937986fef1b85",
+  "scripts/s036_sat_supervisor.py": "af49cfe9639d4196873880c63436fd76e795c91045438ff0c965a473a69951b5",
+  "scripts/s036_resident_controller.py": "70239b1599745a559921954b80a1b197adb995392abbefbcf601304bab6ea500",
+  "tools/s035_preserved_lifecycle.py": "690f8caf996937cce4c5f439b6cbf66602976f5b887f8e7e8a519dfc937e2a97",
+  "scripts/s035_preserved_campaign.py": "2df0d3a5bd1f7d180ec51dc5581d230fb3171160d5203a1c3d1b4c6e839d3ea3",
+  "tools/s035_thread_policy.py": "8d59f8d10da4a9e3929d9fd70ef44b93c5a896f939b5e5999122b05395fa73f2",
+  "tools/s035_sat_validation.py": "c4b72f5cb5759385c61588e54f12593acc879abdd2d6d5361e2249f19395fefd",
+  "tools/s035_windows.py": "f3175907b5a5fe8a08312fc04a37b15c4e7ece90bf4d354d26ab641d8dd96274"
+ },
+ "test_sha256": "f64e3ba181811f079b208eb5342f6e1ca15fe6dcf7db61ae1cfbcc9668a9115b"
+}

@@ -1,0 +1,125 @@
+{
+ "status": "NO_SCIENTIFIC_SAT_CANDIDATE_OR_EXIT10_FOUND",
+ "scientific_roots": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-1",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-2",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-3",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic-overlap-aborted",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic-input-rebase-failure"
+ ],
+ "scientific_files_scanned": 4862,
+ "scientific_hits": [],
+ "imported_s034_control_hits": [],
+ "scientific_unreadable": [],
+ "exit_records_scanned": [],
+ "other_files_scanned": 6948,
+ "other_unreadable": [],
+ "other_hit_count": 4710,
+ "other_hits_by_directory": {
+  "artifacts/tmp/S035/NATIVE_CONTROLS.json": {
+   "count": 1,
+   "examples": [
+    "artifacts\\tmp\\S035\\NATIVE_CONTROLS.json"
+   ]
+  },
+  "artifacts/tmp/S035/controls-v2": {
+   "count": 1088,
+   "examples": [
+    "artifacts\\tmp\\S035\\controls-v2\\n5-0000.log",
+    "artifacts\\tmp\\S035\\controls-v2\\n5-0001.log",
+    "artifacts\\tmp\\S035\\controls-v2\\n5-0002.log"
+   ]
+  },
+  "artifacts/tmp/S035/resident-acceptance": {
+   "count": 3459,
+   "examples": [
+    "artifacts\\tmp\\S035\\resident-acceptance\\NATIVE_CONTROLS.json",
+    "artifacts\\tmp\\S035\\resident-acceptance\\NATIVE_CONTROLS_CONGRUENCE_DISABLED.json",
+    "artifacts\\tmp\\S035\\resident-acceptance\\NATIVE_CONTROLS_DEFAULT.json"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657651860956800": {
+   "count": 28,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657651860956800\\parallel\\campaign\\attempts\\cell-0000\\52af27cfbfa64518a142ceae51a21979\\CANDIDATE.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657651860956800\\parallel\\campaign\\attempts\\cell-0000\\52af27cfbfa64518a142ceae51a21979\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657651860956800\\parallel\\campaign\\attempts\\cell-0000\\52af27cfbfa64518a142ceae51a21979\\native.log"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657741575080000": {
+   "count": 28,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657741575080000\\parallel\\campaign\\attempts\\cell-0000\\e5824515a481438eaddda1a2b1e7f273\\CANDIDATE.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657741575080000\\parallel\\campaign\\attempts\\cell-0000\\e5824515a481438eaddda1a2b1e7f273\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657741575080000\\parallel\\campaign\\attempts\\cell-0000\\e5824515a481438eaddda1a2b1e7f273\\native.log"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657831385962800": {
+   "count": 8,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657831385962800\\parallel\\campaign\\attempts\\cell-0000\\9553480284154c619c35077b97a960f0\\CANDIDATE.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657831385962800\\parallel\\campaign\\attempts\\cell-0000\\9553480284154c619c35077b97a960f0\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657831385962800\\parallel\\campaign\\attempts\\cell-0000\\9553480284154c619c35077b97a960f0\\native.log"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657865161160000": {
+   "count": 31,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657865161160000\\parallel\\campaign\\attempts\\cell-0000\\330df4604c2e4df48b9b17e4fcb1ea8f\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657865161160000\\parallel\\campaign\\attempts\\cell-0000\\330df4604c2e4df48b9b17e4fcb1ea8f\\native.log",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657865161160000\\parallel\\campaign\\attempts\\cell-0000\\7cd8a0fe0b734cd0b6f9693a43ab96da\\CANDIDATE.json"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657883161303400": {
+   "count": 31,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657883161303400\\parallel\\campaign\\attempts\\cell-0000\\139006d8bac6420db47cf9ba3befd2e6\\CANDIDATE.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657883161303400\\parallel\\campaign\\attempts\\cell-0000\\139006d8bac6420db47cf9ba3befd2e6\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657883161303400\\parallel\\campaign\\attempts\\cell-0000\\139006d8bac6420db47cf9ba3befd2e6\\native.log"
+   ]
+  },
+  "artifacts/tmp/S035/scheduler-controls-1792657934612829800": {
+   "count": 31,
+   "examples": [
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657934612829800\\parallel\\campaign\\attempts\\cell-0000\\d5b4e7eace334931a9dc321579868acb\\native-RESULT.json",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657934612829800\\parallel\\campaign\\attempts\\cell-0000\\d5b4e7eace334931a9dc321579868acb\\native.log",
+    "artifacts\\tmp\\S035\\scheduler-controls-1792657934612829800\\parallel\\campaign\\attempts\\cell-0000\\fef3babebd004677be2114b17d75be17\\CANDIDATE.json"
+   ]
+  },
+  "validation/S035/NATIVE_CONTROLS.json": {
+   "count": 1,
+   "examples": [
+    "validation\\S035\\NATIVE_CONTROLS.json"
+   ]
+  },
+  "validation/S035/resident-pilot/NATIVE_CONTROLS_CONGRUENCE_DISABLED.json": {
+   "count": 1,
+   "examples": [
+    "validation\\S035\\resident-pilot\\NATIVE_CONTROLS_CONGRUENCE_DISABLED.json"
+   ]
+  },
+  "validation/S035/resident-pilot/NATIVE_CONTROLS_DEFAULT.json": {
+   "count": 1,
+   "examples": [
+    "validation\\S035\\resident-pilot\\NATIVE_CONTROLS_DEFAULT.json"
+   ]
+  },
+  "validation/S035/resident/NATIVE_CONTROLS_CONGRUENCE_DISABLED.json": {
+   "count": 1,
+   "examples": [
+    "validation\\S035\\resident\\NATIVE_CONTROLS_CONGRUENCE_DISABLED.json"
+   ]
+  },
+  "validation/S035/resident/NATIVE_CONTROLS_DEFAULT.json": {
+   "count": 1,
+   "examples": [
+    "validation\\S035\\resident\\NATIVE_CONTROLS_DEFAULT.json"
+   ]
+  }
+ },
+ "seconds": 9.562754154205322,
+ "epoch": 1792755145.5361466
+}

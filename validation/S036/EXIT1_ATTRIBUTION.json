@@ -1,0 +1,252 @@
+{
+ "status": "ATTRIBUTED",
+ "native_exit_codes": {
+  "SAT": 10,
+  "UNSAT": 20,
+  "UNKNOWN": 0,
+  "die": 3
+ },
+ "taskkill_force_control_exit_code": 1,
+ "rows": [
+  {
+   "cell": 0,
+   "attempt": "c1a7ce810a1a4033bbc873f1e936534c",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.687,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 0,
+   "attempt": "ed99a4d0d6fb498891285fc8491ba3ce",
+   "reason": "OWNER_STOP",
+   "wall_seconds": 1500.686999999998,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 owner stop: engine halt stop_group() ran taskkill /T /F"
+  },
+  {
+   "cell": 1,
+   "attempt": "9e4eeac64eed4572baae2e6f408a0af5",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.530999999999,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 1,
+   "attempt": "d318076ca17845378321872198895cd2",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.2810000000009,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 3,
+   "attempt": "1fe62f972b564c958c86cf8e726460e9",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.5469999999987,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 3,
+   "attempt": "a8f6857bcf57453b9a4f7c2c79a7e33f",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.3289999999997,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 7,
+   "attempt": "6bdc0505f69f4c56af8f16fc608d8b61",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.469000000001,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 7,
+   "attempt": "8e0b2e5120bc44c29c1c052f287adf9e",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.6410000000014,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 15,
+   "attempt": "38f130e25c5e45e4b5a5e689dd5a432d",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.6090000000004,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 15,
+   "attempt": "5e7be72d2517470c9a5b02c11e45cd2b",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.5159999999996,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 15,
+   "attempt": "a3e8173d0f80443a9886fa63fbf28a3a",
+   "reason": null,
+   "wall_seconds": 104.0779999999977,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "worker_started_utc": "2026-10-22T15:20:01.272472+00:00",
+   "exit_observed_near_utc": "2026-10-22T15:21:45.350472+00:00",
+   "journal_events_within_5s": [
+    {
+     "kind": "stop_requested",
+     "utc": "2026-10-22T15:21:44.456023+00:00",
+     "reason": "OWNER_STOP"
+    },
+    {
+     "kind": "guardian_stopped",
+     "utc": "2026-10-22T15:21:46.056021+00:00",
+     "reason": "OWNER_STOP"
+    }
+   ],
+   "attribution": "V1 resident pilot OWNER_STOP: halt stop_group() ran taskkill /T /F on the executing resident"
+  },
+  {
+   "cell": 31,
+   "attempt": "706d216dbe8e475a86a3ac352d8d5826",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.437,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 31,
+   "attempt": "93c07e4ef3a346caa1c7108e008610b2",
+   "reason": null,
+   "wall_seconds": 107.84400000000096,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "worker_started_utc": "2026-10-22T15:19:56.876790+00:00",
+   "exit_observed_near_utc": "2026-10-22T15:21:44.720790+00:00",
+   "journal_events_within_5s": [
+    {
+     "kind": "stop_requested",
+     "utc": "2026-10-22T15:21:44.456023+00:00",
+     "reason": "OWNER_STOP"
+    },
+    {
+     "kind": "guardian_stopped",
+     "utc": "2026-10-22T15:21:46.056021+00:00",
+     "reason": "OWNER_STOP"
+    }
+   ],
+   "attribution": "V1 resident pilot OWNER_STOP: halt stop_group() ran taskkill /T /F on the executing resident"
+  },
+  {
+   "cell": 31,
+   "attempt": "d3bd400034fb45e28fe580acc4197192",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.4530000000013,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 63,
+   "attempt": "deda9559909b413d8c0b0dfa29012c27",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.6720000000005,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 63,
+   "attempt": "ffd3e49496734e8ba2175f90204899ea",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.3430000000008,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 127,
+   "attempt": "078b5360ba664ef09e939276da3677a6",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.3600000000006,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 127,
+   "attempt": "3b2ae8e5d86548508f871cd60ea2dac6",
+   "reason": "OWNER_STOP",
+   "wall_seconds": 1243.7029999999977,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 owner stop: engine halt stop_group() ran taskkill /T /F"
+  },
+  {
+   "cell": 127,
+   "attempt": "b83a67a676e34d3eb84050d941e46db2",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1797.3600000000006,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 255,
+   "attempt": "7065dedcaa344195adbec177e380c428",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.5929999999971,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  },
+  {
+   "cell": 255,
+   "attempt": "e0a4d24d1eee4462926f2583c69450af",
+   "reason": "VISIT_QUANTUM",
+   "wall_seconds": 1798.563,
+   "fatal_marker": false,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "attribution": "V1 visit-quantum cap: engine stop_group() ran taskkill /T /F at the registered visit limit"
+  }
+ ],
+ "conclusion": "Every exit 1 in the unresolved regions is a forced Windows termination by the historical S035 V1 engine (visit cap or owner-stop halt), not a native crash, SAT or UNSAT. No log carries a FATAL, SAT or UNSAT marker. S036 never force-terminates; its cold slot ends by --timeout or the cooperative stop file.",
+ "verdict": "UNKNOWN"
+}

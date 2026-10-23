@@ -1,3 +1,17 @@
+# S036 IN_PROGRESS — repaired SAT supervisor, retained-RAM long search (23 October 2026)
+
+Owner "run next session" invoked S036 only (D047/D074; existing main, no branch/PR).
+SAT-first entry audit found no scientific SAT/candidate/exit10; all twelve S035
+identities survive suspended with exact thread sets. The S035 watcher failure is
+repaired in NEW files (tools/s036_sat_scan.py, scripts/s036_sat_supervisor.py,
+scripts/s036_resident_controller.py); S035 source bytes and artifacts stay frozen.
+Live authority is artifacts/tmp/S036/control (ADOPTION, CONTROLLER, WATCHER,
+GUARD_PAUSE, SAT_ALERT, COLD_SLOT); read sessions/S036/PLAN.md and RUNNING.md.
+Never wake legacy controls, resume classified helpers, force-kill, evict or
+duplicate; never auto-restart a paused controller. Cold slot is bounded and
+registered (validation/S036/COLD_CAPACITY_PLAN.json). No S037 automatically.
+247/256 encoded closures, nine UNKNOWN, S11 UNKNOWN; 9<=chi2<=12 unchanged.
+
 # S035 CLOSED — S036 targeted long search FUTURE / UNEXECUTED (23 October2026)
 
 Owner requested investigation/closeout and a next-session long-search prompt.
