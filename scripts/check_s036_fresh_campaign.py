@@ -184,6 +184,33 @@ def sat_path(root):
     return 'native exit 10 recorded in TERMINAL and SAT_ALERT, controller halted with SAT priority, peer suspended'
 
 
+def cold_band():
+    """Registered amendment 2: the cold slot may use the 5..5.75 GiB band; residents may not."""
+    from types import SimpleNamespace
+    G = fresh.GiB
+    state = {}
+
+    def fake(area, control, contexts, registry, cache):
+        sample = dict(private=state['total'], cold_slot=state['cold'])
+        if state['total'] > ctl.LIMITS['soft_private']:
+            return 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE', None, sample
+        return None, None, sample
+    saved = ctl.LIMITS
+    rows = []
+    for total, cold, expect in ((5.3, 1.3, None), (5.9, 1.3, 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE'),
+                                (5.3, 0.2, 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE'),
+                                (5.3, None, 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE'), (4.5, 1.3, None)):
+        state.update(total=int(total * G), cold=dict(pid=1) if cold else None)
+        proc = SimpleNamespace(memory_info=lambda c=cold: SimpleNamespace(private=int((c or 0) * G)))
+        with patch.object(ctl, 'resource_reason', fake), patch.object(fresh.psutil, 'Process', lambda pid: proc):
+            hard, _, sample = fresh.resource(None, None, [], [], {})
+        assert hard == expect, (total, cold, hard)
+        assert ctl.LIMITS is saved and ctl.LIMITS['soft_private'] == 5 * G
+        rows.append((total, cold, hard))
+    return ('cold band: residents 4.0 + cold 1.3 GiB allowed; total above 5.75 GiB or residents alone above '
+            '5 GiB still return the target reason; limits restored after each evaluation')
+
+
 def wmi_launch(root):
     """The WMI path creates a process outside any job object."""
     import ctypes
@@ -223,6 +250,7 @@ def main():
         report['scheduler'] = scheduler(root)
         report['sat_path'] = sat_path(root)
         report['cold_yield'] = cold_yield(root)
+        report['cold_band'] = cold_band()
         report['wmi_launch'] = wmi_launch(root)
     report.update(status='PASS', native_sha256=sha(EXE), source_sha256=fresh.sources(), forced_terminations=0,
                   scientific_processes_touched=False, test_sha256=sha(__file__))

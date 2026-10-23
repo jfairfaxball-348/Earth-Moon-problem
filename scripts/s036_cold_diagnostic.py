@@ -122,7 +122,7 @@ def gates(admission=False, cold_private=0):
     else:
         if available < int(2.75 * GiB):
             return f'YIELD_AVAILABLE_RAM {available}'
-        if private + cold_private > 5 * GiB:
+        if private + cold_private > plan.get('cold_yield_aggregate_max', 5 * GiB):
             return f'YIELD_AGGREGATE_PRIVATE {private + cold_private}'
         if cold_private > 1.5 * GiB:
             return f'YIELD_COLD_PRIVATE {cold_private}'

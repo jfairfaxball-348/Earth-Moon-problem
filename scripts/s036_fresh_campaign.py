@@ -47,6 +47,37 @@ SOURCES = ('tools/s036_sat_scan.py', 'scripts/s036_sat_supervisor.py', 'scripts/
            'tools/s035_sat_validation.py', 'tools/s035_windows.py')
 GiB = 1024 ** 3
 ADMISSION = dict(reserve_bytes=int(1.5 * GiB), available_after_min=int(2.75 * GiB), loading_seconds=120)
+# Owner-approved amendment 2 (validation/S036/COLD_CAPACITY_PLAN.json): the cold slot may
+# occupy the band between the 5 GiB resident target and this ceiling; the 6 GiB aggregate
+# hard cap is unchanged and residents alone remain bound by the 5 GiB target.
+COLD_CEILING = int(5.75 * GiB)
+
+
+def resource(area, control, contexts, registry, cache):
+    """Resident resource gate with the registered cold band.
+
+    If the 5 GiB target is crossed only because of a live cold solver, and the total
+    stays within COLD_CEILING, every other check is re-evaluated with the target lifted
+    to the ceiling. Above the ceiling, or if residents alone exceed 5 GiB, the target
+    reason is returned so the caller asks the cold slot to yield (or halts).
+    """
+    hard, soft, sample = ctl.resource_reason(area, control, contexts, registry, cache)
+    if hard != 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE' or not sample.get('cold_slot'):
+        return hard, soft, sample
+    try:
+        cold_private = psutil.Process(sample['cold_slot']['pid']).memory_info().private
+    except psutil.Error:
+        cold_private = 0
+    if sample['private'] - cold_private > ctl.LIMITS['soft_private'] or sample['private'] > COLD_CEILING:
+        return hard, soft, sample
+    saved = ctl.LIMITS
+    ctl.LIMITS = dict(saved, soft_private=COLD_CEILING)
+    try:
+        hard, soft, sample = ctl.resource_reason(area, control, contexts, registry, cache)
+    finally:
+        ctl.LIMITS = saved
+    sample['cold_band'] = True
+    return hard, soft, sample
 
 
 def sources():
@@ -282,8 +313,8 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
                 if now >= end:
                     reason = 'BOUNDED_PILOT_COMPLETE_RAM_PRESERVED'
                     break
-                hard, soft, sample = ctl.resource_reason(area, control, contexts,
-                                                         registry + [c['worker'] for c in contexts], cache)
+                hard, soft, sample = resource(area, control, contexts,
+                                              registry + [c['worker'] for c in contexts], cache)
                 if hard == 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE' and sample.get('cold_slot'):
                     # The cold slot always yields first: request its cooperative stop
                     # and give it up to 60 s before treating the target as binding.
