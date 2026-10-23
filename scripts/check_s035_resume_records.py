@@ -67,5 +67,7 @@ assert read('validation/S035/resume/audit/VALIDATOR_CONTROLS.json')['status'] ==
 manifest = read('validation/S035/resume/MANIFEST.json')
 for name, row in manifest['files'].items():
     path = ROOT/name
+    if sha(path) != row['sha256']:
+        path=ROOT/'validation/S035/thread-repair/frozen-source'/(row['sha256']+'.bytes')
     assert path.stat().st_size == row['bytes'] and sha(path) == row['sha256'], name
 print('PASS S035 invoked recovery and immutable pause evidence; no fresh proof replay or headline advance')

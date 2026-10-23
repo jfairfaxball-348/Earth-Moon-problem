@@ -1,3 +1,13 @@
+# S035 authorised resumption — classified thread isolation repair (23 October2026)
+
+Original solver threads may resume only after the newly published lifecycle
+acceptance and fresh SAT supervisor gates pass. Extra threads were identified
+from matching Microsoft symbols as ntdll!TppWorkerThread; their creator is not
+established and they remain quarantined/suspended. Never resume those helpers,
+legacy controls, or unclassified threads. Read sessions/S035/THREAD_REPAIR.md
+and the live RESUME_CONTROL authority. S036 remains unauthorised. The headers
+below are historical; actual RUNNING requires live controller/watcher identities.
+
 # S035 recovery authorised; preserved pause at thread identity gate (22 October2026)
 
 Full recovery and the120s same-process pilot passed. Sustained search has NOT

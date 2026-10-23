@@ -27,10 +27,11 @@ from s035_windows import atomic_json, read_json, journal, locked, inhibit_sleep,
 from s035_preserved_lifecycle import (LifecycleError, identity, checked, thread_counts,
                                       pause_identity, resume_identity, ProcessHandle,
                                       sample_identities)
+import s035_thread_policy as thread_policy
 
 DEFAULT = ROOT / "artifacts/tmp/S035/campaign"
 SOURCES = ("tools/s035_preserved_lifecycle.py", "scripts/s035_preserved_campaign.py",
-           "scripts/s035_sat_first_resume.py", "tools/s035_sat_validation.py")
+           "scripts/s035_sat_first_resume.py", "tools/s035_sat_validation.py", "tools/s035_thread_policy.py")
 
 
 def sha(path):
@@ -54,23 +55,23 @@ def plan(area):
     if set(frozen) != {"0", "7", "127", "255"} or set(current) != set(frozen):
         raise LifecycleError("Unexpected resident membership; manual reconciliation required")
     contexts = []
+    policy = thread_policy.load(area)
     for key in sorted(frozen, key=int):
         context = frozen[key]
         if (current[key]["worker"] != context["worker"] or
                 current[key]["directory"] != context["directory"]):
             raise LifecycleError("Frozen/current resident identity mismatch")
         checked(context["worker"])
-        if checked(context["worker"]).status() != psutil.STATUS_STOPPED:
-            raise LifecycleError("A resident is already executing; refuse duplicate controller")
+        thread_policy.validate(context['worker'], policy, paused=True)
         contexts.append(dict(cell=context["cell"], worker=context["worker"],
                              directory=context["directory"], original_state=context["state"],
                              original_turns=context.get("turns", 0), turns=0,
-                             active_seconds=0.0, state="PAUSED"))
+                             active_seconds=0.0, state="PAUSED",
+                             quarantined_threads=policy['processes'][str(context['worker']['pid'])]['quarantined_threads']))
     if not (area / "STOP").exists():
         raise LifecycleError("Historical STOP must remain latched")
     for record in paused["processes"]:
-        if checked(record).status() != psutil.STATUS_STOPPED:
-            raise LifecycleError("Original process tree must remain paused")
+        thread_policy.validate(record, policy, paused=True)
     ledger = read_json(area / "REGIONS.json")
     unresolved = [row["id"] for row in ledger["cells"] if row["status"] != "UNSAT_DRAT_VERIFIED"]
     if unresolved != [0, 1, 3, 7, 15, 31, 63, 127, 255]:
@@ -102,12 +103,17 @@ def published_acceptance(control):
     row = read_json(control / "ACCEPTANCE.json")
     if row.get("status") != "PASS" or row.get("source_sha256") != sources():
         raise LifecycleError("Published lifecycle/SAT acceptance is absent or stale")
+    if row.get('thread_policy_sha256') != sha(control/'THREAD_POLICY.json'):
+        raise LifecycleError('Thread quarantine policy differs from published acceptance')
     commit = row["published_commit"]
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     remote = subprocess.check_output(["git", "ls-remote", "origin", "refs/heads/main"],
                                      cwd=ROOT, text=True, timeout=30).split()[0]
     if head != commit or remote != commit:
         raise LifecycleError("Acceptance commit is not verified local and remote main")
+    committed_policy = subprocess.check_output(['git','show',f'{commit}:validation/S035/thread-repair/THREAD_POLICY.json'],cwd=ROOT)
+    if hashlib.sha256(committed_policy).hexdigest()!=row['thread_policy_sha256']:
+        raise LifecycleError('Thread policy was not published with acceptance sources')
     for name, digest in sources().items():
         committed = subprocess.check_output(["git", "show", f"{commit}:{name}"], cwd=ROOT)
         if hashlib.sha256(committed).hexdigest() != digest:
@@ -338,8 +344,8 @@ def run(area, control, pilot_seconds=None):
                     # deadlines, held claims and finally blocks stay frozen.
                     native_pids = {row["worker"]["pid"] for row in contexts}
                     for record in adoption["original_processes"]:
-                        if record["pid"] not in native_pids and checked(record).status() != psutil.STATUS_STOPPED:
-                            raise LifecycleError("A legacy controller/ancestor unexpectedly resumed")
+                        thread_policy.validate(record, thread_policy.load(area),
+                                               paused=record['pid'] not in native_pids)
                     now = time.monotonic()
                     for context in contexts:
                         key = context["cell"]
@@ -365,7 +371,7 @@ def run(area, control, pilot_seconds=None):
                         with locked(control / "MUTATION.lock"):
                             if stop_reason(area, control):
                                 break
-                            resume_identity(context["worker"], context["threads"])
+                            resume_identity(context["worker"], context["threads"], context['quarantined_threads'])
                             if stop_reason(area, control):
                                 context["threads"] = pause_identity(context["worker"])
                                 break
@@ -428,6 +434,7 @@ def rearm_pilot(area, control):
     area, control = Path(area).resolve(), Path(control).resolve()
     if control != area / "RESUME_CONTROL":
         raise LifecycleError("Only the registered adoption control can be rearmed")
+    published_acceptance(control)
     if (area / "SAT_ALERT.json").exists() or (control / "SAT_ALERT.json").exists():
         raise LifecycleError("SAT discovery requires review; pilot rearm forbidden")
     previous = read_json(control / "ADOPTION.json")
@@ -449,14 +456,21 @@ def rearm_pilot(area, control):
     with locked(control / "CONTROLLER.lock", blocking=False):
         with locked(control / "MUTATION.lock", blocking=False):
             for context in previous["contexts"]:
-                if thread_counts(context["worker"]) != context["threads"]:
+                actual = thread_policy.validate(context['worker'], thread_policy.load(area), paused=True)
+                old_ids = thread_policy.keys(context['threads'])
+                retained = [r for r in actual if (r['tid'], r['created_ticks']) in old_ids]
+                if sorted(retained,key=lambda r:r['tid']) != sorted(context['threads'],key=lambda r:r['tid']):
                     raise LifecycleError("Pilot suspended thread counts changed")
+                extras = [r for r in actual if (r['tid'],r['created_ticks']) not in old_ids]
+                approved = thread_policy.load(area)['processes'][str(context['worker']['pid'])]['quarantined_threads']
+                if not thread_policy.keys(extras) <= thread_policy.keys(approved):
+                    raise LifecycleError('Unclassified later-created thread; no rearm')
             history = control / "history" / (str(time.time_ns()) + "-" + uuid.uuid4().hex[:8])
             if not history.resolve().is_relative_to(control):
                 raise LifecycleError("History target escaped adoption control directory")
             history.mkdir(parents=True)
             moved = []
-            retained = {"ACCEPTANCE.json", "JOURNAL.jsonl", "CONTROLLER.lock", "MUTATION.lock", "history", "STOP"}
+            retained = {"ACCEPTANCE.json", "JOURNAL.jsonl", "CONTROLLER.lock", "MUTATION.lock", "history", "STOP", "THREAD_POLICY.json"}
             for path in list(control.iterdir()):
                 if path.name in retained:
                     continue

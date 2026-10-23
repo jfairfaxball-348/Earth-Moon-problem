@@ -1,0 +1,44 @@
+name: Research scaffold checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate authoritative state and catalogues
+        run: python scripts/check_scaffold.py
+      - name: Run preliminary certificate checker tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate S026 archived evidence integrity
+        run: python scripts/check_s026_records.py
+      - name: Validate S027 archived evidence integrity
+        run: python scripts/check_s027_records.py
+      - name: Validate S028 archived evidence integrity and D062 prompt
+        run: python scripts/check_d062_records.py
+      - name: Validate S029 frozen landscape and S030 prompt
+        run: python scripts/check_s030_history.py
+      - name: Validate S030 bounded search records and S031 prompt
+        run: python scripts/check_s030_records.py
+      - name: Validate S031 capped long-run records and S032 future prompt
+        run: python scripts/check_s031_records.py
+      - name: Validate D072 phone S033 prompt and preserved S032 history
+        run: python scripts/check_d072_active_prompt.py
+      - name: Validate S033 ARM64 environment evidence integrity
+        run: python scripts/check_s033_records.py
+      - name: Validate S034 registered region campaign evidence
+        run: python scripts/check_s034_records.py
+      - name: Validate S035 Windows multiple-worker launch evidence
+        run: python scripts/check_s035_records.py
+      - name: Validate S035 resident execution upgrade evidence
+        run: python scripts/check_s035_resident_records.py
+      - name: Validate S035 owner pause and SAT-first handling
+        run: |
+          python scripts/check_s035_sat_first.py
+          python scripts/check_s035_resume_records.py
+          python scripts/check_s035_sat_resume.py

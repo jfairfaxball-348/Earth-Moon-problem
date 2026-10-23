@@ -1,0 +1,462 @@
+{
+ "status": "CLASSIFIED_HELPERS_REMAIN_SUSPENDED",
+ "processes": {
+  "14192": {
+   "start_ticks": "1792682628.7765863",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 13920,
+     "created_ticks": "134371562287765888",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 13920,
+     "created_ticks": "134371562287765888",
+     "suspend_count": 1,
+     "start_address": "0x7ff7a68f12a0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  },
+  "10296": {
+   "start_ticks": "1792682629.3092763",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 10628,
+     "created_ticks": "134371562293092797",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9076,
+     "created_ticks": "134371684766965844",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 9076,
+     "created_ticks": "134371684766965844",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 10628,
+     "created_ticks": "134371562293092797",
+     "suspend_count": 1,
+     "start_address": "0x7ff694d61fb0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 9076,
+     "created_ticks": "134371684766965844",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "14508": {
+   "start_ticks": "1792682629.3147533",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 13904,
+     "created_ticks": "134371562293225111",
+     "suspend_count": 1
+    },
+    {
+     "tid": 13208,
+     "created_ticks": "134371562293228588",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 13904,
+     "created_ticks": "134371562293225111",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db52cf0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 13208,
+     "created_ticks": "134371562293228588",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db43ba0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  },
+  "18384": {
+   "start_ticks": "1792682629.327922",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 7056,
+     "created_ticks": "134371562293279248",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9932,
+     "created_ticks": "134371562383956908",
+     "suspend_count": 1
+    },
+    {
+     "tid": 12096,
+     "created_ticks": "134371562383963206",
+     "suspend_count": 1
+    },
+    {
+     "tid": 12888,
+     "created_ticks": "134371684766966327",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 12888,
+     "created_ticks": "134371684766966327",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 7056,
+     "created_ticks": "134371562293279248",
+     "suspend_count": 1,
+     "start_address": "0x7ff7a68f12a0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 9932,
+     "created_ticks": "134371562383956908",
+     "suspend_count": 1,
+     "start_address": "0x7ffee47ccd00",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 12096,
+     "created_ticks": "134371562383963206",
+     "suspend_count": 1,
+     "start_address": "0x7ffee47ccd00",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 12888,
+     "created_ticks": "134371684766966327",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "12384": {
+   "start_ticks": "1792682640.4900093",
+   "kind": "NATIVE_ORIGINAL_THREAD_ONLY",
+   "threads": [
+    {
+     "tid": 4888,
+     "created_ticks": "134371562404900220",
+     "suspend_count": 1
+    },
+    {
+     "tid": 5408,
+     "created_ticks": "134371684766967440",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 5408,
+     "created_ticks": "134371684766967440",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 4888,
+     "created_ticks": "134371562404900220",
+     "suspend_count": 1,
+     "start_address": "0x7ff6722613b0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 5408,
+     "created_ticks": "134371684766967440",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "3500": {
+   "start_ticks": "1792682640.5223634",
+   "kind": "NATIVE_ORIGINAL_THREAD_ONLY",
+   "threads": [
+    {
+     "tid": 13668,
+     "created_ticks": "134371562405223651",
+     "suspend_count": 1
+    },
+    {
+     "tid": 16156,
+     "created_ticks": "134371684766969032",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 16156,
+     "created_ticks": "134371684766969032",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 13668,
+     "created_ticks": "134371562405223651",
+     "suspend_count": 1,
+     "start_address": "0x7ff6722613b0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 16156,
+     "created_ticks": "134371684766969032",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "14812": {
+   "start_ticks": "1792682657.7049177",
+   "kind": "NATIVE_ORIGINAL_THREAD_ONLY",
+   "threads": [
+    {
+     "tid": 17908,
+     "created_ticks": "134371562577049198",
+     "suspend_count": 1
+    },
+    {
+     "tid": 13732,
+     "created_ticks": "134371684766971439",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 13732,
+     "created_ticks": "134371684766971439",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 17908,
+     "created_ticks": "134371562577049198",
+     "suspend_count": 1,
+     "start_address": "0x7ff6722613b0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 13732,
+     "created_ticks": "134371684766971439",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "17984": {
+   "start_ticks": "1792682657.7354991",
+   "kind": "NATIVE_ORIGINAL_THREAD_ONLY",
+   "threads": [
+    {
+     "tid": 4232,
+     "created_ticks": "134371562577355010",
+     "suspend_count": 1
+    },
+    {
+     "tid": 10796,
+     "created_ticks": "134371684766975186",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [
+    {
+     "tid": 10796,
+     "created_ticks": "134371684766975186",
+     "suspend_count": 1
+    }
+   ],
+   "classification": [
+    {
+     "tid": 4232,
+     "created_ticks": "134371562577355010",
+     "suspend_count": 1,
+     "start_address": "0x7ff6722613b0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 10796,
+     "created_ticks": "134371684766975186",
+     "suspend_count": 1,
+     "start_address": "0x7ffee7444990",
+     "role": "OS_THREADPOOL_QUARANTINED_NEVER_RESUME"
+    }
+   ]
+  },
+  "11104": {
+   "start_ticks": "1792682657.7398837",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 12920,
+     "created_ticks": "134371562577481312",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9040,
+     "created_ticks": "134371562577484847",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 12920,
+     "created_ticks": "134371562577481312",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db52cf0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 9040,
+     "created_ticks": "134371562577484847",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db43ba0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  },
+  "15352": {
+   "start_ticks": "1792682657.7101965",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 7960,
+     "created_ticks": "134371562577180081",
+     "suspend_count": 1
+    },
+    {
+     "tid": 8936,
+     "created_ticks": "134371562577185127",
+     "suspend_count": 1
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 7960,
+     "created_ticks": "134371562577180081",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db52cf0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 8936,
+     "created_ticks": "134371562577185127",
+     "suspend_count": 1,
+     "start_address": "0x7ff61db43ba0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  },
+  "2224": {
+   "start_ticks": "1792682640.5278616",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 11120,
+     "created_ticks": "134371562405370234",
+     "suspend_count": 2
+    },
+    {
+     "tid": 9080,
+     "created_ticks": "134371562405373811",
+     "suspend_count": 2
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 11120,
+     "created_ticks": "134371562405370234",
+     "suspend_count": 2,
+     "start_address": "0x7ff61db52cf0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 9080,
+     "created_ticks": "134371562405373811",
+     "suspend_count": 2,
+     "start_address": "0x7ff61db43ba0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  },
+  "6808": {
+   "start_ticks": "1792682640.4960043",
+   "kind": "LEGACY_NEVER_RESUME",
+   "threads": [
+    {
+     "tid": 12492,
+     "created_ticks": "134371562405043530",
+     "suspend_count": 2
+    },
+    {
+     "tid": 12884,
+     "created_ticks": "134371562405047831",
+     "suspend_count": 2
+    }
+   ],
+   "quarantined_threads": [],
+   "classification": [
+    {
+     "tid": 12492,
+     "created_ticks": "134371562405043530",
+     "suspend_count": 2,
+     "start_address": "0x7ff61db52cf0",
+     "role": "ORIGINAL_THREAD"
+    },
+    {
+     "tid": 12884,
+     "created_ticks": "134371562405047831",
+     "suspend_count": 2,
+     "start_address": "0x7ff61db43ba0",
+     "role": "ORIGINAL_THREAD"
+    }
+   ]
+  }
+ },
+ "symbol_evidence": {
+  "symbol": "TppWorkerThread",
+  "displacement": 0,
+  "address": "0x7ffee7444990",
+  "module": "C:/Windows/System32/ntdll.dll",
+  "module_sha256": "651ac9041af8e6b5ebd331d53163244c0a27d36d1433f0f15cac1f28c5f2e82c",
+  "pdb_url": "https://msdl.microsoft.com/download/symbols/ntdll.pdb/C031D45B0DA18A6E74D06ED6AB2DD9E11/ntdll.pdb",
+  "pdb_sha256": "c93f4614aa6f40fe370d40eb7ee9589ca0eda170ef2d704b5d278da71c02c249",
+  "pdb_guid": "C031D45B0DA18A6E74D06ED6AB2DD9E1",
+  "pdb_age": 1
+ },
+ "creator": "NOT_ESTABLISHED; no permission inferred to run these helpers",
+ "rule": "Resume only original native thread IDs/create times; preserve every helper and all legacy threads suspended"
+}

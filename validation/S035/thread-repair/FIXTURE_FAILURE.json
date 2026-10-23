@@ -1,0 +1,7 @@
+{
+ "stage": "disposable scheduler fixture",
+ "pilot_seconds": 3.2,
+ "error": "Not all contexts received two turns before the short fixture ended",
+ "resolution": "8s fixture rerun passed; isolated repeated turns tested separately",
+ "scientific_processes_touched": false
+}

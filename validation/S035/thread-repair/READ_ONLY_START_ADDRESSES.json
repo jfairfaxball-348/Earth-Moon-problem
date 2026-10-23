@@ -1,0 +1,282 @@
+{
+ "exports": {
+  "DbgUiRemoteBreakin": "0x7ffee7556440",
+  "RtlUserThreadStart": "0x7ffee749ee20",
+  "TppWorkerThread": "0x0",
+  "RtlpQueryProcessDebugInformationRemote": "0x7ffee7557790"
+ },
+ "processes": [
+  {
+   "pid": 14192,
+   "start_ticks": "1792682628.7765863",
+   "threads": [
+    {
+     "tid": 13920,
+     "created_ticks": "134371562287765888",
+     "start_address": "0x7ff7a68f12a0",
+     "matching_export": [],
+     "user_seconds": 4.078125,
+     "system_seconds": 33.265625
+    }
+   ]
+  },
+  {
+   "pid": 10296,
+   "start_ticks": "1792682629.3092763",
+   "threads": [
+    {
+     "tid": 10628,
+     "created_ticks": "134371562293092797",
+     "start_address": "0x7ff694d61fb0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.015625
+    },
+    {
+     "tid": 9076,
+     "created_ticks": "134371684766965844",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 14508,
+   "start_ticks": "1792682629.3147533",
+   "threads": [
+    {
+     "tid": 13904,
+     "created_ticks": "134371562293225111",
+     "start_address": "0x7ff61db52cf0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    },
+    {
+     "tid": 13208,
+     "created_ticks": "134371562293228588",
+     "start_address": "0x7ff61db43ba0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 18384,
+   "start_ticks": "1792682629.327922",
+   "threads": [
+    {
+     "tid": 7056,
+     "created_ticks": "134371562293279248",
+     "start_address": "0x7ff7a68f12a0",
+     "matching_export": [],
+     "user_seconds": 167.859375,
+     "system_seconds": 471.078125
+    },
+    {
+     "tid": 9932,
+     "created_ticks": "134371562383956908",
+     "start_address": "0x7ffee47ccd00",
+     "matching_export": [],
+     "user_seconds": 37.796875,
+     "system_seconds": 248.5
+    },
+    {
+     "tid": 12096,
+     "created_ticks": "134371562383963206",
+     "start_address": "0x7ffee47ccd00",
+     "matching_export": [],
+     "user_seconds": 37.59375,
+     "system_seconds": 249.84375
+    },
+    {
+     "tid": 12888,
+     "created_ticks": "134371684766966327",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 12384,
+   "start_ticks": "1792682640.4900093",
+   "threads": [
+    {
+     "tid": 4888,
+     "created_ticks": "134371562404900220",
+     "start_address": "0x7ff6722613b0",
+     "matching_export": [],
+     "user_seconds": 3646.71875,
+     "system_seconds": 30.171875
+    },
+    {
+     "tid": 5408,
+     "created_ticks": "134371684766967440",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 3500,
+   "start_ticks": "1792682640.5223634",
+   "threads": [
+    {
+     "tid": 13668,
+     "created_ticks": "134371562405223651",
+     "start_address": "0x7ff6722613b0",
+     "matching_export": [],
+     "user_seconds": 3650.953125,
+     "system_seconds": 29.328125
+    },
+    {
+     "tid": 16156,
+     "created_ticks": "134371684766969032",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 14812,
+   "start_ticks": "1792682657.7049177",
+   "threads": [
+    {
+     "tid": 17908,
+     "created_ticks": "134371562577049198",
+     "start_address": "0x7ff6722613b0",
+     "matching_export": [],
+     "user_seconds": 3117.015625,
+     "system_seconds": 27.109375
+    },
+    {
+     "tid": 13732,
+     "created_ticks": "134371684766971439",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 17984,
+   "start_ticks": "1792682657.7354991",
+   "threads": [
+    {
+     "tid": 4232,
+     "created_ticks": "134371562577355010",
+     "start_address": "0x7ff6722613b0",
+     "matching_export": [],
+     "user_seconds": 3117.6875,
+     "system_seconds": 26.953125
+    },
+    {
+     "tid": 10796,
+     "created_ticks": "134371684766975186",
+     "start_address": "0x7ffee7444990",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 11104,
+   "start_ticks": "1792682657.7398837",
+   "threads": [
+    {
+     "tid": 12920,
+     "created_ticks": "134371562577481312",
+     "start_address": "0x7ff61db52cf0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    },
+    {
+     "tid": 9040,
+     "created_ticks": "134371562577484847",
+     "start_address": "0x7ff61db43ba0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 15352,
+   "start_ticks": "1792682657.7101965",
+   "threads": [
+    {
+     "tid": 7960,
+     "created_ticks": "134371562577180081",
+     "start_address": "0x7ff61db52cf0",
+     "matching_export": [],
+     "user_seconds": 0.015625,
+     "system_seconds": 0.0
+    },
+    {
+     "tid": 8936,
+     "created_ticks": "134371562577185127",
+     "start_address": "0x7ff61db43ba0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 2224,
+   "start_ticks": "1792682640.5278616",
+   "threads": [
+    {
+     "tid": 11120,
+     "created_ticks": "134371562405370234",
+     "start_address": "0x7ff61db52cf0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    },
+    {
+     "tid": 9080,
+     "created_ticks": "134371562405373811",
+     "start_address": "0x7ff61db43ba0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  },
+  {
+   "pid": 6808,
+   "start_ticks": "1792682640.4960043",
+   "threads": [
+    {
+     "tid": 12492,
+     "created_ticks": "134371562405043530",
+     "start_address": "0x7ff61db52cf0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    },
+    {
+     "tid": 12884,
+     "created_ticks": "134371562405047831",
+     "start_address": "0x7ff61db43ba0",
+     "matching_export": [],
+     "user_seconds": 0.0,
+     "system_seconds": 0.0
+    }
+   ]
+  }
+ ]
+}

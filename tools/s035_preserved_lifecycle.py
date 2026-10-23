@@ -51,6 +51,10 @@ if os.name == "nt":
     kernel.WaitForSingleObject.restype = wintypes.DWORD
     kernel.CloseHandle.argtypes = [wintypes.HANDLE]
     kernel.CloseHandle.restype = wintypes.BOOL
+    ntdll = ctypes.WinDLL("ntdll", use_last_error=True)
+    ntdll.NtQueryInformationThread.argtypes = [wintypes.HANDLE, wintypes.ULONG,
+        ctypes.c_void_p, wintypes.ULONG, ctypes.POINTER(wintypes.ULONG)]
+    ntdll.NtQueryInformationThread.restype = wintypes.LONG
 
 
 def _failed(message):
@@ -94,26 +98,29 @@ def _thread_stamp(handle):
     return str((values[0].dwHighDateTime << 32) | values[0].dwLowDateTime)
 
 
-def thread_counts(record):
-    """Inspect an already paused identity using a balanced extra suspension.
+def thread_state(record):
+    """Read exact identities/counts without changing any suspend count.
 
-    SuspendThread returns its previous count. The matching ResumeThread only
-    removes our extra count, so an originally paused thread never runs here.
-    A count-zero surprise retains our protective suspension and is rejected.
+    ThreadSuspendCount (35) is queried dynamically and fails closed if absent.
+    psutil's process status is not an authoritative per-thread suspension gate.
     """
     from contextlib import contextmanager
-    if checked(record).status() != psutil.STATUS_STOPPED:
-        raise LifecycleError("Count inspection requires a paused process")
     rows = []
     with contextmanager(_threads)(record) as handles:
         for tid, handle in handles:
-            previous = _change(handle)
-            if previous < 1:
-                raise LifecycleError("A supposedly paused thread had count zero; protective suspension retained")
-            balanced = _change(handle, resume=True)
-            if balanced != previous + 1:
-                raise LifecycleError("Concurrent suspend-count modification")
-            rows.append(dict(tid=tid, created_ticks=_thread_stamp(handle), suspend_count=previous))
+            count, length = wintypes.ULONG(), wintypes.ULONG()
+            status = ntdll.NtQueryInformationThread(handle, 35, ctypes.byref(count),
+                                                   ctypes.sizeof(count), ctypes.byref(length))
+            if status < 0 or length.value != ctypes.sizeof(count):
+                raise LifecycleError("Read-only thread suspend-count query unavailable")
+            rows.append(dict(tid=tid, created_ticks=_thread_stamp(handle), suspend_count=count.value))
+    return rows
+
+
+def thread_counts(record):
+    rows = thread_state(record)
+    if any(row['suspend_count'] < 1 for row in rows):
+        raise LifecycleError("Registered thread is not suspended")
     return rows
 
 
@@ -132,14 +139,14 @@ def pause_identity(record):
                     balanced = _change(handle, resume=True)
                     if balanced != previous + 1:
                         raise LifecycleError("Concurrent suspend-count modification")
-        if current_set == previous_set and checked(record).status() == psutil.STATUS_STOPPED:
+        if current_set == previous_set:
             return thread_counts(record)
         previous_set = current_set
         time.sleep(.01)
     raise LifecycleError("Process did not become fully paused after stable thread inventory")
 
 
-def resume_identity(record, expected_threads):
+def resume_identity(record, expected_threads, quarantined_threads=()):
     """Resume only a paused process whose exact thread identities/counts match."""
     from contextlib import contextmanager
     actual = thread_counts(record)
@@ -147,6 +154,9 @@ def resume_identity(record, expected_threads):
     if sorted(actual, key=lambda row: row["tid"]) != expected:
         raise LifecycleError("Suspended thread inventory/count mismatch; no resume")
     expected = {row["tid"]: row for row in expected}
+    quarantine = {(row['tid'], row['created_ticks']) for row in quarantined_threads}
+    if not quarantine <= {(row['tid'], row['created_ticks']) for row in actual}:
+        raise LifecycleError("Quarantined thread identity mismatch")
     try:
         with contextmanager(_threads)(record) as handles:
             if {tid for tid, _ in handles} != set(expected):
@@ -155,6 +165,8 @@ def resume_identity(record, expected_threads):
                 row = expected[tid]
                 if _thread_stamp(handle) != row["created_ticks"]:
                     raise LifecycleError("Thread creation identity mismatch")
+                if (tid, row['created_ticks']) in quarantine:
+                    continue  # Never execute later-created OS thread-pool workers.
                 for previous in range(row["suspend_count"], 0, -1):
                     if _change(handle, resume=True) != previous:
                         raise LifecycleError("Suspend count changed during resume")

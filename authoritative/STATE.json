@@ -1818,7 +1818,7 @@
     "witness_established": false,
     "workers": 0,
     "runtime_status_authority": "validation/S035/resume/STATUS_LABEL_DIAGNOSIS.json",
-    "running_handoff": "sessions/S035/RECOVERY_BLOCKED.md",
+    "running_handoff": "sessions/S035/THREAD_REPAIR.md",
     "deadline": null,
     "execution_revision": "S035_RESIDENT_V2",
     "controller_entry": "scripts/s035_resident_campaign.py",
@@ -1876,5 +1876,11 @@
     "mathematical_verdict": "UNKNOWN",
     "no_S036": true,
     "no_new_native_solver_processes": true
+  },
+  "s035_thread_repair": {
+    "status": "CONTROLS_PASS_PENDING_PUBLISHED_ACCEPTANCE_AND_LIVE_VALIDATION",
+    "helper_policy": "QUARANTINED_NEVER_RESUME",
+    "no_new_workers": true,
+    "no_S036": true
   }
 }

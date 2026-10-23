@@ -1,0 +1,11 @@
+{
+ "symbol": "TppWorkerThread",
+ "displacement": 0,
+ "address": "0x7ffee7444990",
+ "module": "C:/Windows/System32/ntdll.dll",
+ "module_sha256": "651ac9041af8e6b5ebd331d53163244c0a27d36d1433f0f15cac1f28c5f2e82c",
+ "pdb_url": "https://msdl.microsoft.com/download/symbols/ntdll.pdb/C031D45B0DA18A6E74D06ED6AB2DD9E11/ntdll.pdb",
+ "pdb_sha256": "c93f4614aa6f40fe370d40eb7ee9589ca0eda170ef2d704b5d278da71c02c249",
+ "pdb_guid": "C031D45B0DA18A6E74D06ED6AB2DD9E1",
+ "pdb_age": 1
+}
