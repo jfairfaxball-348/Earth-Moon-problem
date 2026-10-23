@@ -90,7 +90,15 @@ def gates(admission=False, cold_private=0):
     if watcher.get('status') != 'WATCHING' or time.time() - watcher.get('updated_epoch', 0) > plan['supervisor_heartbeat_max_age_seconds']:
         return 'SUPERVISOR_NOT_WATCHING'
     adoption = read_json(CONTROL / 'ADOPTION.json')
-    private = adoption.get('sample', {}).get('private', 0)
+    # Sample the registered retained/legacy identities plus controller and
+    # supervisor directly; the controller's own sample may already include the
+    # cold process, so it must not be added to cold_private twice.
+    from s035_preserved_lifecycle import sample_identities
+    registry = read_json(AREA / 'OWNER_PAUSE.json')['processes'] + [adoption['controller'], adoption['watcher']]
+    try:
+        private = sample_identities(registry)['private']
+    except Exception as exc:
+        return 'IDENTITY_SAMPLE_UNAVAILABLE:' + repr(exc)
     available = psutil.virtual_memory().available
     if admission:
         if available < plan['available_ram_bytes_min']:

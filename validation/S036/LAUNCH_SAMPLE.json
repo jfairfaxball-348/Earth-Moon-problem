@@ -1,0 +1,153 @@
+{
+ "utc": "2026-10-23T12:00:33Z",
+ "adoption_status": "RUNNING",
+ "reason": null,
+ "executing": [
+  0,
+  7
+ ],
+ "controller": {
+  "status": "RUNNING",
+  "pid": 1612,
+  "alive": true,
+  "lease_age": 0.5
+ },
+ "watcher": {
+  "status": "WATCHING",
+  "pid": 12716,
+  "alive": true,
+  "heartbeat_age": 0.2,
+  "retried_reads": 0,
+  "pending": 0
+ },
+ "sat_alert": false,
+ "stop": false,
+ "historical_stop": true,
+ "throttle": {
+  "active": false,
+  "clear_since": null,
+  "events": 0
+ },
+ "available_gib": 3.52,
+ "aggregate_private_gib": 4.3,
+ "free_disk_gib": 19.09,
+ "contexts": [
+  {
+   "cell": 0,
+   "state": "RUNNING",
+   "turns": 1,
+   "active_seconds": 0.0,
+   "alive": true,
+   "cpu": 5725.281249999999,
+   "private_mib": 729,
+   "conflicts": 35047315,
+   "decisions": 84920715,
+   "propagations": 7404825017,
+   "native_wall_seconds": 74164.265,
+   "checks": 4646983,
+   "cuts": 781012,
+   "native_log_bytes": 404482,
+   "lemma_bytes": 57365486
+  },
+  {
+   "cell": 7,
+   "state": "RUNNING",
+   "turns": 1,
+   "active_seconds": 0.0,
+   "alive": true,
+   "cpu": 6260.328125,
+   "private_mib": 902,
+   "conflicts": 36037442,
+   "decisions": 85077004,
+   "propagations": 7571068497,
+   "native_wall_seconds": 74180.148,
+   "checks": 7241773,
+   "cuts": 1395112,
+   "native_log_bytes": 442906,
+   "lemma_bytes": 100486612
+  },
+  {
+   "cell": 127,
+   "state": "PAUSED",
+   "turns": 0,
+   "active_seconds": 0.0,
+   "alive": true,
+   "cpu": 5973.828124999999,
+   "private_mib": 828,
+   "conflicts": 36012747,
+   "decisions": 83278311,
+   "propagations": 8010012311,
+   "native_wall_seconds": 73996.786,
+   "checks": 339,
+   "cuts": 19,
+   "native_log_bytes": 413341,
+   "lemma_bytes": 1155
+  },
+  {
+   "cell": 255,
+   "state": "PAUSED",
+   "turns": 0,
+   "active_seconds": 0.0,
+   "alive": true,
+   "cpu": 5439.078125,
+   "private_mib": 775,
+   "conflicts": 33171091,
+   "decisions": 74575302,
+   "propagations": 7566606805,
+   "native_wall_seconds": 73979.602,
+   "checks": 228425,
+   "cuts": 74604,
+   "native_log_bytes": 382746,
+   "lemma_bytes": 5899058
+  }
+ ],
+ "cold_slot": {
+  "state": "RUNNING",
+  "worker": {
+   "pid": 8260,
+   "start_ticks": "1792756812.4241316"
+  },
+  "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-0d0e57d6",
+  "stop_file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-0d0e57d6\\COOPERATIVE_STOP",
+  "region": 1,
+  "arm": "baseline",
+  "purpose": "diag",
+  "started_epoch": 1792756812.427559,
+  "budget_wall_seconds": 360.0,
+  "runner": {
+   "pid": 14468,
+   "start_ticks": "1792756808.2935183"
+  }
+ },
+ "sample_seconds": 10.0,
+ "deltas": [
+  {
+   "cell": 0,
+   "cpu": 9.98,
+   "conflicts": 21292,
+   "decisions": 82336,
+   "cuts": 0
+  },
+  {
+   "cell": 7,
+   "cpu": 10.02,
+   "conflicts": 9076,
+   "decisions": 12546,
+   "cuts": 3156
+  },
+  {
+   "cell": 127,
+   "cpu": 0.0,
+   "conflicts": 0,
+   "decisions": 0,
+   "cuts": 0
+  },
+  {
+   "cell": 255,
+   "cpu": 0.0,
+   "conflicts": 0,
+   "decisions": 0,
+   "cuts": 0
+  }
+ ]
+}

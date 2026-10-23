@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S036 IN_PROGRESS: watcher repair accepted locally; publish, adopt retained contexts, launch sustained search, cold diagnostics.",
+    "S036 IN_PROGRESS: sustained retained search RUNNING with repaired supervisor; registered cold diagnostics active.",
     "S11 m155/156 UNKNOWN;247 encoded closures and nine UNKNOWN are not graph/stratum closure.",
     "Four suspended original RAM contexts survive only while exact processes survive; no durable CDCL snapshot.",
     "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged;9<=chi2<=12."
@@ -1929,7 +1929,7 @@
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
   "active_session": {
     "id": "S036",
-    "status": "PAUSED",
+    "status": "RUNNING",
     "authority": "D047/D074 owner invocation 2026-10-23 (\"run next session\")",
     "entry_main": "45a2f328471ccad39b49160b12560c0fe1b27f91",
     "runtime_directory": "artifacts/tmp/S036/control",
@@ -1944,6 +1944,20 @@
     "deadline": null,
     "owner_resume_required": false,
     "resumption_authorized": true,
-    "stage": "ACCEPTANCE_PUBLICATION_BEFORE_SUSTAINED_LAUNCH"
+    "stage": "SUSTAINED_RETAINED_SEARCH_RUNNING_COLD_DIAGNOSTICS_ACTIVE",
+    "acceptance_commit": "7a1c5b8136a7bfa2c91c9c51bb75caf7f1669483",
+    "acceptance_hosted_run": "39949472103",
+    "running_handoff": "sessions/S036/RUNNING.md",
+    "launch_identities": {
+      "controller": {
+        "pid": 1612,
+        "start_ticks": "1792756681.9033551"
+      },
+      "supervisor": {
+        "pid": 12716,
+        "start_ticks": "1792756677.5093255"
+      }
+    },
+    "checkins": "two-hourly scheduled status check-ins; never auto-restart paused work"
   }
 }
