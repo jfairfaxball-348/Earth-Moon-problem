@@ -1,7 +1,7 @@
 {
  "status": "PASS",
  "scanner": [
-  "10178 full reads during 3-writer atomic replacement: no failure; retried 30",
+  "9743 full reads during 3-writer atomic replacement: no failure; retried 36",
   "SAT written under exclusive lock detected after 1.06s of bounded retries",
   "permanent lock: PENDING without cache advance, ScanUnavailable after budget, concurrent SAT still returned, SAT found after release",
   "cross-block marker, split append, truncation, exit10 JSON and candidate names detected"
@@ -22,9 +22,9 @@
  "scientific_processes_touched": false,
  "forced_terminations": 0,
  "source_sha256": {
-  "tools/s036_sat_scan.py": "a913f8c0d168af4a2c234638aa12297dc15c7411a99463443f2937986fef1b85",
-  "scripts/s036_sat_supervisor.py": "af49cfe9639d4196873880c63436fd76e795c91045438ff0c965a473a69951b5",
-  "scripts/s036_resident_controller.py": "70239b1599745a559921954b80a1b197adb995392abbefbcf601304bab6ea500",
+  "tools/s036_sat_scan.py": "48141b853a3971f855573d6b7f1105f87fa7888922011d2575e5d88757f68fdf",
+  "scripts/s036_sat_supervisor.py": "41e947162e5bae30a2d5aad8ce799e43519ac363b42426ee5fcaa37476d2e0cb",
+  "scripts/s036_resident_controller.py": "6205cf5a1e9c0c5be754bb5c4fab371ee9e78f4b5ab6541be964650ff63f82c7",
   "tools/s035_preserved_lifecycle.py": "690f8caf996937cce4c5f439b6cbf66602976f5b887f8e7e8a519dfc937e2a97",
   "scripts/s035_preserved_campaign.py": "2df0d3a5bd1f7d180ec51dc5581d230fb3171160d5203a1c3d1b4c6e839d3ea3",
   "tools/s035_thread_policy.py": "8d59f8d10da4a9e3929d9fd70ef44b93c5a896f939b5e5999122b05395fa73f2",
