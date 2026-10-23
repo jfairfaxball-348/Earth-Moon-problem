@@ -83,9 +83,9 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S036 IN_PROGRESS: sustained retained search RUNNING with repaired supervisor; registered cold diagnostics active.",
+    "S036 IN_PROGRESS: S035 RAM identities lost when the ChatGPT/Codex app closed; fresh audited semantic-recovery residents being launched outside app job objects.",
     "S11 m155/156 UNKNOWN;247 encoded closures and nine UNKNOWN are not graph/stratum closure.",
-    "Four suspended original RAM contexts survive only while exact processes survive; no durable CDCL snapshot.",
+    "Original S035 RAM contexts are lost (unrecoverable private CDCL); fresh S036 residents retain only new RAM learning while their processes survive.",
     "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged;9<=chi2<=12."
   ],
   "next_session_is_future_unexecuted": false,
@@ -1929,13 +1929,13 @@
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
   "active_session": {
     "id": "S036",
-    "status": "RUNNING",
+    "status": "PAUSED",
     "authority": "D047/D074 owner invocation 2026-10-23 (\"run next session\")",
     "entry_main": "45a2f328471ccad39b49160b12560c0fe1b27f91",
     "runtime_directory": "artifacts/tmp/S036/control",
     "adopted_contexts": "S035 native identities for regions 0,7,127,255 (read-only S035 campaign)",
     "runtime_status_authority": "artifacts/tmp/S036/control/ADOPTION.json",
-    "controller_entry": "scripts/s036_resident_controller.py",
+    "controller_entry": "scripts/s036_fresh_campaign.py",
     "supervisor_entry": "scripts/s036_sat_supervisor.py",
     "no_automatic_S037": true,
     "whole_stratum_certified": false,
@@ -1944,20 +1944,13 @@
     "deadline": null,
     "owner_resume_required": false,
     "resumption_authorized": true,
-    "stage": "SUSTAINED_RETAINED_SEARCH_RUNNING_COLD_DIAGNOSTICS_ACTIVE",
+    "stage": "S035_IDENTITIES_LOST_FRESH_SEMANTIC_RECOVERY_PENDING_LAUNCH",
     "acceptance_commit": "7a1c5b8136a7bfa2c91c9c51bb75caf7f1669483",
     "acceptance_hosted_run": "39949472103",
     "running_handoff": "sessions/S036/RUNNING.md",
-    "launch_identities": {
-      "controller": {
-        "pid": 1612,
-        "start_ticks": "1792756681.9033551"
-      },
-      "supervisor": {
-        "pid": 12716,
-        "start_ticks": "1792756677.5093255"
-      }
-    },
-    "checkins": "two-hourly scheduled status check-ins; never auto-restart paused work"
+    "checkins": "two-hourly scheduled status check-ins; never auto-restart paused work",
+    "identity_loss": "validation/S036/identity-loss/IDENTITY_LOSS.json",
+    "private_cdcl_of_s035_contexts": "LOST_UNRECOVERABLE",
+    "launcher": "scripts/s036_launch.py (WMI, outside application job objects)"
   }
 }

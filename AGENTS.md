@@ -1,3 +1,13 @@
+# S036 IN_PROGRESS — S035 RAM identities LOST; fresh semantic-recovery residents (23 October 2026)
+
+At 12:14 UTC the owner closed the ChatGPT app; all twelve S035 processes (launched
+under Codex desktop) ended with it. Private CDCL for regions 0,7,127,255 is
+unrecoverable; no SAT signal; evidence in validation/S036/identity-loss. Fresh
+residents start from audited semantic state via scripts/s036_fresh_campaign.py.
+S036 processes MUST be launched with scripts/s036_launch.py (WMI, outside any app
+job object) so closing Claude Code/ChatGPT/terminals cannot end the search.
+The section below is the historical adoption-stage header.
+
 # S036 IN_PROGRESS — repaired SAT supervisor, retained-RAM long search (23 October 2026)
 
 Owner "run next session" invoked S036 only (D047/D074; existing main, no branch/PR).

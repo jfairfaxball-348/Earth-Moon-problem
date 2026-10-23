@@ -1,0 +1,70 @@
+{
+ "status": "SEMANTIC_RECOVERY_AUDITED",
+ "private_cdcl_recovered": false,
+ "rows": [
+  {
+   "region": 0,
+   "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+   "start_byte": 37645991,
+   "end_byte": 62999124,
+   "count": 347101,
+   "source_bytes": 62999124,
+   "seconds": 6.22,
+   "block": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\recovered\\region-0000\\a-428c9bb54c60e9bb.lem",
+    "count": 347101,
+    "sha256": "428c9bb54c60e9bb01959aa634335b9c929b6a6b56ae42cfb3186d9c34e28586",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+    "start_byte": 37645991,
+    "end_byte": 62999124,
+    "region": 0,
+    "session": "S036",
+    "kind": "LOST_CONTEXT_UNSHARED_TAIL"
+   }
+  },
+  {
+   "region": 7,
+   "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+   "start_byte": 28409338,
+   "end_byte": 100604852,
+   "count": 1017564,
+   "source_bytes": 100604852,
+   "seconds": 18.72,
+   "block": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\recovered\\region-0007\\a-608a9097c17a5681.lem",
+    "count": 1017564,
+    "sha256": "608a9097c17a5681f5a25c6ce5f3077567f4afda86cff691c37a53fe797d18cd",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+    "start_byte": 28409338,
+    "end_byte": 100604852,
+    "region": 7,
+    "session": "S036",
+    "kind": "LOST_CONTEXT_UNSHARED_TAIL"
+   }
+  },
+  {
+   "region": 127,
+   "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem",
+   "start_byte": 1155,
+   "end_byte": 1155,
+   "count": 0,
+   "source_bytes": 1155,
+   "seconds": 0.0
+  },
+  {
+   "region": 255,
+   "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem",
+   "start_byte": 5899058,
+   "end_byte": 5899058,
+   "count": 0,
+   "source_bytes": 5899058,
+   "seconds": 0.0
+  }
+ ],
+ "scope": "geometric clauses only; each block independently subdivision-checked",
+ "verdict": "UNKNOWN"
+}

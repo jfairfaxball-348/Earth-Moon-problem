@@ -66,6 +66,17 @@ assert controls['status'] == 'PASS' and controls['forced_terminations'] == 0 and
 assert len(controls['scanner']) == 4 and len(controls['supervisor']) == 6 and len(controls['controller']) == 3
 for name, digest in controls['source_sha256'].items():
     assert sha(ROOT / name) == digest, 'Accepted source changed after controls: ' + name
+loss = read('identity-loss/IDENTITY_LOSS.json')
+assert loss['status'] == 'ORIGINAL_S035_IDENTITIES_LOST_PRIVATE_CDCL_UNRECOVERABLE' and not loss['sat_signal']
+assert loss['all_twelve_s035_identities_alive'] == [False] * 12 and loss['final_rescan_unreadable'] == []
+recovery = read('identity-loss/SEMANTIC_RECOVERY.json')
+assert recovery['private_cdcl_recovered'] is False
+assert {r['region']: r['count'] for r in recovery['rows']} == {0: 347101, 7: 1017564, 127: 0, 255: 0}
+fresh = read('FRESH_CONTROLS.json')
+assert fresh['status'] == 'PASS' and fresh['forced_terminations'] == 0 and not fresh['scientific_processes_touched']
+assert fresh['native_sha256'] == native['native_sha256']
+for name, digest in fresh['source_sha256'].items():
+    assert sha(ROOT / name) == digest, 'Fresh-campaign source changed after controls: ' + name
 exit1 = read('EXIT1_ATTRIBUTION.json')
 assert exit1['status'] == 'ATTRIBUTED' and exit1['taskkill_force_control_exit_code'] == 1
 assert len(exit1['rows']) == 21 and not any(r['fatal_marker'] or r['sat_marker'] or r['unsat_marker'] for r in exit1['rows'])

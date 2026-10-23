@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\scripts\s036_resident_controller.py", line 501, in <module>
+    main()
+  File "C:\Earth-Moon-problem\scripts\s036_resident_controller.py", line 497, in main
+    run(area, control, args.pilot_seconds)
+  File "C:\Earth-Moon-problem\scripts\s036_resident_controller.py", line 331, in run
+    thread_policy.validate(record, policy, paused=record['pid'] not in native_pids)
+  File "C:\Earth-Moon-problem\tools\s035_thread_policy.py", line 14, in validate
+    raise LifecycleError('Thread set changed; preserve RAM and require classification')
+s035_preserved_lifecycle.LifecycleError: Thread set changed; preserve RAM and require classification

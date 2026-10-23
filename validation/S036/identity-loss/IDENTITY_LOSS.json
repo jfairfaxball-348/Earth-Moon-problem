@@ -1,0 +1,168 @@
+{
+ "status": "ORIGINAL_S035_IDENTITIES_LOST_PRIVATE_CDCL_UNRECOVERABLE",
+ "observed_utc": "2026-10-23T12:14:10Z",
+ "controller_reason": "CONTROLLER_EXCEPTION_LifecycleError('Thread set changed; preserve RAM and require classification')",
+ "pause_errors": [
+  {
+   "cell": 0,
+   "error": "LifecycleError('SuspendThread failed: [WinError 5] Access is denied.')"
+  },
+  {
+   "cell": 7,
+   "error": "LifecycleError('SuspendThread failed: [WinError 5] Access is denied.')"
+  },
+  {
+   "cell": 127,
+   "error": "LifecycleError('Registered process no longer survives')"
+  },
+  {
+   "cell": 255,
+   "error": "LifecycleError('Registered process no longer survives')"
+  }
+ ],
+ "supervisor_guard_reason": "OWNER_OR_CONTROLLER_STOP",
+ "all_twelve_s035_identities_alive": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "boot_epoch_unchanged": 1792656333.2105262,
+ "sat_signal": false,
+ "final_rescan_unreadable": [],
+ "attribution": "Owner closed the ChatGPT desktop app shortly before 12:14 UTC. S035 recorded executor \"Codex desktop local Windows\" (validation/S035/ENVIRONMENT.json); codex.exe and every ChatGPT.exe process vanished together with all twelve S035 identities, including suspended legacy Python/conhost ancestors, without reboot and without any native final-status or FATAL line. Closing the app ended its process tree/job. Strong circumstantial attribution, not kernel-audit proof.",
+ "s036_processes_in_claude_job": "A control showed that processes launched from the Claude Code shell, even with CREATE_BREAKAWAY_FROM_JOB, remain inside its job object; WMI Win32_Process.Create launches are outside any job (parent WmiPrvSE).",
+ "contexts": [
+  {
+   "cell": 0,
+   "worker": {
+    "pid": 14812,
+    "start_ticks": "1792682657.7049177",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.707673+00:00"
+   },
+   "s036_turns": 1,
+   "s036_active_seconds": 600.406999999992,
+   "native_log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\native.log",
+   "native_log_bytes": 436535,
+   "native_log_sha256": "1c1ec58d3b0cef62fe4ca1b256732f0e314a38b3f085041d78904d7b5997ce4c",
+   "final_status_line_present": false,
+   "lemma_file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+   "lemma_bytes": 62999124,
+   "lemma_sha256": "fc716e879ed9ef565779da23808ead45a53efe5102199bb2e294a6c7fc2deb02",
+   "log_tail": [
+    "c S032_LOGIC conflicts=36289661 decisions=88133768 propagations=7653014367",
+    "c S035_PHASE mode=1024 walk=0 sweep=0 vivify=0 probe=0 elim=0 subsume=0 walk_ticks=20040946230 walk_flips=157581870 sweep_ticks=1606542626 vivify_ticks=12947537594 redundant=595926"
+   ]
+  },
+  {
+   "cell": 7,
+   "worker": {
+    "pid": 12384,
+    "start_ticks": "1792682640.4900093",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.489824+00:00"
+   },
+   "s036_turns": 1,
+   "s036_active_seconds": 600.375,
+   "native_log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\native.log",
+   "native_log_bytes": 475412,
+   "native_log_sha256": "7e723f1fcd6a080651daa78b06504c63f94d5d82e4fb5b620fa51173719a1694",
+   "final_status_line_present": false,
+   "lemma_file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+   "lemma_bytes": 100604852,
+   "lemma_sha256": "07bb2991592249894fcabcc31cf8a8520f534b3a243e15c48b8ccc80ab83947d",
+   "log_tail": [
+    "c S032_LOGIC conflicts=37028468 decisions=87861668 propagations=7784306902",
+    "c S035_PHASE mode=1024 walk=0 sweep=0 vivify=0 probe=0 elim=0 subsume=0 walk_ticks=21099627509 walk_flips=160353100 sweep_ticks=1844636157 vivify_ticks=14044497158 redundant=546360"
+   ]
+  },
+  {
+   "cell": 127,
+   "worker": {
+    "pid": 3500,
+    "start_ticks": "1792682640.5223634",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:00.530027+00:00"
+   },
+   "s036_turns": 1,
+   "s036_active_seconds": 363.68799999999464,
+   "native_log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\native.log",
+   "native_log_bytes": 438677,
+   "native_log_sha256": "24ae916a6dc3a35f7a3d17838c152f263a22086285ba17b3caedc82515268fa6",
+   "final_status_line_present": false,
+   "lemma_file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem",
+   "lemma_bytes": 1155,
+   "lemma_sha256": "baa11c47709519a4b0c5133f9c8a42ff8d4b2fda3eddb3e7c0f1d8b4ec7a0ad9",
+   "log_tail": [
+    "c S032_LOGIC conflicts=37181425 decisions=86417405 propagations=8288098821",
+    "c S035_PHASE mode=1024 walk=0 sweep=0 vivify=0 probe=0 elim=0 subsume=0 walk_ticks=23520938212 walk_flips=184985016 sweep_ticks=2310310000 vivify_ticks=12956286711 redundant=373064"
+   ]
+  },
+  {
+   "cell": 255,
+   "worker": {
+    "pid": 17984,
+    "start_ticks": "1792682657.7354991",
+    "phase": "native",
+    "command": [
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\input.inst",
+     "--timeout",
+     "inf",
+     "--lemmas",
+     "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem"
+    ],
+    "utc": "2026-10-22T15:24:17.737848+00:00"
+   },
+   "s036_turns": 1,
+   "s036_active_seconds": 363.64100000000326,
+   "native_log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\native.log",
+   "native_log_bytes": 408521,
+   "native_log_sha256": "85aaa963dcb80a91f1b4c8726bff54d7148e5bfc4808fd6cee88d446f0d5560e",
+   "final_status_line_present": false,
+   "lemma_file": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem",
+   "lemma_bytes": 5899058,
+   "lemma_sha256": "ecf299de2bbd0b77dd71ea0c0de41baeabbd272141cf97db6601e07f4e7c67b0",
+   "log_tail": [
+    "c S032_LOGIC conflicts=34053545 decisions=77990624 propagations=7774876005",
+    "c S035_PHASE mode=1024 walk=0 sweep=0 vivify=0 probe=0 elim=0 subsume=0 walk_ticks=21360601678 walk_flips=169151827 sweep_ticks=1570855645 vivify_ticks=11434407125 redundant=652857"
+   ]
+  }
+ ],
+ "semantic_state": "All geometric lemma files, audited blocks, recipes, certificates and S035 archives remain on disk.",
+ "verdict": "UNKNOWN",
+ "epoch": 1792757922.9518516
+}

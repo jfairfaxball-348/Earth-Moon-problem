@@ -94,7 +94,7 @@ def gates(admission=False, cold_private=0):
     # supervisor directly; the controller's own sample may already include the
     # cold process, so it must not be added to cold_private twice.
     from s035_preserved_lifecycle import sample_identities
-    registry = read_json(AREA / 'OWNER_PAUSE.json')['processes'] + [adoption['controller'], adoption['watcher']]
+    registry = [c['worker'] for c in adoption.get('contexts', [])] + [adoption['controller'], adoption['watcher']]
     try:
         private = sample_identities(registry)['private']
     except Exception as exc:

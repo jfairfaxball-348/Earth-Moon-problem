@@ -40,3 +40,30 @@ worker / 2 GiB available floor / 10 GiB disk reserve / 2 GiB raw proof /
 unavailable. 247 encoded closures, nine UNKNOWN; S11 UNKNOWN; 9<=chi2<=12.
 Never wake legacy controls, call legacy STOP/recover, remove the historical
 STOP, force-kill, evict, duplicate or auto-restart a paused controller.
+
+## Identity loss at 12:14 UTC and fresh semantic recovery
+
+The owner closed the ChatGPT desktop app. S035 had recorded its executor as
+"Codex desktop local Windows"; all twelve S035 identities (the four native
+contexts and every suspended legacy ancestor) ended at the same moment as the
+ChatGPT/Codex processes, without reboot and with no native final-status, FATAL,
+SAT or UNSAT line. The S036 controller stopped on the changed thread set, its
+halt found the processes terminating or gone, and the supervisor paused and ran a
+fresh complete rescan: no SAT signal, nothing unreadable. Private CDCL for
+regions 0, 7, 127 and 255 (about 34-37M conflicts each) is lost and is never
+claimed as recovered. Evidence: validation/S036/identity-loss/.
+
+A control then showed the S036 controller/supervisor were themselves inside the
+Claude Code job object (CREATE_BREAKAWAY_FROM_JOB does not leave it), so closing
+Claude Code would have had the same effect. All S036 processes are now launched
+through WMI Win32_Process.Create (scripts/s036_launch.py default), outside any
+application job.
+
+Semantic recovery: the unshared tails of the lost contexts' geometric journals
+were independently subdivision-audited (region 0: 347101 clauses, region 7:
+1017564; regions 127/255 had none) and registered as region blocks. Fresh
+residents (scripts/s036_fresh_campaign.py, S036 native at baseline settings) are
+started for 0, 7, 127, 255 from exact recipes, admitted one at a time through a
+measured memory gate (aggregate + 1.5 GiB <= 5 GiB, available - 1.5 GiB >=
+2.75 GiB), then kept resident in two-slot 600 s fair turns. Real controls:
+validation/S036/FRESH_CONTROLS.json.

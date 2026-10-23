@@ -1,0 +1,26 @@
+{
+ "status": "PAUSED",
+ "reason": "CONTROLLER_EXCEPTION_LifecycleError('Thread set changed; preserve RAM and require classification')",
+ "pid": 1612,
+ "start_ticks": "1792756681.9033551",
+ "updated_epoch": 1792757651.913664,
+ "pause_errors": [
+  {
+   "cell": 0,
+   "error": "LifecycleError('SuspendThread failed: [WinError 5] Access is denied.')"
+  },
+  {
+   "cell": 7,
+   "error": "LifecycleError('SuspendThread failed: [WinError 5] Access is denied.')"
+  },
+  {
+   "cell": 127,
+   "error": "LifecycleError('Registered process no longer survives')"
+  },
+  {
+   "cell": 255,
+   "error": "LifecycleError('Registered process no longer survives')"
+  }
+ ],
+ "verdict": "UNKNOWN"
+}

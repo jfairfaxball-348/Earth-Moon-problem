@@ -1,13 +1,13 @@
 {
  "status": "PASS",
  "scanner": [
-  "9743 full reads during 3-writer atomic replacement: no failure; retried 36",
+  "9823 full reads during 3-writer atomic replacement: no failure; retried 32",
   "SAT written under exclusive lock detected after 1.06s of bounded retries",
   "permanent lock: PENDING without cache advance, ScanUnavailable after budget, concurrent SAT still returned, SAT found after release",
   "cross-block marker, split append, truncation, exit10 JSON and candidate names detected"
  ],
  "supervisor": [
-  "10s of full/fast scans during continuous replacement: WATCHING, then owner STOP paused the worker; retried reads 1",
+  "10s of full/fast scans during continuous replacement: WATCHING, then owner STOP paused the worker; retried reads 0",
   "permanent exclusive lock: worker suspended first, explicit WATCHER_SCAN_UNAVAILABLE with traceback, fresh rescan lists the unreadable file, controller reports the cause",
   "SAT appended under an exclusive lock: bounded retry, SAT_ALERT before validation, worker suspended, rejected fixture validation kept the alert",
   "stale_controller: supervisor paused the worker with ADOPTED_CONTROLLER_LEASE_EXPIRED",
@@ -23,7 +23,7 @@
  "forced_terminations": 0,
  "source_sha256": {
   "tools/s036_sat_scan.py": "48141b853a3971f855573d6b7f1105f87fa7888922011d2575e5d88757f68fdf",
-  "scripts/s036_sat_supervisor.py": "41e947162e5bae30a2d5aad8ce799e43519ac363b42426ee5fcaa37476d2e0cb",
+  "scripts/s036_sat_supervisor.py": "c214cbca489ee663e9e4833a9270a0eef7bae256a3cc9970b24276bc4d4c005a",
   "scripts/s036_resident_controller.py": "6205cf5a1e9c0c5be754bb5c4fab371ee9e78f4b5ab6541be964650ff63f82c7",
   "tools/s035_preserved_lifecycle.py": "690f8caf996937cce4c5f439b6cbf66602976f5b887f8e7e8a519dfc937e2a97",
   "scripts/s035_preserved_campaign.py": "2df0d3a5bd1f7d180ec51dc5581d230fb3171160d5203a1c3d1b4c6e839d3ea3",

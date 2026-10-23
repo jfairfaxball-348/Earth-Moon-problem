@@ -33,7 +33,7 @@ CONTROL = ROOT / 'artifacts/tmp/S036/control'
 S035_SCIENTIFIC = ('campaign', 'benchmark-1', 'benchmark-2', 'benchmark-3', 'imported-s034',
                    'phase-diagnostic', 'phase-diagnostic-overlap-aborted',
                    'phase-diagnostic-input-rebase-failure')
-S036_SCIENTIFIC = ('cold',)
+S036_SCIENTIFIC = ('cold', 'resident')
 FULL_SCAN_SECONDS = 30
 
 

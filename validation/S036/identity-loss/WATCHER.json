@@ -1,0 +1,15 @@
+{
+ "pid": 12716,
+ "start_ticks": "1792756677.5093255",
+ "status": "PAUSED",
+ "ready": false,
+ "updated_epoch": 1792757654.230231,
+ "last_full_scan_epoch": 1792757640.6819277,
+ "scanned_files": 5287,
+ "retried_reads": 0,
+ "pending": [],
+ "source_sha256": "41e947162e5bae30a2d5aad8ce799e43519ac363b42426ee5fcaa37476d2e0cb",
+ "scan_sha256": "48141b853a3971f855573d6b7f1105f87fa7888922011d2575e5d88757f68fdf",
+ "pause_reason": "OWNER_OR_CONTROLLER_STOP",
+ "final_rescan_unreadable": []
+}
