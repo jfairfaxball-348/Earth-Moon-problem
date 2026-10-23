@@ -1,0 +1,905 @@
+{
+ "regions": [
+  {
+   "id": 0,
+   "status": "UNKNOWN",
+   "pause_state": "NATIVE_SUSPENDED_RAM_RETAINED",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 14,
+   "completed_visit_seconds": 6529.7393436431885,
+   "native_process_identities": 3,
+   "resident_turns": 8,
+   "current_counters": {
+    "conflicts": 34269280,
+    "decisions": 83688431,
+    "propagations": 7248936016
+   },
+   "largest_recorded_conflicts": {
+    "conflicts": 34269280,
+    "decisions": 83688431,
+    "propagations": 7248936016
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\329f1940f6e948988b593722bda18aa5",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 877
+     },
+     "last": {
+      "conflicts": 113185,
+      "decisions": 496292,
+      "propagations": 30042381
+     },
+     "samples": 4,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\8b87b1b54c08472aac2d7f67ca5ec30a",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 877
+     },
+     "last": {
+      "conflicts": 12378,
+      "decisions": 62392,
+      "propagations": 5436387
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\c1a7ce810a1a4033bbc873f1e936534c",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 877
+     },
+     "last": {
+      "conflicts": 18936,
+      "decisions": 86576,
+      "propagations": 5982889
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 877
+     },
+     "last": {
+      "conflicts": 34269280,
+      "decisions": 83688431,
+      "propagations": 7248936016
+     },
+     "samples": 1116,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\ed99a4d0d6fb498891285fc8491ba3ce",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 877
+     },
+     "last": {
+      "conflicts": 18992,
+      "decisions": 97120,
+      "propagations": 8253410
+     },
+     "samples": 50,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 20,
+    "VISIT_QUANTUM": 2,
+    "OWNER_STOP": 2
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:17:57.633041+00:00",
+     "cell": 0,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": false,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Retain current context if identity survives; add cooperative pause and SAT-first supervisor before authorized resume."
+  },
+  {
+   "id": 1,
+   "status": "UNKNOWN",
+   "pause_state": "COLD_QUEUED_SEMANTIC_RECOVERY",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 6,
+   "completed_visit_seconds": 3703.5840940475464,
+   "native_process_identities": 2,
+   "resident_turns": null,
+   "current_counters": null,
+   "largest_recorded_conflicts": {
+    "conflicts": 59121,
+    "decisions": 349743,
+    "propagations": 24493073
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\29792ea664484a35b0b7a6bab57b66e4",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 864
+     },
+     "last": {
+      "conflicts": 59121,
+      "decisions": 349743,
+      "propagations": 24493073
+     },
+     "samples": 6,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\6f6c572b23d345d684c6175f1b145443",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 864
+     },
+     "last": {
+      "conflicts": 8298,
+      "decisions": 71895,
+      "propagations": 4951699
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\9e4eeac64eed4572baae2e6f408a0af5",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 864
+     },
+     "last": {
+      "conflicts": 12746,
+      "decisions": 72616,
+      "propagations": 5951138
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0001\\d318076ca17845378321872198895cd2",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 864
+     },
+     "last": {
+      "conflicts": 7398,
+      "decisions": 25017,
+      "propagations": 2586581
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 6,
+    "VISIT_QUANTUM": 4
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:18:15.846062+00:00",
+     "cell": 1,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": true,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Cold semantic restore only after SAT audit and capacity opens; prioritize a registered region-specific comparison, never short identical blind restarts."
+  },
+  {
+   "id": 3,
+   "status": "UNKNOWN",
+   "pause_state": "COLD_QUEUED_SEMANTIC_RECOVERY",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 6,
+   "completed_visit_seconds": 3777.475591659546,
+   "native_process_identities": 2,
+   "resident_turns": null,
+   "current_counters": null,
+   "largest_recorded_conflicts": {
+    "conflicts": 99323,
+    "decisions": 431766,
+    "propagations": 27593384
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\1fe62f972b564c958c86cf8e726460e9",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 852
+     },
+     "last": {
+      "conflicts": 7430,
+      "decisions": 48409,
+      "propagations": 2953863
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\566de2f8608e4520802f648a31dfa1fc",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 852
+     },
+     "last": {
+      "conflicts": 99323,
+      "decisions": 431766,
+      "propagations": 27593384
+     },
+     "samples": 5,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\a8f6857bcf57453b9a4f7c2c79a7e33f",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 852
+     },
+     "last": {
+      "conflicts": 7405,
+      "decisions": 51247,
+      "propagations": 2964282
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0003\\ef2ef1ee58ca4aec9155644cac999f94",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 852
+     },
+     "last": {
+      "conflicts": 15098,
+      "decisions": 66434,
+      "propagations": 5322193
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "VISIT_QUANTUM": 4,
+    "RESIDENT_TURN_PARKED": 6
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:18:33.976168+00:00",
+     "cell": 3,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": true,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Cold semantic restore only after SAT audit and capacity opens; prioritize a registered region-specific comparison, never short identical blind restarts."
+  },
+  {
+   "id": 7,
+   "status": "UNKNOWN",
+   "pause_state": "NATIVE_SUSPENDED_RAM_RETAINED",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 13,
+   "completed_visit_seconds": 7407.461847305298,
+   "native_process_identities": 3,
+   "resident_turns": 8,
+   "current_counters": {
+    "conflicts": 35376235,
+    "decisions": 84251236,
+    "propagations": 7476067369
+   },
+   "largest_recorded_conflicts": {
+    "conflicts": 35376235,
+    "decisions": 84251236,
+    "propagations": 7476067369
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\2055d516c45c4970984cedf2f08f8012",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 840
+     },
+     "last": {
+      "conflicts": 9890,
+      "decisions": 75448,
+      "propagations": 5417498
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\6bdc0505f69f4c56af8f16fc608d8b61",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 840
+     },
+     "last": {
+      "conflicts": 12773,
+      "decisions": 71999,
+      "propagations": 6087205
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\8e0b2e5120bc44c29c1c052f287adf9e",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 840
+     },
+     "last": {
+      "conflicts": 12735,
+      "decisions": 70561,
+      "propagations": 5177960
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 840
+     },
+     "last": {
+      "conflicts": 35376235,
+      "decisions": 84251236,
+      "propagations": 7476067369
+     },
+     "samples": 1225,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\e42c03017a8b410c8ceb72b04e08cacc",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 840
+     },
+     "last": {
+      "conflicts": 11048,
+      "decisions": 67406,
+      "propagations": 6149127
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 20,
+    "VISIT_QUANTUM": 4
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:18:51.394021+00:00",
+     "cell": 7,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    },
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:20:05.302815+00:00",
+     "cell": 7,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": false,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Retain current context if identity survives; add cooperative pause and SAT-first supervisor before authorized resume."
+  },
+  {
+   "id": 15,
+   "status": "UNKNOWN",
+   "pause_state": "COLD_QUEUED_SEMANTIC_RECOVERY",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 6,
+   "completed_visit_seconds": 3867.975494861603,
+   "native_process_identities": 1,
+   "resident_turns": null,
+   "current_counters": null,
+   "largest_recorded_conflicts": {
+    "conflicts": 1255961,
+    "decisions": 4030838,
+    "propagations": 267118273
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\1f66ed0d54884d14adf138dcb37d57a5",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 829
+     },
+     "last": {
+      "conflicts": 1255961,
+      "decisions": 4030838,
+      "propagations": 267118273
+     },
+     "samples": 26,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\38f130e25c5e45e4b5a5e689dd5a432d",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 829
+     },
+     "last": {
+      "conflicts": 12745,
+      "decisions": 38280,
+      "propagations": 4052160
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0015\\5e7be72d2517470c9a5b02c11e45cd2b",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 829
+     },
+     "last": {
+      "conflicts": 12775,
+      "decisions": 61204,
+      "propagations": 5390807
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 4,
+    "VISIT_QUANTUM": 4,
+    "1": 1,
+    "NATIVE_UNKNOWN": 1
+   },
+   "proof_attempts": 0,
+   "evictions": [],
+   "stale_private_cdcl_flag": true,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Cold semantic restore only after SAT audit and capacity opens; prioritize a registered region-specific comparison, never short identical blind restarts."
+  },
+  {
+   "id": 31,
+   "status": "UNKNOWN",
+   "pause_state": "COLD_QUEUED_SEMANTIC_RECOVERY",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 6,
+   "completed_visit_seconds": 3870.6160140037537,
+   "native_process_identities": 1,
+   "resident_turns": null,
+   "current_counters": null,
+   "largest_recorded_conflicts": {
+    "conflicts": 1365334,
+    "decisions": 3586718,
+    "propagations": 267172816
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\34fa6aad8c0d4c1ca2135657cb8b9b06",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 817
+     },
+     "last": {
+      "conflicts": 1365334,
+      "decisions": 3586718,
+      "propagations": 267172816
+     },
+     "samples": 27,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\706d216dbe8e475a86a3ac352d8d5826",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 817
+     },
+     "last": {
+      "conflicts": 12739,
+      "decisions": 72260,
+      "propagations": 6167392
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0031\\d3bd400034fb45e28fe580acc4197192",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 817
+     },
+     "last": {
+      "conflicts": 12768,
+      "decisions": 66156,
+      "propagations": 5703076
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 4,
+    "VISIT_QUANTUM": 4,
+    "1": 1,
+    "NATIVE_UNKNOWN": 1
+   },
+   "proof_attempts": 0,
+   "evictions": [],
+   "stale_private_cdcl_flag": true,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Cold semantic restore only after SAT audit and capacity opens; prioritize a registered region-specific comparison, never short identical blind restarts."
+  },
+  {
+   "id": 63,
+   "status": "UNKNOWN",
+   "pause_state": "COLD_QUEUED_SEMANTIC_RECOVERY",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 6,
+   "completed_visit_seconds": 3773.393082857132,
+   "native_process_identities": 2,
+   "resident_turns": null,
+   "current_counters": null,
+   "largest_recorded_conflicts": {
+    "conflicts": 99606,
+    "decisions": 389563,
+    "propagations": 25152301
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\616d07e3887840f6bf870d4472c3764b",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 805
+     },
+     "last": {
+      "conflicts": 99606,
+      "decisions": 389563,
+      "propagations": 25152301
+     },
+     "samples": 5,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\7d1f4de67aa543cdb00f77a6c29fb464",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 805
+     },
+     "last": {
+      "conflicts": 15092,
+      "decisions": 66422,
+      "propagations": 5518421
+     },
+     "samples": 2,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\deda9559909b413d8c0b0dfa29012c27",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 805
+     },
+     "last": {
+      "conflicts": 7438,
+      "decisions": 36641,
+      "propagations": 2699518
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0063\\ffd3e49496734e8ba2175f90204899ea",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 805
+     },
+     "last": {
+      "conflicts": 7437,
+      "decisions": 60363,
+      "propagations": 3402133
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 6,
+    "VISIT_QUANTUM": 4
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:18:15.941914+00:00",
+     "cell": 63,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": true,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Cold semantic restore only after SAT audit and capacity opens; prioritize a registered region-specific comparison, never short identical blind restarts."
+  },
+  {
+   "id": 127,
+   "status": "UNKNOWN",
+   "pause_state": "NATIVE_SUSPENDED_RAM_RETAINED",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 13,
+   "completed_visit_seconds": 8512.682173728943,
+   "native_process_identities": 2,
+   "resident_turns": 8,
+   "current_counters": {
+    "conflicts": 35893361,
+    "decisions": 83145139,
+    "propagations": 7982415690
+   },
+   "largest_recorded_conflicts": {
+    "conflicts": 35893361,
+    "decisions": 83145139,
+    "propagations": 7982415690
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\078b5360ba664ef09e939276da3677a6",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 793
+     },
+     "last": {
+      "conflicts": 7441,
+      "decisions": 47579,
+      "propagations": 2955647
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\3b2ae8e5d86548508f871cd60ea2dac6",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 793
+     },
+     "last": {
+      "conflicts": 7464,
+      "decisions": 44078,
+      "propagations": 2920084
+     },
+     "samples": 42,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\928085d643f04021913ce831cac86042",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 793
+     },
+     "last": {
+      "conflicts": 99538,
+      "decisions": 357542,
+      "propagations": 25587056
+     },
+     "samples": 5,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\b83a67a676e34d3eb84050d941e46db2",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 793
+     },
+     "last": {
+      "conflicts": 12712,
+      "decisions": 85531,
+      "propagations": 5932603
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 793
+     },
+     "last": {
+      "conflicts": 35893361,
+      "decisions": 83145139,
+      "propagations": 7982415690
+     },
+     "samples": 1198,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "VISIT_QUANTUM": 4,
+    "OWNER_STOP": 2,
+    "RESIDENT_TURN_PARKED": 20
+   },
+   "proof_attempts": 0,
+   "evictions": [],
+   "stale_private_cdcl_flag": false,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Retain current context if identity survives; add cooperative pause and SAT-first supervisor before authorized resume."
+  },
+  {
+   "id": 255,
+   "status": "UNKNOWN",
+   "pause_state": "NATIVE_SUSPENDED_RAM_RETAINED",
+   "pending_unsat_proof": false,
+   "verification_backlog": false,
+   "visits": 14,
+   "completed_visit_seconds": 6702.707319736481,
+   "native_process_identities": 3,
+   "resident_turns": 8,
+   "current_counters": {
+    "conflicts": 33083987,
+    "decisions": 74303984,
+    "propagations": 7546180094
+   },
+   "largest_recorded_conflicts": {
+    "conflicts": 33083987,
+    "decisions": 74303984,
+    "propagations": 7546180094
+   },
+   "history": [
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\3d5adc7be8af4a51abe03ee0d1c48095",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 782
+     },
+     "last": {
+      "conflicts": 78784,
+      "decisions": 359314,
+      "propagations": 27877494
+     },
+     "samples": 5,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\7065dedcaa344195adbec177e380c428",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 782
+     },
+     "last": {
+      "conflicts": 7438,
+      "decisions": 43948,
+      "propagations": 2699049
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 782
+     },
+     "last": {
+      "conflicts": 33083987,
+      "decisions": 74303984,
+      "propagations": 7546180094
+     },
+     "samples": 1091,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\d64538538324477e86671cf7bf79b804",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 782
+     },
+     "last": {
+      "conflicts": 93685,
+      "decisions": 280871,
+      "propagations": 21642752
+     },
+     "samples": 5,
+     "conflicts_monotone": true
+    },
+    {
+     "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\e0a4d24d1eee4462926f2583c69450af",
+     "first": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 782
+     },
+     "last": {
+      "conflicts": 12735,
+      "decisions": 68196,
+      "propagations": 6255525
+     },
+     "samples": 60,
+     "conflicts_monotone": true
+    }
+   ],
+   "outcomes": {
+    "RESIDENT_TURN_PARKED": 22,
+    "VISIT_QUANTUM": 4
+   },
+   "proof_attempts": 0,
+   "evictions": [
+    {
+     "kind": "resident_memory_eviction",
+     "utc": "2026-10-22T15:17:59.237116+00:00",
+     "cell": 255,
+     "private_cdcl_lost": true,
+     "semantic_cuts_preserved": true
+    }
+   ],
+   "stale_private_cdcl_flag": false,
+   "bottleneck": "Algorithmic search unresolved; original congruence stalls and cold restarts were operational losses. No mathematical obstruction inferred.",
+   "recommendation": "Retain current context if identity survives; add cooperative pause and SAT-first supervisor before authorized resume."
+  }
+ ],
+ "no_pending_unsat_proofs": true,
+ "proof_checks_not_replayed": true
+}

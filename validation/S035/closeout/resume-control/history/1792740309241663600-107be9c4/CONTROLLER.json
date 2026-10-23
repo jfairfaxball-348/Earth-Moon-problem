@@ -1,0 +1,9 @@
+{
+ "status": "PAUSED",
+ "reason": "BOUNDED_PILOT_COMPLETE_RAM_PRESERVED",
+ "pid": 6440,
+ "start_ticks": "1792693719.7698648",
+ "updated_epoch": 1792693843.2350972,
+ "pause_errors": [],
+ "verdict": "UNKNOWN"
+}

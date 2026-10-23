@@ -1,0 +1,6 @@
+{
+ "automation_id": "earth-moon-s035-monitor",
+ "action": "delete",
+ "deleteStatus": "deleted",
+ "S036_monitoring": "Two-hour check-ins queued after actual future sustained launch."
+}

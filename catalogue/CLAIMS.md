@@ -791,3 +791,9 @@ Owner-stopped campaign UNKNOWN; no complete model, witness or whole-stratum proo
 S034 finite audit checks93047 persisted additional single-layer K5/K33-subdivision clause occurrences and exact256-region partition;16 encoded region formulas match original independently verified DRAT receipts.
 
 validation/S034/SUMMARY.json and FINAL_MANIFEST.json.102 visits,240 unresolved, safety disk stop. No fresh second DRAT replay; final audit checks reconstructed formula hashes, proof/log hashes and pinned successful original checker receipts. No individual graph decision, whole stratum, learned-rule benefit, exact projected count, ETA or lower-bound advance. Full runtime bytes archived losslessly. SRC-0055 method attribution only.
+
+## CLM-0121 — COMPUTED_EXACT
+
+S035 final finite audit reconstructs247 encoded formula hashes and checks original independently verified proof/checker receipts; nine regions remain UNKNOWN.
+
+validation/S035/closeout/AUDIT.json and PREFIX_AUDIT.json. Accepted and retained geometric journal occurrences independently subdivision-audited; overlapping prefixes are not new unique clauses. No fresh final DRAT replay, individual graph exclusion, whole-stratum decision, SAT witness or headline advance. Source attribution method only;9<=chi2<=12. Lossless delta actual restore verified; private CDCL RAM is not serialized.

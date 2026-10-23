@@ -1,0 +1,38 @@
+{
+ "prefixes": [
+  {
+   "cell": 0,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\new-cuts.lem",
+   "sha256": "bf34a9cef6d98440b7d7cbbd0ebb91efd027eac62db4d9f096541d7d982ccded",
+   "bytes": 50293439,
+   "occurrences": 688910,
+   "status": "INDEPENDENT_SUBDIVISION_AUDIT_PASS"
+  },
+  {
+   "cell": 7,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+   "sha256": "2131d15dd7e61cc13d05252022501f75d1aee8dec6c375479d0f63b9feec5a80",
+   "bytes": 92780771,
+   "occurrences": 1289276,
+   "status": "INDEPENDENT_SUBDIVISION_AUDIT_PASS"
+  },
+  {
+   "cell": 127,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\new-cuts.lem",
+   "sha256": "baa11c47709519a4b0c5133f9c8a42ff8d4b2fda3eddb3e7c0f1d8b4ec7a0ad9",
+   "bytes": 1155,
+   "occurrences": 19,
+   "status": "INDEPENDENT_SUBDIVISION_AUDIT_PASS"
+  },
+  {
+   "cell": 255,
+   "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\new-cuts.lem",
+   "sha256": "ecf299de2bbd0b77dd71ea0c0de41baeabbd272141cf97db6601e07f4e7c67b0",
+   "bytes": 5899058,
+   "occurrences": 74604,
+   "status": "INDEPENDENT_SUBDIVISION_AUDIT_PASS"
+  }
+ ],
+ "occurrences": 2052809,
+ "note": "Whole retained journals, overlapping historical prefixes; not globally unique or all new. No frozen ledger mutated."
+}

@@ -1,0 +1,17 @@
+{
+ "status": "NO_SCIENTIFIC_SAT_OR_CANDIDATE_FOUND",
+ "scanned_files": 4844,
+ "classified_control_hits": [],
+ "hits": [],
+ "epoch": 1792693887.7610626,
+ "scientific_roots": [
+  "campaign",
+  "benchmark-1",
+  "benchmark-2",
+  "benchmark-3",
+  "imported-s034",
+  "phase-diagnostic",
+  "phase-diagnostic-overlap-aborted",
+  "phase-diagnostic-input-rebase-failure"
+ ]
+}

@@ -1,3 +1,15 @@
+# S035 CLOSED — S036 targeted long search FUTURE / UNEXECUTED (23 October2026)
+
+Owner requested investigation/closeout and a next-session long-search prompt.
+S035 stopped after SAT-watcher PermissionError on ADOPTION.json; all original
+identities remain suspended and private learning is RAM-only. Controller/watcher
+have exited; do not infer RUNNING from historical headers below. Read
+sessions/S035/CLOSEOUT.md, FINAL_DIAGNOSTIC.md, RECOVERY_HANDOVER.md and the paired
+authoritative/NEXT_SESSION_PROMPT.md / sessions/S035/S036_FUTURE_PROMPT.md.
+No automatic resume, cold admission, helper/legacy wake or S036 execution in
+this closeout. The next owner invocation authorises S036 repair/acceptance then
+sustained search under its full prompt. S035 heartbeat disabled.9<=chi2<=12.
+
 # D067 S031 completed (2026-10-20; eight-hour persistent S11 cap)
 
 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Full fresh271+K9 smoke/controls PASS. D066 S031-only scope is discharged by closeout; S032 FUTURE/UNEXECUTED requires fresh invocation. Parked queues and all scientific/publication gates unchanged.

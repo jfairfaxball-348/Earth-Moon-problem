@@ -11,7 +11,9 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 manifest=read('sessions/S035/RUNNING_MANIFEST.json')
 assert manifest['status'] in ('RUNNING_NOT_CLOSED','PAUSED_NOT_CLOSED')
 for name,row in manifest['files'].items():
-    p=resolve(ROOT/name);assert p.stat().st_size==row['bytes'] and sha(p)==row['sha256'],name
+    p=resolve(ROOT/name)
+    if sha(p)!=row['sha256']:p=ROOT/'validation/S035/thread-repair/frozen-source'/(row['sha256']+'.bytes')
+    assert p.stat().st_size==row['bytes'] and sha(p)==row['sha256'],name
 smoke=read('validation/S035/SMOKE.json');native=read('validation/S035/NATIVE_CONTROLS.json')
 assert smoke['verdict']=='PASS' and smoke['chromatic_rows_verified']==smoke['chromatic_cnf_byte_matches']==271
 assert smoke['k9']['verified'] and smoke['solver_roundtrip']['fresh_proof_verified']
@@ -34,6 +36,8 @@ assert bench['status']=='PASS' and [r['workers'] for r in bench['rows']]==[1,2,3
 assert all(r['registered_wall_seconds']==120 for r in bench['rows'])
 assert concurrency[str(cfg['workers'])]['solvers']>=2
 state=read('authoritative/STATE.json')
+if state['last_completed_session']=='S035':
+    state=read('validation/S035/closeout/ENTRY_STATE.json')
 assert state['last_completed_session']=='S034' and state['active_session']['id']=='S035' and state['active_session']['status'] in ('RUNNING','PAUSED')
 assert state['next_session_is_future_unexecuted'] is False
 assert (ROOT/'sessions/S035/EXECUTED_PROMPT.md').read_bytes()==(ROOT/'sessions/S034/S035_FUTURE_PROMPT.md').read_bytes()

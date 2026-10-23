@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-22",
-  "last_completed_session": "S034",
-  "recommended_next_session": "S035",
+  "as_of": "2026-10-23",
+  "last_completed_session": "S035",
+  "recommended_next_session": "S036",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S034",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S035",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,20 +83,20 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S035 recovery authorised, full restore and120s retained-RAM pilot PASS; sustained search blocked at additional-thread identity gate. Preserve all four native contexts; no blind rearm.",
-    "S11 m155/156 UNKNOWN;247 encoded regions proof-closed and nine unresolved; encoded closures are not graph or whole-stratum exclusions.",
-    "Regular154 SOURCE_STATED;S10/S9/S8 NOT_RUN;four original native RAM contexts retained, no durable private CDCL snapshot.",
-    "All parked queues/publication/formalisation gates unchanged;9<=chi2<=12."
+    "S036 FUTURE/UNEXECUTED: SAT-first watcher repair, targeted nine-region diagnostics, acceptance then real sustained search.",
+    "S11 m155/156 UNKNOWN;247 encoded closures and nine UNKNOWN are not graph/stratum closure.",
+    "Four suspended original RAM contexts survive only while exact processes survive; no durable CDCL snapshot.",
+    "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged;9<=chi2<=12."
   ],
-  "next_session_is_future_unexecuted": false,
+  "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
+  "latest_session_entry_main": "bef7b0131d72e6147f32b4d2e0a7885388f5c39d",
   "latest_session_integration": {
-    "status": "VERIFY_FINAL_COMMIT_AND_HOSTED_JOBS_AFTER_PUBLICATION",
-    "entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
-    "authority": "D072 existing main workflow; D074 owner closeout/push",
-    "transport": "Authenticated owner GitHub Git-data API; identical local tree; non-force leased main update",
-    "hosted_post_session_checks": "VERIFY_AFTER_PUBLICATION"
+    "status": "VERIFY_COMMIT_REMOTE_AND_ACTUAL_HOSTED_JOB_AFTER_PUBLICATION",
+    "entry_main": "bef7b0131d72e6147f32b4d2e0a7885388f5c39d",
+    "authority": "D074 existing-main owner closeout",
+    "branch": "main",
+    "force": false
   },
   "mathematical_results": [
     "CLM-0007",
@@ -198,7 +198,8 @@
     "CLM-0109",
     "CLM-0114",
     "CLM-0115",
-    "CLM-0116"
+    "CLM-0116",
+    "CLM-0121"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -463,7 +464,7 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S035 sustained retained-thread search RUNNING: inspect live RESUME_CONTROL identities and SAT-first supervisor; never duplicate or wake legacy controls. No S036.",
+  "next_session_priority": "S036 FUTURE/UNEXECUTED: SAT-first watcher repair, targeted nine-region diagnostics, acceptance then real sustained search.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
@@ -1806,31 +1807,6 @@
     "lossless_archive_verification": "PASS_ALL_ORIGINAL_FILE_HASHES",
     "portable_restore_test": "PASS_ALL_ORIGINAL_BYTES_VERIFIED_1415_METADATA_FILES_RESTORED"
   },
-  "active_session": {
-    "id": "S035",
-    "status": "RUNNING",
-    "authority": "D047/D074 owner invocation2026-10-22; power/wifi/no-sleep confirmed",
-    "entry_main": "4eac1237723134f1d1924938f476a06287aab919",
-    "entry_tree": "8d2f866cd9536552532ddb7099e4d6642fd08bba",
-    "runtime_directory": "artifacts/tmp/S035/campaign",
-    "no_automatic_S036": true,
-    "whole_stratum_certified": false,
-    "witness_established": false,
-    "workers": 2,
-    "runtime_status_authority": "artifacts/tmp/S035/campaign/RESUME_CONTROL/ADOPTION.json",
-    "running_handoff": "sessions/S035/RESUMED_RUNNING.md",
-    "deadline": null,
-    "execution_revision": "S035_RESIDENT_V2",
-    "controller_entry": "scripts/s035_preserved_campaign.py",
-    "private_cdcl_policy": "Retained in RAM per region between scheduled turns; semantic-only recovery after process loss",
-    "diagnostic": "Optional congruence simplification disabled after measured comparison",
-    "maintenance": false,
-    "processes_exited": false,
-    "all_processes_suspended": false,
-    "owner_resume_required": false,
-    "resumption_authorized": true,
-    "controller_revision": "S035_ORIGINAL_THREADS_HELPERS_QUARANTINED"
-  },
   "s035_owner_pause": {
     "status": "PAUSED",
     "proof_closed_regions": 247,
@@ -1893,5 +1869,62 @@
     },
     "evidence": "validation/S035/thread-repair/live/SUSTAINED_OBSERVATION.json",
     "source_commit": "12d8694f1d54a4128eed197af4eaebfbc95c2775"
-  }
+  },
+  "s035_completed_runtime": {
+    "id": "S035",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "authority": "D047/D074 owner invocation2026-10-22; power/wifi/no-sleep confirmed",
+    "entry_main": "4eac1237723134f1d1924938f476a06287aab919",
+    "entry_tree": "8d2f866cd9536552532ddb7099e4d6642fd08bba",
+    "runtime_directory": "artifacts/tmp/S035/campaign",
+    "no_automatic_S036": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "workers": 2,
+    "runtime_status_authority": "artifacts/tmp/S035/campaign/RESUME_CONTROL/ADOPTION.json",
+    "running_handoff": "sessions/S035/RESUMED_RUNNING.md",
+    "deadline": null,
+    "execution_revision": "S035_RESIDENT_V2",
+    "controller_entry": "scripts/s035_preserved_campaign.py",
+    "private_cdcl_policy": "Retained in RAM per region between scheduled turns; semantic-only recovery after process loss",
+    "diagnostic": "Optional congruence simplification disabled after measured comparison",
+    "maintenance": false,
+    "processes_exited": false,
+    "all_processes_suspended": true,
+    "owner_resume_required": true,
+    "resumption_authorized": false,
+    "controller_revision": "S035_ORIGINAL_THREADS_HELPERS_QUARANTINED",
+    "controller_alive": false,
+    "watcher_alive": false
+  },
+  "s035_science": {
+    "proof_closed_regions": 247,
+    "unresolved_ids": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127,
+      255
+    ],
+    "verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": null,
+    "bounds": [
+      9,
+      12
+    ],
+    "audit": "validation/S035/closeout/AUDIT.json"
+  },
+  "s035_closeout": {
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "cause": "WATCHER_FAILURE_PERMISSIONERROR_ADOPTION_READ",
+    "heartbeat": "DISABLED_AT_CLOSEOUT",
+    "private_cdcl_serialized": false,
+    "S036_executed": false
+  },
+  "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains."
 }

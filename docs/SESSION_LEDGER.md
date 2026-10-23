@@ -87,3 +87,5 @@ S035 PAUSED by owner:12 processes suspended, four RAM contexts retained, nine UN
 S035 owner-invoked recovery: full restore and actual120s same-process pilot PASS, original four RAM identities retained. Later rearm refused at additional-thread identity gate; preserved pause, sustained search NOT_STARTED. Next check-in23Oct07:30London only. See sessions/S035/RECOVERY_BLOCKED.md; no S036 or mathematical promotion.
 
 S035 sustained continuation RUNNING2026-10-23: original native threads only, helpers quarantined; fresh40s validation passed; two active/four retained600s turns, no overall cutoff;247 encoded closures and nine UNKNOWN unchanged.
+
+| S035 |2026-10-23| CAM0040 owner closeout |247 encoded closures; nine UNKNOWN; watcher read failure; RAM preserved; lossless delta recovery | S036 targeted sustained search FUTURE/UNEXECUTED |

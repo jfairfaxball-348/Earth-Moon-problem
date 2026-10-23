@@ -1,0 +1,10 @@
+{
+ "status": "PASS_ACTUAL_RESTORE_ALL_DELTA_FILE_HASHES",
+ "archive_bytes": 18242224,
+ "archive_sha256": "fb54c6655f7315d757f256504a461611773a62ca3098e69eccd2dc028ecd4096",
+ "changed_files": 65,
+ "current_files": 21674,
+ "restored_root": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035-closeout-delta-restore-1792753573980525400",
+ "no_original_deleted": true,
+ "ram_state_in_archive": false
+}

@@ -1,0 +1,10 @@
+{
+ "pid": 3292,
+ "start_ticks": "1792740358.6699057",
+ "status": "WATCHING",
+ "ready": true,
+ "updated_epoch": 1792745026.4665885,
+ "last_full_scan_epoch": 1792744996.4652843,
+ "scanned_files": 7047,
+ "source_sha256": "0a6c94475c7ee035872c356ce5b1f3d69849e6c9f72f4cdfe1a6944df922cdf5"
+}

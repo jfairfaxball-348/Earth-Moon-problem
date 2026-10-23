@@ -147,3 +147,5 @@ S035 owner-requested resident upgrade: independently instrumented flat counters 
 S035 owner pause: preservation first; no forced termination; SAT discoveries absolute priority; nine-region diagnostics and verified main publication before any further heavy computation. S036 not invoked.
 
 S035 thread identity gate resolved by matched Microsoft symbols and original-thread-only quarantine policy. Helpers never resume; counter-based suspension replaces misleading process status. Published controls and actual retained-process validation passed before sustained search.
+
+D075 (owner23Oct2026): investigate and close S035; preserve evidence and suspended RAM; ordinary existing-main push; install complete S036 targeted diagnostic/repair then long-search prompt. No S036 execution until next invocation; D074 same-main workflow continues.

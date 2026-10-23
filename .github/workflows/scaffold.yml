@@ -44,3 +44,5 @@ jobs:
           python scripts/check_s035_sat_resume.py
       - name: Validate S035 classified helper quarantine repair
         run: python scripts/check_s035_thread_records.py
+      - name: Validate S035 closeout and S036 recovery handover
+        run: python scripts/check_s035_closeout.py

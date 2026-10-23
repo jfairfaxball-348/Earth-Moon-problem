@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 357, in <module>
+    main()
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 318, in main
+    hits = scanner.inspect(paths, classify_controls=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Earth-Moon-problem\scripts\s035_sat_first_resume.py", line 95, in inspect
+    with path.open('rb') as f:
+         ^^^^^^^^^^^^^^^
+  File "C:\Users\johnf\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\RESUME_CONTROL\\ADOPTION.json'

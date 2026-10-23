@@ -26,6 +26,8 @@ assert diag['status']=='PASS_DIAGNOSTIC_NOT_A_MATHEMATICAL_RESULT'
 assert cfg['disable_congruence']==diag['disable_congruence']
 assert read('validation/S035/pre-resident/ARCHIVE_VERIFICATION.json')['status']=='PASS_ALL_ORIGINAL_BYTES'
 state=read('authoritative/STATE.json')
+if state['last_completed_session']=='S035':
+    state=read('validation/S035/closeout/ENTRY_STATE.json')
 assert state['last_completed_session']=='S034' and state['active_session']['id']=='S035'
 assert state['active_session']['status'] in ('RUNNING','PAUSED') and state['active_session']['no_automatic_S036']
 assert state['active_session']['execution_revision']==cfg['execution_revision']

@@ -1,0 +1,24 @@
+{
+ "status": "SUCCESSFUL_PILOT_ARCHIVED_NO_WORK_RESUMED",
+ "moved": [
+  "ADOPTION.json",
+  "checkpoints",
+  "controller-classified-pilot.log",
+  "CONTROLLER.json",
+  "GUARD_PAUSE.json",
+  "PAUSE_EVIDENCE-1792740356650240400.json",
+  "watcher-classified-pilot.log",
+  "WATCHER.json",
+  "WATCHER.lock",
+  "STOP"
+ ],
+ "previous_controller": {
+  "pid": 8420,
+  "start_ticks": "1792740312.4959404"
+ },
+ "previous_watcher": {
+  "pid": 6584,
+  "start_ticks": "1792740309.2780664"
+ },
+ "original_stop_latched": true
+}

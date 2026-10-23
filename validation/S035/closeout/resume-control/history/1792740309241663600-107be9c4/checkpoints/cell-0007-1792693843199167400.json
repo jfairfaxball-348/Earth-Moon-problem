@@ -1,0 +1,23 @@
+{
+ "source": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem",
+ "complete_bytes": 28409338,
+ "complete_lines": 381110,
+ "complete_prefix_sha256": "88513676b862169c2aef6d1bacb30b07e634c65cd6788c55821055dbc95e4278",
+ "source_bytes": 28409338,
+ "updated_epoch": 1792693843.1991675,
+ "status": "UNVERIFIED_GEOMETRIC_PREFIX_PRESERVED",
+ "worker": {
+  "pid": 12384,
+  "start_ticks": "1792682640.4900093",
+  "phase": "native",
+  "command": [
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\native-resident\\bipsat_s032.exe",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\input.inst",
+   "--timeout",
+   "inf",
+   "--lemmas",
+   "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\new-cuts.lem"
+  ],
+  "utc": "2026-10-22T15:24:00.489824+00:00"
+ }
+}

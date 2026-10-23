@@ -1,0 +1,38 @@
+{
+ "logs": [
+  {
+   "cell": 0,
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0000\\de951acad138472d9fb6038523eaef64\\native.log",
+   "bytes": 392020,
+   "sha256": "b0c569919f48241e627119a2ab02bc0a0107fa8fb01e37f13a6399425a7c47af",
+   "input_sha256": "b5507a35836a9a85e447cd8aadc87587d89b619701dbad70c59cde3379529e3a",
+   "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777"
+  },
+  {
+   "cell": 7,
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0007\\d63111e434004486a46e94673dc94741\\native.log",
+   "bytes": 430408,
+   "sha256": "a01d212964604235515f2edd262741bdf382b79ee6b3c387fcabdef186bf871b",
+   "input_sha256": "1fa2b3a3f0df7618bbbb090a37f29e6189008422a231819ddbbfbe6f0d94ea98",
+   "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777"
+  },
+  {
+   "cell": 127,
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0127\\e0bacd43337e4aa49a9f89ceafef167f\\native.log",
+   "bytes": 411606,
+   "sha256": "6d57efbdab1352c667141cc651d4f5cbf45ec62df6b125fe5af6f2ba400ed1a0",
+   "input_sha256": "359052055b11f3cc07197f19a5ec7b2558c81bda8c2961a0659918c1c0f3bd0b",
+   "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777"
+  },
+  {
+   "cell": 255,
+   "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign\\attempts\\cell-0255\\cce9839326cf4893a6e7ee1af3d581bd\\native.log",
+   "bytes": 380981,
+   "sha256": "115fd3aa70ef6d528a13b7eeb93c2952fedb1e57fb5492b3e1b1945700303fff",
+   "input_sha256": "f80cb0d70961c13ab44b57990763c65b5c4ed79e6bc457628ad1db367b31033e",
+   "native_sha256": "102a29dc0030840daba958da88a9d5d2f4a394902b3b3f3367ae94afb5428777"
+  }
+ ],
+ "updated_epoch": 1792745027.8107543,
+ "status": "NATIVE_FILES_PRESERVED_NO_REGION_PROMOTED"
+}

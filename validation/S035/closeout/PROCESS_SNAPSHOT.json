@@ -1,0 +1,295 @@
+{
+ "processes": [
+  {
+   "identity": {
+    "pid": 14192,
+    "start_ticks": "1792682628.7765863",
+    "was_status": "running",
+    "name": "python.exe"
+   },
+   "threads": [
+    {
+     "tid": 13920,
+     "created_ticks": "134371562287765888",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 37.390625,
+   "private": 34942976,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 10296,
+    "start_ticks": "1792682629.3092763",
+    "was_status": "running",
+    "name": "python.exe"
+   },
+   "threads": [
+    {
+     "tid": 10628,
+     "created_ticks": "134371562293092797",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9076,
+     "created_ticks": "134371684766965844",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 0.015625,
+   "private": 811008,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 14508,
+    "start_ticks": "1792682629.3147533",
+    "was_status": "running",
+    "name": "conhost.exe"
+   },
+   "threads": [
+    {
+     "tid": 13904,
+     "created_ticks": "134371562293225111",
+     "suspend_count": 1
+    },
+    {
+     "tid": 13208,
+     "created_ticks": "134371562293228588",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 0.03125,
+   "private": 1241088,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 18384,
+    "start_ticks": "1792682629.327922",
+    "was_status": "running",
+    "name": "python.exe"
+   },
+   "threads": [
+    {
+     "tid": 7056,
+     "created_ticks": "134371562293279248",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9932,
+     "created_ticks": "134371562383956908",
+     "suspend_count": 1
+    },
+    {
+     "tid": 12096,
+     "created_ticks": "134371562383963206",
+     "suspend_count": 1
+    },
+    {
+     "tid": 12888,
+     "created_ticks": "134371684766966327",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 1212.671875,
+   "private": 39161856,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 12384,
+    "start_ticks": "1792682640.4900093",
+    "was_status": "stopped",
+    "name": "bipsat_s032.exe"
+   },
+   "threads": [
+    {
+     "tid": 4888,
+     "created_ticks": "134371562404900220",
+     "suspend_count": 1
+    },
+    {
+     "tid": 5408,
+     "created_ticks": "134371684766967440",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 6093.8125,
+   "private": 1085222912,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 3500,
+    "start_ticks": "1792682640.5223634",
+    "was_status": "stopped",
+    "name": "bipsat_s032.exe"
+   },
+   "threads": [
+    {
+     "tid": 13668,
+     "created_ticks": "134371562405223651",
+     "suspend_count": 1
+    },
+    {
+     "tid": 16156,
+     "created_ticks": "134371684766969032",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 5953.781249999999,
+   "private": 817696768,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 14812,
+    "start_ticks": "1792682657.7049177",
+    "was_status": "running",
+    "name": "bipsat_s032.exe"
+   },
+   "threads": [
+    {
+     "tid": 17908,
+     "created_ticks": "134371562577049198",
+     "suspend_count": 1
+    },
+    {
+     "tid": 13732,
+     "created_ticks": "134371684766971439",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 5558.859375,
+   "private": 755412992,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 17984,
+    "start_ticks": "1792682657.7354991",
+    "was_status": "running",
+    "name": "bipsat_s032.exe"
+   },
+   "threads": [
+    {
+     "tid": 4232,
+     "created_ticks": "134371562577355010",
+     "suspend_count": 1
+    },
+    {
+     "tid": 10796,
+     "created_ticks": "134371684766975186",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 5418.828125,
+   "private": 774389760,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 11104,
+    "start_ticks": "1792682657.7398837",
+    "was_status": "running",
+    "name": "conhost.exe"
+   },
+   "threads": [
+    {
+     "tid": 12920,
+     "created_ticks": "134371562577481312",
+     "suspend_count": 1
+    },
+    {
+     "tid": 9040,
+     "created_ticks": "134371562577484847",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 0.015625,
+   "private": 1253376,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 15352,
+    "start_ticks": "1792682657.7101965",
+    "was_status": "running",
+    "name": "conhost.exe"
+   },
+   "threads": [
+    {
+     "tid": 7960,
+     "created_ticks": "134371562577180081",
+     "suspend_count": 1
+    },
+    {
+     "tid": 8936,
+     "created_ticks": "134371562577185127",
+     "suspend_count": 1
+    }
+   ],
+   "cpu": 0.046875,
+   "private": 1245184,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 2224,
+    "start_ticks": "1792682640.5278616",
+    "was_status": "stopped",
+    "name": "conhost.exe"
+   },
+   "threads": [
+    {
+     "tid": 11120,
+     "created_ticks": "134371562405370234",
+     "suspend_count": 2
+    },
+    {
+     "tid": 9080,
+     "created_ticks": "134371562405373811",
+     "suspend_count": 2
+    }
+   ],
+   "cpu": 0.015625,
+   "private": 1245184,
+   "cpu_delta": 0.0
+  },
+  {
+   "identity": {
+    "pid": 6808,
+    "start_ticks": "1792682640.4960043",
+    "was_status": "stopped",
+    "name": "conhost.exe"
+   },
+   "threads": [
+    {
+     "tid": 12492,
+     "created_ticks": "134371562405043530",
+     "suspend_count": 2
+    },
+    {
+     "tid": 12884,
+     "created_ticks": "134371562405047831",
+     "suspend_count": 2
+    }
+   ],
+   "cpu": 0.015625,
+   "private": 1249280,
+   "cpu_delta": 0.0
+  }
+ ],
+ "controls": {
+  "controller": "EXACT_IDENTITY_NO_LONGER_ALIVE",
+  "watcher": "EXACT_IDENTITY_NO_LONGER_ALIVE"
+ },
+ "all_original_threads_suspended": true,
+ "available_ram_bytes": 5673447424,
+ "free_disk_bytes": 20890988544,
+ "source_hashes": "PASS",
+ "private_cdcl_serialized": false,
+ "epoch": 1792753477.124397
+}

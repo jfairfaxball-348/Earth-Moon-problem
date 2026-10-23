@@ -1,0 +1,6 @@
+{
+ "issue": "External S034 proof metadata includes proof_id; whole-row comparison mistakenly rearchived unchanged proofs.",
+ "action": "Interrupted packaging helper only using Ctrl-C before restoration; partial archive retained outside Git. Corrected comparison checks bytes and SHA256. All scientific processes untouched.",
+ "partial": "artifacts/tmp/S035-closeout-first-partial.tar.xz",
+ "preservation": "No original deleted or changed"
+}

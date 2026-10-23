@@ -89,3 +89,5 @@ S033: environment validation only (no new search campaign). PHONE_READY_VALIDATE
 CAM-0040 / S035 OWNER_PAUSED:247 encoded proof closures; unresolved0,1,3,7,15,31,63,127,255. SAT-first/lifecycle diagnostic handover; no auto-resume.
 
 CAM-0040 / S035 sustained RUNNING2026-10-23: verified live controller/SAT watcher, original RAM contexts0,7,127,255; two slots; cold queue unchanged. No proof/headline advance.
+
+CAM-0040 / S035 CLOSED23Oct2026:247 encoded proof closures/nine UNKNOWN; SAT-watcher read failure, original RAM contexts preserved suspended. S036 targeted repair/diagnostic long-search prompt queued, not executed.
