@@ -288,6 +288,88 @@ def low_ram(root):
             f'nothing relaunched while throttled; the run continued instead of halting')
 
 
+def audit_without_stall(root):
+    """A large audit runs in a separate process: the control loop never waits on it."""
+    base = root / 'nostall'; base.mkdir()
+    k9, pairs = k9_instance(base)
+    seed = base / 'seed'; seed.mkdir()
+    env = dict(os.environ, EMP_S035_DISABLE_CONGRUENCE='1')
+    subprocess.run([str(EXE), str(k9), '--timeout', '3', '--lemmas', str(seed / 'k.lem')], capture_output=True,
+                   env=env, timeout=60)
+    lines = (seed / 'k.lem').read_bytes()
+    directory = base / 'stopped'; directory.mkdir()
+    (directory / 'new-cuts.lem').write_bytes(lines * 12)
+    (directory / 'INPUT.json').write_text(json.dumps(dict(pairs=[list(p) for p in pairs])))
+    worker = fresh.Worker('audit-block', region=60, directory=str(directory), ledger=str(base / 'LEDGER.json'))
+    began = time.monotonic(); worker.start(); last = time.monotonic(); worst = 0.0
+    while worker.is_alive():
+        now = time.monotonic(); worst = max(worst, now - last); last = now
+        sum(i * i for i in range(20000))  # the control loop keeps doing Python work
+        time.sleep(.05)
+    seconds = time.monotonic() - began
+    assert worker.error is None, worker.error
+    assert worker.result['count'] == lines.count(bytes([10])) * 12 and worst < 1.0, (worker.result, worst)
+    return (f'{worker.result["count"]} clauses audited in a separate process in {seconds:.1f}s; '
+            f'the longest control-loop gap was {worst*1000:.0f} ms')
+
+
+def autopilot_rules(root):
+    """Autopilot recovers operational pauses only; SAT, native returns and owner pauses block."""
+    import s036_autopilot as auto
+    rows = []
+    me = life.identity(os.getpid())
+    dead = dict(pid=2147483000, start_ticks='0')
+
+    def case(name, controller, adoption, files=None, expect=None):
+        control = root / 'autopilot' / name; control.mkdir(parents=True)
+        (control / 'CONTROLLER.json').write_text(json.dumps(controller))
+        (control / 'ADOPTION.json').write_text(json.dumps(adoption))
+        for fname, value in (files or {}).items():
+            (control / fname).write_text(json.dumps(value))
+        kind, reason, _ = auto.classify(control)
+        assert kind == expect, (name, kind, reason)
+        rows.append(f'{name}: {kind}')
+    paused = lambda reason, **extra: dict(status='PAUSED', reason=reason, pause_errors=[], **extra)
+    case('running', dict(status='RUNNING', **me), dict(status='RUNNING'), expect='RUNNING')
+    case('lease', dict(status='PAUSED', **dead), paused('SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED'),
+         expect='RECOVERABLE')
+    case('hardcap', dict(status='PAUSED', **dead), paused('SAFETY_AGGREGATE_PRIVATE_CAP'), expect='RECOVERABLE')
+    case('sat', dict(status='PAUSED', **dead), paused('SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED'),
+         files={'SAT_ALERT.json': {}}, expect='BLOCKED')
+    case('satreason', dict(status='PAUSED', **dead), paused('SAT_DISCOVERY_REQUIRES_PROMINENT_REVIEW'),
+         expect='BLOCKED')
+    case('native', dict(status='PAUSED', **dead), paused('NATIVE_RETURN_PRESERVED_PENDING_PROOF_OR_FAILURE_REVIEW'),
+         files={'TERMINAL.json': {}}, expect='BLOCKED')
+    case('owner', dict(status='PAUSED', **dead), paused('SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED'),
+         files={'OWNER_PAUSE.json': {}}, expect='BLOCKED')
+    case('ownerstop', dict(status='PAUSED', **dead), paused('OWNER_OR_CONTROLLER_STOP'), expect='BLOCKED')
+    case('errors', dict(status='PAUSED', **dead), dict(paused('SAFETY_AGGREGATE_PRIVATE_CAP'), pause_errors=[1]),
+         expect='BLOCKED')
+    case('scanclean', dict(status='PAUSED', **dead), paused('SUPERVISOR_PAUSE:WATCHER_SCAN_UNAVAILABLE'),
+         files={'WATCHER_FAILURE.json': {}, 'WATCHER_FAILURE_RESCAN.json': dict(sat_alert=False, unreadable=[])},
+         expect='RECOVERABLE')
+    case('scandirty', dict(status='PAUSED', **dead), paused('SUPERVISOR_PAUSE:WATCHER_SCAN_UNAVAILABLE'),
+         files={'WATCHER_FAILURE.json': {}, 'WATCHER_FAILURE_RESCAN.json': dict(sat_alert=False, unreadable=[{}])},
+         expect='BLOCKED')
+    case('lostcontroller', dict(status='RUNNING', **dead), dict(status='RUNNING'),
+         files={'WATCHER.json': dict(status='PAUSED', **dead), 'GUARD_PAUSE.json': dict(reason='ADOPTED_CONTROLLER_LEASE_EXPIRED')},
+         expect='RECOVERABLE')
+    return 'autopilot rules: ' + '; '.join(rows)
+
+
+def requeue_interrupted(root):
+    """A relaunch interrupted by a pause is re-queued by prepare-resume, never dropped."""
+    control = root / 'requeue' / 'control'; control.mkdir(parents=True)
+    dead = dict(pid=2147483000, start_ticks='0')
+    (control / 'ADOPTION.json').write_text(json.dumps(dict(
+        mode='FRESH_SEMANTIC_RECOVERY_RESIDENTS', status='PAUSED', reason='SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED',
+        pause_errors=[], exited_cells=[], controller=dead, watcher=dead, contexts=[], queued_regions=[],
+        preparing=dict(region=7, generation=1), generations={'7': 0})))
+    plan = fresh.prepare_resume(control, owner_authorized=True, ledger_path=root / 'requeue' / 'LEDGER.json')
+    assert plan['queued_regions'] == [7], plan['queued_regions']
+    return 'interrupted relaunch of region 7 re-queued by prepare-resume'
+
+
 def wmi_launch(root):
     """The WMI path creates a process outside any job object."""
     import ctypes
@@ -330,8 +412,13 @@ def main():
         report['cold_band'] = cold_band()
         report['recycle'] = recycle(root)
         report['low_ram'] = low_ram(root)
+        report['audit_without_stall'] = audit_without_stall(root)
+        report['autopilot_rules'] = autopilot_rules(root)
+        report['requeue_interrupted'] = requeue_interrupted(root)
         report['wmi_launch'] = wmi_launch(root)
     report.update(status='PASS', native_sha256=sha(EXE), source_sha256=fresh.sources(), forced_terminations=0,
+                  autopilot_sha256=sha(ROOT / 'scripts/s036_autopilot.py'),
+                  cold_runner_sha256=sha(ROOT / 'scripts/s036_cold_diagnostic.py'),
                   scientific_processes_touched=False, test_sha256=sha(__file__))
     with open(ROOT / 'validation/S036/FRESH_CONTROLS.json', 'w', encoding='utf-8', newline='\n') as f:
         f.write(json.dumps(report, indent=1) + '\n')

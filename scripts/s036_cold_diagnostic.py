@@ -140,7 +140,7 @@ def materialise_region(region, purpose='span'):
     cfg, value = recipe_for(region)
     directory = COLD / f'region-{region:04d}'
     directory.mkdir(parents=True, exist_ok=True)
-    if purpose == 'diag':
+    if purpose in ('diag', 'span'):
         frozen = directory / 'DIAG_RECIPE.json'
         if frozen.exists():
             value = read_json(frozen)['recipe']
@@ -259,7 +259,8 @@ def run_arm(region, arm, source, meta, budget, purpose):
         rows = read_json(CONTROL / 'COLD_TERMINAL.json').get('results', []) if (CONTROL / 'COLD_TERMINAL.json').exists() else []
         rows.append(dict(region=region, directory=str(directory), returncode=code, status=status, worker=worker))
         atomic_json(CONTROL / 'COLD_TERMINAL.json', dict(results=rows, no_region_promoted=True, updated_epoch=time.time()))
-    result['audit'] = audit_cuts(region, directory, 'diagnostic_blocks' if purpose == 'diag' else 'audited_blocks')
+    result['audit'] = audit_cuts(region, directory, {'diag': 'diagnostic_blocks', 'span': 'span_blocks'}.get(
+        purpose, 'audited_blocks'))
     atomic_json(directory / 'native-RESULT.json', result)
     journal(COLD / 'JOURNAL.jsonl', 'cold_finished', **{k: v for k, v in result.items() if k != 'audit'},
             audited=result['audit'].get('count'))
@@ -433,7 +434,10 @@ def rotate(span, max_wait):
         if reason:
             journal(COLD / 'JOURNAL.jsonl', 'cold_rotation_stopped', reason=reason)
             return state
-        source, meta = materialise_region(region)
+        # Fixed-size input per region (the frozen diagnostic recipe): a cold stint must fit
+        # beside four residents. Its new cuts are audited into span_blocks and kept on disk,
+        # not reloaded (24 Oct: reloading 1.56M span cuts made region 1 unloadable).
+        source, meta = materialise_region(region, 'span')
         result = run_arm(region, adopted_arm(region), source, meta, span, 'span')
         source.unlink()
         state['spans'].append({k: result.get(k) for k in ('region', 'arm', 'returncode', 'yield_reason', 'wall_seconds',
@@ -441,13 +445,12 @@ def rotate(span, max_wait):
         if result['returncode'] != 0:
             atomic_json(state_path, state)
             return state
-        # A span that yielded early is resumed later for the same region (semantic
-        # cuts kept); only a span that ran its full budget advances the rotation.
-        if not result['yield_reason']:
-            state['next_index'] += 1
+        # Every span advances the rotation, so one region that cannot fit never starves the
+        # others; after a yield the slot waits before the next admission attempt.
+        state['next_index'] += 1
         atomic_json(state_path, state)
         if result['yield_reason']:
-            time.sleep(120)
+            time.sleep(600)
 
 
 def campaign(regions, budget, span, max_wait):

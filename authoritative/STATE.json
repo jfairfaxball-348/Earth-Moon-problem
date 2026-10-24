@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S036 IN_PROGRESS: four concurrent fresh residents under owner-approved machine limits with automatic recycling (WMI-launched); registered cold diagnostics active.",
+    "S036 IN_PROGRESS: autonomous operation authorised; autopilot recovers operational pauses; four fresh residents with recycling, bounded cold rotation.",
     "S11 m155/156 UNKNOWN;247 encoded closures and nine UNKNOWN are not graph/stratum closure.",
     "Original S035 RAM contexts are lost (unrecoverable private CDCL); fresh S036 residents retain only new RAM learning while their processes survive.",
     "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged;9<=chi2<=12."
@@ -1929,7 +1929,7 @@
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
   "active_session": {
     "id": "S036",
-    "status": "RUNNING",
+    "status": "PAUSED",
     "authority": "D047/D074 owner invocation 2026-10-23 (\"run next session\")",
     "entry_main": "45a2f328471ccad39b49160b12560c0fe1b27f91",
     "runtime_directory": "artifacts/tmp/S036/control",
@@ -1944,7 +1944,7 @@
     "deadline": null,
     "owner_resume_required": false,
     "resumption_authorized": true,
-    "stage": "FOUR_CONCURRENT_RESIDENTS_MACHINE_LIMITS_RECYCLING_COLD_DIAGNOSTICS_ACTIVE",
+    "stage": "LEASE_EXPIRY_PAUSE_FIXED_AUTOPILOT_RECOVERY_PENDING",
     "acceptance_commit": "7a1c5b8136a7bfa2c91c9c51bb75caf7f1669483",
     "acceptance_hosted_run": "39949472103",
     "running_handoff": "sessions/S036/RUNNING.md",
@@ -1983,6 +1983,7 @@
       }
     },
     "machine_limits": "validation/S036/MACHINE_LIMITS.json",
-    "recycling": "owner-approved automatic resident recycling (cooperative stop, audited cuts, new generation)"
+    "recycling": "owner-approved automatic resident recycling (cooperative stop, audited cuts, new generation)",
+    "autopilot": "validation/S036/AUTOPILOT.json"
   }
 }

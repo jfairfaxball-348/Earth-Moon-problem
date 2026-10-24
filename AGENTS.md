@@ -1,3 +1,11 @@
+# S036 IN_PROGRESS — AUTONOMOUS: autopilot recovers operational pauses (24 October 2026)
+
+Owner (24 Oct): hands-off operation; authority to apply recommended fixes. The autopilot
+(scripts/s036_autopilot.py, WMI-launched; validation/S036/AUTOPILOT.json) resumes
+operational pauses automatically via prepare-resume. It NEVER resumes after a SAT alert,
+a native return or an owner pause (use `s036_fresh_campaign.py pause`, which writes
+OWNER_PAUSE.json). Check-ins stay read-only. State: artifacts/tmp/S036/AUTOPILOT.json.
+
 # S036 IN_PROGRESS — machine limits, four concurrent residents, automatic recycling (23 October 2026)
 
 Owner (17:05 UTC): "Recycle where needed but just raise the limits to whatever this

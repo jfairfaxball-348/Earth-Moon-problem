@@ -30,8 +30,10 @@ from pathlib import Path
 import signal
 import subprocess
 import sys
+import tempfile
 import threading
 import time
+import traceback
 import uuid
 
 import psutil
@@ -62,6 +64,23 @@ MACHINE = dict(aggregate_private=8 * GiB, per_worker_private=3 * GiB, available_
                throttle_clear_seconds=120, throttle_clear_margin=int(0.25 * GiB))
 ctl.LIMITS = dict(ctl.LIMITS, **MACHINE)
 COLD_CEILING = int(7.75 * GiB)
+_SIZE_CACHE = {}
+_UNCACHED_DIRECTORY_BYTES = ctl.directory_bytes
+
+
+def _directory_bytes(path):
+    """S035 artifacts are frozen during S036: rescan them hourly, everything else each call."""
+    path = Path(path).resolve()
+    frozen = path.is_relative_to((ROOT / 'artifacts/tmp/S035').resolve())
+    hit = _SIZE_CACHE.get(str(path))
+    if frozen and hit and time.monotonic() - hit[0] < 3600:
+        return hit[1]
+    value = _UNCACHED_DIRECTORY_BYTES(path)
+    _SIZE_CACHE[str(path)] = (time.monotonic(), value)
+    return value
+
+
+ctl.directory_bytes = _directory_bytes
 ACTIVE_SLOTS = 4
 ADMISSION = dict(reserve_bytes=2 * GiB, available_after_min=int(2.25 * GiB), loading_seconds=120)
 RECYCLE = dict(worker_bytes=int(2.5 * GiB), cooldown_seconds=7200, low_ram_seconds=300, stop_wait_seconds=60)
@@ -106,8 +125,12 @@ def published_acceptance(control):
     head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     remote = subprocess.check_output(['git', 'ls-remote', 'origin', 'refs/heads/main'],
                                      cwd=ROOT, text=True, timeout=60).split()[0]
-    if remote != commit or subprocess.run(['git', 'merge-base', '--is-ancestor', commit, head], cwd=ROOT).returncode:
-        raise LifecycleError('Fresh acceptance commit is not verified remote main contained in HEAD')
+    if remote != head:
+        subprocess.run(['git', 'fetch', '-q', 'origin', 'main'], cwd=ROOT, timeout=120)
+    # Later record-only commits are allowed; the executed sources must equal the accepted bytes.
+    if (subprocess.run(['git', 'merge-base', '--is-ancestor', commit, remote], cwd=ROOT).returncode
+            or subprocess.run(['git', 'merge-base', '--is-ancestor', commit, head], cwd=ROOT).returncode):
+        raise LifecycleError('Fresh acceptance commit is not contained in remote main and HEAD')
     for name, digest in sources().items():
         data = subprocess.check_output(['git', 'show', f'{commit}:{name}'], cwd=ROOT)
         if hashlib.sha256(data).hexdigest() != digest:
@@ -209,18 +232,55 @@ def audit_block(region, directory, ledger_path=LEDGER):
     return row
 
 
-class Worker(threading.Thread):
-    """Run one heavy function off the control loop so leases and heartbeats stay fresh."""
-    def __init__(self, fn, *args, **kwargs):
-        super().__init__(daemon=True)
-        self.fn, self.args, self.kwargs = fn, args, kwargs
-        self.result = self.error = None
+class Worker:
+    """Run one heavy step (audit or input build) in a SEPARATE PROCESS.
 
-    def run(self):
-        try:
-            self.result = self.fn(*self.args, **self.kwargs)
-        except BaseException as exc:
-            self.error = exc
+    A thread here starved the control loop of the GIL during a 2.5M-clause audit
+    (24 Oct 00:14 UTC), the lease expired and the supervisor paused the search.
+    Same interface as before: start(), is_alive(), result, error.
+    """
+    def __init__(self, action, **payload):
+        self.action, self.payload = action, payload
+        self.result = self.error = None
+        self.process = None
+        self.directory = Path(tempfile.mkdtemp(prefix='s036-worker-'))
+
+    def start(self):
+        (self.directory / 'payload.json').write_text(json.dumps(self.payload, default=str), encoding='utf-8')
+        with (self.directory / 'worker.log').open('w') as log:
+            self.process = subprocess.Popen([sys.executable, str(Path(__file__).resolve()), 'worker', self.action,
+                                             str(self.directory)], stdout=log, stderr=subprocess.STDOUT,
+                                            creationflags=subprocess.CREATE_NO_WINDOW)
+
+    def is_alive(self):
+        if self.process.poll() is None:
+            return True
+        if self.result is None and self.error is None:
+            path = self.directory / 'result.json'
+            row = json.loads(path.read_text(encoding='utf-8')) if path.exists() else dict(
+                ok=False, error='worker exited %s without a result' % self.process.returncode)
+            if row.get('ok'):
+                self.result = row['result']
+            else:
+                self.error = RuntimeError(row.get('error', 'worker failure') + ' ' + row.get('traceback', '')[-800:])
+        return False
+
+
+def worker_main(action, directory):
+    directory = Path(directory)
+    payload = json.loads((directory / 'payload.json').read_text(encoding='utf-8'))
+    try:
+        if action == 'audit-block':
+            result = audit_block(payload['region'], payload['directory'], payload['ledger'])
+        elif action == 'prepare-input':
+            prepared = prepare_input(payload['region'], payload['generation'], payload.get('fixture'))
+            result = dict(directory=str(prepared['directory']), meta=prepared['meta'])
+        else:
+            raise ValueError('unknown worker action ' + action)
+        atomic_json(directory / 'result.json', dict(ok=True, result=result))
+    except BaseException as exc:
+        atomic_json(directory / 'result.json', dict(ok=False, error=repr(exc), traceback=traceback.format_exc()))
+        raise
 
 
 def admission(control, contexts, registry, active):
@@ -283,7 +343,11 @@ RESUMABLE = ('SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE', 'BOUNDED_PILOT_COM
              'SOFT_AVAILABLE_RAM_THROTTLE', 'SUPERVISOR_PAUSE:OWNER_OR_CONTROLLER_STOP', 'OWNER_OR_CONTROLLER_STOP')
 # Hard-cap preservation pauses resume only with explicit owner authorisation.
 OWNER_RESUMABLE = ('SAFETY_AGGREGATE_PRIVATE_CAP', 'SAFETY_PER_WORKER_PRIVATE_CAP', 'SAFETY_AVAILABLE_RAM_FLOOR',
-                   'RECYCLE_STOP_TIMEOUT')
+                   'RECYCLE_STOP_TIMEOUT', 'RECYCLE_AUDIT_FAILURE', 'RESIDENT_PREPARATION_FAILURE',
+                   'CONTROLLER_EXCEPTION', 'SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED',
+                   'SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_IDENTITY_LOST', 'SUPERVISOR_UNAVAILABLE',
+                   'SUPERVISOR_PAUSE:WATCHER_SCAN_UNAVAILABLE', 'SUPERVISOR_PAUSE:WATCHER_FAILURE',
+                   'SUPERVISOR_FAILURE_RECORDED')
 KEEP_ON_ARCHIVE = {'history', 'CONTROLLER.lock', 'MUTATION.lock', 'WATCHER.lock', 'ACCEPTANCE_FRESH.json',
                    'COLD_SLOT.json'}
 
@@ -312,7 +376,7 @@ def release_cold_solver(control, wait=60):
     raise LifecycleError('Cold solver did not stop cooperatively; preserved suspended')
 
 
-def prepare_resume(control, owner_authorized=False, ledger_path=LEDGER):
+def prepare_resume(control, owner_authorized=False, ledger_path=LEDGER, watcher_failure_reviewed=False):
     """Operator step: verify a cleanly paused fresh campaign and archive its controls.
 
     Never resumes a resident. Refuses after SAT, native return, supervisor failure,
@@ -324,13 +388,19 @@ def prepare_resume(control, owner_authorized=False, ledger_path=LEDGER):
     if (control / 'SAT_ALERT.json').exists() or (control / 'TERMINAL.json').exists():
         raise LifecycleError('SAT or native return requires review; no resume')
     if (control / 'WATCHER_FAILURE.json').exists():
-        raise LifecycleError('Supervisor failure recorded; manual review required')
+        rescan = read_json(control / 'WATCHER_FAILURE_RESCAN.json') if (control / 'WATCHER_FAILURE_RESCAN.json').exists() else {}
+        # A fail-closed scan outage may resume only after its fresh complete rescan found no SAT
+        # signal and no unreadable file (checked by the caller that sets watcher_failure_reviewed).
+        if not (watcher_failure_reviewed and rescan.get('sat_alert') is False and rescan.get('unreadable') == []):
+            raise LifecycleError('Supervisor failure recorded; manual review required')
+    if (control / 'OWNER_PAUSE.json').exists() and not owner_authorized:
+        raise LifecycleError('Owner pause recorded; only the owner resumes')
     previous = read_json(control / 'ADOPTION.json')
     allowed = RESUMABLE + (OWNER_RESUMABLE if owner_authorized else ())
     recycled = {row['cell']: row for row in previous.get('recycled_exits', [])}
     if (previous.get('mode') != 'FRESH_SEMANTIC_RECOVERY_RESIDENTS' or previous.get('status') != 'PAUSED'
             or previous.get('pause_errors') or set(previous.get('exited_cells', [])) - set(recycled)
-            or previous.get('reason') not in allowed):
+            or not str(previous.get('reason', '')).startswith(allowed)):
         raise LifecycleError('Previous fresh campaign is not cleanly paused for a resumable reason')
     for record in (previous['controller'], previous['watcher']):
         try:
@@ -356,7 +426,10 @@ def prepare_resume(control, owner_authorized=False, ledger_path=LEDGER):
         path.rename(history / path.name); moved.append(path.name)
     plan = dict(status='RESUME_PLAN_VERIFIED_NO_PROCESS_RESUMED', previous_reason=previous['reason'],
                 owner_authorized=owner_authorized, history=str(history), moved=moved, contexts=live,
-                queued_regions=sorted(recycled) + list(previous.get('queued_regions', [])),
+                queued_regions=sorted(recycled) + ([previous['preparing']['region']] if previous.get('preparing')
+                                                   and previous['preparing']['region'] not in previous.get(
+                                                       'queued_regions', []) else [])
+                + list(previous.get('queued_regions', [])),
                 generations=previous.get('generations', {}), cold_solver=released, epoch=time.time())
     atomic_json(control / 'RESUME_PLAN.json', plan)
     journal(control / 'JOURNAL.jsonl', 'fresh_resume_prepared', history=str(history),
@@ -478,7 +551,9 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
                 # A recycling resident may already have exited: it is excluded from the
                 # identity sample and per-worker checks (its exit code is polled separately).
                 present = [c for c in contexts if c.get('state') != 'RECYCLING']
-                hard, soft, sample = resource(area, control, present,
+                # Storage/proof accounting covers the S036 resident area (S035 is frozen and
+                # counted through the cached session total), not the S035 attempt tree.
+                hard, soft, sample = resource(RESIDENT if fixture is None else area, control, present,
                                               registry + [c['worker'] for c in present], cache)
                 busy = recycle is not None or preparing is not None
                 if hard == 'SOFT_RESIDENT_CACHE_TARGET_PRESERVATION_PAUSE':
@@ -545,8 +620,9 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
                     code = handles[context['cell']].poll()
                     if recycle['phase'] == 'STOPPING':
                         if code == 0:
-                            recycle.update(phase='AUDITING', worker=Worker(audit_block, context['cell'],
-                                                                           context['directory'], ledger_path))
+                            recycle.update(phase='AUDITING', worker=Worker('audit-block', region=context['cell'],
+                                                                           directory=context['directory'],
+                                                                           ledger=str(ledger_path)))
                             recycle['worker'].start()
                         elif code is None and time.monotonic() - recycle['started'] > RECYCLE['stop_wait_seconds']:
                             with locked(control / 'MUTATION.lock'):
@@ -578,8 +654,8 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
                             region = queue.pop(0)
                             generation = generations.get(region, -1) + 1 if region in generations else 0
                             preparing = dict(region=region, generation=generation,
-                                             worker=Worker(prepare_input, region, generation,
-                                                           (fixture or {}).get(region)))
+                                             worker=Worker('prepare-input', region=region, generation=generation,
+                                                           fixture=(fixture or {}).get(region)))
                             preparing['worker'].start()
                     if preparing is not None and not preparing['worker'].is_alive():
                         if preparing['worker'].error is not None:
@@ -662,6 +738,8 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
                 for context in contexts:
                     if context['cell'] in active_started:
                         context['active_seconds'] += now - active_started[context['cell']]
+                if preparing is not None and preparing['region'] not in queue:
+                    queue.insert(0, preparing['region'])  # an interrupted relaunch is re-queued, never dropped
                 exited = {c['cell'] for c in contexts if handles[c['cell']].poll() is not None}
                 for context in contexts:
                     # A resident that finished its cooperative recycle exit is re-queued at resume.
@@ -687,12 +765,16 @@ def run(area, control, regions=REGIONS, pilot_seconds=None, fixture=None, resume
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=('run', 'status', 'pause', 'prepare-resume'))
+    parser.add_argument('action', choices=('run', 'status', 'pause', 'prepare-resume', 'worker'))
+    parser.add_argument('worker_args', nargs='*', help=argparse.SUPPRESS)
     parser.add_argument('--pilot-seconds', type=float)
     parser.add_argument('--resume', action='store_true', help='adopt the residents named in RESUME_PLAN.json')
     parser.add_argument('--owner-authorized', action='store_true',
                         help='prepare-resume after a hard-cap preservation pause (owner decision only)')
     args = parser.parse_args()
+    if args.action == 'worker':
+        worker_main(*args.worker_args)
+        return
     if args.action == 'status':
         print(json.dumps(read_json(CONTROL / 'ADOPTION.json'), indent=1))
     elif args.action == 'prepare-resume':
@@ -700,6 +782,8 @@ def main():
         print(json.dumps({k: plan[k] for k in ('status', 'previous_reason', 'owner_authorized', 'history',
                                                'queued_regions', 'cold_solver')}, indent=1))
     elif args.action == 'pause':
+        # An owner pause is never undone by the autopilot (scripts/s036_autopilot.py).
+        atomic_json(CONTROL / 'OWNER_PAUSE.json', dict(epoch=time.time(), note='owner-requested pause'))
         (CONTROL / 'STOP').touch(); print('Preservation pause requested; residents will be suspended, not terminated.')
     else:
         if args.pilot_seconds is not None and not 0 < args.pilot_seconds <= 120:

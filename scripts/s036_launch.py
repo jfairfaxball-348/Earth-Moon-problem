@@ -20,7 +20,8 @@ CONTROL = ROOT / 'artifacts/tmp/S036/control'
 ENTRIES = dict(supervisor=['scripts/s036_sat_supervisor.py'],
                controller=['scripts/s036_resident_controller.py', 'run'],
                fresh=['scripts/s036_fresh_campaign.py', 'run'],
-               cold=['scripts/s036_cold_diagnostic.py'])
+               cold=['scripts/s036_cold_diagnostic.py'],
+               autopilot=['scripts/s036_autopilot.py'])
 
 
 def quote(arg):

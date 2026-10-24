@@ -77,6 +77,10 @@ assert fresh['status'] == 'PASS' and fresh['forced_terminations'] == 0 and not f
 assert fresh['native_sha256'] == native['native_sha256']
 for name, digest in fresh['source_sha256'].items():
     assert sha(ROOT / name) == digest, 'Fresh-campaign source changed after controls: ' + name
+auto = read('AUTOPILOT.json')
+assert auto['status'] == 'OWNER_AUTHORISED_AUTOMATIC_RECOVERY' and 'SAT alert or any reason naming SAT' in auto['autopilot']['never']
+assert sha(ROOT / 'scripts/s036_autopilot.py') == fresh['autopilot_sha256'], 'Autopilot changed after controls'
+assert 'audit_without_stall' in fresh and 'autopilot_rules' in fresh and 'requeue_interrupted' in fresh
 exit1 = read('EXIT1_ATTRIBUTION.json')
 assert exit1['status'] == 'ATTRIBUTED' and exit1['taskkill_force_control_exit_code'] == 1
 assert len(exit1['rows']) == 21 and not any(r['fatal_marker'] or r['sat_marker'] or r['unsat_marker'] for r in exit1['rows'])

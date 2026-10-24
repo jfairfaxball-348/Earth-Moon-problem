@@ -1,0 +1,44 @@
+{
+ "status": "OWNER_AUTHORISED_AUTOMATIC_RECOVERY",
+ "session": "S036",
+ "utc": "2026-10-24T07:20Z",
+ "authority": [
+  "Owner, 24 Oct 2026: \"Ugh this is really annoying.. the idea is autonomous working and solving. I leave it on overnight and find its stopped at 2am. Yes fix whatever you recommend and think is best and continue\"",
+  "Owner, 24 Oct 2026: \"Yeah i really want this to be just hands off and I leave the process/laptop running. If another fix is needed or whatever, you have authority to do whatever you recommended to make it work.\""
+ ],
+ "trigger": "24 Oct 00:14 UTC: region 7 recycled correctly (2.5M new clauses audited) but the audit ran in a controller THREAD; the CPU-bound audit starved the control loop of the GIL, the 10 s lease expired and the supervisor paused the search (residents kept their RAM). Resuming needed the owner, so the run stayed paused overnight.",
+ "fixes": [
+  "Audit and input preparation run in separate processes (control loop longest gap 63 ms during a 622K-clause audit).",
+  "Frozen S035 directory sizes are rescanned hourly; storage/proof accounting covers the S036 resident area.",
+  "An interrupted relaunch is re-queued at halt and by prepare-resume (region 7 was mid-preparation at the pause).",
+  "Acceptance tolerates later record-only commits; executed sources must still equal the accepted bytes.",
+  "Cold rotation: fixed-size input per region (frozen recipe), span cuts kept on disk as span_blocks (not reloaded), every span advances the rotation, 600 s back-off after a yield."
+ ],
+ "autopilot": {
+  "entry": "scripts/s036_autopilot.py (launched via WMI)",
+  "recovers": [
+   "SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_LEASE_EXPIRED",
+   "SUPERVISOR_PAUSE:ADOPTED_CONTROLLER_IDENTITY_LOST",
+   "SUPERVISOR_UNAVAILABLE",
+   "SAFETY_* hard-cap pauses",
+   "SOFT_* pauses",
+   "RECYCLE_STOP_TIMEOUT",
+   "RECYCLE_AUDIT_FAILURE",
+   "RESIDENT_PREPARATION_FAILURE",
+   "CONTROLLER_EXCEPTION",
+   "supervisor scan failure only when its fresh rescan found no SAT and nothing unreadable",
+   "controller lost without a halt record, after the supervisor has paused"
+  ],
+  "never": [
+   "SAT alert or any reason naming SAT",
+   "native return (TERMINAL.json)",
+   "owner pause (OWNER_PAUSE.json or OWNER_OR_CONTROLLER_STOP)",
+   "pause errors",
+   "unclassified reasons"
+  ],
+  "sequence": "wait 60 s settle and for the old controller/supervisor to exit; prepare-resume --owner-authorized (cold solver released through its stop file; residents verified suspended); fresh supervisor; controller --resume (same identities); cold runner if none alive",
+  "limits": "at most 6 recoveries per 6 hours, then it stops and leaves the search paused for review; never kills, suspends or force-terminates; never starts S037",
+  "state": "artifacts/tmp/S036/AUTOPILOT.json; actions journalled in artifacts/tmp/S036/control/JOURNAL.jsonl"
+ },
+ "verdict": "UNKNOWN"
+}

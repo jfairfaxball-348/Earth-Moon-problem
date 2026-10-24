@@ -162,3 +162,21 @@ supervisor (13336 / 1792775528.128196) and controller (6028 / 1792775532.676816)
 All four residents then executed concurrently from their paused counters (same
 processes); the cold slot was admitted for region 15 (frozen equal input 52b7b00e...).
 Liveness only; nine regions UNKNOWN.
+
+## 24 Oct 00:15 UTC lease-expiry pause; autonomous operation (owner authorised)
+
+Region 7 crossed 2.5 GiB and was recycled correctly (exit 0, 2506998 new clauses
+audited). The audit ran in a controller thread; the CPU-bound loop starved the control
+loop of the GIL, the controller's 10 s lease expired and the supervisor paused the
+search. Residents 0, 127, 255 kept their RAM; region 7 was mid-relaunch. The run stayed
+paused overnight because resuming needed the owner.
+
+Owner, 24 Oct: autonomous, hands-off operation; authority to apply the recommended fixes
+and any further fixes needed. Fixes (validation/S036/AUTOPILOT.json): heavy steps in
+separate processes, hourly scans of frozen S035 sizes, interrupted relaunches re-queued,
+acceptance tolerant of record-only commits, fixed-size cold rotation inputs that advance
+on every span. scripts/s036_autopilot.py (WMI-launched) now recovers operational pauses
+automatically through the verified prepare-resume sequence; it never resumes after a SAT
+alert, a native return or an owner pause (`s036_fresh_campaign.py pause` writes
+OWNER_PAUSE.json), and gives up after six recoveries in six hours. 1.36 GiB of stale,
+reproducible cold input copies were removed.
