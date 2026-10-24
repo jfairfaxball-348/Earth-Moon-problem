@@ -1,3 +1,11 @@
+# S045 memory recovery accepted — 24 October 2026
+
+Read validation/S045/memory_recycle/ACCEPTANCE.json and the current execution
+prompt. A 2.5 GiB soft threshold recycles completed, audited native slices
+before the unchanged 3 GiB hard cap. All semantic journals are retained and
+replayed. Hard stop remains 25 October 07:30 UK/GMT. Two-hour checks ACTIVE.
+S036 stopped; no automatic S046. Historical handover follows.
+
 # S045 REPAIRED / RESTARTED — hard stop 25 October 07:30 UK/GMT
 
 Owner authorised watchdog repair, two-hour check-ins and restart. Fresh

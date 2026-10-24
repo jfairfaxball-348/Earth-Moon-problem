@@ -118,14 +118,19 @@ def colouring(n,layers,k,seconds=60,cancel=None):
 
 def env(): return dict(os.environ,PATH=str(COMP)+os.pathsep+os.environ['PATH'])
 
-def reason():
-    if psutil.virtual_memory().available < 1.5*2**30: return 'AVAILABLE_RAM_FLOOR'
-    if psutil.disk_usage(str(ROOT)).free < 10*2**30: return 'DISK_RESERVE'
+def private_bytes():
     total=0
     parent=psutil.Process()
     for p in [parent,*parent.children(recursive=True)]:
         try: total+=getattr(p.memory_info(),'private',p.memory_info().rss)
         except psutil.Error: pass
+    return total
+
+
+def reason():
+    if psutil.virtual_memory().available < 1.5*2**30: return 'AVAILABLE_RAM_FLOOR'
+    if psutil.disk_usage(str(ROOT)).free < 10*2**30: return 'DISK_RESERVE'
+    total=private_bytes()
     if total>3*2**30: return 'PRIVATE_MEMORY_LIMIT'
     return None
 
@@ -232,7 +237,8 @@ def campaign():
             current=base/'journals'/f'{sequence:06d}.jsonl'
             sources=checkpoint_sources(base)+[current]
             result=run_slice(base,50,9,min(600,deadline-time.monotonic()),'partition',benchmark['positive_phases'],
-                             records_path=current,records_sources=sources,absolute_deadline=deadline_epoch)
+                             records_path=current,records_sources=sources,absolute_deadline=deadline_epoch,
+                             soft_private_bytes=int(2.5*2**30))
             index+=1
             append(base/'SLICES.jsonl',result)
             if result['state']!='SLICE_COMPLETE': break

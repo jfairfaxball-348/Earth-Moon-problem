@@ -1,0 +1,16 @@
+{
+ "session": "S045",
+ "authority": "Owner authorises operational fixes and restart; installed heartbeat recovery instructions",
+ "domain_unchanged": true,
+ "deadline_epoch": 1792913400,
+ "hard_private_bytes": 3221225472,
+ "soft_private_bytes": 2684354560,
+ "available_floor": 1610612736.0,
+ "disk_floor": 10737418240,
+ "benchmark_native_solve_ceiling_seconds": 360,
+ "checkpoint_candidates": 453656,
+ "previous_fully_audited_geometric_rules": 1498165,
+ "partial_slice_audit_required": true,
+ "policy": "soft cap only after READY; local native-stop path; cooperative MEMORY_RECYCLE is a completed slice only with checked rules and positive new activity; zero progress/loading cap remains stopped; all original journals preserved; private CDCL disposable; no scientific or owner-stop restart",
+ "registered_epoch": 1792873807.604831
+}

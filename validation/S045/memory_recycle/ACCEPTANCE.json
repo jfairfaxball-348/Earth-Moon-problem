@@ -1,0 +1,41 @@
+{
+ "status": "PASS",
+ "source_sha256": {
+  "tools/s045_search.py": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45",
+  "tools/s045_driver.py": "d4a26ec1e4c4df8e696db99d670ff26d3c60309d3b83f48e0ecf5679bff0bccd",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "scripts/s045_runtime.py": "f1148b5c29d391a30ba72c01f0653d686636fa903809c2a9e589d9efb1ab24d5",
+  "scripts/s045_campaign.py": "130bf165579f78a4d0a8c61f4c41aa742f33629666e26a92fa388532d81e3241",
+  "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+ },
+ "smoke": "PASS",
+ "native_controls": "PASS",
+ "policy_controls": "PASS",
+ "memory_controls": "PASS",
+ "full_restart_benchmark": "PASS",
+ "deadline_epoch": 1792913400,
+ "soft_private_bytes": 2684354560,
+ "hard_private_bytes": 3221225472,
+ "seed_candidates": 459411,
+ "seed_geometric_rules": 1590816,
+ "seed_geometry_sha256": "15d379a6043ce91e585e4a9397255909368c37889693e84f8cfba115a8a1ec88",
+ "benchmark_new_candidates": 5755,
+ "benchmark_new_geometric_rules": 19876,
+ "counts_are_coverage": false,
+ "private_cdcl_serialized": false,
+ "benchmark_source_sha256": {
+  "tools/s045_search.py": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45",
+  "tools/s045_driver.py": "965de75ab503a2d9063e4fb56a59a431bcd5dbe9b1995e1ec351e89ce433384c",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "scripts/s045_runtime.py": "f1148b5c29d391a30ba72c01f0653d686636fa903809c2a9e589d9efb1ab24d5",
+  "scripts/s045_campaign.py": "130bf165579f78a4d0a8c61f4c41aa742f33629666e26a92fa388532d81e3241",
+  "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+ },
+ "benchmark_compatibility": "UNSAT_GATE_AMENDMENT.json: normal exit-zero path unchanged by exact byte comparison; source hashes are explicitly different"
+}

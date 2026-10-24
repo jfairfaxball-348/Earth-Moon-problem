@@ -184,3 +184,31 @@ solve budget. READY-based timer and immutable first cause accepted; deadline
 tested during preparation/loading/solving and clock rollback. Two-hour actual
 heartbeat installed; hard roof 25 October 07:30 UK/GMT. All semantic records
 preserved; old private CDCL lost. Restart actively searching, no witness.
+
+
+S045 memory-limit recovery, 24 October 2026: the 20:22 UTC safe stop was
+PRIVATE_MEMORY_LIMIT, native rc0; no owner STOP, alert or uncertified UNSAT.
+Four completed slices preceded it. All 453656 candidate records and 1570940
+geometric rule occurrences were preserved; the pending final 72775-rule
+geometric tail was independently checked during recovery. Private CDCL ended
+with its process. Fresh full 271+K9 smoke, all 1024 native fixed n5 cases,
+protocol/DRAT controls, timing controls and real-child memory regressions PASS.
+
+Resource policy now ends a native slice cooperatively at 2.5 GiB aggregate
+private memory; after independent audit the next slice reloads ALL semantic
+records. The existing 3 GiB hard cap, 1.5 GiB available floor and 10 GiB disk
+reserve remain. A local SLICE_STOP is distinct from durable campaign STOP.
+Owner/scientific/hard-resource/deadline stops remain latched. An already-too-large
+checkpoint producing zero new candidates stops CHECKPOINT_MEMORY_NO_PROGRESS;
+no endless zero-progress restart. No increase to the machine's resource limits.
+
+Current acceptance: validation/S045/memory_recycle/ACCEPTANCE.json; seed
+459411 candidate records / 1590816 geometric
+rule occurrences includes the independently checked restart benchmark additions.
+The native binary and mathematical checks are unchanged; source pins include
+the recycling driver. Original watchdog evidence stays frozen and is replayed
+with scripts/s045_replay_watchdog.py against its exact 673d4a6 context.
+
+Two-hour check-ins remain ACTIVE. Hard stop remains 25 October 2026 07:30
+Europe/London = UTC/GMT. S045 continues, S036 stays stopped, no S046 invocation.
+Counts are activity, not projected coverage; no witness; 9<=chi_2<=12.

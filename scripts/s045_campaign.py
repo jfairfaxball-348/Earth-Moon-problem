@@ -47,6 +47,7 @@ def status(brief=False):
 def launch(resume_maintenance=False,resume_watchdog=False):
     assert os.name=='nt'
     accepted=ROOT/'validation/S045/watchdog_repair'
+    if (ROOT/'validation/S045/memory_recycle').exists():accepted=ROOT/'validation/S045/memory_recycle'
     gates=read(accepted/'ACCEPTANCE.json');assert gates['status']=='PASS'
     assert read(accepted/'SMOKE.json')['verdict']=='PASS'
     assert read(accepted/'RESTART_BENCHMARK.json')['status']=='PASS'

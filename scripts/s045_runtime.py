@@ -24,9 +24,11 @@ def guard_reason(deadline_epoch,now,expected,resource):
 
 def main():
     BASE.mkdir(parents=True,exist_ok=True)
-    controls=json.loads((ROOT/'validation/S045/watchdog_repair/ACCEPTANCE.json').read_text())
+    accepted=ROOT/'validation/S045/memory_recycle'
+    if not accepted.exists():accepted=ROOT/'validation/S045/watchdog_repair'
+    controls=json.loads((accepted/'ACCEPTANCE.json').read_text())
     expected=dict(controls['source_sha256'])
-    build=json.loads((ROOT/'validation/S045/watchdog_repair/BUILD.json').read_text())
+    build=json.loads((accepted/'BUILD.json').read_text())
     expected.update({p:h for p,h in build['sha256'].items() if p.endswith('.exe') and 'bipsat_s045' in p})
     expected[str(Path(__file__).relative_to(ROOT))]=sha(Path(__file__))
     cfg=BASE/'DEADLINE.json';directive=json.loads(cfg.read_text());roof=directive['deadline_epoch']

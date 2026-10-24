@@ -1,0 +1,7 @@
+{
+ "environment_invocation": "Initial smoke used default Linux binary path on Windows; rerun with existing pinned EMP_DRAT_TRIM/EMP_CADICAL passed full smoke.",
+ "historical_wrapper": "Path.open wrapper initially received Python locale encoding token; explicit utf-8 fallback fixed wrapper, historical receipts unchanged.",
+ "proof_status": "No mathematical claim from operational acceptance",
+ "launch_receipt_gate": "First launch refused before mutation because OWNER_DIRECTIVE.json was absent in new receipt folder. Copied exact controlling owner receipt; launch gate passed. Premature helper dispatch observed old exited controller and released without changing search state.",
+ "pre_native_identity_gate": "Resume refused absent IDENTITY because controller was paused before native launch. Reconstructed controller-only identity snapshot from actual stopped STATUS, disclosed provenance, independently verified controller exited; no native identity invented."
+}

@@ -1,0 +1,1926 @@
+{
+ "verdict": "PASS",
+ "scope": "environment acceptance only; no new mathematical claim",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+ "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+ "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+ "chromatic_rows_checked": 271,
+ "chromatic_rows_verified": 271,
+ "chromatic_cnf_byte_matches": 271,
+ "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+ "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+ "k9": {
+  "cnf_sha256_match": true,
+  "proof_sha256_match": true,
+  "verified": true,
+  "seconds": 7.41,
+  "regenerate_returncode": 0,
+  "regenerate_stderr_tail": ""
+ },
+ "solver_roundtrip": {
+  "solver_returncode": 20,
+  "solve_seconds": 16.195,
+  "fresh_proof_verified": true,
+  "check_seconds": 7.47
+ },
+ "rows": [
+  {
+   "index": 0,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 1,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.097
+  },
+  {
+   "index": 2,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.06
+  },
+  {
+   "index": 3,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.063
+  },
+  {
+   "index": 4,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 5,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 6,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.06
+  },
+  {
+   "index": 7,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.073
+  },
+  {
+   "index": 8,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.07
+  },
+  {
+   "index": 9,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.06
+  },
+  {
+   "index": 10,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 11,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 12,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 13,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 14,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.062
+  },
+  {
+   "index": 15,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 16,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 17,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 18,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.059
+  },
+  {
+   "index": 19,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 20,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 21,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.06
+  },
+  {
+   "index": 22,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 23,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 24,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.085
+  },
+  {
+   "index": 25,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.058
+  },
+  {
+   "index": 26,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 27,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 28,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.077
+  },
+  {
+   "index": 29,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.071
+  },
+  {
+   "index": 30,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.059
+  },
+  {
+   "index": 31,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.059
+  },
+  {
+   "index": 32,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.06
+  },
+  {
+   "index": 33,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 34,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 35,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 36,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 37,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.062
+  },
+  {
+   "index": 38,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 39,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 40,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.062
+  },
+  {
+   "index": 41,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.077
+  },
+  {
+   "index": 42,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.085
+  },
+  {
+   "index": 43,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 44,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 45,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 46,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.063
+  },
+  {
+   "index": 47,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.063
+  },
+  {
+   "index": 48,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.119
+  },
+  {
+   "index": 49,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 50,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.141
+  },
+  {
+   "index": 51,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.162
+  },
+  {
+   "index": 52,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.179
+  },
+  {
+   "index": 53,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.113
+  },
+  {
+   "index": 54,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.118
+  },
+  {
+   "index": 55,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.116
+  },
+  {
+   "index": 56,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.206
+  },
+  {
+   "index": 57,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.225
+  },
+  {
+   "index": 58,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.121
+  },
+  {
+   "index": 59,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.156
+  },
+  {
+   "index": 60,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.164
+  },
+  {
+   "index": 61,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.092
+  },
+  {
+   "index": 62,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 63,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.103
+  },
+  {
+   "index": 64,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.128
+  },
+  {
+   "index": 65,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.126
+  },
+  {
+   "index": 66,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.13
+  },
+  {
+   "index": 67,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.184
+  },
+  {
+   "index": 68,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.202
+  },
+  {
+   "index": 69,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.106
+  },
+  {
+   "index": 70,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.211
+  },
+  {
+   "index": 71,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.186
+  },
+  {
+   "index": 72,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.211
+  },
+  {
+   "index": 73,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.093
+  },
+  {
+   "index": 74,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 75,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 76,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 77,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 78,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 79,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 80,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 81,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 82,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.059
+  },
+  {
+   "index": 83,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.128
+  },
+  {
+   "index": 84,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 85,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.215
+  },
+  {
+   "index": 86,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.135
+  },
+  {
+   "index": 87,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.162
+  },
+  {
+   "index": 88,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.208
+  },
+  {
+   "index": 89,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.139
+  },
+  {
+   "index": 90,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.112
+  },
+  {
+   "index": 91,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.159
+  },
+  {
+   "index": 92,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.133
+  },
+  {
+   "index": 93,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.156
+  },
+  {
+   "index": 94,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.138
+  },
+  {
+   "index": 95,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.164
+  },
+  {
+   "index": 96,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.191
+  },
+  {
+   "index": 97,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.186
+  },
+  {
+   "index": 98,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.157
+  },
+  {
+   "index": 99,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.198
+  },
+  {
+   "index": 100,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.092
+  },
+  {
+   "index": 101,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.091
+  },
+  {
+   "index": 102,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.094
+  },
+  {
+   "index": 103,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.108
+  },
+  {
+   "index": 104,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.187
+  },
+  {
+   "index": 105,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.098
+  },
+  {
+   "index": 106,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.138
+  },
+  {
+   "index": 107,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.139
+  },
+  {
+   "index": 108,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.133
+  },
+  {
+   "index": 109,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.127
+  },
+  {
+   "index": 110,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.169
+  },
+  {
+   "index": 111,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.19
+  },
+  {
+   "index": 112,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.129
+  },
+  {
+   "index": 113,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.164
+  },
+  {
+   "index": 114,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.089
+  },
+  {
+   "index": 115,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.142
+  },
+  {
+   "index": 116,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.157
+  },
+  {
+   "index": 117,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.141
+  },
+  {
+   "index": 118,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.12
+  },
+  {
+   "index": 119,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.148
+  },
+  {
+   "index": 120,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.19
+  },
+  {
+   "index": 121,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 122,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.12
+  },
+  {
+   "index": 123,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.129
+  },
+  {
+   "index": 124,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.102
+  },
+  {
+   "index": 125,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.136
+  },
+  {
+   "index": 126,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.162
+  },
+  {
+   "index": 127,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.132
+  },
+  {
+   "index": 128,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.228
+  },
+  {
+   "index": 129,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.104
+  },
+  {
+   "index": 130,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.135
+  },
+  {
+   "index": 131,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 132,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.071
+  },
+  {
+   "index": 133,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 134,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.07
+  },
+  {
+   "index": 135,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.071
+  },
+  {
+   "index": 136,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 137,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 138,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.065
+  },
+  {
+   "index": 139,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 140,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.153
+  },
+  {
+   "index": 141,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.176
+  },
+  {
+   "index": 142,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.115
+  },
+  {
+   "index": 143,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.101
+  },
+  {
+   "index": 144,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.162
+  },
+  {
+   "index": 145,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.153
+  },
+  {
+   "index": 146,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.164
+  },
+  {
+   "index": 147,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.199
+  },
+  {
+   "index": 148,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.158
+  },
+  {
+   "index": 149,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.139
+  },
+  {
+   "index": 150,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.15
+  },
+  {
+   "index": 151,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.161
+  },
+  {
+   "index": 152,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.171
+  },
+  {
+   "index": 153,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.16
+  },
+  {
+   "index": 154,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.358
+  },
+  {
+   "index": 155,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.322
+  },
+  {
+   "index": 156,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.253
+  },
+  {
+   "index": 157,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.278
+  },
+  {
+   "index": 158,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.249
+  },
+  {
+   "index": 159,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.298
+  },
+  {
+   "index": 160,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.279
+  },
+  {
+   "index": 161,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.408
+  },
+  {
+   "index": 162,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.295
+  },
+  {
+   "index": 163,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.3
+  },
+  {
+   "index": 164,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.322
+  },
+  {
+   "index": 165,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.197
+  },
+  {
+   "index": 166,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.118
+  },
+  {
+   "index": 167,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.078
+  },
+  {
+   "index": 168,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.103
+  },
+  {
+   "index": 169,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.095
+  },
+  {
+   "index": 170,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.143
+  },
+  {
+   "index": 171,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.14
+  },
+  {
+   "index": 172,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.173
+  },
+  {
+   "index": 173,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.141
+  },
+  {
+   "index": 174,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.15
+  },
+  {
+   "index": 175,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.169
+  },
+  {
+   "index": 176,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.271
+  },
+  {
+   "index": 177,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.212
+  },
+  {
+   "index": 178,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.164
+  },
+  {
+   "index": 179,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.208
+  },
+  {
+   "index": 180,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.195
+  },
+  {
+   "index": 181,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 182,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.074
+  },
+  {
+   "index": 183,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.073
+  },
+  {
+   "index": 184,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 185,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 186,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 187,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.089
+  },
+  {
+   "index": 188,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.077
+  },
+  {
+   "index": 189,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.077
+  },
+  {
+   "index": 190,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.076
+  },
+  {
+   "index": 191,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 192,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.073
+  },
+  {
+   "index": 193,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 194,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 195,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 196,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 197,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.072
+  },
+  {
+   "index": 198,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 199,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 200,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 201,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.078
+  },
+  {
+   "index": 202,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 203,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.086
+  },
+  {
+   "index": 204,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.075
+  },
+  {
+   "index": 205,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.078
+  },
+  {
+   "index": 206,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 207,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.113
+  },
+  {
+   "index": 208,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.124
+  },
+  {
+   "index": 209,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.073
+  },
+  {
+   "index": 210,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.07
+  },
+  {
+   "index": 211,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.118
+  },
+  {
+   "index": 212,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 213,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.122
+  },
+  {
+   "index": 214,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.12
+  },
+  {
+   "index": 215,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.116
+  },
+  {
+   "index": 216,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.115
+  },
+  {
+   "index": 217,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.108
+  },
+  {
+   "index": 218,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.122
+  },
+  {
+   "index": 219,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.078
+  },
+  {
+   "index": 220,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.072
+  },
+  {
+   "index": 221,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.069
+  },
+  {
+   "index": 222,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.072
+  },
+  {
+   "index": 223,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.073
+  },
+  {
+   "index": 224,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.109
+  },
+  {
+   "index": 225,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.099
+  },
+  {
+   "index": 226,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.104
+  },
+  {
+   "index": 227,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.118
+  },
+  {
+   "index": 228,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.162
+  },
+  {
+   "index": 229,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.138
+  },
+  {
+   "index": 230,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.105
+  },
+  {
+   "index": 231,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.105
+  },
+  {
+   "index": 232,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.107
+  },
+  {
+   "index": 233,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.113
+  },
+  {
+   "index": 234,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.074
+  },
+  {
+   "index": 235,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.083
+  },
+  {
+   "index": 236,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.091
+  },
+  {
+   "index": 237,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.093
+  },
+  {
+   "index": 238,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.079
+  },
+  {
+   "index": 239,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.07
+  },
+  {
+   "index": 240,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.116
+  },
+  {
+   "index": 241,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.167
+  },
+  {
+   "index": 242,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 243,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.111
+  },
+  {
+   "index": 244,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 245,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.07
+  },
+  {
+   "index": 246,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.155
+  },
+  {
+   "index": 247,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.18
+  },
+  {
+   "index": 248,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.125
+  },
+  {
+   "index": 249,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.213
+  },
+  {
+   "index": 250,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.231
+  },
+  {
+   "index": 251,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.284
+  },
+  {
+   "index": 252,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 253,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.17
+  },
+  {
+   "index": 254,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.184
+  },
+  {
+   "index": 255,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.103
+  },
+  {
+   "index": 256,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 257,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.068
+  },
+  {
+   "index": 258,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.064
+  },
+  {
+   "index": 259,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  },
+  {
+   "index": 260,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.063
+  },
+  {
+   "index": 261,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.102
+  },
+  {
+   "index": 262,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.063
+  },
+  {
+   "index": 263,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.067
+  },
+  {
+   "index": 264,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.156
+  },
+  {
+   "index": 265,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.158
+  },
+  {
+   "index": 266,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.066
+  },
+  {
+   "index": 267,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.097
+  },
+  {
+   "index": 268,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.167
+  },
+  {
+   "index": 269,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.131
+  },
+  {
+   "index": 270,
+   "cnf_sha256_match": true,
+   "proof_sha256_match": true,
+   "verified": true,
+   "seconds": 0.061
+  }
+ ]
+}

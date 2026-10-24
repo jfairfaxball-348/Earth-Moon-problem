@@ -1,0 +1,73 @@
+{
+ "session": "S045",
+ "authority": "Owner: Fix. And install the check ins... Then when fix start again. Rather than an 8 hour roof, set the hard roof at 7.30 am tomorrow",
+ "date": "2026-10-24",
+ "deadline_local": "2026-10-25T07:30:00+00:00",
+ "timezone": "Europe/London",
+ "deadline_utc": "2026-10-25T07:30:00+00:00",
+ "deadline_epoch": 1792913400.0,
+ "timezone_verified_by": "Windows GMT Standard Time conversion: 2026-10-25T07:30:00Z",
+ "supersedes": "all eight-hour and original-start-plus-eight-hour ceilings",
+ "checkpoint_preservation": "all 272374 rows and 900798 geometric rule occurrences; no private CDCL survived stopped identities",
+ "checkin_automation_id": "earth-moon-s045-two-hour-check-in",
+ "checkin_interval_hours": 2,
+ "no_S036_restart": true,
+ "no_automatic_S046": true,
+ "native_startup_ceiling_seconds": 900,
+ "native_slice_seconds": 600,
+ "response_grace_seconds": 15,
+ "source_sha256_before": {
+  "tools/s045_search.py": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/tools/s045_search.py",
+   "sha256": "ba6fb8f545497fa00bec7d0c30cc08af613f5e24b7bfb92ad354b26b910d7641"
+  },
+  "tools/s045_verify.py": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/tools/s045_verify.py",
+   "sha256": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4"
+  },
+  "tools/s045_native.cpp": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/tools/s045_native.cpp",
+   "sha256": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724"
+  },
+  "tools/s045_main.hpp": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/tools/s045_main.hpp",
+   "sha256": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+  },
+  "scripts/s045_runtime.py": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/scripts/s045_runtime.py",
+   "sha256": "77625450b9aeef7a77bdd84e0b95580e0ba12e408d594abdd06a363dba93615e"
+  },
+  "scripts/s045_campaign.py": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/scripts/s045_campaign.py",
+   "sha256": "87fbce87e40baaa0600339bf9b2df4909072106380ce7d0d85cfe39d6a6d40ec"
+  },
+  "scripts/s045_awake.py": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/scripts/s045_awake.py",
+   "sha256": "e912d39fca77a31ee74874eab4285024b420b3b1963f5f7857f0616bc4ad222b"
+  },
+  "sessions/S045/RUNNING.md": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/sessions/S045/RUNNING.md",
+   "sha256": "b6e69b70bd0a132d5925dee256bc789fefd132951ab7fe3ba02db024947c3488"
+  },
+  "sessions/S045/EXECUTION_PROMPT.md": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/sessions/S045/EXECUTION_PROMPT.md",
+   "sha256": "62d0f6a8000f38fc1e4c6044608f8c51148640e26e74141f713d28203fad5c90"
+  },
+  "sessions/S045/RESEARCH.md": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/sessions/S045/RESEARCH.md",
+   "sha256": "cd44d82dd6453295bb66e2d96c81a7f661e8c2713de8d00e39b5ceffde384116"
+  },
+  "sessions/S045/ADVERSARIAL.md": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/sessions/S045/ADVERSARIAL.md",
+   "sha256": "71ae71c86bbaae532f99ba7acd27eda607f9182c9b53bda40eb1d9a611b0f897"
+  },
+  "authoritative/STATE.json": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/authoritative/STATE.json",
+   "sha256": "9717a107afe4ec690de1f8ea05e18e4558c0788750ed6685cdde85fca61af8de"
+  },
+  "authoritative/NEXT_SESSION_PROMPT.md": {
+   "archive": "validation/S045/watchdog_repair/initial_sources/authoritative/NEXT_SESSION_PROMPT.md",
+   "sha256": "62d0f6a8000f38fc1e4c6044608f8c51148640e26e74141f713d28203fad5c90"
+  }
+ }
+}

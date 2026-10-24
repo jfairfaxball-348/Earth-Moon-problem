@@ -1,0 +1,2505 @@
+{
+  "project": "Earth-Moon-problem",
+  "repository_id": 1415870164,
+  "as_of": "2026-10-24",
+  "last_completed_session": "S044",
+  "recommended_next_session": "S045",
+  "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
+  "programme_scope": {
+    "decision": "D042",
+    "date": "2026-10-14",
+    "authority": "Explicit owner instruction (outside a numbered session): target only the lower bound, chi_2 > 9; do not attempt to solve EMP or work on the upper bound.",
+    "target": "chi_2 >= 10 via one certified construction (explicit V,E1,E2; independent planarity per layer; checked proof of no proper 9-colouring)",
+    "out_of_scope": [
+      "universal upper-bound theorems (chi_2 <= 11/10/9)",
+      "discharging/reducibility/critical-graph colouring-extension routes",
+      "full resolution of EMP"
+    ],
+    "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
+  },
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S044",
+  "confirmed_classical_range": {
+    "lower": 9,
+    "upper": 12,
+    "evidence": "LOWER_RECONSTRUCTED_WITH_EXPLICIT_LAYERS_AND_HAND_CHROMATIC_PROOF; UPPER_CLASSICAL_EULER"
+  },
+  "candidate_10_11_12": "S028: deletion descent from S027 negatives certified 13 smaller clique blow-up obstructions down to an 18-vertex one (GJaVBo)[7,3,2,2,1,1,1,1], 78 edges, K9-free; refilter excluded all 4 S027 admitted UNKNOWN graphs and 71 of 78 surplus by checked certified subgraph maps (9 survive); source rerun closed 16/30 profiles by checked native DRAT with no unresolved dependencies (adds 12,14,24); 4 new admitted, 1 processed (S028-P10-B10-0007 UNKNOWN after 1800s exact), 12 queue graphs NOT_RUN after owner-requested early stop. C5 pending classes parked. No chi>=10 biplanar witness; 9<=chi2<=12.",
+  "universal_improved_upper_bound": "NONE_PROVED; D056 S023 COMPARATIVE EXCEPTION COMPLETE; D042 UPPER BAN REINSTATED EXCEPT FUTURE OWNER-PROPOSED SESSION",
+  "phases": [
+    {
+      "id": 0,
+      "name": "Bootstrap and governance",
+      "status": "PASS_ADMIN_ONLY"
+    },
+    {
+      "id": 1,
+      "name": "Certified chi>=10 biplanar construction (lower bound only since D042)",
+      "status": "ACTIVE_LOWER_BOUND_ONLY_NO_HEADLINE_ADVANCE"
+    },
+    {
+      "id": 2,
+      "name": "First result-specific novelty audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 3,
+      "name": "Lean formalisation and verification",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 4,
+      "name": "Final comprehensive novelty/correctness audit",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 5,
+      "name": "Palomar registration",
+      "status": "OWNER_GATED"
+    },
+    {
+      "id": 6,
+      "name": "Paper and reproduction package",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": 7,
+      "name": "arXiv and journal submission",
+      "status": "OWNER_GATED"
+    }
+  ],
+  "source_status": "S045_LIMITED_PRIMARY_REFRESH_NO_NOVELTY_CLAIM",
+  "lean": {
+    "status": "NOT_STARTED"
+  },
+  "palomar": {
+    "status": "NOT_REGISTERED"
+  },
+  "arxiv": {
+    "status": "NOT_SUBMITTED"
+  },
+  "live_seed_commit": "f6ba2901e07e0c1512204f9a76e22210f7ef531c",
+  "live_seed_tree": "31fa14ea04b98f70723574952e2dc3bb5d5dc103",
+  "bootstrap_scaffold_branch": "session/S001-bootstrap-emp",
+  "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
+  "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
+  "open_obligations": [
+    "S045 IN_PROGRESS: owner CONTINUE on 50 vertices; tests/benchmark PASS, sustained search launched. Read sessions/S045/RUNNING.md and verify actual identities. S036 stays CLEAN_STOPPED.",
+    "Order3 layer-preserving156-edge28-vertex alpha<=3 slice: UNKNOWN. Counts of models/cuts are activity, never projected coverage. All nine sorted S11 prefixes remain UNKNOWN.",
+    "All 97 individual S042 apex leaf graphs remain certified non-biplanar. Composition closure requires all leaves tested or an explicit surviving obstruction; arbitrary one-tested-leaf mixed-tree implication is unproved (S044 correction). Thirty non-Ore windows UNRESOLVED.",
+    "Order-13 layer-symmetric class empty (S041). Star/patch/coordinated four-set hill-climbing parked (S040). Counting routes carry the F9 risk.",
+    "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
+  ],
+  "next_session_is_future_unexecuted": false,
+  "latest_session_branch": "main",
+  "latest_session_entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+  "latest_session_integration": {
+    "status": "VERIFY_NONFORCE_PUSH_AND_HOSTED_JOB_AFTER_PUBLICATION",
+    "entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+    "branch": "main",
+    "force": false,
+    "authority": "S045 explicit owner preparation and search instruction",
+    "verification": "artifacts/tmp/S045/INTEGRATION.json and hosted run in user report"
+  },
+  "mathematical_results": [
+    "CLM-0007",
+    "CLM-0009",
+    "CLM-0010",
+    "CLM-0011",
+    "CLM-0012",
+    "CLM-0013",
+    "CLM-0014",
+    "CLM-0015",
+    "CLM-0016",
+    "CLM-0017",
+    "CLM-0018",
+    "CLM-0019",
+    "CLM-0020",
+    "CLM-0021",
+    "CLM-0022",
+    "CLM-0023",
+    "CLM-0025",
+    "CLM-0026",
+    "CLM-0027",
+    "CLM-0028",
+    "CLM-0029",
+    "CLM-0030",
+    "CLM-0031",
+    "CLM-0032",
+    "CLM-0033",
+    "CLM-0034",
+    "CLM-0035",
+    "CLM-0036",
+    "CLM-0037",
+    "CLM-0038",
+    "CLM-0039",
+    "CLM-0040",
+    "CLM-0041",
+    "CLM-0042",
+    "CLM-0043",
+    "CLM-0044",
+    "CLM-0045",
+    "CLM-0046",
+    "CLM-0047",
+    "CLM-0048",
+    "CLM-0049",
+    "CLM-0050",
+    "CLM-0051",
+    "CLM-0052",
+    "CLM-0053",
+    "CLM-0055",
+    "CLM-0056",
+    "CLM-0057",
+    "CLM-0058",
+    "CLM-0059",
+    "CLM-0060",
+    "CLM-0061",
+    "CLM-0062",
+    "CLM-0063",
+    "CLM-0064",
+    "CLM-0065",
+    "CLM-0066",
+    "CLM-0067",
+    "CLM-0068",
+    "CLM-0069",
+    "CLM-0070",
+    "CLM-0071",
+    "CLM-0072",
+    "CLM-0073",
+    "CLM-0074",
+    "CLM-0075",
+    "CLM-0076",
+    "CLM-0077",
+    "CLM-0078",
+    "CLM-0079",
+    "CLM-0080",
+    "CLM-0081",
+    "CLM-0082",
+    "CLM-0083",
+    "CLM-0084",
+    "CLM-0087",
+    "CLM-0088",
+    "CLM-0089",
+    "CLM-0090",
+    "CLM-0091",
+    "CLM-0092",
+    "CLM-0093",
+    "CLM-0094",
+    "CLM-0095",
+    "CLM-0101",
+    "CLM-0097",
+    "CLM-0098",
+    "CLM-0099",
+    "CLM-0100",
+    "CLM-0102",
+    "CLM-0103",
+    "CLM-0104",
+    "CLM-0105",
+    "CLM-0106",
+    "CLM-0107",
+    "CLM-0108",
+    "CLM-0109",
+    "CLM-0114",
+    "CLM-0115",
+    "CLM-0116",
+    "CLM-0121",
+    "CLM-0122",
+    "CLM-0123",
+    "CLM-0124",
+    "CLM-0125",
+    "CLM-0126",
+    "CLM-0127",
+    "CLM-0128",
+    "CLM-0129",
+    "CLM-0130",
+    "CLM-0131",
+    "CLM-0132",
+    "CLM-0133",
+    "CLM-0134",
+    "CLM-0135",
+    "CLM-0136",
+    "CLM-0137",
+    "CLM-0138",
+    "CLM-0139",
+    "CLM-0140",
+    "CLM-0141",
+    "CLM-0142",
+    "CLM-0143",
+    "CLM-0144",
+    "CLM-0145",
+    "CLM-0146"
+  ],
+  "s003_integration_verified": {
+    "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
+    "sole_parent": "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+    "pr": 3,
+    "merge_commit": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "merge_parents": [
+      "8c4bdf853c462f424b3d5b7f7462e133d36675ca",
+      "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569"
+    ],
+    "tree": "6c886f5461a463de710587fd46fc3de197c04950"
+  },
+  "s004_integration_verified": {
+    "authored_commit": "6959e0093ee44ce7c2645afb6635f3e04d714c95",
+    "sole_parent": "3e93eec7b5fe7e818dec0984dee722074a65186e",
+    "pr": 4,
+    "merge_commit": "ed49432f49de74e9d22c2dde582c228234d3db76",
+    "merge_parents": [
+      "3e93eec7b5fe7e818dec0984dee722074a65186e",
+      "6959e0093ee44ce7c2645afb6635f3e04d714c95"
+    ],
+    "tree": "5f577c0ffdf02ec3311b7256b4f444239426f6ca",
+    "head_CI_run": 38372945649,
+    "main_CI_run": 38373078430
+  },
+  "s005_integration_verified": {
+    "authored_commit": "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9",
+    "sole_parent": "ed49432f49de74e9d22c2dde582c228234d3db76",
+    "pr": 5,
+    "merge_commit": "b675063162f37c1a19b605f78093fbba9cd25382",
+    "merge_parents": [
+      "ed49432f49de74e9d22c2dde582c228234d3db76",
+      "a58f7d42a83c84f08c6ea4ebc913267d78ce0cf9"
+    ],
+    "tree": "ff5de9a5b549862f3f19e1a7215321907c8cc9d0",
+    "head_CI_run": 38415801047,
+    "main_CI_run": 38416043885,
+    "main_validate_job": 115360631706,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s006_integration_verified": {
+    "authored_commit": "eefd36469895f20da4dd8eedcb6d411d75288abf",
+    "sole_parent": "b675063162f37c1a19b605f78093fbba9cd25382",
+    "pr": 6,
+    "merge_commit": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+    "merge_parents": [
+      "b675063162f37c1a19b605f78093fbba9cd25382",
+      "eefd36469895f20da4dd8eedcb6d411d75288abf"
+    ],
+    "tree": "028d96c47411506ad8326a90eeed13e00a6d1d1b",
+    "head_CI_run": 38445649516,
+    "main_CI_run": 38445775538,
+    "head_validate_job": 115463219674,
+    "main_validate_job": 115463671945,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s007_integration_verified": {
+    "authored_commit": "2751cfc659462b888d5579c98358e85d3f909d03",
+    "sole_parent": "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+    "pr": 7,
+    "merge_commit": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+    "merge_parents": [
+      "36f12095ca9a09cdabd74550e8bcedee6498f5a6",
+      "2751cfc659462b888d5579c98358e85d3f909d03"
+    ],
+    "tree": "7556cac9eee8a6e26af5460b7d16d8479e5f1e29",
+    "head_CI_run": 38455256198,
+    "main_CI_run": 38455487692,
+    "head_validate_job": 115496220621,
+    "main_validate_job": 115496995386,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s008_integration_verified": {
+    "authored_commit": "cbdb8236f27d8f39ceeb268975cd47ac39fc323a",
+    "sole_parent": "23d36d93ebb225668180c8499eb6793775d4fa1d",
+    "pr": 8,
+    "merge_commit": "7957452c79c2b31088f93fff440783328c78942d",
+    "merge_parents": [
+      "23d36d93ebb225668180c8499eb6793775d4fa1d",
+      "cbdb8236f27d8f39ceeb268975cd47ac39fc323a"
+    ],
+    "tree": "17611589c3b44454cd8910362306629a15c856ea",
+    "head_CI_run": 38558584715,
+    "main_CI_run": 38558755112,
+    "head_validate_job": 115833753360,
+    "main_validate_job": 115834317044,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "s009_integration_verified": {
+    "authored_commit": "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c",
+    "sole_parent": "7957452c79c2b31088f93fff440783328c78942d",
+    "pr": 9,
+    "merge_commit": "8626b6419f12d706f3ba567f6733d26d6e4dd7be",
+    "merge_parents": [
+      "7957452c79c2b31088f93fff440783328c78942d",
+      "6a3765f6db7d7a6bd8197ec1e4b99f0b1cf19f6c"
+    ],
+    "tree": "defbef2531504b868642c5f21b5dd1ee40b0bf17",
+    "head_CI_run": 38600425084,
+    "main_CI_run": 38600592078,
+    "head_validate_job": 115977946517,
+    "main_validate_job": 115978523871,
+    "combined_status": "PENDING_ZERO_CONTEXTS_NOT_CI_PASS"
+  },
+  "retired_upper_bound_obligations_D042": [
+    "Long heavy odd blocks>=7 impossible by K6,9; heavy odd endblock/whole component onlyC5. Selected S009 mixed charge types vacuous.",
+    "P4-I9/C5-I9 actual planar local sources exactchi3/4; no local-only nonbiplanarity exclusion of remainingC5 or actual critical completion.",
+    "Smaller heavy cliques, lightK8/other light blocks, independentR/safe residual pairs/budget existence and all-order deficit remain open.",
+    "PreserveS005/S006 density component corrections andQ=l-24-2D; lower order bounds never bound order above."
+  ],
+  "d042_integration_verified": {
+    "authored_commit": "a98783990149dfdaedac36a50db1cb9634fe76b9",
+    "sole_parent": "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
+    "branch": "ccr-ca34b331-a5bcoj",
+    "pr": 11,
+    "merge_commit": "a58df4728f38a30e53d5a9b9595ff823f86bc215",
+    "merge_parents": [
+      "a7fe884b62b37f6ca1cc8e764aa97fbf415e8425",
+      "a98783990149dfdaedac36a50db1cb9634fe76b9"
+    ],
+    "tree": "ed791d5020bd04c526a1aa2d83583de29c22ebb6",
+    "head_CI_run": 38618251148,
+    "main_CI_run": 38618417702,
+    "note": "Governance re-scope only. S010 merge a7fe884 (PR #10) observed as main before D042; S010 two-parent/tree reconciliation still belongs to S011 entry."
+  },
+  "execution_environment": {
+    "decision": "D043",
+    "kind": "CLAUDE_CODE_CLOUD_CONTAINER",
+    "reference": "docs/CLOUD_ENVIRONMENT.md",
+    "setup": "scripts/cloud_setup.sh via .claude/hooks/session-start.sh",
+    "entry_acceptance_check": "scripts/cloud_smoke.py",
+    "native_sources": {
+      "cadical": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+      "drat-trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+    },
+    "python_packages": {
+      "python-sat": "1.9.dev15",
+      "networkx": "3.5",
+      "numpy": "2.5.4",
+      "pymupdf": "1.26.6"
+    },
+    "d043_validation": {
+      "date": "2026-10-14",
+      "verdict": "PASS",
+      "chromatic_proofs_verified": "271/271",
+      "chromatic_cnf_byte_matches": "271/271",
+      "k9_cnf_byte_match": true,
+      "k9_retained_drat_verified": true,
+      "fresh_cadical_k9_proof_verified": true,
+      "platform": "Linux 6.18 x86_64 glibc2.39, Python 3.12.3, gcc 13.3.0",
+      "cadical_sha256": "afa8b5b3777b45c6723634ad8b30cb0a65246f9621a28269389cb99296dfc7c1",
+      "drat_trim_sha256": "bd6221fa417e0fdf8881ffc93782954f18cc2a3bdea26c4dd8a07beec7923e25"
+    },
+    "historical_environment": "S001-S010 Windows 11, Python 3.12.10, llvm-mingw native builds (see validation/S004_MANIFEST.json)",
+    "github_actions_fallback": {
+      "decision": "D044",
+      "platform": "GitHub Actions ubuntu-24.04",
+      "mandatory": "scripts/cloud_setup.sh then scripts/cloud_smoke.py SAME job before science",
+      "tested_runs": [
+        38623187997,
+        38623722547,
+        38624616691,
+        38635879431
+      ],
+      "certificate_preservation_run": 38625149681,
+      "verified": "PASS_FULL_271_CHROMATIC_PLUS_K9_EACH_JOB",
+      "permanent_provenance": "validation/S011/SUMMARY.json",
+      "permanent_witness": "validation/S011/edge_critical_witnesses.json.gz",
+      "witness_gzip_sha256": "d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554",
+      "native_hashes": "per-job; do not assume same bytes",
+      "latest_complete": "S012_CAM0015_RUN_38635879431_SUCCESS_ALL_STEPS_AND_INDEPENDENT_194896"
+    }
+  },
+  "s011_result": {
+    "lower_bound_advance": false,
+    "cam0012_greedy_trials": 438,
+    "cam0012_rows": 219,
+    "cam0012_repair_rows": 25,
+    "cam0013_deletions_tested": 240,
+    "cam0014_fixed_rows": [
+      2,
+      55,
+      59,
+      61,
+      199,
+      200
+    ],
+    "cam0014_verified_edge_colour_witnesses": 863,
+    "mycielski_filter": "CLM-0069",
+    "edge_critical": "CLM-0070",
+    "next_prompt_output_required_by_owner": true
+  },
+  "next_prompt_is_execution_authority_when_supplied": true,
+  "session_invocation_policy": "D047_OWNER_SUPPLIES_OR_LINKS_SESSION_PROMPT_EQUALS_IMMEDIATE_INVOCATION_NO_SECOND_RUN_COMMAND",
+  "s011_integration_verified": {
+    "authored_commit": "8893aa34927c37c3d71b2201f50838635c3d30e5",
+    "base_commit": "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+    "pr": 13,
+    "merge_commit": "226c87b8d802210628d15aecb24bbfd43f75fb81",
+    "merge_parents": [
+      "daef3d8f4d81a4fbc62c637a5dbc5283459c9ce9",
+      "8893aa34927c37c3d71b2201f50838635c3d30e5"
+    ],
+    "merge_tree": "09cd4fc5b30abc162a8322ca89fd2feb3b342bf2",
+    "head_ci_run": 38626475370,
+    "main_ci_run": 38626700945,
+    "scaffold_checks": "SUCCESS_GOVERNANCE_NOT_SCIENCE"
+  },
+  "s012_result": {
+    "lower_bound_advance": false,
+    "swaps_all_positive_nine_colour": 194896,
+    "swaps_scope_rows": [
+      2,
+      55,
+      59,
+      61,
+      199,
+      200
+    ],
+    "transpositions": 24446,
+    "unchanged_nine_colours": 170450,
+    "actions_run": 38635879431,
+    "actions_job": 116098797010,
+    "artifact_id": 11928007306,
+    "artifact_sha256": "c04eba06ff3cc37818c00496b73bb14bdeac52329bc0a9bb9054cd8315080703",
+    "same_job_smoke": "PASS271_ORIGINAL_DRAT_K9_FRESH",
+    "independent_checker": "PASS194896",
+    "sulanke_extensions_max_r_excluded": 5,
+    "sulanke_first_open_r": 6,
+    "s013_not_executed": true
+  },
+  "s013_science": {
+    "analytical_results": [
+      "CLM-0074",
+      "CLM-0075",
+      "CLM-0076"
+    ],
+    "campaign": "CAM-0016",
+    "github_actions_run": 38639416513,
+    "job": 116110828710,
+    "verdict": "PASS_271_COLD_SMOKE_PLUS_TWO_POSITIVE_ONLY_LANES_NO_CHI10",
+    "native_sha256": {
+      "cadical": "1210cc1e06232828e0b95af6dce044eff2b62723c904b35298c22b7fa4caaa67",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "artefact_id": 11930170810,
+    "artefact_digest": "sha256:23477d4f8d9f94878248a86a197fe5af518e2988ab951711cab2481480b72e18",
+    "fixed_219_unknown": true
+  },
+  "s013_integration_verified": {
+    "authored_commit": "e8f6791addec039a1a9ca575e5022823b3b5e98d",
+    "sole_parent": "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+    "pr": 16,
+    "merge_commit": "2bdfc91363ee4b2a021dbb07cfa2b04623ac7981",
+    "merge_parents": [
+      "f1e89c50e3014e84292beb34597e8b2aa0e7df81",
+      "e8f6791addec039a1a9ca575e5022823b3b5e98d"
+    ],
+    "tree": "08fa38266c6e0b90291d00e1f673b755bedc06fd",
+    "pr_hosted_run": 38640962127,
+    "main_hosted_run": 38641064088,
+    "protection": "UNKNOWN_403",
+    "rulesets": []
+  },
+  "next_session_priority": "S037: verify symmetry origin of 247/256 closures and attempt layer-first direct triangulation constructions, not resumption of the old long solver.",
+  "s015_owner_directive": {
+    "decision": "D051",
+    "date": "2026-10-15",
+    "kind": "GOVERNANCE_REWRITE_NOT_SESSION",
+    "target": "All219 original \u03c710 biplanarity UNKNOWN first",
+    "canonical_list": "validation/S010/SUMMARY.json:remaining_unknown_indices",
+    "runner": "GitHub Actions ubuntu-24.04 WIP allowed as verified D044 fallback",
+    "new_scientific_jobs_executed": 0,
+    "semantics": "219 biplanarity UNKNOWN; finite heuristic attempt does not prove NONBIPLANAR",
+    "priority": "S015 direct original 219 before novel construction unless owner changes focus"
+  },
+  "s015_result": {
+    "run_id": 38706865680,
+    "job_id": 116328316864,
+    "artifact_id": 11958434315,
+    "artifact_digest": "sha256:1354b172f87252f538e9b8c8321fbe8ac8ec54c276b5f375258e15f39824fcad",
+    "preservation_run_id": 38707183210,
+    "preservation_job_id": 116329378020,
+    "preservation_commit": "86a747c12497014739cce236581153e0e16e31e0",
+    "science_wip_commit": "ef2b73f83d872b740088b4d18302ac3d3c358d16",
+    "all_219_breadth": true,
+    "trials": 657,
+    "depth_rows": 20,
+    "positive_splits": 0,
+    "new_exclusions": 0,
+    "exact_row156_verdict": "UNKNOWN",
+    "exact_row156_iterations": 196,
+    "exact_row156_lemmas": 31959,
+    "remaining_219_unknown": true,
+    "same_job_smoke": "PASS_271_271_K9_RETAINED_AND_FRESH",
+    "artifact_compact_copy": "validation/S015/REMOTE_SEARCH_RESULT.json",
+    "next_s016_authority": "D047_PROMPT_INVOCATION"
+  },
+  "s015_integration_verified": {
+    "pr": 19,
+    "authored_commit": "3cb360e566dd2385444120ffbb87283e66e29b1b",
+    "sole_parent": "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
+    "merge_commit": "8fb06d6f1cc5f32db19ef23784578ccc0d1df916",
+    "merge_parents": [
+      "f78db4f2478dc0e3bbb96e7ef3ee9d75671fd341",
+      "3cb360e566dd2385444120ffbb87283e66e29b1b"
+    ],
+    "tree": "88e55d703e159ed79233e5ce7dbaa63fe6068a9a",
+    "head_governance_run": 38708333443,
+    "head_job": 116333213820,
+    "main_governance_run": 38708441233,
+    "main_job": 116333576198,
+    "conclusion": "BOTH_SUCCESS_GOVERNANCE_ONLY"
+  },
+  "s016_science": {
+    "run_id": 38709598417,
+    "job_id": 116337412334,
+    "artifact_id": 11959789654,
+    "artifact_digest": "sha256:9a5ffc7674affec601dc6566b35157e30e72638aa310540605c76601383d3070",
+    "wip_base_commit": "e8afcaeca4edd73fe1c6a9629e346d652c0e77c5",
+    "wip_preservation_commit": "9499aaed9af6c02e096a86651ce364019df966e0",
+    "verdict": "NO_CHECKED_NEW_POSITIVE_OR_NEGATIVE",
+    "full_smoke_verified": 271,
+    "partition_counts": {
+      "ATTEMPTED_STILL_UNKNOWN": 7,
+      "CAPPED": 4,
+      "NOT_RUN": 208
+    },
+    "original_219_final": "UNCHANGED_BIPLANARITY_UNKNOWN"
+  },
+  "s017_science": {
+    "runner": 38714806390,
+    "job": 116354787665,
+    "verdict": "NO_NEW_CERTIFIED_BIPLANAR_WITNESS_OR_NONBIPLANAR",
+    "encoder_projected_truth_tests": 1022,
+    "exact_capped": 5,
+    "constructive_attempted": 5,
+    "complete_splits": 0,
+    "negative_certificates": 0,
+    "partition_counts": {
+      "CAPPED": 5,
+      "NOT_RUN": 214
+    },
+    "artifact_id": 11962912465,
+    "artifact_digest": "sha256:8ec1024c7d3f83cb61bc4c194ceb46dfc5a0724f58407d7d11acb0147136bacb",
+    "native_sha256": {
+      "cadical": "5c706ac1a330637c5d6ea589b88cde8d599d2be68a80589ce4e91f7f2c341dff",
+      "drat-trim": "aa57cda7e4d5f24326e09764745575ef12d3c0e0130d72001f73844199bf3538"
+    },
+    "failed_first_run": 38714736346,
+    "permanent_evidence": "validation/S017"
+  },
+  "next_session_serial_219_policy": {
+    "decision": "D054",
+    "date": "2026-10-15",
+    "status": "HISTORICAL_DISCHARGED_D058_ALL271_NONBIPLANAR",
+    "source": "docs/S018_SERIAL_219_DIRECTIVE.md",
+    "active_original_index": 148,
+    "active_original_source": "FIXED_271_EXACT_CHI10_CORPUS",
+    "queue_priority_next": [
+      156,
+      3,
+      9,
+      173
+    ],
+    "remaining_original_unknown": 0,
+    "worker_policy": "ONE_ACTIVE_GRAPH_ONE_HEAVY_WORKER_MAX_12GiB",
+    "on_timeout": "UNKNOWN_CHECKPOINT_FIX_ALGORITHM_CONTINUE_SAME_ROW",
+    "switch_condition": "CERTIFIED_DECISION_OR_DOCUMENTED_OBJECTIVE_QUANTITATIVE_RATIONALE_KEEP_UNRESOLVED_ROW",
+    "no_other_source_family_pivot_without_owner": true,
+    "authoritative_prompt_mirror": "sessions/S018/S019_FUTURE_PROMPT.md",
+    "research_executed": true,
+    "best_saved_partial_missing": 6,
+    "cut_checkpoint_count": 75653,
+    "algorithmic_next": "GLOBAL_EXACT_EMBEDDING_CERTIFICATE_ROW148"
+  },
+  "s018_science": {
+    "run_id": 38721673690,
+    "job_id": 116377478891,
+    "run_conclusion": "ALL_STEPS_SUCCESS_GRAPH_UNKNOWN",
+    "same_job_smoke": "271_271_DRAT_CNF_K9_PASS",
+    "wip_initial_science_commit": "a7c0355f01076bee7e8202e9fb4f1d7c7ea5d367",
+    "wip_preserved_commit": "65d78133bbbadee5e71d7e5fa27d59cd0511f9ae",
+    "active_original_row": 148,
+    "original_25v_131e": true,
+    "historical_best_missing": 10,
+    "new_best_missing": 6,
+    "positive_tries": 13459,
+    "positive_seconds": 330.01,
+    "exact_iterations": 550,
+    "exact_sound_lemmas": 19480,
+    "exact_seconds": 610.56,
+    "peak_process_rss_mib": 91.6,
+    "complete_splits": 0,
+    "new_certified_negative": 0,
+    "original_219_unknown": true,
+    "partition": {
+      "CAPPED": 1,
+      "NOT_RUN": 218
+    },
+    "permanent_evidence": "validation/S018",
+    "artifact_id": 11966338990,
+    "artifact_sha256": "e55a58d9f29477728fc5cf43890ffbe5fda9c2d78d480e0bb66dd1b1776dfd46"
+  },
+  "s020_science": {
+    "run": 38752619733,
+    "job": 116482649871,
+    "wip_source_sha": "39ebabdb7bed33143cb3b456edbb7bfa60a6ae01",
+    "wip_evidence_sha": "8f5615e7456a1b997a6a39306ecfaf9a82aae4d3",
+    "artifact_id": 11982567740,
+    "artifact_zip_sha256": "85cdd55680fd8a78403d1fa844d3bb3f2f75c0626ae564cedf7e6c043ccee453",
+    "same_job_smoke": "PASS",
+    "original148_status": "BIPLANARITY_UNKNOWN",
+    "total_lemmas": 67862,
+    "selected_induced_euler": 100,
+    "independent_local_count_audit": "PASS100",
+    "peak_rss_mib": 386
+  },
+  "s021_science": {
+    "run": 38760699074,
+    "job": 116511416069,
+    "wip_branch": "wip/S021-row148-cross-euler",
+    "wip_source_commit": "ce7560ae08e1ce3e546db645721a1af5271410c7",
+    "wip_evidence_commit": "7ab9842aa20ed3ce8a3b316044370786946e273f",
+    "artifact_id": 11985384079,
+    "artifact_digest": "sha256:78c5d2e42a25adfc5cd607b6a102ca04cf9a4a47c94394d38cc6b490bd3f6765",
+    "same_job_smoke": "PASS_271_271_CNF_DRAT_OLD_FRESH_K9",
+    "original148_status": "BIPLANARITY_UNKNOWN",
+    "total_sound_kuratowski_lemmas": 75653,
+    "selected_cross_pairs": 120,
+    "independent_cross_source_index_audit": "PASS120",
+    "best_partial_missing": 6,
+    "peak_rss_mib": 495.1
+  },
+  "s022_science": {
+    "original_row": 148,
+    "globally_decided": false,
+    "local": {
+      "run": 38765947247,
+      "job": 116529044333,
+      "artifact_id": 11990226672,
+      "source_wip": "9a6ddc38ff1630386ba443151b0b47daf66062a7",
+      "evidence_wip": "1531e5133aa1805fb2cca0f145b21c4472a49249",
+      "full_same_job_smoke": true,
+      "radii_completed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "subsets": 325626,
+      "seconds": 305.53,
+      "peak_rss_mib": 39.4
+    },
+    "obstruction_pack": {
+      "run": 38767507306,
+      "job": 116534444118,
+      "artifact_id": 11990945110,
+      "source_wip": "e394c96637f0d684e32466a4eb5e01d6b31a89b3",
+      "evidence_wip": "83f6a058b2349edba07ef875aaaaf9b36a04dbd8",
+      "full_same_job_smoke": true,
+      "A": 2,
+      "B": 1,
+      "seconds": 175.05
+    },
+    "original52_certified_nonbiplanar": 52,
+    "original219_unknown": 219
+  },
+  "s023_research": {
+    "completed": true,
+    "no_new_science_compute": true,
+    "comparison": "L_PREFERRED_NOT_CERTAIN",
+    "lemmas": [
+      "K6_UNIVERSAL_JOIN_9_COLOURABLE_CONDITIONAL",
+      "DEGREE11_SIX_NEIGHBOR_NONEDGES_AND_CRITICAL_KEMPE_LOCKS"
+    ],
+    "historical_originals": {
+      "excluded": 52,
+      "unknown": 219
+    },
+    "new_chi2_bound": false,
+    "new_checked_positive": false,
+    "new_checked_original_negative": false,
+    "external_artifacts_replayed": false,
+    "novelty_assessed": false,
+    "full_dossier": "research/S023_UPPER_VS_LOWER_AUDIT.md"
+  },
+  "original_corpus_status": {
+    "total": 271,
+    "certified_nonbiplanar": 271,
+    "biplanarity_unknown": 0,
+    "decided_in": "S004..S009 (52) and S025 (219)",
+    "claim": "CLM-0094"
+  },
+  "c5_blowup_classification": {
+    "biplanar_certified_classes_sum_le_16": 262,
+    "sum17_classes_total": 26,
+    "sum17_certified_nonbiplanar": 24,
+    "sum17_certified_list": [
+      "C5[1,1,7,1,7]",
+      "C5[1,2,6,1,7]",
+      "C5[1,2,6,2,6]",
+      "C5[1,3,5,1,7]",
+      "C5[1,3,5,2,6]",
+      "C5[1,3,5,3,5]",
+      "C5[1,4,4,1,7]",
+      "C5[1,4,4,2,6]",
+      "C5[1,4,4,3,5]",
+      "C5[1,4,4,4,4]",
+      "C5[1,5,3,2,6]",
+      "C5[1,5,3,3,5]",
+      "C5[1,6,2,2,6]",
+      "C5[2,2,5,3,5]",
+      "C5[2,3,4,2,6]",
+      "C5[2,3,4,4,4]",
+      "C5[2,5,2,6,2]",
+      "C5[3,3,3,3,5]",
+      "C5[2,4,3,3,5]",
+      "C5[2,3,5,2,5]",
+      "C5[2,3,5,3,4]",
+      "C5[2,3,4,3,5]",
+      "C5[2,4,3,4,4]",
+      "C5[2,4,4,2,5]"
+    ],
+    "iff_theorem_status": "PENDING_REMAINING_SUM17_CLASSES",
+    "claims": [
+      "CLM-0092",
+      "CLM-0093",
+      "CLM-0098",
+      "CLM-0105"
+    ],
+    "additional_S026_certified_tags": [
+      "24335",
+      "23525",
+      "23534"
+    ],
+    "pending_sum17_tags": [
+      "33344",
+      "33434"
+    ],
+    "additional_S027_certified_tags": [
+      "23435",
+      "24344",
+      "24425"
+    ]
+  },
+  "s024_integration_verified": {
+    "merge": "b8733f8fc2f765d326691263a7d011cfc52cfe72",
+    "parents": [
+      "f66f0e76577a8f3d33a19884904f636875816325",
+      "2027da48d74a35fcb62dabec6d715a5d5118e8ee"
+    ],
+    "tree": "24dda2c99983fe06004e3c758ba215c0fb29d5f2",
+    "pr": 30,
+    "main_governance_run": 38863687297,
+    "conclusion": "success_governance_only"
+  },
+  "owner_next_session_override": {
+    "id": "D058",
+    "date": "2026-10-16",
+    "scope": "S025 replaces prior S025 instructions; original219 serial exact gap closure first; no layer-first/new construction families",
+    "reference": "docs/S025_219_GAP_CLOSURE_DIRECTIVE.md",
+    "status": "DISCHARGED_BY_RECORDED_S025_CORPUS_DECISION",
+    "priority": "Original 219 (row148 first), exact biplanarity proof/certificates; partial percentages not proof progress",
+    "historical_queued_status": "QUEUED_NOT_EXECUTED",
+    "reconciliation_reference": "docs/S025_INTEGRATION_RECONCILIATION.md"
+  },
+  "historical_s024_next_session_owner_override": {
+    "decision": "D057_PROPOSED_ONLY",
+    "date": "2026-10-15",
+    "session": "S024_FUTURE_UNEXECUTED",
+    "recommendation": "LOWER_ROUTE_L_PRIMARY_WITH_PLANAR_LAYER_FIRST_AND_GLOBAL_ROW148_SECONDARY",
+    "authority": "S023 recommendation, NOT activated by S023; invoking complete S024 prompt expressly approves this S024-scoped D051/D054 priority relaxation.",
+    "d042": "LOWER_ONLY_RETAINS",
+    "original219": "UNCHANGED_ALL_PRESERVED",
+    "current_status": "HISTORICAL_S024_ONLY_COMPLETED;_NOT_A_CURRENT_NEXT_SESSION_OVERRIDE"
+  },
+  "s026_science": {
+    "session": "S026",
+    "entry_main": "96c9f3c9d482844a5c952d856132b99579b660bd",
+    "overview": "S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12. P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive.",
+    "jobs": [
+      {
+        "tag": "24335",
+        "directory": "validation/S026/local/C5-24335",
+        "verdict": "NONBIPLANAR_CERTIFIED",
+        "certified": true
+      },
+      {
+        "tag": "23525",
+        "directory": "validation/S026/local/C5-23525",
+        "verdict": "NONBIPLANAR_CERTIFIED",
+        "certified": true
+      },
+      {
+        "tag": "23534",
+        "directory": "validation/S026/local/C5-23534",
+        "verdict": "NONBIPLANAR_CERTIFIED",
+        "certified": true
+      },
+      {
+        "tag": "23435",
+        "directory": "validation/S026/local/C5-23435",
+        "verdict": "UNKNOWN",
+        "certified": false
+      },
+      {
+        "tag": "24344",
+        "directory": "validation/S026/local/C5-24344",
+        "verdict": "UNKNOWN",
+        "certified": false
+      },
+      {
+        "tag": "24425",
+        "directory": "validation/S026/local/C5-24425",
+        "verdict": "UNKNOWN",
+        "certified": false
+      },
+      {
+        "tag": "33344",
+        "directory": "validation/S026/local/C5-33344",
+        "verdict": "UNKNOWN",
+        "certified": false
+      },
+      {
+        "tag": "33434",
+        "directory": "validation/S026/local/C5-33434",
+        "verdict": "UNKNOWN",
+        "certified": false
+      },
+      {
+        "directory": "validation/S026/filter-recovery",
+        "certified": false
+      },
+      {
+        "directory": "validation/S026/filter-recovery/candidate",
+        "certified": true
+      },
+      {
+        "directory": "validation/S026/filter-recovery/pending-profile",
+        "certified": false
+      },
+      {
+        "directory": "validation/S026/source",
+        "certified": false,
+        "kind": "HOSTED_SOURCE_COMPLETED_BEFORE_LOCAL_DIRECTION"
+      }
+    ],
+    "frontier": "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive.",
+    "recovered_candidate": {
+      "candidate": "P29-B14-0001",
+      "chromatic_lower": 10,
+      "alpha_certificate_checked": true,
+      "anneals": [
+        {
+          "seed": 1,
+          "process": {
+            "command": [
+              "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+              "C:\\Earth-Moon-problem\\tools\\s025_cover_anneal.py",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+              "1",
+              "60",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\anneal1.json"
+            ],
+            "returncode": 0,
+            "seconds": 60.703,
+            "peak_tree_rss_kib": 59872,
+            "completed_process": true,
+            "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\anneal1.log",
+            "memory_measure": "aggregate_private_commit",
+            "memory_cap_kib": 11534336
+          },
+          "best_uncovered": 8
+        },
+        {
+          "seed": 2,
+          "process": {
+            "command": [
+              "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+              "C:\\Earth-Moon-problem\\tools\\s025_cover_anneal.py",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+              "2",
+              "60",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\anneal2.json"
+            ],
+            "returncode": 0,
+            "seconds": 60.703,
+            "peak_tree_rss_kib": 61720,
+            "completed_process": true,
+            "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\anneal2.log",
+            "memory_measure": "aggregate_private_commit",
+            "memory_cap_kib": 11534336
+          },
+          "best_uncovered": 7
+        }
+      ],
+      "exact": {
+        "edges_sha256": "022f12182983dc0d7196653880d554676150a76a23d6090093fc843bf27972d0",
+        "search": {
+          "command": [
+            "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+            "C:\\Earth-Moon-problem\\tools\\s025_minor_cegar.py",
+            "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+            "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor",
+            "300",
+            "--lemmaC",
+            "5"
+          ],
+          "returncode": 0,
+          "seconds": 114.891,
+          "peak_tree_rss_kib": 623684,
+          "completed_process": true,
+          "log": "candidate\\search.log",
+          "memory_measure": "aggregate_private_commit",
+          "memory_cap_kib": 11534336
+        },
+        "result": {
+          "verdict": "UNSAT",
+          "iterations": 125,
+          "kuratowski_lemmas": 27034,
+          "minor_models": 15804,
+          "lemmaC_models": 153064,
+          "branch_sets": 11818,
+          "minor_clauses": 615872,
+          "build_seconds": 3.6,
+          "seconds": 107.8,
+          "symmetries": 17,
+          "rmax": 5,
+          "k2": false,
+          "k3": false
+        },
+        "proof": {
+          "justification": {
+            "command": [
+              "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+              "C:\\Earth-Moon-problem\\tools\\s025_check_minor_cert.py",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor"
+            ],
+            "returncode": 0,
+            "seconds": 12.656,
+            "peak_tree_rss_kib": 825484,
+            "completed_process": true,
+            "log": "candidate\\justification.log",
+            "memory_measure": "aggregate_private_commit",
+            "memory_cap_kib": 11534336
+          },
+          "regeneration": {
+            "command": [
+              "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+              "C:\\Earth-Moon-problem\\tools\\s025_regen_cnf.py",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\graph.edges",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.lemmas.json",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\rebuilt.cnf"
+            ],
+            "returncode": 0,
+            "seconds": 6.578,
+            "peak_tree_rss_kib": 617276,
+            "completed_process": true,
+            "log": "candidate\\regeneration.log",
+            "memory_measure": "aggregate_private_commit",
+            "memory_cap_kib": 11534336
+          },
+          "cnf_byte_match": true,
+          "native": {
+            "command": [
+              "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+              "C:\\Earth-Moon-problem\\tools\\s025_certify.py",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.cnf",
+              "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate",
+              "1800",
+              "1800"
+            ],
+            "returncode": 0,
+            "seconds": 7.079,
+            "peak_tree_rss_kib": 227344,
+            "completed_process": true,
+            "log": "candidate\\native.log",
+            "memory_measure": "aggregate_private_commit",
+            "memory_cap_kib": 11534336
+          },
+          "certificate": {
+            "cnf": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.cnf",
+            "cnf_sha256": "d4d87afb2035905c5665dda4b7229320b170e5a20bfe787b36e7fc36f78fb8a8",
+            "solver": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+            "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+            "solver_returncode": 20,
+            "solve_seconds": 3.35,
+            "checker": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+            "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+            "check_seconds": 2.83,
+            "drat_sha256": "c97cdad22e2c5480e188b2d8817b5df5e3d77f21de5363b55222bdbf3bb40c86",
+            "drat_bytes": 2346628,
+            "checker_tail": "\nc parsing input formula with 249314 variables and 670937 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 10587 of 670937 clauses in core                            \n\nc 1887 of 31612 lemmas in core using 82291 resolution steps\n\nc 0 RAT lemmas in core; 927 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 2.807 seconds\n",
+            "verdict": "UNSAT_DRAT_VERIFIED",
+            "drat_gz": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S026-filter-recovery\\candidate\\minor.drat.gz",
+            "drat_gz_sha256": "420c00281f66480e3d981375393eb71d1aa68f4964c6c88fc7e26f8d1ad8f1aa"
+          },
+          "certified": true
+        },
+        "verdict": "NONBIPLANAR_CERTIFIED"
+      },
+      "verdict": "NONBIPLANAR_CERTIFIED"
+    },
+    "pending_C5_maps": [],
+    "filter_unknown_initial": 1,
+    "filter_unknown_final": 0,
+    "additional_C5_certified": [
+      "24335",
+      "23525",
+      "23534"
+    ],
+    "C5_unknown": [
+      "23435",
+      "24344",
+      "24425",
+      "33344",
+      "33434"
+    ],
+    "classification": {
+      "positive_classes_rechecked": 262,
+      "sum17_required_classes": 26,
+      "sum17_density_rejected_classes": 0,
+      "certified_sum17_classes": 21,
+      "pending_sum17_classes": [
+        [
+          2,
+          3,
+          4,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          3,
+          4,
+          4
+        ],
+        [
+          2,
+          4,
+          4,
+          2,
+          5
+        ],
+        [
+          3,
+          3,
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          4,
+          3,
+          4
+        ]
+      ],
+      "iff_complete": false
+    },
+    "candidate_transfers": [
+      {
+        "candidate": "P10-B10-0065",
+        "obstruction": "23525",
+        "vertex_map": {
+          "0": 20,
+          "1": 21,
+          "2": 22,
+          "3": 23,
+          "4": 27,
+          "5": 0,
+          "6": 1,
+          "7": 2,
+          "8": 3,
+          "9": 4,
+          "10": 24,
+          "11": 25,
+          "12": 9,
+          "13": 10,
+          "14": 11,
+          "15": 12,
+          "16": 26
+        }
+      },
+      {
+        "candidate": "P12-B10-0047",
+        "obstruction": "23534",
+        "vertex_map": {
+          "0": 20,
+          "1": 21,
+          "2": 17,
+          "3": 18,
+          "4": 19,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 24,
+          "11": 25,
+          "12": 26,
+          "13": 10,
+          "14": 11,
+          "15": 12,
+          "16": 13
+        }
+      },
+      {
+        "candidate": "P19-B11-0008",
+        "obstruction": "23525",
+        "vertex_map": {
+          "0": 21,
+          "1": 22,
+          "2": 25,
+          "3": 26,
+          "4": 27,
+          "5": 0,
+          "6": 1,
+          "7": 2,
+          "8": 3,
+          "9": 4,
+          "10": 19,
+          "11": 20,
+          "12": 12,
+          "13": 13,
+          "14": 14,
+          "15": 17,
+          "16": 18
+        }
+      },
+      {
+        "candidate": "P27-B12-0087",
+        "obstruction": "23525",
+        "vertex_map": {
+          "0": 12,
+          "1": 13,
+          "2": 3,
+          "3": 4,
+          "4": 5,
+          "5": 9,
+          "6": 10,
+          "7": 11,
+          "8": 14,
+          "9": 15,
+          "10": 24,
+          "11": 25,
+          "12": 6,
+          "13": 7,
+          "14": 8,
+          "15": 20,
+          "16": 21
+        }
+      }
+    ],
+    "source_models": 2185,
+    "source_models_nonbiplanar": 2185,
+    "old_filter_transfers": 2180,
+    "filter_unknown": 0,
+    "admitted_initial": 4,
+    "admitted_final": 5,
+    "admitted_nonbiplanar": 5,
+    "old18_absence_proofs": 72,
+    "total_independent_containment_absence_proofs": 98,
+    "range": [
+      9,
+      12
+    ],
+    "novelty_claimed": false,
+    "formalisation_executed": false
+  },
+  "session_gate": "S031 completed capped UNKNOWN; D066 stop after closeout. S032 FUTURE/UNEXECUTED requires fresh owner invocation under D047.",
+  "historical_open_obligations_before_S026": [
+    "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
+    "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
+    "Local laptop execution preferred by owner; each invoked session must pass full271+K9 smoke,one heavy11GiB tree,explicit caps and durable checkpoints.",
+    "S026 future: obstruction-aware chi>=10 candidate generation (avoid K9 and certified C5 obstructions), decide with flip-annealing oracle and Lemma-C minor CEGAR + DRAT; finish the remaining sum-17 C5 classes.",
+    "S025: 18/26 sum-17 C5 classes DRAT-certified non-biplanar; all 262 K9-free sum<=16 classes biplanar by explicit splits; iff-classification pending the rest.",
+    "S025: all 219 formerly UNKNOWN original rows settled NON-BIPLANAR (CLM-0094); D051/D054 priority discharged (D058). Dependency: K9 thickness 3 (classical; programme DRAT).",
+    "S025 Arm A heuristic frontier: alpha<=3 biplanar to n=24, alpha<=4 to n=32, W=3 total-28 weighted minima >=8; no chi>=10.",
+    "S025 resource deviation F071: local RAM oversubscription; affected runs NOT_COMPLETED.",
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed.",
+    "S024 CAM0026 full same-job original271+K9 smoke PASS on GitHub Actions run38862555457; 17/18 genuinely disjoint maximal-planar layer pairs n22/28/36 verified by rotation/Euler, but each explicitly <=8-colourable, so zero chi>=10 witness. Stop overlap-only generator.",
+    "Owner D056: S023 is NOW a two-sided proof-first feasibility audit of moving upper vs lower bound, including primary 2026 prior art, substantive lemma attempts BOTH sides and a defended preferred next route. D042 upper prohibition and D051/D054 row148-only priority suspended for this comparison alone; 52 NONBIPLANAR, 219 UNKNOWN, chi2 9..12 unchanged.",
+    "S022 secondary CAM0025 found source-checked disjoint nonplanar obstruction packs A2, B1 around edge(0,1), but no four-per-side certificate. Four on side A impossible because vertex1 baseline layer A has only three incident edges other than target. Original remains UNKNOWN.",
+    "S022: 325626 exact local radius<=3 flipsets from 125-placed/6-unplaced original148 source fully exhausted, but no full original biplanar split, no checked global negative. S023 needs global rotation/triangulation-cover SAT/branching proof. Source SHA256 4f8dab6cb2f936ba0c69613decab88f578e4692926baa09b4d387289cefae598; inherited 75653 Kuratowski cuts persist.",
+    "S021 scientific result: original148 still BIPLANARITY_UNKNOWN after one 12GiB Actions runner run38760699074: 271+K9 cold smoke PASS; insertion2295 nodes/130s best SIX unplaced; exact 173 iterations/300s, 67862 old checked cuts ->75653 total; cross A,B 120 selected out of8025, 120 independently recomputed crossing index records PASS; peak495MiB; no complete split / checked native negative. S022 must pursue embedding-complete algorithm and checkpoint reuse on same original row.",
+    "S021: independently audit S020 true 67862 saved original Kuratowski cuts / induced Euler 100-set construction; row148 remains sole original. Need cross-bipartite Euler |E_i(A,B)|<=2(|A|+|B|)-4, potentially direct density obstruction or necessary CNF, plus more complete explicit rotation/triangulation-cover exact solver with q+r=7. New same-job 271+K9 smoke, one 12GiB worker, preserve all proofs; no switch until certified.",
+    "S020 must continue same original row148 unless actual accepted source-certified positive/negative changes priority. S019 resumed six-unplaced partial, 54697 sound original Kuratowski cuts, original Euler 62..69 sequential-counter base 17098 clauses/8687 CNF vars; no complete positive or checked negative, no transfer or wider search. Need genuinely new seven-defect triangulation-cover/rotation embedding approach or local Euler cuts plus bounded proof-checked negative, same-job cold smoke.",
+    "S017 density CEGAR 5 original rows capped UNKNOWN; robust projected counter audit m<=5 passed1022 but full lex symmetry projected small-graph audit and independently checked full UNSAT proof still missing. Constructive row148 best new15 missing worse than S016 historical10; 214 other originals not run anew. S018 must retain D051 canonical219 until certified original split or validated negative proofs, no autonomous pivot.",
+    "S016 finished: four capped CEGAR original rows156,3,9,173; 11 positive searches including new row148 10-unplaced; zero complete split/negative proof. ALL219 still unresolved. S017 MUST retain owner D051 original pool, implement density-balanced exact CNF (CLM0081) with checked encoding and independently certified DRAT if UNSAT, rotation/backtracking positive algorithm, prioritize row148 and 156/3/9/173; no autonomous pivot.",
+    "S014 proof CLM0079: H-anchored 18v r7 new-side K7 or K7-e cannot yield chi10 biplanar. Need settle m2..4 with delta sum<=4-m; 7525 labelled internal missing-edge patterns not enumerated; old-cross/planar pair construction NOT RUN. New SRC0037 alpha<=2 exclusion statement inspected. No new environment smoke: S014 analytic-only.",
+    "S013 closes H-containing chi>=10 biplanar graphs on <=17 vertices, not all order<=17 candidates; S014 pursue edge-altered H, r>=7 anchors, genuinely chromatic layer-first sources. S013 CAM0016 48 multiedge attempts min12 still unplaced UNKNOWN;80 actual planar pair controls max proper8. Runner PASS and source/artifact hashes in validation/S013/SUMMARY.json.",
+    "S012 COMPLETE: no chi>=10 biplanar graph; baseline52 nonbiplanar and219 UNKNOWN unchanged. CAM0015 all194896 G-e+f single swaps of six fixed rows properly9 and independently verified on run38635879431, original271/271 smoke PASS. CLM0072 H=K6 vee C5 retained-induced plus r<=5 cannot lift chi10 biplanar; CLM0073 r6 requires K6(-e) and89/90 total edges. S013 r6 closed, S014 edge-altered cores/r7/stronger planar pair.",
+    "Decide219 fixedchi10 rows; exact indices in S010/SUMMARY.31/42 originalD2 UNKNOWN; no whole-stratum/census closure.",
+    "S009 full lane complete; historical sequential/native caps remain UNKNOWN observations. S010 no old full-row reruns.",
+    "Cold48 retained direct row sources and effectiveK7-I5 checked; initial heavy pipeline remains UNKNOWN. No obstruction minimality claim.",
+    "Row165 no-lex/23v row158 deletion UNKNOWN; C5 maximal13/children and independent wholek8/k9 census open.",
+    "All159 corpus apices excluded; apex(C5K3)chi9/biplanarity UNKNOWN. Generic equality identification need not preserve planarity.",
+    "S010 complete three-source bipartite detector has0 maps on271, no new exclusions/converse; prior injection misses/caps never negatives.",
+    "rStation primary statements now inspected; claimed20-vertex bound/archive not independently replayed, no programme order promotion/novelty guarantee.",
+    "Separate sequential/totalizer generators in fresh processes; two failed precheck adapters preserved before correctedbaseline_v3.",
+    "Novelty/external review/Lean/registration/publication/outreach gates unpassed."
+  ],
+  "historical_open_obligations_before_S027": [
+    "S027 FUTURE: avoid all21 certified C5 obstructions during candidate generation; quantitative learned-obstruction source, independent containment checks, bounded checkpoint continuation for C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5], C5[3,3,3,4,4], C5[3,3,4,3,4].",
+    "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. No exhaustive 28-vertex source theorem.",
+    "Local laptop execution preferred by owner; each invoked session must pass full271+K9 smoke,one heavy11GiB tree,explicit caps and durable checkpoints.",
+    "Full C5 iff remains pending5 sum17 classes;21 certified negatives and262 checked positives.",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication and outreach remain unexecuted/gated."
+  ],
+  "s026_integration_verified": {
+    "pr": 34,
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/34",
+    "authored_commit": "2cd5c94999a817e384d346df6a08930b7591ae31",
+    "merge_commit": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+    "parents": [
+      "96c9f3c9d482844a5c952d856132b99579b660bd",
+      "2cd5c94999a817e384d346df6a08930b7591ae31"
+    ],
+    "tree": "c439fe83c038b5627b9c53a3e05cb2ae65e4cd03",
+    "main_governance_run": 39155369381,
+    "pr_governance_run": 39155308588,
+    "verified_by": "S027 entry live read 2026-10-18; governance success is not proof replay"
+  },
+  "s027_science": {
+    "session": "S027",
+    "entry_main": "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+    "overview": "S027: learned certified-obstruction support clauses close 13/30 alpha3 28-vertex clique blow-up profiles by checked native DRAT; 1831 source models, 1401 excluded by checked obstruction maps, 346 by Euler subset clauses, 84 filter-clean (6 admitted, 78 surplus). New certified obstructions: P29 minus a bag-12 vertex (27v), P26-B11-0051 and P27-B12-0040 (28v, alpha3, omega8). Admitted P10-B10-0001, P11-B10-0067, P20-B11-0070, P22-B11-0043 BIPLANARITY_UNKNOWN at 600s. C5 sum17: 24/26 certified (new C5[2,3,4,3,5], C5[2,4,3,4,4], C5[2,4,4,2,5]); C5[3,3,4,3,4], C5[3,3,3,4,4] UNKNOWN. No chi>=10 biplanar witness; 9<=chi2<=12.",
+    "executor": "local Claude Code (owner workstation), D060",
+    "campaigns": [
+      "CAM-0032",
+      "CAM-0033"
+    ],
+    "smoke": "full local 271/271 + retained/fresh K9 PASS at entry and as campaign gate",
+    "science_seconds": 15027.8,
+    "peak_tree_private_kib": 2697044,
+    "profile_domains_closed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      15,
+      16,
+      17,
+      25
+    ],
+    "new_certified_obstructions": [
+      "P29-del-bag12",
+      "P26-B11-0051",
+      "P27-B12-0040"
+    ],
+    "admitted_unknown": [
+      "P10-B10-0001",
+      "P11-B10-0067",
+      "P20-B11-0070",
+      "P22-B11-0043"
+    ],
+    "surplus_filter_clean_unknown": 78,
+    "evidence": [
+      "validation/S027/SUMMARY.json",
+      "validation/S027/REPLAY.json",
+      "validation/S027/local"
+    ],
+    "novelty_claimed": false
+  },
+  "s027_integration_verified": {
+    "pr": 35,
+    "url": "https://github.com/jfairfaxball-348/Earth-Moon-problem/pull/35",
+    "authored_commit": "21be2dd7fe140e4588e3959bc127b185114eccb3",
+    "merge_commit": "7217d85eb99f29b05fbda5bb1d15f6cc3223a8ac",
+    "parents": [
+      "4d74c5f276a2a512b2588d3267a5496a7cba134b",
+      "21be2dd7fe140e4588e3959bc127b185114eccb3"
+    ],
+    "tree": "93517f56fe17ff2fe36d121f5b4dedf4618fd3c0",
+    "pr_governance_run": 39194372099,
+    "main_governance_run": 39194443435
+  },
+  "historical_open_obligations_before_S028": [
+    "S028 FUTURE: obstruction-closure loop: deletion descent on certified S027 negatives, refilter 4 admitted UNKNOWN + 78 surplus, regenerate with all certified obstructions.",
+    "Full C5 iff pending C5[3,3,4,3,4] and C5[3,3,3,4,4] (24 certified negatives, 262 checked positives); park unless a new proved strengthening is registered.",
+    "Local execution: each invoked session must pass full 271+K9 smoke, one heavy 11GiB tree, explicit caps and durable checkpoints; executor identity recorded.",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication and outreach remain unexecuted/gated."
+  ],
+  "s028_science": {
+    "overview": "S028: deletion descent from S027 negatives certified 13 smaller clique blow-up obstructions down to an 18-vertex one (GJaVBo)[7,3,2,2,1,1,1,1], 78 edges, K9-free; refilter excluded all 4 S027 admitted UNKNOWN graphs and 71 of 78 surplus by checked certified subgraph maps (9 survive); source rerun closed 16/30 profiles by checked native DRAT with no unresolved dependencies (adds 12,14,24); 4 new admitted, 1 processed (S028-P10-B10-0007 UNKNOWN after 1800s exact), 12 queue graphs NOT_RUN after owner-requested early stop. C5 pending classes parked. No chi>=10 biplanar witness; 9<=chi2<=12.",
+    "executor": "local Claude Code",
+    "campaigns": [
+      "CAM-0034",
+      "CAM-0035"
+    ],
+    "stopped_early": "owner time request; controller killed ~06:28 UTC",
+    "closed_profiles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      16,
+      17,
+      24,
+      25
+    ],
+    "smallest_new_obstruction": {
+      "name": "D036",
+      "g6": "GJaVBo",
+      "u": [
+        7,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "n": 18,
+      "m": 78
+    },
+    "evidence": [
+      "validation/S028/SUMMARY.json",
+      "validation/S028/REPLAY.json",
+      "validation/S028/local"
+    ]
+  },
+  "historical_open_obligations_before_D062": [
+    "S029 FUTURE: process the 12 NOT_RUN S028 queue graphs (3 S028 admitted, 9 S027 surplus), descent from D036 and new negatives, source rerun.",
+    "Full C5 iff pending C5[3,3,4,3,4] and C5[3,3,3,4,4]; parked.",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
+  ],
+  "d062_owner_decision": {
+    "date": "2026-10-19",
+    "type": "GOVERNANCE_ONLY",
+    "directive": "docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md",
+    "summary": "Pivot: S029 = prior-art/landscape audit (rStation first), frozen; S030 = alpha<=3 finite programme (Option 5). Old S029 queue parked. Exhaustive certified search of the finite alpha<=3 domain authorised for S030 when invoked as a finite-domain computation; no universal upper-bound work beyond it. D042 headline unchanged.",
+    "superseded_prompt": "sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062)"
+  },
+  "historical_open_obligations_before_S029": [
+    "S029 FUTURE (D062): prior-art and current-landscape audit, rStation r/earth_moon first; literature only; freeze baseline; write full S030 prompt with go/no-go.",
+    "S030 FUTURE (D062 draft): alpha<=3 finite programme T3 (biplanar alpha<=3 implies 9-colourable, or a chi>=10 witness); Lemma F n<=36 to be re-proved.",
+    "PARKED (not discharged): old S029 obstruction-closure queue (12 NOT_RUN, S028-P10-B10-0007 UNKNOWN, 9 S027 surplus) and C5[3,3,4,3,4], C5[3,3,3,4,4].",
+    "No certified chi>=10 biplanar witness; novelty, Lean, registration, publication, outreach gated."
+  ],
+  "s029_research": {
+    "type": "LITERATURE_ONLY",
+    "executor": "Claude Code, cloud container",
+    "smoke": "NOT_RUN (no scientific script executed; governance hash checks only)",
+    "landscape": "research/S029_LANDSCAPE.md",
+    "freeze": "validation/S029/LANDSCAPE_FREEZE.json",
+    "new_sources": "SRC-0045..SRC-0056",
+    "new_claims": "CLM-0110..CLM-0113",
+    "go_no_go": "GO-MODIFIED",
+    "summary": "Lemma F superseded (n<=30 via Szeider; n<=28 claimed by rStation paper 59). alpha<=3 counting route = OP1(b) at exactly 28 vertices; rStation excluded 11-regular case; delta<=10 and delta=11 m in {155,156} open. T3 below 28 overlaps rStation order programme and is PARKED. No 10-chromatic biplanar graph announced anywhere searched; nobody claims T3."
+  },
+  "d063_s029_decision": {
+    "date": "2026-10-19",
+    "type": "S029_GO_MODIFIED",
+    "next": "S030 OP1(b) order-28 stratified certified decision",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md = sessions/S029/S030_FUTURE_PROMPT.md"
+  },
+  "s030_science": {
+    "session": "S030",
+    "executor": "Codex desktop local Windows",
+    "smoke": "PASS_FULL_271_PLUS_K9",
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "seconds": 1181.281,
+    "sat_models": 44,
+    "search_segments": [
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "stop": 4294967295,
+        "seconds": 194.938,
+        "cuts": 30
+      },
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "strengthened": true,
+        "stop": 4294967295,
+        "seconds": 186.203,
+        "cuts": 734
+      },
+      {
+        "stratum": "S11_m155_156",
+        "verdict": "UNKNOWN",
+        "coverage": "all labelled graphs, vertex0 degree11",
+        "S10": "NOT_RUN",
+        "S9": "NOT_RUN",
+        "regular154": "SOURCE_STATED_NOT_IMPORTED",
+        "strengthened": true,
+        "sorted_anchor": true,
+        "seed": "artifacts/tmp/S030/strong/CUTS.json",
+        "stop": "WALL_CAPPED",
+        "seconds": 800.14,
+        "cuts": 1084
+      }
+    ],
+    "peak_private_kib": 176408,
+    "regular_packet": "THREE_FINITE_BRANCHES_RUP_VERIFIED; HAND_COVERAGE_NOT_REPROVED",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    }
+  },
+  "s029_integration_verified": {
+    "pr": 38,
+    "authored_commit": "7c60fa8b0d4201204cf059d6c34ac9fc90334be9",
+    "merge_commit": "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+    "parents": [
+      "742c1a19bac8cd7caf4c734d73fc76262c8ced29",
+      "7c60fa8b0d4201204cf059d6c34ac9fc90334be9"
+    ],
+    "tree": "0d61e17ef478036e8680b68bdfe2b3f92a8232a7",
+    "main_governance_run": 39239671991,
+    "job": 118017161029
+  },
+  "s030_executor": "Codex desktop local Windows; S030 Entry explicitly permits local pinned toolchain",
+  "standing_continuation_authorization": {
+    "decision": "D070",
+    "invocation_decision": "D068",
+    "authorized_session": "S032",
+    "successive_sessions_authorized": false,
+    "status": "ENDED_D070_OWNER_STOP_NO_AUTOMATIC_RESUME",
+    "stop_conditions": [
+      "S032 closeout",
+      "owner stop",
+      "context or usage exhausted"
+    ],
+    "preserve_session_scopes_and_publication_gates": true
+  },
+  "historical_open_obligations_before_S031": [
+    "S031 FUTURE/UNEXECUTED: persistent certified S11 continuation; S030 whole stratum UNKNOWN.",
+    "S11 regular154 SOURCE_STATED; only three finite RUP branches replayed, hand coverage not independently re-proved.",
+    "S10/S9 NOT_RUN; delta>=9 conditional on SRC-0037, unconditional fallback S8 NOT_RUN.",
+    "PARKED: T3 orders21..27, old S029 queue and pending C5 classes, unchanged.",
+    "No certified chi>=10 witness;9<=chi2<=12; novelty/Lean/registration/publication/outreach gated."
+  ],
+  "s031_science": {
+    "session": "S031",
+    "executor": "Codex desktop local Windows",
+    "started_utc": "2026-10-19T18:44:38.822765+00:00",
+    "finished_utc": "2026-10-20T02:42:51.930132+00:00",
+    "status": "COMPLETED_WALL_CAPPED",
+    "search_seconds": 28692,
+    "external_worker_seconds": 28694.14,
+    "startup_diagnostic_seconds": 82.14,
+    "sat_models": 46,
+    "seed_cuts": 1114,
+    "new_cuts": 695,
+    "cuts": 1809,
+    "conflicts": 205206574,
+    "budget_slices": 2073,
+    "peak_aggregate_private_kib": 1284484,
+    "memory_cap_kib": 11534336,
+    "sleep_inhibition_released": true,
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "independent_replay": "PASS",
+    "smoke": "PASS_FULL_271_PLUS_RETAINED_AND_FRESH_K9",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "next_session": "S032_FUTURE_UNEXECUTED",
+    "successive_sessions_authorized": false,
+    "monitor": "DISABLE_AFTER_INTEGRATION_D066"
+  },
+  "s031_completed_runtime": {
+    "id": "S031",
+    "status": "COMPLETED_WALL_CAPPED_UNKNOWN",
+    "authority": "docs/D066_S031_ONLY.md",
+    "branch": "codex/S031-persistent-op1b",
+    "entry_main": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+    "started_utc": "2026-10-19T18:44:37.981473+00:00",
+    "controller_pid": 15080,
+    "worker_pid": 10792,
+    "runtime_directory": "artifacts/tmp/S031",
+    "running_handoff": "sessions/S031/RUNNING.md",
+    "followup_automation_id": "earth-moon-long-run-continuation",
+    "scheduled_interval_hours": 2,
+    "worker_cap_seconds": 28800,
+    "last_completed_session_still": "S030",
+    "scientific_status": "NO_NEW_CERTIFIED_STRATUM_OR_WITNESS",
+    "finished_utc": "2026-10-20T02:42:51.930132+00:00"
+  },
+  "s030_integration_verified": {
+    "pr": 39,
+    "authored_commit": "45bc0437d99deb6580c78e057c483694eeeae1e7",
+    "merge_commit": "dd802686215781cbc35aa86ea14c54369aaec7e5",
+    "parents": [
+      "1e1fdc1985f125b5092fe1e2252a2767d8d8bc7a",
+      "45bc0437d99deb6580c78e057c483694eeeae1e7"
+    ],
+    "tree": "9a97e5d1c06d6f50b1903b13bad1aa9c77757950",
+    "main_governance_run": 39303612275,
+    "job": 118234888136
+  },
+  "s032_completed_runtime": {
+    "id": "S032",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "owner_message": "Okay, run next session",
+    "branch": "codex/S032-partial-planarity",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+    "authority": "D047 direct invocation; sessions/S032/OWNER_INVOCATION.md",
+    "runtime_directory": "artifacts/tmp/S032/campaign",
+    "scientific_status": "S11_UNKNOWN_NO_CERTIFIED_STRATUM_OR_WITNESS",
+    "controller_pid": 13056,
+    "worker_pid": 12892,
+    "started_utc": "2026-10-20T06:25:56.744128+00:00",
+    "running_handoff": "sessions/S032/RUNNING.md",
+    "followup_automation_id": "earth-moon-s032-monitor",
+    "worker_cap_seconds": null,
+    "no_fixed_wall_limit": true,
+    "duration_authority": "D070_OWNER_STOP",
+    "followup_automation_status": "PAUSED",
+    "finished_utc": "2026-10-21T06:55:03.419463+00:00"
+  },
+  "s032_science": {
+    "session": "S032",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "executor": "Codex desktop local Windows",
+    "entry_main": "e3145c77a7350ebd2c8aa3197cf97bf5e626099f",
+    "started_utc": "2026-10-20T06:25:56.744128+00:00",
+    "finished_utc": "2026-10-21T06:55:03.419463+00:00",
+    "wall_seconds": 88133.828,
+    "sleep_gap_seconds": 30853.814352035522,
+    "observed_native_cpu_seconds_before_stop": 57120.4375,
+    "peak_private_kib": 2774176,
+    "retained_geometric_rules": 2579937,
+    "diagnostic_seed_rules": 162536,
+    "campaign_new_rules": 2417401,
+    "lemma_bytes": 189309949,
+    "lemma_sha256": "6e6d88e19e3526117b1a01ea0a7f818ec7c8f950e3c379fdb380d096b10c7177",
+    "partial_checks_last_observed": 14653878,
+    "complete_model_checks_last_observed": 0,
+    "native_cdcl_state_saved": false,
+    "independent_rule_and_renaming_audit": "PASS",
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8_unconditional_fallback": "NOT_RUN",
+    "witness": null,
+    "certified_strata": [],
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "monitor_status": "PAUSED",
+    "all_campaign_processes_stopped": true,
+    "no_automatic_resume": true,
+    "rebuilt_native_sha256": "11f9edd801c33387a77dd71d539873985109d05d3e381dcdb49f3076a18c9740",
+    "progress_controls": "PASS",
+    "free_K9_native": "UNKNOWN_AT_2S_IN_REBUILD; HISTORICAL60S/300S_UNKNOWN",
+    "exact_projected_excluded_graph_count": "NOT_COMPUTED",
+    "coverage_demo": "cell128 checked UNSAT both base-only and augmented; baseline encoder closure, not a new graph result",
+    "next_session": "S033_FUTURE_UNEXECUTED"
+  },
+  "s033_environment": {
+    "session": "S033",
+    "mobile_verdict": "PHONE_READY_VALIDATED",
+    "architecture": "aarch64",
+    "phone_model": "SM-S921B",
+    "platform": "Android16 / Termux / Debian13 proot",
+    "full_smoke": "PASS_271_PLUS_RETAINED_AND_FRESH_K9",
+    "native_sha256": "40666b0703d1da1a7bbb51c215a05f1349220bd1f70fe522aeb0e6288c409b2b",
+    "native_controls": "SCOPED_PASS_WITH_FREE_K9_UNKNOWN",
+    "free_native_K9": "UNKNOWN_AT_2S",
+    "rules": 2579937,
+    "input_audit": "PASS",
+    "input_audit_seconds": 209.17654058593325,
+    "audit_networkx_comparison_controls": 3583,
+    "lifecycle": "PASS",
+    "diagnostic_status": "FINISHED_UNKNOWN",
+    "diagnostic_wall_seconds": 21.787098359083757,
+    "diagnostic_cpu_seconds": 21.163325999999998,
+    "diagnostic_peak_rss_kib": 385572,
+    "thermal": "UNAVAILABLE; no thermal/throttling guarantee",
+    "caps": {
+      "workers": 1,
+      "native_wall_max_seconds": 30,
+      "rss_kib": 1048576,
+      "disk_reserve_bytes": 4294967296
+    },
+    "S11_m155_156": "UNKNOWN",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8": "NOT_RUN",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "witness_established": false,
+    "certified_strata": [],
+    "S034_executed": false,
+    "windows_support": "build scripts retained; Windows execution not tested on ARM64",
+    "rollback": "ordinary git revert of S033 commit; preserve later work"
+  },
+  "s034_completed_runtime": {
+    "id": "S034",
+    "status": "COMPLETED_SAFETY_STOP_UNKNOWN",
+    "authority": "D073 owner overnight invocation",
+    "deadline_utc": "2026-10-22T06:00:00Z",
+    "deadline_uk": "2026-10-22T07:00:00+01:00",
+    "runtime_status_authority": "artifacts/tmp/S034/campaign/GUARDIAN.json",
+    "runtime_directory": "artifacts/tmp/S034/campaign",
+    "workers": 1,
+    "entry_main": "236d97e8c142b8fdf8d124f02f9c1b754693002f",
+    "running_handoff": "sessions/S034/RUNNING.md",
+    "no_automatic_S035": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "stopped_utc": "2026-10-22T00:01:43.694976+00:00",
+    "stop_reason": "SAFETY_DISK_RESERVE"
+  },
+  "s034_science": {
+    "session": "S034",
+    "status": "COMPLETED_SAFETY_STOP_UNKNOWN",
+    "executor": "Codex on Samsung SM-S921B / Android16 Termux Debian13 proot ARM64",
+    "started_utc": "2026-10-21T20:52:22.833277+00:00",
+    "stopped_utc": "2026-10-22T00:01:43.694976+00:00",
+    "elapsed_campaign_seconds": 11360.861699,
+    "stop_reason": "SAFETY_DISK_RESERVE",
+    "total_regions": 256,
+    "visited_regions": 102,
+    "total_visits": 102,
+    "proof_closed_regions": 16,
+    "unresolved_regions": 240,
+    "not_visited_regions": 154,
+    "unresolved_visited_regions": 86,
+    "new_geometric_clauses": 93047,
+    "clause_count_note": "Persisted independently checked occurrences; not a globally unique count.",
+    "inherited_geometric_clauses": 2579937,
+    "total_geometric_clause_occurrences": 2672984,
+    "cut_reaudit": "PASS_ALL_93047",
+    "partition_audit": "PASS_256_EXHAUSTIVE_DISJOINT",
+    "certificate_integrity_audit": "PASS_RECONSTRUCTED_FORMULA_HASHES_AND_ORIGINAL_PINNED_DRAT_RECEIPTS",
+    "new_DRAT_replay": false,
+    "certificates": [
+      {
+        "cell": 4,
+        "formula_sha256": "73fcbdfe27b4c6021ce63558a78268d629d046bd11d866737d122ef8e784d839",
+        "proof_sha256": "9c95d68850c7abccf71d6ba7c9584558828c487b861a2614933d75b478191e63",
+        "checker_log_sha256": "4f75ea7f703a227845e1a337affb0092f07fcc45a62e5305ebbcdb3d58ff948e"
+      },
+      {
+        "cell": 5,
+        "formula_sha256": "fd1022a69a524b3237e6ed75c165802366f324bd5eaeb1bcd41f6fb26b25543e",
+        "proof_sha256": "d2fa7b1a20597413df1b38d7ce9e414333fe7daf4a5e1888e30529389538c160",
+        "checker_log_sha256": "cbd425008a94378103bfc4f74a1618e70eeca6901088f484203e6425f04e3bea"
+      },
+      {
+        "cell": 6,
+        "formula_sha256": "69baf54b9b64778781424a75532f99ebcf8acf6c0317182085839b1fff6eeca0",
+        "proof_sha256": "93c8dcbd7e54801d89c3cc6257356118e2eeda29a506c6a435e21b74a2c70db1",
+        "checker_log_sha256": "082f27812ffd2d2e12ae36f7ad170810840c6db5acd5492470a89baf46ffb09d"
+      },
+      {
+        "cell": 8,
+        "formula_sha256": "2af84684797f72fe05d92c8c85137816f7db8290ff77aa43fcbaef30419eff3a",
+        "proof_sha256": "fdf5d8273fcb374957223cece87aaca32c3b890bbf87e3404c8849c455372111",
+        "checker_log_sha256": "d71ace14491582c77f09d3dbac4de7096bd9c00646fb7cde30d9b55ca8984c01"
+      },
+      {
+        "cell": 9,
+        "formula_sha256": "ad9d22ff17c1a7f628ae9395e45f72f31f9f61c41caa70acae389da2a0393e8e",
+        "proof_sha256": "4b1c1bae8a7cad466cebc6cc83dca654adb25b0917fbe58f1da88b2a84ae3913",
+        "checker_log_sha256": "6ba67c976a86aa588653333cd4cee09aea795326600ed6ffcaf1b3780ae60322"
+      },
+      {
+        "cell": 10,
+        "formula_sha256": "8fda51a918dc1e1d658f00d26b89e084c2b4a679e7c8774eca9efa53373c5d7d",
+        "proof_sha256": "926d5533e74d7ebcfaf83a25adb40264297a29eccc512f8de81b9dc0272b725c",
+        "checker_log_sha256": "3356ceb11a10f4acf487a29cfd199944242d4b0b8f871e99d27f2c83f6033f9a"
+      },
+      {
+        "cell": 11,
+        "formula_sha256": "1b713b71cd4cfeae5c9edc53187145163f302952eadb4d998d9c84f1bdadaec9",
+        "proof_sha256": "ee1294c3cf6b979d82364701b7965abaa5d95c3223a443236b6ac86a97b1cee2",
+        "checker_log_sha256": "55bdd112dcff4e0519a00ef27d49b6001e8c41eff36ebc7dddad002105188696"
+      },
+      {
+        "cell": 12,
+        "formula_sha256": "cbf4d691c883254682421a30f2fe3d592aff80f389c430e19bfa169b015bde9f",
+        "proof_sha256": "1e00f67c7b841a015bfa30ec267f16fed49e679edb1fdc50c5289c7003013ec3",
+        "checker_log_sha256": "6deada1e4ba7bf3e67989e48a778f549d14c5744e1f5a71ff02d134e42393914"
+      },
+      {
+        "cell": 13,
+        "formula_sha256": "d50fab4891051e60655701586ed940ab080e365a6b793989f70d00a6f1b60c50",
+        "proof_sha256": "ae13be3aa009fad086dff8334758782a6abb9f650e408ddeaec76fb40fb7275b",
+        "checker_log_sha256": "6cc9dd5241d128560d9b681a04f7b8341a71afa653d9e2f1b37b96d5009ad083"
+      },
+      {
+        "cell": 14,
+        "formula_sha256": "9b5a374003fe5c713b8552796b9ed303dde9a969fc2e8c70e55bcc8e8267628d",
+        "proof_sha256": "50cd3ed97877f66c05b2390775d90bdbb33ce5dcd4a4da151c99b95db1112c15",
+        "checker_log_sha256": "423c4626f588deffd1ae3e8e4f092082ff36641965ad42594abc572c57ccbb67"
+      },
+      {
+        "cell": 16,
+        "formula_sha256": "78646109756617ff0b34de7c685fe27beaa8397f64f627e894896e082fba2fde",
+        "proof_sha256": "5be8f804d1f18806be4721d49b3a48a3a246870333e3578c8d1c8097dc486575",
+        "checker_log_sha256": "122e82e0deb5a60093281aac561aa2d4cd2eb92ab58f79d0321518af030aa4c6"
+      },
+      {
+        "cell": 17,
+        "formula_sha256": "4acf978fdafa245548ac66cf452f4f2eda15ae271f4ce2fd539c8f37572f426a",
+        "proof_sha256": "82676907c4d48d25e35cd26cbbe8b42f487cf5c48188b604bed9f578bd8d6863",
+        "checker_log_sha256": "6de84e4cdf45cc7991e9615680640a5d0c69f74031cec93966841b82e5e31a84"
+      },
+      {
+        "cell": 18,
+        "formula_sha256": "a65324b220ad0bf3fdcef5acc83dca118515105965001bd6da84ba883783ad19",
+        "proof_sha256": "ff0425a7fc812d7b149d23a05b2feac73157592c80c39e24bb6c6706b3a6bd58",
+        "checker_log_sha256": "2432c1b2d41ae556dfd9e111222c183031f2f0628215c7a79c861d3d673cacdd"
+      },
+      {
+        "cell": 19,
+        "formula_sha256": "1713fecb91f5818033d99ed19a26ffd46d610bf144de6236280e5ac8c869d0c9",
+        "proof_sha256": "6dc5734a4d3f6c3da6a7b95c302129e6d7d7133dabe80519379df76a436412b4",
+        "checker_log_sha256": "c5389ef8eebafe9d9380a8a5d072e3a1cc868472a9623f8d65d4e44e775ee7fd"
+      },
+      {
+        "cell": 20,
+        "formula_sha256": "4b8bf04b59f365c8b9584b403eb4fa6297786551fda48f51b28392bc9af73844",
+        "proof_sha256": "26df75eeb1343e62d8bae552fa25814f0e4ef7479fc72099c2d1d5bf03c7c09f",
+        "checker_log_sha256": "0dce97198ab640b380ec80b8e5fd46c788faaeebd0a189764e4347feeeef7c62"
+      },
+      {
+        "cell": 21,
+        "formula_sha256": "10abea0dc183bcc2c1daa85830b866d6e65ea82136bb5bae92e429c3cc0cab5b",
+        "proof_sha256": "dc5cfc665c6428ef7ddcbb6bed4319f5e6f6f3e84ec8bbf228f891c6d0cac3c3",
+        "checker_log_sha256": "d9d7f12afb3a62b3bb3fd55901ec5b1f7e341c56e7641847de827031fd37cd34"
+      }
+    ],
+    "outcomes": {
+      "VISIT_QUANTUM": 6,
+      "RSS_CAPPED": 1,
+      "PROOF_PENDING_UNKNOWN": 79,
+      "INDEPENDENT_DRAT_VERIFIED": 16,
+      "NOT_RUN": 154
+    },
+    "peak_observed_aggregate_rss_kib": 1118420,
+    "memory_cap_note": "1GiB sampled aggregate RSS visit cap; observed sampling overshoot checkpointed/requeued.",
+    "all_recorded_workers_stopped": true,
+    "native_cdcl_state_saved": false,
+    "thermal": "UNAVAILABLE",
+    "mathematical_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": null,
+    "certified_strata": [],
+    "exact_new_graph_exclusions": "NOT_ESTABLISHED",
+    "baseline_vs_learned_closure_benefit": "NOT_SEPARATELY_MEASURED",
+    "range": {
+      "lower": 9,
+      "upper": 12
+    },
+    "S11_m155_156": "UNKNOWN",
+    "S11_m154_regular": "SOURCE_STATED_NOT_PROGRAMME_DECIDED",
+    "S10": "NOT_RUN",
+    "S9": "NOT_RUN",
+    "S8": "NOT_RUN",
+    "next_session": "S035_FUTURE_UNEXECUTED_WINDOWS_MULTIPLE_WORKERS",
+    "runtime_files": 1510,
+    "runtime_original_bytes": 11225675405,
+    "raw_DRAT_bytes": 11200738114,
+    "lossless_archive_bytes": 17733296,
+    "lossless_archive_verification": "PASS_ALL_ORIGINAL_FILE_HASHES",
+    "portable_restore_test": "PASS_ALL_ORIGINAL_BYTES_VERIFIED_1415_METADATA_FILES_RESTORED"
+  },
+  "s035_owner_pause": {
+    "status": "PAUSED",
+    "proof_closed_regions": 247,
+    "unresolved_ids": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127,
+      255
+    ],
+    "ram_regions": [
+      0,
+      7,
+      127,
+      255
+    ],
+    "cold_regions": [
+      1,
+      3,
+      15,
+      31,
+      63
+    ],
+    "SAT_audit": "NO_SCIENTIFIC_SAT_OR_CANDIDATE_FOUND",
+    "durable_CDCL_snapshot": false,
+    "heartbeat": "PAUSED",
+    "recovery": "validation/S035/pause/RUNTIME_INVENTORY.json"
+  },
+  "s035_resumption": {
+    "owner_authorized": true,
+    "status": "PAUSED_THREAD_IDENTITY_GATE",
+    "entry_main": "3118649b248b9045d48b408074b2dc77901b7d2c",
+    "source_publication": "c4ff03f2b60a466e16227d57eb41928653417e0f",
+    "full_restore": "PASS",
+    "same_process_120s_pilot": "PASS",
+    "sustained_600s_started": false,
+    "next_checkin": "2026-10-23T07:30:00+01:00",
+    "thread_origin": "UNKNOWN_ADDITIONAL_THREADS_REQUIRE_REVIEW",
+    "no_force_termination": true,
+    "mathematical_verdict": "UNKNOWN",
+    "no_S036": true,
+    "no_new_native_solver_processes": true
+  },
+  "s035_thread_repair": {
+    "status": "SUSTAINED_RUNNING_CONFIRMED_AFTER_40S_VALIDATION",
+    "helper_policy": "QUARANTINED_NEVER_RESUME",
+    "no_new_workers": true,
+    "no_S036": true,
+    "controller": {
+      "pid": 9880,
+      "start_ticks": "1792740361.8891678"
+    },
+    "watcher": {
+      "pid": 3292,
+      "start_ticks": "1792740358.6699057"
+    },
+    "evidence": "validation/S035/thread-repair/live/SUSTAINED_OBSERVATION.json",
+    "source_commit": "12d8694f1d54a4128eed197af4eaebfbc95c2775"
+  },
+  "s035_completed_runtime": {
+    "id": "S035",
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "authority": "D047/D074 owner invocation2026-10-22; power/wifi/no-sleep confirmed",
+    "entry_main": "4eac1237723134f1d1924938f476a06287aab919",
+    "entry_tree": "8d2f866cd9536552532ddb7099e4d6642fd08bba",
+    "runtime_directory": "artifacts/tmp/S035/campaign",
+    "no_automatic_S036": true,
+    "whole_stratum_certified": false,
+    "witness_established": false,
+    "workers": 2,
+    "runtime_status_authority": "artifacts/tmp/S035/campaign/RESUME_CONTROL/ADOPTION.json",
+    "running_handoff": "sessions/S035/RESUMED_RUNNING.md",
+    "deadline": null,
+    "execution_revision": "S035_RESIDENT_V2",
+    "controller_entry": "scripts/s035_preserved_campaign.py",
+    "private_cdcl_policy": "Retained in RAM per region between scheduled turns; semantic-only recovery after process loss",
+    "diagnostic": "Optional congruence simplification disabled after measured comparison",
+    "maintenance": false,
+    "processes_exited": false,
+    "all_processes_suspended": true,
+    "owner_resume_required": true,
+    "resumption_authorized": false,
+    "controller_revision": "S035_ORIGINAL_THREADS_HELPERS_QUARANTINED",
+    "controller_alive": false,
+    "watcher_alive": false
+  },
+  "s035_science": {
+    "proof_closed_regions": 247,
+    "unresolved_ids": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127,
+      255
+    ],
+    "verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": null,
+    "bounds": [
+      9,
+      12
+    ],
+    "audit": "validation/S035/closeout/AUDIT.json"
+  },
+  "s035_closeout": {
+    "status": "COMPLETED_OWNER_STOP_UNKNOWN",
+    "cause": "WATCHER_FAILURE_PERMISSIONERROR_ADOPTION_READ",
+    "heartbeat": "DISABLED_AT_CLOSEOUT",
+    "private_cdcl_serialized": false,
+    "S036_executed": false
+  },
+  "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
+  "next_session_status": "S045_IN_PROGRESS_OWNER_CONTINUE_50_VERTICES",
+  "current_computation": "RUNNING",
+  "s036_closeout": {
+    "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
+    "date": "2026-10-24",
+    "computation": "STOPPED",
+    "stop_record": "validation/S036/closeout/STOP_RECORD.json",
+    "sat_final_audit": "validation/S036/closeout/SAT_FINAL_AUDIT.json",
+    "cuts_audit": "validation/S036/closeout/CUTS_AUDIT.json",
+    "regions_final": "validation/S036/closeout/REGIONS_FINAL.json",
+    "preservation_manifest": "validation/S036/closeout/PRESERVATION_MANIFEST.json",
+    "runtime_root": "artifacts/tmp/S036 (git-ignored, preserved in place)",
+    "scheduled_tasks": "earth-moon-s036-checkin DISABLED; session relay deleted",
+    "autopilot": "stopped (owner pause marker written first)",
+    "private_cdcl_retained": false,
+    "witness_established": false,
+    "whole_stratum_certified": false,
+    "S037_installed": false
+  },
+  "s037_queued": {
+    "status": "EXECUTED_CLOSED_S037",
+    "installed_date": "2026-10-24",
+    "executor": "Codex",
+    "objective": "Symmetry-prefix proof, triangulation-first construction, bounded solver re-formulation",
+    "prompt": "sessions/S036/S037_FUTURE_PROMPT.md",
+    "archival_copy": "sessions/S036/S037_FUTURE_PROMPT.md",
+    "s036_restart_authorized": false
+  },
+  "s037_result": {
+    "status": "CLOSED_BOUNDED_DISCOVERY_NO_WITNESS",
+    "date": "2026-10-24",
+    "entry_main": "8e67c193bd09278872fba69a0106a92ce824a85f",
+    "symmetry_theorem": "ALL_247_CLOSED_PREFIXES_FOLLOW_FROM_SORTING_ALONE",
+    "nine_unknown": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127,
+      255
+    ],
+    "best_violations": {
+      "155": 125,
+      "156": 91
+    },
+    "checked_layer_records": 19,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "experimental_cpu_seconds": 44.625,
+    "nonextension_certificate_cpu_seconds": 15.5625,
+    "total_discovery_and_certificate_cpu_seconds": 60.1875,
+    "compute_cap_cpu_seconds": 7200,
+    "single_flip_neighbors": 43,
+    "single_flip_minimum_neighbor_violations": 93,
+    "fixed_split_nonextension_examples": 2,
+    "subdivision_certificates": 446,
+    "hitting_family_size": 4821,
+    "hitting_relaxations": "77_AND_78_EXPLICIT_NONPLANAR",
+    "whole_stratum_certified": false,
+    "witness": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "fresh_historical_DRAT_replay": false,
+    "next_session": "S038_FUTURE_UNEXECUTED",
+    "all_experimental_processes_finished": true
+  },
+  "s038_queued": {
+    "status": "EXECUTED_CLOSED_S038",
+    "installed_date": "2026-10-24",
+    "prompt": "sessions/S037/S038_FUTURE_PROMPT.md",
+    "archival_copy": "sessions/S037/S038_FUTURE_PROMPT.md",
+    "objective": "Nonextension-aware bounded planar face-patch repair",
+    "s036_restart_authorized": false
+  },
+  "s038_result": {
+    "status": "CLOSED_BOUNDED_PATCH_RESEARCH_NO_WITNESS",
+    "date": "2026-10-24",
+    "entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79",
+    "experimental_cpu_seconds": 101.09375,
+    "initial_neighborhood_cpu": 0.578125,
+    "paired_arms_cpu": 76.28125,
+    "coupled_neighborhood_cpu": 0.40625,
+    "coupled_arms_cpu": 21.234375,
+    "radius4_cpu": 2.59375,
+    "compute_cap_cpu_seconds": 7200,
+    "best_violations": {
+      "155": 123,
+      "156": 91
+    },
+    "checked_layer_records": 22,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "best123_has_checked_8_coloring": true,
+    "finite_family_records": 28039,
+    "family_overlap": true,
+    "original_state_strict_improvements": 0,
+    "one_layer_supports": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "joint_splits": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "independent_replay": "BRUTE_REMOVED_EDGE_AND_NONCROSSING_CHORD_SUBSETS",
+    "heuristic_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_experimental_processes_finished": true,
+    "next_session": "S039_FUTURE_UNEXECUTED"
+  },
+  "s039_queued": {
+    "status": "EXECUTED_CLOSED_S039",
+    "installed_date": "2026-10-24",
+    "prompt": "sessions/S038/S039_FUTURE_PROMPT.md",
+    "archival_copy": "sessions/S038/S039_FUTURE_PROMPT.md",
+    "objective": "Interior-vertex relocation and certified nine-chromatic seed audit",
+    "s036_restart_authorized": false
+  },
+  "s039_result": {
+    "status": "CLOSED_BOUNDED_STAR_RESEARCH_NO_WITNESS",
+    "date": "2026-10-24",
+    "entry_main": "af422b1bf68402f4eb072c82c9012cecc57d4202",
+    "experimental_cpu_seconds": 79.71875,
+    "neighborhood_cpu_seconds": 0.1875,
+    "paired_arms_cpu_seconds": 44.953125,
+    "protected_generation_search_cpu_seconds": 34.578125,
+    "classification_cpu_seconds": 1.0,
+    "compute_cap_cpu_seconds": 7200,
+    "exact_neighborhoods": {
+      "156": {
+        "neighbors": 766,
+        "minimum": 83,
+        "strict_improvements": 4
+      },
+      "155": {
+        "neighbors": 1045,
+        "minimum": 116,
+        "strict_improvements": 5
+      }
+    },
+    "best_violations": {
+      "156": 82,
+      "155": 79
+    },
+    "best155_alpha_exact": 4,
+    "protected_best_violations": {
+      "156": 193,
+      "155": 210
+    },
+    "protected_saved_chromatic_exact": 9,
+    "pure_coning_chromatic_exact": 9,
+    "checked_layer_records": 22,
+    "replayed_transitions": 762,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "heuristic_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_experimental_processes_finished": true,
+    "next_session": "S040_FUTURE_UNEXECUTED"
+  },
+  "s040_queued": {
+    "status": "EXECUTED_CLOSED_S040_PIVOT",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S039/S040_FUTURE_PROMPT_OWNER_REVISION.md",
+    "objective": "Four-set diagnosis and coordinated two-layer star relocation from best79/82; explicit solid-progress-or-pivot gate",
+    "s036_restart_authorized": false,
+    "original_archival_copy": "sessions/S039/S040_FUTURE_PROMPT.md",
+    "owner_progress_gate": "D077",
+    "no_solid_progress_successor": "S041 comparative audit of at least two genuinely different construction routes; park repeated star/patch search"
+  },
+  "s040_result": {
+    "status": "CLOSED_D077_PIVOT_NO_SOLID_PROGRESS",
+    "date": "2026-10-24",
+    "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+    "d077_decision": "PIVOT",
+    "gate": {
+      "A_witness": false,
+      "B1_halving_all_coord_arms": false,
+      "C_protected_source": false,
+      "thresholds": {
+        "156": 41,
+        "155": 39,
+        "protected": 39
+      },
+      "registration": "validation/S040/REGISTRATION.json"
+    },
+    "experimental_cpu_seconds": 315.15625,
+    "posthoc_cpu_seconds": 31.90625,
+    "total_counted_cpu_seconds": 347.0625,
+    "compute_cap_cpu_seconds": 7200,
+    "exact_coordinated_neighborhoods": {
+      "156": {
+        "start": 82,
+        "scored_states": 216582,
+        "strict_improvements": 0,
+        "minima": {
+          "single": 82,
+          "type0": 89,
+          "type1": 90,
+          "type2": 96
+        }
+      },
+      "155": {
+        "start": 79,
+        "scored_states": 119281,
+        "strict_improvements": 0,
+        "minima": {
+          "single": 80,
+          "type0": 83,
+          "type1": 88,
+          "type2": 79
+        }
+      }
+    },
+    "arm_bests": {
+      "156-4000-star": 82,
+      "156-4000-pair0": 82,
+      "156-4000-coord": 82,
+      "156-4001-star": 82,
+      "156-4001-pair0": 82,
+      "156-4001-coord": 82,
+      "155-4000-star": 79,
+      "155-4000-pair0": 79,
+      "155-4000-coord": 79,
+      "155-4001-star": 79,
+      "155-4001-pair0": 79,
+      "155-4001-coord": 79,
+      "protected-4010-star": 193,
+      "protected-4010-coord": 192,
+      "protected-4011-star": 193,
+      "protected-4011-coord": 193
+    },
+    "tau_exact": {
+      "156": 5,
+      "155": 7
+    },
+    "tau_k9_safe_exact": {
+      "156": 17,
+      "155": 11
+    },
+    "occupancy_blocked_useful_pairs": {
+      "156": 2,
+      "155": 5
+    },
+    "alpha3_repairs_contain_K10": true,
+    "checked_saved_records": 24,
+    "replayed_transitions": 482,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "witness": false,
+    "heuristic_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_experimental_processes_finished": true,
+    "parked": "star/patch/coordinated four-set hill-climbing",
+    "next_session": "S041_FUTURE_UNEXECUTED"
+  },
+  "s041_queued": {
+    "status": "EXECUTED_CLOSED_S041",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S040/S041_FUTURE_PROMPT.md",
+    "objective": "D077 PIVOT: comparative audit of at least two genuinely different chi>=10 construction routes (symmetry-first, graph-first exact split, non-alpha compositions); S042 prompt with its own progress gate",
+    "parked": "star/patch/coordinated four-set hill-climbing",
+    "s036_restart_authorized": false
+  },
+  "s041_result": {
+    "status": "CLOSED_COMPARATIVE_ROUTE_AUDIT",
+    "date": "2026-10-24",
+    "entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
+    "ranking": [
+      "R3 non-alpha joins/apex",
+      "R1 symmetry-first",
+      "R2 graph-first exact split",
+      "R4 S11 cells (parked)"
+    ],
+    "probe_cpu_seconds": {
+      "p1_p2": 9.25,
+      "p3": 640.4757328033447,
+      "p3b_p4_anneal": 270.12,
+      "p3b_p4_cegar": 0.6,
+      "total": 920.4457328033448
+    },
+    "compute_cap_cpu_seconds": 1800,
+    "order13_class": {
+      "candidate_layers": 50600,
+      "planar_layers": 156,
+      "valid_pairs": 3510,
+      "alpha3_pairs": 0,
+      "min_independent_four_sets": 767
+    },
+    "layer_preserving_odd_prime_orders_at_28": [
+      3,
+      13
+    ],
+    "counting_surviving_chi10_joins": [
+      "K1vH9 omega<=7",
+      "K2vH8 omega<=6",
+      "K3vH7 omega<=5 h<=16"
+    ],
+    "mycielski_biplanar": false,
+    "nonbiplanar_apex_leaf_graphs": [
+      "K5_join_bipyramid",
+      "leaf_K4e_join_hajosK6K6",
+      "leaf_K3e_join_hajosK7K7"
+    ],
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_processes_finished": true,
+    "next_session": "S042_FUTURE_UNEXECUTED"
+  },
+  "s042_queued": {
+    "status": "EXECUTED_CLOSED_S042_PIVOT",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S041/S042_FUTURE_PROMPT.md",
+    "objective": "R3: exact certified apex-leaf census for K1vH9, K2vH8, K3vH7 joins with a D077-style progress gate",
+    "fallback_on_pivot": "R1 exact layer-preserving Z3 class at order28 or a fresh audit",
+    "s036_restart_authorized": false
+  },
+  "s042_result": {
+    "status": "CLOSED_APEX_LEAF_CENSUS_PIVOT",
+    "date": "2026-10-24",
+    "entry_main": "ef06ec59a6f545e146b00f18101c3da03da545c5",
+    "gate_decision": "PIVOT",
+    "gate": {
+      "A_witness": false,
+      "B_live_leaf": false
+    },
+    "census_types": 45,
+    "resolved_types": 15,
+    "unresolved_types": 30,
+    "considered_leaf_choices": 23514,
+    "leaf_graphs": 97,
+    "nonbiplanar_drat_verified": 97,
+    "ore_counts": {
+      "6-6": 1,
+      "6-11": 2,
+      "7-7": 1,
+      "7-13": 3,
+      "9-9": 1,
+      "9-17": 4,
+      "9-18": 0,
+      "9-19": 0,
+      "9-20": 0,
+      "9-21": 0,
+      "8-8": 1,
+      "8-15": 3,
+      "8-16": 0,
+      "8-17": 0,
+      "8-18": 0,
+      "8-19": 0,
+      "8-20": 0,
+      "7-14": 0,
+      "7-15": 0,
+      "7-16": 0,
+      "7-19": 91,
+      "8-21": 0
+    },
+    "experimental_cpu_seconds": 2671.4050147533417,
+    "compute_cap_cpu_seconds": 3600,
+    "archive_policy": "edges and DRAT committed; CNF/lemmas local, deterministic, SHA-256 pinned",
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_processes_finished": true,
+    "next_session": "S043_FUTURE_UNEXECUTED"
+  },
+  "s043_queued": {
+    "status": "EXECUTED_CLOSED_S043_PIVOT",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S042/S043_FUTURE_PROMPT.md",
+    "objective": "R1: exact decision of 156-edge order28 biplanar pairs with a layer-preserving order-3 automorphism, D077-style gate; PIVOT leads to an owner-decision audit",
+    "s036_restart_authorized": false
+  },
+  "s043_result": {
+    "status": "CLOSED_Z3_BOUNDED_UNKNOWN_PIVOT",
+    "date": "2026-10-24",
+    "entry_main": "7f01c8b57177af18b73d7e455469f04104ceb060",
+    "gate_decision": "PIVOT",
+    "gate": {
+      "A_witness": false,
+      "B_pair_at_most_40": false
+    },
+    "verdict": "UNKNOWN",
+    "reason": "CAP",
+    "models": 10000,
+    "checked_subdivision_cuts": 20000,
+    "planar_layers_seen": 0,
+    "experimental_cpu_seconds": 1026.703125,
+    "experimental_wall_seconds": 1028.6719999999914,
+    "compute_cap_cpu_seconds": 2400,
+    "owner_ceiling_cpu_seconds": 7200,
+    "whole_slice_certified": false,
+    "clauses_independently_rejustified": true,
+    "replay_cpu_seconds": 1.125,
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_processes_finished": true,
+    "next_session": "S044_FUTURE_UNEXECUTED"
+  },
+  "s044_queued": {
+    "status": "EXECUTED_CLOSED_S044",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S043/S044_FUTURE_PROMPT.md",
+    "objective": "Short owner-decision audit of S037\u2013S043; recommend CONTINUE, PAUSE or CHANGE_TARGET; no new slice or search",
+    "s036_restart_authorized": false
+  },
+  "s044_result": {
+    "status": "CLOSED_DECISION_AUDIT_RECOMMEND_PAUSE",
+    "recommendation": "PAUSE",
+    "owner_decision": "PENDING",
+    "date": "2026-10-24",
+    "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+    "new_search_experiments": 0,
+    "verification_job_cpu_seconds": 83.5,
+    "verification_accounted_seconds": 85.096875,
+    "verification_cpu_cap": 600,
+    "frozen_replays": "PASS",
+    "fresh_smoke": "PASS",
+    "fresh_97_proof_drat_replay": false,
+    "scope_correction": "ARBITRARY_ONE_TESTED_LEAF_IMPLICATION_UNPROVED; ALL_TESTED_LEAVES_SUFFICIENT",
+    "witness": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "S11": "UNKNOWN",
+    "order3": "UNKNOWN",
+    "S036_restarted": false,
+    "computation": "STOPPED",
+    "next_session": "S045_FUTURE_UNEXECUTED"
+  },
+  "s045_queued": {
+    "status": "INVOKED_OWNER_OVERRIDE",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S044/S045_FUTURE_PROMPT.md",
+    "objective": "Prepare and test native 50-vertex colouring-feedback solver, benchmark, then sustained search",
+    "s036_restart_authorized": false
+  },
+  "active_session": {
+    "id": "S045",
+    "status": "RUNNING",
+    "stage": "SUSTAINED_SEARCH_WATCHDOG_REPAIRED",
+    "no_automatic_S046": true,
+    "s036_restart_authorized": false,
+    "owner_override": "sessions/S045/INPUT.md",
+    "campaign": "CAM-0049",
+    "runtime_root": "artifacts/tmp/S045/campaign",
+    "runtime_authority": "artifacts/tmp/S045/campaign/CAMPAIGN.json",
+    "running_handoff": "sessions/S045/RUNNING.md",
+    "entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+    "witness_established": false,
+    "whole_stratum_certified": false,
+    "private_cdcl_serialized": false
+  },
+  "owner_decision_after_s044": {
+    "decision": "CONTINUE",
+    "vertices": 50,
+    "authority": "sessions/S045/INPUT.md",
+    "date": "2026-10-24"
+  },
+  "s045_preparation": {
+    "status": "STREAMING_ACCEPTED_AND_RESUMED",
+    "smoke": "PASS",
+    "native_controls": "PASS",
+    "benchmark": "PASS",
+    "selected": "partition-positive",
+    "production_wall_ceiling_seconds": null,
+    "runtime_guard": "scripts/s045_runtime.py",
+    "S036_restarted": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "initial_slice_candidates": 38042,
+    "initial_slice_geometric_rules": 111073,
+    "original_ceiling_preserved": false,
+    "ceiling_superseded_by": "OWNER_DEADLINE_2026-10-25T07:30:00Z"
+  },
+  "s045_watchdog_repair": {
+    "status": "ACCEPTED_RESTARTED",
+    "authority": "sessions/S045/WATCHDOG_REPAIR.md",
+    "deadline_utc": "2026-10-25T07:30:00Z",
+    "deadline_epoch": 1792913400,
+    "two_hour_heartbeat": "earth-moon-s045-two-hour-check-in",
+    "old_context_private_state": "LOST_AFTER_COOPERATIVE_STOP",
+    "saved_candidate_records": 272374,
+    "saved_geometric_rule_occurrences": 900798,
+    "acceptance": "validation/S045/watchdog_repair/ACCEPTANCE.json",
+    "seed_candidates": 275961,
+    "seed_geometric_rules": 924323,
+    "checkin_status": "ACTIVE"
+  }
+}

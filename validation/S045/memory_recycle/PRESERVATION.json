@@ -1,0 +1,18 @@
+{
+ "status": "PASS",
+ "candidates": 453656,
+ "geometric_rules": 1570940,
+ "geometric_raw_bytes": 254079074,
+ "geometric_raw_sha256": "e69e050dc0c64ca94ef6d3f59fe8179cb7f027d30909b42eb6cb288a5a18d66e",
+ "source_sha256": {
+  "artifacts\\tmp\\S045\\campaign\\CANDIDATES.jsonl.gz": "5f1d0565c3e0c814a60c6547a1140e8e5006a0bb74c780df26714dd12efea2f6",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000000.jsonl.gz": "8986bc8f917944005e4a75a5533e4e4ba4c93dd6e96e4160517900a7cb37caf6",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000001.jsonl.gz": "ec86d898cc3a764edf33c25c5ba596893a4b8e604ac966d354bd564a81356a37",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000002.jsonl.gz": "acd56522cfe6c5a317446802f5ceaa3603ea1968eac9106278e23caffe3cc8d7",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000003.jsonl.gz": "51f07c191ccf4d0f0768c04657dd4221a419f3240b1e8b8040991fad5ccb70b9",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000004.jsonl.gz": "c8f77a310f8bff3af324810c6d77458002cc3c7f082f3c127d48f824fd441e95",
+  "artifacts\\tmp\\S045\\campaign\\journals\\000005.jsonl.gz": "7deb30501ad161f780668084ca2a65bbc77616d1ef7671171b4aa52610bfde64"
+ },
+ "all_old_identities_exited": true,
+ "private_cdcl_serialized": false
+}

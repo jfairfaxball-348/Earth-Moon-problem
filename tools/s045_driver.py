@@ -20,13 +20,13 @@ CORE=['tools/s045_search.py','tools/s045_driver.py','tools/s045_policy.py',
 
 def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
               records_path=None,fixed=None,absolute_deadline=None,records_sources=None,
-              startup_ceiling=900,response_grace=15):
+              startup_ceiling=900,response_grace=15,soft_private_bytes=None):
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
     records_path=Path(records_path or out/'CANDIDATES.jsonl')
     status_path=Path(status_path or out/'STATUS.json')
     started=time.monotonic();count=None;old=0;last=started
     until=None if absolute_deadline is None else started+max(0,absolute_deadline-time.time())
-    stage='CHECKPOINT_COUNT';p=None;ready=None;guard=None;error=None;ending=None;stats=''
+    stage='CHECKPOINT_COUNT';p=None;ready=None;guard=None;error=None;ending=None;stats='';peak_private=0
     base=dict(n=n,k=k,mode=mode,positive_phases=positive,controller=common.identity(psutil.Process()),
               started_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),
               scientific_verdict='UNKNOWN',witness=False,domain_excluded=False,
@@ -36,7 +36,8 @@ def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
         common.atomic(status_path,dict(base,state=state,stage=stage,
             elapsed_seconds=time.monotonic()-started,
             solve_elapsed_seconds=None if ready is None else time.monotonic()-ready,
-            candidates=count,new_candidates=None if count is None else count-old,**extra))
+            candidates=count,new_candidates=None if count is None else count-old,
+            soft_private_bytes=soft_private_bytes,peak_private_bytes=peak_private,**extra))
 
     def cancellation():
         why=deadline_reason(absolute_deadline,time.time(),until,time.monotonic())
@@ -69,7 +70,9 @@ def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
 
     base['input_sha256']=common.sha(out/'BASE.inst')
     log=(out/'NATIVE.log').open('a',encoding='utf-8',buffering=1)
-    command=[str(common.EXE),str(out/'BASE.inst'),str(lemmas),str(seconds),str(out/'STOP'),str(int(positive)),mode]
+    native_stop=out/'SLICE_STOP'
+    native_stop.unlink(missing_ok=True)  # preceding exact child has exited
+    command=[str(common.EXE),str(out/'BASE.inst'),str(lemmas),str(seconds),str(native_stop),str(int(positive)),mode]
     spawned=time.monotonic()
     p=subprocess.Popen(command,cwd=common.ROOT,env=common.env(),stdin=subprocess.PIPE,
                        stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1)
@@ -87,10 +90,17 @@ def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
             why=cancellation()
             if not why:why=common.reason()
             if not why:why=slice_timeout(time.monotonic(),spawned,ready,seconds,startup_ceiling,response_grace)
-            if why and guard is None:
+            if why and guard in (None,'MEMORY_RECYCLE'):
                 guard=latch_stop(out,why,stage=stage);ending=time.monotonic()
+                native_stop.touch()
                 try:send('STOP')
                 except (OSError,BrokenPipeError):pass
+            if ready is not None and soft_private_bytes is not None:
+                used=common.private_bytes();peak_private=max(peak_private,used)
+                if guard is None and used>=soft_private_bytes:
+                    guard='MEMORY_RECYCLE';ending=time.monotonic();native_stop.touch()
+                    try:send('STOP')
+                    except (OSError,BrokenPipeError):pass
             grace=2 if guard=='OWNER_DEADLINE_0730' else 30
             if ending and time.monotonic()-ending>grace:
                 error='COOPERATIVE_STOP_FAILED:'+str(guard);p.terminate();break
@@ -136,6 +146,8 @@ def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
             if time.monotonic()-last>=5:
                 save('PREPARING' if ready is None else 'RUNNING',native_progress=stats);last=time.monotonic()
         p.wait(timeout=30)
+        if p.returncode==20:
+            guard=latch_stop(out,'NATIVE_UNSAT_UNCERTIFIED',stage=stage)
     except BaseException as e:
         error=repr(e);guard=latch_stop(out,'CONTROLLER_ERROR',error=error,stage=stage)
         try:send('STOP')
@@ -150,7 +162,9 @@ def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,
         check_cancel();cuts=geometric_journal(lemmas,n,check_cancel)
     except CampaignStop as e:
         if guard is None:guard=str(e)
-    state='ERROR' if error or p.returncode not in (0,20) else 'STOPPED' if guard else 'SLICE_COMPLETE'
+    if guard=='MEMORY_RECYCLE' and count==old:
+        guard=latch_stop(out,'CHECKPOINT_MEMORY_NO_PROGRESS',stage=stage)
+    state='ERROR' if error or p.returncode not in (0,20) else 'STOPPED' if guard and guard!='MEMORY_RECYCLE' else 'SLICE_COMPLETE'
     save(state,reason=guard or 'NATIVE_TIMEOUT',native_returncode=p.returncode,error=error,
          verified_geometric_cuts=cuts,audit_pending=cuts is None,native_progress=stats,
          candidate_journal_sha256=common.sha(records_path) if records_path.exists() else None)

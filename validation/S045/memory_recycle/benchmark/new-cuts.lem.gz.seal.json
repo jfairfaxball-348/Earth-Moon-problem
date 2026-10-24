@@ -1,0 +1,8 @@
+{
+ "raw_sha256": "1f5954f787b4cf3bea3825cf90cb2df071227292c9d452209d8c636ee94d3180",
+ "raw_bytes": 3531363,
+ "archive_sha256": "8a002d17fef206b61e078d9515e47b2a5167145712a28b9b8b59451b57f65f20",
+ "archive_bytes": 345646,
+ "archive": "C:\\Earth-Moon-problem\\validation\\S045\\memory_recycle\\benchmark\\new-cuts.lem.gz",
+ "decoded_bytes_verified": true
+}

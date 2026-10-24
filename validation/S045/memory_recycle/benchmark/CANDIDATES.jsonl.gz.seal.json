@@ -1,0 +1,8 @@
+{
+ "raw_sha256": "3905b609eeb383962d6afc6bcef502a8736a2dc242ca550410f39cb0f25c5fd8",
+ "raw_bytes": 41288447,
+ "archive_sha256": "d854d88fc04b2d44c490acd14623585d7fd2aeb38e06eb5837a17fc81870428b",
+ "archive_bytes": 991846,
+ "archive": "C:\\Earth-Moon-problem\\validation\\S045\\memory_recycle\\benchmark\\CANDIDATES.jsonl.gz",
+ "decoded_bytes_verified": true
+}

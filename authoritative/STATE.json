@@ -94,11 +94,11 @@
   "latest_session_entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
   "latest_session_integration": {
     "status": "VERIFY_NONFORCE_PUSH_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+    "entry_main": "673d4a6b38cecf2533f3fc21ae66f09c7908685e",
     "branch": "main",
     "force": false,
-    "authority": "S045 explicit owner preparation and search instruction",
-    "verification": "artifacts/tmp/S045/INTEGRATION.json and hosted run in user report"
+    "authority": "Owner-authorised S045 operational recovery during requested two-hour check-in",
+    "verification": "artifacts/tmp/S045/MEMORY_INTEGRATION.json and hosted run in user report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -2451,7 +2451,7 @@
   "active_session": {
     "id": "S045",
     "status": "RUNNING",
-    "stage": "SUSTAINED_SEARCH_WATCHDOG_REPAIRED",
+    "stage": "SUSTAINED_SEARCH_MEMORY_RECYCLE",
     "no_automatic_S046": true,
     "s036_restart_authorized": false,
     "owner_override": "sessions/S045/INPUT.md",
@@ -2501,5 +2501,19 @@
     "seed_candidates": 275961,
     "seed_geometric_rules": 924323,
     "checkin_status": "ACTIVE"
+  },
+  "s045_memory_recycle": {
+    "status": "ACCEPTED_RESTARTED",
+    "acceptance": "validation/S045/memory_recycle/ACCEPTANCE.json",
+    "deadline_epoch": 1792913400,
+    "soft_private_bytes": 2684354560,
+    "hard_private_bytes": 3221225472,
+    "seed_candidates": 459411,
+    "seed_geometric_rules": 1590816,
+    "old_stop": "PRIVATE_MEMORY_LIMIT",
+    "all_semantic_rules_preserved": true,
+    "checkin_status": "ACTIVE",
+    "witness": false,
+    "unsat_priority_amendment": "PASS_EXPLICIT_NORMAL_PATH_COMPATIBILITY"
   }
 }
