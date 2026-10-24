@@ -1,0 +1,33 @@
+{
+  "status": "REGISTERED_BEFORE_ANY_S041_PROBE",
+  "utc": "2026-10-24T12:40:30Z",
+  "entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
+  "sha256": {
+    "sessions/S041/PLAN.md": "74e7ee093e04038cc93a7cbe60fc66ebc98157638481c81b45d8fa3d72792f3e",
+    "sessions/S041/INPUT.md": "5d8813c11fe853d9f00b83eac868e824f5d1ddcf809cec2ffca57fa1eef8a1bd"
+  },
+  "cpu_cap_seconds": 1800,
+  "note": "Probe scripts assert the PLAN hash before running.",
+  "revision": {
+    "utc": "2026-10-24T12:41:51Z",
+    "previous_plan_sha256": "f64214281647289990c08eba48dfcc20e8e0811947c8557ca5ac503a00ec1173",
+    "plan_sha256": "74e7ee093e04038cc93a7cbe60fc66ebc98157638481c81b45d8fa3d72792f3e",
+    "note": "P1 certification revised before any probe computation: pair lemma plus cheap necessary triangulation tests (T1-T3) as nonplanarity certificates; no result had been observed. Also corrected the orbit count 28 -> 29 (4 N/S + 6 AA + 6 BB + 13 AB)."
+  },
+  "addendum_p3": {
+    "path": "sessions/S041/PLAN_ADDENDUM.md",
+    "sha256": "e4ef1638b2dbf1405d507ac29e4d91df3843bbcf18a917e21d22a6350d0fc4da",
+    "utc": "2026-10-24T12:46:28Z",
+    "note": "Registered after P1/P2 results and before any P3 computation."
+  },
+  "addendum_p3b": {
+    "sha256": "cf59be9bdd12563bc5f2aad1203dd22737fbd4aa544036623d292dbb949153ec",
+    "utc": "2026-10-24T12:58:59Z",
+    "note": "P3b appended after P3 UNKNOWN, before any P3b computation."
+  },
+  "addendum_p4": {
+    "sha256": "ecd1168dd444bda66ef64be116ae0285e761ea3d53d0d981a882f24ef0caef1a",
+    "utc": "2026-10-24T13:03:37Z",
+    "note": "P4 appended after P3b certificate, before any P4 computation."
+  }
+}

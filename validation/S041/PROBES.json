@@ -1,0 +1,7 @@
+{
+  "status": "FINISHED",
+  "p1_cpu_seconds": 9.234375,
+  "p2_cpu_seconds": 0.015625,
+  "total_cpu_seconds": 9.25,
+  "witness_stop": false
+}

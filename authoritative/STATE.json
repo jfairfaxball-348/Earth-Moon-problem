@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-24",
-  "last_completed_session": "S040",
-  "recommended_next_session": "S041",
+  "last_completed_session": "S041",
+  "recommended_next_session": "S042",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S040",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S041",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_REFRESH_S040_NO_NOVELTY_CLAIM",
+  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_REFRESH_S041_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,22 +83,22 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S040 CLOSED with D077 decision PIVOT. All experiments finished; S036 CLEAN_STOPPED. S041 comparative route audit FUTURE/UNEXECUTED, no automatic successor.",
-    "Exact coordinated one-star-per-layer neighborhoods at82/79: 216582/119281 scored states, no strict improvement; matched arms no improvement; protected193->192. Star/patch/coordinated four-set hill-climbing PARKED.",
-    "Diagnostics: tau5/7 exact, occupancy not binding; post-hoc hub pairs complete K9/K10, tau_safe17/11 exact; label-fixed alpha3 repairs contain K10. Diagnostic learning only.",
-    "All saved S040 pairs <=9-colourable; no chi10 witness. Closed through17 Sulanke-core ranges unchanged.",
+    "S041 CLOSED comparative route audit; ranking R3 > R1 > R2 > R4 (parked). S042 apex-leaf census FUTURE/UNEXECUTED, no automatic successor. S036 CLEAN_STOPPED.",
+    "Order-13 layer-symmetric 156-edge order28 pairs completely classified: 3510 pairs, none alpha<=3 (best 767). Layer-preserving odd prime orders at order28 are only 3 and 13.",
+    "Counting: Mycielski-type constructions never biplanar; only K1vH9, K2vH8, K3vH7 joins survive with omega(H)<=8-a. Apex leaf graphs of Sulanke, K3vHajos(K6,K6), K2vHajos(K7,K7) certified non-biplanar (K9-minor lemmas, DRAT).",
+    "Star/patch/coordinated four-set hill-climbing remains PARKED (S040 D077 PIVOT). Counting routes carry the rStation F9 risk (chi_f<=9 conjecture, out of scope to prove).",
     "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+  "latest_session_entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
   "latest_session_integration": {
     "status": "VERIFY_PUSHED_COMMIT_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+    "entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
     "branch": "main",
     "force": false,
-    "authority": "S040 existing-main prompt (D077 revision)",
-    "verification": "artifacts/tmp/S040/INTEGRATION.json and immutable run linked in final report"
+    "authority": "S041 existing-main prompt",
+    "verification": "artifacts/tmp/S041/INTEGRATION.json and immutable run linked in final report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -216,7 +216,11 @@
     "CLM-0133",
     "CLM-0134",
     "CLM-0135",
-    "CLM-0136"
+    "CLM-0136",
+    "CLM-0137",
+    "CLM-0138",
+    "CLM-0139",
+    "CLM-0140"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1944,7 +1948,7 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "S041_QUEUED_FUTURE_UNEXECUTED",
+  "next_session_status": "S042_QUEUED_FUTURE_UNEXECUTED",
   "current_computation": "STOPPED",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
@@ -2240,12 +2244,71 @@
     "next_session": "S041_FUTURE_UNEXECUTED"
   },
   "s041_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "EXECUTED_CLOSED_S041",
     "installed_date": "2026-10-24",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S040/S041_FUTURE_PROMPT.md",
     "objective": "D077 PIVOT: comparative audit of at least two genuinely different chi>=10 construction routes (symmetry-first, graph-first exact split, non-alpha compositions); S042 prompt with its own progress gate",
     "parked": "star/patch/coordinated four-set hill-climbing",
+    "s036_restart_authorized": false
+  },
+  "s041_result": {
+    "status": "CLOSED_COMPARATIVE_ROUTE_AUDIT",
+    "date": "2026-10-24",
+    "entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
+    "ranking": [
+      "R3 non-alpha joins/apex",
+      "R1 symmetry-first",
+      "R2 graph-first exact split",
+      "R4 S11 cells (parked)"
+    ],
+    "probe_cpu_seconds": {
+      "p1_p2": 9.25,
+      "p3": 640.4757328033447,
+      "p3b_p4_anneal": 270.12,
+      "p3b_p4_cegar": 0.6,
+      "total": 920.4457328033448
+    },
+    "compute_cap_cpu_seconds": 1800,
+    "order13_class": {
+      "candidate_layers": 50600,
+      "planar_layers": 156,
+      "valid_pairs": 3510,
+      "alpha3_pairs": 0,
+      "min_independent_four_sets": 767
+    },
+    "layer_preserving_odd_prime_orders_at_28": [
+      3,
+      13
+    ],
+    "counting_surviving_chi10_joins": [
+      "K1vH9 omega<=7",
+      "K2vH8 omega<=6",
+      "K3vH7 omega<=5 h<=16"
+    ],
+    "mycielski_biplanar": false,
+    "nonbiplanar_apex_leaf_graphs": [
+      "K5_join_bipyramid",
+      "leaf_K4e_join_hajosK6K6",
+      "leaf_K3e_join_hajosK7K7"
+    ],
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_processes_finished": true,
+    "next_session": "S042_FUTURE_UNEXECUTED"
+  },
+  "s042_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S041/S042_FUTURE_PROMPT.md",
+    "objective": "R3: exact certified apex-leaf census for K1vH9, K2vH8, K3vH7 joins with a D077-style progress gate",
+    "fallback_on_pivot": "R1 exact layer-preserving Z3 class at order28 or a fresh audit",
     "s036_restart_authorized": false
   }
 }

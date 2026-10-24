@@ -485,3 +485,5 @@ ivanspog (GitHub handle), *earth-moon-alpha2: small-order results on the indepen
 README statements only (pushed2026-10-03; Zenodo DOI as stated there, not resolved): alpha<=2 reductions, odd-cycle inflation cases and non-biplanarity claims of mixed certificate status. Not replayed; alpha<=2 is covered at theorem level by SRC-0037. Context for S041.
 
 S040 refresh24Oct2026: no reported chi>=10 biplanar graph found; SRC0004/0035/0037 grades unchanged; rStation post list not rendered, newer posts not re-read. See sessions/S040/PRIOR_ART.md.
+
+S041 refresh24Oct2026: BGS part one excerpts confirm Hajos plus permuted layers give infinite 9-critical thickness-two families (SRC0002 grade unchanged); part two 17/25/33-vertex graphs not obtained (SRC0003 unchanged); Kostochka-Yancey statements re-seen (SRC0011/0020 unchanged). No reported chi>=10 biplanar graph. See sessions/S041/PRIOR_ART.md.

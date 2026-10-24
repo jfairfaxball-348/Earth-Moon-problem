@@ -1,86 +1,69 @@
-# S041 — Comparative audit of genuinely different chi>=10 construction routes
-FUTURE / UNEXECUTED — queued by the S040 D077 PIVOT, 24 October 2026
+# S042 — Certified apex-leaf census for non-alpha chi>=10 joins (route R3)
+FUTURE / UNEXECUTED — queued by the S041 comparative audit, 24 October 2026
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
 The owner's next invocation or provision of this prompt authorises exactly
-S041 under D047. Do not execute S042 automatically. Use existing main and an
+S042 under D047. Do not execute S043 automatically. Use existing main and an
 ordinary non-force commit/push; no new repository, branch or PR. Never restart
 S036, its old controls or schedulers. No unattended run. Bounds remain
 9<=chi_2<=12; the target is a certified chi>=10 biplanar construction, not a
-universal upper bound or full EMP resolution. Publication/Lean gates remain.
+universal upper bound (F9 and other universal colouring bounds stay out of
+scope, D042) or full EMP resolution. Publication/Lean gates remain.
 
-Read live AGENTS, STATE, D077 and S040 INPUT/PLAN/PLAN_ADDENDUM/RESEARCH/
-ADVERSARIAL/PRIOR_ART/CLOSEOUT. Pin remote main, verify S040's commit/tree and
+Read live AGENTS, STATE, D077 and S041 INPUT/PLAN/PLAN_ADDENDUM/RESEARCH/
+ADVERSARIAL/PRIOR_ART/CLOSEOUT. Pin remote main, verify S041's commit/tree and
 frozen manifest; run check_s037_records.py, check_s038_records.py,
-check_s040_handoff.py (frozen S039 replay), check_s040_adversarial.py and
-check_s040_records.py. Before ANY computation, including a small probe, run a
-fresh full scripts/cloud_smoke.py with pinned native tools. A cloud fallback
-must run scripts/cloud_setup.sh and full smoke in the SAME job and keep
-registered limits. Historical runner receipts: validation/S011/SUMMARY.json
-and docs/CLOUD_ENVIRONMENT.md. Hosted scaffold success is not acceptance.
+check_s040_handoff.py, check_s040_records.py and check_s041_records.py. Run a
+fresh full scripts/cloud_smoke.py with pinned native tools before any
+computation. A cloud fallback must run scripts/cloud_setup.sh and full smoke in
+the SAME job. Historical runner receipts: validation/S011/SUMMARY.json and
+docs/CLOUD_ENVIRONMENT.md. Hosted scaffold success is not acceptance.
 
-Why S041 exists. S040 met none of its registered D077 criteria, so the owner's
-gate requires PIVOT. Exact one-star-per-layer coordinated neighborhoods at the
-best S039 pairs (82/79 independent four-sets at 156/155 edges) have no strict
-improvement among 335,863 exactly scored states; twelve matched unprotected
-arms found none; protected arms moved only 193->192. Registered diagnostics:
-tau=5/7 exactly, and every four-set has a pair addable by a legal single move,
-so opposite-layer occupancy was not the binding obstacle. Post-hoc: ignoring
-planarity, single swaps lower the count by up to 31/19; the hub pairs complete
-K9/K10 clusters (omega 8 -> 10); the K9-safe hitting number is 17/11 and even
-that set jointly forms K9/K10. Minimising four-sets at maximal density drives
-these unions into near-K9 clusters that biplanarity forbids. Therefore star/
-patch/coordinated hill-climbing on the four-set objective is PARKED. Do not run
-more seeds, larger move radii, longer runs, new local move families or
-relabelled restarts of it, and do not count its outputs as new candidates.
+Why R3. S041 ranked the non-alpha join route first: chi(K_a v H)=a+chi(H) is
+certified by construction, so a witness does not need chi_f>9 (rStation F9
+risk). Counting with Kostochka-Yancey leaves only K1vH9, K2vH8 and K3vH7 with
+omega(H)<=8-a; Mycielski constructions never fit. Hajos composites of
+9-critical biplanar graphs are biplanar (BGS), but every composite contains each
+leaf minus one edge. S041 certified, by Lemma-B/C K9-minor CEGAR with pinned
+DRAT, that the apex leaf graphs of Sulanke K6vC5, K3vHajos(K6,K6) and
+K2vHajos(K7,K7) are NOT biplanar, each in under a second. The live question is
+whether ANY admissible leaf survives. Do not resume four-set hill-climbing,
+symmetric OP1(b) search or the S11 cells in this session.
 
-Task: a comparative audit of at least two genuinely different construction
-routes. "Genuinely different" means a different candidate source or decision
-mechanism, not a variant of local planar-pair improvement. For each route give:
-(i) primary sources with honest access grades, refreshing 2026 work;
-(ii) prior closed or failed ranges, in this repository and externally, cited by
-claim/source ID, so that no closed range is reopened;
-(iii) a testable mathematical mechanism for chi>=10 and an explicit account of
-how it avoids the S040 near-K9 barrier (omega<=8 and K9-minor-aware design);
-(iv) a path to independent certification: explicit V,E1,E2, planarity of each
-layer, edge-disjointness, and non-9-colourability by alpha<=3 counting at order
-28 or by a drat-trim-verified proof; feasible colourings never certify;
-(v) cost, failure modes and one falsifiable first experiment with stop rules.
+Task: an exact, certified census of apex leaves. A leaf for K_avH is a
+(10-a)-critical graph L with an edge e (or, for a>=2, a registered small edge
+set) such that omega(L-e)<=7-(a-1), the apex budget holds, and K_av(L-e) is
+biplanar. Register before computing: (1) the candidate list and its
+provenance: complete graphs, odd cycles, k-Ore/Hajos graphs of cliques, Gallai
+joins of these on <=16 vertices, and published 9-critical biplanar graphs
+(Boutin-Gethner-Sulanke SRC-0002/0003, including the 17/25/33-vertex ones if
+their data can be obtained; record access grades); state exactly what is and is
+not complete; (2) the deduplication by isomorphism; (3) the decision engine:
+tools/s025_minor_cegar.py --lemmaC 5 for negatives (pinned DRAT plus
+tools/s025_check_minor_cert.py), tools/s025_cover_anneal.py for positives
+(independently checked layers and rotations), per-graph caps; caps are UNKNOWN.
+Re-derive the S041 counting filters in code before use. Audit closed ranges
+(CLM0072-0076, CLM0137-0140) so nothing closed is recomputed as new.
 
-Routes to examine (substitute only with a written justification):
-R1 Symmetry-first: impose a group action on V and on both layers (cyclic or
-dihedral, with/without fixed points) and decide orbit-level alpha and
-biplanarity exactly. Prior: C7[K4] has thickness3 (S002, SRC-0037); fixed-
-point-free Z7 order28 reportedly only C7[K4] (SRC-0048, not DRAT-certified);
-S037 symmetry/permutation records.
-R2 Graph-first, split-later: generate chi>=10-forcing graphs with omega<=8 and
-K9-minor filters, then decide biplanarity exactly per graph (S025 Lemma-C
-K9-minor CEGAR and flip-annealing positives, SRC-0055 propagator). Prior: the
-original271 corpus is entirely non-biplanar (S025); C5 blow-up classes (S026-
-S028); OP1(b) S11 m155/156 with nine sorted prefixes UNKNOWN (S030-S036, S037);
-alpha<=2 closed by SRC-0037; stated small-order ranges SRC-0062/0063.
-R3 Non-alpha structure: chi>=10 with alpha>=4 via compositions of 9-critical
-biplanar graphs (Hajos/Ore/Dirac-type joins, generalized cores), checked against
-critical-graph edge bounds (SRC-0011, SRC-0027), density 6n-12, Gallai
-decomposition for small orders, the 9-critical catalogue (SRC-0002/0003) and
-closed Sulanke-core ranges through order17 (CLM0072..0076).
-R4 Optional: a genuinely different exact encoding for the nine UNKNOWN S11
-prefixes, only if it is not a resumed S036 grind and has a bounded test.
+Solid-progress gate (D077 style; fix it before any census output, never lower
+it): PROGRESS iff (A) a certified chi>=10 biplanar witness (explicit V,E1,E2,
+checked planar layers, edge-disjointness, and chi>=10 by a written Hajos/join
+argument plus, where feasible, verified DRAT non-9-colourability), or (B) a
+live leaf: K_av(L-e) certified biplanar by explicit checked layers with omega
+<=8, L independently re-verified (10-a)-critical, apex slack >=1 (so two copies
+can absorb a Hajos junction), reproduced from the archived data by a separate
+checker, plus a written account of how it evades Lemma B/C. Anything else,
+including UNKNOWN caps or more negative leaves, is PIVOT: record the certified
+census closure, park R3 apex search, and queue S043 to the next S041-ranked
+route (R1: exact layer-preserving Z3 class at order28) or a fresh audit.
+If (B) holds, build at least one composite K_av Hajos(L1,L2) from live leaves
+and decide it exactly within the caps.
 
-Deliverable: a registered comparison matrix with evidence and access grades;
-optional small registered feasibility probes (one process, <=1800 cumulative
-CPU s, fresh smoke first, no star/patch/coordinated hill-climbing); a ranked
-recommendation; and a complete S042 prompt that carries its own pre-registered
-solid-progress gate in the D077 style. An honest conclusion that no route yet
-merits heavy computation is acceptable. Distinguish SOURCE_STATED from checked;
-no novelty guarantee; no publication or external contact.
-
-Saved graphs from probes, if any: explicit V,E1,E2, rotations, independent
-simplicity/disjointness/planarity, all20475 four-sets at order28, proper
-colourings, seeds and hashes. Bare UNSAT, caps and timeouts certify nothing.
-
+One experiment process, <=3600 cumulative CPU s, short per-graph caps, explicit
+stop criteria. Saved graphs: explicit edges, hashes, layers/rotations or
+certificates. Refresh result-specific primary sources; no novelty claim.
 Close with measured results/limitations, synced catalogues/state/ledgers,
 independent portable checks, normal commit/push and actual hosted job results.
-Install identical full S042 FUTURE/UNEXECUTED prompts in authoritative/ and
-sessions/S041/, print the full next prompt with verified links, and stop.
+Install identical full S043 FUTURE/UNEXECUTED prompts in authoritative/ and
+sessions/S042/, print the full next prompt with verified links, and stop.

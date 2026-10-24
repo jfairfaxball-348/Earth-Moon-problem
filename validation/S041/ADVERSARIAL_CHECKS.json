@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rejected": [
+    "T1_on_degree_ge3",
+    "T2_on_edge_in_two_triangles",
+    "T3_degree_on_planar_link",
+    "T3_connected_full_link",
+    "kuratowski_foreign_edge",
+    "kuratowski_wrong_kind",
+    "kuratowski_on_planar_layer",
+    "unknown_test",
+    "corrupted_rotation"
+  ]
+}

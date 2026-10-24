@@ -887,3 +887,27 @@ S040 matched arms (12 unprotected, 4 protected; caps150 CPU s, plateau30) end at
 At the S040 inputs the independent-four-set hitting number is exactly5 (156) and7 (155); every four-set has a pair addable by an S039-legal single move, and only2/5 useful pairs need relaxed pairs. Post-hoc, the minimum hitting sets complete K10 from omega8 unions, the K9-safe hitting number is exactly17/11, and that safe set still forms K9/K10; label-fixed alpha<=3 repairs within edit distance10/13 contain K10.
 
 Packings and hitting sets checked in code; K9 non-biplanarity inherited (CLM0022/SRC0014). Label-fixed statements only, not about relabelled or arbitrary graphs. Post-hoc items registered in PLAN_ADDENDUM.md after the gate; explanatory learning, no construction or biplanarity claim.
+
+## CLM-0137 — PROGRAMME_PROVED
+
+If sigma != id of odd prime order p preserves a simple sphere triangulation, it fixes no edge, fixes a face only if p=3, and #fixed vertices + #invariant faces = 2. Hence a layer-preserving automorphism of odd prime order of a 156-edge 28-vertex biplanar pair has order 13 (exactly two fixed vertices) or 3 (exactly one fixed vertex).
+
+Proof in sessions/S041/RESEARCH.md from classical inputs (3-connectivity of triangulations, Whitney uniqueness, Lefschetz on S^2). Explains why fixed-point-free Z7 cannot preserve layers (cf. SRC-0048). Layer-swapping symmetries, involutions and 155-edge pairs not covered.
+
+## CLM-0138 — COMPUTED_EXACT
+
+Every 156-edge 28-vertex biplanar pair with a layer-preserving automorphism of order13 is among 3510 explicitly enumerated pairs of 156 certified planar invariant layers (from 50600 certified candidates); none has alpha<=3, and the minimum number of independent four-sets is767.
+
+Nonplanarity certified by failed necessary triangulation tests or stdlib-checked Kuratowski subdivisions, planarity by checked rotations; portable stdlib replay in CI. Uses CLM-0137 and a pair lemma. Not a statement about order3, involutions or non-symmetric graphs.
+
+## CLM-0139 — PROGRAMME_PROVED
+
+Conditional on the Kostochka-Yancey bound: no (generalized) Mycielskian of a 9-chromatic graph is biplanar, and a biplanar 10-chromatic join must be K1vH9, K2vH8 or K3vH7 (h<=16) with omega(H)<=8-a and apex budgets e(H)<=5h-6, 4h-1, 3h+3; for a Hajos-join H the apex case needs e(H)<=5h-7.
+
+Exact integer tables in validation/S041/P2_COUNTING.json; K4vH6/K5vH5 cases removed with Gallai join theorem (SRC-0027) and the classical 11-vertex triangle-free 4-chromatic minimum. Necessary conditions only, no construction.
+
+## CLM-0140 — COMPUTED_EXACT
+
+The graphs K5 v pentagonal bipyramid = (K7-e)vC5 (12 vertices, 60 edges), (K4-e)vHajos(K6,K6) (15, 78) and (K3-e)vHajos(K7,K7) (16, 82) are not biplanar. Hence no K1vH with H containing Sulanke K6vC5 minus at most one edge, and no apex-over-Hajos composite using leaves Sulanke, K3vHajos(K6,K6) or K2vHajos(K7,K7), is biplanar.
+
+S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002).

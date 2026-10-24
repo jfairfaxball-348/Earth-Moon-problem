@@ -1,3 +1,13 @@
+# S041 CLOSED — comparative route audit (24 October 2026)
+
+Ranking R3 non-alpha joins/apex > R1 symmetry > R2 graph-first > R4 (parked).
+Order-13 symmetric order28 pairs: none alpha<=3. Only K1vH9/K2vH8/K3vH7
+joins survive counting; three apex leaf graphs certified non-biplanar by
+K9-minor lemmas. No witness;9<=chi_2<=12. S036 stays stopped. S042 apex-
+leaf census is FUTURE/UNEXECUTED; read authoritative/NEXT_SESSION_PROMPT.md.
+Existing main, ordinary non-force commit/push, no branch/PR. Historical
+headers follow.
+
 # S040 CLOSED — D077 decision PIVOT (24 October 2026)
 
 Coordinated two-layer stars gave no strict improvement at82/79 (exact

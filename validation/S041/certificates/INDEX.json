@@ -1,0 +1,62 @@
+{
+  "K5_join_bipyramid": {
+    "edges": {
+      "path": "validation/S041/certificates/K5_join_bipyramid.edges.txt",
+      "sha256": "e3b9f72603a1f73d40fbf67e1d0862af4ac14b0a5a196e7b091f48996cc49eb8"
+    },
+    "cnf": {
+      "path": "validation/S041/certificates/K5_join_bipyramid.cnf.gz",
+      "sha256": "aff7878f9eb1cd28aabbbbdcacffd8fa1cb061543872ac434cacc36b4de63165",
+      "source_sha256": "4712e3a9863b325847496c6ed4d3705dab7975b0540a2512b8ce387f09e5a578"
+    },
+    "lemmas": {
+      "path": "validation/S041/certificates/K5_join_bipyramid.lemmas.json.gz",
+      "sha256": "be06a6fc535c2fba6d6ee58c5dc1420020ce4d72fd1bfdee4a74fc76458f524d",
+      "source_sha256": "e4f38a0051ec6a924e2a0a8e1d8422a27506c4a1c53c56b9f07c7139d1ff1a11"
+    },
+    "drat_gz": {
+      "path": "validation/S041/certificates/K5_join_bipyramid.drat.gz",
+      "sha256": "2c08f3a838c559e1cc70c142ddf447a66266e7d3d60bfc6fbdd34f950f1f594e"
+    }
+  },
+  "leaf_K4e_join_hajosK6K6": {
+    "edges": {
+      "path": "validation/S041/certificates/leaf_K4e_join_hajosK6K6.edges.txt",
+      "sha256": "ba15dca6ff4188d6c27fe808be9ac5007d8c6353768216358e8704e9cb30358d"
+    },
+    "cnf": {
+      "path": "validation/S041/certificates/leaf_K4e_join_hajosK6K6.cnf.gz",
+      "sha256": "ec61cefd90d87ae47e456fabc0f6b844fc209b6f4c4173d45be56b45a837e213",
+      "source_sha256": "f21aaf1bf652a41728aa1942438cad809397720eae31957f6e7a9e5f0facb5f6"
+    },
+    "lemmas": {
+      "path": "validation/S041/certificates/leaf_K4e_join_hajosK6K6.lemmas.json.gz",
+      "sha256": "f34e79c8eab8c3dfc8a9352ed9cf676c828ea1e3ba4333787749b5da9fbc76b1",
+      "source_sha256": "98623f2e4918014724b53dc968162288e44b119214adc5e4335d1e51f7bd56aa"
+    },
+    "drat_gz": {
+      "path": "validation/S041/certificates/leaf_K4e_join_hajosK6K6.drat.gz",
+      "sha256": "0a9e38bba4d3bb0fa0256bb0ab2841c8c58dbdc950fce051e64689b4be187160"
+    }
+  },
+  "leaf_K3e_join_hajosK7K7": {
+    "edges": {
+      "path": "validation/S041/certificates/leaf_K3e_join_hajosK7K7.edges.txt",
+      "sha256": "c741f7d54398ed2dfa14f5ec139f8fb57c74ec9fbb8ddfc0752e5c896b249b2e"
+    },
+    "cnf": {
+      "path": "validation/S041/certificates/leaf_K3e_join_hajosK7K7.cnf.gz",
+      "sha256": "28048ce24ef616e6cdd2cac058be93b81b63081ad5b5b0a348ac135862fe2bbb",
+      "source_sha256": "1578d03cb8e074ef11b9788561e8f19a237104fb96cd76dc9a34d61f6d373b81"
+    },
+    "lemmas": {
+      "path": "validation/S041/certificates/leaf_K3e_join_hajosK7K7.lemmas.json.gz",
+      "sha256": "9b5e0f0d275e8db3d863280a59f95d7faf782cfadabfcdcb592248f5eb7bcc8e",
+      "source_sha256": "31bffdb4f0a33931a5d8f49dd9456a1b43faf270376fed078fa1cd327c47960f"
+    },
+    "drat_gz": {
+      "path": "validation/S041/certificates/leaf_K3e_join_hajosK7K7.drat.gz",
+      "sha256": "34dab4281eb3028279507212d169729bf55e7d10375543c020e3e7c1dc381877"
+    }
+  }
+}

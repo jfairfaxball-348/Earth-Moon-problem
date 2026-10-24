@@ -1,0 +1,50 @@
+{
+  "status": "CLOSED_COMPARATIVE_ROUTE_AUDIT",
+  "date": "2026-10-24",
+  "entry_main": "77a9f5e61732cc805160a489b213ca10b0686c38",
+  "ranking": [
+    "R3 non-alpha joins/apex",
+    "R1 symmetry-first",
+    "R2 graph-first exact split",
+    "R4 S11 cells (parked)"
+  ],
+  "probe_cpu_seconds": {
+    "p1_p2": 9.25,
+    "p3": 640.4757328033447,
+    "p3b_p4_anneal": 270.12,
+    "p3b_p4_cegar": 0.6,
+    "total": 920.4457328033448
+  },
+  "compute_cap_cpu_seconds": 1800,
+  "order13_class": {
+    "candidate_layers": 50600,
+    "planar_layers": 156,
+    "valid_pairs": 3510,
+    "alpha3_pairs": 0,
+    "min_independent_four_sets": 767
+  },
+  "layer_preserving_odd_prime_orders_at_28": [
+    3,
+    13
+  ],
+  "counting_surviving_chi10_joins": [
+    "K1vH9 omega<=7",
+    "K2vH8 omega<=6",
+    "K3vH7 omega<=5 h<=16"
+  ],
+  "mycielski_biplanar": false,
+  "nonbiplanar_apex_leaf_graphs": [
+    "K5_join_bipyramid",
+    "leaf_K4e_join_hajosK6K6",
+    "leaf_K3e_join_hajosK7K7"
+  ],
+  "witness": false,
+  "S11": "UNKNOWN",
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "all_processes_finished": true,
+  "next_session": "S042_FUTURE_UNEXECUTED"
+}

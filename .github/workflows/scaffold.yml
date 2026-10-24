@@ -60,3 +60,7 @@ jobs:
         run: |
           python scripts/check_s040_adversarial.py
           python scripts/check_s040_records.py
+      - name: Verify S041 order-13 classification counting tables and leaf certificates
+        run: |
+          python scripts/check_s041_adversarial.py
+          python scripts/check_s041_records.py
