@@ -1929,7 +1929,7 @@
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
   "active_session": {
     "id": "S036",
-    "status": "PAUSED",
+    "status": "RUNNING",
     "authority": "D047/D074 owner invocation 2026-10-23 (\"run next session\")",
     "entry_main": "45a2f328471ccad39b49160b12560c0fe1b27f91",
     "runtime_directory": "artifacts/tmp/S036/control",
@@ -1944,7 +1944,7 @@
     "deadline": null,
     "owner_resume_required": false,
     "resumption_authorized": true,
-    "stage": "LEASE_EXPIRY_PAUSE_FIXED_AUTOPILOT_RECOVERY_PENDING",
+    "stage": "AUTONOMOUS_FOUR_RESIDENTS_RECYCLING_AUTOPILOT_COLD_ROTATION",
     "acceptance_commit": "7a1c5b8136a7bfa2c91c9c51bb75caf7f1669483",
     "acceptance_hosted_run": "39949472103",
     "running_handoff": "sessions/S036/RUNNING.md",
@@ -1952,25 +1952,21 @@
     "identity_loss": "validation/S036/identity-loss/IDENTITY_LOSS.json",
     "private_cdcl_of_s035_contexts": "LOST_UNRECOVERABLE",
     "launcher": "scripts/s036_launch.py (WMI, outside application job objects)",
-    "fresh_acceptance_commit": "fa29fef54a84bcbb3c3f6f2795ecabd5db0116e9",
-    "fresh_acceptance_hosted_run": "39992832551",
+    "fresh_acceptance_commit": "2e80ad3d730d5539a73e857e6b8f3976503764d1",
+    "fresh_acceptance_hosted_run": "40072870037",
     "launch_identities": {
       "controller": {
-        "pid": 6028,
-        "start_ticks": "1792775532.676816"
+        "pid": 15856,
+        "start_ticks": "1792825821.0416868"
       },
       "supervisor": {
-        "pid": 13336,
-        "start_ticks": "1792775528.128196"
+        "pid": 8436,
+        "start_ticks": "1792825796.623985"
       },
       "residents": {
         "0": {
           "pid": 10804,
           "start_ticks": "1792758446.0958302"
-        },
-        "7": {
-          "pid": 17812,
-          "start_ticks": "1792758571.635335"
         },
         "127": {
           "pid": 15944,
@@ -1979,6 +1975,10 @@
         "255": {
           "pid": 11332,
           "start_ticks": "1792759176.461158"
+        },
+        "7": {
+          "pid": 16280,
+          "start_ticks": "1792825831.9022484"
         }
       }
     },

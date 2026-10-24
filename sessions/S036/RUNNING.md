@@ -180,3 +180,11 @@ automatically through the verified prepare-resume sequence; it never resumes aft
 alert, a native return or an owner pause (`s036_fresh_campaign.py pause` writes
 OWNER_PAUSE.json), and gives up after six recoveries in six hours. 1.36 GiB of stale,
 reproducible cold input copies were removed.
+
+First autopilot recovery (24 Oct 07:09-07:10 UTC, fully automatic): it classified the
+lease-expiry pause as recoverable, ran prepare-resume, started a fresh supervisor
+(8436 / 1792825796.623985) and controller (15856 / 1792825821.0416868) with --resume, and relaunched the cold runner. Regions
+0, 127 and 255 continued as the same processes; region 7 restarted as generation 1 from
+its audited cuts. An earlier autopilot instance was ended during its settle period
+because its log sat inside the control directory (archived by prepare-resume while
+open); helper logs now live in artifacts/tmp/S036/logs.

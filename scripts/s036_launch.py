@@ -44,7 +44,11 @@ def main():
         assert args.role == 'fresh', '--resume re-adopts a prepared fresh campaign only'
         command += ['--resume']
     CONTROL.mkdir(parents=True, exist_ok=True)
-    log = CONTROL / f'{args.role}-{time.strftime("%Y%m%dT%H%M%S")}.log'
+    # Long-lived helpers that outlive a pause (cold runner, autopilot) log outside the
+    # control directory, which prepare-resume archives while their logs are still open.
+    logs = CONTROL if args.role in ('supervisor', 'controller', 'fresh') else CONTROL.parent / 'logs'
+    logs.mkdir(parents=True, exist_ok=True)
+    log = logs / f'{args.role}-{time.strftime("%Y%m%dT%H%M%S")}.log'
     if args.no_wmi:
         flags = subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.CREATE_NO_WINDOW
         with log.open('ab') as out:
