@@ -96,7 +96,10 @@ def gates(admission=False, cold_private=0):
     # supervisor directly; the controller's own sample may already include the
     # cold process, so it must not be added to cold_private twice.
     from s035_preserved_lifecycle import sample_identities
-    registry = [c['worker'] for c in adoption.get('contexts', [])] + [adoption['controller'], adoption['watcher']]
+    # A resident being recycled exits by design; sample only identities that still exist
+    # (24 Oct: a recycle exit cut a cold stint short with IDENTITY_SAMPLE_UNAVAILABLE).
+    registry = [w for w in [c['worker'] for c in adoption.get('contexts', [])] + [adoption['controller'], adoption['watcher']]
+                if live_identity(w['pid'], w['start_ticks'])]
     try:
         private = sample_identities(registry)['private']
     except Exception as exc:

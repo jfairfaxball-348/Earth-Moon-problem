@@ -188,3 +188,11 @@ lease-expiry pause as recoverable, ran prepare-resume, started a fresh superviso
 its audited cuts. An earlier autopilot instance was ended during its settle period
 because its log sat inside the control directory (archived by prepare-resume while
 open); helper logs now live in artifacts/tmp/S036/logs.
+
+24 Oct 08:31-08:33 UTC: region 0 crossed 2.5 GiB and was recycled automatically
+(PER_WORKER; audit in a separate process; no pause) and restarted as generation 1. The
+cold gate's identity sample then tripped over the exiting region-0 process and cut region
+3's stint short after 70 min (IDENTITY_SAMPLE_UNAVAILABLE). Fixed under the owner's
+standing authority: the cold gate samples only identities that still exist. The cold
+runner was swapped between solver runs (region 15's 15-minute-old stint stopped through
+its stop file, idle runner ended) and region 15 restored to the front of the rotation.
