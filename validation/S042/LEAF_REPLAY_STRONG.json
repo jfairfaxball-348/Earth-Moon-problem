@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "raw_leaf_graphs": 133,
+  "recorded_leaf_graphs": 97,
+  "all_recorded_hit": true,
+  "prefilter": "could_be_isomorphic",
+  "cpu_seconds": 75.890625
+}

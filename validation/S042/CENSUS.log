@@ -1,0 +1,198 @@
+reduction control {'6-11': 2, '7-13': 3}
+considered 23514 unique leaf graphs 97 ore {'6-6': 1, '6-11': 2, '7-7': 1, '7-13': 3, '9-9': 1, '9-17': 4, '9-18': 0, '9-19': 0, '9-20': 0, '9-21': 0, '8-8': 1, '8-15': 3, '8-16': 0, '8-17': 0, '8-18': 0, '8-19': 0, '8-20': 0, '7-14': 0, '7-15': 0, '7-16': 0, '7-19': 91, '8-21': 0} cpu 622.09
+  leaf n 16 m 82 slack 2 omega 8 resolved_source False from {'a': 1, 'c': 2, 'factors': [[7, 13]], 'partial': True, 'deleted': [0, 1], 'L_edges': 68}
+  leaf n 16 m 82 slack 2 omega 8 resolved_source False from {'a': 1, 'c': 2, 'factors': [[7, 13]], 'partial': True, 'deleted': [0, 1], 'L_edges': 68}
+  leaf n 16 m 82 slack 2 omega 8 resolved_source False from {'a': 1, 'c': 2, 'factors': [[7, 13]], 'partial': True, 'deleted': [0, 1], 'L_edges': 68}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 22 m 120 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 2, 'factors': [[7, 19]], 'partial': False, 'deleted': [0, 1], 'L_edges': 100}
+  leaf n 15 m 78 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 3, 'factors': [[6, 11]], 'partial': False, 'deleted': [0, 1], 'L_edges': 65}
+  leaf n 15 m 78 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 3, 'factors': [[6, 11]], 'partial': False, 'deleted': [0, 1], 'L_edges': 65}
+  leaf n 12 m 60 slack 0 omega 8 resolved_source True from {'a': 1, 'c': 6, 'factors': [[3, 5]], 'partial': False, 'deleted': [0, 1], 'L_edges': 50}
+DECISION leaf000 16 82 NONBIPLANAR_DRAT_VERIFIED 1524.9
+DECISION leaf001 16 82 NONBIPLANAR_DRAT_VERIFIED 1527.5
+DECISION leaf002 16 82 NONBIPLANAR_DRAT_VERIFIED 1529.9
+DECISION leaf003 22 120 NONBIPLANAR_DRAT_VERIFIED 1543.7
+DECISION leaf004 22 120 NONBIPLANAR_DRAT_VERIFIED 1556.9
+DECISION leaf005 22 120 NONBIPLANAR_DRAT_VERIFIED 1570.7
+DECISION leaf006 22 120 NONBIPLANAR_DRAT_VERIFIED 1584.6
+DECISION leaf007 22 120 NONBIPLANAR_DRAT_VERIFIED 1599.9
+DECISION leaf008 22 120 NONBIPLANAR_DRAT_VERIFIED 1613.5
+DECISION leaf009 22 120 NONBIPLANAR_DRAT_VERIFIED 1627.6
+DECISION leaf010 22 120 NONBIPLANAR_DRAT_VERIFIED 1641.6
+DECISION leaf011 22 120 NONBIPLANAR_DRAT_VERIFIED 1655.3
+DECISION leaf012 22 120 NONBIPLANAR_DRAT_VERIFIED 1667.9
+DECISION leaf013 22 120 NONBIPLANAR_DRAT_VERIFIED 1680.4
+DECISION leaf014 22 120 NONBIPLANAR_DRAT_VERIFIED 1692.9
+DECISION leaf015 22 120 NONBIPLANAR_DRAT_VERIFIED 1705.4
+DECISION leaf016 22 120 NONBIPLANAR_DRAT_VERIFIED 1718.1
+DECISION leaf017 22 120 NONBIPLANAR_DRAT_VERIFIED 1731.0
+DECISION leaf018 22 120 NONBIPLANAR_DRAT_VERIFIED 1744.8
+DECISION leaf019 22 120 NONBIPLANAR_DRAT_VERIFIED 1756.2
+DECISION leaf020 22 120 NONBIPLANAR_DRAT_VERIFIED 1767.4
+DECISION leaf021 22 120 NONBIPLANAR_DRAT_VERIFIED 1778.5
+DECISION leaf022 22 120 NONBIPLANAR_DRAT_VERIFIED 1789.8
+DECISION leaf023 22 120 NONBIPLANAR_DRAT_VERIFIED 1801.3
+DECISION leaf024 22 120 NONBIPLANAR_DRAT_VERIFIED 1812.6
+DECISION leaf025 22 120 NONBIPLANAR_DRAT_VERIFIED 1823.9
+DECISION leaf026 22 120 NONBIPLANAR_DRAT_VERIFIED 1836.1
+DECISION leaf027 22 120 NONBIPLANAR_DRAT_VERIFIED 1848.6
+DECISION leaf028 22 120 NONBIPLANAR_DRAT_VERIFIED 1860.7
+DECISION leaf029 22 120 NONBIPLANAR_DRAT_VERIFIED 1873.2
+DECISION leaf030 22 120 NONBIPLANAR_DRAT_VERIFIED 1886.7
+DECISION leaf031 22 120 NONBIPLANAR_DRAT_VERIFIED 1899.0
+DECISION leaf032 22 120 NONBIPLANAR_DRAT_VERIFIED 1911.7
+DECISION leaf033 22 120 NONBIPLANAR_DRAT_VERIFIED 1924.0
+DECISION leaf034 22 120 NONBIPLANAR_DRAT_VERIFIED 1936.6
+DECISION leaf035 22 120 NONBIPLANAR_DRAT_VERIFIED 1949.1
+DECISION leaf036 22 120 NONBIPLANAR_DRAT_VERIFIED 1961.6
+DECISION leaf037 22 120 NONBIPLANAR_DRAT_VERIFIED 1974.5
+DECISION leaf038 22 120 NONBIPLANAR_DRAT_VERIFIED 1988.7
+DECISION leaf039 22 120 NONBIPLANAR_DRAT_VERIFIED 2002.5
+DECISION leaf040 22 120 NONBIPLANAR_DRAT_VERIFIED 2016.9
+DECISION leaf041 22 120 NONBIPLANAR_DRAT_VERIFIED 2032.0
+DECISION leaf042 22 120 NONBIPLANAR_DRAT_VERIFIED 2047.2
+DECISION leaf043 22 120 NONBIPLANAR_DRAT_VERIFIED 2061.3
+DECISION leaf044 22 120 NONBIPLANAR_DRAT_VERIFIED 2075.9
+DECISION leaf045 22 120 NONBIPLANAR_DRAT_VERIFIED 2089.1
+DECISION leaf046 22 120 NONBIPLANAR_DRAT_VERIFIED 2102.8
+DECISION leaf047 22 120 NONBIPLANAR_DRAT_VERIFIED 2113.7
+DECISION leaf048 22 120 NONBIPLANAR_DRAT_VERIFIED 2124.1
+DECISION leaf049 22 120 NONBIPLANAR_DRAT_VERIFIED 2134.9
+DECISION leaf050 22 120 NONBIPLANAR_DRAT_VERIFIED 2146.3
+DECISION leaf051 22 120 NONBIPLANAR_DRAT_VERIFIED 2157.1
+DECISION leaf052 22 120 NONBIPLANAR_DRAT_VERIFIED 2167.8
+DECISION leaf053 22 120 NONBIPLANAR_DRAT_VERIFIED 2178.7
+DECISION leaf054 22 120 NONBIPLANAR_DRAT_VERIFIED 2190.4
+DECISION leaf055 22 120 NONBIPLANAR_DRAT_VERIFIED 2203.9
+DECISION leaf056 22 120 NONBIPLANAR_DRAT_VERIFIED 2216.8
+DECISION leaf057 22 120 NONBIPLANAR_DRAT_VERIFIED 2229.3
+DECISION leaf058 22 120 NONBIPLANAR_DRAT_VERIFIED 2241.5
+DECISION leaf059 22 120 NONBIPLANAR_DRAT_VERIFIED 2253.8
+DECISION leaf060 22 120 NONBIPLANAR_DRAT_VERIFIED 2266.4
+DECISION leaf061 22 120 NONBIPLANAR_DRAT_VERIFIED 2278.8
+DECISION leaf062 22 120 NONBIPLANAR_DRAT_VERIFIED 2290.7
+DECISION leaf063 22 120 NONBIPLANAR_DRAT_VERIFIED 2303.3
+DECISION leaf064 22 120 NONBIPLANAR_DRAT_VERIFIED 2315.2
+DECISION leaf065 22 120 NONBIPLANAR_DRAT_VERIFIED 2327.4
+DECISION leaf066 22 120 NONBIPLANAR_DRAT_VERIFIED 2341.4
+DECISION leaf067 22 120 NONBIPLANAR_DRAT_VERIFIED 2354.9
+DECISION leaf068 22 120 NONBIPLANAR_DRAT_VERIFIED 2368.1
+DECISION leaf069 22 120 NONBIPLANAR_DRAT_VERIFIED 2381.3
+DECISION leaf070 22 120 NONBIPLANAR_DRAT_VERIFIED 2395.7
+DECISION leaf071 22 120 NONBIPLANAR_DRAT_VERIFIED 2410.0
+DECISION leaf072 22 120 NONBIPLANAR_DRAT_VERIFIED 2424.2
+DECISION leaf073 22 120 NONBIPLANAR_DRAT_VERIFIED 2437.7
+DECISION leaf074 22 120 NONBIPLANAR_DRAT_VERIFIED 2450.9
+DECISION leaf075 22 120 NONBIPLANAR_DRAT_VERIFIED 2464.4
+DECISION leaf076 22 120 NONBIPLANAR_DRAT_VERIFIED 2475.0
+DECISION leaf077 22 120 NONBIPLANAR_DRAT_VERIFIED 2485.5
+DECISION leaf078 22 120 NONBIPLANAR_DRAT_VERIFIED 2496.5
+DECISION leaf079 22 120 NONBIPLANAR_DRAT_VERIFIED 2507.8
+DECISION leaf080 22 120 NONBIPLANAR_DRAT_VERIFIED 2518.4
+DECISION leaf081 22 120 NONBIPLANAR_DRAT_VERIFIED 2529.2
+DECISION leaf082 22 120 NONBIPLANAR_DRAT_VERIFIED 2541.5
+DECISION leaf083 22 120 NONBIPLANAR_DRAT_VERIFIED 2553.6
+DECISION leaf084 22 120 NONBIPLANAR_DRAT_VERIFIED 2566.0
+DECISION leaf085 22 120 NONBIPLANAR_DRAT_VERIFIED 2578.0
+DECISION leaf086 22 120 NONBIPLANAR_DRAT_VERIFIED 2590.3
+DECISION leaf087 22 120 NONBIPLANAR_DRAT_VERIFIED 2602.1
+DECISION leaf088 22 120 NONBIPLANAR_DRAT_VERIFIED 2614.0
+DECISION leaf089 22 120 NONBIPLANAR_DRAT_VERIFIED 2626.1
+DECISION leaf090 22 120 NONBIPLANAR_DRAT_VERIFIED 2635.1
+DECISION leaf091 22 120 NONBIPLANAR_DRAT_VERIFIED 2644.3
+DECISION leaf092 22 120 NONBIPLANAR_DRAT_VERIFIED 2656.7
+DECISION leaf093 22 120 NONBIPLANAR_DRAT_VERIFIED 2666.2
+DECISION leaf094 15 78 NONBIPLANAR_DRAT_VERIFIED 2668.2
+DECISION leaf095 15 78 NONBIPLANAR_DRAT_VERIFIED 2670.2
+DECISION leaf096 12 60 NONBIPLANAR_DRAT_VERIFIED 2671.4
+CENSUS FINISHED 97 cpu 2671.4
+EXIT 0

@@ -911,3 +911,21 @@ Exact integer tables in validation/S041/P2_COUNTING.json; K4vH6/K5vH5 cases remo
 The graphs K5 v pentagonal bipyramid = (K7-e)vC5 (12 vertices, 60 edges), (K4-e)vHajos(K6,K6) (15, 78) and (K3-e)vHajos(K7,K7) (16, 82) are not biplanar. Hence no K1vH with H containing Sulanke K6vC5 minus at most one edge, and no apex-over-Hajos composite using leaves Sulanke, K3vHajos(K6,K6) or K2vHajos(K7,K7), is biplanar.
 
 S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002).
+
+## CLM-0141 — PROGRAMME_PROVED
+
+If H is a Hajos composite of (10-a)-critical graphs (a=1,2,3) and some composition leaf L has every census leaf graph K_av(L-e) non-biplanar, then K_avH is not biplanar: each e gives a K9, an Euler-infeasible K_av(L-e), or a census leaf graph contained in K_avH.
+
+Proof in sessions/S042/RESEARCH.md. Covers Hajos composites and edge-deleted DHGO operands only; vertex-split operands are not covered.
+
+## CLM-0142 — PROGRAMME_PROVED
+
+For apex leaves on at most 21 vertices exactly 45 (a,c,factor) types meet the leaf budget: 15 resolved (odd cycle C5, 6-Ore on 11, 7-Ore on 19, empty 7-critical orders 17-18) and 30 unresolved non-Ore windows (9-critical 17-21, 8-critical 15-21, 7-critical 13-16 vertices).
+
+Gallai join decomposition, Kostochka-Yancey bound with equality iff k-Ore and the non-Ore bound of SRC-0020 Theorem 6 (statement-level). Table independently re-derived by separately written stdlib code.
+
+## CLM-0143 — COMPUTED_EXACT
+
+All 97 non-isomorphic apex leaf graphs from the resolved types (plus PARTIAL 7-Ore/13 members) are not biplanar; 23514 (a,L,e) choices reduce to them. Hence no apex-over-Hajos composite with a leaf of these types is biplanar.
+
+Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded.

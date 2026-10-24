@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rejected": [
+    "unresolved_marked_resolved",
+    "slack_inflated",
+    "extra_edge_changes_record",
+    "mutated_small_family_absent",
+    "reversed_drat_hash"
+  ]
+}

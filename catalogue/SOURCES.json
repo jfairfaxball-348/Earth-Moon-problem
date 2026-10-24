@@ -194,8 +194,8 @@
     "authors": "Alexandr Kostochka, Matthew Yancey",
     "year": 2014,
     "url": "https://arxiv.org/abs/1408.0846",
-    "access": "ABSTRACT_INSPECTED",
-    "note": "Abstract states the equality characterisation; the y_k-refined bound used by SRC-0017 for n>=89 not inspected.",
+    "access": "STATEMENT_INSPECTED",
+    "note": "Abstract states the equality characterisation; the y_k-refined bound used by SRC-0017 for n>=89 not inspected. S042: ar5iv full text read at statement level: Theorem 6 (k-critical meets KY bound iff k-Ore; non-Ore bound with y_k=max{2k-6,k^2-5k+2}); DHGO definition of k-Ore. Proofs not read.",
     "accessed": "2026-10-12"
   },
   {

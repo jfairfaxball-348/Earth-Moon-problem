@@ -1,0 +1,2334 @@
+{
+  "policy": "edges and DRAT committed; CNF and lemma files local, deterministic from edges, SHA-256 pinned",
+  "regeneration": "tools/s025_minor_cegar.py EDGES PREFIX 300 --lemmaC 5",
+  "rows": [
+    {
+      "name": "leaf000",
+      "edges": {
+        "path": "validation/S042/certificates/leaf000.edges.gz",
+        "sha256": "9bf0e5b6e6c25d06d8e7a7e342fd964404d9c19a36c595f5c3f593ff3129ec54",
+        "source_sha256": "81847309306ebe4ff131224da5f85b59e1cc1b773975af44b232f004feefbfad"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf000.drat.gz",
+        "sha256": "f3173e66e1231846615f7f6c9a76bac772d49e88d96536cb814dbc10c501728c"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf000.cnf.gz",
+          "gz_sha256": "bd926281f1f89a58d450e1eb64ea5ad858e3dfbc596d1742312271b0ce212bcd",
+          "source_sha256": "d7d628c89a7b8ddfddc581e0e7a361db044334badb60b5abb090fc00e0c84650"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf000.lemmas.gz",
+          "gz_sha256": "96a5858081495102ee156552444507414306f727a96a205fce575076d5eaa25c",
+          "source_sha256": "94cb3d71d23ebbd5e4968273ec704e998d2f0a9feec95168e5b52b208f246088"
+        }
+      }
+    },
+    {
+      "name": "leaf001",
+      "edges": {
+        "path": "validation/S042/certificates/leaf001.edges.gz",
+        "sha256": "c81321c7a9c69acb8b47a11e1c47e472f5ea0e7d0feeb52d7cc604673023b4c1",
+        "source_sha256": "430c5fab7d1249da0be789675e06b35f301e951b2f0e695bda96693a15f8569c"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf001.drat.gz",
+        "sha256": "e4c8f3b3f5010d7b16437c531196cca483d391f0391eeac42e0dc6452f17b23a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf001.cnf.gz",
+          "gz_sha256": "f05cc6a6ace3b0d64ec579ce703a17324d2fd3b7fcd584887b8d55eb390ec3bc",
+          "source_sha256": "9d472d70867895532d1b8741d00b1a375354af4b4f3ca07c88cdc4179202c908"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf001.lemmas.gz",
+          "gz_sha256": "2650f1e9abd1bab5df3fa203431a59f15897b051894b9190294d09ab7ce75dbe",
+          "source_sha256": "7cadbb79408542b8d2fc5f9739e85a1d327f74e795425ee7978f6b88fcc8329c"
+        }
+      }
+    },
+    {
+      "name": "leaf002",
+      "edges": {
+        "path": "validation/S042/certificates/leaf002.edges.gz",
+        "sha256": "e7842210686fb62c9a85e8d08be4b6c98f93ea3ce30fc4c2da76ff207e69a64d",
+        "source_sha256": "8effb48103a8ec6b16f93496dad4274a21a272b2af05f2d95356102954dbf7b6"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf002.drat.gz",
+        "sha256": "8b7af16fe9298fede9c647a9cf2c4454bde6a4e4e20b20ebbc63e45345b7dbdd"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf002.cnf.gz",
+          "gz_sha256": "8f3062aa33f0f32fe855cfee3feb80153f2817bf2e601cc18c8856ffe9a8b45d",
+          "source_sha256": "43e2fef27b2a025c86d4722696b0fbfc00a00d008a1356d3a231c2eccf140f65"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf002.lemmas.gz",
+          "gz_sha256": "a82ac3c00988a2d99c66c29323b98f5b05200e6db930a4739293ff33bd395429",
+          "source_sha256": "fd3b643f344c64369a87ee3386c59d0d60592bb25890edd3c390f1cafb0d5568"
+        }
+      }
+    },
+    {
+      "name": "leaf003",
+      "edges": {
+        "path": "validation/S042/certificates/leaf003.edges.gz",
+        "sha256": "a876057fdd6712d41c6041c6d2d4ecf66dd7538fd592737b31d58f9a557e3858",
+        "source_sha256": "8f18d1a435a422f6d17476d0645a6fec23d138bbe92c04f315b946a3922eec70"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf003.drat.gz",
+        "sha256": "3e4f9254327564b3886c245a2a1ece6b163bd1ae8b5858db6444888f68918d1e"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf003.cnf.gz",
+          "gz_sha256": "bf06e6d6fd9ea840c825b0e59f7de52957f35fe5a145decf473c7697b3b1877b",
+          "source_sha256": "28ff9dd4f2b5e0b8f55f3f95125b5cf209d070e1a9ebb0355bc5019d47bbd398"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf003.lemmas.gz",
+          "gz_sha256": "175ed34234595c25fa562925a3694f27fd87ea0bd27acb6b80873dd37a1a39c7",
+          "source_sha256": "3d87c3bbdf9fa2020a74dc695ad12c0182e9cebe88ed626726e3199293b770ef"
+        }
+      }
+    },
+    {
+      "name": "leaf004",
+      "edges": {
+        "path": "validation/S042/certificates/leaf004.edges.gz",
+        "sha256": "624e41c93865fc95d175f63b1932937674d310c617801bca931bd46906975db2",
+        "source_sha256": "7c4ddc31c8fc21be5e87121874e91c0ed4ce2cf122c0cdb977dd591b88e4402e"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf004.drat.gz",
+        "sha256": "999d2e6e5cecca1f4f0573888313ea511c18357c42c96abead42b8e86a8018d3"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf004.cnf.gz",
+          "gz_sha256": "622a61a161fc24a0468b600d8dc5548319a8fc70f1fe1a75f24626da42d4f805",
+          "source_sha256": "ea521ea6b5bdfbe189ed9b157cc7f474d0938753c676b92348e622d2fc1d6cdb"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf004.lemmas.gz",
+          "gz_sha256": "bc78fc0ac6eb71981b2c97cf48da7260eb63926e0089f7f5bc9f7917171a95af",
+          "source_sha256": "1654d159a08767530f678d7766a7275cab2fa2d2fcc500af54373f25475932a4"
+        }
+      }
+    },
+    {
+      "name": "leaf005",
+      "edges": {
+        "path": "validation/S042/certificates/leaf005.edges.gz",
+        "sha256": "2cbf9c11d92fa30d898298a31ac10efb9ee879c49ad41e5a7a1604960794ce11",
+        "source_sha256": "70f15d39e2863430ec99f4ffff3f3637d3b550cb6a14a0adbb43391755672550"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf005.drat.gz",
+        "sha256": "b5191dcc84195a0ad9d6488516c001275e7ce80946bdc0da810f69e5824219c4"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf005.cnf.gz",
+          "gz_sha256": "d7213ff999539bee1f14395ef4c193ba23dcbcf030ec1c96539411e9ef9f8dc9",
+          "source_sha256": "105271d1779e6f55e00bd8b8c1f722783bbbac049dbe015fdcd5c646b3250c0b"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf005.lemmas.gz",
+          "gz_sha256": "4ac621883b89a5da37e4e6e95fce4f573d76cc176cc03718dfc9af13c84a9264",
+          "source_sha256": "299565db97a71dab689f718d25dfe770b2b0aeeb93a547440208fe426632328e"
+        }
+      }
+    },
+    {
+      "name": "leaf006",
+      "edges": {
+        "path": "validation/S042/certificates/leaf006.edges.gz",
+        "sha256": "739bea880985423b7a862807fb7ec2722ebe504a4481d21c00d8b40bad8957eb",
+        "source_sha256": "bc8016314a7334dbe1d36804ed3f5b2ab9c920f705995afb9cdfe8c1bf627e8f"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf006.drat.gz",
+        "sha256": "6f3390b6ea5c390b4ced9810383e4994c916a8aefc33184ac63b04b0a0d46698"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf006.cnf.gz",
+          "gz_sha256": "94f3fea6086cf2d03c0e280eff9f1fe49821f841061224a2895693549e43ae5f",
+          "source_sha256": "605612665ea4f2087d78fa4b867aeb25a20a0636aeb89b5700de8833335cfaf3"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf006.lemmas.gz",
+          "gz_sha256": "94c7f99e8e1a05ce9acc7708a149dea9a74d347eef039a767c71881d61de7c09",
+          "source_sha256": "9be2443eb7629ca1230c11326e838c06fa560a25a5ae588f6931d757c89e4e08"
+        }
+      }
+    },
+    {
+      "name": "leaf007",
+      "edges": {
+        "path": "validation/S042/certificates/leaf007.edges.gz",
+        "sha256": "4cf584260d5a7b77577ca8d60dd4497cea3636e9d3629f3da0aa651702683006",
+        "source_sha256": "7626bfc0d38133561f8b2500238e4483e48dec32c1515b71383f83f54915e673"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf007.drat.gz",
+        "sha256": "32113c49e1afcf43ab32a0b77f006a269654521779432913d1e55905bbee6660"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf007.cnf.gz",
+          "gz_sha256": "16c6b12fe5649ab77ff43c42a6bdd36187509a5d1a481da668bfad21fc8e5e75",
+          "source_sha256": "da8fc8081024a067c3076db4e6d6128a53d4da9fde4b9ec70ca35c7548784db5"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf007.lemmas.gz",
+          "gz_sha256": "2d2df3f6b21f72f7248eb0b62884f1cfe39761a9aebc6472f51e80c6be01b495",
+          "source_sha256": "e13d4c5f7df43dd6018a518187ddc1f4a55450d9c09c945ff0fe93bb9b5cac01"
+        }
+      }
+    },
+    {
+      "name": "leaf008",
+      "edges": {
+        "path": "validation/S042/certificates/leaf008.edges.gz",
+        "sha256": "26ed02f3cf64ca57a3191d2587e8c7057c59ded041699dde67963ed457465442",
+        "source_sha256": "f1cf7b12dd9bb85bd547e65717d7c32e272bb963793bab22b56c0d7d8164de4d"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf008.drat.gz",
+        "sha256": "ed8f5f76f75fedefda07f4d499e6cf254028853e6b6ff7a40f9b66cdf0025528"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf008.cnf.gz",
+          "gz_sha256": "748fcd5ea6d236ec6aed6ed91a02838f076d6e85853dde4f48534e5e78606da9",
+          "source_sha256": "9da5ab6fa91871c08c34cb4daa924231efe6e1f2a1c7c499f1818c6f0f8a5526"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf008.lemmas.gz",
+          "gz_sha256": "eca44f624673e79138afedaf9a1770157a56f6f2aaa9db8ca0580496adff32c5",
+          "source_sha256": "e52e02d9a9253ef10171ed10e52ba8063c73e5b21e90fbe45940b1fdb4db15de"
+        }
+      }
+    },
+    {
+      "name": "leaf009",
+      "edges": {
+        "path": "validation/S042/certificates/leaf009.edges.gz",
+        "sha256": "8044e4772fa5c351838436358679ff699f7c1941c4a70d21dad0351c45f89f67",
+        "source_sha256": "a28efd98e211aa4bc4a8636ca2b2d7dcda076931c90cbd345ababd5289c09ae5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf009.drat.gz",
+        "sha256": "caf03d14801a35ccda73a934f775ed93b98163e2a78855407642f885facbb0df"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf009.cnf.gz",
+          "gz_sha256": "fdd4993bce83528dbfb311b6bb5c5eff389e25312ef0bf5516d7ff0b7bc7e91b",
+          "source_sha256": "15ff2894684b4fdba79a3a4b220f3c626f068c89d8482e9881b910a091ef31d5"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf009.lemmas.gz",
+          "gz_sha256": "64c66b485d5165e838b6b62da4e60cf65dc42601719ad741bb1b9476cf7d55a6",
+          "source_sha256": "afbf72ac56af0d8afec8c2da599537eb91a408e9f446d1e38eee35c8631fd138"
+        }
+      }
+    },
+    {
+      "name": "leaf010",
+      "edges": {
+        "path": "validation/S042/certificates/leaf010.edges.gz",
+        "sha256": "9f5dea3994ff4c5ec29f94fa84ea863964a6bd27e001a27f9a1e8a3b15b959f0",
+        "source_sha256": "c3b2588d52b5ec5a1e861c676f0d085f762a055ac954138161581d85c1992307"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf010.drat.gz",
+        "sha256": "4cb5e489547939c944adc1f04917cd0c58ca2ed3b87c28d0cb25d41fe347b51d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf010.cnf.gz",
+          "gz_sha256": "378da2f0bf74b0ffbbcaf7513a98f0fd093bdc97e164bb6830308f5429eb5e11",
+          "source_sha256": "496d0811b8bfa0aa759c4a425725dc4a2e89c51c66167dca4aa6e9b90acac251"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf010.lemmas.gz",
+          "gz_sha256": "059bb7a0f722d8b3ab595d20c1612bea98e8f01174280698abb29d6a030b12ee",
+          "source_sha256": "3305b38f9cf0f37e5d3b3402e6e00c0ff8c2a0132f559c3b6c26eaac2f951e19"
+        }
+      }
+    },
+    {
+      "name": "leaf011",
+      "edges": {
+        "path": "validation/S042/certificates/leaf011.edges.gz",
+        "sha256": "7f8ecd8edfb382bde5102b01a88bd5514668f7520df21800d3e40b29d7d73c39",
+        "source_sha256": "d96fad4011a0751018514433e891468ba0ede888dac490c8f2042f7cdc95e97f"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf011.drat.gz",
+        "sha256": "98afb861aabf8bfca274700077e2575f1d5115e1edb819678b8a5d457ca05d9a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf011.cnf.gz",
+          "gz_sha256": "b1820d00d5e32f0afb7e1e0d36184c28c8cf72c78716d0b8cd3f944d0b8c7bc9",
+          "source_sha256": "0692267a3cfc979776d7c8b0766a9fa65fa4c92e1b6a6f72c16ebeefee8467b6"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf011.lemmas.gz",
+          "gz_sha256": "cc61cb0d4d6e9c033596a7d5ad0696196ef7afe487004b95a8e831514a47ca57",
+          "source_sha256": "633255c33b35df3a87849cad4bd3a7e4d83a7deef7117484a2c32a7d255e34da"
+        }
+      }
+    },
+    {
+      "name": "leaf012",
+      "edges": {
+        "path": "validation/S042/certificates/leaf012.edges.gz",
+        "sha256": "421ac2bfd96a1237c1a0794cf12eacd5eacaf89840a237eb48928d4fb27d356e",
+        "source_sha256": "565d68281efaa2cd237ee3909956b63e55775a33bccb7977cf74bb5b892508a2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf012.drat.gz",
+        "sha256": "57bac69322b858f87176b19797add217187d80a90a65b82194b06e8b150d64b0"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf012.cnf.gz",
+          "gz_sha256": "a444e38a1063c577355f7b811234eb96e56c4b38b5bbde7b65d7fe0e883b6a05",
+          "source_sha256": "7aa960d0383072dbabca931cc3c6474c470d986dfc87e360b150d0871124fc3f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf012.lemmas.gz",
+          "gz_sha256": "6110e8cacc381c83139cdeba1777b1b971eb252926961e2ebf2fd02a142d5346",
+          "source_sha256": "3de7bfb17e184b883addcdd24f6f6bb288e8d888b2748143054c41b7f52db5f2"
+        }
+      }
+    },
+    {
+      "name": "leaf013",
+      "edges": {
+        "path": "validation/S042/certificates/leaf013.edges.gz",
+        "sha256": "3054f4e46b2eb33f8201a5b27e5c611311039e903abb599d0d98927407b4af86",
+        "source_sha256": "1fce6634e86cbf5f9a574243d18cc44906510f981076cee5c8a15bcd09bd3cb0"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf013.drat.gz",
+        "sha256": "1c8734436244a653eb6ba6aeda21a08d4b11039acb5a984611f77500cf5465be"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf013.cnf.gz",
+          "gz_sha256": "83974f0eea631b6f948918653edef85f26af091cb7412223b730caeeaedd7aba",
+          "source_sha256": "0b9879eb881f8c76b1afa87714d1e7f1eaec36ee54126ee0148f329ff1e85e5d"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf013.lemmas.gz",
+          "gz_sha256": "7ad81bff2ac4da086e69f9906047b1a99896b914cfd0357b92e37096b26d96e0",
+          "source_sha256": "76ea004c9e2be92937843b7f0f4db24f445326448f50772646676185c2d84a19"
+        }
+      }
+    },
+    {
+      "name": "leaf014",
+      "edges": {
+        "path": "validation/S042/certificates/leaf014.edges.gz",
+        "sha256": "4f8ada0c6ffdaf28083dd9527a263368829ba324da6afff27a92aa31252a3d7a",
+        "source_sha256": "b39b6eeb3ae047e3bf831f518cbd1cbc8e8439f9592d12a46da3400edba54beb"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf014.drat.gz",
+        "sha256": "762049547734ce408be67501bfbd5091356aa29988cdc9dd238dd2486e69e0e7"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf014.cnf.gz",
+          "gz_sha256": "28c0d60ac2565e7f9420fbf21ecf523f09218aebefee281ddad1bc18336aef9f",
+          "source_sha256": "e74ddb9af14a5f65bd59088df852b1a4cc50e8ea40a411a217d675534a828cf4"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf014.lemmas.gz",
+          "gz_sha256": "d70807c03e1c26a03a6e58fd976234b4e97d75d6715dacde744929d604052a74",
+          "source_sha256": "fefa3b598d60dfad5da71a36317f68033f69747f0326002acdcbc5c63a4e2fa4"
+        }
+      }
+    },
+    {
+      "name": "leaf015",
+      "edges": {
+        "path": "validation/S042/certificates/leaf015.edges.gz",
+        "sha256": "3f707c9501437e6798d8d33de78d6a7b82ddba306d380d972086127c282ff1d0",
+        "source_sha256": "d691ba8848f3f0631e531c5b63f6aa01ce7d87f8cca153442958c4b9341f6445"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf015.drat.gz",
+        "sha256": "43cdd1b16e75cc5f53033dfa7b95988620121be46c55f69f1e40d2b350f652bd"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf015.cnf.gz",
+          "gz_sha256": "698db04d06239fc03f303027472eaf27e794c00d53744c9ca95845df4349ba09",
+          "source_sha256": "f627b4b2d6264d93c8ef6fbb04670069ef1436cef26cb044d1121e3c10863e2a"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf015.lemmas.gz",
+          "gz_sha256": "c1568f12862284a9cda2941e2e636e7d30b7a1907df08815e92125d1a669dfec",
+          "source_sha256": "49c4cdd34b11c9074e6a10cbe836a2b820b1ca71a9fb52c672020a5e356bbba9"
+        }
+      }
+    },
+    {
+      "name": "leaf016",
+      "edges": {
+        "path": "validation/S042/certificates/leaf016.edges.gz",
+        "sha256": "0058f1777691dcbc0e1a73b75fc0fd6dee11f7a95232ea1ebee14e52169d30d0",
+        "source_sha256": "26a0daf1e1e586f0263796ebb6e8f3579dfbc6e49bf957df99ae2e3343373ee2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf016.drat.gz",
+        "sha256": "cbaf1b9772b004578609e456e363057e57e3a8141e0847f16542d9d11606a973"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf016.cnf.gz",
+          "gz_sha256": "2dd26a17dea19ee5b7d279faa9b14ba5060a9df9a66e94eb8f3b2451ca548bed",
+          "source_sha256": "7b751f55b67442ac54befd5ad925c9425efb89886a9818dfc39c40ee72c33178"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf016.lemmas.gz",
+          "gz_sha256": "5f459f157365e359703a8d91666a176ec3c77a977f29ed7c09664eed61f131cc",
+          "source_sha256": "4f8e6242e4094a473169d141b2f7cf3231d869598ab15896d319b09b5c1f3108"
+        }
+      }
+    },
+    {
+      "name": "leaf017",
+      "edges": {
+        "path": "validation/S042/certificates/leaf017.edges.gz",
+        "sha256": "5d820d492fb2e94cdf5beade5a0795076e1a93b9855296c8a9f021cb5b68dc82",
+        "source_sha256": "b555774b56cf91663c1254cd4907f7215bf2d11f2a6ace9dee440c4d25060d72"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf017.drat.gz",
+        "sha256": "ce3e39655f1379473191005c1fd2ae3ef89554855ddc1721e347faf9f96de744"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf017.cnf.gz",
+          "gz_sha256": "b54b1115e4b2875a9062bececd7057553478405c4bc4276db0facdfef4d35690",
+          "source_sha256": "e823daff87f583b1a474243b0b1676c9f882c2a1375590f16363f0f22b22ad64"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf017.lemmas.gz",
+          "gz_sha256": "91b4980deb1914434977a7a4812178842bb85d86c34d2fe229ac48ea610cc236",
+          "source_sha256": "dba89c7886880d3f9ed5a9577cc6f4eb46641976f15e8a3cbf08e485b2168fbc"
+        }
+      }
+    },
+    {
+      "name": "leaf018",
+      "edges": {
+        "path": "validation/S042/certificates/leaf018.edges.gz",
+        "sha256": "9ffa607142534ce6404a5f7f194a858aeae8905930d58d299b23527602fc5ef6",
+        "source_sha256": "18ab73b2eec9a996d0c7c00a8020aaf2edc8391a4fc64cc726636d63be308ab5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf018.drat.gz",
+        "sha256": "90885d1ed7d964d904d99eea2f2122df51add56bfcbc0d7298941b2dcd159b5c"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf018.cnf.gz",
+          "gz_sha256": "1934abfc7ed7c4e5aa5edf4ede5a8db62f1c157380b2d242f6c90ec312ab9ed9",
+          "source_sha256": "98353457b642788918942a5ec1166336d1237410a8406c22f49dbc296ebfbfe4"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf018.lemmas.gz",
+          "gz_sha256": "a33384a9f3550149a329cb14bab1d26471d6adec4b1e73ac1bf66814a55db16d",
+          "source_sha256": "905ae9a349f573438184e039884680f5b7c1f64b8e4316a7919efdffc12e1fcb"
+        }
+      }
+    },
+    {
+      "name": "leaf019",
+      "edges": {
+        "path": "validation/S042/certificates/leaf019.edges.gz",
+        "sha256": "8d512c7e1c3cd288ba869f393fdd0ee07b792f21918b3e5b9388c7736f7676c2",
+        "source_sha256": "afa91dc5bbf648e09276a8fdeeb9488209736e7fd92c5ab3a0c401135cef5176"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf019.drat.gz",
+        "sha256": "22ab9191e89543fe36bc2aea5863fed8cb3367fc9a4877ae6de746972af1e0a4"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf019.cnf.gz",
+          "gz_sha256": "704a76322b5446cc1111bd7634e70ab450e53a8adf2994787d69f028c9ce54ba",
+          "source_sha256": "ca53dff3c5c02e30c171407ca43bd6471778bf502104058d218e9a53650ed485"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf019.lemmas.gz",
+          "gz_sha256": "7cf0f818d03bf587d2fb893a38b09d546bef03a4a98b783ab7b409dc55434538",
+          "source_sha256": "931ed41422e10bcb9674fcb0074dc6442ede5c4adbf6b7b22100a77ddc5615bf"
+        }
+      }
+    },
+    {
+      "name": "leaf020",
+      "edges": {
+        "path": "validation/S042/certificates/leaf020.edges.gz",
+        "sha256": "5e6065d17093f295b85f278210d9f7e4f88040644a89f724be69efe51a8f8e39",
+        "source_sha256": "a81025979e31787a1545880c25a64ef4ef22867dd0e4edf18bfd76f5a6260213"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf020.drat.gz",
+        "sha256": "45a3420a94f24886edb69c0f8982e7cc8ed5cc6d9e5f6a8b151bdc5bae155381"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf020.cnf.gz",
+          "gz_sha256": "243e606ce6201403b88e8a7268b0b54914913639af1dd6a07b6637ddc4ffe143",
+          "source_sha256": "c83222722cd6413c3985747309d5e2674db569e8cc7f3246544b8eb94a9c8f4e"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf020.lemmas.gz",
+          "gz_sha256": "b706ad1d75fe587e44379fe55e0d9cb4f4e54cd80ed3bb9b9b72bbf328f64b3c",
+          "source_sha256": "bfd59e5a2155e523aceb9da4fbec1942804b91ee21de2b1a45dde4b0cbcd1cef"
+        }
+      }
+    },
+    {
+      "name": "leaf021",
+      "edges": {
+        "path": "validation/S042/certificates/leaf021.edges.gz",
+        "sha256": "fc306a7f22531c1d66c910b1c9cb80a578eba52d73076caa82e79dfb31c59363",
+        "source_sha256": "bb4b722063b4875aab5c82fae88490d5d26b299b8d52f8b9702a8fa40641e503"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf021.drat.gz",
+        "sha256": "68ac219c4ba36e02c9d71478059843adf0efa17671e0c185d24ed38d7b0d30cf"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf021.cnf.gz",
+          "gz_sha256": "94278d641476649a9b973d9ff81f75e69d1bd16570242c7dd76e33e164876d13",
+          "source_sha256": "1967056f4dc82684bbc65be2ec9fab76eb25e95b93fbebbdf2d16d805596026f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf021.lemmas.gz",
+          "gz_sha256": "f5f376d1df07d97dd25cde9e2363cf2f575202f01d4c4362794659117eb036c7",
+          "source_sha256": "e96af9b6964dedba5eeaa2374a8af6192aef7cb06059e429159e6592c0f66246"
+        }
+      }
+    },
+    {
+      "name": "leaf022",
+      "edges": {
+        "path": "validation/S042/certificates/leaf022.edges.gz",
+        "sha256": "114cc07db2ceef99156b92b6b06b1bba8a1563b50648e7de6e7f59e8a0350d66",
+        "source_sha256": "6abec0487862ad57e63fdc56c3b479d7a534429475271721506f195937bbea25"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf022.drat.gz",
+        "sha256": "f211bfb8553671c4e7a59aed36d740ee39779005afee88a58e29d2ba0df4467a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf022.cnf.gz",
+          "gz_sha256": "d6e6dc28fee7ae020820e790e8ce8b08ccce8c26d9bc24e21fe8d1b088a12ae7",
+          "source_sha256": "e7c6434720053e80ec87ec7a17de05536cf4b2888642d0da29eb7fb31a5b424d"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf022.lemmas.gz",
+          "gz_sha256": "a46a5c5ac39c3242c6f0c7dcaf82bc5da601e194123de50570804f9186d1bd2d",
+          "source_sha256": "54f30225462df28aa10c254469553b1e63d2da5ccc3d2302e20e762d028822db"
+        }
+      }
+    },
+    {
+      "name": "leaf023",
+      "edges": {
+        "path": "validation/S042/certificates/leaf023.edges.gz",
+        "sha256": "a0fc697925b6d86ca3bb3dc1ee6e9313efa3e7b4e3dd9a52b2313acdd9ea0a01",
+        "source_sha256": "80a89524adb9c741ab6678a313f265f6064a9bf4155641903167fdf12d9a2fdd"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf023.drat.gz",
+        "sha256": "8a8dc8119acc2360253b07ad910e21833fee20dbc52733b289447df161724a6a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf023.cnf.gz",
+          "gz_sha256": "77f70f68a98e881161db6c18c99c70cdd4d9468c663dd286e26b5cb7f99df150",
+          "source_sha256": "1a24e6a92a7bbc04c0fc18cfb1e461e6cec2577d3493a6bb2e7de776e902096b"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf023.lemmas.gz",
+          "gz_sha256": "e35e36e6698761a179261ce01212750b6b537505b787c50319621b3db5a6d735",
+          "source_sha256": "47d7e64f69eaa783dca83bca20f29286a6a3a9425359c68a80eea7f96669e3ef"
+        }
+      }
+    },
+    {
+      "name": "leaf024",
+      "edges": {
+        "path": "validation/S042/certificates/leaf024.edges.gz",
+        "sha256": "6461f8e21450f74744e4f04d00874a53ee1387e103a4c1ca0fb88babafe4fdf2",
+        "source_sha256": "2a45761cade13bc756bc025754d0d4b2d6de989d1514d8856f1fc789555ed5ef"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf024.drat.gz",
+        "sha256": "54740141dbd669dce1b9766885581c85cac8123edf134209a3f71179cf87b01d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf024.cnf.gz",
+          "gz_sha256": "b3430433eeb9d2e57bc445cddf9ea78148f11cded5f5768c9e19836628cd9bc3",
+          "source_sha256": "322c61ba8d55671577497aa2beb14f116ef1c985739e39a1ba44a044fddf02dc"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf024.lemmas.gz",
+          "gz_sha256": "c253cb8a9f04c9880842f0b24f269c1b1852331248bd1bfda574afe6da7e3b30",
+          "source_sha256": "6132944af09a4e855f275a58f5388f4bbe01e966b6a046cfa344845ac9811a84"
+        }
+      }
+    },
+    {
+      "name": "leaf025",
+      "edges": {
+        "path": "validation/S042/certificates/leaf025.edges.gz",
+        "sha256": "c03091d85d27f87f656b7920ab9b21e53fdbba01c44d758bf10fd9d66aed3309",
+        "source_sha256": "bf983d3861ec038f769cffda980968759b0c25ee945cedf0099b312337f0fea4"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf025.drat.gz",
+        "sha256": "91723e519707f521972dfe151a38988db74705dbd7a7496a2e75b01103b2cbf6"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf025.cnf.gz",
+          "gz_sha256": "f855c88ef69e4466db162a192c50b0a05796d65df5b773d8e7d32d33cf8fe93c",
+          "source_sha256": "2e15c533b8419f4de21874b4c0ff2e78c3dcf8f9c2ce0370b24b956d101b7c53"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf025.lemmas.gz",
+          "gz_sha256": "c68695a31edd6a9c979a1767ffcee8fb4cb5e91c4be1ef982cfda5eb4ced0715",
+          "source_sha256": "420883fde4ae5fd047a89908f04702f3929f59e6dc9b9f049f75f31c76b6d11a"
+        }
+      }
+    },
+    {
+      "name": "leaf026",
+      "edges": {
+        "path": "validation/S042/certificates/leaf026.edges.gz",
+        "sha256": "d4b68e8144a4bb769a23a3e3147a9d5de05bef432972d645e59229003823ca81",
+        "source_sha256": "d961a5430580d6ba1441c019430ba06a995b19c390ae891feb9c2cc18594e373"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf026.drat.gz",
+        "sha256": "f035960b32d831818ed1f5787b67fa5731ec38a5f4896167046e22a105569d34"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf026.cnf.gz",
+          "gz_sha256": "91be0aa0a4287c2ecf9c1127ab7753d01643f8acc8f96d1104b18e753cff3326",
+          "source_sha256": "497c6d6c1d092bf9e44bf3298ef67c8461f6ccdfa527180214cc936050621d55"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf026.lemmas.gz",
+          "gz_sha256": "e9c41c3ea780056e77aeeb76e23d2c6195f0c853d000c9afb166adae00a2cb6c",
+          "source_sha256": "a4ab81120caedd98206a87eeee40338a58eb01894494a6aabfcd94f93f3e122d"
+        }
+      }
+    },
+    {
+      "name": "leaf027",
+      "edges": {
+        "path": "validation/S042/certificates/leaf027.edges.gz",
+        "sha256": "193a2af15dc6a049029c1f8e2b786358066af1062ceecfa3b33cf5fd57590b31",
+        "source_sha256": "47f12181306c62d1f2fcfaf938dcfea0e02e160720e1b425a99846739f3c5243"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf027.drat.gz",
+        "sha256": "d645c8df74522ad167c6a96ce0479867725cc48996f35811fadc4dde45d36f38"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf027.cnf.gz",
+          "gz_sha256": "716ec16738f06afdbb297c6cddbabacdea1ce61b1db0b365fe3853ca3d13a533",
+          "source_sha256": "06d87652503e222e81e6b9febde95b92a69bc07af821f52e6f72b0627e2559ef"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf027.lemmas.gz",
+          "gz_sha256": "3633d6cdf9d1ccafd831f9cc8f35b0f153144455bf5b69e12b2a2e7f1ef7df8b",
+          "source_sha256": "6e2bf74c6247d76af3711cc32ae6229227bd39dfbc6ddba515a726ecb01bbecf"
+        }
+      }
+    },
+    {
+      "name": "leaf028",
+      "edges": {
+        "path": "validation/S042/certificates/leaf028.edges.gz",
+        "sha256": "d7bf03d543d32b95b8a26b4a4132ce1ad6180dc71426930cd68017affed71d4c",
+        "source_sha256": "0ca923e330ab9c3e4516f9c584d7e04504b08aceac9554c5625d11dbee4ab422"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf028.drat.gz",
+        "sha256": "5eb0af5b79f66596e87f4866abd54e26b11e321690a1d314f0f5e4ea79d7c315"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf028.cnf.gz",
+          "gz_sha256": "99dcac07b156c667e2a7246ba5939e6f68c1496e58e5ef65afd1af09eaad5aae",
+          "source_sha256": "1e721a2243e31b0ce7a22a54c50798c58dc7c8ea6d2a9c36fbdcfc6331626315"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf028.lemmas.gz",
+          "gz_sha256": "74af7c18a41ba6ef007720526dbc8f05dc80528f6c5e78b3f6a5b94d7ca0a35e",
+          "source_sha256": "c8fb5ebfa268a205b9aa7f64ecac49eb68a436ec17997ee7e618d858977dfdf9"
+        }
+      }
+    },
+    {
+      "name": "leaf029",
+      "edges": {
+        "path": "validation/S042/certificates/leaf029.edges.gz",
+        "sha256": "aed86ff8b290cf9faaf2a151c0709d510ad735f3324d90db7c1ff6814a7b0b5c",
+        "source_sha256": "efd3e05852ee67e780f4202c8d8794633764c8f57b5c051088547d39f13da24e"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf029.drat.gz",
+        "sha256": "6185f56ac2b6c3e3a0c0aea77fcb9664fe3c86f6afc565ac531149da79440130"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf029.cnf.gz",
+          "gz_sha256": "fe241268704218593378ad9aa98cbcbc219a68a2be66e0c9fe744fe9a4dac622",
+          "source_sha256": "9b90b71558fbdc281e7d22f441749a6c04ed4ae9b49343cda593b5bedf85863b"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf029.lemmas.gz",
+          "gz_sha256": "2a76eb35b495fdae779b53a29fbd6888b4f8360714c8cb0c8ce510c632d69f49",
+          "source_sha256": "c4482598d326a247cccecb60a5b4cca92269fd2e289b608b1e57d69e618ac9bf"
+        }
+      }
+    },
+    {
+      "name": "leaf030",
+      "edges": {
+        "path": "validation/S042/certificates/leaf030.edges.gz",
+        "sha256": "375927349cd0c2b3966f67b49d025e3ead0b0de530da5ee161f0c1b3830be12e",
+        "source_sha256": "72ae9b01a391ad40ac2e555322716aa31597adb392a08588fa94bd7206442fb7"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf030.drat.gz",
+        "sha256": "fb5f143f3543b12368a67db8be7b3f864957402ef0040d69428e2a081f92d9c3"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf030.cnf.gz",
+          "gz_sha256": "488eb572b11bf8f0c75017e6bc9ccea3dd50bd64da85bc3e339170d5bc45690c",
+          "source_sha256": "065d244f945cc4450c6e2712426110e2cf08ec33224d69810c8d67fa299047fe"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf030.lemmas.gz",
+          "gz_sha256": "6c00a111c2433bd24885172e97c94149fa3577d0ea24cc013dbff40d262751ca",
+          "source_sha256": "ae751baca29c435338c90e386dafe9f6b2716bb6491cef4f71117e8f40c3c045"
+        }
+      }
+    },
+    {
+      "name": "leaf031",
+      "edges": {
+        "path": "validation/S042/certificates/leaf031.edges.gz",
+        "sha256": "182c856afa9f5dd2a911fc4cffd7fd3e9c720cb3d3372b609d5552bdd16b5918",
+        "source_sha256": "10bdae55f0c835812a96b9a73911b5b5fb57772845527a28c1f0bdfa7e1570c5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf031.drat.gz",
+        "sha256": "623991d38638b7da4338723f8f5a9a898ae3eaf611668f878b7d7fb0dd7e9ae4"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf031.cnf.gz",
+          "gz_sha256": "6de68a9ef7ec95453a9c92652ffd743f68660c87358ff993a592d49d849ccff3",
+          "source_sha256": "ab9357a546dffb3a6bc174ac154946afdd0713aaee19fc235c7d05a2ede0a7f8"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf031.lemmas.gz",
+          "gz_sha256": "d72af891b51f66b6cc744f9dc29a7c27eca706180ff737d6fe0280b6338f2696",
+          "source_sha256": "ddfe9e5bbf56d11a2754e9c5e70607f1c62fa95a2cae312d13ea8a32714488c1"
+        }
+      }
+    },
+    {
+      "name": "leaf032",
+      "edges": {
+        "path": "validation/S042/certificates/leaf032.edges.gz",
+        "sha256": "04f1671dd924e5a9f952bf6564e412bcd0496edc2cae8273c4f90f1e6950b07c",
+        "source_sha256": "4aa705270b7886df945b1784a0985e9bb0789e2bc1248967c84dcb8539fc2f2c"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf032.drat.gz",
+        "sha256": "867decc4f8060ac3a04ece828bab5e13ea1d7c78a134920a308d14f1a6888883"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf032.cnf.gz",
+          "gz_sha256": "a833488fc2cfa67750f14ed7c69b2fbb0268e55902955840c3a1b217b44529a9",
+          "source_sha256": "f104ec555bce1bac07c0680f318a629b315e3d53caea34edb5e4f0933ee4058b"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf032.lemmas.gz",
+          "gz_sha256": "2882118a553d42693aae973533c684922169a1775a2fe5b3ee441691cd82d35c",
+          "source_sha256": "ef955dfa9bb3426aff43fd014862c33db985f71a2350e48b8ed8c16bd36d1887"
+        }
+      }
+    },
+    {
+      "name": "leaf033",
+      "edges": {
+        "path": "validation/S042/certificates/leaf033.edges.gz",
+        "sha256": "cd28f5c8f94334faa432fe4d6a1a0fdb0a8d0b23342073857963e6d299f9385c",
+        "source_sha256": "5c8373f24eda594c7bef18a51e4d10e8cf876732e365965faa59cfb0aa8441f5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf033.drat.gz",
+        "sha256": "3c04b1854cf88fc2a7566a11ebdd43ccfca2d072e5f85b28d359526ed05c09cc"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf033.cnf.gz",
+          "gz_sha256": "4f1121363835da636d42ee659bd07371401b526c650898c1a796b1499dae23a4",
+          "source_sha256": "b70570db93409165fe8087e70ea66fb1975afe4d862ddbdafef1defb03ef5776"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf033.lemmas.gz",
+          "gz_sha256": "661bad27a4bcaf3704c90133ed42c8e8e5d534da5a033f76bef30dc06009d26b",
+          "source_sha256": "5604079fcffd16919de162741854783a3735a1715cce944d08dc08355738c636"
+        }
+      }
+    },
+    {
+      "name": "leaf034",
+      "edges": {
+        "path": "validation/S042/certificates/leaf034.edges.gz",
+        "sha256": "bc56b3fe64134debc7e5e508d3528fa548e8916289ff7c86917dac0907cb9a78",
+        "source_sha256": "d725f89b65f7a209c2613a14f830dd437d9c80013ac06dec581e7f509f1741cc"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf034.drat.gz",
+        "sha256": "7e0e63f2ca65667529d9e5236f6ee003df3f608e9e30424134c33eb76caa348b"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf034.cnf.gz",
+          "gz_sha256": "c18071dfcde493f8c6be44be376382ca1924a7c5ef7ab8581584ad318d2043c7",
+          "source_sha256": "887319f78b3357f95cdccf5c70cfd924b19dadd40013960ec13a6828ee1ceb15"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf034.lemmas.gz",
+          "gz_sha256": "f60a12b9f238a525fd8ff1240928ffb1acfb425600ae107753a419f16e1dae9b",
+          "source_sha256": "618efb3e770f170ad19a41bf638ebc7ddcac1087fb4b1eea13874c9f2045901e"
+        }
+      }
+    },
+    {
+      "name": "leaf035",
+      "edges": {
+        "path": "validation/S042/certificates/leaf035.edges.gz",
+        "sha256": "3778921bb0d80d44f0024673656f18d6836107a26c9889ea3756eb9463cf8c98",
+        "source_sha256": "c157e763c6e6064e201967dcf08456e93febb0ae64e5456a4032a3c6a4d824d0"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf035.drat.gz",
+        "sha256": "7e193a08da30938ae2def7af00052d7b8f53d85f0f541ea30971367788c2464b"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf035.cnf.gz",
+          "gz_sha256": "059315c89b1051eb6ecf9534beb176cdbb929711939ac7b30934399cb39420ce",
+          "source_sha256": "f3e884ac72f9e5cdf73653de7676497ab256b36ec6aea2385fcbc5d33a68551b"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf035.lemmas.gz",
+          "gz_sha256": "632ade209eb2676529384bcc77ceedc1c675f853ca59dd737dedeed95b6d38b8",
+          "source_sha256": "71940420ab85dbb84264abb541b493678c9310c8a93f1050c7425deb0df3e685"
+        }
+      }
+    },
+    {
+      "name": "leaf036",
+      "edges": {
+        "path": "validation/S042/certificates/leaf036.edges.gz",
+        "sha256": "9b6f7bbb48285439a134c37546bda18d30c1cdcc1b46f0b4cad90dc33b31bf8c",
+        "source_sha256": "8952fb7ca7724ebd3d90dee52be9bee0a20d6a9cdff2488ff64e470fa91c2d07"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf036.drat.gz",
+        "sha256": "cfb483ca1450d5e2fe44f516e45fa619e30b44734bf2b57af348b94e9005f495"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf036.cnf.gz",
+          "gz_sha256": "46327ec1cab406f9c316da7612a76d2e7730c19524d319f1631b6df31a0843ee",
+          "source_sha256": "d8790b85927282c9ddefe03cbf6f970839d45e6a6fd3ab4e2bd772ce95e37d35"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf036.lemmas.gz",
+          "gz_sha256": "767bafa9c87fc35e4957eb68a471d583891ddbc94dc8c43d6aed3c991302b2c4",
+          "source_sha256": "354d0e61d2f0a989e51279d3724a40615671d34bc9571c757198758e3c8eb6d9"
+        }
+      }
+    },
+    {
+      "name": "leaf037",
+      "edges": {
+        "path": "validation/S042/certificates/leaf037.edges.gz",
+        "sha256": "166286ab7e51cb0a5fd399b4852aa9cffe5fe85a2aa4baeb930ff4a2334a3322",
+        "source_sha256": "5342a65209e7c3ba3b5a570669c9f45b031a6e9c1287eef1704507ed414e7edc"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf037.drat.gz",
+        "sha256": "c5cd56072d001428a406dade06ebc2e7bfbfefea753ca0b30102a11b0e7506d6"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf037.cnf.gz",
+          "gz_sha256": "35cf591a44b86caa7af5385e1ce33e0509cd6c2b4afc831dd99cd05505acb81d",
+          "source_sha256": "b483b1f935f09442f5f9d736627ad6093b550d921c944ed8dc837b3bae986c72"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf037.lemmas.gz",
+          "gz_sha256": "aa868623786ebd9895f6e956825b0169bf114afc688aa220f14a98b98f0c8d1e",
+          "source_sha256": "4b578229384de8962525ae7bd971e9953fc452a6062e685d735c5bb587307c83"
+        }
+      }
+    },
+    {
+      "name": "leaf038",
+      "edges": {
+        "path": "validation/S042/certificates/leaf038.edges.gz",
+        "sha256": "d1e5b7280ba9cf9bf54efcd1b4745820861a7c0f09cf71a15d094b18150e7873",
+        "source_sha256": "4b911eb4a5ccc0f1edea0e28d4628226ccff14f3a004df67854ab3bae000e436"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf038.drat.gz",
+        "sha256": "8d92945a6673a27cf93912535921ebeb4233348ffe49fe3b730d81444319eb82"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf038.cnf.gz",
+          "gz_sha256": "d60f2d1e4e33869ae6a78dd62f7632f9fae567a9f726199eae6fe76e0df83813",
+          "source_sha256": "d257684fe96af22bd88b1a990895974fd68d6a1f735654d66c8bd1057f83eb30"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf038.lemmas.gz",
+          "gz_sha256": "64c8e5f99813c89b166d86e50d589c53cbe9dbfaa66e96d378e2d7ffad30860a",
+          "source_sha256": "a8b5ea067ba3929582217710f03d52d9c490b68e453ae282130f61e1fba1a25c"
+        }
+      }
+    },
+    {
+      "name": "leaf039",
+      "edges": {
+        "path": "validation/S042/certificates/leaf039.edges.gz",
+        "sha256": "236a7966cb1cff1b32b58ff1a1327d319ca2e304f38954897525d0e10d695508",
+        "source_sha256": "48ef56dd2c8ac7205806049c46075e92da47a603539eb2b62cad979b2c4c15d8"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf039.drat.gz",
+        "sha256": "344b63a8792828e8bc2f7f8dd937c38d8678bf485b2e5af5d80c3c18e0741f7a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf039.cnf.gz",
+          "gz_sha256": "7a7e9332db43aa95f4447a1c4b8efbdb38187bc86717c6ac030b6fd898939949",
+          "source_sha256": "c9e353b7b4839f072e976cd9f4c4d2cef94c7453a01095d9efe2c4b0696408a9"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf039.lemmas.gz",
+          "gz_sha256": "72d401751e94705baac9ec91e6155c52225390408589f5f686dfaae7d98ab6f7",
+          "source_sha256": "7acc630718b598e8b00b93bf1dc752565be5fe13bcc07d57ae4439e9d660e4e5"
+        }
+      }
+    },
+    {
+      "name": "leaf040",
+      "edges": {
+        "path": "validation/S042/certificates/leaf040.edges.gz",
+        "sha256": "880a0a48873bbba331693755453b485aa2ae2b7daca24e3e19b5a364c5ac33b0",
+        "source_sha256": "fe10faee4834707786da7de0398fb18eb765d6207ae8b8cdcf2ffb050f90d595"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf040.drat.gz",
+        "sha256": "4ffe1811b7b46400ff815a8eeea42e08ce25f128e7fecdb595857fda9b1b0de9"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf040.cnf.gz",
+          "gz_sha256": "87fcac7bd2259a5c8215855ecd2a603015176ff6dabff64d597cd2cdebfe8b2b",
+          "source_sha256": "2473b9c35c5137928fefcb832b86e61c6d015bb7dfa3941adf82042c5c7dae2f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf040.lemmas.gz",
+          "gz_sha256": "b500fd79a5b7329e58f831faa9bf8ab4d82aa22ed98d8ce8c429fbeaf6d8df4f",
+          "source_sha256": "6dc74751118526e4c50e79bd979cae67833555072b6e715273a82a3808de5071"
+        }
+      }
+    },
+    {
+      "name": "leaf041",
+      "edges": {
+        "path": "validation/S042/certificates/leaf041.edges.gz",
+        "sha256": "6e694323538224332a2e038dafef1170f3f2265353617065f8dfc039324a2694",
+        "source_sha256": "13674944877cc99b99a7037f87686a875b4280e8f38285e3bca6bb7c5c9cba4a"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf041.drat.gz",
+        "sha256": "b8294b7803651f2d7f9cabf3ba81e838a4bd6813664956a8222d1c1e493ae3cb"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf041.cnf.gz",
+          "gz_sha256": "2a92240b937cfc6fa95837ab994b1ad3d090f32742cfa342a05db561525c47fb",
+          "source_sha256": "67549a08f1eb47143882a96c31b17251627d8b5c65c36c896ed00465f6072034"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf041.lemmas.gz",
+          "gz_sha256": "ae8bf612ef201b33f1f04d4869e0c6c0aeb4a1150845c1fe7c700f3e7c03d14d",
+          "source_sha256": "52eddd239c516faad3b30aede4bd1e5fad7131adb66445edcc425b97a85fb1d4"
+        }
+      }
+    },
+    {
+      "name": "leaf042",
+      "edges": {
+        "path": "validation/S042/certificates/leaf042.edges.gz",
+        "sha256": "f99b35bafef6d64e12955b12b399e3804d151aa77b3691999276d0e6ed76614e",
+        "source_sha256": "1bafabcdbf9bcb82f638a0cfec357da2a0063a54e779c21427db9025f3f822dc"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf042.drat.gz",
+        "sha256": "0ad7865942339b4d583d56e77ee7bc78a98aae85b0975d83c9a27accf02eff33"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf042.cnf.gz",
+          "gz_sha256": "bf3c64830bfb6f2de3d2fdf3d449f5b0776f70d8a29c720f2703b89e5bc88f80",
+          "source_sha256": "780fe1ab2839abf83684318feafc1f25dda6a1da3805820d35df8c032da14ad0"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf042.lemmas.gz",
+          "gz_sha256": "bbae52c6a4247cf40b4cc6d09ddd750c46b242c42de758697c449e2b495a0a15",
+          "source_sha256": "3a1b4f2fef523d3c68341ce475708666a33f5a6e529fde0f53b53aa76a2e45d4"
+        }
+      }
+    },
+    {
+      "name": "leaf043",
+      "edges": {
+        "path": "validation/S042/certificates/leaf043.edges.gz",
+        "sha256": "d21ca72e2eb42343394c98807364be94621f39602a8a8232d755a9f97c25fe91",
+        "source_sha256": "29179091bfd5560be65b385783f8ac99b0378b68ec16cf9f2b48437bab8d3c55"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf043.drat.gz",
+        "sha256": "3a1496f8417ac4040057a74895a2e19fa0ecc69e18806fdd4a6a55a923e2542a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf043.cnf.gz",
+          "gz_sha256": "b2d1457965c58a07e306d16d997c8f5ac4cf070aec603436e961608890472fc4",
+          "source_sha256": "7e265fe80c3ea46506bad87eacc05f8ac0dcf28f08ce3f2864c6bef145fb1f28"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf043.lemmas.gz",
+          "gz_sha256": "b537570293aff4a1ed2c8d9d56c3e01fa166eb58c36768fcff7fa9d68a06d5fe",
+          "source_sha256": "a65edfef9a55f11caacf9161cce8a493d13ef8b8c18c8e3871ac6a88ebc761b3"
+        }
+      }
+    },
+    {
+      "name": "leaf044",
+      "edges": {
+        "path": "validation/S042/certificates/leaf044.edges.gz",
+        "sha256": "bafe9862b7fe398912d55860e37b9e22711d4645ee6c9cc0068481ba1692a2fd",
+        "source_sha256": "b26cb6c64339fa55f29d7e6d6d809cb5514415323835f348be714179cb7e56c2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf044.drat.gz",
+        "sha256": "4d77aec1aacd4f8e6796e19fdd9df0609ce7ccc069e0fda91c6e091f5b9a7d7d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf044.cnf.gz",
+          "gz_sha256": "57be6c0d09a55ea08881c5f28e395732c2c6d62e7cdbf2197889541e59ebd819",
+          "source_sha256": "45dc7d20f22e593d1015c7e13aef18710b25bf3b0b635806ab11f7ece75c7421"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf044.lemmas.gz",
+          "gz_sha256": "e33e652bcc17e0f422c9f64ed2bb63def93c482e7d79eabcc66c9102876fbf65",
+          "source_sha256": "421f019c28c582cf90d8e99c8c3446c4bc47d053e51a62e4e5b03ed56b844280"
+        }
+      }
+    },
+    {
+      "name": "leaf045",
+      "edges": {
+        "path": "validation/S042/certificates/leaf045.edges.gz",
+        "sha256": "c401bcd191dce665d041f05c172444ea0f0f3df11d996e8cc7010d1d6a78d8dd",
+        "source_sha256": "f6a144885e1bd2ae2ce020d24ffab4de1e8686484a72686744e920e88ea935a8"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf045.drat.gz",
+        "sha256": "17a8237027bec9a05487aa037f1a7c43cf68caeca1f9cc4c7f4a6bf23702d7df"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf045.cnf.gz",
+          "gz_sha256": "7266ffdf8e432575f36215b230176a4b20ec3253a313347c1bb5dfbcb2710505",
+          "source_sha256": "0aaef7c01fcbd9defdabda03ea44cdf4a34f8430e92b3bb8cbf95499262b2f73"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf045.lemmas.gz",
+          "gz_sha256": "93c01dada69c0eb07c503a66fe5a85f0816acfe99aeb8778ea61fdea0bab0e9c",
+          "source_sha256": "da90a270e35c5ba5f54a447c8a9cc36fc5ba6dbe92b0243cb9615e40bf4ef010"
+        }
+      }
+    },
+    {
+      "name": "leaf046",
+      "edges": {
+        "path": "validation/S042/certificates/leaf046.edges.gz",
+        "sha256": "8dcd2e3bddb73b47666a2590feeea7264317f43b63f05a8f122078ccef263949",
+        "source_sha256": "4d024ad9ca7f8a28ce374597f151e21cf516dea8ab89d1c12cc107999a1ec01d"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf046.drat.gz",
+        "sha256": "de1c8cee28819091626e6b9fb33b8a0f3da82dc199ef7981b1c68848f4e9edca"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf046.cnf.gz",
+          "gz_sha256": "0473de382c3fa3e5232077326ced8a4495ecbbd4975209575faafa2fb54c5922",
+          "source_sha256": "c8bd7b9d38bc5257951857fcb4341bc67b8b5c38877747191d0e78ce350a9401"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf046.lemmas.gz",
+          "gz_sha256": "15989c703fe46ad6e70f660c486cfcf41bf14ca2123b6057de08dac6e7af9aec",
+          "source_sha256": "99c5b1b304734286b99483f0a9a41a3f966be5e114a16b571acedb03e960721e"
+        }
+      }
+    },
+    {
+      "name": "leaf047",
+      "edges": {
+        "path": "validation/S042/certificates/leaf047.edges.gz",
+        "sha256": "b00c3d20fa036e0b7c3739c9ab8aee28956fc434961c78ffbbc46877c19bccbf",
+        "source_sha256": "2286f36f5e2f0cd58540822083e904c72942fc2d3be49d3b314d0f6e7bd80c7b"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf047.drat.gz",
+        "sha256": "fabd9b72178abbb137a8a6448d66d88e996a5e45b188f35e5f04c4712ca5b4f0"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf047.cnf.gz",
+          "gz_sha256": "40768ce03d1bdd2f30d77f2c10217c6e025b865c71f6c4c74feea4a0959ed939",
+          "source_sha256": "4f3d2ce9ae821659c5b54a0a9a0a9da1452e30f2c5573df406d28c66ce29dcf4"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf047.lemmas.gz",
+          "gz_sha256": "81b3daa6d8678ac0e3027925733eff6c3e34e3b695eb245d3e20f43a1b4e243e",
+          "source_sha256": "13357f146a8ed9c23f1974ca149432db7ea6390bb31da9aab1cde0c5343681e7"
+        }
+      }
+    },
+    {
+      "name": "leaf048",
+      "edges": {
+        "path": "validation/S042/certificates/leaf048.edges.gz",
+        "sha256": "1b44c06df13f124d2a1520f837225256c516c01f460e23810e7dc1f0084b44f7",
+        "source_sha256": "93fc64863de45c288719d6c1b38fd8370e4e422962fa2dfa18e81fba5435109a"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf048.drat.gz",
+        "sha256": "ef2c1cefe26f02b9fb6e2b1fbcd4df49b7071c506ac081b7d58bd58add1d281a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf048.cnf.gz",
+          "gz_sha256": "58416aebc316998278199b7a0c3f1434d081f89a56c4970f7908dbf5f51adbd2",
+          "source_sha256": "994a7735e44c84bdbaec2c320c1f3a597dd4aa510dbb45f6194565e5a3ae44eb"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf048.lemmas.gz",
+          "gz_sha256": "4f666923d7885e3fb5fa8b837236b10bd710ed47dc4bd110918b02d3f6bf5c62",
+          "source_sha256": "dbfe5b750d4a76eda472d2c75e2555546c69dbbe6dde9cdaf106894d5c50d865"
+        }
+      }
+    },
+    {
+      "name": "leaf049",
+      "edges": {
+        "path": "validation/S042/certificates/leaf049.edges.gz",
+        "sha256": "184455daa0f793546702f64c0bc430682903a71630ebc749c1f491ebcdf4f7fd",
+        "source_sha256": "dd6570d12ef289b5e4a76cc2d17aa10b320195367d1b8498ae89ab1f15917aee"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf049.drat.gz",
+        "sha256": "3b9327f5c6569c5cb6fa50d9aede98acdd712d509ac3cf5980de2d8097e47082"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf049.cnf.gz",
+          "gz_sha256": "1f9398e563e6cb7c84e9cba01494d9588ec62b9dc39024df576bcc3a199f7bab",
+          "source_sha256": "855104ff29acb097df54ea44511a404d4342f5a6c4a7ad53ffea2a9f0fd62cf6"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf049.lemmas.gz",
+          "gz_sha256": "c9eb75d4b5a973de7b2bfa421759ca4be20cbbfcd4706ff9111dffa8115c7e70",
+          "source_sha256": "6da079198c4e3b3a8931b3a15c755a9303eb29c6c2440f0d7da0078afefe19cd"
+        }
+      }
+    },
+    {
+      "name": "leaf050",
+      "edges": {
+        "path": "validation/S042/certificates/leaf050.edges.gz",
+        "sha256": "1c14ac170ff355be482afef7a4bd0f20d0aaf60b25cb1b3f41fabe65ad6bb2ec",
+        "source_sha256": "1cd738474349b5311951b0294cf95c741e09a8985444d9e4a9f6715729f9c00e"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf050.drat.gz",
+        "sha256": "41dbc265efa56814ea951b90cbfd2fb080bf7c9e34aec9c452e65a30b70952e2"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf050.cnf.gz",
+          "gz_sha256": "38c71ce0834726f107eab29b29b4139e0ebe29cf6801bc9df0e12edf30c0bae2",
+          "source_sha256": "05edb37428536b36f792b236ab09d712300928ecc7cd2f686af82a37f68a060f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf050.lemmas.gz",
+          "gz_sha256": "74ffa87865373b6b3dc7a11d07934918db1878ca2e4152766bf49e25af9f6124",
+          "source_sha256": "f385b0a48ef02dd099987996b27d68e2020a06ce0df0098092d5f0fcd48e4429"
+        }
+      }
+    },
+    {
+      "name": "leaf051",
+      "edges": {
+        "path": "validation/S042/certificates/leaf051.edges.gz",
+        "sha256": "50feeeabbf8a198cab96aae1e17fb04b93f917f1413169716929c2a84677c70b",
+        "source_sha256": "f6be771c36e92d92f64e1660c051037d7471db9554add2072670a8a8871b54d1"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf051.drat.gz",
+        "sha256": "6bd7a08d93aa02de0edc7dbf5296e38c182e90f9d25cc3bd7e8fd24fce44f21c"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf051.cnf.gz",
+          "gz_sha256": "86ff071a944a92315184bec6f8d9b0573313b10b1bc43bf43bebc57004fe2662",
+          "source_sha256": "4257fa5579a22a4bd3e1141678f9fbef31ca8aeb9a26b3f728ed72915433b491"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf051.lemmas.gz",
+          "gz_sha256": "08221272b112892f1c87ff8578fd6e4167d691cee9e73735d906dd4974ee47a8",
+          "source_sha256": "43b27cc5f3f47e79eb3620f99e22d1244c0619da8d05b12d50b5e890b5a1922c"
+        }
+      }
+    },
+    {
+      "name": "leaf052",
+      "edges": {
+        "path": "validation/S042/certificates/leaf052.edges.gz",
+        "sha256": "3d2c0e14b337aa83337bcff1864c171d60b95778b07f3a1764f998b0000f5d53",
+        "source_sha256": "3c3d5bc37cc6aa1cfbc54950b987824d65914a02aefe26556e370e15f966534f"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf052.drat.gz",
+        "sha256": "d29c6b175a6a7cbcc026d7d097b2685f859d4e4978ab7fcde3233d057fccecb3"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf052.cnf.gz",
+          "gz_sha256": "1816b2081d3e9690df69e8dbbbbff1c8723a7f7172d2aa9e1cd8a7636377d0cc",
+          "source_sha256": "1f668241b280589e8360bf7a7b650821150f4aa559079f0dbbb20f7cce58636f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf052.lemmas.gz",
+          "gz_sha256": "6faf433f410f09671720f8175ab1ea6c366ea311af48d75c3967c48b34bb241c",
+          "source_sha256": "975dd75e3d2b7206d63238f7ed756356e4337f9657e4e9a03754b2566ff2e47e"
+        }
+      }
+    },
+    {
+      "name": "leaf053",
+      "edges": {
+        "path": "validation/S042/certificates/leaf053.edges.gz",
+        "sha256": "9c4ddaab209a3f94cd03b53ab40a9ee239a2ff551a1e2eb82ab5075c25509326",
+        "source_sha256": "561f5f34ffa4188a24bf2a267794d9b15e26d6af1557b5d2fe4a612d793cd695"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf053.drat.gz",
+        "sha256": "02ac4605030f5f0130ea40eababd1f218a5b43b601b8801028c87b06463aff54"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf053.cnf.gz",
+          "gz_sha256": "2e3b2ce4915300b4772d4779ed4797d2047ae80913443c0beccfde9aab776321",
+          "source_sha256": "52a3509c5cd2b029d05f061660071c47a18ad6f223c830656102b26f7f57793a"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf053.lemmas.gz",
+          "gz_sha256": "476e7a9341941b269579be865cf160123579726e7add093758a6eec38454254f",
+          "source_sha256": "f5a9e82988bba3b541880c1ef5ad03bedabd52b6f8f02c1f2855721dc9f2be0d"
+        }
+      }
+    },
+    {
+      "name": "leaf054",
+      "edges": {
+        "path": "validation/S042/certificates/leaf054.edges.gz",
+        "sha256": "c77299f10064dbfc6529619c2ceecfc042a00abc8b2c43cf61012e8cf0522903",
+        "source_sha256": "c64bc8ae114b746243f73bcddb10ce4840568794dc92004de2d570562bb6efa2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf054.drat.gz",
+        "sha256": "3ccf2dc284d429c3acce82b5caa9fa59459865a84ace7f3d468dee4f76410f40"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf054.cnf.gz",
+          "gz_sha256": "02da824955835d170c034c582a923f6ce058987c1f6ca08017b0feeac2923838",
+          "source_sha256": "585fb5009bf8d1d9e517119f39cffe22f3ed257358f7f739886419084dd09687"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf054.lemmas.gz",
+          "gz_sha256": "1d7c13a013f56d18b0c20219e942a06c2da25a40c61a4d5d58c7b1de519ccc44",
+          "source_sha256": "be03eb5cf0170d82a0dde14173791b4457aad2d160f0d2d643027caa0a7d0632"
+        }
+      }
+    },
+    {
+      "name": "leaf055",
+      "edges": {
+        "path": "validation/S042/certificates/leaf055.edges.gz",
+        "sha256": "b7e053a020d0975aa8489d70195317e2a257701284496d58c94e79c978ffe7db",
+        "source_sha256": "ad80efd4d0f0b50d6655ac8db0e72e40434b51b35418bf1ed0f5d6e06589fc15"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf055.drat.gz",
+        "sha256": "59ba2890c9854d774d9f78ed2575af6c195b34f993cb47fea585a1809e5fc1d0"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf055.cnf.gz",
+          "gz_sha256": "6c9c619a1e2cbe33a1afc73b7b14a803ad9b81bc509b889e07ca2882f7601274",
+          "source_sha256": "897eb9867615870deae0057880bebbadd9f2bbe4359df3a71ed55ca754120db0"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf055.lemmas.gz",
+          "gz_sha256": "309f8312c8522e892145674a7cdb442a7febe194f24db2ea4d8098e144270533",
+          "source_sha256": "336fe42c851de3cc6489ded34777c0191ece9c80abaeb8c3dec73f5064399c96"
+        }
+      }
+    },
+    {
+      "name": "leaf056",
+      "edges": {
+        "path": "validation/S042/certificates/leaf056.edges.gz",
+        "sha256": "7e20ba23e0961c83bd7541b9511e34ae305a68cc491171627775c77fe5fb3e25",
+        "source_sha256": "6ebc0bb887cfe1b4b04a6378cfc4809808054fa5282bead5dfb1db2c1717f596"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf056.drat.gz",
+        "sha256": "19909d1a03784e11dd23da46c7f95ca86b7d8e025ec6596411aa919045c32014"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf056.cnf.gz",
+          "gz_sha256": "257fe9236236dc1b68e1b182d1884b33ef68f47e3d9d39f20c885883741fc1a8",
+          "source_sha256": "119f9929b9100cfc33d25bf3e4d4a3000fe7d5b60bfb4a9bbed427bf2b21d4f1"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf056.lemmas.gz",
+          "gz_sha256": "9c99851d7b527c1838ac5f3ac333bdc9de8c38f49f2331413780d263bef8b447",
+          "source_sha256": "c19a509a71c7677259ecc90e1a356f0cc431c77fdb553762d52a6abe03ffdd82"
+        }
+      }
+    },
+    {
+      "name": "leaf057",
+      "edges": {
+        "path": "validation/S042/certificates/leaf057.edges.gz",
+        "sha256": "84fb6e970faca7d1a6e2c8ed67a95d4539aa5b996a83782f9a33976e0a0f9a30",
+        "source_sha256": "3eeacc8bef3c93f77cb25dd123c2c13cf807a08efa889de5c5695b481bfea2bb"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf057.drat.gz",
+        "sha256": "554c9609ca3e71e4db18ff2306137bcbf1cc7d7b5b3a10d9c39f2ce482ac5a0c"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf057.cnf.gz",
+          "gz_sha256": "a9dad8b8223432e21d577d83033c93ed827eeb7a7a655454bf0a358d7b11deba",
+          "source_sha256": "5a7803227b7b45515d1058173cbb3b65f48555551b40a913d90c13d352c30623"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf057.lemmas.gz",
+          "gz_sha256": "20431a8b197d1d938b5de86dd6d3aeb5eeef88c2a0fe2256ec4b850667d8576b",
+          "source_sha256": "ea9ca434a950f79d9e7d39841088ba0f5617827bb84c44d7ea6144db327056ac"
+        }
+      }
+    },
+    {
+      "name": "leaf058",
+      "edges": {
+        "path": "validation/S042/certificates/leaf058.edges.gz",
+        "sha256": "5b4131e1b99e10bb9462a8067f5f7204c3366e773d78172eacefccf767cca7dc",
+        "source_sha256": "43a61dc415fc43d42eddee66c36b5d94378422348f44cb3aa9383d05dbe03bc1"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf058.drat.gz",
+        "sha256": "ec2be5d3eb8e528cbe6d25b1ccae4c4c9247a9c569f125e164c1e1eca0cd1cc0"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf058.cnf.gz",
+          "gz_sha256": "7c0ea6345af680367e441067291b66116655a6e6217f47ac9bc05f02435812fe",
+          "source_sha256": "5bb493e12d30cf8e583cb01a485f6974b86ca50c14ed5c8ec204cdcbb823dcdb"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf058.lemmas.gz",
+          "gz_sha256": "db6af147629baadd2ae22976b82e0f50926d6f93c3d970aa580b259788aebd37",
+          "source_sha256": "dc7761762e454b415cbb236d60de273f4e1e76efc9057829b83b0ca193691464"
+        }
+      }
+    },
+    {
+      "name": "leaf059",
+      "edges": {
+        "path": "validation/S042/certificates/leaf059.edges.gz",
+        "sha256": "54c597f5411512e28599d1ccf6e7d644c543069799d5606eb5c568195f9404d6",
+        "source_sha256": "bfc118cbd70079cb53727dc87ef92d48dcc40a83bb7d1f8f2ce2c796ed8daa2b"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf059.drat.gz",
+        "sha256": "9410acc69fe8c7d79402b1a7510d55e04248311ee3cb63bdc5045d6e70bebdeb"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf059.cnf.gz",
+          "gz_sha256": "9fc0e44d64c998713e3c8a63da37d23fc32a977dc9ea444297f7b3a137dc968a",
+          "source_sha256": "d1fadbd46839969f5bab9444758dab95d859ef0c0c18ef005ab60bfd8fb4364f"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf059.lemmas.gz",
+          "gz_sha256": "062df35879d8eef50b5189a37961d538daabea00b530a89958dbb89db66e1ff8",
+          "source_sha256": "ffb85f474bb7fd4f64994d74c46ecf63703623c00719a8f1fcc5fe85254f6fee"
+        }
+      }
+    },
+    {
+      "name": "leaf060",
+      "edges": {
+        "path": "validation/S042/certificates/leaf060.edges.gz",
+        "sha256": "1e16e5ceb791f5ef717393a00d6e82fc1d97128685013a0c9f08af76ca6eb8e3",
+        "source_sha256": "b48dfacfdacf29bfcb327758d10715556818827dd56448912e80b3ad8a2f6dfd"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf060.drat.gz",
+        "sha256": "ea0813dddfb5c9a5f3c94c9b4e49f1df75ddfe314ca5ba719c0aa97a4956ec2a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf060.cnf.gz",
+          "gz_sha256": "33f7ddc7addfa0463c5b50839c28f581df0cae1e05246c0a2e76f318a0abe085",
+          "source_sha256": "74973cb9c2016135fd5ee60a0e99dc5cdbfd53416fbb1d253731bc0d12d2907a"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf060.lemmas.gz",
+          "gz_sha256": "c440a138c5756cbbeaa711f31b460ac9eb7d84af8b7df978b3521a990da91731",
+          "source_sha256": "4836a5640580fe4f185295167a7d5df597873b7c4b1744c706d2787d864f6b7e"
+        }
+      }
+    },
+    {
+      "name": "leaf061",
+      "edges": {
+        "path": "validation/S042/certificates/leaf061.edges.gz",
+        "sha256": "6de6c8db0c84b8253cc4379fb359433929df670867f7388bccf92139cec7ab05",
+        "source_sha256": "6892180a75595710f277996dd4240bd7b1b7af19d40c3a23e8faabe40d82cb6a"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf061.drat.gz",
+        "sha256": "063e840c56c6421b8d924a8b546b2ed6a0146df385baa983bd694425b5e89a19"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf061.cnf.gz",
+          "gz_sha256": "7fccfcecc8869934b45fbaa7b552af4894f2b2ab13387be584e186cc01f6729f",
+          "source_sha256": "ddc8982401e3da44b62a2eb2a874707f8a660b0a5566c2dba7b7a5b4a98530d2"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf061.lemmas.gz",
+          "gz_sha256": "1c439024b25164f31c44f9950556bfc999bcd5bf58757d41e3e417ff7addfe80",
+          "source_sha256": "5a16d9245fac696575adbbb0bc6d8ef90061f214ae4e8aeb24f3dcd2f75b5246"
+        }
+      }
+    },
+    {
+      "name": "leaf062",
+      "edges": {
+        "path": "validation/S042/certificates/leaf062.edges.gz",
+        "sha256": "725852c77a54a08481776797082919c1086f5d911de762da11d8b306676b6e42",
+        "source_sha256": "9f685281955f8fe1dd304a0e9eb9393db9d8a32097d582d43789ed2a21e6e7f2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf062.drat.gz",
+        "sha256": "54d870143a41228db07e2dc88a10d1e83fefce2c4634e9d6fdc4f338e3ebee59"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf062.cnf.gz",
+          "gz_sha256": "100bda714d0f6ae4e796ad0200a5ceb3fa814df2c5103c9dd24bbdb10f11c5b0",
+          "source_sha256": "eb4ed5eb70ce212e94a1a923e9af626392c0d7dd6644a76bf0f9c19367556167"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf062.lemmas.gz",
+          "gz_sha256": "a799102f4fe3a7763a3dc3ad783ad10b3fb82aa6be97f2ddb09fb3c471553cfe",
+          "source_sha256": "862b66c130e3b10035f87170c8e5bd887ab4cc6076b43ffd5cd46fa157e0ad22"
+        }
+      }
+    },
+    {
+      "name": "leaf063",
+      "edges": {
+        "path": "validation/S042/certificates/leaf063.edges.gz",
+        "sha256": "292082f9cf9e838e4079ddd0ff02ef11ddc3e632332f48a97cb5c38713bcdc84",
+        "source_sha256": "1e7cee9e03360b8821bda3301650e65e69ddff38cd6c9890b5aad402b640f5d2"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf063.drat.gz",
+        "sha256": "4dd147cdac07b20220ad02f8ac81371c528b586ee2648a0287cb3b1fbc74bb73"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf063.cnf.gz",
+          "gz_sha256": "8d782ed8284f078defea7e5e059f5a33ff1c068518623528232c554a91f074f3",
+          "source_sha256": "6ef3c4b4a7c271da33f8fd2739bb0556b9f9fb42d7a903fd1abc51be501b3db5"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf063.lemmas.gz",
+          "gz_sha256": "152548f1478f46b9838896468215742fc4a918424c639218d1ffdfe345069bbf",
+          "source_sha256": "ac931112a4f6117843a40eedf2507dcd72f67e8b70ef95989d238178d935ab41"
+        }
+      }
+    },
+    {
+      "name": "leaf064",
+      "edges": {
+        "path": "validation/S042/certificates/leaf064.edges.gz",
+        "sha256": "239bd3209124d54f36057f2a61205294cdabdba0bee7ee7c58fef919bb95bac4",
+        "source_sha256": "76421c1dff61de0d7cad9aa9ea5cfb22e64f4e54eb07014a38c7acd94c904974"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf064.drat.gz",
+        "sha256": "7d51165536ece2b694937d43a79c1cf52d578012f5a8154073b156906373794d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf064.cnf.gz",
+          "gz_sha256": "de8ccad1c63048c33a0c285d0eb11e41719922b9fb89fa9861951141d55ab292",
+          "source_sha256": "dfe8de619960e9c7116eec1676eedf4aebe6dc5c07d9906e9a30fb512ca8c0e8"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf064.lemmas.gz",
+          "gz_sha256": "eb212dd1ffad2bfffec0a264227bd1b5f9094ae493bbdb8fee118e10013629c9",
+          "source_sha256": "1af08394f68cfee9a43b38d9d6738879eda5b2b6fa8a497ca6cedb8c473a3ac1"
+        }
+      }
+    },
+    {
+      "name": "leaf065",
+      "edges": {
+        "path": "validation/S042/certificates/leaf065.edges.gz",
+        "sha256": "5353697a641cf766cf5af40aaefea5f315bc00898f85cdce582ae068c04e9fb1",
+        "source_sha256": "0d55cce05a79bcac83f6c37ab22d0eefd7247f27d203ea55e96881e07ec589d7"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf065.drat.gz",
+        "sha256": "7798e5cfd641649bffe1c9707a020935c7052d9fd61f2d309b281166c03777ca"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf065.cnf.gz",
+          "gz_sha256": "befd50f31b9a90f0848d21984960079e242afafe5ebc20751ab668f7392b773d",
+          "source_sha256": "b6532e7488165962330a5732f2d3a3facbf843d3799616e0a8b3aceab45fbef9"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf065.lemmas.gz",
+          "gz_sha256": "ff891ed077ae2378cc833f8555543747b5516139606f2b1712aa2d2df6fa99ff",
+          "source_sha256": "65a931699b9ccea766ab42526d56d904969eea93b071c3a37ea9abf12b4e8c23"
+        }
+      }
+    },
+    {
+      "name": "leaf066",
+      "edges": {
+        "path": "validation/S042/certificates/leaf066.edges.gz",
+        "sha256": "26ef693e3fe80eb605fb98cb52e9b66cda1c0a01e34de55f655a8162801f17c0",
+        "source_sha256": "aa36354e74f0a8268adf135a6c77a81edc41901e5167ebfcbdb2a51be6ca54aa"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf066.drat.gz",
+        "sha256": "f7279feb4442a275039c67454e573e646ab60dc61ba96857ac7734c6e58f3ba6"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf066.cnf.gz",
+          "gz_sha256": "a88ace5cae60586644bfb072923f4b69985a3c468b486b2ce6626951dd0a427a",
+          "source_sha256": "642efd81752aeb6e00bc713751fd2cceb491dab3b33d1f9e83c10b3d4ef99c01"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf066.lemmas.gz",
+          "gz_sha256": "db911ff2a72066860abdd3bf72d596a5bca0b971002901885f9a566b565724cb",
+          "source_sha256": "95a042fbb76be7ccb54c729642222c0a2ff434498a92aef0765782b19d28aab7"
+        }
+      }
+    },
+    {
+      "name": "leaf067",
+      "edges": {
+        "path": "validation/S042/certificates/leaf067.edges.gz",
+        "sha256": "0eb55a5051f586c9afad2d419702ee7e49e34ee828ba056a30c4f54f4d8bbb14",
+        "source_sha256": "b7119073aaa4c8445a93031b5390c3b0f4c5d037da3fa6d7fb0f2ed8f5d2208c"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf067.drat.gz",
+        "sha256": "11926d56b92d551192a4c0187a8d9ad7f33319c12ede956d68aa6fad66ba06c6"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf067.cnf.gz",
+          "gz_sha256": "25c708e79e306e16a2a570716df45a327f117c9a9c25c54c4882c321746e77f0",
+          "source_sha256": "423f7899ee35412d5f1dcc6584999a612a3b449ec2adc1362aef62bf481342fc"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf067.lemmas.gz",
+          "gz_sha256": "fbf4d7e8f90ba1becb6be155297fa31455c37576ea71dc3a5180094c9fd2e7eb",
+          "source_sha256": "cf5b891942d56b69426b8795470188e68aeec18360d42879c8cda8eb1fcedc2f"
+        }
+      }
+    },
+    {
+      "name": "leaf068",
+      "edges": {
+        "path": "validation/S042/certificates/leaf068.edges.gz",
+        "sha256": "7023cd6fca79d52e7fc78cdc93dafc7cd31aa5f26c64357916c718a69acc02a8",
+        "source_sha256": "7875541980e26ef78157faf18a690d6926c318acdf9d9fa662591b7050d20ed5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf068.drat.gz",
+        "sha256": "c88b19a1acc01e7dbac673fa387035fb20a1bd68762c0d912ef160fbeed69717"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf068.cnf.gz",
+          "gz_sha256": "8c9c507fc6af89d68703656400567e882cf9247f1833d848e5b15507532638f5",
+          "source_sha256": "3bdf4fea99862ddc481e3dd219f53323efd7b22f90cb83786df74badcbf445ee"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf068.lemmas.gz",
+          "gz_sha256": "095ab89f5ce1922a22229d5c3f6ed210989eaa34f01acbb7f037580411a8577f",
+          "source_sha256": "023a88877f0cfd5056dd04b4266c8011c548418518da17b2226db3667103d871"
+        }
+      }
+    },
+    {
+      "name": "leaf069",
+      "edges": {
+        "path": "validation/S042/certificates/leaf069.edges.gz",
+        "sha256": "53fc2dc3b0bcdfa90189f776cd8b026a884479ef9db14c91140b55525eb0b96a",
+        "source_sha256": "79edb1ed46536afb22fa14e379fe1d69a92e64ff86e09db45acced7689fb7dcb"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf069.drat.gz",
+        "sha256": "80cd3bc4ae5e7014e75e2efb3408372e7251621039d881a38b550f46e4bb818e"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf069.cnf.gz",
+          "gz_sha256": "b70e584111822740bee3875cc4ef7ee6b0bb1aa996ca37eaaaeb8781234d232d",
+          "source_sha256": "63dbf093647ba1cd88d6b522e795463c28f88b324a93220e60d366fb52393349"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf069.lemmas.gz",
+          "gz_sha256": "df62c3abc33dd284b7799b8e5b0ac27ca9614ce4c1bd5f6b3b24cbb9d2458555",
+          "source_sha256": "35a3e1b319203f39c971cb92abd31468d6b99a934146692535bce41811e4c1e3"
+        }
+      }
+    },
+    {
+      "name": "leaf070",
+      "edges": {
+        "path": "validation/S042/certificates/leaf070.edges.gz",
+        "sha256": "b9233892c1a321ce78cf8bf5161591b4fcfc218f6bafef08fc81e94c855b7b5b",
+        "source_sha256": "a863f13b6bd04efd0667df616c2776087cc05e7ddd1b1685c19edb86298078b9"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf070.drat.gz",
+        "sha256": "263b70c7d4e9d082de93f658443ad5587edfed9c8d7f7261524e2c3025bf8e52"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf070.cnf.gz",
+          "gz_sha256": "18d063183f9c34b402baaf379af0b1fdf05072924e4ef0daa1f26675a7929e8e",
+          "source_sha256": "17c1714e62b207be2670784fc4cca01da0a25eec1815e3c77b5bba3acb61e149"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf070.lemmas.gz",
+          "gz_sha256": "202ed41420dc02739a2ce77f6ccb138fecc9d426ca0b2bf005bd786e32d43444",
+          "source_sha256": "663648bc970dc861bf428483d904868c172a05370493de66fb90a1549d97ab36"
+        }
+      }
+    },
+    {
+      "name": "leaf071",
+      "edges": {
+        "path": "validation/S042/certificates/leaf071.edges.gz",
+        "sha256": "9959a1a219d50700b182d09db6e4374c01fa082fdc30740bf0d0b662d25b4343",
+        "source_sha256": "9ec709c3a1ea119b462366475abefe02c4f654efc92f92f7db624b0db83d2cc5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf071.drat.gz",
+        "sha256": "b747e241bdf25524f8d837995a0f306f9a1db9586ec7d61695eb3f6f42b1afc8"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf071.cnf.gz",
+          "gz_sha256": "c70c3b3b04b7beeaba8811bf94a86532a115f4b3639230368f7107666fd8b0a2",
+          "source_sha256": "2c35ee3a3df49ac4d5efc12a424155b6e4094bc39bf59bfa6b3f732155b03183"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf071.lemmas.gz",
+          "gz_sha256": "ce6745b3816664939c8a34d118e3a8dc68e6879409d16888fecf0d9c86e77f30",
+          "source_sha256": "e6c79b2605c292ab224563b2ccd6e356b5b730c510dc45309cb249475d2ea5ee"
+        }
+      }
+    },
+    {
+      "name": "leaf072",
+      "edges": {
+        "path": "validation/S042/certificates/leaf072.edges.gz",
+        "sha256": "7dbf9fc7d57ca25a91fbd96ccc156dc0ac0585e32bd435c85e3a84a75b87ef41",
+        "source_sha256": "57b63631ca1856ea7592832256f3c3ba801dff4ed8e5fb31b54cd17d93a0c86e"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf072.drat.gz",
+        "sha256": "7fcb5249370c130c6f0f578e39f0ab0cd2e0d4bb71eff0573c80ca444d0bd686"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf072.cnf.gz",
+          "gz_sha256": "ae165618e3c51478246813e5b07da0cde89e9b296977e9c15134c3bee7e92fbe",
+          "source_sha256": "35d2992e1577b6966674ba360c0746277bd23c79c64368a63418099bfdd69eb3"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf072.lemmas.gz",
+          "gz_sha256": "a3601dadc1b12170f9e16f06094ff783a994e11d1436137b88320179150f5b3b",
+          "source_sha256": "aaa930b8a261860ce2b66e4f890c784858f405631412ee3ee2567ad2b7a66b91"
+        }
+      }
+    },
+    {
+      "name": "leaf073",
+      "edges": {
+        "path": "validation/S042/certificates/leaf073.edges.gz",
+        "sha256": "7c06ea03db0303c821fba7abab25647b662a222860c532e86f9fecfc57d4caa5",
+        "source_sha256": "6477994b63bc8172606dd18df26264c3de22eec3193b6c643a648b52541d43bd"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf073.drat.gz",
+        "sha256": "3c9d2f50e14fa55162d08caf5c5b3ef72a4c68b611eb8b7417b01e8e1ef088a1"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf073.cnf.gz",
+          "gz_sha256": "027e974d26aea20361785af3a5535ce71964d6c8d215349b487e57f4411612f7",
+          "source_sha256": "1b9a33f96ce4fda11c3bec816f0f6abd504088ffa453618247c69de18a35097d"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf073.lemmas.gz",
+          "gz_sha256": "cc162a4d50ab19d4662addc8b763304886a93d4ec91e2f31a668f4f0577fbb6a",
+          "source_sha256": "a661adae2c8e433120ffca1a1a4e2c0b33a15b11a763ca389df3fffa01f0f3a6"
+        }
+      }
+    },
+    {
+      "name": "leaf074",
+      "edges": {
+        "path": "validation/S042/certificates/leaf074.edges.gz",
+        "sha256": "45ff272b4d6510d412228333153cd69e552c3b65a3384cb8ef8335510d67f11d",
+        "source_sha256": "fde021703bb097b2492e3234547c129aec8131096aea05e5cdd6c4a6566ac672"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf074.drat.gz",
+        "sha256": "8963aa4d8c137ea9785db0a7c86e811dfc53b87efc2c0fabaa6c5ab4b0a4cd14"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf074.cnf.gz",
+          "gz_sha256": "37666ef9a9fcd0afd536dd95d25093149a8f1e2cff037391797f71daa2450a15",
+          "source_sha256": "72224e4d9ba99f94c3c58c96d3bc28c8625f86991ab2ac7286f008bfade7b92a"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf074.lemmas.gz",
+          "gz_sha256": "1492fa1ddbf39b890017272371189ec399c0ccb44a7c543ab07442d438823214",
+          "source_sha256": "4ff1bb6a551d0b712699ae033f5fe36904d4c119e3b1fbdd019f2bc6ec2f77dd"
+        }
+      }
+    },
+    {
+      "name": "leaf075",
+      "edges": {
+        "path": "validation/S042/certificates/leaf075.edges.gz",
+        "sha256": "ee3af6e6647ce31955bc8b01a162bd9852a1d5d4daf7b958b0d8c11d7d751524",
+        "source_sha256": "24e5839f58d44a2b61920187529617625b40dfc14f56105c6666f3c49d2b85ce"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf075.drat.gz",
+        "sha256": "8e3081e3733a036dd82dc0ad5c1925cafdf26f77927f8c19f4d6d210c4bd2304"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf075.cnf.gz",
+          "gz_sha256": "63ba22395d7e1cec66f23a641a7314d12430aaa1c46cbcaf089aaac805836f56",
+          "source_sha256": "842a111d12e6c54f035682e42fb523bf8ac376e68e96c395df010976f751e3a2"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf075.lemmas.gz",
+          "gz_sha256": "a42f95f212cb3533014f7f1684fd15a0aca461051b17485263f813dc8235e513",
+          "source_sha256": "c46e13b94a1452eed1c62aeeb56d5f69c3f9a734d11a1a8be377b33d52ed180b"
+        }
+      }
+    },
+    {
+      "name": "leaf076",
+      "edges": {
+        "path": "validation/S042/certificates/leaf076.edges.gz",
+        "sha256": "93f68be6207b363a42a96dadb751b142719a79b1f828fc56167efaa4413cfabb",
+        "source_sha256": "a98f4068ce7d6ae14648c4374d22e690d74f4e6ef97dbfb20a06116891ec48dc"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf076.drat.gz",
+        "sha256": "fed28fa16c8774c686934bc243208be0bf57f112b29b67d4e0f10a27849f6598"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf076.cnf.gz",
+          "gz_sha256": "4804741260a98a166b27d6f658f3eb89541a6fac56f6f42e71f0588d256d334e",
+          "source_sha256": "8cd5c2bfa55076e7f0fbf1410f21a1bee91c32be93917ae30210297e220a9cf3"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf076.lemmas.gz",
+          "gz_sha256": "4581f7ca89a097bdeed38e5f6e561c57e01f3f66953300643973fffd6126be1b",
+          "source_sha256": "1678a4430324c65cae4e9df617fc29578ec4171f091d0fe04a27ff2a7aac26ef"
+        }
+      }
+    },
+    {
+      "name": "leaf077",
+      "edges": {
+        "path": "validation/S042/certificates/leaf077.edges.gz",
+        "sha256": "b050f467e180a719d31a6ffc6911c1d8b6f3cfe3706a25369b623f9748c0513f",
+        "source_sha256": "0f7c52d4e8ff79336fb64195af311171e1e8603ce2396f71427ad694debac008"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf077.drat.gz",
+        "sha256": "c582f84bb4563a58143c3b8589324534166c1046ed498a6a51ec18005222b1ce"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf077.cnf.gz",
+          "gz_sha256": "c496bbc0925d09ce0d84d81e92b7c201bcdaee535b54a8e0202f31ef6614f95d",
+          "source_sha256": "9638655b11f86d2eb5772a3bcdb0dc212416cec7d24a6da230ca87e827d27cb1"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf077.lemmas.gz",
+          "gz_sha256": "78bade9b97e4ecd2e8251478ad0bf685e745431f08ef2143269c0811ac16e589",
+          "source_sha256": "959faa31dc687d7041d80f52ddd42908b7223ee9208cc17c47815f0f15bbc008"
+        }
+      }
+    },
+    {
+      "name": "leaf078",
+      "edges": {
+        "path": "validation/S042/certificates/leaf078.edges.gz",
+        "sha256": "77c8e16ff58ab87d9434bc56dfb3aaab87a7ae8fda50d71b99a8fa3ce2fde254",
+        "source_sha256": "3ea5f4e478cadfe47b57c38740d06d087bd51f8b24b01879885abeea55088186"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf078.drat.gz",
+        "sha256": "406392a6735b61b01ec8ce03fcf528ce1dafdb58afd8be65dab882030daa8044"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf078.cnf.gz",
+          "gz_sha256": "c09d3b41361630519ce18fbfdd5a9dd1605b8e9af3a08bb6df1766d70c67c6a3",
+          "source_sha256": "d84d20fd0a204ccff2efc01a59e5d91302242c68d80127b7f065e0c00559dd67"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf078.lemmas.gz",
+          "gz_sha256": "7ca7abae76bde8c092f86544858185b21f1ea54ab8834dd9de8996e3be911d48",
+          "source_sha256": "09747a38c45a8a9aa53772318e8507a8647d318bf58a05edfdd7d40511ad4d8a"
+        }
+      }
+    },
+    {
+      "name": "leaf079",
+      "edges": {
+        "path": "validation/S042/certificates/leaf079.edges.gz",
+        "sha256": "896e03706ab845f5db02b98444624918388e86652ddcd11455a96a49d681998e",
+        "source_sha256": "89aea209aee7aaa19361e0e05261fe236e283e3b3cb6e3d5c56b01f3ca1f04fb"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf079.drat.gz",
+        "sha256": "f81f65480c6352900ac6f3580bdad027a3cc35064538eda7cba9fb07551a5124"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf079.cnf.gz",
+          "gz_sha256": "987b76c808585cfd5910f2ef64afa2510261f8191bbd86561f8da9601a3becdc",
+          "source_sha256": "aa2dac8ede7ddf1710852e8f210a4dee8342aef66aafc0c33faf55b673417a99"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf079.lemmas.gz",
+          "gz_sha256": "f9cc02d4e5a00a1b96b2d84c47245e3f01660f32f6c70d88117308f5f42be073",
+          "source_sha256": "e79bd9d6bfe06810433a6cff8b2f17e99aa9f68b66f4c1c1467e9ac817998dde"
+        }
+      }
+    },
+    {
+      "name": "leaf080",
+      "edges": {
+        "path": "validation/S042/certificates/leaf080.edges.gz",
+        "sha256": "554c5fbb04c2d688c5283454967e609ea343b335592927c4f4f906ff2d154d0a",
+        "source_sha256": "d84a727099dbbe22b8e2017a605f29f5938f45d131010aff05dc5c4e5a0509f5"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf080.drat.gz",
+        "sha256": "f74e30e81631e7a48be55c39f5cfcbbf27438ed70c150df995349ca7a55dca7d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf080.cnf.gz",
+          "gz_sha256": "96f39294687920e1ced5abd7d65c7b6ac21eea7b594ac35b78e10ed53da89c87",
+          "source_sha256": "73ca1be38bf2e44bde3e3641bdef4cc84d9692e888bd05017e2d7d84598ff4c3"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf080.lemmas.gz",
+          "gz_sha256": "07b14cdbf236b3dd9fb9c95606701d3736cf1b31ae75bb7acaa36bcac1e98109",
+          "source_sha256": "bdf211c21e42dc29b93a16cc49c6336b760b57bf9e5e858a198a8c59f7681f38"
+        }
+      }
+    },
+    {
+      "name": "leaf081",
+      "edges": {
+        "path": "validation/S042/certificates/leaf081.edges.gz",
+        "sha256": "48e2f0b8b4963ed93fcae85d713c8718a8895fd78837838d68ca223da69f89d6",
+        "source_sha256": "284c65abbac600dda6a73a55485d483a3df47c35ff6ae369aa6928eb277c321c"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf081.drat.gz",
+        "sha256": "6ebc7f011203609788e8637d75db5dbd67c329077203ae1c9bca2d0a10b8646a"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf081.cnf.gz",
+          "gz_sha256": "ed8f3783d083d1080ba6bf20472ac3789f62c589b922cc832481069d486d4982",
+          "source_sha256": "7545a8b5cc6184b4e12c8165e61cf75dbedf53fcc95b93117ec86e4613b015c8"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf081.lemmas.gz",
+          "gz_sha256": "8132b58b151a5c610ff904f5ba9556a880470599b5343e02178334c4f7f6f206",
+          "source_sha256": "a4b1127861f9dd45cdcb177e53fcb6ba3ec453e8ef2f11263f2cdb2c1042a1c6"
+        }
+      }
+    },
+    {
+      "name": "leaf082",
+      "edges": {
+        "path": "validation/S042/certificates/leaf082.edges.gz",
+        "sha256": "6ed85d0edaaeeef9a7bda0a38a8a34038bebed4c7fec6ace96a7c2f4cc5871e6",
+        "source_sha256": "9f84436c9d818fe31b62adcd7a0f72ee0db830efe47eb195ec9aeff80fa4dacd"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf082.drat.gz",
+        "sha256": "5e87ba529c5367e39418a73312a7aaf887deb118064a71dd1fe14b4352191a6e"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf082.cnf.gz",
+          "gz_sha256": "0b5805bb3dd9b58746e6a78673ef0093f56929c7e3de50763791d77d86f85e29",
+          "source_sha256": "7fb66597f3e4ee57d8e94dcc3402fea83577fd6f43289bebc9971b7109a4f1be"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf082.lemmas.gz",
+          "gz_sha256": "c25edc339594eb98f17c21a9994e5f073117db98c4fc46fb46740d0ae3211249",
+          "source_sha256": "abffaaea0dfc0449ed59418579bee2eb5c4a76b7c753ea0c50ee366d3dd142bf"
+        }
+      }
+    },
+    {
+      "name": "leaf083",
+      "edges": {
+        "path": "validation/S042/certificates/leaf083.edges.gz",
+        "sha256": "21df664705ba9b4575e682683412c9d41f075bf4478e708873455a1b9df2bc44",
+        "source_sha256": "455957489eabd5d1ea2a5eb6879351a67dee4d7f5c0be5f6ff7d3036dd76826c"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf083.drat.gz",
+        "sha256": "60bdfe46e89c34f17bad3d3fc2bc4b6d5188b9bd28a37cacc0a00033d81dac2b"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf083.cnf.gz",
+          "gz_sha256": "7d73baa056bb95973896c7518bcb86f69c9961e6fed361db5d1b65c84329b30e",
+          "source_sha256": "b5456027a8b980cf359566fde01addebebabec530e5a0ab5b09868ffc7a89e98"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf083.lemmas.gz",
+          "gz_sha256": "825ea349bbe3c96d0050927755672e03396a1d5d2434e358ed37588b28ddf2f8",
+          "source_sha256": "ab709512fe94ee7573b1fac4ffaeb6625566ea026c02745a25bdf1a35076f9bb"
+        }
+      }
+    },
+    {
+      "name": "leaf084",
+      "edges": {
+        "path": "validation/S042/certificates/leaf084.edges.gz",
+        "sha256": "295649b28c8004dc9efeab64794d070a3661414b5f62750a65caa671aff9b6ef",
+        "source_sha256": "f11b04e5ea29dba8f4836e9cbc8b2dd58d1068946a1330860e529dec33e69bc9"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf084.drat.gz",
+        "sha256": "91d5393c6a2912f386d08fe546978707ffdb38105c41a0d94b33eac87b8afc45"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf084.cnf.gz",
+          "gz_sha256": "f6ce5ffce9ed8872762782f3521e0fa11f06d143d30fa89f950d02b5bac18f65",
+          "source_sha256": "74d900cb32f6830b5a0936d797e9679048e547d57fe26026b0ab2ea72f474ecf"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf084.lemmas.gz",
+          "gz_sha256": "1670f66fb19a874132cfdf69276932375677d320968dd5d2bc34055077352116",
+          "source_sha256": "413cf364bde5c821193d00de1aa6e5c7af775590a23ba3bfd7e0841b855869ed"
+        }
+      }
+    },
+    {
+      "name": "leaf085",
+      "edges": {
+        "path": "validation/S042/certificates/leaf085.edges.gz",
+        "sha256": "3555a0a5eba754ee783eacef7e5a090ce8b7cabd98ee59c8e32c11cead05ccd6",
+        "source_sha256": "8d8bc02c17172408d8d7d7555e4fb4537663adc4b08c56fc1cc304bbb11ae6bf"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf085.drat.gz",
+        "sha256": "0c013529d3c0e80b70615e0bb7adc4ad997a478b8e44449c287bb1cdb2bf4347"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf085.cnf.gz",
+          "gz_sha256": "03e41a912701dcdbc8271629754d5866eddedbcaa185fa585d80c8c5cbe2ace4",
+          "source_sha256": "ef53f61f2870ad029646cfad0a57814f28893327b0cd9cdc59663977121eed8a"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf085.lemmas.gz",
+          "gz_sha256": "bbaf82a8779d39a1c3042cf56b5359f8195475723869e4339913a7a1d946dd51",
+          "source_sha256": "39b490c5827f5bbf91fda2da9af72c0414d2590995d797aa13f07c4eb94cd23a"
+        }
+      }
+    },
+    {
+      "name": "leaf086",
+      "edges": {
+        "path": "validation/S042/certificates/leaf086.edges.gz",
+        "sha256": "1de002fe96734afddff1cb7c57c01b56a94cfdce119cc2623990dda3bff9cc4b",
+        "source_sha256": "c54471e3df8c6bdc0237747f2419e6ed9e1768cbd9328caeb7b4f07a8db56686"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf086.drat.gz",
+        "sha256": "75fea091f7b7f0bc6dc60d069b15d93b76640fa11261c8f7322bb47b324fd79f"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf086.cnf.gz",
+          "gz_sha256": "430abd887f443ec49f0726fcdcf12cce50719de256eeb44f69148278188d5571",
+          "source_sha256": "8d1662b1580834d0cc727dfcb90d14c08d3bec1c2e631b8123e748e6f4270ce8"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf086.lemmas.gz",
+          "gz_sha256": "4645ded11a779f22649f708c17af0f3630ed0215b485e167e7909f54de30704a",
+          "source_sha256": "c832905b0d00e5bf7e23f43b89514237d54df621994e8a47cd8129b382ee1a68"
+        }
+      }
+    },
+    {
+      "name": "leaf087",
+      "edges": {
+        "path": "validation/S042/certificates/leaf087.edges.gz",
+        "sha256": "de3e5ee349460f2c2557965d9651b8b724de041d0ea03882afa25d981fdf17bd",
+        "source_sha256": "4e7e985749d1b57a41b4da7a0bfe92fdfb1014d135c268e8475a054e4bf5d4f6"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf087.drat.gz",
+        "sha256": "e25fab8169a6e1dd8e6086a3704e5bc7af4a16ca9fa9294d93368959515a50da"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf087.cnf.gz",
+          "gz_sha256": "24cfd73b9eb622edf56a6c71e7436ac153a08937be4336eda788f8ed8f5b548e",
+          "source_sha256": "2eddc118bb051eb00e7655e64c7a9c748764057ac96a8724b6627377d989edf3"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf087.lemmas.gz",
+          "gz_sha256": "f2a3ca64bff161db599c7b2b8599fbb893d36c40194267299208a0ca715a1135",
+          "source_sha256": "b192cb48e64339ec1eb91cc239630a4da3c33e4af5099471be80d20731593642"
+        }
+      }
+    },
+    {
+      "name": "leaf088",
+      "edges": {
+        "path": "validation/S042/certificates/leaf088.edges.gz",
+        "sha256": "688076e1b0aa85be7489358cfb3163a9c4558316bb6dc3ea1f6a14591fae9fac",
+        "source_sha256": "d9b88593d25ad7cd068e9f82017d037e3710a4cfdbebf89e466cdb51cf154b76"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf088.drat.gz",
+        "sha256": "9349483523c60068945a635ecbdec98036b9e847b52e0e00ffff0c1e8c831582"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf088.cnf.gz",
+          "gz_sha256": "6a8f0b22e54e9594b2e38018da00f8368b434b44baa1755fa5d532452c7ba078",
+          "source_sha256": "fd692b815b144e5efb89fe396c75d7cd1d362ee28496e1e1c502499d8be0f18d"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf088.lemmas.gz",
+          "gz_sha256": "4731b8997e23691903367413f4a43600d66ef6de3ff5508d1cb82dc34405c11a",
+          "source_sha256": "019914be101a1ba19bafd6595962a063c8ad6545606026c6e0917c3949a868e9"
+        }
+      }
+    },
+    {
+      "name": "leaf089",
+      "edges": {
+        "path": "validation/S042/certificates/leaf089.edges.gz",
+        "sha256": "8709b65bac1a156b5d6c5ddf9d38176c0783303f578759eddddb9f6e6b782608",
+        "source_sha256": "defa53e9d1e4a5ea242d795783e505f124ea54b55ecacdb39ecc7e5dc49919ff"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf089.drat.gz",
+        "sha256": "84790595fa1f7b2d3dd6e862d798facb2836d2d16ad4ab5c3e1ef1030cb3212d"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf089.cnf.gz",
+          "gz_sha256": "8f1e9d55dfcae7d95d1cae326387acfac1ff2e4a728229eb293ee560c15661b7",
+          "source_sha256": "ec4740d9a8ba90185dc686ac673acc15ccae0aa6ed9d94de60f7b068f5cc09a4"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf089.lemmas.gz",
+          "gz_sha256": "0a08cb88a515f0202398cfb6c3063efc2b92863862c50abee8d5e7b7cc248daf",
+          "source_sha256": "deced920a90766c4be02705c77bc8032d96420e6287ae24197aa45e622eb0495"
+        }
+      }
+    },
+    {
+      "name": "leaf090",
+      "edges": {
+        "path": "validation/S042/certificates/leaf090.edges.gz",
+        "sha256": "0aed8bf64e87a3f802d9bd96898be0f2ab585c60738e4fea08e7f07fddac772b",
+        "source_sha256": "6e89121ca58467aa23927e308ac18979dff218a8f8cbeda076a9caa951e4da0e"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf090.drat.gz",
+        "sha256": "d2d462bf95944866dfe37bc4f4bad761034dcb756c7ecc1a81b7e0bd45a1226e"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf090.cnf.gz",
+          "gz_sha256": "1446a34e9bfdcd30810e686e96a4f4d1a28d1835260de1e85d34a40a4e77d42b",
+          "source_sha256": "dabe16524064b9772c243d04836734c851b02edffc0bd2e266f5139b2ef1e4a0"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf090.lemmas.gz",
+          "gz_sha256": "30819ee521c823dfa103c431a0c0bff7b83b3575c8ed51d8365e25c385ed19e0",
+          "source_sha256": "4107e9f8a49b1c92f2d53f4611ae4ae4a89fbdab490b9d7158bdd23e6d599b95"
+        }
+      }
+    },
+    {
+      "name": "leaf091",
+      "edges": {
+        "path": "validation/S042/certificates/leaf091.edges.gz",
+        "sha256": "1955a8287dee9a3bb4688c6fef7e67a3d4528396c41a5714a077719bc35db38e",
+        "source_sha256": "3d06c898db9975e598fd58848cbf2fc20f54208864ac80638123d26e2ab02426"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf091.drat.gz",
+        "sha256": "55dc7ad07e564313dc3c335b3d6aa98e7ce4ab79b934b0c764a28340b1de990c"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf091.cnf.gz",
+          "gz_sha256": "d0806ca6dae2898f38619681ddfb0875e7a6683ea19d61e1b96ffea180835b52",
+          "source_sha256": "319166808287c2e773c054537fadbf1707fab9e690206180cdc6e7a55a6d73f5"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf091.lemmas.gz",
+          "gz_sha256": "b40e5b5a7d1ef7c8e4ec95234f4a80c9a7f0a66bf530f8ec4facf42af076e36e",
+          "source_sha256": "009ef2501f7484526f541c91a6dca2616c3298528e5130cd19880a01341772ca"
+        }
+      }
+    },
+    {
+      "name": "leaf092",
+      "edges": {
+        "path": "validation/S042/certificates/leaf092.edges.gz",
+        "sha256": "8defdfdaa70e5bb46b472cf685f776b851a25572446455c339d6efb4e101092b",
+        "source_sha256": "aeade5057e785bcb87ac1098979637b30b1cd98c99c4a5c1fd560e183e2f1e56"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf092.drat.gz",
+        "sha256": "6be538ffd5c2d66ca423b16a21faa9ac84702615873acc8ab3d0a775ce2f7fe7"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf092.cnf.gz",
+          "gz_sha256": "5c0f8597b36a874e81a728321cd7bd46b34d83e4da1b26847b341736a71d2998",
+          "source_sha256": "a840d3f6482650b6b0f32950669ded435a51d7fd8f357f497eb5bd43e3bbce5e"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf092.lemmas.gz",
+          "gz_sha256": "3dd162ecb737c0610bd56ccb086b04d00994dc87903f40426de42d530fd29006",
+          "source_sha256": "fafda9982c0849d14ac2dfb44a2ef47fcf747d49af827a3aead4d0eed3640945"
+        }
+      }
+    },
+    {
+      "name": "leaf093",
+      "edges": {
+        "path": "validation/S042/certificates/leaf093.edges.gz",
+        "sha256": "9d68f3b8dc734c32990c7036c24b1fda31fb0f3757b4ae5c213d8ea01a177a8e",
+        "source_sha256": "6697c15ac88b6d21c47ca243fc5beedc1aeaaf261182a1ae251bc61493bf0ca3"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf093.drat.gz",
+        "sha256": "66cbe07ca0605b8522453c388f4f13a1112d76a3a14d7d877d7f5ff52291e795"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf093.cnf.gz",
+          "gz_sha256": "f8d27f07d10481212c18a372c27cf63cd587cc6224445915fcdd88c0c6c05e71",
+          "source_sha256": "b38e1b1fb4a74b29d7cb07b4a53e13604ee5d9e416eaa97e0dd627fc6ba47c42"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf093.lemmas.gz",
+          "gz_sha256": "095ad1656ec6d1515b003bfeb031bb7ed16af16d83c2c33ce31fee9334ced3c6",
+          "source_sha256": "7029b5119d71448786233305a40233af7e236700b55e9dffd806479275d247fe"
+        }
+      }
+    },
+    {
+      "name": "leaf094",
+      "edges": {
+        "path": "validation/S042/certificates/leaf094.edges.gz",
+        "sha256": "e000f4e98cf48a6471c29a225b547ad716f732545e22d539dea5c84957165765",
+        "source_sha256": "c22945c7d3a9d6b2ff2236c730afa5518deb741db325e1bbebdf1e34524fade1"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf094.drat.gz",
+        "sha256": "5f84f0dc83c14f1fdc2ec2ad9d8302193abc556c8c16d3da52f1c70db64a9507"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf094.cnf.gz",
+          "gz_sha256": "4323b70a4f64bfe542f4fc362ff131c64cd3f08b54a1a5622d91ac1987ad2857",
+          "source_sha256": "3fd492c00141d53254530e1d0add9c15037531acafd073ec76cfb37392d8a2ac"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf094.lemmas.gz",
+          "gz_sha256": "1db6eaeb3f1765de52b1db808db39fc6704c5dc1052e11f4ed68f072302d1910",
+          "source_sha256": "84f14b242e297c8cd76e3ac997cbae9aea1ed77176041859731a5f32bc6e4550"
+        }
+      }
+    },
+    {
+      "name": "leaf095",
+      "edges": {
+        "path": "validation/S042/certificates/leaf095.edges.gz",
+        "sha256": "93ecf9f3f7004925a93b616ac712b538b9d9266b958bb5fe011f02a58730e904",
+        "source_sha256": "f6afd408cfeddd1105537197c72505dcc9c76a11d7d54320292745b280839546"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf095.drat.gz",
+        "sha256": "aa18bf112f1e686b89bd1b1d8cd5e1ef63f1e157f90ef1813a8250dc02643cf0"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf095.cnf.gz",
+          "gz_sha256": "43205a7b7c70a0112a5aac0290b0007ced771e4cdca40364db36d2cd631b5c27",
+          "source_sha256": "93bbf28955e0324b108b1f344d0edc9356aa1b0fc9c4effb92b21cbc42e8a65e"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf095.lemmas.gz",
+          "gz_sha256": "e582ae534d7422663972d337584b7418788ec1b4e2f76a5453af48b73b59836a",
+          "source_sha256": "5b08046ee205820327973078a601641f16830f6d5d5c4258f5a3294ba19e5858"
+        }
+      }
+    },
+    {
+      "name": "leaf096",
+      "edges": {
+        "path": "validation/S042/certificates/leaf096.edges.gz",
+        "sha256": "2e3dc75e2e96b9a528e210478ed98207855285aa380f8dd1f51e90617b2357df",
+        "source_sha256": "e4160f1a3195b711c8f7292ab0fd21899206af727fb9f214d149bcb1a0112115"
+      },
+      "drat_gz": {
+        "path": "validation/S042/certificates/leaf096.drat.gz",
+        "sha256": "73081461a93b3ad407bdf28b2bb377129f014de291e11d10bec21063cc1ff7fd"
+      },
+      "local": {
+        "cnf": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf096.cnf.gz",
+          "gz_sha256": "040bc719468d56cc91a5c5c92df1f0350d75cf769fc7aa1071484711bb30bb4b",
+          "source_sha256": "2fa3f98a781fb8b4c8f74af48eb18fb58a2dcf488a02fb7ecb2aba39358106f8"
+        },
+        "lemmas": {
+          "path": "artifacts/tmp/S042/certificates_local/leaf096.lemmas.gz",
+          "gz_sha256": "034c3de651c6f2f4b4a463a03ce742ffb5252766ac17fb4c73fe49ca5b33afb2",
+          "source_sha256": "d73e8c0c540da39b7143dfc9c042382e05daf4acf8769500a8ab16bab05a9f57"
+        }
+      }
+    }
+  ]
+}

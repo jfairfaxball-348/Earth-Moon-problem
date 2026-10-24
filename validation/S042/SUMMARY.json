@@ -1,0 +1,52 @@
+{
+  "status": "CLOSED_APEX_LEAF_CENSUS_PIVOT",
+  "date": "2026-10-24",
+  "entry_main": "ef06ec59a6f545e146b00f18101c3da03da545c5",
+  "gate_decision": "PIVOT",
+  "gate": {
+    "A_witness": false,
+    "B_live_leaf": false
+  },
+  "census_types": 45,
+  "resolved_types": 15,
+  "unresolved_types": 30,
+  "considered_leaf_choices": 23514,
+  "leaf_graphs": 97,
+  "nonbiplanar_drat_verified": 97,
+  "ore_counts": {
+    "6-6": 1,
+    "6-11": 2,
+    "7-7": 1,
+    "7-13": 3,
+    "9-9": 1,
+    "9-17": 4,
+    "9-18": 0,
+    "9-19": 0,
+    "9-20": 0,
+    "9-21": 0,
+    "8-8": 1,
+    "8-15": 3,
+    "8-16": 0,
+    "8-17": 0,
+    "8-18": 0,
+    "8-19": 0,
+    "8-20": 0,
+    "7-14": 0,
+    "7-15": 0,
+    "7-16": 0,
+    "7-19": 91,
+    "8-21": 0
+  },
+  "experimental_cpu_seconds": 2671.4050147533417,
+  "compute_cap_cpu_seconds": 3600,
+  "archive_policy": "edges and DRAT committed; CNF/lemmas local, deterministic, SHA-256 pinned",
+  "witness": false,
+  "S11": "UNKNOWN",
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "all_processes_finished": true,
+  "next_session": "S043_FUTURE_UNEXECUTED"
+}

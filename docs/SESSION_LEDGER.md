@@ -101,3 +101,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S040 |2026-10-24| CAM0044 coordinated two-layer stars, D077 gate |335863 exactly scored coordinated states, no strict improvement; 16 arms, 482 replays; tau5/7, K9 barrier; all saved <=9-colourable; no witness| CLOSED PIVOT; S041 FUTURE/UNEXECUTED |
 
 | S041 |2026-10-24| CAM0045 comparative route audit | order-13 class empty (3510 pairs, best767); joins reduced to K1/K2/K3 apex; three apex leaves certified non-biplanar; ranking R3>R1>R2>R4; no witness| CLOSED; S042 FUTURE/UNEXECUTED |
+
+| S042 |2026-10-24| CAM0046 certified apex-leaf census | 97 leaf graphs all non-biplanar (K9-minor CEGAR, DRAT); 30 non-Ore windows unresolved; no witness| CLOSED PIVOT; S043 FUTURE/UNEXECUTED |

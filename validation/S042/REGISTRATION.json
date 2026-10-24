@@ -1,0 +1,18 @@
+{
+  "status": "REGISTERED_BEFORE_ANY_S042_CENSUS_OUTPUT",
+  "utc": "2026-10-24T13:35:57Z",
+  "entry_main": "ef06ec59a6f545e146b00f18101c3da03da545c5",
+  "sha256": {
+    "sessions/S042/PLAN.md": "4e0c468c842dfdf3f3a3135e09e7e9feb1604ae0d0bcca0e5c556db25a8983f0",
+    "sessions/S042/INPUT.md": "a35d2c133e219ad6e3ef939af2ecf8e2fe4fea7f1d7f1ee55a868e65821ec943"
+  },
+  "cpu_cap_seconds": 3600,
+  "note": "Census scripts assert the PLAN hash before running.",
+  "addendum": {
+    "path": "sessions/S042/PLAN_ADDENDUM.md",
+    "sha256": "617c56d289b97f8975989af24ff730c682561f731bf893f4a6e437e2b6a82a52",
+    "utc": "2026-10-24T13:48:22Z",
+    "stopped_run_cpu_seconds_counted": 900,
+    "note": "After CENSUS_TYPES.json, before any leaf generation output or decision."
+  }
+}

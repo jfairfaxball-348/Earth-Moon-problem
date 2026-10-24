@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "verified": 97,
+  "checker_sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+  "solver_sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+  "method": "regenerate CNF/lemmas from committed edges, assert pinned SHA-256, drat-trim on committed DRAT"
+}

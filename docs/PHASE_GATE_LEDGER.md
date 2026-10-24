@@ -116,3 +116,5 @@ D077 owner amendment24Oct2026: S040 is one bounded coordinated-star test, with p
 S040 CLOSED PIVOT: CLM0133 compatibility lemma; CLM0134 exact coordinated neighborhoods; CLM0135 arms and failed D077 gate; CLM0136 tau/K9-barrier diagnostics. Phase1 NOT PASSED;9..12 unchanged. S041 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
 
 S041 CLOSED: CLM0137 symmetry orders lemma; CLM0138 order-13 classification; CLM0139 counting for joins/Mycielski; CLM0140 apex-leaf non-biplanarity. Phase1 NOT PASSED;9..12 unchanged. S042 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
+
+S042 CLOSED PIVOT: CLM0141 leaf lemma; CLM0142 census type reduction; CLM0143 97 leaf graphs non-biplanar. Phase1 NOT PASSED;9..12 unchanged. S043 FUTURE/UNEXECUTED; publication/Lean gates unchanged.

@@ -1,0 +1,812 @@
+[
+  {
+    "a": 1,
+    "c": 0,
+    "factors": [
+      [
+        9,
+        17
+      ]
+    ],
+    "n": 17,
+    "e_min": 71,
+    "budget": 80,
+    "slack": 9,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_72..80"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 0,
+    "factors": [
+      [
+        9,
+        18
+      ]
+    ],
+    "n": 18,
+    "e_min": 76,
+    "budget": 85,
+    "slack": 9,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_77..85"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 0,
+    "factors": [
+      [
+        9,
+        19
+      ]
+    ],
+    "n": 19,
+    "e_min": 80,
+    "budget": 90,
+    "slack": 10,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_81..90"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 0,
+    "factors": [
+      [
+        9,
+        20
+      ]
+    ],
+    "n": 20,
+    "e_min": 85,
+    "budget": 95,
+    "slack": 10,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_86..95"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 0,
+    "factors": [
+      [
+        9,
+        21
+      ]
+    ],
+    "n": 21,
+    "e_min": 89,
+    "budget": 100,
+    "slack": 11,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_90..100"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        15
+      ]
+    ],
+    "n": 16,
+    "e_min": 70,
+    "budget": 75,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_56..60"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        16
+      ]
+    ],
+    "n": 17,
+    "e_min": 75,
+    "budget": 80,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_60..64"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        17
+      ]
+    ],
+    "n": 18,
+    "e_min": 80,
+    "budget": 85,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_64..68"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        18
+      ]
+    ],
+    "n": 19,
+    "e_min": 85,
+    "budget": 90,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_68..72"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        19
+      ]
+    ],
+    "n": 20,
+    "e_min": 90,
+    "budget": 95,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_72..76"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 1,
+    "factors": [
+      [
+        8,
+        20
+      ]
+    ],
+    "n": 21,
+    "e_min": 95,
+    "budget": 100,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_76..80"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        13
+      ]
+    ],
+    "n": 15,
+    "e_min": 68,
+    "budget": 70,
+    "slack": 2,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_42..43"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        14
+      ]
+    ],
+    "n": 16,
+    "e_min": 74,
+    "budget": 75,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_46..46"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        15
+      ]
+    ],
+    "n": 17,
+    "e_min": 79,
+    "budget": 80,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_49..49"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        16
+      ]
+    ],
+    "n": 18,
+    "e_min": 84,
+    "budget": 85,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_52..52"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        17
+      ]
+    ],
+    "n": 19,
+    "e_min": 90,
+    "budget": 90,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        18
+      ]
+    ],
+    "n": 20,
+    "e_min": 95,
+    "budget": 95,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 1,
+    "c": 2,
+    "factors": [
+      [
+        7,
+        19
+      ]
+    ],
+    "n": 21,
+    "e_min": 100,
+    "budget": 100,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 1,
+    "c": 3,
+    "factors": [
+      [
+        6,
+        11
+      ]
+    ],
+    "n": 14,
+    "e_min": 65,
+    "budget": 65,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 1,
+    "c": 6,
+    "factors": [
+      [
+        3,
+        5
+      ]
+    ],
+    "n": 11,
+    "e_min": 50,
+    "budget": 50,
+    "slack": 0,
+    "factor_status": [
+      "ODD_CYCLE"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        15
+      ]
+    ],
+    "n": 15,
+    "e_min": 55,
+    "budget": 60,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_56..60"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        16
+      ]
+    ],
+    "n": 16,
+    "e_min": 59,
+    "budget": 64,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_60..64"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        17
+      ]
+    ],
+    "n": 17,
+    "e_min": 63,
+    "budget": 68,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_64..68"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        18
+      ]
+    ],
+    "n": 18,
+    "e_min": 67,
+    "budget": 72,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_68..72"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        19
+      ]
+    ],
+    "n": 19,
+    "e_min": 71,
+    "budget": 76,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_72..76"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        20
+      ]
+    ],
+    "n": 20,
+    "e_min": 75,
+    "budget": 80,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_76..80"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 0,
+    "factors": [
+      [
+        8,
+        21
+      ]
+    ],
+    "n": 21,
+    "e_min": 79,
+    "budget": 84,
+    "slack": 5,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_80..84"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        13
+      ]
+    ],
+    "n": 14,
+    "e_min": 54,
+    "budget": 56,
+    "slack": 2,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_42..43"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        14
+      ]
+    ],
+    "n": 15,
+    "e_min": 59,
+    "budget": 60,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_46..46"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        15
+      ]
+    ],
+    "n": 16,
+    "e_min": 63,
+    "budget": 64,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_49..49"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        16
+      ]
+    ],
+    "n": 17,
+    "e_min": 67,
+    "budget": 68,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_52..52"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        17
+      ]
+    ],
+    "n": 18,
+    "e_min": 72,
+    "budget": 72,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        18
+      ]
+    ],
+    "n": 19,
+    "e_min": 76,
+    "budget": 76,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 2,
+    "c": 1,
+    "factors": [
+      [
+        7,
+        19
+      ]
+    ],
+    "n": 20,
+    "e_min": 80,
+    "budget": 80,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 2,
+    "c": 2,
+    "factors": [
+      [
+        6,
+        11
+      ]
+    ],
+    "n": 13,
+    "e_min": 52,
+    "budget": 52,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 2,
+    "c": 5,
+    "factors": [
+      [
+        3,
+        5
+      ]
+    ],
+    "n": 10,
+    "e_min": 40,
+    "budget": 40,
+    "slack": 0,
+    "factor_status": [
+      "ODD_CYCLE"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        13
+      ]
+    ],
+    "n": 13,
+    "e_min": 41,
+    "budget": 43,
+    "slack": 2,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_42..43"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        14
+      ]
+    ],
+    "n": 14,
+    "e_min": 45,
+    "budget": 46,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_46..46"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        15
+      ]
+    ],
+    "n": 15,
+    "e_min": 48,
+    "budget": 49,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_49..49"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        16
+      ]
+    ],
+    "n": 16,
+    "e_min": 51,
+    "budget": 52,
+    "slack": 1,
+    "factor_status": [
+      "UNRESOLVED_NONORE_e_52..52"
+    ],
+    "resolved": false
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        17
+      ]
+    ],
+    "n": 17,
+    "e_min": 55,
+    "budget": 55,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        18
+      ]
+    ],
+    "n": 18,
+    "e_min": 58,
+    "budget": 58,
+    "slack": 0,
+    "factor_status": [
+      "EMPTY_NO_ORE_AT_THIS_ORDER"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 3,
+    "c": 0,
+    "factors": [
+      [
+        7,
+        19
+      ]
+    ],
+    "n": 19,
+    "e_min": 61,
+    "budget": 61,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 3,
+    "c": 1,
+    "factors": [
+      [
+        6,
+        11
+      ]
+    ],
+    "n": 12,
+    "e_min": 40,
+    "budget": 40,
+    "slack": 0,
+    "factor_status": [
+      "ORE_ONLY"
+    ],
+    "resolved": true
+  },
+  {
+    "a": 3,
+    "c": 4,
+    "factors": [
+      [
+        3,
+        5
+      ]
+    ],
+    "n": 9,
+    "e_min": 31,
+    "budget": 31,
+    "slack": 0,
+    "factor_status": [
+      "ODD_CYCLE"
+    ],
+    "resolved": true
+  }
+]

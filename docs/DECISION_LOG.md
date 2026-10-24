@@ -163,3 +163,5 @@ D077 owner amendment24Oct2026: S040 is one bounded coordinated-star test, with p
 S040 owner invocation24Oct2026 (`run s04p`) executes the D077-revised prompt. Registered gate failed: no strict improvement in exact coordinated neighborhoods or matched arms. D077 decision PIVOT: park star/patch/coordinated four-set hill-climbing; queue S041 comparative audit of at least two genuinely different routes. S041 not executed.
 
 S041 owner invocation24Oct2026 executes the D077 PIVOT audit. Decision: rank R3 non-alpha joins/apex first because its chi>=10 is certified by construction and avoids the chi_f>9 counting premise (F9 risk); queue S042 as an exact apex-leaf census with a D077-style gate; R1 order-3 symmetry is the fallback. Star/patch search and S11 cells stay parked. S042 not executed.
+
+S042 owner invocation24Oct2026. Registered gate failed (no live apex leaf). Decision PIVOT: park R3 apex-over-Hajos search; queue S043 as the exact order-3 layer-symmetric class (R1), whose own PIVOT leads to an owner-decision audit rather than further slices. S043 not executed.

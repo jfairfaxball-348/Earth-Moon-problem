@@ -1,3 +1,12 @@
+# S042 CLOSED — apex-leaf census, decision PIVOT (24 October 2026)
+
+All 97 resolved-domain apex leaf graphs are certified non-biplanar by
+K9-minor lemmas (DRAT); apex-over-Hajos from odd-cycle/6-Ore/7-Ore leaves is
+closed; thirty non-Ore windows UNRESOLVED. No witness;9<=chi_2<=12. S036
+stays stopped. S043 order-3 symmetric class is FUTURE/UNEXECUTED; read
+authoritative/NEXT_SESSION_PROMPT.md. Existing main, ordinary non-force
+commit/push, no branch/PR. Historical headers follow.
+
 # S041 CLOSED — comparative route audit (24 October 2026)
 
 Ranking R3 non-alpha joins/apex > R1 symmetry > R2 graph-first > R4 (parked).
