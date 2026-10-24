@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rejected": [
+    "repeated_rim",
+    "interior_on_rim",
+    "wrong_degree",
+    "wrong_deficit",
+    "missing_face",
+    "nonface_target",
+    "missing_effect",
+    "fake_chord"
+  ],
+  "valid_control": true
+}

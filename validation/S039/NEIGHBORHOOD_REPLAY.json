@@ -1,0 +1,18 @@
+[
+  {
+    "status": "PASS",
+    "density": 156,
+    "neighbors": 766,
+    "minimum_score": 83,
+    "strict_improvements": 4,
+    "cpu_seconds": 0.109375
+  },
+  {
+    "status": "PASS",
+    "density": 155,
+    "neighbors": 1045,
+    "minimum_score": 116,
+    "strict_improvements": 5,
+    "cpu_seconds": 0.125
+  }
+]

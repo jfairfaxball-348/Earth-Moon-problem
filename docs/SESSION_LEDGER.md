@@ -95,3 +95,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S037 |2026-10-24| CAM0041 structural reset | sorting explains all247 historical closures; checked planar pairs best91/125 independent four-sets; strict local trap and446 nonextension subdivisions; no witness | CLOSED; S038 patch repair FUTURE/UNEXECUTED |
 
 | S038 |2026-10-24| CAM0042 bounded disk/dual-layer patches | independent exact neighborhood and transition replay; best91/123, all saved <=9-colourable; no witness | CLOSED; S039 FUTURE/UNEXECUTED |
+
+| S039 |2026-10-24| CAM0043 bounded vertex stars/protected9-core |1811 exact neighbors,762 trace replays, best82/79, all saved <=9-colourable; no witness| CLOSED; S040 FUTURE/UNEXECUTED |

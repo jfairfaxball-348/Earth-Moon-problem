@@ -97,3 +97,5 @@ CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 
 **CAM-0041 / S037 CLOSED bounded discovery:** all247 historical closures follow from sorting alone; best91/125 independent four-sets at156/155 edges; all saved pairs <=9-colourable; local trap/nonextension certificates. S038 patch repair FUTURE/UNEXECUTED; no S036 restart.
 
 **CAM-0042 / S038 CLOSED:** bounded exact disk/atomic two-layer patch prototype.28039 independently replayed family members; discovery best91/123, all saved <=9-colourable.9..12 unchanged. S039 vertex-star/protected9-core seed direction FUTURE/UNEXECUTED.
+
+**CAM-0043 / S039 CLOSED:** degree3..6 star relocation plus protected9-core calibration.1811 independently replayed effects; best82/79 at156/155; all22 saved records <=9-colourable;762 trace replays.79.71875 experimental CPU seconds.9..12 unchanged; S040 coordinated stars FUTURE/UNEXECUTED.

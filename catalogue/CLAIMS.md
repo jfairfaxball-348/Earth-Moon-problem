@@ -839,3 +839,27 @@ Neither original S03791/125 state has a strict improvement in one-layer disk sup
 S038 explicitly validates22 saved planar-layer records (including duplicates); best discovery scores91/123 at156/155 edges. All records have proper <=9-colourings; saved123 states have8-colourings.
 
 validation/S038/PAIR_CHECKS.json and exact transition replay. No lower-bound advance. Twelve matched capped arms show no best-score advantage for patches over single moves; capped searches remain HEURISTIC/UNKNOWN. Source IDs attribute related methods only, not these exact results;9..12 unchanged.
+
+## CLM-0129 — PROGRAMME_PROVED
+
+A degree d simple-disk vertex star with q incident quadrilaterals has rim length d+q. Filling with d-3 noncrossing diagonals and q quads, then inserting the same vertex into a triangle, preserves the layer edge count and planar deficit; final opposite-layer disjointness must be checked.
+
+Elementary counting/gluing proof in sessions/S039/RESEARCH.md; implemented only3<=d<=6,q<=1. SRC0061 is related insertion/removal documentation, not the proof or a novelty claim.
+
+## CLM-0130 — COMPUTED_EXACT
+
+Selected degree3..6 star neighborhoods at the frozen S03891/123 inputs have766/1045 unique effects at156/155 edges, minimum83/116 and4/5 strict improvements.
+
+All1811 effects exactly reproduced by independent chord-subset/polygon-splitting replay. These fixed-embedding neighborhoods omit degree2/>6, non-simple links, simultaneous other-layer moves and arbitrary embeddings. No global exclusion.
+
+## CLM-0131 — COMPUTED_EXACT
+
+S039 saved planar pairs reach82/79 independent four-sets at156/155 edges. All22 saved records have checked <=9-colourings. The saved155 star bests91/79 have alpha exactly4; best15682 has an independent5-set.
+
+Explicit pair, sphere, colouring, all20475 four-set checks and762 trace transitions independently replayed. Two-seed matched heuristic discovery improves both basins but gives no statistical superiority, whole-stratum decision or chi10 witness. SRC0054 attributes existing relocation experimentation.
+
+## CLM-0132 — PROGRAMME_PROVED
+
+The verified K6-join-C5 core has chi=9. Paired disjoint-face coning through triangular/quadrilateral faces preserves a9-colouring because every insertion has <=8 earlier neighbors. Four saved order28 seeds and their protected search bests have exact chi9.
+
+Core layer26/24 rotations and clique/join/cycle checked from inherited Sulanke record; all17 insertions per seed independently reconstructed. Pure coning is a calibration family, not a chi10 source. Subsequent non-insertion moves preserve the lower bound only; separate saved colourings establish their upper bound9. Old through17 exclusions not repeated.

@@ -1,3 +1,13 @@
+# S039 CLOSED — bounded vertex-star research (24 October 2026)
+
+Star moves escape the S038 basins: best82/79 independent four-sets at
+156/155 edges; all saved pairs <=9-colourable. Best155 has alpha=4.
+Protected-core saved results are exactly9-chromatic; pure coning has
+a9-colouring extension. No witness;9<=chi_2<=12. S036 remains stopped.
+S040 coordinated-star research is FUTURE/UNEXECUTED; read authoritative/
+NEXT_SESSION_PROMPT.md. Existing main, ordinary non-force commit/push,
+no branch/PR. Historical headers follow.
+
 # S038 CLOSED — bounded face-patch research (24 October 2026)
 
 No strict original-state improvement in tested one-layer disk supports1..4

@@ -155,3 +155,5 @@ D076 (owner 23-24 Oct 2026, S036): fresh semantic-recovery residents after the S
 S037 owner invocation 24Oct2026 adopts installed structural-reset prompt on existing main. Confirmed all247 closed prefixes are sorting bookkeeping. Next direction: bounded planar multi-edge patch repair, including nonextendible 77-edge layers. S036 stays stopped; S038 queued only.
 
 S038 owner invocation24Oct2026 adopted existing-main bounded patch prompt. Matched methods give no best-score advantage for small boundary-only patches. Queue S039 interior-vertex relocation and protected9-chromatic seed audit; do not execute it automatically.
+
+S039 owner invocation24Oct2026 executes existing-main bounded star/seed prompt. Concrete star escapes91/123 to82/79 justify testing coordinated two-layer relocations and remaining-four-set diagnosis next. Pure coning is provably9-colourable; preserve it as calibration, not a chi10 candidate family. S040 queued, not executed.

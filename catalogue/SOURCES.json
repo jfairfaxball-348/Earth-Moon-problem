@@ -663,5 +663,17 @@
     "access": "ABSTRACT_INSPECTED",
     "accessed": "2026-10-24",
     "note": "Primary abstract/metadata only. Algorithm/proofs not imported or independently checked; no disjoint-pair connectivity or efficiency theorem assumed. Related method attribution, not a novelty claim."
+  },
+  {
+    "id": "SRC-0061",
+    "title": "CGAL 6.2.1: 2D Triangulations, Triangulation_2 reference manual",
+    "authors": "CGAL Project",
+    "year": null,
+    "publication_date": null,
+    "url": "https://doc.cgal.org/latest/Triangulation_2/classCGAL_1_1Triangulation__2.html",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Official implementation-description statements on insertion/removal inspected; no code or proofs imported. Geometric library differs from this combinatorial disjoint-pair application. /latest/ observed6.2.1; publication date unknown. No novelty claim."
   }
 ]

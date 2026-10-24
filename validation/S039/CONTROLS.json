@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "seed": 3899,
+  "checked_moves": 110,
+  "cases": {
+    "ordinary": 98,
+    "quad_incident": 12,
+    "inside_hole": 9,
+    "elsewhere": 101
+  },
+  "core": {
+    "clique": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "odd_cycle": [
+      7,
+      9,
+      6,
+      8,
+      10
+    ],
+    "edges": 50,
+    "planar_layer_edges": [
+      26,
+      24
+    ],
+    "proper_colours": 9,
+    "lower_bound": "K6 join odd C5 requires6+3=9 distinct colours"
+  },
+  "omitted": "degree2, degree>6, nonsimple links; all recorded as unsearched",
+  "cpu_seconds": 2.140625
+}

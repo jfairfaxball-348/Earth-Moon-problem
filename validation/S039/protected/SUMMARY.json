@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 3910,
+    "density": 156,
+    "initial_violations": 1286,
+    "best_violations": 304,
+    "generation_cpu_seconds": 0.125,
+    "cpu_seconds": 9.078125,
+    "stop": "PLATEAU"
+  },
+  {
+    "seed": 3911,
+    "density": 155,
+    "initial_violations": 1413,
+    "best_violations": 210,
+    "generation_cpu_seconds": 0.125,
+    "cpu_seconds": 8.296875,
+    "stop": "PLATEAU"
+  },
+  {
+    "seed": 3912,
+    "density": 156,
+    "initial_violations": 1260,
+    "best_violations": 193,
+    "generation_cpu_seconds": 0.109375,
+    "cpu_seconds": 8.71875,
+    "stop": "PLATEAU"
+  },
+  {
+    "seed": 3913,
+    "density": 155,
+    "initial_violations": 1520,
+    "best_violations": 231,
+    "generation_cpu_seconds": 0.125,
+    "cpu_seconds": 8.0,
+    "stop": "PLATEAU"
+  }
+]

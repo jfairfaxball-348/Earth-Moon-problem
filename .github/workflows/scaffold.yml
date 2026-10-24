@@ -52,3 +52,7 @@ jobs:
         run: python scripts/check_s037_records.py
       - name: Verify S038 finite neighborhoods and planar patch traces
         run: python scripts/check_s038_records.py
+      - name: Verify S039 star neighborhoods seeds and planar traces
+        run: |
+          python scripts/check_s039_adversarial.py
+          python scripts/check_s039_records.py

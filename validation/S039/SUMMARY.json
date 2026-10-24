@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_BOUNDED_STAR_RESEARCH_NO_WITNESS",
+  "date": "2026-10-24",
+  "entry_main": "af422b1bf68402f4eb072c82c9012cecc57d4202",
+  "experimental_cpu_seconds": 79.71875,
+  "neighborhood_cpu_seconds": 0.1875,
+  "paired_arms_cpu_seconds": 44.953125,
+  "protected_generation_search_cpu_seconds": 34.578125,
+  "classification_cpu_seconds": 1.0,
+  "compute_cap_cpu_seconds": 7200,
+  "exact_neighborhoods": {
+    "156": {
+      "neighbors": 766,
+      "minimum": 83,
+      "strict_improvements": 4
+    },
+    "155": {
+      "neighbors": 1045,
+      "minimum": 116,
+      "strict_improvements": 5
+    }
+  },
+  "best_violations": {
+    "156": 82,
+    "155": 79
+  },
+  "best155_alpha_exact": 4,
+  "protected_best_violations": {
+    "156": 193,
+    "155": 210
+  },
+  "protected_saved_chromatic_exact": 9,
+  "pure_coning_chromatic_exact": 9,
+  "checked_layer_records": 22,
+  "replayed_transitions": 762,
+  "all_saved_pairs_have_checked_at_most_9_coloring": true,
+  "heuristic_verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "witness": false,
+  "S11": "UNKNOWN",
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "all_experimental_processes_finished": true,
+  "next_session": "S040_FUTURE_UNEXECUTED"
+}

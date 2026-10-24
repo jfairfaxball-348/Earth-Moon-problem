@@ -463,3 +463,11 @@ An interlaced algorithm for transforming plane triangulations using simultaneous
 Primary abstract/metadata only. Algorithm/proofs not imported or independently checked; no disjoint-pair connectivity or efficiency theorem assumed. Related method attribution, not a novelty claim.
 
 S038 refresh24Oct2026: SRC-0054 primary post and SRC-0058 official plantri page re-inspected; access grades unchanged. No reported numerics or whole algorithms independently replayed. See sessions/S038/PRIOR_ART.md.
+
+## SRC-0061 — STATEMENT_INSPECTED
+
+CGAL 6.2.1: 2D Triangulations, Triangulation_2 reference manual. CGAL Project; publication date unknown, accessed24 October2026. https://doc.cgal.org/latest/Triangulation_2/classCGAL_1_1Triangulation__2.html
+
+Official implementation-description statements on insertion/removal inspected; no code or proofs imported. Geometric library differs from this combinatorial disjoint-pair application. /latest/ observed6.2.1; publication date unknown. No novelty claim.
+
+S039 refresh24Oct2026: SRC0054 primary post re-read, no numerical replay. SRC0060 refresh failed redirect loop; previous abstract access grade unchanged. See sessions/S039/PRIOR_ART.md.
