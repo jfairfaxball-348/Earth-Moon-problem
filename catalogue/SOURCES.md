@@ -441,3 +441,17 @@ S031 dated refresh (entry2026-10-19, closeout2026-10-20): SRC-0037/0045/0048/004
 S032 SRC-0055 update (2026-10-20, STATEMENT_INSPECTED remains): bipsat2 source/NOTICE/formats inspected at ab6e472b7ef4ab7dca1d12c8907b3c74399d3828; optional-edge implementation adapted/built on native CaDiCaL3.0.1, with independent subdivision guard and scoped controls. No twin/family encoding imported. Free K9 capped UNKNOWN at60s/300s. Source/runtime archive under validation/S032/start; no theorem/novelty promotion.
 
 S032 D070 update to SRC-0055: instrumented successor adds CaDiCaL counters; final2579937 layer clauses independently audited. Existing access grade/attribution unchanged. No projected graph-count or runtime claim.
+
+## SRC-0058 — STATEMENT_INSPECTED
+
+plantri and fullgen official page; Fast generation of planar graphs expanded paper. Gunnar Brinkmann, Heidi Van den Camp and Brendan McKay (program page); Brinkmann and McKay (2007 paper). 2026-03-04 (plantri 5.8). https://users.cecs.anu.edu.au/~bdm/plantri/
+
+Official classes/version and paper abstract/sections 1.1-1.2 inspected. Program not built/run; no exhaustive generation or global connectivity claim used.
+
+## SRC-0059 — STATEMENT_INSPECTED
+
+Tight separators and common triangulation completions in biplanar graphs. lunar_structure (rStation handle). 2026-10-06 (v2). https://rstation.ai/problems/earth_moon/papers/11
+
+Article text, deficit-one density/face argument and completion discussion inspected. Supplement not replayed; full paper claims and line-graph applications not adopted. S037 independently derives elementary near-triangulation fact.
+
+S037 refresh SRC-0054: primary post re-inspected 24 October 2026; flip/tabu/relabel prior art acknowledged, numerical reports not replayed. See sessions/S037/PRIOR_ART.md.

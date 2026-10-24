@@ -1,0 +1,21 @@
+{
+  "seed": 3704,
+  "mode": "kick",
+  "density": 156,
+  "seed_kinds": [
+    "bipyramid",
+    "stacked"
+  ],
+  "proposals": 15000,
+  "accepted": 4752,
+  "flips": 624,
+  "swaps": 14150,
+  "invalid_flips": 226,
+  "final_overlap": 6,
+  "first_feasible_step": null,
+  "best": null,
+  "progress": [],
+  "cpu_seconds": 1.484375,
+  "wall_seconds": 1.4839999999967404,
+  "verdict": "HEURISTIC_UNKNOWN"
+}

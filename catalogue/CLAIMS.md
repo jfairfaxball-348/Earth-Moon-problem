@@ -803,3 +803,21 @@ validation/S035/closeout/AUDIT.json and PREFIX_AUDIT.json. Accepted and retained
 S036 closeout audit: all 60 S036 geometric clause blocks (14165211 occurrences) are independently checked Kuratowski-subdivision lemmas with matching SHA256/counts; the nine S11 regions remain UNKNOWN.
 
 validation/S036/closeout/CUTS_AUDIT.json, STOP_RECORD.json, SAT_FINAL_AUDIT.json, REGIONS_FINAL.json. Occurrences overlap across blocks and are not unique clauses. No SAT witness, native UNSAT, region closure, whole-stratum decision or headline advance; private CDCL not serialized; 9<=chi2<=12. Source attribution method only.
+
+## CLM-0123 — PROGRAMME_PROVED
+
+For the actual sorted S11 encoding and registered eight-bit partition, exactly the nine prefixes 0,1,3,7,15,31,63,127,255 satisfy sorting alone; all 247 historical certified closed prefixes violate sorting.
+
+Tiny monotone-type proof plus independent exhaustive 65536 local assignments, full-eleven-position DP, all 16 type truth-table rows, frozen formula/mapping hash and exact historical certificate-ID comparison. tools/s037_symmetry.py; validation/S037/SYMMETRY.json. No fresh historical DRAT replay, graph exclusion or surviving S11 satisfiability decision.
+
+## CLM-0124 — COMPUTED_EXACT
+
+S037 preserved 19 independently checked saved planar-layer records (including duplicates), best 91/125 independent four-sets at 156/155 edges. Every saved pair has a checked proper colouring with at most nine colours.
+
+Explicit layers, sphere rotation certificates, direct 20475-four-set enumeration and colourings: validation/S037/PAIR_CHECKS.json. Discovery heuristics and capped permutation solves remain UNKNOWN. Nonplanar hitting relaxations are not witnesses. Source IDs attribute methods, not these computations; 9<=chi2<=12.
+
+## CLM-0125 — COMPUTED_EXACT
+
+The explicit S037 91-violation pair has 43 admissible disjoint single flips, all with at least 93 violations. Two explicit 155-edge fixed layer splits admit no disjoint one-edge completion of their second layer, across all embeddings.
+
+Direct finite neighbor enumeration plus 446 explicit independently checked K5/K33 subdivisions covering all 223 absent pairs in each fixed split. validation/S037/STRUCTURE.json and NONEXTENSION.json. Elementary deficit-one/degree lemmas in RESEARCH.md; no novelty claimed. Does not exclude alternative repartitioning, larger patch moves, other graphs or a global witness.

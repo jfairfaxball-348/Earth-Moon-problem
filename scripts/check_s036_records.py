@@ -33,14 +33,18 @@ if state['last_completed_session'] == 'S035':
     assert active and active['id'] == 'S036' and state['next_session_is_future_unexecuted'] is False
     assert active['no_automatic_S037'] and not active['witness_established'] and not active['whole_stratum_certified']
 else:
-    # S036 CLOSED by owner-directed clean stop; no next session queued.
-    assert state['last_completed_session'] == 'S036' and not active
-    assert state['next_session_status'] in ('NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION', 'S037_QUEUED_FUTURE_UNEXECUTED')
+    # S036 is frozen after closeout; a successor may advance live authority.
+    assert state['last_completed_session'] >= 'S036'
     assert state['current_computation'] == 'STOPPED'
     holding = (ROOT / 'authoritative/NEXT_SESSION_PROMPT.md').read_text(encoding='utf-8')
-    if state['next_session_status'] == 'NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION':
+    if state['last_completed_session'] > 'S036':
+        archived = (ROOT / 'sessions/S036/S037_FUTURE_PROMPT.md').read_text(encoding='utf-8')
+        assert archived.startswith('# S037') and 'FUTURE / UNEXECUTED' in archived
+        assert state['s036_closeout']['status'] == 'CLOSED_OWNER_DIRECTED_CLEAN_STOP'
+    elif state['next_session_status'] == 'NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION':
         assert 'NOT YET QUEUED' in holding and 'NOT EXECUTABLE' in holding
     else:
+        assert not active and state['next_session_status'] == 'S037_QUEUED_FUTURE_UNEXECUTED'
         assert state['recommended_next_session'] == 'S037'
         assert state['next_session_is_future_unexecuted'] is True
         assert state['s037_queued']['status'] == 'FUTURE_UNEXECUTED'

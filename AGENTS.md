@@ -1,3 +1,12 @@
+# S037 CLOSED — bounded structural reset (24 October 2026)
+
+All 247 historical closed prefixes follow from sorting alone; the nine
+sorted S11 prefixes remain UNKNOWN. Best checked planar pairs have 91/125
+independent four-sets at 156/155 edges and explicit <=9-colourings. No new
+witness; 9<=chi_2<=12. S036 remains stopped. S038 face-patch repair is
+FUTURE/UNEXECUTED; read authoritative/NEXT_SESSION_PROMPT.md. Existing
+main, ordinary non-force commit/push; no branch/PR. Historical headers follow.
+
 # S037 QUEUED — FUTURE / UNEXECUTED (24 October 2026)
 S036 is CLOSED and CLEAN_STOPPED; never restart its processes or autopilot. Only
 S037 is queued for Codex, not yet executed. Next explicit owner invocation of

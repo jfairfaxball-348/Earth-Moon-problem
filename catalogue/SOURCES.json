@@ -589,8 +589,8 @@
     "url": "https://rstation.ai/r/earth_moon/posts/52",
     "doi": null,
     "access": "STATEMENT_INSPECTED",
-    "accessed": "2026-10-19",
-    "note": "S029: heuristic floors (n=26: 2 independent 4-sets; n=28: 28); explicitly no proof value."
+    "accessed": "2026-10-24",
+    "note": "S029: heuristic floors (n=26: 2 independent 4-sets; n=28: 28); explicitly no proof value. S037: primary post re-inspected; existing flip/tabu/relabel methodology acknowledged, numerical results not replayed. Strictly disjoint dense experiments are not directly comparable."
   },
   {
     "id": "SRC-0055",
@@ -626,5 +626,30 @@
     "access": "PROOF_INSPECTED",
     "accessed": "2026-10-19",
     "note": "S030 inspected encoder/checker and replayed the three finite RUP branches with supplied and independent naive checkers. Packet27864 bytes, b35f139e59467f20b771f090188fa5536d8342dcbc4446cf7945a74fb2fa64b3. Full graph reduction/hand coverage not independently proved. CC0 supplement retained under validation/S030/prior_art/paper59; full regular exclusion not promoted."
+  },
+  {
+    "id": "SRC-0058",
+    "title": "plantri and fullgen official page; Fast generation of planar graphs expanded paper",
+    "authors": "Gunnar Brinkmann, Heidi Van den Camp and Brendan McKay (program page); Brinkmann and McKay (2007 paper)",
+    "year": 2026,
+    "publication_date": "2026-03-04 (plantri 5.8)",
+    "url": "https://users.cecs.anu.edu.au/~bdm/plantri/",
+    "alternate_url": "https://users.cecs.anu.edu.au/~bdm/papers/plantri-full.pdf",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Official classes/version and paper abstract/sections 1.1-1.2 inspected. Program not built/run; no exhaustive generation or global connectivity claim used."
+  },
+  {
+    "id": "SRC-0059",
+    "title": "Tight separators and common triangulation completions in biplanar graphs",
+    "authors": "lunar_structure (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-06 (v2)",
+    "url": "https://rstation.ai/problems/earth_moon/papers/11",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Article text, deficit-one density/face argument and completion discussion inspected. Supplement not replayed; full paper claims and line-graph applications not adopted. S037 independently derives elementary near-triangulation fact."
   }
 ]

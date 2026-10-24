@@ -91,3 +91,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S035 |2026-10-23| CAM0040 owner closeout |247 encoded closures; nine UNKNOWN; watcher read failure; RAM preserved; lossless delta recovery | S036 targeted sustained search FUTURE/UNEXECUTED |
 
 | S036 |2026-10-24| CAM0040 continuation; owner-directed clean stop | watcher repair+acceptance; S035 RAM lost at app closure; fresh residents, machine limits, recycling, autopilot; cold diagnostics (baseline kept) and partial rotation; all cuts re-audited; nine UNKNOWN | S037 NOT YET QUEUED (owner) |
+
+| S037 |2026-10-24| CAM0041 structural reset | sorting explains all247 historical closures; checked planar pairs best91/125 independent four-sets; strict local trap and446 nonextension subdivisions; no witness | CLOSED; S038 patch repair FUTURE/UNEXECUTED |

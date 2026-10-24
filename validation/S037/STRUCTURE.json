@@ -1,0 +1,740 @@
+{
+  "status": "PASS",
+  "local_minimum": {
+    "source": "validation/S037/guided/arm-00.json",
+    "baseline": 91,
+    "admissible_single_flips": 43,
+    "improving_single_flips": 0,
+    "minimum_neighbor_violations": 93,
+    "neighbors": [
+      {
+        "layer": 0,
+        "removed": [
+          0,
+          9
+        ],
+        "added": [
+          7,
+          21
+        ],
+        "independent_four_sets": 105
+      },
+      {
+        "layer": 0,
+        "removed": [
+          1,
+          26
+        ],
+        "added": [
+          12,
+          17
+        ],
+        "independent_four_sets": 117
+      },
+      {
+        "layer": 0,
+        "removed": [
+          3,
+          12
+        ],
+        "added": [
+          18,
+          26
+        ],
+        "independent_four_sets": 103
+      },
+      {
+        "layer": 0,
+        "removed": [
+          3,
+          18
+        ],
+        "added": [
+          12,
+          20
+        ],
+        "independent_four_sets": 114
+      },
+      {
+        "layer": 0,
+        "removed": [
+          3,
+          22
+        ],
+        "added": [
+          20,
+          26
+        ],
+        "independent_four_sets": 124
+      },
+      {
+        "layer": 0,
+        "removed": [
+          6,
+          13
+        ],
+        "added": [
+          12,
+          20
+        ],
+        "independent_four_sets": 132
+      },
+      {
+        "layer": 0,
+        "removed": [
+          6,
+          22
+        ],
+        "added": [
+          12,
+          20
+        ],
+        "independent_four_sets": 125
+      },
+      {
+        "layer": 0,
+        "removed": [
+          9,
+          21
+        ],
+        "added": [
+          0,
+          16
+        ],
+        "independent_four_sets": 120
+      },
+      {
+        "layer": 0,
+        "removed": [
+          9,
+          25
+        ],
+        "added": [
+          7,
+          8
+        ],
+        "independent_four_sets": 120
+      },
+      {
+        "layer": 0,
+        "removed": [
+          11,
+          13
+        ],
+        "added": [
+          18,
+          23
+        ],
+        "independent_four_sets": 104
+      },
+      {
+        "layer": 0,
+        "removed": [
+          11,
+          20
+        ],
+        "added": [
+          4,
+          18
+        ],
+        "independent_four_sets": 120
+      },
+      {
+        "layer": 0,
+        "removed": [
+          11,
+          23
+        ],
+        "added": [
+          5,
+          13
+        ],
+        "independent_four_sets": 112
+      },
+      {
+        "layer": 0,
+        "removed": [
+          12,
+          14
+        ],
+        "added": [
+          22,
+          27
+        ],
+        "independent_four_sets": 114
+      },
+      {
+        "layer": 0,
+        "removed": [
+          12,
+          26
+        ],
+        "added": [
+          1,
+          3
+        ],
+        "independent_four_sets": 111
+      },
+      {
+        "layer": 0,
+        "removed": [
+          13,
+          18
+        ],
+        "added": [
+          11,
+          12
+        ],
+        "independent_four_sets": 132
+      },
+      {
+        "layer": 0,
+        "removed": [
+          13,
+          20
+        ],
+        "added": [
+          6,
+          16
+        ],
+        "independent_four_sets": 108
+      },
+      {
+        "layer": 0,
+        "removed": [
+          16,
+          20
+        ],
+        "added": [
+          2,
+          13
+        ],
+        "independent_four_sets": 109
+      },
+      {
+        "layer": 0,
+        "removed": [
+          16,
+          23
+        ],
+        "added": [
+          5,
+          13
+        ],
+        "independent_four_sets": 118
+      },
+      {
+        "layer": 0,
+        "removed": [
+          18,
+          20
+        ],
+        "added": [
+          3,
+          11
+        ],
+        "independent_four_sets": 97
+      },
+      {
+        "layer": 0,
+        "removed": [
+          21,
+          25
+        ],
+        "added": [
+          5,
+          15
+        ],
+        "independent_four_sets": 125
+      },
+      {
+        "layer": 0,
+        "removed": [
+          22,
+          26
+        ],
+        "added": [
+          3,
+          19
+        ],
+        "independent_four_sets": 93
+      },
+      {
+        "layer": 1,
+        "removed": [
+          2,
+          9
+        ],
+        "added": [
+          3,
+          4
+        ],
+        "independent_four_sets": 111
+      },
+      {
+        "layer": 1,
+        "removed": [
+          2,
+          23
+        ],
+        "added": [
+          3,
+          8
+        ],
+        "independent_four_sets": 118
+      },
+      {
+        "layer": 1,
+        "removed": [
+          3,
+          6
+        ],
+        "added": [
+          0,
+          14
+        ],
+        "independent_four_sets": 138
+      },
+      {
+        "layer": 1,
+        "removed": [
+          3,
+          9
+        ],
+        "added": [
+          2,
+          15
+        ],
+        "independent_four_sets": 97
+      },
+      {
+        "layer": 1,
+        "removed": [
+          3,
+          15
+        ],
+        "added": [
+          9,
+          13
+        ],
+        "independent_four_sets": 107
+      },
+      {
+        "layer": 1,
+        "removed": [
+          3,
+          23
+        ],
+        "added": [
+          2,
+          14
+        ],
+        "independent_four_sets": 97
+      },
+      {
+        "layer": 1,
+        "removed": [
+          6,
+          9
+        ],
+        "added": [
+          15,
+          23
+        ],
+        "independent_four_sets": 98
+      },
+      {
+        "layer": 1,
+        "removed": [
+          6,
+          15
+        ],
+        "added": [
+          9,
+          18
+        ],
+        "independent_four_sets": 118
+      },
+      {
+        "layer": 1,
+        "removed": [
+          6,
+          23
+        ],
+        "added": [
+          9,
+          14
+        ],
+        "independent_four_sets": 99
+      },
+      {
+        "layer": 1,
+        "removed": [
+          7,
+          10
+        ],
+        "added": [
+          1,
+          18
+        ],
+        "independent_four_sets": 109
+      },
+      {
+        "layer": 1,
+        "removed": [
+          7,
+          15
+        ],
+        "added": [
+          18,
+          24
+        ],
+        "independent_four_sets": 105
+      },
+      {
+        "layer": 1,
+        "removed": [
+          7,
+          24
+        ],
+        "added": [
+          15,
+          26
+        ],
+        "independent_four_sets": 118
+      },
+      {
+        "layer": 1,
+        "removed": [
+          9,
+          23
+        ],
+        "added": [
+          4,
+          6
+        ],
+        "independent_four_sets": 102
+      },
+      {
+        "layer": 1,
+        "removed": [
+          10,
+          15
+        ],
+        "added": [
+          22,
+          24
+        ],
+        "independent_four_sets": 95
+      },
+      {
+        "layer": 1,
+        "removed": [
+          10,
+          18
+        ],
+        "added": [
+          7,
+          22
+        ],
+        "independent_four_sets": 99
+      },
+      {
+        "layer": 1,
+        "removed": [
+          10,
+          24
+        ],
+        "added": [
+          12,
+          15
+        ],
+        "independent_four_sets": 119
+      },
+      {
+        "layer": 1,
+        "removed": [
+          15,
+          18
+        ],
+        "added": [
+          6,
+          7
+        ],
+        "independent_four_sets": 122
+      },
+      {
+        "layer": 1,
+        "removed": [
+          15,
+          22
+        ],
+        "added": [
+          10,
+          13
+        ],
+        "independent_four_sets": 104
+      },
+      {
+        "layer": 1,
+        "removed": [
+          17,
+          19
+        ],
+        "added": [
+          5,
+          7
+        ],
+        "independent_four_sets": 136
+      },
+      {
+        "layer": 1,
+        "removed": [
+          17,
+          27
+        ],
+        "added": [
+          5,
+          7
+        ],
+        "independent_four_sets": 145
+      },
+      {
+        "layer": 1,
+        "removed": [
+          18,
+          22
+        ],
+        "added": [
+          0,
+          10
+        ],
+        "independent_four_sets": 119
+      },
+      {
+        "layer": 1,
+        "removed": [
+          19,
+          27
+        ],
+        "added": [
+          5,
+          24
+        ],
+        "independent_four_sets": 137
+      }
+    ]
+  },
+  "near_triangulations": [
+    {
+      "path": "validation/S037/pairs/arm-01.json",
+      "quadrilateral": [
+        8,
+        18,
+        24,
+        26
+      ],
+      "diagonals": [
+        [
+          8,
+          24
+        ],
+        [
+          18,
+          26
+        ]
+      ],
+      "forbidden_by_T1": [
+        false,
+        true
+      ],
+      "already_in_T2": [
+        false,
+        false
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": [
+        [
+          8,
+          24
+        ]
+      ]
+    },
+    {
+      "path": "validation/S037/pairs/arm-03.json",
+      "quadrilateral": [
+        1,
+        27,
+        26,
+        5
+      ],
+      "diagonals": [
+        [
+          1,
+          26
+        ],
+        [
+          5,
+          27
+        ]
+      ],
+      "forbidden_by_T1": [
+        true,
+        true
+      ],
+      "already_in_T2": [
+        false,
+        false
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": []
+    },
+    {
+      "path": "validation/S037/pairs/arm-05.json",
+      "quadrilateral": [
+        2,
+        16,
+        10,
+        19
+      ],
+      "diagonals": [
+        [
+          2,
+          10
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "forbidden_by_T1": [
+        false,
+        true
+      ],
+      "already_in_T2": [
+        false,
+        false
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "path": "validation/S037/pairs/arm-07.json",
+      "quadrilateral": [
+        2,
+        27,
+        26,
+        17
+      ],
+      "diagonals": [
+        [
+          2,
+          26
+        ],
+        [
+          17,
+          27
+        ]
+      ],
+      "forbidden_by_T1": [
+        false,
+        false
+      ],
+      "already_in_T2": [
+        false,
+        true
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          26
+        ]
+      ]
+    },
+    {
+      "path": "validation/S037/pairs/arm-09.json",
+      "quadrilateral": [
+        2,
+        27,
+        25,
+        23
+      ],
+      "diagonals": [
+        [
+          2,
+          25
+        ],
+        [
+          23,
+          27
+        ]
+      ],
+      "forbidden_by_T1": [
+        false,
+        false
+      ],
+      "already_in_T2": [
+        true,
+        false
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": [
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          23,
+          27
+        ]
+      ]
+    },
+    {
+      "path": "validation/S037/pairs/arm-11.json",
+      "quadrilateral": [
+        1,
+        21,
+        11,
+        17
+      ],
+      "diagonals": [
+        [
+          1,
+          11
+        ],
+        [
+          17,
+          21
+        ]
+      ],
+      "forbidden_by_T1": [
+        true,
+        true
+      ],
+      "already_in_T2": [
+        false,
+        false
+      ],
+      "all_disjoint_additions_tested": 223,
+      "planar_disjoint_completions": []
+    }
+  ]
+}

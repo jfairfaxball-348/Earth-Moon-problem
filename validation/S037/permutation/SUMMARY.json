@@ -1,0 +1,90 @@
+[
+  {
+    "status": "UNKNOWN",
+    "stop": "CONFLICT_CAP",
+    "n": 28,
+    "density": 156,
+    "models": 94,
+    "variables": 784,
+    "base_clauses": 33392,
+    "separated_four_set_pairs": 56582,
+    "separated_clauses": 1357968,
+    "stats": {
+      "restarts": 353,
+      "conflicts": 20001,
+      "decisions": 25691,
+      "propagations": 1970342
+    },
+    "best_checked_violations": 180,
+    "cpu_seconds": 5.890625,
+    "wall_seconds": 5.937999999994645,
+    "proof_exported": false,
+    "source_pair": "validation/S037/pairs/arm-00.json"
+  },
+  {
+    "status": "UNKNOWN",
+    "stop": "CONFLICT_CAP",
+    "n": 28,
+    "density": 155,
+    "models": 100,
+    "variables": 784,
+    "base_clauses": 33236,
+    "separated_four_set_pairs": 61042,
+    "separated_clauses": 1465008,
+    "stats": {
+      "restarts": 468,
+      "conflicts": 20001,
+      "decisions": 26111,
+      "propagations": 1947423
+    },
+    "best_checked_violations": 125,
+    "cpu_seconds": 5.984375,
+    "wall_seconds": 6.0,
+    "proof_exported": false,
+    "source_pair": "validation/S037/pairs/arm-03.json"
+  },
+  {
+    "status": "UNKNOWN",
+    "stop": "CONFLICT_CAP",
+    "n": 28,
+    "density": 156,
+    "models": 67,
+    "variables": 784,
+    "base_clauses": 33392,
+    "separated_four_set_pairs": 37230,
+    "separated_clauses": 893520,
+    "stats": {
+      "restarts": 234,
+      "conflicts": 20005,
+      "decisions": 24489,
+      "propagations": 2022484
+    },
+    "best_checked_violations": 196,
+    "cpu_seconds": 4.234375,
+    "wall_seconds": 4.282000000006519,
+    "proof_exported": false,
+    "source_pair": "validation/S037/pairs/arm-02.json"
+  },
+  {
+    "status": "UNKNOWN",
+    "stop": "CONFLICT_CAP",
+    "n": 28,
+    "density": 155,
+    "models": 77,
+    "variables": 784,
+    "base_clauses": 33236,
+    "separated_four_set_pairs": 47220,
+    "separated_clauses": 1133280,
+    "stats": {
+      "restarts": 187,
+      "conflicts": 20001,
+      "decisions": 24253,
+      "propagations": 1987595
+    },
+    "best_checked_violations": 177,
+    "cpu_seconds": 5.015625,
+    "wall_seconds": 5.047000000020489,
+    "proof_exported": false,
+    "source_pair": "validation/S037/pairs/arm-11.json"
+  }
+]

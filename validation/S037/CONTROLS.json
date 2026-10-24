@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "seed": 3699,
+  "legal_flips_checked": 613,
+  "positive_J1": {
+    "n": 18,
+    "alpha_at_most_3": true
+  },
+  "rejected": [
+    "overlap",
+    "nonplanar",
+    "false_objective",
+    "duplicate"
+  ],
+  "bitset_vs_direct": true,
+  "K33_nonplanar": true,
+  "cpu_seconds": 0.890625
+}

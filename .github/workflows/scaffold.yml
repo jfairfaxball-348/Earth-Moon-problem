@@ -48,3 +48,5 @@ jobs:
         run: python scripts/check_s035_closeout.py
       - name: Validate S036 acceptance records and portable scanner repair
         run: python scripts/check_s036_records.py
+      - name: Verify S037 symmetry and explicit planar-pair certificates
+        run: python scripts/check_s037_records.py

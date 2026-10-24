@@ -1,0 +1,43 @@
+{
+  "status": "CLOSED_BOUNDED_DISCOVERY_NO_WITNESS",
+  "date": "2026-10-24",
+  "entry_main": "8e67c193bd09278872fba69a0106a92ce824a85f",
+  "symmetry_theorem": "ALL_247_CLOSED_PREFIXES_FOLLOW_FROM_SORTING_ALONE",
+  "nine_unknown": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31,
+    63,
+    127,
+    255
+  ],
+  "best_violations": {
+    "155": 125,
+    "156": 91
+  },
+  "checked_layer_records": 19,
+  "all_saved_pairs_have_checked_at_most_9_coloring": true,
+  "experimental_cpu_seconds": 44.625,
+  "nonextension_certificate_cpu_seconds": 15.5625,
+  "total_discovery_and_certificate_cpu_seconds": 60.1875,
+  "compute_cap_cpu_seconds": 7200,
+  "single_flip_neighbors": 43,
+  "single_flip_minimum_neighbor_violations": 93,
+  "fixed_split_nonextension_examples": 2,
+  "subdivision_certificates": 446,
+  "hitting_family_size": 4821,
+  "hitting_relaxations": "77_AND_78_EXPLICIT_NONPLANAR",
+  "whole_stratum_certified": false,
+  "witness": false,
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "fresh_historical_DRAT_replay": false,
+  "next_session": "S038_FUTURE_UNEXECUTED",
+  "all_experimental_processes_finished": true
+}
