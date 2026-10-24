@@ -1,0 +1,24 @@
+{
+ "status": "PRESERVED",
+ "candidates": 38042,
+ "geometric_cuts": 111073,
+ "files": {
+  "CANDIDATES.jsonl": {
+   "raw_sha256": "90c1c75ec2b1afa39cc834f1597282d7f5857a90c8b126f8cb203b7acf0d5626",
+   "archive": "validation/S045/initial-slice/CANDIDATES.jsonl.gz",
+   "archive_bytes": 3644966
+  },
+  "PLANARITY.lem": {
+   "raw_sha256": "07aa539fddad197164f9356b42a4f23f69e57e06da3cba2833854c4c81459806",
+   "archive": "validation/S045/initial-slice/PLANARITY.lem.gz",
+   "archive_bytes": 1452922
+  },
+  "SLICES.jsonl": {
+   "raw_sha256": "d312fc3e7ef65e483ac1388e80b45ea77d21933a673ceb1db48da12f245ef979",
+   "archive": "validation/S045/initial-slice/SLICES.jsonl.gz",
+   "archive_bytes": 963
+  }
+ },
+ "private_cdcl_serialized": false,
+ "verdict": "UNKNOWN"
+}

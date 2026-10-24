@@ -1,0 +1,15 @@
+{
+ "status": "PASS",
+ "rows": 38042,
+ "exact_cnf_byte_match": true,
+ "cnf_sha256": "f792a7273a18768d83ce69c78a002f58243113f961aeca2a6163b2bf73ad685b",
+ "wall_seconds": 21.594000000011874,
+ "private_before": 31428608,
+ "private_after": 32653312,
+ "rejected_schema_fields": [
+  "k",
+  "n",
+  "mode",
+  "partial"
+ ]
+}

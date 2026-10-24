@@ -1,3 +1,11 @@
+# S045 INVOKED — 50-vertex solver preparation and search (24 October 2026)
+
+Owner explicitly authorises solver changes, acceptance, benchmark and then
+sustained 50-vertex search. This supersedes the old proposal-only S045 gate.
+Read authoritative/NEXT_SESSION_PROMPT.md and sessions/S045/PLAN.md. S036
+stays CLEAN_STOPPED. Do not duplicate a live S045 controller. Historical
+headers follow; no certified witness, 9<=chi_2<=12 remains.
+
 # S044 CLOSED — decision audit recommends PAUSE (24 October 2026)
 
 Owner decision pending; no target change or new research run authorised.

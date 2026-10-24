@@ -1,0 +1,6210 @@
+{
+ "status": "PASS",
+ "fixed_layer_cases": 1026,
+ "exhaustive_n5": 1024,
+ "rows": [
+  {
+   "name": "n5-0000",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0001",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0002",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0003",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0004",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0005",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0006",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0007",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0008",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0009",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0010",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0011",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0012",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0013",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0014",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0015",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0016",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0017",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0018",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0019",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0020",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0021",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0022",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0023",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0024",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0025",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0026",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0027",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0028",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0029",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0030",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0031",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0032",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0033",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0034",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0035",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0036",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0037",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0038",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0039",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0040",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0041",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0042",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0043",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0044",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0045",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0046",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0047",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0048",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0049",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0050",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0051",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0052",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0053",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0054",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0055",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0056",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0057",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0058",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0059",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0060",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0061",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0062",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0063",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0064",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0065",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0066",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0067",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0068",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0069",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0070",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0071",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0072",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0073",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0074",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0075",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0076",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0077",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0078",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0079",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0080",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0081",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0082",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0083",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0084",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0085",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0086",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0087",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0088",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0089",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0090",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0091",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0092",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0093",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0094",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0095",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0096",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0097",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0098",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0099",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0100",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0101",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0102",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0103",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0104",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0105",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0106",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0107",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0108",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0109",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0110",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0111",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0112",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0113",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0114",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0115",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0116",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0117",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0118",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0119",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0120",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0121",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0122",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0123",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0124",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0125",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0126",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0127",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0128",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0129",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0130",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0131",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0132",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0133",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0134",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0135",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0136",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0137",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0138",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0139",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0140",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0141",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0142",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0143",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0144",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0145",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0146",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0147",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0148",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0149",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0150",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0151",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0152",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0153",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0154",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0155",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0156",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0157",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0158",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0159",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0160",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0161",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0162",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0163",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0164",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0165",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0166",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0167",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0168",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0169",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0170",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0171",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0172",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0173",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0174",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0175",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0176",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0177",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0178",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0179",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0180",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0181",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0182",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0183",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0184",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0185",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0186",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0187",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0188",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0189",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0190",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0191",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0192",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0193",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0194",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0195",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0196",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0197",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0198",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0199",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0200",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0201",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0202",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0203",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0204",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0205",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0206",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0207",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0208",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0209",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0210",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0211",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0212",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0213",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0214",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0215",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0216",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0217",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0218",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0219",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0220",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0221",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0222",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0223",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0224",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0225",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0226",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0227",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0228",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0229",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0230",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0231",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0232",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0233",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0234",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0235",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0236",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0237",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0238",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0239",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0240",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0241",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0242",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0243",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0244",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0245",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0246",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0247",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0248",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0249",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0250",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0251",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0252",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0253",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0254",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0255",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0256",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0257",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0258",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0259",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0260",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0261",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0262",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0263",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0264",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0265",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0266",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0267",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0268",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0269",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0270",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0271",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0272",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0273",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0274",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0275",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0276",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0277",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0278",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0279",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0280",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0281",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0282",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0283",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0284",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0285",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0286",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0287",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0288",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0289",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0290",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0291",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0292",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0293",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0294",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0295",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0296",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0297",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0298",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0299",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0300",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0301",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0302",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0303",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0304",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0305",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0306",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0307",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0308",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0309",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0310",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0311",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0312",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0313",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0314",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0315",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0316",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0317",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0318",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0319",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0320",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0321",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0322",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0323",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0324",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0325",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0326",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0327",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0328",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0329",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0330",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0331",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0332",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0333",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0334",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0335",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0336",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0337",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0338",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0339",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0340",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0341",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0342",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0343",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0344",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0345",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0346",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0347",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0348",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0349",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0350",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0351",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0352",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0353",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0354",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0355",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0356",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0357",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0358",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0359",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0360",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0361",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0362",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0363",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0364",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0365",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0366",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0367",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0368",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0369",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0370",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0371",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0372",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0373",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0374",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0375",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0376",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0377",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0378",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0379",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0380",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0381",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0382",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0383",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0384",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0385",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0386",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0387",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0388",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0389",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0390",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0391",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0392",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0393",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0394",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0395",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0396",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0397",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0398",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0399",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0400",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0401",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0402",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0403",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0404",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0405",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0406",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0407",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0408",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0409",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0410",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0411",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0412",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0413",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0414",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0415",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0416",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0417",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0418",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0419",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0420",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0421",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0422",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0423",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0424",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0425",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0426",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0427",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0428",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0429",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0430",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0431",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0432",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0433",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0434",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0435",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0436",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0437",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0438",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0439",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0440",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0441",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0442",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0443",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0444",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0445",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0446",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0447",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0448",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0449",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0450",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0451",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0452",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0453",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0454",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0455",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0456",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0457",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0458",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0459",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0460",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0461",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0462",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0463",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0464",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0465",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0466",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0467",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0468",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0469",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0470",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0471",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0472",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0473",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0474",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0475",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0476",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0477",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0478",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0479",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0480",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0481",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0482",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0483",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0484",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0485",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0486",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0487",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0488",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0489",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0490",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0491",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0492",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0493",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0494",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0495",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0496",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0497",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0498",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0499",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0500",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0501",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0502",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0503",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0504",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0505",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0506",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0507",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0508",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0509",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0510",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0511",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0512",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0513",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0514",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0515",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0516",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0517",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0518",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0519",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0520",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0521",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0522",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0523",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0524",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0525",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0526",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0527",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0528",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0529",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0530",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0531",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0532",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0533",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0534",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0535",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0536",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0537",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0538",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0539",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0540",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0541",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0542",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0543",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0544",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0545",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0546",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0547",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0548",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0549",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0550",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0551",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0552",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0553",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0554",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0555",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0556",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0557",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0558",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0559",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0560",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0561",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0562",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0563",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0564",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0565",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0566",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0567",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0568",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0569",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0570",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0571",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0572",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0573",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0574",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0575",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0576",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0577",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0578",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0579",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0580",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0581",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0582",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0583",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0584",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0585",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0586",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0587",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0588",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0589",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0590",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0591",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0592",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0593",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0594",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0595",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0596",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0597",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0598",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0599",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0600",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0601",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0602",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0603",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0604",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0605",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0606",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0607",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0608",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0609",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0610",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0611",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0612",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0613",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0614",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0615",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0616",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0617",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0618",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0619",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0620",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0621",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0622",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0623",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0624",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0625",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0626",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0627",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0628",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0629",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0630",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0631",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0632",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0633",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0634",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0635",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0636",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0637",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0638",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0639",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0640",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0641",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0642",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0643",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0644",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0645",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0646",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0647",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0648",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0649",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0650",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0651",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0652",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0653",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0654",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0655",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0656",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0657",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0658",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0659",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0660",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0661",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0662",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0663",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0664",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0665",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0666",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0667",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0668",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0669",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0670",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0671",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0672",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0673",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0674",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0675",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0676",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0677",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0678",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0679",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0680",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0681",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0682",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0683",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0684",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0685",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0686",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0687",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0688",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0689",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0690",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0691",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0692",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0693",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0694",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0695",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0696",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0697",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0698",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0699",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0700",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0701",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0702",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0703",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0704",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0705",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0706",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0707",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0708",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0709",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0710",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0711",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0712",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0713",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0714",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0715",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0716",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0717",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0718",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0719",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0720",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0721",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0722",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0723",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0724",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0725",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0726",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0727",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0728",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0729",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0730",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0731",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0732",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0733",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0734",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0735",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0736",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0737",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0738",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0739",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0740",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0741",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0742",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0743",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0744",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0745",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0746",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0747",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0748",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0749",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0750",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0751",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0752",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0753",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0754",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0755",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0756",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0757",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0758",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0759",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0760",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0761",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0762",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0763",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0764",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0765",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0766",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0767",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0768",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0769",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0770",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0771",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0772",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0773",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0774",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0775",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0776",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0777",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0778",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0779",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0780",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0781",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0782",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0783",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0784",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0785",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0786",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0787",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0788",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0789",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0790",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0791",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0792",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0793",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0794",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0795",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0796",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0797",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0798",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0799",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0800",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0801",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0802",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0803",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0804",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0805",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0806",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0807",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0808",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0809",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0810",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0811",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0812",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0813",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0814",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0815",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0816",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0817",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0818",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0819",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0820",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0821",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0822",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0823",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0824",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0825",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0826",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0827",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0828",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0829",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0830",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0831",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0832",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0833",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0834",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0835",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0836",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0837",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0838",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0839",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0840",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0841",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0842",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0843",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0844",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0845",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0846",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0847",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0848",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0849",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0850",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0851",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0852",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0853",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0854",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0855",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0856",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0857",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0858",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0859",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0860",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0861",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0862",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0863",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0864",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0865",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0866",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0867",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0868",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0869",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0870",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0871",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0872",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0873",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0874",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0875",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0876",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0877",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0878",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0879",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0880",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0881",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0882",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0883",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0884",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0885",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0886",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0887",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0888",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0889",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0890",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0891",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0892",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0893",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0894",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0895",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0896",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0897",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0898",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0899",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0900",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0901",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0902",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0903",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0904",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0905",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0906",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0907",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0908",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0909",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0910",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0911",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0912",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0913",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0914",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0915",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0916",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0917",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0918",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0919",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0920",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0921",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0922",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0923",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0924",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0925",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0926",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0927",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0928",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0929",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0930",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0931",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0932",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0933",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0934",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0935",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0936",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0937",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0938",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0939",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0940",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0941",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0942",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0943",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0944",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0945",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0946",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0947",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0948",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0949",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0950",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0951",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0952",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0953",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0954",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0955",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0956",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0957",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0958",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0959",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0960",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0961",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0962",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0963",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0964",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0965",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0966",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0967",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0968",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0969",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0970",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0971",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0972",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0973",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0974",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0975",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0976",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0977",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0978",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0979",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0980",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0981",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0982",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0983",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0984",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0985",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0986",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0987",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0988",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0989",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0990",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0991",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0992",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0993",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0994",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0995",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0996",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0997",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0998",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-0999",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1000",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1001",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1002",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1003",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1004",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1005",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1006",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1007",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1008",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1009",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1010",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1011",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1012",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1013",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1014",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1015",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1016",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1017",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1018",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1019",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1020",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1021",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1022",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  },
+  {
+   "name": "n5-1023",
+   "returncode": 20,
+   "cuts": 1,
+   "expected_planar": false
+  },
+  {
+   "name": "K33",
+   "returncode": 20,
+   "cuts": 1,
+   "expected_planar": false
+  },
+  {
+   "name": "positive24-padded50",
+   "returncode": 0,
+   "cuts": 0,
+   "expected_planar": true
+  }
+ ],
+ "partition_truth_table_cases": 5184,
+ "padded50_positive": true,
+ "malformed_feedback_rejected": true,
+ "truncated_checkpoint_rejected": true,
+ "standalone_drat_verified": true,
+ "incremental_feedback": true,
+ "cooperative_stop": true,
+ "wall_seconds": 20.78100000001723,
+ "proof_sha256": "f48794d9ae802670d5f66d7f127582b970bd05aa2924853a3636d91b8e6bf6b5",
+ "cnf_sha256": "4ab0367f811288fdd210b9dcb118ec90a2f0c396e7da91972ac8b06bf25a4236",
+ "stop_test": {
+  "n": 50,
+  "k": 9,
+  "mode": "partition",
+  "positive_phases": false,
+  "controller": {
+   "pid": 6260,
+   "create_time": 1792859690.8559487,
+   "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "started_utc": "2026-10-24T16:35:09Z",
+  "scientific_verdict": "UNKNOWN",
+  "witness": false,
+  "domain_excluded": false,
+  "input_sha256": "40d916b9bc9cc98678000ce6f0cbade36029ff31d91bde774f6644ec58cd6fb9",
+  "source_sha256": {
+   "tools\\s045_search.py": "ba6fb8f545497fa00bec7d0c30cc08af613f5e24b7bfb92ad354b26b910d7641",
+   "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+   "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+   "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+  },
+  "generator": {
+   "pid": 16960,
+   "create_time": 1792859709.9695458,
+   "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+  },
+  "state": "STOPPED",
+  "elapsed_seconds": 2.062000000005355,
+  "candidates": 145,
+  "new_candidates": 145,
+  "reason": "STOP_FILE",
+  "native_returncode": 0,
+  "error": null,
+  "verified_geometric_cuts": 1495,
+  "native_progress": "c S045 checks=0 cuts=0 models=0",
+  "candidate_journal_sha256": "51957dad6b21cdd2b2793ce3b6d973bd30685c6aee7bf6523001ea01b431bf6b"
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "wall_ceiling": true,
+  "resource_floor": true,
+  "source_change": true,
+  "no_change": true
+}

@@ -387,8 +387,8 @@
     "publication_date": "2026-09-23",
     "url": "https://arxiv.org/abs/2609.28102",
     "access": "STATEMENT_INSPECTED",
-    "accessed": "2026-10-20",
-    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source. S029 (2026-10-19): v1 only; HTML Theorem 1 incl. 'at most 18 vertices', Lemma 7(1) and Section 7 OP1(b) (28 vertices, K4-free complement) remark re-inspected. S030 refreshed primary abstract/HTML: v1 only; n<=18 and universal-vertex18 scopes distinguished; computational/Lean archive not replayed. S031 entry/closeout refresh: article text unchanged; paper59 v3/arXiv v1. See validation/S031/prior-art-closeout; no proof-status promotion."
+    "accessed": "2026-10-24",
+    "note": "Primary arXiv abstract, introduction and theorem statements directly inspected; shows every biplanar alpha<=2 graph 9-colourable by computer-assisted argument, Lean-checked enumeration assuming three planar graph facts. Proof/certificates not independently replayed; no originality guarantee. S026 primary abstract and HTML introduction/Theorem1 re-inspected; external Lean/LRAT not replayed. Used only to avoid a closed construction source. S029 (2026-10-19): v1 only; HTML Theorem 1 incl. 'at most 18 vertices', Lemma 7(1) and Section 7 OP1(b) (28 vertices, K4-free complement) remark re-inspected. S030 refreshed primary abstract/HTML: v1 only; n<=18 and universal-vertex18 scopes distinguished; computational/Lean archive not replayed. S031 entry/closeout refresh: article text unchanged; paper59 v3/arXiv v1. See validation/S031/prior-art-closeout; no proof-status promotion. S045: limited abstract/introduction/statements refreshed; no external certificate replay or novelty guarantee. See sessions/S045/PRIOR_ART.md."
   },
   {
     "id": "SRC-0038",
@@ -457,8 +457,8 @@
     "url": "https://rstation.ai/problems/earth_moon/papers/22",
     "doi": null,
     "access": "STATEMENT_INSPECTED",
-    "accessed": "2026-10-18",
-    "note": "S027: excerpts inspected: K5 v C8(2,3) biplanar with chi_f=9; vertex-minimal biplanar graph with chi_f>9 has delta>=9, alpha>=3, n>=21; C7[K4] rejected by counting caps. Unrefereed; no replay."
+    "accessed": "2026-10-24",
+    "note": "S027: excerpts inspected: K5 v C8(2,3) biplanar with chi_f=9; vertex-minimal biplanar graph with chi_f>9 has delta>=9, alpha>=3, n>=21; C7[K4] rejected by counting caps. Unrefereed; no replay. S045: limited abstract/introduction/statements refreshed; no external certificate replay or novelty guarantee. See sessions/S045/PRIOR_ART.md."
   },
   {
     "id": "SRC-0044",

@@ -1,0 +1,39 @@
+{
+ "observed_status": {
+  "n": 50,
+  "k": 9,
+  "mode": "partition",
+  "positive_phases": true,
+  "controller": {
+   "pid": 3616,
+   "create_time": 1792860044.7723613,
+   "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "started_utc": "2026-10-24T16:41:08Z",
+  "scientific_verdict": "UNKNOWN",
+  "witness": false,
+  "domain_excluded": false,
+  "input_sha256": "f792a7273a18768d83ce69c78a002f58243113f961aeca2a6163b2bf73ad685b",
+  "source_sha256": {
+   "tools\\s045_search.py": "ba6fb8f545497fa00bec7d0c30cc08af613f5e24b7bfb92ad354b26b910d7641",
+   "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+   "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+   "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+  },
+  "generator": {
+   "pid": 13388,
+   "create_time": 1792860068.5140305,
+   "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+  },
+  "state": "RUNNING",
+  "elapsed_seconds": 30.09299999999348,
+  "candidates": 39893,
+  "new_candidates": 1851,
+  "native_progress": "c S045 checks=507245 cuts=37413 models=1741"
+ },
+ "generator_identity_matches": true,
+ "sample_seconds": 2,
+ "sample_cpu_increase": 1.0625,
+ "controller_private_bytes": 38281216,
+ "generator_private_bytes": 128176128
+}

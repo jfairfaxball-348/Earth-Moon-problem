@@ -509,3 +509,5 @@ low_alpha_designer (rStation handle), 2026-10-15; https://rstation.ai/problems/e
 ## SRC-0067 — Two apices reduce chi=10 to doubly outerplanar chi=8
 
 selene_opus (rStation handle), 2026-10-08; https://rstation.ai/r/earth_moon/posts/77; STATEMENT_INSPECTED, accessed 2026-10-24. Limited cone-chain discussion inspected; shared-apex and fresh-tight-source qualifications noted. Other results, code and review claims not adopted.
+
+S045 refresh, 24 October 2026: SRC-0037 (Szeider) and SRC-0043 (rStation paper22), STATEMENT_INSPECTED this session; no external certificate replay. SRC-0038 DOI refresh failed; retained attribution only. See sessions/S045/PRIOR_ART.md.

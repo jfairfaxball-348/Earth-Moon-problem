@@ -171,3 +171,7 @@ S042: every resolved apex leaf graph dies by cross-layer K9-minor lemmas. First 
 S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Lazy planarity cuts did not yield a certified construction. A cap remains UNKNOWN and cut counts do not measure coverage.
 
 S044 proof-scope finding: later Hajós joins can delete further edges of a designated earlier leaf. Frozen S041/S042 text preserved; live claims narrowed to surviving-obstruction/all-tested-leaf scope. This is a proof gap in the mixed-tree implication, not a counterexample to its conclusion.
+
+S045 preparation failures: reversed-edge imported fixture canonicalisation and Windows psutil Path incompatibility; corrected, failed logs preserved, final fresh suite PASS. Benchmark does not show a throughput speedup over blocking or graph coverage.
+
+S045 streaming maintenance: 38042 candidate records / 111073 geometric rule occurrences preserved; exact bounded-memory CNF replay PASS; fresh controls/benchmark PASS; partition-positive selected; same campaign resumed under original ceiling. No witness or coverage claim.

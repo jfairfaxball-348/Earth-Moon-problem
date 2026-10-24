@@ -1,0 +1,36 @@
+{
+ "n": 50,
+ "k": 9,
+ "mode": "partition",
+ "positive_phases": false,
+ "controller": {
+  "pid": 2676,
+  "create_time": 1792859017.2878103,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "started_utc": "2026-10-24T16:23:37Z",
+ "scientific_verdict": "UNKNOWN",
+ "witness": false,
+ "domain_excluded": false,
+ "input_sha256": "40d916b9bc9cc98678000ce6f0cbade36029ff31d91bde774f6644ec58cd6fb9",
+ "source_sha256": {
+  "tools\\s045_search.py": "dd2494a971ca82f1f79e7111accc93180a50fbb6ecb1a9166f2379c30828a9dd",
+  "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+  "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+  "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+ },
+ "generator": {
+  "pid": 3640,
+  "create_time": 1792859017.6599877,
+  "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+ },
+ "command": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\BASE.inst",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\PLANARITY.lem",
+  "600",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\STOP",
+  "0",
+  "partition"
+ ]
+}

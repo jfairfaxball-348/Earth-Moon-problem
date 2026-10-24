@@ -47,30 +47,32 @@ jobs:
       - name: Validate S035 closeout and S036 recovery handover
         run: python scripts/check_s035_closeout.py
       - name: Validate S036 acceptance records and portable scanner repair
-        run: python scripts/check_s036_records.py
+        run: python scripts/s045_replay_history.py scripts/check_s036_records.py
       - name: Verify S037 symmetry and explicit planar-pair certificates
-        run: python scripts/check_s037_records.py
+        run: python scripts/s045_replay_history.py scripts/check_s037_records.py
       - name: Verify S038 finite neighborhoods and planar patch traces
-        run: python scripts/check_s038_records.py
+        run: python scripts/s045_replay_history.py scripts/check_s038_records.py
       - name: Verify S039 star neighborhoods seeds and planar traces
         run: |
-          python scripts/check_s039_adversarial.py
-          python scripts/check_s040_handoff.py
+          python scripts/s045_replay_history.py scripts/check_s039_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s040_handoff.py
       - name: Verify S040 coordinated neighborhoods pair traces and diagnostics
         run: |
-          python scripts/check_s040_adversarial.py
-          python scripts/check_s040_records.py
+          python scripts/s045_replay_history.py scripts/check_s040_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s040_records.py
       - name: Verify S041 order-13 classification counting tables and leaf certificates
         run: |
-          python scripts/check_s041_adversarial.py
-          python scripts/check_s041_records.py
+          python scripts/s045_replay_history.py scripts/check_s041_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s041_records.py
       - name: Verify S042 census types leaf graphs and certificate receipts
         run: |
-          python scripts/check_s042_adversarial.py
-          python scripts/check_s042_records.py
+          python scripts/s045_replay_history.py scripts/check_s042_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s042_records.py
       - name: Verify S043 orbit encoding and Kuratowski cut certificates
         run: |
-          python scripts/check_s043_adversarial.py
-          python scripts/check_s043_records.py
+          python scripts/s045_replay_history.py scripts/check_s043_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s043_records.py
       - name: Verify S044 decision audit and composition scope correction
-        run: python scripts/check_s044_records.py
+        run: python scripts/s045_replay_history.py scripts/check_s044_records.py
+      - name: Verify S045 native acceptance benchmark certificates and live authority
+        run: python scripts/check_s045_records.py

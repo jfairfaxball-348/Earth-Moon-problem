@@ -1,0 +1,34 @@
+{
+ "session": "S045",
+ "owner_override": "sessions/S045/INPUT.md",
+ "vertices": 50,
+ "pairs": 1225,
+ "independence_restriction": null,
+ "degree_restriction": null,
+ "symmetry_restriction": null,
+ "exact_edges": null,
+ "benchmark_arms": [
+  {
+   "name": "block",
+   "seconds": 60
+  },
+  {
+   "name": "partition",
+   "seconds": 60
+  },
+  {
+   "name": "partition-positive",
+   "seconds": 60
+  }
+ ],
+ "restart_seconds": 15,
+ "production_wall_ceiling_seconds": 28800,
+ "slice_seconds": 600,
+ "private_memory_cap_bytes": 3221225472,
+ "available_ram_floor_bytes": 1610612736,
+ "disk_reserve_bytes": 10737418240,
+ "sha256": {
+  "sessions/S045/PLAN.md": "dd0d0cc7f10a1954aed6e6574d120b348b53769f00baf85cdc7ccdb44eb32f32",
+  "sessions/S045/INPUT.md": "eff0df6688398adf81aa20e47b67f493740704cdc822ff51e03478400263bb21"
+ }
+}

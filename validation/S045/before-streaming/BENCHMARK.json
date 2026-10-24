@@ -1,0 +1,162 @@
+{
+ "status": "PASS",
+ "arms": [
+  {
+   "n": 50,
+   "k": 9,
+   "mode": "block",
+   "positive_phases": false,
+   "controller": {
+    "pid": 6536,
+    "create_time": 1792858617.1401927,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "started_utc": "2026-10-24T16:16:57Z",
+   "scientific_verdict": "UNKNOWN",
+   "witness": false,
+   "domain_excluded": false,
+   "input_sha256": "40d916b9bc9cc98678000ce6f0cbade36029ff31d91bde774f6644ec58cd6fb9",
+   "source_sha256": {
+    "tools\\s045_search.py": "dd2494a971ca82f1f79e7111accc93180a50fbb6ecb1a9166f2379c30828a9dd",
+    "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+    "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+    "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+   },
+   "generator": {
+    "pid": 3604,
+    "create_time": 1792858617.5373576,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+   },
+   "state": "SLICE_COMPLETE",
+   "elapsed_seconds": 60.09399999998277,
+   "candidates": 4814,
+   "new_candidates": 4814,
+   "reason": "NATIVE_TIMEOUT",
+   "native_returncode": 0,
+   "error": null,
+   "verified_geometric_cuts": 1081,
+   "native_progress": "c S045 checks=612118 cuts=1081 models=4441",
+   "candidate_journal_sha256": "ac787d686adc7c01a41019f507df54230721445adcb22cce00f243a4f6af56e1",
+   "arm": "block"
+  },
+  {
+   "n": 50,
+   "k": 9,
+   "mode": "partition",
+   "positive_phases": false,
+   "controller": {
+    "pid": 6536,
+    "create_time": 1792858617.1401927,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "started_utc": "2026-10-24T16:17:57Z",
+   "scientific_verdict": "UNKNOWN",
+   "witness": false,
+   "domain_excluded": false,
+   "input_sha256": "40d916b9bc9cc98678000ce6f0cbade36029ff31d91bde774f6644ec58cd6fb9",
+   "source_sha256": {
+    "tools\\s045_search.py": "dd2494a971ca82f1f79e7111accc93180a50fbb6ecb1a9166f2379c30828a9dd",
+    "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+    "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+    "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+   },
+   "generator": {
+    "pid": 13732,
+    "create_time": 1792858677.7085333,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+   },
+   "state": "SLICE_COMPLETE",
+   "elapsed_seconds": 60.39100000000326,
+   "candidates": 3842,
+   "new_candidates": 3842,
+   "reason": "NATIVE_TIMEOUT",
+   "native_returncode": 0,
+   "error": null,
+   "verified_geometric_cuts": 11962,
+   "native_progress": "c S045 checks=503679 cuts=10917 models=3516",
+   "candidate_journal_sha256": "ab3438c9afb3a4c92ec50d8dc3d2b584ba085b89569505ecac9ec4b3185cfec7",
+   "arm": "partition"
+  },
+  {
+   "n": 50,
+   "k": 9,
+   "mode": "partition",
+   "positive_phases": true,
+   "controller": {
+    "pid": 6536,
+    "create_time": 1792858617.1401927,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "started_utc": "2026-10-24T16:18:58Z",
+   "scientific_verdict": "UNKNOWN",
+   "witness": false,
+   "domain_excluded": false,
+   "input_sha256": "40d916b9bc9cc98678000ce6f0cbade36029ff31d91bde774f6644ec58cd6fb9",
+   "source_sha256": {
+    "tools\\s045_search.py": "dd2494a971ca82f1f79e7111accc93180a50fbb6ecb1a9166f2379c30828a9dd",
+    "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+    "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+    "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+   },
+   "generator": {
+    "pid": 11328,
+    "create_time": 1792858738.1547303,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+   },
+   "state": "SLICE_COMPLETE",
+   "elapsed_seconds": 61.89100000000326,
+   "candidates": 3365,
+   "new_candidates": 3365,
+   "reason": "NATIVE_TIMEOUT",
+   "native_returncode": 0,
+   "error": null,
+   "verified_geometric_cuts": 38322,
+   "native_progress": "c S045 checks=843545 cuts=37294 models=3046",
+   "candidate_journal_sha256": "1d270d3c9046c6715474c755b1952f7bb09788c703aaafafa6a779196b2c87d4",
+   "arm": "partition-positive"
+  }
+ ],
+ "selected_arm": "partition",
+ "positive_phases": false,
+ "restart": {
+  "n": 50,
+  "k": 9,
+  "mode": "partition",
+  "positive_phases": false,
+  "controller": {
+   "pid": 6536,
+   "create_time": 1792858617.1401927,
+   "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "started_utc": "2026-10-24T16:20:02Z",
+  "scientific_verdict": "UNKNOWN",
+  "witness": false,
+  "domain_excluded": false,
+  "input_sha256": "68b1f38ac0fc8cb86db5c052abaff1248bb953e79e65c0927bf3b9c6ce9e4e8c",
+  "source_sha256": {
+   "tools\\s045_search.py": "dd2494a971ca82f1f79e7111accc93180a50fbb6ecb1a9166f2379c30828a9dd",
+   "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+   "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+   "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+  },
+  "generator": {
+   "pid": 10728,
+   "create_time": 1792858802.7178931,
+   "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+  },
+  "state": "SLICE_COMPLETE",
+  "elapsed_seconds": 16.125,
+  "candidates": 4837,
+  "new_candidates": 995,
+  "reason": "NATIVE_TIMEOUT",
+  "native_returncode": 0,
+  "error": null,
+  "verified_geometric_cuts": 20920,
+  "native_progress": "c S045 checks=142874 cuts=7555 models=665",
+  "candidate_journal_sha256": "7d6d39491e0f6e949b3893cd71a504be0e50ff7f7de11d630272e9ba177ac0b5"
+ },
+ "gate": "verified candidate feedback, audited external rules, cooperative slice end and semantic restart",
+ "counts_are_coverage": false,
+ "witness": false,
+ "domain_excluded": false
+}

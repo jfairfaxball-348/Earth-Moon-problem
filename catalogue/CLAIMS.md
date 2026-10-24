@@ -953,3 +953,9 @@ Original JSON entries: validation/S044/CORRECTIONS.json. All 97 individual certi
 For a Step-One Hajos tree of t>=2 leaf copies, some leaf loses at most one original edge, since at most 2t-2 original leaf edges are deleted. Thus if every K_a join (L-e) for EVERY leaf and edge is certified non-biplanar, K_a join H is non-biplanar. A specified leaf can lose more than one edge; one tested leaf in an arbitrary mixed tree is not covered by this proof.
 
 Written injectivity/provenance and deletion-count proof in sessions/S044/SCOPE_CORRECTION.md. Fixed three-triangle control checks the designated-copy issue only. No independent-set identification, general DHGO split, formalisation or global counterexample is claimed.
+
+## CLM-0146 — PROGRAMME_PROVED
+
+For every map c from V to at most nine colours, every non-nine-colourable graph on V has an edge inside a class of c. Consequently the disjunction of union-edge variables within those classes is a necessary clause for the chi>=10 construction search.
+
+Elementary contrapositive: absence of all same-class edges makes c proper. S045 RESEARCH.md; independent 4-vertex truth table controls and saved colouring certificates. This is an encoding lemma, not a graph exclusion or bound advance.

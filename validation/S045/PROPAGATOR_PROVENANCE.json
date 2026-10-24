@@ -1,0 +1,5 @@
+{
+  "source": "artifacts\\tmp\\S032\\native\\bipsat_s032.cpp",
+  "sha256": "04e7602c69941e42158738663ee0b56392b0b03baa77c18c371336f676569107",
+  "transformation": "retain prefix before WallTerminator; add s045_main.hpp; inherited S032 subdivision guards and attributed bipsat2 code"
+}

@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S044_LIMITED_PRIMARY_REFRESH_NO_NOVELTY_CLAIM",
+  "source_status": "S045_LIMITED_PRIMARY_REFRESH_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,22 +83,22 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S044 CLOSED: recommend PAUSE, owner decision PENDING. S045 decision/re-entry gate FUTURE/UNEXECUTED. S036 remains CLEAN_STOPPED.",
+    "S045 IN_PROGRESS: owner CONTINUE on 50 vertices; tests/benchmark PASS, sustained search launched. Read sessions/S045/RUNNING.md and verify actual identities. S036 stays CLEAN_STOPPED.",
     "Order3 layer-preserving156-edge28-vertex alpha<=3 slice: UNKNOWN. Counts of models/cuts are activity, never projected coverage. All nine sorted S11 prefixes remain UNKNOWN.",
     "All 97 individual S042 apex leaf graphs remain certified non-biplanar. Composition closure requires all leaves tested or an explicit surviving obstruction; arbitrary one-tested-leaf mixed-tree implication is unproved (S044 correction). Thirty non-Ore windows UNRESOLVED.",
     "Order-13 layer-symmetric class empty (S041). Star/patch/coordinated four-set hill-climbing parked (S040). Counting routes carry the F9 risk.",
     "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
-  "next_session_is_future_unexecuted": true,
+  "next_session_is_future_unexecuted": false,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+  "latest_session_entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
   "latest_session_integration": {
-    "status": "VERIFY_PUSHED_COMMIT_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+    "status": "VERIFY_NONFORCE_PUSH_AND_HOSTED_JOB_AFTER_PUBLICATION",
+    "entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
     "branch": "main",
     "force": false,
-    "authority": "S044 existing-main prompt",
-    "verification": "artifacts/tmp/S044/INTEGRATION.json and immutable hosted run in final report"
+    "authority": "S045 explicit owner preparation and search instruction",
+    "verification": "artifacts/tmp/S045/INTEGRATION.json and hosted run in user report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -225,7 +225,8 @@
     "CLM-0142",
     "CLM-0143",
     "CLM-0144",
-    "CLM-0145"
+    "CLM-0145",
+    "CLM-0146"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1953,8 +1954,8 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "S045_QUEUED_FUTURE_UNEXECUTED",
-  "current_computation": "STOPPED",
+  "next_session_status": "S045_IN_PROGRESS_OWNER_CONTINUE_50_VERTICES",
+  "current_computation": "RUNNING",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
     "date": "2026-10-24",
@@ -2441,10 +2442,49 @@
     "next_session": "S045_FUTURE_UNEXECUTED"
   },
   "s045_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "INVOKED_OWNER_OVERRIDE",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S044/S045_FUTURE_PROMPT.md",
-    "objective": "Owner decision and re-entry gate; preservation only unless a concrete direction is supplied; no experiment in S045",
+    "objective": "Prepare and test native 50-vertex colouring-feedback solver, benchmark, then sustained search",
     "s036_restart_authorized": false
+  },
+  "active_session": {
+    "id": "S045",
+    "status": "RUNNING",
+    "stage": "SUSTAINED_SEARCH_STREAMING",
+    "no_automatic_S046": true,
+    "s036_restart_authorized": false,
+    "owner_override": "sessions/S045/INPUT.md",
+    "campaign": "CAM-0049",
+    "runtime_root": "artifacts/tmp/S045/campaign",
+    "runtime_authority": "artifacts/tmp/S045/campaign/CAMPAIGN.json",
+    "running_handoff": "sessions/S045/RUNNING.md",
+    "entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+    "witness_established": false,
+    "whole_stratum_certified": false,
+    "private_cdcl_serialized": false
+  },
+  "owner_decision_after_s044": {
+    "decision": "CONTINUE",
+    "vertices": 50,
+    "authority": "sessions/S045/INPUT.md",
+    "date": "2026-10-24"
+  },
+  "s045_preparation": {
+    "status": "STREAMING_ACCEPTED_AND_RESUMED",
+    "smoke": "PASS",
+    "native_controls": "PASS",
+    "benchmark": "PASS",
+    "selected": "partition-positive",
+    "production_wall_ceiling_seconds": 28800,
+    "runtime_guard": "scripts/s045_runtime.py",
+    "S036_restarted": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "initial_slice_candidates": 38042,
+    "initial_slice_geometric_rules": 111073,
+    "original_ceiling_preserved": true
   }
 }
