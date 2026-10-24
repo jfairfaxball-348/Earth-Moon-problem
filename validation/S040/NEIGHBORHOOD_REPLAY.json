@@ -1,0 +1,50 @@
+[
+  {
+    "components": [
+      2092,
+      1691
+    ],
+    "counts": {
+      "type0": 174147,
+      "type1": 37206,
+      "type2": 4357,
+      "single": 872
+    },
+    "minimum": {
+      "type0": 89,
+      "type1": 90,
+      "type2": 96,
+      "single": 82
+    },
+    "sha256": "7e015aa58b95543cdf1cec762ee570c3a06e1eff147aeaf2806a450e5857ed9c",
+    "rows": 216582,
+    "cpu_seconds": 45.953125,
+    "density": 156,
+    "scorer": "delta",
+    "status": "PASS"
+  },
+  {
+    "components": [
+      2542,
+      4363
+    ],
+    "counts": {
+      "type0": 80461,
+      "type1": 35953,
+      "type2": 2278,
+      "single": 589
+    },
+    "minimum": {
+      "type0": 83,
+      "type1": 88,
+      "type2": 79,
+      "single": 80
+    },
+    "sha256": "b580f8ecf4167995bb6a1483548d05ea9cf17ce7c8ef9d6adab1cb3d4b762c72",
+    "rows": 119281,
+    "cpu_seconds": 24.375,
+    "density": 155,
+    "scorer": "delta",
+    "status": "PASS"
+  }
+]

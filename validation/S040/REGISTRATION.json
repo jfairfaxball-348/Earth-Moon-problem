@@ -1,0 +1,27 @@
+{
+  "status": "REGISTERED_BEFORE_ANY_S040_OBJECTIVE_VALUE",
+  "utc": "2026-10-24T12:04:01Z",
+  "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+  "sha256": {
+    "sessions/S040/PLAN.md": "5c2e77532dc0b821ff5a37a421fba74354f97a855761dad11edd3228624cf573",
+    "sessions/S040/INPUT.md": "c4e747041416aebaf755e56a87ea490236425c2f491b81be9673bedb450d9285",
+    "tools/s040_coordinated.py": "e4def61f9cd1a2cd04682492563e4e2008fe4e86974df4b373a73d0cccc1620e"
+  },
+  "progress_thresholds": {
+    "156": 41,
+    "155": 39,
+    "protected": 39
+  },
+  "note": "Sizing pilot counted components/pairs only; no scores observed. The experiment script asserts the PLAN hash.",
+  "addendum": {
+    "path": "sessions/S040/PLAN_ADDENDUM.md",
+    "sha256": "c4367a27103c61b41d661adc19c77c66fb0c9a89e07e1a0a942d9634fc657fb0",
+    "utc": "2026-10-24T12:19:35Z",
+    "note": "Post-hoc explanatory; registered before running item 2; cannot change the D077 decision."
+  },
+  "addendum_item3": {
+    "sha256": "784d22f47409186334cc8255c039a1507a2f4388554e41b99a3617f16fb85a6f",
+    "utc": "2026-10-24T12:20:31Z",
+    "note": "Item3 appended after item2 output, before item3 computation; explanatory only."
+  }
+}

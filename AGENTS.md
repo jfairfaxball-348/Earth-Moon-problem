@@ -1,3 +1,13 @@
+# S040 CLOSED — D077 decision PIVOT (24 October 2026)
+
+Coordinated two-layer stars gave no strict improvement at82/79 (exact
+neighborhoods, matched arms); the registered progress gate failed. Star/
+patch/coordinated four-set hill-climbing is PARKED. Diagnostic: residual
+four-sets sit on K9/K10-completing pairs. No witness;9<=chi_2<=12. S036
+stays stopped. S041 comparative route audit is FUTURE/UNEXECUTED; read
+authoritative/NEXT_SESSION_PROMPT.md. Existing main, ordinary non-force
+commit/push, no branch/PR. Historical headers follow.
+
 # D077 — S040 progress-or-pivot gate (24 October 2026)
 
 S040 remains FUTURE/UNEXECUTED. Before experiments register solid-progress

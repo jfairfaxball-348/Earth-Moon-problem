@@ -675,5 +675,29 @@
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-24",
     "note": "Official implementation-description statements on insertion/removal inspected; no code or proofs imported. Geometric library differs from this combinatorial disjoint-pair application. /latest/ observed6.2.1; publication date unknown. No novelty claim."
+  },
+  {
+    "id": "SRC-0062",
+    "title": "earth_moon_small_order: computer-assisted proof of nine-colorability for biplanar graphs on at most 18 vertices",
+    "authors": "EpsilonPhoenix (GitHub handle)",
+    "year": 2026,
+    "publication_date": "2026-09-19",
+    "url": "https://github.com/EpsilonPhoenix/earth_moon_small_order",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "README statements only: claims order<=18 biplanar graphs are9-colourable; Lean part is partial with unproved reduction/finite-case hypotheses. Unreviewed; not replayed. Closed-range context for S041."
+  },
+  {
+    "id": "SRC-0063",
+    "title": "earth-moon-alpha2: small-order results on the independence-number-2 route",
+    "authors": "ivanspog (GitHub handle)",
+    "year": 2026,
+    "publication_date": "2026-10-03",
+    "url": "https://github.com/ivanspog/earth-moon-alpha2",
+    "doi": "10.5281/zenodo.22242268",
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "README statements only (pushed2026-10-03; Zenodo DOI as stated there, not resolved): alpha<=2 reductions, odd-cycle inflation cases and non-biplanarity claims of mixed certificate status. Not replayed; alpha<=2 is covered at theorem level by SRC-0037. Context for S041."
   }
 ]

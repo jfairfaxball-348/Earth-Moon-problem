@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rejected": [
+    "dropped_conflict",
+    "extra_conflict",
+    "wrong_type",
+    "swapped_layers",
+    "foreign_component",
+    "duplicate_addition",
+    "missing_effect",
+    "fake_target",
+    "protected_core_removal"
+  ],
+  "valid_control": true
+}

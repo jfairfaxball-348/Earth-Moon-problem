@@ -97,3 +97,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S038 |2026-10-24| CAM0042 bounded disk/dual-layer patches | independent exact neighborhood and transition replay; best91/123, all saved <=9-colourable; no witness | CLOSED; S039 FUTURE/UNEXECUTED |
 
 | S039 |2026-10-24| CAM0043 bounded vertex stars/protected9-core |1811 exact neighbors,762 trace replays, best82/79, all saved <=9-colourable; no witness| CLOSED; S040 FUTURE/UNEXECUTED |
+
+| S040 |2026-10-24| CAM0044 coordinated two-layer stars, D077 gate |335863 exactly scored coordinated states, no strict improvement; 16 arms, 482 replays; tau5/7, K9 barrier; all saved <=9-colourable; no witness| CLOSED PIVOT; S041 FUTURE/UNEXECUTED |

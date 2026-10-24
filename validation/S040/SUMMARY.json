@@ -1,0 +1,91 @@
+{
+  "status": "CLOSED_D077_PIVOT_NO_SOLID_PROGRESS",
+  "date": "2026-10-24",
+  "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+  "d077_decision": "PIVOT",
+  "gate": {
+    "A_witness": false,
+    "B1_halving_all_coord_arms": false,
+    "C_protected_source": false,
+    "thresholds": {
+      "156": 41,
+      "155": 39,
+      "protected": 39
+    },
+    "registration": "validation/S040/REGISTRATION.json"
+  },
+  "experimental_cpu_seconds": 315.15625,
+  "posthoc_cpu_seconds": 31.90625,
+  "total_counted_cpu_seconds": 347.0625,
+  "compute_cap_cpu_seconds": 7200,
+  "exact_coordinated_neighborhoods": {
+    "156": {
+      "start": 82,
+      "scored_states": 216582,
+      "strict_improvements": 0,
+      "minima": {
+        "single": 82,
+        "type0": 89,
+        "type1": 90,
+        "type2": 96
+      }
+    },
+    "155": {
+      "start": 79,
+      "scored_states": 119281,
+      "strict_improvements": 0,
+      "minima": {
+        "single": 80,
+        "type0": 83,
+        "type1": 88,
+        "type2": 79
+      }
+    }
+  },
+  "arm_bests": {
+    "156-4000-star": 82,
+    "156-4000-pair0": 82,
+    "156-4000-coord": 82,
+    "156-4001-star": 82,
+    "156-4001-pair0": 82,
+    "156-4001-coord": 82,
+    "155-4000-star": 79,
+    "155-4000-pair0": 79,
+    "155-4000-coord": 79,
+    "155-4001-star": 79,
+    "155-4001-pair0": 79,
+    "155-4001-coord": 79,
+    "protected-4010-star": 193,
+    "protected-4010-coord": 192,
+    "protected-4011-star": 193,
+    "protected-4011-coord": 193
+  },
+  "tau_exact": {
+    "156": 5,
+    "155": 7
+  },
+  "tau_k9_safe_exact": {
+    "156": 17,
+    "155": 11
+  },
+  "occupancy_blocked_useful_pairs": {
+    "156": 2,
+    "155": 5
+  },
+  "alpha3_repairs_contain_K10": true,
+  "checked_saved_records": 24,
+  "replayed_transitions": 482,
+  "all_saved_pairs_have_checked_at_most_9_coloring": true,
+  "witness": false,
+  "heuristic_verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "S11": "UNKNOWN",
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "all_experimental_processes_finished": true,
+  "parked": "star/patch/coordinated four-set hill-climbing",
+  "next_session": "S041_FUTURE_UNEXECUTED"
+}

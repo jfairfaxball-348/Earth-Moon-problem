@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-24",
-  "last_completed_session": "S039",
-  "recommended_next_session": "S040",
+  "last_completed_session": "S040",
+  "recommended_next_session": "S041",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S039",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S040",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_METHOD_REFRESH_S039_NO_NOVELTY_CLAIM",
+  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_REFRESH_S040_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,22 +83,22 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S039 CLOSED bounded star research. All experiments finished; S036 CLEAN_STOPPED. S040 FUTURE/UNEXECUTED, no automatic successor.",
-    "Exact selected degree3..6 star neighborhoods:766/1045 effects, minima83/116 at156/155. New bounded best82/79; all saved pairs <=9-colourable, no chi10 witness.",
-    "Best155 star score79 has alpha=4. Best156 score82 has an independent5-set. The four-set objective is not a chromatic lower-bound certificate.",
-    "Pure paired tri/quad coning preserves9-colourability. Saved protected-core seeds/search bests have exact chi9. Closed through17 ranges remain closed.",
+    "S040 CLOSED with D077 decision PIVOT. All experiments finished; S036 CLEAN_STOPPED. S041 comparative route audit FUTURE/UNEXECUTED, no automatic successor.",
+    "Exact coordinated one-star-per-layer neighborhoods at82/79: 216582/119281 scored states, no strict improvement; matched arms no improvement; protected193->192. Star/patch/coordinated four-set hill-climbing PARKED.",
+    "Diagnostics: tau5/7 exact, occupancy not binding; post-hoc hub pairs complete K9/K10, tau_safe17/11 exact; label-fixed alpha3 repairs contain K10. Diagnostic learning only.",
+    "All saved S040 pairs <=9-colourable; no chi10 witness. Closed through17 Sulanke-core ranges unchanged.",
     "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "af422b1bf68402f4eb072c82c9012cecc57d4202",
+  "latest_session_entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
   "latest_session_integration": {
     "status": "VERIFY_PUSHED_COMMIT_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "af422b1bf68402f4eb072c82c9012cecc57d4202",
+    "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
     "branch": "main",
     "force": false,
-    "authority": "S039 existing-main prompt",
-    "verification": "artifacts/tmp/S039/INTEGRATION.json and immutable run linked in final report"
+    "authority": "S040 existing-main prompt (D077 revision)",
+    "verification": "artifacts/tmp/S040/INTEGRATION.json and immutable run linked in final report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -212,7 +212,11 @@
     "CLM-0129",
     "CLM-0130",
     "CLM-0131",
-    "CLM-0132"
+    "CLM-0132",
+    "CLM-0133",
+    "CLM-0134",
+    "CLM-0135",
+    "CLM-0136"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1940,7 +1944,7 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "S040_QUEUED_FUTURE_UNEXECUTED",
+  "next_session_status": "S041_QUEUED_FUTURE_UNEXECUTED",
   "current_computation": "STOPPED",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
@@ -2134,7 +2138,7 @@
     "next_session": "S040_FUTURE_UNEXECUTED"
   },
   "s040_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "EXECUTED_CLOSED_S040_PIVOT",
     "installed_date": "2026-10-24",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S039/S040_FUTURE_PROMPT_OWNER_REVISION.md",
@@ -2143,5 +2147,105 @@
     "original_archival_copy": "sessions/S039/S040_FUTURE_PROMPT.md",
     "owner_progress_gate": "D077",
     "no_solid_progress_successor": "S041 comparative audit of at least two genuinely different construction routes; park repeated star/patch search"
+  },
+  "s040_result": {
+    "status": "CLOSED_D077_PIVOT_NO_SOLID_PROGRESS",
+    "date": "2026-10-24",
+    "entry_main": "af53af4a85ad6207b22cd9f2220c52b7a2738036",
+    "d077_decision": "PIVOT",
+    "gate": {
+      "A_witness": false,
+      "B1_halving_all_coord_arms": false,
+      "C_protected_source": false,
+      "thresholds": {
+        "156": 41,
+        "155": 39,
+        "protected": 39
+      },
+      "registration": "validation/S040/REGISTRATION.json"
+    },
+    "experimental_cpu_seconds": 315.15625,
+    "posthoc_cpu_seconds": 31.90625,
+    "total_counted_cpu_seconds": 347.0625,
+    "compute_cap_cpu_seconds": 7200,
+    "exact_coordinated_neighborhoods": {
+      "156": {
+        "start": 82,
+        "scored_states": 216582,
+        "strict_improvements": 0,
+        "minima": {
+          "single": 82,
+          "type0": 89,
+          "type1": 90,
+          "type2": 96
+        }
+      },
+      "155": {
+        "start": 79,
+        "scored_states": 119281,
+        "strict_improvements": 0,
+        "minima": {
+          "single": 80,
+          "type0": 83,
+          "type1": 88,
+          "type2": 79
+        }
+      }
+    },
+    "arm_bests": {
+      "156-4000-star": 82,
+      "156-4000-pair0": 82,
+      "156-4000-coord": 82,
+      "156-4001-star": 82,
+      "156-4001-pair0": 82,
+      "156-4001-coord": 82,
+      "155-4000-star": 79,
+      "155-4000-pair0": 79,
+      "155-4000-coord": 79,
+      "155-4001-star": 79,
+      "155-4001-pair0": 79,
+      "155-4001-coord": 79,
+      "protected-4010-star": 193,
+      "protected-4010-coord": 192,
+      "protected-4011-star": 193,
+      "protected-4011-coord": 193
+    },
+    "tau_exact": {
+      "156": 5,
+      "155": 7
+    },
+    "tau_k9_safe_exact": {
+      "156": 17,
+      "155": 11
+    },
+    "occupancy_blocked_useful_pairs": {
+      "156": 2,
+      "155": 5
+    },
+    "alpha3_repairs_contain_K10": true,
+    "checked_saved_records": 24,
+    "replayed_transitions": 482,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "witness": false,
+    "heuristic_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_experimental_processes_finished": true,
+    "parked": "star/patch/coordinated four-set hill-climbing",
+    "next_session": "S041_FUTURE_UNEXECUTED"
+  },
+  "s041_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "installed_date": "2026-10-24",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S040/S041_FUTURE_PROMPT.md",
+    "objective": "D077 PIVOT: comparative audit of at least two genuinely different chi>=10 construction routes (symmetry-first, graph-first exact split, non-alpha compositions); S042 prompt with its own progress gate",
+    "parked": "star/patch/coordinated four-set hill-climbing",
+    "s036_restart_authorized": false
   }
 }

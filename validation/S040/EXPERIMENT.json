@@ -1,0 +1,9 @@
+{
+  "status": "FINISHED",
+  "witness_stop": false,
+  "experimental_cpu_seconds": 315.15625,
+  "neighborhood_cpu_seconds": 4.75,
+  "arm_cpu_seconds": 279.796875,
+  "diagnostic_cpu_seconds": 30.609375,
+  "arms": 16
+}

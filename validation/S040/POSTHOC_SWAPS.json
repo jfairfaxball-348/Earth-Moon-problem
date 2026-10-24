@@ -1,0 +1,618 @@
+{
+  "status": "POSTHOC_EXPLANATORY_NOT_REGISTERED",
+  "rows": [
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S039/arms/156-3900-star.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S039/arms/155-3901-star.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4000-coord.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4000-pair0.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4000-star.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4001-coord.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4001-pair0.json"
+    },
+    {
+      "independent_four_sets": 79,
+      "union_edges": 155,
+      "absent_pairs": 223,
+      "swaps": 34565,
+      "min_swap_delta": -19,
+      "min_swap": [
+        [
+          0,
+          20
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "improving_swaps": 1358,
+      "neutral_swaps": 581,
+      "max_kill": 19,
+      "min_critical": 0,
+      "free_union_edges": 1,
+      "best_kill_pair": [
+        14,
+        17
+      ],
+      "critical_quartiles": [
+        0,
+        9,
+        28,
+        44,
+        66
+      ],
+      "path": "validation/S040/arms/155-4001-star.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4000-coord.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4000-pair0.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4000-star.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4001-coord.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4001-pair0.json"
+    },
+    {
+      "independent_four_sets": 82,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -31,
+      "min_swap": [
+        [
+          5,
+          19
+        ],
+        [
+          10,
+          27
+        ]
+      ],
+      "improving_swaps": 1631,
+      "neutral_swaps": 832,
+      "max_kill": 31,
+      "min_critical": 0,
+      "free_union_edges": 2,
+      "best_kill_pair": [
+        10,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        12,
+        26,
+        35,
+        61
+      ],
+      "path": "validation/S040/arms/156-4001-star.json"
+    },
+    {
+      "independent_four_sets": 192,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -44,
+      "min_swap": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "improving_swaps": 3526,
+      "neutral_swaps": 767,
+      "max_kill": 44,
+      "min_critical": 0,
+      "free_union_edges": 4,
+      "best_kill_pair": [
+        25,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        14,
+        25,
+        41,
+        73
+      ],
+      "path": "validation/S040/arms/protected-4010-coord.json"
+    },
+    {
+      "independent_four_sets": 193,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -44,
+      "min_swap": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "improving_swaps": 3644,
+      "neutral_swaps": 782,
+      "max_kill": 44,
+      "min_critical": 0,
+      "free_union_edges": 4,
+      "best_kill_pair": [
+        25,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        14,
+        25,
+        41,
+        72
+      ],
+      "path": "validation/S040/arms/protected-4010-star.json"
+    },
+    {
+      "independent_four_sets": 193,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -44,
+      "min_swap": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "improving_swaps": 3644,
+      "neutral_swaps": 782,
+      "max_kill": 44,
+      "min_critical": 0,
+      "free_union_edges": 4,
+      "best_kill_pair": [
+        25,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        14,
+        25,
+        41,
+        72
+      ],
+      "path": "validation/S040/arms/protected-4011-coord.json"
+    },
+    {
+      "independent_four_sets": 193,
+      "union_edges": 156,
+      "absent_pairs": 222,
+      "swaps": 34632,
+      "min_swap_delta": -44,
+      "min_swap": [
+        [
+          6,
+          11
+        ],
+        [
+          25,
+          27
+        ]
+      ],
+      "improving_swaps": 3644,
+      "neutral_swaps": 782,
+      "max_kill": 44,
+      "min_critical": 0,
+      "free_union_edges": 4,
+      "best_kill_pair": [
+        25,
+        27
+      ],
+      "critical_quartiles": [
+        0,
+        14,
+        25,
+        41,
+        72
+      ],
+      "path": "validation/S040/arms/protected-4011-star.json"
+    }
+  ],
+  "cpu_seconds": 7.15625
+}

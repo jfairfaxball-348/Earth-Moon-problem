@@ -471,3 +471,17 @@ CGAL 6.2.1: 2D Triangulations, Triangulation_2 reference manual. CGAL Project; p
 Official implementation-description statements on insertion/removal inspected; no code or proofs imported. Geometric library differs from this combinatorial disjoint-pair application. /latest/ observed6.2.1; publication date unknown. No novelty claim.
 
 S039 refresh24Oct2026: SRC0054 primary post re-read, no numerical replay. SRC0060 refresh failed redirect loop; previous abstract access grade unchanged. See sessions/S039/PRIOR_ART.md.
+
+## SRC-0062 — STATEMENT_INSPECTED
+
+EpsilonPhoenix (GitHub handle), *earth_moon_small_order: computer-assisted proof of nine-colorability for biplanar graphs on at most 18 vertices*, 2026-09-19, https://github.com/EpsilonPhoenix/earth_moon_small_order (accessed24 October2026).
+
+README statements only: claims order<=18 biplanar graphs are9-colourable; Lean part is partial with unproved reduction/finite-case hypotheses. Unreviewed; not replayed. Closed-range context for S041.
+
+## SRC-0063 — STATEMENT_INSPECTED
+
+ivanspog (GitHub handle), *earth-moon-alpha2: small-order results on the independence-number-2 route*, 2026-10-03, https://github.com/ivanspog/earth-moon-alpha2 (accessed24 October2026).
+
+README statements only (pushed2026-10-03; Zenodo DOI as stated there, not resolved): alpha<=2 reductions, odd-cycle inflation cases and non-biplanarity claims of mixed certificate status. Not replayed; alpha<=2 is covered at theorem level by SRC-0037. Context for S041.
+
+S040 refresh24Oct2026: no reported chi>=10 biplanar graph found; SRC0004/0035/0037 grades unchanged; rStation post list not rendered, newer posts not re-read. See sessions/S040/PRIOR_ART.md.

@@ -863,3 +863,27 @@ Explicit pair, sphere, colouring, all20475 four-set checks and762 trace transiti
 The verified K6-join-C5 core has chi=9. Paired disjoint-face coning through triangular/quadrilateral faces preserves a9-colouring because every insertion has <=8 earlier neighbors. Four saved order28 seeds and their protected search bests have exact chi9.
 
 Core layer26/24 rotations and clique/join/cycle checked from inherited Sulanke record; all17 insertions per seed independently reconstructed. Pure coning is a calibration family, not a chi10 source. Subsequent non-insertion moves preserve the lower bound only; separate saved colourings establish their upper bound9. Old through17 exclusions not repeated.
+
+## CLM-0133 — PROGRAMME_PROVED
+
+For single-layer components a (layer0) and b (layer1) that each keep their own layer a simple sphere map, the final layers are edge-disjoint iff C_a<=R_b, C_b<=R_a and A_a,A_b are disjoint, where C=A meets the other layer. Type1 pairs (one C empty) are two-step sequential S039 paths; type2 pairs (both nonempty) are not two-step compositions of their components.
+
+Set identity L0'&L1'=(C_b-R_a)|(C_a-R_b)|(A_a&A_b); proof in sessions/S040/RESEARCH.md. Controlled on full cartesian products (14.6M pairs) and by per-move replay. SRC0060 is related simultaneous-flip context only, not the proof.
+
+## CLM-0134 — COMPUTED_EXACT
+
+At the S039 bests (82 independent four-sets at156 edges, 79 at155), the registered degree3..6 one-star-per-layer coordinated neighborhoods, including S039-legal singles, have216582/119281 exactly scored states and no strict improvement; minima single/type0/type1/type2 are82/89/90/96 and80/83/88/79.
+
+Independent chord-subset regeneration over the full cartesian product with delta scoring and with OR masks reproduces both canonical table hashes. Fixed embeddings and the registered family only; coordinated flips/patches, multi-star moves and other embeddings unsearched.
+
+## CLM-0135 — COMPUTED_EXACT
+
+S040 matched arms (12 unprotected, 4 protected; caps150 CPU s, plateau30) end at their starts82/79 except protected coord seed4010 (193->192). The registered D077 criteria (A) witness, (B) halving to <=41/<=39 in all four coord arms, (C) protected <=39 all fail: decision PIVOT. All24 saved records have checked <=9-colourings.
+
+482 transitions, sphere rotations, all20475 four-sets and colourings independently replayed; protected bests keep the Sulanke core (exact chi9). Two seeds and early plateaus give no statistical or global statement. Heuristic verdict UNKNOWN.
+
+## CLM-0136 — COMPUTED_EXACT
+
+At the S040 inputs the independent-four-set hitting number is exactly5 (156) and7 (155); every four-set has a pair addable by an S039-legal single move, and only2/5 useful pairs need relaxed pairs. Post-hoc, the minimum hitting sets complete K10 from omega8 unions, the K9-safe hitting number is exactly17/11, and that safe set still forms K9/K10; label-fixed alpha<=3 repairs within edit distance10/13 contain K10.
+
+Packings and hitting sets checked in code; K9 non-biplanarity inherited (CLM0022/SRC0014). Label-fixed statements only, not about relabelled or arbitrary graphs. Post-hoc items registered in PLAN_ADDENDUM.md after the gate; explanatory learning, no construction or biplanarity claim.

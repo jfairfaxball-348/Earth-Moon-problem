@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "s039_singles_reproduced": {
+    "156": 766,
+    "155": 1045
+  },
+  "156": {
+    "input": "validation/S039/arms/156-3900-star.json",
+    "components": [
+      2092,
+      1691
+    ],
+    "compatible_by_type": [
+      174147,
+      37206,
+      4357
+    ],
+    "full_cartesian_pairs": 3537572,
+    "rejected": {
+      "unresolved_conflict": 3230054,
+      "duplicate_addition": 91808
+    },
+    "sphere_checked_by_type": [
+      40,
+      40,
+      40
+    ]
+  },
+  "155": {
+    "input": "validation/S039/arms/155-3901-star.json",
+    "components": [
+      2542,
+      4363
+    ],
+    "compatible_by_type": [
+      80461,
+      35953,
+      2278
+    ],
+    "full_cartesian_pairs": 11090746,
+    "rejected": {
+      "unresolved_conflict": 10671136,
+      "duplicate_addition": 300918
+    },
+    "sphere_checked_by_type": [
+      40,
+      40,
+      40
+    ]
+  },
+  "protected_component_sizes": [
+    943,
+    1194
+  ],
+  "cpu_seconds": 6.078125
+}

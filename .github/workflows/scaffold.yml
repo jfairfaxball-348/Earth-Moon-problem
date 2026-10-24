@@ -56,3 +56,7 @@ jobs:
         run: |
           python scripts/check_s039_adversarial.py
           python scripts/check_s040_handoff.py
+      - name: Verify S040 coordinated neighborhoods pair traces and diagnostics
+        run: |
+          python scripts/check_s040_adversarial.py
+          python scripts/check_s040_records.py
