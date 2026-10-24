@@ -1,0 +1,609 @@
+{
+ "status": "PASS",
+ "blocks": 60,
+ "clause_occurrences": 14165211,
+ "seconds": 271.7,
+ "rows": [
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-0d0e57d6\\a-920c0f4e0f4dd2a3.lem",
+   "bytes": 164048,
+   "sha256": "920c0f4e0f4dd2a31e3d65ebef335221367f4eb846f711186768637aa979eb73",
+   "clauses": 1999,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-2da1111d\\a-989cfc219c82a288.lem",
+   "bytes": 6478737,
+   "sha256": "989cfc219c82a2887d5852815d10a7f9721cdc66af68f3b2b14417beeb8fa876",
+   "clauses": 83125,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-3541c7b9\\a-c2e13744bbf300ea.lem",
+   "bytes": 798432,
+   "sha256": "c2e13744bbf300eaef0e4103621d345b19910d52d6d2408fd3925dac311a5a73",
+   "clauses": 9848,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-baseline-a69e1c7b\\a-fb5fb25e12b8ee76.lem",
+   "bytes": 15593935,
+   "sha256": "fb5fb25e12b8ee76b547b6a5b27a46e6e6630a76225fa6c1b9cb4e28421f4f88",
+   "clauses": 217956,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-focused-95cafe7e\\a-30a9f4cd48fde4ff.lem",
+   "bytes": 63442091,
+   "sha256": "30a9f4cd48fde4ff800db16c2b8e0b1321bc61d478d2fafbf6619974e6a712ac",
+   "clauses": 805490,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-noinprocessing-9fb4d6ad\\a-2da3d9b2636c019b.lem",
+   "bytes": 6145040,
+   "sha256": "2da3d9b2636c019b428a962eb35c27b6a333a338dfaf1841d166f9cccfc55f10",
+   "clauses": 77954,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-2a29e305\\a-ac432b3eceb915b4.lem",
+   "bytes": 3425978,
+   "sha256": "ac432b3eceb915b4450cdae679e246b377f69d006cbbf318fc9de1befcc724af",
+   "clauses": 42997,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-31688018\\a-d89071e68e748d2b.lem",
+   "bytes": 5840687,
+   "sha256": "d89071e68e748d2bdcd38f7cbd1374b23f134bb948278bf1b20ced87f731747f",
+   "clauses": 73255,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-3232ba64\\a-d89071e68e748d2b.lem",
+   "bytes": 5840687,
+   "sha256": "d89071e68e748d2bdcd38f7cbd1374b23f134bb948278bf1b20ced87f731747f",
+   "clauses": 73255,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-33daba7b\\a-33765963e093294f.lem",
+   "bytes": 1012389,
+   "sha256": "33765963e093294f3b5877e2e872c1df2c056a72fdf7566e6e495d50b0f75ede",
+   "clauses": 11755,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-5a5e2382\\a-32c5fec8164bab50.lem",
+   "bytes": 5272673,
+   "sha256": "32c5fec8164bab507a2ce2841effb78def7a1e6ad6af7c9c4a92bef3a7cd391e",
+   "clauses": 66602,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-6f25aa2a\\a-af0dd1ae34840bab.lem",
+   "bytes": 16881217,
+   "sha256": "af0dd1ae34840bab8066c9fdc12b5b8160a379bd7a2fe8ace46e17ab199c313b",
+   "clauses": 214957,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-74af36c2\\a-65db2d76f85bc5ed.lem",
+   "bytes": 13325897,
+   "sha256": "65db2d76f85bc5ed8d8fb60117d620dfc491c92234466bb11c4a20b198614754",
+   "clauses": 166995,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-9fcc418e\\a-ac432b3eceb915b4.lem",
+   "bytes": 3425978,
+   "sha256": "ac432b3eceb915b4450cdae679e246b377f69d006cbbf318fc9de1befcc724af",
+   "clauses": 42997,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-bd8b8ef6\\a-d89071e68e748d2b.lem",
+   "bytes": 5840687,
+   "sha256": "d89071e68e748d2bdcd38f7cbd1374b23f134bb948278bf1b20ced87f731747f",
+   "clauses": 73255,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-ff53575e\\a-32c5fec8164bab50.lem",
+   "bytes": 5272673,
+   "sha256": "32c5fec8164bab507a2ce2841effb78def7a1e6ad6af7c9c4a92bef3a7cd391e",
+   "clauses": 66602,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-stable-914c9270\\a-3f884c55f3440ad5.lem",
+   "bytes": 26768242,
+   "sha256": "3f884c55f3440ad5ab25f19cf69ff3e0294baed7d83f84b9f2c1274c06bfe22d",
+   "clauses": 362974,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\smoke-baseline-d79df1bf\\a-8f496ad2404a69a8.lem",
+   "bytes": 821023,
+   "sha256": "8f496ad2404a69a84842814916016288c1fa23bcbf079d3123592effc29eb883",
+   "clauses": 10258,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-018fa2ce\\a-7f659d4cf8d07c96.lem",
+   "bytes": 3388553,
+   "sha256": "7f659d4cf8d07c96955bdc74ade783a7baa1d8382d760cc7f35a5027355a5558",
+   "clauses": 43653,
+   "ledger_key": "span_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-01d4d83a\\a-c8c29c58dc4c7987.lem",
+   "bytes": 734810,
+   "sha256": "c8c29c58dc4c79871838f540cc8f43d450180db1b3d81d58ebbbe7d46bd3bf3c",
+   "clauses": 9483,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-03a29a28\\a-b7dd91139bbe891a.lem",
+   "bytes": 7096986,
+   "sha256": "b7dd91139bbe891aad4a1dd6f70b90497d82fd61c9b176539819414f711e96c4",
+   "clauses": 102887,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-3b8ef02d\\a-f4d2ac4f41d10f73.lem",
+   "bytes": 797496,
+   "sha256": "f4d2ac4f41d10f73cbb8d1ee3e59723dd4ce083c386dae30a707cd99ff8ef44f",
+   "clauses": 10204,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-3ff3f8b2\\a-5545c7efd5355ea2.lem",
+   "bytes": 11120695,
+   "sha256": "5545c7efd5355ea29beddc824f9f8c3d0ff5c83b194048c23e07219310a66c76",
+   "clauses": 138341,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-74e6d5d1\\a-cc2e3276cd502454.lem",
+   "bytes": 929934,
+   "sha256": "cc2e3276cd502454b1a231ed047627b33232e3fdee7ac374a7695d884a803e02",
+   "clauses": 10983,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-86adba9b\\a-fe71587c3d55a492.lem",
+   "bytes": 112971089,
+   "sha256": "fe71587c3d55a492e8f5e4d60800f79d1b3485b0dbd8d71f5ad2da4398f5c8f9",
+   "clauses": 1563043,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-c5897cad\\a-c36949ccd5c1c5d2.lem",
+   "bytes": 989073,
+   "sha256": "c36949ccd5c1c5d203d7b212260ee21b0dd8157127f813191c05d0b37d3149c3",
+   "clauses": 11629,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\span-baseline-c8de7dc4\\a-39119974c41eee23.lem",
+   "bytes": 806661,
+   "sha256": "39119974c41eee23499b5ba3f9a60a980af4c3ca44714032d839c41f92f12c55",
+   "clauses": 9674,
+   "ledger_key": "audited_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\diag-baseline-24aa5375\\a-49fde3c5ed5deee5.lem",
+   "bytes": 53,
+   "sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+   "clauses": 1,
+   "ledger_key": "audited_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\diag-focused-5c037de4\\a-49fde3c5ed5deee5.lem",
+   "bytes": 53,
+   "sha256": "49fde3c5ed5deee5ca85797ecc8d0af9a40157b2d5e593f51cc04395df0c21eb",
+   "clauses": 1,
+   "ledger_key": "audited_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\diag-noinprocessing-5e73b659\\a-199762fa4e80ed2a.lem",
+   "bytes": 1221,
+   "sha256": "199762fa4e80ed2a56f1640de0c996032017cd08dcd8a2bd1df339c59759e560",
+   "clauses": 18,
+   "ledger_key": "audited_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\diag-phase0-3f609042\\a-c290051fae20bf06.lem",
+   "bytes": 1180043,
+   "sha256": "c290051fae20bf06faa3ee2cf115c7ccf7a8915a9be6342ece361d588f0202a2",
+   "clauses": 13774,
+   "ledger_key": "audited_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\diag-stable-3ac9b8c2\\a-1b91dc400ba9d23a.lem",
+   "bytes": 8925,
+   "sha256": "1b91dc400ba9d23a1e4cc80c562a5287066a445ba5b612276f7ff5d0e4113002",
+   "clauses": 154,
+   "ledger_key": "audited_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0003\\span-baseline-cc859257\\a-694128ef152f87fa.lem",
+   "bytes": 1931761,
+   "sha256": "694128ef152f87fa41f3ccb62302ecfa8b791641cee4a32a36e68867fda4353a",
+   "clauses": 22850,
+   "ledger_key": "span_blocks",
+   "region": 3,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-baseline-0595dc74\\a-1dedfad6fbdb6f56.lem",
+   "bytes": 1198043,
+   "sha256": "1dedfad6fbdb6f5639c3ebdba9b95525aa88987b62beff7c3260da45bdd833b4",
+   "clauses": 13851,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-focused-ccbe32e5\\a-a5e8031ec9f5be12.lem",
+   "bytes": 82689156,
+   "sha256": "a5e8031ec9f5be12353f252b5c9f3353f81dd10809502419d085dfb5c2f04338",
+   "clauses": 1058009,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-noinprocessing-5562980c\\a-851bff6dbd0f974e.lem",
+   "bytes": 1200065,
+   "sha256": "851bff6dbd0f974e9f2d945daa8d9e05edb57b682f0414bec9c067887fd9bbbf",
+   "clauses": 13879,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-phase0-2185be68\\a-d788d185e5775e35.lem",
+   "bytes": 772302,
+   "sha256": "d788d185e5775e3573c9e3ee33c498f98de003f1aecdb63fdb6e17f1a293993a",
+   "clauses": 9953,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-phase0-55072706\\a-d788d185e5775e35.lem",
+   "bytes": 772302,
+   "sha256": "d788d185e5775e3573c9e3ee33c498f98de003f1aecdb63fdb6e17f1a293993a",
+   "clauses": 9953,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\diag-stable-85c07a77\\a-38a1d876102e9992.lem",
+   "bytes": 10139,
+   "sha256": "38a1d876102e99928100e152ca65d976a15d2e6aa3ec43060918ef930876f3ae",
+   "clauses": 170,
+   "ledger_key": "audited_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\span-baseline-604d3d7c\\a-ca89a22a2de2de16.lem",
+   "bytes": 4362864,
+   "sha256": "ca89a22a2de2de1666b8c3432a3a7e2434d6cb6ba4136ee13d8343e21b3408e3",
+   "clauses": 48036,
+   "ledger_key": "span_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0015\\span-baseline-fa9860cf\\a-26b278935887f50b.lem",
+   "bytes": 6038007,
+   "sha256": "26b278935887f50b7e6928121987ffda0c61833cdb6f17b27afacfa2efc828ac",
+   "clauses": 75052,
+   "ledger_key": "span_blocks",
+   "region": 15,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0031\\diag-baseline-910bf073\\a-82848754c956e121.lem",
+   "bytes": 787199,
+   "sha256": "82848754c956e1214bd08017f2005aca80b032b9d1b60ca15d55c03500a60865",
+   "clauses": 9136,
+   "ledger_key": "audited_blocks",
+   "region": 31,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0031\\diag-focused-e03d43cf\\a-8654105b47d90b1f.lem",
+   "bytes": 804938,
+   "sha256": "8654105b47d90b1f10ba7522cf242ce7238f477e6e0e8e6e43c229b98fab20b1",
+   "clauses": 9280,
+   "ledger_key": "audited_blocks",
+   "region": 31,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0031\\diag-noinprocessing-2a1271af\\a-82848754c956e121.lem",
+   "bytes": 787199,
+   "sha256": "82848754c956e1214bd08017f2005aca80b032b9d1b60ca15d55c03500a60865",
+   "clauses": 9136,
+   "ledger_key": "audited_blocks",
+   "region": 31,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0031\\diag-phase0-c53eea3b\\a-70bcc8c74b5e556e.lem",
+   "bytes": 101936,
+   "sha256": "70bcc8c74b5e556ed52f4b46b31103af50b546f71171f162e3c20bec34d69e34",
+   "clauses": 1537,
+   "ledger_key": "audited_blocks",
+   "region": 31,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0031\\diag-stable-d5044730\\a-adeca5c88e856ad0.lem",
+   "bytes": 4504,
+   "sha256": "adeca5c88e856ad05f563e714df6a585232b15cb0d477659fa73fed9e47d83eb",
+   "clauses": 80,
+   "ledger_key": "audited_blocks",
+   "region": 31,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0063\\diag-baseline-6aba1452\\a-2d5a757eb62bb413.lem",
+   "bytes": 7851,
+   "sha256": "2d5a757eb62bb413693567163e0200aab714c8c685f6dafd5b777fac5320ed74",
+   "clauses": 117,
+   "ledger_key": "audited_blocks",
+   "region": 63,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0063\\diag-focused-9e658e3a\\a-2d5a757eb62bb413.lem",
+   "bytes": 7851,
+   "sha256": "2d5a757eb62bb413693567163e0200aab714c8c685f6dafd5b777fac5320ed74",
+   "clauses": 117,
+   "ledger_key": "audited_blocks",
+   "region": 63,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0063\\diag-noinprocessing-7d70bdb6\\a-37fef5259d514ca0.lem",
+   "bytes": 10090,
+   "sha256": "37fef5259d514ca053ad746247792457a57b1f71e236b6c079ef5958a285e3a1",
+   "clauses": 164,
+   "ledger_key": "audited_blocks",
+   "region": 63,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0063\\diag-phase0-f11a4063\\a-f035b2cf10f6abe2.lem",
+   "bytes": 923787,
+   "sha256": "f035b2cf10f6abe291d8ef22c866760e8e59adb7dbed28620a6eaefb91b90b9d",
+   "clauses": 11643,
+   "ledger_key": "audited_blocks",
+   "region": 63,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0063\\diag-stable-4a27e00e\\a-bfae0ee84b2bb375.lem",
+   "bytes": 12586,
+   "sha256": "bfae0ee84b2bb37507a9abb76c8ffc4746e0f49a6e4806d496359a52f6fd334a",
+   "clauses": 199,
+   "ledger_key": "audited_blocks",
+   "region": 63,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\recovered\\region-0000\\a-428c9bb54c60e9bb.lem",
+   "bytes": 25353133,
+   "sha256": "428c9bb54c60e9bb01959aa634335b9c929b6a6b56ae42cfb3186d9c34e28586",
+   "clauses": 347101,
+   "ledger_key": "audited_blocks",
+   "region": 0,
+   "kind": "LOST_CONTEXT_UNSHARED_TAIL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\recovered\\region-0007\\a-608a9097c17a5681.lem",
+   "bytes": 72195514,
+   "sha256": "608a9097c17a5681f5a25c6ce5f3077567f4afda86cff691c37a53fe797d18cd",
+   "clauses": 1017564,
+   "ledger_key": "audited_blocks",
+   "region": 7,
+   "kind": "LOST_CONTEXT_UNSHARED_TAIL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0000\\e6a353049d7b4058b4024a504e12754e\\a-8d3da076b0fd1e95.lem",
+   "bytes": 34785954,
+   "sha256": "8d3da076b0fd1e950aa1714fc9cd7099890ceae1ce97a4092889ee22e18f51ad",
+   "clauses": 438283,
+   "ledger_key": "audited_blocks",
+   "region": 0,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0000\\f834b355d46a4d05abcd5d17cd18c36c\\a-583bb1683fd376d0.lem",
+   "bytes": 245994835,
+   "sha256": "583bb1683fd376d02fbc87bba8defd03bb8594165366441a5a66698a8a7ad266",
+   "clauses": 3422284,
+   "ledger_key": "audited_blocks",
+   "region": 0,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0007\\44cbb7f25e324304b78cf36ec4e89abc\\a-0b346a0d80969105.lem",
+   "bytes": 30605627,
+   "sha256": "0b346a0d80969105cd7a092c213db2943a164dd792ece4566c2813efb541c366",
+   "clauses": 406282,
+   "ledger_key": "audited_blocks",
+   "region": 7,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0007\\727949d106e3454eb26feb9ca10fabdb\\a-d6eb299a311a2c38.lem",
+   "bytes": 186960974,
+   "sha256": "d6eb299a311a2c38bf30d0d1a4379d191ea8be1f474850df1f6f9a76432d5a9a",
+   "clauses": 2506998,
+   "ledger_key": "audited_blocks",
+   "region": 7,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0127\\640d5a016e334154805b370deeaec655\\a-04143c132c579cab.lem",
+   "bytes": 11734,
+   "sha256": "04143c132c579cabf6932a378c1faeab23206d322011f1f7b7450f2f69990b0a",
+   "clauses": 167,
+   "ledger_key": "audited_blocks",
+   "region": 127,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\resident\\region-0255\\2a10cb1e7d14473e960c5ff74db6af96\\a-38e3cfe5968185d0.lem",
+   "bytes": 32062556,
+   "sha256": "38e3cfe5968185d0fc84839cd0f683c547b6c9526dd9aa58d7168cd0315dd779",
+   "clauses": 408054,
+   "ledger_key": "audited_blocks",
+   "region": 255,
+   "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL",
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  },
+  {
+   "path": "artifacts\\tmp\\S036\\cold\\region-0001\\diag-phase0-727a978b\\a-9137a0d65ee20611.lem",
+   "bytes": 731200,
+   "sha256": "9137a0d65ee20611061b896f40854319e86ba18ae5402247746e6ef68413d2a6",
+   "clauses": 9197,
+   "ledger_key": "closeout_blocks",
+   "region": 1,
+   "kind": null,
+   "status": "INDEPENDENT_SUBDIVISION_PASS"
+  }
+ ],
+ "note": "Occurrences across blocks are not globally unique clauses; S035 ledger-accepted sources were audited in S035 and are hash-pinned in each recipe."
+}

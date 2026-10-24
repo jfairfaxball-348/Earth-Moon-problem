@@ -27,7 +27,7 @@ def sha(path):
 
 
 state = read('authoritative/STATE.json')
-if state['last_completed_session']=='S035':
+if state['last_completed_session']!='S034':  # S035 or later: historical S035 entry state
     state=read('validation/S035/closeout/ENTRY_STATE.json')
 assert state['last_completed_session'] == 'S034'
 assert state['active_session']['id'] == 'S035'
@@ -35,7 +35,7 @@ assert state['active_session']['status'] in ('RUNNING', 'PAUSED')
 assert state['active_session']['no_automatic_S036']
 assert state['next_session_is_future_unexecuted'] is False
 mirror='CONTINUATION_PROMPT.md' if (ROOT/'sessions/S035/CONTINUATION_PROMPT.md').exists() else 'RESUME_PROMPT.md'
-if read('authoritative/STATE.json')['last_completed_session']!='S035':
+if read('authoritative/STATE.json')['last_completed_session']=='S034':  # S035 in progress only
     assert (ROOT/'authoritative/NEXT_SESSION_PROMPT.md').read_bytes() == (ROOT/'sessions/S035'/mirror).read_bytes()
 entry = read('validation/S035/resume/ENTRY.json')
 assert entry['entry_main'] == '3118649b248b9045d48b408074b2dc77901b7d2c'

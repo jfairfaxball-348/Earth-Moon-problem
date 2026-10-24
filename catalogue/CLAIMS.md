@@ -797,3 +797,9 @@ validation/S034/SUMMARY.json and FINAL_MANIFEST.json.102 visits,240 unresolved, 
 S035 final finite audit reconstructs247 encoded formula hashes and checks original independently verified proof/checker receipts; nine regions remain UNKNOWN.
 
 validation/S035/closeout/AUDIT.json and PREFIX_AUDIT.json. Accepted and retained geometric journal occurrences independently subdivision-audited; overlapping prefixes are not new unique clauses. No fresh final DRAT replay, individual graph exclusion, whole-stratum decision, SAT witness or headline advance. Source attribution method only;9<=chi2<=12. Lossless delta actual restore verified; private CDCL RAM is not serialized.
+
+## CLM-0122 — COMPUTED_EXACT
+
+S036 closeout audit: all 60 S036 geometric clause blocks (14165211 occurrences) are independently checked Kuratowski-subdivision lemmas with matching SHA256/counts; the nine S11 regions remain UNKNOWN.
+
+validation/S036/closeout/CUTS_AUDIT.json, STOP_RECORD.json, SAT_FINAL_AUDIT.json, REGIONS_FINAL.json. Occurrences overlap across blocks and are not unique clauses. No SAT witness, native UNSAT, region closure, whole-stratum decision or headline advance; private CDCL not serialized; 9<=chi2<=12. Source attribution method only.

@@ -91,3 +91,5 @@ CAM-0040 / S035 OWNER_PAUSED:247 encoded proof closures; unresolved0,1,3,7,15,31
 CAM-0040 / S035 sustained RUNNING2026-10-23: verified live controller/SAT watcher, original RAM contexts0,7,127,255; two slots; cold queue unchanged. No proof/headline advance.
 
 CAM-0040 / S035 CLOSED23Oct2026:247 encoded proof closures/nine UNKNOWN; SAT-watcher read failure, original RAM contexts preserved suspended. S036 targeted repair/diagnostic long-search prompt queued, not executed.
+
+CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 0,7,127,255 with recycling and autopilot; cold regions 1,3,15,31,63 diagnostics plus partial rotation; nine UNKNOWN; all processes stopped cooperatively; runtime preserved in artifacts/tmp/S036 (manifest validation/S036/closeout/PRESERVATION_MANIFEST.json). No next campaign queued.

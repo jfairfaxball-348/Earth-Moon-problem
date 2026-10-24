@@ -1,0 +1,182 @@
+{
+ "status": "NINE_REGIONS_UNKNOWN_NO_SAT_NO_CLOSURE",
+ "baseline": "247/256 encoded regions proof-closed (S034/S035 certificates); these nine remain UNKNOWN",
+ "regions": [
+  {
+   "region": 0,
+   "kind": "resident",
+   "verdict": "UNKNOWN",
+   "generations": [
+    {
+     "generation": 0,
+     "ended": "recycled PER_WORKER",
+     "conflicts": 80403249,
+     "audited_clauses": 3422284,
+     "private_bytes_at_recycle": 2733027328
+    },
+    {
+     "generation": 1,
+     "ended": "closeout cooperative stop",
+     "conflicts": 12892652,
+     "cuts_this_generation": 438283,
+     "final_tail_audited": 438283
+    }
+   ],
+   "s036_conflicts_total": 93295901,
+   "audited_geometric_clause_occurrences": 4207668
+  },
+  {
+   "region": 1,
+   "kind": "cold",
+   "verdict": "UNKNOWN",
+   "diagnostic_arms_counted": 5,
+   "adopted_arm": "baseline",
+   "diagnostic_conflicts_per_cpu_second": {
+    "baseline": 9118,
+    "phase0": 9440,
+    "focused": 3492,
+    "stable": 12064,
+    "noinprocessing": 9004
+   },
+   "rotation_spans": 9,
+   "span_wall_seconds": 14436,
+   "span_conflicts": 56896401,
+   "longest_span_seconds": 12105,
+   "audited_geometric_clause_occurrences": 4311368
+  },
+  {
+   "region": 3,
+   "kind": "cold",
+   "verdict": "UNKNOWN",
+   "diagnostic_arms_counted": 5,
+   "adopted_arm": "baseline",
+   "diagnostic_conflicts_per_cpu_second": {
+    "baseline": 11070,
+    "phase0": 9266,
+    "focused": 9258,
+    "stable": 12195,
+    "noinprocessing": 10139
+   },
+   "rotation_spans": 1,
+   "span_wall_seconds": 4238,
+   "span_conflicts": 25359340,
+   "longest_span_seconds": 4238,
+   "audited_geometric_clause_occurrences": 36798
+  },
+  {
+   "region": 7,
+   "kind": "resident",
+   "verdict": "UNKNOWN",
+   "generations": [
+    {
+     "generation": 0,
+     "ended": "recycled PER_WORKER",
+     "conflicts": 70477457,
+     "audited_clauses": 2506998,
+     "private_bytes_at_recycle": 2775015424
+    },
+    {
+     "generation": 1,
+     "ended": "closeout cooperative stop",
+     "conflicts": 25816094,
+     "cuts_this_generation": 406282,
+     "final_tail_audited": 406282
+    }
+   ],
+   "s036_conflicts_total": 96293551,
+   "audited_geometric_clause_occurrences": 3930844
+  },
+  {
+   "region": 15,
+   "kind": "cold",
+   "verdict": "UNKNOWN",
+   "diagnostic_arms_counted": 5,
+   "adopted_arm": "baseline",
+   "diagnostic_conflicts_per_cpu_second": {
+    "baseline": 9653,
+    "phase0": 7733,
+    "focused": 716,
+    "stable": 9899,
+    "noinprocessing": 8575
+   },
+   "rotation_spans": 2,
+   "span_wall_seconds": 3254,
+   "span_conflicts": 19857023,
+   "longest_span_seconds": 2346,
+   "audited_geometric_clause_occurrences": 1228903
+  },
+  {
+   "region": 31,
+   "kind": "cold",
+   "verdict": "UNKNOWN",
+   "diagnostic_arms_counted": 5,
+   "adopted_arm": "baseline",
+   "diagnostic_conflicts_per_cpu_second": {
+    "baseline": 8150,
+    "phase0": 8184,
+    "focused": 6826,
+    "stable": 10126,
+    "noinprocessing": 8616
+   },
+   "rotation_spans": 0,
+   "span_wall_seconds": 0,
+   "span_conflicts": 0,
+   "longest_span_seconds": 0,
+   "audited_geometric_clause_occurrences": 29169
+  },
+  {
+   "region": 63,
+   "kind": "cold",
+   "verdict": "UNKNOWN",
+   "diagnostic_arms_counted": 5,
+   "adopted_arm": "baseline",
+   "diagnostic_conflicts_per_cpu_second": {
+    "baseline": 8472,
+    "phase0": 8347,
+    "focused": 7769,
+    "stable": 10040,
+    "noinprocessing": 8483
+   },
+   "rotation_spans": 0,
+   "span_wall_seconds": 0,
+   "span_conflicts": 0,
+   "longest_span_seconds": 0,
+   "audited_geometric_clause_occurrences": 12240
+  },
+  {
+   "region": 127,
+   "kind": "resident",
+   "verdict": "UNKNOWN",
+   "generations": [
+    {
+     "generation": 0,
+     "ended": "closeout cooperative stop",
+     "conflicts": 97020840,
+     "cuts_this_generation": 167,
+     "final_tail_audited": 167
+    }
+   ],
+   "s036_conflicts_total": 97020840,
+   "audited_geometric_clause_occurrences": 167
+  },
+  {
+   "region": 255,
+   "kind": "resident",
+   "verdict": "UNKNOWN",
+   "generations": [
+    {
+     "generation": 0,
+     "ended": "closeout cooperative stop",
+     "conflicts": 91065759,
+     "cuts_this_generation": 408054,
+     "final_tail_audited": 408054
+    }
+   ],
+   "s036_conflicts_total": 91065759,
+   "audited_geometric_clause_occurrences": 408054
+  }
+ ],
+ "lost": "Private CDCL (learned clauses, heuristics) of every native process: S035 retained contexts lost 23 Oct 12:14 UTC; S036 fresh residents and cold solvers ended at closeout or recycle. Not recoverable; never claimed as a checkpoint.",
+ "preserved": "All geometric clauses each process wrote, independently subdivision-audited into immutable blocks (validation/S036/closeout/CUTS_AUDIT.json); exact recipes (INPUT.json) and hashes for every input.",
+ "verdict": "UNKNOWN"
+}

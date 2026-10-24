@@ -102,3 +102,5 @@ S035 resident upgrade remains Phase1 IN_PROGRESS: solver performance/learning re
 S035 PAUSED:247 encoded DRAT closures, nine UNKNOWN; SAT-first/lifecycle acceptance required before resume;9..12 and all separate gates unchanged.
 
 S035 COMPLETED_OWNER_STOP_UNKNOWN:247 encoded closures/nine UNKNOWN; internal audit CLM-0121, Phase1 NOT PASSED;9..12 unchanged. S036 FUTURE/UNEXECUTED; publication/outreach/Lean unchanged.
+
+S036 CLOSED_OWNER_DIRECTED_CLEAN_STOP: 247 encoded closures/nine UNKNOWN unchanged; all S036 geometric clauses independently re-audited (CLM-0122). Phase1 NOT PASSED; 9..12 unchanged; no next session queued; publication/outreach/Lean unchanged.

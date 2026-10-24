@@ -36,7 +36,7 @@ assert bench['status']=='PASS' and [r['workers'] for r in bench['rows']]==[1,2,3
 assert all(r['registered_wall_seconds']==120 for r in bench['rows'])
 assert concurrency[str(cfg['workers'])]['solvers']>=2
 state=read('authoritative/STATE.json')
-if state['last_completed_session']=='S035':
+if state['last_completed_session']!='S034':  # S035 or later: historical S035 entry state
     state=read('validation/S035/closeout/ENTRY_STATE.json')
 assert state['last_completed_session']=='S034' and state['active_session']['id']=='S035' and state['active_session']['status'] in ('RUNNING','PAUSED')
 assert state['next_session_is_future_unexecuted'] is False

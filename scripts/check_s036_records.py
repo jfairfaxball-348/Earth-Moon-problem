@@ -32,6 +32,30 @@ active = state.get('active_session')
 if state['last_completed_session'] == 'S035':
     assert active and active['id'] == 'S036' and state['next_session_is_future_unexecuted'] is False
     assert active['no_automatic_S037'] and not active['witness_established'] and not active['whole_stratum_certified']
+else:
+    # S036 CLOSED by owner-directed clean stop; no next session queued.
+    assert state['last_completed_session'] == 'S036' and not active
+    assert state['next_session_status'] == 'NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION'
+    assert state['current_computation'] == 'STOPPED'
+    holding = (ROOT / 'authoritative/NEXT_SESSION_PROMPT.md').read_text(encoding='utf-8')
+    assert 'NOT YET QUEUED' in holding and 'NOT EXECUTABLE' in holding
+    closeout = ROOT / 'validation/S036/closeout'
+    stop = json.loads((closeout / 'STOP_RECORD.json').read_text(encoding='utf-8'))
+    assert stop['status'] == 'CLEAN_STOPPED' and stop['forced_terminations_of_solvers'] == 0
+    assert not stop['remaining_solvers'] and not stop['remaining_s036_python'] and stop['private_cdcl_retained'] is False
+    assert len(stop['residents']) == 4 and all(r['status'] == 'EXITED_COOPERATIVELY' and r['cooperative_stop_marker']
+                                               and not r['sat_marker'] and not r['unsat_marker'] for r in stop['residents'])
+    sat = json.loads((closeout / 'SAT_FINAL_AUDIT.json').read_text(encoding='utf-8'))
+    assert sat['status'] == 'NO_SAT_CANDIDATE_OR_EXIT10_FOUND' and sat['hits'] == [] and not sat['native_unsat_logs']
+    cuts = json.loads((closeout / 'CUTS_AUDIT.json').read_text(encoding='utf-8'))
+    assert cuts['status'] == 'PASS' and all(r['status'] == 'INDEPENDENT_SUBDIVISION_PASS' for r in cuts['rows'])
+    regions = json.loads((closeout / 'REGIONS_FINAL.json').read_text(encoding='utf-8'))
+    assert sorted(r['region'] for r in regions['regions']) == [0, 1, 3, 7, 15, 31, 63, 127, 255]
+    assert all(r['verdict'] == 'UNKNOWN' for r in regions['regions'])
+    manifest = json.loads((closeout / 'PRESERVATION_MANIFEST.json').read_text(encoding='utf-8'))
+    assert manifest['files'] == len(manifest['rows']) > 0
+    for name in ('INPUT', 'PLAN', 'RESEARCH', 'ADVERSARIAL', 'PRIOR_ART', 'CLOSEOUT'):
+        assert (ROOT / f'sessions/S036/{name}.md').is_file()
 assert state['confirmed_classical_range'] == dict(state['confirmed_classical_range'], lower=9, upper=12)
 
 entry = read('ENTRY.json')

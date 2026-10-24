@@ -196,3 +196,7 @@ cold gate's identity sample then tripped over the exiting region-0 process and c
 standing authority: the cold gate samples only identities that still exist. The cold
 runner was swapped between solver runs (region 15's 15-minute-old stint stopped through
 its stop file, idle runner ended) and region 15 restored to the front of the rotation.
+
+## CLOSED 24 Oct 2026 — owner-directed clean stop
+
+All processes stopped cooperatively; see sessions/S036/CLOSEOUT.md. Nothing is running and no next session is queued.

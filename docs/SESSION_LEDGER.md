@@ -89,3 +89,5 @@ S035 owner-invoked recovery: full restore and actual120s same-process pilot PASS
 S035 sustained continuation RUNNING2026-10-23: original native threads only, helpers quarantined; fresh40s validation passed; two active/four retained600s turns, no overall cutoff;247 encoded closures and nine UNKNOWN unchanged.
 
 | S035 |2026-10-23| CAM0040 owner closeout |247 encoded closures; nine UNKNOWN; watcher read failure; RAM preserved; lossless delta recovery | S036 targeted sustained search FUTURE/UNEXECUTED |
+
+| S036 |2026-10-24| CAM0040 continuation; owner-directed clean stop | watcher repair+acceptance; S035 RAM lost at app closure; fresh residents, machine limits, recycling, autopilot; cold diagnostics (baseline kept) and partial rotation; all cuts re-audited; nine UNKNOWN | S037 NOT YET QUEUED (owner) |

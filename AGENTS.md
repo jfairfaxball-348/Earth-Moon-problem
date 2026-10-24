@@ -1,3 +1,14 @@
+# S036 CLOSED — OWNER-DIRECTED CLEAN STOP; computation STOPPED; next session NOT YET QUEUED (24 October 2026)
+
+The owner stopped the S036 campaign as a research-strategy pause. All solvers ended
+cooperatively (no forced termination); controller, supervisor, autopilot, cold runner
+and scheduled check-ins are stopped/disabled. All geometric clauses were preserved and
+independently re-audited; private CDCL memory was lost by design. authoritative/
+NEXT_SESSION_PROMPT.md is a NON-EXECUTABLE holding notice: do NOT start, restart or
+improvise any session until the owner installs the next one. Read sessions/S036/
+CLOSEOUT.md. 9<=chi2<=12; nine regions UNKNOWN; no certified chi>=10 witness.
+The S036 headers below are historical.
+
 # S036 IN_PROGRESS — AUTONOMOUS: autopilot recovers operational pauses (24 October 2026)
 
 Owner (24 Oct): hands-off operation; authority to apply recommended fixes. The autopilot

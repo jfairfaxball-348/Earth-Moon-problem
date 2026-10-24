@@ -1,0 +1,28 @@
+{
+ "status": "NO_SAT_CANDIDATE_OR_EXIT10_FOUND",
+ "scanned_files": 5111,
+ "roots": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\campaign",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-1",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-2",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\benchmark-3",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\imported-s034",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic-overlap-aborted",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S035\\phase-diagnostic-input-rebase-failure",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\cold",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\recovered"
+ ],
+ "hits": [],
+ "unreadable": [],
+ "native_unsat_logs": [],
+ "pending_proofs": false,
+ "control_files": {
+  "TERMINAL.json": false,
+  "COLD_TERMINAL.json": false,
+  "SAT_ALERT.json": false
+ },
+ "epoch": 1792834522.4207501,
+ "verdict": "UNKNOWN"
+}

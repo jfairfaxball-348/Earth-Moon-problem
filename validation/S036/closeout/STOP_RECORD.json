@@ -1,0 +1,151 @@
+{
+ "owner_pause_reason": "OWNER_OR_CONTROLLER_STOP",
+ "pause_errors": [],
+ "residents": [
+  {
+   "cell": 127,
+   "generation": 0,
+   "worker": {
+    "pid": 15944,
+    "start_ticks": "1792759050.8506148"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0127\\640d5a016e334154805b370deeaec655",
+   "input_sha256": "2d70e01622ac9b7ca786eb3d5b9ce8fa546f76cc48a91ca5a15eb65dfdc2485f",
+   "status": "EXITED_COOPERATIVELY",
+   "cooperative_stop_marker": true,
+   "unknown_marker": true,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "conflicts": 97020840,
+   "decisions": 214971074,
+   "propagations": 21847505811,
+   "native_wall_seconds": 75523.58,
+   "cuts": 167,
+   "final_tail_audit": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0127\\640d5a016e334154805b370deeaec655\\a-04143c132c579cab.lem",
+    "count": 167,
+    "sha256": "04143c132c579cabf6932a378c1faeab23206d322011f1f7b7450f2f69990b0a",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0127\\640d5a016e334154805b370deeaec655\\new-cuts.lem",
+    "region": 127,
+    "session": "S036",
+    "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL"
+   }
+  },
+  {
+   "cell": 255,
+   "generation": 0,
+   "worker": {
+    "pid": 11332,
+    "start_ticks": "1792759176.461158"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0255\\2a10cb1e7d14473e960c5ff74db6af96",
+   "input_sha256": "7693cd5e550722a0e50b4eb6557d8b3e1a0e88a39966b4268c2b93a786baf126",
+   "status": "EXITED_COOPERATIVELY",
+   "cooperative_stop_marker": true,
+   "unknown_marker": true,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "conflicts": 91065759,
+   "decisions": 199266300,
+   "propagations": 20992440762,
+   "native_wall_seconds": 75395.45,
+   "cuts": 408054,
+   "final_tail_audit": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0255\\2a10cb1e7d14473e960c5ff74db6af96\\a-38e3cfe5968185d0.lem",
+    "count": 408054,
+    "sha256": "38e3cfe5968185d0fc84839cd0f683c547b6c9526dd9aa58d7168cd0315dd779",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0255\\2a10cb1e7d14473e960c5ff74db6af96\\new-cuts.lem",
+    "region": 255,
+    "session": "S036",
+    "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL"
+   }
+  },
+  {
+   "cell": 7,
+   "generation": 1,
+   "worker": {
+    "pid": 16280,
+    "start_ticks": "1792825831.9022484"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0007\\44cbb7f25e324304b78cf36ec4e89abc",
+   "input_sha256": "a08327b68ae190e7537dfc987ee158b455c54bf8d34c4e9991d9de5e7724e259",
+   "status": "EXITED_COOPERATIVELY",
+   "cooperative_stop_marker": true,
+   "unknown_marker": true,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "conflicts": 25816094,
+   "decisions": 61831509,
+   "propagations": 5525455430,
+   "native_wall_seconds": 8738.591,
+   "cuts": 406282,
+   "final_tail_audit": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0007\\44cbb7f25e324304b78cf36ec4e89abc\\a-0b346a0d80969105.lem",
+    "count": 406282,
+    "sha256": "0b346a0d80969105cd7a092c213db2943a164dd792ece4566c2813efb541c366",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0007\\44cbb7f25e324304b78cf36ec4e89abc\\new-cuts.lem",
+    "region": 7,
+    "session": "S036",
+    "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL"
+   }
+  },
+  {
+   "cell": 0,
+   "generation": 1,
+   "worker": {
+    "pid": 1404,
+    "start_ticks": "1792830827.0278091"
+   },
+   "directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0000\\e6a353049d7b4058b4024a504e12754e",
+   "input_sha256": "e21deabd20576a1f3717ec285a78bb58a64d3df21efabfd5c197df7ee61aa058",
+   "status": "EXITED_COOPERATIVELY",
+   "cooperative_stop_marker": true,
+   "unknown_marker": true,
+   "sat_marker": false,
+   "unsat_marker": false,
+   "conflicts": 12892652,
+   "decisions": 31553192,
+   "propagations": 2795432683,
+   "native_wall_seconds": 3759.078,
+   "cuts": 438283,
+   "final_tail_audit": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0000\\e6a353049d7b4058b4024a504e12754e\\a-8d3da076b0fd1e95.lem",
+    "count": 438283,
+    "sha256": "8d3da076b0fd1e950aa1714fc9cd7099890ceae1ce97a4092889ee22e18f51ad",
+    "audit": "INDEPENDENT_SUBDIVISION_PASS",
+    "n": 28,
+    "origin": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\resident\\region-0000\\e6a353049d7b4058b4024a504e12754e\\new-cuts.lem",
+    "region": 0,
+    "session": "S036",
+    "kind": "RECYCLED_RESIDENT_GEOMETRIC_JOURNAL"
+   }
+  }
+ ],
+ "started_epoch": 1792834583.9345355,
+ "cold_solver": "COLD_SOLVER_EXITED_COOPERATIVELY",
+ "cold_slot_after_release": {
+  "state": "IDLE",
+  "last_returncode": 0,
+  "last_directory": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S036\\cold\\region-0015\\span-baseline-fa9860cf"
+ },
+ "ended_idle_cold_runner": [
+  12084
+ ],
+ "ended_autopilot": [
+  2104
+ ],
+ "remaining_solvers": [],
+ "remaining_s036_python": [],
+ "status": "CLEAN_STOPPED",
+ "private_cdcl_retained": false,
+ "finished_epoch": 1792834618.3581066,
+ "forced_terminations_of_solvers": 0,
+ "verified_epoch": 1792835598.8455012,
+ "self_match_note": "The first evaluation counted the closeout process itself; re-verified here."
+}
