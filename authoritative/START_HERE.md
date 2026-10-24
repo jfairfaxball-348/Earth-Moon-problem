@@ -1,3 +1,11 @@
+# D077 — S040 progress-or-pivot gate (24 October 2026)
+
+S040 remains FUTURE/UNEXECUTED. Before experiments register solid-progress
+criteria; at closeout decide PROGRESS or PIVOT. Without solid progress, park
+repeated star/patch search and queue S041 to assess genuinely different
+construction routes. Read docs/D077_S040_PROGRESS_OR_PIVOT.md and the revised
+live prompt. This amendment invokes no session; frozen S039 evidence remains.
+
 # S039 CLOSED — bounded vertex-star research (24 October 2026)
 
 Star moves escape the S038 basins: best82/79 independent four-sets at

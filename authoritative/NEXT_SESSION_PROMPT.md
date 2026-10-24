@@ -1,5 +1,5 @@
 # S040 — Coordinated star relocation from the improved planar pairs
-FUTURE / UNEXECUTED — installed 24 October 2026
+FUTURE / UNEXECUTED — owner-revised under D077, 24 October 2026
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
@@ -12,7 +12,8 @@ universal upper bound or full EMP resolution. Publication/Lean gates remain.
 
 Read live AGENTS, STATE and S039 INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/
 CLOSEOUT. Pin remote main, verify S039's commit/tree and frozen manifest;
-run check_s037_records.py, check_s038_records.py and check_s039_records.py.
+run check_s037_records.py, check_s038_records.py and check_s040_handoff.py
+(the last replays frozen S039 and verifies this explicit owner revision).
 Then run fresh full scripts/cloud_smoke.py with pinned native tools before
 scientific computation. A cloud fallback must run scripts/cloud_setup.sh and
 full smoke in the SAME job, preserve evidence and keep registered limits.
@@ -60,6 +61,27 @@ Independently check simplicity, disjointness and counts. Alpha<=3 at order28
 implies chi>=10 by counting; otherwise a witness requires a rigorous checked
 non9-colourability proof. A proper9-colouring rejects that witness. Bare UNSAT,
 SAT relaxations, timeouts and capped searches never certify a negative result.
+
+Owner progress-or-pivot gate (D077): this is one bounded test of the
+coordinated-star direction. Before experiments register an operational
+solid-progress criterion tied to the certified chi>=10 construction target.
+A certified witness qualifies. Continued pursuit without one requires a
+materially stronger construction mechanism or candidate source, supported by
+independently checked results reproducible across more than one start/seed,
+and an explicit explanation of the obstruction it overcomes. An isolated small
+four-set decrease, more implementation, extra CPU or larger neighborhood
+enumeration alone does not qualify. Do not lower the criterion after seeing
+the results. Distinguish useful negative/diagnostic learning from constructive
+progress; an identified obstacle can justify leaving this route.
+
+At closeout make an explicit evidence-backed PROGRESS or PIVOT decision.
+If solid progress is absent, park continued star/patch hill-climbing and make
+the queued S041 a comparative audit of at least two genuinely different
+construction routes. Examine primary sources, old closed/failed ranges,
+testable mathematical mechanisms and paths to independent certification.
+Do not default to more seeds, larger move radii or longer runs of this method.
+If solid progress is present, justify the next direction from the verified
+evidence. S041 remains FUTURE/UNEXECUTED until the owner's next invocation.
 
 One experiment process, initially<=7200 cumulative CPU seconds, short per-arm
 caps and explicit stop criteria. Refresh result-specific primary prior art;

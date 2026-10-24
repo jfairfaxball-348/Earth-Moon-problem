@@ -157,3 +157,5 @@ S037 owner invocation 24Oct2026 adopts installed structural-reset prompt on exis
 S038 owner invocation24Oct2026 adopted existing-main bounded patch prompt. Matched methods give no best-score advantage for small boundary-only patches. Queue S039 interior-vertex relocation and protected9-chromatic seed audit; do not execute it automatically.
 
 S039 owner invocation24Oct2026 executes existing-main bounded star/seed prompt. Concrete star escapes91/123 to82/79 justify testing coordinated two-layer relocations and remaining-four-set diagnosis next. Pure coning is provably9-colourable; preserve it as calibration, not a chi10 candidate family. S040 queued, not executed.
+
+D077 owner amendment24Oct2026: S040 is one bounded coordinated-star test, with preregistered solid-progress criteria and explicit PROGRESS/PIVOT closeout. If no solid progress, park repeated star/patch search and queue S041 to compare at least two genuinely different construction routes. Isolated small score changes or extra computation alone are insufficient. S040/S041 remain FUTURE/UNEXECUTED; S039 science and9..12 unchanged.

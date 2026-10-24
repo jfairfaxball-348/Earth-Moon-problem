@@ -2137,8 +2137,11 @@
     "status": "FUTURE_UNEXECUTED",
     "installed_date": "2026-10-24",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "archival_copy": "sessions/S039/S040_FUTURE_PROMPT.md",
-    "objective": "Four-set diagnosis and coordinated two-layer star relocation from best79/82",
-    "s036_restart_authorized": false
+    "archival_copy": "sessions/S039/S040_FUTURE_PROMPT_OWNER_REVISION.md",
+    "objective": "Four-set diagnosis and coordinated two-layer star relocation from best79/82; explicit solid-progress-or-pivot gate",
+    "s036_restart_authorized": false,
+    "original_archival_copy": "sessions/S039/S040_FUTURE_PROMPT.md",
+    "owner_progress_gate": "D077",
+    "no_solid_progress_successor": "S041 comparative audit of at least two genuinely different construction routes; park repeated star/patch search"
   }
 }

@@ -55,4 +55,4 @@ jobs:
       - name: Verify S039 star neighborhoods seeds and planar traces
         run: |
           python scripts/check_s039_adversarial.py
-          python scripts/check_s039_records.py
+          python scripts/check_s040_handoff.py

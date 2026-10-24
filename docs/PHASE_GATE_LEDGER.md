@@ -110,3 +110,5 @@ S037 CLOSED: CLM-0123 sorted-prefix theorem, CLM-0124 checked planar records, CL
 S038 CLOSED: CLM0126 disk patch lemma; CLM0127 scoped finite traps; CLM0128 checked planar records. Phase1 NOT PASSED;9..12 unchanged. S039 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
 
 S039 CLOSED: CLM0129 star/deficit lemma; CLM0130 exact selected neighbors; CLM0131 checked improvements; CLM0132 coning calibration/core proof. Phase1 NOT PASSED;9..12 unchanged. S040 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
+
+D077 owner amendment24Oct2026: S040 is one bounded coordinated-star test, with preregistered solid-progress criteria and explicit PROGRESS/PIVOT closeout. If no solid progress, park repeated star/patch search and queue S041 to compare at least two genuinely different construction routes. Isolated small score changes or extra computation alone are insufficient. S040/S041 remain FUTURE/UNEXECUTED; S039 science and9..12 unchanged.
