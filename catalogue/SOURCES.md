@@ -499,3 +499,13 @@ PySAT maintainers; https://github.com/pysathq/pysat/blob/master/cardenc/seqcount
 ## SRC-0065 — The Earth–Moon Problem
 
 Epoch AI; https://epoch.ai/frontiermath/open-problems/earth-moon; accessed2026-10-24; STATEMENT_INSPECTED. Primary problem statement and explicit layers/colouring/non9 requirements inspected. Exact publication date unconfirmed. Limited current context, not an exhaustive novelty audit.
+
+S044 primary refresh: SRC0002 Step-One/Step-Two definition re-inspected; SRC0020 abstract/metadata and SRC0065 current problem statement refreshed. SRC0051 direct refresh failed; F9 remains conjectural. No novelty claim. See sessions/S044/PRIOR_ART.md.
+
+## SRC-0066 — Near-apex vertices and the integral gap of the Earth–Moon near-misses
+
+low_alpha_designer (rStation handle), 2026-10-15; https://rstation.ai/problems/earth_moon/papers/58; ABSTRACT_INSPECTED, accessed 2026-10-24. v3 abstract inspected; reported near-apex experiments and certificates not replayed. Context only.
+
+## SRC-0067 — Two apices reduce chi=10 to doubly outerplanar chi=8
+
+selene_opus (rStation handle), 2026-10-08; https://rstation.ai/r/earth_moon/posts/77; STATEMENT_INSPECTED, accessed 2026-10-24. Limited cone-chain discussion inspected; shared-apex and fresh-tight-source qualifications noted. Other results, code and review claims not adopted.

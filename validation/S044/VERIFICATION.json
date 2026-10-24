@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "script": "scripts/cloud_smoke.py",
+      "returncode": 0,
+      "cpu_seconds": 54.21875,
+      "processes": 276,
+      "capped": false,
+      "log_sha256": "8b5dbf5deed84dafceb948e7fac6eed717f99889ee69d9fd0c7d720ed2513ce5",
+      "output_tail": "cloud smoke PASS: chromatic 271/271 verified, 271/271 CNF byte matches; K9 cnf_match=True verified=True; fresh CaDiCaL K9 proof verified=True\n"
+    },
+    {
+      "script": "scripts/check_s037_records.py",
+      "returncode": 0,
+      "cpu_seconds": 1.8125,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "84093b823634f792d706c5a31f4128302ff3b1a81d370704b3dd69744328bc6d",
+      "output_tail": "S037 PASS: symmetry, 19 layer records/rotations/four-sets/colourings, 43 flips, 446 nonextension subdivisions; bounds unchanged\n"
+    },
+    {
+      "script": "scripts/check_s038_records.py",
+      "returncode": 0,
+      "cpu_seconds": 8.4375,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "bdea418234a369a62286b1ca565a0832e43803d57925dc9944c3e45839de3b6a",
+      "output_tail": "{'status': 'PASS', 'density': 156, 'neighbors_replayed': 774, 'by_support': [{'support_size': 1, 'distinct_neighbors': 43, 'minimum_score': 93}, {'support_size': 2, 'distinct_neighbors': 154, 'minimum_score': 93}, {'support_size': 3, 'distinct_neighbors': 577, 'minimum_score': 93}], 'cpu_seconds': 0.3125}\n{'status': 'PASS', 'density': 156, 'joint_neighbors_replayed': 3914, 'minimum_score': 91, 'cpu_seconds': 0.140625}\n{'status': 'PASS', 'density': 156, 'one_neighbors': 2343, 'one_minimum': 93, 'joint_neighbors': 6128, 'joint_minimum': 91, 'cpu_seconds': 3.28125}\n{'status': 'PASS', 'density': 155, 'neighbors_replayed': 854, 'by_support': [{'support_size': 1, 'distinct_neighbors': 48, 'minimum_score': 127}, {'support_size': 2, 'distinct_neighbors': 167, 'minimum_score': 125}, {'support_size': 3, 'distinct_neighbors': 639, 'minimum_score': 125}], 'cpu_seconds': 0.296875}\n{'status': 'PASS', 'density': 155, 'joint_neighbors_replayed': 4478, 'minimum_score': 126, 'cpu_seconds': 0.140625}\n{'status': 'PASS', 'density': 155, 'one_neighbors': 2705, 'one_minimum': 125, 'joint_neighbors': 6843, 'joint_minimum': 126, 'cpu_seconds': 3.25}\nS038 PASS: exact neighborhoods, 22 sphere/colour/four-set records and 1736 independently replayed planar patch transitions; no witness\n"
+    },
+    {
+      "script": "scripts/check_s040_handoff.py",
+      "returncode": 0,
+      "cpu_seconds": 1.875,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "7d6e90811c5b6432ae249ace36e0226d058126a2f6b16a601e54f1e3e16e4ff8",
+      "output_tail": "{'status': 'PASS', 'density': 156, 'neighbors': 766, 'minimum_score': 83, 'strict_improvements': 4, 'cpu_seconds': 0.109375}\n{'status': 'PASS', 'density': 155, 'neighbors': 1045, 'minimum_score': 116, 'strict_improvements': 5, 'cpu_seconds': 0.109375}\nS039 PASS: 1811 exact star neighbors; 22 sphere/colour records; four seed reconstructions; 762 trace transitions; no witness\nD077 PASS: frozen S039 intact; revised S040 progress-or-pivot handoff; no session invoked\n"
+    },
+    {
+      "script": "scripts/check_s039_adversarial.py",
+      "returncode": 0,
+      "cpu_seconds": 0.078125,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "8e4173a909a43bebd1c9fc6227f9ba812f52f3e2b4b43edac8c74f890105cd6b",
+      "output_tail": "S039 adversarial PASS: 8 malformed certificates rejected\n"
+    },
+    {
+      "script": "scripts/check_s040_adversarial.py",
+      "returncode": 0,
+      "cpu_seconds": 0.09375,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "fa16e3153b009a55120ead40b180d1d5ce2383cce70982136104c3fd9e28a683",
+      "output_tail": "S040 adversarial PASS: 9 malformed pair certificates rejected\n"
+    },
+    {
+      "script": "scripts/check_s040_records.py",
+      "returncode": 0,
+      "cpu_seconds": 12.75,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "e3884d259fefa6f2677857fffb1b01b3fcbd4da24de224883da3572f9de7e235",
+      "output_tail": "S040 PASS: coordinated neighborhoods [216582, 119281] rows replayed; 16 arms, 482 transitions, 24 records; no witness\n"
+    },
+    {
+      "script": "scripts/check_s041_adversarial.py",
+      "returncode": 0,
+      "cpu_seconds": 0.171875,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "58a078856a332d8b504883fe2c620de9a0826d32c15b4d3ba416986c34a00404",
+      "output_tail": "S041 adversarial PASS: 9 malformed certificates rejected\n"
+    },
+    {
+      "script": "scripts/check_s041_records.py",
+      "returncode": 0,
+      "cpu_seconds": 1.78125,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "a93c8e082758a92062dc0d3917fcb0888711c5aea5d05a5cfa93a2e98a5e5bae",
+      "output_tail": "S041 PASS: 50600 order-13 layer certificates, 3510 pairs (min 767 four-sets), counting tables, 3 archived non-biplanarity certificates; no witness\n"
+    },
+    {
+      "script": "scripts/check_s042_adversarial.py",
+      "returncode": 0,
+      "cpu_seconds": 0.140625,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "c4cf8e252f2c0f93a7fa726e37e0cc97fdceb8beb5a6a10db3b2b3837d5599ad",
+      "output_tail": "S042 adversarial PASS: 5 malformed records rejected\n"
+    },
+    {
+      "script": "scripts/check_s042_records.py",
+      "returncode": 0,
+      "cpu_seconds": 0.21875,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "e836060308a2633a9b5c28da347ffd3811c995f2d2f3937563cb9bdc4df8be5d",
+      "output_tail": "S042 PASS: 45 census types re-derived, 97 leaf graphs, {'NONBIPLANAR_DRAT_VERIFIED': 97} ; no witness\n"
+    },
+    {
+      "script": "scripts/check_s043_adversarial.py",
+      "returncode": 0,
+      "cpu_seconds": 0.671875,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "b471336c1d3a40253124c27d2162adf4be67163bd04fa597c292352563d79cb1",
+      "output_tail": "S043 adversarial PASS: orbit/four-set/generator/pin corruption; deleted/duplicate/disconnected subdivision edges; invalid rotation rejected\n"
+    },
+    {
+      "script": "scripts/check_s043_records.py",
+      "returncode": 0,
+      "cpu_seconds": 1.25,
+      "processes": 1,
+      "capped": false,
+      "log_sha256": "40b9363cef84c1c05c2db5111f3b3bf787cca09bbef35e99c0356f01aa01b8ea",
+      "output_tail": "{\"status\": \"PASS\", \"base_clauses\": 36200, \"base_variables\": 12073, \"cuts\": 20000, \"kinds\": {\"K33\": 17653, \"K5\": 2347}, \"all_clauses_rejustified\": true, \"verdict\": \"UNKNOWN\", \"cpu_seconds\": 1.171875, \"scope\": \"encoding and subdivision replay; UNKNOWN does not exclude any whole class\"}\n"
+    }
+  ],
+  "job_cpu_seconds": 83.5,
+  "supervisor_cpu_seconds": 0.296875,
+  "bootstrap_allowance_seconds": 1.3,
+  "cpu_upper_accounted": 85.096875,
+  "wall_seconds": 87.375,
+  "cpu_cap": 600,
+  "scope": "fresh environment smoke plus frozen portable replay; no new search or fresh 97-proof DRAT replay"
+}

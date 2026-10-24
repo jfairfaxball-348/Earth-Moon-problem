@@ -1,3 +1,12 @@
+# S044 CLOSED — decision audit recommends PAUSE (24 October 2026)
+
+Owner decision pending; no target change or new research run authorised.
+No witness; 9<=chi_2<=12; order3 and nine S11 cases UNKNOWN. All 97
+individual apex negatives stand; iterated composition needs all-tested-leaf
+or surviving-obstruction qualification (sessions/S044/SCOPE_CORRECTION.md).
+S036 stays stopped. S045 decision/re-entry gate FUTURE/UNEXECUTED. Existing
+main, ordinary non-force commit/push, no branch/PR. Historical headers follow.
+
 # S043 CLOSED — order3 symmetric slice, decision PIVOT (24 October 2026)
 
 Verdict UNKNOWN: 10000 relaxation models, 20000 checked

@@ -167,3 +167,5 @@ S041 owner invocation24Oct2026 executes the D077 PIVOT audit. Decision: rank R3 
 S042 owner invocation24Oct2026. Registered gate failed (no live apex leaf). Decision PIVOT: park R3 apex-over-Hajos search; queue S043 as the exact order-3 layer-symmetric class (R1), whose own PIVOT leads to an owner-decision audit rather than further slices. S043 not executed.
 
 S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Registered gate unchanged; no additional class, local search or S036 restart.
+
+S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no new search, no witness, 9..12 unchanged. Hajós arbitrary-one-leaf implication narrowed; 97 individual negatives intact. S045 decision/re-entry gate FUTURE/UNEXECUTED.

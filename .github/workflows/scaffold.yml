@@ -72,3 +72,5 @@ jobs:
         run: |
           python scripts/check_s043_adversarial.py
           python scripts/check_s043_records.py
+      - name: Verify S044 decision audit and composition scope correction
+        run: python scripts/check_s044_records.py

@@ -1,0 +1,25 @@
+{
+  "status": "CLOSED_DECISION_AUDIT_RECOMMEND_PAUSE",
+  "recommendation": "PAUSE",
+  "owner_decision": "PENDING",
+  "date": "2026-10-24",
+  "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+  "new_search_experiments": 0,
+  "verification_job_cpu_seconds": 83.5,
+  "verification_accounted_seconds": 85.096875,
+  "verification_cpu_cap": 600,
+  "frozen_replays": "PASS",
+  "fresh_smoke": "PASS",
+  "fresh_97_proof_drat_replay": false,
+  "scope_correction": "ARBITRARY_ONE_TESTED_LEAF_IMPLICATION_UNPROVED; ALL_TESTED_LEAVES_SUFFICIENT",
+  "witness": false,
+  "bounds": [
+    9,
+    12
+  ],
+  "S11": "UNKNOWN",
+  "order3": "UNKNOWN",
+  "S036_restarted": false,
+  "computation": "STOPPED",
+  "next_session": "S045_FUTURE_UNEXECUTED"
+}

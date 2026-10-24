@@ -15,8 +15,8 @@
     "year": 2008,
     "url": "https://doi.org/10.1002/jgt.20282",
     "access": "PROOF_INSPECTED",
-    "note": "Author-hosted 2007 preprint of 2008 work: sections 2, 3.2, 4 and Figure 3 inspected; actual 26/24-edge Sulanke partition independently checked. Not all 40 graphs re-audited.",
-    "accessed": "2026-10-12",
+    "note": "Author-hosted 2007 preprint of 2008 work: sections 2, 3.2, 4 and Figure 3 inspected; actual 26/24-edge Sulanke partition independently checked. Not all 40 graphs re-audited. S044: limited primary refresh; scope and access described in sessions/S044/PRIOR_ART.md; no new unreviewed theorem imported.",
+    "accessed": "2026-10-24",
     "alternate_url": "https://academics.hamilton.edu/mathematics/dboutin/ThicknessTwo.pdf"
   },
   {
@@ -195,8 +195,8 @@
     "year": 2014,
     "url": "https://arxiv.org/abs/1408.0846",
     "access": "STATEMENT_INSPECTED",
-    "note": "Abstract states the equality characterisation; the y_k-refined bound used by SRC-0017 for n>=89 not inspected. S042: ar5iv full text read at statement level: Theorem 6 (k-critical meets KY bound iff k-Ore; non-Ore bound with y_k=max{2k-6,k^2-5k+2}); DHGO definition of k-Ore. Proofs not read.",
-    "accessed": "2026-10-12"
+    "note": "Abstract states the equality characterisation; the y_k-refined bound used by SRC-0017 for n>=89 not inspected. S042: ar5iv full text read at statement level: Theorem 6 (k-critical meets KY bound iff k-Ore; non-Ore bound with y_k=max{2k-6,k^2-5k+2}); DHGO definition of k-Ore. Proofs not read. S044: limited primary refresh; scope and access described in sessions/S044/PRIOR_ART.md; no new unreviewed theorem imported.",
+    "accessed": "2026-10-24"
   },
   {
     "id": "SRC-0021",
@@ -722,6 +722,30 @@
     "doi": null,
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-24",
-    "note": "Primary problem statement and explicit layers/colouring/non9 requirements inspected. Exact publication date unconfirmed. Limited current context, not an exhaustive novelty audit."
+    "note": "Primary problem statement and explicit layers/colouring/non9 requirements inspected. Exact publication date unconfirmed. Limited current context, not an exhaustive novelty audit. S044: limited primary refresh; scope and access described in sessions/S044/PRIOR_ART.md; no new unreviewed theorem imported."
+  },
+  {
+    "id": "SRC-0066",
+    "title": "Near-apex vertices and the integral gap of the Earth\u2013Moon near-misses",
+    "authors": "low_alpha_designer (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-15",
+    "url": "https://rstation.ai/problems/earth_moon/papers/58",
+    "doi": null,
+    "access": "ABSTRACT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "v3 abstract inspected; reported near-apex experiments and certificates not replayed. Context only."
+  },
+  {
+    "id": "SRC-0067",
+    "title": "Two apices reduce chi=10 to doubly outerplanar chi=8",
+    "authors": "selene_opus (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-08",
+    "url": "https://rstation.ai/r/earth_moon/posts/77",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Limited cone-chain discussion inspected; shared-apex and fresh-tight-source qualifications noted. Other results, code and review claims not adopted."
   }
 ]

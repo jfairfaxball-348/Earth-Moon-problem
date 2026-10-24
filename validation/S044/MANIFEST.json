@@ -1,0 +1,30 @@
+{
+  "session": "S044",
+  "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+  "created_utc": "2026-10-24T15:36:35.402259+00:00",
+  "sha256": {
+    "scripts/check_s044_records.py": "4cabe9ba319a76880698f7290d4ec413454d536504f401a3c79f7490d0d70476",
+    "scripts/close_s044_records.py": "7b6ba6cc5482dffe67c7896d5fa7ea2d39409872b465a4b2ca8e7881b4b00067",
+    "scripts/s044_verify.py": "1a6633f702af79e0104ce56f8d26589c448f283e3459f078b369512d7faee179",
+    "sessions/S044/ADVERSARIAL.md": "256b1036dbee54c62d9ba8afc7b018b28579059585f5442a17d93930e304b055",
+    "sessions/S044/CLOSEOUT.md": "c32f8593e74eef00c6e2311fcdda045e9edbed940bed57789d82c56b10994968",
+    "sessions/S044/EVIDENCE_TABLE.md": "e02b53b6c4f7d7f055a380d6384a455649fedfb55ce000f3d3fc811e319febe6",
+    "sessions/S044/INPUT.md": "095f6cd5692c118eb66e2afddf8ef6019bfbd396a157653fecb25876cb97dbae",
+    "sessions/S044/PLAN.md": "c3f87d202775b08fe939b8d8a5db85602f6cdf9488f31c2e457373bbbd42d23f",
+    "sessions/S044/PRIOR_ART.md": "bb174fbb9f458ec486281b25c8a5bd429aa2f8a295ce1f8ef1c220adfdcc27e1",
+    "sessions/S044/RECOVERY_MAP.md": "7a3ea9dc8323f5517af8183174fa1bd46dcf9edf4c0a8692b657a762e9d78ab5",
+    "sessions/S044/RESEARCH.md": "388ed78de9cd4722960bcf257e22344b62fc40764b9f74bcf9d2055abad1967d",
+    "sessions/S044/S045_FUTURE_PROMPT.md": "3f73f96f28611ce3564d8aaa6958d000ec358be865c0f9dd48af458966e69c54",
+    "sessions/S044/SCOPE_CORRECTION.md": "ce9c8557c2789c2b88944f8e0dfae58709ed6de2f480d9596fa72a74b4598b12",
+    "validation/S044/CORRECTIONS.json": "7ce7d124bb245802c1837033b76d16d089ca3f209e32d22b2df853bb40a44680",
+    "validation/S044/ENTRY.json": "10a1cd092dc039a1539c77a8501bf0f1d38e233df3f443d63d05dd3ce40acf59",
+    "validation/S044/ENVIRONMENT.json": "a9485fab41dc3f9bd4b801a1580cf788c5344d0e616c20a659d9c6d09b182d84",
+    "validation/S044/EVIDENCE.json": "7735aa8077d306c3ee445b02eb1e2378ec27cd6f96ad85c4a2ae7f34bc8f86f9",
+    "validation/S044/LEAF_SCOPE_CONTROL.json": "b68d922918bacacf03bef8e6f4a3237ff196661c9c4af4e7cfda6204e3a285d8",
+    "validation/S044/REGISTRATION.json": "ce7dff7e65f239c0f91f92521d0548aff66e0780f2e7f134287fc442d60c5507",
+    "validation/S044/SMOKE.json": "6e8b2c06fd114b4247ace7b3b4eaae8765af8f214a0cf3b0f140c2507b6db796",
+    "validation/S044/SOURCE_REFRESH.json": "54d4e3aad22a5cb2fedae4f036c14d4c9778ec56d435494faaf55aa699d683aa",
+    "validation/S044/SUMMARY.json": "f00deaf384a81cc7cd90d1e4a51ef6022bd23ba5943aee4e7dcc17d6f2f3591d",
+    "validation/S044/VERIFICATION.json": "74ba6cda140f5725d35702f500947fad68279ce8eae802aab89198bbb6a67099"
+  }
+}

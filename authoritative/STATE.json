@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-24",
-  "last_completed_session": "S043",
-  "recommended_next_session": "S044",
+  "last_completed_session": "S044",
+  "recommended_next_session": "S045",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S043",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S044",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_REFRESH_S043_NO_NOVELTY_CLAIM",
+  "source_status": "S044_LIMITED_PRIMARY_REFRESH_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,22 +83,22 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S043 CLOSED PIVOT: UNKNOWN. S044 short owner-decision audit FUTURE/UNEXECUTED; no automatic successor. S036 CLEAN_STOPPED.",
+    "S044 CLOSED: recommend PAUSE, owner decision PENDING. S045 decision/re-entry gate FUTURE/UNEXECUTED. S036 remains CLEAN_STOPPED.",
     "Order3 layer-preserving156-edge28-vertex alpha<=3 slice: UNKNOWN. Counts of models/cuts are activity, never projected coverage. All nine sorted S11 prefixes remain UNKNOWN.",
-    "All 97 resolved-domain apex leaf graphs (C5, 6-Ore/11, 7-Ore/19; PARTIAL 7-Ore/13) certified non-biplanar by K9-minor CEGAR with DRAT; apex-over-Hajos from these leaves closed. Thirty non-Ore windows UNRESOLVED.",
+    "All 97 individual S042 apex leaf graphs remain certified non-biplanar. Composition closure requires all leaves tested or an explicit surviving obstruction; arbitrary one-tested-leaf mixed-tree implication is unproved (S044 correction). Thirty non-Ore windows UNRESOLVED.",
     "Order-13 layer-symmetric class empty (S041). Star/patch/coordinated four-set hill-climbing parked (S040). Counting routes carry the F9 risk.",
     "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "7f01c8b57177af18b73d7e455469f04104ceb060",
+  "latest_session_entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
   "latest_session_integration": {
     "status": "VERIFY_PUSHED_COMMIT_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "7f01c8b57177af18b73d7e455469f04104ceb060",
+    "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
     "branch": "main",
     "force": false,
-    "authority": "S043 existing-main prompt",
-    "verification": "artifacts/tmp/S043/INTEGRATION.json and immutable run linked in final report"
+    "authority": "S044 existing-main prompt",
+    "verification": "artifacts/tmp/S044/INTEGRATION.json and immutable hosted run in final report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -224,7 +224,8 @@
     "CLM-0141",
     "CLM-0142",
     "CLM-0143",
-    "CLM-0144"
+    "CLM-0144",
+    "CLM-0145"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1952,7 +1953,7 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "S044_QUEUED_FUTURE_UNEXECUTED",
+  "next_session_status": "S045_QUEUED_FUTURE_UNEXECUTED",
   "current_computation": "STOPPED",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
@@ -2407,11 +2408,43 @@
     "next_session": "S044_FUTURE_UNEXECUTED"
   },
   "s044_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "EXECUTED_CLOSED_S044",
     "installed_date": "2026-10-24",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S043/S044_FUTURE_PROMPT.md",
     "objective": "Short owner-decision audit of S037\u2013S043; recommend CONTINUE, PAUSE or CHANGE_TARGET; no new slice or search",
+    "s036_restart_authorized": false
+  },
+  "s044_result": {
+    "status": "CLOSED_DECISION_AUDIT_RECOMMEND_PAUSE",
+    "recommendation": "PAUSE",
+    "owner_decision": "PENDING",
+    "date": "2026-10-24",
+    "entry_main": "344014850e7909e661a1864f3726af664bcb2e71",
+    "new_search_experiments": 0,
+    "verification_job_cpu_seconds": 83.5,
+    "verification_accounted_seconds": 85.096875,
+    "verification_cpu_cap": 600,
+    "frozen_replays": "PASS",
+    "fresh_smoke": "PASS",
+    "fresh_97_proof_drat_replay": false,
+    "scope_correction": "ARBITRARY_ONE_TESTED_LEAF_IMPLICATION_UNPROVED; ALL_TESTED_LEAVES_SUFFICIENT",
+    "witness": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "S11": "UNKNOWN",
+    "order3": "UNKNOWN",
+    "S036_restarted": false,
+    "computation": "STOPPED",
+    "next_session": "S045_FUTURE_UNEXECUTED"
+  },
+  "s045_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S044/S045_FUTURE_PROMPT.md",
+    "objective": "Owner decision and re-entry gate; preservation only unless a concrete direction is supplied; no experiment in S045",
     "s036_restart_authorized": false
   }
 }

@@ -1292,8 +1292,8 @@
       "SRC-0002",
       "SRC-0014"
     ],
-    "claim": "The graphs K5 v pentagonal bipyramid = (K7-e)vC5 (12 vertices, 60 edges), (K4-e)vHajos(K6,K6) (15, 78) and (K3-e)vHajos(K7,K7) (16, 82) are not biplanar. Hence no K1vH with H containing Sulanke K6vC5 minus at most one edge, and no apex-over-Hajos composite using leaves Sulanke, K3vHajos(K6,K6) or K2vHajos(K7,K7), is biplanar.",
-    "notes": "S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002)."
+    "claim": "The three explicit S041 apex leaf graphs (K7-e) join C5, (K4-e) join Hajos(K6,K6), and (K3-e) join Hajos(K7,K7) are not biplanar. A graph containing any certified obstruction is excluded. Arbitrary iterated mixed compositions with only one tested leaf are not excluded by the recorded leaf-containment proof.",
+    "notes": "S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002). S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
   },
   {
     "id": "CLM-0141",
@@ -1301,8 +1301,8 @@
     "sources": [
       "SRC-0002"
     ],
-    "claim": "If H is a Hajos composite of (10-a)-critical graphs (a=1,2,3) and some composition leaf L has every census leaf graph K_av(L-e) non-biplanar, then K_avH is not biplanar: each e gives a K9, an Euler-infeasible K_av(L-e), or a census leaf graph contained in K_avH.",
-    "notes": "Proof in sessions/S042/RESEARCH.md. Covers Hajos composites and edge-deleted DHGO operands only; vertex-split operands are not covered."
+    "claim": "If K_a join H contains a surviving K_a join (L-e) with a certified non-biplanarity verdict, then K_a join H is non-biplanar. For iterated Step-One Hajos trees, testing every edge deletion for EVERY leaf is sufficient (CLM-0145); one tested leaf somewhere in an arbitrary mixed tree is not justified by the former proof.",
+    "notes": "Proof in sessions/S042/RESEARCH.md. Covers Hajos composites and edge-deleted DHGO operands only; vertex-split operands are not covered. S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
   },
   {
     "id": "CLM-0142",
@@ -1321,8 +1321,8 @@
     "sources": [
       "SRC-0014"
     ],
-    "claim": "All 97 non-isomorphic apex leaf graphs from the resolved types (plus PARTIAL 7-Ore/13 members) are not biplanar; 23514 (a,L,e) choices reduce to them. Hence no apex-over-Hajos composite with a leaf of these types is biplanar.",
-    "notes": "Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded."
+    "claim": "All 97 S042 non-isomorphic apex leaf graphs from resolved types and PARTIAL 7-Ore/13 members are certified non-biplanar; 23514 choices reduce to these graphs. Their certificates are unchanged. Composition exclusions require a surviving obstruction or the all-tested-leaves hypothesis of CLM-0145; unresolved windows remain open.",
+    "notes": "Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded. S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
   },
   {
     "id": "CLM-0144",
@@ -1333,5 +1333,14 @@
     ],
     "claim": "Conditional on CLM0137, the order3 layer-preserving156-edge28-vertex alpha<=3 class is represented without loss by126 size3 pair-orbits, exactly26 per disjoint layer,6831 four-set orbit clauses, two pinned distinct invariant triangles and17 sound subgroup lex-leader constraints. Every recorded Kuratowski orbit-support clause is independently justified.",
     "notes": "sessions/S043/PLAN.md and RESEARCH.md; stdlib checker reconstructs all36200 base clauses and checks every subdivision. This encoding theorem and the recorded cuts do not settle a capped class. No global upper-bound consequence or full normaliser canonicalisation is claimed."
+  },
+  {
+    "id": "CLM-0145",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002"
+    ],
+    "claim": "For a Step-One Hajos tree of t>=2 leaf copies, some leaf loses at most one original edge, since at most 2t-2 original leaf edges are deleted. Thus if every K_a join (L-e) for EVERY leaf and edge is certified non-biplanar, K_a join H is non-biplanar. A specified leaf can lose more than one edge; one tested leaf in an arbitrary mixed tree is not covered by this proof.",
+    "notes": "Written injectivity/provenance and deletion-count proof in sessions/S044/SCOPE_CORRECTION.md. Fixed three-triangle control checks the designated-copy issue only. No independent-set identification, general DHGO split, formalisation or global counterexample is claimed."
   }
 ]

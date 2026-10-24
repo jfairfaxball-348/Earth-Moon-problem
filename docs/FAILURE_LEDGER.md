@@ -169,3 +169,5 @@ S041: order-13 symmetric pairs are far from alpha<=3 (best767). Plain Kuratowski
 S042: every resolved apex leaf graph dies by cross-layer K9-minor lemmas. First census run stopped for redundant generation (about900 CPU s counted); two restarts failed immediately (escaping, node labels). Certificate archive exceeded repository scale; CNF/lemma files moved local and hash-pinned after byte-identical regeneration was confirmed.
 
 S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Lazy planarity cuts did not yield a certified construction. A cap remains UNKNOWN and cut counts do not measure coverage.
+
+S044 proof-scope finding: later Hajós joins can delete further edges of a designated earlier leaf. Frozen S041/S042 text preserved; live claims narrowed to surviving-obstruction/all-tested-leaf scope. This is a proof gap in the mixed-tree implication, not a counterexample to its conclusion.

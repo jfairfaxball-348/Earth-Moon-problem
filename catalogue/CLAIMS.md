@@ -935,3 +935,21 @@ Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinn
 Conditional on CLM0137, the order3 layer-preserving156-edge28-vertex alpha<=3 class is represented without loss by126 size3 pair-orbits, exactly26 per disjoint layer,6831 four-set orbit clauses, two pinned distinct invariant triangles and17 sound subgroup lex-leader constraints. Every recorded Kuratowski orbit-support clause is independently justified.
 
 sessions/S043/PLAN.md and RESEARCH.md; stdlib checker reconstructs all36200 base clauses and checks every subdivision. This encoding theorem and the recorded cuts do not settle a capped class. No global upper-bound consequence or full normaliser canonicalisation is claimed.
+
+## S044 scope correction — CLM-0140, CLM-0141, CLM-0143
+
+Historical sections above are superseded for the iterated-composition implication only.
+
+CLM-0140: The three explicit S041 apex leaf graphs (K7-e) join C5, (K4-e) join Hajos(K6,K6), and (K3-e) join Hajos(K7,K7) are not biplanar. A graph containing any certified obstruction is excluded. Arbitrary iterated mixed compositions with only one tested leaf are not excluded by the recorded leaf-containment proof.
+
+CLM-0141: If K_a join H contains a surviving K_a join (L-e) with a certified non-biplanarity verdict, then K_a join H is non-biplanar. For iterated Step-One Hajos trees, testing every edge deletion for EVERY leaf is sufficient (CLM-0145); one tested leaf somewhere in an arbitrary mixed tree is not justified by the former proof.
+
+CLM-0143: All 97 S042 non-isomorphic apex leaf graphs from resolved types and PARTIAL 7-Ore/13 members are certified non-biplanar; 23514 choices reduce to these graphs. Their certificates are unchanged. Composition exclusions require a surviving obstruction or the all-tested-leaves hypothesis of CLM-0145; unresolved windows remain open.
+
+Original JSON entries: validation/S044/CORRECTIONS.json. All 97 individual certificates remain intact.
+
+## CLM-0145 — PROGRAMME_PROVED
+
+For a Step-One Hajos tree of t>=2 leaf copies, some leaf loses at most one original edge, since at most 2t-2 original leaf edges are deleted. Thus if every K_a join (L-e) for EVERY leaf and edge is certified non-biplanar, K_a join H is non-biplanar. A specified leaf can lose more than one edge; one tested leaf in an arbitrary mixed tree is not covered by this proof.
+
+Written injectivity/provenance and deletion-count proof in sessions/S044/SCOPE_CORRECTION.md. Fixed three-triangle control checks the designated-copy issue only. No independent-set identification, general DHGO split, formalisation or global counterexample is claimed.

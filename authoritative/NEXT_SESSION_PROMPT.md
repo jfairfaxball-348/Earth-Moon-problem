@@ -1,46 +1,37 @@
-# S044 — Short owner-decision audit of S037–S043
-FUTURE / UNEXECUTED — queued by S043, 24 October 2026
+# S045 — Owner decision and research re-entry gate
+FUTURE / UNEXECUTED — queued by S044, 24 October 2026
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
-The owner's provision of this prompt or invocation authorises exactly S044
-under D047. Do not execute S045 automatically. Use existing main, an ordinary
-non-force commit/push, no branch/PR. S036 and its controls/schedulers remain
-stopped. No unattended computation. D042 remains: seek a certified chi>=10
-biplanar construction; upper-bound research, publication and Lean are gated.
-Bounds remain9<=chi_2<=12; no certified witness.
+An owner invocation authorises exactly S045 under D047. Use existing main,
+ordinary non-force commit/push, no branch or PR. S036 remains stopped. Do not
+start a solver, scheduler, new symmetry slice, non-Ore census or S11 campaign.
+Bounds remain 9<=chi_2<=12; no certified witness. D042 is unchanged.
 
-This session is a decision audit, not another search campaign. Read live
-AGENTS/STATE/START_HERE, D077, S037–S043 CLOSEOUT/RESEARCH/ADVERSARIAL and
-the S043 result, registration and manifest. Pin remote main SHA/tree/parent,
-inspect actual hosted jobs and open PRs, and replay portable record checks
-including check_s043_adversarial.py and check_s043_records.py. Distinguish
-encoding/receipt checks from fresh DRAT verification. If any new scientific
-computation is justified, preregister it and first run full cloud_smoke.py;
-cloud fallback requires cloud_setup.sh and full smoke in the SAME job.
-Runner instructions: docs/CLOUD_ENVIRONMENT.md and validation/S011/SUMMARY.json.
+S044 recommends PAUSE; this is not an owner-approved target change. Read live
+authority and sessions/S044/CLOSEOUT.md, EVIDENCE_TABLE.md, SCOPE_CORRECTION.md
+and RECOVERY_MAP.md. Pin remote SHA/tree/parent, inspect actual hosted jobs,
+and run the portable S044 checker. Preserve S043 UNKNOWN and the corrected
+Hajós-leaf quantifier; all 97 individual S042 negatives remain recorded.
 
-Produce one evidence table of S037–S043: tested domain, exact closures versus
-capped UNKNOWNs, cost, constructive gain and reason for stopping. Cover the
-parked star/patch/coordinated search, the order13 class, the resolved apex-leaf
-census and thirty non-Ore windows, and the precise S043 order3 verdict.
-List open slices honestly: non-Ore critical leaves, order2 symmetries, the
-order3 class if capped, and nine sorted S11 cells. F9 is only a
-risk to counting routes, not an adopted theorem or an upper-bound task.
-Refresh relevant primary sources, including2026 work; no novelty claim.
+If the invocation supplies a concrete CONTINUE mechanism or CHANGE_TARGET
+choice, prepare a reviewable proposal: explicit input graphs or generator,
+reason it avoids a known obstruction, source/access grades, independent
+certificate path, resource budget, stop rules and a fixed progress gate.
+Do not execute the proposed experiment in S045. A target change needs the
+owner's explicit choice; do not infer it from a generic invocation.
 
-Recommend one of CONTINUE, PAUSE or CHANGE_TARGET with explicit evidence,
-cost and a concrete reason to expect information gain. CONTINUE needs a
-genuinely different, testable construction mechanism and a fixed progress
-gate; it cannot mean more seeds, more slices or longer caps by default.
-PAUSE must retain a usable recovery map. CHANGE_TARGET is only a proposal:
-do not change D042 or run work on a new target without owner authorisation.
-Do not start any of the listed open slices during this audit. Limit audit
-verification to600 cumulative CPU seconds; caps stay UNKNOWN.
+If no choice accompanies the invocation, perform preservation/readiness
+verification only, retain the PAUSE recommendation and close with a
+non-executable holding notice pending a concrete owner research direction.
+Do not automatically queue another search or another recurring audit.
 
-Close S044 with synced catalogues/state/ledgers, a portable checker,
-manifest, normal commit/push and actual hosted job results. Install an
-identical full S045 FUTURE/UNEXECUTED prompt in authoritative/ and sessions/
-S044/, reflecting the recommendation and any remaining owner decision.
-Print the full next prompt with verified commit and permanent prompt links.
-Stop before S045; no automatic restart of any campaign.
+Limit verification to 300 cumulative CPU seconds. Any new scientific
+computation requires preregistration and fresh full cloud_smoke.py; the cloud
+fallback uses cloud_setup.sh and full smoke in the SAME job. Runner details:
+docs/CLOUD_ENVIRONMENT.md and validation/S011/SUMMARY.json.
+
+Close with synced records, manifest, direct-main publication and actual hosted
+results. Install identical full S046 FUTURE/UNEXECUTED handoffs (a holding
+notice if no research direction was selected), print the full handoff with
+verified links, and stop before S046. Publication and Lean remain gated.

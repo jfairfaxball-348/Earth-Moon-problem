@@ -1,0 +1,39 @@
+{
+  "original_claims": [
+    {
+      "id": "CLM-0140",
+      "status": "COMPUTED_EXACT",
+      "sources": [
+        "SRC-0002",
+        "SRC-0014"
+      ],
+      "claim": "The graphs K5 v pentagonal bipyramid = (K7-e)vC5 (12 vertices, 60 edges), (K4-e)vHajos(K6,K6) (15, 78) and (K3-e)vHajos(K7,K7) (16, 82) are not biplanar. Hence no K1vH with H containing Sulanke K6vC5 minus at most one edge, and no apex-over-Hajos composite using leaves Sulanke, K3vHajos(K6,K6) or K2vHajos(K7,K7), is biplanar.",
+      "notes": "S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002)."
+    },
+    {
+      "id": "CLM-0141",
+      "status": "PROGRAMME_PROVED",
+      "sources": [
+        "SRC-0002"
+      ],
+      "claim": "If H is a Hajos composite of (10-a)-critical graphs (a=1,2,3) and some composition leaf L has every census leaf graph K_av(L-e) non-biplanar, then K_avH is not biplanar: each e gives a K9, an Euler-infeasible K_av(L-e), or a census leaf graph contained in K_avH.",
+      "notes": "Proof in sessions/S042/RESEARCH.md. Covers Hajos composites and edge-deleted DHGO operands only; vertex-split operands are not covered."
+    },
+    {
+      "id": "CLM-0143",
+      "status": "COMPUTED_EXACT",
+      "sources": [
+        "SRC-0014"
+      ],
+      "claim": "All 97 non-isomorphic apex leaf graphs from the resolved types (plus PARTIAL 7-Ore/13 members) are not biplanar; 23514 (a,L,e) choices reduce to them. Hence no apex-over-Hajos composite with a leaf of these types is biplanar.",
+      "notes": "Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded."
+    }
+  ],
+  "replacements": {
+    "CLM-0140": "The three explicit S041 apex leaf graphs (K7-e) join C5, (K4-e) join Hajos(K6,K6), and (K3-e) join Hajos(K7,K7) are not biplanar. A graph containing any certified obstruction is excluded. Arbitrary iterated mixed compositions with only one tested leaf are not excluded by the recorded leaf-containment proof.",
+    "CLM-0141": "If K_a join H contains a surviving K_a join (L-e) with a certified non-biplanarity verdict, then K_a join H is non-biplanar. For iterated Step-One Hajos trees, testing every edge deletion for EVERY leaf is sufficient (CLM-0145); one tested leaf somewhere in an arbitrary mixed tree is not justified by the former proof.",
+    "CLM-0143": "All 97 S042 non-isomorphic apex leaf graphs from resolved types and PARTIAL 7-Ore/13 members are certified non-biplanar; 23514 choices reduce to these graphs. Their certificates are unchanged. Composition exclusions require a surviving obstruction or the all-tested-leaves hypothesis of CLM-0145; unresolved windows remain open."
+  },
+  "new_claim": "CLM-0145",
+  "finite_certificates_changed": false
+}

@@ -105,3 +105,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S042 |2026-10-24| CAM0046 certified apex-leaf census | 97 leaf graphs all non-biplanar (K9-minor CEGAR, DRAT); 30 non-Ore windows unresolved; no witness| CLOSED PIVOT; S043 FUTURE/UNEXECUTED |
 
 | S043 |2026-10-24| CAM0047 exact Z3 orbit CEGAR | S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. |
+
+| S044 | 2026-10-24 | CAM0048 decision audit | S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no new search, no witness, 9..12 unchanged. Hajós arbitrary-one-leaf implication narrowed; 97 individual negatives intact. S045 decision/re-entry gate FUTURE/UNEXECUTED. |

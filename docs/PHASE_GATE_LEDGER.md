@@ -120,3 +120,5 @@ S041 CLOSED: CLM0137 symmetry orders lemma; CLM0138 order-13 classification; CLM
 S042 CLOSED PIVOT: CLM0141 leaf lemma; CLM0142 census type reduction; CLM0143 97 leaf graphs non-biplanar. Phase1 NOT PASSED;9..12 unchanged. S043 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
 
 S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Phase1 NOT PASSED;9..12 unchanged; publication/Lean gates unchanged.
+
+S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no new search, no witness, 9..12 unchanged. Hajós arbitrary-one-leaf implication narrowed; 97 individual negatives intact. S045 decision/re-entry gate FUTURE/UNEXECUTED. Phase1 remains OPEN; publication/Lean gates unchanged.
