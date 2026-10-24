@@ -35,10 +35,18 @@ if state['last_completed_session'] == 'S035':
 else:
     # S036 CLOSED by owner-directed clean stop; no next session queued.
     assert state['last_completed_session'] == 'S036' and not active
-    assert state['next_session_status'] == 'NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION'
+    assert state['next_session_status'] in ('NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION', 'S037_QUEUED_FUTURE_UNEXECUTED')
     assert state['current_computation'] == 'STOPPED'
     holding = (ROOT / 'authoritative/NEXT_SESSION_PROMPT.md').read_text(encoding='utf-8')
-    assert 'NOT YET QUEUED' in holding and 'NOT EXECUTABLE' in holding
+    if state['next_session_status'] == 'NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION':
+        assert 'NOT YET QUEUED' in holding and 'NOT EXECUTABLE' in holding
+    else:
+        assert state['recommended_next_session'] == 'S037'
+        assert state['next_session_is_future_unexecuted'] is True
+        assert state['s037_queued']['status'] == 'FUTURE_UNEXECUTED'
+        assert state['s037_queued']['s036_restart_authorized'] is False
+        assert holding.startswith('# S037') and 'FUTURE / UNEXECUTED' in holding
+        assert (ROOT / 'sessions/S036/S037_FUTURE_PROMPT.md').read_text(encoding='utf-8') == holding
     closeout = ROOT / 'validation/S036/closeout'
     stop = json.loads((closeout / 'STOP_RECORD.json').read_text(encoding='utf-8'))
     assert stop['status'] == 'CLEAN_STOPPED' and stop['forced_terminations_of_solvers'] == 0

@@ -4,7 +4,7 @@
   "as_of": "2026-10-24",
   "last_completed_session": "S036",
   "recommended_next_session": "S037",
-  "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
+  "headline": "Raise the Earth–Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
     "date": "2026-10-14",
@@ -83,10 +83,11 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S036 CLOSED (owner-directed clean stop, 24 Oct 2026). Computation STOPPED. Next session NOT YET QUEUED - awaiting owner instruction; authoritative/NEXT_SESSION_PROMPT.md is a non-executable holding notice.",
-    "S11 m155/156: 247/256 encoded regions proof-closed; nine regions 0,1,3,7,15,31,63,127,255 UNKNOWN. Encoded closures are neither graph exclusions nor a whole-stratum proof.",
-    "All S036 geometric clauses preserved and independently re-audited (validation/S036/closeout/CUTS_AUDIT.json); private CDCL of every native process lost by design.",
-    "Regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN; parked/publication/outreach/Lean gates unchanged; 9<=chi2<=12."
+    "S036 owner-directed CLEAN_STOPPED and all native processes ended; S037 queued FUTURE/UNEXECUTED for Codex only. No computation presently running.",
+    "Prove or refute the sorted-type symmetry explanation for 247 closed region prefixes and precisely characterize the nine possible prefixes.",
+    "Search 28-vertex edge-disjoint 78+78 / 78+77 planar layers with exact independent-four-set hitting, separately verifying any candidate; bounded mathematical experiments.",
+    "S11 m155/156 nine cells 0,1,3,7,15,31,63,127,255 UNKNOWN; 247 encoded closures not graph exclusions or whole-stratum theorem; 9<=chi_2<=12.",
+    "S036 independently audited geometric rules preserved in laptop-local git-ignored artifacts/tmp/S036; private CDCL lost; S10/S9/S8 NOT_RUN, regular154 SOURCE_STATED, Lean/Palomar/publication gated."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
@@ -465,12 +466,12 @@
     "protection": "UNKNOWN_403",
     "rulesets": []
   },
-  "next_session_priority": "S036 FUTURE/UNEXECUTED: SAT-first watcher repair, targeted nine-region diagnostics, acceptance then real sustained search.",
+  "next_session_priority": "S037: verify symmetry origin of 247/256 closures and attempt layer-first direct triangulation constructions, not resumption of the old long solver.",
   "s015_owner_directive": {
     "decision": "D051",
     "date": "2026-10-15",
     "kind": "GOVERNANCE_REWRITE_NOT_SESSION",
-    "target": "All219 original \u03c710 biplanarity UNKNOWN first",
+    "target": "All219 original χ10 biplanarity UNKNOWN first",
     "canonical_list": "validation/S010/SUMMARY.json:remaining_unknown_indices",
     "runner": "GitHub Actions ubuntu-24.04 WIP allowed as verified D044 fallback",
     "new_scientific_jobs_executed": 0,
@@ -1475,7 +1476,7 @@
     "started_utc": "2026-10-19T18:44:38.822765+00:00",
     "finished_utc": "2026-10-20T02:42:51.930132+00:00",
     "status": "COMPLETED_WALL_CAPPED",
-    "search_seconds": 28692.0,
+    "search_seconds": 28692,
     "external_worker_seconds": 28694.14,
     "startup_diagnostic_seconds": 82.14,
     "sat_models": 46,
@@ -1928,7 +1929,7 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "NOT_YET_QUEUED_AWAITING_OWNER_INSTRUCTION",
+  "next_session_status": "S037_QUEUED_FUTURE_UNEXECUTED",
   "current_computation": "STOPPED",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
@@ -1946,5 +1947,14 @@
     "witness_established": false,
     "whole_stratum_certified": false,
     "S037_installed": false
+  },
+  "s037_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "installed_date": "2026-10-24",
+    "executor": "Codex",
+    "objective": "Symmetry-prefix proof, triangulation-first construction, bounded solver re-formulation",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S036/S037_FUTURE_PROMPT.md",
+    "s036_restart_authorized": false
   }
 }

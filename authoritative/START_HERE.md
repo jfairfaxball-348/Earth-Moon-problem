@@ -1,3 +1,13 @@
+# S037 QUEUED — FUTURE / UNEXECUTED (24 October 2026)
+S036 is CLOSED and CLEAN_STOPPED; never restart its processes or autopilot. Only
+S037 is queued for Codex, not yet executed. Next explicit owner invocation of
+"run next session" or S037 numbered prompt invokes exactly S037 under D047.
+Read authoritative/NEXT_SESSION_PROMPT.md and sessions/S036/CLOSEOUT.md first.
+Focus: independently prove the 247/9 sorted-prefix claim and conduct bounded,
+triangulation-first constructive search, NOT another indefinite nine-cell grind.
+Existing main, ordinary non-force commit/push, no branch/PR. 9<=chi_2<=12.
+Older S035/S036 headers below are historical.
+
 # S035 CLOSED — S036 targeted long search FUTURE / UNEXECUTED (23 October2026)
 
 Owner requested investigation/closeout and a next-session long-search prompt.
