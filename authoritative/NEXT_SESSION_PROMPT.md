@@ -1,64 +1,68 @@
-# S038 — Planar patch repair beyond certified single-flip traps
+# S039 — Vertex-star relocation and certified nine-chromatic seeds
 FUTURE / UNEXECUTED — installed 24 October 2026
 
 Repository: https://github.com/jfairfaxball-348/Earth-Moon-problem
 
-The owner's next instruction to run S038 or supply this prompt invokes exactly
-S038 under D047. Do not execute S039 automatically. Use existing repository/main,
-ordinary non-force commit/push; no new repository, branch or PR. S036 remains
-closed and stopped; never revive its processes, autopilot or scheduled tasks.
+The owner's next invocation or provision of this prompt authorises exactly
+S039 under D047. Do not execute S040 automatically. Existing repository/main,
+ordinary non-force commit/push; no new repository, branch or PR. Never restart
+S036 or its scheduler/autopilot. Bounds remain9<=chi_2<=12, no certified chi10
+biplanar witness; universal upper bounds and full EMP resolution remain out of
+scope. Publication, correspondence and Lean retain their separate gates.
 
-Read AGENTS.md, authoritative/STATE.json, sessions/S037/{RESEARCH,ADVERSARIAL,
-CLOSEOUT,PRIOR_ART}.md and validation/S037/{SUMMARY,SYMMETRY,STRUCTURE,
-PAIR_CHECKS,NONEXTENSION,HITTING,HITTING_78_DERIVED,MANIFEST}.json. Pin live
-remote main and verify the installed S037 commit and evidence hashes. Run
-scripts/check_s037_records.py and fresh full scripts/cloud_smoke.py with the
-appropriate pinned local/native tools before scientific experiments. Portable
-cloud work must repeat same-job setup/smoke; do not claim missing Windows data.
+Read live AGENTS.md, authoritative/STATE.json and S038 CLOSEOUT, RESEARCH,
+ADVERSARIAL, PRIOR_ART and PLAN. Pin remote main and verify S038's commit and
+validation/S038/MANIFEST.json. Run scripts/check_s037_records.py and
+scripts/check_s038_records.py, then fresh full scripts/cloud_smoke.py with
+pinned native tools before scientific experiments. Cloud fallback requires
+scripts/cloud_setup.sh plus full smoke in the same job; historical CI is not
+fresh scientific acceptance. Do not fabricate missing Windows artifacts.
 
-Objective: a certified finite simple biplanar graph requiring at least ten
-colours. Current bounds remain 9<=chi_2<=12. S037 proved all 247 historical
-closed prefixes follow from sorting alone; the nine surviving S11 cells are
-still UNKNOWN. Do not restart that campaign or use 96.5% as substantive progress.
-Universal upper bounds, formalisation, publication and outreach remain gated.
+S038 found no original-state improvement in one-layer tree/disk patches of
+support1..4 or joint splits1+1,1+2,2+1,2+2. These are selected fixed-embedding
+neighborhoods, not global exclusions. Matched search bests are91/123 independent
+four-sets at156/155 edges; both methods reach123 and its saved graphs have
+explicit8-colourings. Small boundary-only patch expansion has no demonstrated
+advantage. The nine S11 prefixes remain UNKNOWN;247 sorting closures are not
+substantive progress. Do not restart that campaign.
 
-First reproduce the 91-violation 156-edge state in guided/arm-00 and its 43
-admissible single flips (every neighbor has at least 93 violations). Reproduce
-the 125-violation 155-edge pair in pairs/arm-03: all 223 absent-edge additions to
-its second layer have checked nonplanarity certificates. These are local/fixed
-split results, not global impossibility proofs. Preserve both density cases.
+Main task: test a new move family containing an interior vertex or separated
+supports. Initially implement vertex-star relocation: remove a vertex of small
+degree (preregister a bound, initially<=6), enumerate legal fillings of its hole,
+and reinsert that SAME labelled vertex into a different face. Prove and control
+the edge-count/embedding bookkeeping, especially when the unique quadrilateral
+is incident to the deleted vertex. Explicitly record omitted configurations.
+Keep both layers planar and finally disjoint, retaining genuine78+77 cases;
+do not assume a77-edge layer admits disjoint triangulation completion. Compare
+against the frozen S038 patch baseline on identical inputs/seeds/CPU ceilings.
+No generic mixing, complete-space coverage or global negative claims.
 
-Main task: implement embedding-preserving multi-edge face-patch replacements,
-including a genuine 77-edge planar layer whose completion may overlap T1.
-Preregister finite patch sizes (initially two/three removed edges), patch
-selection and all stopping rules. Keep the outside embedding fixed; enumerate
-legal planar fillings from the complement of the other layer. Compare guided
-patch selection using actual violated four-sets with ordinary flips on identical
-starting states/seeds/CPU budgets. Do not restrict 155-edge cases to deletions
-of disjoint triangulation pairs. Reject concentrated seeds with necessary
-per-vertex packing bounds, without imposing S11's degree class globally.
+In a separate bounded seed arm, investigate preserving an explicitly certified
+nine-chromatic biplanar core while extending to28 vertices. Start by checking
+validation/sulanke.json and its K6-join-C5 chromatic proof and planar partition;
+audit the old S012 small-extension exclusions before choosing a new range.
+Preserving a certified subgraph guarantees chi>=9, not chi>=10. Do not repeat
+already closed small cases or assume extensions can attain155/156 edges.
+Register seed construction, permitted relabellings/protected edges, finite
+limits and completeness boundaries. New seeds and moves are experiments, not
+promised improvements. Use proper colourings as explicit rejection evidence.
 
-Use the exact fixed-T1 four-set hitting family to select or constrain patches.
-The retained 77/78-edge hitting solutions have zero violations but are NONPLANAR;
-they are negative controls, never witnesses. Whole-template permutation SAT
-created millions of clauses without improvement in S037; repeat it only with a
-specific tested reduction. Seek a short patch obstruction or escape lemma,
-actively falsify it, and distinguish exhaustive selected neighborhoods from
-unsearched graphs. Attribute existing flip/tabu methods (SRC-0054/0058/0059).
+Rank states by independently checked properties, not just a numerical objective:
+all20475 independent four-sets at order28, explicit colourings and preservation
+of the certified core where claimed. Alpha<=3 would imply chi>=10 by counting;
+other prospective witnesses need a checked rigorous non9-colourability proof.
+Keep explicit V,E1,E2, rotations, seeds, move traces, failures and immutable
+hashes. Independently validate simplicity, planarity, disjointness and counts;
+never promote a SAT relaxation or bare UNSAT. Actively falsify any move/seed lemma.
 
-One experimental process, <=2 cumulative CPU-hours initially, finite per-arm
-caps and early plateau stops; no unattended workers or scheduled restarts.
-Preserve partial data, seeds, errors, explicit V,E1,E2 and measured CPU/wall time.
-Independently validate planarity/rotation certificates, simplicity, disjointness,
-78+78 or 78+77 counts and all 20475 four-sets. Verify explicit colourings of
-failed candidates. Any prospective lower-bound witness requires all scientific
-gates, including a rigorous non-9-colourability proof, before claim promotion.
-Heuristic failures and capped exact searches remain UNKNOWN.
+One experimental process, initially<=2 cumulative CPU-hours with short per-arm
+caps and early plateau stops. No unattended or scheduled runs. Prefer a tested
+new representation, a useful counterexample or a scoped lemma over a longer
+unchanged grind. Refresh primary prior art, including existing flip/relocation
+work (SRC-0054/0058/0059/0060), without a novelty guarantee.
 
-Close S038 with measured comparison, independently checked best states,
-limitations and a concrete recommendation. Update synced authority/catalogues
-and concise session records; verify ordinary commit/push and actual hosted
-jobs. Install identical full S039 FUTURE/UNEXECUTED prompts in authoritative/
-and sessions/S038/, and print that full prompt with verified links. Do not run
-S039. GitHub Actions fallback uses scripts/cloud_setup.sh plus full same-job
-smoke; historical scaffold success is not scientific acceptance.
+Close S039 with measured comparison and limitations, synced claims/sources and
+concise records, independently checked outputs and verified normal commit/push
+plus actual hosted results. Install identical full S040 FUTURE/UNEXECUTED
+prompts in authoritative/ and sessions/S039/, print the full next prompt with
+verified links, and stop before S040.

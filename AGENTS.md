@@ -1,3 +1,13 @@
+# S038 CLOSED — bounded face-patch research (24 October 2026)
+
+No strict original-state improvement in tested one-layer disk supports1..4
+or joint1+1/1+2/2+1/2+2. These are finite selected neighborhoods only.
+Discovery best91/123 independent four-sets at156/155 edges; all saved pairs
+<=9-colourable. No witness;9<=chi_2<=12. S036 remains stopped. S039 vertex-
+star/new nine-chromatic seed audit is FUTURE/UNEXECUTED. Read the live
+authoritative/NEXT_SESSION_PROMPT.md; existing main, normal non-force
+commit/push, no branch/PR. Historical headers follow.
+
 # S037 CLOSED — bounded structural reset (24 October 2026)
 
 All 247 historical closed prefixes follow from sorting alone; the nine

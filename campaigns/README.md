@@ -95,3 +95,5 @@ CAM-0040 / S035 CLOSED23Oct2026:247 encoded proof closures/nine UNKNOWN; SAT-wat
 CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 0,7,127,255 with recycling and autopilot; cold regions 1,3,15,31,63 diagnostics plus partial rotation; nine UNKNOWN; all processes stopped cooperatively; runtime preserved in artifacts/tmp/S036 (manifest validation/S036/closeout/PRESERVATION_MANIFEST.json). No next campaign queued.
 
 **CAM-0041 / S037 CLOSED bounded discovery:** all247 historical closures follow from sorting alone; best91/125 independent four-sets at156/155 edges; all saved pairs <=9-colourable; local trap/nonextension certificates. S038 patch repair FUTURE/UNEXECUTED; no S036 restart.
+
+**CAM-0042 / S038 CLOSED:** bounded exact disk/atomic two-layer patch prototype.28039 independently replayed family members; discovery best91/123, all saved <=9-colourable.9..12 unchanged. S039 vertex-star/protected9-core seed direction FUTURE/UNEXECUTED.

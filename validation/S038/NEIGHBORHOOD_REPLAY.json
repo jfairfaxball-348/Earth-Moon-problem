@@ -1,0 +1,48 @@
+[
+  {
+    "status": "PASS",
+    "density": 156,
+    "neighbors_replayed": 774,
+    "by_support": [
+      {
+        "support_size": 1,
+        "distinct_neighbors": 43,
+        "minimum_score": 93
+      },
+      {
+        "support_size": 2,
+        "distinct_neighbors": 154,
+        "minimum_score": 93
+      },
+      {
+        "support_size": 3,
+        "distinct_neighbors": 577,
+        "minimum_score": 93
+      }
+    ],
+    "cpu_seconds": 0.28125
+  },
+  {
+    "status": "PASS",
+    "density": 155,
+    "neighbors_replayed": 854,
+    "by_support": [
+      {
+        "support_size": 1,
+        "distinct_neighbors": 48,
+        "minimum_score": 127
+      },
+      {
+        "support_size": 2,
+        "distinct_neighbors": 167,
+        "minimum_score": 125
+      },
+      {
+        "support_size": 3,
+        "distinct_neighbors": 639,
+        "minimum_score": 125
+      }
+    ],
+    "cpu_seconds": 0.296875
+  }
+]

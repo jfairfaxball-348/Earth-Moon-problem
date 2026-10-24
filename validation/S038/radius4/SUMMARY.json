@@ -1,0 +1,19 @@
+{
+  "cpu_seconds": 2.59375,
+  "rows": [
+    {
+      "density": 156,
+      "one_neighbors": 2343,
+      "one_minimum": 93,
+      "joint_neighbors": 6128,
+      "joint_minimum": 91
+    },
+    {
+      "density": 155,
+      "one_neighbors": 2705,
+      "one_minimum": 125,
+      "joint_neighbors": 6843,
+      "joint_minimum": 126
+    }
+  ]
+}

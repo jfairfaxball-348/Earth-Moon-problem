@@ -651,5 +651,17 @@
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-24",
     "note": "Article text, deficit-one density/face argument and completion discussion inspected. Supplement not replayed; full paper claims and line-graph applications not adopted. S037 independently derives elementary near-triangulation fact."
+  },
+  {
+    "id": "SRC-0060",
+    "title": "An interlaced algorithm for transforming plane triangulations using simultaneous flips",
+    "authors": "Tanvir Kaykobad",
+    "year": 2025,
+    "publication_date": "2025-07-30",
+    "url": "https://jocg.org/index.php/jocg/article/view/3328",
+    "doi": "10.20382/jocg.v16i1a15",
+    "access": "ABSTRACT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Primary abstract/metadata only. Algorithm/proofs not imported or independently checked; no disjoint-pair connectivity or efficiency theorem assumed. Related method attribution, not a novelty claim."
   }
 ]

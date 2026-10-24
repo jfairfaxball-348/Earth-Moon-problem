@@ -1,0 +1,58 @@
+{
+  "status": "CLOSED_BOUNDED_PATCH_RESEARCH_NO_WITNESS",
+  "date": "2026-10-24",
+  "entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79",
+  "experimental_cpu_seconds": 101.09375,
+  "initial_neighborhood_cpu": 0.578125,
+  "paired_arms_cpu": 76.28125,
+  "coupled_neighborhood_cpu": 0.40625,
+  "coupled_arms_cpu": 21.234375,
+  "radius4_cpu": 2.59375,
+  "compute_cap_cpu_seconds": 7200,
+  "best_violations": {
+    "155": 123,
+    "156": 91
+  },
+  "checked_layer_records": 22,
+  "all_saved_pairs_have_checked_at_most_9_coloring": true,
+  "best123_has_checked_8_coloring": true,
+  "finite_family_records": 28039,
+  "family_overlap": true,
+  "original_state_strict_improvements": 0,
+  "one_layer_supports": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "joint_splits": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "independent_replay": "BRUTE_REMOVED_EDGE_AND_NONCROSSING_CHORD_SUBSETS",
+  "heuristic_verdict": "UNKNOWN",
+  "whole_stratum_certified": false,
+  "witness": false,
+  "S11": "UNKNOWN",
+  "bounds": [
+    9,
+    12
+  ],
+  "S036_restarted": false,
+  "all_experimental_processes_finished": true,
+  "next_session": "S039_FUTURE_UNEXECUTED"
+}

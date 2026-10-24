@@ -1,0 +1,16 @@
+[
+  {
+    "status": "PASS",
+    "density": 156,
+    "joint_neighbors_replayed": 3914,
+    "minimum_score": 91,
+    "cpu_seconds": 0.140625
+  },
+  {
+    "status": "PASS",
+    "density": 155,
+    "joint_neighbors_replayed": 4478,
+    "minimum_score": 126,
+    "cpu_seconds": 0.125
+  }
+]

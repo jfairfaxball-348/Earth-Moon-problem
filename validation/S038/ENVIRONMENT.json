@@ -1,0 +1,10 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "networkx": "3.5",
+  "python_sat": "1.9.dev15",
+  "execution": "Codex desktop Windows; one experiment process at a time",
+  "scientific_acceptance": "fresh271+K9 PASS; frozenS037 replay PASS",
+  "S036": "no process/archive actions",
+  "source_entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79"
+}

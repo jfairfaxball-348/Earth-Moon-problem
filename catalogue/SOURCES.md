@@ -455,3 +455,11 @@ Tight separators and common triangulation completions in biplanar graphs. lunar_
 Article text, deficit-one density/face argument and completion discussion inspected. Supplement not replayed; full paper claims and line-graph applications not adopted. S037 independently derives elementary near-triangulation fact.
 
 S037 refresh SRC-0054: primary post re-inspected 24 October 2026; flip/tabu/relabel prior art acknowledged, numerical reports not replayed. See sessions/S037/PRIOR_ART.md.
+
+## SRC-0060 — ABSTRACT_INSPECTED
+
+An interlaced algorithm for transforming plane triangulations using simultaneous flips. Tanvir Kaykobad, 2025-07-30. DOI 10.20382/jocg.v16i1a15. https://jocg.org/index.php/jocg/article/view/3328
+
+Primary abstract/metadata only. Algorithm/proofs not imported or independently checked; no disjoint-pair connectivity or efficiency theorem assumed. Related method attribution, not a novelty claim.
+
+S038 refresh24Oct2026: SRC-0054 primary post and SRC-0058 official plantri page re-inspected; access grades unchanged. No reported numerics or whole algorithms independently replayed. See sessions/S038/PRIOR_ART.md.

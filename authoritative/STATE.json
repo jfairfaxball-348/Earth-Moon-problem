@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-24",
-  "last_completed_session": "S037",
-  "recommended_next_session": "S038",
+  "last_completed_session": "S038",
+  "recommended_next_session": "S039",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S037",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S038",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S029_FROZEN_PLUS_S031_DATED_REFRESH_NO_NOVELTY_CLAIM",
+  "source_status": "S029_LANDSCAPE_FROZEN_PLUS_DATED_METHOD_REFRESH_S038_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,22 +83,22 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S037 CLOSED bounded discovery. S036 remains CLEAN_STOPPED; no campaign process active. S038 is FUTURE/UNEXECUTED.",
-    "S037 independently proves ALL 247 historical encoded closures follow from sorting alone. Nine sorted prefixes 0,1,3,7,15,31,63,127,255 remain UNKNOWN; 96.5% is not substantive closure progress.",
-    "Best planar pairs: 91/125 independent four-sets at 156/155 edges; all saved pairs have checked <=9-colourings. No chi>=10 witness.",
-    "S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN. 9<=chi2<=12; parked/publication/Lean gates unchanged.",
-    "S036 geometric archives preserved unchanged, private CDCL lost by design; historical closeout receipts retained."
+    "S038 CLOSED bounded prototype. S036 remains CLEAN_STOPPED. S039 FUTURE/UNEXECUTED; no automatic successor.",
+    "Original91/125 states have no strict improvement in tested one-layer disk supports1..4 or joint1+1/1+2/2+1/2+2. This is not all planar moves/embeddings/graphs.",
+    "Discovery best91/123 independent four-sets at156/155 edges; all22 saved records <=9-colourable, best123 has8-colouring. No chi>=10 witness.",
+    "All247 historical S11 prefix closures follow from sorting alone. Nine sorted prefixes remain UNKNOWN; 96.5% is not substantive progress.",
+    "S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "8e67c193bd09278872fba69a0106a92ce824a85f",
+  "latest_session_entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79",
   "latest_session_integration": {
     "status": "VERIFY_PUSHED_COMMIT_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "8e67c193bd09278872fba69a0106a92ce824a85f",
+    "entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79",
     "branch": "main",
-    "authority": "S037 explicit existing-main override",
     "force": false,
-    "verification": "artifacts/tmp/S037/INTEGRATION.json (local post-push receipt), plus immutable GitHub run linked in final report"
+    "authority": "S038 existing-main prompt",
+    "verification": "artifacts/tmp/S038/INTEGRATION.json and immutable run linked in final report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -205,7 +205,10 @@
     "CLM-0122",
     "CLM-0123",
     "CLM-0124",
-    "CLM-0125"
+    "CLM-0125",
+    "CLM-0126",
+    "CLM-0127",
+    "CLM-0128"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -1933,7 +1936,7 @@
     "S036_executed": false
   },
   "s035_historical_records_note": "s035_owner_pause, s035_resumption and s035_thread_repair retain historical stage observations; s035_closeout and s035_completed_runtime are current. No live controller/watcher remains.",
-  "next_session_status": "S038_QUEUED_FUTURE_UNEXECUTED",
+  "next_session_status": "S039_QUEUED_FUTURE_UNEXECUTED",
   "current_computation": "STOPPED",
   "s036_closeout": {
     "status": "CLOSED_OWNER_DIRECTED_CLEAN_STOP",
@@ -2005,11 +2008,77 @@
     "all_experimental_processes_finished": true
   },
   "s038_queued": {
+    "status": "EXECUTED_CLOSED_S038",
+    "installed_date": "2026-10-24",
+    "prompt": "sessions/S037/S038_FUTURE_PROMPT.md",
+    "archival_copy": "sessions/S037/S038_FUTURE_PROMPT.md",
+    "objective": "Nonextension-aware bounded planar face-patch repair",
+    "s036_restart_authorized": false
+  },
+  "s038_result": {
+    "status": "CLOSED_BOUNDED_PATCH_RESEARCH_NO_WITNESS",
+    "date": "2026-10-24",
+    "entry_main": "f8f18621e5b556320a9a4132a7650cda17797e79",
+    "experimental_cpu_seconds": 101.09375,
+    "initial_neighborhood_cpu": 0.578125,
+    "paired_arms_cpu": 76.28125,
+    "coupled_neighborhood_cpu": 0.40625,
+    "coupled_arms_cpu": 21.234375,
+    "radius4_cpu": 2.59375,
+    "compute_cap_cpu_seconds": 7200,
+    "best_violations": {
+      "155": 123,
+      "156": 91
+    },
+    "checked_layer_records": 22,
+    "all_saved_pairs_have_checked_at_most_9_coloring": true,
+    "best123_has_checked_8_coloring": true,
+    "finite_family_records": 28039,
+    "family_overlap": true,
+    "original_state_strict_improvements": 0,
+    "one_layer_supports": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "joint_splits": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "independent_replay": "BRUTE_REMOVED_EDGE_AND_NONCROSSING_CHORD_SUBSETS",
+    "heuristic_verdict": "UNKNOWN",
+    "whole_stratum_certified": false,
+    "witness": false,
+    "S11": "UNKNOWN",
+    "bounds": [
+      9,
+      12
+    ],
+    "S036_restarted": false,
+    "all_experimental_processes_finished": true,
+    "next_session": "S039_FUTURE_UNEXECUTED"
+  },
+  "s039_queued": {
     "status": "FUTURE_UNEXECUTED",
     "installed_date": "2026-10-24",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "archival_copy": "sessions/S037/S038_FUTURE_PROMPT.md",
-    "objective": "Nonextension-aware bounded planar face-patch repair",
+    "archival_copy": "sessions/S038/S039_FUTURE_PROMPT.md",
+    "objective": "Interior-vertex relocation and certified nine-chromatic seed audit",
     "s036_restart_authorized": false
   }
 }

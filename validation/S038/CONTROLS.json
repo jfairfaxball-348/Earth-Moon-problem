@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "seed": 3799,
+  "polygons": [
+    {
+      "vertices": 4,
+      "deficit": 0,
+      "exact_fillings": 2
+    },
+    {
+      "vertices": 4,
+      "deficit": 1,
+      "exact_fillings": 1
+    },
+    {
+      "vertices": 5,
+      "deficit": 0,
+      "exact_fillings": 5
+    },
+    {
+      "vertices": 5,
+      "deficit": 1,
+      "exact_fillings": 5
+    },
+    {
+      "vertices": 6,
+      "deficit": 0,
+      "exact_fillings": 14
+    },
+    {
+      "vertices": 6,
+      "deficit": 1,
+      "exact_fillings": 21
+    },
+    {
+      "vertices": 7,
+      "deficit": 0,
+      "exact_fillings": 42
+    },
+    {
+      "vertices": 7,
+      "deficit": 1,
+      "exact_fillings": 84
+    },
+    {
+      "vertices": 8,
+      "deficit": 0,
+      "exact_fillings": 132
+    },
+    {
+      "vertices": 8,
+      "deficit": 1,
+      "exact_fillings": 330
+    }
+  ],
+  "independently_checked_patch_moves": 80,
+  "invalid_disconnected_boundary_rejected": true,
+  "duplicate_faces_rejected": true,
+  "direct_four_set_score_checks": true,
+  "cpu_seconds": 2.078125
+}

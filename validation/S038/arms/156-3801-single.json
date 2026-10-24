@@ -1,0 +1,5879 @@
+{
+  "source": "validation/S037/guided/arm-00.json",
+  "method": "single",
+  "seed": 3801,
+  "density": 156,
+  "best": {
+    "n": 28,
+    "V": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "E1": [
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        21
+      ],
+      [
+        0,
+        25
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        26
+      ],
+      [
+        1,
+        27
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        18
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        3,
+        26
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        20
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        5,
+        20
+      ],
+      [
+        5,
+        21
+      ],
+      [
+        5,
+        23
+      ],
+      [
+        5,
+        25
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        6,
+        20
+      ],
+      [
+        6,
+        22
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        25
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        26
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        11,
+        20
+      ],
+      [
+        11,
+        23
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        12,
+        22
+      ],
+      [
+        12,
+        26
+      ],
+      [
+        12,
+        27
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        13,
+        20
+      ],
+      [
+        13,
+        23
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        26
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        21
+      ],
+      [
+        15,
+        25
+      ],
+      [
+        16,
+        20
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        16,
+        23
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        26
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        26
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        21,
+        25
+      ],
+      [
+        22,
+        26
+      ]
+    ],
+    "E2": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        0,
+        22
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        4,
+        21
+      ],
+      [
+        4,
+        23
+      ],
+      [
+        4,
+        25
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        5,
+        27
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        18
+      ],
+      [
+        6,
+        23
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        7,
+        26
+      ],
+      [
+        7,
+        27
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        20
+      ],
+      [
+        8,
+        21
+      ],
+      [
+        8,
+        23
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        23
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        18
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        10,
+        22
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        11,
+        25
+      ],
+      [
+        12,
+        19
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        22
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        25
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        17,
+        27
+      ],
+      [
+        18,
+        22
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        23
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        24,
+        26
+      ],
+      [
+        24,
+        27
+      ],
+      [
+        26,
+        27
+      ]
+    ],
+    "independent_four_sets": 91,
+    "density": 156
+  },
+  "best_history": [],
+  "trace": [
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 93,
+      "sweep": 0
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        43,
+        44
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          22,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          22,
+          24
+        ]
+      ],
+      "score": 97,
+      "sweep": 1
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        32
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          10,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 96,
+      "sweep": 2
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        32,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "added": [
+        [
+          7,
+          22
+        ]
+      ],
+      "score": 95,
+      "sweep": 3
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          14
+        ]
+      ],
+      "score": 99,
+      "sweep": 4
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          9,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          9,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          9,
+          14
+        ]
+      ],
+      "score": 100,
+      "sweep": 5
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        6,
+        23
+      ],
+      "selected_faces": [
+        14,
+        29
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          6
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          6,
+          14
+        ],
+        [
+          2,
+          6,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          6
+        ]
+      ],
+      "score": 101,
+      "sweep": 6
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "boundary": [
+        3,
+        14,
+        9,
+        15
+      ],
+      "selected_faces": [
+        17,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "added": [
+        [
+          14,
+          15
+        ]
+      ],
+      "score": 107,
+      "sweep": 7
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        15,
+        14
+      ],
+      "selected_faces": [
+        14,
+        40
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          2,
+          14,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "added": [
+        [
+          2,
+          15
+        ]
+      ],
+      "score": 106,
+      "sweep": 8
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          15
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        15
+      ],
+      "selected_faces": [
+        16,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          15
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 105,
+      "sweep": 9
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        9,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          9
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "added": [
+        [
+          3,
+          9
+        ]
+      ],
+      "score": 100,
+      "sweep": 10
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        18,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          26
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          22,
+          26
+        ],
+        [
+          19,
+          22,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "added": [
+        [
+          22,
+          26
+        ]
+      ],
+      "score": 99,
+      "sweep": 11
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        32,
+        35
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "added": [
+        [
+          15,
+          24
+        ]
+      ],
+      "score": 100,
+      "sweep": 12
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          9,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          9,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          9,
+          14
+        ]
+      ],
+      "score": 101,
+      "sweep": 13
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        6,
+        23
+      ],
+      "selected_faces": [
+        10,
+        11
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          14,
+          23
+        ],
+        [
+          6,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "added": [
+        [
+          14,
+          23
+        ]
+      ],
+      "score": 100,
+      "sweep": 14
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "boundary": [
+        3,
+        6,
+        23,
+        14
+      ],
+      "selected_faces": [
+        15,
+        29
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          6,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 100,
+      "sweep": 15
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        23
+      ],
+      "selected_faces": [
+        14,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 101,
+      "sweep": 16
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        42
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          18
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          18
+        ],
+        [
+          7,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          7,
+          18
+        ]
+      ],
+      "score": 102,
+      "sweep": 17
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        44,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 98,
+      "sweep": 18
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 100,
+      "sweep": 19
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        6,
+        23
+      ],
+      "selected_faces": [
+        9,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          6
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          6,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          6
+        ]
+      ],
+      "score": 105,
+      "sweep": 20
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        6,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          6,
+          14
+        ],
+        [
+          3,
+          6,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          6,
+          14
+        ]
+      ],
+      "score": 99,
+      "sweep": 21
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        14,
+        17
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          3,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 98,
+      "sweep": 22
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        6,
+        23
+      ],
+      "selected_faces": [
+        12,
+        13
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          14,
+          23
+        ],
+        [
+          6,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "added": [
+        [
+          14,
+          23
+        ]
+      ],
+      "score": 98,
+      "sweep": 23
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        15
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 93,
+      "sweep": 24
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        8,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "added": [
+        [
+          2,
+          15
+        ]
+      ],
+      "score": 98,
+      "sweep": 25
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        3,
+        23
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          15,
+          23
+        ],
+        [
+          3,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          15,
+          23
+        ]
+      ],
+      "score": 98,
+      "sweep": 26
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        18,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          26
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          22,
+          26
+        ],
+        [
+          19,
+          22,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "added": [
+        [
+          22,
+          26
+        ]
+      ],
+      "score": 97,
+      "sweep": 27
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          18,
+          20
+        ]
+      ],
+      "boundary": [
+        3,
+        18,
+        11,
+        20
+      ],
+      "selected_faces": [
+        17,
+        41
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          11
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          18
+        ],
+        [
+          3,
+          11,
+          20
+        ]
+      ],
+      "removed": [
+        [
+          18,
+          20
+        ]
+      ],
+      "added": [
+        [
+          3,
+          11
+        ]
+      ],
+      "score": 97,
+      "sweep": 28
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        43,
+        44
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          22,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          22,
+          24
+        ]
+      ],
+      "score": 99,
+      "sweep": 29
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        33,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "added": [
+        [
+          7,
+          22
+        ]
+      ],
+      "score": 98,
+      "sweep": 30
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        32
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          10,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 100,
+      "sweep": 31
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          20
+        ]
+      ],
+      "boundary": [
+        3,
+        11,
+        20,
+        22
+      ],
+      "selected_faces": [
+        16,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          11,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          22
+        ],
+        [
+          11,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          20
+        ]
+      ],
+      "added": [
+        [
+          11,
+          22
+        ]
+      ],
+      "score": 107,
+      "sweep": 32
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          20,
+          22
+        ]
+      ],
+      "boundary": [
+        6,
+        20,
+        11,
+        22
+      ],
+      "selected_faces": [
+        32,
+        41
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          11
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          11,
+          20
+        ],
+        [
+          6,
+          11,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          20,
+          22
+        ]
+      ],
+      "added": [
+        [
+          6,
+          11
+        ]
+      ],
+      "score": 104,
+      "sweep": 33
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        3,
+        23
+      ],
+      "selected_faces": [
+        14,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          3,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 104,
+      "sweep": 34
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        8,
+        14
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          9
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "added": [
+        [
+          3,
+          9
+        ]
+      ],
+      "score": 98,
+      "sweep": 35
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          6,
+          9
+        ]
+      ],
+      "boundary": [
+        6,
+        15,
+        9,
+        23
+      ],
+      "selected_faces": [
+        27,
+        28
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          15,
+          23
+        ],
+        [
+          9,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          9
+        ]
+      ],
+      "added": [
+        [
+          15,
+          23
+        ]
+      ],
+      "score": 98,
+      "sweep": 36
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 100,
+      "sweep": 37
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        31,
+        34
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "added": [
+        [
+          15,
+          24
+        ]
+      ],
+      "score": 100,
+      "sweep": 38
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        30,
+        42
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          18
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          18
+        ],
+        [
+          7,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          7,
+          18
+        ]
+      ],
+      "score": 99,
+      "sweep": 39
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        44,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 96,
+      "sweep": 40
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          14
+        ]
+      ],
+      "score": 101,
+      "sweep": 41
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "boundary": [
+        3,
+        6,
+        23,
+        14
+      ],
+      "selected_faces": [
+        16,
+        27
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          6,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 100,
+      "sweep": 42
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          9,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          9,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          9,
+          14
+        ]
+      ],
+      "score": 100,
+      "sweep": 43
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        23
+      ],
+      "selected_faces": [
+        14,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 100,
+      "sweep": 44
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        20
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          26
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          22,
+          26
+        ],
+        [
+          19,
+          22,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "added": [
+        [
+          22,
+          26
+        ]
+      ],
+      "score": 98,
+      "sweep": 45
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "boundary": [
+        6,
+        15,
+        9,
+        23
+      ],
+      "selected_faces": [
+        29,
+        40
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          9
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          9,
+          15
+        ],
+        [
+          6,
+          9,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "added": [
+        [
+          6,
+          9
+        ]
+      ],
+      "score": 98,
+      "sweep": 46
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          6,
+          11
+        ]
+      ],
+      "boundary": [
+        6,
+        20,
+        11,
+        22
+      ],
+      "selected_faces": [
+        29,
+        30
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          20,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          20,
+          22
+        ],
+        [
+          11,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          11
+        ]
+      ],
+      "added": [
+        [
+          20,
+          22
+        ]
+      ],
+      "score": 101,
+      "sweep": 47
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          11,
+          22
+        ]
+      ],
+      "boundary": [
+        3,
+        11,
+        20,
+        22
+      ],
+      "selected_faces": [
+        16,
+        41
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          20
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          20
+        ],
+        [
+          3,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          11,
+          22
+        ]
+      ],
+      "added": [
+        [
+          3,
+          20
+        ]
+      ],
+      "score": 103,
+      "sweep": 48
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          11
+        ]
+      ],
+      "boundary": [
+        3,
+        18,
+        11,
+        20
+      ],
+      "selected_faces": [
+        15,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          18,
+          20
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          18,
+          20
+        ],
+        [
+          11,
+          18,
+          20
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          11
+        ]
+      ],
+      "added": [
+        [
+          18,
+          20
+        ]
+      ],
+      "score": 98,
+      "sweep": 49
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        43,
+        44
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          22,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          22,
+          24
+        ]
+      ],
+      "score": 102,
+      "sweep": 50
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        33,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "added": [
+        [
+          7,
+          22
+        ]
+      ],
+      "score": 101,
+      "sweep": 51
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        32
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          10,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 100,
+      "sweep": 52
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        23
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          14,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          14,
+          23
+        ]
+      ],
+      "score": 99,
+      "sweep": 53
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        12,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          3,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 98,
+      "sweep": 54
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        3,
+        6,
+        23,
+        14
+      ],
+      "selected_faces": [
+        16,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          6,
+          14
+        ],
+        [
+          6,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          6,
+          14
+        ]
+      ],
+      "score": 98,
+      "sweep": 55
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        15
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 93,
+      "sweep": 56
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 95,
+      "sweep": 57
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        8,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "added": [
+        [
+          2,
+          15
+        ]
+      ],
+      "score": 100,
+      "sweep": 58
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        3,
+        23
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          15,
+          23
+        ],
+        [
+          3,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          15,
+          23
+        ]
+      ],
+      "score": 100,
+      "sweep": 59
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        43
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          18
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          18
+        ],
+        [
+          7,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          7,
+          18
+        ]
+      ],
+      "score": 99,
+      "sweep": 60
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        33,
+        36
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "added": [
+        [
+          15,
+          24
+        ]
+      ],
+      "score": 100,
+      "sweep": 61
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        44,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 98,
+      "sweep": 62
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          18,
+          20
+        ]
+      ],
+      "boundary": [
+        3,
+        18,
+        11,
+        20
+      ],
+      "selected_faces": [
+        17,
+        42
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          11
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          18
+        ],
+        [
+          3,
+          11,
+          20
+        ]
+      ],
+      "removed": [
+        [
+          18,
+          20
+        ]
+      ],
+      "added": [
+        [
+          3,
+          11
+        ]
+      ],
+      "score": 100,
+      "sweep": 63
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          20
+        ]
+      ],
+      "boundary": [
+        3,
+        11,
+        20,
+        22
+      ],
+      "selected_faces": [
+        16,
+        21
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          11,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          22
+        ],
+        [
+          11,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          20
+        ]
+      ],
+      "added": [
+        [
+          11,
+          22
+        ]
+      ],
+      "score": 100,
+      "sweep": 64
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          20,
+          22
+        ]
+      ],
+      "boundary": [
+        6,
+        20,
+        11,
+        22
+      ],
+      "selected_faces": [
+        33,
+        42
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          11
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          11,
+          20
+        ],
+        [
+          6,
+          11,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          20,
+          22
+        ]
+      ],
+      "added": [
+        [
+          6,
+          11
+        ]
+      ],
+      "score": 101,
+      "sweep": 65
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        20
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          26
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          22,
+          26
+        ],
+        [
+          19,
+          22,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "added": [
+        [
+          22,
+          26
+        ]
+      ],
+      "score": 100,
+      "sweep": 66
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        3,
+        23
+      ],
+      "selected_faces": [
+        14,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          3,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 100,
+      "sweep": 67
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        8,
+        14
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          9
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          3,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          15
+        ]
+      ],
+      "added": [
+        [
+          3,
+          9
+        ]
+      ],
+      "score": 94,
+      "sweep": 68
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          6,
+          9
+        ]
+      ],
+      "boundary": [
+        6,
+        15,
+        9,
+        23
+      ],
+      "selected_faces": [
+        27,
+        28
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          15,
+          23
+        ],
+        [
+          9,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          9
+        ]
+      ],
+      "added": [
+        [
+          15,
+          23
+        ]
+      ],
+      "score": 94,
+      "sweep": 69
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        43,
+        44
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          22,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          22,
+          24
+        ]
+      ],
+      "score": 97,
+      "sweep": 70
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        32,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "added": [
+        [
+          7,
+          22
+        ]
+      ],
+      "score": 97,
+      "sweep": 71
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        30,
+        31
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          10,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 98,
+      "sweep": 72
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          14
+        ]
+      ],
+      "score": 103,
+      "sweep": 73
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "boundary": [
+        3,
+        6,
+        23,
+        14
+      ],
+      "selected_faces": [
+        16,
+        27
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          6,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 101,
+      "sweep": 74
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          9,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          9,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          9,
+          14
+        ]
+      ],
+      "score": 101,
+      "sweep": 75
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        23
+      ],
+      "selected_faces": [
+        14,
+        19
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 102,
+      "sweep": 76
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "boundary": [
+        6,
+        15,
+        9,
+        23
+      ],
+      "selected_faces": [
+        29,
+        40
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          9
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          9,
+          15
+        ],
+        [
+          6,
+          9,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "added": [
+        [
+          6,
+          9
+        ]
+      ],
+      "score": 102,
+      "sweep": 77
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 104,
+      "sweep": 78
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        32,
+        35
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          22
+        ]
+      ],
+      "added": [
+        [
+          15,
+          24
+        ]
+      ],
+      "score": 104,
+      "sweep": 79
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        42
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          18
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          18
+        ],
+        [
+          7,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          7,
+          18
+        ]
+      ],
+      "score": 104,
+      "sweep": 80
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        44,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          15,
+          22
+        ],
+        [
+          10,
+          15,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          24
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 100,
+      "sweep": 81
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          6,
+          11
+        ]
+      ],
+      "boundary": [
+        6,
+        20,
+        11,
+        22
+      ],
+      "selected_faces": [
+        30,
+        31
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          20,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          6,
+          20,
+          22
+        ],
+        [
+          11,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          11
+        ]
+      ],
+      "added": [
+        [
+          20,
+          22
+        ]
+      ],
+      "score": 101,
+      "sweep": 82
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        6,
+        23
+      ],
+      "selected_faces": [
+        9,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          6
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          6,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          6
+        ]
+      ],
+      "score": 106,
+      "sweep": 83
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        6,
+        3,
+        14
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          6,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          6,
+          14
+        ],
+        [
+          3,
+          6,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          6,
+          14
+        ]
+      ],
+      "score": 100,
+      "sweep": 84
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        9,
+        3,
+        14
+      ],
+      "selected_faces": [
+        14,
+        17
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          2,
+          3,
+          14
+        ]
+      ],
+      "removed": [
+        [
+          9,
+          14
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 100,
+      "sweep": 85
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        6,
+        23
+      ],
+      "selected_faces": [
+        12,
+        13
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          14,
+          23
+        ],
+        [
+          6,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          6
+        ]
+      ],
+      "added": [
+        [
+          14,
+          23
+        ]
+      ],
+      "score": 100,
+      "sweep": 86
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        14,
+        23
+      ],
+      "selected_faces": [
+        9,
+        15
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          23
+        ],
+        [
+          3,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          14
+        ]
+      ],
+      "added": [
+        [
+          3,
+          23
+        ]
+      ],
+      "score": 95,
+      "sweep": 87
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        20
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          26
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          22,
+          26
+        ],
+        [
+          19,
+          22,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          19
+        ]
+      ],
+      "added": [
+        [
+          22,
+          26
+        ]
+      ],
+      "score": 95,
+      "sweep": 88
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          11,
+          22
+        ]
+      ],
+      "boundary": [
+        3,
+        11,
+        20,
+        22
+      ],
+      "selected_faces": [
+        16,
+        41
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          20
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          11,
+          20
+        ],
+        [
+          3,
+          20,
+          22
+        ]
+      ],
+      "removed": [
+        [
+          11,
+          22
+        ]
+      ],
+      "added": [
+        [
+          3,
+          20
+        ]
+      ],
+      "score": 97,
+      "sweep": 89
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          3,
+          11
+        ]
+      ],
+      "boundary": [
+        3,
+        18,
+        11,
+        20
+      ],
+      "selected_faces": [
+        15,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          18,
+          20
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          18,
+          20
+        ],
+        [
+          11,
+          18,
+          20
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          11
+        ]
+      ],
+      "added": [
+        [
+          18,
+          20
+        ]
+      ],
+      "score": 91,
+      "sweep": 90
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "boundary": [
+        10,
+        22,
+        15,
+        24
+      ],
+      "selected_faces": [
+        43,
+        44
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          22,
+          24
+        ]
+      ],
+      "filling": [
+        [
+          10,
+          22,
+          24
+        ],
+        [
+          15,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          10,
+          15
+        ]
+      ],
+      "added": [
+        [
+          22,
+          24
+        ]
+      ],
+      "score": 95,
+      "sweep": 91
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "boundary": [
+        7,
+        15,
+        22,
+        24
+      ],
+      "selected_faces": [
+        33,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          7,
+          22
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          15,
+          22
+        ],
+        [
+          7,
+          22,
+          24
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          24
+        ]
+      ],
+      "added": [
+        [
+          7,
+          22
+        ]
+      ],
+      "score": 94,
+      "sweep": 92
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "boundary": [
+        7,
+        10,
+        18,
+        15
+      ],
+      "selected_faces": [
+        31,
+        32
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          10,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          7,
+          10,
+          15
+        ],
+        [
+          10,
+          15,
+          18
+        ]
+      ],
+      "removed": [
+        [
+          7,
+          18
+        ]
+      ],
+      "added": [
+        [
+          10,
+          15
+        ]
+      ],
+      "score": 93,
+      "sweep": 93
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "boundary": [
+        2,
+        3,
+        15,
+        9
+      ],
+      "selected_faces": [
+        8,
+        16
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          9
+        ]
+      ],
+      "added": [
+        [
+          2,
+          15
+        ]
+      ],
+      "score": 99,
+      "sweep": 94
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        3,
+        23
+      ],
+      "selected_faces": [
+        8,
+        9
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          15,
+          23
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          15,
+          23
+        ],
+        [
+          3,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          3
+        ]
+      ],
+      "added": [
+        [
+          15,
+          23
+        ]
+      ],
+      "score": 99,
+      "sweep": 95
+    },
+    {
+      "layer": 0,
+      "support_removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "boundary": [
+        3,
+        22,
+        19,
+        26
+      ],
+      "selected_faces": [
+        19,
+        51
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          3,
+          19
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          19,
+          22
+        ],
+        [
+          3,
+          19,
+          26
+        ]
+      ],
+      "removed": [
+        [
+          22,
+          26
+        ]
+      ],
+      "added": [
+        [
+          3,
+          19
+        ]
+      ],
+      "score": 100,
+      "sweep": 96
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "boundary": [
+        3,
+        14,
+        23,
+        15
+      ],
+      "selected_faces": [
+        17,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          14,
+          15
+        ]
+      ],
+      "filling": [
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          23
+        ]
+      ],
+      "added": [
+        [
+          14,
+          15
+        ]
+      ],
+      "score": 106,
+      "sweep": 97
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "boundary": [
+        2,
+        15,
+        14,
+        23
+      ],
+      "selected_faces": [
+        14,
+        48
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          14
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          14,
+          15
+        ],
+        [
+          2,
+          14,
+          23
+        ]
+      ],
+      "removed": [
+        [
+          15,
+          23
+        ]
+      ],
+      "added": [
+        [
+          2,
+          14
+        ]
+      ],
+      "score": 105,
+      "sweep": 98
+    },
+    {
+      "layer": 1,
+      "support_removed": [
+        [
+          14,
+          15
+        ]
+      ],
+      "boundary": [
+        2,
+        14,
+        3,
+        15
+      ],
+      "selected_faces": [
+        14,
+        18
+      ],
+      "quadrilateral": false,
+      "diagonals": [
+        [
+          2,
+          3
+        ]
+      ],
+      "filling": [
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          2,
+          3,
+          15
+        ]
+      ],
+      "removed": [
+        [
+          14,
+          15
+        ]
+      ],
+      "added": [
+        [
+          2,
+          3
+        ]
+      ],
+      "score": 104,
+      "sweep": 99
+    }
+  ],
+  "sweeps": 101,
+  "candidate_evaluations": 4373,
+  "stop": "PLATEAU_100_SWEEPS",
+  "cpu_cap": 20,
+  "cpu_seconds": 1.109375,
+  "wall_seconds": 1.125,
+  "verdict": "HEURISTIC_UNKNOWN"
+}

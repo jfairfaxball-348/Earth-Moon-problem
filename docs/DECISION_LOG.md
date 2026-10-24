@@ -153,3 +153,5 @@ D075 (owner23Oct2026): investigate and close S035; preserve evidence and suspend
 D076 (owner 23-24 Oct 2026, S036): fresh semantic-recovery residents after the S035 identity loss; machine-level limits and automatic recycling ("raise the limits to whatever this machine can handle"); hands-off autopilot recovery of operational pauses with standing fix authority; final owner-directed clean stop with NO next session installed (holding notice only). Scientific/proof/publication gates unchanged.
 
 S037 owner invocation 24Oct2026 adopts installed structural-reset prompt on existing main. Confirmed all247 closed prefixes are sorting bookkeeping. Next direction: bounded planar multi-edge patch repair, including nonextendible 77-edge layers. S036 stays stopped; S038 queued only.
+
+S038 owner invocation24Oct2026 adopted existing-main bounded patch prompt. Matched methods give no best-score advantage for small boundary-only patches. Queue S039 interior-vertex relocation and protected9-chromatic seed audit; do not execute it automatically.

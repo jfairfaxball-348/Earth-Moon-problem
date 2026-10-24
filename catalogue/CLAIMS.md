@@ -821,3 +821,21 @@ Explicit layers, sphere rotation certificates, direct 20475-four-set enumeration
 The explicit S037 91-violation pair has 43 admissible disjoint single flips, all with at least 93 violations. Two explicit 155-edge fixed layer splits admit no disjoint one-edge completion of their second layer, across all embeddings.
 
 Direct finite neighbor enumeration plus 446 explicit independently checked K5/K33 subdivisions covering all 223 absent pairs in each fixed split. validation/S037/STRUCTURE.json and NONEXTENSION.json. Elementary deficit-one/degree lemmas in RESEARCH.md; no novelty claimed. Does not exclude alternative repartitioning, larger patch moves, other graphs or a global witness.
+
+## CLM-0126 — PROGRAMME_PROVED
+
+For a selected tree-dual plane patch with r+1 faces (triangles except for at most one quadrilateral), a simple boundary and no interior vertex, all compatible r-chord noncrossing fillings preserve the layer embedding and deficit. Added edges must hit a current independent four-set for strict objective improvement.
+
+Elementary disk Euler/gluing and monotonicity proofs in sessions/S038/RESEARCH.md; independent polygon/chord controls and trace replay. No novelty claim; only the selected patch family, not all planar edge changes.
+
+## CLM-0127 — COMPUTED_EXACT
+
+Neither original S03791/125 state has a strict improvement in one-layer disk supports1..4 or joint support splits1+1,1+2,2+1,2+2, in the selected fixed embeddings.
+
+28039 family-member records, including overlap across support families, matched exactly by independent removed-edge/chord-subset replay. validation/S038/neighborhood-*.json.gz, coupled/, radius4/ and replay receipts. Does not cover1+3/3+1, interior vertices, disconnected supports, larger moves, other embeddings, other seeds or non-monotone escape paths.
+
+## CLM-0128 — COMPUTED_EXACT
+
+S038 explicitly validates22 saved planar-layer records (including duplicates); best discovery scores91/123 at156/155 edges. All records have proper <=9-colourings; saved123 states have8-colourings.
+
+validation/S038/PAIR_CHECKS.json and exact transition replay. No lower-bound advance. Twelve matched capped arms show no best-score advantage for patches over single moves; capped searches remain HEURISTIC/UNKNOWN. Source IDs attribute related methods only, not these exact results;9..12 unchanged.
