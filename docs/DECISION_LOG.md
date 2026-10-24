@@ -165,3 +165,5 @@ S040 owner invocation24Oct2026 (`run s04p`) executes the D077-revised prompt. Re
 S041 owner invocation24Oct2026 executes the D077 PIVOT audit. Decision: rank R3 non-alpha joins/apex first because its chi>=10 is certified by construction and avoids the chi_f>9 counting premise (F9 risk); queue S042 as an exact apex-leaf census with a D077-style gate; R1 order-3 symmetry is the fallback. Star/patch search and S11 cells stay parked. S042 not executed.
 
 S042 owner invocation24Oct2026. Registered gate failed (no live apex leaf). Decision PIVOT: park R3 apex-over-Hajos search; queue S043 as the exact order-3 layer-symmetric class (R1), whose own PIVOT leads to an owner-decision audit rather than further slices. S043 not executed.
+
+S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Registered gate unchanged; no additional class, local search or S036 restart.

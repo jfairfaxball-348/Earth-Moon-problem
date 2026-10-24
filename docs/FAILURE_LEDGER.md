@@ -167,3 +167,5 @@ S040: coordinated one-star-per-layer moves found no strict improvement at82/79; 
 S041: order-13 symmetric pairs are far from alpha<=3 (best767). Plain Kuratowski CEGAR left K5 v bipyramid UNKNOWN at600 s; Lemma-B/C CEGAR decided it and two further leaf graphs non-biplanar in under a second each. The registered P1 certification scheme was revised before any probe ran (cost), with both hashes kept. Cover annealing plateaus are heuristic only.
 
 S042: every resolved apex leaf graph dies by cross-layer K9-minor lemmas. First census run stopped for redundant generation (about900 CPU s counted); two restarts failed immediately (escaping, node labels). Certificate archive exceeded repository scale; CNF/lemma files moved local and hash-pinned after byte-identical regeneration was confirmed.
+
+S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Lazy planarity cuts did not yield a certified construction. A cap remains UNKNOWN and cut counts do not measure coverage.

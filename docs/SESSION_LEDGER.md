@@ -103,3 +103,5 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S041 |2026-10-24| CAM0045 comparative route audit | order-13 class empty (3510 pairs, best767); joins reduced to K1/K2/K3 apex; three apex leaves certified non-biplanar; ranking R3>R1>R2>R4; no witness| CLOSED; S042 FUTURE/UNEXECUTED |
 
 | S042 |2026-10-24| CAM0046 certified apex-leaf census | 97 leaf graphs all non-biplanar (K9-minor CEGAR, DRAT); 30 non-Ore windows unresolved; no witness| CLOSED PIVOT; S043 FUTURE/UNEXECUTED |
+
+| S043 |2026-10-24| CAM0047 exact Z3 orbit CEGAR | S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. |

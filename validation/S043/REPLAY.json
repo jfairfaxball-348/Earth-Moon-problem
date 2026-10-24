@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "base_clauses": 36200,
+  "base_variables": 12073,
+  "cuts": 20000,
+  "kinds": {
+    "K33": 17653,
+    "K5": 2347
+  },
+  "all_clauses_rejustified": true,
+  "verdict": "UNKNOWN",
+  "cpu_seconds": 1.125,
+  "scope": "encoding and subdivision replay; UNKNOWN does not exclude any whole class"
+}

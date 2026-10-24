@@ -397,9 +397,9 @@
     "year": 2023,
     "publication_date": "2023-07",
     "url": "https://doi.org/10.4230/LIPIcs.SAT.2023.14",
-    "access": "ABSTRACT_INSPECTED",
-    "accessed": "2026-10-15",
-    "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth\u2013Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported."
+    "access": "PROOF_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Publisher abstract checked: eager and lazy Kuratowski/SAT modulo symmetries approaches evaluated on Earth\u2013Moon and planar graph enumeration. Full paper and executable proof chain not independently inspected in S016; no new 219-case certificate imported. S043: publisher PDF sections3.1 and5.2 inspected for the lazy subdivision-clause proof and the distinction between union/decomposition symmetry only; executable chain and other results not replayed."
   },
   {
     "id": "SRC-0039",
@@ -699,5 +699,29 @@
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-24",
     "note": "README statements only (pushed2026-10-03; Zenodo DOI as stated there, not resolved): alpha<=2 reductions, odd-cycle inflation cases and non-biplanarity claims of mixed certificate status. Not replayed; alpha<=2 is covered at theorem level by SRC-0037. Context for S041."
+  },
+  {
+    "id": "SRC-0064",
+    "title": "PySAT seqcounter.hh triangular threshold counter implementation",
+    "authors": "PySAT maintainers",
+    "year": null,
+    "publication_date": null,
+    "url": "https://github.com/pysathq/pysat/blob/master/cardenc/seqcounter.hh",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Official source implementation inspected. Installed PySAT1.9.dev15 recorded separately; master/version equality not assumed. Actual generated clauses reconstructed with independent stdlib code and justified by threshold semantics."
+  },
+  {
+    "id": "SRC-0065",
+    "title": "The Earth\u2013Moon Problem",
+    "authors": "Epoch AI",
+    "year": 2026,
+    "publication_date": null,
+    "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-24",
+    "note": "Primary problem statement and explicit layers/colouring/non9 requirements inspected. Exact publication date unconfirmed. Limited current context, not an exhaustive novelty audit."
   }
 ]

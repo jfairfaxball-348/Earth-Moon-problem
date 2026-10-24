@@ -1,0 +1,27 @@
+{
+ "verdict": "UNKNOWN",
+ "reason": "CAP",
+ "models": 10000,
+ "cuts": 20000,
+ "calls": 10001,
+ "planar_layers": 0,
+ "cpu_seconds": 1026.703125,
+ "wall_seconds": 1028.6719999999914,
+ "driver_cpu_seconds": 1026.703125,
+ "solver_stats": {
+  "restarts": 41234,
+  "conflicts": 5291897,
+  "decisions": 11320719,
+  "propagations": 2449149429
+ },
+ "native": {},
+ "base_cnf_raw_sha256": "7729340a9e3f199aaa3f571450cf2dea96fb5796a73e6b32b81dbc8cb04ee0ea",
+ "final_cnf_raw_sha256": "9cc22963415892e25a5188dca96fab0750408fe9667dfcd17b3b1ff86e2bc3db",
+ "gate_decision": "PIVOT",
+ "whole_slice_certified": false,
+ "bounds": [
+  9,
+  12
+ ],
+ "S036_restarted": false
+}

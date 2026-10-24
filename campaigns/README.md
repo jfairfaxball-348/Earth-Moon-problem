@@ -105,3 +105,5 @@ CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 
 **CAM-0045 / S041 CLOSED:** comparative route audit. Order-13 symmetric order28 class empty (3510 pairs, best767); counting leaves K1/K2/K3 apex joins; Sulanke, K3vHajos(K6,K6), K2vHajos(K7,K7) apex leaves certified non-biplanar. Ranking R3>R1>R2>R4.9..12 unchanged; S042 apex-leaf census FUTURE/UNEXECUTED.
 
 **CAM-0046 / S042 CLOSED PIVOT:** certified apex-leaf census. 45 types, 97 leaf graphs, all non-biplanar by K9-minor CEGAR with DRAT; 30 non-Ore windows unresolved.9..12 unchanged; S043 order-3 symmetric class FUTURE/UNEXECUTED.
+
+**CAM-0047 / S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED.**

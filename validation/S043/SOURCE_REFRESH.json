@@ -1,0 +1,30 @@
+[
+  {
+    "id": "SRC-0038",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2023.14",
+    "date": "2026-10-24",
+    "access": "PROOF_INSPECTED",
+    "scope": "PDF sections3.1 and5.2"
+  },
+  {
+    "id": "SRC-0048",
+    "url": "https://rstation.ai/r/earth_moon/posts/152",
+    "date": "2026-10-24",
+    "access": "REFRESH_FAILED_CACHE_MISS",
+    "scope": "No source promotion"
+  },
+  {
+    "id": "SRC-0064",
+    "url": "https://github.com/pysathq/pysat/blob/master/cardenc/seqcounter.hh",
+    "date": "2026-10-24",
+    "access": "STATEMENT_INSPECTED",
+    "scope": "Implementation description; master not assumed identical to installed version"
+  },
+  {
+    "id": "SRC-0065",
+    "url": "https://epoch.ai/frontiermath/open-problems/earth-moon",
+    "date": "2026-10-24",
+    "access": "STATEMENT_INSPECTED",
+    "scope": "Primary problem requirements"
+  }
+]

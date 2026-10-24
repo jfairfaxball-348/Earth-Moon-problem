@@ -929,3 +929,9 @@ Gallai join decomposition, Kostochka-Yancey bound with equality iff k-Ore and th
 All 97 non-isomorphic apex leaf graphs from the resolved types (plus PARTIAL 7-Ore/13 members) are not biplanar; 23514 (a,L,e) choices reduce to them. Hence no apex-over-Hajos composite with a leaf of these types is biplanar.
 
 Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded.
+
+## CLM-0144 — PROGRAMME_PROVED
+
+Conditional on CLM0137, the order3 layer-preserving156-edge28-vertex alpha<=3 class is represented without loss by126 size3 pair-orbits, exactly26 per disjoint layer,6831 four-set orbit clauses, two pinned distinct invariant triangles and17 sound subgroup lex-leader constraints. Every recorded Kuratowski orbit-support clause is independently justified.
+
+sessions/S043/PLAN.md and RESEARCH.md; stdlib checker reconstructs all36200 base clauses and checks every subdivision. This encoding theorem and the recorded cuts do not settle a capped class. No global upper-bound consequence or full normaliser canonicalisation is claimed.

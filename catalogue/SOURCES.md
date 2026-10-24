@@ -489,3 +489,13 @@ S040 refresh24Oct2026: no reported chi>=10 biplanar graph found; SRC0004/0035/00
 S041 refresh24Oct2026: BGS part one excerpts confirm Hajos plus permuted layers give infinite 9-critical thickness-two families (SRC0002 grade unchanged); part two 17/25/33-vertex graphs not obtained (SRC0003 unchanged); Kostochka-Yancey statements re-seen (SRC0011/0020 unchanged). No reported chi>=10 biplanar graph. See sessions/S041/PRIOR_ART.md.
 
 S042 refresh24Oct2026: SRC-0020 upgraded to STATEMENT_INSPECTED (Theorem 6 via ar5iv). BGS part one preprint text re-read: 40 9-critical thickness-two graphs on 12-16 vertices (joins by Gallai). Part two graphs not obtained. See sessions/S042/PRIOR_ART.md.
+
+S043 refresh24Oct2026: SRC0038 sections3.1/5.2 PROOF_INSPECTED (scoped); SRC0064 PySAT official counter implementation STATEMENT_INSPECTED; SRC0065 Epoch AI primary problem statement STATEMENT_INSPECTED. SRC0048 refresh failed, no promotion. No novelty claim. See sessions/S043/PRIOR_ART.md.
+
+## SRC-0064 — PySAT seqcounter.hh triangular threshold counter implementation
+
+PySAT maintainers; https://github.com/pysathq/pysat/blob/master/cardenc/seqcounter.hh; accessed2026-10-24; STATEMENT_INSPECTED. Official source implementation inspected. Installed PySAT1.9.dev15 recorded separately; master/version equality not assumed. Actual generated clauses reconstructed with independent stdlib code and justified by threshold semantics.
+
+## SRC-0065 — The Earth–Moon Problem
+
+Epoch AI; https://epoch.ai/frontiermath/open-problems/earth-moon; accessed2026-10-24; STATEMENT_INSPECTED. Primary problem statement and explicit layers/colouring/non9 requirements inspected. Exact publication date unconfirmed. Limited current context, not an exhaustive novelty audit.

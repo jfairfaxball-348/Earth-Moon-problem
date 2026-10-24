@@ -118,3 +118,5 @@ S040 CLOSED PIVOT: CLM0133 compatibility lemma; CLM0134 exact coordinated neighb
 S041 CLOSED: CLM0137 symmetry orders lemma; CLM0138 order-13 classification; CLM0139 counting for joins/Mycielski; CLM0140 apex-leaf non-biplanarity. Phase1 NOT PASSED;9..12 unchanged. S042 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
 
 S042 CLOSED PIVOT: CLM0141 leaf lemma; CLM0142 census type reduction; CLM0143 97 leaf graphs non-biplanar. Phase1 NOT PASSED;9..12 unchanged. S043 FUTURE/UNEXECUTED; publication/Lean gates unchanged.
+
+S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Phase1 NOT PASSED;9..12 unchanged; publication/Lean gates unchanged.

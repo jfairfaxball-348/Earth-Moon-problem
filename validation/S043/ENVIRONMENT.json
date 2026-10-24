@@ -1,0 +1,28 @@
+{
+  "executor": "Codex desktop Windows",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "networkx": "3.5",
+    "python-sat": "1.9.dev15",
+    "psutil": "7.1.0"
+  },
+  "native_solver": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\cadical.exe",
+    "sha256": "120d2c53bf14a8b70cce78be980824651922d53523228d9f0f026998caea7e48",
+    "source_pin": "c60730422e758ef1cebe7aeddf2dda31c996bf04"
+  },
+  "native_checker": {
+    "path": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S004\\drat-trim-mingw.exe",
+    "sha256": "970caaea97a15c8a27d4747e0e92e058ac1b1d9d4e04a95e3fc58b069ed4c03e",
+    "source_pin": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+  },
+  "build_provenance": "Existing S004 Windows binaries; hashes freshly measured by full smoke; no rebuild claimed",
+  "cloud_fallback_used": false,
+  "smoke_verdict": "PASS",
+  "incremental_solver_extension": {
+    "path": "C:\\Earth-Moon-problem\\.venv\\Lib\\site-packages\\pysolvers.cp312-win_amd64.pyd",
+    "sha256": "96b7325a76b78d1509e86bd454cd309d467307fb573fc01ddbfea6dabf8b3104",
+    "implementation": "Glucose4 via PySAT g4"
+  }
+}
