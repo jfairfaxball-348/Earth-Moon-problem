@@ -44,12 +44,13 @@ def check_pair(n,layers,rotations):
             assert seen==darts and len(vs)-len(darts)//2+faces==2
     assert not sets[0]&sets[1]
 
-def geometric_journal(path,n):
+def geometric_journal(path,n,cancel=None):
     path=Path(path)
     if not path.exists():return 0
     pairs=list(it.combinations(range(n),2));count=0
     with path.open(encoding='ascii') as f:
-        for line in f:
+        for index,line in enumerate(f):
+            if cancel and index%1024==0:cancel()
             assert line.endswith('\n'),'incomplete geometric journal'
             xs=list(map(int,line.split()));assert xs and xs[-1]==0
             xs=xs[:-1]

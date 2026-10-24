@@ -25,10 +25,14 @@ SAT retains private learning between candidates; 600-second slices reload
 audited semantic journals and discard private CDCL. Counts are activity,
 not projected graph coverage or an ETA.
 
-Launch only after validation/S045/SMOKE.json, CONTROLS.json and BENCHMARK.json
-PASS and all tested source/binary hashes match. The benchmark pre-registers
+Launch only after validation/S045/watchdog_repair/ACCEPTANCE.json PASS, fresh
+full smoke, native/policy controls and full checkpoint restart benchmark PASS,
+and all nine tested source hashes plus native binary hashes match.
+The owner replaced ALL eight-hour ceilings; no original-start ceiling survives.
+Use scripts/s045_campaign.py resume-watchdog only after exact identity checks. The benchmark pre-registers
 three serial 60-second arms and a fresh semantic restart. One generator with
-a serial oracle; eight-hour production wall ceiling; 3 GiB aggregate private
+a serial oracle; hard stop 25 October 2026 07:30 Europe/London (07:30 UTC/GMT);
+3 GiB aggregate private
 memory, 1.5 GiB available-RAM floor and 10 GiB disk reserve. Stop on owner
 STOP, resource breach, validation failure, dependency/source change, witness
 alert, native UNSAT or the ceiling. No unattended successor session.
@@ -51,3 +55,24 @@ FUTURE/UNEXECUTED handoffs; print the full handoff and verified GitHub links.
 Do not execute S046. Fresh cloud_smoke.py is mandatory before new scientific
 computation. Alternate Actions runner: docs/CLOUD_ENVIRONMENT.md and
 validation/S011/SUMMARY.json, setup and full smoke in the SAME job.
+
+Owner-authorised watchdog repair and restart (24 October): read WATCHDOG_REPAIR.md
+and validation/S045/watchdog_repair/{OWNER_DIRECTIVE,ACCEPTANCE,CHECKIN}.json.
+Startup/loading has its own 900-second ceiling; the 600-second solve budget
+starts only at native READY. The absolute owner deadline is checked during
+Python preparation, native loading, solving and by the independent supervisor,
+using UTC plus a monotonic backstop. First stop cause is durable and immutable.
+
+Two-hour heartbeat earth-moon-s045-two-hour-check-in is ACTIVE on this thread.
+At every check inspect real identities, phase, CPU, memory/disk, journal growth,
+alerts and STOP_CAUSE.json. Report concise status. No restart after owner STOP,
+scientific alert, native UNSAT or expired deadline. At/after the deadline verify
+search stopped, preserve/audit evidence, close S045 and pause the heartbeat.
+Only operational repair within S045 is authorised. No S046 execution.
+
+Read-only concise status: .venv/Scripts/python.exe scripts/s045_campaign.py status --brief
+Journals: campaign/CANDIDATES.jsonl.gz plus campaign/journals/*.jsonl[.gz].
+Closed journals and native logs are compressed with decoded-byte SHA checks
+before retiring raw copies. Partial archives never count as checkpoints.
+CHECKPOINT_COUNT/ENCODING, GEOMETRIC_REPLAY and POST_SLICE_AUDIT are normal
+working phases; absent native PID alone does not imply a stopped controller.

@@ -1,0 +1,51 @@
+{
+ "n": 50,
+ "k": 9,
+ "mode": "partition",
+ "positive_phases": true,
+ "controller": {
+  "pid": 12356,
+  "create_time": 1792867797.397858,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "started_utc": "2026-10-24T18:49:57Z",
+ "scientific_verdict": "UNKNOWN",
+ "witness": false,
+ "domain_excluded": false,
+ "source_sha256": {
+  "tools/s045_search.py": "282279097c0bec5647e93985649466e3d2bdc951906e4ae98a13062bb9e88bb0",
+  "tools/s045_driver.py": "99a00cf06fe19135c636761e1b375f6fb898ea6ba97483feecaeb89864d830ae",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "scripts/s045_runtime.py": "7b08f52569c2877d5f018d1c1231dc857b78fa11e4163dc3c2eff75073278d00",
+  "scripts/s045_campaign.py": "767bf5494cae78518d231811e1b45ba455b89aa3451d9d73f477acc046ba20e0",
+  "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+ },
+ "input_sha256": "38166d2482a403d1685e8e3df0f5ffa85aa2cb0144e6784e3e736d17e7661ffd",
+ "generator": {
+  "pid": 1780,
+  "create_time": 1792868032.2133617,
+  "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+ },
+ "native_startup_seconds": 18.15600000001723,
+ "loaded_geometric_rules": 900798,
+ "state": "SLICE_COMPLETE",
+ "stage": "POST_SLICE_AUDIT",
+ "elapsed_seconds": 348.89000000001397,
+ "solve_elapsed_seconds": 96.375,
+ "candidates": 275961,
+ "new_candidates": 3587,
+ "reason": "NATIVE_TIMEOUT",
+ "native_returncode": 0,
+ "error": null,
+ "verified_geometric_cuts": 924323,
+ "audit_pending": false,
+ "native_progress": "c S045 checks=890747 cuts=23079 models=3241",
+ "candidate_journal_sha256": "59ddf63a6d404d36e3a96ab2b997654f4614825793ffe3a7ee7af60c8a4b823b",
+ "status": "PASS",
+ "checkpoint_input_rows": 272374,
+ "checkpoint_input_geometric_rules": 900798,
+ "timing_regression_demonstrated": true
+}

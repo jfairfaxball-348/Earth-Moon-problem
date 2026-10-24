@@ -1,0 +1,279 @@
+"""S045 native generation / independently checked colouring feedback.
+
+No independence/degree/symmetry restriction. Checkpoints are semantic only.
+Search counts are activity; native UNSAT alone never excludes a domain.
+"""
+import argparse
+import hashlib
+import itertools as it
+import json
+import os
+from pathlib import Path
+import queue
+import subprocess
+import sys
+import threading
+import time
+
+import networkx as nx
+import psutil
+from pysat.solvers import Solver
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'tools'))
+from s045_verify import check_pair, check_colouring, partition_clause, geometric_journal
+
+EXE=ROOT/'artifacts/tmp/S045/native/bipsat_s045.exe'
+COMP=ROOT/'artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin'
+
+def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+
+def atomic(path,data):
+    path=Path(path); path.parent.mkdir(parents=True,exist_ok=True)
+    tmp=path.with_suffix(path.suffix+'.new')
+    tmp.write_text(json.dumps(data,indent=1)+'\n',encoding='utf-8',newline='\n')
+    for _ in range(20):
+        try: os.replace(tmp,path); return
+        except PermissionError: time.sleep(.05)
+    raise RuntimeError('atomic status sharing retry exhausted')
+
+def append(path,data):
+    with Path(path).open('a',encoding='utf-8',newline='\n') as f:
+        f.write(json.dumps(data,separators=(',',':'))+'\n'); f.flush(); os.fsync(f.fileno())
+
+def journal(path):
+    if not Path(path).exists(): return
+    # Stream one row at a time; an incomplete row is never used as a rule.
+    with Path(path).open(encoding='utf-8') as f:
+        for line in f:
+            if not line.endswith('\n'): raise ValueError('incomplete journal; preserve and repair explicitly')
+            yield json.loads(line)
+
+def instance(path,n,records=(),fixed=None,record_count=None,target_k=None,target_mode=None):
+    pairs=list(it.combinations(range(n),2))
+    if record_count is None: record_count=len(records)
+    if fixed is not None:
+        fixed=[{tuple(sorted(e)) for e in ls} for ls in fixed]
+    nc=len(pairs)+record_count+(2*len(pairs) if fixed is not None else 0)
+    with Path(path).open('w',encoding='ascii',newline='\n') as f:
+        f.write(f'p bipsat2 {n} {len(pairs)} 0 {nc}\n')
+        f.writelines(f'e {a} {b}\n' for a,b in pairs)
+        def emit(clause):f.write(' '.join(map(str,clause))+' 0\n')
+        for i in range(len(pairs)):emit([-2*i-1,-2*i-2])
+        count=0
+        for row in records:
+            assert row['n']==n and (target_k is None or row['k']==target_k)
+            assert row['mode'] in ('partition','block') and (target_mode is None or row['mode']==target_mode)
+            check_pair(n,row['layers'],row['rotations'])
+            check_colouring(n,row['layers'],row['colours'],row['k'])
+            if row['mode']=='partition':emit(partition_clause(n,row['colours']))
+            else:
+                bits=row['bits'];assert len(bits)==2*len(pairs)
+                emit([-(i+1) if b=='1' else i+1 for i,b in enumerate(bits)])
+            count+=1
+        assert count==record_count
+        if fixed is not None:
+            for i,e in enumerate(pairs):
+                for k in (0,1):emit([2*i+1+k if e in fixed[k] else -(2*i+1+k)])
+    return pairs
+
+def colour_cnf(n,layers,k):
+    clauses=[]
+    for v in range(n):
+        vs=[v*k+c+1 for c in range(k)]
+        clauses.append(vs)
+        clauses.extend([[-a,-b] for a,b in it.combinations(vs,2)])
+    for a,b in set(map(tuple,layers[0]))|set(map(tuple,layers[1])):
+        clauses.extend([[-(a*k+c+1),-(b*k+c+1)] for c in range(k)])
+    clauses.append([1])  # colour-name permutation only
+    return clauses
+
+def colouring(n,layers,k,seconds=60):
+    clauses=colour_cnf(n,layers,k)
+    with Solver(name='g4',bootstrap_with=clauses) as s:
+        timer=threading.Timer(seconds,s.interrupt); timer.start()
+        try:
+            result=s.solve_limited(expect_interrupt=True)
+            if result is not True: return result,None
+            positive={v for v in s.get_model() if v>0}
+            cols=[next(c for c in range(k) if v*k+c+1 in positive) for v in range(n)]
+        finally: timer.cancel()
+    # Split existing classes until all k colours are used; this remains proper
+    # and makes a stronger (shorter) necessary partition clause.
+    for missing in sorted(set(range(k))-set(cols)):
+        counts=[cols.count(c) for c in range(k)]; largest=max(range(k),key=counts.__getitem__)
+        if counts[largest]<=1: break
+        cols[cols.index(largest)]=missing
+    check_colouring(n,layers,cols,k)
+    return True,cols
+
+def env(): return dict(os.environ,PATH=str(COMP)+os.pathsep+os.environ['PATH'])
+
+def reason():
+    if psutil.virtual_memory().available < 1.5*2**30: return 'AVAILABLE_RAM_FLOOR'
+    if psutil.disk_usage(str(ROOT)).free < 10*2**30: return 'DISK_RESERVE'
+    total=0
+    parent=psutil.Process()
+    for p in [parent,*parent.children(recursive=True)]:
+        try: total+=getattr(p.memory_info(),'private',p.memory_info().rss)
+        except psutil.Error: pass
+    if total>3*2**30: return 'PRIVATE_MEMORY_LIMIT'
+    return None
+
+def identity(p):
+    q=psutil.Process(p.pid)
+    return dict(pid=p.pid,create_time=q.create_time(),exe=q.exe())
+
+def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,records_path=None,fixed=None):
+    out=Path(out); out.mkdir(parents=True,exist_ok=True)
+    records_path=Path(records_path or out/'CANDIDATES.jsonl')
+    old=sum(1 for _ in journal(records_path));count=old
+    pairs=instance(out/'BASE.inst',n,journal(records_path),fixed,old,k,mode)
+    lemmas=out/'PLANARITY.lem'; geometric_journal(lemmas,n)
+    stop=out/'STOP'; started=time.monotonic(); own=psutil.Process()
+    status_path=Path(status_path or out/'STATUS.json')
+    base=dict(n=n,k=k,mode=mode,positive_phases=positive,controller=identity(own),
+              started_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),
+              scientific_verdict='UNKNOWN',witness=False,domain_excluded=False,
+              input_sha256=sha(out/'BASE.inst'),source_sha256={str(p.relative_to(ROOT)):sha(p) for p in
+                [ROOT/'tools/s045_search.py',ROOT/'tools/s045_verify.py',ROOT/'tools/s045_native.cpp',ROOT/'tools/s045_main.hpp']})
+    def save(state,**extra):
+        atomic(status_path,dict(base,state=state,elapsed_seconds=time.monotonic()-started,
+               candidates=count,new_candidates=count-old,**extra))
+    if stop.exists(): save('STOPPED',reason='STOP_FILE'); return json.loads(status_path.read_text())
+    resource=reason()
+    if resource: save('STOPPED',reason=resource); return json.loads(status_path.read_text())
+    log=(out/'NATIVE.log').open('a',encoding='utf-8',buffering=1)
+    command=[str(EXE),str(out/'BASE.inst'),str(lemmas),str(seconds),str(stop),str(int(positive)),mode]
+    p=subprocess.Popen(command,cwd=ROOT,env=env(),stdin=subprocess.PIPE,stdout=subprocess.PIPE,
+                       stderr=subprocess.STDOUT,text=True,bufsize=1)
+    base['generator']=identity(p)
+    atomic(out/'IDENTITY.json',dict(base,command=command))
+    q=queue.Queue()
+    def reader():
+        for line in p.stdout: log.write(line);q.put(line.rstrip())
+        q.put(None)
+    reader_thread=threading.Thread(target=reader,daemon=True);reader_thread.start()
+    def send(s): p.stdin.write(s+'\n');p.stdin.flush()
+    last=time.monotonic(); ending=None; stats=''; error=None; guard=None
+    save('RUNNING')
+    try:
+        while True:
+            if stop.exists() or time.monotonic()-started>seconds+15 or reason():
+                guard='STOP_FILE' if stop.exists() else reason() or 'WALL_LIMIT'
+                stop.touch(exist_ok=True)
+                # Termination callback sees STOP during solve; stdin wakes an idle model.
+                try: send('STOP')
+                except (OSError,BrokenPipeError): pass
+                if ending is None: ending=time.monotonic()
+            if ending and time.monotonic()-ending>30:
+                guard='COOPERATIVE_STOP_FAILED:'+str(guard)
+                p.terminate()  # exact newly created child only; semantic journals already durable
+                break
+            try: line=q.get(timeout=.1)
+            except queue.Empty: line=''
+            if line is None: break
+            if line.startswith('c S045'): stats=line
+            if line.startswith('CAND '):
+                bits=line.split()[2]; assert len(bits)==2*len(pairs) and set(bits)<={'0','1'}
+                layers=[[list(e) for i,e in enumerate(pairs) if bits[2*i+j]=='1'] for j in (0,1)]
+                rotations=[]
+                for ls in layers:
+                    g=nx.Graph();g.add_nodes_from(range(n));g.add_edges_from(ls)
+                    planar,embedding=nx.check_planarity(g)
+                    assert planar,'native nonplanar model'
+                    rotations.append(embedding.get_data())
+                check_pair(n,layers,rotations)
+                if guard: send('STOP'); continue
+                answer,cols=colouring(n,layers,k,min(60,max(1,seconds-(time.monotonic()-started))))
+                if answer is not True:
+                    alert=dict(n=n,k=k,layers=layers,rotations=rotations,
+                               colouring_result=answer,proof_verified=False,verdict='UNKNOWN')
+                    atomic(out/'ALERT.json',alert)
+                    guard='NONCOLOUR_ALERT_UNVERIFIED' if answer is False else 'COLOUR_TIMEOUT'
+                    send('STOP');ending=time.monotonic();continue
+                row=dict(n=n,k=k,layers=layers,rotations=rotations,colours=cols,mode=mode,bits=bits,
+                         elapsed_seconds=time.monotonic()-started)
+                # Record and independently verify the rule before giving it to native SAT.
+                check_colouring(n,layers,cols,k);partition_clause(n,cols)
+                append(records_path,row);count+=1
+                send('COLOR '+str(k)+' '+' '.join(map(str,cols)))
+            if line.startswith('END 20'):
+                guard='NATIVE_UNSAT_UNCERTIFIED'; ending=time.monotonic()
+            if time.monotonic()-last>=5:
+                save('RUNNING',native_progress=stats);last=time.monotonic()
+        p.wait(timeout=30)
+    except BaseException as e:
+        error=repr(e);stop.touch(exist_ok=True)
+        try: send('STOP')
+        except (OSError,BrokenPipeError): pass
+        try: p.wait(timeout=30)
+        except subprocess.TimeoutExpired: p.terminate();p.wait(timeout=10)
+    finally:
+        reader_thread.join(timeout=3);log.close()
+        if p.stdin: p.stdin.close()
+        if p.stdout: p.stdout.close()
+    cuts=geometric_journal(lemmas,n)
+    save('ERROR' if error or p.returncode not in (0,20) else 'STOPPED' if guard else 'SLICE_COMPLETE',
+         reason=guard or 'NATIVE_TIMEOUT',native_returncode=p.returncode,error=error,
+         verified_geometric_cuts=cuts,native_progress=stats,
+         candidate_journal_sha256=sha(records_path) if records_path.exists() else None)
+    data=json.loads(status_path.read_text());print(json.dumps(data),flush=True)
+    return data
+
+def benchmark(label='benchmark'):
+    base=ROOT/'artifacts/tmp/S045'/label;rows=[]
+    assert not (ROOT/'validation/S045/BENCHMARK.json').exists()
+    for name,mode,positive in [('block','block',False),('partition','partition',False),('partition-positive','partition',True)]:
+        row=run_slice(base/name,50,9,60,mode,positive)
+        row['arm']=name;rows.append(row)
+    eligible=[r for r in rows if r['mode']=='partition' and r['state']=='SLICE_COMPLETE' and r['new_candidates']>0]
+    assert eligible,'No passing partition configuration; do not launch sustained search'
+    best=max(eligible,key=lambda r:(r['new_candidates']/r['elapsed_seconds'],not r['positive_phases']))
+    # Fresh-process semantic restart, not merely continued private solver state.
+    restart=run_slice(base/best['arm'],50,9,15,'partition',best['positive_phases'])
+    assert restart['state']=='SLICE_COMPLETE' and not restart['error']
+    for d in base.iterdir():
+        if d.is_dir():
+            target=ROOT/'validation/S045'/label/d.name;target.mkdir(parents=True,exist_ok=True)
+            import gzip
+            for p in d.iterdir():
+                if p.suffix in ('.jsonl','.lem'):
+                    with gzip.open(target/(p.name+'.gz'),'wb') as f:f.write(p.read_bytes())
+    result=dict(status='PASS',archive_directory=label,arms=rows,selected_arm=best['arm'],positive_phases=best['positive_phases'],
+                restart=restart,gate='verified candidate feedback, audited external rules, cooperative slice end and semantic restart',
+                counts_are_coverage=False,witness=False,domain_excluded=False)
+    atomic(ROOT/'validation/S045/BENCHMARK.json',result)
+    print('S045 benchmark PASS; selected '+best['arm'],flush=True)
+
+def campaign():
+    benchmark=json.loads((ROOT/'validation/S045/BENCHMARK.json').read_text()); assert benchmark['status']=='PASS'
+    assert json.loads((ROOT/'validation/S045/CONTROLS.json').read_text())['status']=='PASS'
+    assert json.loads((ROOT/'validation/S045/SMOKE.json').read_text())['verdict']=='PASS'
+    base=ROOT/'artifacts/tmp/S045/campaign';base.mkdir(parents=True,exist_ok=True)
+    lock=base/'LOCK.json'
+    # Atomic exclusive creation; fail closed even if an old PID has disappeared.
+    with lock.open('x',encoding='utf-8') as f:json.dump(identity(psutil.Process()),f)
+    started=time.monotonic();deadline=started+8*3600;index=0;result=None
+    atomic(base/'CAMPAIGN.json',dict(state='RUNNING',controller=identity(psutil.Process()),
+           wall_ceiling_seconds=8*3600,started_epoch=time.time(),n=50,k=9,positive_phases=benchmark['positive_phases'],
+           private_memory_cap=3*2**30,available_floor=1.5*2**30,disk_floor=10*2**30))
+    try:
+        while time.monotonic()<deadline:
+            if (base/'STOP').exists(): break
+            result=run_slice(base,50,9,min(600,deadline-time.monotonic()),'partition',benchmark['positive_phases'])
+            index+=1
+            append(base/'SLICES.jsonl',result)
+            if result['state']!='SLICE_COMPLETE': break
+        atomic(base/'CAMPAIGN.json',dict(state='STOPPED',controller=identity(psutil.Process()),slices=index,
+               elapsed_seconds=time.monotonic()-started,last_slice=result,scientific_verdict='UNKNOWN',witness=False))
+    except BaseException as e:
+        atomic(base/'ERROR.json',dict(error=repr(e),elapsed_seconds=time.monotonic()-started));raise
+    finally: lock.unlink()
+
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('mode',choices=['benchmark','campaign']);ap.add_argument('--label',default='benchmark');a=ap.parse_args()
+    if a.mode=='benchmark': benchmark(a.label)
+    else: campaign()
+
+if __name__=='__main__': main()

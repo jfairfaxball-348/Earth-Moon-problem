@@ -1,0 +1,18 @@
+{
+ "domain_unchanged": true,
+ "benchmark_native_solve_seconds": 60,
+ "benchmark_n": 50,
+ "benchmark_k": 9,
+ "mode": "partition",
+ "positive_phases": true,
+ "checkpoint_rows": 272374,
+ "checkpoint_geometric_rules": 900798,
+ "startup_seconds_separate": true,
+ "startup_ceiling_seconds": 900,
+ "resource_limits_unchanged": true,
+ "deadline_epoch": 1792913400,
+ "entry_commit": "5d910fb86ecd2fdb3844051aaa01c63e4fb69442",
+ "sha256": {
+  "sessions/S045/WATCHDOG_REPAIR.md": "0f6d809a788fc3ce5dc063934b1bf737ed3d4f4e72d4a32815df4845294166ec"
+ }
+}

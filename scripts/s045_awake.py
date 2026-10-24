@@ -15,10 +15,7 @@ from s045_search import atomic,identity
 def main():
     base=ROOT/'artifacts/tmp/S045/campaign'
     data=json.loads((base/'CAMPAIGN.json').read_text())
-    ident=data['controller'];deadline=data['started_epoch']+data['wall_ceiling_seconds']
-    if (base/'MAINTENANCE.json').exists():
-        original=json.loads((base/'MAINTENANCE.json').read_text())['original_started_epoch']
-        deadline=min(deadline,original+data['wall_ceiling_seconds'])
+    ident=data['controller'];deadline=data['deadline_epoch']
     power=ctypes.WinDLL('kernel32',use_last_error=True)
     power.SetThreadExecutionState.argtypes=[ctypes.c_uint32]
     power.SetThreadExecutionState.restype=ctypes.c_uint32

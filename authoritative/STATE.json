@@ -2451,7 +2451,7 @@
   "active_session": {
     "id": "S045",
     "status": "RUNNING",
-    "stage": "SUSTAINED_SEARCH_STREAMING",
+    "stage": "SUSTAINED_SEARCH_WATCHDOG_REPAIRED",
     "no_automatic_S046": true,
     "s036_restart_authorized": false,
     "owner_override": "sessions/S045/INPUT.md",
@@ -2476,7 +2476,7 @@
     "native_controls": "PASS",
     "benchmark": "PASS",
     "selected": "partition-positive",
-    "production_wall_ceiling_seconds": 28800,
+    "production_wall_ceiling_seconds": null,
     "runtime_guard": "scripts/s045_runtime.py",
     "S036_restarted": false,
     "bounds": [
@@ -2485,6 +2485,21 @@
     ],
     "initial_slice_candidates": 38042,
     "initial_slice_geometric_rules": 111073,
-    "original_ceiling_preserved": true
+    "original_ceiling_preserved": false,
+    "ceiling_superseded_by": "OWNER_DEADLINE_2026-10-25T07:30:00Z"
+  },
+  "s045_watchdog_repair": {
+    "status": "ACCEPTED_RESTARTED",
+    "authority": "sessions/S045/WATCHDOG_REPAIR.md",
+    "deadline_utc": "2026-10-25T07:30:00Z",
+    "deadline_epoch": 1792913400,
+    "two_hour_heartbeat": "earth-moon-s045-two-hour-check-in",
+    "old_context_private_state": "LOST_AFTER_COOPERATIVE_STOP",
+    "saved_candidate_records": 272374,
+    "saved_geometric_rule_occurrences": 900798,
+    "acceptance": "validation/S045/watchdog_repair/ACCEPTANCE.json",
+    "seed_candidates": 275961,
+    "seed_geometric_rules": 924323,
+    "checkin_status": "ACTIVE"
   }
 }

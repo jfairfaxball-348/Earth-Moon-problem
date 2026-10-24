@@ -1,0 +1,153 @@
+{
+ "status": "PASS",
+ "observed_utc": "2026-10-24T19:07:50Z",
+ "records": {
+  "STATUS.json": {
+   "n": 50,
+   "k": 9,
+   "mode": "partition",
+   "positive_phases": true,
+   "controller": {
+    "pid": 12652,
+    "create_time": 1792868586.1157625,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "started_utc": "2026-10-24T19:03:06Z",
+   "scientific_verdict": "UNKNOWN",
+   "witness": false,
+   "domain_excluded": false,
+   "source_sha256": {
+    "tools/s045_search.py": "282279097c0bec5647e93985649466e3d2bdc951906e4ae98a13062bb9e88bb0",
+    "tools/s045_driver.py": "99a00cf06fe19135c636761e1b375f6fb898ea6ba97483feecaeb89864d830ae",
+    "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+    "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+    "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+    "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+    "scripts/s045_runtime.py": "7b08f52569c2877d5f018d1c1231dc857b78fa11e4163dc3c2eff75073278d00",
+    "scripts/s045_campaign.py": "767bf5494cae78518d231811e1b45ba455b89aa3451d9d73f477acc046ba20e0",
+    "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+   },
+   "input_sha256": "2ee315335c6e2c2f1213dd9e0d5bbf791093e8da31800290a1507ebeaa8cd942",
+   "generator": {
+    "pid": 4172,
+    "create_time": 1792868827.4587884,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+   },
+   "native_startup_seconds": 18.01600000000326,
+   "loaded_geometric_rules": 924323,
+   "state": "RUNNING",
+   "stage": "SOLVING",
+   "elapsed_seconds": 281.5469999999914,
+   "solve_elapsed_seconds": 22.546999999991385,
+   "candidates": 277428,
+   "new_candidates": 1467,
+   "native_progress": "c S045 checks=363261 cuts=6443 models=1324"
+  },
+  "CAMPAIGN.json": {
+   "state": "RUNNING",
+   "controller": {
+    "pid": 12652,
+    "create_time": 1792868586.1157625,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "deadline_epoch": 1792913400.0,
+   "deadline_utc": "2026-10-25T07:30:00+00:00",
+   "started_epoch": 1792868586.468774,
+   "n": 50,
+   "k": 9,
+   "positive_phases": true,
+   "private_memory_cap": 3221225472,
+   "available_floor": 1610612736.0,
+   "disk_floor": 10737418240
+  },
+  "POWER.json": {
+   "state": "ACTIVE",
+   "helper": {
+    "pid": 15012,
+    "create_time": 1792868737.4050736,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "controller": {
+    "pid": 12652,
+    "create_time": 1792868586.1157625,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "deadline_epoch": 1792913400.0,
+   "display_kept_on": false,
+   "system_awake_requested": true
+  },
+  "DEADLINE.json": {
+   "deadline_epoch": 1792913400.0,
+   "deadline_utc": "2026-10-25T07:30:00+00:00",
+   "deadline_local": "2026-10-25T07:30:00+00:00",
+   "timezone": "Europe/London",
+   "authority": "Owner: Fix. And install the check ins... Then when fix start again. Rather than an 8 hour roof, set the hard roof at 7.30 am tomorrow"
+  },
+  "IDENTITY.json": {
+   "n": 50,
+   "k": 9,
+   "mode": "partition",
+   "positive_phases": true,
+   "controller": {
+    "pid": 12652,
+    "create_time": 1792868586.1157625,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "started_utc": "2026-10-24T19:03:06Z",
+   "scientific_verdict": "UNKNOWN",
+   "witness": false,
+   "domain_excluded": false,
+   "source_sha256": {
+    "tools/s045_search.py": "282279097c0bec5647e93985649466e3d2bdc951906e4ae98a13062bb9e88bb0",
+    "tools/s045_driver.py": "99a00cf06fe19135c636761e1b375f6fb898ea6ba97483feecaeb89864d830ae",
+    "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+    "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+    "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+    "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+    "scripts/s045_runtime.py": "7b08f52569c2877d5f018d1c1231dc857b78fa11e4163dc3c2eff75073278d00",
+    "scripts/s045_campaign.py": "767bf5494cae78518d231811e1b45ba455b89aa3451d9d73f477acc046ba20e0",
+    "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+   },
+   "input_sha256": "2ee315335c6e2c2f1213dd9e0d5bbf791093e8da31800290a1507ebeaa8cd942",
+   "generator": {
+    "pid": 4172,
+    "create_time": 1792868827.4587884,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+   },
+   "command": [
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\BASE.inst",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\PLANARITY.lem",
+    "600",
+    "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\STOP",
+    "1",
+    "partition"
+   ]
+  }
+ },
+ "samples": {
+  "controller": {
+   "identity": {
+    "pid": 12652,
+    "create_time": 1792868586.1157625,
+    "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+   },
+   "cpu_before": 264.1875,
+   "private_bytes": 38248448,
+   "cpu_after": 266.015625
+  },
+  "generator": {
+   "identity": {
+    "pid": 4172,
+    "create_time": 1792868827.4587884,
+    "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+   },
+   "cpu_before": 26.3125,
+   "private_bytes": 615170048,
+   "cpu_after": 26.953125
+  }
+ },
+ "available_memory": 6319529984,
+ "disk_free": 27072290816,
+ "live_observation_only": true
+}

@@ -1,0 +1,27 @@
+{
+ "status": "PASS",
+ "candidates": 272374,
+ "geometric_cuts": 900798,
+ "geometric_raw_sha256": "df71bfdeb340d4023595234ba25e90e2118863e2306e8cdc78825fd124e01a23",
+ "files": {
+  "CANDIDATES.jsonl": {
+   "raw_sha256": "1243295f58b7c5ef0b79656f14e01c43ce4db834eab7d750a565815000702502",
+   "raw_bytes": 1873820203,
+   "archive_sha256": "5f1d0565c3e0c814a60c6547a1140e8e5006a0bb74c780df26714dd12efea2f6",
+   "archive_bytes": 34880734,
+   "archive": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\CANDIDATES.jsonl.gz",
+   "decoded_bytes_verified": true
+  },
+  "NATIVE.log": {
+   "raw_sha256": "9876df072035915e24dfc862694c8c0e5e9056d28a2aa6fa75dc4c1211041536",
+   "raw_bytes": 670821257,
+   "archive_sha256": "45917e763925f417c3dc6463ad56ee47fe47c92a0a551127b72e1e14269e7bf4",
+   "archive_bytes": 6728682,
+   "archive": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\NATIVE.log.gz",
+   "decoded_bytes_verified": true
+  }
+ },
+ "old_identities_exited": true,
+ "private_cdcl_serialized": false,
+ "elapsed_seconds": 86.71735262870789
+}

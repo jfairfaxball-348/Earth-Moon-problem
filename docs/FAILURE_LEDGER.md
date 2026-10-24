@@ -175,3 +175,12 @@ S044 proof-scope finding: later Hajós joins can delete further edges of a desig
 S045 preparation failures: reversed-edge imported fixture canonicalisation and Windows psutil Path incompatibility; corrected, failed logs preserved, final fresh suite PASS. Benchmark does not show a throughput speedup over blocking or graph coverage.
 
 S045 streaming maintenance: 38042 candidate records / 111073 geometric rule occurrences preserved; exact bounded-memory CNF replay PASS; fresh controls/benchmark PASS; partition-positive selected; same campaign resumed under original ceiling. No witness or coverage claim.
+
+S045 watchdog: parent solve timer included checkpoint loading; native timer
+began after loading. Observed stop at 614.69 seconds supports this cause,
+but the old STOP_FILE overwrite destroyed definitive first-cause provenance.
+Fresh regression loaded 18.156 seconds (old grace 15), then completed 60-second
+solve budget. READY-based timer and immutable first cause accepted; deadline
+tested during preparation/loading/solving and clock rollback. Two-hour actual
+heartbeat installed; hard roof 25 October 07:30 UK/GMT. All semantic records
+preserved; old private CDCL lost. Restart actively searching, no witness.

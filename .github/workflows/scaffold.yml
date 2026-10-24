@@ -75,4 +75,6 @@ jobs:
       - name: Verify S044 decision audit and composition scope correction
         run: python scripts/s045_replay_history.py scripts/check_s044_records.py
       - name: Verify S045 native acceptance benchmark certificates and live authority
-        run: python scripts/check_s045_records.py
+        run: python scripts/s045_replay_initial.py
+      - name: Verify S045 watchdog repair deadline check-ins and preserved checkpoint
+        run: python scripts/check_s045_watchdog.py

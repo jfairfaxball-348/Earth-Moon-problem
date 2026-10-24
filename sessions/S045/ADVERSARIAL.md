@@ -49,3 +49,24 @@ resume checks old identities and owner STOP, preserves controls and all journals
 and retains the original ceiling. This is current owner-authorised preparation
 and search, not automatic recovery of an owner stop. Runtime guard/keep-awake
 helpers are newly scoped to S045 only. No historical process was touched.
+
+
+Watchdog repair, owner instruction of 24 October 2026: the old parent timer
+started before native checkpoint loading while the solver timer started after
+loading. The observed 614.69-second stop is consistent with that mismatch;
+the old STOP_FILE overwrite lost the actual first cause, so this remains a
+root-cause inference supported by a fresh regression test. Separate READY
+and solve clocks fix the mismatch; immutable STOP_CAUSE preserves provenance.
+The full cold restart loaded 900798 rules in 18.156 seconds, exceeding the old
+15-second allowance, then completed its registered 60-second solve slice.
+All original 272374 rows/900798 geometric rules survive in decoded-hash-checked
+archives. Benchmark additions 3587 rows/23525 cuts were independently replayed
+and transferred using identical n=50 labelled vertices and lexicographic
+variables 2i+1/2i+2. These are unconditional colouring/Kuratowski clauses for
+the same target. Seed is now 275961 rows/924323 geometric rules. Private CDCL
+was lost on the earlier exit. No projected coverage or graph exclusion follows.
+The owner replaced all eight-hour roofs with 25 October 07:30 UTC/GMT.
+Timing controls cover missing/slow READY, preparation/loading/solving deadline,
+clock rollback, first cause, byte-preserving compression and duplicate recovery.
+Actual two-hour heartbeat receipt is CHECKIN.json. The live search remains S045;
+S036 stays stopped, no S046 invoked, no witness or bound advance.

@@ -1,0 +1,10 @@
+{
+ "id": "earth-moon-s045-two-hour-check-in",
+ "name": "Earth\u2013Moon S045 two-hour check-in",
+ "kind": "heartbeat",
+ "status": "ACTIVE",
+ "rrule": "FREQ=HOURLY;INTERVAL=2",
+ "target_thread_id": "01a16e67-61ad-7111-ad8d-bb815246df8c",
+ "created_at": 1792866659798,
+ "updated_at": 1792866659798
+}

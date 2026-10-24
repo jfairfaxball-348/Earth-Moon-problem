@@ -1,0 +1,49 @@
+{
+ "state": "STOPPED",
+ "controller": {
+  "pid": 3616,
+  "create_time": 1792860044.7723613,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "slices": 6,
+ "elapsed_seconds": 4512.875,
+ "last_slice": {
+  "n": 50,
+  "k": 9,
+  "mode": "partition",
+  "positive_phases": true,
+  "controller": {
+   "pid": 3616,
+   "create_time": 1792860044.7723613,
+   "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "started_utc": "2026-10-24T17:45:03Z",
+  "scientific_verdict": "UNKNOWN",
+  "witness": false,
+  "domain_excluded": false,
+  "input_sha256": "507c9945acca64089a16c675c33f13a27bc00e6933604e0d681bafb3570d9106",
+  "source_sha256": {
+   "tools\\s045_search.py": "ba6fb8f545497fa00bec7d0c30cc08af613f5e24b7bfb92ad354b26b910d7641",
+   "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4",
+   "tools\\s045_native.cpp": "321510112f975caaf565ef0844302a96d9d3464f7a458da2bc3e8cf7b9d14724",
+   "tools\\s045_main.hpp": "9c6b872c4d4a3008af03773c75b8fecb93339e9e3fe032394c905dbb14a04e87"
+  },
+  "generator": {
+   "pid": 6592,
+   "create_time": 1792863903.8858995,
+   "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\native\\bipsat_s045.exe"
+  },
+  "state": "STOPPED",
+  "elapsed_seconds": 654.4059999999881,
+  "candidates": 272374,
+  "new_candidates": 37712,
+  "reason": "STOP_FILE",
+  "native_returncode": 0,
+  "error": null,
+  "verified_geometric_cuts": 900798,
+  "native_progress": "c S045 checks=10174015 cuts=131495 models=37496",
+  "candidate_journal_sha256": "1243295f58b7c5ef0b79656f14e01c43ce4db834eab7d750a565815000702502"
+ },
+ "scientific_verdict": "UNKNOWN",
+ "witness": false
+}

@@ -1,0 +1,30 @@
+{
+ "status": "PASS",
+ "source_sha256": {
+  "tools/s045_search.py": "282279097c0bec5647e93985649466e3d2bdc951906e4ae98a13062bb9e88bb0",
+  "tools/s045_driver.py": "99a00cf06fe19135c636761e1b375f6fb898ea6ba97483feecaeb89864d830ae",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "scripts/s045_runtime.py": "7b08f52569c2877d5f018d1c1231dc857b78fa11e4163dc3c2eff75073278d00",
+  "scripts/s045_campaign.py": "767bf5494cae78518d231811e1b45ba455b89aa3451d9d73f477acc046ba20e0",
+  "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+ },
+ "smoke": "PASS",
+ "native_controls": "PASS",
+ "policy_controls": "PASS",
+ "full_restart_benchmark": "PASS",
+ "native_loading_seconds": 18.15600000001723,
+ "native_solve_budget_seconds": 60,
+ "deadline_epoch": 1792913400,
+ "seed_candidates": 275961,
+ "seed_geometric_rules": 924323,
+ "original_preserved_candidates": 272374,
+ "original_preserved_geometric_rules": 900798,
+ "seed_geometry_sha256": "a0874b84c05cffe70d01846359adf40bb9cb33828bd784fef8bcf9517fb54b4f",
+ "benchmark_new_candidates": 3587,
+ "benchmark_new_geometric_rules": 23525,
+ "counts_are_coverage": false,
+ "private_cdcl_serialized": false
+}

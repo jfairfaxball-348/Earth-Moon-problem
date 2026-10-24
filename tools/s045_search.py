@@ -4,6 +4,7 @@ No independence/degree/symmetry restriction. Checkpoints are semantic only.
 Search counts are activity; native UNSAT alone never excludes a domain.
 """
 import argparse
+import gzip
 import hashlib
 import itertools as it
 import json
@@ -22,8 +23,9 @@ from pysat.solvers import Solver
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
 from s045_verify import check_pair, check_colouring, partition_clause, geometric_journal
+from s045_policy import CampaignStop,deadline_reason,latch_stop,read_cause,slice_timeout
 
-EXE=ROOT/'artifacts/tmp/S045/native/bipsat_s045.exe'
+EXE=ROOT/'artifacts/tmp/S045/watchdog-native/bipsat_s045.exe'
 COMP=ROOT/'artifacts/tmp/S004/compiler/llvm-mingw-20261006-ucrt-x86_64/bin'
 
 def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -41,15 +43,17 @@ def append(path,data):
     with Path(path).open('a',encoding='utf-8',newline='\n') as f:
         f.write(json.dumps(data,separators=(',',':'))+'\n'); f.flush(); os.fsync(f.fileno())
 
-def journal(path):
+def journal(path,cancel=None):
     if not Path(path).exists(): return
     # Stream one row at a time; an incomplete row is never used as a rule.
-    with Path(path).open(encoding='utf-8') as f:
-        for line in f:
+    opener=gzip.open if str(path).endswith('.gz') else Path.open
+    with opener(Path(path),'rt',encoding='utf-8') as f:
+        for index,line in enumerate(f):
+            if cancel and index%128==0:cancel()
             if not line.endswith('\n'): raise ValueError('incomplete journal; preserve and repair explicitly')
             yield json.loads(line)
 
-def instance(path,n,records=(),fixed=None,record_count=None,target_k=None,target_mode=None):
+def instance(path,n,records=(),fixed=None,record_count=None,target_k=None,target_mode=None,cancel=None):
     pairs=list(it.combinations(range(n),2))
     if record_count is None: record_count=len(records)
     if fixed is not None:
@@ -62,6 +66,7 @@ def instance(path,n,records=(),fixed=None,record_count=None,target_k=None,target
         for i in range(len(pairs)):emit([-2*i-1,-2*i-2])
         count=0
         for row in records:
+            if cancel and count%128==0:cancel()
             assert row['n']==n and (target_k is None or row['k']==target_k)
             assert row['mode'] in ('partition','block') and (target_mode is None or row['mode']==target_mode)
             check_pair(n,row['layers'],row['rotations'])
@@ -88,16 +93,20 @@ def colour_cnf(n,layers,k):
     clauses.append([1])  # colour-name permutation only
     return clauses
 
-def colouring(n,layers,k,seconds=60):
+def colouring(n,layers,k,seconds=60,cancel=None):
     clauses=colour_cnf(n,layers,k)
     with Solver(name='g4',bootstrap_with=clauses) as s:
-        timer=threading.Timer(seconds,s.interrupt); timer.start()
+        done=threading.Event();until=time.monotonic()+seconds
+        def interrupt():
+            while not done.wait(.05):
+                if time.monotonic()>=until or (cancel and cancel()):s.interrupt();return
+        timer=threading.Thread(target=interrupt,daemon=True);timer.start()
         try:
             result=s.solve_limited(expect_interrupt=True)
             if result is not True: return result,None
             positive={v for v in s.get_model() if v>0}
             cols=[next(c for c in range(k) if v*k+c+1 in positive) for v in range(n)]
-        finally: timer.cancel()
+        finally:done.set();timer.join()
     # Split existing classes until all k colours are used; this remains proper
     # and makes a stronger (shorter) necessary partition clause.
     for missing in sorted(set(range(k))-set(cols)):
@@ -124,102 +133,52 @@ def identity(p):
     q=psutil.Process(p.pid)
     return dict(pid=p.pid,create_time=q.create_time(),exe=q.exe())
 
-def run_slice(out,n,k,seconds,mode='partition',positive=False,status_path=None,records_path=None,fixed=None):
-    out=Path(out); out.mkdir(parents=True,exist_ok=True)
-    records_path=Path(records_path or out/'CANDIDATES.jsonl')
-    old=sum(1 for _ in journal(records_path));count=old
-    pairs=instance(out/'BASE.inst',n,journal(records_path),fixed,old,k,mode)
-    lemmas=out/'PLANARITY.lem'; geometric_journal(lemmas,n)
-    stop=out/'STOP'; started=time.monotonic(); own=psutil.Process()
-    status_path=Path(status_path or out/'STATUS.json')
-    base=dict(n=n,k=k,mode=mode,positive_phases=positive,controller=identity(own),
-              started_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),
-              scientific_verdict='UNKNOWN',witness=False,domain_excluded=False,
-              input_sha256=sha(out/'BASE.inst'),source_sha256={str(p.relative_to(ROOT)):sha(p) for p in
-                [ROOT/'tools/s045_search.py',ROOT/'tools/s045_verify.py',ROOT/'tools/s045_native.cpp',ROOT/'tools/s045_main.hpp']})
-    def save(state,**extra):
-        atomic(status_path,dict(base,state=state,elapsed_seconds=time.monotonic()-started,
-               candidates=count,new_candidates=count-old,**extra))
-    if stop.exists(): save('STOPPED',reason='STOP_FILE'); return json.loads(status_path.read_text())
-    resource=reason()
-    if resource: save('STOPPED',reason=resource); return json.loads(status_path.read_text())
-    log=(out/'NATIVE.log').open('a',encoding='utf-8',buffering=1)
-    command=[str(EXE),str(out/'BASE.inst'),str(lemmas),str(seconds),str(stop),str(int(positive)),mode]
-    p=subprocess.Popen(command,cwd=ROOT,env=env(),stdin=subprocess.PIPE,stdout=subprocess.PIPE,
-                       stderr=subprocess.STDOUT,text=True,bufsize=1)
-    base['generator']=identity(p)
-    atomic(out/'IDENTITY.json',dict(base,command=command))
-    q=queue.Queue()
-    def reader():
-        for line in p.stdout: log.write(line);q.put(line.rstrip())
-        q.put(None)
-    reader_thread=threading.Thread(target=reader,daemon=True);reader_thread.start()
-    def send(s): p.stdin.write(s+'\n');p.stdin.flush()
-    last=time.monotonic(); ending=None; stats=''; error=None; guard=None
-    save('RUNNING')
-    try:
-        while True:
-            if stop.exists() or time.monotonic()-started>seconds+15 or reason():
-                guard='STOP_FILE' if stop.exists() else reason() or 'WALL_LIMIT'
-                stop.touch(exist_ok=True)
-                # Termination callback sees STOP during solve; stdin wakes an idle model.
-                try: send('STOP')
-                except (OSError,BrokenPipeError): pass
-                if ending is None: ending=time.monotonic()
-            if ending and time.monotonic()-ending>30:
-                guard='COOPERATIVE_STOP_FAILED:'+str(guard)
-                p.terminate()  # exact newly created child only; semantic journals already durable
-                break
-            try: line=q.get(timeout=.1)
-            except queue.Empty: line=''
-            if line is None: break
-            if line.startswith('c S045'): stats=line
-            if line.startswith('CAND '):
-                bits=line.split()[2]; assert len(bits)==2*len(pairs) and set(bits)<={'0','1'}
-                layers=[[list(e) for i,e in enumerate(pairs) if bits[2*i+j]=='1'] for j in (0,1)]
-                rotations=[]
-                for ls in layers:
-                    g=nx.Graph();g.add_nodes_from(range(n));g.add_edges_from(ls)
-                    planar,embedding=nx.check_planarity(g)
-                    assert planar,'native nonplanar model'
-                    rotations.append(embedding.get_data())
-                check_pair(n,layers,rotations)
-                if guard: send('STOP'); continue
-                answer,cols=colouring(n,layers,k,min(60,max(1,seconds-(time.monotonic()-started))))
-                if answer is not True:
-                    alert=dict(n=n,k=k,layers=layers,rotations=rotations,
-                               colouring_result=answer,proof_verified=False,verdict='UNKNOWN')
-                    atomic(out/'ALERT.json',alert)
-                    guard='NONCOLOUR_ALERT_UNVERIFIED' if answer is False else 'COLOUR_TIMEOUT'
-                    send('STOP');ending=time.monotonic();continue
-                row=dict(n=n,k=k,layers=layers,rotations=rotations,colours=cols,mode=mode,bits=bits,
-                         elapsed_seconds=time.monotonic()-started)
-                # Record and independently verify the rule before giving it to native SAT.
-                check_colouring(n,layers,cols,k);partition_clause(n,cols)
-                append(records_path,row);count+=1
-                send('COLOR '+str(k)+' '+' '.join(map(str,cols)))
-            if line.startswith('END 20'):
-                guard='NATIVE_UNSAT_UNCERTIFIED'; ending=time.monotonic()
-            if time.monotonic()-last>=5:
-                save('RUNNING',native_progress=stats);last=time.monotonic()
-        p.wait(timeout=30)
-    except BaseException as e:
-        error=repr(e);stop.touch(exist_ok=True)
-        try: send('STOP')
-        except (OSError,BrokenPipeError): pass
-        try: p.wait(timeout=30)
-        except subprocess.TimeoutExpired: p.terminate();p.wait(timeout=10)
-    finally:
-        reader_thread.join(timeout=3);log.close()
-        if p.stdin: p.stdin.close()
-        if p.stdout: p.stdout.close()
-    cuts=geometric_journal(lemmas,n)
-    save('ERROR' if error or p.returncode not in (0,20) else 'STOPPED' if guard else 'SLICE_COMPLETE',
-         reason=guard or 'NATIVE_TIMEOUT',native_returncode=p.returncode,error=error,
-         verified_geometric_cuts=cuts,native_progress=stats,
-         candidate_journal_sha256=sha(records_path) if records_path.exists() else None)
-    data=json.loads(status_path.read_text());print(json.dumps(data),flush=True)
-    return data
+def run_slice(*args,**kwargs):
+    from s045_driver import run_slice as driver
+    return driver(*args,**kwargs)
+
+
+def seal_file(path,destination=None,cancel=None):
+    """Compress a closed journal, independently verify decoded bytes, then retire raw."""
+    path=Path(path)
+    if not path.exists() or path.stat().st_size==0:return None
+    dest=Path(destination or str(path)+'.gz');dest.parent.mkdir(parents=True,exist_ok=True)
+    receipt=Path(str(dest)+'.seal.json')
+    if dest.exists():
+        saved=json.loads(receipt.read_text());assert sha(path)==saved['raw_sha256']
+        assert sha(dest)==saved['archive_sha256'];path.unlink();return saved
+    tmp=Path(str(dest)+'.partial');before=path.stat();raw=hashlib.sha256()
+    with path.open('rb') as src,gzip.open(tmp,'wb') as dst:
+        while block:=src.read(1024*1024):
+            if cancel:cancel()
+            raw.update(block);dst.write(block)
+    decoded=hashlib.sha256()
+    with gzip.open(tmp,'rb') as f:
+        while block:=f.read(1024*1024):
+            if cancel:cancel()
+            decoded.update(block)
+    assert decoded.hexdigest()==raw.hexdigest()
+    after=path.stat();assert (before.st_size,before.st_mtime_ns)==(after.st_size,after.st_mtime_ns)
+    data=dict(raw_sha256=raw.hexdigest(),raw_bytes=before.st_size,archive_sha256=sha(tmp),
+              archive_bytes=tmp.stat().st_size,archive=str(dest),decoded_bytes_verified=True)
+    atomic(receipt,data);os.replace(tmp,dest);path.unlink();return data
+
+
+def checkpoint_sources(base):
+    base=Path(base);sources=[]
+    candidates=[base/'CANDIDATES.jsonl']
+    directory=base/'journals'
+    if directory.exists():
+        names={p.name.removesuffix('.gz') for p in directory.iterdir() if p.name.endswith(('.jsonl','.jsonl.gz'))}
+        candidates.extend(directory/name for name in sorted(names))
+    for raw in candidates:
+        gz=Path(str(raw)+'.gz')
+        if gz.exists():
+            saved=json.loads(Path(str(gz)+'.seal.json').read_text())
+            if raw.exists():assert sha(raw)==saved['raw_sha256'],'ambiguous raw/compressed checkpoint'
+            sources.append(gz)
+        elif raw.exists():sources.append(raw)
+    return sources
 
 def benchmark(label='benchmark'):
     base=ROOT/'artifacts/tmp/S045'/label;rows=[]
@@ -254,22 +213,45 @@ def campaign():
     lock=base/'LOCK.json'
     # Atomic exclusive creation; fail closed even if an old PID has disappeared.
     with lock.open('x',encoding='utf-8') as f:json.dump(identity(psutil.Process()),f)
-    started=time.monotonic();deadline=started+8*3600;index=0;result=None
+    directive=json.loads((base/'DEADLINE.json').read_text())
+    deadline_epoch=directive['deadline_epoch'];assert time.time()<deadline_epoch
+    started=time.monotonic();deadline=started+max(0,deadline_epoch-time.time());index=0;result=None
+    (base/'journals').mkdir(exist_ok=True)
+    existing=[int(p.name.split('.')[0]) for p in (base/'journals').iterdir() if p.name.split('.')[0].isdigit()]
+    sequence=max(existing,default=0)+1
     atomic(base/'CAMPAIGN.json',dict(state='RUNNING',controller=identity(psutil.Process()),
-           wall_ceiling_seconds=8*3600,started_epoch=time.time(),n=50,k=9,positive_phases=benchmark['positive_phases'],
+           deadline_epoch=deadline_epoch,deadline_utc=directive['deadline_utc'],started_epoch=time.time(),n=50,k=9,positive_phases=benchmark['positive_phases'],
            private_memory_cap=3*2**30,available_floor=1.5*2**30,disk_floor=10*2**30))
+    def cancel():
+        why=deadline_reason(deadline_epoch,time.time(),deadline,time.monotonic())
+        if why:raise CampaignStop(latch_stop(base,why))
+        if (base/'STOP').exists():raise CampaignStop(read_cause(base))
     try:
         while time.monotonic()<deadline:
-            if (base/'STOP').exists(): break
-            result=run_slice(base,50,9,min(600,deadline-time.monotonic()),'partition',benchmark['positive_phases'])
+            cancel()
+            current=base/'journals'/f'{sequence:06d}.jsonl'
+            sources=checkpoint_sources(base)+[current]
+            result=run_slice(base,50,9,min(600,deadline-time.monotonic()),'partition',benchmark['positive_phases'],
+                             records_path=current,records_sources=sources,absolute_deadline=deadline_epoch)
             index+=1
             append(base/'SLICES.jsonl',result)
             if result['state']!='SLICE_COMPLETE': break
-        atomic(base/'CAMPAIGN.json',dict(state='STOPPED',controller=identity(psutil.Process()),slices=index,
-               elapsed_seconds=time.monotonic()-started,last_slice=result,scientific_verdict='UNKNOWN',witness=False))
+            # Only closed files are sealed; new segments have distinct names.
+            seal_file(current,cancel=cancel)
+            seal_file(base/'NATIVE.log',base/'logs'/f'NATIVE-{int(time.time())}.log.gz',cancel)
+            sequence+=1
+        if time.time()>=deadline_epoch:latch_stop(base,'OWNER_DEADLINE_0730')
+    except CampaignStop as e:
+        latch_stop(base,str(e))
     except BaseException as e:
+        latch_stop(base,'CAMPAIGN_ERROR',error=repr(e))
         atomic(base/'ERROR.json',dict(error=repr(e),elapsed_seconds=time.monotonic()-started));raise
-    finally: lock.unlink()
+    finally:
+        atomic(base/'CAMPAIGN.json',dict(state='STOPPED',controller=identity(psutil.Process()),slices=index,
+               deadline_epoch=deadline_epoch,deadline_utc=directive['deadline_utc'],
+               reason=read_cause(base) if (base/'STOP').exists() else 'CAMPAIGN_COMPLETE',
+               elapsed_seconds=time.monotonic()-started,last_slice=result,scientific_verdict='UNKNOWN',witness=False))
+        lock.unlink()
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('mode',choices=['benchmark','campaign']);ap.add_argument('--label',default='benchmark');a=ap.parse_args()

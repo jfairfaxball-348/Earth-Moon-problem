@@ -40,6 +40,7 @@ int main(int argc, char **argv) {
   solver.resize(2*m+extra);
   for(int v=1;v<=2*m;v++) solver.add_observed_var(v);
   for(int c=0;c<nc;c++) {
+    if(c%1024==0 && std::filesystem::exists(argv[4])) {printf("END 0 0 0\n");fflush(stdout);return 0;}
     int lit;
     do {
       if(fscanf(f," %d",&lit)!=1 || abs(lit)>2*m+extra) die("bad clause");
@@ -47,7 +48,8 @@ int main(int argc, char **argv) {
     } while(lit);
   }
   fclose(f);
-  auto loaded=load_validated_lemmas(argv[2],n,edges,&solver,nullptr);
+  auto loaded=load_validated_lemmas(argv[2],n,edges,&solver,nullptr,argv[4]);
+  if(std::filesystem::exists(argv[4])) {printf("END 0 0 0\n");fflush(stdout);return 0;}
   if(loaded.rejected_format || loaded.rejected_planar || loaded.incomplete) die("invalid geometric checkpoint");
   prop.n_lemmas_loaded=loaded.loaded;
   prop.lemma_out=fopen(argv[2],"a");
@@ -58,6 +60,8 @@ int main(int argc, char **argv) {
   S045Terminator term;
   term.deadline=now_s()+atof(argv[3]); term.stop=argv[4]; term.prop=&prop;
   solver.connect_terminator(&term);
+  // Parent and native slice clocks start AFTER all checkpoint loading.
+  printf("READY %ld\n",loaded.loaded);fflush(stdout);
   long models=0;
   for(;;) {
     int res=solver.solve();

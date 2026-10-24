@@ -1,0 +1,16 @@
+{
+ "wmi": true,
+ "cmd_pid": 18264,
+ "command": [
+  "C:\\Earth-Moon-problem\\.venv\\Scripts\\python.exe",
+  "C:\\Earth-Moon-problem\\scripts\\s045_runtime.py"
+ ],
+ "log": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\campaign\\controller.log",
+ "time_epoch": 1792860044.5161018,
+ "source_sha256": {
+  "scripts\\s045_campaign.py": "87fbce87e40baaa0600339bf9b2df4909072106380ce7d0d85cfe39d6a6d40ec",
+  "tools\\s045_search.py": "ba6fb8f545497fa00bec7d0c30cc08af613f5e24b7bfb92ad354b26b910d7641",
+  "tools\\s045_verify.py": "2e33a1a9500d47d63972bf3fec283e639e7a185eb25c249364c5b8967a3cf8a4"
+ },
+ "stage": "WMI_DISPATCHED_NOT_YET_PROVEN_RUNNING"
+}

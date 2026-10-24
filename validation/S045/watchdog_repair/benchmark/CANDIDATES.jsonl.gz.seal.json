@@ -1,0 +1,8 @@
+{
+ "raw_sha256": "59ddf63a6d404d36e3a96ab2b997654f4614825793ffe3a7ee7af60c8a4b823b",
+ "raw_bytes": 25719061,
+ "archive_sha256": "8986bc8f917944005e4a75a5533e4e4ba4c93dd6e96e4160517900a7cb37caf6",
+ "archive_bytes": 597361,
+ "archive": "C:\\Earth-Moon-problem\\validation\\S045\\watchdog_repair\\benchmark\\CANDIDATES.jsonl.gz",
+ "decoded_bytes_verified": true
+}

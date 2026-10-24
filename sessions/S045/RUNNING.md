@@ -1,3 +1,35 @@
+# S045 watchdog repaired and restarted — 24 October 2026
+
+Hard search stop: **Sunday 25 October 2026, 07:30 Europe/London = 07:30 UTC/GMT**.
+All former eight-hour ceilings are superseded. Two-hour heartbeat
+`earth-moon-s045-two-hour-check-in` is ACTIVE. Read the current execution
+prompt and `validation/S045/watchdog_repair/ACCEPTANCE.json`.
+
+The repaired campaign was WMI-launched at 19:03:06 UTC. Exact live identities
+are in campaign STATUS/IDENTITY; stored PIDs below are observations, never
+authority to signal a process. Keep-awake helper is ACTIVE until the deadline.
+Read-only: `.venv/Scripts/python.exe scripts/s045_campaign.py status --brief`.
+Safe stop: `.venv/Scripts/python.exe scripts/s045_campaign.py stop`.
+No automatic restart after STOP, alert, UNSAT or the deadline. No S036/S046.
+
+Checkpoint preparation and loading are separately visible. Native READY starts
+the 600-second solve timer; 900-second loading ceiling remains bounded by
+the owner's absolute deadline. STOP_CAUSE.json preserves the first cause.
+Whole-run deadline checks use wall UTC and monotonic time. Closed journals
+are byte-verified gzip archives; raw active files remain append-only.
+
+All 272374 original candidate records and 900798 geometric rule occurrences
+were preserved byte-for-byte. The full restart benchmark checked the entire
+checkpoint, loaded natively in 18.156 seconds and finished its requested
+60-second solve slice. It added 3587 independently checked colour partitions
+and 23525 geometric cuts, now included in production (275961/924323 seed).
+Counts are activity, not unique graphs or projected coverage. No witness;
+9<=chi_2<=12. Fresh full smoke, native controls and timing/deadline controls PASS.
+Original evidence/source bytes remain frozen under initial_sources and
+preserved; scripts/s045_replay_initial.py verifies that historical context.
+
+Historical running handover follows; its former eight-hour limits are superseded.
+
 # S045 sustained 50-vertex search — IN PROGRESS
 
 Owner authorises preparation, testing, benchmarking and search. S036 remains

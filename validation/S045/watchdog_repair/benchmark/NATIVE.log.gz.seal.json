@@ -1,0 +1,8 @@
+{
+ "raw_sha256": "341d3389d08fe640d771d976eb897785497dbb10874a8607ef76eeea7c3809c2",
+ "raw_bytes": 8830640,
+ "archive_sha256": "053c1dc5c965e174e6632fe8c838e611ad5da8bbe74e30ee9fc4c3dd04321ba8",
+ "archive_bytes": 88053,
+ "archive": "C:\\Earth-Moon-problem\\validation\\S045\\watchdog_repair\\benchmark\\NATIVE.log.gz",
+ "decoded_bytes_verified": true
+}

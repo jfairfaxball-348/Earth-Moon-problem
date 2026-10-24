@@ -99,7 +99,7 @@ struct LemmaLoadStats {
 
 static LemmaLoadStats load_validated_lemmas (
     const char *path, int n, const std::vector<std::pair<int, int>> &edges,
-    CaDiCaL::Solver *solver, FILE *validated_out) {
+    CaDiCaL::Solver *solver, FILE *validated_out, const char *stop_path = nullptr) {
   LemmaLoadStats stats;
   // DrvFS makes thousands of tiny file operations costly; buffer before open.
   std::vector<char> read_buffer (1 << 20);
@@ -118,6 +118,7 @@ static LemmaLoadStats load_validated_lemmas (
   long line_number = 0;
   while (std::getline (input, line)) {
     ++line_number;
+    if (stop_path && line_number%1024==1 && std::filesystem::exists(stop_path)) break;
     stats.needs_separator = input.eof () && !line.empty ();
     clause.clear ();
     support.clear ();

@@ -111,3 +111,9 @@ S035 sustained continuation RUNNING2026-10-23: original native threads only, hel
 | S045 | 2026-10-24 | IN_PROGRESS CAM0049 | S045 owner CONTINUE overrides proposal-only gate: unrestricted 50-vertex native colouring-feedback search; fresh acceptance and three-arm benchmark PASS; sustained run is separately identified in RUNNING.md. S036 stopped; no witness or bound advance. |
 
 S045 streaming maintenance: 38042 candidate records / 111073 geometric rule occurrences preserved; exact bounded-memory CNF replay PASS; fresh controls/benchmark PASS; partition-positive selected; same campaign resumed under original ceiling. No witness or coverage claim.
+
+S045 owner-authorised watchdog repair/restart: full checkpoint preserved,
+fresh smoke/native/deadline controls and 60-second cold restart benchmark PASS.
+Actual search resumed with 275961-row/924323-rule seed. Two-hour heartbeat
+ACTIVE. All old eight-hour limits superseded by 25 October 07:30 UK/GMT.
+S045 IN_PROGRESS; no witness or coverage claim; S036 stopped, no S046.

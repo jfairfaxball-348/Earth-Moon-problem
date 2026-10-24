@@ -1,3 +1,11 @@
+# S045 REPAIRED / RESTARTED — hard stop 25 October 07:30 UK/GMT
+
+Owner authorised watchdog repair, two-hour check-ins and restart. Fresh
+acceptance PASS; current handover sessions/S045/RUNNING.md. Two-hour heartbeat
+earth-moon-s045-two-hour-check-in ACTIVE. All eight-hour ceilings superseded.
+Existing main, ordinary non-force push; no branch/PR. S036 stays stopped.
+No automatic S046; no witness; 9<=chi_2<=12. Historical headers follow.
+
 # S045 INVOKED — 50-vertex solver preparation and search (24 October 2026)
 
 Owner explicitly authorises solver changes, acceptance, benchmark and then
