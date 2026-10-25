@@ -173,3 +173,11 @@ S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no 
 S045 owner CONTINUE overrides proposal-only gate: unrestricted 50-vertex native colouring-feedback search; fresh acceptance and three-arm benchmark PASS; sustained run is separately identified in RUNNING.md. S036 stopped; no witness or bound advance.
 
 S045 streaming maintenance: 38042 candidate records / 111073 geometric rule occurrences preserved; exact bounded-memory CNF replay PASS; fresh controls/benchmark PASS; partition-positive selected; same campaign resumed under original ceiling. No witness or coverage claim.
+
+S045 closed25Oct2026 at the owner's07:30 UTC/GMT deadline. All saved evidence
+retained;642381 journal records and one extra native assignment have checked
+nine-colourings;2376754 geometric occurrences freshly replayed. No witness,
+coverage percentage or domain exclusion. Decision: do not extend the expired
+run; queue S046 for a materially changed memory/checkpoint mechanism and
+bounded acceptance before any longer search. S046 remains FUTURE/UNEXECUTED;
+S036 stays stopped. Completed campaign check-ins deleted.

@@ -1,0 +1,5 @@
+{
+ "preservation_first_attempt": "Archive-index construction duplicated archive keyword after successful byte-preserving copies. Fixed merge order; original raw files and archive bytes remained intact.",
+ "preservation_retry": "Existing stop_snapshot directory required exist_ok on preservation rerun; fixed and rerun completed. An attempted auditor invocation before ARCHIVE_INDEX existed exited before reading scientific data.",
+ "scientific_verdict": "No proof or source-status promotion from these packaging failures"
+}

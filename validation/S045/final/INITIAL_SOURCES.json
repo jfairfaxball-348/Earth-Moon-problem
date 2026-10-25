@@ -1,0 +1,109 @@
+{
+ "commit": "307399a7ce471f722181098a93c8378d5b2f5824",
+ "files": {
+  ".github/workflows/scaffold.yml": {
+   "archive": "validation/S045/final/initial_sources/.github/workflows/scaffold.yml",
+   "sha256": "e3678708438839da48dae37fb6fd4b1c74d2d0399527cdacd72d7b446a9c33ae"
+  },
+  "AGENTS.md": {
+   "archive": "validation/S045/final/initial_sources/AGENTS.md",
+   "sha256": "17851c827718832721d75f514258ff7652d6d8f626c94210878ad22d89e621e9"
+  },
+  "authoritative/NEXT_SESSION_PROMPT.md": {
+   "archive": "validation/S045/final/initial_sources/authoritative/NEXT_SESSION_PROMPT.md",
+   "sha256": "4a1486eb656f94b06103e48fd5b999fadf1655b64c9fc12f634e39f26f363e5f"
+  },
+  "authoritative/START_HERE.md": {
+   "archive": "validation/S045/final/initial_sources/authoritative/START_HERE.md",
+   "sha256": "422e5229280e9be1659bc3223b1589d3a34448fcda0539f03f78932f5d78e4be"
+  },
+  "authoritative/STATE.json": {
+   "archive": "validation/S045/final/initial_sources/authoritative/STATE.json",
+   "sha256": "91067ddbb1b0410670952615ca7929003f7c8818da3ae60a9e21c22182682b7d"
+  },
+  "campaigns/CAM-0049.md": {
+   "archive": "validation/S045/final/initial_sources/campaigns/CAM-0049.md",
+   "sha256": "e933d4bede8ced65586818be933a8abae774aae7271f038f34fa92cfa6be224e"
+  },
+  "docs/FAILURE_LEDGER.md": {
+   "archive": "validation/S045/final/initial_sources/docs/FAILURE_LEDGER.md",
+   "sha256": "88ab616b96cd13946ecf003ddd914de478b2c783f22ff5fadd79247bb692cd53"
+  },
+  "docs/SESSION_LEDGER.md": {
+   "archive": "validation/S045/final/initial_sources/docs/SESSION_LEDGER.md",
+   "sha256": "645d8ca7dd6a2558fb73406929887fc000dd9e565a1f3a71c1b7591ad08aad46"
+  },
+  "scripts/accept_s045_unsat_gate.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/accept_s045_unsat_gate.py",
+   "sha256": "4f71ffe94f22ae001573081921dcd65e785bffd34b853fc8189e9c29fdee38f0"
+  },
+  "scripts/benchmark_s045_memory.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/benchmark_s045_memory.py",
+   "sha256": "28d61c6a8fa2716b5f642a30c9d572cd93c352630efb1b606c4cb7b90dcd31f3"
+  },
+  "scripts/check_s045_memory.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/check_s045_memory.py",
+   "sha256": "f40aa546cd0167a225c3803955be774d874854ebc6d48c778c03387162120ca4"
+  },
+  "scripts/prepare_s045_recycle.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/prepare_s045_recycle.py",
+   "sha256": "d1b84d17681ec40c6689673ec8ab9cfbcb5822d3ff716123d361fd202bd837e9"
+  },
+  "scripts/record_s045_memory.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/record_s045_memory.py",
+   "sha256": "7e19b1ed20a689d7f557c153c164f8be474c4b9f130175497999248929f688a1"
+  },
+  "scripts/s045_campaign.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/s045_campaign.py",
+   "sha256": "130bf165579f78a4d0a8c61f4c41aa742f33629666e26a92fa388532d81e3241"
+  },
+  "scripts/s045_replay_watchdog.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/s045_replay_watchdog.py",
+   "sha256": "2f94de828f6e9e3beab2348f16891ac8d87ed7cc52e6797d725cb5f233deb6ca"
+  },
+  "scripts/s045_runtime.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/s045_runtime.py",
+   "sha256": "f1148b5c29d391a30ba72c01f0653d686636fa903809c2a9e589d9efb1ab24d5"
+  },
+  "scripts/seal_s045_memory.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/seal_s045_memory.py",
+   "sha256": "c19e10c4511d37d3364697273f972f9cc116761a3dfbddabd202ce2771c1d7c0"
+  },
+  "scripts/test_s045_memory.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/test_s045_memory.py",
+   "sha256": "712a43ac4d1c45a437f0a752e5f28de797d36462074af673f636484c3977bee7"
+  },
+  "scripts/test_s045_memory_native.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/test_s045_memory_native.py",
+   "sha256": "c6277dc02bf8f459c585a35a63244068629d442281188ad42622e8511177b48f"
+  },
+  "scripts/test_s045_memory_policy.py": {
+   "archive": "validation/S045/final/initial_sources/scripts/test_s045_memory_policy.py",
+   "sha256": "40e6685994a0847b88d6ede38c318c020d47996d3de2046b54a59811ca5860cb"
+  },
+  "sessions/S045/ADVERSARIAL.md": {
+   "archive": "validation/S045/final/initial_sources/sessions/S045/ADVERSARIAL.md",
+   "sha256": "637695c901158a6a1260b001b8722a2a700350ecb0486f5701944fbc51499d4d"
+  },
+  "sessions/S045/EXECUTION_PROMPT.md": {
+   "archive": "validation/S045/final/initial_sources/sessions/S045/EXECUTION_PROMPT.md",
+   "sha256": "4a1486eb656f94b06103e48fd5b999fadf1655b64c9fc12f634e39f26f363e5f"
+  },
+  "sessions/S045/RESEARCH.md": {
+   "archive": "validation/S045/final/initial_sources/sessions/S045/RESEARCH.md",
+   "sha256": "6885cedc0e0fd3bbc6b4be2e8adac3ab28f2b8115c5a1109afbaa0ab567f07b8"
+  },
+  "sessions/S045/RUNNING.md": {
+   "archive": "validation/S045/final/initial_sources/sessions/S045/RUNNING.md",
+   "sha256": "b459cd10403618b4db0e79c856acfbe42fa62ad57bc9c126ca1c864d5a98289a"
+  },
+  "tools/s045_driver.py": {
+   "archive": "validation/S045/final/initial_sources/tools/s045_driver.py",
+   "sha256": "d4a26ec1e4c4df8e696db99d670ff26d3c60309d3b83f48e0ecf5679bff0bccd"
+  },
+  "tools/s045_search.py": {
+   "archive": "validation/S045/final/initial_sources/tools/s045_search.py",
+   "sha256": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45"
+  }
+ }
+}

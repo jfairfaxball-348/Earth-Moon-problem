@@ -79,4 +79,6 @@ jobs:
       - name: Verify S045 watchdog repair deadline check-ins and preserved checkpoint
         run: python scripts/s045_replay_watchdog.py
       - name: Verify S045 memory recycling and preserved resource-stop evidence
-        run: python scripts/check_s045_memory.py
+        run: python scripts/s045_replay_memory.py
+      - name: Verify S045 final deadline stop archives candidate certificates and S046 handoff
+        run: python scripts/check_s045_final.py

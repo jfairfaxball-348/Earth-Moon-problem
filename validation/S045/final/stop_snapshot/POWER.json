@@ -1,0 +1,9 @@
+{
+ "state": "RELEASED",
+ "helper": {
+  "pid": 15264,
+  "create_time": 1792875231.0149353,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "system_awake_requested": false
+}

@@ -1,0 +1,27 @@
+{
+ "status": "PASS",
+ "observed_epoch": 1792902614.6409073,
+ "controller_identity": {
+  "pid": 2944,
+  "create_time": 1792875223.3499453,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "controller_cpu_delta": 2.0,
+ "phase": "CHECKPOINT_ENCODING",
+ "candidate_records_last_completed": 640004,
+ "increase_since_previous_check": 28280,
+ "geometric_rules_last_audited": 2367080,
+ "last_slice_reason": "MEMORY_RECYCLE",
+ "completed_slices": 51,
+ "journal_segments": 44,
+ "journal_bytes": 50029970,
+ "geometry_bytes": 384963325,
+ "available_GiB": 6.494476318359375,
+ "disk_free_GiB": 22.036148071289062,
+ "controller_private_bytes": 39522304,
+ "previous_native_exited": true,
+ "power_helper_active": true,
+ "deadline_epoch": 1792913400.0,
+ "witness_alert": false,
+ "proof_backed_projected_coverage": null
+}

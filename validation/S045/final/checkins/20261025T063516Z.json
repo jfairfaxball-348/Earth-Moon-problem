@@ -1,0 +1,78 @@
+{
+ "status": "PASS_OPERATIONAL_THROUGHPUT_DEGRADED",
+ "observed_epoch": 1792910231.3035512,
+ "controller_identity": {
+  "pid": 2944,
+  "create_time": 1792875223.3499453,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "controller_cpu_delta": 2.0,
+ "phase": "GEOMETRIC_REPLAY",
+ "candidate_records_last_completed": 641411,
+ "increase_since_previous_check": 1407,
+ "geometric_rules_last_audited": 2374115,
+ "last_slice_reason": "MEMORY_RECYCLE",
+ "completed_slices": 61,
+ "journal_segments": 54,
+ "journal_bytes": 50247386,
+ "geometry_bytes": 386100957,
+ "available_GiB": 6.517616271972656,
+ "disk_free_GiB": 21.689315795898438,
+ "controller_private_bytes": 39489536,
+ "previous_native_exited": true,
+ "power_helper_active": true,
+ "deadline_epoch": 1792913400.0,
+ "witness_alert": false,
+ "proof_backed_projected_coverage": null,
+ "performance_note": "Recent cycles remain positive but replay/audit dominate, with 1 to 95 new records per roughly 12-minute cycle; no stop or alert. Leave working until existing deadline; retain bottleneck for closeout.",
+ "recent_slices": [
+  {
+   "started": "2026-10-25T04:49:50Z",
+   "new": 21,
+   "wall_s": 737.3440000000119,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T05:02:08Z",
+   "new": 12,
+   "wall_s": 732.75,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T05:14:20Z",
+   "new": 1,
+   "wall_s": 732.5469999999914,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T05:26:33Z",
+   "new": 1,
+   "wall_s": 730.3910000000033,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T05:38:44Z",
+   "new": 1,
+   "wall_s": 731.5629999999946,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T05:50:55Z",
+   "new": 1,
+   "wall_s": 733.0780000000086,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T06:03:08Z",
+   "new": 95,
+   "wall_s": 732.375,
+   "reason": "MEMORY_RECYCLE"
+  },
+  {
+   "started": "2026-10-25T06:15:21Z",
+   "new": 60,
+   "wall_s": 733.0940000000119,
+   "reason": "MEMORY_RECYCLE"
+  }
+ ]
+}

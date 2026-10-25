@@ -1,3 +1,9 @@
+# S045 CLOSED — owner deadline; no witness (25 October 2026)
+
+S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.
+Read sessions/S045/CLOSEOUT.md and the complete live S046 future prompt.
+Existing main, ordinary non-force commit/push, no branch/PR. Historical headers follow.
+
 # S045 memory recovery accepted — 24 October 2026
 
 Read validation/S045/memory_recycle/ACCEPTANCE.json and the current execution

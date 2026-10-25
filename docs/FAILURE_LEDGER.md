@@ -212,3 +212,6 @@ with scripts/s045_replay_watchdog.py against its exact 673d4a6 context.
 Two-hour check-ins remain ACTIVE. Hard stop remains 25 October 2026 07:30
 Europe/London = UTC/GMT. S045 continues, S036 stays stopped, no S046 invocation.
 Counts are activity, not projected coverage; no witness; 9<=chi_2<=12.
+
+
+S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.

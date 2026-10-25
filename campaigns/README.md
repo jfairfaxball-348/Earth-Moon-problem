@@ -111,3 +111,6 @@ CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 
 **CAM-0048 / S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no new search, no witness, 9..12 unchanged. Hajós arbitrary-one-leaf implication narrowed; 97 individual negatives intact. S045 decision/re-entry gate FUTURE/UNEXECUTED.**
 
 **CAM-0049: S045 owner CONTINUE overrides proposal-only gate: unrestricted 50-vertex native colouring-feedback search; fresh acceptance and three-arm benchmark PASS; sustained run is separately identified in RUNNING.md. S036 stopped; no witness or bound advance.**
+
+
+S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.

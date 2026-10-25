@@ -1,0 +1,19 @@
+{
+ "session": "S045",
+ "scope": "Deadline closeout only; no new generation or successor execution",
+ "deadline_epoch": 1792913400,
+ "observed_stop_epoch": 1792913400.0027757,
+ "expected_candidate_records": 642381,
+ "expected_geometric_occurrences": 2376754,
+ "inherited_independently_checked_prefix_records": 453656,
+ "prefix_receipt": "validation/S045/memory_recycle/RESTART_BENCHMARK.json",
+ "fresh_check_delta_records": 188725,
+ "all_archives_byte_checked": true,
+ "all_geometry_freshly_replayed": true,
+ "native_traces_scan_for_unjournalled_candidates": true,
+ "orphan_cap": 1000,
+ "orphan_colouring_seconds": 10,
+ "search_restarted": false,
+ "private_cdcl_serialized": false,
+ "registered_epoch": 1792914088.3730147
+}

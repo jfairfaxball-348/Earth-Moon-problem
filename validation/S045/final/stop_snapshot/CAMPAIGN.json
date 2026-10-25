@@ -1,0 +1,51 @@
+{
+ "state": "STOPPED",
+ "controller": {
+  "pid": 2944,
+  "create_time": 1792875223.3499453,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "slices": 53,
+ "deadline_epoch": 1792913400.0,
+ "deadline_utc": "2026-10-25T07:30:00+00:00",
+ "reason": "OWNER_DEADLINE_0730",
+ "elapsed_seconds": 38176.234,
+ "last_slice": {
+  "n": 50,
+  "k": 9,
+  "mode": "partition",
+  "positive_phases": true,
+  "controller": {
+   "pid": 2944,
+   "create_time": 1792875223.3499453,
+   "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "started_utc": "2026-10-25T07:29:34Z",
+  "scientific_verdict": "UNKNOWN",
+  "witness": false,
+  "domain_excluded": false,
+  "source_sha256": {
+   "tools/s045_search.py": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45",
+   "tools/s045_driver.py": "d4a26ec1e4c4df8e696db99d670ff26d3c60309d3b83f48e0ecf5679bff0bccd",
+   "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+   "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+   "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+   "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+   "scripts/s045_runtime.py": "f1148b5c29d391a30ba72c01f0653d686636fa903809c2a9e589d9efb1ab24d5",
+   "scripts/s045_campaign.py": "130bf165579f78a4d0a8c61f4c41aa742f33629666e26a92fa388532d81e3241",
+   "scripts/s045_awake.py": "845a981f7b0c9b941c16545bc5501b61851910de1d0662222bc947a225515384"
+  },
+  "state": "STOPPED",
+  "stage": "STOPPED",
+  "elapsed_seconds": 25.625,
+  "solve_elapsed_seconds": null,
+  "candidates": null,
+  "new_candidates": null,
+  "soft_private_bytes": 2684354560,
+  "peak_private_bytes": 0,
+  "reason": "OWNER_DEADLINE_0730",
+  "audit_pending": true
+ },
+ "scientific_verdict": "UNKNOWN",
+ "witness": false
+}

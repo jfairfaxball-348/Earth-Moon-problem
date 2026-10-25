@@ -1,0 +1,614 @@
+{
+ "journals": [
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/CANDIDATES.jsonl.gz",
+   "archive": "validation/S045/watchdog_repair/preserved/CANDIDATES.jsonl.gz",
+   "archive_sha256": "5f1d0565c3e0c814a60c6547a1140e8e5006a0bb74c780df26714dd12efea2f6"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000000.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000000.jsonl.gz",
+   "archive_sha256": "8986bc8f917944005e4a75a5533e4e4ba4c93dd6e96e4160517900a7cb37caf6"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000001.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000001.jsonl.gz",
+   "archive_sha256": "ec86d898cc3a764edf33c25c5ba596893a4b8e604ac966d354bd564a81356a37"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000002.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000002.jsonl.gz",
+   "archive_sha256": "acd56522cfe6c5a317446802f5ceaa3603ea1968eac9106278e23caffe3cc8d7"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000003.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000003.jsonl.gz",
+   "archive_sha256": "51f07c191ccf4d0f0768c04657dd4221a419f3240b1e8b8040991fad5ccb70b9"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000004.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000004.jsonl.gz",
+   "archive_sha256": "c8f77a310f8bff3af324810c6d77458002cc3c7f082f3c127d48f824fd441e95"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000005.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/preserved/000005.jsonl.gz",
+   "archive_sha256": "7deb30501ad161f780668084ca2a65bbc77616d1ef7671171b4aa52610bfde64"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000006.jsonl.gz",
+   "archive": "validation/S045/memory_recycle/benchmark/CANDIDATES.jsonl.gz",
+   "archive_sha256": "d854d88fc04b2d44c490acd14623585d7fd2aeb38e06eb5837a17fc81870428b"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000007.jsonl.gz",
+   "archive": "validation/S045/final/journals/000007.jsonl.gz",
+   "archive_sha256": "a9dd7bd9eabfaa8ea156ded284a6531d5a1e9baf364f3845529c7feea497a615"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000008.jsonl.gz",
+   "archive": "validation/S045/final/journals/000008.jsonl.gz",
+   "archive_sha256": "c0768d9aeb7e312b3208ee207b286aa4d46ca8190f5936618a148add8418e3a5"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000009.jsonl.gz",
+   "archive": "validation/S045/final/journals/000009.jsonl.gz",
+   "archive_sha256": "b296e0ad91d30eca6a9954fea94f7faacd04d80dbdf8c4ae494be58f6448d11f"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000010.jsonl.gz",
+   "archive": "validation/S045/final/journals/000010.jsonl.gz",
+   "archive_sha256": "206ca124ab4129a50e682e6b9bfbc1648b3799ce49fe7998b392bfa58c26c699"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000011.jsonl.gz",
+   "archive": "validation/S045/final/journals/000011.jsonl.gz",
+   "archive_sha256": "c2ebbc82f9c06a707b34b99a89a307f4a4f6f5b383bbd93ad9e4b951f849479a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000012.jsonl.gz",
+   "archive": "validation/S045/final/journals/000012.jsonl.gz",
+   "archive_sha256": "4133890eae1e7198e8af2156a14133a36a4026b0250150e7c4c4ec191bbb1533"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000013.jsonl.gz",
+   "archive": "validation/S045/final/journals/000013.jsonl.gz",
+   "archive_sha256": "cb33c172ee88d32fb127226162381855c02fcfeb9f2735c5d26001ae54027d64"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000014.jsonl.gz",
+   "archive": "validation/S045/final/journals/000014.jsonl.gz",
+   "archive_sha256": "b71841303cd47aef92ca466e481ff10ced15d8d61d1e10c53f6e77b5bb4c1a07"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000015.jsonl.gz",
+   "archive": "validation/S045/final/journals/000015.jsonl.gz",
+   "archive_sha256": "b5fd3bf324e896532a0b2417b6bfe958fbb9958942721f5c07001c39763de0a2"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000016.jsonl.gz",
+   "archive": "validation/S045/final/journals/000016.jsonl.gz",
+   "archive_sha256": "88c38bb0f8ae236a90ea3958297ed5dd433c61a79f28602812e1a5886338b88f"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000017.jsonl.gz",
+   "archive": "validation/S045/final/journals/000017.jsonl.gz",
+   "archive_sha256": "dac7f0c668dbc7b5ffc59ed5674022bbb8b0995a381b84407293c5ff7a8c0334"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000018.jsonl.gz",
+   "archive": "validation/S045/final/journals/000018.jsonl.gz",
+   "archive_sha256": "9b441d62c74320b41bdb242973dafc3cca5530e6e2e1bcbd391f72bccd7b8e1e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000019.jsonl.gz",
+   "archive": "validation/S045/final/journals/000019.jsonl.gz",
+   "archive_sha256": "b9040dff608e7cc058e382c3c02a6c6092149426daf938f733efa1ddfc335011"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000020.jsonl.gz",
+   "archive": "validation/S045/final/journals/000020.jsonl.gz",
+   "archive_sha256": "189902d95632eab24fdabd6162fbbf1fd41574f3f303aa9eac83899ecd4c90f5"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000021.jsonl.gz",
+   "archive": "validation/S045/final/journals/000021.jsonl.gz",
+   "archive_sha256": "54a884e402b80e567410be089fcf1efe238567f729ea7e6d9baaee14c6673b12"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000022.jsonl.gz",
+   "archive": "validation/S045/final/journals/000022.jsonl.gz",
+   "archive_sha256": "c911222a3b2859086dbb2d188a4843186605f12d2d9d3451ca465736309c1d0d"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000023.jsonl.gz",
+   "archive": "validation/S045/final/journals/000023.jsonl.gz",
+   "archive_sha256": "d82249e5a260fa710152af9e924698c32233372886f2a97b1f7e4cc7b9fff077"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000024.jsonl.gz",
+   "archive": "validation/S045/final/journals/000024.jsonl.gz",
+   "archive_sha256": "0e5d748d62c3b3a2f7fe5cf4c22a8dbf2166a9ac2984014bafd61f42c696e875"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000025.jsonl.gz",
+   "archive": "validation/S045/final/journals/000025.jsonl.gz",
+   "archive_sha256": "024cbfce844a5b4de01fcd5f6d9cc4dce4fa157f97ede9800295268553bfe0d3"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000026.jsonl.gz",
+   "archive": "validation/S045/final/journals/000026.jsonl.gz",
+   "archive_sha256": "b5b3b56835b3f71380b458883b46cf769710b69a78fd58b2ab01c8f1cbd664a1"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000027.jsonl.gz",
+   "archive": "validation/S045/final/journals/000027.jsonl.gz",
+   "archive_sha256": "07a286b7d62e8caa7d2f4fe705db8f1fcf86d716bfc4689fc6b241955e2363fa"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000028.jsonl.gz",
+   "archive": "validation/S045/final/journals/000028.jsonl.gz",
+   "archive_sha256": "d08c3f36197491f3b81ba02c25f1f1d75320e71390d759ac126f8cdaa06f081e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000029.jsonl.gz",
+   "archive": "validation/S045/final/journals/000029.jsonl.gz",
+   "archive_sha256": "7b2508473729ca85e1bd04098e4b1e4868663dc7e4ad6bb48a103a9dff4ade54"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000030.jsonl.gz",
+   "archive": "validation/S045/final/journals/000030.jsonl.gz",
+   "archive_sha256": "5ae2117bf9c3138ede02869cad92a78899ffec544a8cd606c99594c95881dadd"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000031.jsonl.gz",
+   "archive": "validation/S045/final/journals/000031.jsonl.gz",
+   "archive_sha256": "76f3ae5ac098259b07891c66905fd638985ad2618f28c54ee11376159ea0bee2"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000032.jsonl.gz",
+   "archive": "validation/S045/final/journals/000032.jsonl.gz",
+   "archive_sha256": "b6f0a9e3e500001576269e854db2d81bc692b2a93fc73188344c48f3dde28a40"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000033.jsonl.gz",
+   "archive": "validation/S045/final/journals/000033.jsonl.gz",
+   "archive_sha256": "da1843298211dccf562317f09e2758f4451fba2b9d1ab354998cacf704d0cd7c"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000034.jsonl.gz",
+   "archive": "validation/S045/final/journals/000034.jsonl.gz",
+   "archive_sha256": "b987b08fd62d6d116ce0f3097fdd3bfa7719c3ed2ec12f069e53a15305e0f644"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000035.jsonl.gz",
+   "archive": "validation/S045/final/journals/000035.jsonl.gz",
+   "archive_sha256": "9d3a3d1d07ab9985da1cd57538590b5f373e16bc7793787f1e396d9f1ad54d3b"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000036.jsonl.gz",
+   "archive": "validation/S045/final/journals/000036.jsonl.gz",
+   "archive_sha256": "1883fd2b7df61e9aa3e078983fb4814ffc02b30a624fe50279310ec748820b68"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000037.jsonl.gz",
+   "archive": "validation/S045/final/journals/000037.jsonl.gz",
+   "archive_sha256": "406dc983618e31a77b40a19f6927c5c640c9543d79a4f412b1b0335b0f3304ce"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000038.jsonl.gz",
+   "archive": "validation/S045/final/journals/000038.jsonl.gz",
+   "archive_sha256": "253ac068643afdc350f4a8c2f2173289a1779e4a24062b4b2ab071c661e2fc06"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000039.jsonl.gz",
+   "archive": "validation/S045/final/journals/000039.jsonl.gz",
+   "archive_sha256": "724b1c7aaaedcb4ec71b4effae192b14a926c83f56e9ee97a38808cf21ccfd90"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000040.jsonl.gz",
+   "archive": "validation/S045/final/journals/000040.jsonl.gz",
+   "archive_sha256": "3ee0cfb869b280cfacc2a949914d281ecd245269a585eed83736da31f4986d3e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000041.jsonl.gz",
+   "archive": "validation/S045/final/journals/000041.jsonl.gz",
+   "archive_sha256": "806a9b4c141800c9e4e7c46bfc702c782e76daacee6eb90d0f9b5685953e94a0"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000042.jsonl.gz",
+   "archive": "validation/S045/final/journals/000042.jsonl.gz",
+   "archive_sha256": "5b82a3c6e303434d2ab9ee48717925340190cf0e8fd40ef5c98671dcdb1734d4"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000043.jsonl.gz",
+   "archive": "validation/S045/final/journals/000043.jsonl.gz",
+   "archive_sha256": "bac418f7a28ca2166bc45ed987b9219bfc2408c465d4a500da75accd0e48bc32"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000044.jsonl.gz",
+   "archive": "validation/S045/final/journals/000044.jsonl.gz",
+   "archive_sha256": "65fdee4d3674e5487aa1f9e4958e7d4502888072e3437f018f9abba6f1830e98"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000045.jsonl.gz",
+   "archive": "validation/S045/final/journals/000045.jsonl.gz",
+   "archive_sha256": "cbf22ba56d3b06ed0cbd547a74dba16163bfc86c3e9e73f07a42924b189cca5e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000046.jsonl.gz",
+   "archive": "validation/S045/final/journals/000046.jsonl.gz",
+   "archive_sha256": "9943a7ad673f0866c16d1945ff27b384041d22b50e6faa438ebf23ad330aee68"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000047.jsonl.gz",
+   "archive": "validation/S045/final/journals/000047.jsonl.gz",
+   "archive_sha256": "25cd3c8e076fd00ffa0e84a664a2143f82ac4017e9af83e8d05c1a46f48cf1df"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000048.jsonl.gz",
+   "archive": "validation/S045/final/journals/000048.jsonl.gz",
+   "archive_sha256": "66199a83dc7cf306eda4a4b1a9294cff95f44f67901a7670d7c23d81ebff31cd"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000049.jsonl.gz",
+   "archive": "validation/S045/final/journals/000049.jsonl.gz",
+   "archive_sha256": "9f2bd63b41842545f00a9e4e373fa387d6fd51f9f72f7030ecba2a03b0725173"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000050.jsonl.gz",
+   "archive": "validation/S045/final/journals/000050.jsonl.gz",
+   "archive_sha256": "072b6fc8c07a1cf72b64e0c0c6c277a6b870a2e2396ad4de76dd4f58d013b378"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000051.jsonl.gz",
+   "archive": "validation/S045/final/journals/000051.jsonl.gz",
+   "archive_sha256": "e7993f220cb3e4b9e751e15c539e08076244bdf11f38675dd0b72f51d41b9be4"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000052.jsonl.gz",
+   "archive": "validation/S045/final/journals/000052.jsonl.gz",
+   "archive_sha256": "c092539bd3b5b8a0ec248244090b5fbbedd0ab5799fbcfb0f8b90897d4bc3b41"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000053.jsonl.gz",
+   "archive": "validation/S045/final/journals/000053.jsonl.gz",
+   "archive_sha256": "ea7a599e03d5b9a4a7701e461f71a19f44dc9d8bdae810a9ae6bdfe01cb6f9a3"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000054.jsonl.gz",
+   "archive": "validation/S045/final/journals/000054.jsonl.gz",
+   "archive_sha256": "74a36ddcb55ae2c18bf6acb9663ada5cb63040435db092536125ddd39b809e6a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000055.jsonl.gz",
+   "archive": "validation/S045/final/journals/000055.jsonl.gz",
+   "archive_sha256": "1ed3cec4255161be797b9a5f3255c5b3ded2494caec129fed3efe04d8a8ead05"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000056.jsonl.gz",
+   "archive": "validation/S045/final/journals/000056.jsonl.gz",
+   "archive_sha256": "6925c222d8ce8d2fb90be9fafd026c026d535046833c209823645009ea81556a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000057.jsonl.gz",
+   "archive": "validation/S045/final/journals/000057.jsonl.gz",
+   "archive_sha256": "deb529f4b8e7a5734866da684eb35ad9b20e74c2795a7eedf65d8c5937971e04"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/journals/000058.jsonl.gz",
+   "archive": "validation/S045/final/journals/000058.jsonl.gz",
+   "archive_sha256": "056f639a2db647c9831a77801f7323129097d323e79d757f92d3ac6427ad31a0"
+  }
+ ],
+ "native_traces": [
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/NATIVE.log.gz",
+   "archive": "validation/S045/watchdog_repair/preserved/NATIVE.log.gz",
+   "archive_sha256": "45917e763925f417c3dc6463ad56ee47fe47c92a0a551127b72e1e14269e7bf4"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792869496.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792869496.log.gz",
+   "archive_sha256": "446ed903361f2494944f498ade59ce59f6e42eb4fcd13d86a07a7cac04ef8802"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792870462.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792870462.log.gz",
+   "archive_sha256": "cb628647766678ed4e28de6adac4afc46695f503a39fe19281d43497ff06e57f"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792871470.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792871470.log.gz",
+   "archive_sha256": "e9d358de281a07b377fe8477cb0ac8b2e0c4f3bf1bfbfbe37bf846e5ffadcdda"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792872524.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792872524.log.gz",
+   "archive_sha256": "f742ef3e3f5f09311d609389cad70f431843b6630d9c616b97b289f4d1f355b4"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792875786.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792875786.log.gz",
+   "archive_sha256": "990538431b2b067959202685632a2f78fd4f5d2ac064792e7fe885ddb7224aa1"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792876571.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792876571.log.gz",
+   "archive_sha256": "b63634c2386c5134fbbaba663e0612bd28e6a6e044144163ef10b73fba0d723a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792877188.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792877188.log.gz",
+   "archive_sha256": "3613fea5ddb790e58e848b2b1e504086e5e85134b78f7a508235957386f27f8a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792877798.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792877798.log.gz",
+   "archive_sha256": "143156a4f6cdc85bb2ae83d41325cd8cc22cbf640f58f510e6276ba97469d4d0"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792878417.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792878417.log.gz",
+   "archive_sha256": "5ff4bde5ffadc3a81f54859fb7bdb89c786fc9bcc703fd418b7cc62488fd5896"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792879015.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792879015.log.gz",
+   "archive_sha256": "81a4de4d6ed04b9f24a2aa0eb4643645a0819f022fedf08c29d9acbd00099b9a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792879732.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792879732.log.gz",
+   "archive_sha256": "e2abc33a889b023d039d305b697a30b91c242cbd859421bd9b15f8f9bd162613"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792880329.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792880329.log.gz",
+   "archive_sha256": "3d5a75bc8ecde2ff53e97e076ea1b81119fd050560957004f238f5093d73f85e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792880988.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792880988.log.gz",
+   "archive_sha256": "86d2876e2a29a6f91c6d19360a466d4c71d15e42a5199f5a5ca45cd9ad36b6bf"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792881646.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792881646.log.gz",
+   "archive_sha256": "c3e44146cce7c470c288ee0b87b26ea351a8f87d070148e4d772d614ff58e4de"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792882277.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792882277.log.gz",
+   "archive_sha256": "c897f88a1f00a491e94125fd5d0ec90d78014b8b0655d9e3edfaabfdb0c21df0"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792882945.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792882945.log.gz",
+   "archive_sha256": "27a2b2528f1ea268439ad8e5f860c96d06433d212ee0e8e3930cab7a25d428b9"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792883680.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792883680.log.gz",
+   "archive_sha256": "a728c33646da533d9da56c888d643341da5790893d222dcbc704dfe912d16cbc"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792884515.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792884515.log.gz",
+   "archive_sha256": "26677bd7bc3c90525bd5e80c878330a3de8ed02d231d96b88911ecfb7b342060"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792885237.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792885237.log.gz",
+   "archive_sha256": "4528aa77fa2d03d652ab5b80a3510f9d501ca683993ab23a5dd79a2eac69cb87"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792885970.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792885970.log.gz",
+   "archive_sha256": "905214970c11835569ba2a78032f6f66c770612a929e81889f1775608d0af181"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792886768.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792886768.log.gz",
+   "archive_sha256": "48bea543f4b97321bba0d5a51f1593ff15cd3c76de304bf623127ef0d506f9bd"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792887521.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792887521.log.gz",
+   "archive_sha256": "1da20ccc134a3ad2f467f035b83443e162cfdb90cbb9d250520aa6a31f60c029"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792888332.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792888332.log.gz",
+   "archive_sha256": "48667199db2f025c602381b9b8e48c5281dbd4db3fa3d45411a9674b238bb136"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792889109.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792889109.log.gz",
+   "archive_sha256": "6a02c69534e37b83d8ee903977f97dfba73171a34cdd0297ab75622eddad69db"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792889802.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792889802.log.gz",
+   "archive_sha256": "ed057c534f24b7860144ce915d5cda24206d29a1f3e0118553e0a81d1a319e6e"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792890571.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792890571.log.gz",
+   "archive_sha256": "4f85ab47c1d5b1ad5b4dd44245eddf012cad7797baf40bdaa6830bd3cdda3edf"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792891393.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792891393.log.gz",
+   "archive_sha256": "dc3900408e459935076332bcfc6e351e36657009f9e809e6a2f497e046eb7da8"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792892208.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792892208.log.gz",
+   "archive_sha256": "59bc713d430a0076b4f642728bc1d781a9bbaf7d0dc76af1f65c2fabb624cfef"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792892973.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792892973.log.gz",
+   "archive_sha256": "7b29b9f2a32060e61d46cf6fa6a6d6cdcad8f9768227a2b1e6aac461fdb25c33"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792893707.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792893707.log.gz",
+   "archive_sha256": "0b4dae65b57e87227e842a6bc9ebd0cae5f7cd1c19f4b6c893fd69dd6dcace3c"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792894483.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792894483.log.gz",
+   "archive_sha256": "86884001d97632c8f28eb57ca49f2fd363f78882e4b6a3c838d653ca6167b3b3"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792895259.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792895259.log.gz",
+   "archive_sha256": "052010c81b673d48d5cef10f1d180b2a738072dde686f595ee44160da737d60b"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792896090.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792896090.log.gz",
+   "archive_sha256": "758f0898c3831947e3655c324d38de3aa2eb8a924a9fa9e58a4f970da62c02cf"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792896897.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792896897.log.gz",
+   "archive_sha256": "e028361f8c57afeb3510aea602eb957194f694e03018a1ef87205c09d96e7016"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792897777.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792897777.log.gz",
+   "archive_sha256": "c91e0d4a23983599a6f85af65fb7680953bbad55f4978e8394ed5c87cb4682c6"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792898585.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792898585.log.gz",
+   "archive_sha256": "1e4799ede6afe7e9fef9305eaa24f6fa76c541e95d61b8c0b6aebd03f19a35af"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792899327.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792899327.log.gz",
+   "archive_sha256": "ac0dcf7185b38c5d5c3f1da881357af82653358d5c68495570c93f66bed0363d"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792900061.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792900061.log.gz",
+   "archive_sha256": "e5a6baca50fe134c31652342f0f7ba35e8b284a24852fabfcc61bfa716a77baf"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792900812.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792900812.log.gz",
+   "archive_sha256": "e00ef5e9f8ee862070d7c949e1c0ac4d389f88589cffd1eb8ae2e7f9b1699a46"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792901543.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792901543.log.gz",
+   "archive_sha256": "106fa52e7d6aca329a4e6e25f94c5331c506f6ca7f82af6f88ae570fa73135f0"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792902304.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792902304.log.gz",
+   "archive_sha256": "5f1a25cf529c693b9696d72c48c407e02684bd29b94a63766ec39a50d73818c1"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792903059.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792903059.log.gz",
+   "archive_sha256": "9ba9d146414e1d58d1f8b8924a1aed03d98bb62b95af4686b9c19a81fc8dc024"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792903790.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792903790.log.gz",
+   "archive_sha256": "76d59582756bf3cf1c019799aef252196ad2c72ce0f447ea09aaf27a97668497"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792904528.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792904528.log.gz",
+   "archive_sha256": "a6751b43f807409aac35e8086068341282c040a2ae6b4bc985b7f1f06487125b"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792905260.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792905260.log.gz",
+   "archive_sha256": "eb584429f6b948fe9435bda5c99a58f8808eb523080159b29bcb0bed3a63c85a"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792905993.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792905993.log.gz",
+   "archive_sha256": "feaca3cfc9a8075b9b0589402aa551de121097bfdf81e90680915ac79ac5023f"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792906723.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792906723.log.gz",
+   "archive_sha256": "fbb944c2eced0839b8fce378274cc48b820e9869816a56c9340d6eb06eca96c0"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792907455.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792907455.log.gz",
+   "archive_sha256": "429de89c1e52a6e3e6f341613f3fe361223bc5132bdfabe185a4ef3c98ce0939"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792908188.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792908188.log.gz",
+   "archive_sha256": "8145aab574be0d7e83ed37af26655404155e485194111b51c2220f5402a2b54d"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792908921.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792908921.log.gz",
+   "archive_sha256": "c867e9d5ab485c12b57cc7980548254cf7500c49a5e6e142fe55235f1568fe6d"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792909654.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792909654.log.gz",
+   "archive_sha256": "ab380fd4363f7cc728a70ff8b3d70857c787141c42a518a532ca527c735261fc"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792910395.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792910395.log.gz",
+   "archive_sha256": "0051e7a7b473c64d937f6d8401ab722ae434549e565dcbaff4346b59c87442ee"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792911136.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792911136.log.gz",
+   "archive_sha256": "544e46927cba34981e934d3219704d541b8dd946d8d63610dfd2d343b70cc7fe"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792911870.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792911870.log.gz",
+   "archive_sha256": "7415196ab43370f447b0ff064d3c8a7258ad005a964fc9cdaafe3ef5402b6f72"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792912604.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792912604.log.gz",
+   "archive_sha256": "cf4a0c7271df2a72f49e3bee2d17885a5e06379780b42283c67d1b31ae3d71be"
+  },
+  {
+   "runtime_source": "artifacts/tmp/S045/campaign/logs/NATIVE-1792913374.log.gz",
+   "archive": "validation/S045/final/native/NATIVE-1792913374.log.gz",
+   "archive_sha256": "0d079420e3d3721b97264867c7de2daaec81716667b607d8232a376cf53b26c4"
+  },
+  {
+   "runtime_source": "validation/S045/watchdog_repair/benchmark/NATIVE.log.gz",
+   "archive": "validation/S045/watchdog_repair/benchmark/NATIVE.log.gz",
+   "archive_sha256": "053c1dc5c965e174e6632fe8c838e611ad5da8bbe74e30ee9fc4c3dd04321ba8"
+  },
+  {
+   "runtime_source": "validation/S045/memory_recycle/preserved/NATIVE.log.gz",
+   "archive": "validation/S045/memory_recycle/preserved/NATIVE.log.gz",
+   "archive_sha256": "0354358037e98f2884fd65e002da9d3415bdf4585a69698983577149243d9898"
+  },
+  {
+   "runtime_source": "validation/S045/memory_recycle/benchmark/NATIVE.log.gz",
+   "archive": "validation/S045/memory_recycle/benchmark/NATIVE.log.gz",
+   "archive_sha256": "c444d14b75c548424f12fe49fe644e83366ec5470bec498727b4fb0dbd0a8db3"
+  }
+ ],
+ "geometry": {
+  "raw_sha256": "c820492c5ba3f98f73e81e0d31a03654001669fbcdb9ba742a0c4174e8051331",
+  "raw_bytes": 386441099,
+  "archive_sha256": "a6badd2fbc1dc3f94a1a781ff8921bff2a74790fcfba73ade5507d18b9dc74d9",
+  "archive_bytes": 37289193,
+  "archive": "validation/S045/final/PLANARITY.lem.gz",
+  "decoded_bytes_verified": true
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "raw_sha256": "571d28bb4e0e17a8ca8c490e742a9b1ba73e32008a56e8f7d5f3b8522ecea9b0",
+ "raw_bytes": 124956,
+ "archive_sha256": "aa10205fd652047f68a5fc80c839dad75d3d5e379ea3be4b0a945680a43d18cb",
+ "archive_bytes": 12639,
+ "archive": "validation\\S045\\final\\stop_snapshot\\controller.log.gz",
+ "decoded_bytes_verified": true
+}
