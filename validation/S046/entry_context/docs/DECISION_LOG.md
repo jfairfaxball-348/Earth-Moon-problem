@@ -1,0 +1,191 @@
+# Decision ledger
+
+- **D058 (2026-10-16; owner S025 prompt replacement; governance only):** owner demands S025 finish missing original edge gaps across the 219 exact-chi10 biplanarity UNKNOWN graphs. Supersedes previous queued S025 chromatic-pressure/layer-first arm and temporary D057 freedom; reasserts original219-focused D051/D054 one-graph-at-a-time proof-complete priority, row148 (6 missing) first. Full paired S025 prompts replaced; no science run/new certificate, S024 remains last completed. D042 lower-only, D047 direct invocation, certificate and resource protocols remain unchanged. See docs/S025_219_GAP_CLOSURE_DIRECTIVE.md.
+
+- D001 (2026-10-12): Exact flagship is the universal χ₂ of finite simple thickness-two graphs, not the narrower FrontierMath 10-chromatic construction task. Rationale: only exact χ₂ resolves EMP.
+- D002: Pursue **both** constructive higher lower bounds and universal better upper bounds; no single-lemma ceiling during proof sessions.
+- D003: Treat k-colouring and not-(k−1)-colourability as separate certified obligations; a feasible colouring alone never certifies chromatic number.
+- D004: Use the user's proven one-session/one-branch/PR/non-force merge procedure and owner-gated Lean/Palomar/publication path.
+- D005: S001 is pure bootstrap. First mathematical work belongs to freshly invoked S002.
+
+- D006 (S002): Close all odd-cycle clique substitutions as a 10-chromatic route; short-case overlap and unchecked novelty are explicit.
+- D007: Retain the delta=11 certificate to challenge universal 10-degeneracy and simultaneous-low-degree arguments. Its proper 7-colouring does not imply a chromatic lower bound.
+- D008: Source-state Szeider and Patil computational results with their actual trust bases. Reconstruct simple exclusions independently; no external Lean/certificate replay.
+- D009: Attack alpha>=3 mechanisms and non-saturated amplification; the saturated Hajós cone is known and closed.
+- D010: n>=78+11D does not bound counterexample order above; a criticality-specific colouring proof remains necessary.
+
+- D011 (S003): Do not repeat Gallai small-order work (SRC-0017/0018 own it); record S002 CLM-0011 as superseded by SRC-0017 Obs 7.1.1.
+- D012: Adopt the Kuratowski-lemma CEGAR oracle (v4) as the programme's certified non-biplanarity tool: no theory axioms, every lemma re-checked, DRAT-checked refutation. Schnyder encodings kept only as fast SAT finders.
+- D013: Treat the 271 alpha>=3 census survivors (validation/S003/survivors_alpha_ge3.json) as the primary construction frontier; decide C5 sub-blow-up patterns first because every survivor contains one.
+- D014: Owner requested early closeout; unfinished runs are reported UNKNOWN, never negative.
+
+- D015 (S004): Adopt the attributed completion-face necessary encoding alongside Kuratowski; require actual planar splits or regenerated CNF plus checked DRAT.
+- D016 (S004): Close the corpus apex lane with the missed K8 filter; fix source SHA and actual labels.
+- D017 (S004): Extend proof caps prospectively after unconfirmed UNSAT; accept the finite exclusion only after two checked refutations.
+- D018 (S004): Retain rechecked compact public DRAT; keep independent relaxed SAT challenge and all 270 UNKNOWN cases explicit.
+- D019 (S004): Unconditional single-Kempe-swap reduction is false; criticality/multiple swaps/deficit hypotheses are required for further work.
+
+- D020(S005): Prioritise full low-deficit graphs; close all 17 fixed D=0 cases without treating the finite stratum as a universal theorem.
+- D021(S005): Independently corroborate with no-lex reduced incidence; shared premise/checker/library dependencies remain explicit.
+- D022(S005): SAT_RELAXATION and failed containment searches never advance biplanarity; 245 cases remain UNKNOWN.
+- D023(S005): Use actual criticality and Gallai palettes/deficits; the explicit two-swap extension is not a universal reducibility theorem.
+- D024(S005): Recalibrate Windows export before alternative certificates; preserve interrupted partial proof UNKNOWN and check complete proof before promotion.
+
+- D025(S006): Cold prior full proof replay and fresh19 chromatic proofs separate from biplanarity.
+- D026(S006): Prospectively extend remaining D1 targets; 15 new checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. D1 remaining UNKNOWN:[]. Registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- D027(S006): Sharp Gallai block weights and published simultaneous palette budget leave heavy/large-deficit routes open.
+- D028(S006): Preserve driver provenance and repair consecutive-UNKNOWN counter; accepted CNFs/native tools unchanged.
+
+- D029(S007): Register stronger planar-subset/K5/D<=2 face cuts, independent no-lex incidence and longer supervised full searches; every finalUNKNOWN counts toward stop. S007 adds0 checked finite exclusions; total41/271, 230 biplanarity UNKNOWN. Full registered UNKNOWN:[162, 155, 157, 159]; NOT_RUN:[157, 159]; wall-capped:[162, 155].
+- D030(S007): Use actual criticality to prove chi(G-C)=11 and heavyK8 excess>=13; separate simultaneous/large-deficit obligations and published method attribution.
+- D031(S007): Separate relaxed models from actual layers; preserve observed launch hashes and explicit repair provenance; allS008 and downstream gates remain unexecuted.
+
+- D032(S008): Cold native replay before acceptance; new completionK5/inputK33 and tree-counter lanes registered separately, preserving each UNKNOWN/NOT_RUN/cap.
+- D033(S008): Shared support has Euler expansion/Hall representatives, with overlap-weighted excess; simultaneous extension needs colours, not only representatives. No universal/large-deficit advance.
+- D034(S008): Preserve actual launch versions and supervisory deviations; no fabricated hashes or negative inference. S009 future only.
+
+- D035(S009): Arbitrary labelled injections preserve all source edges; bounded misses never noncontainment/exclusions.
+- D036(S009): Truncated demands and degree budgets supply overlap-independent/mixed excess, not available colours; exact equality quotient remains a list-colouring existence obligation.
+- D037(S009): Retain immutable launch provenance/concurrent provisional search and cold gate; S010 future only.
+
+- D038(S010): Replace long heavy odd local searches/mixed charges with all-order K6,9 Euler compression; selected old heavy types now vacuous.
+- D039(S010): Local P4/C5 positives end a local-only nonbiplanarity tactic; prioritise actual criticality/light/smaller clique and simultaneous residual existence.
+- D040(S010): IndependentR with safe residual light pairs/budget54 supplies a conditional extension proof, not guaranteed existence.
+- D041(S010): Isolate counter generators by process; retain both failed precheck adapters. One authorised S010 only; S011 future.
+
+- D042 (2026-10-14, owner re-scope, not a numbered session): Narrow the headline to the lower bound only: prove χ₂ > 9 (χ₂ ≥ 10) by one fully certified biplanar construction. Supersedes the two-sided targets of D001/D002. Universal upper-bound work (Route B; hypotheses H-B, H-D, H-E) is retired. S002–S010 upper-bound claims remain recorded as history, are not extended, and proved forbidden-subgraph facts may be used only as candidate filters. A certified χ ≥ 10 witness is a lower-bound advance, not a resolution of EMP. Rationale: the owner judges a finite checkable witness more tractable than a universal colouring theorem.
+- D043 (2026-10-14, owner instruction, governance/infrastructure only, not a numbered session): Run all future sessions in Claude Code cloud containers. Add a SessionStart hook and scripts/cloud_setup.sh that build the S004-pinned CaDiCaL/drat-trim from source on Linux, install the pinned Python packages and link the legacy Windows binary paths so preserved scripts stay unedited; add scripts/cloud_smoke.py as a mandatory entry acceptance check. The cloud toolchain is a new environment, not a byte reproduction of the Windows binaries; acceptance still rests on checked proofs. Validation at D043: 271/271 chromatic CNFs byte-identical and DRAT-verified, K9 control verified, fresh CaDiCaL K9 proof verified. Rules in docs/CLOUD_ENVIRONMENT.md.
+
+- D044 (S011, 2026-10-14): Adopt GitHub Actions isolated WIP as a verified execution fallback when ChatGPT runtime has no mounted checkout/hook/pinned .venv; each research job must independently perform the complete D043 smoke gate, pin sources/native SHA256 and upload results. Provenance in validation/S011/SUMMARY.json. The fallback is not an exemption from scientific proof requirements.
+- D045 (S011): Prioritise chromatic-restoring edge swaps or genuinely new source families after full 219-row positive heuristic found no split and six fixed rows proved edge-critical. Plain edge deletion cannot yield a 10-chromatic subgraph of these six rows. No implication that any of 219 is non-biplanar; headline unchanged.
+- D046 (owner requirement, S011, 2026-10-14): **Always output the complete next-session FUTURE/UNEXECUTED prompt WITH the session closeout report and pushed/merged GitHub references.** Preserve exact execution/reproduction details in STATE and future handover to avoid rediscovery. No automatic following session execution.
+
+- D047 (owner instruction with S012, 2026-10-14): **Supplying, linking or pasting a numbered session prompt as a request IS the explicit owner invocation to execute that session.** Supersedes any active STOP/fresh-second-invocation requirement in D004/D005, AGENTS or outgoing prompt text. A prompt labelled FUTURE/UNEXECUTED is a queued handover status and is immediately executable when supplied by the owner, without any redundant confirmation. Exactly one session runs per such message; no autonomous S013/S014 execution. Historical provenance remains immutable and should not be expunged. D042 scientific and D046 full-text handover requirements unchanged.
+- D048 (S012): Close single-edge chromatic-restoring swaps on six S011 edge-critical bag-weight>=2 sources by all-swaps nine-colour transposition (CLM-0071, CAM-0015, 194896/194896 independently checked). Close induced-Sulanke H + at most5 vertices by criticality/density; six-vertex boundary K6(-e) and 89/90-edge conditional structural filter (CLM-0072/73). Neither result changes the headline interval or any of 219 UNKNOWN biplanarities.
+
+- D049 (S013): Stop pursuing ten-chromatic BIPLANAR graphs <=17 vertices CONTAINING Sulanke H=K6 vee C5. CLM0074-76 prove all biplanar such graphs have chi9 via K6-e list-Hall, K6 Hall-or-K9, and old-C5-chord K9. Not an exclusion of all order17 or a universal upper theorem. CAM0016 48 positive partial edits and80 actual planar pairs; no headline. Preserve D042/D047.
+
+- D050 (S014): Close retained Sulanke-H 18-vertex seven-new-vertex K7 and K7-e induced-side routes via CLM0079; focus on m=2,3,4 with Σδ≤4−m (CLM0080). Plain original-H edge deletion drops its chromaticity to≤8 (CLM0078), forcing independent chromatic recertification of every restored construction. No smoke/no numerical work in S014's nonhooked local runtime; S015 must use a fresh same-runner full pinned setup/smoke before running any numerical search. Do not extrapolate to arbitrary order18 or full EMP.
+
+- D051 (2026-10-15, direct owner instruction, GOVERNANCE/HANDOVER ONLY, NOT S015 execution): Before moving to new construction avenues, S015 must re-examine ALL 219 originally exact-10-chromatic but still biplanarity-UNKNOWN candidates. The earlier S011 CAM0012 438 greedy/25 repair attempts were positive-only, not exclusions; prioritisation pivot after no positive was not a theorem or cloud-runner limitation. Use the already proven D044 GitHub Actions WIP fallback proactively if local hooked/pinned checkout missing: setup + full cold smoke in EACH research job before any calculation, finite registered seeds/caps, 219-row per-index results. Deepen promising rows incl156; retain unresolved rows for S016 unless a valid witness or owner-approved pivot. S015 is queued FUTURE/UNEXECUTED. Old S015 Sulanke agenda deferred. See docs/S015_219_RECHECK_DIRECTIVE.md.
+
+- D052 (S015, 2026-10-15): Execute owner D051 original219 biplanarity recheck BEFORE returning to S014 seven-new-vertex Sulanke or layer-first constructions; D044 validated GitHub Actions is binding fallback when local hooked checkout absent. CAM0017 same-job cold smoke PASS; 657 new positive-only trials across all219 and20 deeper Kuratowski ejections, original row156 exact CEGAR UNKNOWN. Zero valid complete splits/new checked negatives. All219 remain UNKNOWN. S016 must continue rigorous original-row exact search under 12GiB finite caps and original source certificates, no unauthorized pivot. WIP science/preservation branches NEVER merged; archived their raw outputs in main via one fresh authored session commit, not via WIP ancestry.
+
+- D053 (S016, 2026-10-15): Under D042/D051 execute CAM0018 on REAL D044 GitHub-hosted runner with SAME-JOB full cold 271/271 CNF/DRAT+K9; exact original rows156/3/9/173 remain TIME-CAPPED UNKNOWN, 11 fresh constructive trials incomplete, row148 new 10-unplaced best. CLM0081 elementary Euler lower/upper layer cardinalities is a correct but **unencoded** S017 search strengthening. Original219 remain UNKNOWN; no authorised switch to Sulanke m2..4/other source families. S017 exact proof lane must change mathematical encoding and independently check any negative DRAT; not merely extend a time cap. S016 full handover installed, do not execute S017 without owner invocation.
+
+- D052 (S017 implementation safety): Cardinality constraints are NECESSARY from Euler, not biplanarity certificates. Corrected same-job encoder truth-table m<=5 covers1022 test projections but does not independently prove full lex-leader projection or any original-row UNSAT; preserve all capped UNKNOWN and require explicit DRAT + independently audited necessary-clause soundness before NONBIPLANAR classification. Owner D051 continues without any original219 pivot.
+
+- D054 (2026-10-15, direct owner instruction, GOVERNANCE ONLY; queued S018, not science): Intensify the 219 existing χ=10 biplanarity-UNKNOWN original graphs **sequentially**, with ONE active exact original row and ONE heavy ≤12GiB solver worker at a time, beginning row148 (historical S016 partial still10 original edges unplaced). Target a complete independently certified E1/E2 planar partition or sound full proof-checked UNSAT; if UNKNOWN at bounded cap, improve SAT/embedding method, checkpoint and resume SAME row rather than rotating through shallow caps. Only change row with completed certification or objective quantified rationale; preserve original unresolved queue. No switch to unrelated construction sources before owner authorises it or one positive original witness proves D042. D044 same-job full cold setup/smoke remains mandatory; no claims of classification/finite termination arise from this directive. See docs/S018_SERIAL_219_DIRECTIVE.md and revised identical queued S018 prompts.
+
+
+- D055 (S018, 2026-10-15): Execute owner D054 one-graph policy on canonical original row148 only. Hosted GitHub Actions run38721673690 job116377478891 all steps success after fresh pinned setup and SAME-JOB 271 original non9 CNF hashes/DRAT plus K9. Adaptive large-neighbourhood repacking improved historical best from10 to6 unplaced original edges, but this is NOT a complete planar partition; no-lex/no-cardinality CEGAR capped UNKNOWN after550 iterations/19480 sound cuts. 91.6MiB peak parent RSS; RAM ceiling not observed as bottleneck. Preserve best partial and compressed cut checkpoints permanently; S019 must continue SAME row148 using seven-defect triangulation-pair cover or stronger sound embedding encoding and full proof gates. No automatic source-family pivot. All219 still UNKNOWN, inherited52 certified negatives unchanged. The S019 full prompt is queued FUTURE/UNEXECUTED.
+
+
+S019 execution note (no new owner decision): following D042 and D051/D054, ran only original148 and retained UNKNOWN after stronger density SAT and expanded positive attempt; next S020 stays same original until positive/negative certified.
+
+
+### D055 (2026-10-15, S021 execution closeout)
+Keep serial original graph148 exclusively active after full verified S021 cross Euler/SAT cap and no verdict. Preserve 75653 cuts and 120 audited constraints, six missing; S022 must work on exact embedding-completeness or proof certificate instead of switching to other original graphs. D042/D051/D054 remain binding. No scientific lower bound promotion. This decision does not execute S022.
+
+
+### S022 session execution (2026-10-15; D042/D051/D054 CONTINUED, no new owner decision)
+
+Owner “run next session” authorised exactly S022 under D047. One original row148 exclusive, one ≤12GiB worker at a time; two sequential GitHub Actions cold smoke runs38765947247 and38767507306 complete PASS original271+K9. Exact local baseline Hamming radius≤3 excludes only 325626 flipped baseline subsets, not original globally. Four-support A packing impossible by degree3 at vertex1. Retain original148 UNKNOWN/219 original unknown overall and prior75653 sound cuts. S023 remains queued FUTURE/UNEXECUTED, must focus globally complete embedding model or full checked native refutation. WIP histories NEVER merge.
+
+
+- **D056 (2026-10-15, explicit owner instruction; GOVERNANCE ONLY; S023 NOT EXECUTED):** Rewrite queued S023 as an uncompromising research-and-audit comparison of which adjacent Earth–Moon bound is theoretically easier to move. Compare a checked existential biplanar chi>=10 witness (lower route) with an unconditional general chi<=11 theorem (upper route), with up-to-date primary literature and substantive lemma-level proof attempts on EACH side, original S002–S010 failures and S011–S022 construction frontier, full counterexample testing, comparable proof-distance criteria and one justified recommendation. For exactly S023, TEMPORARILY supersede D042's upper-bound prohibition and D051/D054 graph148-only exclusivity. Preserve all 219 original UNKNOWNs/row148 evidence; 9<=chi2<=12, no new result. This does not permanently revoke D042 nor automatically authorise future upper-route sessions: S023's S024 proposed prompt must state any recommended pivot explicitly for future owner invocation under D047. Full directive at docs/S023_BOUND_COMPARISON_DIRECTIVE.md; identical FUTURE S023 at authoritative/NEXT_SESSION_PROMPT.md and sessions/S022/S023_FUTURE_PROMPT.md.
+
+
+### S023 comparative route verdict (2026-10-15; recommendation only, NOT D057 adopted)
+D056 upper-vs-lower research exception executed exactly S023. Full dossier research/S023_UPPER_VS_LOWER_AUDIT.md finds L lower chi2>=10 a better research bet than U universal chi2<=11, chiefly because upper lacks any all-order/deficit reduction while lower needs one fully checked witness. The *exclusive* row148 algorithm has no globally certified status after 325626 local flipsets; recommend future S024 layer-first as primary, global row148 exact triangulation-cover second. D042 lower-only resumed after S023; D051/D054 original priority is not silently repealed. Proposed D057 S024-only priority adjustment requires NEXT explicit invocation of S024 complete prompt, whose wording communicates exact policy. No new headline bound; maintain original219 UNKNOWN.
+
+- **D057 (S024 owner invocation 2026-10-16; APPLIED S024 ONLY):** The explicit saved S024 plan as executed by 'Run next session' relaxes D051/D054 original row148 exclusively for this session, permits first layer-first 22..36 pair construction and secondly a global exact original148 triangulation-cover specification; D042 lower-only remains. Full smoke+CAM0026 [run38862555457](https://github.com/jfairfaxball-348/Earth-Moon-problem/actions/runs/38862555457) made 17 edge-disjoint maximal-planar pairs, every one explicitly <=8-colourable; no chi10 witness. Row148 formulation is only a proved spec with 7 cover defect, NO row148 solver run. Decision for future S025 is to seek actual certified chromatic stress and implement global topology-complete encoding; original52/219 unchanged.
+
+- **D058 (S025, 2026-10-16; in-session method decision under the owner-invoked S025 prompt):**
+  - Arm B's preregistered stop gate fired: the complete triangulation-cover SAT encoding left K9 UNKNOWN at 600 s.
+  - S025 therefore switched row148 work to (i) a flip-annealing positive oracle, (ii) obstruction descent, and (iii) a Kuratowski CEGAR strengthened by cross-layer K9-minor lemmas (CLM-0090/0091), with full clause re-justification and native drat-trim checking.
+  - Outcome: certified 17-vertex C5 obstructions settle all 219 BIPLANARITY_UNKNOWN original rows (CLM-0094). The D051/D054 original-219 priority is DISCHARGED by complete decision, not repealed.
+  - From S026, new candidate sources inside D042 are permitted, each with quantitative justification and preregistration.
+  - D042 lower-only scope, certificate policy and the D047 invocation rules are unchanged. The owner's "running locally" message authorised local computation for S025 only. Later sessions must re-establish their environment (local smoke, cloud hook, or D044 Actions).
+
+S025 integration reconciliation (2026-10-18; no new numbered session): transplant completed local8fda361 onto live PR31 main6883520; preserve historical D058 directive and actual original execution prompt, restore two exact named proof archives and three recorded source-byte hashes. CurrentS026 FUTURE, original271 NON-BIPLANAR/no chi>=10 witness. See docs/S025_INTEGRATION_RECONCILIATION.md.
+
+**D059 (S026,2026-10-18):** Owner directly invoked S026 and then expressly requested local laptop execution through Codex. Cancel remaining hosted queue, preserve completed source/artifacts, full fresh local smoke before continuation. One11GiB heavy tree, quiet durable watchdog/checkpoints, retain finished proofs. Add sound two-branch contraction and independent exact quotient-containment audit. S026: 3 additional C5 negatives certified; 21/26 sum17 classes certified, 5 UNKNOWN. 2185 source models,2180 checked obstruction maps,one initial filter timeout,four initially admitted and all four NON-BIPLANAR by new certified C5 maps;72 independent old18 absence DRAT proofs. No chi>=10 biplanar witness;9<=chi2<=12. P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. S027 requires a new invocation.
+
+**D060 (S027, 2026-10-18):** Owner message "run next session" invoked S027 (D047) in a local Claude Code session; the saved prompt's "through Codex" is satisfied by local execution on the same workstation with identical pins, full 271+K9 smoke, one 11GiB supervised tree and an 8 h cap (executor identity recorded). Registered after disclosed scratch pilots: generator conflict budget 200000, first filter-clean model per profile admitted (<=6). Learned clauses only from certified obstructions and Euler excess. Results: 13 profile domains closed (CLM-0103), 3 new certified obstructions (CLM-0104), C5 sum17 24/26 (CLM-0105), 4 admitted UNKNOWN; no witness, 9<=chi_2<=12. CLM-0101 already existed; S027 claims are CLM-0102..0106. S028 queued FUTURE: obstruction-closure loop (descent -> refilter -> regenerate).
+
+**D061 (S028, 2026-10-19):** Owner confirmed the jfairfaxball-348 credential (Git Credential Manager; gh helper shadowed it) and invoked S028 (D047). Local Claude Code execution, full smoke, 11GiB tree. Two-branch size 3 for 28-vertex graphs (size 4 measured infeasible: 51.8M clauses). Owner then asked to wrap up within 30 minutes; the campaign was stopped during queue item 1 of 13 and closed out with 12 graphs NOT_RUN. S029 queued.
+
+**D062 (2026-10-19, explicit owner instruction; GOVERNANCE ONLY; S029 NOT EXECUTED):** After reviewing S001–S028 the owner pivoted away from the capped 28-vertex alpha3 counting/obstruction-closure loop. S029 is rewritten as a literature-only prior-art and current-landscape audit with rStation r/earth_moon as priority 1, two novelty passes, an overlap matrix and a go/no-go, FROZEN as an append-only baseline. S030 (drafted in the directive, finalised by S029) is the alpha<=3 finite programme: T3 (every biplanar graph with alpha<=3 is 9-colourable) is finite by Lemma F (n<=36: Turán vs 6n-12, n=37 forces K13+K12+K12 which contains K9), so a certified exhaustive search either proves T3 or yields the D042 witness. That finite-domain search is authorised for S030 when invoked; no universal upper-bound work beyond it. The old S029 queue is PARKED, not discharged; its text is preserved as sessions/S028/S029_FUTURE_PROMPT.md (frozen S028 text, superseded by D062). No bound, claim or graph status changes. Directive: docs/D062_LANDSCAPE_THEN_ALPHA3_DIRECTIVE.md; identical D062 S029 prompts at authoritative/NEXT_SESSION_PROMPT.md and sessions/S028/S029_FUTURE_PROMPT_D062.md.
+
+**D063 (S029, 2026-10-19):** Owner "run next session" invoked S029 (D047) in a Claude Code cloud session. The frozen landscape audit (research/S029_LANDSCAPE.md, validation/S029/LANDSCAPE_FREEZE.json) gives GO-MODIFIED for S030. Lemma F is superseded (n<=30 via Szeider, CLM-0111; n<=28 claimed by rStation paper 59). The alpha<=3 witness route is exactly Gethner–Sulanke OP1(b) at 28 vertices (CLM-0112), so S030 is a certified two-sided stratified decision of order 28 (delta=11 with m 155/156, then 10, then 9), with rStation results used only for prioritisation unless re-proved or replayed. T3 for 21<=n<=27 is PARKED (non-counting; duplicates the rStation order programme). No outreach. No bound, claim or graph status changes.
+
+**D064 (S030,2026-10-19):** 44 SAT relaxation models independently audited; 1181.281s registered serial search; S11 m155/156 UNKNOWN; S10/S9 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. Persist valid cuts and whole-formula provenance; next S031 should retain learned state in incremental CEGAR before repeating caps. No upper-bound scope change. Delta9/regular154 dependency boundaries explicit; S8 fallback not discharged.
+
+**D065 (owner,2026-10-19):** Explicit authorization for S031 and successive numbered sessions until context/usage exhausts; prioritize multi-hour unattended runs and scheduled checks. Earlier single-message stop-before-next gates superseded for this continuing campaign. Scientific, independent-validation, atomic integration and publication gates remain. S031 IN_PROGRESS,8h/11GiB persistent S11 worker; not a closeout.
+
+**D066 (owner,2026-10-19):** "If its 8 hours then just run that one session" limits execution to S031 only, superseding D065 successive-session authorization. Keep the running worker and monitoring; finish required S031 validation/integration, write but do not execute S032, then disable monitor and stop.
+
+**D067 (S031 closeout,2026-10-20):** 46 relaxation models independently audited;28692s persistent search;1809 checked cuts (1114 inherited,695 new); S11 m155/156 UNKNOWN; S10/S9/S8 NOT_RUN; no certified stratum or chi>=10 witness;9<=chi2<=12. D066 remains binding: disable monitor after integration and stop. Future S032 should first diagnose/strengthen the persistent method; no successor execution or scope change authorized.
+
+**D068 (owner,2026-10-20):** "Okay, run next session" invokes exactly S032 under D047, satisfying D066 fresh-invocation gate. Native partial-assignment planarity, independently guarded cuts, scoped controls with free K9 UNKNOWN, up to8h/11GiB S11 campaign and monitoring. No S033/publication/parked-queue authorization. S032 IN_PROGRESS.
+
+**D069 (owner,2026-10-20):** "Don't limit it to 8 hours.....Just keep going until you stop" removes S032 fixed wall limits. --cap0/--timeout inf; serial proof/checker phases likewise unbounded in time, still11GiB/10GiB-disk/owner-stop supervised. No S033 authorization; no mathematical status change.
+
+**D070 (owner,2026-10-21):** safely stop S032, retain rules and rebuild progress capability. Registered OWNER_STOP; all2579937 saved clauses independently checked and losslessly archived. Monitor PAUSED; no automatic restart. Separate native internal telemetry and proof-backed disjoint-region CLI built/tested. Exact projected count/ETA unknown. S032 closes UNKNOWN, S033 FUTURE/UNEXECUTED.
+
+S033 execution (2026-10-21,D072/D047): owner invoked phone setup with run next session. Validated existing guarded solver on ARM64; direct main/no PR, reversible compatibility changes, no S034 execution or scientific scope change.
+
+**D073 (owner,2026-10-21):** invoke S034 now, finish setup/verification/256-region scheduling then genuine computation continuously until22 October07:00 UK/06:00 UTC. One worker initially, more only after verified safety, continue through individual UNKNOWNs/milestones, checkpoints/resource safeguards, clean deadline stop. No further confirmation except actual safety issue/unavoidable blocker; no S035 authorization.
+
+**D074 (owner,2026-10-22):** close S034 and commit/push; queue S035 as Windows laptop multiple-worker continuation. See docs/D074_S035_WINDOWS_MULTIPLE_WORKERS.md. No S035 invocation or phone restart.
+
+S035 invocation2026-10-22: owner says run next session, >90GB free and laptop on power/wifi without sleep. Exactly S035, existing main/no new branch/PR, genuine multiple workers after measured acceptance; no overall arbitrary cutoff and no S036 invocation.
+
+S035 owner-requested resident upgrade: independently instrumented flat counters identify congruence simplification (mode2052). Equal90s same-input comparison default4216 conflicts versus congruence-disabled1003623, both UNKNOWN, same11216 checked geometric occurrences. Select optional congruence off; retain random walk default. Same-PID per-region resident RAM contexts replace destructive wall-quantum restarts; preserve independent standalone DRAT gates and all prior evidence. No S036 invocation.
+
+S035 owner pause: preservation first; no forced termination; SAT discoveries absolute priority; nine-region diagnostics and verified main publication before any further heavy computation. S036 not invoked.
+
+S035 thread identity gate resolved by matched Microsoft symbols and original-thread-only quarantine policy. Helpers never resume; counter-based suspension replaces misleading process status. Published controls and actual retained-process validation passed before sustained search.
+
+D075 (owner23Oct2026): investigate and close S035; preserve evidence and suspended RAM; ordinary existing-main push; install complete S036 targeted diagnostic/repair then long-search prompt. No S036 execution until next invocation; D074 same-main workflow continues.
+
+D076 (owner 23-24 Oct 2026, S036): fresh semantic-recovery residents after the S035 identity loss; machine-level limits and automatic recycling ("raise the limits to whatever this machine can handle"); hands-off autopilot recovery of operational pauses with standing fix authority; final owner-directed clean stop with NO next session installed (holding notice only). Scientific/proof/publication gates unchanged.
+
+S037 owner invocation 24Oct2026 adopts installed structural-reset prompt on existing main. Confirmed all247 closed prefixes are sorting bookkeeping. Next direction: bounded planar multi-edge patch repair, including nonextendible 77-edge layers. S036 stays stopped; S038 queued only.
+
+S038 owner invocation24Oct2026 adopted existing-main bounded patch prompt. Matched methods give no best-score advantage for small boundary-only patches. Queue S039 interior-vertex relocation and protected9-chromatic seed audit; do not execute it automatically.
+
+S039 owner invocation24Oct2026 executes existing-main bounded star/seed prompt. Concrete star escapes91/123 to82/79 justify testing coordinated two-layer relocations and remaining-four-set diagnosis next. Pure coning is provably9-colourable; preserve it as calibration, not a chi10 candidate family. S040 queued, not executed.
+
+D077 owner amendment24Oct2026: S040 is one bounded coordinated-star test, with preregistered solid-progress criteria and explicit PROGRESS/PIVOT closeout. If no solid progress, park repeated star/patch search and queue S041 to compare at least two genuinely different construction routes. Isolated small score changes or extra computation alone are insufficient. S040/S041 remain FUTURE/UNEXECUTED; S039 science and9..12 unchanged.
+
+S040 owner invocation24Oct2026 (`run s04p`) executes the D077-revised prompt. Registered gate failed: no strict improvement in exact coordinated neighborhoods or matched arms. D077 decision PIVOT: park star/patch/coordinated four-set hill-climbing; queue S041 comparative audit of at least two genuinely different routes. S041 not executed.
+
+S041 owner invocation24Oct2026 executes the D077 PIVOT audit. Decision: rank R3 non-alpha joins/apex first because its chi>=10 is certified by construction and avoids the chi_f>9 counting premise (F9 risk); queue S042 as an exact apex-leaf census with a D077-style gate; R1 order-3 symmetry is the fallback. Star/patch search and S11 cells stay parked. S042 not executed.
+
+S042 owner invocation24Oct2026. Registered gate failed (no live apex leaf). Decision PIVOT: park R3 apex-over-Hajos search; queue S043 as the exact order-3 layer-symmetric class (R1), whose own PIVOT leads to an owner-decision audit rather than further slices. S043 not executed.
+
+S043: UNKNOWN; 10000 models, 20000 checked Kuratowski cuts; 1026.70 CPU s; no witness; PIVOT. S044 owner-decision audit FUTURE/UNEXECUTED. Registered gate unchanged; no additional class, local search or S036 restart.
+
+S044 recommends PAUSE; owner decision pending. S037–S043 evidence audited; no new search, no witness, 9..12 unchanged. Hajós arbitrary-one-leaf implication narrowed; 97 individual negatives intact. S045 decision/re-entry gate FUTURE/UNEXECUTED.
+
+S045 owner CONTINUE overrides proposal-only gate: unrestricted 50-vertex native colouring-feedback search; fresh acceptance and three-arm benchmark PASS; sustained run is separately identified in RUNNING.md. S036 stopped; no witness or bound advance.
+
+S045 streaming maintenance: 38042 candidate records / 111073 geometric rule occurrences preserved; exact bounded-memory CNF replay PASS; fresh controls/benchmark PASS; partition-positive selected; same campaign resumed under original ceiling. No witness or coverage claim.
+
+S045 closed25Oct2026 at the owner's07:30 UTC/GMT deadline. All saved evidence
+retained;642381 journal records and one extra native assignment have checked
+nine-colourings;2376754 geometric occurrences freshly replayed. No witness,
+coverage percentage or domain exclusion. Decision: do not extend the expired
+run; queue S046 for a materially changed memory/checkpoint mechanism and
+bounded acceptance before any longer search. S046 remains FUTURE/UNEXECUTED;
+S036 stays stopped. Completed campaign check-ins deleted.
+
+D078 (owner25Oct2026, governance only): revise queued S046 to diagnose S045
+candidate quality, audit admissible core domains, compare 24/28/32/40/50 with
+justified critical-core filters and symmetry breaking, and repair engineering
+only as warranted. Retain bounded budgets and independent certification; select
+future long-run domains by evidence rather than candidate throughput. S046 stays
+FUTURE/UNEXECUTED; no new search/automation or S047 execution. See
+docs/D078_S046_TARGET_SELECTION.md. S045 science and all UNKNOWNs unchanged.

@@ -1,0 +1,62 @@
+{
+ "entry_commit": "5f56fdf14b88eef9b77f549679c35a1e59a5b106",
+ "purpose": "exact entry bytes of live authority/ledger/workflow files changed by S046, for frozen pre-S046 checks only",
+ "files": {
+  ".github/workflows/scaffold.yml": {
+   "archive": "validation/S046/entry_context/.github/workflows/scaffold.yml",
+   "sha256": "740c1c0120ffdd513a7a38596cfd1b7b1cfea223b7d6e923eb7d0a6dfdaad2e0"
+  },
+  "AGENTS.md": {
+   "archive": "validation/S046/entry_context/AGENTS.md",
+   "sha256": "1b9723933f72b676f93abd2041505b86428f05be52d4c54a411438aedb21a003"
+  },
+  "authoritative/NEXT_SESSION_PROMPT.md": {
+   "archive": "validation/S046/entry_context/authoritative/NEXT_SESSION_PROMPT.md",
+   "sha256": "f4c202cd0cb6f9c336aa4eeb18b5f883bd005c218ac13c897bc09a38445e8452"
+  },
+  "authoritative/START_HERE.md": {
+   "archive": "validation/S046/entry_context/authoritative/START_HERE.md",
+   "sha256": "d125a2abf448e30aae614f2381ad4d0bda1ec3e77f17db1370556ddcaf79ca8a"
+  },
+  "authoritative/STATE.json": {
+   "archive": "validation/S046/entry_context/authoritative/STATE.json",
+   "sha256": "b1dab51b884ef6c2009bd2ffc50fd782ca89be05a0ce930eef9dd6babc9cc053"
+  },
+  "campaigns/README.md": {
+   "archive": "validation/S046/entry_context/campaigns/README.md",
+   "sha256": "6be85bde460712d0e47cc67d7bea2b7e5ad49f9f446b8c6929ad3381486bfd7a"
+  },
+  "catalogue/CLAIMS.json": {
+   "archive": "validation/S046/entry_context/catalogue/CLAIMS.json",
+   "sha256": "99680d0f01412b9a0621e24cb500fdf9a8b9fbde7da0ebaae4820f2245813df3"
+  },
+  "catalogue/CLAIMS.md": {
+   "archive": "validation/S046/entry_context/catalogue/CLAIMS.md",
+   "sha256": "ad5095ecdf0fc9f99f437e2ca8223ddddc7f48f779ac0f9ba463350e825cb38a"
+  },
+  "catalogue/SOURCES.json": {
+   "archive": "validation/S046/entry_context/catalogue/SOURCES.json",
+   "sha256": "1b3b0bd826e5a695541ab41c25649d04dcf8038e1574ea460a41d188d40a5d43"
+  },
+  "catalogue/SOURCES.md": {
+   "archive": "validation/S046/entry_context/catalogue/SOURCES.md",
+   "sha256": "80957780a60e883a8f6de079682dc73374b790977e39295862a13275e062bb95"
+  },
+  "docs/DECISION_LOG.md": {
+   "archive": "validation/S046/entry_context/docs/DECISION_LOG.md",
+   "sha256": "8e964d854f63eafb0b477ccd6a625e9b61e5b680af3bd2d9ef2c48100903f07f"
+  },
+  "docs/FAILURE_LEDGER.md": {
+   "archive": "validation/S046/entry_context/docs/FAILURE_LEDGER.md",
+   "sha256": "937e156711042a551a2b892131ae46d540825c883518ed1ae5e5ee3eba7290aa"
+  },
+  "docs/PHASE_GATE_LEDGER.md": {
+   "archive": "validation/S046/entry_context/docs/PHASE_GATE_LEDGER.md",
+   "sha256": "7ab2f781bad4904dca396ed59db056956844c10bad454698762c8b4c57c45912"
+  },
+  "docs/SESSION_LEDGER.md": {
+   "archive": "validation/S046/entry_context/docs/SESSION_LEDGER.md",
+   "sha256": "ad620c030564b872c573f9f9297bf29324a6df2157e178d4660272f8c50a0926"
+  }
+ }
+}

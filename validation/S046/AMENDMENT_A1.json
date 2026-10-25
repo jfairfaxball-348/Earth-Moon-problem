@@ -1,0 +1,63 @@
+{
+ "session": "S046",
+ "amendment": "A1",
+ "registered_epoch": 1792920170.5856826,
+ "registered_utc": "2026-10-25T09:22:50Z",
+ "after": "E3 COMPLETE, targeting_passed=false; decision fixed as PIVOT_OR_INCONCLUSIVE",
+ "k": 8,
+ "runs": [
+  [
+   "C",
+   11
+  ],
+  [
+   "C",
+   13
+  ],
+  [
+   "C",
+   15
+  ],
+  [
+   "C",
+   17
+  ],
+  [
+   "C",
+   20
+  ],
+  [
+   "C",
+   24
+  ],
+  [
+   "B",
+   11
+  ],
+  [
+   "B",
+   15
+  ],
+  [
+   "B",
+   20
+  ],
+  [
+   "CS",
+   15
+  ],
+  [
+   "CS",
+   20
+  ]
+ ],
+ "solve_seconds": 40,
+ "stop": "first NONCOLOUR alert or COLOUR_TIMEOUT",
+ "budget": {
+  "cpu": 450,
+  "wall": 500
+ },
+ "verification": "check_pair, drat-trim non-8 proof, checked 9-colouring",
+ "changes_decision": false,
+ "plan_sha256": "5411b0f3ee3f5050a6eb86716ca6b2cadb3ff5887dc884dc3f1fe2ff4a2c45d2"
+}

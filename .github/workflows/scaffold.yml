@@ -81,6 +81,8 @@ jobs:
       - name: Verify S045 memory recycling and preserved resource-stop evidence
         run: python scripts/s045_replay_memory.py
       - name: Verify S045 final deadline stop archives candidate certificates and S046 handoff
-        run: python scripts/s045_replay_final.py
+        run: python scripts/s046_replay_history.py scripts/s045_replay_final.py
       - name: Verify D078 target-selection amendment and unexecuted S046 handoff
-        run: python scripts/check_d078_handoff.py
+        run: python scripts/s046_replay_history.py scripts/check_d078_handoff.py
+      - name: Verify S046 diagnosis, matched pilots, calibration certificates and S047 handoff
+        run: python scripts/check_s046_records.py

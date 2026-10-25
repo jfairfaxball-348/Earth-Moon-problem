@@ -1,0 +1,234 @@
+{
+ "status": "PASS",
+ "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+ "steps": [
+  {
+   "command": "python scripts/check_scaffold.py",
+   "returncode": 0,
+   "seconds": 0.1,
+   "tail": "S046 governance checks: PASS (not proof, not hosted CI)\n"
+  },
+  {
+   "command": "python -m unittest discover -s tests -v",
+   "returncode": 0,
+   "seconds": 0.2,
+   "tail": "t_loops_rejected (test_submission.TestPreliminaryCertificateValidation.test_loops_rejected) ... ok\ntest_overlap_rejected (test_submission.TestPreliminaryCertificateValidation.test_overlap_rejected) ... ok\ntest_well_formed (test_submission.TestPreliminaryCertificateValidation.test_well_formed) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.017s\n\nOK\n"
+  },
+  {
+   "command": "python scripts/check_s026_records.py",
+   "returncode": 0,
+   "seconds": 5.8,
+   "tail": "PASS S026 byte integrity, archived checker receipts, job-local smoke records, source pins, state and identical S027 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\n"
+  },
+  {
+   "command": "python scripts/check_s027_records.py",
+   "returncode": 0,
+   "seconds": 4.3,
+   "tail": "PASS S027 package (617 files), source pins, smoke, 19-item replay record, domain certificate hashes, state and identical S028 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\n"
+  },
+  {
+   "command": "python scripts/check_d062_records.py",
+   "returncode": 0,
+   "seconds": 3.8,
+   "tail": "PASS S028 package, source pins, smoke, 29-item replay record, state and identical S029 prompts\nMetadata/packaging only: no native proof replay or new mathematical computation\nPASS D062: frozen S028 records intact; authoritative S029 prompt identical to sessions/S028/S029_FUTURE_PROMPT_D062.md\n"
+  },
+  {
+   "command": "python scripts/check_s030_history.py",
+   "returncode": 0,
+   "seconds": 0.2,
+   "tail": "PASS S029: frozen landscape hash, executed D062 prompt, identical S030 prompts, manifest\nPASS S030 history adapter: frozen S029 checker intact; superseded prompt resolves to its byte-identical archive\n"
+  },
+  {
+   "command": "python scripts/check_s030_records.py",
+   "returncode": 0,
+   "seconds": 1.1,
+   "tail": "PASS S030 hashes, smoke receipt, independent control/replay records, prompt identity; metadata only\n"
+  },
+  {
+   "command": "python scripts/check_s031_records.py",
+   "returncode": 0,
+   "seconds": 0.9,
+   "tail": "PASS S031 archived hashes, smoke/controls/replay receipts, UNKNOWN boundaries and future prompt; metadata only\n"
+  },
+  {
+   "command": "python scripts/check_d072_active_prompt.py",
+   "returncode": 0,
+   "seconds": 4.4,
+   "tail": "PASS S032 preserved rules/archive hashes, UNKNOWN boundaries, rebuilt controls and paired future prompt; integrity only, not fresh proof replay\nPASS D072 mobile override and historical S032 preservation\n"
+  },
+  {
+   "command": "python scripts/check_s033_records.py",
+   "returncode": 0,
+   "seconds": 0.7,
+   "tail": "PASS S033 mobile evidence integrity; same-environment replay still required for future science\n"
+  },
+  {
+   "command": "python scripts/check_s034_records.py",
+   "returncode": 0,
+   "seconds": 0.8,
+   "tail": "PASS S034 final archive/receipts/256-region integrity and S035 Windows multiple-worker handover; not proof replay or search exhaustion\n"
+  },
+  {
+   "command": "python scripts/check_s035_records.py",
+   "returncode": 0,
+   "seconds": 1.2,
+   "tail": "PASS S035 fresh Windows acceptance, replay and real multiworker launch evidence; not a closeout, search exhaustion or headline advance\n"
+  },
+  {
+   "command": "python scripts/check_s035_resident_records.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "PASS S035 resident execution integrity; RAM retention and diagnostic evidence, not a mathematical result\n"
+  },
+  {
+   "command": "python scripts/check_s035_sat_first.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "SAT ALERT: campaign suspended; independent review required. C:\\Users\\johnf\\AppData\\Local\\Temp\\tmpg7oij6c1\\SAT_ALERT.json\nPASS SAT marker/exit 10 dominates UNKNOWN or stop reason; no solver launched\n"
+  },
+  {
+   "command": "python scripts/check_s035_resume_records.py",
+   "returncode": 0,
+   "seconds": 2.8,
+   "tail": "PASS S035 invoked recovery and immutable pause evidence; no fresh proof replay or headline advance\n"
+  },
+  {
+   "command": "python scripts/check_s035_sat_resume.py",
+   "returncode": 0,
+   "seconds": 5.3,
+   "tail": "dows\": {\n  \"real_candidate_interrupt\": true,\n  \"paused_cpu_zero\": true,\n  \"validation_failure_keeps_alert\": true,\n  \"STOP_race\": true,\n  \"malformed_adoption_preserves_worker\": true,\n  \"stale_controller_guard\": true,\n  \"controller_loss_guard\": true,\n  \"owner_stop_guard\": true,\n  \"nonforcing_natural_exit\": true,\n  \"real_atomic_read_write_contention\": true,\n  \"original_campaign_untouched\": true\n }\n}\n"
+  },
+  {
+   "command": "python scripts/check_s035_thread_records.py",
+   "returncode": 0,
+   "seconds": 0.2,
+   "tail": "PASS published original-native-only policy, helper quarantine and lifecycle/SAT controls; not a scientific result\n"
+  },
+  {
+   "command": "python scripts/check_s035_closeout.py",
+   "returncode": 0,
+   "seconds": 1.6,
+   "tail": "PASS S035 closed UNKNOWN, SAT-first preserved identities, exact delta/base recovery, S036 prompt; not fresh proof replay\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s036_records.py",
+   "returncode": 0,
+   "seconds": 0.4,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nPASS S036 entry/SAT-first/acceptance records and portable scanner-repair logic; not proof replay, Windows lifecycle replay or a mathematical result\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s037_records.py",
+   "returncode": 0,
+   "seconds": 2.3,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS037 PASS: symmetry, 19 layer records/rotations/four-sets/colourings, 43 flips, 446 nonextension subdivisions; bounds unchanged\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s038_records.py",
+   "returncode": 0,
+   "seconds": 9.4,
+   "tail": "{'status': 'PASS', 'density': 155, 'joint_neighbors_replayed': 4478, 'minimum_score': 126, 'cpu_seconds': 0.15625}\n{'status': 'PASS', 'density': 155, 'one_neighbors': 2705, 'one_minimum': 125, 'joint_neighbors': 6843, 'joint_minimum': 126, 'cpu_seconds': 3.390625}\nS038 PASS: exact neighborhoods, 22 sphere/colour/four-set records and 1736 independently replayed planar patch transitions; no witness\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s039_adversarial.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS039 adversarial PASS: 8 malformed certificates rejected\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s040_handoff.py",
+   "returncode": 0,
+   "seconds": 2.4,
+   "tail": "': 83, 'strict_improvements': 4, 'cpu_seconds': 0.109375}\n{'status': 'PASS', 'density': 155, 'neighbors': 1045, 'minimum_score': 116, 'strict_improvements': 5, 'cpu_seconds': 0.109375}\nS039 PASS: 1811 exact star neighbors; 22 sphere/colour records; four seed reconstructions; 762 trace transitions; no witness\nD077 PASS: frozen S039 intact; revised S040 progress-or-pivot handoff; no session invoked\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s040_adversarial.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS040 adversarial PASS: 9 malformed pair certificates rejected\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s040_records.py",
+   "returncode": 0,
+   "seconds": 14.2,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS040 PASS: coordinated neighborhoods [216582, 119281] rows replayed; 16 arms, 482 transitions, 24 records; no witness\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s041_adversarial.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS041 adversarial PASS: 9 malformed certificates rejected\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s041_records.py",
+   "returncode": 0,
+   "seconds": 2.5,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS041 PASS: 50600 order-13 layer certificates, 3510 pairs (min 767 four-sets), counting tables, 3 archived non-biplanarity certificates; no witness\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s042_adversarial.py",
+   "returncode": 0,
+   "seconds": 0.3,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS042 adversarial PASS: 5 malformed records rejected\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s042_records.py",
+   "returncode": 0,
+   "seconds": 1.6,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS042 PASS: 45 census types re-derived, 97 leaf graphs, {'NONBIPLANAR_DRAT_VERIFIED': 97} ; no witness\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s043_adversarial.py",
+   "returncode": 0,
+   "seconds": 0.9,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\nS043 adversarial PASS: orbit/four-set/generator/pin corruption; deleted/duplicate/disconnected subdivision edges; invalid rotation rejected\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s043_records.py",
+   "returncode": 0,
+   "seconds": 1.7,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\n{\"status\": \"PASS\", \"base_clauses\": 36200, \"base_variables\": 12073, \"cuts\": 20000, \"kinds\": {\"K33\": 17653, \"K5\": 2347}, \"all_clauses_rejustified\": true, \"verdict\": \"UNKNOWN\", \"cpu_seconds\": 1.234375, \"scope\": \"encoding and subdivision replay; UNKNOWN does not exclude any whole class\"}\n"
+  },
+  {
+   "command": "python scripts/s045_replay_history.py scripts/check_s044_records.py",
+   "returncode": 0,
+   "seconds": 0.6,
+   "tail": "HISTORICAL REPLAY against pinned S044 entry state; live S045 checked separately\n{\"status\": \"PASS\", \"recommendation\": \"PAUSE\", \"owner_decision\": \"PENDING\", \"historical_sessions\": 7, \"verification_checks\": 13, \"designated_leaf_loses\": 2, \"finite_apex_negatives\": 97, \"order3\": \"UNKNOWN\", \"cpu_seconds\": 0.171875}\n"
+  },
+  {
+   "command": "python scripts/s045_replay_initial.py",
+   "returncode": 0,
+   "seconds": 15.3,
+   "tail": "INITIAL S045 REPLAY against actual 5d910fb source/authority bytes; repaired run checked separately\n{\"status\": \"PASS\", \"benchmark_candidates\": 13764, \"geometric_rules\": 58769, \"projected_graph_coverage\": null, \"witness\": false, \"cpu_seconds\": 14.859375}\n"
+  },
+  {
+   "command": "python scripts/s045_replay_watchdog.py",
+   "returncode": 0,
+   "seconds": 8.8,
+   "tail": "Historical watchdog replay against exact 673d4a6 source/authority context\n{\"status\": \"PASS\", \"preserved_candidate_bytes_verified\": true, \"new_candidates_independently_checked\": 3587, \"new_geometric_rules_independently_checked\": 23525, \"projected_coverage\": null, \"witness\": false}\n"
+  },
+  {
+   "command": "python scripts/s045_replay_memory.py",
+   "returncode": 0,
+   "seconds": 17.6,
+   "tail": "Historical memory-recovery replay against exact 307399a source/authority context\n{\"status\": \"PASS\", \"formerly_pending_geometric_rules_checked\": 72775, \"benchmark_new_rules_checked\": 19876, \"benchmark_candidates_checked\": 5755, \"projected_coverage\": null, \"witness\": false}\n"
+  },
+  {
+   "command": "python scripts/s046_replay_history.py scripts/s045_replay_final.py",
+   "returncode": 0,
+   "seconds": 374.5,
+   "tail": "alled_candidates_checked_nine_colourable\": true, \"retained_native_unsat_signals\": [], \"all_archive_bytes_checked\": true, \"partial_final_count_not_claimed_as_native_slice\": true, \"proof_backed_projected_coverage\": null, \"witness\": false, \"domain_excluded\": false, \"elapsed_seconds\": 374.0469999999623}\nS045 final deadline, evidence and S046 FUTURE boundary PASS; no witness or finite-domain exclusion\n"
+  },
+  {
+   "command": "python scripts/s046_replay_history.py scripts/check_d078_handoff.py",
+   "returncode": 0,
+   "seconds": 0.4,
+   "tail": "HISTORICAL REPLAY of scripts/check_d078_handoff.py against exact S046 entry authority (5f56fdf); live S046 checked separately\nD078 PASS: mirrored target-selection prompt; S046 unexecuted; S045 evidence preserved\n"
+  },
+  {
+   "command": "python scripts/check_s046_records.py",
+   "returncode": 0,
+   "seconds": 22.1,
+   "tail": "S046 PASS: 144 manifest files; 40999 archived candidate records rechecked; 300 E1 and 300 E3 explicit <=8-colourings; 2 K6 v C5 calibration hits; decision PIVOT/INCONCLUSIVE; S047 FUTURE/UNEXECUTED\n"
+  }
+ ]
+}

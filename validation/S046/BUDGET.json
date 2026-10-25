@@ -1,0 +1,318 @@
+{
+ "ceiling": {
+  "cpu": 1800,
+  "wall": 3600
+ },
+ "blocks": {
+  "E1-dev": {
+   "cpu_raw": 0.109,
+   "wall_raw": 0.109,
+   "audit": 0,
+   "cpu_experimental": 0.109,
+   "wall_experimental": 0.109,
+   "rows": 1
+  },
+  "E1": {
+   "cpu_raw": 69.875,
+   "wall_raw": 70.078,
+   "audit": 0,
+   "cpu_experimental": 69.875,
+   "wall_experimental": 70.078,
+   "rows": 2
+  },
+  "E2": {
+   "cpu_raw": 1062.968,
+   "wall_raw": 1009.047,
+   "audit": 105.251,
+   "cpu_experimental": 957.717,
+   "wall_experimental": 903.796,
+   "rows": 15
+  },
+  "E3": {
+   "cpu_raw": 4.969,
+   "wall_raw": 4.969,
+   "audit": 0,
+   "cpu_experimental": 4.969,
+   "wall_experimental": 4.969,
+   "rows": 1
+  },
+  "A1": {
+   "cpu_raw": 414.564,
+   "wall_raw": 392.109,
+   "audit": 18.53,
+   "cpu_experimental": 396.034,
+   "wall_experimental": 373.579,
+   "rows": 11
+  }
+ },
+ "totals": {
+  "cpu_raw": 1552.485,
+  "wall_raw": 1476.312,
+  "audit": 123.781,
+  "cpu_experimental": 1428.704,
+  "wall_experimental": 1352.531
+ },
+ "within_ceiling_even_counting_audits": true,
+ "E4": "NOT_RUN: conditional on targeting criterion, which failed",
+ "verification_costs": {
+  "smoke_wall_seconds": 63,
+  "encoding_and_native_controls_seconds": 34,
+  "e1_archive_hash_seconds": 0.078,
+  "note": "Kuratowski tail audits are inside raw E2/A1 rows and listed as audit; DRAT subprocesses excluded from process meters"
+ },
+ "ledger_rows": [
+  {
+   "block": "E1-dev",
+   "cpu_seconds": 0.109,
+   "wall_seconds": 0.109,
+   "end_utc": "2026-10-25T08:58:24Z",
+   "note": "development test on 600 records of journal 000007; not part of registered sample"
+  },
+  {
+   "block": "E1",
+   "cpu_seconds": 35.375,
+   "wall_seconds": 35.5,
+   "end_utc": "2026-10-25T08:59:08Z",
+   "census_cpu": 32.734,
+   "census_wall": 32.843
+  },
+  {
+   "block": "E1",
+   "cpu_seconds": 34.5,
+   "wall_seconds": 34.578,
+   "end_utc": "2026-10-25T09:00:15Z",
+   "census_cpu": 31.891,
+   "census_wall": 31.969,
+   "note": "second E1 execution; the first computed the same quantities but crashed in report formatting before any output was printed or inspected"
+  },
+  {
+   "block": "E2:n24-B",
+   "cpu_seconds": 61.016,
+   "wall_seconds": 60.563,
+   "end_utc": "2026-10-25T09:05:21Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 4453
+  },
+  {
+   "block": "E2:n24-C",
+   "cpu_seconds": 77.156,
+   "wall_seconds": 72.265,
+   "end_utc": "2026-10-25T09:06:34Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 377
+  },
+  {
+   "block": "E2:n24-CS",
+   "cpu_seconds": 73.547,
+   "wall_seconds": 68.844,
+   "end_utc": "2026-10-25T09:07:42Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 22
+  },
+  {
+   "block": "E2:n28-B",
+   "cpu_seconds": 61.859,
+   "wall_seconds": 60.406,
+   "end_utc": "2026-10-25T09:08:43Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 4129
+  },
+  {
+   "block": "E2:n28-C",
+   "cpu_seconds": 74.891,
+   "wall_seconds": 70.594,
+   "end_utc": "2026-10-25T09:09:53Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 132
+  },
+  {
+   "block": "E2:n28-CS",
+   "cpu_seconds": 72.469,
+   "wall_seconds": 68.609,
+   "end_utc": "2026-10-25T09:11:02Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 14
+  },
+  {
+   "block": "E2:n32-B",
+   "cpu_seconds": 62.359,
+   "wall_seconds": 60.657,
+   "end_utc": "2026-10-25T09:12:03Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3891
+  },
+  {
+   "block": "E2:n32-C",
+   "cpu_seconds": 76.984,
+   "wall_seconds": 72.75,
+   "end_utc": "2026-10-25T09:13:15Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 32
+  },
+  {
+   "block": "E2:n32-CS",
+   "cpu_seconds": 73.219,
+   "wall_seconds": 69.0,
+   "end_utc": "2026-10-25T09:14:24Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 11
+  },
+  {
+   "block": "E2:n40-B",
+   "cpu_seconds": 59.891,
+   "wall_seconds": 61.203,
+   "end_utc": "2026-10-25T09:15:26Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3202
+  },
+  {
+   "block": "E2:n40-C",
+   "cpu_seconds": 78.234,
+   "wall_seconds": 73.89,
+   "end_utc": "2026-10-25T09:16:39Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 9
+  },
+  {
+   "block": "E2:n40-CS",
+   "cpu_seconds": 68.734,
+   "wall_seconds": 64.438,
+   "end_utc": "2026-10-25T09:17:44Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 0
+  },
+  {
+   "block": "E2:n50-B",
+   "cpu_seconds": 69.203,
+   "wall_seconds": 61.765,
+   "end_utc": "2026-10-25T09:18:46Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3208
+  },
+  {
+   "block": "E2:n50-C",
+   "cpu_seconds": 83.906,
+   "wall_seconds": 79.344,
+   "end_utc": "2026-10-25T09:20:05Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 4
+  },
+  {
+   "block": "E2:n50-CS",
+   "cpu_seconds": 69.5,
+   "wall_seconds": 64.719,
+   "end_utc": "2026-10-25T09:21:18Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 0,
+   "resumed_after_accounting_correction": true
+  },
+  {
+   "block": "E3",
+   "cpu_seconds": 4.969,
+   "wall_seconds": 4.969,
+   "end_utc": "2026-10-25T09:21:27Z",
+   "note": "DRAT subprocess time is verification, excluded from this process meter",
+   "drat_seconds": 0.0
+  },
+  {
+   "block": "A1:k8-n11-C",
+   "cpu_seconds": 11.938,
+   "wall_seconds": 11.672,
+   "end_utc": "2026-10-25T09:23:17Z",
+   "reason": "NONCOLOUR_ALERT_UNVERIFIED",
+   "candidates": 914,
+   "audit_seconds": 0.32900000002700835
+  },
+  {
+   "block": "A1:k8-n13-C",
+   "cpu_seconds": 43.828,
+   "wall_seconds": 41.266,
+   "end_utc": "2026-10-25T09:23:58Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3044,
+   "audit_seconds": 1.1560000000172295
+  },
+  {
+   "block": "A1:k8-n15-C",
+   "cpu_seconds": 45.828,
+   "wall_seconds": 41.359,
+   "end_utc": "2026-10-25T09:24:40Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3033,
+   "audit_seconds": 1.25
+  },
+  {
+   "block": "A1:k8-n17-C",
+   "cpu_seconds": 46.016,
+   "wall_seconds": 41.562,
+   "end_utc": "2026-10-25T09:25:21Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 2520,
+   "audit_seconds": 1.437000000034459
+  },
+  {
+   "block": "A1:k8-n20-C",
+   "cpu_seconds": 45.297,
+   "wall_seconds": 42.11,
+   "end_utc": "2026-10-25T09:26:03Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 2612,
+   "audit_seconds": 1.9689999999827705
+  },
+  {
+   "block": "A1:k8-n24-C",
+   "cpu_seconds": 46.594,
+   "wall_seconds": 42.656,
+   "end_utc": "2026-10-25T09:26:46Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 2335,
+   "audit_seconds": 2.5160000000032596
+  },
+  {
+   "block": "A1:k8-n11-B",
+   "cpu_seconds": 1.094,
+   "wall_seconds": 1.172,
+   "end_utc": "2026-10-25T09:26:47Z",
+   "reason": "NONCOLOUR_ALERT_UNVERIFIED",
+   "candidates": 88,
+   "audit_seconds": 0.015000000013969839
+  },
+  {
+   "block": "A1:k8-n15-B",
+   "cpu_seconds": 38.578,
+   "wall_seconds": 40.187,
+   "end_utc": "2026-10-25T09:27:28Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3415,
+   "audit_seconds": 0.125
+  },
+  {
+   "block": "A1:k8-n20-B",
+   "cpu_seconds": 39.188,
+   "wall_seconds": 40.203,
+   "end_utc": "2026-10-25T09:28:08Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 3177,
+   "audit_seconds": 0.10899999999674037
+  },
+  {
+   "block": "A1:k8-n15-CS",
+   "cpu_seconds": 47.625,
+   "wall_seconds": 44.047,
+   "end_utc": "2026-10-25T09:28:52Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 349,
+   "audit_seconds": 3.9060000000172295
+  },
+  {
+   "block": "A1:k8-n20-CS",
+   "cpu_seconds": 48.578,
+   "wall_seconds": 45.875,
+   "end_utc": "2026-10-25T09:29:38Z",
+   "reason": "NATIVE_TIMEOUT",
+   "candidates": 28,
+   "audit_seconds": 5.717999999993481
+  }
+ ],
+ "accounting_note": "E2 first invocation skipped n50-CS because its per-arm guard charged audit time; registered rule treats audits as verification; the arm ran via e2-resume after recomputation (validation/S046/pilots/E2.json)."
+}

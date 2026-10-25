@@ -747,5 +747,77 @@
     "access": "STATEMENT_INSPECTED",
     "accessed": "2026-10-24",
     "note": "Limited cone-chain discussion inspected; shared-apex and fresh-tight-source qualifications noted. Other results, code and review claims not adopted."
+  },
+  {
+    "id": "SRC-0068",
+    "title": "Exact Closure of the (0,0,1) Boundary, Certified Biplanarity of H13^cone, and the Double-Apex Portal-Restoration Obstruction (rStation paper 64, v7)",
+    "authors": "hajos_weaver (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-21",
+    "url": "https://rstation.ai/problems/earth_moon/papers/64",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-25",
+    "note": "S046: abstract and Theorem 4 hypotheses inspected via fetch summary. Order-21 analysis of a minimum 10-chromatic biplanar graph citing alpha=3, omega<=8, delta>=9, e<=114 from earlier work; closes stated orbit branches under stated hypotheses; states the unrestricted problem remains open. Unrefereed; scripts not replayed; not used as a filter."
+  },
+  {
+    "id": "SRC-0069",
+    "title": "n = 28, delta = 10: 22 certificate-free graphs that die only at b = 0 topology (rStation post 168)",
+    "authors": "low_alpha_designer (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-20",
+    "url": "https://rstation.ai/r/earth_moon/posts/168",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-25",
+    "note": "S046: sampled 28-vertex, 156-edge, delta=10, alpha=3 models; 22 (later 21) representatives non-biplanar by author DRAT; a sample, not the class. Not replayed; context only."
+  },
+  {
+    "id": "SRC-0070",
+    "title": "The fractional frontier inside biplanar graphs: a census (max chi_f = 9) (rStation post 171)",
+    "authors": "low_alpha_designer (rStation handle)",
+    "year": 2026,
+    "publication_date": "2026-10-22",
+    "url": "https://rstation.ai/r/earth_moon/posts/171",
+    "doi": null,
+    "access": "STATEMENT_INSPECTED",
+    "accessed": "2026-10-25",
+    "note": "S046: census of about 102 verified biplanar graphs, maximum fractional chromatic number 9; the author calls it search-limited. Not a bound; not replayed."
+  },
+  {
+    "id": "SRC-0071",
+    "title": "Co-Certificate Learning with SAT Modulo Symmetries",
+    "authors": "Markus Kirchweger, Tomas Peitl and Stefan Szeider",
+    "year": 2023,
+    "publication_date": "2023-08",
+    "url": "https://www.ijcai.org/proceedings/2023/216",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-25",
+    "note": "S046: search-result summary only (IJCAI 2023 pp.1944-1953; arXiv 2306.10427). Attributed as prior art for colouring-partition feedback as co-certificate learning; content not inspected."
+  },
+  {
+    "id": "SRC-0072",
+    "title": "Constraints for symmetry breaking in graph representation",
+    "authors": "Michael Codish, Alice Miller, Patrick Prosser and Peter J. Stuckey",
+    "year": 2019,
+    "publication_date": "2019",
+    "url": "https://eprints.gla.ac.uk/165865",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-25",
+    "note": "S046: bibliographic record only (Constraints 24(1):1-24, 2019; IJCAI 2013 conference version), seen in search results. Attributed for lex-leader graph symmetry breaking; the S046 CS rule is proved self-contained (CLM-0148)."
+  },
+  {
+    "id": "SRC-0073",
+    "title": "earth_moon_small_order: nine-colorability for biplanar graphs on at most 18 vertices",
+    "authors": "EpsilonPhoenix (GitHub)",
+    "year": 2026,
+    "publication_date": null,
+    "url": "https://github.com/EpsilonPhoenix/earth_moon_small_order",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-25",
+    "note": "S046: repository description only (computer-assisted n<=18 9-colourability with partial Lean 4 formalisation). Unrefereed; not inspected or replayed; not used as a filter."
   }
 ]

@@ -148,3 +148,5 @@ Counts are activity, not projected coverage; no witness; 9<=chi_2<=12.
 
 
 S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.
+
+S046 CLOSED (owner "run next session", D047/D078): decision PIVOT/INCONCLUSIVE. Census: 640299/642381 saved S045 records 8-degenerate, none with minimum degree >=9. 15 matched 60 s pilots (24/28/32/40/50 x B/C/CS): all 300 analysed candidates <=8-colourable; targeting criterion failed; no domain selected; E4 not run. Post-hoc k=8 calibration: K6 v C5 at n=11 only. Experimental 1429 CPU s excl. audits (1552 raw) of 1800. No witness or exclusion; 9..12 unchanged. S047 calibration-gated mechanism trial FUTURE/UNEXECUTED; PAUSE is the stated alternative.

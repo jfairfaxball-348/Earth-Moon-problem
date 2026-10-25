@@ -215,3 +215,5 @@ Counts are activity, not projected coverage; no witness; 9<=chi_2<=12.
 
 
 S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.
+
+S046 failures retained: (1) first E1 execution crashed formatting its report (integer dict keys) after computation and before any output; rerun charged to E1. (2) PySAT rejected an empty clause for an infeasible counter threshold; replaced by complementary units. (3) First CS soundness control demanded representatives outside the degree filter; corrected. (4) E2 per-arm guard charged in-slice audits (verification) and skipped n50-CS; run afterwards under the registered accounting rule. (5) Scientific negative: no pilot arm reached the chi=9 boundary; k=8 calibration missed known K6 v C5 at n>=13 within 40 s. No failure created a mathematical claim.

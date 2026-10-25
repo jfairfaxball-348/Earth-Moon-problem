@@ -114,3 +114,5 @@ CAM-0040 / S036 CLOSED 24 Oct 2026 (owner-directed clean stop): fresh residents 
 
 
 S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.
+
+| [CAM-0050](CAM-0050.md) | S046 S045 census + matched pilots 24/28/32/40/50 x B/C/CS (k=9, 60 s) + post-hoc k=8 calibration | PIVOT/INCONCLUSIVE: 99.676% saved S045 records 8-degenerate; 300/300 analysed pilot candidates <=8-colourable; no domain selected; K6 v C5 found only at n=11 (k=8) |

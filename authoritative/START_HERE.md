@@ -1,3 +1,15 @@
+# S046 CLOSED — target selection, decision PIVOT / INCONCLUSIVE (25 October 2026)
+
+No witness; 9<=chi_2<=12. 99.676% of 642381 saved S045 records are
+8-degenerate; all 300 analysed pilot candidates (orders 24/28/32/40/50,
+baseline/core/core+symmetry) are <=8-colourable; no arm met the registered
+target criterion, so no domain was selected and E4 repair was not run. k=8
+calibration found K6 v C5 only at n=11. S047 calibration-gated mechanism trial
+is FUTURE/UNEXECUTED; PAUSE is the owner alternative. Read sessions/S046/
+CLOSEOUT.md and authoritative/NEXT_SESSION_PROMPT.md. S035/S036/S045 stay
+stopped. Existing main, ordinary non-force commit/push, no branch/PR.
+Historical headers follow.
+
 # D078 — S046 target selection queued, NOT EXECUTED (25 October 2026)
 
 Owner revised S046: diagnose saved candidate quality, audit prior art and

@@ -1,0 +1,59 @@
+{
+ "n": 50,
+ "k": 9,
+ "arm": "CS",
+ "mode": "partition",
+ "positive_phases": true,
+ "controller": {
+  "pid": 2104,
+  "create_time": 1792920013.3323493,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "started_utc": "2026-10-25T09:20:13Z",
+ "scientific_verdict": "UNKNOWN",
+ "witness": false,
+ "domain_excluded": false,
+ "source_sha256": {
+  "tools/s046_driver.py": "b3bf43d0eb05973415d60e30edb4760ba5f037a115f078b8e8544566df00fedd",
+  "tools/s046_encode.py": "282c69d2ac2f8f0d538b2dd1e44deb56057fce2863b3e524fb30e31799bd724f",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_search.py": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45"
+ },
+ "native_sha256": "100df66de8820d32e91d7372e10c6906b0cd4fbe57995181651839451a5fa68a",
+ "instance": {
+  "pairs": 1225,
+  "extra_vars": 102324,
+  "clauses": 345199,
+  "sha256": "4e88e993aadc93e663d6b4630bf8a4c3cba9efcc83efb5f1aa7916484c93b8ed",
+  "encode_seconds": 0.4380000000237487
+ },
+ "generator": {
+  "pid": 2456,
+  "create_time": 1792920014.277351,
+  "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+ },
+ "native_startup_seconds": 0.3119999999762513,
+ "loaded_geometric_rules": 0,
+ "state": "SLICE_COMPLETE",
+ "stage": "POST_SLICE_AUDIT",
+ "elapsed_seconds": 64.67200000002049,
+ "solve_elapsed_seconds": 63.92200000002049,
+ "candidates": 0,
+ "lazy_readds": 0,
+ "peak_private_bytes": 685748224,
+ "controller_cpu_seconds": 9.421875,
+ "native_cpu_seconds": 60.078125,
+ "oracle_seconds": 0.0,
+ "reason": "NATIVE_TIMEOUT",
+ "native_returncode": 0,
+ "error": null,
+ "verified_geometric_cuts_new": 133158,
+ "audit_seconds": 3.8589999999967404,
+ "solve_seconds": 60.06300000002375,
+ "native_progress": "c S045 checks=444608 cuts=130855 models=0",
+ "lemma_offset": 0,
+ "candidate_journal_sha256": null
+}

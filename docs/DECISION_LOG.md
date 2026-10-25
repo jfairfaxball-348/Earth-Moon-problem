@@ -189,3 +189,5 @@ only as warranted. Retain bounded budgets and independent certification; select
 future long-run domains by evidence rather than candidate throughput. S046 stays
 FUTURE/UNEXECUTED; no new search/automation or S047 execution. See
 docs/D078_S046_TARGET_SELECTION.md. S045 science and all UNKNOWNs unchanged.
+
+S046 decision (25 Oct 2026, registered criterion, not an owner decision): PIVOT/INCONCLUSIVE. Unguided colouring-partition generation is not selected for sustained search at any registered order; S045 checkpoint redesign not built (no selected design). Next hypothesis: S047 tests seeded generation and co-certificate amplification against a k=8 calibration ladder before any k=9 work; PAUSE recommended if none qualifies. Owner may choose PAUSE directly. See sessions/S046/CLOSEOUT.md.

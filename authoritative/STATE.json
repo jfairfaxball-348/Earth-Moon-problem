@@ -2,8 +2,8 @@
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
   "as_of": "2026-10-25",
-  "last_completed_session": "S045",
-  "recommended_next_session": "S046",
+  "last_completed_session": "S046",
+  "recommended_next_session": "S047",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -17,7 +17,7 @@
     ],
     "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S045",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S046",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -67,7 +67,7 @@
       "status": "OWNER_GATED"
     }
   ],
-  "source_status": "S045_LIMITED_PRIMARY_REFRESH_NO_NOVELTY_CLAIM",
+  "source_status": "S046_LIMITED_FETCH_SUMMARY_REFRESH_NO_NOVELTY_CLAIM",
   "lean": {
     "status": "NOT_STARTED"
   },
@@ -83,7 +83,7 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S045 closed at owner deadline; no witness or finite-domain exclusion. S046 FUTURE/UNEXECUTED must address checkpoint/memory bottleneck before any long search. S036 stays stopped.",
+    "S046 decision PIVOT/INCONCLUSIVE: no domain or design selected for sustained search. 99.676% of saved S045 records are 8-degenerate; all 300 analysed pilot candidates (orders 24-50, baseline/core/core+symmetry) are <=8-colourable; the k=8 calibration found K6 v C5 only at n=11. S047 calibration-gated mechanism trial is FUTURE/UNEXECUTED; PAUSE is the stated fallback. S036 stays stopped.",
     "Order3 layer-preserving156-edge28-vertex alpha<=3 slice: UNKNOWN. Counts of models/cuts are activity, never projected coverage. All nine sorted S11 prefixes remain UNKNOWN.",
     "All 97 individual S042 apex leaf graphs remain certified non-biplanar. Composition closure requires all leaves tested or an explicit surviving obstruction; arbitrary one-tested-leaf mixed-tree implication is unproved (S044 correction). Thirty non-Ore windows UNRESOLVED.",
     "Order-13 layer-symmetric class empty (S041). Star/patch/coordinated four-set hill-climbing parked (S040). Counting routes carry the F9 risk.",
@@ -91,14 +91,14 @@
   ],
   "next_session_is_future_unexecuted": true,
   "latest_session_branch": "main",
-  "latest_session_entry_main": "5703c15ddb44df62c2db6a58dc640d0e733f58d0",
+  "latest_session_entry_main": "5f56fdf14b88eef9b77f549679c35a1e59a5b106",
   "latest_session_integration": {
     "status": "VERIFY_NONFORCE_PUSH_AND_HOSTED_JOB_AFTER_PUBLICATION",
-    "entry_main": "307399a7ce471f722181098a93c8378d5b2f5824",
+    "entry_main": "5f56fdf14b88eef9b77f549679c35a1e59a5b106",
     "branch": "main",
     "force": false,
-    "authority": "Owner-deadline S045 closeout",
-    "verification": "artifacts/tmp/S045/FINAL_INTEGRATION.json and final owner report"
+    "authority": "Owner \"run next session\" invoking S046 under D047/D078",
+    "verification": "artifacts/tmp/S046/FINAL_INTEGRATION.json and final owner report"
   },
   "mathematical_results": [
     "CLM-0007",
@@ -226,7 +226,12 @@
     "CLM-0143",
     "CLM-0144",
     "CLM-0145",
-    "CLM-0146"
+    "CLM-0146",
+    "CLM-0147",
+    "CLM-0148",
+    "CLM-0149",
+    "CLM-0150",
+    "CLM-0151"
   ],
   "s003_integration_verified": {
     "authored_commit": "e6ef7ce127fc48aaa5549b58090bbba4ae2e8569",
@@ -2526,7 +2531,7 @@
     "checkins": "DELETED_AFTER_DEADLINE"
   },
   "s046_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "EXECUTED_CLOSED",
     "objective": "witness target selection: saved-candidate diagnosis, critical-core domain audit, matched size pilots and conditional solver repair",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S045/S046_FUTURE_PROMPT.md",
@@ -2539,6 +2544,79 @@
       40,
       50
     ],
-    "unattended_campaign_authorized": false
+    "unattended_campaign_authorized": false,
+    "executed": "2026-10-25"
+  },
+  "s046_result": {
+    "status": "CLOSED_PIVOT_INCONCLUSIVE",
+    "date": "2026-10-25",
+    "invocation": "owner \"run next session\" (D047), prompt sessions/S045/S046_FUTURE_PROMPT.md",
+    "executor": "Claude Code desktop, claude-opus-5-5, owner Windows laptop",
+    "registration": "validation/S046/REGISTRATION.json",
+    "smoke": "PASS validation/S046/SMOKE.json",
+    "s045_census": {
+      "records": 642381,
+      "empty_core9": 640299,
+      "min_degree_ge9": 0,
+      "labelled_duplicate_unions": 0
+    },
+    "pilots": {
+      "orders": [
+        24,
+        28,
+        32,
+        40,
+        50
+      ],
+      "arms": [
+        "B",
+        "C",
+        "CS"
+      ],
+      "analysed": 300,
+      "analysed_at_most_8_colourable": 300,
+      "targeting_passed": false
+    },
+    "calibration_k8": {
+      "hits": [
+        "B n=11 K6vC5",
+        "C n=11 K6vC5"
+      ],
+      "none_in_40s": [
+        "C 13,15,17,20,24",
+        "B 15,20",
+        "CS 15,20"
+      ]
+    },
+    "e4_acceptance": "NOT_RUN_CONDITIONAL_GATE_FAILED",
+    "experimental_budget": {
+      "cpu_excluding_audits": 1428.704,
+      "wall_excluding_audits": 1352.531,
+      "cpu_raw": 1552.485,
+      "wall_raw": 1476.312,
+      "ceiling": [
+        1800,
+        3600
+      ]
+    },
+    "selected_domain": null,
+    "long_run_started": false,
+    "automation_created": false,
+    "witness": false,
+    "domain_excluded": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "s047_executed": false
+  },
+  "s047_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "objective": "calibration-gated mechanism trial: k=8 ladder, seeded generation and co-certificate amplification; bounded k=9 pilot only if a mechanism qualifies; otherwise PAUSE recommended",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S046/S047_FUTURE_PROMPT.md",
+    "s036_restart_authorized": false,
+    "unattended_campaign_authorized": false,
+    "pause_is_owner_alternative": true
   }
 }

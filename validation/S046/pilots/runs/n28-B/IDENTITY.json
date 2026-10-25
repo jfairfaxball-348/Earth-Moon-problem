@@ -1,0 +1,47 @@
+{
+ "n": 28,
+ "k": 9,
+ "arm": "B",
+ "mode": "partition",
+ "positive_phases": true,
+ "controller": {
+  "pid": 14176,
+  "create_time": 1792919060.6117363,
+  "exe": "C:\\Users\\johnf\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+ },
+ "started_utc": "2026-10-25T09:07:42Z",
+ "scientific_verdict": "UNKNOWN",
+ "witness": false,
+ "domain_excluded": false,
+ "source_sha256": {
+  "tools/s046_driver.py": "b3bf43d0eb05973415d60e30edb4760ba5f037a115f078b8e8544566df00fedd",
+  "tools/s046_encode.py": "282c69d2ac2f8f0d538b2dd1e44deb56057fce2863b3e524fb30e31799bd724f",
+  "tools/s045_native.cpp": "ee68357897bf9976799be30d2a023e8d8e7628a674f3361713d32d6e5d255b80",
+  "tools/s045_main.hpp": "bc1bb896a300138658fd35437c1690d5e25bbe15645f241f77e7d7d2244e784a",
+  "tools/s045_verify.py": "274aef6bc178ff890d99a78edea58474d034f7dfc610f062cfeaa757f6e395e5",
+  "tools/s045_policy.py": "cfdbdf26f12d4b86a470a4c170dff87d49d34ee695c2cdd032dd64293ff63c59",
+  "tools/s045_search.py": "4aa15222e86fb7ca24a5d193a14eaa6b234fa712464f0843cc60925a1fbbad45"
+ },
+ "native_sha256": "100df66de8820d32e91d7372e10c6906b0cd4fbe57995181651839451a5fa68a",
+ "instance": {
+  "pairs": 378,
+  "extra_vars": 0,
+  "clauses": 378,
+  "sha256": "5432bf6f62d902753ce06179e8534feda1e593e646aad797f8b8a284dbe92327",
+  "encode_seconds": 0.01600000000325963
+ },
+ "generator": {
+  "pid": 8420,
+  "create_time": 1792919262.8641567,
+  "exe": "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe"
+ },
+ "command": [
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S045\\watchdog-native\\bipsat_s045.exe",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S046\\pilots\\n28-B\\BASE.inst",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S046\\pilots\\n28-B\\PLANARITY.lem",
+  "60",
+  "C:\\Earth-Moon-problem\\artifacts\\tmp\\S046\\pilots\\n28-B\\SLICE_STOP",
+  "1",
+  "partition"
+ ]
+}

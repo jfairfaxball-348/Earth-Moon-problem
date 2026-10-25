@@ -959,3 +959,33 @@ Written injectivity/provenance and deletion-count proof in sessions/S044/SCOPE_C
 For every map c from V to at most nine colours, every non-nine-colourable graph on V has an edge inside a class of c. Consequently the disjunction of union-edge variables within those classes is a necessary clause for the chi>=10 construction search.
 
 Elementary contrapositive: absence of all same-class edges makes c proper. S045 RESEARCH.md; independent 4-vertex truth table controls and saved colouring certificates. This is an encoding lemma, not a graph exclusion or bound advance.
+
+## CLM-0147 — PROGRAMME_PROVED
+
+Every biplanar graph with chi>=10 contains a biplanar 10-critical subgraph H; H has minimum degree >=9, is connected with no cut vertex, is K9-free, has n>=11 and 9n/2<=|E(H)|<=6n-12. Hence the domain of labelled layer pairs of order exactly n with union minimum degree >=9 contains every 10-critical biplanar graph of order n; it is not an order-at-most-n domain.
+
+Classical criticality arguments written in sessions/S046/RESEARCH.md section 1; K9 non-biplanarity from SRC-0014. The Kostochka-Yancey bound (SRC-0011) is recorded, not encoded. Construction filter only; no exclusion claimed.
+
+## CLM-0148 — PROGRAMME_PROVED
+
+For any set of layer assignments closed under vertex relabelling and layer swap, if nonempty it contains an assignment whose union adjacency rows satisfy row_i >=lex row_j over columns other than i,j for all i<j and whose first present union pair lies in layer 1.
+
+Self-contained proof via the lexicographically maximal full-row concatenation, sessions/S046/RESEARCH.md section 2; CNF and soundness exhaustively controlled at n=4,5 (classes) and n=5,6 (graphs), validation/S046/CONTROLS.json. Removes equivalent labellings only; no automorphism required. Attribution to SRC-0072 (metadata only).
+
+## CLM-0149 — COMPUTED_EXACT
+
+Of the 642381 saved S045 candidate records, 640299 (99.676%) have an empty 9-core and are therefore 8-degenerate and 9-colourable by smallest-last greedy; none has minimum degree >=9; there are no labelled duplicate unions or layer assignments. All 300 registered stratified sample records have explicit checked colourings with at most 8 colours.
+
+validation/S046/diagnostics/E1.json and E1_CERTS.json.gz; the NumPy census was cross-checked against NetworkX core numbers on all sampled records. Describes saved records only, not the S045 domain or coverage.
+
+## CLM-0150 — COMPUTED_EXACT
+
+In the 15 registered S046 matched pilots (orders 24,28,32,40,50; arms baseline, minimum-degree-9 core, core plus lex-leader symmetry; 60 s each, k=9), all 300 analysed candidates have explicit checked colourings with at most 8 colours; no arm met the registered targeting criterion; all runs ended at the time cap.
+
+validation/S046/pilots/E2.json, E3.json, E3_CERTS.json.gz and runs/. A statement about these runs only; no domain exclusion, coverage or witness probability.
+
+## CLM-0151 — COMPUTED_EXACT
+
+With k=8 the S046 colouring-feedback generator found a non-8-colourable biplanar graph (exactly K6 v C5, chi=9, drat-trim verified) at n=11 in arms B and C, and found none within 40 s in arm C at n=13,15,17,20,24, arm B at n=15,20 and arm CS at n=15,20.
+
+Post-hoc amendment A1, validation/S046/AMENDMENT_A1.json and calibration/A1.json; certificates under validation/S046/certificates. Not-found rows are UNKNOWN for existence; a padded K6 v C5 lies in the B domain at n=15,20. Calibration of the mechanism only.
