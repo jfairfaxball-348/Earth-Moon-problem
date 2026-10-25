@@ -1,0 +1,10 @@
+{
+  "initial_bytes": 88798175423,
+  "final_bytes": 22034982917,
+  "files_remaining": 110061,
+  "duplicate_files_removed": 1514,
+  "files_losslessly_compressed": 371,
+  "reclaimed_bytes": 66764531941,
+  "drive_free_bytes": 85116854272,
+  "receipt_validation": "PASS: every original absent and every retained recovery source present"
+}
