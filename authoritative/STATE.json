@@ -2527,9 +2527,18 @@
   },
   "s046_queued": {
     "status": "FUTURE_UNEXECUTED",
-    "objective": "memory-bounded 50-vertex checkpoint redesign, bounded acceptance and conditional bounded search",
+    "objective": "witness target selection: saved-candidate diagnosis, critical-core domain audit, matched size pilots and conditional solver repair",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S045/S046_FUTURE_PROMPT.md",
-    "s036_restart_authorized": false
+    "s036_restart_authorized": false,
+    "directive": "D078",
+    "pilot_orders": [
+      24,
+      28,
+      32,
+      40,
+      50
+    ],
+    "unattended_campaign_authorized": false
   }
 }

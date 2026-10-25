@@ -181,3 +181,11 @@ coverage percentage or domain exclusion. Decision: do not extend the expired
 run; queue S046 for a materially changed memory/checkpoint mechanism and
 bounded acceptance before any longer search. S046 remains FUTURE/UNEXECUTED;
 S036 stays stopped. Completed campaign check-ins deleted.
+
+D078 (owner25Oct2026, governance only): revise queued S046 to diagnose S045
+candidate quality, audit admissible core domains, compare 24/28/32/40/50 with
+justified critical-core filters and symmetry breaking, and repair engineering
+only as warranted. Retain bounded budgets and independent certification; select
+future long-run domains by evidence rather than candidate throughput. S046 stays
+FUTURE/UNEXECUTED; no new search/automation or S047 execution. See
+docs/D078_S046_TARGET_SELECTION.md. S045 science and all UNKNOWNs unchanged.

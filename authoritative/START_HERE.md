@@ -1,3 +1,12 @@
+# D078 — S046 target selection queued, NOT EXECUTED (25 October 2026)
+
+Owner revised S046: diagnose saved candidate quality, audit prior art and
+critical-core filters, compare orders 24/28/32/40/50, then conditionally repair
+the solver. Read docs/D078_S046_TARGET_SELECTION.md and the full live prompt.
+This amendment starts no session or search. S045 remains CLOSED; S035/S036
+stay stopped; no witness, 9<=chi_2<=12. Existing main, ordinary non-force
+commit/push, no branch/PR. Historical headers follow.
+
 # S045 CLOSED — owner deadline; no witness (25 October 2026)
 
 S045 CLOSED at owner deadline 25 October 07:30 UTC/GMT: 642381 saved records, 2376754 freshly checked geometric occurrences; 1 extra native assignments checked <=9-colourable. No witness or exclusion; 9..12 unchanged. Replay/memory bottleneck requires redesign. S046 FUTURE/UNEXECUTED; S036 stopped.

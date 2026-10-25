@@ -1,0 +1,33 @@
+{
+  "commit": "a55d0d00ce5eb620df941ee19650e3a2d804639e",
+  "files": {
+    ".github/workflows/scaffold.yml": {
+      "archive": "validation/D078/s045_context/.github/workflows/scaffold.yml",
+      "sha256": "248647f5c0d607bf47aec78609788b77794352b0e74259686e5b38e76233def4"
+    },
+    "AGENTS.md": {
+      "archive": "validation/D078/s045_context/AGENTS.md",
+      "sha256": "34234061f99f92eecc364fdc55aa332f0d7841632fddc6864e92f212d96ae7d8"
+    },
+    "authoritative/NEXT_SESSION_PROMPT.md": {
+      "archive": "validation/D078/s045_context/authoritative/NEXT_SESSION_PROMPT.md",
+      "sha256": "686c0cf64d066c9e1ad2f38aa3bf0eeb44bc1ab532e64d586dfc75a24739ee53"
+    },
+    "authoritative/START_HERE.md": {
+      "archive": "validation/D078/s045_context/authoritative/START_HERE.md",
+      "sha256": "87ea514695487ab784d15a78ad187466cd2a6df9da7336e13fccd2610d4b8402"
+    },
+    "authoritative/STATE.json": {
+      "archive": "validation/D078/s045_context/authoritative/STATE.json",
+      "sha256": "4ecf5604a930e831c711e8de8ee6fd65f892a8715474e7215e37f741769c16b3"
+    },
+    "docs/DECISION_LOG.md": {
+      "archive": "validation/D078/s045_context/docs/DECISION_LOG.md",
+      "sha256": "c0ddcc652add469cfdbba016c8484996ff105b18dcaadef6f5b864af6f1f8a7e"
+    },
+    "sessions/S045/S046_FUTURE_PROMPT.md": {
+      "archive": "validation/D078/s045_context/sessions/S045/S046_FUTURE_PROMPT.md",
+      "sha256": "686c0cf64d066c9e1ad2f38aa3bf0eeb44bc1ab532e64d586dfc75a24739ee53"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "GOVERNANCE_ONLY_S046_FUTURE_UNEXECUTED",
+  "entry_commit": "a55d0d00ce5eb620df941ee19650e3a2d804639e",
+  "scientific_computation_started": false,
+  "prompt_sha256": "f4c202cd0cb6f9c336aa4eeb18b5f883bd005c218ac13c897bc09a38445e8452",
+  "sha256": {
+    "AGENTS.md": "1b9723933f72b676f93abd2041505b86428f05be52d4c54a411438aedb21a003",
+    "authoritative/START_HERE.md": "d125a2abf448e30aae614f2381ad4d0bda1ec3e77f17db1370556ddcaf79ca8a",
+    "authoritative/STATE.json": "b1dab51b884ef6c2009bd2ffc50fd782ca89be05a0ce930eef9dd6babc9cc053",
+    "authoritative/NEXT_SESSION_PROMPT.md": "f4c202cd0cb6f9c336aa4eeb18b5f883bd005c218ac13c897bc09a38445e8452",
+    "sessions/S045/S046_FUTURE_PROMPT.md": "f4c202cd0cb6f9c336aa4eeb18b5f883bd005c218ac13c897bc09a38445e8452",
+    "docs/DECISION_LOG.md": "8e964d854f63eafb0b477ccd6a625e9b61e5b680af3bd2d9ef2c48100903f07f",
+    "docs/D078_S046_TARGET_SELECTION.md": "de725470b12f72fd2f8a17a031288708de46ad6b1ece8bdc6332ffcb9f7acd23",
+    ".github/workflows/scaffold.yml": "740c1c0120ffdd513a7a38596cfd1b7b1cfea223b7d6e923eb7d0a6dfdaad2e0",
+    "scripts/s045_replay_final.py": "ab9c9f9bc3060bc3594390df27177283ef33d37bf6872e3ae9f99fca1dd25de8",
+    "scripts/check_d078_handoff.py": "3dfe9210a58fe12001a09c4c6f41ded556c4dd1102e753578e8481c017a8a0a3",
+    "validation/D078/S045_CONTEXT.json": "c8ce96bb9e34e21bf90322beb9c04880c416f336d6df4ddb2901ce937dad1f86"
+  }
+}
