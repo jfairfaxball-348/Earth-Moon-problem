@@ -1,0 +1,43 @@
+{
+ "rows": [
+  {
+   "t": 5,
+   "filters": true,
+   "cegar_verdict": "UNSAT",
+   "learned": 0,
+   "cegar_wall_s": 0.518,
+   "cegar_cpu_s": 0.499,
+   "start_utc": "2026-10-29T23:43:11Z",
+   "experimental_cpu_s": 0.499,
+   "experimental_wall_s": 0.518,
+   "final_clauses": 19680,
+   "final_cnf_sha256": "6a0bce1c3e120135b25ad8183c5c5d4a38052078030a20a0ebc6e48ca76213f9",
+   "native_exit": 20,
+   "native_wall_s": 0.559,
+   "proof_bytes": 3314698,
+   "proof_sha256": "59b70d2005cdeeab9178c88de5ec15bd43ecbb78634c999ee3ba8dadb666565e",
+   "drat_trim_verified": true,
+   "verify_wall_s": 0.349,
+   "proof_archive": "validation/S047/a1_t5.drat.gz",
+   "verdict": "UNSAT_VERIFIED",
+   "end_utc": "2026-10-29T23:43:14Z"
+  },
+  {
+   "t": 6,
+   "filters": true,
+   "cegar_verdict": "CAPPED",
+   "learned": 6189,
+   "cegar_wall_s": 240.143,
+   "cegar_cpu_s": 237.258,
+   "start_utc": "2026-10-29T23:43:14Z",
+   "experimental_cpu_s": 237.258,
+   "experimental_wall_s": 240.143,
+   "verdict": "CAPPED_UNKNOWN",
+   "end_utc": "2026-10-29T23:47:14Z"
+  }
+ ],
+ "totals": {
+  "experimental_cpu_s": 237.757,
+  "experimental_wall_s": 240.661
+ }
+}

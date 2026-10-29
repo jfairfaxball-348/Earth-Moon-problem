@@ -1,0 +1,88 @@
+name: Research scaffold checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate authoritative state and catalogues
+        run: python scripts/check_scaffold.py
+      - name: Run preliminary certificate checker tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate S026 archived evidence integrity
+        run: python scripts/check_s026_records.py
+      - name: Validate S027 archived evidence integrity
+        run: python scripts/check_s027_records.py
+      - name: Validate S028 archived evidence integrity and D062 prompt
+        run: python scripts/check_d062_records.py
+      - name: Validate S029 frozen landscape and S030 prompt
+        run: python scripts/check_s030_history.py
+      - name: Validate S030 bounded search records and S031 prompt
+        run: python scripts/check_s030_records.py
+      - name: Validate S031 capped long-run records and S032 future prompt
+        run: python scripts/check_s031_records.py
+      - name: Validate D072 phone S033 prompt and preserved S032 history
+        run: python scripts/check_d072_active_prompt.py
+      - name: Validate S033 ARM64 environment evidence integrity
+        run: python scripts/check_s033_records.py
+      - name: Validate S034 registered region campaign evidence
+        run: python scripts/check_s034_records.py
+      - name: Validate S035 Windows multiple-worker launch evidence
+        run: python scripts/check_s035_records.py
+      - name: Validate S035 resident execution upgrade evidence
+        run: python scripts/check_s035_resident_records.py
+      - name: Validate S035 owner pause and SAT-first handling
+        run: |
+          python scripts/check_s035_sat_first.py
+          python scripts/check_s035_resume_records.py
+          python scripts/check_s035_sat_resume.py
+      - name: Validate S035 classified helper quarantine repair
+        run: python scripts/check_s035_thread_records.py
+      - name: Validate S035 closeout and S036 recovery handover
+        run: python scripts/check_s035_closeout.py
+      - name: Validate S036 acceptance records and portable scanner repair
+        run: python scripts/s045_replay_history.py scripts/check_s036_records.py
+      - name: Verify S037 symmetry and explicit planar-pair certificates
+        run: python scripts/s045_replay_history.py scripts/check_s037_records.py
+      - name: Verify S038 finite neighborhoods and planar patch traces
+        run: python scripts/s045_replay_history.py scripts/check_s038_records.py
+      - name: Verify S039 star neighborhoods seeds and planar traces
+        run: |
+          python scripts/s045_replay_history.py scripts/check_s039_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s040_handoff.py
+      - name: Verify S040 coordinated neighborhoods pair traces and diagnostics
+        run: |
+          python scripts/s045_replay_history.py scripts/check_s040_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s040_records.py
+      - name: Verify S041 order-13 classification counting tables and leaf certificates
+        run: |
+          python scripts/s045_replay_history.py scripts/check_s041_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s041_records.py
+      - name: Verify S042 census types leaf graphs and certificate receipts
+        run: |
+          python scripts/s045_replay_history.py scripts/check_s042_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s042_records.py
+      - name: Verify S043 orbit encoding and Kuratowski cut certificates
+        run: |
+          python scripts/s045_replay_history.py scripts/check_s043_adversarial.py
+          python scripts/s045_replay_history.py scripts/check_s043_records.py
+      - name: Verify S044 decision audit and composition scope correction
+        run: python scripts/s045_replay_history.py scripts/check_s044_records.py
+      - name: Verify S045 native acceptance benchmark certificates and live authority
+        run: python scripts/s045_replay_initial.py
+      - name: Verify S045 watchdog repair deadline check-ins and preserved checkpoint
+        run: python scripts/s045_replay_watchdog.py
+      - name: Verify S045 memory recycling and preserved resource-stop evidence
+        run: python scripts/s045_replay_memory.py
+      - name: Verify S045 final deadline stop archives candidate certificates and S046 handoff
+        run: python scripts/s046_replay_history.py scripts/s045_replay_final.py
+      - name: Verify D078 target-selection amendment and unexecuted S046 handoff
+        run: python scripts/s046_replay_history.py scripts/check_d078_handoff.py
+      - name: Verify S046 diagnosis, matched pilots, calibration certificates and S047 handoff
+        run: python scripts/check_s046_records.py

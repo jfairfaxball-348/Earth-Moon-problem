@@ -1,0 +1,44 @@
+{
+ "started_utc": "2026-10-29T23:36:26Z",
+ "controls": {
+  "C1": {
+   "k": 9,
+   "t": 1,
+   "filters": false,
+   "models": 1,
+   "expected": 1,
+   "first_model_edges": 61,
+   "first_model_is_K(k-2)vC5": true,
+   "first_model_k_colourable": false,
+   "pass": true
+  },
+  "C2": {
+   "k": 8,
+   "t": 1,
+   "filters": true,
+   "models": 1,
+   "expected": 1,
+   "first_model_edges": 50,
+   "first_model_is_K(k-2)vC5": true,
+   "first_model_k_colourable": false,
+   "pass": true
+  },
+  "C1b": {
+   "k": 9,
+   "t": 1,
+   "filters": true,
+   "models": 0,
+   "expected": 0,
+   "pass": true
+  },
+  "C3": {
+   "neighbourhoods": 2048,
+   "non_9_colourable": [
+    "0b11111111111"
+   ],
+   "pass": true
+  }
+ },
+ "status": "PASS",
+ "finished_utc": "2026-10-29T23:36:26Z"
+}

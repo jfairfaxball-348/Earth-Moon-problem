@@ -1,0 +1,32 @@
+{
+ "session": "S047",
+ "amendment": "A1",
+ "registered_utc": "2026-10-29T23:42:08Z",
+ "post_hoc": true,
+ "reason": "E2 t=5 CAPPED_UNKNOWN at 300 s without symmetry breaking; ladder stopped by rule",
+ "e2_rows_unchanged": true,
+ "changes_decision_rule": false,
+ "method": "CEGAR (tools/s047_cegar.py): filters + degree>=9 per added vertex (L3) + lex non-increasing seed rows (L4) + lazily learned E2 colour clauses",
+ "ladder_t": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "per_t_wall_cap_s": 240,
+ "stop_at_first_capped_t": true,
+ "certification": "final formula re-solved by native CaDiCaL with DRAT, drat-trim verified; learned (s,phi) recorded and re-derived by checker",
+ "controls": {
+  "A1C1": "t=2,3,4 UNSAT",
+  "A1C2": "filters removed, t=1: candidate is K7 v C5"
+ },
+ "budget": {
+  "cpu_s": 1100,
+  "wall_s": 2000
+ },
+ "plan_sha256_after_append": "6feb7cd626d6e485739e83148dd47d206f0fca60753e0186a935eb7fc4fcf39e"
+}

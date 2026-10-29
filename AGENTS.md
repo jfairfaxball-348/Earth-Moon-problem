@@ -1,3 +1,16 @@
+# S047 CLOSED — contradiction-route feasibility (D079), decision PIVOT, PAUSE recommended (30 October 2026)
+
+Owner retargeted S047 (D079) and ran it in a cloud session. No witness;
+9<=chi_2<=12. Proved: no biplanarity-preserving operation raises chi for
+every biplanar graph (transfer proofs must be one-shot); no Mycielskian or
+generalised Mycielskian of a chi>=9 graph is biplanar; 10-critical window
+(88n-70)/18<=m<=6n-12; no biplanar chi>=10 graph contains K6 v C5 plus <=5
+vertices (six+ UNKNOWN). S048 re-entry gate FUTURE/UNEXECUTED; PAUSE needs
+no session. Read sessions/S047/CLOSEOUT.md and authoritative/
+NEXT_SESSION_PROMPT.md. S035/S036/S045 stay stopped. Committed on harness
+branch ccr-af80f6d5-2qearo (merge to main is the owner's call). Historical
+headers follow.
+
 # S046 CLOSED — target selection, decision PIVOT / INCONCLUSIVE (25 October 2026)
 
 No witness; 9<=chi_2<=12. 99.676% of 642381 saved S045 records are

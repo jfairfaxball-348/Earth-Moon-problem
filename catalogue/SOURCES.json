@@ -819,5 +819,41 @@
     "access": "METADATA_ONLY",
     "accessed": "2026-10-25",
     "note": "S046: repository description only (computer-assisted n<=18 9-colourability with partial Lean 4 formalisation). Unrefereed; not inspected or replayed; not used as a filter."
+  },
+  {
+    "id": "SRC-0074",
+    "title": "Local chromatic number, Ky Fan's theorem, and circular colorings",
+    "authors": "G\u00e1bor Simonyi, G\u00e1bor Tardos",
+    "year": 2006,
+    "publication_date": "2004-07-06 (arXiv v1)",
+    "url": "https://arxiv.org/abs/math/0407075",
+    "doi": null,
+    "access": "ABSTRACT_INSPECTED",
+    "accessed": "2026-10-29",
+    "note": "S047: arXiv abstract read (multicoloured balanced complete bipartite subgraph on t points in every proper colouring of a topologically t-chromatic graph; zig-zag theorem). Combinatorica publication and full proof not inspected. Used only to note that K5,5 (biplanar) gives no obstruction at t=10."
+  },
+  {
+    "id": "SRC-0075",
+    "title": "Vertex-critical subgraphs of Kneser-graphs",
+    "authors": "Alexander Schrijver",
+    "year": 1978,
+    "publication_date": "1978",
+    "url": "https://research.tue.nl/en/publications/vertex-critical-subgraphs-of-kneser-graphs/",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-29",
+    "note": "S047: repository record and search summaries only (Nieuw Archief voor Wiskunde 26(3):454-461). chi(SG(n,k)) = n-2k+2 taken as SOURCE_STATED; the S047 O4 edge counts are computed independently."
+  },
+  {
+    "id": "SRC-0076",
+    "title": "Generalised Mycielski graphs and bounds on chromatic numbers",
+    "authors": "(arXiv 1601.04642; authors as listed there)",
+    "year": 2016,
+    "publication_date": "2016",
+    "url": "https://arxiv.org/abs/1601.04642",
+    "doi": null,
+    "access": "METADATA_ONLY",
+    "accessed": "2026-10-29",
+    "note": "S047: search-result summary only: Stiebitz generalised Mycielski theorem via the topological method; r-level convention with M_2 the ordinary Mycielskian. Not inspected; cited for conventions only. O3 does not depend on it."
   }
 ]

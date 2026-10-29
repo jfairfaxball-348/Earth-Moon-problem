@@ -191,3 +191,7 @@ FUTURE/UNEXECUTED; no new search/automation or S047 execution. See
 docs/D078_S046_TARGET_SELECTION.md. S045 science and all UNKNOWNs unchanged.
 
 S046 decision (25 Oct 2026, registered criterion, not an owner decision): PIVOT/INCONCLUSIVE. Unguided colouring-partition generation is not selected for sustained search at any registered order; S045 checkpoint redesign not built (no selected design). Next hypothesis: S047 tests seeded generation and co-certificate amplification against a k=8 calibration ladder before any k=9 work; PAUSE recommended if none qualifies. Owner may choose PAUSE directly. See sessions/S046/CLOSEOUT.md.
+
+D079 (29 Oct 2026, owner): after discussing whether the lower bound can come "from working rather than just looking for a counterexample", the owner chose the contradiction route and said "Yes, replace with new target, and do run the session now here". The queued S047 calibration-gated mechanism trial is superseded unexecuted; S047 retargeted to contradiction-route feasibility and invoked immediately (D047). D042 scope amended: an argument-certified or non-constructive proof of chi_2>=10 counts; certification rules unchanged; upper bound out of scope. See docs/D079_S047_CONTRADICTION_ROUTE.md.
+
+S047 decision (30 Oct 2026, registered gate, not an owner decision): PIVOT, PAUSE recommended. Obstructions O1-O4 and the K6 v C5 <=5-vertex extension exclusion narrow the contradiction route but no template has calibrated positive evidence. S048 re-entry gate FUTURE/UNEXECUTED.

@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "CLM-0001",
+    "claim": "EMP asks for the maximum chromatic number of finite simple edge-unions of two planar graphs.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0001",
+      "SRC-0004",
+      "SRC-0005"
+    ]
+  },
+  {
+    "id": "CLM-0002",
+    "claim": "Every biplanar graph is 12-colourable via two Euler bounds and degeneracy.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0008"
+    ]
+  },
+  {
+    "id": "CLM-0003",
+    "claim": "Published example K6 join C5 has chromatic number 9 and admits thickness two.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0004",
+      "SRC-0005"
+    ],
+    "note": "Published statement retained; independent programme proof is CLM-0007 with validation/sulanke.json."
+  },
+  {
+    "id": "CLM-0004",
+    "claim": "Historical and modern indexed baseline is 9 <= chi_2 <= 12.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0004",
+      "SRC-0005",
+      "SRC-0006"
+    ],
+    "note": "Not an exhaustive claim about all 2026 new publications."
+  },
+  {
+    "id": "CLM-0005",
+    "claim": "Boutin\u00e2\u20ac\u201cGethner\u00e2\u20ac\u201cSulanke report 40 small nine-critical thickness-two graphs.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0002"
+    ]
+  },
+  {
+    "id": "CLM-0006",
+    "claim": "Patil primary deposit reports a 241-graph corpus and candidate/order exclusions; certificate README retains independent lex-leader validation gap.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0007"
+    ],
+    "note": "Primary DOI 10.5281/zenodo.22103613 located and sampled proofs inspected; external machine certificates not replayed."
+  },
+  {
+    "id": "CLM-0007",
+    "claim": "The explicit source-reconstructed K6 join C5 graph is biplanar and has chromatic number 9.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002"
+    ],
+    "note": "Classical reconstruction: 26/24-edge layers, two planarity validators, written join/odd-cycle lower bound. validation/sulanke.json."
+  },
+  {
+    "id": "CLM-0008",
+    "claim": "Every biplanar graph with independence number at most two is 9-colourable.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0009",
+      "SRC-0010"
+    ],
+    "note": "Published textual proof inspected; not externally replayed or programme-formalized. Classical and compiled-check trust retained."
+  },
+  {
+    "id": "CLM-0009",
+    "claim": "Every biplanar clique blow-up of any odd cycle, allowing nonnegative integer weights, is 9-colourable.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0012",
+      "SRC-0014"
+    ],
+    "note": "Complete elementary proof research/S002_ODD_CYCLE_BLOWUPS.md. C5 overlap known, other overlap possible; novelty unchecked."
+  },
+  {
+    "id": "CLM-0010",
+    "claim": "An explicitly certified 42-vertex biplanar graph has minimum degree 11 (24 degree-11 and 18 degree-12 vertices) and a proper 7-colouring.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "CAM-0002 certificate validation/degree11_witness.json; disproves universal 10-degeneracy. Exact chromatic number NOT claimed."
+  },
+  {
+    "id": "CLM-0011",
+    "claim": "A 12-critical biplanar graph with deficit D=6n-12-m has n>=78+11D; hence every biplanar graph of order at most 77 is 11-colourable.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0011"
+    ],
+    "note": "Corollary of external Kostochka\u00e2\u20ac\u201cYancey Theorem 3, whose full proof is not rebuilt; no universal improved bound. S003 correction: superseded by SRC-0017 Observation 7.1.1 (n>=89, see CLM-0024), which predates S002 and was missed by the S002 prior-art audit."
+  },
+  {
+    "id": "CLM-0012",
+    "claim": "The universal apex over a Haj\u00c3\u00b3s join of two Sulanke graphs is 10-chromatic but non-biplanar for every deleted-edge choice.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002",
+      "SRC-0007"
+    ],
+    "note": "Known saturated bridge obstruction, reconstructed in research/S002_AMPLIFICATION.md; no originality claim."
+  },
+  {
+    "id": "CLM-0013",
+    "claim": "Identification of independent sets need not preserve biplanarity.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Explicit planar matching quotient K12, symbolic proof; no new computation."
+  },
+  {
+    "id": "CLM-0014",
+    "claim": "In a 12-critical biplanar graph, degree-11 vertices number 24+2D+sum_{d>=13}(d-12).",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Exact degree-sum identity; at least 24+2D, not an extension lemma or finite reduction."
+  },
+  {
+    "id": "CLM-0015",
+    "claim": "apex(H) is biplanar iff E(H)=E1+E2 and V(H)=S1+S2 with Si on one face of a plane embedding of (V,Ei).",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "research/S003_FACE_DEFICIT.md Lemma 1."
+  },
+  {
+    "id": "CLM-0016",
+    "claim": "In a biplanar graph on N>=4 vertices, sum over edges with at most one common neighbour of (2-codegree) is at most 4(6N-12-e).",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0017"
+    ],
+    "note": "Lemma 2/Cor 3; generalizes the saturated bridge obstruction; overlap with SRC-0017 facial-incidence arguments likely; no novelty claim."
+  },
+  {
+    "id": "CLM-0017",
+    "claim": "In a biplanar graph with deficit D at least N-4D vertices are wheel vertices in both layers; a 12-critical biplanar graph with D<=11 has at least 24-2D degree-11 double-wheel vertices.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "research/S003_UPPER_BOUND.md Lemma 6, Cor 7-8; not a reducibility result."
+  },
+  {
+    "id": "CLM-0018",
+    "claim": "If a planar-union-outerplanar graph has chi>=9, or a union of two outerplanar graphs has chi>=8, then chi_2>=10 (apex / K2-join).",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0003"
+    ],
+    "note": "Observation 9; elementary, likely known in SRC-0003 (inaccessible)."
+  },
+  {
+    "id": "CLM-0019",
+    "claim": "Every biplanar clique blow-up of a graph on at most 6 vertices is 9-colourable.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "note": "CAM-0004: reductions R1-R5 proved; zero survivors for k<=6; independent checker agrees k=3..6. Depends on K9 non-biplanarity."
+  },
+  {
+    "id": "CLM-0020",
+    "claim": "On bases with 7 (resp. 8) vertices, every clique blow-up with chi>=10 that passes the counting filters F1-F3 has a 10-core among 13 (resp. 828) explicit survivor vectors; 570 of the 841 have alpha=2, N=19.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "Independent checker agrees at k=7 only; k=8 not independently checked. validation/S003/census_*.json."
+  },
+  {
+    "id": "CLM-0021",
+    "claim": "The 13 order-7 survivors (base FCptO = K4 with the three edges at one vertex subdivided) and the 90 survivors of k=8 part 1 have chromatic number exactly 10.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0024"
+    ],
+    "note": "DRAT-verified non-9-colourability (bag and vertex CNFs) plus checked 10-colourings; for FCptO also a hand proof N<=27-w5 for 9-colourings. Biplanarity of all of them is UNKNOWN."
+  },
+  {
+    "id": "CLM-0022",
+    "claim": "K9 is not biplanar, re-certified by a pure Kuratowski-lemma CNF (24946 independently checked lemmas, lex-leader symmetry breaking) with a drat-trim VERIFIED refutation.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014",
+      "SRC-0024"
+    ],
+    "note": "Calibration of the CAM-0003 v4 oracle; classical result, not new."
+  },
+  {
+    "id": "CLM-0023",
+    "claim": "K9-e, K9-P3, K9-K1,3, K2v(K4+K6+K6), K2v(K5+K5+K6), K3v3K5 and K10-C4 are biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "Explicit layers in validation/S003/splits checked by NetworkX LR and the stdlib rotation checker (K10-C4 split not archived; reproducible). Biplanarity of K9-e may be known."
+  },
+  {
+    "id": "CLM-0024",
+    "claim": "Every 12-chromatic biplanar graph has at least 89 vertices; every 10-chromatic one has at least 17 vertices.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0017",
+      "SRC-0018",
+      "SRC-0020"
+    ],
+    "note": "n>=89 is SRC-0017 Obs 7.1.1 via KY Brooks-type refinement (not inspected); n>=17 is SRC-0018 (census-conditional) and SRC-0017 (SMS-certified)."
+  },
+  {
+    "id": "CLM-0025",
+    "claim": "Of the 159 SRC-0017 pool graphs, 147 have e>5n-6 and 8 more are excluded by CLM-0016 as apex bases; the apices of the remaining 4 have UNKNOWN biplanarity.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0017"
+    ],
+    "note": "Corpus chromatic numbers source-stated."
+  },
+  {
+    "id": "CLM-0026",
+    "claim": "Every one of the 271 listed alpha>=3 S003 blow-up survivors has chromatic number exactly 10.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "S004 independently checked F1/F2/F3, 271 bag and 271 vertex DRAT refutations of 9-colourability, and 271 explicit proper 10-colourings. Bag proofs retained compressed; biplanarity not inferred."
+  },
+  {
+    "id": "CLM-0027",
+    "claim": "Every universal apex of the 159 graphs in the pinned SRC-0017 pool is non-biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0017",
+      "SRC-0014",
+      "SRC-0024"
+    ],
+    "note": "147 Euler exclusions, 8 CLM-0016 exclusions, 4 explicit K9 subgraphs. Last four also have checked face-CNF DRAT proofs. Supersedes S003 apex UNKNOWN obligation only; corpus chromatic numbers not assumed."
+  },
+  {
+    "id": "CLM-0028",
+    "claim": "For each finite simple labelled n>=4 input supported by the triangulation-cover encoder, biplanarity implies satisfiability of its CNF with any well-formed registered connectivity/link cuts and automorphism lex constraints.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009"
+    ],
+    "note": "Necessary-condition proof in research/S004_TRIANGULATION_COVER.md; allows completion edges outside the input, overlapping layers and exact excess D. Implementation/cardinality/DRAT checker remain trust dependencies. No Lean or universal colouring theorem."
+  },
+  {
+    "id": "CLM-0029",
+    "claim": "A 122-vertex, 187-edge biplanar graph with a degree-11 double-wheel vertex has an 11-colouring of its deletion for which no single Kempe component swap frees a neighbour colour; the graph itself is exactly 4-chromatic.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Explicit layers, colourings and all 55 alternating paths checked; odd C5 wheel supplies chi>=4. D=533, not 12-critical. Does not refute multi-swap, criticality or D<=11 reducibility."
+  },
+  {
+    "id": "CLM-0030",
+    "claim": "An independent full 8^8-weight audit on each of the fixed bases GsUPOK and GrEKGc agrees with the S003 census for those two bases.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "GsUPOK: kept 485, colourable 458, F3 19, survivors 8; GrEKGc: kept 71, colourable 61, F3 0, survivors 10. Different chunk enumeration/MIS-cover method and main reruns. Not a full k=8 census check."
+  },
+  {
+    "id": "CLM-0031",
+    "claim": "Among positive C5 weights in {1,...,8} satisfying the registered F1-F3 filters, there are 297 dihedral classes and 13 maximal classes under dihedral componentwise containment.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "Full 8^5 enumeration in tools/s004_frontier.py; maximal list archived. This counts necessary-filter patterns, not biplanar graphs or an exhaustive graph universe."
+  },
+  {
+    "id": "CLM-0032",
+    "claim": "The explicit 22-vertex, 119-edge graph G|fH_K[4,2,2,2,2,2,2,6] (S003 alpha>=3 list index 165) is 10-chromatic and non-biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Checked chi=10 and regenerated completion-face CNF with 773 valid cuts; two DRAT-verified refutations. Compact core DRAT rechecked and publicly retained. Independent no-lex encoder found a non-planar SAT relaxation, not an independent exclusion. Finite result only, exact thickness/novelty not claimed."
+  },
+  {
+    "id": "CLM-0033",
+    "claim": "C5[K3] is exactly 8-chromatic and its universal apex is exactly 9-chromatic.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Alpha=2 on 15 vertices forces chi>=8; checked explicit 8-colouring. Universal join adds exactly one, with explicit 9-colouring checked. Biplanarity UNKNOWN; this calibration cannot lift the lower bound to ten."
+  },
+  {
+    "id": "CLM-0034",
+    "claim": "All 17 D=0 rows of the fixed 271-row S003 alpha>=3 list are 10-chromatic and non-biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Rows161,163,164,154,158,160,176,171,120,126,128,130,42,44,133,135,262. S005 regenerated completion CNFs and DRAT-verified each original and compact proof; inherited chi=10 certificates/upper colourings cold-hash audited. Not a theorem for every D=0 biplanar graph or all clique blow-ups."
+  },
+  {
+    "id": "CLM-0035",
+    "claim": "Nine of those D=0 exclusions have independently implemented reduced-encoding DRAT certificates; row120 also has a separate no-lex direct-incidence certificate.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Global selected-triangle cover excludes158,171,120,130,42,44,133,135; layer-consistent reduction also excludes262. Thirteen independent full-incidence positive controls and eleven relabellings of a real D=0 witness for reduced controls. Shared classical premise/library/checker; no external review. Row165 no-lex challenge UNKNOWN at620s."
+  },
+  {
+    "id": "CLM-0036",
+    "claim": "A biplanar n>=4 graph with D=0 has a 0/1 triangle selection covering every edge twice; with D=1 its completion has exactly one new pair or one doubled input pair and a 0/1 facial selection with respective edge incidence demands two or four.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009"
+    ],
+    "note": "research/S005_FACE_REDUCTIONS.md. Repeated facial triangle would require at least three doubled edges, impossible at D<=1. Necessary encodings only; relaxed SAT has no planarity converse. Actual completion controls for both D=1 cases passed."
+  },
+  {
+    "id": "CLM-0037",
+    "claim": "The stored S004 122-vertex, 187-edge one-swap Kempe-lock colouring of G-v extends after two complete Kempe component swaps.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Choose neighbours1,6 and third colour at2, recolour one gadget vertex then neighbour1; both complete induced components have size one. Exact layers/rotations, properness at every stage and full extension verified. This graph is4-chromatic and not12-critical; no universal multi-swap theorem."
+  },
+  {
+    "id": "CLM-0038",
+    "claim": "A Gallai forest with l vertices, c components, maximum degree at most 11 and clique number at most 8 has at most (31/8)l-3c edges. In a 12-critical biplanar graph, 48h>=312+26D+9Q+24c+8e_H and 8D_H>=216+26D+9Q+24c.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Full block-contraction proof and algebra in research/S005_UPPER_ROUTES.md. h high(degree>=12) vertices, Q=sum(deg-12), c low-forest components, e_H high-induced edges, D_H=6h-12-e_H; h>=7 follows. Uses externally source-stated Gallai theorem; no independent proof of that theorem, order upper bound, reducible configuration or improved universal colouring bound."
+  },
+  {
+    "id": "CLM-0039",
+    "claim": "The fixed D=1 candidate rows 177,179,180,102,103,117,123,143 are 10-chromatic and non-biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "S005 full completion-face CNF regeneration and checked DRAT certificates; inherited exact chromatic certificates cold-hash audited. Other registered D=1 rows UNKNOWN: []. Total 25 new finite exclusions; 245 of the original 271 remain UNKNOWN. No stronger thickness, novelty or headline bound claimed."
+  },
+  {
+    "id": "CLM-0040",
+    "claim": "A Gallai forest with l vertices, c components, maximum degree at most11 and clique number<=8, t K8 blocks and u=l-8t, satisfies e<=(7/2)l+(5/2)t-(5/2)c=(61/16)l-(5/2)c-(5/16)u. The61/16 coefficient is sharp for this class.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Full contraction/root-weight proof including empty/singleton cases and all-order K8/K5 equality family in research/S006_CRITICAL_DENSITY.md. Nine actual layer/rotation/colour controls are corroboration, not universal proof. No novelty or12-critical equality witness asserted."
+  },
+  {
+    "id": "CLM-0041",
+    "claim": "Every12-critical biplanar graph obeys96h>=648+54D+19Q+40c+16e_H+5u and16D_H>=456+54D+19Q+40c+5u, with h>=8 and u the number of low vertices outside K8 blocks.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Uses CLM-0040 and the source-stated Gallai low-vertex theorem. Exact low/high cut algebra in research/S006_CRITICAL_DENSITY.md. No upper bound on counterexample order, colouring extension or universal upper improvement."
+  },
+  {
+    "id": "CLM-0042",
+    "claim": "An explicit40v/60e biplanar chi8 graph with degree11 K8 core and pairwise disjoint external neighbourhoods has identical rainbow four-colour exterior palettes whose fixed11-colouring cannot extend.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Labelled private leaves, exact disjoint layers/rotations, proper8-colouring and K8 lower bound checked; fixed boundary leaves only seven core colours. External vertices degree1; not12-critical. Refutes unconditional extension/common-neighbour inference, not actual criticality."
+  },
+  {
+    "id": "CLM-0043",
+    "claim": "Bradshaw2026 Theorem1.10 states K_(d+1)-free graphs of mad<=d+1/28 are correspondence d-colourable for d>=3.",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0029"
+    ],
+    "note": "Primary statement and local deduction inspected, full main proof not audited. At d=11 biplanarity only supplies mad<12; the required threshold is unproved. No headline improvement or transfer of list-criticality to ordinary criticality."
+  },
+  {
+    "id": "CLM-0044",
+    "claim": "In a12-critical biplanar graph, if every degree11 low component has an endblock pair of noncut vertices with unequal actual exterior neighbour sets, then e_H+c>=66. In particular this holds if every low component is a single K8.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Published Section2.2 Lemma3 good-colouring edge budget and Theorem1.3 extension, both local proofs inspected. Programme deduction in research/S006_PALETTES.md. Identical-cardinality actual sets required; heavy components not excluded, edge budget unbounded; no universal upper improvement or novelty."
+  },
+  {
+    "id": "CLM-0045",
+    "claim": "S006 adds15 checked non-biplanarity exclusions among the fixed271 chi10 candidates, rows[17, 29, 35, 46, 47, 80, 81, 82, 187, 189, 190, 195, 197, 258, 260]; 230 remain UNKNOWN.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Each new necessary Cover CNF regenerated and original/retained compact DRAT freshly checked. All19 target lower chromatic proofs replayed and upper colourings checked. D1 remaining[]; registered UNKNOWN[162, 155, 157, 159], NOT_RUN[157, 159]. Finite domain only; no thickness-minimality, novelty or headline advance."
+  },
+  {
+    "id": "CLM-0046",
+    "claim": "For biplanar n>=4 inputs of deficit D<=2, two planar sphere completions have disjoint facial triple sets; the S007 global multiplicity CNF and stronger planar-subset/K5 Cover cuts are necessary.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009"
+    ],
+    "note": "Surplus/necessity/orbit-minimum proof in research/S007_ENCODINGS. StrongCover implementation is restricted to at most11 closed-twin classes; mathematical cuts are necessary in general. Distinct faces disabled at D>=3; both encodings lack a SAT converse. Finite controls are not the proof."
+  },
+  {
+    "id": "CLM-0047",
+    "claim": "For every low component C in an actual12-critical biplanar graph, chi(G-C)=11. If the low subgraph is nonempty and connected, chi(G[H])=11.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Complete spare-colour/endblock proof in research/S007_CRITICAL_PALETTES; uses published Gallai and extension theorem. No conclusion chi(H)=11 for disconnected L, simultaneous extension, universal upper improvement or novelty."
+  },
+  {
+    "id": "CLM-0048",
+    "claim": "A heavy K8 endblock in a12-critical biplanar graph has four independent common exterior neighbours with total excess sum(deg-12)>=13, hence one has degree>=16.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Actual common neighbour set, K9 exclusion and11-colour blocking count; general independent-Z bound (s-2)|Z|-11 in research/S007_CRITICAL_PALETTES. May not be summed over overlapping boundaries; no contradiction with unbounded Q/D."
+  },
+  {
+    "id": "CLM-0049",
+    "claim": "The explicit12v/51e graph K6 joined to independent6 is biplanar and exactly7-chromatic.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "Labelled exact disjoint split, independent LR/sphere rotations and proper7-colouring in validation/S007/heavy_search.json; K7 clique lower bound. Local heavy-K7 control only, not12-critical or chi>=10."
+  },
+  {
+    "id": "CLM-0050",
+    "claim": "Completion K5/input K3,3 clauses and the S008 totalizer representation are necessary in the registered full-layer CNFs.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009"
+    ],
+    "note": "Euler/bipartite Euler and orbit-minimum proof in research/S008_ENCODING; library counter trust,27 direct controls/23 independent enumeration/2304 truth tests/23 tree pins. No SAT converse."
+  },
+  {
+    "id": "CLM-0051",
+    "claim": "For every nonempty family of t heavy K8 noncut cores in a12-critical biplanar graph, its common exterior boundaries have union size at least ceil((7t+12)/6), hence admit distinct high-neighbour representatives.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "All-order49t-edge Euler subgraph proof and classical Hall induction in research/S008_SHARED_SUPPORT. Overlap-weighted excess only; not distinct high-excess representatives, recolouring or universal upper improvement."
+  },
+  {
+    "id": "CLM-0052",
+    "claim": "An11-colouring of G minus a family of heavy K8 noncut cores extends simultaneously through them iff every five-vertex exterior boundary uses at most four colours.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Exact clique/list argument in research/S008_NO_SPARE. No existence theorem for a suitable exterior colouring; actual criticality forces at least one bad block in every such colouring, possibly different blocks."
+  },
+  {
+    "id": "CLM-0053",
+    "claim": "S008 adds4 checked non-biplanarity exclusions among the fixed271 exactchi10 candidates, rows[155, 157, 159, 162]; 226 remain UNKNOWN.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "New full-layer negatives use their own cold CNF/counter representation and original/compact/cold retained DRAT checks; any transfer uses independently checked labelled injection from a checked obstruction. Fresh lower chromatic proofs/proper10-colourings separate. Finite inputs only, no thickness-minimality/novelty/headline advance. Exact per-lane/transfer artifacts in validation/S008."
+  },
+  {
+    "id": "CLM-0055",
+    "claim": "A heavy odd-cycle endblock in an actual12-critical biplanar graph has length r<=11; a whole heavy odd-cycle low component has r<=9. Independent exterior Z obeys excess>=(r-2)|Z|-11 for an endblock and(r-1)|Z|-11 for a whole component.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Euler subgraph and published-method blocking count with explicit path/cycle extension in research/S008_NO_SPARE. Actual common9-neighbour sets; overlaps cannot be summed freely. Necessary all-order constraints, no universal upper bound or novelty. S010 CLM0065 sharpens both odd-length bounds to5 under the same actual-common-neighbour premise; prior bounds remain valid but weaker."
+  },
+  {
+    "id": "CLM-0056",
+    "claim": "For every selected family of t heavy K8 noncut cores in an actual12-critical biplanar graph, unweighted excess on the union of their high boundaries is at least4t, with arbitrary support overlap.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Complete all-order truncated-demand/degree-multiplicity proof in research/S009_GLOBAL_CHARGE.md;3331 finite charge checks corroborate only. Arithmetic equality model is not an actual critical biplanar witness. No maximum multiplicity, distinct high-excess representatives, universal colouring or novelty."
+  },
+  {
+    "id": "CLM-0057",
+    "claim": "For every nonempty selected family of t heavy K8 endblocks in an actual12-critical biplanar graph, common high-boundary union size is at least ceil((8t+12)/6).",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "Distinct full eight-vertex low blocks contribute56t distinct edges on8t+a vertices. Complete Euler/subfamily/boundary proof in research/S009_GLOBAL_CHARGE.md. Stronger than noncut-only expansion, no colour/list conclusion."
+  },
+  {
+    "id": "CLM-0058",
+    "claim": "For a fixed11-colouring outside all selected heavy-core boundaries, simultaneous extension exists iff some nonadjacent pair choice in each boundary induces independent equality classes whose quotient admits proper colouring from common-list intersections.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0033"
+    ],
+    "note": "Complete logical equivalence including cuts/overlaps/all edges/empty cases in research/S009_SIMULTANEOUS_COLOURS.md. Classical contraction idea attributed; no planar contraction or guaranteed feasible pair/list choices.1029 abstract list controls, not critical witnesses or universal theorem."
+  },
+  {
+    "id": "CLM-0059",
+    "claim": "All completion K3,3 subgraph clauses in the registered S009 small full-layer tree model are necessary for every genuine planar completion.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009"
+    ],
+    "note": "Bipartite Euler/six-set partition enumeration/orbit-minimum proof in research/S009_CONSTRUCTION.md;23 actual full pins/rotations and independent enumeration controls. Not all Kuratowski subdivisions, no SAT converse or verdict from partial CNFs."
+  },
+  {
+    "id": "CLM-0060",
+    "claim": "For disjoint selected heavy low cores in an actual12-critical biplanar graph, total high excess Q is at least4t8+4e11+2e9+3w9+w7, counting K8 endblocks, C11/C9 endblocks and wholeC9/C7 components respectively.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0014"
+    ],
+    "note": "All-order truncated mixed demand/degree-budget proof in research/S009_GLOBAL_CHARGE.md. Independent16384 Cartesian arithmetic vectors/16 integer knapsacks validate smallq; q>=16 analytic. Supports may overlap across types; selected cores must be disjoint. Shorter/smaller/light/all-deficit colouring still open; no novelty or headline advance. S010 shows all these selected heavy types absent from the actual critical class (CLM0063/0065); inequality valid but vacuous there."
+  },
+  {
+    "id": "CLM-0062",
+    "claim": "The explicit12v56e graph K7 joined to independent5 is non-biplanar.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Labelled edges and source proof chain in validation/S009/heavy_extended/result.json; the initial validation/S009/heavy/result.json remains UNKNOWN. Exactchi8 follows from proper8-colouring/K8 clique, not a lower-bound lift; novelty unchecked."
+  },
+  {
+    "id": "CLM-0063",
+    "claim": "Every7-clique in a finite simple biplanar graph has at most4 common neighbours outside it; in particular an actual12-critical biplanar graph has no heavy K8 endblock with a genuine low cut vertex.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025",
+      "SRC-0027"
+    ],
+    "note": "Necessary all-completionK33 tree CNF independently cold regenerated; original/compact/cold retained native DRAT checked. Explicit local subgraph transfer in research/S009_CONSTRUCTION.md. Does not exclude lightK8 endblocks/allK8 blocks/smaller heavy blocks/odd blocks or prove universal11-colouring. Finite source proof plus all-order conditional deduction; novelty unchecked."
+  },
+  {
+    "id": "CLM-0061",
+    "claim": "S009 certifies additional non-biplanarity for fixed exactchi10 rows[15, 23, 24, 28, 38, 41, 45]; 219 of271 remain UNKNOWN.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0009",
+      "SRC-0024",
+      "SRC-0025"
+    ],
+    "note": "Each direct negative has necessary cold LF CNF and original/compact/cold retained native DRAT; any transfer independently checks actual injection/source cold certificate and target non9/proper10. Exact source and per-lane provenance in validation/S009. No minimality, census closure, novelty or headline advance."
+  },
+  {
+    "id": "CLM-0064",
+    "claim": "No finite simple biplanar graph contains K5,13, K6,9 or K7,7; for a+b>=3 these are exactly the minimal unordered complete-bipartite violations of the two-layer bipartite Euler edge bound.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0009",
+      "SRC-0034"
+    ],
+    "note": "Complete independent all-order proof with connected/tree/disconnected/small cases in research/S010_BIPARTITE_RESET.md. Classical counting attributed; not a complete bipartite thickness classification or novelty claim."
+  },
+  {
+    "id": "CLM-0065",
+    "claim": "In an actual12-critical biplanar graph, a heavy odd low endblock or whole heavy odd low component with identical actual exterior neighbour sets has length exactly5.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027",
+      "SRC-0009"
+    ],
+    "note": "Any length>=7 gives six distinct low noncut/core vertices complete to nine distinct high vertices, hence K6,9. Triangles treated as cliques; light blocks/palette equality excluded from premise. This closes long-heavy-odd subroute, not universal colouring."
+  },
+  {
+    "id": "CLM-0066",
+    "claim": "A12-critical biplanar graph cannot admit an independent high set R meeting each chosen heavy boundary at least twice, safe light-pair residual choices, and e(H-R)+|M_residual|<=54 simultaneously.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0027"
+    ],
+    "note": "Full sufficient-extension contradiction, three safe-pair cases/unused colour/component boundaries in research/S010_SIMULTANEOUS_EXTENSION.md.112640 exact palette cases corroborate only. Existence of R/safe pairs/residual budget not proved; no universal upper improvement or new method priority."
+  },
+  {
+    "id": "CLM-0067",
+    "claim": "The explicit P4 joined to independent9 (13v39e) and C5 joined to independent9 (14v50e) are biplanar and exactly3-/4-chromatic respectively.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "Public labelled disjoint layers, independent LR/component sphere rotations, proper3/4 and hand path/cycle-plus-join lower proofs in validation/S010/local/results.json. New13/14 model pins/calibration and cold baseline gates passed. Local positives do not construct actual12-critical heavy components or lift9; no minimality/novelty claim."
+  },
+  {
+    "id": "CLM-0068",
+    "claim": "None of the fixed271 S003 exactchi10 rows contains an edge-preserving K5,13, K6,9 or K7,7 subgraph.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "977231 complete bounded bag allocations across813 source-row pairs; independent4096 direct-subset controls, labels in validation/S010/bipartite_detector.json. No row exclusions, planar converse, whole-census or distinct-isomorphism-class claim."
+  },
+  {
+    "id": "CLM-0069",
+    "claim": "For every finite simple graph G with chromatic number at least 9, its ordinary Mycielski lift M(G) has thickness at least three; in particular this lift cannot provide a biplanar 10-chromatic construction.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0036"
+    ],
+    "note": "S011 direct proof: choose an induced 9-vertex-critical H in G, hence delta(H)>=8 and m(H)>=4n(H). M(H) has 2n+1 vertices and 3m+n>=13n edges, strictly exceeding two-planar Euler 12n-6. M(H) is induced in M(G), so M(G) non-biplanar. No novelty or universal upper-bound claim."
+  },
+  {
+    "id": "CLM-0070",
+    "claim": "Each of the six fixed S003 clique blow-up candidate rows 2, 55, 59, 61, 199 and 200 is edge-critical and exactly 10-chromatic.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "note": "CAM-0014 complete all-edge census of 863 single-edge deletions, explicit valid 9-colouring per deleted edge; separate stdlib graph6 expansion and all 863 witnesses verified PASS. Full original 10-chromatic lower checked by 271/271 S004 DRAT cold smoke; 10 colourings independently checked. Binary original witness evidence permanently gzip-archived validation/S011/edge_critical_witnesses.json.gz SHA256 d43bfe323a52666a7811630f8cff549e7eed8fd8b628f2ff6a1cf84cbf26e554. No claim on biplanarity or other rows or novelty."
+  },
+  {
+    "id": "CLM-0071",
+    "claim": "For a clique blow-up with all bag weights >=2, if G-e admits a proper q-colouring then G-e+f admits a proper q-colouring for EVERY original nonedge f. In particular every one of the 194896 single edge/nonedge swaps of six fixed edge-critical exactchi10 rows2,55,59,61,199,200 is properly 9-colourable.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Hand untouched-bag automorphism proof research/S012_CONSTRUCTION.md. CAM0015 exact fixed domain 194896; source S011 863 explicit nine-colourings, independently checked all positive constructions on smoke-passed GitHub Actions run38635879431, independent checker PASS. Does not decide biplanarity or extend to other rows, singleton bags or multiple swaps. Novelty unchecked."
+  },
+  {
+    "id": "CLM-0072",
+    "claim": "If H=K6 join C5 is the 11-vertex 50-edge 9-critical Sulanke graph induced on the original eleven vertices of G and G has at most five additional vertices, then G cannot be simultaneously biplanar and chromatic at least10.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Induced-H premise essential. r=1 non-universal apex extends H-u 8-colouring; universal has 61>60 edges. Induct r2..5 forces each new vertex degree>=9; t>=9r-binomial(r,2)>4+6r thickness2 Euler cap. Pure construction filter, not universal EMP bound; novelty unchecked."
+  },
+  {
+    "id": "CLM-0073",
+    "claim": "Any hypothetical biplanar chi>=10 extension of induced H=K6 join C5 by exactly six new vertices must have K6 or K6-e on those new vertices, with 89 or90 edges total; K6-e case forces exactly90 and both planar layers triangulations.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "note": "Conditional necessary density/degree boundary from CLM0072 inductive 5-vertex exclusion: new degrees>=9, internal edges b>=14, t<=40; b14=>t40,a26; b15=>t39 or40,a24 or25. Not a construction, biplanarity or chromatic certificate; novelty unchecked."
+  },
+  {
+    "id": "CLM-0074",
+    "claim": "At the S012 six-vertex retained Sulanke H=K6 join C5 boundary with new-side K6-e, exact saturated incidences imply a proper nine-colouring via Hall's theorem (two nonadjacent new vertices have allowed lists >=4, remaining four >=5). No possible ten-chromatic biplanar candidate in this restricted branch.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Full independent hand proof research/S013_CONSTRUCTION.md; depends on CLM0072/73 degree/Euler filters, no SAT and no general upper-bound claim."
+  },
+  {
+    "id": "CLM-0075",
+    "claim": "In six-added-vertex Sulanke extensions with new-side K6 and the conditional biplanar 89/90-edge budget, either the graph is nine-colourable or it contains a K9. Consequently the K6 six-vertex branch gives no biplanar ten-chromatic witness.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Five new cross-degree4 vertices, nine-colour Hall condition, C5 singleton-colouring and shared old K4 neighborhood imply K9. No executable enumeration assumed."
+  },
+  {
+    "id": "CLM-0076",
+    "claim": "Any finite simple biplanar graph of order at most17 containing H=K6 join C5 as a subgraph is exactly nine-chromatic: extra old-old chords create K9, hence H copy automatically induced; <=5 old extensions CLM0072 and r6 CLM0074/75. This does not exclude other 17-vertex source graphs.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Construction-filter theorem and hostile audit in research/S013_CONSTRUCTION.md. Classical K9 obstruction independently certified earlier CLM0022; novelty unchecked."
+  },
+  {
+    "id": "CLM-0077",
+    "claim": "CAM0016 constructed and rotation/Euler/LR-checked a labelled simple 17-vertex union of two edge-disjoint planar triangulations 45+45 edges, with an explicitly checked proper eight-colouring, among80 sampled pairs; this example is not ten-chromatic.",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "notes": "validation/S013/layer_pair_control.json and run38639416513 same-job full 271 DRAT smoke, native hashes. 48 multi-edge partial placements incomplete and never designated impossible."
+  },
+  {
+    "id": "CLM-0078",
+    "claim": "Sulanke H=K6 join C5 is edge-critical with chi(H)=9 and chi(H-e)<=8 for each of its 50 edges, by three S6 x D5 edge orbits.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Self-contained analytic colourings in research/S014_CONSTRUCTION.md; does not transfer chromatic non9 to altered candidate completions."
+  },
+  {
+    "id": "CLM-0079",
+    "claim": "Every biplanar 18-vertex graph containing H=K6 join C5 as a subgraph and with the seven new vertices inducing K7 or K7-e has chromatic number exactly9.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Proof by S013 deletion-to17 degree condition, Euler and Hall for nine-colour lists (all proper subsets), singleton C5 colourings, K9 obstruction; research/S014_CONSTRUCTION.md. No bound for arbitrary18-vertex graphs."
+  },
+  {
+    "id": "CLM-0080",
+    "claim": "Any hypothetical biplanar >=10-chromatic 18-vertex H-anchored graph has its seven new vertices K7 minus 2..4 edges and cross-degrees c_i=3+m_i+delta_i with nonnegative integers summing delta<=4-m. Exactly7525 labelled internal missing-edge patterns before old-incidence assignments.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "notes": "Necessary constraints only; 7525 exact binomial expression, no scientific enumeration or layer certificate. No full18-vertex exclusion."
+  },
+  {
+    "id": "CLM-0081",
+    "claim": "For an exact edge-disjoint partition of a simple n-vertex m-edge biplanar graph G into planar layers E1,E2 (n>=3), both layer sizes lie between max(0,m-(3n-6)) and min(m,3n-6). In particular original rows 156 (24,128), 3/9 (26,135), 173 (25,133) force 62..66, 63..72, 64..69 edges in EACH layer respectively.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Elementary Euler corollary via |E1|+|E2|=m, each layer <=3n-6. Necessary only, not sufficient; explicitly non-novel and not yet added to the S016 SAT solver. Next S017 target is to add/check this constraint and its CNF encoding."
+  },
+  {
+    "id": "CLM-0082",
+    "claim": "In any exact biplanar edge partition of a finite simple graph, for disjoint nonempty labelled A,B with s=|A|+|B|>=3, each planar layer has at most 2s-4 edges strictly crossing A to B, and the original graph has at most 4s-8 total crossing edges. This is a necessary, elementary, non-novel planar bipartite Euler bound.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Proof research/S021_ROW148_CROSS_EULER.md. Not the induced G[A union B] subgraph bound. S021 used 120 source-verified crossing pairs in original131 SAT with fresh necessary sequential counters. No new graph status or global chi2 bound."
+  },
+  {
+    "id": "CLM-0083",
+    "claim": "For a fixed labelled partial edge decomposition A,B,U with disjoint union E(G), every complete two-layer assignment corresponds uniquely to a switch subset F of A union B and one binary destination for each edge of U; planarity is preserved by edge deletion, so a branch that creates a nonplanar partial layer cannot be completed by adding edges. Exhaustively enumerating every F of a fixed cardinality r and all U choices therefore decides only that Hamming neighbourhood, not global biplanarity.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Elementary exact labelled finite enumeration proof in research/S022_ROW148_EXACT_NEIGHBOURHOOD.md; non-novel. No symmetry reductions or cost dominance; q+r=7 triangulation COVER is not a switch budget."
+  },
+  {
+    "id": "CLM-0084",
+    "claim": "S022 CAM-0024 GitHub Actions run38765947247 checked all 325626 switch subsets with exactly 0,1,2,3 baseline placement reassignments of original row148 six-unplaced 62+63 partial (1,125,7750,317750 respectively); in all these restricted neighbourhoods no complete biplanar split was found. The original global biplanarity verdict stays UNKNOWN.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Deterministic no-symmetry complete bounded enumeration on immutable 131-edge original graph, SHA256 4f8dab...; same-job 271 original native DRAT/CNF and retained/fresh K9 smoke PASS; 305.53 seconds, 39.4MiB RSS. Reproducible source tools/s022_row148_exact_neighbourhood.py and validation/S022; single implementation/planarity library, cold second-method replay remains desirable. Not a certified original graph negative or improved Earth-Moon bound."
+  },
+  {
+    "id": "CLM-0085",
+    "claim": "If a finite simple biplanar graph contains a K6 fully joined to every vertex of a disjoint induced external graph H, then chi(K6 vee H)<=9: biplanar Euler forces e(H)<=9, K9 non-biplanarity forbids triangles in H, and every triangle-free graph on at most 9 edges is 3-colourable by a direct minimum-degree/6-vertex cubic classification.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "S023 hand proof fully quantified in research/S023_UPPER_VS_LOWER_AUDIT.md. Conditional clique-core obstruction, no novel/global bound assertion; does not apply to a K6 lacking full external join edges."
+  },
+  {
+    "id": "CLM-0086",
+    "claim": "Every degree-11 vertex v of a finite simple biplanar graph has at least six pairwise nonadjacent neighbour pairs. If the graph is additionally 12-critical, every 11-colouring of G-v is rainbow on N(v) and every such missing pair of neighbour colours is joined by a two-colour Kempe path; this is necessary, not sufficient for 11-colourability.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "S023 elementary Euler induced-12-vertex calculation and Kempe swap proof. No all-order reducible configuration, no chi2<=11 proof. S004 archived counterexample defeats unqualified local flexibility claim; novelty unchecked."
+  },
+  {
+    "id": "CLM-0087",
+    "claim": "Every labelled simple graph G on n>=3 vertices is biplanar iff its edges are covered by the union of two labelled sphere triangulations on all n vertices. For original148 with n=25,m=131 and 69 edges in each completion, q=overlap(T1,T2), r=extra union edges not in E(G), then q+r=7.",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0037"
+    ],
+    "notes": "Elementary maximal-planar completion and reverse edge selection proof in research/S024_GLOBAL_TRIANGULATION_COVER.md; already known in S018 and recent primary research, not original. Complete oriented-triangle SAT with link/connectedness specified but NOT IMPLEMENTED; q+r is not Hamming radius."
+  },
+  {
+    "id": "CLM-0088",
+    "claim": "S024 same-job cloud smoke verified271/271 original CNF/native DRAT and retained/fresh K9 on GitHub Actions run38862555457. Preregistered 18 planar-layer-first trials n22/28/36: 17 edge-disjoint maximal planar layer pairs with independent combinatorial rotation/Euler walk checks and explicit proper <=8-colourings; one trial had an overlapping edge. Therefore none of the 17 is 9- or 10-chromatic, no new bound.",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0037"
+    ],
+    "notes": "Finite tested campaign, source tools/s024_layer_first.py, validation/S024/SUMMARY.json plus 17 complete layer+rotation+colour certificates, SMOKE.json ENVIRONMENT.json and manifest. Proper colouring is an upper, not lower chromatic bound. No native UNSAT for new candidates; no global completeness claim."
+  },
+  {
+    "id": "CLM-0089",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Complete two-sphere-triangulation encoding: per layer, triangle=>edges, every selected pair in exactly two selected triangles, exactly 3n-6 edges, every vertex covered, plus valid lazy LINK (vertex link is one cycle) and CONN (spanning connected) cuts. Any model violating no cut is a sphere triangulation (closed connected simplicial 2-manifold with V-E+F=2), and every sphere triangulation on n>=4 vertices satisfies all clauses.",
+    "sources": [
+      "SRC-0005"
+    ],
+    "notes": "Elementary; implemented in tools/s025_tricover.py with independent decoder tools/s025_check.py. Validated (K8/K9P3/J1/J2 SAT with checked splits) but K9 UNKNOWN at 600 s, so not used for refutations. Unoriented triangles replace the S024 oriented-dart spec (orientability is automatic for chi=2)."
+  },
+  {
+    "id": "CLM-0090",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Lemma B: in any biplanar decomposition (L1,L2) of G, if Q is a clique and R_1..R_k (|Q|+k=9) are pairwise disjoint vertex sets disjoint from Q, each dominating Q and pairwise joined by G-edges, then some L_j[R_i] is disconnected.",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Contract each R_i in both layers; union contains K9, which has thickness 3. Hand proof in research/S025_C5_OBSTRUCTIONS_CORPUS_CLOSURE.md section 5. Novelty not claimed."
+  },
+  {
+    "id": "CLM-0091",
+    "status": "PROGRAMME_PROVED",
+    "claim": "Lemma C: let Q be a K8 of G, R disjoint from Q with r in R, and j a layer of a biplanar decomposition. If L_j[R] is connected and every q in Q-N_G(r) has an L_j-neighbour in R, contradiction. Hence the clause -c[R,j] | OR_q -a[q,R,j] (with c,a auxiliary connectivity/adjacency variables implied by spanning trees/edges) holds for every biplanar split.",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Contract R in L_j, keep only r in the other layer; union contains K9. Encoded in tools/s025_minor_cegar.py --lemmaC; every clause independently re-justified by tools/s025_check_minor_cert.py. Novelty not claimed; depends on K9 thickness 3."
+  },
+  {
+    "id": "CLM-0092",
+    "status": "COMPUTED_EXACT",
+    "claim": "The following 18 clique blow-ups of C5 (17 vertices each) are NOT biplanar: C5[1,1,7,1,7], C5[1,2,6,1,7], C5[1,2,6,2,6], C5[1,3,5,1,7], C5[1,3,5,2,6], C5[1,3,5,3,5], C5[1,4,4,1,7], C5[1,4,4,2,6], C5[1,4,4,3,5], C5[1,4,4,4,4], C5[1,5,3,2,6], C5[1,5,3,3,5], C5[1,6,2,2,6], C5[2,2,5,3,5], C5[2,3,4,2,6], C5[2,3,4,4,4], C5[2,5,2,6,2], C5[3,3,3,3,5].",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Per graph: Kuratowski+Lemma-C CEGAR UNSAT; every CNF clause re-justified; CNF regenerable byte-for-byte from gzipped lemma JSON (tools/s025_regen_cnf.py); S004-pinned native CaDiCaL DRAT proof VERIFIED by drat-trim. Certificates validation/S025/C5_CERTIFICATES.json and validation/S025/certs/. Conditional only on K9 thickness 3 (classical; programme DRAT)."
+  },
+  {
+    "id": "CLM-0093",
+    "status": "COMPUTED_EXACT",
+    "claim": "Every clique blow-up C5[a1..a5] with all a_i>=1, a_i+a_{i+1}<=8 and sum a_i<=16 is biplanar (262 dihedral classes, explicit independently checked splits). Every C5[a] violating a_i+a_{i+1}<=8 contains K9, and every C5[a] with sum>=19 fails the Euler or triangle-free cross-edge bound; every sum-18 filter-feasible class contains a sum-17 feasible class. Together with CLM-0092 this yields: C5[a] is biplanar iff a_i+a_{i+1}<=8 for all i and sum a_i<=16, PROVIDED the sum-17 classes not listed in CLM-0092 are also non-biplanar (status UNKNOWN for those).",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Positive side: validation/S025/C5_CLASSIFY.json.gz (E1/E2 per class, checked by tools/s025_check.check_split). Filter count 297 matches S004. The iff is complete only once all 26 sum-17 classes are certified."
+  },
+  {
+    "id": "CLM-0094",
+    "status": "COMPUTED_EXACT",
+    "claim": "All 219 formerly BIPLANARITY_UNKNOWN rows of the original 271 exactly-chi10 clique blow-up corpus (including row148, sha 4f8dab6c...) contain a DRAT-certified non-biplanar C5 blow-up of CLM-0092 as a subgraph and are therefore NOT biplanar. With the 52 earlier certified rows, the entire 271-row corpus is non-biplanar.",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Explicit injective vertex maps, every obstruction edge checked to be a row edge (validation/S025/TRANSFER_271.json, tools/s025_transfer_all.py). Not a chi2 statement; the corpus is a restricted biased source."
+  },
+  {
+    "id": "CLM-0095",
+    "status": "PROGRAMME_PROVED",
+    "claim": "C5[1,1,7,1,7] is not biplanar (hand proof): it is two K9-e copies sharing the vertex r plus the edge pq between their other non-adjacent endpoints; a one-layer path argument adds a missing edge to a layer and yields a biplanar K9.",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "notes": "Independent cross-check of one CLM-0092 instance; section 6 of the S025 dossier."
+  },
+  {
+    "id": "CLM-0096",
+    "status": "HEURISTIC",
+    "claim": "S025 exploratory annealing minima: row148 two-triangulation covers leave >=4 edges uncovered in all 5 runs; alpha<=3 biplanar graphs found for n<=24 (minima 1,4,13,35 at n=25..28); weighted (W=3, total 28) minima >=8; alpha<=4 found for n<=32.",
+    "sources": [
+      "SRC-0037"
+    ],
+    "notes": "Search outcomes only, never bounds. validation/S025/ARM_A_FRONTIER.json, ROW148_ANNEAL.json. Zero-objective states are certificates of existence for the stated n only."
+  },
+  {
+    "id": "CLM-0101",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0017"
+    ],
+    "claim": "P29-B14-0001, g6 MLo?KqX@`[}@PcYW_ with fourteen clique bags of size2, has28 vertices,154 edges,alpha3,omega8 and chi>=10, but is NOT biplanar. Independent assignment CNFs with26 native checked DRAT proofs show it avoids every K9-free sum17 C5 class. Hence K9 and all such C5 obstructions are insufficient biplanarity filters even in this restricted source.",
+    "notes": "validation/S026/filter-recovery/candidate: independent alpha3 enumeration,K9 absence,all clause justification,CNF byte regeneration,native DRAT. Search UNSAT107.8s, native solve3.35s/check2.83s; anneal defects8,7 are only heuristic.26 containment absence certificates include5 UNKNOWN obstructions without using their non-biplanarity. No novelty or chi2 advance. Positive-weight larger C5 blow-ups reduce to17 by vertex deletion; K9-containing ones cannot embed in this omega8 graph."
+  },
+  {
+    "id": "CLM-0097",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014"
+    ],
+    "claim": "Two-branch one-layer contraction lemma: disjoint connected R,S outside K7 Q, with representatives r,s, layer neighbours replacing every missing Q-representative edge, and rs present in G or an R-S edge in that layer, contradict biplanarity.",
+    "notes": "Hand proof research/S026_TWO_BRANCH_LEMMA.md; independent clause checker s026_check_two_branch.py; actual-meaning positive controls; K9 thickness3 dependency. Necessary candidate filter only; no novelty claim."
+  },
+  {
+    "id": "CLM-0098",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0017"
+    ],
+    "claim": "S026 additionally certifies non-biplanarity of C5 weights ['24335', '23525', '23534']. Cumulative 21/26 sum17 classes certified; remaining ['23435', '24344', '24425', '33344', '33434'] UNKNOWN. All262 K9-free sum<=16 classes independently rechecked biplanar. The full iff remains pending unless all26 are certified.",
+    "notes": "validation/S026/local per-graph clause justification, byte CNF regeneration and native checked DRAT. Three recovered S025 cut sets newly obtain complete proofs. Caps are UNKNOWN; original S025 claims retained historically."
+  },
+  {
+    "id": "CLM-0099",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0005"
+    ],
+    "claim": "Direct quotient-assignment CNF with exactly-one bag rows, explicit bag-capacity clauses, nonedge incompatibility and within-true-twin ordering is SAT iff a fixed clique blow-up obstruction embeds as a non-induced subgraph of the target clique blow-up.",
+    "notes": "research/S026_CONTAINMENT_ENCODING.md. Independent decoder checks explicit injective vertex maps on labelled graph edges. A negative needs checked native DRAT for the exact CNF; no encoder/cardinality-library dependence."
+  },
+  {
+    "id": "CLM-0100",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0037",
+      "SRC-0017"
+    ],
+    "claim": "S026 restricted 28-vertex alpha<=3 source:2185 models,2180 independently checked old-C5 transfers,one initial filter timeout and four initially admitted graphs. Each admitted graph has alpha=3, noK9, and72 total native DRAT proofs show old18 absence. Each contains a newly certified obstruction, so all4 are NON-BIPLANAR. Five zero-model exact profile CNFs have native DRAT proofs.",
+    "notes": "P29-B14-0001 is a fifth admitted candidate:28 vertices,154 edges,alpha3,omega8,chi>=10 by counting;21 native DRAT proofs certify absence of all currently certified C5 obstructions. Its biplanarity verdict is NONBIPLANAR_CERTIFIED. All5 remaining C5 classes also have native DRAT absence proofs. Thus P29 avoids all26 sum17 classes, yet is NON-BIPLANAR_CERTIFIED. All2185 generated source models are now excluded; generator profiles remain capped, not exhaustive. validation/S026/source and audit. Base orders9..14,30 fixed profiles,seed260018,capped model counts and SAT calls; not an exhaustive family theorem or headline advance. An explicit proper colouring would only be an upper bound; chi>=10 here follows from28/alpha3, while biplanarity fails."
+  },
+  {
+    "id": "CLM-0102",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014",
+      "SRC-0042"
+    ],
+    "claim": "Support lemma: if a bag assignment f of a certified non-biplanar clique blow-up H=A[u] into a fixed labelled profile w respects capacities and every cross-bag H edge uses a base pair in S, then every base graph B with S a subset of E(B) has a non-biplanar blow-up B[w]; weight-preserving relabellings of S and whole-bag Euler-excess edge sets give equally sound generator clauses.",
+    "notes": "research/S027_LEARNED_OBSTRUCTIONS.md. Sound only for the fixed capacities w; learned only from certified obstructions. Independent checker tools/s027_check_learned.py with three rejected corrupted-clause controls."
+  },
+  {
+    "id": "CLM-0103",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "S027 profile-domain closure: for 13 of the 30 seed-270018 profiles (indices 0-8,15,16,17,25), no base graph B with alpha(B[w])<=3, omega(B[w])<=8 and at most 156 blow-up edges yields a biplanar 28-vertex clique blow-up B[w].",
+    "notes": "Each profile CNF = base constraints + learned PRELOAD/CONTAIN/EULER(+PERM) clauses, no blocking clauses; every learned clause independently justified, CNF regenerated byte-identically, native CaDiCaL DRAT verified by drat-trim and cold-replayed (validation/S027/REPLAY.json). Finite fixed-profile statements only; members with alpha>=4 not addressed; edge-bound encoding (pysat seqcounter) adversarially tested at 1200 boundary-biased assignments. No headline advance."
+  },
+  {
+    "id": "CLM-0104",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "Three new certified non-biplanar clique blow-ups: P29-B14-0001 minus one vertex of bag 12 (27 vertices), and P26-B11-0051 (base JHOW}Ai|@m?, w=[7,4,3,3,3,2,2,1,1,1,1], 155 edges) and P27-B12-0040 (base KQOGlL[BactB, w=[3,3,3,3,2^8], 154 edges), both 28 vertices with alpha=3, omega=8, chi>=10 by counting, each avoiding all 23 previously certified obstructions by native DRAT containment proofs.",
+    "notes": "S025 minor CEGAR --lemmaC5 UNSAT (59s, 8s, 31s), clause justification, byte regeneration, native DRAT, cold replay. Being non-biplanar they are NOT witnesses. Twin symmetry: all bag-12 deletions of P29 are isomorphic. validation/S027/local/descent and source/candidates."
+  },
+  {
+    "id": "CLM-0105",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042",
+      "SRC-0007"
+    ],
+    "claim": "C5[2,3,4,3,5], C5[2,4,3,4,4] and C5[2,4,4,2,5] are not biplanar; with S025/S026 this gives 24 of the 26 sum-17 K9-free C5 clique blow-up classes certified non-biplanar. C5[3,3,4,3,4] and C5[3,3,3,4,4] remain BIPLANARITY_UNKNOWN after 3600s each.",
+    "notes": "Two-branch lemma (research/S026_TWO_BRANCH_LEMMA.md) with branch sets of size 2..4 seeded by re-verified S026 Kuratowski cuts; independent S026 two-branch checker, S027 byte regeneration, native DRAT (solve 61/262/143s, check 105/552/194s), cold replay. Full C5 iff NOT closed. Patil (SRC-0017) states the C5[3,4,3,4,3] exclusion; Trivedi (SRC-0012) claims C5 blow-ups 9-colourable; no novelty claimed."
+  },
+  {
+    "id": "CLM-0106",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "S027 learned-obstruction source: 1831 labelled models over 30 profiles (seed 270018, caps 100 models/180s per profile); 1401 excluded by checked certified-obstruction maps, 346 by Euler subset violations, 0 by cut density/closed K6; 84 filter-clean graphs (6 admitted, 78 surplus), all independently rechecked as 28-vertex, <=156 edges, alpha<=3, omega<=8.",
+    "notes": "Of the 6 admitted, 2 certified non-biplanar (CLM-0104) and 4 (P10-B10-0001, P11-B10-0067, P20-B11-0070, P22-B11-0043) BIPLANARITY_UNKNOWN after 2x60s anneals (best 10-15 uncovered edges, heuristic) and 600s exact. The 78 surplus are UNKNOWN, untested. Capped labelled source, not exhaustive; no chi>=10 biplanar witness; 9<=chi_2<=12."
+  },
+  {
+    "id": "CLM-0107",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "S028 deletion descent: 13 clique blow-ups obtained by vertex deletion from P26-B11-0051 and P27-B12-0040 (orders 27 down to 18) are certified non-biplanar, including D036 = B[7,3,2,2,1,1,1,1] with base graph6 GJaVBo (18 vertices, 78 edges, omega 8).",
+    "notes": "S025 minor CEGAR --lemmaC5 UNSAT within 120s each, clause justification, byte regeneration, native DRAT, cold replay (validation/S028/REPLAY.json). Each tested child first screened as not containing an already certified obstruction (screen only, not a DRAT absence proof). Not witnesses (alpha/counting lost). Two 17/18-vertex children have checked biplanar splits; 44 tested children UNKNOWN at 120s. No minimality claim."
+  },
+  {
+    "id": "CLM-0108",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "All 4 S027 admitted UNKNOWN graphs and 71 of the 78 S027 surplus filter-clean graphs contain a certified non-biplanar obstruction (explicitly checked maps; mostly C5[2,4,3,4,4] and C5[2,3,4,3,5]), hence are not biplanar; 9 surplus graphs remain screen-clean UNKNOWN.",
+    "notes": "validation/S028/local/REFILTER_S027.json; explicit injective maps checked on every target edge. Screen-clean means no map found within the conflict budget, not certified absence."
+  },
+  {
+    "id": "CLM-0109",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0005",
+      "SRC-0014",
+      "SRC-0037",
+      "SRC-0012",
+      "SRC-0017",
+      "SRC-0042"
+    ],
+    "claim": "S028 rerun of the seed-270018 source closes 16 of 30 profiles (S027 13 plus indices 12, 14, 24): in each, no alpha<=3, K9-free, <=156-edge 28-vertex clique blow-up is biplanar.",
+    "notes": "All learned clauses independently justified, CNFs regenerated byte-identically, native DRAT, cold replay; closed profiles have no unresolved blocking dependency. 1522 models, 1235 excluded by checked obstruction maps, 263 by Euler subset clauses; 4 new admitted, 20 surplus. Finite fixed-profile statements only."
+  },
+  {
+    "id": "CLM-0110",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "Lemma F: a biplanar graph with alpha<=3 on n>=3 vertices has n<=36 (Turan vs 6n-12; n=37 forces K13+K12+K12 containing K9).",
+    "notes": "Full written proof in research/S029_LANDSCAPE.md section 7. Superseded by CLM-0111 and the SRC-0045 claim; elementary; no novelty claimed."
+  },
+  {
+    "id": "CLM-0111",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0045",
+      "SRC-0037"
+    ],
+    "claim": "A biplanar graph with alpha<=3 has at most 30 vertices (deg(v)>=n-19 from Szeider's alpha<=2 => n<=18, then Euler).",
+    "notes": "Re-derived by hand in research/S029_LANDSCAPE.md section 7; validity inherits SRC-0037's computer-assisted Theorem 1 (not replayed). Source-stated in paper 59 section 4."
+  },
+  {
+    "id": "CLM-0112",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0003",
+      "SRC-0037"
+    ],
+    "claim": "A biplanar graph with alpha<=3 and chi>=10 forced by counting exists iff a biplanar graph on exactly 28 vertices with alpha<=3 (Gethner-Sulanke OP1(b)) exists; every such 28-vertex graph has chi>=10.",
+    "notes": "Induced subgraphs preserve biplanarity and alpha<=3; ceil(28/3)=10 and n/3<=9 for n<=27. Trivial; attribution to OP1(b)."
+  },
+  {
+    "id": "CLM-0113",
+    "status": "SOURCE_STATED",
+    "sources": [
+      "SRC-0045",
+      "SRC-0046",
+      "SRC-0047",
+      "SRC-0050"
+    ],
+    "claim": "rStation claims (unrefereed): alpha<=3 biplanar => n<=28; no 11-regular alpha<=3 biplanar graph on 28 vertices; every biplanar graph on <=20 vertices is 9-colourable; 10-critical biplanar on 21 vertices has alpha=3. Open there: delta<=10 and delta=11 with m in {155,156} at n=28; T3.",
+    "notes": "Recorded for prioritisation and attribution only; not used as a discard filter until re-proved or replayed."
+  },
+  {
+    "id": "CLM-0114",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014",
+      "SRC-0012",
+      "SRC-0037"
+    ],
+    "claim": "Necessary order28 alpha<=3 biplanar filters: K9-free,117<=m<=156,delta<=11, every triangle-free subgraph has<=104 edges. Unconditionally delta>=8; conditionally on SRC-0037 Theorem1 delta>=9.",
+    "notes": "Full attributed proofs sessions/S030/RESEARCH.md; the conditional delta9 statement does not discharge S8 without its source premise. No novelty or colouring theorem."
+  },
+  {
+    "id": "CLM-0115",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0014",
+      "SRC-0045"
+    ],
+    "claim": "Every K9-free order28 graph of minimum degree11 can be relabelled with independent roots0,1,2, neighbors of0 exactly3..13, and nondecreasing adjacency-to-(1,2) types in blocks3..13 and14..27. A biplanar split can put edge03 in layer1.",
+    "notes": "Antineighborhood of a degree11 vertex has16 vertices and is not a clique; pick a nonadjacent pair, fix the root star, sort within blocks, exchange layers. Full proof sessions/S030/RESEARCH.md. No automorphism assumption and no novelty."
+  },
+  {
+    "id": "CLM-0116",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0057"
+    ],
+    "claim": "Paper59 v3 finite branches q=2,3,4 regenerate71834-variable173170-clause formulas and have independently checked49,188,193 RUP additions ending in empty clauses.",
+    "notes": "Supplied stdlib checker plus independent naive unit propagation; all15 supplied file hashes match API manifest. This is only the propositional part: full11-regular graph exclusion remains SOURCE_STATED; hand coverage and reductions are separate premises."
+  },
+  {
+    "id": "CLM-0117",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "S031 finite replay checks46 saved S11 relaxation assignments chronologically,1809 sound semantic cuts and the exact regenerated17976-variable336030-clause final formula; both layers of each saved model have checked nonplanar subdivisions.",
+    "notes": "validation/S031/SEARCH_REPLAY.json; scripts/replay_s031_search.py. This is a finite audit only:28692s WALL_CAPPED, S11 UNKNOWN, no certified stratum or biplanar witness.1629 K9/180 Kuratowski cuts total,1114 seeds/695 new. No complete graph biplanarity exclusion inferred from one rejected split."
+  },
+  {
+    "id": "CLM-0118",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "S032 300s native partial-planarity diagnostic emits162536 negative single-layer Kuratowski clauses, all independently checked by subdivision suppression; the336030-clause17976-variable S031 formula is retained by a checked bijective literal renaming.",
+    "notes": "artifacts/tmp/S032/DIAGNOSTIC_AUDIT.json and frozen validation/S032/start/DIAGNOSTIC_AUDIT.json. Native829538 planarity checks, no model, cap UNKNOWN; no graph/stratum exclusion. Scoped native controls retain free K9 UNKNOWN. The later campaign was owner-stopped under D070, UNKNOWN; see CLM0119 for the final finite audit."
+  },
+  {
+    "id": "CLM-0119",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "All2579937 persisted S032 geometric clauses independently satisfy the single-layer K5/K33-subdivision check; original336030 clauses/17976 variables retained by independently checked bijective renaming.",
+    "notes": "Owner-stopped campaign UNKNOWN; no complete model, witness or whole-stratum proof. Lossless189309949-byte rule archive matches final SHA256. Rebuilt progress tools pass finite controls; encoded cell128 DRAT closure is baseline encoder/symmetry closure, not a new nonbiplanarity theorem or increment attributable to learned rules. Exact projected graph count and ETA not computed."
+  },
+  {
+    "id": "CLM-0120",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "S034 finite audit checks93047 persisted additional single-layer K5/K33-subdivision clause occurrences and exact256-region partition;16 encoded region formulas match original independently verified DRAT receipts.",
+    "notes": "validation/S034/SUMMARY.json and FINAL_MANIFEST.json.102 visits,240 unresolved, safety disk stop. No fresh second DRAT replay; final audit checks reconstructed formula hashes, proof/log hashes and pinned successful original checker receipts. No individual graph decision, whole stratum, learned-rule benefit, exact projected count, ETA or lower-bound advance. Full runtime bytes archived losslessly. SRC-0055 method attribution only."
+  },
+  {
+    "id": "CLM-0121",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "S035 final finite audit reconstructs247 encoded formula hashes and checks original independently verified proof/checker receipts; nine regions remain UNKNOWN.",
+    "notes": "validation/S035/closeout/AUDIT.json and PREFIX_AUDIT.json. Accepted and retained geometric journal occurrences independently subdivision-audited; overlapping prefixes are not new unique clauses. No fresh final DRAT replay, individual graph exclusion, whole-stratum decision, SAT witness or headline advance. Source attribution method only;9<=chi2<=12. Lossless delta actual restore verified; private CDCL RAM is not serialized."
+  },
+  {
+    "id": "CLM-0122",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "S036 closeout audit: all 60 S036 geometric clause blocks (14165211 occurrences) are independently checked Kuratowski-subdivision lemmas with matching SHA256/counts; the nine S11 regions remain UNKNOWN.",
+    "notes": "validation/S036/closeout/CUTS_AUDIT.json, STOP_RECORD.json, SAT_FINAL_AUDIT.json, REGIONS_FINAL.json. Occurrences overlap across blocks and are not unique clauses. No SAT witness, native UNSAT, region closure, whole-stratum decision or headline advance; private CDCL not serialized; 9<=chi2<=12. Source attribution method only."
+  },
+  {
+    "id": "CLM-0123",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "claim": "For the actual sorted S11 encoding and registered eight-bit partition, exactly the nine prefixes 0,1,3,7,15,31,63,127,255 satisfy sorting alone; all 247 historical certified closed prefixes violate sorting.",
+    "notes": "Tiny monotone-type proof plus independent exhaustive 65536 local assignments, full-eleven-position DP, all 16 type truth-table rows, frozen formula/mapping hash and exact historical certificate-ID comparison. tools/s037_symmetry.py; validation/S037/SYMMETRY.json. No fresh historical DRAT replay, graph exclusion or surviving S11 satisfiability decision."
+  },
+  {
+    "id": "CLM-0124",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0054",
+      "SRC-0058"
+    ],
+    "claim": "S037 preserved 19 independently checked saved planar-layer records (including duplicates), best 91/125 independent four-sets at 156/155 edges. Every saved pair has a checked proper colouring with at most nine colours.",
+    "notes": "Explicit layers, sphere rotation certificates, direct 20475-four-set enumeration and colourings: validation/S037/PAIR_CHECKS.json. Discovery heuristics and capped permutation solves remain UNKNOWN. Nonplanar hitting relaxations are not witnesses. Source IDs attribute methods, not these computations; 9<=chi2<=12."
+  },
+  {
+    "id": "CLM-0125",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0059"
+    ],
+    "claim": "The explicit S037 91-violation pair has 43 admissible disjoint single flips, all with at least 93 violations. Two explicit 155-edge fixed layer splits admit no disjoint one-edge completion of their second layer, across all embeddings.",
+    "notes": "Direct finite neighbor enumeration plus 446 explicit independently checked K5/K33 subdivisions covering all 223 absent pairs in each fixed split. validation/S037/STRUCTURE.json and NONEXTENSION.json. Elementary deficit-one/degree lemmas in RESEARCH.md; no novelty claimed. Does not exclude alternative repartitioning, larger patch moves, other graphs or a global witness."
+  },
+  {
+    "id": "CLM-0126",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "claim": "For a selected tree-dual plane patch with r+1 faces (triangles except for at most one quadrilateral), a simple boundary and no interior vertex, all compatible r-chord noncrossing fillings preserve the layer embedding and deficit. Added edges must hit a current independent four-set for strict objective improvement.",
+    "notes": "Elementary disk Euler/gluing and monotonicity proofs in sessions/S038/RESEARCH.md; independent polygon/chord controls and trace replay. No novelty claim; only the selected patch family, not all planar edge changes."
+  },
+  {
+    "id": "CLM-0127",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "Neither original S03791/125 state has a strict improvement in one-layer disk supports1..4 or joint support splits1+1,1+2,2+1,2+2, in the selected fixed embeddings.",
+    "notes": "28039 family-member records, including overlap across support families, matched exactly by independent removed-edge/chord-subset replay. validation/S038/neighborhood-*.json.gz, coupled/, radius4/ and replay receipts. Does not cover1+3/3+1, interior vertices, disconnected supports, larger moves, other embeddings, other seeds or non-monotone escape paths."
+  },
+  {
+    "id": "CLM-0128",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0054",
+      "SRC-0060"
+    ],
+    "claim": "S038 explicitly validates22 saved planar-layer records (including duplicates); best discovery scores91/123 at156/155 edges. All records have proper <=9-colourings; saved123 states have8-colourings.",
+    "notes": "validation/S038/PAIR_CHECKS.json and exact transition replay. No lower-bound advance. Twelve matched capped arms show no best-score advantage for patches over single moves; capped searches remain HEURISTIC/UNKNOWN. Source IDs attribute related methods only, not these exact results;9..12 unchanged."
+  },
+  {
+    "id": "CLM-0129",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0061"
+    ],
+    "claim": "A degree d simple-disk vertex star with q incident quadrilaterals has rim length d+q. Filling with d-3 noncrossing diagonals and q quads, then inserting the same vertex into a triangle, preserves the layer edge count and planar deficit; final opposite-layer disjointness must be checked.",
+    "notes": "Elementary counting/gluing proof in sessions/S039/RESEARCH.md; implemented only3<=d<=6,q<=1. SRC0061 is related insertion/removal documentation, not the proof or a novelty claim."
+  },
+  {
+    "id": "CLM-0130",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "Selected degree3..6 star neighborhoods at the frozen S03891/123 inputs have766/1045 unique effects at156/155 edges, minimum83/116 and4/5 strict improvements.",
+    "notes": "All1811 effects exactly reproduced by independent chord-subset/polygon-splitting replay. These fixed-embedding neighborhoods omit degree2/>6, non-simple links, simultaneous other-layer moves and arbitrary embeddings. No global exclusion."
+  },
+  {
+    "id": "CLM-0131",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0054"
+    ],
+    "claim": "S039 saved planar pairs reach82/79 independent four-sets at156/155 edges. All22 saved records have checked <=9-colourings. The saved155 star bests91/79 have alpha exactly4; best15682 has an independent5-set.",
+    "notes": "Explicit pair, sphere, colouring, all20475 four-set checks and762 trace transitions independently replayed. Two-seed matched heuristic discovery improves both basins but gives no statistical superiority, whole-stratum decision or chi10 witness. SRC0054 attributes existing relocation experimentation."
+  },
+  {
+    "id": "CLM-0132",
+    "status": "PROGRAMME_PROVED",
+    "sources": [],
+    "claim": "The verified K6-join-C5 core has chi=9. Paired disjoint-face coning through triangular/quadrilateral faces preserves a9-colouring because every insertion has <=8 earlier neighbors. Four saved order28 seeds and their protected search bests have exact chi9.",
+    "notes": "Core layer26/24 rotations and clique/join/cycle checked from inherited Sulanke record; all17 insertions per seed independently reconstructed. Pure coning is a calibration family, not a chi10 source. Subsequent non-insertion moves preserve the lower bound only; separate saved colourings establish their upper bound9. Old through17 exclusions not repeated."
+  },
+  {
+    "id": "CLM-0133",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0060"
+    ],
+    "claim": "For single-layer components a (layer0) and b (layer1) that each keep their own layer a simple sphere map, the final layers are edge-disjoint iff C_a<=R_b, C_b<=R_a and A_a,A_b are disjoint, where C=A meets the other layer. Type1 pairs (one C empty) are two-step sequential S039 paths; type2 pairs (both nonempty) are not two-step compositions of their components.",
+    "notes": "Set identity L0'&L1'=(C_b-R_a)|(C_a-R_b)|(A_a&A_b); proof in sessions/S040/RESEARCH.md. Controlled on full cartesian products (14.6M pairs) and by per-move replay. SRC0060 is related simultaneous-flip context only, not the proof."
+  },
+  {
+    "id": "CLM-0134",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "At the S039 bests (82 independent four-sets at156 edges, 79 at155), the registered degree3..6 one-star-per-layer coordinated neighborhoods, including S039-legal singles, have216582/119281 exactly scored states and no strict improvement; minima single/type0/type1/type2 are82/89/90/96 and80/83/88/79.",
+    "notes": "Independent chord-subset regeneration over the full cartesian product with delta scoring and with OR masks reproduces both canonical table hashes. Fixed embeddings and the registered family only; coordinated flips/patches, multi-star moves and other embeddings unsearched."
+  },
+  {
+    "id": "CLM-0135",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "S040 matched arms (12 unprotected, 4 protected; caps150 CPU s, plateau30) end at their starts82/79 except protected coord seed4010 (193->192). The registered D077 criteria (A) witness, (B) halving to <=41/<=39 in all four coord arms, (C) protected <=39 all fail: decision PIVOT. All24 saved records have checked <=9-colourings.",
+    "notes": "482 transitions, sphere rotations, all20475 four-sets and colourings independently replayed; protected bests keep the Sulanke core (exact chi9). Two seeds and early plateaus give no statistical or global statement. Heuristic verdict UNKNOWN."
+  },
+  {
+    "id": "CLM-0136",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "At the S040 inputs the independent-four-set hitting number is exactly5 (156) and7 (155); every four-set has a pair addable by an S039-legal single move, and only2/5 useful pairs need relaxed pairs. Post-hoc, the minimum hitting sets complete K10 from omega8 unions, the K9-safe hitting number is exactly17/11, and that safe set still forms K9/K10; label-fixed alpha<=3 repairs within edit distance10/13 contain K10.",
+    "notes": "Packings and hitting sets checked in code; K9 non-biplanarity inherited (CLM0022/SRC0014). Label-fixed statements only, not about relabelled or arbitrary graphs. Post-hoc items registered in PLAN_ADDENDUM.md after the gate; explanatory learning, no construction or biplanarity claim."
+  },
+  {
+    "id": "CLM-0137",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0048"
+    ],
+    "claim": "If sigma != id of odd prime order p preserves a simple sphere triangulation, it fixes no edge, fixes a face only if p=3, and #fixed vertices + #invariant faces = 2. Hence a layer-preserving automorphism of odd prime order of a 156-edge 28-vertex biplanar pair has order 13 (exactly two fixed vertices) or 3 (exactly one fixed vertex).",
+    "notes": "Proof in sessions/S041/RESEARCH.md from classical inputs (3-connectivity of triangulations, Whitney uniqueness, Lefschetz on S^2). Explains why fixed-point-free Z7 cannot preserve layers (cf. SRC-0048). Layer-swapping symmetries, involutions and 155-edge pairs not covered."
+  },
+  {
+    "id": "CLM-0138",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "Every 156-edge 28-vertex biplanar pair with a layer-preserving automorphism of order13 is among 3510 explicitly enumerated pairs of 156 certified planar invariant layers (from 50600 certified candidates); none has alpha<=3, and the minimum number of independent four-sets is767.",
+    "notes": "Nonplanarity certified by failed necessary triangulation tests or stdlib-checked Kuratowski subdivisions, planarity by checked rotations; portable stdlib replay in CI. Uses CLM-0137 and a pair lemma. Not a statement about order3, involutions or non-symmetric graphs."
+  },
+  {
+    "id": "CLM-0139",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0011",
+      "SRC-0027"
+    ],
+    "claim": "Conditional on the Kostochka-Yancey bound: no (generalized) Mycielskian of a 9-chromatic graph is biplanar, and a biplanar 10-chromatic join must be K1vH9, K2vH8 or K3vH7 (h<=16) with omega(H)<=8-a and apex budgets e(H)<=5h-6, 4h-1, 3h+3; for a Hajos-join H the apex case needs e(H)<=5h-7.",
+    "notes": "Exact integer tables in validation/S041/P2_COUNTING.json; K4vH6/K5vH5 cases removed with Gallai join theorem (SRC-0027) and the classical 11-vertex triangle-free 4-chromatic minimum. Necessary conditions only, no construction."
+  },
+  {
+    "id": "CLM-0140",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0002",
+      "SRC-0014"
+    ],
+    "claim": "The three explicit S041 apex leaf graphs (K7-e) join C5, (K4-e) join Hajos(K6,K6), and (K3-e) join Hajos(K7,K7) are not biplanar. A graph containing any certified obstruction is excluded. Arbitrary iterated mixed compositions with only one tested leaf are not excluded by the recorded leaf-containment proof.",
+    "notes": "S025 Lemma-B/C K9-minor CEGAR (CLM0090/0091; K9 premise CLM0022), pinned CaDiCaL DRAT verified by pinned drat-trim, every clause justified; zero Kuratowski lemmas needed. Plain Kuratowski CEGAR was UNKNOWN after 600 s. Hajos biplanarity is BGS prior art (SRC-0002). S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
+  },
+  {
+    "id": "CLM-0141",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002"
+    ],
+    "claim": "If K_a join H contains a surviving K_a join (L-e) with a certified non-biplanarity verdict, then K_a join H is non-biplanar. For iterated Step-One Hajos trees, testing every edge deletion for EVERY leaf is sufficient (CLM-0145); one tested leaf somewhere in an arbitrary mixed tree is not justified by the former proof.",
+    "notes": "Proof in sessions/S042/RESEARCH.md. Covers Hajos composites and edge-deleted DHGO operands only; vertex-split operands are not covered. S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
+  },
+  {
+    "id": "CLM-0142",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0011",
+      "SRC-0020",
+      "SRC-0027"
+    ],
+    "claim": "For apex leaves on at most 21 vertices exactly 45 (a,c,factor) types meet the leaf budget: 15 resolved (odd cycle C5, 6-Ore on 11, 7-Ore on 19, empty 7-critical orders 17-18) and 30 unresolved non-Ore windows (9-critical 17-21, 8-critical 15-21, 7-critical 13-16 vertices).",
+    "notes": "Gallai join decomposition, Kostochka-Yancey bound with equality iff k-Ore and the non-Ore bound of SRC-0020 Theorem 6 (statement-level). Table independently re-derived by separately written stdlib code."
+  },
+  {
+    "id": "CLM-0143",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0014"
+    ],
+    "claim": "All 97 S042 non-isomorphic apex leaf graphs from resolved types and PARTIAL 7-Ore/13 members are certified non-biplanar; 23514 choices reduce to these graphs. Their certificates are unchanged. Composition exclusions require a surviving obstruction or the all-tested-leaves hypothesis of CLM-0145; unresolved windows remain open.",
+    "notes": "Lemma-B/C CEGAR (CLM0090/0091; K9 premise CLM0022), pinned DRAT verified by pinned drat-trim, every clause re-justified; independent VF2 replay; CNFs regenerate byte-identically and the committed DRAT re-verifies. Unresolved windows not excluded. S044 scope correction: ancestors may delete further edges of an earlier leaf. The arbitrary-one-tested-leaf implication is not established by that proof. Original text retained in validation/S044/CORRECTIONS.json and frozen S041/S042 records."
+  },
+  {
+    "id": "CLM-0144",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0038",
+      "SRC-0064"
+    ],
+    "claim": "Conditional on CLM0137, the order3 layer-preserving156-edge28-vertex alpha<=3 class is represented without loss by126 size3 pair-orbits, exactly26 per disjoint layer,6831 four-set orbit clauses, two pinned distinct invariant triangles and17 sound subgroup lex-leader constraints. Every recorded Kuratowski orbit-support clause is independently justified.",
+    "notes": "sessions/S043/PLAN.md and RESEARCH.md; stdlib checker reconstructs all36200 base clauses and checks every subdivision. This encoding theorem and the recorded cuts do not settle a capped class. No global upper-bound consequence or full normaliser canonicalisation is claimed."
+  },
+  {
+    "id": "CLM-0145",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0002"
+    ],
+    "claim": "For a Step-One Hajos tree of t>=2 leaf copies, some leaf loses at most one original edge, since at most 2t-2 original leaf edges are deleted. Thus if every K_a join (L-e) for EVERY leaf and edge is certified non-biplanar, K_a join H is non-biplanar. A specified leaf can lose more than one edge; one tested leaf in an arbitrary mixed tree is not covered by this proof.",
+    "notes": "Written injectivity/provenance and deletion-count proof in sessions/S044/SCOPE_CORRECTION.md. Fixed three-triangle control checks the designated-copy issue only. No independent-set identification, general DHGO split, formalisation or global counterexample is claimed."
+  },
+  {
+    "id": "CLM-0146",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "For every map c from V to at most nine colours, every non-nine-colourable graph on V has an edge inside a class of c. Consequently the disjunction of union-edge variables within those classes is a necessary clause for the chi>=10 construction search.",
+    "notes": "Elementary contrapositive: absence of all same-class edges makes c proper. S045 RESEARCH.md; independent 4-vertex truth table controls and saved colouring certificates. This is an encoding lemma, not a graph exclusion or bound advance."
+  },
+  {
+    "id": "CLM-0147",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0011",
+      "SRC-0014"
+    ],
+    "claim": "Every biplanar graph with chi>=10 contains a biplanar 10-critical subgraph H; H has minimum degree >=9, is connected with no cut vertex, is K9-free, has n>=11 and 9n/2<=|E(H)|<=6n-12. Hence the domain of labelled layer pairs of order exactly n with union minimum degree >=9 contains every 10-critical biplanar graph of order n; it is not an order-at-most-n domain.",
+    "notes": "Classical criticality arguments written in sessions/S046/RESEARCH.md section 1; K9 non-biplanarity from SRC-0014. The Kostochka-Yancey bound (SRC-0011) is recorded, not encoded. Construction filter only; no exclusion claimed."
+  },
+  {
+    "id": "CLM-0148",
+    "status": "PROGRAMME_PROVED",
+    "sources": [
+      "SRC-0072"
+    ],
+    "claim": "For any set of layer assignments closed under vertex relabelling and layer swap, if nonempty it contains an assignment whose union adjacency rows satisfy row_i >=lex row_j over columns other than i,j for all i<j and whose first present union pair lies in layer 1.",
+    "notes": "Self-contained proof via the lexicographically maximal full-row concatenation, sessions/S046/RESEARCH.md section 2; CNF and soundness exhaustively controlled at n=4,5 (classes) and n=5,6 (graphs), validation/S046/CONTROLS.json. Removes equivalent labellings only; no automorphism required. Attribution to SRC-0072 (metadata only)."
+  },
+  {
+    "id": "CLM-0149",
+    "status": "COMPUTED_EXACT",
+    "sources": [],
+    "claim": "Of the 642381 saved S045 candidate records, 640299 (99.676%) have an empty 9-core and are therefore 8-degenerate and 9-colourable by smallest-last greedy; none has minimum degree >=9; there are no labelled duplicate unions or layer assignments. All 300 registered stratified sample records have explicit checked colourings with at most 8 colours.",
+    "notes": "validation/S046/diagnostics/E1.json and E1_CERTS.json.gz; the NumPy census was cross-checked against NetworkX core numbers on all sampled records. Describes saved records only, not the S045 domain or coverage."
+  },
+  {
+    "id": "CLM-0150",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0055"
+    ],
+    "claim": "In the 15 registered S046 matched pilots (orders 24,28,32,40,50; arms baseline, minimum-degree-9 core, core plus lex-leader symmetry; 60 s each, k=9), all 300 analysed candidates have explicit checked colourings with at most 8 colours; no arm met the registered targeting criterion; all runs ended at the time cap.",
+    "notes": "validation/S046/pilots/E2.json, E3.json, E3_CERTS.json.gz and runs/. A statement about these runs only; no domain exclusion, coverage or witness probability."
+  },
+  {
+    "id": "CLM-0151",
+    "status": "COMPUTED_EXACT",
+    "sources": [
+      "SRC-0002"
+    ],
+    "claim": "With k=8 the S046 colouring-feedback generator found a non-8-colourable biplanar graph (exactly K6 v C5, chi=9, drat-trim verified) at n=11 in arms B and C, and found none within 40 s in arm C at n=13,15,17,20,24, arm B at n=15,20 and arm CS at n=15,20.",
+    "notes": "Post-hoc amendment A1, validation/S046/AMENDMENT_A1.json and calibration/A1.json; certificates under validation/S046/certificates. Not-found rows are UNKNOWN for existence; a padded K6 v C5 lies in the B domain at n=15,20. Calibration of the mechanism only."
+  }
+]

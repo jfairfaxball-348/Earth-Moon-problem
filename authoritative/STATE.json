@@ -1,9 +1,9 @@
 {
   "project": "Earth-Moon-problem",
   "repository_id": 1415870164,
-  "as_of": "2026-10-25",
-  "last_completed_session": "S046",
-  "recommended_next_session": "S047",
+  "as_of": "2026-10-30",
+  "last_completed_session": "S047",
+  "recommended_next_session": "S048",
   "headline": "Raise the Earth\u2013Moon lower bound from chi_2 > 8 to chi_2 > 9: construct and fully certify a finite simple biplanar (thickness<=2) graph with chromatic number >= 10. Upper bound and full EMP resolution out of scope (D042).",
   "programme_scope": {
     "decision": "D042",
@@ -15,9 +15,10 @@
       "discharging/reducibility/critical-graph colouring-extension routes",
       "full resolution of EMP"
     ],
-    "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended."
+    "structural_results_use": "Proved forbidden-subgraph facts may be used only as candidate filters; historical upper-bound claims are not extended.",
+    "d079_amendment": "2026-10-29: an argument-certified or non-constructive proof that chi_2>=10 also counts (every step stated, checked, adversarially reviewed); certification rules unchanged; upper bound out of scope."
   },
-  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S046",
+  "headline_status": "OPEN_NO_CERTIFIED_CHI10_BIPLANAR_WITNESS_AFTER_S047",
   "confirmed_classical_range": {
     "lower": 9,
     "upper": 12,
@@ -83,15 +84,16 @@
   "bootstrap_scaffold_commit": "99eb9f2bcfcb554a6cc652b15ba95a7a895a5774",
   "bootstrap_merge_commit": "72d7e97c87a8317b5874450f8cc6c2866125a9be",
   "open_obligations": [
-    "S046 decision PIVOT/INCONCLUSIVE: no domain or design selected for sustained search. 99.676% of saved S045 records are 8-degenerate; all 300 analysed pilot candidates (orders 24-50, baseline/core/core+symmetry) are <=8-colourable; the k=8 calibration found K6 v C5 only at n=11. S047 calibration-gated mechanism trial is FUTURE/UNEXECUTED; PAUSE is the stated fallback. S036 stays stopped.",
+    "S047 (D079) decision PIVOT, PAUSE recommended: contradiction-route templates narrowed by O1-O4 (CLM-0152/0154/0155/0156); no biplanar chi>=10 graph contains K6 v C5 plus <=5 vertices (CLM-0153); six or more added vertices UNKNOWN (CLM-0157). S048 re-entry gate FUTURE/UNEXECUTED; PAUSE needs no session. S036 stays stopped.",
+    "S046 decision PIVOT/INCONCLUSIVE: no domain or design selected for sustained search. 99.676% of saved S045 records are 8-degenerate; all 300 analysed pilot candidates (orders 24-50, baseline/core/core+symmetry) are <=8-colourable; the k=8 calibration found K6 v C5 only at n=11. S047 calibration trial superseded unexecuted by D079. S036 stays stopped.",
     "Order3 layer-preserving156-edge28-vertex alpha<=3 slice: UNKNOWN. Counts of models/cuts are activity, never projected coverage. All nine sorted S11 prefixes remain UNKNOWN.",
     "All 97 individual S042 apex leaf graphs remain certified non-biplanar. Composition closure requires all leaves tested or an explicit surviving obstruction; arbitrary one-tested-leaf mixed-tree implication is unproved (S044 correction). Thirty non-Ore windows UNRESOLVED.",
     "Order-13 layer-symmetric class empty (S041). Star/patch/coordinated four-set hill-climbing parked (S040). Counting routes carry the F9 risk.",
     "All247 historical S11 prefix closures follow sorting alone. Nine sorted prefixes UNKNOWN; S11 m155/156 UNKNOWN; regular154 SOURCE_STATED; S10/S9/S8 NOT_RUN;9<=chi2<=12; parked/Lean/publication gates unchanged."
   ],
   "next_session_is_future_unexecuted": true,
-  "latest_session_branch": "main",
-  "latest_session_entry_main": "5f56fdf14b88eef9b77f549679c35a1e59a5b106",
+  "latest_session_branch": "ccr-af80f6d5-2qearo",
+  "latest_session_entry_main": "7fb60e1119fed86d61f44b95390ae5311b5a5344",
   "latest_session_integration": {
     "status": "VERIFY_NONFORCE_PUSH_AND_HOSTED_JOB_AFTER_PUBLICATION",
     "entry_main": "5f56fdf14b88eef9b77f549679c35a1e59a5b106",
@@ -2611,12 +2613,82 @@
     "s047_executed": false
   },
   "s047_queued": {
-    "status": "FUTURE_UNEXECUTED",
+    "status": "SUPERSEDED_UNEXECUTED_BY_D079",
     "objective": "calibration-gated mechanism trial: k=8 ladder, seeded generation and co-certificate amplification; bounded k=9 pilot only if a mechanism qualifies; otherwise PAUSE recommended",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
     "archival_copy": "sessions/S046/S047_FUTURE_PROMPT.md",
     "s036_restart_authorized": false,
     "unattended_campaign_authorized": false,
-    "pause_is_owner_alternative": true
+    "pause_is_owner_alternative": true,
+    "superseded_by": "docs/D079_S047_CONTRADICTION_ROUTE.md"
+  },
+  "d079_owner_decision": {
+    "date": "2026-10-29",
+    "decision": "D079",
+    "document": "docs/D079_S047_CONTRADICTION_ROUTE.md",
+    "owner_words": [
+      "Yes I want to explore this. Specifically the contradiction one",
+      "Yes, replace with new target, and do run the session now here"
+    ],
+    "effect": "queued S047 calibration trial superseded unexecuted; S047 retargeted to contradiction-route feasibility and invoked immediately; D042 scope amended so argument-certified or non-constructive proofs of chi_2>=10 count; upper bound still out of scope"
+  },
+  "s047_result": {
+    "status": "CLOSED_PIVOT_PAUSE_RECOMMENDED",
+    "date": "2026-10-30",
+    "invocation": "owner D079 conversation (D047), cloud Claude Code",
+    "executor": "Claude Code on the web, cloud container Linux x86_64",
+    "registration": "validation/S047/REGISTRATION.json",
+    "amendment": "validation/S047/AMENDMENT_A1.json",
+    "smoke": "PASS validation/S047/SMOKE.json",
+    "obstructions": {
+      "O1_no_uniform_transfer": "CLM-0152",
+      "O2_window": "CLM-0155",
+      "O3_mycielskians_not_biplanar": "CLM-0154",
+      "O4_schrijver": "CLM-0156"
+    },
+    "seeded_extension": {
+      "seed": "K6 v C5",
+      "excluded_up_to_added_vertices": 5,
+      "claim": "CLM-0153",
+      "unknown_from": 6,
+      "ladder_claim": "CLM-0157",
+      "e2": {
+        "t1_4": "UNSAT_VERIFIED",
+        "t5": "CAPPED_UNKNOWN",
+        "t6": "NOT_RUN"
+      },
+      "a1": {
+        "t5": "UNSAT_VERIFIED",
+        "t6": "CAPPED_UNKNOWN (6189 learned)",
+        "t7_12": "NOT_RUN"
+      }
+    },
+    "experimental_budget": {
+      "cpu": 539.119,
+      "wall": 545.719,
+      "ceiling": [
+        1800,
+        3600
+      ]
+    },
+    "gate": "PIVOT",
+    "recommendation": "PAUSE",
+    "witness": false,
+    "candidate": false,
+    "bounds": [
+      9,
+      12
+    ],
+    "s048_executed": false,
+    "hosted_ci": "UNKNOWN (branch push; workflow runs on main and PRs only)"
+  },
+  "s048_queued": {
+    "status": "FUTURE_UNEXECUTED",
+    "objective": "re-entry gate after the contradiction-route audit; PAUSE recommended; written re-entry test; optional bounded check only if a route passes",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "archival_copy": "sessions/S047/S048_FUTURE_PROMPT.md",
+    "pause_is_owner_alternative": true,
+    "unattended_campaign_authorized": false,
+    "s036_restart_authorized": false
   }
 }

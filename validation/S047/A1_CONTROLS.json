@@ -1,0 +1,317 @@
+{
+ "started_utc": "2026-10-29T23:42:33Z",
+ "rows": [
+  {
+   "t": 2,
+   "filters": true,
+   "cegar_verdict": "UNSAT",
+   "learned": 0,
+   "cegar_wall_s": 0.007,
+   "cegar_cpu_s": 0.007,
+   "final_clauses": 413,
+   "final_cnf_sha256": "899557acb2be7c18ff7c62a642624e6ed3d6ebca0a9845729569b61f863749a6",
+   "native_exit": 20,
+   "native_wall_s": 0.009,
+   "proof_bytes": 31986,
+   "proof_sha256": "c775846691d92d8ffbf4717fd62904cb0871b28444fbf0d50851be44a4e3f302",
+   "drat_trim_verified": true,
+   "verify_wall_s": 0.063,
+   "proof_archive": "validation/S047/a1c_t2.drat.gz",
+   "verdict": "UNSAT_VERIFIED"
+  },
+  {
+   "t": 3,
+   "filters": true,
+   "cegar_verdict": "UNSAT",
+   "learned": 0,
+   "cegar_wall_s": 0.013,
+   "cegar_cpu_s": 0.012,
+   "final_clauses": 1775,
+   "final_cnf_sha256": "00e314ab817dba9c0f9f63b198143f7518d5968e5031cb13f1b4af9a3d06696d",
+   "native_exit": 20,
+   "native_wall_s": 0.015,
+   "proof_bytes": 33804,
+   "proof_sha256": "84afce50836966364ff7ff849e5da1937d94696346055014ace6039370a3a421",
+   "drat_trim_verified": true,
+   "verify_wall_s": 0.072,
+   "proof_archive": "validation/S047/a1c_t3.drat.gz",
+   "verdict": "UNSAT_VERIFIED"
+  },
+  {
+   "t": 4,
+   "filters": true,
+   "cegar_verdict": "UNSAT",
+   "learned": 0,
+   "cegar_wall_s": 0.117,
+   "cegar_cpu_s": 0.114,
+   "final_clauses": 6256,
+   "final_cnf_sha256": "037bc7f306db8d93ed835e78e67d8056226310b2347729cdd3323b8ccd0e0b22",
+   "native_exit": 20,
+   "native_wall_s": 0.106,
+   "proof_bytes": 705338,
+   "proof_sha256": "ccd562e5e239d504e8cb71506071ce8b5a37473af7f3586efc57b21986c59182",
+   "drat_trim_verified": true,
+   "verify_wall_s": 0.115,
+   "proof_archive": "validation/S047/a1c_t4.drat.gz",
+   "verdict": "UNSAT_VERIFIED"
+  },
+  {
+   "t": 1,
+   "filters": false,
+   "cegar_verdict": "CANDIDATE",
+   "learned": 0,
+   "cegar_wall_s": 30.715,
+   "cegar_cpu_s": 30.295,
+   "candidate_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     11
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "candidate_9_colourable_independent": false,
+   "candidate_is_K7vC5": true
+  }
+ ],
+ "status": "PASS",
+ "finished_utc": "2026-10-29T23:43:05Z"
+}

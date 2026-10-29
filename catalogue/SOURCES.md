@@ -537,3 +537,16 @@ Michael Codish, Alice Miller, Patrick Prosser and Peter J. Stuckey, 2019; https:
 ## SRC-0073 — earth_moon_small_order: nine-colorability for biplanar graphs on at most 18 vertices
 
 EpsilonPhoenix (GitHub), 2026; https://github.com/EpsilonPhoenix/earth_moon_small_order; METADATA_ONLY, accessed 2026-10-25. S046: repository description only (computer-assisted n<=18 9-colourability with partial Lean 4 formalisation). Unrefereed; not inspected or replayed; not used as a filter.
+
+
+## SRC-0074 — Local chromatic number, Ky Fan's theorem, and circular colorings
+
+Gábor Simonyi, Gábor Tardos, 2006; https://arxiv.org/abs/math/0407075; ABSTRACT_INSPECTED, accessed 2026-10-29. S047: arXiv abstract read (multicoloured balanced complete bipartite subgraph on t points in every proper colouring of a topologically t-chromatic graph; zig-zag theorem). Combinatorica publication and full proof not inspected. Used only to note that K5,5 (biplanar) gives no obstruction at t=10.
+
+## SRC-0075 — Vertex-critical subgraphs of Kneser-graphs
+
+Alexander Schrijver, 1978; https://research.tue.nl/en/publications/vertex-critical-subgraphs-of-kneser-graphs/; METADATA_ONLY, accessed 2026-10-29. S047: repository record and search summaries only (Nieuw Archief voor Wiskunde 26(3):454-461). chi(SG(n,k)) = n-2k+2 taken as SOURCE_STATED; the S047 O4 edge counts are computed independently.
+
+## SRC-0076 — Generalised Mycielski graphs and bounds on chromatic numbers
+
+(arXiv 1601.04642; authors as listed there), 2016; https://arxiv.org/abs/1601.04642; METADATA_ONLY, accessed 2026-10-29. S047: search-result summary only: Stiebitz generalised Mycielski theorem via the topological method; r-level convention with M_2 the ordinary Mycielskian. Not inspected; cited for conventions only. O3 does not depend on it.

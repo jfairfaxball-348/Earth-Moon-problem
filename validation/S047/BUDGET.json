@@ -1,0 +1,83 @@
+{
+ "session": "S047",
+ "registered_utc": "2026-10-29T23:34:52Z",
+ "ceiling": {
+  "cpu_s": 1800,
+  "wall_s": 3600
+ },
+ "e2_allocation": {
+  "cpu_s": 1500,
+  "wall_s": 2400
+ },
+ "a1_allocation_within_e2": {
+  "cpu_s": 1100,
+  "wall_s": 2000
+ },
+ "ledger_rows": [
+  {
+   "block": "E2 t=1",
+   "start_utc": "2026-10-29T23:36:35Z",
+   "end_utc": "2026-10-29T23:36:35Z",
+   "cpu_s": 0.004,
+   "wall_s": 0.004
+  },
+  {
+   "block": "E2 t=2",
+   "start_utc": "2026-10-29T23:36:35Z",
+   "end_utc": "2026-10-29T23:36:35Z",
+   "cpu_s": 0.005,
+   "wall_s": 0.005
+  },
+  {
+   "block": "E2 t=3",
+   "start_utc": "2026-10-29T23:36:35Z",
+   "end_utc": "2026-10-29T23:36:35Z",
+   "cpu_s": 0.045,
+   "wall_s": 0.045
+  },
+  {
+   "block": "E2 t=4",
+   "start_utc": "2026-10-29T23:36:35Z",
+   "end_utc": "2026-10-29T23:36:43Z",
+   "cpu_s": 2.923,
+   "wall_s": 2.956
+  },
+  {
+   "block": "E2 t=5",
+   "start_utc": "2026-10-29T23:36:43Z",
+   "end_utc": "2026-10-29T23:41:45Z",
+   "cpu_s": 298.385,
+   "wall_s": 302.048
+  },
+  {
+   "block": "A1 t=5",
+   "start_utc": "2026-10-29T23:43:11Z",
+   "end_utc": "2026-10-29T23:43:14Z",
+   "cpu_s": 0.499,
+   "wall_s": 0.518
+  },
+  {
+   "block": "A1 t=6",
+   "start_utc": "2026-10-29T23:43:14Z",
+   "end_utc": "2026-10-29T23:47:14Z",
+   "cpu_s": 237.258,
+   "wall_s": 240.143
+  }
+ ],
+ "totals": {
+  "experimental_cpu_s": 539.119,
+  "experimental_wall_s": 545.719
+ },
+ "within_ceiling": true,
+ "deadline_utc": "2026-10-30T03:34:52Z",
+ "all_rows_before_deadline": true,
+ "verification_costs_separate": [
+  "smoke 70 s wall",
+  "controls C1-C3",
+  "E1 seed (cadical+drat-trim 1.6 s)",
+  "A1 controls ~32 s",
+  "drat-trim checks",
+  "native checker ~7 s"
+ ],
+ "resources": "one solver process at a time; peak RSS of the CEGAR process ~94 MB observed; disk use < 5 MB archived"
+}

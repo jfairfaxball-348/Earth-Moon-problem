@@ -1,0 +1,90 @@
+{
+ "session": "S047",
+ "decision": "D079",
+ "registered_utc": "2026-10-29T23:34:52Z",
+ "plan": "sessions/S047/PLAN.md",
+ "plan_sha256": "851cfbc9ca1ae1a194a5db70cf2ca6b03449817784b31bfd06d09494f64d6738",
+ "hypothesis_to_refute": "H: every finite biplanar graph is 9-colourable",
+ "seed": {
+  "name": "K6 v C5",
+  "A": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "B_cycle": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "n": 11,
+  "m": 50
+ },
+ "obstructions": [
+  "O1 no uniform chi-raising biplanarity-preserving operation",
+  "O2 Kostochka-Yancey/Euler window 88n-70<=18m<=108n-216",
+  "O3 generalised Mycielskians M_r(G), r>=1, chi(G)>=9, never biplanar"
+ ],
+ "e1_control": {
+  "layers": "validation/S046/calibration/runs/k8-n11-C/ALERT.json",
+  "checks": [
+   "LR planarity both layers",
+   "rotation systems",
+   "union == K6 v C5",
+   "explicit 9-colouring",
+   "drat-trim non-8-colourability"
+  ]
+ },
+ "e2": {
+  "ladder_t": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "per_t_wall_cap_s": 300,
+  "stop_at_first_capped_t": true,
+  "clauses": "one per (C5 partition P of 5, placement phi: X->9 classes)",
+  "filters": [
+   "induced seed (lemma)",
+   "edge count A\u222aB\u222aX' and A\u222aX' for every X' subset of X",
+   "no K9 subgraph"
+  ],
+  "post_filters_only": [
+   "K5,13",
+   "K6,9",
+   "K7,7",
+   "exact biplanarity decision for any model"
+  ],
+  "symmetry_breaking": "none",
+  "solver": "artifacts/tmp/native/bin/cadical with DRAT; checker artifacts/tmp/native/bin/drat-trim",
+  "controls": {
+   "C1": "no filters, t=1: exactly one model (x complete to seed)",
+   "C2": "k=8, seed K5 v C5, t=1: SAT, model gives K6 v C5",
+   "C3": "brute force 2^11 neighbourhoods, independent colouring routine"
+  }
+ },
+ "gate": {
+  "PROGRESS": "witness/candidate, or a surviving template with positive calibrated evidence and a concrete finite next step whose success refutes H",
+  "PIVOT": "otherwise, including negative template exclusions only",
+  "pivot_recommendation": "PAUSE or a named alternative with reason"
+ },
+ "budget": {
+  "experimental_cpu_s": 1800,
+  "experimental_wall_s": 3600,
+  "e2_cpu_s": 1500,
+  "e2_wall_s": 2400,
+  "deadline_hours_after_registration": 4,
+  "memory_gib": 3,
+  "disk_reserve_gib": 10,
+  "verification_separate": true
+ },
+ "smoke": "validation/S047/SMOKE.json (PASS before registration)"
+}

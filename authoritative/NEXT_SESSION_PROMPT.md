@@ -1,116 +1,63 @@
-# S047 — calibration-gated mechanism trial: seeded generation versus PAUSE
+# S048 — re-entry gate after the contradiction-route audit (PAUSE recommended)
 
-FUTURE / UNEXECUTED. Written at S046 closeout. A subsequent owner invocation
-("run next session" or supplying this prompt) authorises exactly S047 under
-D047. Never restart S045's expired campaign or any S035/S036 control. Do not
-execute S048 automatically. Existing main, ordinary non-force commit/push, no
-branch/PR. The owner may instead decide to PAUSE construction search; that
-decision needs no session.
+FUTURE / UNEXECUTED. Written at S047 closeout (D079). A subsequent owner
+invocation ("run next session" or supplying this prompt) authorises exactly
+S048 under D047. The owner may instead simply PAUSE; that needs no session.
+Never restart S035/S036/S045 controls. Do not execute S049 automatically.
+Integration as the executing environment allows: on the owner's laptop the
+existing main with ordinary non-force commit/push; in a cloud container the
+harness-assigned branch (AGENTS rule 12), no PR unless requested.
 
-## Purpose and entry
+## Entry
 
-D042 target only: one certified finite simple biplanar graph with chi >= 10.
-No witness; 9 <= chi_2 <= 12. No universal upper-bound work, Lean, publication
-or outreach. All earlier UNKNOWN domains stay UNKNOWN; do not revive parked
-star/patch, apex, nine-S11 or order-3 work because a question remains open.
+Target: D042 lower bound chi_2 >= 10, read with the D079 amendment
+(argument-certified or non-constructive proofs count; upper-bound work stays
+out of scope). No witness; 9 <= chi_2 <= 12. Read authoritative/STATE.json,
+sessions/S047/{CLOSEOUT,RESEARCH,ADVERSARIAL,PRIOR_ART}.md,
+docs/D079_S047_CONTRADICTION_ROUTE.md and validation/S047. Reconcile live
+remote main/branch, parent/tree, worktree, processes and hosted runs before
+writing. Run fresh full 271+K9 smoke before any computation.
 
-S046 decided PIVOT / INCONCLUSIVE (sessions/S046/CLOSEOUT.md). Unguided
-colouring-partition generation explores easy graphs: 99.676% of all 642381
-saved S045 records have an empty 9-core; in 15 matched k=9 arms (orders
-24/28/32/40/50; baseline, minimum-degree-9 core filter, core plus lex-leader
-symmetry breaking) every analysed candidate had a checked colouring with at
-most 8 colours. On the known-feasible k=8 analogue (amendment A1) the same
-generator found K6 v C5 only at n=11 and found no 9-chromatic graph in 40 s at
-any order 13–24, including arm B at n=15/20 where padded K6 v C5 is in the
-domain. S047 tests whether a different mechanism has measured sensitivity
-before any further k=9 search.
+Standing facts from S047 (do not re-derive): O1 no uniform chi-raising
+biplanarity-preserving operation (CLM-0152); O2 10-critical window
+ceil((88n-70)/18) <= m <= 6n-12 (CLM-0155); O3 no (generalised)
+Mycielskian of a graph with chi >= 9 is biplanar (CLM-0154); O4 10-chromatic
+Schrijver graphs k <= 3 not biplanar (CLM-0156); no biplanar chi >= 10 graph
+contains K6 v C5 plus at most five vertices (CLM-0153); six or more UNKNOWN
+(CLM-0157). Szeider: alpha <= 2 biplanar graphs are 9-colourable (SRC-0009).
+All earlier UNKNOWN domains stay UNKNOWN.
 
-Read authoritative/STATE.json, sessions/S046/{CLOSEOUT,RESEARCH,ADVERSARIAL,
-PRIOR_ART}.md, validation/S046/{REGISTRATION,AMENDMENT_A1,BUDGET}.json and
-validation/S046/calibration/A1.json. Reconcile live remote main, parent/tree,
-worktree, processes and actual hosted jobs before writing. Use new S047 files
-and runtime root artifacts/tmp/S047; S046 tools are reusable read-only
-(tools/s046_driver.py, s046_encode.py, s046_analyse.py); never edit an
-executed S046 file. Record executor, sources, binaries and inputs.
+## 1. Re-entry evidence (no heavy computation)
 
-Before computation preregister mechanisms, ladder, seeds, budgets, caps and
-decision gates; run fresh full 271+K9 smoke on pinned tools (Windows:
-EMP_DRAT_TRIM and EMP_CADICAL to the S004 executables). Reuse accepted
-installations; install additions only when justified and tested.
+- Prior-art refresh since 29 October 2026: any claimed chi >= 10 biplanar
+  graph, new small-order or alpha results, new sparse colour-forcing or
+  transfer constructions. Honest SRC grades; unrefereed claims are not
+  filters.
+- Any owner-supplied idea, recorded verbatim.
 
-## 1. Calibration ladder (k = 8)
+## 2. Re-entry test (written)
 
-Target: non-8-colourable biplanar graphs, which exist (K6 v C5 at 11
-vertices; padded copies at every larger order in an unrestricted domain).
-Register orders 13, 15, 17, 20, 24 and the domain variant for each arm. A hit
-requires independently checked planar layers, a drat-trim-verified
-non-8-colourability proof and a checked 9-colouring. Existence claims for
-minimum-degree-8 domains at a given order must be verified explicitly or cited
-with access grade; "not found in cap" is UNKNOWN, never non-existence. The
-S046 A1 rows are the frozen baseline (no hit at any order >= 13 in 40 s).
+A proposed route RE-ENTERS only if it states, before computation:
+(a) the explicit graph or operation and why it lands in the O2 window;
+(b) why it escapes O1 (one-shot hypothesis named) and O3/O4;
+(c) for seeded constructions, a seed other than the K6 v C5 neighbourhood
+    already excluded, or a forcing argument for >= 6 added vertices;
+(d) a calibration on a known k = 8 instance (K6 v C5 from K5 v C5 or a BGS
+    9-critical graph) that the method reproduces;
+(e) a finite certified next step whose success would yield a witness
+    (layers, planarity, drat-trim non-9-colourability).
 
-## 2. Mechanisms (equal registered budgets)
+## 3. Optional bounded check
 
-- M0 baseline: S046 arm B and C at k=8 (re-run only if the environment or
-  binary changed; otherwise cite A1).
-- M1 seeded generation: pin a certified biplanar seed as a labelled subgraph
-  (for k=8, K8, contained in K6 v C5; record its layers) and search biplanar
-  supergraphs at the ladder order with the same checked colouring-partition
-  feedback. Justify that pinning is a restriction (it never claims to cover
-  graphs without the seed) and label the arm's exact scope.
-- M2 co-certificate amplification: for each candidate add several distinct
-  checked colouring-partition clauses (for example, alternative colourings
-  or splits), with the soundness argument written and controlled.
-Optionally one further mechanism if it is genuinely distinct and justified in
-writing before computation. No mechanism may assume alpha, regularity, exact
-density, triangulation or automorphisms without labelling a restricted arm.
-
-## 3. Gate and conditional k = 9 pilot
-
-A mechanism QUALIFIES if it obtains certified hits at >= 3 of the 5 ladder
-orders within its cap and strictly beats the A1 baseline there. Only a
-qualifying mechanism may receive a bounded k = 9 pilot (registered orders,
-for example 21, 24, 28, with the k = 9 seed K8 or K6 v C5 and a written
-reason), at most 600 CPU s, stop on the first non-nine alert. A k = 9 alert is
-UNKNOWN until standalone checked: labelled disjoint planar layers, drat-trim
-non-9-colourability, and for exact chi = 10 a checked 10-colouring.
-
-## Budgets and resources
-
-One heavy generator plus a serial oracle; 3 GiB aggregate private-memory hard
-cap, 1.5 GiB available-RAM floor, 10 GiB disk reserve. At most 1800 CPU s and
-3600 wall s of experimental computation in total (calibration, mechanisms and
-any k = 9 pilot), allocated before experimenting, with a fresh absolute
-experimental deadline; audits, proofs and smoke are verification costs
-recorded separately. Charge in-slice audits as verification from the start.
-No unattended campaign, automation or long run in S047.
+Only if a route passes section 2: one registered experiment, at most
+600 CPU s / 1200 wall s, one worker, 3 GiB, stop on the first k = 9 alert;
+any alert is UNKNOWN until standalone checked.
 
 ## Decision
 
-- SELECT_FOR_DESIGN: a mechanism qualifies and its k = 9 pilot runs cleanly;
-  specify the domain, seed, uncertainty and a resumable future design with
-  explicit finite subproblems, durable checkpoints and independent proofs.
-  This is an empirical research choice, not evidence that a witness exists.
-- PAUSE_RECOMMENDED: no mechanism qualifies; preserve evidence and recommend
-  the owner pause construction search (S044/S046 evidence), stating what new
-  input would justify re-entry.
-A certified k = 9 hit is reported as a candidate witness only after every
-standalone check passes; nothing else is a lower-bound claim.
-
-## Deliverables and successor
-
-INPUT/PLAN/RESEARCH/ADVERSARIAL/PRIOR_ART/CLOSEOUT; registration and budget
-receipts; ladder table; mechanism soundness arguments and controls; exact
-hashes; stdlib-only portable checker for the hosted scaffold; frozen-context
-replay for any historical check whose hashed authority files change.
-Synchronise authority, source/claim, session/decision/failure/phase/campaign
-ledgers; verify ordinary non-force publication and the actual hosted run.
-Install byte-identical authoritative and session-local S048 FUTURE/UNEXECUTED
-prompts and print the full next prompt. For any proposed long run state
-duration, hard-stop policy, two-hour check-ins and acceptance gates; do not
-install its automation or launch it in S047. Do not execute S048.
-
-Actions fallback: docs/CLOUD_ENVIRONMENT.md and validation/S011/SUMMARY.json;
-same-job pinned setup and full smoke before scientific computation. Scaffold
-replay is not a new solver certificate; ephemeral ZIPs must not be the only
-evidence copies.
+RE-ENTER (route passes the test; specify its registered S049 design, budget,
+checkpoints and stop rules, not executed) or STAY_PAUSED (record what new
+input would change this). Deliverables: INPUT/PLAN/RESEARCH/ADVERSARIAL/
+PRIOR_ART/CLOSEOUT, registration, checker, ledgers, STATE, byte-identical
+authoritative and session-local S049 FUTURE/UNEXECUTED prompt printed at
+closeout. No unattended run, automation, Lean, publication or outreach.

@@ -1,0 +1,61 @@
+{
+ "entry_commit": "7fb60e1119fed86d61f44b95390ae5311b5a5344",
+ "files": {
+  ".github/workflows/scaffold.yml": {
+   "archive": "validation/S047/entry_context/.github__workflows__scaffold.yml",
+   "sha256": "73996be2e761d4fe93cbee950b9e4f20409b4714cc85d02e03d661dd48785763"
+  },
+  "AGENTS.md": {
+   "archive": "validation/S047/entry_context/AGENTS.md",
+   "sha256": "6e7d64543fe7dd45fbef03b3c6492997e8891006c8dd339ac7b3b46c48a221be"
+  },
+  "authoritative/NEXT_SESSION_PROMPT.md": {
+   "archive": "validation/S047/entry_context/authoritative__NEXT_SESSION_PROMPT.md",
+   "sha256": "6ab2c52024220174b2f41d887d0618a861b60afab69eb3347521a617bd4b406e"
+  },
+  "authoritative/START_HERE.md": {
+   "archive": "validation/S047/entry_context/authoritative__START_HERE.md",
+   "sha256": "7263005c968ba6a5f63a0d50bce60f1318b7d77067ba51afcc11bb075ce569ef"
+  },
+  "authoritative/STATE.json": {
+   "archive": "validation/S047/entry_context/authoritative__STATE.json",
+   "sha256": "63c47ba3ac37c9113275690ed8a96ae5c079c335cfc4146ad19939cc063721c4"
+  },
+  "campaigns/README.md": {
+   "archive": "validation/S047/entry_context/campaigns__README.md",
+   "sha256": "f9e0206bfb6acd27cad580bb4b9d3d8adfde13139ad4b2086c036bf6ca51be97"
+  },
+  "catalogue/CLAIMS.json": {
+   "archive": "validation/S047/entry_context/catalogue__CLAIMS.json",
+   "sha256": "cccbf88bdf29252e2cc2eecaa1063a9a4f8b431cd261030217db5aece8afdb24"
+  },
+  "catalogue/CLAIMS.md": {
+   "archive": "validation/S047/entry_context/catalogue__CLAIMS.md",
+   "sha256": "c71fec2662c97ccbc3be1a4f1b0f34d97e2af9cdb6f724ff55c7d86b92f0cfa7"
+  },
+  "catalogue/SOURCES.json": {
+   "archive": "validation/S047/entry_context/catalogue__SOURCES.json",
+   "sha256": "5123d3754f8caf8e62c3d6970f0491c1afd79ebb016b4b64d0dc53b202fe34c6"
+  },
+  "catalogue/SOURCES.md": {
+   "archive": "validation/S047/entry_context/catalogue__SOURCES.md",
+   "sha256": "e2dae6f6da2922c415f47b36029b8c2d9b93f41505056b45b5de27b22e876d59"
+  },
+  "docs/DECISION_LOG.md": {
+   "archive": "validation/S047/entry_context/docs__DECISION_LOG.md",
+   "sha256": "b3d586a19f814e78859d638e747513018922641f85f954ce454b93d1c2bbbe26"
+  },
+  "docs/FAILURE_LEDGER.md": {
+   "archive": "validation/S047/entry_context/docs__FAILURE_LEDGER.md",
+   "sha256": "102aeadf0a38c40b41d9fd4f53c4a1dc4764b391fa5e9b0df0330b84231e8c28"
+  },
+  "docs/PHASE_GATE_LEDGER.md": {
+   "archive": "validation/S047/entry_context/docs__PHASE_GATE_LEDGER.md",
+   "sha256": "df4443a8d46e984bc9286a001608e4b15b9cb7f5a422d4c1a8847d83a92068c3"
+  },
+  "docs/SESSION_LEDGER.md": {
+   "archive": "validation/S047/entry_context/docs__SESSION_LEDGER.md",
+   "sha256": "e776c2465a279c93742a00d3ffd50573615221ee61f47ca7979c821fd3eec0db"
+  }
+ }
+}

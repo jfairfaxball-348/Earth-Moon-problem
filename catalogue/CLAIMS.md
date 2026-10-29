@@ -989,3 +989,51 @@ validation/S046/pilots/E2.json, E3.json, E3_CERTS.json.gz and runs/. A statement
 With k=8 the S046 colouring-feedback generator found a non-8-colourable biplanar graph (exactly K6 v C5, chi=9, drat-trim verified) at n=11 in arms B and C, and found none within 40 s in arm C at n=13,15,17,20,24, arm B at n=15,20 and arm CS at n=15,20.
 
 Post-hoc amendment A1, validation/S046/AMENDMENT_A1.json and calibration/A1.json; certificates under validation/S046/certificates. Not-found rows are UNKNOWN for existence; a padded K6 v C5 lies in the B domain at n=15,20. Calibration of the mechanism only.
+
+## CLM-0152 — PROGRAMME_PROVED
+
+No operation Phi mapping biplanar graphs to biplanar graphs satisfies chi(Phi(G)) >= chi(G)+1 for every biplanar G; more generally no class of biplanar graphs closed under Phi and containing a graph with chi >= 9 admits such an inequality (iterate four times from K6 v C5 against chi_2 <= 12).
+
+Sources: None; programme proof/computation.
+
+S047 O1 (sessions/S047/RESEARCH.md). A design constraint for contradiction-style colour transfer: proofs must be one-shot. May be folklore; no novelty claim.
+
+## CLM-0153 — PROGRAMME_PROVED
+
+No biplanar graph with chi >= 10 contains K6 v C5 together with at most five further vertices (order <= 16).
+
+Sources: SRC-0002
+
+S047 L1-L5 hand proof (vertex-minimality forces added degree >= 9; Euler then needs e(X) >= 3t-4 > C(t,2) for 2<=t<=5; t=1 forces K9 via CLM-0022). Controls: drat-trim-verified UNSAT for E2 t=1..4 and A1 t=2..5 (validation/S047). Six or more added vertices UNKNOWN (CLM-0157).
+
+## CLM-0154 — PROGRAMME_PROVED
+
+For every graph G with chi(G) >= 9 and every generalised Mycielskian with at least two levels plus apex (in particular the classical Mycielskian), the result is not biplanar.
+
+Sources: SRC-0011, SRC-0020, SRC-0036
+
+S047 O3: a 9-critical subgraph H (h vertices, e >= (70h-54)/16 by Kostochka-Yancey) gives M_r(H) with (2r+1)e+h edges on (r+1)h+1 vertices, exceeding 6n-12 since 44rh-10h-108r+42 > 0. Mechanically checked ranges in scripts/s047_checks.py. The one-level case (cone) is the S041/S042 apex route.
+
+## CLM-0155 — PROGRAMME_PROVED
+
+A 10-critical biplanar graph on n vertices has ceil((88n-70)/18) <= m <= 6n-12.
+
+Sources: SRC-0011, SRC-0020
+
+S047 O2: Kostochka-Yancey (k=10) plus Euler. Sharpens the 9n/2 bound used in S046 as a filter; checked for n<=5000.
+
+## CLM-0156 — COMPUTED_EXACT
+
+The 10-chromatic Schrijver graphs SG(10,1)=K10, SG(12,2) (54 vertices, 999 edges) and SG(14,3) (210 vertices, 10353 edges) are not biplanar (K9 subgraph, respectively more than 6n-12 edges).
+
+Sources: SRC-0075
+
+S047 O4, recomputed in scripts/s047_checks.py. Larger k informally denser; recorded for k<=3 only. The zig-zag theorem (SRC-0074) forces only K5,5, which is biplanar.
+
+## CLM-0157 — COMPUTED_EXACT
+
+S047 seeded-extension computations: biplanarity-filtered non-9-colourability CNFs for K6 v C5 plus t vertices are UNSAT with drat-trim-verified DRAT for t=1..4 (eager, E2) and t=5 (CEGAR with proved minimality/symmetry restrictions, A1); E2 t=5 (300 s) and A1 t=6 (240 s, 6189 learned colourings) are CAPPED_UNKNOWN; A1 t=7..12 NOT_RUN.
+
+Sources: None; programme proof/computation.
+
+validation/S047/{E2_LADDER,A1_LADDER,CONTROLS,A1_CONTROLS}.json; python scripts/s047_checks.py [--native]. Not-found/capped rows are UNKNOWN, never non-existence.
